@@ -1,0 +1,484 @@
+{
+  "total": 1899,
+  "limit": 10,
+  "offset": 20,
+  "count": 10,
+  "results": [
+    {
+      "id": 26,
+      "name": "Dumbbell Row Bilateral",
+      "primary_muscles": [
+        "Traps (mid-back)",
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": [],
+      "mechanic": null,
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+        "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+        "Let your arms hang freely, and then pull your elbow joint straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Dumbbells-dumbbell-row-bilateral-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Dumbbells-dumbbell-row-bilateral-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Dumbbells-dumbbell-row-bilateral-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Dumbbells-dumbbell-row-bilateral-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Dumbbells-dumbbell-row-bilateral-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Dumbbells-dumbbell-row-bilateral-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Dumbbells-dumbbell-row-bilateral-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Dumbbells-dumbbell-row-bilateral-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/26?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/26?gender=female"
+    },
+    {
+      "id": 27,
+      "name": "Barbell Stiff Leg Deadlifts",
+      "primary_muscles": [
+        "Glutes",
+        "Gluteus Maximus",
+        "Hamstrings",
+        "Lateral Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "Pull",
+      "grips": [
+        "Overhand",
+        "Mixed"
+      ],
+      "mechanic": "Compound",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with a barbell at your shins with your feet shoulder width apart.",
+        "Bend forward at your hips and keep your knees as fully extended as possible.",
+        "Grab the barbell and then extend your hips while maintaining a straight back.",
+        "From the standing position, lower the weight in a controlled manner.",
+        "You can either lower the weight to the floor or before you touch the floor, depending on your mobility."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-barbell-stiff-leg-deadlift-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-barbell-stiff-leg-deadlift-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-barbell-stiff-leg-deadlift-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-barbell-stiff-leg-deadlift-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-barbell-stiff-leg-deadlift-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-barbell-stiff-leg-deadlift-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-barbell-stiff-leg-deadlift-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-barbell-stiff-leg-deadlift-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/27?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/27?gender=female"
+    },
+    {
+      "id": 28,
+      "name": "Machine Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "Pull",
+      "grips": [
+        "None"
+      ],
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay down on the machine, placing your legs beneath the padded lever. Position your legs so that the padded lever is below your calve muscles.",
+        "Support yourself by grabbing the side handles of the machine, and slowly raise the weight with your legs, toes pointed straight.",
+        "Pause at the apex of the motion, then slowly return to starting position."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-hamstring-curl-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-hamstring-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-hamstring-curl-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-hamstring-curl-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-hamstring-curl-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-hamstring-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-hamstring-curl-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-hamstring-curl-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/28?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/28?gender=female"
+    },
+    {
+      "id": 29,
+      "name": "Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": [],
+      "mechanic": null,
+      "difficulty": "Novice",
+      "steps": [
+        "Lie down with your knees bent and your feet flat on the floor.",
+        "Push your hips up so that your butt is elevated and your back straight.",
+        "Tense your glutes and raise your hips towards the ceiling.",
+        "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position"
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Bodyweight-glute-bridge-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Bodyweight-glute-bridge-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Bodyweight-glute-bridge-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Bodyweight-glute-bridge-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Bodyweight-glute-bridge-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Bodyweight-glute-bridge-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Bodyweight-glute-bridge-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Bodyweight-glute-bridge-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/29?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/29?gender=female"
+    },
+    {
+      "id": 30,
+      "name": "Barbell Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Barbell",
+      "force": "Push",
+      "grips": [
+        "Overhand",
+        "Underhand",
+        "Mixed"
+      ],
+      "mechanic": "Compound",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the ground with a bench behind you. Have the barbell over your legs just above your hips.",
+        "Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.",
+        "Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.",
+        "Slowly extend as far as you can, and then slowly return to the starting position."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Barbell-barbell-hip-thrust-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Barbell-barbell-hip-thrust-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Barbell-barbell-hip-thrust-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Barbell-barbell-hip-thrust-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Barbell-barbell-hip-thrust-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Barbell-barbell-hip-thrust-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Barbell-barbell-hip-thrust-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Barbell-barbell-hip-thrust-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/30?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/30?gender=female"
+    },
+    {
+      "id": 31,
+      "name": "Barbell Behind The Back Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": [],
+      "mechanic": null,
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand straight and hold the barbell behind you using a pronated grip with your hands and feet shoulder-width apart.",
+        "Slowly curl your wrists in a semi-circular motion upwards.",
+        "Hold the barbell at the apex of the motion and then slowly lower the barbell back down to starting position."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-barbell-behind-the-back-wrist-curl-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-barbell-behind-the-back-wrist-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-barbell-behind-the-back-wrist-curl-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-barbell-behind-the-back-wrist-curl-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-barbell-behind-the-back-wrist-curl-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-barbell-behind-the-back-wrist-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-barbell-behind-the-back-wrist-curl-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-barbell-behind-the-back-wrist-curl-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/31?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/31?gender=female"
+    },
+    {
+      "id": 32,
+      "name": "Dumbbell Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Dumbbells",
+      "force": "Pull",
+      "grips": [
+        "Underhand"
+      ],
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Grip the dumbbell with your palm facing upwards with your forearm rested against the bench.",
+        "Slowly curl your wrist upwards in a semicircular motion.",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Dumbbells-dumbbell-wrist-curl-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Dumbbells-dumbbell-wrist-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-Dumbbells-dumbbell-wrist-curl-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-Dumbbells-dumbbell-wrist-curl-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Dumbbells-dumbbell-wrist-curl-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Dumbbells-dumbbell-wrist-curl-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-Dumbbells-dumbbell-wrist-curl-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-Dumbbells-dumbbell-wrist-curl-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/32?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/32?gender=female"
+    },
+    {
+      "id": 33,
+      "name": "Machine Standing Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "Push",
+      "grips": [
+        "None"
+      ],
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the machine in accordance with your height and place your shoulders underneath the padded lever.",
+        "The balls of your feet should be supporting your weight on the calve block, your heels extending off of it.",
+        "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+        "Slowly return to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-standing-calf-raises-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-standing-calf-raises-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-standing-calf-raises-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-standing-calf-raises-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-standing-calf-raises-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-standing-calf-raises-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-standing-calf-raises-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-standing-calf-raises-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/33?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/33?gender=female"
+    },
+    {
+      "id": 34,
+      "name": "Machine Seated Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "Push",
+      "grips": [
+        "None"
+      ],
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Get comfortable on the machine, then place your lower thighs beneath the padded lever. Place your toes and the balls of your feet onto the foot supports.",
+        "Prevent the weight from slipping forward by gripping the handles, and release the safety bar. Lower the weight until your calves are extended.",
+        "Push your heels up to lift the padded lever and hold the contracted position, then slowly lower back down to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-seated-calf-raise-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-seated-calf-raise-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-machine-seated-calf-raise-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-machine-seated-calf-raise-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-seated-calf-raise-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-seated-calf-raise-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-machine-seated-calf-raise-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-machine-seated-calf-raise-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/34?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/34?gender=female"
+    },
+    {
+      "id": 35,
+      "name": "Crunches",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Bodyweight",
+      "force": "Push",
+      "grips": [
+        "None"
+      ],
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on your back with your knees bent and your feet flat on the ground, about a foot from your lower back.",
+        "Place your fingertips on your temples with your palms facing out.",
+        "Draw your belly into the base of your spine to engage the muscles, then raise your head and shoulders off the floor. Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-bodyweight-crunch-front.mp4",
+          "angle": "front",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-bodyweight-crunch-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/male-bodyweight-crunch-side.mp4",
+          "angle": "side",
+          "gender": "male",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-male-bodyweight-crunch-side.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-bodyweight-crunch-front.mp4",
+          "angle": "front",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-bodyweight-crunch-front.jpg"
+        },
+        {
+          "url": "https://api.musclewiki.com/stream/videos/branded/female-bodyweight-crunch-side.mp4",
+          "angle": "side",
+          "gender": "female",
+          "og_image": "https://api.musclewiki.com/stream/images/og_images/og-female-bodyweight-crunch-side.jpg"
+        }
+      ],
+      "bodymap_male": "https://api.musclewiki.com/stream/images/bodymaps/35?gender=male",
+      "bodymap_female": "https://api.musclewiki.com/stream/images/bodymaps/35?gender=female"
+    }
+  ]
+}

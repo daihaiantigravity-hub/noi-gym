@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
-type EquipmentName =
+export type EquipmentName =
   | "Featured"
   | "Barbell"
   | "Dumbbells"
@@ -25,6 +25,9 @@ type EquipmentName =
 type ExerciseFiltersProps = {
   isMale: boolean;
   onGenderChange: (isMale: boolean) => void;
+  children?: ReactNode;
+  selectedEquipment?: EquipmentName[];
+  onEquipmentChange?: (equipment: EquipmentName[]) => void;
 };
 
 const equipmentItems: EquipmentName[] = [
@@ -233,14 +236,24 @@ function EquipmentOption({
   );
 }
 
-export default function ExerciseFilters({ isMale, onGenderChange }: ExerciseFiltersProps) {
+export default function ExerciseFilters({
+  isMale,
+  onGenderChange,
+  children,
+  selectedEquipment,
+  onEquipmentChange,
+}: ExerciseFiltersProps) {
   const [isEquipmentOpen, setIsEquipmentOpen] = useState(true);
-  const [selectedEquipment, setSelectedEquipment] = useState<EquipmentName[]>(["Featured"]);
+  const [internalSelectedEquipment, setInternalSelectedEquipment] = useState<EquipmentName[]>(["Featured"]);
+  const activeEquipment = selectedEquipment ?? internalSelectedEquipment;
 
   function toggleEquipment(name: EquipmentName) {
-    setSelectedEquipment((current) =>
-      current.includes(name) ? current.filter((item) => item !== name) : [...current, name],
-    );
+    const nextEquipment = activeEquipment.includes(name)
+      ? activeEquipment.filter((item) => item !== name)
+      : [...activeEquipment, name];
+
+    if (selectedEquipment === undefined) setInternalSelectedEquipment(nextEquipment);
+    onEquipmentChange?.(nextEquipment);
   }
 
   return (
@@ -268,6 +281,8 @@ export default function ExerciseFilters({ isMale, onGenderChange }: ExerciseFilt
         </button>
       </div>
 
+      {children}
+
       <div className="exercise-filters__body">
         <div className="exercise-filters__heading">
           <h2>Equipment</h2>
@@ -288,7 +303,7 @@ export default function ExerciseFilters({ isMale, onGenderChange }: ExerciseFilt
               <EquipmentOption
                 key={name}
                 name={name}
-                checked={selectedEquipment.includes(name)}
+                checked={activeEquipment.includes(name)}
                 onChange={() => toggleEquipment(name)}
               />
             ))}

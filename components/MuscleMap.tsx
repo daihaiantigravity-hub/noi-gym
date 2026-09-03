@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState, type MouseEvent as ReactMouseEvent } from "react";
 
 type MuscleMapProps = {
   isMale: boolean;
@@ -8,8 +9,15 @@ type MuscleMapProps = {
 
 type BodyView = "front" | "back";
 
+const muscleSlugByGroup: Record<string, string> = {
+  "front-shoulders": "shoulders",
+  "rear-shoulders": "shoulders",
+  "traps-middle": "traps",
+};
+
 export default function MuscleMap({ isMale }: MuscleMapProps) {
   const bodyType = isMale ? "male" : "female";
+  const router = useRouter();
   const [activeView, setActiveView] = useState<BodyView>("front");
   const [svgMarkup, setSvgMarkup] = useState<{ front: string; back: string } | null>(null);
 
@@ -30,6 +38,22 @@ export default function MuscleMap({ isMale }: MuscleMapProps) {
     };
   }, [bodyType]);
 
+  function handleMuscleClick(event: ReactMouseEvent<HTMLDivElement>) {
+    if (!(event.target instanceof Element)) {
+      return;
+    }
+
+    const muscleGroup = event.target.closest<SVGGElement>("g.bodymap");
+    const groupId = muscleGroup?.id;
+
+    if (!groupId) {
+      return;
+    }
+
+    const muscleSlug = muscleSlugByGroup[groupId] ?? groupId;
+    router.push(`/exercises/${muscleSlug}`);
+  }
+
   const renderFigure = (markup: string | undefined, label: string) => (
     <figure className="muscle-map__figure">
       {markup ? (
@@ -37,6 +61,7 @@ export default function MuscleMap({ isMale }: MuscleMapProps) {
           className="muscle-map__svg"
           role="img"
           aria-label={label}
+          onClick={handleMuscleClick}
           dangerouslySetInnerHTML={{ __html: markup }}
         />
       ) : (

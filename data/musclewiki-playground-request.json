@@ -1,0 +1,17 @@
+{
+  "source": "https://api.musclewiki.com/playground",
+  "proxyEndpoint": "https://api.musclewiki.com/api/playground/execute",
+  "method": "POST",
+  "credentials": "include",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "endpoint": "exercises",
+    "params": {
+      "limit": 10,
+      "offset": 0
+    },
+    "rawKey": "<playground-key-not-saved>"
+  }
+}
