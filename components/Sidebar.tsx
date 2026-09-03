@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 type IconName = "home" | "workouts" | "routines" | "tools" | "articles" | "build";
@@ -8,15 +10,16 @@ type Theme = "light" | "dark";
 type NavigationItem = {
   label: string;
   icon: IconName;
+  href?: string;
 };
 
 const navigationItems: NavigationItem[] = [
-  { label: "Home", icon: "home" },
+  { label: "Home", icon: "home", href: "/" },
   { label: "Workouts", icon: "workouts" },
   { label: "Routines", icon: "routines" },
   { label: "Tools", icon: "tools" },
   { label: "Articles", icon: "articles" },
-  { label: "Build", icon: "build" },
+  { label: "Build", icon: "build", href: "/admin/exercises" },
 ];
 
 function Icon({ name }: { name: IconName }) {
@@ -97,8 +100,9 @@ function MoonIcon() {
 }
 
 export default function Sidebar() {
-  const [activeItem, setActiveItem] = useState("Home");
+  const pathname = usePathname();
   const [theme, setTheme] = useState<Theme>("light");
+  const activeItem = pathname.startsWith("/admin") ? "Build" : pathname.startsWith("/exercises") ? "Workouts" : "Home";
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -113,18 +117,17 @@ export default function Sidebar() {
 
             return (
               <li key={item.label}>
-                <button
-                  className={`sidebar__item${isActive ? " sidebar__item--active" : ""}`}
-                  type="button"
-                  aria-current={isActive ? "page" : undefined}
-                  aria-label={item.label}
-                  onClick={() => setActiveItem(item.label)}
-                >
-                  <Icon name={item.icon} />
-                  <span className="sidebar__tooltip" role="tooltip">
-                    {item.label}
-                  </span>
-                </button>
+                {item.href ? (
+                  <Link className={`sidebar__item${isActive ? " sidebar__item--active" : ""}`} href={item.href} aria-current={isActive ? "page" : undefined} aria-label={item.label}>
+                    <Icon name={item.icon} />
+                    <span className="sidebar__tooltip" role="tooltip">{item.label}</span>
+                  </Link>
+                ) : (
+                  <button className={`sidebar__item${isActive ? " sidebar__item--active" : ""}`} type="button" aria-current={isActive ? "page" : undefined} aria-label={item.label}>
+                    <Icon name={item.icon} />
+                    <span className="sidebar__tooltip" role="tooltip">{item.label}</span>
+                  </button>
+                )}
               </li>
             );
           })}

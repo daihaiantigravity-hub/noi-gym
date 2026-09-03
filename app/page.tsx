@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BodyProfileMap from "@/components/BodyProfileMap";
 
 type IconName =
@@ -362,7 +363,7 @@ export default function Home() {
             <span>Fitness</span>
           </button>
         </div>
-        <button aria-label="Quét" className="health-scan-button" type="button"><Icon name="scan" size={33} /></button>
+        <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={33} /></Link>
       </nav>
     </div>
   );

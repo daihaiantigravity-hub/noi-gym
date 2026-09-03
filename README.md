@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Admin exercise dashboard
+
+The exercise manager lives at `/admin/exercises`. It supports creating, editing, publishing, and importing exercise records from the JSON files in `data/`.
+
+For local preview, the dashboard reads the collected JSON dataset when Supabase is not configured. To enable authentication and persistent CRUD, copy `.env.example` to `.env.local`, add the Supabase values and `ADMIN_EMAILS`, then run the SQL migration in `supabase/migrations/20260903_create_exercises.sql` in the Supabase SQL editor. After that, run `npm run seed:exercises` to import the collected dataset as Draft records.
+
+The Supabase service-role key is server-only and must never use the `NEXT_PUBLIC_` prefix or be exposed to the browser.

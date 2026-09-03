@@ -12,9 +12,14 @@ export type MuscleWikiExercise = {
   name: string;
   primary_muscles?: string[];
   category?: string;
+  force?: string;
+  grips?: string;
+  mechanic?: string;
   difficulty?: string;
   steps?: string[];
   videos?: MuscleWikiVideo[];
+  bodymap_male?: string;
+  bodymap_female?: string;
 };
 
 export type MuscleWikiExerciseResponse = {
