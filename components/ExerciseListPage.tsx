@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import ExerciseFilters, { type EquipmentName } from "./ExerciseFilters";
 import MuscleMap from "./MuscleMap";
-import exerciseData from "@/data/musclewiki-exercises-collected.json";
 import type { MuscleWikiExercise } from "@/lib/musclewiki";
 
 type Exercise = {
@@ -30,7 +29,7 @@ const muscleNameBySlug: Record<string, string> = {
   triceps: "Triceps",
 };
 
-const collectedExercises = exerciseData.results as MuscleWikiExercise[];
+const collectedExercises: MuscleWikiExercise[] = [];
 
 function formatMuscleName(muscle: string) {
   return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");

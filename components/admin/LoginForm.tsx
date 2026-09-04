@@ -12,7 +12,7 @@ export default function LoginForm() {
     <form className="admin-login-form" action={formAction}>
       <label>
         Email admin
-        <input autoComplete="email" name="email" required type="email" />
+        <input autoComplete="email" name="email" required type="email" value='daihai.antigravity@gmail.com' />
       </label>
       <label>
         Mật khẩu

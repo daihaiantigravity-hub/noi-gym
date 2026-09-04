@@ -13,7 +13,11 @@ function getAnonKey() {
 }
 
 function getServiceRoleKey() {
-  return process.env.SUPABASE_SERVICE_ROLE_KEY?.trim() ?? "";
+  return (
+    process.env.SUPABASE_SECRET_KEY?.trim() ??
+    process.env.SUPABASE_SERVICE_ROLE_KEY?.trim() ??
+    ""
+  );
 }
 
 export function isSupabaseConfigured() {
@@ -49,13 +53,27 @@ export async function createSupabaseServerClient() {
 
 export function createSupabaseAdminClient() {
   if (!isDatabaseConfigured()) {
-    throw new Error("Database chưa được cấu hình. Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SERVICE_ROLE_KEY");
+    throw new Error("Database chưa được cấu hình. Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SECRET_KEY");
   }
 
-  return createClient(getSupabaseUrl(), getServiceRoleKey(), {
+  const serviceKey = getServiceRoleKey();
+
+  return createClient(getSupabaseUrl(), serviceKey, {
     auth: {
       autoRefreshToken: false,
       persistSession: false,
     },
+    ...(serviceKey.startsWith("sb_secret_")
+      ? {
+          global: {
+            fetch: async (input: RequestInfo | URL, init?: RequestInit) => {
+              const headers = new Headers(init?.headers);
+              headers.delete("Authorization");
+
+              return fetch(input, { ...init, headers });
+            },
+          },
+        }
+      : {}),
   });
 }

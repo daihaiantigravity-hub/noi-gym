@@ -77,7 +77,7 @@ function mapListItem(row: ExerciseRow): ExerciseListItem {
     status: row.status,
     primaryMuscles: row.primary_muscles ?? [],
     stepsCount: row.steps?.filter(Boolean).length ?? 0,
-    mediaCount: row.media?.filter((item) => Boolean(item.videoUrl || item.posterUrl)).length ?? 0,
+    mediaCount: row.media?.filter((item) => Boolean(item.videoUrl)).length ?? 0,
     updatedAt: row.updated_at,
   };
 }

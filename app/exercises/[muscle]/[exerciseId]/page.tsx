@@ -39,7 +39,7 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
   if (!exercise) notFound();
 
   const steps = exercise.steps.filter(Boolean);
-  const imageCount = Math.max(exercise.media.length, 1);
+  const mediaCount = Math.max(exercise.media.length, 1);
 
   return (
     <main aria-label={`${exercise.name} details`} className="exercise-detail-page">
@@ -52,7 +52,7 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
         </button>
       </header>
 
-      <ExerciseDetailMedia imageCount={imageCount} media={exercise.media} title={exercise.name} />
+      <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={exercise.name} />
 
       <section className="exercise-detail-copy">
         <div className="exercise-detail-copy__heading"><h1>{exercise.name}</h1><span>{exercise.difficulty || "Chưa phân loại"} · {steps.length} steps</span></div>

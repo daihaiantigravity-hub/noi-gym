@@ -1,12 +1,13 @@
 import "server-only";
 
-import sourceData from "@/data/musclewiki-exercises-collected.json";
 import type { MuscleWikiExercise, MuscleWikiVideo } from "@/lib/musclewiki";
 import { EMPTY_EXERCISE_FORM } from "./constants";
 import { slugify } from "./slug";
 import type { ExerciseDifficulty, ExerciseFormValues, ExerciseListItem, ExerciseMediaValue, ExerciseSourceOption, PublicExercise } from "./types";
 
-const collectedExercises = sourceData.results as MuscleWikiExercise[];
+// The original local MuscleWiki datasets are intentionally not bundled anymore.
+// New exercises should be created in the admin dashboard or imported explicitly.
+const collectedExercises: MuscleWikiExercise[] = [];
 const sourceMuscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
   calves: "Calves",
@@ -42,8 +43,9 @@ function normalizeVideo(video: MuscleWikiVideo): ExerciseMediaValue | null {
   return {
     gender: video.gender,
     angle: video.angle,
-    videoUrl: video.url ?? "",
-    posterUrl: video.og_image ?? "",
+    // MuscleWiki URLs are kept in source_snapshot only. New media must be uploaded
+    // to our Supabase Storage bucket from the admin form.
+    videoUrl: "",
   };
 }
 

@@ -4,13 +4,34 @@ import { useActionState, useState } from "react";
 import { saveExerciseAction, type ExerciseActionState } from "@/app/actions/exercises";
 import ExercisePreview from "@/components/admin/ExercisePreview";
 import { EXERCISE_CATEGORIES, EXERCISE_DIFFICULTIES, EXERCISE_FORCES, EXERCISE_GRIPS, EXERCISE_MECHANICS, EXERCISE_MUSCLES, EXERCISE_STATUSES } from "@/lib/exercises/constants";
+import { EXERCISE_VIDEO_TYPES, MAX_EXERCISE_VIDEO_DURATION_SECONDS, MAX_EXERCISE_VIDEO_SIZE } from "@/lib/exercises/media";
 import { slugify } from "@/lib/exercises/slug";
 import type { ExerciseFormValues, ExerciseMediaValue, ExerciseSourceOption } from "@/lib/exercises/types";
 
 const initialActionState: ExerciseActionState = {};
 
+function readVideoDuration(file: File) {
+  return new Promise<number>((resolve, reject) => {
+    const objectUrl = URL.createObjectURL(file);
+    const video = document.createElement("video");
+    video.preload = "metadata";
+    video.onloadedmetadata = () => {
+      const duration = video.duration;
+      URL.revokeObjectURL(objectUrl);
+      video.remove();
+      resolve(duration);
+    };
+    video.onerror = () => {
+      URL.revokeObjectURL(objectUrl);
+      video.remove();
+      reject(new Error("Không thể đọc thời lượng video. Hãy chọn file MP4, WebM hoặc MOV hợp lệ."));
+    };
+    video.src = objectUrl;
+  });
+}
+
 function mediaValue(): ExerciseMediaValue {
-  return { gender: "male", angle: "front", videoUrl: "", posterUrl: "" };
+  return { gender: "male", angle: "front", videoUrl: "" };
 }
 
 export default function ExerciseForm({
@@ -26,6 +47,8 @@ export default function ExerciseForm({
   const [slugEdited, setSlugEdited] = useState(mode === "edit");
   const [sourceLoading, setSourceLoading] = useState(false);
   const [sourceError, setSourceError] = useState("");
+  const [uploadingMediaIndex, setUploadingMediaIndex] = useState<number | null>(null);
+  const [mediaUploadError, setMediaUploadError] = useState("");
   const [state, formAction, pending] = useActionState(saveExerciseAction, initialActionState);
 
   function updateField<K extends keyof typeof values>(field: K, value: (typeof values)[K]) {
@@ -73,11 +96,54 @@ export default function ExerciseForm({
     setValues((current) => ({ ...current, steps: current.steps.length === 1 ? [""] : current.steps.filter((_, stepIndex) => stepIndex !== index) }));
   }
 
-  function updateMedia(index: number, field: keyof ExerciseMediaValue, value: string) {
+  function updateMedia(index: number, field: keyof ExerciseMediaValue, value: string | number) {
     setValues((current) => ({
       ...current,
       media: current.media.map((item, mediaIndex) => mediaIndex === index ? { ...item, [field]: value } : item),
     }));
+  }
+
+  async function handleVideoUpload(index: number, file: File) {
+    setMediaUploadError("");
+    if (!EXERCISE_VIDEO_TYPES.includes(file.type as (typeof EXERCISE_VIDEO_TYPES)[number])) {
+      setMediaUploadError("Chỉ hỗ trợ video MP4, WebM hoặc MOV.");
+      return;
+    }
+    if (file.size > MAX_EXERCISE_VIDEO_SIZE) {
+      setMediaUploadError("Video không được vượt quá 25MB.");
+      return;
+    }
+
+    setUploadingMediaIndex(index);
+    try {
+      const duration = await readVideoDuration(file);
+      if (duration <= 0 || duration > MAX_EXERCISE_VIDEO_DURATION_SECONDS) {
+        throw new Error("Video phải dài hơn 0 và tối đa 15 giây.");
+      }
+
+      const response = await fetch("/api/admin/media", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: file.type, size: file.size, duration }),
+      });
+      const data = (await response.json()) as { error?: string; path?: string; signedUrl?: string; url?: string };
+      if (!response.ok || !data.path || !data.signedUrl || !data.url) throw new Error(data.error || "Không thể tạo phiên upload video");
+
+      const uploadBody = new FormData();
+      uploadBody.append("cacheControl", "31536000");
+      uploadBody.append("", file);
+      const uploadResponse = await fetch(data.signedUrl, { method: "PUT", body: uploadBody });
+      if (!uploadResponse.ok) throw new Error("Không thể lưu video vào Supabase Storage.");
+
+      setValues((current) => ({
+        ...current,
+        media: current.media.map((item, mediaIndex) => mediaIndex === index ? { ...item, videoUrl: data.url ?? "", storagePath: data.path, duration } : item),
+      }));
+    } catch (error) {
+      setMediaUploadError(error instanceof Error ? error.message : "Không thể upload video");
+    } finally {
+      setUploadingMediaIndex(null);
+    }
   }
 
   return (
@@ -146,8 +212,29 @@ export default function ExerciseForm({
           </section>
 
           <section className="admin-panel">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">04 · Media</span><h2>Video và hình đại diện</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("media", [...values.media, mediaValue()])} type="button">+ Thêm media</button></div>
-            {values.media.length > 0 ? <div className="admin-media-list">{values.media.map((media, index) => <div className="admin-media-row" key={`media-${index}`}><div className="admin-two-fields"><label className="admin-field"><span>Gender</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">Male</option><option value="female">Female</option></select></label><label className="admin-field"><span>Angle</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">Front</option><option value="side">Side</option></select></label></div><label className="admin-field admin-field--wide"><span>Video URL</span><input value={media.videoUrl} onChange={(event) => updateMedia(index, "videoUrl", event.target.value)} placeholder="https://…" /></label><label className="admin-field admin-field--wide"><span>Poster URL</span><input value={media.posterUrl} onChange={(event) => updateMedia(index, "posterUrl", event.target.value)} placeholder="https://…" /></label><button className="admin-text-button admin-text-button--danger" onClick={() => updateField("media", values.media.filter((_, mediaIndex) => mediaIndex !== index))} type="button">Xóa media</button></div>)}</div> : <p className="admin-muted">Chưa có media. Có thể bổ sung sau khi tạo bài tập.</p>}
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">04 · Media</span><h2>Video bài tập</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("media", [...values.media, mediaValue()])} type="button">+ Thêm video</button></div>
+            {values.media.length > 0 ? (
+              <div className="admin-media-list">
+                {values.media.map((media, index) => (
+                  <div className="admin-media-row" key={`media-${index}`}>
+                    <div className="admin-two-fields">
+                      <label className="admin-field"><span>Gender</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">Male</option><option value="female">Female</option></select></label>
+                      <label className="admin-field"><span>Angle</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">Front</option><option value="side">Side</option></select></label>
+                    </div>
+                    <label className="admin-field admin-field--wide">
+                      <span>Upload video <em>*</em></span>
+                      <input accept="video/mp4,video/webm,video/quicktime" onChange={(event) => { const file = event.target.files?.[0]; if (file) void handleVideoUpload(index, file); event.currentTarget.value = ""; }} type="file" />
+                      <small>MP4, WebM hoặc MOV · tối đa 25MB · thời lượng không quá 15 giây.</small>
+                    </label>
+                    {media.videoUrl ? <div className="admin-media-video-status"><span>Đã upload video{media.duration ? ` · ${media.duration.toFixed(1)}s` : ""}</span><button className="admin-text-button" onClick={() => { updateMedia(index, "videoUrl", ""); updateMedia(index, "storagePath", ""); updateMedia(index, "duration", 0); }} type="button">Xóa video</button></div> : null}
+                    {uploadingMediaIndex === index ? <small className="admin-media-uploading">Đang kiểm tra và upload video…</small> : null}
+                    {media.videoUrl ? <video className="admin-media-video-preview" autoPlay loop muted playsInline preload="metadata" src={media.videoUrl} /> : null}
+                    <button className="admin-text-button admin-text-button--danger" onClick={() => updateField("media", values.media.filter((_, mediaIndex) => mediaIndex !== index))} type="button">Xóa video</button>
+                  </div>
+                ))}
+              </div>
+            ) : <p className="admin-muted">Chưa có video. Thêm video demo ngắn để hiển thị trực tiếp trên danh sách và trang chi tiết.</p>}
+            {mediaUploadError ? <p className="admin-form-error" role="alert">{mediaUploadError}</p> : null}
           </section>
 
           <section className="admin-panel">

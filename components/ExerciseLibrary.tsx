@@ -34,8 +34,8 @@ function formatMuscleName(muscle: string) {
 }
 
 function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: string }) {
-  const images = Array.from(new Set(exercise.media.map((item) => item.posterUrl).filter(Boolean)));
-  const imageCount = Math.max(images.length, 1);
+  const videos = Array.from(new Set(exercise.media.map((item) => item.videoUrl).filter(Boolean)));
+  const videoCount = Math.max(videos.length, 1);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
   function handlePointerDown(event: PointerEvent<HTMLDivElement>) {
@@ -77,13 +77,13 @@ function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: 
       </header>
       <div className="exercise-library-showcase__media">
         <span className={`exercise-library-showcase__level exercise-library-showcase__level--${(exercise.difficulty || "beginner").toLowerCase()}`}>{exercise.difficulty || "Chưa phân loại"}</span>
-        <div aria-label={`${exercise.name} demonstration images`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={imageCount > 1 ? 0 : -1}>
-          {Array.from({ length: imageCount }, (_, imageIndex) => {
-            const image = images[imageIndex];
-            const thumbnail = fakeExerciseThumbnails[(exercise.id.length + imageIndex) % fakeExerciseThumbnails.length];
+        <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
+          {Array.from({ length: videoCount }, (_, videoIndex) => {
+            const video = videos[videoIndex];
+            const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
-              <div aria-label={`${exercise.name} view ${imageIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${image ? " exercise-library-showcase__real-image" : ""}`} key={`${exercise.id}-${imageIndex}`} role="img" style={image ? { backgroundImage: `url("${image}")` } : undefined}>
-                {!image ? <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></> : null}
+              <div aria-label={`${exercise.name} view ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
+                {video ? <video aria-label={`${exercise.name} video ${videoIndex + 1}`} autoPlay className="exercise-library-showcase__video" loop muted playsInline preload="metadata" src={video} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
           })}

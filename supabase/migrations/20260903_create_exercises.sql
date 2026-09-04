@@ -48,4 +48,22 @@ create policy "Published exercises are public"
 on public.exercises for select
 using (status = 'Published');
 
--- Admin mutations are performed server-side with SUPABASE_SERVICE_ROLE_KEY.
+-- Admin mutations are performed server-side with SUPABASE_SECRET_KEY.
+
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values (
+  'exercise-media',
+  'exercise-media',
+  true,
+  26214400,
+  array['video/mp4', 'video/webm', 'video/quicktime']::text[]
+)
+on conflict (id) do update set
+  public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;
+
+drop policy if exists "Public can read exercise media" on storage.objects;
+create policy "Public can read exercise media"
+on storage.objects for select to public
+using (bucket_id = 'exercise-media');

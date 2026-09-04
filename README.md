@@ -39,6 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 The exercise manager lives at `/admin/exercises`. It supports creating, editing, publishing, and importing exercise records from the JSON files in `data/`.
 
-For local preview, the dashboard reads the collected JSON dataset when Supabase is not configured. To enable authentication and persistent CRUD, copy `.env.example` to `.env.local`, add the Supabase values and `ADMIN_EMAILS`, then run the SQL migration in `supabase/migrations/20260903_create_exercises.sql` in the Supabase SQL editor. After that, run `npm run seed:exercises` to import the collected dataset as Draft records.
+When Supabase is not configured, the dashboard starts with an empty local source list. To enable authentication and persistent CRUD, copy `.env.example` to `.env.local`, add the Supabase values and `ADMIN_EMAILS`, then run `20260903_create_exercises.sql` and `20260904_add_exercise_videos.sql` in order in the Supabase SQL editor. If you have a dataset JSON, place it at `data/musclewiki-exercises-collected.json` and run `npm run seed:exercises` to import it as Draft records.
 
-The Supabase service-role key is server-only and must never use the `NEXT_PUBLIC_` prefix or be exposed to the browser.
+The Supabase secret key is server-only and must never use the `NEXT_PUBLIC_` prefix or be exposed to the browser. The app prefers `SUPABASE_SECRET_KEY` (`sb_secret_...`) and still supports the legacy `SUPABASE_SERVICE_ROLE_KEY` name.
+
+Exercise demo videos are stored in the Supabase Storage bucket `exercise-media`; the exercise record stores the generated public URL, storage path, and duration. The migration creates this bucket with a 25MB limit for MP4, WebM, and MOV files. The admin validates videos at no more than 15 seconds and the public pages play them muted, inline, and on repeat.

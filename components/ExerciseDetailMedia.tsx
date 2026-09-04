@@ -9,9 +9,9 @@ const fakeDetailSlides = [
   { kicker: "MOVE EVERY DAY", title: "MUSCLE", sub: "TRAIN WITH CONTROL", modifier: "exercise-detail-hero--third" },
 ] as const;
 
-export default function ExerciseDetailMedia({ imageCount, title, media = [] }: { imageCount: number; title: string; media?: ExerciseMediaValue[] }) {
-  const realMedia = media.filter((item) => item.videoUrl || item.posterUrl);
-  const slideCount = Math.max(realMedia.length || imageCount, 1);
+export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: { mediaCount: number; title: string; media?: ExerciseMediaValue[] }) {
+  const realMedia = media.filter((item) => item.videoUrl);
+  const slideCount = Math.max(realMedia.length || mediaCount, 1);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
   function handlePointerDown(event: PointerEvent<HTMLDivElement>) {
@@ -46,13 +46,13 @@ export default function ExerciseDetailMedia({ imageCount, title, media = [] }: {
   }
 
   return (
-    <div aria-label={`${title} demonstration images`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
+    <div aria-label={`${title} demonstration videos`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
       {Array.from({ length: slideCount }, (_, index) => {
         const slide = fakeDetailSlides[index % fakeDetailSlides.length];
         const selectedMedia = realMedia[index];
         return (
           <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
-            {selectedMedia?.videoUrl ? <video className="exercise-detail-hero__video" controls playsInline poster={selectedMedia.posterUrl || undefined} src={selectedMedia.videoUrl} /> : selectedMedia?.posterUrl ? <div aria-label={`${title} poster`} className="exercise-detail-hero__image" style={{ backgroundImage: `url("${selectedMedia.posterUrl}")` }} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><strong className="exercise-detail-hero__title">{slide.title}</strong><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+            {selectedMedia?.videoUrl ? <video aria-label={`${title} demonstration video ${index + 1}`} autoPlay className="exercise-detail-hero__video" loop muted playsInline preload="metadata" src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><strong className="exercise-detail-hero__title">{slide.title}</strong><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
           </section>
         );
       })}

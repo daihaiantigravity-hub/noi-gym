@@ -6,24 +6,24 @@ import type { ExerciseFormValues } from "@/lib/exercises/types";
 type PreviewMode = "list" | "detail";
 
 function getPreviewMedia(values: ExerciseFormValues) {
-  return values.media.filter((item) => item.posterUrl || item.videoUrl);
+  return values.media.filter((item) => item.videoUrl);
 }
 
 function PreviewMedia({ values, detail = false }: { values: ExerciseFormValues; detail?: boolean }) {
   const media = getPreviewMedia(values)[0];
-  const posterStyle = media?.posterUrl ? { backgroundImage: `url("${media.posterUrl}")` } : undefined;
 
   return (
-    <div className={`admin-preview-media${detail ? " admin-preview-media--detail" : ""}`} style={posterStyle}>
+    <div className={`admin-preview-media${detail ? " admin-preview-media--detail" : ""}`}>
+      {media?.videoUrl ? <video aria-label="Video demo bài tập" autoPlay className="admin-preview-media__video" loop muted playsInline preload="metadata" src={media.videoUrl} /> : null}
       <div className="admin-preview-media__shade" />
-      {!media?.posterUrl ? (
+      {!media?.videoUrl ? (
         <div className="admin-preview-media__placeholder">
-          <span>{media?.videoUrl ? "VIDEO DEMO" : "NO MEDIA"}</span>
+          <span>NO VIDEO</span>
           <strong>{values.name.trim() || "BÀI TẬP MỚI"}</strong>
         </div>
       ) : null}
       <span className="admin-preview-media__badge">{values.difficulty || "Chưa phân loại"}</span>
-      {media?.videoUrl ? <span className="admin-preview-media__play" aria-label="Có video demo">▶</span> : null}
+      {media?.videoUrl ? <span className="admin-preview-media__play" aria-label="Video đang phát lặp">↻</span> : null}
     </div>
   );
 }

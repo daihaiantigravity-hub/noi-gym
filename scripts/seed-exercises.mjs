@@ -22,15 +22,18 @@ function slugify(value) {
 function normalizeVideo(video) {
   if (!video || !["male", "female"].includes(video.gender) || !["front", "side"].includes(video.angle)) return null;
   if (!video.url && !video.og_image) return null;
-  return { gender: video.gender, angle: video.angle, videoUrl: video.url ?? "", posterUrl: video.og_image ?? "" };
+  return { gender: video.gender, angle: video.angle, videoUrl: "" };
 }
 
 loadLocalEnv();
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
-const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
-if (!url || !key) throw new Error("Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SERVICE_ROLE_KEY trong .env.local");
+const key = process.env.SUPABASE_SECRET_KEY?.trim() || process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
+if (!url || !key) throw new Error("Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SECRET_KEY trong .env.local");
 
 const sourcePath = path.join(projectRoot, "data", "musclewiki-exercises-collected.json");
+if (!fs.existsSync(sourcePath)) {
+  throw new Error("Không tìm thấy data/musclewiki-exercises-collected.json. Hãy thêm dataset JSON trước khi seed.");
+}
 const payload = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
 const exercises = Array.isArray(payload.results) ? payload.results : [];
 const rows = exercises.map((exercise) => ({
@@ -51,7 +54,20 @@ const rows = exercises.map((exercise) => ({
   source_snapshot: exercise,
 }));
 
-const supabase = createClient(url, key, { auth: { autoRefreshToken: false, persistSession: false } });
+const supabase = createClient(url, key, {
+  auth: { autoRefreshToken: false, persistSession: false },
+  ...(key.startsWith("sb_secret_")
+    ? {
+        global: {
+          fetch: async (input, init) => {
+            const headers = new Headers(init?.headers);
+            headers.delete("Authorization");
+            return fetch(input, { ...init, headers });
+          },
+        },
+      }
+    : {}),
+});
 for (let index = 0; index < rows.length; index += 50) {
   const chunk = rows.slice(index, index + 50);
   const { error } = await supabase.from("exercises").upsert(chunk, { onConflict: "source,source_id" });
