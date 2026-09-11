@@ -55,7 +55,7 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
       <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={exercise.name} />
 
       <section className="exercise-detail-copy">
-        <div className="exercise-detail-copy__heading"><h1>{exercise.name}</h1><span>{exercise.difficulty || "Chưa phân loại"} · {steps.length} steps</span></div>
+        <div className="exercise-detail-copy__heading"><h1>{exercise.name}</h1></div>
         <p>{exercise.description || `Hãy thử bài tập ${exercise.name} hàng ngày để duy trì sức khỏe và hoàn thành đúng kỹ thuật.`}</p>
       </section>
 

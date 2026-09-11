@@ -76,7 +76,6 @@ function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: 
         <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`/exercises/${muscle}/${exercise.id}`}>›</Link>
       </header>
       <div className="exercise-library-showcase__media">
-        <span className={`exercise-library-showcase__level exercise-library-showcase__level--${(exercise.difficulty || "beginner").toLowerCase()}`}>{exercise.difficulty || "Chưa phân loại"}</span>
         <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
           {Array.from({ length: videoCount }, (_, videoIndex) => {
             const video = videos[videoIndex];
@@ -89,7 +88,6 @@ function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: 
           })}
         </div>
       </div>
-      <p className="exercise-library-exercise-card__summary">{exercise.difficulty || "Chưa phân loại"} · {exercise.steps.length} steps</p>
       {exercise.steps.length > 0 ? <ol aria-label={`${exercise.name} instructions`} className="exercise-library-exercise-card__steps">{exercise.steps.map((step, index) => <li key={`${exercise.id}-step-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p className="exercise-library-exercise-card__steps-empty">Instructions are not available for this exercise.</p>}
     </article>
   );

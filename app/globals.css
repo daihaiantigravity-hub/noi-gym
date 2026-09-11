@@ -982,10 +982,36 @@
   z-index: -1;
   inset: 0;
   background:
-    radial-gradient(90% 35% at 52% 8%, rgba(212, 117, 219, 0.62), transparent 72%),
-    linear-gradient(155deg, #b68ab2 0%, #b48b9e 40%, #3a2939 78%, #15121b 100%);
+    linear-gradient(155deg, rgba(10, 14, 21, 0.28) 0%, rgba(10, 14, 21, 0.58) 58%, rgba(10, 14, 21, 0.88) 100%),
+    #15121b;
   content: "";
   pointer-events: none;
+}
+
+.exercise-detail-ambient {
+  position: fixed;
+  z-index: -1;
+  inset: -7%;
+  overflow: hidden;
+  background: #15121b;
+  pointer-events: none;
+}
+
+.exercise-detail-ambient__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.76;
+  filter: blur(42px) saturate(145%);
+  object-fit: cover;
+  transform: scale(1.08);
+}
+
+.exercise-detail-ambient::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, rgba(12, 17, 25, 0.22), rgba(12, 17, 25, 0.64) 66%, rgba(12, 17, 25, 0.86));
+  content: "";
 }
 
 .exercise-detail-topbar {
@@ -1345,11 +1371,6 @@
 
   .exercise-library-exercise-card__detail {
     margin-top: 14px;
-  }
-
-  .exercise-library-exercise-card__summary {
-    margin-top: 7px;
-    font-size: 16px;
   }
 
   .exercise-library-exercise-card__steps li p,
@@ -2740,32 +2761,71 @@ button {
 }
 
 .health-category-nav {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  display: flex;
+  align-items: stretch;
+  height: 83px;
   max-width: 980px;
-  min-height: 106px;
+  min-width: 0;
   margin: 0 auto;
-  padding: 4px 10px;
-  border: 2px solid rgba(131, 157, 186, 0.2);
-  border-radius: 999px;
-  background: rgba(12, 33, 62, 0.36);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  padding: 5px;
+  border: 1px solid rgba(117, 142, 165, 0.18);
+  border-radius: 44px;
+  background: rgba(24, 47, 71, 0.94);
+  box-shadow: 0 12px 30px rgba(3, 12, 26, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(22px) saturate(125%);
+  backdrop-filter: blur(22px) saturate(125%);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.health-category-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .health-category-button {
-  display: grid;
+  display: flex;
+  width: 75px;
+  flex: 0 0 75px;
   min-width: 0;
-  place-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
   padding: 0;
-  border-radius: 999px;
-  color: rgba(218, 228, 239, 0.9);
+  border-radius: 40px;
+  color: #c6ccd2;
   background: transparent;
-  transition: background-color 160ms ease, color 160ms ease;
+  line-height: 1;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+.health-equipment-icon {
+  display: block;
+  width: clamp(24px, 2.7vw, 34px);
+  height: clamp(24px, 2.7vw, 34px);
+  overflow: visible;
+  transform-origin: center;
+}
+
+/* The source set uses different viewBox ratios. Keep their visual weight aligned. */
+.health-equipment-icon--featured,
+.health-equipment-icon--barbell,
+.health-equipment-icon--machine,
+.health-equipment-icon--band,
+.health-equipment-icon--bosu-ball {
+  transform: scale(1.25);
+}
+
+.health-equipment-icon--medicine-ball,
+.health-equipment-icon--cardio,
+.health-equipment-icon--smith-machine,
+.health-equipment-icon--recovery {
+  transform: scale(0.78);
 }
 
 .health-category-button--active {
   color: #f0f3f7;
-  background: rgba(92, 112, 141, 0.54);
+  background: rgba(88, 111, 138, 0.62);
 }
 
 .health-category-button:focus-visible,
@@ -2784,10 +2844,6 @@ button {
   max-width: 980px;
   margin: 0 auto;
   padding: 35px clamp(30px, 7.2vw, 74px) 0;
-}
-
-.health-intro {
-  padding: 0 0 50px;
 }
 
 .health-intro h1,
@@ -3286,7 +3342,6 @@ button {
 
 /* Exercise cards reuse the homepage showcase layout. Only the media source is different. */
 .exercise-library-showcase__media {
-  position: relative;
   overflow: hidden;
   border-radius: clamp(24px, 3vw, 34px);
   background: transparent;
@@ -3345,29 +3400,6 @@ button {
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0 1px, transparent 1px 13px);
 }
 
-.exercise-library-showcase__level {
-  position: absolute;
-  z-index: 1;
-  top: 14px;
-  left: 14px;
-  padding: 6px 11px;
-  border-radius: 999px;
-  color: #fff;
-  background: rgba(43, 46, 132, 0.88);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.exercise-library-showcase__level--beginner {
-  background: rgba(32, 124, 87, 0.9);
-}
-
-.exercise-library-showcase__level--advanced {
-  background: rgba(173, 71, 92, 0.9);
-}
-
 .exercise-library-results {
   display: grid;
   gap: 24px;
@@ -3420,13 +3452,6 @@ button {
 
 .exercise-library-exercise-card__detail {
   margin: 0;
-}
-
-.exercise-library-exercise-card__summary {
-  margin: 9px 0 0;
-  color: #aeb1b7;
-  font-size: clamp(17px, 2.3vw, 26px);
-  letter-spacing: -0.035em;
 }
 
 .exercise-library-exercise-card__steps {
@@ -3749,20 +3774,20 @@ button {
 
 @media (max-width: 700px) {
   .health-page {
-    padding-bottom: calc(116px + env(safe-area-inset-bottom));
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
   }
 
   .health-topbar {
-    padding: 22px 18px 12px;
+    padding: 16px 14px 10px;
   }
 
   .health-topbar__row {
-    gap: 8px;
-    margin-bottom: 17px;
+    gap: 6px;
+    margin-bottom: 12px;
   }
 
   .health-brand {
-    font-size: clamp(22px, 7vw, 35px);
+    font-size: clamp(20px, 6.5vw, 29px);
   }
 
   .health-topbar__actions {
@@ -3770,42 +3795,46 @@ button {
   }
 
   .health-icon-button {
-    width: 33px;
-    height: 42px;
+    width: 38px;
+    height: 40px;
   }
 
   .health-avatar {
-    width: 42px;
-    height: 42px;
-    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
   }
 
   .health-category-nav {
-    min-height: 74px;
-    padding: 3px 4px;
+    height: 60px;
+    padding: 4px;
+    border-radius: 34px;
   }
 
-  .health-category-button .health-icon {
-    width: 29px;
-    height: 29px;
+  .health-category-button {
+    width: 75px;
+    flex-basis: 75px;
+    border-radius: 28px;
+  }
+
+  .health-category-button .health-icon,
+  .health-category-button .health-equipment-icon {
+    width: 25px;
+    height: 25px;
   }
 
   .health-content {
-    padding: 24px 18px 0;
-  }
-
-  .health-intro {
-    padding-bottom: 30px;
+    padding: 18px 14px 0;
   }
 
   .health-intro h1 {
-    font-size: 39px;
+    font-size: 32px;
   }
 
   .health-intro p {
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 1.38;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.35;
   }
 
   .health-intro__break {
@@ -3813,149 +3842,149 @@ button {
   }
 
   .health-card h2 {
-    font-size: 23px;
+    font-size: 19px;
   }
 
   .daily-activity-card,
   .weekly-workouts-card,
   .cardio-card {
-    border-radius: 31px;
+    border-radius: 21px;
   }
 
   .daily-activity-card {
-    min-height: 282px;
-    padding: 30px 25px 23px;
+    min-height: 220px;
+    padding: 20px 16px 16px;
   }
 
   .daily-activity-card__body {
-    min-height: 192px;
+    min-height: 150px;
     min-width: 0;
-    gap: 7px;
+    gap: 0;
   }
 
   .activity-metrics {
     min-width: 0;
     flex: 1 1 auto;
-    gap: 15px;
-    padding-top: 11px;
+    gap: 10px;
+    padding-top: 7px;
   }
 
   .activity-metric {
     min-width: 0;
-    gap: 9px;
+    gap: 7px;
   }
 
   .activity-metric__icon {
-    width: 36px;
-    height: 36px;
-    flex-basis: 36px;
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
   }
 
   .activity-metric__icon .health-icon {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
   }
 
   .activity-metric__value {
     min-width: 0;
-    font-size: 31px;
-  }
-
-  .activity-metric__label {
-    font-size: 22px;
-  }
-
-  .heart-rings {
-    width: 145px;
-    margin-right: -9px;
-  }
-
-  .weekly-workouts-card {
-    min-height: 300px;
-    margin-top: 22px;
-    padding: 30px 25px 22px;
-  }
-
-  .quick-activity-card {
-    margin-top: 16px;
-    padding: 14px 12px;
-    border-radius: 25px;
-  }
-
-  .quick-activity-card__items {
-    gap: 12px 14px;
-  }
-
-  .quick-activity-card__item {
-    min-height: 55px;
-    gap: 6px;
-    padding: 8px 10px;
-    font-size: 14px;
-  }
-
-  .quick-activity-card__icon {
-    width: 25px;
-    height: 25px;
-    flex-basis: 25px;
-  }
-
-  .workout-showcase-list {
-    gap: 22px;
-    margin-top: 22px;
-  }
-
-  .workout-showcase {
-    padding: 28px 25px 25px;
-    border-radius: 31px;
-  }
-
-  .workout-showcase__header h2 {
     font-size: 25px;
   }
 
+  .activity-metric__label {
+    font-size: 16px;
+  }
+
+  .heart-rings {
+    width: 116px;
+    margin-right: -5px;
+  }
+
+  .weekly-workouts-card {
+    min-height: 240px;
+    margin-top: 14px;
+    padding: 20px 16px 16px;
+  }
+
+  .quick-activity-card {
+    margin-top: 12px;
+    padding: 10px 9px;
+    border-radius: 18px;
+  }
+
+  .quick-activity-card__items {
+    gap: 8px;
+  }
+
+  .quick-activity-card__item {
+    min-height: 42px;
+    gap: 5px;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  .quick-activity-card__icon {
+    width: 21px;
+    height: 21px;
+    flex-basis: 21px;
+  }
+
+  .workout-showcase-list {
+    gap: 14px;
+    margin-top: 14px;
+  }
+
+  .workout-showcase {
+    padding: 18px 16px 16px;
+    border-radius: 21px;
+  }
+
+  .workout-showcase__header h2 {
+    font-size: 18px;
+  }
+
   .workout-showcase__arrow {
-    width: 34px;
-    height: 34px;
-    flex-basis: 34px;
-    font-size: 36px;
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+    font-size: 32px;
   }
 
   .workout-showcase__track {
-    margin-top: 19px;
-    gap: 14px;
+    margin-top: 13px;
+    gap: 10px;
   }
 
   .workout-showcase__card {
-    flex-basis: 84%;
+    flex-basis: 78%;
   }
 
   .workout-showcase__card h3 {
-    margin-top: 14px;
-    font-size: 21px;
+    margin-top: 10px;
+    font-size: 16px;
   }
 
   .workout-showcase__card p {
-    margin-top: 7px;
-    font-size: 16px;
+    margin-top: 5px;
+    font-size: 12px;
   }
 
   .body-profiles-card {
-    min-height: 100svh;
-    margin-top: 22px;
-    padding: 30px 25px 25px;
-    border-radius: 31px;
+    min-height: 430px;
+    margin-top: 14px;
+    padding: 20px 16px 16px;
+    border-radius: 21px;
   }
 
   .body-profiles-card__header p {
-    margin-top: 8px;
-    font-size: 16px;
+    margin-top: 5px;
+    font-size: 13px;
   }
 
   .body-profiles-card__visuals {
     display: block;
     min-height: 0;
     flex: 1;
-    margin-top: 18px;
+    margin-top: 12px;
   }
 
   .body-profile {
@@ -3978,111 +4007,112 @@ button {
   }
 
   .weekly-workouts-card__dot {
-    top: 28px;
-    right: 25px;
-    width: 15px;
-    height: 15px;
+    top: 20px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
   }
 
   .weekly-workouts-card__body {
-    min-height: 198px;
-    grid-template-columns: minmax(0, 1.04fr) minmax(0, 1fr);
-    gap: 8px;
-  }
-
-  .weekly-workouts-card__stats {
-    gap: 9px;
-  }
-
-  .weekly-workouts-card__stats strong {
-    font-size: 47px;
-  }
-
-  .weekly-workouts-card__stats span {
-    font-size: 20px;
-  }
-
-  .week-chart {
-    padding: 15px 0 2px;
-  }
-
-  .week-chart__bars {
-    min-height: 160px;
+    min-height: 158px;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr);
     gap: 5px;
   }
 
+  .weekly-workouts-card__stats {
+    gap: 6px;
+  }
+
+  .weekly-workouts-card__stats strong {
+    font-size: 35px;
+  }
+
+  .weekly-workouts-card__stats span {
+    font-size: 15px;
+  }
+
+  .week-chart {
+    padding: 10px 0 0;
+  }
+
+  .week-chart__bars {
+    min-height: 125px;
+    gap: 3px;
+  }
+
   .week-chart__column {
-    gap: 12px;
-  }
-
-  .week-chart__bar {
-    width: 19px;
-  }
-
-  .week-chart__day {
-    font-size: 16px;
-  }
-
-  .cardio-card {
-    min-height: 320px;
-    margin-top: 22px;
-    padding: 30px 25px;
-  }
-
-  .cardio-card__copy p {
-    margin-top: 151px;
-    font-size: 21px;
-  }
-
-  .cardio-gauge {
-    top: 38px;
-    right: 29px;
-    width: 123px;
-    height: 123px;
-    border-width: 14px;
-  }
-
-  .cardio-gauge i {
-    top: 30px;
-    left: 59px;
-    height: 39px;
-  }
-
-  .fitness-index-card {
-    min-height: 190px;
-    margin-top: 22px;
-    padding: 29px 25px;
-  }
-
-  .health-bottom-nav {
-    width: calc(100% - 24px);
+    min-width: 10px;
     gap: 7px;
   }
 
+  .week-chart__bar {
+    width: 13px;
+  }
+
+  .week-chart__day {
+    font-size: 12px;
+  }
+
+  .cardio-card {
+    min-height: 240px;
+    margin-top: 14px;
+    padding: 20px 16px;
+  }
+
+  .cardio-card__copy p {
+    margin-top: 104px;
+    font-size: 16px;
+  }
+
+  .cardio-gauge {
+    top: 25px;
+    right: 18px;
+    width: 95px;
+    height: 95px;
+    border-width: 11px;
+  }
+
+  .cardio-gauge i {
+    top: 23px;
+    left: 46px;
+    height: 31px;
+  }
+
+  .fitness-index-card {
+    min-height: 150px;
+    margin-top: 14px;
+    padding: 20px 16px;
+  }
+
+  .health-bottom-nav {
+    width: calc(100% - 16px);
+    gap: 5px;
+  }
+
   .health-bottom-nav__pill {
-    height: 70px;
+    height: 60px;
     padding: 4px;
   }
 
   .health-bottom-nav__item {
     gap: 2px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .health-bottom-nav__item .health-icon {
-    width: 27px;
-    height: 27px;
+    width: 23px;
+    height: 23px;
   }
 
   .health-scan-button {
-    width: 70px;
-    height: 70px;
-    flex-basis: 70px;
+    width: 60px;
+    height: 60px;
+    flex-basis: 60px;
   }
 
   .health-scan-button .health-icon {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
   }
 
   .exercise-library-exercise-card__header {

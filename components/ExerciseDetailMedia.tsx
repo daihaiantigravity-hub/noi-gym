@@ -2,16 +2,18 @@
 
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import type { ExerciseMediaValue } from "@/lib/exercises/types";
+import ExerciseDetailAmbientBackground from "./ExerciseDetailAmbientBackground";
 
 const fakeDetailSlides = [
-  { kicker: "HOME TRAINING 10 MINUTE MIRACLE", title: "BAE HA EUN", sub: "BURN FAT IN 10 MINUTES WITH FULL BODY", modifier: "" },
-  { kicker: "10 MINUTE MIRACLE", title: "FULL BODY", sub: "WORKOUT AT HOME", modifier: "exercise-detail-hero--second" },
-  { kicker: "MOVE EVERY DAY", title: "MUSCLE", sub: "TRAIN WITH CONTROL", modifier: "exercise-detail-hero--third" },
+  { kicker: "HOME TRAINING 10 MINUTE MIRACLE", sub: "BURN FAT IN 10 MINUTES WITH FULL BODY", modifier: "" },
+  { kicker: "10 MINUTE MIRACLE", sub: "WORKOUT AT HOME", modifier: "exercise-detail-hero--second" },
+  { kicker: "MOVE EVERY DAY", sub: "TRAIN WITH CONTROL", modifier: "exercise-detail-hero--third" },
 ] as const;
 
 export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: { mediaCount: number; title: string; media?: ExerciseMediaValue[] }) {
   const realMedia = media.filter((item) => item.videoUrl);
   const slideCount = Math.max(realMedia.length || mediaCount, 1);
+  const primaryVideoRef = useRef<HTMLVideoElement>(null);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
   function handlePointerDown(event: PointerEvent<HTMLDivElement>) {
@@ -46,16 +48,19 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
   }
 
   return (
-    <div aria-label={`${title} demonstration videos`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
-      {Array.from({ length: slideCount }, (_, index) => {
-        const slide = fakeDetailSlides[index % fakeDetailSlides.length];
-        const selectedMedia = realMedia[index];
-        return (
-          <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
-            {selectedMedia?.videoUrl ? <video aria-label={`${title} demonstration video ${index + 1}`} autoPlay className="exercise-detail-hero__video" loop muted playsInline preload="metadata" src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><strong className="exercise-detail-hero__title">{slide.title}</strong><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
-          </section>
-        );
-      })}
-    </div>
+    <>
+      {realMedia.length > 0 ? <ExerciseDetailAmbientBackground videoRef={primaryVideoRef} /> : null}
+      <div aria-label={`${title} demonstration videos`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
+        {Array.from({ length: slideCount }, (_, index) => {
+          const slide = fakeDetailSlides[index % fakeDetailSlides.length];
+          const selectedMedia = realMedia[index];
+          return (
+            <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
+              {selectedMedia?.videoUrl ? <video aria-label={`${title} demonstration video ${index + 1}`} autoPlay className="exercise-detail-hero__video" loop muted playsInline preload="metadata" ref={index === 0 ? primaryVideoRef : undefined} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+            </section>
+          );
+        })}
+      </div>
+    </>
   );
 }

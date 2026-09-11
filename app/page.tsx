@@ -1,5 +1,9 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
+import EquipmentIcon, { type EquipmentIconName } from "@/components/EquipmentIcon";
 
 type IconName =
   | "grid"
@@ -185,13 +189,25 @@ function Metric({ icon, value, label, className }: { icon: IconName; value: stri
   );
 }
 
-const categoryItems: { icon: IconName; label: string; active?: boolean }[] = [
-  { icon: "grid", label: "Dashboard" },
-  { icon: "activity", label: "Activity", active: true },
-  { icon: "moon", label: "Sleep" },
-  { icon: "heart", label: "Health" },
-  { icon: "meditation", label: "Mindfulness" },
-  { icon: "food", label: "Food" },
+const categoryItems: { icon: EquipmentIconName; label: string }[] = [
+  { icon: "featured", label: "Featured" },
+  { icon: "barbell", label: "Barbell" },
+  { icon: "dumbbells", label: "Dumbbells" },
+  { icon: "bodyweight", label: "Bodyweight" },
+  { icon: "machine", label: "Machine" },
+  { icon: "medicine-ball", label: "Medicine Ball" },
+  { icon: "kettlebells", label: "Kettlebells" },
+  { icon: "stretches", label: "Stretches" },
+  { icon: "cables", label: "Cables" },
+  { icon: "band", label: "Band" },
+  { icon: "plate", label: "Plate" },
+  { icon: "trx", label: "TRX" },
+  { icon: "yoga", label: "Yoga" },
+  { icon: "bosu-ball", label: "Bosu Ball" },
+  { icon: "cardio", label: "Cardio" },
+  { icon: "smith-machine", label: "Smith Machine" },
+  { icon: "recovery", label: "Recovery" },
+  { icon: "pilates", label: "Pilates" },
 ];
 
 const weekBars = [
@@ -266,6 +282,8 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
 }
 
 export default function Home() {
+  const [activeCategory, setActiveCategory] = useState<EquipmentIconName>("featured");
+
   return (
     <div className="health-page">
       <header className="health-topbar">
@@ -280,8 +298,16 @@ export default function Home() {
 
         <nav aria-label="Các nhóm sức khỏe" className="health-category-nav">
           {categoryItems.map((item) => (
-            <button aria-label={item.label} className={`health-category-button${item.active ? " health-category-button--active" : ""}`} key={item.label} type="button">
-              <Icon name={item.icon} size={38} />
+            <button
+              aria-label={item.label}
+              aria-pressed={activeCategory === item.icon}
+              className={`health-category-button${activeCategory === item.icon ? " health-category-button--active" : ""}`}
+              key={item.label}
+              onClick={() => setActiveCategory(item.icon)}
+              title={item.label}
+              type="button"
+            >
+              <EquipmentIcon name={item.icon} />
             </button>
           ))}
         </nav>
@@ -293,7 +319,7 @@ export default function Home() {
           <p>The day is slowly coming to an end. It&apos;s time to<br className="health-intro__break" /> reflect on today&apos;s activities.</p>
         </section>
 
-        <section aria-labelledby="daily-activity-title" className="health-card daily-activity-card">
+        {/* <section aria-labelledby="daily-activity-title" className="health-card daily-activity-card">
           <h2 id="daily-activity-title">Daily activity</h2>
           <div className="daily-activity-card__body">
             <div className="activity-metrics">
@@ -303,9 +329,9 @@ export default function Home() {
             </div>
             <HeartRings />
           </div>
-        </section>
+        </section> */}
 
-        <section aria-labelledby="weekly-workouts-title" className="health-card weekly-workouts-card">
+        {/* <section aria-labelledby="weekly-workouts-title" className="health-card weekly-workouts-card">
           <span aria-hidden="true" className="weekly-workouts-card__dot" />
           <h2 id="weekly-workouts-title">Workouts this week</h2>
           <div className="weekly-workouts-card__body">
@@ -325,7 +351,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <BodyProfileMap />
 
