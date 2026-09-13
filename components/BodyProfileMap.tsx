@@ -77,10 +77,13 @@ export default function BodyProfileMap() {
 
   const bodyLabel = activeView === "front" ? "Cơ trước" : "Cơ sau";
   const activeMarkup = svgMarkup?.[activeView];
+  const oppositeView: BodyView = activeView === "front" ? "back" : "front";
+  const oppositeLabel = oppositeView === "front" ? "Cơ trước" : "Cơ sau";
+  const oppositeMarkup = svgMarkup?.[oppositeView];
 
   return (
     <>
-      <section aria-label="Chọn vùng cơ thể" className="health-card quick-activity-card">
+      {/* <section aria-label="Chọn vùng cơ thể" className="health-card quick-activity-card">
         <div className="quick-activity-card__items">
           <button
             aria-label="Hiển thị cơ trước"
@@ -103,17 +106,33 @@ export default function BodyProfileMap() {
             <span>Cơ sau</span>
           </button>
         </div>
-      </section>
+      </section> */}
 
       <section aria-labelledby="body-profiles-title" className="health-card body-profiles-card">
         <div className="body-profiles-card__header">
           <div>
-            <h2 id="body-profiles-title">Body map</h2>
-            <p>{bodyLabel}</p>
+            <h2 id="body-profiles-title">Choose a muscle group</h2>
+            <p>Tap a muscle to explore exercises</p>
           </div>
         </div>
         <div className="body-profiles-card__visuals">
           <figure className="body-profile">
+            <button
+              aria-label={`Chuyển nhanh sang xem ${oppositeLabel}`}
+              className="body-profile__quick-switch"
+              onClick={() => setActiveView(oppositeView)}
+              title={`Chuyển nhanh sang xem ${oppositeLabel}`}
+              type="button"
+            >
+              <div aria-hidden="true" className="body-profile__quick-switch-thumb">
+                {oppositeMarkup ? (
+                  <div dangerouslySetInnerHTML={{ __html: oppositeMarkup }} />
+                ) : (
+                  <div className="body-profile__loading body-profile__quick-switch-loading" />
+                )}
+              </div>
+            </button>
+
             <div className="body-profile__image">
               <div
                 aria-label={`${bodyLabel}. Chọn một nhóm cơ để xem bài tập.`}

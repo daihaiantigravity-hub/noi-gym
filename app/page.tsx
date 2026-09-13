@@ -288,7 +288,7 @@ export default function Home() {
     <div className="health-page">
       <header className="health-topbar">
         <div className="health-topbar__row">
-          <span className="health-brand">Samsung Health</span>
+          <span className="health-brand">444 Health</span>
           <div className="health-topbar__actions">
             <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button>
             <button aria-label="Hồ sơ cá nhân" className="health-avatar" type="button"><span>🧔🏻</span></button>
@@ -315,8 +315,8 @@ export default function Home() {
 
       <main className="health-content">
         <section className="health-intro">
-          <h1>Activity</h1>
-          <p>The day is slowly coming to an end. It&apos;s time to<br className="health-intro__break" /> reflect on today&apos;s activities.</p>
+          <h1>What do you want to train?</h1>
+          <p>Choose a muscle group to explore exercises.</p>
         </section>
 
         {/* <section aria-labelledby="daily-activity-title" className="health-card daily-activity-card">
