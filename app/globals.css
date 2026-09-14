@@ -4086,27 +4086,12 @@ button {
 
 .health-equipment-icon {
   display: block;
-  width: clamp(24px, 2.7vw, 34px);
-  height: clamp(24px, 2.7vw, 34px);
-  overflow: visible;
-  transform-origin: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
-/* The source set uses different viewBox ratios. Keep their visual weight aligned. */
-.health-equipment-icon--featured,
-.health-equipment-icon--barbell,
-.health-equipment-icon--machine,
-.health-equipment-icon--band,
-.health-equipment-icon--bosu-ball {
-  transform: scale(1.25);
-}
-
-.health-equipment-icon--medicine-ball,
-.health-equipment-icon--cardio,
-.health-equipment-icon--smith-machine,
-.health-equipment-icon--recovery {
-  transform: scale(0.78);
-}
 
 .health-category-button--active {
   color: #f0f3f7;
@@ -5251,8 +5236,8 @@ button {
   }
 
   .health-category-button {
-    width: 75px;
-    flex-basis: 75px;
+    width: 64px;
+    flex-basis: 64px;
     border-radius: 28px;
   }
 
