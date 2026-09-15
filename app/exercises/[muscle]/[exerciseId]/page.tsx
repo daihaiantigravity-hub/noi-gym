@@ -25,6 +25,11 @@ function formatMuscleName(muscle: string) {
   return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 }
 
+function getDisplayExerciseName(name: string) {
+  const normalizedName = name.trim().replace(/\s+/g, " ");
+  return normalizedName.replace(/^(.+?)\s+\1$/iu, "$1");
+}
+
 export default async function ExerciseDetailPage({ params }: { params: Promise<{ muscle: string; exerciseId: string }> }) {
   const { muscle, exerciseId } = await params;
   let databaseExercise: PublicExercise | null = null;
@@ -38,11 +43,12 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
   const exercise = databaseExercise ?? getLocalPublicExerciseById(exerciseId);
   if (!exercise) notFound();
 
+  const displayName = getDisplayExerciseName(exercise.name);
   const steps = exercise.steps.filter(Boolean);
   const mediaCount = Math.max(exercise.media.length, 1);
 
   return (
-    <main aria-label={`${exercise.name} details`} className="exercise-detail-page">
+    <main aria-label={`${displayName} details`} className="exercise-detail-page">
       <header className="exercise-detail-topbar">
         <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={`/exercises/${muscle}`}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
@@ -52,11 +58,11 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
         </button>
       </header>
 
-      <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={exercise.name} />
+      <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={displayName} />
 
       <section className="exercise-detail-copy">
-        <div className="exercise-detail-copy__heading"><h1>{exercise.name}</h1></div>
-        <p>{exercise.description || `Hãy thử bài tập ${exercise.name} hàng ngày để duy trì sức khỏe và hoàn thành đúng kỹ thuật.`}</p>
+        <div className="exercise-detail-copy__heading"><h1>{displayName}</h1></div>
+        <p>{exercise.description || `Hãy thử bài tập ${displayName} hàng ngày để duy trì sức khỏe và hoàn thành đúng kỹ thuật.`}</p>
       </section>
 
       <section aria-labelledby="exercise-instructions-title" className="exercise-detail-instructions">

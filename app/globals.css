@@ -1694,6 +1694,8 @@
   inset: 0;
   width: 100%;
   height: 100%;
+  border: 0;
+  border-radius: 0;
   object-fit: cover;
 }
 
@@ -2367,11 +2369,9 @@
   flex: 0 0 84%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  border-radius: clamp(24px, 3vw, 34px);
-  background:
-    radial-gradient(54% 110% at 76% 54%, rgba(102, 38, 255, 0.92), transparent 68%),
-    linear-gradient(116deg, #d400bd 0%, #a600e7 47%, #6000f1 100%);
-  box-shadow: 0 14px 28px rgba(30, 8, 36, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   scroll-snap-align: start;
 }
 
@@ -2540,7 +2540,7 @@
 
 .exercise-detail-instructions ol {
   display: grid;
-  gap: 13px;
+  gap: 14px;
   margin: 17px 0 0;
   padding: 0;
   list-style: none;
@@ -2549,28 +2549,30 @@
 .exercise-detail-instructions li {
   display: flex;
   align-items: flex-start;
-  gap: 11px;
+  gap: 12px;
 }
 
 .exercise-detail-instructions li>span {
-  display: grid;
-  width: 27px;
-  height: 27px;
-  flex: 0 0 27px;
-  place-items: center;
-  border-radius: 50%;
-  color: #fff;
-  background: rgba(115, 58, 130, 0.78);
+  display: block;
+  width: 22px;
+  flex: 0 0 22px;
+  margin-top: 1px;
+  border-radius: 0;
+  color: #929aa5;
+  background: transparent;
   font-size: 12px;
   font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-align: right;
 }
 
 .exercise-detail-instructions li p,
 .exercise-detail-instructions>p {
-  margin: 3px 0 0;
-  color: rgba(255, 255, 255, 0.82);
+  margin: 0;
+  color: #afb6c0;
   font-size: 15px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 @media (max-width: 700px) {
@@ -4085,13 +4087,48 @@ button {
 }
 
 .health-equipment-icon {
+  --health-equipment-icon-scale: 1;
   display: block;
   width: 30px;
   height: 30px;
   flex-shrink: 0;
   overflow: hidden;
+  transform: scale(var(--health-equipment-icon-scale));
+  transform-origin: center;
 }
 
+/* Optical corrections keep the source artwork intact while balancing perceived size. */
+.health-equipment-icon--featured,
+.health-equipment-icon--barbell,
+.health-equipment-icon--machine {
+  --health-equipment-icon-scale: 1.2;
+}
+
+.health-equipment-icon--bodyweight,
+.health-equipment-icon--plate {
+  --health-equipment-icon-scale: 1.06;
+}
+
+.health-equipment-icon--medicine-ball {
+  --health-equipment-icon-scale: 0.88;
+}
+
+.health-equipment-icon--dumbbells,
+.health-equipment-icon--kettlebells,
+.health-equipment-icon--cardio,
+.health-equipment-icon--smith-machine,
+.health-equipment-icon--recovery {
+  --health-equipment-icon-scale: 0.95;
+}
+
+.health-equipment-icon--band,
+.health-equipment-icon--bosu-ball {
+  --health-equipment-icon-scale: 1.2;
+}
+
+.health-equipment-icon--trx {
+  --health-equipment-icon-scale: 1.06;
+}
 
 .health-category-button--active {
   color: #f0f3f7;
@@ -4145,6 +4182,11 @@ button {
   overflow: hidden;
   border-radius: clamp(30px, 4vw, 48px);
   box-shadow: 0 20px 48px rgba(4, 9, 20, 0.13);
+}
+
+.health-card.exercise-library-exercise-card {
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .health-card h2 {
@@ -4678,23 +4720,24 @@ button {
 
 /* Exercise cards reuse the homepage showcase layout. Only the media source is different. */
 .exercise-library-showcase__media {
+  width: 100%;
   overflow: hidden;
-  border-radius: clamp(24px, 3vw, 34px);
+  border-radius: 0;
   background: transparent;
 }
 
 .exercise-library-showcase__media-track {
   display: flex;
+  flex-direction: column;
   width: 100%;
   min-width: 0;
   gap: clamp(16px, 2.2vw, 26px);
-  overflow-x: auto;
-  padding-bottom: 3px;
+  overflow: visible;
+  padding-bottom: 0;
   scrollbar-width: none;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  cursor: grab;
-  touch-action: pan-x;
+  scroll-snap-type: none;
+  cursor: default;
+  touch-action: pan-y;
 }
 
 .exercise-library-showcase__media-track::-webkit-scrollbar {
@@ -4708,11 +4751,12 @@ button {
 }
 
 .exercise-library-showcase__fake-image {
-  width: min(74%, 650px);
-  min-width: min(74%, 650px);
-  flex: 0 0 min(74%, 650px);
+  width: 100%;
+  min-width: 100%;
+  flex: 0 0 auto;
   aspect-ratio: 16 / 9;
-  scroll-snap-align: start;
+  border-radius: 0;
+  scroll-snap-align: none;
 }
 
 .exercise-library-showcase__real-video {
@@ -4723,6 +4767,7 @@ button {
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 0;
   object-fit: cover;
 }
 
@@ -4795,13 +4840,20 @@ button {
 }
 
 .exercise-library-exercise-card__detail {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
   margin: 0;
+  padding: 0;
+  place-items: center;
+  font-size: 28px;
+  line-height: 1;
 }
 
 .exercise-library-exercise-card__steps {
   display: grid;
-  gap: 12px;
-  margin: 22px 0 0;
+  gap: 14px;
+  margin: 20px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -4813,24 +4865,26 @@ button {
 }
 
 .exercise-library-exercise-card__steps li>span {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
-  place-items: center;
-  border-radius: 50%;
-  color: #fff;
-  background: #343794;
+  display: block;
+  width: 22px;
+  flex: 0 0 22px;
+  margin-top: 1px;
+  border-radius: 0;
+  color: #929aa5;
+  background: transparent;
   font-size: 12px;
   font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-align: right;
 }
 
 .exercise-library-exercise-card__steps li p,
 .exercise-library-exercise-card__steps-empty {
-  margin: 4px 0 0;
-  color: #c4c9d0;
-  font-size: 16px;
-  line-height: 1.46;
+  margin: 0;
+  color: #afb6c0;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .exercise-library-exercise-card__steps-empty {
@@ -5552,7 +5606,7 @@ button {
 
   .exercise-library-exercise-card__header {
     gap: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
   }
 
   .exercise-library-exercise-card__header h2 {
@@ -5562,11 +5616,11 @@ button {
   }
 
   .exercise-library-exercise-card__detail {
-    width: 34px;
-    height: 34px;
-    flex-basis: 34px;
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
     margin: 0;
-    font-size: 36px;
+    font-size: 26px;
   }
 
   .exercise-library-showcase__media-track {
@@ -5574,9 +5628,9 @@ button {
   }
 
   .exercise-library-showcase__fake-image {
-    width: 84%;
-    min-width: 84%;
-    flex-basis: 84%;
+    width: 100%;
+    min-width: 100%;
+    flex-basis: auto;
   }
 
   .exercise-detail-hero-track {
