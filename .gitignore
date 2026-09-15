@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+# local headed migration browser profile
+/scripts/migration/browser-profile/
+
 # next.js
 /.next/
 /out/

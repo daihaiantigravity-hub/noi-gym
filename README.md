@@ -44,3 +44,23 @@ When Supabase is not configured, the dashboard starts with an empty local source
 The Supabase secret key is server-only and must never use the `NEXT_PUBLIC_` prefix or be exposed to the browser. The app prefers `SUPABASE_SECRET_KEY` (`sb_secret_...`) and still supports the legacy `SUPABASE_SERVICE_ROLE_KEY` name. For the public key, use `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`; the older `NEXT_PUBLIC_SUPABASE_ANON_KEY` name is also supported.
 
 Exercise demo videos are stored in the Supabase Storage bucket `exercise-media`; the exercise record stores the generated public URL, storage path, and duration. The migration creates this bucket with a 25MB limit for MP4, WebM, and MOV files. The admin validates videos at no more than 15 seconds and the public pages play them muted, inline, and on repeat.
+
+## MuscleWiki migration scraper
+
+The Playwright scraper for all paginated dumbbell biceps exercises writes `scripts/migration/data/musclewiki-biceps-dumbbells.json` and keeps resumable state in the adjacent `.checkpoint.json` file:
+
+```bash
+npm run migrate:musclewiki:biceps-dumbbells
+```
+
+For a visible browser with a persistent profile, run:
+
+```bash
+npm run migrate:musclewiki:biceps-dumbbells:browser
+```
+
+The browser profile is stored in `scripts/migration/browser-profile/musclewiki/` and is ignored by Git. If MuscleWiki presents a challenge or no exercise cards, the browser stays open and the scraper periodically checks for manual verification; it never interacts with the challenge. Use `--fresh` to discard those two exact data/checkpoint files and start over.
+
+### Manual DOM capture
+
+When MuscleWiki blocks repeated automated browsing, browse the desired listing page manually in normal Chrome, open DevTools Console, and paste `scripts/migration/musclewiki-dom-extract.js`. This diagnostic extractor reads only the currently rendered DOM, never navigates or makes network requests, prints candidate containers and media elements, and copies the resulting JSON to the clipboard with `copy(...)`. It does not open detail pages; run it once per manually opened listing page and combine the copied `exercises` arrays if the source has multiple pages.

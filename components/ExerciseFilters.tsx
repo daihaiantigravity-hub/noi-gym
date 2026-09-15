@@ -1,26 +1,9 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 
-export type EquipmentName =
-  | "Featured"
-  | "Barbell"
-  | "Dumbbells"
-  | "Bodyweight"
-  | "Machine"
-  | "Medicine Ball"
-  | "Kettlebells"
-  | "Stretches"
-  | "Cables"
-  | "Band"
-  | "Plate"
-  | "TRX"
-  | "Yoga"
-  | "Bosu Ball"
-  | "Cardio"
-  | "Smith Machine"
-  | "Recovery"
-  | "Pilates";
+export type EquipmentName = typeof HEALTH_CATEGORY_ITEMS[number]["label"];
 
 type ExerciseFiltersProps = {
   isMale: boolean;
@@ -30,26 +13,7 @@ type ExerciseFiltersProps = {
   onEquipmentChange?: (equipment: EquipmentName[]) => void;
 };
 
-const equipmentItems: EquipmentName[] = [
-  "Featured",
-  "Barbell",
-  "Dumbbells",
-  "Bodyweight",
-  "Machine",
-  "Medicine Ball",
-  "Kettlebells",
-  "Stretches",
-  "Cables",
-  "Band",
-  "Plate",
-  "TRX",
-  "Yoga",
-  "Bosu Ball",
-  "Cardio",
-  "Smith Machine",
-  "Recovery",
-  "Pilates",
-];
+const equipmentItems: EquipmentName[] = HEALTH_CATEGORY_ITEMS.map((item) => item.label);
 
 function GenderIcon({ female = false }: { female?: boolean }) {
   return (

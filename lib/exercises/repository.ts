@@ -88,7 +88,7 @@ function toDatabaseRow(input: ValidatedExerciseInput) {
     source_id: input.sourceId,
     name: input.name,
     slug: input.slug,
-    description: input.description || null,
+    description: input.description,
     primary_muscles: input.primaryMuscles,
     category: input.category,
     force: input.force || null,

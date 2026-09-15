@@ -12,6 +12,7 @@ export default async function NewExercisePage({ searchParams }: { searchParams: 
     <main className="admin-page admin-editor-page">
       <header className="admin-page-header admin-page-header--editor">
         <div><Link className="admin-back-link" href="/admin/exercises">← Quay lại danh sách</Link><span className="admin-eyebrow">BUILD · NEW EXERCISE</span><h1>Tạo bài tập</h1><p className="admin-muted">Điền thông tin thủ công hoặc prefill từ dữ liệu MuscleWiki.</p></div>
+        <div className="admin-header-actions"><Link className="admin-button" href="/">Về giao diện người dùng</Link></div>
       </header>
       <ExerciseForm initialValues={sourceExercise ?? EMPTY_EXERCISE_FORM} mode="create" sourceOptions={getSourceExerciseOptions()} />
     </main>

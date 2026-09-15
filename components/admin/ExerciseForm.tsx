@@ -164,12 +164,8 @@ export default function ExerciseForm({
             </label>
             <label className="admin-field admin-field--wide">
               <span>Slug <em>*</em></span>
-              <input required value={values.slug} onChange={(event) => { setSlugEdited(true); updateField("slug", event.target.value); }} />
-              <small>Dùng cho URL và nhận diện duy nhất bài tập.</small>
-            </label>
-            <label className="admin-field admin-field--wide">
-              <span>Mô tả</span>
-              <textarea rows={4} value={values.description} onChange={(event) => updateField("description", event.target.value)} />
+              <input aria-readonly={mode === "create"} readOnly={mode === "create"} required value={values.slug} onChange={(event) => { if (mode === "edit") { setSlugEdited(true); updateField("slug", event.target.value); } }} />
+              <small>{mode === "create" ? "Tự động tạo từ tên bài tập theo dạng ten-bai-tap." : "Dùng cho URL và nhận diện duy nhất bài tập."}</small>
             </label>
             <div className="admin-field admin-field--wide">
               <span>Nhóm cơ chính <em>*</em></span>

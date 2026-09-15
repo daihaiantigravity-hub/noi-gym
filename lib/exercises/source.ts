@@ -10,6 +10,7 @@ import type { ExerciseDifficulty, ExerciseFormValues, ExerciseListItem, Exercise
 const collectedExercises: MuscleWikiExercise[] = [];
 const sourceMuscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
+  biceps: "Biceps",
   calves: "Calves",
   chest: "Chest",
   glutes: "Glutes",
@@ -24,7 +25,8 @@ const sourceMuscleNameBySlug: Record<string, string> = {
 };
 
 export function getSourceMuscleName(muscle: string) {
-  return sourceMuscleNameBySlug[muscle] ?? muscle;
+  const normalizedMuscle = muscle.trim().toLowerCase();
+  return sourceMuscleNameBySlug[normalizedMuscle] ?? muscle;
 }
 
 function normalizeDifficulty(value: string | undefined): ExerciseDifficulty | "" {

@@ -3,6 +3,7 @@ import { fetchMuscleWikiExercises } from "@/lib/musclewiki";
 
 const muscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
+  biceps: "Biceps",
   calves: "Calves",
   chest: "Chest",
   glutes: "Glutes",

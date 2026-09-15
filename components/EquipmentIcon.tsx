@@ -1,22 +1,6 @@
-export type EquipmentIconName =
-  | "featured"
-  | "barbell"
-  | "dumbbells"
-  | "bodyweight"
-  | "machine"
-  | "medicine-ball"
-  | "kettlebells"
-  | "stretches"
-  | "cables"
-  | "band"
-  | "plate"
-  | "trx"
-  | "yoga"
-  | "bosu-ball"
-  | "cardio"
-  | "smith-machine"
-  | "recovery"
-  | "pilates";
+import type { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+
+export type EquipmentIconName = typeof HEALTH_CATEGORY_ITEMS[number]["icon"];
 
 type EquipmentIconDefinition = {
   viewBox: string;

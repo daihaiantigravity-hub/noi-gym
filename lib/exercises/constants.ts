@@ -9,16 +9,35 @@ import type {
   ExerciseStatus,
 } from "./types";
 
-export const EXERCISE_CATEGORIES = [
-  "Band",
-  "Barbell",
-  "Bodyweight",
-  "Cables",
-  "Dumbbells",
-  "Kettlebells",
-  "Machine",
-  "Stretches",
+export const EXERCISE_CATEGORY_ITEMS = [
+  { icon: "barbell", label: "Barbell" },
+  { icon: "dumbbells", label: "Dumbbells" },
+  { icon: "bodyweight", label: "Bodyweight" },
+  { icon: "machine", label: "Machine" },
+  { icon: "medicine-ball", label: "Medicine Ball" },
+  { icon: "kettlebells", label: "Kettlebells" },
+  { icon: "stretches", label: "Stretches" },
+  { icon: "cables", label: "Cables" },
+  { icon: "band", label: "Band" },
+  { icon: "plate", label: "Plate" },
+  { icon: "trx", label: "TRX" },
+  { icon: "yoga", label: "Yoga" },
+  { icon: "bosu-ball", label: "Bosu Ball" },
+  { icon: "cardio", label: "Cardio" },
+  { icon: "smith-machine", label: "Smith Machine" },
+  { icon: "recovery", label: "Recovery" },
+  { icon: "pilates", label: "Pilates" },
 ] as const;
+
+export const HEALTH_CATEGORY_ITEMS = [
+  { icon: "featured", label: "Featured" },
+  ...EXERCISE_CATEGORY_ITEMS,
+] as const;
+
+export const EXERCISE_CATEGORIES = EXERCISE_CATEGORY_ITEMS.map((item) => item.label) as [
+  (typeof EXERCISE_CATEGORY_ITEMS)[number]["label"],
+  ...(typeof EXERCISE_CATEGORY_ITEMS)[number]["label"][],
+];
 
 export const EXERCISE_MUSCLES = [
   "Abdominals",

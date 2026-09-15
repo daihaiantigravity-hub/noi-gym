@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import EquipmentIcon, { type EquipmentIconName } from "@/components/EquipmentIcon";
+import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 
 type IconName =
   | "grid"
@@ -189,27 +190,6 @@ function Metric({ icon, value, label, className }: { icon: IconName; value: stri
   );
 }
 
-const categoryItems: { icon: EquipmentIconName; label: string }[] = [
-  { icon: "featured", label: "Featured" },
-  { icon: "barbell", label: "Barbell" },
-  { icon: "dumbbells", label: "Dumbbells" },
-  { icon: "bodyweight", label: "Bodyweight" },
-  { icon: "machine", label: "Machine" },
-  { icon: "medicine-ball", label: "Medicine Ball" },
-  { icon: "kettlebells", label: "Kettlebells" },
-  { icon: "stretches", label: "Stretches" },
-  { icon: "cables", label: "Cables" },
-  { icon: "band", label: "Band" },
-  { icon: "plate", label: "Plate" },
-  { icon: "trx", label: "TRX" },
-  { icon: "yoga", label: "Yoga" },
-  { icon: "bosu-ball", label: "Bosu Ball" },
-  { icon: "cardio", label: "Cardio" },
-  { icon: "smith-machine", label: "Smith Machine" },
-  { icon: "recovery", label: "Recovery" },
-  { icon: "pilates", label: "Pilates" },
-];
-
 const weekBars = [
   { day: "M", height: "88%" },
   { day: "T", height: "88%" },
@@ -297,7 +277,7 @@ export default function Home() {
         </div>
 
         <nav aria-label="Các nhóm sức khỏe" className="health-category-nav">
-          {categoryItems.map((item) => (
+          {HEALTH_CATEGORY_ITEMS.map((item) => (
             <button
               aria-label={item.label}
               aria-pressed={activeCategory === item.icon}

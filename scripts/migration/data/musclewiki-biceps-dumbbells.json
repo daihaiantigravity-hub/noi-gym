@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dumbbell Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-curl",
+    "difficulty": "Novice",
+    "instructions": [
+      "Exercises",
+      "/Biceps",
+      "/Dumbbell Curl"
+    ],
+    "images": [
+      "https://musclewiki.com/api-next/images/og-male-Dumbbells-dumbbell-curl-front.jpg",
+      "https://go.ezodn.com/utilcave_com/ezoic.png",
+      "https://musclewiki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqr_code.29dbeydmxn82y.png&w=384&q=75",
+      "https://musclewiki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqr_code.29dbeydmxn82y.png&w=256&q=75"
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": "Pull",
+    "grip": "Underhand",
+    "mechanic": "Isolation"
+  }
+]
