@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/rear-shoulders/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/rear-shoulders/yoga",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/rear-shoulders/yoga/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Puppy Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/puppy-pose",
+      "cardText": "Puppy Pose\nBeginner\n1\nBegin in a tabletop position with your hands and knees on the ground.\n2\nWalk your hands forward as you lower your chest towards the ground.\n3\nKeep your hips over your knees and extend your arms out in front of you.\n4\nHold for a few breaths and then release.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-puppy-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-puppy-pose-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

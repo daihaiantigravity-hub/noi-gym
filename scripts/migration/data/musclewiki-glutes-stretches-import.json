@@ -1,0 +1,102 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 211860928727118,
+      "name": "Glutes Stretch Variation One",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "On your front, place one leg forward and then stretch out the same side arm across the mat/floor.",
+        "Fully extend your leg and arm.",
+        "Hold at the peak of the stretch, then slowly return to starting position.",
+        "Switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glutes-stretch-variation-one"
+    },
+    {
+      "id": 129155497990545,
+      "name": "Glutes Stretch Variation Two",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the ground and lay one leg flat and the other over the top.",
+        "Hold your leg with the same side arm and slowly rotate your hips and back.",
+        "Hold at the peak of the stretch, then slowly return to starting position.",
+        "Switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glutes-stretch-variation-two"
+    },
+    {
+      "id": 211403545163251,
+      "name": "Glutes Stretch Variation Three",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat and bring your left leg to",
+        "degrees.",
+        "Hold your left leg with both hands and slowly rotate your hips to the right hand side.",
+        "Hold at the peak of the stretch, then slowly return to starting position.",
+        "Switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-glutes-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glutes-stretch-variation-three"
+    }
+  ]
+}

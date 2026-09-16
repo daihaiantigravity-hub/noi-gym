@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 139620319732291,
+      "name": "Smith Machine Inverted Row",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-inverted-row"
+    }
+  ]
+}

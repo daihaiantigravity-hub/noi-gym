@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/obliques/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/obliques/stretches",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/obliques/stretches/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Abdominals Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/abdominals-stretch-variation-two",
+      "cardText": "Abdominals Stretch Variation Two\nNovice\n1\nStand upright.\n2\nReach with both hands upwards until you can interlock your fingers.\n3\nWith your hands above your head, lean back until a stretch is felt in the abdominals.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Abdominals Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/abdominals-stretch-variation-three",
+      "cardText": "Abdominals Stretch Variation Three\nNovice\n1\nStand upright.\n2\nAfter completing the desired amount of reps with the left arm, switch to the right arm and lean to the left.\n3\nReach up with your left arm and then lean slowly to the right. Lean until a stretch is felt in the obliques.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-3-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

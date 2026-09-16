@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/obliques/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/obliques/trx",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/obliques/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Forearm Side Plank",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-forearm-side-plank",
+      "cardText": "TRX Forearm Side Plank\nIntermediate\n1\nLie on your side with your legs straight and your feet resting in the TRX foot cradles.\n2\nProp yourself up on your forearm and engage your core to maintain a straight line from your head to your feet.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-forearm-side-plank-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-forearm-side-plank-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Oblique Crunch",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-oblique-crunch",
+      "cardText": "TRX Oblique Crunch\nIntermediate\n1\nPlace your feet in the TRX stirrups and get in to a hand plank position.\n2\nPull both knees to your right elbow.\n3\nExtend your legs back to the starting position, then pull both knees to the left elbow.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-oblique-crunch-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-oblique-crunch-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

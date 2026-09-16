@@ -1,0 +1,217 @@
+{
+  "total": 7,
+  "limit": 7,
+  "offset": 0,
+  "count": 7,
+  "results": [
+    {
+      "id": 280740568521502,
+      "name": "Kettlebell Incline Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Leaning across the back section of the bench, with feet firmly on the floor and with arms hanging to the sides.",
+        "Holding the kettlebell in both hands engage your shoulder blades, as if you are trying to touch them together. Release the shrug."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-incline-shrug"
+    },
+    {
+      "id": 251644117419743,
+      "name": "Kettlebell Silverback Shrug (Single)",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Holding the kettlebell in both hands engage your shoulder blades, as if you are trying to touch them together. Release the shrug."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-silverback-shrug-single-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-silverback-shrug-single-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-silverback-shrug-single"
+    },
+    {
+      "id": 231403310764579,
+      "name": "Kettlebell Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Lift the kettlebell upwards towards your chest and lower - repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-upright-row"
+    },
+    {
+      "id": 245091978202547,
+      "name": "Kettlebell Shrug (Single)",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Standing up straight with feet shoulder width apart.",
+        "Holding the kettlebell in both hands in front of your pelvis, engage your shoulder blades, as if you are trying to touch them together.",
+        "Release the shrug and repeat"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-shrug-single-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-shrug-single-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-shrug-single"
+    },
+    {
+      "id": 64618022183202,
+      "name": "Kettlebell Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet hip-width apart, hold one kettlebell in each hand at your sides.",
+        "Lift your shoulders upward while keeping arms straight.",
+        "Lower shoulders back down, repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-shrug"
+    },
+    {
+      "id": 162318973088185,
+      "name": "Swing To Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start with a kettlebell between your legs, hinge at hips, swing it upward.",
+        "Lift kettlebell to chest level, elbows high, engaging shoulders.",
+        "Lower kettlebell back down, maintaining control. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-swing-to-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-swing-to-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/swing-to-upright-row"
+    },
+    {
+      "id": 31196575630128,
+      "name": "Kettlebell Upright Row Single",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Lift the kettlebell upwards towards your chest and lower - repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-single-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-single-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-upright-row-single"
+    }
+  ]
+}

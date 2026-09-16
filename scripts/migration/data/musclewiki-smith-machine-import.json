@@ -1,0 +1,1055 @@
+{
+  "total": 34,
+  "limit": 34,
+  "offset": 0,
+  "count": 34,
+  "results": [
+    {
+      "id": 118064770270233,
+      "name": "Smith Machine Hanging Knee Tuck",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Put a hip thrust pad on the smith machine bar at neck height. Put both arms over the bar and pull your feet off the ground.",
+        "Pull your knees to your chest and flex your abs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hanging-knee-tuck-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hanging-knee-tuck-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-hanging-knee-tuck"
+    },
+    {
+      "id": 114809458739621,
+      "name": "Smith Machine Reverse Crunch Hip Raise",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the ground. With your feet on the bar.",
+        "Lift your hips off the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-crunch-hip-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-crunch-hip-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-reverse-crunch-hip-raise"
+    },
+    {
+      "id": 208142338939564,
+      "name": "Smith Machine Situp",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Set up the Smith machine bar at an appropriate height.",
+        "Lie on your back beneath the bar, gripping it with your hands.",
+        "Engage your core, lift your upper body toward the bar, and exhale.",
+        "Lower your upper body back down in a controlled manner, inhaling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-situp-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-situp-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-situp"
+    },
+    {
+      "id": 43048519289155,
+      "name": "Smith Machine Drag Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab the bar with an underhand grip.",
+        "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-drag-curl"
+    },
+    {
+      "id": 247480743398871,
+      "name": "Smith Machine Underhand Row",
+      "primary_muscles": [
+        "Biceps",
+        "Lats",
+        "Lower Back"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Begin by standing in front of a bar with your feet about hip-width apart.",
+        "Bend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest.",
+        "As the bar reaches your chest, pause briefly, and then lower the bar back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-underhand-row"
+    },
+    {
+      "id": 19137197055096,
+      "name": "Smith Machine Overhand Row",
+      "primary_muscles": [
+        "Biceps",
+        "Lats",
+        "Lower Back"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start hinged forward with a flat back. Make sure your elbows are fully extended.",
+        "Pull the bar to your sternum."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-overhand-row"
+    },
+    {
+      "id": 233312379853605,
+      "name": "Smith Machine Seated Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by sitting on a bench or box with the bar resting on your knees. Your feet should be flat on the ground, about hip-width apart.",
+        "Place your hands on the barbell for support, and lift your heels off the ground.",
+        "Hold this position for a moment, then slowly lower your heels back to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-seated-calf-raise"
+    },
+    {
+      "id": 77107147496974,
+      "name": "Smith Machine Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place the bar on your back",
+        "Start with feet flat on the ground",
+        "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+        "Slowly return to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-calf-raise"
+    },
+    {
+      "id": 214944847984726,
+      "name": "Smith Machine Guillotine Bench Press",
+      "primary_muscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward.",
+        "Slowly lower the bar to your chest, keeping your elbows flared out.",
+        "Once you feel a stretch in your chest press the weight back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-guillotine-bench-press"
+    },
+    {
+      "id": 251291704496218,
+      "name": "Smith Machine Bench Press",
+      "primary_muscles": [
+        "Chest",
+        "Front Shoulders"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-bench-press"
+    },
+    {
+      "id": 157369389002576,
+      "name": "Smith Machine Incline Bench Press",
+      "primary_muscles": [
+        "Chest",
+        "Front Shoulders"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-incline-bench-press"
+    },
+    {
+      "id": 166281361630155,
+      "name": "Smith Machine Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place hands on the bar, in push-up position.",
+        "Lower yourself to the bar, maintaining proper form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-pushup"
+    },
+    {
+      "id": 139620319732291,
+      "name": "Smith Machine Inverted Row",
+      "primary_muscles": [
+        "Forearms",
+        "Lats",
+        "Middle Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-inverted-row"
+    },
+    {
+      "id": 252223084093915,
+      "name": "Smith Machine Upright Row",
+      "primary_muscles": [
+        "Front Shoulders",
+        "Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a double overhand roughly shoulder width grip.",
+        "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+        "lower the bar and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-upright-row"
+    },
+    {
+      "id": 219112481255068,
+      "name": "Smith Machine Seated Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on a bench with back support. Raise the bar to shoulder height with your palms forward.",
+        "Raise the bar upwards and pause at the contracted position.",
+        "Lower the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-seated-overhead-press"
+    },
+    {
+      "id": 153595112438881,
+      "name": "Smith Machine Staggered Deadlift",
+      "primary_muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-staggered-deadlift"
+    },
+    {
+      "id": 86750533196020,
+      "name": "Smith Machine Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start on your hands and knees with one foot placed on the bottom of the bar.",
+        "Keeping your core braced, your back flat, and your moving leg bent at a",
+        "degree angle, drive the heel of your working leg up the ceiling while squeezing your glute.",
+        "Follow the movement path as you bring your knee back down to the ground beneath your hip, keeping your knee bent to maintain control of the bar.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-glute-kickback"
+    },
+    {
+      "id": 48242230420768,
+      "name": "Smith Machine Leg Press",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your legs on the bar with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the floor. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-leg-press"
+    },
+    {
+      "id": 186967547869951,
+      "name": "Smith Machine Single Leg Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying on a bench with your foot on the ground and a barbell on your hips.",
+        "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+        "From this starting position, slowly lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-single-leg-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-single-leg-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-single-leg-hip-thrust"
+    },
+    {
+      "id": 54073474136261,
+      "name": "Smith Machine Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the ground with a bench behind you. Have the bar over your legs just above your hips.",
+        "Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.",
+        "Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.",
+        "Slowly extend as far as you can, and then slowly return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-hip-thrust"
+    },
+    {
+      "id": 171797815602409,
+      "name": "Smith Machine Sumo Romanian Deadlift",
+      "primary_muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+        "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar",
+        "Leave your knees mostly extended and flex and extend your hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-sumo-romanian-deadlift"
+    },
+    {
+      "id": 168790530045677,
+      "name": "Smith Machine Romanian Deadlift",
+      "primary_muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Take a shoulder width, double overhand or mixed grip.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-romanian-deadlift"
+    },
+    {
+      "id": 280991309624358,
+      "name": "Smith Machine Split Squat",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a large step forward with one leg until your shoulders are under the smith machine",
+        "lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-split-squat"
+    },
+    {
+      "id": 167896209674303,
+      "name": "Smith Machine Reverse Lunge",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with the bar on your shoulders. Your feet should be slightly pointed outward, and your shoulders should be down and relaxed.",
+        "Step backward with one foot, lowering your body until your front thigh is parallel to the ground and your back knee is hovering just above the ground.",
+        "Push off your back foot, returning to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-reverse-lunge"
+    },
+    {
+      "id": 74131559750277,
+      "name": "Smith Machine Narrow Stance Squat",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the bar on top of your traps. Take a narrow stance.",
+        "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+        "Aim to get your hamstrings to parallel with the floor.",
+        "Push your heels into the floor and squat back to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-narrow-stance-squat"
+    },
+    {
+      "id": 41635966330742,
+      "name": "Smith Machine Assisted Pullup",
+      "primary_muscles": [
+        "Lats",
+        "Middle Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended. Leave your feet on the floor.",
+        "Pull your body up until your chin is above the bar. Use your legs top assist you up.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-assisted-pullup"
+    },
+    {
+      "id": 97938594207322,
+      "name": "Smith Machine Oblique Crunch",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay on your side with your knees bent.",
+        "Hold the bar extended over you.",
+        "Lift yourself up by flexing your obliques."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-oblique-crunch"
+    },
+    {
+      "id": 219882722054129,
+      "name": "Smith Machine Side Plank Up Down",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by lying on your side with your feet stacked on top of each other and the bar on your hip.",
+        "Place your bottom elbow on the ground beneath your shoulder and engage your core to raise your hips off the ground.",
+        "Your hips will do all the moving. Think, \"hips up, hips down.\""
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-side-plank-up-down"
+    },
+    {
+      "id": 33023407436093,
+      "name": "Smith Machine Side Bend",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand beside the bar.",
+        "Keep your hips and shoulders facing forward, bend to one side slowly",
+        "Return to the upright position.",
+        "Switch hands and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-side-bend"
+    },
+    {
+      "id": 45564948666649,
+      "name": "Smith Machine Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart. Maintain the natural arch in your back and put the bar on your back. Squeezing your shoulder blades and raise your chest.",
+        "Grip the bar across your shoulders and support it on your upper back. Unwrack the smith machine by straightening your legs.",
+        "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+        "Raise the bar back to starting position, lift with your legs and exhale at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-squat"
+    },
+    {
+      "id": 218447962216203,
+      "name": "Smith Machine Sissy Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand facing away from the machine, positioning your feet slightly wider than shoulder-width apart to provide a stable base, and then reach behind you to firmly grip the bar with both hands, maintaining an overhand grip.",
+        "Initiate the movement by leaning backward, allowing your upper body to incline while simultaneously bending your knees. As you descend, maintain control",
+        "drive through your quadriceps while pushing your hips forward, gradually straightening your knees. Maintain a slow, controlled pace"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sissy-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sissy-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-sissy-squat"
+    },
+    {
+      "id": 230798782108384,
+      "name": "Smith Machine Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a shoulder width grip. Break at the elbows. Try to keep your elbows tucked in. Don't let them flare out.",
+        "Stop the bar a few inches from your forehead and extend your elbows back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-skullcrusher"
+    },
+    {
+      "id": 13881715868606,
+      "name": "Smith Machine Close Grip Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With a narrow grip on the bar, straighten your arms",
+        "Lower the bar to your lower-mid chest",
+        "Slowly raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-close-grip-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-close-grip-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-close-grip-bench-press"
+    },
+    {
+      "id": 152404758609921,
+      "name": "Smith Machine Bodyweight Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the smith bar and lean forward.",
+        "Keep your elbows tucked in and then flex and extend at the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bodyweight-skullcrusher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bodyweight-skullcrusher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-bodyweight-skullcrusher"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 50629871085829,
+      "name": "Barbell Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place the bar on your back",
+        "Start with feet flat on the ground",
+        "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+        "Slowly return to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-calf-raises-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-calf-raises-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-calf-raises"
+    },
+    {
+      "id": 183368222851326,
+      "name": "Barbell Calf Jump",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with your feet shoulder-width apart and your knees slightly bent.",
+        "Shift your weight onto the balls of your feet and raise stay flat footed. Using your calf muscles, mimic a jumping motion but don't leave the floor.",
+        "Explode onto your tip toes and hold for a second.",
+        "Bring your heels back to the floor then initiate the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-calf-jump-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-calf-jump-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-calf-jump"
+    },
+    {
+      "id": 146049604131958,
+      "name": "Barbell Seated Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by sitting on a bench with a barbell resting on your knees. Your feet should be flat on the ground, about hip-width apart.",
+        "Place your hands on the barbell for support, and lift your heels off the ground.",
+        "Hold this position for a moment, then slowly lower your heels back to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-seated-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-seated-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-seated-calf-raise"
+    },
+    {
+      "id": 122232985270002,
+      "name": "Barbell Toes Up Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin by standing on a raised surface (such as a step or box) with the balls of your feet on the edge of the surface and your heels hanging off. Hold a barbell across your upper back and shoulders, using an overhand grip.",
+        "Keeping your core engaged and your back straight, push through the balls of your feet to raise your heels up as high as you can.",
+        "Lower your heels back down to the starting position, allowing your calves to stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-toes-up-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-toes-up-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-toes-up-calf-raise"
+    },
+    {
+      "id": 63691985797076,
+      "name": "Landmine Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the barbell, holding the end of the barbell close to your chest in both hands with your elbows tucked in to your sides.",
+        "Drive though the balls of your feet to raise your heels off the ground, squeezing your calves, with a focus on making sure your ankles do not turn out or in.",
+        "Lower your heels back down to the ground and repeat for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-calf-raise"
+    }
+  ]
+}

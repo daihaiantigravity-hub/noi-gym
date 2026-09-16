@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps/smith-machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps/smith-machine",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps/smith-machine/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Smith Machine Upright Row",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-upright-row",
+      "cardText": "Smith Machine Upright Row\nIntermediate\n1\nTake a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.\n3\nlower the bar and repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

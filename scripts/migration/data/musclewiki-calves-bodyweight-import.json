@@ -1,0 +1,158 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 80759082825065,
+      "name": "Walking Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Walk forward and push your toe into the ground",
+        "Lift you heel off the ground each step and tense your calf muscle",
+        "Repeat on each leg and walk forward slowly"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-walking-calf-raises-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-walking-calf-raises-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/walking-calf-raises"
+    },
+    {
+      "id": 127388237150736,
+      "name": "Tip Toe Walking",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Point your toes into the floor.",
+        "Slowly walk forwards and backward",
+        "Keep your heels in the air as long as possible while walking.",
+        "It may be beneficial to do this last at the end of your workout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-tip-toe-walking-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-tip-toe-walking-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/tip-toe-walking"
+    },
+    {
+      "id": 153056444868210,
+      "name": "Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.",
+        "Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.",
+        "Repeat as necessary."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-calf-raises-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-calf-raises-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/calf-raises"
+    },
+    {
+      "id": 264866851018301,
+      "name": "Bodyweight Donkey Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold on to something for balance.",
+        "Hinge forward and maintain that position. Calf raise until you feel a contraction in your calfs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-donkey-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-donkey-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-donkey-calf-raise"
+    },
+    {
+      "id": 136943941124526,
+      "name": "Bodyweight Single Leg Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold onto something for balance. Raise one foot off the ground.",
+        "Raise your heel upwards while keeping your knees stationary.",
+        "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-single-leg-calf-raise"
+    }
+  ]
+}

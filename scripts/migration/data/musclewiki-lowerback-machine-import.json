@@ -1,0 +1,98 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 88872251776542,
+      "name": "Machine 45 Degree Back Extension",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Position your thighs on the padding and hook your feet on the platform supports.",
+        "Keeping your back straight, slowly bend at your waist until your legs and back are at a 45° angle.",
+        "Slowly raise your body to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-back-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-back-extensions-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-45-degree-back-extension"
+    },
+    {
+      "id": 45949445583422,
+      "name": "Machine Back Extension",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine and place your upper back on the rolling pad.",
+        "Extend your hips and lower back. Make sure not to hyperextend your spine."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-back-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-back-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-back-extension"
+    },
+    {
+      "id": 215944451190919,
+      "name": "Machine Reverse Hyperextension",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the pad and grab the handles.",
+        "Slip your legs into the belt loop.",
+        "Push your legs back until they are horizontal with the ground.",
+        "Lower back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-reverse-hyperextension"
+    }
+  ]
+}

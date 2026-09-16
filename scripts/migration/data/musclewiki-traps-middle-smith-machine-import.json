@@ -1,0 +1,68 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 139620319732291,
+      "name": "Smith Machine Inverted Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-inverted-row"
+    },
+    {
+      "id": 41635966330742,
+      "name": "Smith Machine Assisted Pullup",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended. Leave your feet on the floor.",
+        "Pull your body up until your chin is above the bar. Use your legs top assist you up.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-assisted-pullup"
+    }
+  ]
+}

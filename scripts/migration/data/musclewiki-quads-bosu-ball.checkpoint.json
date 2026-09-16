@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/quads/bosu-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/quads/bosu-ball",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/quads/bosu-ball/2",
+      "found": 2
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/quads/bosu-ball/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bosu Ball Burpee",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-burpee",
+      "cardText": "Bosu Ball Burpee\nIntermediate\n1\nStand on Bosu with feet shoulder-width apart.\n2\nDrop into squat position and place hands on Bosu.\n3\nJump feet back into plank, perform a pushup, then jump back to squat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Half Burpee",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-half-burpee",
+      "cardText": "Bosu Ball Half Burpee\nBeginner\n1\nStand on Bosu with feet shoulder-width apart.\n2\nDrop into squat position and place hands on Bosu.\n3\nJump feet back to plank, then jump back to squat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Lateral Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge",
+      "cardText": "Bosu Ball Lateral Lunge\nIntermediate\n1\nStand on Bosu, step sideways into a lunge.\n2\nBend knee, keeping the other leg straight.\n3\nPush off the bent leg, return to starting position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Reverse Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-reverse-lunge",
+      "cardText": "Bosu Ball Reverse Lunge\nIntermediate\n1\nStand on Bosu, step backward into a lunge.\n2\nBend knees, lower until the front thigh is parallel.\n3\nPush off the back foot, return to starting position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-front_qvjgjz6.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-side_rvKBbbH.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Split Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-split-squat",
+      "cardText": "Bosu Ball Split Squat\nIntermediate\n1\nStand in front of Bosu, one foot on the center.\n2\nLower into a lunge position, knee at 90 degrees.\n3\nPush off the front foot to return to starting position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-front_mVICkv9.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-side_Mrftskp.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-squat",
+      "cardText": "Bosu Ball Squat\nNovice\n1\nStand on Bosu, feet shoulder-width apart.\n2\nSquat down, keeping knees aligned with toes.\n3\nPush through heels to stand back up.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-front_7X4Ozx5.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-side_kHbvSnp.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 6,
+    "candidates": 6,
+    "videos": 12
+  }
+}

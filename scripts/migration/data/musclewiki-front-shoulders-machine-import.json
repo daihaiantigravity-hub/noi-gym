@@ -1,0 +1,128 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 70464733874778,
+      "name": "Machine Standing Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grab the two handles and raise the arms straight out to your sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-lateral-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-lateral-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-standing-lateral-raise"
+    },
+    {
+      "id": 118028216249002,
+      "name": "Machine Plate Loaded Front Military Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust seat to a comfortable height.",
+        "Load the pegs with an appropriate amount of weight.",
+        "Press the weight until your elbows are nearly extended, then lower the weight until just before the weight comes back to a rest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-front-military-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-front-military-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-front-military-press"
+    },
+    {
+      "id": 237297927233593,
+      "name": "Machine Neutral Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat to match your height.",
+        "Press your back into the back pad.",
+        "Press upwards until your elbows are nearly extended. But not fully extended.",
+        "Lower until the plates nearly touch back down."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-neutral-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-neutral-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-neutral-overhead-press"
+    },
+    {
+      "id": 150489254438831,
+      "name": "Machine Overhand Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat to match your height.",
+        "Press your back into the back pad.",
+        "Press upwards until your elbows are nearly extended. But not fully extended.",
+        "Lower until the plates nearly touch back down."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhand-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhand-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-overhand-overhead-press"
+    }
+  ]
+}

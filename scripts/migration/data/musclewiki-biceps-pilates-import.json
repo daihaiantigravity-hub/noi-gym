@@ -1,0 +1,194 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 248910919700741,
+      "name": "Reverse Expansion Bicep Curls Kneeling",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel tall, arms long, palms forward.",
+        "Set shoulders down, engage core and glutes.",
+        "Bend elbows, curling hands toward shoulders without leaning back.",
+        "Extend arms slowly, maintaining upright posture and strap tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-reverse-expansion-bicep-curls-kneeling-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-reverse-expansion-bicep-curls-kneeling-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-reverse-expansion-bicep-curls-kneeling"
+    },
+    {
+      "id": 134147953734810,
+      "name": "Back Rowing Preps Roll Down With Bicep Curl Seated",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps, elbows straight.",
+        "Roll spine down sequentially while bending elbows into a bicep curl.",
+        "Pause briefly, keeping shoulders relaxed and core engaged.",
+        "Reverse the roll up, extending arms forward with controlled tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-bicep-curl-seated-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-bicep-curl-seated-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-roll-down-with-bicep-curl-seated"
+    },
+    {
+      "id": 115240205068033,
+      "name": "Back Rowing Preps Bicep Curls Seated",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at shoulder height.",
+        "Start with arms straight, palms facing up, shoulders relaxed.",
+        "Bend elbows, curling hands toward shoulders without moving torso.",
+        "Extend arms slowly, maintaining control and constant tension on straps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-bicep-curls-seated-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-bicep-curls-seated-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-bicep-curls-seated"
+    },
+    {
+      "id": 125193917851060,
+      "name": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle while rotating torso slightly.",
+        "Keep hips stable and movement controlled.",
+        "Return arm and torso to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-rotations-back-rowing-seated-row"
+    },
+    {
+      "id": 34324077096519,
+      "name": "Pilates Single Arm Back Rowing Seated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle toward torso, squeezing shoulder blade.",
+        "Keep torso stable without rotation.",
+        "Extend arm forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-back-rowing-seated-row"
+    },
+    {
+      "id": 11590841068976,
+      "name": "Pilates Back Rowing Seated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, legs extended, hold straps with arms forward.",
+        "Pull handles toward torso, squeezing shoulder blades together.",
+        "Keep chest lifted and spine neutral throughout.",
+        "Extend arms forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-seated-row"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/forearms/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/forearms/stretches",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/forearms/stretches/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Forearms Stretch Variation One",
+      "sourceUrl": "https://musclewiki.com/exercise/forearms-stretch-variation-one",
+      "cardText": "Forearms Stretch Variation One\nNovice\n1\nPlace your palm flush against the wall.\n2\nTake one step forward and straighten your arm slowly to extend your bicep.\n3\nHold at the peak of the stretch.\n4\nReturn to starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Forearms Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/forearms-stretch-variation-two",
+      "cardText": "Forearms Stretch Variation Two\nNovice\n1\nPlace your hand against a wall, palms facing upward, with finger tips touching.\n2\nSlowly lean into your palm.\n3\nHold at the peak of the stretch.\n4\nReturn to starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Forearms Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/forearms-stretch-variation-three",
+      "cardText": "Forearms Stretch Variation Three\nNovice\n1\nPlace your hands together.\n2\nRotate your arms and hands 180 degrees.\n3\nHold at the peak of the stretch.\n4\nReturn to starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-3-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Forearms Stretch Variation Four",
+      "sourceUrl": "https://musclewiki.com/exercise/forearms-stretch-variation-four",
+      "cardText": "Forearms Stretch Variation Four\nNovice\n1\nRaise your arm to shoulder height at 90 degrees to your body.\n2\nPress lightly on your hand and push towards you.\n3\nRotate the arm across your body.\n4\nSwitch sides and repeat.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-4-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-4-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

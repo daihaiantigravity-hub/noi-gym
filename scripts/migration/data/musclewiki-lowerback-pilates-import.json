@@ -1,0 +1,164 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 74597118392014,
+      "name": "Control Front Plank Position",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place hands on the shoulder rests on feet on the footbar.",
+        "Engage core, glutes tight, body forming a straight line.",
+        "Press arms forward, protract shoulders slightly, keep neck neutral.",
+        "Hold position with steady breathing and full-body tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-control-front-plank-position-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-control-front-plank-position-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-control-front-plank-position"
+    },
+    {
+      "id": 175053897779925,
+      "name": "Arms Pulling Straps Airplane Prone On The Box",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie prone on the box, chest just off edge, arms holding straps.",
+        "Start with arms down, palms facing in, shoulders set away from ears.",
+        "Lift arms out to a T, squeezing shoulder blades, keeping neck long.",
+        "Lower with control, maintain neutral spine, repeat for smooth controlled reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-airplane-prone-on-the-box-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-airplane-prone-on-the-box-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-arms-pulling-straps-airplane-prone-on-the-box"
+    },
+    {
+      "id": 35808622277544,
+      "name": "Hip Rolls",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie supine with knees bent, feet hip-width, arms relaxed by sides.",
+        "Inhale to prepare, exhale and posteriorly tilt pelvis.",
+        "Roll spine up one vertebra at a time into bridge.",
+        "Press through legs until legs are nearly extended. Lower back to start.",
+        "Then begin rolling your spine downward until your back is flat against the carriage."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-rolls-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-rolls-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-hip-rolls"
+    },
+    {
+      "id": 126960953688329,
+      "name": "Long Stretch Plank Position",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place hands on footbar, shoulders over wrists, legs extended long.",
+        "Engage core and glutes, forming a straight line head to heels.",
+        "Press heels back, protract shoulders slightly, neck neutral.",
+        "Hold with steady breathing and full-body tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-stretch-plank-position-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-stretch-plank-position-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-long-stretch-plank-position"
+    },
+    {
+      "id": 82586980837825,
+      "name": "Pilates Short Spine",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie supine, feet in straps, legs extended upward.",
+        "Lift hips, rolling spine off carriage.",
+        "Bend knees, bringing heels toward glutes overhead.",
+        "Roll down slowly, extending legs to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-short-spine"
+    }
+  ]
+}

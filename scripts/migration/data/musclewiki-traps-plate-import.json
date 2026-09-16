@@ -1,0 +1,69 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 82185864573583,
+      "name": "Plate Overhead Carry",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by standing upright with your feet shoulder-width apart. Hold a single weight plate overhead with both hands, keeping your arms extended straight above your head.",
+        "Begin walking forward, taking slow and steady steps while maintaining a straight line. Your focus should be on maintaining balance and control of the weight plate overhead.",
+        "As you walk, continue to keep your arms extended and the weight plate overhead. Try to maintain good posture and avoid leaning forward or backward, as this could result in losing control of the weight plate.",
+        "Continue walking for a set distance or for a certain amount of time, keeping your focus on proper form and technique. When finished, return to the starting position and repeat as desired."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-carry-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-carry-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-overhead-carry"
+    },
+    {
+      "id": 135799502639766,
+      "name": "Plate Overhead Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand tall with a weight plate overhead.",
+        "Elevated and depress your scapula.",
+        "Avoid leaning forward or backwards to keep pressure off of your lumbar spine."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-overhead-shrug"
+    }
+  ]
+}

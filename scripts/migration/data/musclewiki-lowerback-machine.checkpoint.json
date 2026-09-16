@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lowerback/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [{"number":1,"url":"https://musclewiki.com/exercises/lowerback/machine","found":3}],
+  "candidates": [
+    {"name":"Machine 45 Degree Back Extension","sourceUrl":"https://musclewiki.com/exercise/machine-45-degree-back-extension","difficulty":"Beginner"},
+    {"name":"Machine Back Extension","sourceUrl":"https://musclewiki.com/exercise/machine-back-extension","difficulty":"Novice"},
+    {"name":"Machine Reverse Hyperextension","sourceUrl":"https://musclewiki.com/exercise/machine-reverse-hyperextension","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":1,"cards":3,"candidates":3,"videos":6}
+}

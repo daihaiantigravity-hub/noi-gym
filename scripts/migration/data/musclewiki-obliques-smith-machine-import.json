@@ -1,0 +1,99 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 97938594207322,
+      "name": "Smith Machine Oblique Crunch",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay on your side with your knees bent.",
+        "Hold the bar extended over you.",
+        "Lift yourself up by flexing your obliques."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-oblique-crunch"
+    },
+    {
+      "id": 219882722054129,
+      "name": "Smith Machine Side Plank Up Down",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by lying on your side with your feet stacked on top of each other and the bar on your hip.",
+        "Place your bottom elbow on the ground beneath your shoulder and engage your core to raise your hips off the ground.",
+        "Your hips will do all the moving. Think, \"hips up, hips down.\""
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-side-plank-up-down"
+    },
+    {
+      "id": 33023407436093,
+      "name": "Smith Machine Side Bend",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand beside the bar.",
+        "Keep your hips and shoulders facing forward, bend to one side slowly",
+        "Return to the upright position.",
+        "Switch hands and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-side-bend"
+    }
+  ]
+}

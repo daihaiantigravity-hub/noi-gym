@@ -9,15 +9,1527 @@
       "/Dumbbell Curl"
     ],
     "images": [
-      "https://musclewiki.com/api-next/images/og-male-Dumbbells-dumbbell-curl-front.jpg",
-      "https://go.ezodn.com/utilcave_com/ezoic.png",
-      "https://musclewiki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqr_code.29dbeydmxn82y.png&w=384&q=75",
-      "https://musclewiki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fqr_code.29dbeydmxn82y.png&w=256&q=75"
+      "https://musclewiki.com/api-next/images/og-male-Dumbbells-dumbbell-curl-front.jpg"
+    ],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-curl-side.mp4"
+      },
+      {
+        "index": 3,
+        "type": "image",
+        "url": "https://musclewiki.com/api-next/images/og-male-Dumbbells-dumbbell-curl-front.jpg"
+      }
     ],
     "primaryMuscle": "Biceps",
     "secondaryMuscles": [],
     "force": "Pull",
     "grip": "Underhand",
     "mechanic": "Isolation"
+  },
+  {
+    "name": "Dumbbell Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hammer-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hammer-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-reverse-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-reverse-curl-front_SOFvEAZ.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-reverse-curl-side_TUoPPM0.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Rear Delt Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-rear-delt-row",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rear-delt-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rear-delt-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Incline Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-incline-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-hammer-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-hammer-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Incline Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-incline-reverse-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-reverse-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-reverse-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Incline Zottman Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-incline-zottman-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-zottman-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-zottman-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Preacher Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-preacher-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-preacher-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-preacher-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Spider Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-spider-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-spider-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-spider-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Spider Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-spider-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-spider-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-spider-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Twisting Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-twisting-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-twisting-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-twisting-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Concentration Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-concentration-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-concentration-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-concentration-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Alternating Pendlay Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-alternating-pendlay-row",
+    "difficulty": "Advanced",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Kneeling Single Arm Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-kneeling-single-arm-row",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Laying Incline Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-incline-row",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Pendlay Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-pendlay-row",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-row",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Row Knee",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-row-knee",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Lawnmower Row",
+    "sourceUrl": "https://musclewiki.com/exercise/lawnmower-row",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Knee Lawnmower Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-knee-lawnmower-row",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Supinated Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-supinated-row",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-preacher-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-incline-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Weighted Chin Ups",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-weighted-chin-ups",
+    "difficulty": "Advanced",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Laying Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-flat-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [
+      "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-flat-curl-front.jpg&w=750&q=75"
+    ],
+    "media": [
+      {
+        "index": 1,
+        "type": "image",
+        "url": "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-flat-curl-front.jpg&w=750&q=75"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-flat-curl-front.mp4"
+      },
+      {
+        "index": 3,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-flat-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Hammer Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-hammer-flat-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [
+      "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-side.jpg&w=3840&q=75"
+    ],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "image",
+        "url": "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-side.jpg&w=3840&q=75"
+      },
+      {
+        "index": 3,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Hammer Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-hammer-incline-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [
+      "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-side.jpg&w=3840&q=75",
+      "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-front.jpg&w=3840&q=75"
+    ],
+    "media": [
+      {
+        "index": 1,
+        "type": "image",
+        "url": "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-side.jpg&w=3840&q=75"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-side.mp4"
+      },
+      {
+        "index": 3,
+        "type": "image",
+        "url": "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-front.jpg&w=3840&q=75"
+      },
+      {
+        "index": 4,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-incline-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-incline-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-incline-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Reverse Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-reverse-flat-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-flat-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-flat-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Reverse Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-reverse-incline-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-incline-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-incline-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Bench Braced Rolling Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-braced-rolling-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [
+      "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-rolling-curl-side.jpg&w=3840&q=75"
+    ],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-rolling-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "image",
+        "url": "https://musclewiki.com/_next/image?url=%2Fapi-next%2Fimages%2Fog-male-Dumbbells-dumbbell-bench-braced-rolling-curl-side.jpg&w=3840&q=75"
+      },
+      {
+        "index": 3,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-rolling-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-flat-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-flat-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-flat-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Hammer Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-hammer-flat-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-flat-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-flat-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Hammer Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-hammer-incline-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-incline-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-incline-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-incline-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-incline-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-incline-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Reverse Flat Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-reverse-flat-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-flat-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-flat-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Bench Braced Reverse Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-reverse-incline-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-incline-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-incline-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Drag Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-drag-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-drag-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-drag-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Incline Twisting Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-incline-twisting-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-twisting-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-twisting-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Incline Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Incline Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-reverse-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-reverse-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-reverse-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Incline Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-hammer-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-hammer-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Incline Twisting Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-twisting-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-twisting-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-twisting-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Standing Single Arm Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Standing Single Arm Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-hammer-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-hammer-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Standing Single Arm Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-reverse-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-reverse-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-reverse-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Standing Single Arm Twisting Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-twisting-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Zottman Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-zottman-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-zottman-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-zottman-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-hammer-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-hammer-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-reverse-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-reverse-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-reverse-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Single Arm Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-hammer-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-hammer-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Single Arm Reverse Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-reverse-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-reverse-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-reverse-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Zottman Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-zottman-curl",
+    "difficulty": "Beginner",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-zottman-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-zottman-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-hammer-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-hammer-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Pendlay Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-pendlay-row",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Rear Delt Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-rear-delt-row",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Single Arm Seated Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-seated-hammer-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-hammer-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-hammer-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Single Arm Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Seated Single Arm Zottman Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-zottman-curl",
+    "difficulty": "Intermediate",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-zottman-curl-front.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-zottman-curl-side.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
+  },
+  {
+    "name": "Dumbbell Flat Preacher Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-flat-preacher-curl",
+    "difficulty": "Novice",
+    "instructions": [],
+    "images": [],
+    "media": [
+      {
+        "index": 1,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-flat-preacher-curl-side.mp4"
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-flat-preacher-curl-front.mp4"
+      }
+    ],
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [],
+    "force": null,
+    "grip": null,
+    "mechanic": null
   }
 ]

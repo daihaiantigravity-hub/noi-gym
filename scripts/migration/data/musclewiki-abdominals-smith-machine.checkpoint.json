@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/abdominals/smith-machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/abdominals/smith-machine",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/abdominals/smith-machine/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Smith Machine Hanging Knee Tuck",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-hanging-knee-tuck",
+      "cardText": "Smith Machine Hanging Knee Tuck\nBeginner\n1\nPut a hip thrust pad on the smith machine bar at neck height. Put both arms over the bar and pull your feet off the ground.\n2\nPull your knees to your chest and flex your abs.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hanging-knee-tuck-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hanging-knee-tuck-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Reverse Crunch Hip Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-reverse-crunch-hip-raise",
+      "cardText": "Smith Machine Reverse Crunch Hip Raise\nIntermediate\n1\nLay flat on the ground. With your feet on the bar.\n2\nLift your hips off the ground.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-crunch-hip-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-crunch-hip-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Situp",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-situp",
+      "cardText": "Smith Machine Situp\nBeginner\n1\nSet up the Smith machine bar at an appropriate height.\n2\nLie on your back beneath the bar, gripping it with your hands.\n3\nEngage your core, lift your upper body toward the bar, and exhale.\n4\nLower your upper body back down in a controlled manner, inhaling.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-situp-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-situp-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "total": 16,
+  "limit": 16,
+  "offset": 0,
+  "count": 16,
+  "results": [
+    {
+      "id": 31216563323324,
+      "name": "Machine Pulldown",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grip the bar with the palms facing forward, your hands need to be spaced out at a distance wider than shoulder width.",
+        "As you have both arms extended in front of you holding the bar, bring your torso back around",
+        "degrees while sticking your chest out.",
+        "Pull the bar down to about chin level or a little lower in a smooth movement whilst squeezing the shoulder blades together.",
+        "After a second of squeezing, slowly raise the bar back to the starting position when your arms are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-pulldown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-pulldown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-pulldown"
+    },
+    {
+      "id": 175224934643128,
+      "name": "Machine Seated Cable Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit with your back straight on the machine and grip the handles.",
+        "Pull the handles back using your arms. Your legs and torso should be at a 90° angle. Push out your chest.",
+        "Pull the handles towards your body until your hands are beside your abdomen."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-cable-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-cable-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-seated-cable-row"
+    },
+    {
+      "id": 145890235878605,
+      "name": "Machine Plate Loaded Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine, feet flat, and grab the handles.",
+        "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+        "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-row"
+    },
+    {
+      "id": 31838255928586,
+      "name": "Machine Plate Loaded T Bar Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hinge forward while keeping your back flat.",
+        "Grab the handles and pull the weight toward your chest.",
+        "Make sure to fully extend your elbows at the bottom of each rep. Also make sure to not use momentum."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-t-bar-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-t-bar-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-t-bar-row"
+    },
+    {
+      "id": 42338771042909,
+      "name": "Underhand Pulldown",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use the Straight Bar attachment. Hold with an underhand grip.",
+        "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+        "Pull the bar to your clavicle, then raise back up until your arm are extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-underhand-pulldown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-underhand-pulldown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/underhand-pulldown"
+    },
+    {
+      "id": 126209050556706,
+      "name": "Machine Assisted Pull Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+        "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+        "Lower back with control. Pause at bottom. Repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-pull-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-pull-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-assisted-pull-up"
+    },
+    {
+      "id": 181135918303118,
+      "name": "Machine Assisted Narrow Pull Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+        "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+        "Lower back with control. Pause at bottom. Repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-narrow-pull-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-narrow-pull-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-assisted-narrow-pull-up"
+    },
+    {
+      "id": 74082301461639,
+      "name": "Machine Assisted Neutral Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+        "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+        "Lower back with control. Pause at bottom. Repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-neutral-chin-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-neutral-chin-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-assisted-neutral-chin-up"
+    },
+    {
+      "id": 145636677383619,
+      "name": "Machine Assisted Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+        "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+        "Lower back with control. Pause at bottom. Repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-chin-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-assisted-chin-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-assisted-chin-up"
+    },
+    {
+      "id": 126174921450121,
+      "name": "Machine Underhand Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine, feet flat, and grab the handles with palms facing up, keeping your back straight.",
+        "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+        "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-underhand-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-underhand-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-underhand-row"
+    },
+    {
+      "id": 145862344421459,
+      "name": "Machine Neutral Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine, feet flat, and grab the handles with palms facing each other, keeping your back straight.",
+        "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+        "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-neutral-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-neutral-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-neutral-row"
+    },
+    {
+      "id": 139600609548802,
+      "name": "Stretcher",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your foot on the leg pad for leverage and grab the attachment.",
+        "Start with your arms extended and your head between your arms.",
+        "Begin to pull. As you pull, lean backwards until the attachment touches your chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-stretcher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-stretcher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stretcher"
+    },
+    {
+      "id": 24116774382778,
+      "name": "Machine Chest Supported T Bar Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the chest pad and grab the handles. Lift the bar out of the holding hook.",
+        "Pull the bar to your chest and then fully extend your elbows at the bottom of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-chest-supported-t-bar-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-chest-supported-t-bar-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-chest-supported-t-bar-row"
+    },
+    {
+      "id": 253710214671585,
+      "name": "Machine Plate Loaded Pulldown",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grip the handles with the palms facing down.",
+        "Sit on the machine and press your knees into the knee pad.",
+        "Pull the handles until your upper arm is even with your torso, or just behind your torso.",
+        "Extend until your elbows are fully extended before initiating the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-pulldown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-pulldown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-pulldown"
+    },
+    {
+      "id": 206290098744589,
+      "name": "Machine Pullover",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seating pad for your height.",
+        "Place your elbows on the elbow pad. Pull the bar forward until it nearly touches your stomach."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pullover-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pullover-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-pullover"
+    },
+    {
+      "id": 258998655252964,
+      "name": "Machine Plate Loaded Seal Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the chest after adjusting the height off the bar holding hooks to match your arm length.",
+        "Remove the bar from the hooks, then initiate the set.",
+        "Pull the bar straight back, then lower to the start position. Fully extend your elbows at the bottom of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-seal-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-seal-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-seal-row"
+    }
+  ]
+}

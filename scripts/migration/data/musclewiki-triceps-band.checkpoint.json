@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/triceps/band",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/triceps/band",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/triceps/band/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/triceps/band/3",
+      "found": 4
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/triceps/band/4",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Band Pushup",
+      "sourceUrl": "https://musclewiki.com/exercise/band-pushup",
+      "cardText": "Band Pushup\nIntermediate\n1\nLoop the band around your mid-back. The ends of the bands should be around your hands between your thumb and pointer finger.\n2\nThis exercise can be done from the knees or the toes depending on experience level.\n3\nBegin by breaking at the elbows until your upper arm is by your side. Then extend at the elbows back into the top position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-pushup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-pushup-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Skullcrusher",
+      "sourceUrl": "https://musclewiki.com/exercise/band-skullcrusher",
+      "cardText": "Band Skullcrusher\nAdvanced\n1\nAnchor a band to a stable point.\n2\nFace away and begin with your elbows bent and fists by your temples.\n3\nExtend your elbows until your triceps contract.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-skullcrusher-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-skullcrusher-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Overhead Tricep Extension",
+      "sourceUrl": "https://musclewiki.com/exercise/band-overhead-tricep-extension",
+      "cardText": "Band Overhead Tricep Extension\nAdvanced\n1\nStand with one or both feet on band. Go up and over your head with the band to the starting position.\n2\nFlex and extend your elbows.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-overhead-tricep-extension-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Tricep Pushdown",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-tricep-pushdown",
+      "cardText": "Mini Band Tricep Pushdown\nNovice\n1\nLoop band around wrists.\n2\nKeep one hand at shoulder height and press your other hand down.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-tricep-pushdown-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-tricep-pushdown-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Overhead Press",
+      "sourceUrl": "https://musclewiki.com/exercise/band-overhead-press",
+      "cardText": "Band Overhead Press\nNovice\n1\nStand between the two anchored bands, grasp them with an overhand grip, and position the bands at shoulder level.\n2\nBrace your core and push the bands overhead, fully extending your arms.\n3\nLower the bands back to shoulder level, keeping your core engaged and arms straight. Repeat for desired number of reps.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-overhead-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-overhead-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Rapunzel Pushdown",
+      "sourceUrl": "https://musclewiki.com/exercise/band-rapunzel-pushdown",
+      "cardText": "Band Rapunzel Pushdown\nBeginner\n1\nAnchor the band to a high point and face away. Hold the band with both hands, placing your hands shoulder-width apart and keeping your elbows close to your body.\n2\nSlowly extend your arms downward, keeping your elbows close to your body. Push the band down as far as you can, feeling the contraction in your triceps.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rapunzel-pushdown-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rapunzel-pushdown-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Pushdown",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-pushdown",
+      "cardText": "Band Single Arm Pushdown\nNovice\n1\nStand with your feet shoulder-width apart and hold the band with your right hand, with your arm at your side.\n2\nFlex and extend your elbow.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-single-arm-pushdown-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-single-arm-pushdown-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Single Arm Rapunzel Pushdown",
+      "sourceUrl": "https://musclewiki.com/exercise/single-arm-rapunzel-pushdown",
+      "cardText": "Single Arm Rapunzel Pushdown\nBeginner\n1\nStand with a band anchored to a high point. Face away from the band. Hold the loop in one hand.\n2\nKeep your elbow tucked in to your side. Extend your elbow. When you extend, don't let your upper arm raise. The band should land over your shoulder.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-single-arm-rapunzel-pushdown-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-single-arm-rapunzel-pushdown-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Standing Chest Press",
+      "sourceUrl": "https://musclewiki.com/exercise/band-standing-chest-press",
+      "cardText": "Band Standing Chest Press\nBeginner\n1\nLoop the band around your back. The two end loops in each of your hands.\n2\nExtend your shoulder joint and elbow across your body until your arm is fully extended.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-standing-chest-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-standing-chest-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Tricep Kickback",
+      "sourceUrl": "https://musclewiki.com/exercise/band-tricep-kickback",
+      "cardText": "Band Tricep Kickback\nBeginner\n1\nAnchor the band to a stable point.\n2\nHinge forward. Extend and flex at the elbow.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-tricep-kickback-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-tricep-kickback-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Floor Press",
+      "sourceUrl": "https://musclewiki.com/exercise/band-floor-press",
+      "cardText": "Band Floor Press\nBeginner\n1\nLie on your back holding band loops with elbows resting on the floor.\n2\nPress arms straight up until elbows extend without locking.\n3\nLower elbows back to floor under control, keeping tension throughout.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-floor-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-floor-press-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 4,
+    "cards": 12,
+    "candidates": 11,
+    "videos": 22
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "total": 8,
+  "limit": 8,
+  "offset": 0,
+  "count": 8,
+  "results": [
+    {
+      "id": 275257336167110,
+      "name": "Band Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place the band at the highest anchor point you have available. Grab both ends of the band and fall into a kneeling position.",
+        "Push your hips back flexing at the spine.",
+        "Squeeze your abs and then extend at the hips and spine back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-crunch"
+    },
+    {
+      "id": 134308983023836,
+      "name": "Mini Band Leg Raise",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, lie flat on back.",
+        "Raise both legs upward, keeping them straight.",
+        "Lower slowly without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-leg-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-leg-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-leg-raise"
+    },
+    {
+      "id": 256939150038218,
+      "name": "Mini Band Walking Mountain Climber",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around feet, start in high plank.",
+        "Step one foot forward under torso.",
+        "Alternate steps continuously, keeping hips stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-walking-mountain-climber-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-walking-mountain-climber-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-walking-mountain-climber"
+    },
+    {
+      "id": 61596432473805,
+      "name": "Mini Band Mountain Climber",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Loop band around feet, start in high plank.",
+        "Drive one knee toward chest against resistance.",
+        "Alternate legs quickly while keeping hips stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-mountain-climber-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-mountain-climber-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-mountain-climber"
+    },
+    {
+      "id": 241660438713908,
+      "name": "Mini Band Around The World Plank",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Loop band around wrists, hold high plank position.",
+        "Move one hand forward, outward, then back in circular pattern.",
+        "Alternate sides, keeping hips level and core braced."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-around-the-world-plank-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-around-the-world-plank-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-around-the-world-plank"
+    },
+    {
+      "id": 183211911874636,
+      "name": "Mini Band Scissor Kick",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, lie on back.",
+        "Lift legs slightly off floor, core braced.",
+        "Alternate legs in controlled scissor motion."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-scissor-kick-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-scissor-kick-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-scissor-kick"
+    },
+    {
+      "id": 125848293669121,
+      "name": "Mini Band Plank Hand Step Out",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around wrists, hold high plank.",
+        "Step one hand outward against band tension.",
+        "Return and alternate, keeping hips level."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-hand-step-out-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-hand-step-out-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-plank-hand-step-out"
+    },
+    {
+      "id": 56314058103616,
+      "name": "Mini Band Plank Step Out",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, hold high plank.",
+        "Step one foot outward, resisting band pull.",
+        "Return and alternate, maintaining stable hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-step-out-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-step-out-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-plank-step-out"
+    }
+  ]
+}

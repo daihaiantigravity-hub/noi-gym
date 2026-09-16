@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps/bosu-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps/bosu-ball",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps/bosu-ball/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bosu Ball Pike Shrug",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-pike-shrug",
+      "cardText": "Bosu Ball Pike Shrug\nBeginner\n1\nPlace toes on Bosu, hands on the floor.\n2\nPike hips up, shrug shoulders, engage core.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pike-shrug-side_kPE0ToY.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pike-shrug-front_GhQ1QA8.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

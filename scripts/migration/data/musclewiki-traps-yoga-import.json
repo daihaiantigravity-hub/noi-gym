@@ -1,0 +1,163 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 23543531198740,
+      "name": "Criss Cross Bow Tie Pose",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet hip-width apart and your arms at your sides.",
+        "Cross your right arm over your left arm, bringing your palms together in front of your chest.",
+        "Lower your arms down so that your palms face down towards the ground, and your right elbow is resting on top of your left elbow.",
+        "Hold for a few breaths, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-bow-tie-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-bow-tie-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bow-tie-pose"
+    },
+    {
+      "id": 247345626238349,
+      "name": "Eagle Arms Chin Into Chest",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit cross-legged on the floor and bring your arms out to the sides at shoulder height.",
+        "Cross your right arm over your left, bending both elbows so that your forearms are parallel to the floor.",
+        "Lift your elbows towards the ceiling and bring your hands together, then drop your chin towards your chest.",
+        "Hold for a few breaths, then release your arms and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-eagle-arm-chin-down-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-eagle-arm-chin-down-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/eagle-arms-chin-into-chest"
+    },
+    {
+      "id": 71533282877873,
+      "name": "Easy Pose Neck Stretch",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin by sitting cross-legged on the floor.",
+        "Slowly drop your chin towards your chest, feeling a stretch in the back of your neck.",
+        "Inhale and lift your head up, then exhale and drop your right ear towards your right shoulder.",
+        "Hold for a few breaths, then switch sides and repeat the stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-easy-pose-neck-stretch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-easy-pose-neck-stretch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/easy-pose-neck-stretch"
+    },
+    {
+      "id": 232443240200904,
+      "name": "Half Neck Rolls",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit cross-legged on the floor and interlace your fingers behind your head.",
+        "Drop your chin to your chest and roll your head to the right, bringing your right ear towards your right shoulder.",
+        "Slowly roll your head back to center, then over to the left so that your left ear is close to your left shoulder.",
+        "Repeat the movement from side to side, keeping your shoulders relaxed and breathing deeply."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-neck-rolls-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-neck-rolls-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-neck-rolls"
+    },
+    {
+      "id": 244384742435873,
+      "name": "Thread The Needle Hip Over Knees",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start on your hands and knees in a tabletop position.",
+        "Slide your right knee up between your hands and place your right foot close to your left wrist.",
+        "Take your left leg back and lower it down to the ground, keeping your toes tucked.",
+        "Twist your torso to the right and reach your right arm underneath your left arm, threading the needle. Hold for a few breaths, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-thread-the-needle-hip-over-knees-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-thread-the-needle-hip-over-knees-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps/stretches",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps/stretches/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Traps Stretch Variation One",
+      "sourceUrl": "https://musclewiki.com/exercise/traps-stretch-variation-one",
+      "cardText": "Traps Stretch Variation One\nNovice\n1\nStand upright with your feet shoulder width apart.\n2\nPlace your left hand on your head and gently pull your head down towards your left shoulder. Then return to centre point.\n3\nRepeat, using your right hand pulling towards your right shoulder.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Traps Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/traps-stretch-variation-two",
+      "cardText": "Traps Stretch Variation Two\nNovice\n1\nStand upright with your feet shoulder width apart.\n2\nKeeping your chest facing forward, turn your head 90 degrees to the left. Then return to centre point.\n3\nRepeat, turning your head in the other direction.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Traps Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/traps-stretch-variation-three",
+      "cardText": "Traps Stretch Variation Three\nNovice\n1\nStand upright with your feet shoulder width apart.\n2\nNod your head forward, bringing your chin to your chest.\n3\nYou will feel the stretch across your neck.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-stretch-variation-3-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

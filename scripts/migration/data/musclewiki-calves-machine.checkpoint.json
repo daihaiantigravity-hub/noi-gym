@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/calves/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/calves/machine/2","found":3}
+  ],
+  "candidates": [
+    {"name":"Machine Seated Calf Raises","sourceUrl":"https://musclewiki.com/exercise/machine-seated-calf-raises","difficulty":"Novice"},
+    {"name":"Machine Standing Calf Raises","sourceUrl":"https://musclewiki.com/exercise/machine-standing-calf-raises","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Calf Raise","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-calf-raise","difficulty":"Intermediate"},
+    {"name":"Machine 45 Degree Calf Raise","sourceUrl":"https://musclewiki.com/exercise/machine-45-degree-calf-raise","difficulty":"Novice"},
+    {"name":"Machine Donkey Calf Raise","sourceUrl":"https://musclewiki.com/exercise/machine-donkey-calf-raise","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":2,"cards":7,"candidates":5,"videos":10}
+}

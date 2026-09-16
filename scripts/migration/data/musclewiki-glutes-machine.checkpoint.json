@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/glutes/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/glutes/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/glutes/machine/2","found":4},
+    {"number":3,"url":"https://musclewiki.com/exercises/glutes/machine/3","found":4},
+    {"number":4,"url":"https://musclewiki.com/exercises/glutes/machine/4","found":4},
+    {"number":5,"url":"https://musclewiki.com/exercises/glutes/machine/5","found":2}
+  ],
+  "candidates": [
+    {"name":"Machine Leg Press","sourceUrl":"https://musclewiki.com/exercise/machine-leg-press","difficulty":"Novice"},
+    {"name":"Machine Belt Squat","sourceUrl":"https://musclewiki.com/exercise/machine-belt-squat","difficulty":"Novice"},
+    {"name":"Vertical Leg Press","sourceUrl":"https://musclewiki.com/exercise/vertical-leg-press","difficulty":"Novice"},
+    {"name":"Gluteator","sourceUrl":"https://musclewiki.com/exercise/gluteator","difficulty":"Novice"},
+    {"name":"Machine Horizontal Leg Press","sourceUrl":"https://musclewiki.com/exercise/machine-horizontal-leg-press","difficulty":"Novice"},
+    {"name":"Machine Hip Abduction","sourceUrl":"https://musclewiki.com/exercise/machine-hip-abduction","difficulty":"Novice"},
+    {"name":"Machine Hip And Glute Abduction","sourceUrl":"https://musclewiki.com/exercise/machine-hip-and-glute-abduction","difficulty":"Novice"},
+    {"name":"Machine Hip And Glute Kickback","sourceUrl":"https://musclewiki.com/exercise/machine-hip-and-glute-kickback","difficulty":"Novice"},
+    {"name":"Machine Reverse Hyperextension","sourceUrl":"https://musclewiki.com/exercise/machine-reverse-hyperextension","difficulty":"Novice"},
+    {"name":"Machine Pendulum Squat","sourceUrl":"https://musclewiki.com/exercise/machine-pendulum-squat","difficulty":"Novice"},
+    {"name":"Machine Single Leg Leg Press","sourceUrl":"https://musclewiki.com/exercise/machine-single-leg-leg-press","difficulty":"Novice"},
+    {"name":"Machine Squat Press","sourceUrl":"https://musclewiki.com/exercise/machine-squat-press","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Hip Thrust","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-hip-thrust","difficulty":"Novice"},
+    {"name":"Horizontal Hack Squat","sourceUrl":"https://musclewiki.com/exercise/horizontal-hack-squat","difficulty":"Novice"},
+    {"name":"Machine Glute Kickback","sourceUrl":"https://musclewiki.com/exercise/machine-glute-kickback","difficulty":"Beginner"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":5,"cards":18,"candidates":15,"videos":30}
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Smith Machine Oblique Crunch",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-oblique-crunch",
+    "difficulty": "Advanced",
+    "cardText": "Smith Machine Oblique Crunch\nAdvanced\n1\nLay on your side with your knees bent.\n2\nHold the bar extended over you.\n3\nLift yourself up by flexing your obliques.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-oblique-crunch-front.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Side Plank Up Down",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-side-plank-up-down",
+    "difficulty": "Beginner",
+    "cardText": "Smith Machine Side Plank Up Down\nBeginner\n1\nStart by lying on your side with your feet stacked on top of each other and the bar on your hip.\n2\nPlace your bottom elbow on the ground beneath your shoulder and engage your core to raise your hips off the ground.\n3\nYour hips will do all the moving. Think, \"hips up, hips down.\"",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-plank-up-down-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Side Bend",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-side-bend",
+    "difficulty": "Novice",
+    "cardText": "Smith Machine Side Bend\nNovice\n1\nStand beside the bar.\n2\nKeep your hips and shoulders facing forward, bend to one side slowly\n3\nReturn to the upright position.\n4\nSwitch hands and repeat.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-side-bend-side.mp4"
+      }
+    ]
+  }
+]

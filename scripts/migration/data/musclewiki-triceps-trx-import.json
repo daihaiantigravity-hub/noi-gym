@@ -1,0 +1,68 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 176133449182835,
+      "name": "TRX Pushup",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+        "Stand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+        "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+        "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-pushup"
+    },
+    {
+      "id": 266677564540179,
+      "name": "TRX Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the two TRX straps and lean forward. The straps should be over each shoulder.",
+        "Keep your elbows tucked in and then flex and extend at the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-skullcrusher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-skullcrusher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-skullcrusher"
+    }
+  ]
+}

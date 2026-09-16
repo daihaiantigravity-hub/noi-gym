@@ -1,0 +1,308 @@
+{
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "count": 10,
+  "results": [
+    {
+      "id": 118155402003645,
+      "name": "Single Legged Romanian Deadlifts",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart and knees slightly bent and raise one leg.",
+        "Without changing the bend in your knee, bend at your hips, and lower your torso until it's almost parallel to the floor.",
+        "Tense your glutes and then bring yourself back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-legged-romanian-deadlifts"
+    },
+    {
+      "id": 84175621673366,
+      "name": "Good Mornings",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head.",
+        "Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/good-mornings"
+    },
+    {
+      "id": 130666289075690,
+      "name": "Supermans",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie face down on the floor with your arms fully extended in front of you.",
+        "Simultaneously raise your arms, legs and chest off of the floor and hold the position.",
+        "Slowly lower your arms, legs and chest back to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-supermans-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-supermans-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/supermans"
+    },
+    {
+      "id": 198243314472479,
+      "name": "Bodyweight Superman Pull",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie face down with arms extended straight in front of you.",
+        "Lift arms, chest, and legs off floor while squeezing glutes.",
+        "Pull elbows toward ribs, squeeze lats, then extend arms again."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-superman-pull-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-superman-pull-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-superman-pull"
+    },
+    {
+      "id": 75587004102848,
+      "name": "Bodyweight Spinal Jefferson Curl",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall with arms hanging toward floor and knees slightly bent.",
+        "Slowly roll down spine, one vertebra at a time, reaching toward toes.",
+        "Reverse the motion, stacking spine back up to standing tall."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-spinal-jefferson-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-spinal-jefferson-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-spinal-jefferson-curl"
+    },
+    {
+      "id": 279469009733823,
+      "name": "Half Kneeling Hip Hinge",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one knee on a bench.",
+        "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-kneeling-hip-hinge"
+    },
+    {
+      "id": 122936507452297,
+      "name": "Bodyweight Stability Ball Hyperextension",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head.",
+        "Engage your core, lift your upper body until aligned with legs, keeping your neck neutral.",
+        "Lower your torso slowly back to the starting position, maintaining control and steady breathing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-stability-ball-hyperextension"
+    },
+    {
+      "id": 196952115744784,
+      "name": "Stability Ball Reverse Hyperextension",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie face down on a stability ball, hands on the floor, legs extended straight.",
+        "Engage glutes and lower back, raising legs until aligned with your torso.",
+        "Slowly lower legs back down without touching the ground, maintaining core engagement. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-reverse-hyperextension"
+    },
+    {
+      "id": 265481761088465,
+      "name": "Bodyweight Waiters Bow",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-waiters-bow"
+    },
+    {
+      "id": 249224310286982,
+      "name": "Bodyweight Staggered Waiters Bow",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-staggered-waiters-bow"
+    }
+  ]
+}

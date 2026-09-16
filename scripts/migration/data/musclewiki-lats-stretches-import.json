@@ -1,0 +1,98 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 57466268548378,
+      "name": "Lats Stretch Variation One",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place both hands on the wall in front of you.",
+        "Slowly lower your body until you feel the stretch.",
+        "Hold at the bottom of the stretch, return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lats-stretch-variation-one"
+    },
+    {
+      "id": 81400543311474,
+      "name": "Lats Stretch Variation Two",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up right and raise your hand to a full stretch above your head.",
+        "Slowly lean across your body and trace the opposite hand down your leg.",
+        "Hold at the bottom of the stretch, return to starting position and then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lats-stretch-variation-two"
+    },
+    {
+      "id": 261564053556488,
+      "name": "Lats Stretch Variation Three",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Find a wall to lean against, lay your tricep against the wall with your hand behind your back.",
+        "Slowly lean into the wall.",
+        "Return to starting position, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lats-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lats-stretch-variation-three"
+    }
+  ]
+}

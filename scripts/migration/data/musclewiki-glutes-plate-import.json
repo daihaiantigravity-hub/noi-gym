@@ -1,0 +1,895 @@
+{
+  "total": 29,
+  "limit": 29,
+  "offset": 0,
+  "count": 29,
+  "results": [
+    {
+      "id": 143756069957674,
+      "name": "Plate Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet shoulder-width apart and hold a weight plate in front of your chest with both hands.",
+        "Keep your back straight, lower your body as if you were sitting back into a chair.",
+        "Go as low as you can while keeping your heels flat on the ground, then push through your heels to return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-squat"
+    },
+    {
+      "id": 70274072852683,
+      "name": "Plate Clean And Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet shoulder-width apart and the plate in front of the feet.",
+        "Bend the knees and hips to pick up the plate, keeping the back straight and core engaged.",
+        "Stand up, lock the hips and legs, and press the plate overhead with straight arms.",
+        "Lower the plate back to the starting position, keeping control of it, and repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-clean-and-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-clean-and-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-clean-and-press"
+    },
+    {
+      "id": 242581266723646,
+      "name": "Plate Squat Reach",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand holding a weight plate at chest height with both hands.",
+        "Lower into a squat, extending the plate in front of you at chest height",
+        "As you stand back up, pull the plate back into your chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-reach-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-reach-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-squat-reach"
+    },
+    {
+      "id": 7802457667291,
+      "name": "Plate Clean",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet shoulder-width apart and the plate in front of the feet.",
+        "Bend the knees and hips to pick up the plate, keeping the back straight and core engaged.",
+        "Stand up while pulling the plate towards the chest.",
+        "Keep shoulder level while keeping the elbows high and in front of the plate."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-clean-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-clean-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-clean"
+    },
+    {
+      "id": 96707575997826,
+      "name": "Plate Squat Hold Reach",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold the plate with both hands at chest height.",
+        "Keeping your core tight and your chest up, squat down as low as you can go while keeping your feet flat on the ground.",
+        "Hold the squat position and reach the plate forward, keeping your arms straight and your back straight.",
+        "Return the plate to your chest while you hold the squat position and repeat reaching the plate in front of you"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-reach-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-reach-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-squat-hold-reach"
+    },
+    {
+      "id": 145729463757326,
+      "name": "Plate Curtsy Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet shoulder-width apart and the plate in front of the torso.",
+        "Step back and across the body with the right foot, bending both legs to lower into a lunge position.",
+        "Push through the front foot to return to the starting position.",
+        "Repeat on the other side by stepping back and across with the left foot.",
+        "Continue alternating sides for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-curtsy-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-curtsy-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-curtsy-lunge"
+    },
+    {
+      "id": 108719359038448,
+      "name": "Plate Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, the plate in front of the feet, and the knees slightly bent.",
+        "Bend the hips and knees to grip the plate with palms facing the body.",
+        "Keeping the back straight, stand up while lifting the plate off the ground.",
+        "Return the plate back to the starting position by bending the hips and knees, keeping control of the plate."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deadlift-front_u46uJRs.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-deadlift"
+    },
+    {
+      "id": 104923032965847,
+      "name": "Plate Squat Hold Curl",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lower into a squat position, keeping the plate at chest height.",
+        "Slowly curl the plate towards your shoulders, keeping your elbows close to your body.",
+        "Hold for a moment at the top of the curl before lowering the plate back to chest height.",
+        "Repeat the curls as you hold the squat position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-squat-hold-curl"
+    },
+    {
+      "id": 225968949527306,
+      "name": "Plate Single Leg Pinch Grip Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width apart and facing forwards. Grip the sides of a weight plate with your palms facing down.",
+        "Balance on one foot, as you raise the weight keep your arms and back straight, while you bring your other foot back towards the ground",
+        "Keep four raised leg straight and in alignment with your back as you lower the plate back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-single-leg-pinch-grip-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-single-leg-pinch-grip-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-single-leg-pinch-grip-deadlift"
+    },
+    {
+      "id": 136431668102811,
+      "name": "Plate Good Morning Anterior",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet hip-width apart, the plate held in front of you, and the knees slightly bent.",
+        "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+        "Push through the hips to return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-good-morning-anterior-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-good-morning-anterior-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-good-morning-anterior"
+    },
+    {
+      "id": 247597537613948,
+      "name": "Plate Good Morning",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet hip-width apart, the plate held behind the neck and the knees slightly bent.",
+        "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+        "Push through the hips to return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-good-morning-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-good-morning-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-good-morning"
+    },
+    {
+      "id": 173054217797090,
+      "name": "Plate Lateral Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet hip-width apart and the plate held in front of the torso.",
+        "Take a step to the side with one foot, bending the knee and lowering the hips into a lunge.",
+        "Push through the front foot to return to the starting position.",
+        "Repeat on the other side by stepping to the other side with the other foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-lateral-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-lateral-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-lateral-lunge"
+    },
+    {
+      "id": 19124960222399,
+      "name": "Plate Forward Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with feet hip-width apart and the plate held in front of the torso.",
+        "Take a step forward with one foot, bending the front knee to lower the hips into a lunge.",
+        "Push through the front foot to return to the starting position.",
+        "Repeat on the other side by stepping forward with the other foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-forward-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-forward-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-forward-lunge"
+    },
+    {
+      "id": 150887023427709,
+      "name": "Plate Single Leg Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Engage your core and straighten your legs to lift the plate off the ground.",
+        "Stand on one leg, keeping the other leg off the ground, while holding the plate in front of your body.",
+        "Keep your back straight and maintain a neutral head position while looking straight ahead.",
+        "Lower the plate back down to the ground while keeping your balance on one leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-single-leg-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-single-leg-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-single-leg-deadlift"
+    },
+    {
+      "id": 62797738117690,
+      "name": "Plate Reverse Lunge Twist",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Step back with your right foot into a lunge position, both knees bent at",
+        "degrees.",
+        "Twist your torso to the right, keeping the plate close to your chest.",
+        "Push through your front foot to return to the starting position and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-reverse-lunge-twist"
+    },
+    {
+      "id": 5260046214147,
+      "name": "Plate Reverse Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the plate at chest height close to your body",
+        "Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your right thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-reverse-lunge"
+    },
+    {
+      "id": 254320307100717,
+      "name": "Plate Overhead Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold a weight plate at arm's length overhead, with your arms fully extended. The plate should be directly above your head and your elbows should be locked.",
+        "Begin to bend your knees, lowering your body as far as you can while keeping the weight plate overhead. Make sure to keep your back straight and your chest lifted.",
+        "Once your thighs are parallel to the ground or as low as you can go, pause for a moment.",
+        "Push through your heels to return to a standing position, keeping the weight plate overhead the entire time."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-overhead-squat"
+    },
+    {
+      "id": 242528155086444,
+      "name": "Plate Deficit Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on a plate with both feet.",
+        "Step back with one foot to the floor and let your back knee get close to or tap the floor.",
+        "Push through your front leg until both feet are back on the plate."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-deficit-lunge"
+    },
+    {
+      "id": 223075455622242,
+      "name": "Plate Glute Bridge to Chest Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the ground with a plate on your chest.",
+        "Push your hips up toward the ceiling and maintain that extended position.",
+        "With your hips up, press the plate toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-glute-bridge-to-chest-press"
+    },
+    {
+      "id": 112869703443012,
+      "name": "Plate Glute Bridge to Pullover",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the ground with a plate on your chest.",
+        "Push your hips up toward the ceiling and maintain that extended position.",
+        "Extend your elbows mostly, break at the shoulder joint while maintaining hip extension and the slight bend in your elbows.",
+        "Let the plate tap the floor (or get close) and then pull the plate back into the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-pullover-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-pullover-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-glute-bridge-to-pullover"
+    },
+    {
+      "id": 169376037299976,
+      "name": "Plate Overhead Walking Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall with a plate overhead.",
+        "Step with one foot forward bringing your back knee to the floor. Gently tap your knee then drive through your front leg.",
+        "Go back to a standing position and then step forward with the opposing legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-walking-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-walking-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-overhead-walking-lunge"
+    },
+    {
+      "id": 103875820636510,
+      "name": "Plate Squat Hold",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart, with a weight plate held in both hands at chest height.",
+        "Lower your body by bending your knees and hips, keeping your back straight and your weight in your heels.",
+        "Go down until your thighs are parallel to the floor, then pause for a moment.",
+        "Hold the squat position for the desired amount of time, keeping the weight plate steady and your core engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-front_LrtgCLV.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-side_mxmbCnO.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-squat-hold"
+    },
+    {
+      "id": 133721459530456,
+      "name": "Plate Staggered Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a weight plate.",
+        "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+        "From this starting position, bend at the hips and knees to lower the plate towards the ground, keeping your back straight and your core engaged.",
+        "Once the plate is below your knees, drive through your heels to stand back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-staggered-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-staggered-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-staggered-deadlift"
+    },
+    {
+      "id": 265814039073667,
+      "name": "Plate Staggered Pinch Grip Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding two plates with a pinch grip.",
+        "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+        "From this starting position, bend at the hips and knees to lower the plates towards the ground, keeping your back straight and your core engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-staggered-pinch-grip-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-staggered-pinch-grip-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-staggered-pinch-grip-deadlift"
+    },
+    {
+      "id": 58613266635041,
+      "name": "Plate Thruster",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start with the plate at chest height. Begin a squat.",
+        "Make sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.",
+        "Let the plate return to chest height before initiating the next squat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-thruster-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-thruster-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-thruster"
+    },
+    {
+      "id": 274021403667053,
+      "name": "Plate Goblet Deficit Reverse Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, Holding a plate to your chest, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-goblet-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-goblet-deficit-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-goblet-deficit-reverse-lunge"
+    },
+    {
+      "id": 169984965244344,
+      "name": "Plate Staggered Waiters Bow",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-staggered-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-staggered-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-staggered-waiters-bow"
+    },
+    {
+      "id": 18767071994054,
+      "name": "Plate Waiters Bow",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-waiters-bow"
+    },
+    {
+      "id": 67516238246190,
+      "name": "Plate Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall holding plate against outer thigh or anchored between legs.",
+        "Lift leg outward to the side while keeping torso still and toes forward.",
+        "Lower slowly under control, maintaining tension on outer hip."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-hip-abduction"
+    }
+  ]
+}

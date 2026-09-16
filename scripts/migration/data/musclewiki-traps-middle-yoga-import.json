@@ -1,0 +1,132 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 262019156908331,
+      "name": "Cat Pose",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin on your hands and knees with your wrists directly under your shoulders and your knees directly under your hips.",
+        "Inhale and arch your back, lifting your tailbone and head towards the ceiling, while lowering your belly towards the floor.",
+        "Exhale and round your spine, tucking your chin towards your chest, and bringing your tailbone towards your knees.",
+        "Repeat these movements, flowing smoothly between the two poses, for several breaths."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-cat-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-cat-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cat-pose"
+    },
+    {
+      "id": 244534970597380,
+      "name": "Revolved Side Angle Pose With Prayer Hands Beginner",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a low lunge position with your right foot forward and your left knee on the ground.",
+        "Bring your hands together in a prayer position at your heart.",
+        "Exhale and twist your torso to the right, placing your left elbow on the outside of your right knee.",
+        "Hold for several breaths and then repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/revolved-side-angle-pose-with-prayer-hands-beginner"
+    },
+    {
+      "id": 221493445816394,
+      "name": "Revolved Side Angle Pose With Prayer Hands",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin in Warrior II pose, with your right foot forward and your left foot back.",
+        "Bring your hands together in a prayer position at your heart.",
+        "Exhale and twist your torso to the right, placing your left elbow on the outside of your right knee.",
+        "Hold for several breaths and then repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-side-angle-pose-with-prayer-hands-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-side-angle-pose-with-prayer-hands-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/revolved-side-angle-pose-with-prayer-hands"
+    },
+    {
+      "id": 29658665526495,
+      "name": "Seated Twist",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin seated with your legs extended in front of you.",
+        "Bend your right knee and place your foot on the floor next to your left thigh.",
+        "Inhale and reach your left arm up towards the ceiling.",
+        "Exhale and twist to the right, placing your left elbow on the outside of your right knee. Hold for a few breaths and then repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-twist-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-twist-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/seated-twist"
+    }
+  ]
+}

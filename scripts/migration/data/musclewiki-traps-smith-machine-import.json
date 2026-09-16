@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 252223084093915,
+      "name": "Smith Machine Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a double overhand roughly shoulder width grip.",
+        "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+        "lower the bar and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-upright-row"
+    }
+  ]
+}

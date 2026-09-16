@@ -1,0 +1,66 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 168235911221211,
+      "name": "Bosu Ball Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the bosu vertically.",
+        "Flex your elbows curling the bosu toward your chin."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-curl-front_uvdjux0.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-curl-side_9ZtClX2.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-curl"
+    },
+    {
+      "id": 55585980554026,
+      "name": "Bosu Ball Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold bosu and hinge forward.",
+        "Pull bosu towards chest, squeezing shoulder blades."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-front_vJao3jZ.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-side_Pk4xlaf.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-row"
+    }
+  ]
+}

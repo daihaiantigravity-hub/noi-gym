@@ -1,0 +1,128 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 247480743398871,
+      "name": "Smith Machine Underhand Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Begin by standing in front of a bar with your feet about hip-width apart.",
+        "Bend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest.",
+        "As the bar reaches your chest, pause briefly, and then lower the bar back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-underhand-row"
+    },
+    {
+      "id": 139620319732291,
+      "name": "Smith Machine Inverted Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-inverted-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-inverted-row"
+    },
+    {
+      "id": 19137197055096,
+      "name": "Smith Machine Overhand Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start hinged forward with a flat back. Make sure your elbows are fully extended.",
+        "Pull the bar to your sternum."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-overhand-row"
+    },
+    {
+      "id": 41635966330742,
+      "name": "Smith Machine Assisted Pullup",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended. Leave your feet on the floor.",
+        "Pull your body up until your chin is above the bar. Use your legs top assist you up.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-assisted-pullup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-assisted-pullup"
+    }
+  ]
+}

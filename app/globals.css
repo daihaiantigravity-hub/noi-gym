@@ -5017,18 +5017,37 @@ button {
   min-height: 0;
   flex: 1;
   min-width: 0;
+}
+
+.body-profile__map-stage {
+  position: relative;
+  display: flex;
+  width: min(100%, 560px);
+  height: auto;
+  aspect-ratio: 660.46 / 1206.46;
+  flex: none;
+  min-height: 0;
   align-items: flex-end;
   justify-content: center;
 }
 
 .body-profile__svg {
   display: flex;
-  width: min(100%, 560px);
+  position: absolute;
+  inset: 0;
+  width: 100%;
   height: 100%;
   min-height: 0;
   align-items: flex-end;
   justify-content: center;
   cursor: pointer;
+}
+
+.body-profile__svg--overlay,
+.body-profile__svg--overlay .bodymap,
+.body-profile__svg--overlay .bodymap path {
+  pointer-events: none !important;
+  cursor: default !important;
 }
 
 .body-profile__svg>div {
@@ -5069,6 +5088,68 @@ button {
   fill: rgba(255, 91, 127, 0.78) !important;
   stroke: #ff5b7f !important;
   filter: drop-shadow(0 0 7px rgba(255, 91, 127, 0.55));
+}
+
+.body-profile__hotspots {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.body-profile__hotspot-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.body-profile__hotspot-overlay a {
+  pointer-events: auto;
+  outline: none;
+}
+
+.body-profile__hotspot-halo {
+  fill: #ff5b7f;
+  opacity: 0.26;
+  transition: opacity 160ms ease, transform 160ms ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.body-profile__hotspot-dot {
+  fill: #ff5b7f;
+  stroke: #fff;
+  stroke-width: 3;
+  transition: filter 160ms ease, transform 160ms ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.body-profile__hotspot-overlay a:hover .body-profile__hotspot-halo,
+.body-profile__hotspot-overlay a:focus-visible .body-profile__hotspot-halo {
+  opacity: 0.52;
+  transform: scale(1.16);
+}
+
+.body-profile__hotspot-overlay a:hover .body-profile__hotspot-dot,
+.body-profile__hotspot-overlay a:focus-visible .body-profile__hotspot-dot {
+  filter: drop-shadow(0 0 7px rgba(255, 91, 127, 0.62));
+  transform: scale(1.14);
+}
+
+.body-profile__hotspots--joints .body-profile__hotspot-halo {
+  fill: #1974bd;
+}
+
+.body-profile__hotspots--joints .body-profile__hotspot-dot {
+  fill: #1974bd;
+}
+
+.body-profile__hotspots--joints .body-profile__hotspot-overlay a:hover .body-profile__hotspot-dot,
+.body-profile__hotspots--joints .body-profile__hotspot-overlay a:focus-visible .body-profile__hotspot-dot {
+  filter: drop-shadow(0 0 7px rgba(25, 116, 189, 0.62));
 }
 
 .body-profile__loading {
@@ -5636,4 +5717,89 @@ button {
   .exercise-detail-hero-track {
     gap: 14px;
   }
+}
+.body-profile-mode-switcher {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 24px;
+  padding: 4px;
+  gap: 4px;
+  border: 1px solid rgba(72, 74, 104, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.42);
+  overflow-x: auto;
+}
+
+.body-profile-mode-switcher__item {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 17px;
+  color: #53647b;
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.body-profile-mode-switcher__item--active {
+  color: #fff;
+  background: #34445c;
+  box-shadow: 0 4px 12px rgba(52, 68, 92, 0.22);
+}
+
+.body-profile-target-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  align-content: start;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.body-profile-target-card {
+  position: relative;
+  display: flex;
+  min-height: 104px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  padding: 18px 42px 18px 19px;
+  border: 1px solid rgba(72, 74, 104, 0.15);
+  border-radius: 20px;
+  color: #263b54;
+  background: rgba(255, 255, 255, 0.52);
+  text-decoration: none;
+  transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
+}
+
+.body-profile-target-card:hover,
+.body-profile-target-card:focus-visible {
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 24px rgba(52, 68, 92, 0.13);
+  transform: translateY(-2px);
+}
+
+.body-profile-target-card__mode {
+  color: #6e7c91;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.body-profile-target-card strong {
+  font-size: 17px;
+  letter-spacing: -0.02em;
+}
+
+.body-profile-target-card__arrow {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  color: #ff5b7f;
+  font-size: 26px;
+  line-height: 1;
+  transform: translateY(-50%);
 }

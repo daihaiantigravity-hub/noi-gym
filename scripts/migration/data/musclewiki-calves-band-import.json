@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 80089610169238,
+      "name": "Band Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Attach band to a low anchor point.",
+        "Take a few steps away until the band is taut.",
+        "Lean back slightly. Raise your heels straight up and down"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-calf-raise"
+    }
+  ]
+}

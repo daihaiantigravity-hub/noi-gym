@@ -1,0 +1,602 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 262061805112850,
+      "name": "Cable Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.",
+        "Use both your elbows and shoulders to press the weight directly overhead."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-overhead-press"
+    },
+    {
+      "id": 20823888208286,
+      "name": "Cable Chest Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment. The cables should be set to shoulder height.",
+        "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+        "Walk a few steps forward. Then press the weight forward.",
+        "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-chestpress-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-chestpress-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-chest-press"
+    },
+    {
+      "id": 107900919955515,
+      "name": "Cable Low Single Arm Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment with the cable set all the way to the bottom of the machine.",
+        "You should vertically abduct at the shoulder raising your arm straight out to the side.",
+        "Raise until your arm is parallel with the ground and then back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-lateral-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-lateral-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-low-single-arm-lateral-raise"
+    },
+    {
+      "id": 197736034332259,
+      "name": "Cable Upright Row",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Use a handle attachment with the cable set to the bottom of the machine.",
+        "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-upright-row"
+    },
+    {
+      "id": 186755549045953,
+      "name": "Cable Y Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand over crossed low cables, holding the opposite handle in each hand.",
+        "Raise your arms upward and outward, forming a Y shape.",
+        "Pause near overhead, then slowly lower the handles."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-y-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-y-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-y-raise"
+    },
+    {
+      "id": 198896183149237,
+      "name": "Cable Bilateral Cross Upright Row",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand between crossed low cables, holding the opposite handle in each hand.",
+        "Pull both handles upward, leading with your elbows.",
+        "Stop near chest height, then lower the handles slowly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-cross-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-cross-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bilateral-cross-upright-row"
+    },
+    {
+      "id": 45635906897746,
+      "name": "Cable Thruster",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold low cable handles at shoulder height with your feet shoulder-width apart.",
+        "Squat down while keeping your chest raised and knees tracking outward.",
+        "Stand powerfully and press both handles overhead until your arms are extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-thruster"
+    },
+    {
+      "id": 111672393210004,
+      "name": "Cable Behind The Back Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the cable all the way at the bottom and stand with the cable crossing behind your body.",
+        "While keeping your elbow mostly extended, lift your arm until it's parallel with the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-behind-the-back-lateral-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-behind-the-back-lateral-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-behind-the-back-lateral-raise"
+    },
+    {
+      "id": 272313290917759,
+      "name": "Cable Standing Single Arm Chest Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand sideways to cable and hold handle at chest height with elbow bent.",
+        "Brace core and press handle straight forward without rotating torso.",
+        "Squeeze chest at extension, then return handle slowly to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-single-arm-chest-press"
+    },
+    {
+      "id": 81320237259088,
+      "name": "Cable Standing Single Arm Incline Chest Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand sideways to cable with handle set low, holding it at chest height.",
+        "Press handle upward and forward at a slight diagonal, keeping torso stable.",
+        "Squeeze chest at the top, then return slowly to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-incline-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-incline-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-single-arm-incline-chest-press"
+    },
+    {
+      "id": 262034034523253,
+      "name": "Cable Internal Rotation",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall, hold the cable handle with a neutral grip, your elbow should be at a",
+        "degree angle.",
+        "Rotate your shoulder by bringing your forearm across your body."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-internal-rotation-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-internal-rotation-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-internal-rotation"
+    },
+    {
+      "id": 279680051583467,
+      "name": "Cable Rope Upright Row",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a rope attachment with the cable set to the bottom of the machine.",
+        "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-upright-row"
+    },
+    {
+      "id": 183502259953740,
+      "name": "Cable Rope Front Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Face away from the cables. Use a rope attachment.",
+        "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-front-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-front-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-front-raise"
+    },
+    {
+      "id": 193172925386287,
+      "name": "Cable Rope Mid Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the cable at the same height as your fist when your arms are at your side and stand with the cable crossing your body.",
+        "While keeping your elbow mostly extended, lift your arm until it's parallel with the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-mid-lateral-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-mid-lateral-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-mid-lateral-raise"
+    },
+    {
+      "id": 118108235997873,
+      "name": "Cable Rope Single Arm Low Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a rope attachment with the cable set all the way to the bottom of the machine.",
+        "You should vertically abduct at the shoulder raising your arms straight out to the side.",
+        "Raise until your arms are parallel with the ground and then back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-low-lateral-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-low-lateral-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-single-arm-low-lateral-raise"
+    },
+    {
+      "id": 270840584797528,
+      "name": "Cable Bar Front Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Face away from the cables.",
+        "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-front-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-front-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bar-front-raise"
+    },
+    {
+      "id": 41539237414093,
+      "name": "Cable Low Bilateral Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment with the cable set all the way to the bottom of the machine.",
+        "You should vertically abduct at the shoulder raising your arms straight out to the side.",
+        "Raise until your arms are parallel with the ground and then back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-low-bilateral-lateral-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-low-bilateral-lateral-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-low-bilateral-lateral-raise"
+    },
+    {
+      "id": 51426087015402,
+      "name": "Cable Decline Bench Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. Bring a bench over to the cables. The cables should be set above height.",
+        "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+        "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-decline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-decline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-decline-bench-press"
+    },
+    {
+      "id": 170907194279973,
+      "name": "Cable Bench Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment. Bring a bench over to the cables. The cables should be set to shoulder height.",
+        "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+        "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bench-press"
+    },
+    {
+      "id": 259035241601681,
+      "name": "Cable Decline Single Arm Bench Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. Bring a bench over to the cables. The cable should be set above shoulder height.",
+        "Bring one handles to your chest and make sure you are in the center of the cable crossover.",
+        "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-decline-single-arm-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-decline-single-arm-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-decline-single-arm-bench-press"
+    }
+  ]
+}

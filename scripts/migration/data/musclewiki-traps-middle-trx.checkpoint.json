@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps-middle/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps-middle/trx",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps-middle/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Rear Delt Fly",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-rear-delt-fly",
+      "cardText": "TRX Rear Delt Fly\nIntermediate\n1\nStand facing away from the TRX straps and grab the handles with both hands.\n2\nStep forward so that your body is in a plank position, with your arms straight and your body in a straight line from your head to your heels.\n3\nKeeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a \"T\" shape.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rear-delt_fly-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rear-delt_fly-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Rear Delt Row",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-rear-delt-row",
+      "cardText": "TRX Rear Delt Row\nBeginner\n1\nStand facing away from the TRX straps and grab the handles with both hands.\n2\nStep away so your body is leaning away from the anchor point.\n3\nFlex your elbows and pull your elbows straight back behind your body.\n4\nMake sure to keep your elbows flared outward.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rear-delt-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rear-delt-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX W Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-w-raise",
+      "cardText": "TRX W Raise\nBeginner\n1\nHold the TRX straps and lean away from the anchor point.\n2\nPull your elbows back while externally rotating your shoulder joint. Your arms should make a W shape at the back portion of the exercise.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-W-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-W-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

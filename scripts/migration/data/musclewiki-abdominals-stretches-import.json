@@ -1,0 +1,129 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 103241385657246,
+      "name": "Abdominals Stretch Variation One",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on your stomach on the floor with your forearms flat on the ground.",
+        "Extend your elbows and push your upper body upwards.",
+        "Push your upper body upwards until you feel a stretch in your abs, then return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/abdominals-stretch-variation-one"
+    },
+    {
+      "id": 109827239210536,
+      "name": "Abdominals Stretch Variation Two",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand upright.",
+        "Reach with both hands upwards until you can interlock your fingers.",
+        "With your hands above your head, lean back until a stretch is felt in the abdominals."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/abdominals-stretch-variation-two"
+    },
+    {
+      "id": 271370323980553,
+      "name": "Abdominals Stretch Variation Three",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand upright.",
+        "After completing the desired amount of reps with the left arm, switch to the right arm and lean to the left.",
+        "Reach up with your left arm and then lean slowly to the right. Lean until a stretch is felt in the obliques."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/abdominals-stretch-variation-three"
+    },
+    {
+      "id": 244026696091204,
+      "name": "Abdominals Stretch Variation Four",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay on a ball or a Bosu ball with your feet firmly planted on the floor.",
+        "Lean all the way back until you feel a stretch in your abdomen.",
+        "Crunch upwards and hold for a 1-2 count.",
+        "Slowly return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-4-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-abdominals-stretch-variation-4-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/abdominals-stretch-variation-four"
+    }
+  ]
+}

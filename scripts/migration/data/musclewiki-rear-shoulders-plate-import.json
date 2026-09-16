@@ -1,0 +1,68 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 151836744974337,
+      "name": "Plate Internally Rotated Rear Delt Fly",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "With plates in either hand, bend your knees with your feet slightly bowed out. Hinge forward with a flat back.",
+        "Maintain an overhand grip and internally rotated shoulders.",
+        "Raise your arms backward toward the ceiling while maintaining a light band in your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-internally-rotated-rear-delt-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-internally-rotated-rear-delt-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-internally-rotated-rear-delt-fly"
+    },
+    {
+      "id": 124917917903520,
+      "name": "Plate Rear Delt Fly",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Keep your back straight and bend forward slightly at the waist.",
+        "With arms extended, raise the weights out to your sides until they are in line with your shoulders.",
+        "Pause briefly and then lower the weights back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-rear-delt-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-rear-delt-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-rear-delt-fly"
+    }
+  ]
+}

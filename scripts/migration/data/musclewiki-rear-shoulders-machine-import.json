@@ -1,0 +1,126 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 229855075023210,
+      "name": "Machine Overhand Row",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine, feet flat, and grab the handles with palms facing down, keeping your back straight.",
+        "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+        "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhand-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhand-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-overhand-row"
+    },
+    {
+      "id": 279720363362740,
+      "name": "Machine Reverse Fly",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on machine and press your chest into the pad.",
+        "Grab the handles with an overhand grip. Keep your elbows mostly extended.",
+        "Bring your arms backwards and squeeze your scapula together."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-reverse-fly"
+    },
+    {
+      "id": 234312271332878,
+      "name": "Machine Plate Loaded Low Row",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Press your chest into the chest pad and grab the horizontal handles with an overhand grip.",
+        "Pull the handles toward you, make sure your elbows stay flared out."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-low-row"
+    },
+    {
+      "id": 111414720169474,
+      "name": "Machine Rear Deltoid Row",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your chest against the pad and grab the handles with an overhand grip.",
+        "Pull your elbows straight back and keep your elbows flared throughout the rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-rear-deltoid-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-rear-deltoid-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-rear-deltoid-row"
+    }
+  ]
+}

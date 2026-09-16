@@ -1,0 +1,1700 @@
+{
+  "total": 56,
+  "limit": 56,
+  "offset": 0,
+  "count": 56,
+  "results": [
+    {
+      "id": 94137702848114,
+      "name": "Bodyweight Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart.",
+        "flex your knees and hips and sit back into the squat while lowering your body",
+        "Continue down to full depth",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-squat"
+    },
+    {
+      "id": 170574150103388,
+      "name": "Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie down with your knees bent and your feet flat on the floor.",
+        "Push your hips up so that your butt is elevated and your back straight.",
+        "Tense your glutes and raise your hips towards the ceiling.",
+        "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-glute-bridge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-glute-bridge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glute-bridge"
+    },
+    {
+      "id": 118155402003645,
+      "name": "Single Legged Romanian Deadlifts",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart and knees slightly bent and raise one leg.",
+        "Without changing the bend in your knee, bend at your hips, and lower your torso until it's almost parallel to the floor.",
+        "Tense your glutes and then bring yourself back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-legged-romanian-deadlifts"
+    },
+    {
+      "id": 190908074422083,
+      "name": "Kickbacks",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Get down on all fours and position your hands under your shoulders and your knees under your hips.",
+        "Kick back with one leg and squeeze your glutes.",
+        "Slowly return to starting position by bending your knee and lowering your leg.",
+        "Switch Legs. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-kickbacks-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-kickbacks-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kickbacks"
+    },
+    {
+      "id": 174773526005482,
+      "name": "Forward Lunges",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Step forward with one leg.",
+        "Lower your body until your rear knee nearly touches the ground.",
+        "Ensure you remain upright, and your front knee stay above the front foot.",
+        "Push off the floor with your front foot until you return to the starting position. Switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-lunges-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-lunges-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forward-lunges"
+    },
+    {
+      "id": 84175621673366,
+      "name": "Good Mornings",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head.",
+        "Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/good-mornings"
+    },
+    {
+      "id": 94681525459409,
+      "name": "Jump Squats",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, then engage your core and jump up explosively.",
+        "When you land, lower your body back into the squat position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-jump-squats-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-jump-squats-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/jump-squats"
+    },
+    {
+      "id": 266785570685297,
+      "name": "Bulgarian Split Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your back to a bench (or raised surface) and place one of your feet on the bench.",
+        "Squat down until your front leg is about parallel to the floor.",
+        "Go back to the starting position. After completing the desired amount of reps, switch legs and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bulgarian-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bulgarian-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bulgarian-split-squat"
+    },
+    {
+      "id": 191211191585371,
+      "name": "Side Lunges",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Take a slow, lateral step to the right.",
+        "Extend the left knee, and drive your weight into your right side.",
+        "Flex your knee and lower your body.",
+        "Push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/side-lunges"
+    },
+    {
+      "id": 110330796626419,
+      "name": "Single Leg Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Tense your glutes and raise your hips towards the ceiling.",
+        "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position.",
+        "Push your hips up, so that your butt is elevated and your back straight.",
+        "Lie down with one knee bent and and one with a slight bend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-leg-glute-bridge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-leg-glute-bridge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-leg-glute-bridge"
+    },
+    {
+      "id": 141423578779415,
+      "name": "Bodyweight Curtsy Step Down",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall on platform and cross free leg diagonally behind you.",
+        "Lower body by bending standing knee, keeping hips square.",
+        "Drive through standing heel to return upright with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-step-down-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-step-down-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-curtsy-step-down"
+    },
+    {
+      "id": 279469009733823,
+      "name": "Half Kneeling Hip Hinge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one knee on a bench.",
+        "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-kneeling-hip-hinge"
+    },
+    {
+      "id": 4526561305790,
+      "name": "Stability Ball Wall Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, placing a stability ball between your lower back and wall.",
+        "Slowly squat down by bending knees to",
+        "degrees, keeping back straight and core engaged.",
+        "Press through heels, straighten legs, and return to standing while maintaining balance and control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-wall-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-wall-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-wall-squat"
+    },
+    {
+      "id": 122936507452297,
+      "name": "Bodyweight Stability Ball Hyperextension",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head.",
+        "Engage your core, lift your upper body until aligned with legs, keeping your neck neutral.",
+        "Lower your torso slowly back to the starting position, maintaining control and steady breathing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-stability-ball-hyperextension"
+    },
+    {
+      "id": 196952115744784,
+      "name": "Stability Ball Reverse Hyperextension",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie face down on a stability ball, hands on the floor, legs extended straight.",
+        "Engage glutes and lower back, raising legs until aligned with your torso.",
+        "Slowly lower legs back down without touching the ground, maintaining core engagement. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-reverse-hyperextension"
+    },
+    {
+      "id": 148977555321871,
+      "name": "Stability Ball Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the floor, place upper back on a stability ball, feet flat, knees bent.",
+        "Drive hips upward by squeezing glutes, forming a straight line from shoulders to knees.",
+        "Lower hips slowly without touching the floor, maintaining core engagement, then repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-hip-thrust"
+    },
+    {
+      "id": 62432389504716,
+      "name": "Stability Ball Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying flat on your back with your feet resting on top of a ball.",
+        "Push through your heels and raise your hips towards the ceiling, keeping your feet flat on the bar.",
+        "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-glute-bridge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-glute-bridge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-glute-bridge"
+    },
+    {
+      "id": 239108755029479,
+      "name": "Stability Ball Straight Leg Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back, heels on a stability ball, legs straight, arms by your sides.",
+        "Press through your heels, lift hips, engage glutes and core, forming a straight line.",
+        "Slowly lower hips, maintaining control, then repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-straight-leg-glute-bridge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-straight-leg-glute-bridge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-straight-leg-glute-bridge"
+    },
+    {
+      "id": 274693862637314,
+      "name": "Stability Ball Single Leg Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on the ball, one foot on the ground.",
+        "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+        "From this starting position, slowly lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-single-leg-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-single-leg-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-single-leg-hip-thrust"
+    },
+    {
+      "id": 222896604904592,
+      "name": "Bodyweight Curtsy Deficit Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping bar stable throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-deficit-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-deficit-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-curtsy-deficit-lunge"
+    },
+    {
+      "id": 277153625541873,
+      "name": "Bodyweight Feet Elevated Staggered Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying on your back with your knees bent and feet in a staggered position on the box.",
+        "Drive through your heels to lift your hips off the floor, making sure to keep your feet and knees pointing forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-feet-elevated-staggered-glute-bridge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-feet-elevated-staggered-glute-bridge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-feet-elevated-staggered-glute-bridge"
+    },
+    {
+      "id": 63572228692074,
+      "name": "Box Jump",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand in front of a box.",
+        "*Start with a low box if this is your first time*",
+        "Sink into a quarter of half squat and then pop your hips forward.",
+        "Try to land in the middle of the box as softly as possible to minimise impact on your joints."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-box-jump-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-box-jump-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/box-jump"
+    },
+    {
+      "id": 253993780146187,
+      "name": "Depth Jump",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on top of a box. Step off of the box and land on the floor.",
+        "Land as softly as possible. Squat as you land to minimise impact on your joints.",
+        "Go straight into another hop after you've landed. This will help you learn to absorb impact."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-depth-jump-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-depth-jump-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/depth-jump"
+    },
+    {
+      "id": 149203884767128,
+      "name": "Seated Box Jump",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Setup two boxes. One to jump on and one to sit.",
+        "Go from a seated position and pop your hips forward forcefully.",
+        "Jump and land on the box softly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-seated-box-jump-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-seated-box-jump-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/seated-box-jump"
+    },
+    {
+      "id": 236904785298471,
+      "name": "Single Leg Box Jump",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with a shoulder width stance.",
+        "Jump onto your box and land with one foot.",
+        "Try to land in the middle of the box and land as softly as possible."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-leg-box-jump-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-leg-box-jump-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-leg-box-jump"
+    },
+    {
+      "id": 159560316299742,
+      "name": "Bodyweight Alternating Jump Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a standing position.",
+        "Lunge forward, switch legs mid-air.",
+        "Land and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-jump-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-jump-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-jump-lunge"
+    },
+    {
+      "id": 248812019708941,
+      "name": "Bodyweight Figure Four Heels Elevated Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying on a bench with your foot resting on top of a box, and cross one leg over the other.",
+        "Push through your heels and raise your hips towards the ceiling, keeping your feet flat on the box.",
+        "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-figure-four-heels-elevated-hip-thrust-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-figure-four-heels-elevated-hip-thrust-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-figure-four-heels-elevated-hip-thrust"
+    },
+    {
+      "id": 178837438990897,
+      "name": "Bodyweight Heels Elevated Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Put your shoulder blades on a bench. Both feet on a low box or a plate.",
+        "Start with your hips up.",
+        "Drop your hips and then push your hips up toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-heels-elevated-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-heels-elevated-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-heels-elevated-hip-thrust"
+    },
+    {
+      "id": 110123067921187,
+      "name": "Bodyweight Lateral Lunge Jump",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start with a shoulder width stance.",
+        "Jump laterally and fall into a squat. Tap the ground.",
+        "Jump the opposite direction"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-lateral-lunge-jump-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-lateral-lunge-jump-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-lateral-lunge-jump"
+    },
+    {
+      "id": 65065140484801,
+      "name": "Bodyweight Pulse Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold a dumbbell in goblet position.",
+        "Squat down to parallel depth and then halfway back up.",
+        "Stay in this short range of motion for the duration of the set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pulse-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pulse-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pulse-squat"
+    },
+    {
+      "id": 175772188115500,
+      "name": "Bodyweight Single Leg Heels Elevated Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying on a bench with your foot on a plate or low box.",
+        "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+        "From this starting position, slowly lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-heels-elevated-hip-thrust-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-heels-elevated-hip-thrust-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-single-leg-heels-elevated-hip-thrust"
+    },
+    {
+      "id": 129261613996499,
+      "name": "Bodyweight Swing Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position.",
+        "Step back with the same leg until the back knee taps the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swing-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swing-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-swing-lunge"
+    },
+    {
+      "id": 99507369855125,
+      "name": "Bodyweight Swingthrough Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position.",
+        "Step back with the same leg until the back knee taps the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swingthrough-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swingthrough-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-swingthrough-lunge"
+    },
+    {
+      "id": 133776912886305,
+      "name": "In And Out Jump Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, then engage your core and jump up explosively.",
+        "Narrow your stance while in the air, and land softly. Go directly into another rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-in-and-out-jump-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-in-and-out-jump-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/in-and-out-jump-squat"
+    },
+    {
+      "id": 19389924243878,
+      "name": "Pole Overhead Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.",
+        "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+        "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+        "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pole-overhead-squat"
+    },
+    {
+      "id": 88482520370308,
+      "name": "Bodyweight Pop Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, tap the floor, then engage your core and jump up explosively.",
+        "Bring your feet mostly together, tap your toes back to the floor, then bring your feet back their original width."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pop-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pop-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pop-squat"
+    },
+    {
+      "id": 134433394472690,
+      "name": "Bodyweight Alternating Curtsy Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place the barbell on your back",
+        "Step your foot back and around while simultaneously bringing the weight down.",
+        "Return to start and repeat on other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-curtsy-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-curtsy-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-curtsy-lunge"
+    },
+    {
+      "id": 189766369297791,
+      "name": "Bodyweight Alternating Lateral Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall, feet hip-width apart.",
+        "Step right, lunge to side.",
+        "Return, then lunge left."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-lateral-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-lateral-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-lateral-lunge"
+    },
+    {
+      "id": 66713391060070,
+      "name": "Bodyweight Alternating Reverse Lunges",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet together.",
+        "Step back with right foot.",
+        "Return to starting position, then lunge with left foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-reverse-lunges-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-reverse-lunges-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-reverse-lunges"
+    },
+    {
+      "id": 261081415641075,
+      "name": "Bodyweight Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Abduct at the hips and raise your leg out to the side.",
+        "Return to the starting position and stop just short of your foot touching back to the ground (to keep tension on the muscle)."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-hip-abduction"
+    },
+    {
+      "id": 79117409630790,
+      "name": "Bodyweight Step Up Knee Drive",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height.",
+        "Place your right foot on the box and push through the heel to lift your body up and onto the box, bring your off leg all the way through until your leg is parallel with the ground.",
+        "Step back down with your right foot, lowering your left foot to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/step-up-knee-drive"
+    },
+    {
+      "id": 242385090893904,
+      "name": "Hamstring Bridge With Elevated Legs Box Unilateral",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back. Place one heel on a box or bench, having a 90° angle at hip and knee.",
+        "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+        "Push through your heel into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-unilateral-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-unilateral-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-with-elevated-legs-box-unilateral"
+    },
+    {
+      "id": 16968785838723,
+      "name": "Hamstring Bridge With Elevated Legs Box Bilateral",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back. Place your heels on a box or bench, having a 90° angle at hips and knees.",
+        "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+        "Push through your heels into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-bilateral-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-bilateral-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-with-elevated-legs-box-bilateral"
+    },
+    {
+      "id": 121254139561276,
+      "name": "Hamstring Bridge Isometric Open Angle",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back with knees slightly bent and heels dug in.",
+        "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+        "Press the heels into the ground to raise your hips off it.",
+        "Hold the position for the specified duration."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-isometric-open-angle-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-isometric-open-angle-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-isometric-open-angle"
+    },
+    {
+      "id": 91520852426617,
+      "name": "Glute Bridge Isometric Hold Single Alternate",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie on your back. Bend your knees so your feet are flat on the floor with heels under knees",
+        "Push through your heels into the ground, lifting your hips up to the point where there is a straight line from your chest to your knees. Squeeze your bum at the top of the movement",
+        "Maintain the top position and extend one leg at the time."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-glute-bridge-isometric-hold-single-alternate-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-glute-bridge-isometric-hold-single-alternate-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glute-bridge-isometric-hold-single-alternate"
+    },
+    {
+      "id": 278409910389238,
+      "name": "Glute Bridge Eccentric Unilateral",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie down with your knees bent and your feet flat on the floor.",
+        "Push your hips up so that your butt is elevated and your back straight.",
+        "Tense your glutes and raise your hips towards the ceiling.",
+        "Once you are at the highest point you can manage, hold the position for a few seconds, and raise one leg off the ground.",
+        "Lower slowly to the start position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-glute-bridge-eccentric-unilateral-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-glute-bridge-eccentric-unilateral-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glute-bridge-eccentric-unilateral"
+    },
+    {
+      "id": 176562344535947,
+      "name": "Bodyweight Alternating Forward Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position. Then switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-alternate-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-alternate-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lunge-alternate"
+    },
+    {
+      "id": 1706443532177,
+      "name": "Walking Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a step forward shifting your weight onto the front leg.",
+        "Bend the knee of the front leg so the knee of the back leg comes close to the ground.",
+        "Stand up and go into lunging with the opposite leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-walking-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-walking-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lunge-walking"
+    },
+    {
+      "id": 181838276853978,
+      "name": "Bodyweight Box Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand in front of a box or bench with your feet shoulder-width apart.",
+        "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up.",
+        "Push through your heels to return to the standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-box-squat"
+    },
+    {
+      "id": 147769176166075,
+      "name": "Bodyweight Kickstand Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet hip-width apart, one foot slightly behind.",
+        "Lower into a squat, keeping weight on front heel.",
+        "Return to standing, engaging glutes and core."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-kickstand-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-kickstand-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-kickstand-squat"
+    },
+    {
+      "id": 161221736962441,
+      "name": "Bodyweight Ninety Ninety Hip Stretch",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit with one leg in front of you flat on the ground.",
+        "While the other leg is to your side, also flat on the ground with your foot pointed backwards.",
+        "Hold this position for the prescribed amount of time then change sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-ninety-ninety-hip-stretch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-ninety-ninety-hip-stretch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-ninety-ninety-hip-stretch"
+    },
+    {
+      "id": 269382828547022,
+      "name": "Bodyweight Single Leg Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on one leg, extend the other forward for balance.",
+        "Lower into a squat, keeping your chest up and core tight.",
+        "Press through your heel to stand back up, repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-single-leg-squat"
+    },
+    {
+      "id": 57501666497493,
+      "name": "Bodyweight Deficit Reverse Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-deficit-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-deficit-reverse-lunge"
+    },
+    {
+      "id": 249224310286982,
+      "name": "Bodyweight Staggered Waiters Bow",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-staggered-waiters-bow"
+    },
+    {
+      "id": 265481761088465,
+      "name": "Bodyweight Waiters Bow",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-waiters-bow"
+    },
+    {
+      "id": 215318497162323,
+      "name": "Bodyweight Quad Stomp",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place your foot on a plate or a low box.",
+        "Put all of your weight on your front foot and lean forward.",
+        "Lower until your calves touch your hamstrings and then extend back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-quad-stomp-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-quad-stomp-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-quad-stomp"
+    }
+  ]
+}

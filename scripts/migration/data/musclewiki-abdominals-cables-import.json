@@ -1,0 +1,310 @@
+{
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "count": 10,
+  "results": [
+    {
+      "id": 10211639703203,
+      "name": "Cable Row Bar Kneeling Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a double handle attachment and set the cable all the way to the top.",
+        "Walk a few steps forward then fall into a kneeling position.",
+        "Push your hips back and flex your abs, then push hips forward until in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-row-bar-kneeling-crunch"
+    },
+    {
+      "id": 273901270601312,
+      "name": "Cable Standing Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a double handle attachment and set the cable all the way to the top.",
+        "Face away from the cable tower and walk a few steps forward.",
+        "Push your hips back, and flex your abs.",
+        "Return to the starting standing position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-crunch"
+    },
+    {
+      "id": 43228588389453,
+      "name": "Cable Rope Kneeling Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a rope attachment and set the cable all the way to the top.",
+        "Walk a few steps forward then fall into a kneeling position.",
+        "Push your hips back and flex your abs, then push hips forward until in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-kneeling-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-kneeling-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-kneeling-crunch"
+    },
+    {
+      "id": 114607692744408,
+      "name": "Cable Rope Kneeling Oblique Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a rope attachment and set the cable all the way to the top.",
+        "Walk a few steps forward then fall into a kneeling position.",
+        "Push your hips back and flex your abs, then push hips forward until in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-kneeling-oblique-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-kneeling-oblique-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-kneeling-oblique-crunch"
+    },
+    {
+      "id": 231836520243277,
+      "name": "Cable Bar Kneeling Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a bar attachment and set the cable all the way to the top.",
+        "Walk a few steps forward and fall to a kneeling position.",
+        "Push your hips back and flex your abs, then push hips forward until in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-kneeling-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-kneeling-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bar-kneeling-crunch"
+    },
+    {
+      "id": 26168844011045,
+      "name": "Cable Bar Standing Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a bar attachment and set the cable all the way to the top.",
+        "Face away from the cable tower and walk a few steps forward.",
+        "Push your hips back, and flex your abs.",
+        "Return to the starting standing position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-standing-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-standing-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bar-standing-crunch"
+    },
+    {
+      "id": 184973016377290,
+      "name": "Cable Kneeling High To Low Wood Chopper",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Kneel sideways to cable and grasp handle with both hands overhead.",
+        "Rotate torso and pull handle diagonally down toward opposite hip.",
+        "Control the return, keeping core braced and hips stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-high-to-low-wood-chopper-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-high-to-low-wood-chopper-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-kneeling-high-to-low-wood-chopper"
+    },
+    {
+      "id": 244749396783541,
+      "name": "Cable Rope Standing Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand facing cable, hold rope behind head with elbows tucked in.",
+        "Brace core and curl torso downward toward hips without pulling with arms.",
+        "Return slowly to standing tall, keeping constant tension on abs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-standing-crunch-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-rope-standing-crunch-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-rope-standing-crunch"
+    },
+    {
+      "id": 210172482976343,
+      "name": "Cable Standing High To Low Wood Chopper",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand sideways to cable and grasp handle with both hands overhead.",
+        "Rotate torso and pull handle diagonally down toward opposite hip.",
+        "Control the return, keeping core braced and hips stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-high-to-low-wood-chopper-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-high-to-low-wood-chopper-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-high-to-low-wood-chopper"
+    },
+    {
+      "id": 185254041338999,
+      "name": "Cable Standing Low To High Wood Chopper",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand sideways to cable and grasp handle near hip level with both hands.",
+        "Rotate torso and pull handle diagonally upward toward opposite shoulder.",
+        "Control the return, keeping core braced and hips stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-low-to-high-wood-chopper-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-low-to-high-wood-chopper-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-low-to-high-wood-chopper"
+    }
+  ]
+}

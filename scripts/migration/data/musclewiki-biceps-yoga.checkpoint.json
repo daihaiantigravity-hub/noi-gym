@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/yoga",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/yoga/2",
+      "found": 2
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/biceps/yoga/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Corpse Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/corpe-pose",
+      "cardText": "Corpse Pose\nBeginner\n1\nLie down on your back with your legs straight and arms at your sides.\n2\nClose your eyes and take deep breaths in through your nose and out through your mouth.\n3\nAllow your body to completely relax and let go of any tension.\n4\nHold for several minutes and then slowly come back up to a seated position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-core-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-core-pose-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Crow Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/crow-pose",
+      "cardText": "Crow Pose\nAdvanced\n1\nBegin in a squatting position with your feet together and your knees apart.\n2\nPlace your hands on the floor in front of you, shoulder-width apart. Keep your arms straight and engage your core.\n3\nSlowly shift your weight forward and lift your feet off the ground, coming onto your tiptoes.\n4\nBend your elbows and lean your weight onto your hands, shifting your knees towards your upper arms.\n5\nGently lift one foot off the ground, and then the other, balancing on your hands. Hold the pose for a few breaths before releasing back to the ground.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crow-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crow-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Downward Dog",
+      "sourceUrl": "https://musclewiki.com/exercise/downward-dog",
+      "cardText": "Downward Dog\nBeginner\n1\nBegin on your hands and knees with your hands shoulder-width apart and your knees hip-width apart.\n2\nSpread your fingers wide and press down into your palms, making sure that your fingers are evenly spaced and facing forward.\n3\nTuck your toes under and lift your knees off the ground, straightening your legs as much as possible.\n4\nPress your hips up and back, bringing your body into an inverted \"V\" shape.\n5\nKeep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.\n6\nHold the pose for several breaths, then release and return to your starting position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Downward Dog With Fingers Facing Feet",
+      "sourceUrl": "https://musclewiki.com/exercise/downward-dog-with-fingers-facing-feet",
+      "cardText": "Downward Dog With Fingers Facing Feet\nBeginner\n1\nBegin in the same starting position as the previous exercise, with your hands and knees on the ground.\n2\nSpread your fingers wide and turn your hands so that your fingers are facing towards your feet.\n3\nTuck your toes under and lift your knees off the ground, straightening your legs as much as possible.\n4\nPress your hips up and back, bringing your body into an inverted \"V\" shape.\n5\nKeep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.\n6\nHold the pose for several breaths, then release and return to your starting position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-with-fingers-facing-feet-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-with-fingers-facing-feet-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Scorpion Twist Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/scorpion-twist-pose",
+      "cardText": "Scorpion Twist Pose\nBeginner\n1\nBegin in a downward-facing dog pose.\n2\nSlowly lift one leg up towards the ceiling, keeping your hips level and your toes pointed.\n3\nBend your lifted leg and try to touch your toes to the back of your head.\n4\nOnce you have a firm grip with your toes, slowly begin to twist your torso towards the lifted leg.\n5\nKeep your hands and feet firmly planted on the ground as you hold the pose for a few breaths. Release the pose and repeat on the other side.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-scorpion-twist-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-scorpion-twist-pose-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Seated Arm Stretch",
+      "sourceUrl": "https://musclewiki.com/exercise/seated-arm-stretch",
+      "cardText": "Seated Arm Stretch\nBeginner\n1\nSit cross-legged on the floor.\n2\nExtend your arms straight out in front of you, palms facing forward.\n3\nCross your right arm over your left arm and interlace your fingers.\n4\nPull your hands away from your body and hold for a few breaths, then release and repeat with the opposite arm on top.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-arm-stretch-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-arm-stretch-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 6,
+    "candidates": 6,
+    "videos": 12
+  }
+}

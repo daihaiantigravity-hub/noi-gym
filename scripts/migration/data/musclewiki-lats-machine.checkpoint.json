@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lats/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/lats/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/lats/machine/2","found":4},
+    {"number":3,"url":"https://musclewiki.com/exercises/lats/machine/3","found":4},
+    {"number":4,"url":"https://musclewiki.com/exercises/lats/machine/4","found":4},
+    {"number":5,"url":"https://musclewiki.com/exercises/lats/machine/5","found":2}
+  ],
+  "candidates": [
+    {"name":"Machine Pulldown","sourceUrl":"https://musclewiki.com/exercise/machine-pulldown","difficulty":"Novice"},
+    {"name":"Machine Seated Cable Row","sourceUrl":"https://musclewiki.com/exercise/machine-seated-cable-row","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Row","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-row","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded T Bar Row","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-t-bar-row","difficulty":"Novice"},
+    {"name":"Underhand Pulldown","sourceUrl":"https://musclewiki.com/exercise/underhand-pulldown","difficulty":"Novice"},
+    {"name":"Machine Assisted Pull Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-pull-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Narrow Pull Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-narrow-pull-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Neutral Chin Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-neutral-chin-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Chin Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-chin-up","difficulty":"Novice"},
+    {"name":"Machine Underhand Row","sourceUrl":"https://musclewiki.com/exercise/machine-underhand-row","difficulty":"Novice"},
+    {"name":"Machine Neutral Row","sourceUrl":"https://musclewiki.com/exercise/machine-neutral-row","difficulty":"Novice"},
+    {"name":"Stretcher","sourceUrl":"https://musclewiki.com/exercise/stretcher","difficulty":"Intermediate"},
+    {"name":"Machine Chest Supported T Bar Row","sourceUrl":"https://musclewiki.com/exercise/machine-chest-supported-t-bar-row","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Pulldown","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-pulldown","difficulty":"Novice"},
+    {"name":"Machine Pullover","sourceUrl":"https://musclewiki.com/exercise/machine-pullover","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Seal Row","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-seal-row","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":5,"cards":18,"candidates":16,"videos":32}
+}

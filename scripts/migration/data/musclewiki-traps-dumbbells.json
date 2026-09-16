@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Dumbbell Silverback Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-silverback-shrug",
+    "difficulty": "Beginner",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Stand with your feet shoulder width apart holding dumbbells with both hands in front just past shoulder width.",
+      "Bend forward at the hips with a slight bend in your knees, keeping your back straight.",
+      "Engage your shoulder blades, as if you are trying to touch them together."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-silverback-shrug-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-silverback-shrug-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-shrug",
+    "difficulty": "Novice",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Stand tall with two dumbbells. Pull your shoulder blades up. Give a one second squeeze at the top."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-shrug-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-shrug-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Seated Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-shrug",
+    "difficulty": "Novice",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Sit on a bench with dumbbells in both hands, palms facing your body, back straight.",
+      "Elevate your shoulders and hold the contracted position at the apex of the motion.",
+      "Slowly lower your shoulders back to starting position."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-seated-shrug-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-seated-shrug-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Laying 30 Degree Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-30-degree-shrug",
+    "difficulty": "Intermediate",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Lay sideways on a bench letting your arm hang freely.",
+      "Pull your shoulder blade and joint toward the ceiling."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-laying-30-degree-shrug-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-laying-30-degree-shrug-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Laying Silverback Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-silverback-shrug",
+    "difficulty": "Intermediate",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Lay on an incline bench with your arms hanging freely.",
+      "Pull your shoulder blades back toward the ceiling."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-silverback-shrug-side.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-silverback-shrug-front.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Single Arm Upright Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-upright-row",
+    "difficulty": "Novice",
+    "primaryMuscle": "Traps",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Stand with your feet shoulder-width apart, holding a dumbbell in one hand with an overhand grip.",
+      "Keep your back straight and chest lifted, engage your core to maintain balance.",
+      "Begin the movement by lifting the dumbbell straight up towards your chin, keeping your elbow close to your body and the weight in line with your shoulder.",
+      "Continue to lift the weight until it reaches the chin or neck level, keeping the elbow high and close to the body.",
+      "Lower the weight back down to the starting position with control."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-upright-row-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-upright-row-side.mp4"}
+    ]
+  }
+]

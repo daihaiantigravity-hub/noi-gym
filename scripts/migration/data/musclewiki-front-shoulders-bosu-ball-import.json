@@ -1,0 +1,67 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 168601157372167,
+      "name": "Bosu Ball Front Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the bosu vertically.",
+        "Raise the bosu toward the ceiling while keeping your elbows mostly extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-front-raise-front_UgVoqvn.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-front-raise-side_kZ9JChm.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-front-raise"
+    },
+    {
+      "id": 276138960731064,
+      "name": "Bosu Ball Pike Pushup",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place feet on Bosu, hips high, hands on the floor.",
+        "Lower the head towards the ground, then push back up.",
+        "Keep legs straight and hips elevated throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-pike-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-pike-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-pike-pushup"
+    }
+  ]
+}

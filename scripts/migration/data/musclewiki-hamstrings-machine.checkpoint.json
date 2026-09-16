@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/hamstrings/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/hamstrings/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/hamstrings/machine/2","found":4}
+  ],
+  "candidates": [
+    {"name":"Glute Ham Raise","sourceUrl":"https://musclewiki.com/exercise/glute-ham-raise","difficulty":"Intermediate"},
+    {"name":"Machine Hamstring Curl","sourceUrl":"https://musclewiki.com/exercise/machine-hamstring-curl","difficulty":"Novice"},
+    {"name":"Machine Seated Hamstring Curl","sourceUrl":"https://musclewiki.com/exercise/machine-seated-hamstring-curl","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Kneeling Hamstring Curl","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-kneeling-hamstring-curl","difficulty":"Novice"},
+    {"name":"Machine Reverse Hyperextension","sourceUrl":"https://musclewiki.com/exercise/machine-reverse-hyperextension","difficulty":"Novice"},
+    {"name":"Machine Standing Hamstring Curl","sourceUrl":"https://musclewiki.com/exercise/machine-standing-hamstring-curl","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":2,"cards":8,"candidates":6,"videos":12}
+}

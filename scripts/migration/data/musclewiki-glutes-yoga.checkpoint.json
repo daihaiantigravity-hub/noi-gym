@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/glutes/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/glutes/yoga",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/glutes/yoga/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/glutes/yoga/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Double Pigeon Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/double-pigeon-pose",
+      "cardText": "Double Pigeon Pose\nBeginner\n1\nSit on the ground with your legs extended in front of you.\n2\nPlace a block under your left knee, then bend your right knee and stack it on top of your left ankle.\n3\nFlex both feet and gently press your knees towards the ground, feeling a stretch in your hips.\n4\nHold the pose for a few breaths, then switch sides and repeat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-double-pigeon-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-double-pigeon-pose-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Half Lotus",
+      "sourceUrl": "https://musclewiki.com/exercise/half-lotus",
+      "cardText": "Half Lotus\nBeginner\n1\nSit on a yoga mat with legs straight in front of you.\n2\nBend the right knee and place the right foot on top of the left thigh. Allow the right knee to fall towards the floor.\n3\nBring the left foot onto the right thigh. Keep the spine straight and rest hands on the knees.\n4\nHold for several breaths and then release.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-lotus-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-lotus-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pigeon Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/pigeon-pose",
+      "cardText": "Pigeon Pose\nBeginner\n1\nExtend your right leg behind you and place your right ankle on top of your left thigh, with your right knee pointing out to the side.\n2\nSitting up straight, use your hands to gently press down on your right knee while at the same time pulling your left buttock back.\n3\nHold for 5-10 deep breaths, then release and repeat on the other side.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pigeon-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pigeon-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Reclining Pigeon Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/reclining-pigeon-pose",
+      "cardText": "Reclining Pigeon Pose\nBeginner\n1\nLie down on your back with your knees bent and your feet on the ground.\n2\nCross your right ankle over your left knee, creating a figure four shape.\n3\nUse your hands to gently pull your left knee towards your chest, feeling a stretch in your right hip.\n4\nHold the pose for a few breaths, then switch sides and repeat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-reclining-pigeon-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-reclining-pigeon-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Restful Cow Face Pose Legs",
+      "sourceUrl": "https://musclewiki.com/exercise/restful-cow-face-pose-legs",
+      "cardText": "Restful Cow Face Pose Legs\nIntermediate\n1\nStart in a seated position with your legs extended in front of you.\n2\nCross your right leg over your left leg, placing your right foot on the floor beside your left hip.\n3\nCross your left leg over your right leg, placing your left foot on the floor beside your right hip.\n4\nRelax your arms by your sides or place them on your abdomen and take deep breaths.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-restful-cow-face-pose-legs-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-restful-cow-face-pose-legs-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

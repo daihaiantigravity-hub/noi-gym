@@ -1,0 +1,98 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 153595112438881,
+      "name": "Smith Machine Staggered Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-staggered-deadlift"
+    },
+    {
+      "id": 171797815602409,
+      "name": "Smith Machine Sumo Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+        "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar",
+        "Leave your knees mostly extended and flex and extend your hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-sumo-romanian-deadlift"
+    },
+    {
+      "id": 168790530045677,
+      "name": "Smith Machine Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Take a shoulder width, double overhand or mixed grip.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-romanian-deadlift"
+    }
+  ]
+}

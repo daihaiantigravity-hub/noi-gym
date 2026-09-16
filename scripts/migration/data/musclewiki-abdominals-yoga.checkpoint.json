@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/abdominals/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/abdominals/yoga",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/abdominals/yoga/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Urdhva Dhanurasana Wheel Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/urdhva-dhanurasana-wheel-pose",
+      "cardText": "Urdhva Dhanurasana Wheel Pose\nBeginner\n1\nLie down on your back with your feet hip-distance apart and your knees bent.\n2\nPlace your hands on the floor beside your head, fingertips pointing towards your shoulders.\n3\nPush your feet and hands into the floor, lift your hips up and straighten your arms.\n4\nLift your chest towards the ceiling and hold the pose for a few breaths before lowering back down.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Urdhva-Dhanurasana-wheel-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Urdhva-Dhanurasana-wheel-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cobra Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/cobra-pose",
+      "cardText": "Cobra Pose\nBeginner\n1\nStart prone, hands under shoulders.\n2\nInhale, lift chest, arch back.\n3\nElongate neck, gaze up. Breathe, hold. Release, exhale.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-cobra-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-cobra-pose-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

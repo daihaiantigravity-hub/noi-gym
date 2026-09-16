@@ -1,0 +1,614 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 118155402003645,
+      "name": "Single Legged Romanian Deadlifts",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart and knees slightly bent and raise one leg.",
+        "Without changing the bend in your knee, bend at your hips, and lower your torso until it's almost parallel to the floor.",
+        "Tense your glutes and then bring yourself back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-single-legged-romanian-deadlifts-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-legged-romanian-deadlifts"
+    },
+    {
+      "id": 138145506292151,
+      "name": "Nordic Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Go to your knees and ask someone to hold your ankles.",
+        "Put your hands in front of you",
+        "With a slight bend in your knees slowly bring your body to the ground (slower is better)",
+        "Push up and reset to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-nordic-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-nordic-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/nordic-hamstring-curl"
+    },
+    {
+      "id": 84175621673366,
+      "name": "Good Mornings",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head.",
+        "Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-good-mornings-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/good-mornings"
+    },
+    {
+      "id": 1321326660325,
+      "name": "Bodyweight Reverse Lunge",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your right thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-reverse-lunge"
+    },
+    {
+      "id": 121254139561276,
+      "name": "Hamstring Bridge Isometric Open Angle",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back with knees slightly bent and heels dug in.",
+        "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+        "Press the heels into the ground to raise your hips off it.",
+        "Hold the position for the specified duration."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-isometric-open-angle-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-isometric-open-angle-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-isometric-open-angle"
+    },
+    {
+      "id": 16968785838723,
+      "name": "Hamstring Bridge With Elevated Legs Box Bilateral",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back. Place your heels on a box or bench, having a 90° angle at hips and knees.",
+        "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+        "Push through your heels into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-bilateral-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-bilateral-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-with-elevated-legs-box-bilateral"
+    },
+    {
+      "id": 242385090893904,
+      "name": "Hamstring Bridge With Elevated Legs Box Unilateral",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back. Place one heel on a box or bench, having a 90° angle at hip and knee.",
+        "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+        "Push through your heel into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-unilateral-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-bridge-with-elevated-legs-box-unilateral-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-bridge-with-elevated-legs-box-unilateral"
+    },
+    {
+      "id": 225981318067215,
+      "name": "Slider Hamstring Curl Single Leg",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back keeping both knees bent.",
+        "Have a slider under the heel of the working leg.",
+        "Extend and bend the working lag applying gentle downwards pressure."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-1-supine-single-leg-slider-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-1-supine-single-leg-slider-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-1-supine-single-leg-slider"
+    },
+    {
+      "id": 166504035439885,
+      "name": "Single Leg Slider Hamstring Curl 2",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Beginner",
+        "Lie on your back with bent knees and heels on a slider.",
+        "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+        "Press the heels into the ground to raise your hips off it.",
+        "Extend and bend the working leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-2-supine-single-leg-slider-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-2-supine-single-leg-slider-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-2-supine-single-leg-slider"
+    },
+    {
+      "id": 2849333788687,
+      "name": "Slider Hamstring Curl Eccentric",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Bend your knees so your feet are flat on the floor with heels under knees and toes raised.",
+        "Place sliders under your heels. Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+        "Push through your heels into the ground, lifting your hips up to the point where there is a straight line from your chest to your knees.",
+        "Extend your legs in a slow, controlled manner, to lower your bum to the ground.",
+        "Casually bend knees before repeating."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-eccentric-supine-bilateral-sliders-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-eccentric-supine-bilateral-sliders-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-eccentric-supine-bilateral-sliders"
+    },
+    {
+      "id": 155873114904462,
+      "name": "Bodyweight Standing Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight using a balancing aid.",
+        "Shift your weight on one leg.",
+        "Bend and extend the non-weight bearing leg.",
+        "Knees should remain aligned."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-standing-bodyweight-single-leg-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-standing-bodyweight-single-leg-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-standing-bodyweight-single-leg"
+    },
+    {
+      "id": 114224872909073,
+      "name": "Bodyweight Standing Hamstring Curl Isometric",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand up straight using a balancing aid.",
+        "Shift your weight on one leg.",
+        "Bend the non-weight bearing leg and hold.",
+        "Knees should remain aligned."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-standing-isometric-bodyweight-single-leg-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-standing-isometric-bodyweight-single-leg-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-standing-isometric-bodyweight-single-leg"
+    },
+    {
+      "id": 217907036616932,
+      "name": "Slider Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on your back with slightly bent knees and heels on sliders.",
+        "Pull your heels towards your glutes to lift your hips off the ground.",
+        "Extend knees to starting position, but do not rest hips on ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-supine-bilateral-slider-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-hamstring-curl-supine-bilateral-slider-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstring-curl-supine-bilateral-slider"
+    },
+    {
+      "id": 155861892738459,
+      "name": "Bodyweight Single Leg Balance Stable",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold on to something stable and pull the leg on the opposing side straight up. Hold this position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-balance-stable-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-balance-stable-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-single-leg-balance-stable"
+    },
+    {
+      "id": 249224310286982,
+      "name": "Bodyweight Staggered Waiters Bow",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-staggered-waiters-bow-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-staggered-waiters-bow"
+    },
+    {
+      "id": 265481761088465,
+      "name": "Bodyweight Waiters Bow",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-waiters-bow"
+    },
+    {
+      "id": 122936507452297,
+      "name": "Bodyweight Stability Ball Hyperextension",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head.",
+        "Engage your core, lift your upper body until aligned with legs, keeping your neck neutral.",
+        "Lower your torso slowly back to the starting position, maintaining control and steady breathing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-stability-ball-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-stability-ball-hyperextension"
+    },
+    {
+      "id": 258066046816527,
+      "name": "Stability Ball Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on your back, heels on a stability ball, arms flat, and core engaged.",
+        "Lift hips, curl the ball toward you using your hamstrings, keeping control and balance.",
+        "Extend legs back to start while keeping hips lifted, then repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-hamstring-curl"
+    },
+    {
+      "id": 196952115744784,
+      "name": "Stability Ball Reverse Hyperextension",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie face down on a stability ball, hands on the floor, legs extended straight.",
+        "Engage glutes and lower back, raising legs until aligned with your torso.",
+        "Slowly lower legs back down without touching the ground, maintaining core engagement. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-reverse-hyperextension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-reverse-hyperextension"
+    },
+    {
+      "id": 279469009733823,
+      "name": "Half Kneeling Hip Hinge",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one knee on a bench.",
+        "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-half-kneeling-hip-hinge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-kneeling-hip-hinge"
+    }
+  ]
+}

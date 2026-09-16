@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/bodyweight",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/front-shoulders/bodyweight",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/front-shoulders/bodyweight/2",
+      "found": 2
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/front-shoulders/bodyweight/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Elevated Pike Press",
+      "sourceUrl": "https://musclewiki.com/exercise/elevated-pike-press",
+      "cardText": "Elevated Pike Press\nIntermediate\n1\nUse a bench or an object to elevate your feet.\n2\nLower your head towards the floor by bending your elbows\n3\nPush through your hands and return to the starting pike position.\n4\nRepeat",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ring Standing Pushup",
+      "sourceUrl": "https://musclewiki.com/exercise/ring-standing-pushup",
+      "cardText": "Ring Standing Pushup\nBeginner\n1\nStart by setting up the rings to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.\n2\nStand facing the rings grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.\n3\nLower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.\n4\nPush your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-pushup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-pushup-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Pike Press",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-pike-press",
+      "cardText": "Bodyweight Pike Press\nIntermediate\n1\nStart in a plank position. Push your hips up toward the ceiling.\n2\nLower your head towards the floor by bending your elbows\n3\nPush through your hands and return to the starting pike position.\n4\nRepeat",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pole Overhead Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/pole-overhead-squat",
+      "cardText": "Pole Overhead Squat\nBeginner\n1\nStand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.\n2\nBegin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.\n3\nLower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.\n4\nRepeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Forward Arm Circle",
+      "sourceUrl": "https://musclewiki.com/exercise/forward-arm-circle",
+      "cardText": "Forward Arm Circle\nNovice\n1\nHold your arms out to your sides.\n2\nRotate your arms forward in small circles.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-arm-circle-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-arm-circle-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Backward Arm Circle",
+      "sourceUrl": "https://musclewiki.com/exercise/backward-arm-circle",
+      "cardText": "Backward Arm Circle\nNovice\n1\nHold your arms out to your sides.\n2\nRotate your arms backwards in small circles.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-backward-arm-circle-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-backward-arm-circle-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 6,
+    "candidates": 6,
+    "videos": 12
+  }
+}

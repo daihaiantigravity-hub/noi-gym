@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/stretches",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/stretches/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/biceps/stretches/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Biceps Stretch Variation One",
+      "sourceUrl": "https://musclewiki.com/exercise/biceps-stretch-variation-one",
+      "cardText": "Biceps Stretch Variation One\nNovice\n1\nStand one foot in front of the other with the wall to your right, an arms width away.\n2\nPlace your hand on the wall, fingers pointing away from you.\n3\nGently lean forward, keeping your hand stationary.\n4\nRepeat with the other arm.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Biceps Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/biceps-stretch-variation-two",
+      "cardText": "Biceps Stretch Variation Two\nNovice\n1\nStand facing the wall, an arm's width away.\n2\nPlace your hand on the wall with your fingers pointing down.\n3\nLean slightly into the wall to feel the stretch in your bicep.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Biceps Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/biceps-stretch-variation-three",
+      "cardText": "Biceps Stretch Variation Three\nNovice\n1\nBend your arm at the elbow, raising your hand to your shoulder.\n2\nUsing your other hand, stretch the arm down to its full extent.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-3-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Biceps Stretch Variation Four",
+      "sourceUrl": "https://musclewiki.com/exercise/biceps-stretch-variation-four",
+      "cardText": "Biceps Stretch Variation Four\nNovice\n1\nStand an arms width away from the wall.\n2\nRaise your arms out behind you, and place them on the wall with your fingers pointing up.\n3\nBend your knees whilst keeping your hands in the same position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-4-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-4-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Biceps Stretch Variation Five",
+      "sourceUrl": "https://musclewiki.com/exercise/biceps-stretch-variation-five",
+      "cardText": "Biceps Stretch Variation Five\nNovice\n1\nStand upright with your feet shoulder width apart.\n2\nRaise your arms out to your sides, bringing them up to shoulder level.\n3\nRotate your palms so they are facing the ceiling.\n4\nThen, change direction and rotate the arms as much as you can.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-5-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-biceps-stretch-variation-5-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

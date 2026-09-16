@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/band",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/front-shoulders/band",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/front-shoulders/band/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/front-shoulders/band/3",
+      "found": 1
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/front-shoulders/band/4",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Band Front Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/band-front-raise",
+      "cardText": "Band Front Raise\nNovice\n1\nStand on the band with one or 2 feet depending on how heavy you want the band to be.\n2\nWith your elbows extended raise your fists straight up to the ceiling until they are at eye level.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-front-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-front-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Bent Arm Lateral Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-bent-arm-lateral-raise",
+      "cardText": "Mini Band Bent Arm Lateral Raise\nNovice\n1\nLoop band around elbows, arms bent 90 degrees at sides.\n2\nRaise both elbows outward to shoulder height.\n3\nLower slowly and alternate, keeping tension on band.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-arm-lateral-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-arm-lateral-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Alternating Bent Arm Lateral Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-alternating-bent-arm-lateral-raise",
+      "cardText": "Mini Band Alternating Bent Arm Lateral Raise\nNovice\n1\nLoop band around elbows, arms bent 90 degrees at sides.\n2\nRaise one elbow outward to shoulder height.\n3\nLower slowly and alternate, keeping tension on band.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-alternating-bent-arm-lateral-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-alternating-bent-arm-lateral-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Clock Tap",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-clock-tap",
+      "cardText": "Mini Band Clock Tap\nNovice\n1\nLoop band around ankles, stand tall on one leg.\n2\nTap opposite foot forward, side, then back.\n3\nMaintain balance and hip stability throughout movement.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clock-tap-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clock-tap-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Upright Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-upright-row",
+      "cardText": "Band Upright Row\nAdvanced\n1\nStand with one or both feet on one end of a band. Take a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the band to chin level or slightly higher.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Lateral Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-lateral-raise",
+      "cardText": "Band Single Arm Lateral Raise\nBeginner\n1\nStand on band and hold handle or loop at your side with slight elbow bend.\n2\nRaise arm out to the side until shoulder height, keeping torso still.\n3\nLower slowly under control, maintaining constant tension on the delt.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-lateral-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-lateral-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 4,
+    "cards": 9,
+    "candidates": 6,
+    "videos": 12
+  }
+}

@@ -8,6 +8,11 @@
     "start": "next start -p 3001",
     "lint": "eslint",
     "seed:exercises": "node scripts/seed-exercises.mjs",
+    "prepare:musclewiki-import": "node scripts/migration/convert-musclewiki-dom-to-import.mjs",
+    "upload:musclewiki-media": "node scripts/migration/upload-musclewiki-media.mjs",
+    "import:musclewiki-targets": "node scripts/migration/import-musclewiki-targets.mjs",
+    "prepare:musclewiki-targets": "node scripts/migration/import-musclewiki-targets.mjs --prepare-only",
+    "upload:musclewiki-targets": "node scripts/migration/upload-musclewiki-media.mjs --dataset scripts/migration/data/musclewiki-target-new-import.json --skip-unavailable",
     "migrate:musclewiki:biceps-dumbbells": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs",
     "migrate:musclewiki:biceps-dumbbells:browser": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs --browser"
   },

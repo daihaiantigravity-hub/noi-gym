@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/forearms/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/forearms/trx",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/forearms/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-reverse-curl",
+      "cardText": "TRX Reverse Curl\nIntermediate\n1\nStand facing the TRX straps and grasp the handles with both hands, palms facing away from your body.\n2\nWalk back until the straps are taut, keeping your arms straight.\n3\nSlowly curl your hands towards your shoulders, keeping your elbows close to your body.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

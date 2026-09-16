@@ -1,0 +1,587 @@
+{
+  "total": 19,
+  "limit": 19,
+  "offset": 0,
+  "count": 19,
+  "results": [
+    {
+      "id": 111866466795937,
+      "name": "Barbell Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a shoulder width, double overhand or mixed grip.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-romanian-deadlift-side_dnNh5UH.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-romanian-deadlift"
+    },
+    {
+      "id": 66435331745073,
+      "name": "Barbell Stiff Leg Deadlifts",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with a barbell at your shins with your feet shoulder width apart.",
+        "Bend forward at your hips and keep your knees as fully extended as possible.",
+        "Grab the barbell and then extend your hips while maintaining a straight back.",
+        "From the standing position, lower the weight in a controlled manner.",
+        "You can either lower the weight to the floor or before you touch the floor, depending on your mobility."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-stiff-leg-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-stiff-leg-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-stiff-leg-deadlifts"
+    },
+    {
+      "id": 92203655322750,
+      "name": "Barbell Staggered Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-staggered-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-staggered-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-staggered-deadlift"
+    },
+    {
+      "id": 152191750943145,
+      "name": "Barbell Low Bar Good Morning",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Place the bar between your traps and rear delts. Pull your shoulder blades back to give the bar a shelf to sit on.",
+        "Push your hips back until you feel a stretch in your hamstrings. This means you're nearing the end of your Range of Motion with out rounding your spine.",
+        "When you feel the stretch push your hips forward until you'e in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-low-bar-good-morning-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-low-bar-good-morning-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-low-bar-good-morning"
+    },
+    {
+      "id": 53049230499260,
+      "name": "Barbell High Bar Good Morning",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Place the bar on your traps. You may need a pad so the bar doesn't dig into your cervical spine.",
+        "Push your hips straight back. Your knees should stay MOSTLY extended (think soft knees). Also make sure to",
+        "Look for what feels like a stretch in your hamstrings. The stretch feeling means you're likely nearing the end of your Range of Motion without rounding your spine.",
+        "When you feel the stretch push your hips forward until you're in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-bar-good-morning-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-bar-good-morning-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-high-bar-good-morning"
+    },
+    {
+      "id": 142674791477528,
+      "name": "Barbell Single Leg Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by pushing your hips straight back and extending your non-working leg behind you. It is ok to touch your other foot back to the ground each rep.",
+        "Leave your knee mostly extended. Look for a stretch in your hamstring. When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-single-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-single-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-single-leg-deadlift"
+    },
+    {
+      "id": 190889699478546,
+      "name": "Barbell Snatch Grip Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with your toes pointed slightly outward.",
+        "Place a barbell on the floor in front of you, with the weight plates on either side. Make sure that the bar is directly in line with your feet.",
+        "Bend down and grab the barbell with an overhand grip, your hands much wider than shoulder-width apart. Keep your back straight and your shoulders down as you grip the bar.",
+        "Stand up straight, lifting the barbell off the ground and pulling it toward your hips. Keep your elbows close to your body and your shoulders down as you do this.",
+        "Slowly lower the barbell back to the ground, making sure to keep your back straight and your shoulders down throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-snatch-grip-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-snatch-grip-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-snatch-grip-deadlift"
+    },
+    {
+      "id": 30560566472075,
+      "name": "Barbell Snatch Grip Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet about hip-width apart. The bar should be in a rack or box so it's lifted off the ground.",
+        "Grab the barbell with an overhand grip, your hands should be much wider than shoulder-width apart.",
+        "Hing forward at the hips keeping your knees mostly extended. Hinge until you feel a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-snatch-grip-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-snatch-grip-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-snatch-grip-romanian-deadlift"
+    },
+    {
+      "id": 19712449307393,
+      "name": "Barbell Zercher Good Morning",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing with your feet about hip-width apart and holding a barbell in the crook of your elbows, with your palms facing towards your body.",
+        "Keeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground.",
+        "Push through your heels to extend your hips and raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-zercher-good-morning-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-zercher-good-morning-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-zercher-good-morning"
+    },
+    {
+      "id": 91902479092519,
+      "name": "Barbell Suitcase Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing with your feet hip-width apart and holding a barbell at one side of your body, with your palms facing your thighs.",
+        "Keeping your core engaged and your back straight, bend at the hips and knees to lower the barbell down towards the ground.",
+        "As the barbell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position.",
+        "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the barbell on the opposite side of your body."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-suitcase-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-suitcase-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-suitcase-deadlift"
+    },
+    {
+      "id": 190862814453910,
+      "name": "Landmine Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of the landmine with your feet hip-width apart and your knees slightly bent. Grasp the landmine barbell with both hands, palms facing each other, and hold it in front of your thighs.",
+        "Keeping your back straight and your core engaged, hinge at the hips and push your hips back, allowing the landmine to travel down your thighs. Lower the landmine by bending forward at the hips while keeping your back flat, allowing the barbell to move closer to the floor. Continue the movement until you feel a stretch in your hamstrings, keeping your legs relatively straight but with a slight bend in the knees.",
+        "Reverse the movement by pushing your hips forward and driving through your heels while keeping your back straight.",
+        "Repeat for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-romanian-deadlift"
+    },
+    {
+      "id": 32596840581995,
+      "name": "Landmine Single Leg Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the end of the landmine and stand perpendicular to the bar.",
+        "Lift your inside leg and keep your outside leg planted.",
+        "Push your hips back keeping your knees mostly extended. When you feel the stretch in your hams, push your hips forward until you are standing upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-leg-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-leg-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-leg-romanian-deadlift"
+    },
+    {
+      "id": 189631820744228,
+      "name": "Landmine Staggered Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand in a staggered position. With the back leg bent and the front mostly extended.",
+        "Push your hips back until you feel a stretch through your front hamstring.",
+        "Push your hips back forward until you are standing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-staggered-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-staggered-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-staggered-romanian-deadlift"
+    },
+    {
+      "id": 6915675451928,
+      "name": "Barbell Suitcase Carry",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing with your feet hip-width apart with the bar on the ground at your side.",
+        "Lift the bar to your side and walk for the allotted amount of time or distance.",
+        "Set the bar down and switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-suitcase-carry-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-suitcase-carry-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-suitcase-carry"
+    },
+    {
+      "id": 203867779852682,
+      "name": "Barbell Banded Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Loop bands under your feet or anchors and around the barbell. Stand tall with soft knees.",
+        "Hinge at the hips, keeping the bar close and back straight throughout.",
+        "Squeeze glutes, drive hips forward, and return to full standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-banded-romanian-deadlift"
+    },
+    {
+      "id": 27769745832931,
+      "name": "Ez Bar Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Take a shoulder width, double overhand or mixed grip.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-romanian-deadlift"
+    },
+    {
+      "id": 46377711197257,
+      "name": "Trap Bar Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold trap bar, stand tall with slight knee bend.",
+        "Hinge hips back, lowering bar along thighs.",
+        "Keep back neutral and tension in hamstrings.",
+        "Drive hips forward to return upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-romanian-deadlift"
+    },
+    {
+      "id": 78090112233359,
+      "name": "Trap Bar Staggered Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand inside trap bar. Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-staggered-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-staggered-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-staggered-romanian-deadlift"
+    },
+    {
+      "id": 200892071624243,
+      "name": "Trap Bar Single Leg Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand inside trap bar, lift one foot slightly off ground.",
+        "Hinge hips back while lowering bar and extending free leg behind.",
+        "Keep hips square and back neutral throughout movement.",
+        "Drive through standing foot to return upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-single-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-single-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-single-leg-deadlift"
+    }
+  ]
+}

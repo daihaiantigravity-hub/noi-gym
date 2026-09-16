@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/trx",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/trx/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/biceps/trx/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-curl",
+      "cardText": "TRX Curl\nBeginner\n1\nHold the TRX straps with an underhand grip and lean back and away from the anchor point.\n2\nKeep your elbows high as you flex your elbows. Pull your fists toward your forehead.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Hammer Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-hammer-curl",
+      "cardText": "TRX Hammer Curl\nBeginner\n1\nGrab the TRX straps and lean away from the anchor point.\n2\nMaintain a neutral grip. Flex your elbows and pull your fists to either sides of your temples.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-hammer-curl-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-hammer-curl-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-reverse-curl",
+      "cardText": "TRX Reverse Curl\nIntermediate\n1\nStand facing the TRX straps and grasp the handles with both hands, palms facing away from your body.\n2\nWalk back until the straps are taut, keeping your arms straight.\n3\nSlowly curl your hands towards your shoulders, keeping your elbows close to your body.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Rotating Row",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-rotating-row",
+      "cardText": "TRX Rotating Row\nBeginner\n1\nGrab the TRX straps and lean away from the anchor point until the strap is taut.\n2\nStart with an overhand grip. Pull your elbows back and rotate your grip.\n3\nBy the time your elbows reach your side, your palms should be facing upwards.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rotating-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rotating-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Single Arm row",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-single-arm-row",
+      "cardText": "TRX Single Arm row\nBeginner\n1\nHold the TRX strap with one hand.\n2\nLean back until the strap is taut. Fully extend your elbow.\n3\nPull your elbow behind the body. Make sure to avoid twisting. Try to keep your shoulders even.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-single-arm-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-single-arm-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

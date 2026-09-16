@@ -1,0 +1,189 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 106967690277923,
+      "name": "Bosu Ball Burpee",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu with feet shoulder-width apart.",
+        "Drop into squat position and place hands on Bosu.",
+        "Jump feet back into plank, perform a pushup, then jump back to squat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-burpee"
+    },
+    {
+      "id": 224887412917910,
+      "name": "Bosu Ball Half Burpee",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on Bosu with feet shoulder-width apart.",
+        "Drop into squat position and place hands on Bosu.",
+        "Jump feet back to plank, then jump back to squat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-half-burpee"
+    },
+    {
+      "id": 117422215700693,
+      "name": "Bosu Ball Lateral Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu, step sideways into a lunge.",
+        "Bend knee, keeping the other leg straight.",
+        "Push off the bent leg, return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge"
+    },
+    {
+      "id": 212731837781289,
+      "name": "Bosu Ball Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu, step backward into a lunge.",
+        "Bend knees, lower until the front thigh is parallel.",
+        "Push off the back foot, return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-front_qvjgjz6.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-side_rvKBbbH.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-reverse-lunge"
+    },
+    {
+      "id": 15574727447630,
+      "name": "Bosu Ball Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of Bosu, one foot on the center.",
+        "Lower into a lunge position, knee at",
+        "degrees.",
+        "Push off the front foot to return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-front_mVICkv9.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-side_Mrftskp.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-split-squat"
+    },
+    {
+      "id": 87044272371627,
+      "name": "Bosu Ball Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on Bosu, feet shoulder-width apart.",
+        "Squat down, keeping knees aligned with toes.",
+        "Push through heels to stand back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-front_7X4Ozx5.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-side_kHbvSnp.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-squat"
+    }
+  ]
+}

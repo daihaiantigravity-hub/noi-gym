@@ -1,0 +1,126 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 269284154712891,
+      "name": "Machine Roll Outs",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold the Ab Roller with both hands and kneel on the floor with your feet up and crossed.",
+        "Slowly roll the ab roller straight forward, stretching your body into a straight position.",
+        "After a pause at the stretched position, start pulling yourself back to the starting position. This should be a slow and controlled movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-roll-outs-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-roll-outs-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-roll-outs"
+    },
+    {
+      "id": 112567278679429,
+      "name": "Machine Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your feet under the foot pads and grab the handles with your hands.",
+        "Flex your spine and bring your upper and lower body together."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-crunch"
+    },
+    {
+      "id": 106903988732299,
+      "name": "Machine Plate Loaded Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your feet under the foot pads and grab the handles with your hands.",
+        "Flex your spine and bring your upper and lower body together."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-crunch"
+    },
+    {
+      "id": 244622808016477,
+      "name": "Rower Pike",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your feet on the rower seat and get in to a plank position.",
+        "Pull your hips straight up toward the ceiling.",
+        "Lower your hips until you're back in a plank position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-rower-pike-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-rower-pike-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/rower-pike"
+    }
+  ]
+}

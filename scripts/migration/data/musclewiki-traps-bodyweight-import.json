@@ -1,0 +1,130 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 141757781937211,
+      "name": "Elevated Pike Press",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a bench or an object to elevate your feet.",
+        "Lower your head towards the floor by bending your elbows",
+        "Push through your hands and return to the starting pike position.",
+        "Repeat"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/elevated-pike-press"
+    },
+    {
+      "id": 193323470469094,
+      "name": "Elevated Pike Shoulder Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a bench or an object like a chair to elevate your feet.",
+        "Slowly lower your body (scapula) while keeping your elbows locked (this is key)",
+        "Slowly raise your body back to the start position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-shoulder-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-shoulder-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/elevated-pike-shoulder-shrug"
+    },
+    {
+      "id": 16962516454619,
+      "name": "Bodyweight Pike Press",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a plank position. Push your hips up toward the ceiling.",
+        "Lower your head towards the floor by bending your elbows",
+        "Push through your hands and return to the starting pike position.",
+        "Repeat"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pike-press"
+    },
+    {
+      "id": 42369483580920,
+      "name": "Bodyweight Pike Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a plank position and raise your hips toward the ceiling.",
+        "Slowly lower your body (scapula) while keeping your elbows locked (this is key)",
+        "Slowly raise your body back to the start position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pike-shrug"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/chest/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/chest/stretches",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/chest/stretches/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Chest Stretch Variation One",
+      "sourceUrl": "https://musclewiki.com/exercise/chest-stretch-variation-one",
+      "cardText": "Chest Stretch Variation One\nNovice\n1\nUsing a raised wall, place your arm at a 90 degree angle against it.\n2\nWith a staggered stance, lean into the wall extending your chest.\n3\nPause for a few seconds and then return to starting position and repeat on opposite side.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Chest Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/chest-stretch-variation-two",
+      "cardText": "Chest Stretch Variation Two\nNovice\n1\nLay on your side with one hand just in front of you.\n2\nWith a slight bend in your arm, rotate your arm around your body as slowly as possible.\n3\nReturn to the starting position and then repeat on the other side.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Chest Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/chest-stretch-variation-three",
+      "cardText": "Chest Stretch Variation Three\nNovice\n1\nPlace your arms behind your back and clasp your hands together.\n2\nSlowly extend your elbows until they are locked then lift them away from you.\n3\nPause in this position for a few seconds and then return them to starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-3-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Chest Stretch Variation Four",
+      "sourceUrl": "https://musclewiki.com/exercise/chest-stretch-variation-four",
+      "cardText": "Chest Stretch Variation Four\nNovice\n1\nRaise your arms to shoulder height, fully extended in front of you.\n2\nSlowly bring your arms behind your back still at shoulder height.\n3\nPause for a few seconds and then return to starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-4-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-chest-stretch-variation-4-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

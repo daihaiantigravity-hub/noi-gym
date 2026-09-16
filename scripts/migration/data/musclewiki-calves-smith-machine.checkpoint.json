@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/smith-machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/calves/smith-machine",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/calves/smith-machine/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Smith Machine Seated Calf Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-seated-calf-raise",
+      "cardText": "Smith Machine Seated Calf Raise\nNovice\n1\nStart by sitting on a bench or box with the bar resting on your knees. Your feet should be flat on the ground, about hip-width apart.\n2\nPlace your hands on the barbell for support, and lift your heels off the ground.\n3\nHold this position for a moment, then slowly lower your heels back to the ground.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-calf-raise-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-calf-raise-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Calf Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-calf-raise",
+      "cardText": "Smith Machine Calf Raise\nNovice\n1\nPlace the bar on your back\n2\nStart with feet flat on the ground\n3\nExtend your heels upwards while keeping your knees stationary, and pause at the contracted position.\n4\nSlowly return to the starting position. Repeat.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-calf-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-calf-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

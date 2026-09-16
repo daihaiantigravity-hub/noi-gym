@@ -1,0 +1,878 @@
+{
+  "total": 29,
+  "limit": 29,
+  "offset": 0,
+  "count": 29,
+  "results": [
+    {
+      "id": 53098298287738,
+      "name": "Band Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with a shoulder width grip. Both feet should be on the band with the band loops in each of your hand.",
+        "Push your butt back and also break at the knees.",
+        "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can't tell your squat depth, then try squatting in front of a mirror and watch your form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat"
+    },
+    {
+      "id": 102071366615164,
+      "name": "Band Romanian Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on your band with both feet.",
+        "Hinge forward at the hips while keeping a flat back.",
+        "Hinge until you feel a stretch in your hamstrings.",
+        "Push your hips back forward until you are in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-romanian-deadlift"
+    },
+    {
+      "id": 131427235513588,
+      "name": "Band Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Get into a quadruped position. Loop the band around both of your wrists and one of your feet.",
+        "Extend your knee and hip straight back until you feel like contraction in the glutes.",
+        "Flex at the knee until back in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-glute-kickback"
+    },
+    {
+      "id": 87024189386563,
+      "name": "Band Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on the ground with your head by the anchor point of the band, which should be",
+        "to",
+        "inches above your head",
+        "Place the band around your midfoot and extend at the knees and hip."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-leg-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-leg-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-leg-press"
+    },
+    {
+      "id": 212920400507513,
+      "name": "Band Spanish Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Anchor a band to a stable point.",
+        "Place the loops of the band behind your knees.",
+        "Perform a normal squat and extend your knees against the band at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-spanish-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-spanish-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-spanish-squat"
+    },
+    {
+      "id": 118876896190817,
+      "name": "Band Pullthrough",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Anchor the band to the lowest point possible. Straddle the band and then grab with both hands.",
+        "Take a few steps away until the band is taut.",
+        "Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pullthrough-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pullthrough-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pullthrough"
+    },
+    {
+      "id": 94281859036348,
+      "name": "Band Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Attach the band around your ankle. Stand with feet hip-width apart, feet facing forward, and hands on hips.",
+        "Lift your right leg away from your body to the side, keeping your knee straight. This is your starting position.",
+        "Maintaining proper form, move your right leg as far to the side as you can, keeping your left leg planted firmly on the ground. Hold for a second and then return your right leg to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-band-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-band-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-hip-abduction"
+    },
+    {
+      "id": 22062669979052,
+      "name": "Band Hip Adduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Attach a band to a stable anchor point, such as a door handle or post.",
+        "Stand with feet shoulder-width apart and place the band around your ankles.",
+        "Keeping your feet together, move your legs out to the sides and then back to the midline of your body. Repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-band-hip-adduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-band-hip-adduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-hip-adduction"
+    },
+    {
+      "id": 11875592224445,
+      "name": "Mini-Band Clamshell",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on side knees bent.",
+        "Keep feet together, lift top knee upward.",
+        "Lower slowly without rotating hips backward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clamshell-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clamshell-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-clamshell"
+    },
+    {
+      "id": 217789951538401,
+      "name": "Banded Side Walks",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place a band either just below or above your knees.",
+        "Get into a quarter squat position.",
+        "Step side to side without letting there be any slack in the band to keep tension on the band."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-side-walks-resisted-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-side-walks-resisted-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/side-walks-resisted"
+    },
+    {
+      "id": 225697535001016,
+      "name": "Band Squat Hold Single Arm Row",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band to a stable point and take a half squat position.",
+        "Hold the band loop in one hand and pull your elbow straight back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat-hold-single-arm-row"
+    },
+    {
+      "id": 86511584234080,
+      "name": "Band Squat Hold Row",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band to a stable point.",
+        "Take a half squat position and hold there.",
+        "Perform a row while holding the squat position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat-hold-row"
+    },
+    {
+      "id": 255880052505487,
+      "name": "Band Goblet Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with a shoulder width grip. Both feet should be on the band with the band looped over both hands.",
+        "Push your butt back and also break at the knees.",
+        "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can't tell your squat depth, then try squatting in front of a mirror and watch your form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-goblet-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-goblet-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-goblet-squat"
+    },
+    {
+      "id": 20203392660966,
+      "name": "Band Standing Good Morning",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on band and loop it around upper back, feet hip-width apart.",
+        "Hinge at hips while keeping back flat and slight bend in knees.",
+        "Squeeze glutes to return to standing, maintaining band tension throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-standing-good-morning-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-standing-good-morning-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-standing-good-morning"
+    },
+    {
+      "id": 166551030808802,
+      "name": "Mini Band Plank Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around feet, hold high plank.",
+        "Extend one leg back, squeezing glute at top.",
+        "Lower slowly and repeat before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-plank-glute-kickback"
+    },
+    {
+      "id": 56314058103616,
+      "name": "Mini Band Plank Step Out",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, hold high plank.",
+        "Step one foot outward, resisting band pull.",
+        "Return and alternate, maintaining stable hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-step-out-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-plank-step-out-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-plank-step-out"
+    },
+    {
+      "id": 5272663700467,
+      "name": "Mini Band Clamshell Raise",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on side knees bent.",
+        "Keep feet together, lift top knee upward, push bottom knee into ground, and push your hips forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clamshell-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-clamshell-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-clamshell-raise"
+    },
+    {
+      "id": 65056685343278,
+      "name": "Mini Band Side Laying Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on side legs straight.",
+        "Lift top leg upward without rotating hips.",
+        "Lower slowly, maintaining constant band tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-side-laying-hip-abduction-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-side-laying-hip-abduction-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-side-laying-hip-abduction"
+    },
+    {
+      "id": 22354830877418,
+      "name": "Mini Band Laying Glute Bridge Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on back knees bent.",
+        "Lift hips into bridge, hold top position.",
+        "Pulse knees outward against band, controlling tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-laying-glute-bridge-abduction-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-laying-glute-bridge-abduction-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-laying-glute-bridge-abduction"
+    },
+    {
+      "id": 26522616882306,
+      "name": "Mini Band Laying Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on side legs straight.",
+        "Lift top leg upward without rotating hips.",
+        "Lower slowly, keeping tension on band."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-laying-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-laying-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-laying-hip-abduction"
+    },
+    {
+      "id": 40349982731581,
+      "name": "Mini Band Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, lie on back knees bent.",
+        "Drive through heels, lift hips until fully extended.",
+        "Lower slowly, keeping knees pressed outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-glute-bridge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-glute-bridge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-glute-bridge"
+    },
+    {
+      "id": 192701340734971,
+      "name": "Mini Band Fire Hydrant",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, start on hands and knees.",
+        "Lift one knee outward, keeping hips level.",
+        "Lower slowly and repeat before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-fire-hydrant-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-fire-hydrant-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-fire-hydrant"
+    },
+    {
+      "id": 78585086914335,
+      "name": "Mini Band Jump Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Loop band above knees, stand feet shoulder width.",
+        "Squat down, knees pushed outward against band.",
+        "Explode upward into jump, land softly and reset."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-jump-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-jump-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-jump-squat"
+    },
+    {
+      "id": 234098841528106,
+      "name": "Mini Band Single Leg Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on band with one foot, hinge at hips.",
+        "Keep back flat, opposite leg extended behind.",
+        "Drive hips forward to return upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-single-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-single-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-single-leg-deadlift"
+    },
+    {
+      "id": 259386547879283,
+      "name": "Mini Band Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, stand shoulder width.",
+        "Sit back and down, pushing knees outward.",
+        "Stand up, maintaining tension on band."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-squat"
+    },
+    {
+      "id": 56532009562558,
+      "name": "Mini Band Side To Side",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, slight athletic stance.",
+        "Step laterally, keeping knees pushed outward.",
+        "Continue stepping side to side under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-side-to-side-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-side-to-side-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-side-to-side"
+    },
+    {
+      "id": 69200637981140,
+      "name": "Mini Band Walking Side To Side",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, slight squat stance.",
+        "Step laterally, keeping constant outward knee pressure.",
+        "Continue walking side to side under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-walking-side-to-side-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-walking-side-to-side-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-walking-side-to-side"
+    },
+    {
+      "id": 230018627509161,
+      "name": "Mini Band Standing Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, stand tall holding support.",
+        "Extend one leg backward, squeezing glute.",
+        "Return slowly without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-standing-glute-kickback"
+    },
+    {
+      "id": 237877658033406,
+      "name": "Mini Band Standing Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, stand tall holding support.",
+        "Lift one leg out to side, torso upright.",
+        "Lower slowly and repeat before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-standing-hip-abduction"
+    }
+  ]
+}

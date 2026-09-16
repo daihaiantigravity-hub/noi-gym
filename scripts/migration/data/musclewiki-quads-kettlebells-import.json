@@ -1,0 +1,939 @@
+{
+  "total": 31,
+  "limit": 31,
+  "offset": 0,
+  "count": 31,
+  "results": [
+    {
+      "id": 235949247371603,
+      "name": "Kettlebell Single Arm Forward Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand straight with your feet slightly apart and hold a kettlebell in one hand.",
+        "Bring the same leg as the arm holding the kettlebell in front of you, squat down until your thigh is parallel to the ground, keeping your back straight.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-forward-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-forward-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-forward-lunge"
+    },
+    {
+      "id": 247140271254934,
+      "name": "Kettlebell Step Up",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Standing up straight, using a bench as a step, raise one foot onto the bench and hold the kettlebell in the same arm as the straight leg.",
+        "Stand and bring both feet onto the bench. Slowly lower your leg back down to the starting position.",
+        "Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-step-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-step-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-step-up"
+    },
+    {
+      "id": 194750803805319,
+      "name": "Kettlebell Goblet Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than your shoulders.",
+        "Sink down into the squat, keeping your elbows inside the track of your knees.",
+        "Push through your heels while keeping your chest up and return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-goblet-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-goblet-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-goblet-squat"
+    },
+    {
+      "id": 183728792208356,
+      "name": "Kettlebell Lateral Lunge (Single)",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand straight with your feet shoulder width apart. Keep your back straight and hold the kettlebell in front of your pelvis.",
+        "Take a large step to one side, holding the kettlebell low and lunge into the bent leg.",
+        "Return to the starting position and repeat"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-lateral-lunge-single-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-lateral-lunge-single-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-lateral-lunge-single"
+    },
+    {
+      "id": 37637843889432,
+      "name": "Kettlebell Single Arm Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand straight with your feet slightly apart and hold a kettlebell in one hand.",
+        "Bring the same leg as the arm holding the kettlebell behind you, squat down until your back knee touches the ground, keeping your back straight.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-reverse-lunge"
+    },
+    {
+      "id": 148799213435881,
+      "name": "Kettlebell Heels Up Goblet Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than your shoulders and the heels slightly raised on a surface.",
+        "Sink down into the squat, keeping your elbows inside the track of your knees.",
+        "Push through your heels while keeping your chest up and return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-heels-up-goblet-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-heels-up-goblet-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-heels-up-goblet-squat"
+    },
+    {
+      "id": 196899005874512,
+      "name": "Kettlebell Somersault Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a deep squat holding a kettlebell between your thighs.",
+        "Extend your knees until mostly extended without extending the hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-somersault-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-somersault-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-somersault-squat"
+    },
+    {
+      "id": 5768235333599,
+      "name": "Kettlebell Single Arm Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold one kettlebell at your side and place opposite foot on platform.",
+        "Drive through front heel to step up, keeping torso tall and core tight.",
+        "Lift trailing knee high at the top, then step down slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-step-up-knee-drive"
+    },
+    {
+      "id": 260747818226047,
+      "name": "Kettlebell Front Rack Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebells in front rack position and place one foot on platform.",
+        "Drive through front heel to step up, keeping chest tall and core tight.",
+        "Lift trailing knee high at the top, then step down slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-front-rack-step-up-knee-drive"
+    },
+    {
+      "id": 178887841695637,
+      "name": "Kettlebell Single Arm Front Rack Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell in front rack position and place opposite foot on platform.",
+        "Drive through front heel to step up while keeping chest tall and stable.",
+        "Lift trailing knee high at the top, then step down slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-front-rack-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-front-rack-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-front-rack-step-up-knee-drive"
+    },
+    {
+      "id": 262635116485959,
+      "name": "Kettlebell Thruster",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand.",
+        "Bring the kettlebells to your shoulders, with your palms facing inward and your elbows bent.",
+        "From this starting position, dip your knees slightly and then quickly extend them as you press the kettlebells upwards.",
+        "As you press the kettlebells upwards, also push your hips forward to help generate additional power.",
+        "Slowly lower the kettlebells back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-thruster"
+    },
+    {
+      "id": 138637304778423,
+      "name": "Kettlebell Single Arm Thruster",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell at shoulder height with feet shoulder-width apart.",
+        "Squat down, then drive upward, pressing kettlebell overhead in one motion.",
+        "Lower kettlebell as you descend into next rep smoothly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-thruster"
+    },
+    {
+      "id": 209123920056357,
+      "name": "Kettlebell Alternating Single Arm Thruster",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold two kettlebells at shoulder height, palms facing inward.",
+        "Squat down, then drive upward, pressing both kettlebells overhead.",
+        "Lower kettlebells as you descend again, alternating arms each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-single-arm-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-single-arm-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-single-arm-thruster"
+    },
+    {
+      "id": 81259791125914,
+      "name": "Kettlebell Quad Stomp",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Place your foot on a plate or a low box. Hold two kettlebells in each hand.",
+        "Put all of your weight on your front foot and lean forward.",
+        "Lower until your calves touch your hamstrings and then extend back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-quad-stomp-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-quad-stomp-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-quad-stomp"
+    },
+    {
+      "id": 60465693430662,
+      "name": "Kettlebell Deficit Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, kettlebells in each hand, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-deficit-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-deficit-reverse-lunge"
+    },
+    {
+      "id": 126881885268643,
+      "name": "Kettlebell Front Rack Deficit Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on a platform, kettlebells in front rack position, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-deficit-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-front-rack-deficit-reverse-lunge"
+    },
+    {
+      "id": 129828519496631,
+      "name": "Kettlebell Single Arm Front Rack Forward Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell in front rack position.",
+        "Step forward, lunge. Bringing your back knee to the floor.",
+        "Extend your knee and return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-front-rack-forward-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-front-rack-forward-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebells-single-arm-front-rack-forward-lunge"
+    },
+    {
+      "id": 122887909741263,
+      "name": "Kettlebell Single Arm Front Rack Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell in front rack position.",
+        "Step backward, lunge. Bring your back knee to the floor.",
+        "Extend your knee back into the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-front-rack-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-single-arm-front-rack-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebells-single-arm-front-rack-reverse-lunge"
+    },
+    {
+      "id": 236255604409190,
+      "name": "Kettlebell Sumo Deadlift",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet wide apart, toes pointing slightly outward, and kettlebell on the floor between your feet.",
+        "Bend at hips and knees, keeping back straight, and grip the kettlebell handle.",
+        "Lift the kettlebell by extending hips and knees, stand up straight, and return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-sumo-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-sumo-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-sumo-deadlift"
+    },
+    {
+      "id": 199040352181416,
+      "name": "Kettlebell Step Up Double",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Standing up straight, using a bench as a step, raise one foot onto the bench and hold the kettlebell in the same arm as the straight leg.",
+        "Stand and bring both feet onto the bench. Slowly lower your leg back down to the starting position.",
+        "Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-step-up-double-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-step-up-double-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-step-up-double"
+    },
+    {
+      "id": 60784728250745,
+      "name": "Kettlebell Single Arm Front Rack Step Up",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand in front of a step or bench with your feet shoulder-width apart and hold a kettlebell at one shoulder.",
+        "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-front-rack-step-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-front-rack-step-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-front-rack-step-up"
+    },
+    {
+      "id": 6666555926951,
+      "name": "Kettlebell Front Rack Step Up",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand in front of a step or bench with your feet shoulder-width apart and hold kettlebells at your shoulders.",
+        "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-step-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-rack-step-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-front-rack-step-up"
+    },
+    {
+      "id": 9464435807719,
+      "name": "Kettlebell Single Arm Step Up Balance",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a kettlebell in one hand",
+        "Place your right foot on the box and push through the heel to lift your body up and onto the box, keeping your left foot off the ground.",
+        "Step back down with your right foot, lowering your left foot to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-step-up-balance-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-step-up-balance-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-step-up-balance"
+    },
+    {
+      "id": 60695591837480,
+      "name": "Kettlebell Box Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand in front of a box or bench with your feet shoulder-width apart with a kettlebell in a goblet position.",
+        "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up.",
+        "Push through your heels to return to the standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-box-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-box-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-box-squat"
+    },
+    {
+      "id": 250645896440824,
+      "name": "Kettlebell Kickstand Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, one foot slightly behind. Hold kettlebell in a goblet position.",
+        "Lower into a squat, keeping weight on front heel.",
+        "Return to standing, engaging glutes and core."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kickstand-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kickstand-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-kickstand-squat"
+    },
+    {
+      "id": 85084026626404,
+      "name": "Kettlebell Swing Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width. Kettlebell at your side.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position.",
+        "Step back with the same leg until the back knee taps the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-swing-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-swing-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-swing-lunge"
+    },
+    {
+      "id": 151960093538195,
+      "name": "Kettlebell Alternating Curtsy Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold a kettlebell at your chest, feet hip-width apart.",
+        "Step one leg diagonally back into a lunge.",
+        "Alternate legs, keeping your chest up and core engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-curtsy-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-curtsy-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-curtsy-lunge"
+    },
+    {
+      "id": 32574574446769,
+      "name": "Kettlebell Alternating Lateral Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold one kettlebell with one or both hands, feet hip-width apart.",
+        "Step out to one side, bending the knee.",
+        "Push off, return to center, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-lateral-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-lateral-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-lateral-lunge"
+    },
+    {
+      "id": 17959487835682,
+      "name": "Kettlebell Alternating Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold two kettlebells by your side.",
+        "Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push back up and switch legs, alternating each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-reverse-lunge"
+    },
+    {
+      "id": 4639673800942,
+      "name": "Kettlebell Alternating Forward Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall, holding kettlebells by your sides, feet hip-width apart.",
+        "Step forward with one leg, lowering until both knees form 90° angles.",
+        "Push through front foot, return to start, and switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-forward-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-forward-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-forward-lunge"
+    },
+    {
+      "id": 80841753618059,
+      "name": "Kettlebell Assisted Bulgarian Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab a stick of some sort or hold onto something stable (rack, bench).",
+        "Grab a box that is knee height or slightly lower.",
+        "Hold the stick in your right arm, kettlebell in the other and put your right leg on the box.",
+        "Begin your squat by breaking at the knees. Get your knee close to the floor or all the way to the floor. Make sure to keep your chest tall."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-assisted-bulgarian-split-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-assisted-bulgarian-split-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-assisted-bulgarian-split-squat"
+    }
+  ]
+}

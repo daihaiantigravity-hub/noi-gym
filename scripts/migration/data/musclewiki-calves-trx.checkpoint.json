@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/calves/trx",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/calves/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Calf Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-calf-raise",
+      "cardText": "TRX Calf Raise\nNovice\n1\nHold the TRX straps under your arms and the handles in your armpits.\n2\nLean forward against the straps.\n3\nKeep your body straight and initiate the calf raise by raising your heels off the ground.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-calf-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-calf-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

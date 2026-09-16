@@ -1,0 +1,339 @@
+{
+  "total": 11,
+  "limit": 11,
+  "offset": 0,
+  "count": 11,
+  "results": [
+    {
+      "id": 106967690277923,
+      "name": "Bosu Ball Burpee",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu with feet shoulder-width apart.",
+        "Drop into squat position and place hands on Bosu.",
+        "Jump feet back into plank, perform a pushup, then jump back to squat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-burpee"
+    },
+    {
+      "id": 261500363529661,
+      "name": "Bosu Ball Feet Elevated Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on back, place feet on Bosu, knees bent.",
+        "Lift hips and squeeze glutes.",
+        "Lower hips back down to complete one rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-feet-elevated-glute-bridge-front_Z8myenM.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-feet-elevated-glute-bridge-side_wGW9Llf.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-feet-elevated-glute-bridge"
+    },
+    {
+      "id": 224887412917910,
+      "name": "Bosu Ball Half Burpee",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on Bosu with feet shoulder-width apart.",
+        "Drop into squat position and place hands on Bosu.",
+        "Jump feet back to plank, then jump back to squat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-half-burpee"
+    },
+    {
+      "id": 159926288014448,
+      "name": "Bosu Ball Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on Bosu, lean back, hands on the floor.",
+        "Drive hips upward, squeezing glutes.",
+        "Lower hips back down to complete one rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-hip-thrust-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-hip-thrust-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-hip-thrust"
+    },
+    {
+      "id": 117422215700693,
+      "name": "Bosu Ball Lateral Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu, step sideways into a lunge.",
+        "Bend knee, keeping the other leg straight.",
+        "Push off the bent leg, return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-lateral-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge"
+    },
+    {
+      "id": 247964159295743,
+      "name": "Bosu Ball Plank Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a plank position with Bosu under feet.",
+        "Lift one leg back, squeezing glutes.",
+        "Lower the leg back down and switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-plank-glute-kickback-front_iUcYQcQ.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-plank-glute-kickback-side_tb3dVqO.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-plank-glute-kickback"
+    },
+    {
+      "id": 212731837781289,
+      "name": "Bosu Ball Reverse Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on Bosu, step backward into a lunge.",
+        "Bend knees, lower until the front thigh is parallel.",
+        "Push off the back foot, return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-front_qvjgjz6.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-reverse-lunge-side_rvKBbbH.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-reverse-lunge"
+    },
+    {
+      "id": 3735957164358,
+      "name": "Bosu Ball Single Leg Elevated Glute Bridge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on back, place one foot on Bosu, knee bent.",
+        "Lift hips, squeezing glutes, one leg extended.",
+        "Lower hips back down and switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-elevated-glute-bridge-front_4m5TpRn.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-elevated-glute-bridge-side_G8VnLOr.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-single-leg-elevated-glute-bridge"
+    },
+    {
+      "id": 35818252192969,
+      "name": "Bosu Ball Single Leg Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on Bosu, lean back, one foot on the floor.",
+        "Drive hips upward, squeezing glutes, one leg extended.",
+        "Lower hips back down and switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-front_aBwyvlD.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-side_2ro2ZyY.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-single-leg-hip-thrust"
+    },
+    {
+      "id": 15574727447630,
+      "name": "Bosu Ball Split Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of Bosu, one foot on the center.",
+        "Lower into a lunge position, knee at",
+        "degrees.",
+        "Push off the front foot to return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-front_mVICkv9.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-split-squat-side_Mrftskp.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-split-squat"
+    },
+    {
+      "id": 87044272371627,
+      "name": "Bosu Ball Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on Bosu, feet shoulder-width apart.",
+        "Squat down, keeping knees aligned with toes.",
+        "Push through heels to stand back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-front_7X4Ozx5.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-squat-side_kHbvSnp.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-squat"
+    }
+  ]
+}

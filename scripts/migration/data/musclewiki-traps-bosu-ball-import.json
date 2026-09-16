@@ -1,0 +1,37 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 217549604375659,
+      "name": "Bosu Ball Pike Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place toes on Bosu, hands on the floor.",
+        "Pike hips up, shrug shoulders, engage core."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pike-shrug-side_kPE0ToY.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pike-shrug-front_GhQ1QA8.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-pike-shrug"
+    }
+  ]
+}

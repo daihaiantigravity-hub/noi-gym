@@ -1,0 +1,130 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 239164283315559,
+      "name": "Feet Pulling Straps Hamstring Curls Prone On The Long Box",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie prone on long box, hips supported, straps around feet.",
+        "Start with legs extended, core engaged, pelvis neutral.",
+        "Bend knees, curling heels toward glutes using hamstrings.",
+        "Extend legs slowly, maintaining control and constant strap tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box"
+    },
+    {
+      "id": 82586980837825,
+      "name": "Pilates Short Spine",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie supine, feet in straps, legs extended upward.",
+        "Lift hips, rolling spine off carriage.",
+        "Bend knees, bringing heels toward glutes overhead.",
+        "Roll down slowly, extending legs to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-short-spine"
+    },
+    {
+      "id": 138753875012621,
+      "name": "Pilates Scooter",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand beside reformer, one foot on carriage, one stable on floor.",
+        "Press carriage back by extending moving leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-scooter"
+    },
+    {
+      "id": 44258229410479,
+      "name": "Pilates Hamtring Curls Prone",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie prone, attach straps to ankles, legs extended.",
+        "Bend knees, pulling heels toward glutes.",
+        "Keep hips pressed down and core engaged.",
+        "Extend legs slowly back to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-hamtring-curls-prone-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-hamtring-curls-prone-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-hamtring-curls-prone"
+    }
+  ]
+}

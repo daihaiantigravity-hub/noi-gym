@@ -1,0 +1,518 @@
+{
+  "total": 17,
+  "limit": 17,
+  "offset": 0,
+  "count": 17,
+  "results": [
+    {
+      "id": 35218214217775,
+      "name": "Pull Ups",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended.",
+        "Pull your body up until your chin is above the bar.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-pullup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-pullup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pull-ups"
+    },
+    {
+      "id": 83910308488077,
+      "name": "Chin Ups",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
+        "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-chinup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-chinup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/chin-ups"
+    },
+    {
+      "id": 176553043301947,
+      "name": "Inverted Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-reverse-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-reverse-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/inverted-row"
+    },
+    {
+      "id": 207711316250038,
+      "name": "Bodyweight Assisted Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the chin-up bar with an underhand grip, shoulder-width apart.",
+        "Place your feet on the ground, legs bent slightly.",
+        "Use your legs to assist as you pull your chin above the bar."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-chin-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-chin-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-assisted-chin-up"
+    },
+    {
+      "id": 104726582505888,
+      "name": "Bodyweight Assisted Pull Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the chin-up bar with an overhand grip, shoulder-width apart.",
+        "Place your feet on the ground, legs bent slightly.",
+        "Use your legs to assist as you pull your chin above the bar."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-pull-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-pull-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-assisted-pull-up"
+    },
+    {
+      "id": 239762988798043,
+      "name": "Ring Pull Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grasp the rings with an overhand grip, arms and shoulders fully extended.",
+        "Pull your body up until your chin is above the rings.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-pull-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-pull-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-pull-up"
+    },
+    {
+      "id": 180976604538484,
+      "name": "Ring Twisting Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grab the rings shoulder width apart with a pronated grip (palms facing away).",
+        "With your body hanging and arms fully extended, pull yourself up and rotate your fists until your chin is past the rings.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-twisting-chin-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-twisting-chin-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-twisting-chin-up"
+    },
+    {
+      "id": 163154585300038,
+      "name": "Ring Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the rings shoulder width apart with a supinated grip (palms facing you)",
+        "With your body hanging and arms fully extended, pull yourself up until your chin is past the rings.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-chin-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-chin-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-chin-up"
+    },
+    {
+      "id": 167945731048203,
+      "name": "Gironda Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
+        "With your body hanging and arms fully extended, pull yourself up and lean backwards. Try to touch your chest to the bar.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-gironda-chin-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-gironda-chin-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/gironda-chin-up"
+    },
+    {
+      "id": 54801791730539,
+      "name": "L Sit Pull Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended. Pull your legs up until you're in an \"L\" position.",
+        "Pull your body up until your chin is above the bar.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-pull-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-pull-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/l-sit-pull-up"
+    },
+    {
+      "id": 172159808754098,
+      "name": "L Sit Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
+        "With your body in an \"L\" position and arms fully extended, pull yourself up until your chin is past the bar.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-chin-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-chin-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/l-sit-chin-up"
+    },
+    {
+      "id": 81505027871841,
+      "name": "Bodyweight Standing Inverted Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grab a door frame or a rack and place your feet near the frame.",
+        "Start with your elbows extended, row your body towards your hands.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-standing-inverted-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-standing-inverted-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-standing-inverted-row"
+    },
+    {
+      "id": 231329017286046,
+      "name": "Bodyweight Overhand Inverted Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-overhand-inverted-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-overhand-inverted-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-overhand-inverted-row"
+    },
+    {
+      "id": 270300209049448,
+      "name": "Bodyweight Underhand Inverted Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay underneath a fixed horizontal bar and grab the bar with an underhand grip.",
+        "Pull your body straight up to the bar.",
+        "Return to the starting position, your arms fully extended. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-underhand-inverted-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-underhand-inverted-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-underhand-inverted-row"
+    },
+    {
+      "id": 174812756083946,
+      "name": "Bodyweight Assisted Mixed Grip Pullup",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the chin-up bar with a mixed grip, shoulder-width apart.",
+        "Place your feet on the ground, legs bent slightly.",
+        "Use your legs to assist as you pull your chin above the bar."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-mixed-grip-pullup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-mixed-grip-pullup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-assisted-mixed-grip-pullup"
+    },
+    {
+      "id": 234206661550959,
+      "name": "Bodyweight Assisted Gironda Chin Up",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grasp the chin-up bar with an underhand grip, shoulder-width apart.",
+        "Place your feet on the ground, legs bent slightly.",
+        "Use your legs to assist as you pull your chest to the bar."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-gironda-chin-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-gironda-chin-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-assisted-gironda-chin-up"
+    },
+    {
+      "id": 97334337167387,
+      "name": "Ring Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Set up rings at a high point.",
+        "Grip rings and lean back, arms extended.",
+        "Pull chest to rings, keeping body straight."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-row"
+    }
+  ]
+}

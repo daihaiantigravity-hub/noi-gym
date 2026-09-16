@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/triceps/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/triceps/yoga",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/triceps/yoga/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Child Pose Elbows On Block",
+      "sourceUrl": "https://musclewiki.com/exercise/child-pose-elbows-on-block",
+      "cardText": "Child Pose Elbows On Block\nBeginner\n1\nPlace two blocks on the floor, shoulder-width apart.\n2\nKneel in front of the blocks, and lower your torso down so that your elbows are resting on the blocks, and your forehead is resting on the floor.\n3\nRelax your arms, shoulders, and neck, and breathe deeply.\n4\nHold for a few breaths, then release.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-child-pose-elbows-on-block-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-child-pose-elbows-on-block-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Cow Face Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/one-arm-cow-face-pose",
+      "cardText": "One Arm Cow Face Pose\nBeginner\n1\nSit on the floor with your legs extended in front of you.\n2\nBend your left knee and place your left foot on the floor, close to your right hip.\n3\nCross your right leg over your left leg, stacking your knees on top of each other.\n4\nBring your left arm up overhead, and bend your elbow so that your left hand reaches towards your upper back. Reach your right hand behind your back and try to clasp your left hand. Hold",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-one-arm-cow-face-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-one-arm-cow-face-pose-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pyramid Prayer",
+      "sourceUrl": "https://musclewiki.com/exercise/pyramid-prayer",
+      "cardText": "Pyramid Prayer\nBeginner\n1\nStand with your feet hip-width apart and place your hands on a table, chair, or any elevated surface in front of you.\n2\nWalk your feet back until your torso is parallel to the ground, and your elbows are resting on the surface.\n3\nRelax your head and neck, and breathe deeply.\n4\nHold for a few breaths, then release.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-prayer-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-prayer-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

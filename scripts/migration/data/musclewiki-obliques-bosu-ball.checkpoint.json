@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/obliques/bosu-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/obliques/bosu-ball",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/obliques/bosu-ball/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bosu Ball Forearm Sideplank",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-forearm-sideplank",
+      "cardText": "Bosu Ball Forearm Sideplank\nIntermediate\n1\nLie on one side, forearm on Bosu, elbow under shoulder.\n2\nLift hips to create a side plank.\n3\nHold the side plank position, then switch sides.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-forearm-sideplank-front_Qcp69b4.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-forearm-sideplank-side_nMvKaTZ.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Hand Sideplank",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank",
+      "cardText": "Bosu Ball Hand Sideplank\nIntermediate\n1\nPlace hand on Bosu, arm straight, facing sideways.\n2\nStack feet and lift hips to side plank.\n3\nHold the side plank position, then switch sides.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Hand Sideplank Hip Abduction",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank-hip-abduction",
+      "cardText": "Bosu Ball Hand Sideplank Hip Abduction\nAdvanced\n1\nStart in a side plank with hand on Bosu.\n2\nLift the top leg while keeping the body stable.\n3\nLower the leg back down.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-hip-abduction-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-hip-abduction-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Wood Chopper",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-wood-chopper",
+      "cardText": "Bosu Ball Wood Chopper\nBeginner\n1\nStand tall holding the bosu.\n2\nSwing bosu diagonally across the body.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-wood-chopper-front_zS8IIYb.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-wood-chopper-side_x8xY81r.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

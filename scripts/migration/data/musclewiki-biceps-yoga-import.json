@@ -1,0 +1,200 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 150885336329474,
+      "name": "Corpse Pose",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie down on your back with your legs straight and arms at your sides.",
+        "Close your eyes and take deep breaths in through your nose and out through your mouth.",
+        "Allow your body to completely relax and let go of any tension.",
+        "Hold for several minutes and then slowly come back up to a seated position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-core-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-core-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/corpe-pose"
+    },
+    {
+      "id": 273404307121980,
+      "name": "Crow Pose",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin in a squatting position with your feet together and your knees apart.",
+        "Place your hands on the floor in front of you, shoulder-width apart. Keep your arms straight and engage your core.",
+        "Slowly shift your weight forward and lift your feet off the ground, coming onto your tiptoes.",
+        "Bend your elbows and lean your weight onto your hands, shifting your knees towards your upper arms.",
+        "Gently lift one foot off the ground, and then the other, balancing on your hands. Hold the pose for a few breaths before releasing back to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crow-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crow-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/crow-pose"
+    },
+    {
+      "id": 15376635016610,
+      "name": "Downward Dog",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin on your hands and knees with your hands shoulder-width apart and your knees hip-width apart.",
+        "Spread your fingers wide and press down into your palms, making sure that your fingers are evenly spaced and facing forward.",
+        "Tuck your toes under and lift your knees off the ground, straightening your legs as much as possible.",
+        "Press your hips up and back, bringing your body into an inverted \"V\" shape.",
+        "Keep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.",
+        "Hold the pose for several breaths, then release and return to your starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/downward-dog"
+    },
+    {
+      "id": 249036222589973,
+      "name": "Downward Dog With Fingers Facing Feet",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in the same starting position as the previous exercise, with your hands and knees on the ground.",
+        "Spread your fingers wide and turn your hands so that your fingers are facing towards your feet.",
+        "Tuck your toes under and lift your knees off the ground, straightening your legs as much as possible.",
+        "Press your hips up and back, bringing your body into an inverted \"V\" shape.",
+        "Keep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.",
+        "Hold the pose for several breaths, then release and return to your starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-with-fingers-facing-feet-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-with-fingers-facing-feet-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/downward-dog-with-fingers-facing-feet"
+    },
+    {
+      "id": 257092490054912,
+      "name": "Scorpion Twist Pose",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a downward-facing dog pose.",
+        "Slowly lift one leg up towards the ceiling, keeping your hips level and your toes pointed.",
+        "Bend your lifted leg and try to touch your toes to the back of your head.",
+        "Once you have a firm grip with your toes, slowly begin to twist your torso towards the lifted leg.",
+        "Keep your hands and feet firmly planted on the ground as you hold the pose for a few breaths. Release the pose and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-scorpion-twist-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-scorpion-twist-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/scorpion-twist-pose"
+    },
+    {
+      "id": 78588923903670,
+      "name": "Seated Arm Stretch",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit cross-legged on the floor.",
+        "Extend your arms straight out in front of you, palms facing forward.",
+        "Cross your right arm over your left arm and interlace your fingers.",
+        "Pull your hands away from your body and hold for a few breaths, then release and repeat with the opposite arm on top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-arm-stretch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-arm-stretch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/seated-arm-stretch"
+    }
+  ]
+}

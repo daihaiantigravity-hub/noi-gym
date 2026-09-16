@@ -1,0 +1,159 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 249984721872546,
+      "name": "Machine Seated Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Get comfortable on the machine, then place your lower thighs beneath the padded lever. Place your toes and the balls of your feet onto the foot supports.",
+        "Prevent the weight from slipping forward by gripping the handles, and release the safety bar. Lower the weight until your calves are extended.",
+        "Push your heels up to lift the padded lever and hold the contracted position, then slowly lower back down to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-seated-calf-raises"
+    },
+    {
+      "id": 87000275664382,
+      "name": "Machine Standing Calf Raises",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the machine in accordance with your height and place your shoulders underneath the padded lever.",
+        "The balls of your feet should be supporting your weight on the calve block, your heels extending off of it.",
+        "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+        "Slowly return to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-standing-calf-raises-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-standing-calf-raises-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-standing-calf-raises"
+    },
+    {
+      "id": 194559298096023,
+      "name": "Machine Plate Loaded Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on the machine and press your back into the back pad.",
+        "Place the balls of your feet on the edge of the foot plate.",
+        "Let your heels lower until you feel a stretch in your calves, then press back up until you feel a contraction."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-calf-raise"
+    },
+    {
+      "id": 64377426941220,
+      "name": "Machine 45 Degree Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the machine in accordance with your height and sit.",
+        "The balls of your feet should be supporting your weight on the calve block, your heels extended off of it.",
+        "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+        "Slowly return to the starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-45-degree-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-45-degree-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-45-degree-calf-raise"
+    },
+    {
+      "id": 89537570787703,
+      "name": "Machine Donkey Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the machine to fit your height. Place your elbows on the pad, grab the handles. The vertical pad should be resting on your lower back.",
+        "Raise your heels toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-donkey-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-donkey-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-donkey-calf-raise"
+    }
+  ]
+}

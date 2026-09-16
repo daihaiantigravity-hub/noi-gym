@@ -1,0 +1,402 @@
+{
+  "total": 13,
+  "limit": 13,
+  "offset": 0,
+  "count": 13,
+  "results": [
+    {
+      "id": 182340417091808,
+      "name": "Dumbbell Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with a shoulder width stance. Push your butt back while leaving your knees MOSTLY extended.",
+        "You should feel a stretch in your hamstrings. When you feel the stretch, push your hips forward to complete the rep.",
+        "Do not push your hips all the way forward. This will hyperextend your spine. Just go to a normal standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-romanian-deadlift"
+    },
+    {
+      "id": 118247563865385,
+      "name": "Dumbbell Glute Bridge",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on the ground with both feet planted. Make sure you keep your heels glued to the floor.",
+        "Place the dumbbell on your hips. Push your hips toward the ceiling until you feel your glutes contract.",
+        "Then return to the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-glute-bridge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-glute-bridge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-glute-bridge"
+    },
+    {
+      "id": 240216990343851,
+      "name": "Dumbbell Goblet Good Morning",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the dumbbell in a goblet position. With your elbows directly under your fists.",
+        "Push your hips back while leaving your knees MOSTLY extended. You should feel a stretch in your hamstrings.",
+        "When you feel the stretch push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-goblet-good-morning-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-goblet-good-morning-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-goblet-good-morning"
+    },
+    {
+      "id": 189984865613984,
+      "name": "Dumbbell Leg Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on a bench with a dumbbell between your feet.",
+        "Flex your knees and raise the dumbbell until the soles of your shoes are pointed at the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-leg-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-leg-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-leg-curl"
+    },
+    {
+      "id": 5570718702956,
+      "name": "Dumbbell Single Leg Single Arm Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing on one leg with a dumbbell in one hand.",
+        "Slowly bend at the hips and lower the dumbbell towards the ground while extending your free leg behind you.",
+        "Keep your core engaged and your back straight as you lower the weight.",
+        "Once the dumbbell is close to the ground, push through your heel to return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-single-arm-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-single-arm-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-leg-single-arm-deadlift"
+    },
+    {
+      "id": 219067947930029,
+      "name": "Dumbbell Single Leg Stiff Leg Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing on one leg with your feet shoulder-width apart and holding two dumbbells.",
+        "From this starting position, hinge at the hips to lower the dumbbell towards the ground, keeping your back straight and your core engaged.",
+        "Once you feel a stretch in your hamstring, slowly return to the starting position.",
+        "Make sure to keep your standing leg slightly bent and avoid rounding your back as you lower the dumbbell."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-stiff-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-stiff-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-leg-stiff-leg-deadlift"
+    },
+    {
+      "id": 172165925321874,
+      "name": "Dumbbell Staggered Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+        "Place one foot slightly behind the other, with the heel of your back foot elevated on a step or weight plate.",
+        "From this starting position, bend at the hips and knees to lower the dumbbells towards the ground, keeping your back straight and your core engaged.",
+        "Once the dumbbells are below your knees, drive through your heels to stand back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-staggered-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-staggered-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-staggered-deadlift"
+    },
+    {
+      "id": 263074402174166,
+      "name": "Dumbbell Swing",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a dumbbell in both hands.",
+        "Bend your knees slightly and hinge at the hips to swing the dumbbell between your legs.",
+        "From this starting position, explosively extend your hips and swing the dumbbell up to chest height.",
+        "Allow the momentum of the swing to carry the dumbbell back down between your legs, and then repeat the movement for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-swing-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-swing-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-swing"
+    },
+    {
+      "id": 119792523415416,
+      "name": "Dumbbell Cross Body Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with a shoulder width stance holding one dumbbell. Push your butt back while leaving your knees MOSTLY extended.",
+        "Reach toward the opposing leg. You should feel a stretch in your hamstrings. When you feel the stretch, push your hips forward to complete the rep.",
+        "Do not push your hips all the way forward. This will hyperextend your spine. Just go to a normal standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-cross-body-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-cross-body-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-cross-body-romanian-deadlift"
+    },
+    {
+      "id": 260640193891445,
+      "name": "Dumbbell Staggered Waiters Bow",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-staggered-waiters-bow-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-staggered-waiters-bow-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-staggered-waiters-bow"
+    },
+    {
+      "id": 3625048572176,
+      "name": "Dumbbell Waiters Bow",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-waiters-bow-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-waiters-bow-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-waiters-bow"
+    },
+    {
+      "id": 231185652301967,
+      "name": "Dumbbell Half Kneeling Goblet Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one knee on a bench and hold a dumbbell in a goblet position.",
+        "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-goblet-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-goblet-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-half-kneeling-goblet-romanian-deadlift"
+    },
+    {
+      "id": 231273990831991,
+      "name": "Dumbbell Half Kneeling Romanian Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one knee on a bench and hold a dumbbell.",
+        "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-half-kneeling-romanian-deadlift"
+    }
+  ]
+}

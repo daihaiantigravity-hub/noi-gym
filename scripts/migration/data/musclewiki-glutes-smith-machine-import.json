@@ -1,0 +1,313 @@
+{
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "count": 10,
+  "results": [
+    {
+      "id": 153595112438881,
+      "name": "Smith Machine Staggered Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+        "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward again until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-staggered-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-staggered-deadlift"
+    },
+    {
+      "id": 86750533196020,
+      "name": "Smith Machine Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start on your hands and knees with one foot placed on the bottom of the bar.",
+        "Keeping your core braced, your back flat, and your moving leg bent at a",
+        "degree angle, drive the heel of your working leg up the ceiling while squeezing your glute.",
+        "Follow the movement path as you bring your knee back down to the ground beneath your hip, keeping your knee bent to maintain control of the bar.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-glute-kickback"
+    },
+    {
+      "id": 48242230420768,
+      "name": "Smith Machine Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your legs on the bar with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the floor. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-leg-press"
+    },
+    {
+      "id": 186967547869951,
+      "name": "Smith Machine Single Leg Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying on a bench with your foot on the ground and a barbell on your hips.",
+        "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+        "From this starting position, slowly lower your hips back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-single-leg-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-single-leg-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-single-leg-hip-thrust"
+    },
+    {
+      "id": 54073474136261,
+      "name": "Smith Machine Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the ground with a bench behind you. Have the bar over your legs just above your hips.",
+        "Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.",
+        "Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.",
+        "Slowly extend as far as you can, and then slowly return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hip-thrust-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-hip-thrust-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-hip-thrust"
+    },
+    {
+      "id": 171797815602409,
+      "name": "Smith Machine Sumo Romanian Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+        "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar",
+        "Leave your knees mostly extended and flex and extend your hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sumo-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-sumo-romanian-deadlift"
+    },
+    {
+      "id": 168790530045677,
+      "name": "Smith Machine Romanian Deadlift",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Take a shoulder width, double overhand or mixed grip.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-romanian-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-romanian-deadlift"
+    },
+    {
+      "id": 280991309624358,
+      "name": "Smith Machine Split Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a large step forward with one leg until your shoulders are under the smith machine",
+        "lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-split-squat"
+    },
+    {
+      "id": 167896209674303,
+      "name": "Smith Machine Reverse Lunge",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with the bar on your shoulders. Your feet should be slightly pointed outward, and your shoulders should be down and relaxed.",
+        "Step backward with one foot, lowering your body until your front thigh is parallel to the ground and your back knee is hovering just above the ground.",
+        "Push off your back foot, returning to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-reverse-lunge"
+    },
+    {
+      "id": 74131559750277,
+      "name": "Smith Machine Narrow Stance Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the bar on top of your traps. Take a narrow stance.",
+        "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+        "Aim to get your hamstrings to parallel with the floor.",
+        "Push your heels into the floor and squat back to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-narrow-stance-squat"
+    }
+  ]
+}

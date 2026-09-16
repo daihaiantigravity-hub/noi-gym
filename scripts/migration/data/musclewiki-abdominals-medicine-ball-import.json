@@ -1,0 +1,186 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 86355193902184,
+      "name": "Medicine Ball Halo",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, hold a medicine ball.",
+        "Circle the ball around your head, maintaining control.",
+        "Complete the desired number of repetitions in both directions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/halo"
+    },
+    {
+      "id": 278198964830355,
+      "name": "Medicine Ball Partner Situp Toss",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie facing partner, knees bent.",
+        "Sit up, toss medicine ball to partner.",
+        "Catch and lower down. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-partner-situp-toss-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-partner-situp-toss-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/partner-situp-toss"
+    },
+    {
+      "id": 233904888095303,
+      "name": "Medicine Ball Plank",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place forearms on medicine ball, extend legs.",
+        "Maintain straight body position for desired time."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-plank-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-plank-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plank"
+    },
+    {
+      "id": 279325224597345,
+      "name": "Medicine Ball Slam",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lift medicine ball overhead.",
+        "Slam ball down to ground with force."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-slam-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-slam-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/slam"
+    },
+    {
+      "id": 21101666629120,
+      "name": "Medicine Ball Hollow Hold",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on your back, holding a medicine ball overhead.",
+        "Lift your shoulders and legs off the ground, engaging core.",
+        "Hold the position while maintaining stability."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-hollow-hold-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-hollow-hold-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/medicine-ball-hollow-hold"
+    },
+    {
+      "id": 228426795279633,
+      "name": "Medicine Ball Dead Bug",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on your back, place a medicine ball between your extended arms and bent knees.",
+        "Lower opposite arm and leg to floor, keeping back pressed against ground and medicine ball in place.",
+        "Alternate sides, maintain core engagement, and repeat for desired reps or time."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-ball-medicine-ball-dead-bug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-ball-medicine-ball-dead-bug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/medicine-ball-dead-bug"
+    }
+  ]
+}

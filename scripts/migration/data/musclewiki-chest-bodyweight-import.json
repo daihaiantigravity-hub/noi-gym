@@ -1,0 +1,624 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 142011475630770,
+      "name": "Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place your hands firmly on the ground, directly under shoulders.",
+        "Flatten your back so your entire body is straight and slowly lower your body",
+        "Draw shoulder blades back and down, keeping elbows tucked close to your body",
+        "Exhale as you push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/push-up"
+    },
+    {
+      "id": 112818505008395,
+      "name": "Box Dips",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold your body with arms locked above the equipment",
+        "Lower your body slowly while leaning forward, flare out your elbows",
+        "Raise your body above the bars until your arms are locked."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-dips-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-dips-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/box-dips"
+    },
+    {
+      "id": 10046801781746,
+      "name": "Incline Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand facing bench or sturdy elevated platform.",
+        "Place hands on edge of bench or platform, slightly wider than shoulder width.",
+        "Slowly lower your body until your chest almost touches the bench.",
+        "Push body up until arms are extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-incline-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-incline-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/incline-push-up"
+    },
+    {
+      "id": 22738582963418,
+      "name": "Decline Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a bench to elevate your feet.",
+        "Put your hands slightly wider than shoulder-width.",
+        "Slowly lower your body until your chest almost touches the ground",
+        "Raise your body until you almost lock your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-decline-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-decline-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/decline-push-up"
+    },
+    {
+      "id": 269724808855693,
+      "name": "Stability Ball Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your hands firmly on the ground, directly under shoulders. Place your feet on the stability ball.",
+        "Flatten your back so your entire body is straight and slowly lower your body",
+        "Draw shoulder blades back and down, keeping elbows tucked close to your body",
+        "Exhale as you push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-push-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-push-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-push-up"
+    },
+    {
+      "id": 162640705737079,
+      "name": "Stability Ball Atomic Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place feet on a stability ball, hands on the floor in a push-up position.",
+        "Lower your chest toward the floor, then push up while tucking knees toward your chest.",
+        "Extend legs back to starting position, maintaining control and stability throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-atomic-push-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-atomic-push-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-atomic-push-up"
+    },
+    {
+      "id": 197164579576382,
+      "name": "Leg Raised Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place your hands firmly on the ground, directly under shoulders.",
+        "Flatten your back so your entire body is straight, raise one leg off the ground, and slowly lower your body",
+        "Draw shoulder blades back and down, keeping elbows tucked close to your body",
+        "Exhale as you push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-leg-raised-push-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-leg-raised-push-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/leg-raised-push-up"
+    },
+    {
+      "id": 64919523287412,
+      "name": "Bodyweight Hands Up Push Ups",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place your hands firmly on the ground, directly under shoulders.",
+        "Flatten your back so your entire body is straight and slowly lower your body",
+        "Draw shoulder blades back and down, keeping elbows tucked close to your body. Bring chest all the way to the floor and raise hands off the ground.",
+        "Exhale as you push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hands-up-push-ups-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-hands-up-push-ups-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-hands-up-push-ups"
+    },
+    {
+      "id": 152058723467891,
+      "name": "Ring Standing Chest Fly",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by adjusting the rings straps to chest height. Stand facing the rings with your feet shoulder-width apart.",
+        "Grasp the rings' handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+        "Lean forward, keeping your arms extended and your core engaged. Your body should form a slight diagonal line from your ankles to your head.",
+        "Slowly bring your arms towards each other, in front of your chest, while keeping your core engaged and your body in a stable position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-chest-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-chest-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-standing-chest-fly"
+    },
+    {
+      "id": 250626668112594,
+      "name": "Ring Standing Archer Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position rings shoulder-width apart, grasp handles, extend legs behind.",
+        "Lower chest to rings, bend one elbow, while extending your other arm out to the side. Push yourself back to the start.",
+        "Then switch arms and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-archer-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-archer-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-standing-archer-pushup"
+    },
+    {
+      "id": 143001376005920,
+      "name": "Ring Standing Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by setting up the rings to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+        "Stand facing the rings grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+        "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+        "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-standing-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-standing-pushup"
+    },
+    {
+      "id": 180136768720351,
+      "name": "Parallel Bar Dips",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+        "Lower slowly until elbows are at",
+        "degrees.",
+        "Push back up to start position, extending arms fully."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-parralel-bar-dips-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-parralel-bar-dips-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/parralel-bar-dips"
+    },
+    {
+      "id": 60620835101161,
+      "name": "Bodyweight Box Assisted Dips",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grip the edge of the boxes with your hands, Keep your feet together and legs straight.",
+        "Lower your body straight down.",
+        "Slowly press back up to the starting point.",
+        "TIP: Make this harder by raising your feet off the floor and adding weight."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-assisted-dips-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-assisted-dips-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-box-assisted-dips"
+    },
+    {
+      "id": 264521077575796,
+      "name": "Bodyweight Knee Push Ups",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Begin in a push-up position on your knees. Break at the elbow and shoulder joint.",
+        "Lower your body, keeping elbows close.",
+        "Push back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-knee-push-ups-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-knee-push-ups-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-knee-push-ups"
+    },
+    {
+      "id": 106652036870256,
+      "name": "Bodyweight Incline Knee Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by placing two boxes (or one) on the floor, about shoulder-width apart.",
+        "Position yourself in a plank position with your hands on top of the box, keeping your arms straight.",
+        "Put your knees on the floor.",
+        "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the box.",
+        "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-incline-knee-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-incline-knee-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-incline-knee-push-up"
+    },
+    {
+      "id": 270470766193436,
+      "name": "Bodyweight Explosive Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start in a push-up position.",
+        "Lower your chest, explode up.",
+        "Land softly, repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-explosive-push-up-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-explosive-push-up-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-explosive-push-up"
+    },
+    {
+      "id": 80380500764132,
+      "name": "Bodyweight Elevated Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by placing two plates or low boxes on the floor, about shoulder-width apart.",
+        "Position yourself in a plank position with your hands on top of the boxes/plates, keeping your arms straight.",
+        "Keep your feet together, with your toes resting on the floor.",
+        "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells.",
+        "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-elevated-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-elevated-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-elevated-push-up"
+    },
+    {
+      "id": 9486734250132,
+      "name": "Bodyweight Diamond Knee Push Ups",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Begin in a push-up position with your hands forming a diamond shape under your chest.",
+        "Lower your body, keeping elbows close.",
+        "Push back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-diamond-knee-push-ups-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-diamond-knee-push-ups-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-diamond-knee-push-ups"
+    },
+    {
+      "id": 263176524475714,
+      "name": "Bodyweight Clapping Push Up",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a push-up position.",
+        "Lower your chest, explode up, clap hands.",
+        "Land softly, repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-clapping-push-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-clapping-push-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-clapping-push-up"
+    },
+    {
+      "id": 158254945234233,
+      "name": "Burpee",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start standing with your feet hip-width apart. Lower your body into a squat position, placing your hands on the ground in front of you.",
+        "Quickly jump your feet back into a plank position, keeping your body in a straight line from your head to your toes.",
+        "Perform a push-up, keeping your core tight and your elbows close to your body.",
+        "Jump your feet back towards your hands, and then jump up into the air, reaching your arms overhead.",
+        "Land softly and immediately lower your body back into the squat position to repeat the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-burpee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-burpee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/burpee"
+    }
+  ]
+}

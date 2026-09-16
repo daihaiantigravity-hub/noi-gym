@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/rear-shoulders/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [{"number":1,"url":"https://musclewiki.com/exercises/rear-shoulders/machine","found":4}],
+  "candidates": [
+    {"name":"Machine Overhand Row","sourceUrl":"https://musclewiki.com/exercise/machine-overhand-row","difficulty":"Novice"},
+    {"name":"Machine Reverse Fly","sourceUrl":"https://musclewiki.com/exercise/machine-reverse-fly","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Low Row","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-low-row","difficulty":"Novice"},
+    {"name":"Machine Rear Deltoid Row","sourceUrl":"https://musclewiki.com/exercise/machine-rear-deltoid-row","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":1,"cards":4,"candidates":4,"videos":8}
+}

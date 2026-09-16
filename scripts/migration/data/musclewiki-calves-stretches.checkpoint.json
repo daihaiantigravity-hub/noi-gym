@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/stretches",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/calves/stretches",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/calves/stretches/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Calves Stretch Variation One",
+      "sourceUrl": "https://musclewiki.com/exercise/calves-stretch-variation-one",
+      "cardText": "Calves Stretch Variation One\nBeginner\n1\nPlace the ball of your foot against the wall with your heel on the ground. Place your hands on the wall in front of your shoulders.\n2\nKeeping your knee straight, slowly lean towards the wall, pause for a few seconds when you feel the stretch extending through your calf muscle.\n3\nReturn to the starting position, and repeat the stretch with your other leg.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Calves Stretch Variation Two",
+      "sourceUrl": "https://musclewiki.com/exercise/calves-stretch-variation-two",
+      "cardText": "Calves Stretch Variation Two\nBeginner\n1\nWith both feet flat on the ground, place one leg in front of your shoulder, your other leg should mirror this position behind your other shoulder. In the starting position both of your knees should be straight.\n2\nPlace the palms of your hands against the wall at shoulder height in front of you, lean towards the wall and bend your front leg at the knee while keeping your back leg straight.\n3\nPause at the apex of the stretch and return to the starting position. Switch the position of your legs and repeat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Calves Stretch Variation Three",
+      "sourceUrl": "https://musclewiki.com/exercise/calves-stretch-variation-three",
+      "cardText": "Calves Stretch Variation Three\nBeginner\n1\nBalance the balls of your feet on the platform, leaning forward to use the wall to assist with balance. Engage your calves so that your feet are flat before beginning the stretch.\n2\nLower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the stretch.\n3\nRepeat as necessary.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-calves-stretch-variation-3-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

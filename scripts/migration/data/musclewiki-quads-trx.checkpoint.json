@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/quads/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/quads/trx",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/quads/trx/2",
+      "found": 2
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/quads/trx/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Curtsy Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-curtsy-lunge",
+      "cardText": "TRX Curtsy Lunge\nBeginner\n1\nStand facing away from the anchor point, holding onto the TRX handles with both hands.\n2\nStep your left foot behind your right, crossing it behind your right leg, and lower yourself into a curtsy lunge.\n3\nPush through your right foot to return to the starting position and repeat the movement with the other leg.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-curtsy-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-curtsy-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Jumping Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-jumping-squat",
+      "cardText": "TRX Jumping Squat\nIntermediate\n1\nStand facing the TRX straps and place your feet shoulder-width apart.\n2\nBegin by lowering into a squat position by bending at the knees and hips, keeping your back straight and chest up.\n3\nExplosively jump up off the ground, using your arms for momentum if desired.\n4\nLand softly back in the squat position, making sure to absorb the impact with your legs.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-jump-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-jump-squat-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Lateral Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-lateral-lunge",
+      "cardText": "TRX Lateral Lunge\nNovice\n1\nGrasp the TRX handles with both hands and extend your arms straight in front of you.\n2\nStep laterally to one side, keeping your arms extended and your core engaged.\n3\nLower your body into a lunge position, keeping your front knee bent at a 90-degree angle and your back leg straight.\n4\nPush off your front foot to return to the starting position, keeping your arms extended and your core engaged.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-lateral-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-lateral-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Reverse Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-reverse-lunge",
+      "cardText": "TRX Reverse Lunge\nNovice\n1\nHold on to the TRX straps and step away until the strap is taut.\n2\nStep backwards with one leg in to a lunge position and gently tap your knee to the floor.\n3\nLunge back to the starting position and repeat with the other leg.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Split Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-split-squat",
+      "cardText": "TRX Split Squat\nNovice\n1\nHold the two TRX straps and step away until the straps are taut. Take a split stance.\n2\nBring your back knee to the floor and gently tap the floor.\n3\nUse your arms and the TRX to help assist you getting back into the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-split-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-split-squat-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-squat",
+      "cardText": "TRX Squat\nNovice\n1\nHold the two TRX straps and lean away from the anchor point.\n2\nFlex at the hips and knees in to a squat position.\n3\nYou can use your arms and the straps to assist you back into the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-squat-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 6,
+    "candidates": 6,
+    "videos": 12
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "total": 11,
+  "limit": 11,
+  "offset": 0,
+  "count": 11,
+  "results": [
+    {
+      "id": 102554953579702,
+      "name": "Barbell Bent Over Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab a barbell with a shoulder width pronated or supinated grip.",
+        "Bend forward at your hips while maintaining a flat back.",
+        "Pull the weight toward your upper abdomen.",
+        "Lower the weight in a controlled manner and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bent-over-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bent-over-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-bent-over-row"
+    },
+    {
+      "id": 98823124637705,
+      "name": "Barbell Shoulder Extension",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold barbell behind hips with straight arms and palms facing back.",
+        "Keeping arms straight, lift bar slightly backward until lats engage.",
+        "Lower bar slowly to starting position while maintaining tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-shoulder-extension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-shoulder-extension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-shoulder-extension"
+    },
+    {
+      "id": 47525598667308,
+      "name": "Barbell Pullover",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie flat on bench holding barbell above chest with slight elbow bend.",
+        "Lower bar in an arc behind head until you feel a deep stretch.",
+        "Pull bar back over chest using lats and triceps under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-pullover-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-pullover-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-pullover"
+    },
+    {
+      "id": 39132299984171,
+      "name": "Landmine T Bar Rows",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab a v bar and place it under the bar's collar.",
+        "Hinge forward with a flat back and pull your elbows straight back toward the ceiling.",
+        "Fully extend your elbows before initiating the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-t-bar-rows-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-t-bar-rows-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-t-bar-rows"
+    },
+    {
+      "id": 219192597033880,
+      "name": "Barbell Supinated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing in front of a barbell with your feet about hip-width apart.",
+        "Bend at the hips and knees to grab the barbell with a supinated (underhand) grip, positioning the barbell about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+        "As the barbell reaches your chest, pause briefly, and then lower the barbell back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-supinated-row"
+    },
+    {
+      "id": 83844196349536,
+      "name": "Barbell Supinated Pendlay Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing in front of a barbell with your feet about hip-width apart and your palms facing towards your body.",
+        "Bend at the hips and knees to grab the barbell with a pronated (overhand) grip, positioning the barbell about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+        "As the barbell reaches your chest, rotate your wrists so that your palms are facing towards your body (supinated grip), and then lower the barbell back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-supinated-pendlay-row"
+    },
+    {
+      "id": 124571842829075,
+      "name": "Barbell Pronated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the barbell with an overhand grip. Hinge forward while keeping your back flat until your torso is about parallel with the ground.",
+        "Let your arms hang freely.",
+        "Pull the bar to your torso while tucking your elbows in slightly.",
+        "Extend your elbows fully before initiating the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-pronated-row"
+    },
+    {
+      "id": 180295406355489,
+      "name": "Barbell Pronated Pendlay Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start hinged forward with a flat back and the plates resting on the floor. Make sure your elbows are fully extended.",
+        "Pull the bar to your sternum.",
+        "Return the plates back to the floor and let the bar come to a full dead stop.",
+        "Then initiate the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-pronated-pendlay-row"
+    },
+    {
+      "id": 19709053006182,
+      "name": "Barbell Meadows Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position a barbell in a landmine or corner of a room and stand facing sideways with a staggered stance and your feet shoulder-width apart.",
+        "Grasp the end of the barbell with an overhand grip, keeping your arms straight and your shoulders relaxed.",
+        "Bend at the hips and knees to lower your torso until it is almost parallel to the ground.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together as you row the weight up.",
+        "*Named after the late John Meadows"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-meadows-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-meadows-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-meadows-row"
+    },
+    {
+      "id": 164108866685852,
+      "name": "Barbell Long Landmine Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Position a barbell in a landmine or corner of a room and stand facing it with your feet shoulder-width apart.",
+        "Grasp the end of the barbell with an overhand grip, keeping your arms straight and your shoulders relaxed.",
+        "Bend at the hips and knees to lower your torso until it is almost parallel to the ground.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together as you row the weight up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-long-landmine-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-long-landmine-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-long-landmine-row"
+    },
+    {
+      "id": 175782553719545,
+      "name": "Barbell Landmine Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position a barbell in a landmine or corner of a room and stand facing it with your feet shoulder-width apart.",
+        "Grasp the end of the barbell with a neutral grip, keeping your arms straight and your shoulders relaxed.",
+        "Bend at the hips and knees to lower your torso until it is almost parallel to the ground.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together as you row the weight up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-landmine-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-landmine-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-landmine-row"
+    }
+  ]
+}

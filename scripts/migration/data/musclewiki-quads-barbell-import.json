@@ -1,0 +1,1343 @@
+{
+  "total": 44,
+  "limit": 44,
+  "offset": 0,
+  "count": 44,
+  "results": [
+    {
+      "id": 228701448245355,
+      "name": "Barbell Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width apart. Maintain the natural arch in your back, squeezing your shoulder blades and raising your chest.",
+        "Grip the bar across your shoulders and support it on your upper back. Unwrack the bar by straightening your legs, and take a step back.",
+        "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+        "Raise the bar back to starting position, lift with your legs and exhale at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-squat"
+    },
+    {
+      "id": 58912482442842,
+      "name": "Barbell Step Up",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a barbell across your upper back and shoulders, using an overhand grip.",
+        "Place your right foot on the box and push through the heel to lift your body up and onto the box.",
+        "Step back down with your right foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-step-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-step-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-step-up"
+    },
+    {
+      "id": 26623819478830,
+      "name": "Barbell Sumo Deadlift",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+        "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and push your heels into the floor.",
+        "Try to extend your knees and hips simultaneously."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-sumo-deadlift-side_5lcmI1F.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-sumo-deadlift-front_hI2eO77.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-sumo-deadlift"
+    },
+    {
+      "id": 188696145805459,
+      "name": "Barbell High Bar Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the bar on top of your traps.",
+        "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+        "Aim to get your hamstrings to parallel with the floor.",
+        "Push your heels into the floor and squat back to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-bar-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-bar-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-high-bar-squat"
+    },
+    {
+      "id": 79946997569033,
+      "name": "Barbell Bulgarian Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Find a box or bench that is roughly knee height or a few inches lower. (The lower the box is the lower the mobility requirement).",
+        "You can either place your toes or the top of your foot on the box. Point your front foot forward or slightly turned outwards and break at the knees and hips simultaneously.",
+        "Aim to get your front leg to hit parallel depth (hamstring parallel with the ground) or lower.",
+        "The further forward your front foot is, the longer the Range of Motion is at your hips. The further back your front foot is, the longer the ROM at your knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-bulgarian-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-bulgarian-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-bulgarian-split-squat"
+    },
+    {
+      "id": 39791134358774,
+      "name": "Barbell Curtsy Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Place the barbell on your back",
+        "Step your foot back and around while simultaneously bringing the weight down.",
+        "Return to start and repeat on other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curtsy-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curtsy-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-curtsy-lunge"
+    },
+    {
+      "id": 20969733488844,
+      "name": "Barbell Low Bar Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Pull your shoulder blades back really hard and place the bar on your posterior delts.",
+        "Push your hips back and break at the knees to initiate the squat.",
+        "Aim to get your hamstrings to parallel with the ground. Push your heels into the floor and squat back up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-low-bar-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-low-bar-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-low-bar-squat"
+    },
+    {
+      "id": 90999927262926,
+      "name": "Barbell Front Squat Bodybuilding",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Measure your shoulders against the bar to make sure you're even. Throw your shoulders under the bar. The bar should be digging into your neck slightly.",
+        "Make sure to push your elbows up to the ceiling for the entire rep. To make sure you don't get too pitched forward.",
+        "Use the squat stance you would use for a back or goblet squat. Push your hips back to initiate the squat. Break at the knees until you hit parallel depth.",
+        "Squat back up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-bodybuilding-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-bodybuilding-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-front-squat-bodybuilding"
+    },
+    {
+      "id": 208067905754143,
+      "name": "Barbell Front Squat Olympic",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Measure your hands by the markings on the bar to make sure you're even. Then throw your elbows underneath the bar.",
+        "The bar should be set so high on your shoulders it digs into your neck a bit. Make sure to push your elbows up to the ceiling for the entire rep. To make sure you don't get too pitched forward.",
+        "Use the squat stance you would use for a back or goblet squat. Push your hips back to initiate the squat. Break at the knees until you hit parallel depth.",
+        "Squat back up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-olympic-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-olympic-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-front-squat-olympic"
+    },
+    {
+      "id": 210605776897311,
+      "name": "Ez Bar Zercher Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin by standing with your feet about hip-width apart and holding the bar in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+        "Sit back and lower your body down until your thighs are parallel to the ground, keeping your back straight and your core engaged.",
+        "Push through your heels to extend your hips and stand back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-zercher-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-zercher-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-zercher-squat"
+    },
+    {
+      "id": 181254121256740,
+      "name": "Trap Bar Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand inside trap bar, feet shoulder-width, grip handles.",
+        "Sit hips down and back, keeping chest upright.",
+        "Lower until thighs are at least parallel.",
+        "Push your heels into the floor and squat back to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-squat"
+    },
+    {
+      "id": 89882063712060,
+      "name": "Trap Bar Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-split-squat"
+    },
+    {
+      "id": 165242136385837,
+      "name": "Trap Bar Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand inside trap bar, grip handles, stand tall.",
+        "Step one foot backward into lunge position.",
+        "Lower until front thigh is parallel to ground.",
+        "Push through front heel to return standing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-reverse-lunge"
+    },
+    {
+      "id": 83469201981934,
+      "name": "Barbell Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold barbell on upper back and place one foot firmly on platform.",
+        "Drive through front heel to step up, keeping torso tall and balanced.",
+        "Lift trailing knee high at the top, then step down slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-step-up-knee-drive"
+    },
+    {
+      "id": 63439276245578,
+      "name": "Barbell Front Rack Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold barbell in front rack position and place one foot on the platform.",
+        "Drive through the front heel to step up, keeping chest tall and core braced.",
+        "Lift trailing knee high at the top, then step down slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-rack-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-rack-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-front-rack-step-up-knee-drive"
+    },
+    {
+      "id": 22005482815721,
+      "name": "Barbell Thruster",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold the bar in a front rack position.",
+        "Push your hips back and sink into a squat.",
+        "Push through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.",
+        "Let the bar return to the front rack position before starting the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-thruster-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-thruster-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-thruster"
+    },
+    {
+      "id": 269709531995984,
+      "name": "Barbell Banded Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Loop band under front foot and around barbell resting on your upper back.",
+        "Lower back knee toward the floor while keeping front knee over ankle.",
+        "Push through front heel and drive up to starting position under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-banded-split-squat"
+    },
+    {
+      "id": 159216669516194,
+      "name": "Barbell Banded Front Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Loop bands under your feet and around the anchors, bar resting on front delts.",
+        "Keep chest tall, brace core, and lower until thighs reach parallel.",
+        "Drive through midfoot, extend hips and knees, and return to standing upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-front-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-front-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-banded-front-squat"
+    },
+    {
+      "id": 272734407148231,
+      "name": "Barbell Banded Back Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Loop resistance bands under your feet and around the barbell. Stand shoulder-width apart.",
+        "Brace your core, push hips back, and lower until thighs are parallel to the floor.",
+        "Drive through your heels, extend hips and knees, and return to standing tall."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-back-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-back-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-banded-back-squat"
+    },
+    {
+      "id": 30709285742163,
+      "name": "Barbell Deficit Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on a platform, bar on your back, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping bar stable throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-deficit-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-deficit-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-deficit-lunge"
+    },
+    {
+      "id": 159649908237438,
+      "name": "Barbell Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-split-squat"
+    },
+    {
+      "id": 233210506026716,
+      "name": "Barbell Step Up Balance",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a barbell across your upper back and shoulders, using an overhand grip.",
+        "Place your right foot on the box and push through the heel to lift your body up and onto the box, keeping your left foot off the ground.",
+        "Step back down with your right foot, lowering your left foot to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-step-up-balance-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-step-up-balance-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-step-up-balance"
+    },
+    {
+      "id": 245442579965984,
+      "name": "Barbell Tap Pause Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a barbell across your upper back and shoulders, using an overhand grip.",
+        "Sit back and lower your body down until your glutes tap the top of the box, keeping your back straight and your core engaged.",
+        "Push through your heels to extend your hips and stand up, bringing your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-tap-box-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-tap-box-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-tap-pause-squat"
+    },
+    {
+      "id": 255997114768191,
+      "name": "Barbell Zercher Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing with your feet about hip-width apart and holding a barbell in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+        "Sit back and lower your body down until your thighs are parallel to the ground, keeping your back straight and your core engaged.",
+        "Push through your heels to extend your hips and stand back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-zercher-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-zercher-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-zercher-squat"
+    },
+    {
+      "id": 69357508714588,
+      "name": "Landmine Alternating Lunge And Twist",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set up the landmine attachment and load weight.",
+        "Stand facing the landmine, holding the weight away from your chest.",
+        "Step backward with one leg, lunge down while twisting your torso toward the front leg, return to starting position, and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-and-twist-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-and-twist-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-alternating-lunge-and-twist"
+    },
+    {
+      "id": 31485199778920,
+      "name": "Landmine Alternating Lunge To Chest Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand facing the landmine with feet hip-width apart and holding the end of the landmine barbell with both hands, keeping elbows bent and close to your body.",
+        "Step backward with the right foot, lunge down, and press the landmine away from your chest.",
+        "Push through the left heel to return to the starting position while pulling the landmine back to your chest.",
+        "Repeat on the opposite side, alternating for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-to-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-to-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-alternating-lunge-to-chest-press"
+    },
+    {
+      "id": 4858582411034,
+      "name": "Landmine Curtsy Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the barbell while holding the end of the bar at your side with one hand.",
+        "With the leg on the same side of your body as the barbell, lunge backward and across your body at a",
+        "degree angle while keeping your weight on your front heel to lower your back knee gently to the ground.",
+        "Drive through your front heel as you step back to the starting position, and repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-curtsy-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-curtsy-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-curtsy-lunge"
+    },
+    {
+      "id": 21143202119942,
+      "name": "Landmine Goblet Curtsy Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start facing the barbell while holding the end of the bar in the goblet position in front of your chest with your elbows close to your sides.",
+        "Step backward and across your body with one leg at a",
+        "degree angle while keeping your weight on your front heel to gently lower your back knee to the ground.",
+        "Drive through your front heel as you step back up and to the starting position.",
+        "Repeat for the desired number of reps before switching legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-goblet-curtsy-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-goblet-curtsy-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-goblet-curtsy-lunge"
+    },
+    {
+      "id": 122617915603839,
+      "name": "Landmine Goblet Lateral Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start facing the barbell while holding the end of the bar close to your chest in the goblet position with your elbows tucked in close to your body.",
+        "Step directly out to the side with both toes pointing forward. Keep your weight on the heel of the leg you step out with as you sink down over that foot while your other leg remains straight for balance.",
+        "Drive through the heel over which you have centered your body as you step back to the starting position.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-goblet-lateral-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-goblet-lateral-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-goblet-lateral-lunge"
+    },
+    {
+      "id": 61799078417350,
+      "name": "Landmine Hack Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start facing away from the landmine attachment with the end of the barbell resting on one shoulder against the base of your neck while leaning slightly back into the weight of the barbell.",
+        "Squat down with control while keeping the weight of the barbell as close to centered over your midpoint as possible, then drive through your heels to stand all the way back up and return to starting position.",
+        "Repeat for desired number of reps, then switch the side of your body the barbell is on every subsequent set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-hack-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-hack-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-hack-squat"
+    },
+    {
+      "id": 124895090895996,
+      "name": "Landmine Lateral Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the landmine with your feet shoulder width apart while holding the end of the barbell in your hands with your arms fully extended down towards the ground.",
+        "While keeping your torso tall and core engaged, step directly out to one side, using the foot you have stepped out with to sit down into the lunge while keeping your other leg straight.",
+        "Drive through your heel on your bent leg as your step together to return to the starting position.",
+        "Repeat for desired number of reps on the same side before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lateral-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lateral-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-lateral-lunge"
+    },
+    {
+      "id": 92609421572906,
+      "name": "Landmine Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of the landmine with your feet hip-width apart and your back straight. Grasp the landmine barbell with one hand, holding it at at your side with your palm facing in towards your leg.",
+        "Take a step backward with your foot on the same side that you're holding the barbell, lowering your body into a lunge position. Bend both knees to lower your body down until your front thigh is parallel to the ground, or as low as your flexibility allows. Keep your torso upright, your chest lifted, and your core engaged throughout the movement.",
+        "Push through the heel of your front foot to return to the starting position. Repeat for desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-lunge"
+    },
+    {
+      "id": 59790138385173,
+      "name": "Landmine Lunge To Overhead Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand facing the landmine attachment while holding the end of the bar with one hand at your shoulder on the same side with your elbow tucked to your body underneath your wrist.",
+        "Step back with the leg on the same side that you are holding the bar on and with control lower yourself down into a lunge position while keeping your core engaged and torso tall, then drive through your front heel as you step back to the starting position.",
+        "Once your feet are back in the starting position, drive the bar up overhead until your arm is fully extended, then lower the bar back down to the starting position.",
+        "Repeated for the desired number of reps, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lunge-to-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-lunge-to-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-lunge-to-overhead-press"
+    },
+    {
+      "id": 107369985362970,
+      "name": "Landmine Rotational Lift To Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand perpendicularly to the barbell with the end of the bar in front of your feet. Squat down and hold the end of the bar with your hand closer to the landmine attachment with your palm facing your body.",
+        "Drive your feet into the ground to start the motion. As your legs fully extend, pull the bar upwards with your hand and start to rotate your torso in towards the landmine attachment. As you do so, bring your other hand up to the bar and switch your grip. Press through the bar to extend your arm all the way upright, pivoting your back foot to allow for more trunk rotation.",
+        "Perform the movement in reverse to return to the starting position. Repeat for desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-rotational-lift-to-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-rotational-lift-to-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-rotational-lift-to-press"
+    },
+    {
+      "id": 127791474163837,
+      "name": "Barbell Landmine Sissy Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold the bar in a goblet position.",
+        "Stand tall, push your knees forward until your calves touch your hamstrings.",
+        "Make sure to keep your hips extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-sissy-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-sissy-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-landmine-sissy-squat"
+    },
+    {
+      "id": 64019926509423,
+      "name": "Landmine Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the end of the bar in a goblet position.",
+        "Push your hips back and break at the knees.",
+        "Reach at least parallel with the ground before pushing through your heels back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-squat"
+    },
+    {
+      "id": 32016600926963,
+      "name": "Landmine Sumo Deadlift",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with a wide stance and straddle over the end of the bar.",
+        "Bend at the hips and knees, and grab the bar.",
+        "Stand up with the bar."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-sumo-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-sumo-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-sumo-deadlift"
+    },
+    {
+      "id": 41777373186517,
+      "name": "Landmine Thruster",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold the bar with a goblet position.",
+        "Push your hips back and sink into a squat.",
+        "Push through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.",
+        "Let the bar return to the goblet position before starting the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-thruster"
+    },
+    {
+      "id": 188466779813122,
+      "name": "Barbell Front Squat With Straps",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Measure your shoulders against the bar to make sure you're even. Wrap a pair of lifting straps around the bar. Hold the ends of the straps. Throw your shoulders under the bar. The bar should be digging into your neck slightly.",
+        "Make sure to push your elbows up to the ceiling for the entire rep. To make sure you don't get too pitched forward.",
+        "Use the squat stance you would use for a back or goblet squat. Push your hips back to initiate the squat. Break at the knees until you hit parallel depth.",
+        "Squat back up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-with-straps-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-squat-with-straps-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-front-squat-with-straps"
+    },
+    {
+      "id": 227260649745519,
+      "name": "Barbell Kickstand Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with feet hip-width apart, one foot slightly behind. Bar on your back.",
+        "Lower into a squat, keeping weight on front heel.",
+        "Return to standing, engaging glutes and core."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-kickstand-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-kickstand-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-kickstand-squat"
+    },
+    {
+      "id": 38743458735623,
+      "name": "Barbell Quad Stomp",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Have the barbell in a high bar position and place your foot on a plate or a low box.",
+        "Put all of your weight on your front foot and lean forward.",
+        "Lower until your calves touch your hamstrings and then extend back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-quad-stomp-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-quad-stomp-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-quad-stomp"
+    },
+    {
+      "id": 59487212758994,
+      "name": "Barbell Zercher Deficit Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing with your feet on a plate and holding a barbell in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+        "Step back with one foot off the plate and lower your back knee to the floor.",
+        "Push through your front leg and bring your back foot to the plate."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-zercher-deficit-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-zercher-deficit-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-zercher-deficit-lunge"
+    },
+    {
+      "id": 107931273458324,
+      "name": "Barbell Front Rack Deficit Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on a platform, barbell in front rack, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping bar stable throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-rack-deficit-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-rack-deficit-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-front-rack-deficit-lunge"
+    },
+    {
+      "id": 239667728454596,
+      "name": "Barbell Curtsy Deficit Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on a platform, barbell on your back, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping bar stable throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curtsy-deficit-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curtsy-deficit-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-curtsy-deficit-lunge"
+    }
+  ]
+}

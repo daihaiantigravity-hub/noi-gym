@@ -1,0 +1,68 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 35818252192969,
+      "name": "Bosu Ball Single Leg Hip Thrust",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on Bosu, lean back, one foot on the floor.",
+        "Drive hips upward, squeezing glutes, one leg extended.",
+        "Lower hips back down and switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-front_aBwyvlD.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-side_2ro2ZyY.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-single-leg-hip-thrust"
+    },
+    {
+      "id": 129269266453524,
+      "name": "Bosu Ball Superman",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie face down on Bosu, arms extended.",
+        "Lift arms, chest, and legs off the Bosu.",
+        "Hold for a moment, then lower back down."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-superman-front_wu1ihDh.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-superman-side_aPEoH2j.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-superman"
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ExerciseDetailMedia from "@/components/ExerciseDetailMedia";
-import { getPublishedExerciseByKey } from "@/lib/exercises/repository";
-import { getLocalPublicExerciseById } from "@/lib/exercises/source";
+import ExerciseLibrary from "@/components/ExerciseLibrary";
+import { getPublishedExerciseByKey, listPublishedExercises, listPublishedExercisesByTarget } from "@/lib/exercises/repository";
+import { getLocalPublicExerciseById, getLocalPublicExercises } from "@/lib/exercises/source";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
+import { getAdvancedRoute, getAdvancedTarget, getExerciseCategoryBySlug, getJointTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
 import type { PublicExercise } from "@/lib/exercises/types";
 
 const muscleNameBySlug: Record<string, string> = {
@@ -30,8 +32,47 @@ function getDisplayExerciseName(name: string) {
   return normalizedName.replace(/^(.+?)\s+\1$/iu, "$1");
 }
 
-export default async function ExerciseDetailPage({ params }: { params: Promise<{ muscle: string; exerciseId: string }> }) {
+export default async function ExerciseDetailPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ muscle: string; exerciseId: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
   const { muscle, exerciseId } = await params;
+  const queryParams = await searchParams;
+  const view = Array.isArray(queryParams.view) ? queryParams.view[0] : queryParams.view;
+  const category = getExerciseCategoryBySlug(exerciseId);
+  const advancedTarget = getAdvancedTarget(muscle);
+  const jointTarget = getJointTarget(muscle);
+  const isJointRoute = Boolean(jointTarget && exerciseId === jointTarget.pathSuffix);
+  const isAdvancedView = Boolean(advancedTarget && (!isAdvancedSlugConflict(muscle) || view === "advanced"));
+
+  if (category || isJointRoute) {
+    let databaseExercises: PublicExercise[] = [];
+    if (isSupabaseConfigured()) {
+      try {
+        databaseExercises = isJointRoute && jointTarget
+          ? await listPublishedExercisesByTarget("joint", jointTarget.slug)
+          : isAdvancedView && advancedTarget
+            ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { category })
+            : await listPublishedExercises(muscle, { category });
+      } catch {
+        databaseExercises = [];
+      }
+    }
+
+    const localExercises = !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle).filter((exercise) => exercise.category === category) : [];
+    const exercises = databaseExercises.length > 0 ? databaseExercises : localExercises;
+    const routePath = isJointRoute
+      ? `/exercises/${muscle}/${exerciseId}`
+      : isAdvancedView
+        ? getAdvancedRoute(muscle, exerciseId)
+        : `/exercises/${muscle}/${exerciseId}`;
+    const targetLabel = isJointRoute ? jointTarget?.label : isAdvancedView ? advancedTarget?.label : undefined;
+    return <ExerciseLibrary exercises={exercises} muscle={muscle} routePath={routePath} targetLabel={targetLabel} />;
+  }
+
   let databaseExercise: PublicExercise | null = null;
   if (isSupabaseConfigured()) {
     try {
@@ -46,11 +87,12 @@ export default async function ExerciseDetailPage({ params }: { params: Promise<{
   const displayName = getDisplayExerciseName(exercise.name);
   const steps = exercise.steps.filter(Boolean);
   const mediaCount = Math.max(exercise.media.length, 1);
+  const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : `/exercises/${muscle}`;
 
   return (
     <main aria-label={`${displayName} details`} className="exercise-detail-page">
       <header className="exercise-detail-topbar">
-        <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={`/exercises/${muscle}`}>
+        <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </Link>
         <button aria-label="Thêm vào bài tập yêu thích" className="exercise-detail-topbar__icon" type="button">

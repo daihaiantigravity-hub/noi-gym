@@ -1,0 +1,191 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 45564948666649,
+      "name": "Smith Machine Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart. Maintain the natural arch in your back and put the bar on your back. Squeezing your shoulder blades and raise your chest.",
+        "Grip the bar across your shoulders and support it on your upper back. Unwrack the smith machine by straightening your legs.",
+        "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+        "Raise the bar back to starting position, lift with your legs and exhale at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-squat"
+    },
+    {
+      "id": 218447962216203,
+      "name": "Smith Machine Sissy Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand facing away from the machine, positioning your feet slightly wider than shoulder-width apart to provide a stable base, and then reach behind you to firmly grip the bar with both hands, maintaining an overhand grip.",
+        "Initiate the movement by leaning backward, allowing your upper body to incline while simultaneously bending your knees. As you descend, maintain control",
+        "drive through your quadriceps while pushing your hips forward, gradually straightening your knees. Maintain a slow, controlled pace"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sissy-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-sissy-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-sissy-squat"
+    },
+    {
+      "id": 48242230420768,
+      "name": "Smith Machine Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your legs on the bar with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the floor. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-leg-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-leg-press"
+    },
+    {
+      "id": 280991309624358,
+      "name": "Smith Machine Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a large step forward with one leg until your shoulders are under the smith machine",
+        "lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-split-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-split-squat"
+    },
+    {
+      "id": 167896209674303,
+      "name": "Smith Machine Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with the bar on your shoulders. Your feet should be slightly pointed outward, and your shoulders should be down and relaxed.",
+        "Step backward with one foot, lowering your body until your front thigh is parallel to the ground and your back knee is hovering just above the ground.",
+        "Push off your back foot, returning to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-reverse-lunge"
+    },
+    {
+      "id": 74131559750277,
+      "name": "Smith Machine Narrow Stance Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the bar on top of your traps. Take a narrow stance.",
+        "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+        "Aim to get your hamstrings to parallel with the floor.",
+        "Push your heels into the floor and squat back to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-narrow-stance-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-narrow-stance-squat"
+    }
+  ]
+}

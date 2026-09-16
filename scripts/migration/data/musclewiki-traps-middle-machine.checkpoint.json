@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps-middle/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [{"number":1,"url":"https://musclewiki.com/exercises/traps-middle/machine","found":4}],
+  "candidates": [
+    {"name":"Machine Seated Cable Row","sourceUrl":"https://musclewiki.com/exercise/machine-seated-cable-row","difficulty":"Novice"},
+    {"name":"Narrow Pulldown","sourceUrl":"https://musclewiki.com/exercise/narrow-pulldown","difficulty":"Novice"},
+    {"name":"Neutral Pulldown","sourceUrl":"https://musclewiki.com/exercise/neutral-pulldown","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Low Row","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-low-row","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":1,"cards":4,"candidates":4,"videos":8}
+}

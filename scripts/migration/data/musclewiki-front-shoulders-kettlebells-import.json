@@ -1,0 +1,553 @@
+{
+  "total": 18,
+  "limit": 18,
+  "offset": 0,
+  "count": 18,
+  "results": [
+    {
+      "id": 231403310764579,
+      "name": "Kettlebell Upright Row",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Lift the kettlebell upwards towards your chest and lower - repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-upright-row"
+    },
+    {
+      "id": 106217071936707,
+      "name": "Kettlebell Front Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight with feet shoulder width apart, holding the kettlebell in front of your pelvis.",
+        "Keeping arms straight, raise the kettlebell slightly higher than head level.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-front-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-front-raise"
+    },
+    {
+      "id": 263098405412205,
+      "name": "Kettlebell Long Lever Lateral Raise",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet shoulder width apart holding a kettlebell with one hand at your side.",
+        "Keeping your arm straight, swing the kettlebell up and out, away from your body to around head height, holding on to the kettlebell firmly so it does not change position in your hand.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-long-lever-lateral-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-long-lever-lateral-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-long-lever-lateral-raise"
+    },
+    {
+      "id": 162951874659204,
+      "name": "Kettlebell Single Arm Hang Clean And Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebell just above knee with slight bend in hips and knees.",
+        "Explosively pull kettlebell to shoulder, catching it in a partial squat.",
+        "Stand tall and press kettlebell overhead until arm is fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-hang-clean-and-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-hang-clean-and-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-hang-clean-and-press"
+    },
+    {
+      "id": 262635116485959,
+      "name": "Kettlebell Thruster",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand.",
+        "Bring the kettlebells to your shoulders, with your palms facing inward and your elbows bent.",
+        "From this starting position, dip your knees slightly and then quickly extend them as you press the kettlebells upwards.",
+        "As you press the kettlebells upwards, also push your hips forward to help generate additional power.",
+        "Slowly lower the kettlebells back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-thruster"
+    },
+    {
+      "id": 224959755591664,
+      "name": "Kettlebell Squat Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start with kettlebells between legs resting on the floor with knee bend and flat back.",
+        "Pull kettlebells explosively to shoulder, catching it in a squat position.",
+        "Stand tall, dip slightly, then drive up to press kettlebells overhead."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-squat-clean-and-jerk-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-squat-clean-and-jerk-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-squat-clean-and-jerk"
+    },
+    {
+      "id": 138637304778423,
+      "name": "Kettlebell Single Arm Thruster",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell at shoulder height with feet shoulder-width apart.",
+        "Squat down, then drive upward, pressing kettlebell overhead in one motion.",
+        "Lower kettlebell as you descend into next rep smoothly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-thruster"
+    },
+    {
+      "id": 242674471702248,
+      "name": "Kettlebell Single Arm Push Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell at shoulder height, feet shoulder-width apart.",
+        "Dip slightly at knees, then drive upward, pressing kettlebell overhead.",
+        "Lock out arm briefly, then lower kettlebell under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-push-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-push-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-push-press"
+    },
+    {
+      "id": 38462310870630,
+      "name": "Kettlebell Single Arm Hang Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebell in one hand at thigh level with slight knee bend.",
+        "Pull kettlebell explosively to shoulder, catching it in rack position.",
+        "Dip slightly, then drive upward to press kettlebell overhead."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-hang-clean-and-jerk-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-hang-clean-and-jerk-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-hang-clean-and-jerk"
+    },
+    {
+      "id": 40574445222125,
+      "name": "Kettlebell Single Arm Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebell between legs with one hand, hinge slightly at hips.",
+        "Pull kettlebell upward to shoulder, catching it in rack position.",
+        "Dip at knees, then drive upward to press kettlebell overhead."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-clean-and-jerk-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-clean-and-jerk-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-clean-and-jerk"
+    },
+    {
+      "id": 122500260435642,
+      "name": "Kettlebell Hang Squat Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebell between legs with slight knee bend and flat back.",
+        "Pull kettlebell explosively to shoulder, catching it in a squat position.",
+        "Stand tall, dip slightly, then drive up to press kettlebell overhead."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-squat-clean-and-jerk-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-squat-clean-and-jerk-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-hang-squat-clean-and-jerk"
+    },
+    {
+      "id": 99002510042454,
+      "name": "Kettlebell Hang Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebells just above knees with slight bend in hips and knees.",
+        "Explosively pull kettlebells to shoulders, catching it in a partial squat.",
+        "Stand tall and press kettlebells overhead until arms are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-clean-and-jerk-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-clean-and-jerk-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-hang-clean-and-jerk"
+    },
+    {
+      "id": 77988130231407,
+      "name": "Kettlebell Clean And Jerk",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Swing kettlebell between legs, then pull it up to rack position.",
+        "Dip slightly, drive through legs, and press kettlebell overhead.",
+        "Lower back to rack, then swing down for next repetition."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-clean-and-jerk-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-clean-and-jerk-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-clean-and-jerk"
+    },
+    {
+      "id": 209123920056357,
+      "name": "Kettlebell Alternating Single Arm Thruster",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold two kettlebells at shoulder height, palms facing inward.",
+        "Squat down, then drive upward, pressing both kettlebells overhead.",
+        "Lower kettlebells as you descend again, alternating arms each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-single-arm-thruster-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-alternating-single-arm-thruster-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-single-arm-thruster"
+    },
+    {
+      "id": 234231226207790,
+      "name": "Kettlebell Hang Clean And Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Hold kettlebells just above knees with slight bend in hips and knees.",
+        "Explosively pull kettlebells to shoulders, catching it in a partial squat.",
+        "Stand tall and press kettlebells overhead until arms are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-clean-and-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-hang-clean-and-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-hang-clean-and-press"
+    },
+    {
+      "id": 61169543204351,
+      "name": "Kettlebell Kneeling Bottoms Up Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by taking a kneeling position and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+        "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kneeling-bottoms-up-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kneeling-bottoms-up-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-kneeling-bottoms-up-overhead-press"
+    },
+    {
+      "id": 23615915529298,
+      "name": "Kettlebell Bottoms Up Single Arm Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding one kettlebell with the bottom of the kettlebell facing up.",
+        "Bring the kettlebell to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebell are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-single-arm-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-single-arm-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-bottoms-up-single-arm-overhead-press"
+    },
+    {
+      "id": 33988427116994,
+      "name": "Kettlebell Bottoms Up Overhead Press",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+        "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-bottoms-up-overhead-press"
+    }
+  ]
+}

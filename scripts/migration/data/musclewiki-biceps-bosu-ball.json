@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bosu Ball Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-curl",
+    "difficulty": "Beginner",
+    "cardText": "Bosu Ball Curl\nBeginner\n1\nHold the bosu vertically.\n2\nFlex your elbows curling the bosu toward your chin.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-curl-front_uvdjux0.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-curl-side_9ZtClX2.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Bosu Ball Row",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-row",
+    "difficulty": "Beginner",
+    "cardText": "Bosu Ball Row\nBeginner\n1\nHold bosu and hinge forward.\n2\nPull bosu towards chest, squeezing shoulder blades.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-front_vJao3jZ.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-side_Pk4xlaf.mp4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,614 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 224519165919420,
+      "name": "Barbell Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out.",
+        "Continue the movement until your biceps are fully contracted and the bar is at shoulder level.",
+        "Hold the contracted position for a second and squeeze the biceps hard.",
+        "Slowly bring the weight back down to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-curl"
+    },
+    {
+      "id": 102554953579702,
+      "name": "Barbell Bent Over Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab a barbell with a shoulder width pronated or supinated grip.",
+        "Bend forward at your hips while maintaining a flat back.",
+        "Pull the weight toward your upper abdomen.",
+        "Lower the weight in a controlled manner and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bent-over-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bent-over-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-bent-over-row"
+    },
+    {
+      "id": 136969518232544,
+      "name": "Barbell Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Take a double overhand grip that's about shoulder width. Flex your elbows while keeping your elbows tucked in. Try not to let them flare out.",
+        "Curl until your forearm presses into your bicep. Then fully extend your elbows at the bottom of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-reverse-curl"
+    },
+    {
+      "id": 14376724518156,
+      "name": "Ez Bar Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall, hold EZ bar with shoulder-width underhand grip.",
+        "Curl bar upward, keeping elbows tucked and torso stable.",
+        "Pause and squeeze biceps at the top.",
+        "Lower slowly until arms fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-curl"
+    },
+    {
+      "id": 220113934553961,
+      "name": "Ez Bar Close Grip Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand upright, hold EZ bar with narrow underhand grip, elbows pinned to sides.",
+        "Curl bar upward by flexing elbows, keep shoulders still throughout movement.",
+        "Squeeze biceps at top, pause briefly for maximum contraction.",
+        "Lower bar slowly under control until arms fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-close-grip-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-close-grip-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-close-grip-curl"
+    },
+    {
+      "id": 152744958003713,
+      "name": "Ez Bar Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Take a double overhand grip that's about shoulder width. Flex your elbows while keeping your elbows tucked in. Try not to let them flare out.",
+        "Curl until your forearm presses into your bicep. Then fully extend your elbows at the bottom of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-reverse-curl"
+    },
+    {
+      "id": 27809172464622,
+      "name": "Ez Bar Drag Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab an EZ bar with an underhand grip.",
+        "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-drag-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-drag-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-drag-curl"
+    },
+    {
+      "id": 67138170043234,
+      "name": "Ez Bar Spider Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on an incline bench and hold an incline bench with your elbows extended.",
+        "From this starting position, curl the bat up towards your shoulders, keeping your elbows close to your body and your core engaged.",
+        "Slowly lower the bar back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-spider-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-spider-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-spider-curl"
+    },
+    {
+      "id": 232192917252857,
+      "name": "Ez Bar Reverse Spider Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay on an incline bench and hold the EZ bar with your elbows extended.",
+        "From this starting position, curl the bar up towards your shoulders, keeping your elbows close to your body and your core engaged.",
+        "Slowly lower the bar back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-spider-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-spider-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-reverse-spider-curl"
+    },
+    {
+      "id": 153704778983574,
+      "name": "EZ Bar Preacher Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself on preacher bench; grasp EZ bar with underhand grip, elbows extended.",
+        "Slowly curl bar towards shoulders; keep upper arms stationary, focus on biceps.",
+        "Lower bar back to starting position; maintain control, repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-preacher-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-preacher-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-preacher-curl"
+    },
+    {
+      "id": 274507008295978,
+      "name": "EZ Bar Reverse Preacher Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on preacher bench, grip EZ bar overhand at shoulder width, elbows resting on pad.",
+        "Curl bar towards chin, keep elbows stable.",
+        "Lower bar slowly to starting position, maintaining control throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-preacher-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-reverse-preacher-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-reverse-preacher-curl"
+    },
+    {
+      "id": 107148601896263,
+      "name": "Barbell Drag Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab a barbell with an underhand grip.",
+        "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-drag-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-drag-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-drag-curl"
+    },
+    {
+      "id": 39132299984171,
+      "name": "Landmine T Bar Rows",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab a v bar and place it under the bar's collar.",
+        "Hinge forward with a flat back and pull your elbows straight back toward the ceiling.",
+        "Fully extend your elbows before initiating the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-t-bar-rows-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-t-bar-rows-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-t-bar-rows"
+    },
+    {
+      "id": 195784711544890,
+      "name": "Landmine Concentration Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start on one knee facing the landmine, holding the end of the barbell with your hand on the side of your forward leg.",
+        "While keeping your elbow braced against the inside of your knee, curl the barbell upward towards your shoulder, then lower it back down with control.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-concentration-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-concentration-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-concentration-curl"
+    },
+    {
+      "id": 124535123280566,
+      "name": "Landmine Bicep Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand beside the landmine with your feet shoulder-width apart while grasping the end of the landmine barbell with the hand farther away from the landmine attachment, palm facing up and your elbow close to your side.",
+        "Curl the barbell up towards your opposite shoulder, contracting your bicep muscles, then slowly lower the barbell back down.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-bicep-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-bicep-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-bicep-curl"
+    },
+    {
+      "id": 219192597033880,
+      "name": "Barbell Supinated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing in front of a barbell with your feet about hip-width apart.",
+        "Bend at the hips and knees to grab the barbell with a supinated (underhand) grip, positioning the barbell about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+        "As the barbell reaches your chest, pause briefly, and then lower the barbell back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-supinated-row"
+    },
+    {
+      "id": 83844196349536,
+      "name": "Barbell Supinated Pendlay Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by standing in front of a barbell with your feet about hip-width apart and your palms facing towards your body.",
+        "Bend at the hips and knees to grab the barbell with a pronated (overhand) grip, positioning the barbell about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+        "As the barbell reaches your chest, rotate your wrists so that your palms are facing towards your body (supinated grip), and then lower the barbell back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-supinated-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-supinated-pendlay-row"
+    },
+    {
+      "id": 124571842829075,
+      "name": "Barbell Pronated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab the barbell with an overhand grip. Hinge forward while keeping your back flat until your torso is about parallel with the ground.",
+        "Let your arms hang freely.",
+        "Pull the bar to your torso while tucking your elbows in slightly.",
+        "Extend your elbows fully before initiating the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-pronated-row"
+    },
+    {
+      "id": 180295406355489,
+      "name": "Barbell Pronated Pendlay Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start hinged forward with a flat back and the plates resting on the floor. Make sure your elbows are fully extended.",
+        "Pull the bar to your sternum.",
+        "Return the plates back to the floor and let the bar come to a full dead stop.",
+        "Then initiate the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-pronated-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-pronated-pendlay-row"
+    },
+    {
+      "id": 19709053006182,
+      "name": "Barbell Meadows Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position a barbell in a landmine or corner of a room and stand facing sideways with a staggered stance and your feet shoulder-width apart.",
+        "Grasp the end of the barbell with an overhand grip, keeping your arms straight and your shoulders relaxed.",
+        "Bend at the hips and knees to lower your torso until it is almost parallel to the ground.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together as you row the weight up.",
+        "*Named after the late John Meadows"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-meadows-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-meadows-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-meadows-row"
+    }
+  ]
+}

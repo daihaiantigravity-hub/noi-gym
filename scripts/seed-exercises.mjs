@@ -25,14 +25,48 @@ function normalizeVideo(video) {
   return { gender: video.gender, angle: video.angle, videoUrl: "" };
 }
 
+function mergeMedia(existing, incoming) {
+  const media = Array.isArray(existing) ? [...existing] : [];
+  for (const item of incoming) {
+    const index = media.findIndex((candidate) => candidate.gender === item.gender && candidate.angle === item.angle);
+    if (index < 0) {
+      media.push(item);
+      continue;
+    }
+    if (!media[index].videoUrl) media[index] = { ...media[index], ...item };
+  }
+  return media;
+}
+
+function parseArgs(argv) {
+  const options = { dataset: "" };
+  for (let index = 0; index < argv.length; index += 1) {
+    const argument = argv[index];
+    if (argument === "--dataset") {
+      options.dataset = argv[++index] || "";
+      if (!options.dataset) throw new Error("--dataset cần một đường dẫn");
+      continue;
+    }
+    throw new Error(`Unknown argument: ${argument}`);
+  }
+  return options;
+}
+
 loadLocalEnv();
+const options = parseArgs(process.argv.slice(2));
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
 const key = process.env.SUPABASE_SECRET_KEY?.trim() || process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
 if (!url || !key) throw new Error("Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SECRET_KEY trong .env.local");
 
-const sourcePath = path.join(projectRoot, "data", "musclewiki-exercises-collected.json");
-if (!fs.existsSync(sourcePath)) {
-  throw new Error("Không tìm thấy data/musclewiki-exercises-collected.json. Hãy thêm dataset JSON trước khi seed.");
+const sourceCandidates = options.dataset
+  ? [path.isAbsolute(options.dataset) ? options.dataset : path.resolve(projectRoot, options.dataset)]
+  : [
+      path.join(projectRoot, "scripts", "migration", "data", "musclewiki-exercises-collected.json"),
+      path.join(projectRoot, "data", "musclewiki-exercises-collected.json"),
+    ];
+const sourcePath = sourceCandidates.find((candidate) => fs.existsSync(candidate));
+if (!sourcePath) {
+  throw new Error("Không tìm thấy dataset MuscleWiki. Hãy chạy npm run prepare:musclewiki-import trước.");
 }
 const payload = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
 const exercises = Array.isArray(payload.results) ? payload.results : [];
@@ -68,6 +102,38 @@ const supabase = createClient(url, key, {
       }
     : {}),
 });
+
+const { data: existingRows, error: existingRowsError } = await supabase
+  .from("exercises")
+  .select("source, source_id, slug, primary_muscles, media");
+if (existingRowsError) throw new Error(existingRowsError.message);
+
+const existingBySourceKey = new Map(
+  (existingRows ?? []).map((row) => [`${row.source}:${row.source_id}`, row]),
+);
+const reservedSlugs = new Set((existingRows ?? []).map((row) => row.slug).filter(Boolean));
+for (const row of rows) {
+  const existing = existingBySourceKey.get(`${row.source}:${row.source_id}`);
+  if (Array.isArray(existing?.primary_muscles) && existing.primary_muscles.length > 0) {
+    row.primary_muscles = [...new Set([...existing.primary_muscles, ...row.primary_muscles])];
+  }
+  row.media = mergeMedia(existing?.media, row.media);
+  if (existing?.slug) {
+    row.slug = existing.slug;
+    continue;
+  }
+
+  const baseSlug = row.slug;
+  let candidateSlug = baseSlug;
+  let suffix = 1;
+  while (reservedSlugs.has(candidateSlug)) {
+    suffix += 1;
+    candidateSlug = `${baseSlug}-musclewiki${suffix > 2 ? `-${suffix - 1}` : ""}`;
+  }
+  row.slug = candidateSlug;
+  reservedSlugs.add(candidateSlug);
+}
+
 for (let index = 0; index < rows.length; index += 50) {
   const chunk = rows.slice(index, index + 50);
   const { error } = await supabase.from("exercises").upsert(chunk, { onConflict: "source,source_id" });

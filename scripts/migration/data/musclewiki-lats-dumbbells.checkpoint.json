@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lats/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/lats/dumbbells", "found": 4},
+    {"number": 2, "url": "https://musclewiki.com/exercises/lats/dumbbells/2", "found": 4},
+    {"number": 3, "url": "https://musclewiki.com/exercises/lats/dumbbells/3", "found": 4},
+    {"number": 4, "url": "https://musclewiki.com/exercises/lats/dumbbells/4", "found": 4},
+    {"number": 5, "url": "https://musclewiki.com/exercises/lats/dumbbells/5", "found": 4}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-row-bilateral"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-row-unilateral"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-pullover"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-alternating-pendlay-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-kneeling-single-arm-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-incline-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-pendlay-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-shoulder-extension"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-row-knee"},
+    {"sourceUrl": "https://musclewiki.com/exercise/lawnmower-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-knee-lawnmower-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-supinated-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/pushup-to-renegade-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-weighted-chin-ups"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-weighted-pull-ups"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-shoulder-extension"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-pendlay-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-pullover"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-rear-delt-row"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 5, "cards": 20, "candidates": 20, "videos": 40}
+}

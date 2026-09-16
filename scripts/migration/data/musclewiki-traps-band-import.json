@@ -1,0 +1,95 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 216920192154313,
+      "name": "Band Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place the band under your feet. Stand upright.",
+        "Elevate your shoulder blades and then depress back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-shrug"
+    },
+    {
+      "id": 198600380293318,
+      "name": "Band Horizontal Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band at shoulder height. Take a few steps away until the band is taut.",
+        "Retract your shoulder blades straight back in schools. Then protract to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-horizontal-shrug"
+    },
+    {
+      "id": 210750280511142,
+      "name": "Band Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with one or both feet on one end of a band. Take a double overhand roughly shoulder width grip.",
+        "Pull your elbows straight up the ceiling. Aim to get the band to chin level or slightly higher."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-upright-row"
+    }
+  ]
+}

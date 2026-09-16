@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/abdominals/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/abdominals/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/abdominals/machine/2","found":1}
+  ],
+  "candidates": [
+    {"name":"Machine Roll Outs","sourceUrl":"https://musclewiki.com/exercise/machine-roll-outs","difficulty":"Intermediate"},
+    {"name":"Machine Crunch","sourceUrl":"https://musclewiki.com/exercise/machine-crunch","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Crunch","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-crunch","difficulty":"Novice"},
+    {"name":"Rower Pike","sourceUrl":"https://musclewiki.com/exercise/rower-pike","difficulty":"Intermediate"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":2,"cards":5,"candidates":4,"videos":8}
+}

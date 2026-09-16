@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dumbbell Row Bilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-row-bilateral",
+    "difficulty": "Beginner",
+    "primaryMuscle": "Lower Back",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+      "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+      "Let your arms hang freely, and then pull your elbow joint straight back toward the ceiling."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-bilateral-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-bilateral-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Superman",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-superman",
+    "difficulty": "Novice",
+    "primaryMuscle": "Lower Back",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Lay flat on the ground on your stomach with your arms extended overhead. Hold a dumbbell with a neutral grip.",
+      "Lift your legs and chest off the ground simultaneously and hold for a 1 count at the top.",
+      "Relax your lower back and lower your legs and chest back to the floor."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-superman-side.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-superman-front.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Superman Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-superman-hold",
+    "difficulty": "Novice",
+    "primaryMuscle": "Lower Back",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Lie face down on a mat.",
+      "Hold dumbbells out in front",
+      "Lift arms and legs simultaneously, squeezing lower back."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-superman-hold-side.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-superman-hold-front.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Alternating Pendlay Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-alternating-pendlay-row",
+    "difficulty": "Advanced",
+    "primaryMuscle": "Lower Back",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "The dumbbells should be set on the ground. Hinge forward while keeping a flat back.",
+      "Pull one elbow back toward the ceiling and then return the dumbbell to the ground softly.",
+      "Then pull with the other arm."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-side.mp4"}
+    ]
+  },
+  {
+    "name": "Dumbbell Spinal Jefferson Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-spinal-jefferson-curl",
+    "difficulty": "Intermediate",
+    "primaryMuscle": "Lower Back",
+    "equipment": "Dumbbells",
+    "instructions": [
+      "Stand tall holding dumbbells in front of thighs with straight arms.",
+      "Slowly roll down through spine, reaching dumbbells toward feet.",
+      "Reverse motion, rolling back up one vertebra at a time."
+    ],
+    "media": [
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-spinal-jefferson-curl-front.mp4"},
+      {"type": "video", "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-spinal-jefferson-curl-side.mp4"}
+    ]
+  }
+]

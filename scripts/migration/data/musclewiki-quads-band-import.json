@@ -1,0 +1,248 @@
+{
+  "total": 8,
+  "limit": 8,
+  "offset": 0,
+  "count": 8,
+  "results": [
+    {
+      "id": 53098298287738,
+      "name": "Band Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with a shoulder width grip. Both feet should be on the band with the band loops in each of your hand.",
+        "Push your butt back and also break at the knees.",
+        "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can't tell your squat depth, then try squatting in front of a mirror and watch your form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat"
+    },
+    {
+      "id": 87024189386563,
+      "name": "Band Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on the ground with your head by the anchor point of the band, which should be",
+        "to",
+        "inches above your head",
+        "Place the band around your midfoot and extend at the knees and hip."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-leg-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-leg-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-leg-press"
+    },
+    {
+      "id": 212920400507513,
+      "name": "Band Spanish Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Anchor a band to a stable point.",
+        "Place the loops of the band behind your knees.",
+        "Perform a normal squat and extend your knees against the band at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-spanish-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-spanish-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-spanish-squat"
+    },
+    {
+      "id": 259386547879283,
+      "name": "Mini Band Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band above knees, stand shoulder width.",
+        "Sit back and down, pushing knees outward.",
+        "Stand up, maintaining tension on band."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-squat"
+    },
+    {
+      "id": 225697535001016,
+      "name": "Band Squat Hold Single Arm Row",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band to a stable point and take a half squat position.",
+        "Hold the band loop in one hand and pull your elbow straight back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat-hold-single-arm-row"
+    },
+    {
+      "id": 86511584234080,
+      "name": "Band Squat Hold Row",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band to a stable point.",
+        "Take a half squat position and hold there.",
+        "Perform a row while holding the squat position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-squat-hold-row"
+    },
+    {
+      "id": 255880052505487,
+      "name": "Band Goblet Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with a shoulder width grip. Both feet should be on the band with the band looped over both hands.",
+        "Push your butt back and also break at the knees.",
+        "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can't tell your squat depth, then try squatting in front of a mirror and watch your form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-goblet-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-goblet-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-goblet-squat"
+    },
+    {
+      "id": 78585086914335,
+      "name": "Mini Band Jump Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Loop band above knees, stand feet shoulder width.",
+        "Squat down, knees pushed outward against band.",
+        "Explode upward into jump, land softly and reset."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-jump-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-jump-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-jump-squat"
+    }
+  ]
+}

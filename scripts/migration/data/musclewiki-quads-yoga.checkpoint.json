@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/quads/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/quads/yoga",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/quads/yoga/2",
+      "found": 3
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/quads/yoga/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Chair Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/chair-pose",
+      "cardText": "Chair Pose\nBeginner\n1\nStand straight with your feet hip-width apart and arms at your sides.\n2\nInhale and raise your arms straight up over your head.\n3\nExhale and bend your knees, lowering your hips as if you were sitting in a chair.\n4\nHold the pose for a few breaths, then inhale and stand up straight.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-chair-pose-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-chair-pose-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Crescent Moon Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/crescent-moon-pose",
+      "cardText": "Crescent Moon Pose\nBeginner\n1\nBegin in Runner's Lunge pose with your right foot forward.\n2\nSlowly lift your torso up and bring your arms overhead, palms facing each other.\n3\nMake sure your right knee is directly above your ankle, and your left leg is straight behind you.\n4\nHold for a few breaths before repeating on the other side.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Crescent Moon Pose Quad Stretch",
+      "sourceUrl": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch",
+      "cardText": "Crescent Moon Pose Quad Stretch\nIntermediate\n1\nBegin in Crescent Moon Pose with your right foot forward and a block nearby.\n2\nPlace the block at the highest height under your left hand.\n3\nReach your left arm behind you and take hold of your left foot or ankle.\n4\nGently pull your foot towards your buttocks while pressing your left hand into the block to deepen the stretch in your left quad. Hold for a few breaths before releasing and repeating on the other side.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-quad-stretch-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-quad-stretch-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Crescent Moon Pose Quad Stretch With Block",
+      "sourceUrl": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch-with-block",
+      "cardText": "Crescent Moon Pose Quad Stretch With Block\nBeginner\n1\nBegin in Crescent Moon Pose with your right foot forward and a block nearby.\n2\nPlace the block at the highest height under your left hand.\n3\nReach your left arm behind you and take hold of your left foot or ankle.\n4\nGently pull your foot towards your buttocks while pressing your left hand into the block to deepen the stretch in your left quad. Hold for a few breaths before releasing and repeating on the other side.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-quad-stretch-with-block-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-crescent-moon-pose-quad-stretch-with-block-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Lord Of The Dance",
+      "sourceUrl": "https://musclewiki.com/exercise/lord-of-the-dance",
+      "cardText": "Lord Of The Dance\nIntermediate\n1\nBegin by standing tall with your feet hip-width apart.\n2\nShift your weight onto your left foot and bring your right heel towards your glute.\n3\nReach your right arm back and grab onto the inside of your right foot or ankle.\n4\nInhale and lift your right foot away from your glute while extending your left arm forward. Hold for 5-10 breaths before switching sides.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-lord-of-the-dance-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-lord-of-the-dance-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Monkey Pose",
+      "sourceUrl": "https://musclewiki.com/exercise/monkey-pose",
+      "cardText": "Monkey Pose\nAdvanced\n1\nBegin in a low lunge with your right foot forward and your left knee on the ground.\n2\nSlowly slide your left knee back while extending your right leg forward, keeping both legs straight.\n3\nLower your body down to the ground, using your hands for support if needed.\n4\nHold the pose for a few breaths, then switch sides and repeat.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-monkey-pose-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-monkey-pose-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Runners Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/runners-lunge",
+      "cardText": "Runners Lunge\nBeginner\n1\nBegin in Downward Facing Dog pose (Adho Mukha Svanasana).\n2\nStep your right foot forward between your hands.\n3\nPlace your left knee on the ground behind you and slide it back until you feel a stretch in your left hip flexor.\n4\nKeep your hands on the ground or lift them to the sky and hold for a few breaths before repeating on the other side.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-runners-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-runners-lunge-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 7,
+    "candidates": 7,
+    "videos": 14
+  }
+}

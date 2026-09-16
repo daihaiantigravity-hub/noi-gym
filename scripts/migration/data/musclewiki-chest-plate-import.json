@@ -1,0 +1,160 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 88435544564972,
+      "name": "Plate Deficit Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start in a pushup position with both hands on a plate. This will extend your range of motion.",
+        "Break at the elbows and shoulders until your upper arm travels behind the body slightly.",
+        "Then press back into the original position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-deficit-pushup"
+    },
+    {
+      "id": 223075455622242,
+      "name": "Plate Glute Bridge to Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the ground with a plate on your chest.",
+        "Push your hips up toward the ceiling and maintain that extended position.",
+        "With your hips up, press the plate toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-glute-bridge-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-glute-bridge-to-chest-press"
+    },
+    {
+      "id": 242115109685265,
+      "name": "Weighted Push Ups",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your hands firmly on the ground, directly under shoulders. Place a plate on your back.",
+        "Flatten your back so your entire body is straight and slowly lower your body",
+        "Draw shoulder blades back and down, keeping elbows tucked close to your body",
+        "Exhale as you push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-push-ups-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-push-ups-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/weighted-push-ups"
+    },
+    {
+      "id": 221426605298028,
+      "name": "Weighted Knee Push Ups",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a push-up position on your knees. Break at the elbow and shoulder joint.",
+        "Lower your body, keeping elbows close.",
+        "Push back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-knee-push-ups-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-knee-push-ups-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/weighted-knee-push-ups"
+    },
+    {
+      "id": 154248282871736,
+      "name": "Plate Weighted Dip",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a dip belt to attach a plate to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+        "Lower slowly until elbows are at",
+        "degrees.",
+        "Push back up to start position, extending arms fully."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-weighted-dip-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-weighted-dip-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-weighted-dip"
+    }
+  ]
+}

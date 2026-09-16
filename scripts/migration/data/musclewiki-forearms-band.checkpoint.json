@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/forearms/band",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/forearms/band",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/forearms/band/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/forearms/band/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Band Bayesian Hammer Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-hammer-curl",
+      "cardText": "Band Bayesian Hammer Curl\nIntermediate\n1\nAttach band to a low anchor point. Use a neutral grip.\n2\nFlex your elbow until you feel your biceps contract. Then fully extend elbows.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-hammer-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-hammer-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Bayesian Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-reverse-curl",
+      "cardText": "Band Bayesian Reverse Curl\nBeginner\n1\nAttach band to a low anchor point. . Point your palms toward your thighs.\n2\nFlex your elbow until you feel your biceps contract. Then fully extend elbows.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-reverse-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-reverse-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Kneeling Row",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-kneeling-row",
+      "cardText": "Mini Band Kneeling Row\nNovice\n1\nAnchor band around foot, kneel tall holding ends.\n2\nRow elbow back, squeezing shoulder blades together.\n3\nReturn slowly, maintaining upright torso.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-kneeling-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-kneeling-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-bent-over-row",
+      "cardText": "Mini Band Bent Over Row\nNovice\n1\nStand on band, hinge forward with flat back.\n2\nStand on band, hinge forward with flat back.\n3\nLower under control, maintaining core tension.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-over-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-over-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-bent-over-row",
+      "cardText": "Band Single Arm Bent Over Row\nNovice\n1\nStand on band and hinge at hips, holding handle with arm extended.\n2\nPull elbow toward your hip, keeping back flat and shoulders square.\n3\nSqueeze back at the top, then lower slowly to full stretch.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-bent-over-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-bent-over-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bent-over-row",
+      "cardText": "Band Bent Over Row\nBeginner\n1\nStand on band with feet hip-width, holding handles with palms facing in.\n2\nHinge at hips, keeping back flat and elbows close to ribs.\n3\nPull handles toward torso, squeeze back, then lower slowly with control.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bent-over-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bent-over-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 8,
+    "candidates": 6,
+    "videos": 12
+  }
+}

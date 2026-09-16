@@ -1,0 +1,67 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 49980304971410,
+      "name": "Bosu Ball Pullover",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on ground with head and shoulders supported.",
+        "Hold a bosu and lower it back over the head.",
+        "Bring the bosu back over the chest to complete one rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pullover-front_d3yCntO.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pullover-side_PgRC1Vt.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-pullover"
+    },
+    {
+      "id": 55585980554026,
+      "name": "Bosu Ball Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold bosu and hinge forward.",
+        "Pull bosu towards chest, squeezing shoulder blades."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-front_vJao3jZ.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-side_Pk4xlaf.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-row"
+    }
+  ]
+}

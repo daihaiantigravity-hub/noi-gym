@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/hamstrings/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/hamstrings/dumbbells", "found": 4},
+    {"number": 2, "url": "https://musclewiki.com/exercises/hamstrings/dumbbells/2", "found": 4},
+    {"number": 3, "url": "https://musclewiki.com/exercises/hamstrings/dumbbells/3", "found": 4},
+    {"number": 4, "url": "https://musclewiki.com/exercises/hamstrings/dumbbells/4", "found": 1}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-romanian-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-glute-bridge"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-good-morning"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-leg-curl"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-leg-single-arm-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-leg-stiff-leg-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-staggered-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-swing"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-cross-body-romanian-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-staggered-waiters-bow"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-waiters-bow"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-half-kneeling-goblet-romanian-deadlift"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-half-kneeling-romanian-deadlift"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 4, "cards": 13, "candidates": 13, "videos": 26}
+}

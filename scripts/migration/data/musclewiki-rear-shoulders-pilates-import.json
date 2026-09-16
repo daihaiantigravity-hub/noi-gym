@@ -1,0 +1,132 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 145039176685390,
+      "name": "Back Rowing Preps Open Elbow Seated",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at shoulder height.",
+        "Start with elbows bent, hands near chest, palms facing inward.",
+        "Open elbows wide, rotating shoulders externally while keeping chest lifted.",
+        "Return with control, maintaining upright posture and steady strap tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-open-elbow-seated-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-open-elbow-seated-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-open-elbow-seated"
+    },
+    {
+      "id": 1352426819195,
+      "name": "Plow Back Rowing Preps",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps forward.",
+        "Begin with arms long, shoulders relaxed and chest open.",
+        "Pull arms down and back in a plow motion, engaging lats.",
+        "Return to start with control, maintaining upright posture and tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-plow-back-rowing-preps"
+    },
+    {
+      "id": 183716300972825,
+      "name": "Back Rowing Preps Airplane Seated",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at shoulder height.",
+        "Start with arms forward, palms facing forward, shoulders relaxed.",
+        "Pull arms out to a T, squeezing upper back without leaning.",
+        "Return slowly to start, maintaining upright posture and controlled tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-airplane-seated-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-airplane-seated-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-airplane-seated"
+    },
+    {
+      "id": 18536507379724,
+      "name": "Long Arm Adduction Side Kneeling",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel sideways, supporting hand under shoulder, top arm reaching long overhead.",
+        "Engage core, keep torso upright and shoulders stacked.",
+        "Pull top arm down toward hip, using lats and obliques.",
+        "Return arm overhead with control, maintaining balance and steady breathing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-arm-adduction-side-kneeling-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-arm-adduction-side-kneeling-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-long-arm-adduction-side-kneeling"
+    }
+  ]
+}

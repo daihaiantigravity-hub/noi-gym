@@ -1,0 +1,98 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 35936341286764,
+      "name": "Cable Calve Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.",
+        "Walk a few steps back.",
+        "Pull your heels straight up until you feel a contraction in your calves and then back to original position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-calve-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-calve-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-calve-raise"
+    },
+    {
+      "id": 134685885086311,
+      "name": "Cable Bar Calve Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.",
+        "Walk a few steps back.",
+        "Pull your heels straight up until you feel a contraction in your calves and then back to original position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bar-calve-raise"
+    },
+    {
+      "id": 92401292665135,
+      "name": "Cable Belt Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Put on a dip belt and attach the cable carabiner to the chain/strap.",
+        "Take a few steps back and stand tall. Raise up onto the balls of your feet and hold for a",
+        "count."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-belt-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-belt-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-belt-calf-raise"
+    }
+  ]
+}

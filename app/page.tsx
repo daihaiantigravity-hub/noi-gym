@@ -233,6 +233,81 @@ const workoutRows: { title: string; cards: WorkoutCard[] }[] = [
   },
 ];
 
+const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string }> = {
+  featured: {
+    title: "What do you want to train?",
+    subtitle: "Choose a muscle group to explore exercises.",
+  },
+  barbell: {
+    title: "Train with a barbell",
+    subtitle: "Choose a muscle group to explore barbell exercises.",
+  },
+  dumbbells: {
+    title: "Train with dumbbells",
+    subtitle: "Choose a muscle group to explore dumbbell exercises.",
+  },
+  bodyweight: {
+    title: "Train with your bodyweight",
+    subtitle: "Choose a muscle group to explore bodyweight exercises.",
+  },
+  machine: {
+    title: "Train with machines",
+    subtitle: "Choose a muscle group to explore machine exercises.",
+  },
+  "medicine-ball": {
+    title: "Train with a medicine ball",
+    subtitle: "Choose a muscle group to explore medicine ball exercises.",
+  },
+  kettlebells: {
+    title: "Train with kettlebells",
+    subtitle: "Choose a muscle group to explore kettlebell exercises.",
+  },
+  stretches: {
+    title: "What do you want to stretch?",
+    subtitle: "Choose a muscle group to explore stretches.",
+  },
+  cables: {
+    title: "Train with cables",
+    subtitle: "Choose a muscle group to explore cable exercises.",
+  },
+  band: {
+    title: "Train with bands",
+    subtitle: "Choose a muscle group to explore band exercises.",
+  },
+  plate: {
+    title: "Train with plates",
+    subtitle: "Choose a muscle group to explore plate exercises.",
+  },
+  trx: {
+    title: "Train with TRX",
+    subtitle: "Choose a muscle group to explore TRX exercises.",
+  },
+  yoga: {
+    title: "What do you want to practice?",
+    subtitle: "Choose a muscle group to explore yoga exercises.",
+  },
+  "bosu-ball": {
+    title: "Train with a Bosu ball",
+    subtitle: "Choose a muscle group to explore Bosu ball exercises.",
+  },
+  cardio: {
+    title: "Train with cardio",
+    subtitle: "Choose a muscle group to explore cardio exercises.",
+  },
+  "smith-machine": {
+    title: "Train with a Smith machine",
+    subtitle: "Choose a muscle group to explore Smith machine exercises.",
+  },
+  recovery: {
+    title: "What do you want to recover?",
+    subtitle: "Choose a muscle group to explore recovery exercises.",
+  },
+  pilates: {
+    title: "What do you want to practice?",
+    subtitle: "Choose a muscle group to explore Pilates exercises.",
+  },
+};
+
 function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[] }) {
   const headingId = `workout-row-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
 
@@ -263,6 +338,7 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState<EquipmentIconName>("featured");
+  const activeCategoryCopy = categoryCopy[activeCategory];
 
   return (
     <div className="health-page">
@@ -295,8 +371,8 @@ export default function Home() {
 
       <main className="health-content">
         <section className="health-intro">
-          <h1>What do you want to train?</h1>
-          <p>Choose a muscle group to explore exercises.</p>
+          <h1>{activeCategoryCopy.title}</h1>
+          <p>{activeCategoryCopy.subtitle}</p>
         </section>
 
         {/* <section aria-labelledby="daily-activity-title" className="health-card daily-activity-card">

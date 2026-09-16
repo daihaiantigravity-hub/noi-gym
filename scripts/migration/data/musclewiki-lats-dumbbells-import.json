@@ -1,0 +1,609 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 266766010434526,
+      "name": "Dumbbell Row Bilateral",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+        "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+        "Let your arms hang freely, and then pull your elbow joint straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-bilateral-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-bilateral-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-row-bilateral"
+    },
+    {
+      "id": 232917070123355,
+      "name": "Dumbbell Row Unilateral",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Brace your off arm against something stable (bench, box). Stagger your stance so your leg on the side of your working arm is back.",
+        "Try to get your torso to parallel with the ground. That will extend your range of motion.",
+        "Let your arm hang freely and then pull your elbow back. Imagine you've got a tennis ball in your armpit and squeeze it each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-unilateral-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-row-unilateral-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-row-unilateral"
+    },
+    {
+      "id": 116641553851137,
+      "name": "Dumbbell Pullover",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grab a dumbbell and hold with both hands. Point your dumbbell at the ceiling.",
+        "Flex at the shoulder joint while keeping your elbows mostly extended.",
+        "Flex until you feel a stretch in your lats then bring the dumbbell back to the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-pullover-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-pullover-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-pullover"
+    },
+    {
+      "id": 80373607962256,
+      "name": "Dumbbell Alternating Pendlay Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "The dumbbells should be set on the ground. Hinge forward while keeping a flat back.",
+        "Pull one elbow back toward the ceiling and then return the dumbbell to the ground softly.",
+        "Then pull with the other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-alternating-pendlay-row"
+    },
+    {
+      "id": 217796690837963,
+      "name": "Dumbbell Kneeling Single Arm Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place one hand and one knee on a bench. Make sure you keep a flat back.",
+        "Pull the dumbbell toward the ceiling.",
+        "Make sure to avoid any jerking or rotating."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-kneeling-single-arm-row"
+    },
+    {
+      "id": 164068274444753,
+      "name": "Dumbbell Laying Incline Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on an incline bench that is between 30-45 degrees high.",
+        "Let your arms hang freely. Pull your elbows straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-laying-incline-row"
+    },
+    {
+      "id": 244098355925936,
+      "name": "Dumbbell Pendlay Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "The dumbbells should be placed on the floor.",
+        "Hinge forward with a flat back and grab the dumbbells.",
+        "Pull both dumbbells back and your elbows toward the ceiling.",
+        "Return the dumbbells back to the floor softly on each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-pendlay-row"
+    },
+    {
+      "id": 147394263739376,
+      "name": "Dumbbell Shoulder Extension",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by hinging over with your feet shoulder-width apart and holding a dumbbell in each hand.",
+        "Bring the dumbbells to your sides, with your palms facing forward and your elbows slightly bent.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-shoulder-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-shoulder-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-shoulder-extension"
+    },
+    {
+      "id": 119076791970382,
+      "name": "Dumbbell Single Arm Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by standing in front of a flat bench with your feet shoulder-width apart and holding a dumbbell in one hand.",
+        "Place your other hand on the bench for support, and bend at the waist so that your chest is parallel to the ground.",
+        "From this starting position, row the dumbbell up towards your chest, squeezing your shoulder blade together as you do so.",
+        "Make sure to keep your elbow close to your body and your core engaged throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-row"
+    },
+    {
+      "id": 127465164842496,
+      "name": "Dumbbell Single Arm Row Knee",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by placing your elbow on one knee.",
+        "Hold a dumbbell in your other hand, with your palm facing inwards towards your body.",
+        "From this starting position, row the dumbbell up towards your chest, keeping your elbow close to your body and your core engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-row-knee"
+    },
+    {
+      "id": 209896244189977,
+      "name": "Lawnmower Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet staggered and one hand on a bench/box. Hold a dumbbell in the opposing hand.",
+        "Hinge forward at the hips, keeping the back flat, and eyes facing forward. The weight should hang directly below the shoulders.",
+        "Start with an overhand grip, as you pull rotate the dumbbell. When your upper arm reaches your side your palm should be facing forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lawnmower-row"
+    },
+    {
+      "id": 271564075146781,
+      "name": "Dumbbell Knee Lawnmower Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet staggered and one hand on your knee. Hold a dumbbell in the opposing hand.",
+        "Hinge forward at the hips, keeping the back flat, and eyes facing forward. The weight should hang directly below the shoulders.",
+        "Start with an overhand grip, as you pull rotate the dumbbell. When your upper arm reaches your side your palm should be facing forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-knee-lawnmower-row"
+    },
+    {
+      "id": 85065571006137,
+      "name": "Dumbbell Supinated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+        "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+        "Let your arms hang freely, maintain an underhand grip, and then pull your elbow joint straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-supinated-row"
+    },
+    {
+      "id": 89964495543129,
+      "name": "Pushup to Renegade Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a high plank position with a pair of dumbbells positioned under your shoulders. Your hands should grip the dumbbells, palms facing each other.",
+        "Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body.",
+        "Lower the dumbbell back down to the starting position and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pushup-renegade-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pushup-renegade-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pushup-to-renegade-row"
+    },
+    {
+      "id": 206555312472321,
+      "name": "Dumbbell Weighted Chin Ups",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grab the bar shoulder width apart with a supinated grip (palms facing you). Use a dip belt and the let the weight hang between your legs.",
+        "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-weighted-chin-ups"
+    },
+    {
+      "id": 70212565210840,
+      "name": "Dumbbell Weighted Pull Ups",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Grasp the bar with an overhand grip, arms and shoulders fully extended.",
+        "Pull your body up until your chin is above the bar.",
+        "Lower your body back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-pull-ups-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-pull-ups-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-weighted-pull-ups"
+    },
+    {
+      "id": 95325054232250,
+      "name": "Dumbbell Single Arm Shoulder Extension",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold dumbbells at your sides with straight arms and palms neutral.",
+        "Move arm backward until you feel lats and rear delts engage.",
+        "Lower slowly to starting position under full control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-shoulder-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-shoulder-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-shoulder-extension"
+    },
+    {
+      "id": 12709962052512,
+      "name": "Dumbbell Single Arm Pendlay Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width, hinge forward until torso is nearly parallel to floor.",
+        "Grab dumbbell from floor with straight arm, keeping back flat and core braced.",
+        "Pull elbow straight up to ribs, then lower dumbbell fully back to the floor each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-pendlay-row"
+    },
+    {
+      "id": 63449888766771,
+      "name": "Dumbbell Single Arm Pullover",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on bench holding one dumbbell above chest with slight elbow bend.",
+        "Lower dumbbell in an arc behind head until you feel a deep stretch.",
+        "Pull dumbbell back over chest using lats and triceps, keeping movement controlled."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pullover-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pullover-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-pullover"
+    },
+    {
+      "id": 92754277503830,
+      "name": "Dumbbell Single Arm Rear Delt Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hinge at hips with back flat, holding dumbbell under shoulder with arm extended.",
+        "Pull elbow out and back at a wide angle, targeting rear delt.",
+        "Squeeze at the top, then lower slowly to full stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-rear-delt-row"
+    }
+  ]
+}

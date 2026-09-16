@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 201359459354025,
+      "name": "Bosu Ball Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on Bosu with feet hip-width apart.",
+        "Rise up on toes, squeezing calves.",
+        "Lower heels back down to complete one rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-ball-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-ball-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-calf-raise"
+    }
+  ]
+}

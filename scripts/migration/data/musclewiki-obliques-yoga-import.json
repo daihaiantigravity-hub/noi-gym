@@ -1,0 +1,163 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 168285626189995,
+      "name": "Gate Pose Variation Arm Extended on Side",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start on your knees and extend your right leg out to the side.",
+        "Raise your right arm above your head and reach towards the left side of the room.",
+        "Gently bend your body to the left side and rest your left hand on your left thigh.",
+        "Look up towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-gate-pose-arm-extended-on-side-of-head-looking-up-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-gate-pose-arm-extended-on-side-of-head-looking-up-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/gate-pose-variation-arm-extended-on-side"
+    },
+    {
+      "id": 78511020068093,
+      "name": "Revolved Head To Knee",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Sit on the floor with your legs extended in front of you.",
+        "Bend your right knee and bring your heel towards your perineum.",
+        "Place your left hand on the outside of your right knee and twist your body to the right.",
+        "Reach your right hand towards your left foot and look up towards the ceiling. Hold the pose for a few breaths before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-head-to-knee-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-revolved-head-to-knee-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/revolved-head-to-knee"
+    },
+    {
+      "id": 48094770827390,
+      "name": "Seated Side Bend Pose",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit comfortably on the floor with your legs crossed.",
+        "Inhale and raise your right arm above your head.",
+        "As you exhale, bend your body to the left side and rest your left hand on the ground.",
+        "Look up towards the ceiling and hold the pose for a few breaths. Then switch sides and repeat the pose on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-side-bend-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-seated-side-bend-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/seated-side-bend-pose"
+    },
+    {
+      "id": 76680960985210,
+      "name": "Supine Twist Lying",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie down on your back with your arms stretched out to your sides.",
+        "Bend your right knee and bring it towards your chest.",
+        "Slowly twist your body to the left side, bringing your right knee across your body towards the ground on the left side.",
+        "Look towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-supine-twist-lying-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-supine-twist-lying-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/supine-twist-lying"
+    },
+    {
+      "id": 137129499625502,
+      "name": "Wild Thing Pose",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a downward facing dog position.",
+        "Shift your weight onto your left hand and foot, and lift your right leg towards the ceiling.",
+        "Slowly bend your right knee and shift your weight onto your right hand as you open up your chest towards the ceiling.",
+        "Look towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-wild-thing-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-wild-thing-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/wild-thing-pose"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 207710524990608,
+      "name": "Downward Dog Toe To Heel",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+        "Lift your right foot off the mat and place your right toes on top of your left heel.",
+        "Press your palms and fingers firmly into the mat and lift your hips up towards the ceiling, deepening the stretch in your hamstrings and calves.",
+        "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-toe-to-heel-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-downward-dog-toe-to-heel-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/downward-dog-toe-to-heel"
+    },
+    {
+      "id": 167181626141894,
+      "name": "Pyramid Pose Calf Blocks",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start standing with a flat and vertical block on the matt",
+        "Bend forward, placing hand on vertical block, and front of foot on the flat block.",
+        "Press the bottom of your foot towards the ground, and repeat on each side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-calf-blocks-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-calf-blocks-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pyramid-pose-calf-blocks"
+    },
+    {
+      "id": 181310718244108,
+      "name": "Walk Your Downward Dog",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+        "Walk your feet towards your hands, bending your knees as needed to allow your heels to touch the mat.",
+        "Press your palms and fingers into the mat and lift your hips up towards the ceiling to deepen the stretch in your hamstrings and calves.",
+        "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-walk-into-downward-dog-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-walk-into-downward-dog-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/walk-your-downward-dog"
+    }
+  ]
+}

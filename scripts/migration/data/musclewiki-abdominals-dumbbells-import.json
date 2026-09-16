@@ -1,0 +1,367 @@
+{
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "count": 12,
+  "results": [
+    {
+      "id": 248442147649800,
+      "name": "Dumbbell Russian Twist",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on the floor and flex your knees and hips to a 90 degree angle.",
+        "Your feet should be hovering off the ground. (If that's too hard start with heels on the floor)",
+        "Rotate your upper spine to engage your obliques."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-russian-twist-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-russian-twist-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-russian-twist"
+    },
+    {
+      "id": 153962645035563,
+      "name": "Dumbbell Situp",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the ground with your spine neutral. Extend you arms so your fists are pointed at the ceiling.",
+        "Sit-up by flexing your abs. Continue to reach for the ceiling for the entire rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-situp-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-situp-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-situp"
+    },
+    {
+      "id": 72150552824381,
+      "name": "Dumbbell Plank Pullthrough",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Get into a plank position. Either from your knees or toes.",
+        "Start with the DB by your right hand. Reach with your left and pull the dumbbell to your left arm. Then repeat with the right."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-plank-pullthrough-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-plank-pullthrough-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-plank-pullthrough"
+    },
+    {
+      "id": 50514479287804,
+      "name": "Dumbbell Hollow Hold",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on the ground with a dumbbell overhead.",
+        "Pull your upper back and legs off the ground. Make a banana shape with your body.",
+        "The dumbbell should be held in your hands and your ears should be between your biceps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hollow-hold-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hollow-hold-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-hollow-hold"
+    },
+    {
+      "id": 55333162249392,
+      "name": "Dumbbell Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by lying flat on your back with your feet flat on the floor and your knees bent.",
+        "Hold a dumbbell over your clavicle.",
+        "Engage your core muscles and lift your torso off the floor until your shoulders are a few inches off the ground.",
+        "Lower yourself back down to the starting position, but avoid resting completely on the floor between reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-crunch"
+    },
+    {
+      "id": 62245652013596,
+      "name": "Plank IYTW",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a plank position. Hold one dumbbell.",
+        "Raise the dumbbell straight out in front of you (I), at a 45 degree angle (Y), out to the side (T), and then bend at the elbow while raising (W).",
+        "Going through IYTW counts as one rep.",
+        "Make sure to keep your hips stable. If you're unable to, try performing this exercise from the knees."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-plank-iytw-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-plank-iytw-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plank-iytw"
+    },
+    {
+      "id": 227149474639633,
+      "name": "Dumbbell Suitcase Crunch",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on the ground with a dumbbell. Point the soles of your shoes at the ceiling as well as the dumbbell.",
+        "Reach for your feet with the dumbbell before bringing your spine back to the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-suitcase-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-suitcase-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-suitcase-crunch"
+    },
+    {
+      "id": 253902751001185,
+      "name": "Dumbbell Half Kneeling Wood Chopper",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a half kneeling position. Start with the dumbbell by your knee on the side of the kneeling leg.",
+        "Rotate at the upper spine, holding the dumbbell away from your body with nearly extended elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-wood-chopper-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-half-kneeling-wood-chopper-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-half-kneeling-wood-chopper"
+    },
+    {
+      "id": 121990881269013,
+      "name": "Dumbbell Renegade Row",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by getting into a plank position with a dumbbell in each hand. Your feet should be shoulder-width apart and your hands should be placed on the dumbbells, with your palms facing each other.",
+        "From this starting position, row one dumbbell up towards your chest, keeping your elbow close to your body and your core engaged.",
+        "Slowly lower the dumbbell back down to the starting position, and repeat on the other side.",
+        "Make sure to keep your body straight and your hips level throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-renegade-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-renegade-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-renegade-row"
+    },
+    {
+      "id": 89964495543129,
+      "name": "Pushup to Renegade Row",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a high plank position with a pair of dumbbells positioned under your shoulders. Your hands should grip the dumbbells, palms facing each other.",
+        "Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body.",
+        "Lower the dumbbell back down to the starting position and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pushup-renegade-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pushup-renegade-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pushup-to-renegade-row"
+    },
+    {
+      "id": 33839890415260,
+      "name": "Dumbbell Larsen Press",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench with feet off floor, holding dumbbells above chest.",
+        "Lower dumbbells toward chest while keeping legs elevated and torso stable.",
+        "Press upward, squeezing chest at the top without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-larsen-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-larsen-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-larsen-press"
+    },
+    {
+      "id": 255273339078458,
+      "name": "Dumbbell Single Arm Larsen Press",
+      "primary_muscles": [
+        "Abdominals"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench with feet off floor, holding one dumbbell above chest.",
+        "Lower dumbbell toward chest while keeping core tight and legs raised.",
+        "Press upward, squeezing chest at the top without twisting torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-larsen-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-larsen-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-larsen-press"
+    }
+  ]
+}

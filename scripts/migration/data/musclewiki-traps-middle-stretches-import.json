@@ -1,0 +1,69 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 235255847853285,
+      "name": "Traps mid back Stretch Variation One",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand up with your feet shoulder width apart. Place one arm across the front of your chest at shoulder height, press the forearm of your other arm above the elbow, hooking the stretching arm with your hand.",
+        "Press the arm until it is straight and rotate your upper torso to engage the stretch even deeper.",
+        "Repeat with your other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-mid-back-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-mid-back-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/traps-mid-back-stretch-variation-one"
+    },
+    {
+      "id": 58117785120936,
+      "name": "Traps mid back Stretch Variation Two",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the ground and lay one leg flat and the other over the top.",
+        "Hold your leg with the same side arm and slowly rotate your hips and back.",
+        "Hold at the peak of the stretch, then slowly return to starting position.",
+        "Switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-mid-back-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-traps-mid-back-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/traps-mid-back-stretch-variation-two"
+    }
+  ]
+}

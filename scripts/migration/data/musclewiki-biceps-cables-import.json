@@ -1,0 +1,610 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 163212123276875,
+      "name": "Cable Single Arm Bayesian Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine.",
+        "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bayesian-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bayesian-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-single-arm-bayesian-curl"
+    },
+    {
+      "id": 69119932843541,
+      "name": "Cable Single Arm Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Use a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-hammer-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-hammer-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-single-arm-hammer-curl"
+    },
+    {
+      "id": 22220600344934,
+      "name": "Cable Pull In",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment set all the way to the top of the cable crossover machine.",
+        "Walk a few steps away from the cable machine. Face your body sideways.",
+        "Face your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-in-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-in-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-pull-in"
+    },
+    {
+      "id": 63220560923777,
+      "name": "Cable Twisting Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Start with a neutral grip. Flex at the elbow. While flexing twist your palm. When you hit the top of the movement your palm should be facing upward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-twisting-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-twisting-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-twisting-curl"
+    },
+    {
+      "id": 279781953713419,
+      "name": "Cable Single Arm Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-single-arm-reverse-curl"
+    },
+    {
+      "id": 4325262192703,
+      "name": "Cable Seated Bilateral High Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit between high cables with arms extended outward and palms facing upward.",
+        "Curl both handles toward your head while keeping your upper arms stationary.",
+        "Squeeze your biceps, then slowly straighten your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-bilateral-high-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-bilateral-high-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-seated-bilateral-high-curl"
+    },
+    {
+      "id": 105525248961404,
+      "name": "Cable Seated Alternating High Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit between high cables with your arms extended outward and palms upward.",
+        "Curl one handle toward your head while keeping your upper arm stationary.",
+        "Slowly extend your elbow, then repeat with the opposite arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-alternating-high-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-alternating-high-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-seated-alternating-high-curl"
+    },
+    {
+      "id": 35117144146711,
+      "name": "Cable Standing Bilateral Pull In",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand between high cables, holding the handles in each hand.",
+        "Pull both elbows downward and inward toward your sides.",
+        "Squeeze your lats, then slowly extend your arms outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-bilateral-pull-in-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-bilateral-pull-in-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-bilateral-pull-in"
+    },
+    {
+      "id": 146941335301065,
+      "name": "Cable Kneeling Alternating Pull In",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel in between high cables, holding the handles.",
+        "Face forward with palms facing upward.",
+        "Pull your elbow in toward your rib cage, extend your elbow, then pull with the other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-alternating-pull-in-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-alternating-pull-in-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-kneeling-alternating-pull-in"
+    },
+    {
+      "id": 72978327164239,
+      "name": "Cable Kneeling Bilateral Pull In",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a handle attachment set all the way to the top of the cable crossover machine.",
+        "Kneel in the middle of the cable crossover.",
+        "Face your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-bilateral-pull-in-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-kneeling-bilateral-pull-in-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-kneeling-bilateral-pull-in"
+    },
+    {
+      "id": 103793453143924,
+      "name": "Cable Bilateral High Cable Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand between high cables with arms extended outward and palms facing upward.",
+        "Curl both handles toward your head while keeping your upper arms stationary.",
+        "Squeeze your biceps, then slowly straighten your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-high-cable-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-high-cable-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bilateral-high-cable-curl"
+    },
+    {
+      "id": 260460748568536,
+      "name": "Cable Bilateral Cross Cable Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand between low cables",
+        "Curl one side by bringing your lower arm across your body. Make sure to keep your upper arm stationary.",
+        "Squeeze your biceps, then slowly extend your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-cross-cable-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bilateral-cross-cable-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bilateral-cross-cable-curl"
+    },
+    {
+      "id": 156223542039727,
+      "name": "Cable Pull Around",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place cable pin all the way at the top or nearly at the top of the cable stack.",
+        "Face sideways and take a half kneeling position.",
+        "Grab the handle and reach across the body, begin the pull.",
+        "As you pull, imagine you are trying to put your elbow into your pocket."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-around-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-around-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-pull-around"
+    },
+    {
+      "id": 7287752951184,
+      "name": "Cable Standing Single Arm Cross Rear Delt Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand sideways to cable and hold handle across your body at opposite side.",
+        "Pull handle outward and back, leading with elbow and keeping arm slightly bent.",
+        "Squeeze rear delt at the end, then return slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-cross-rear-delt-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-standing-single-arm-cross-rear-delt-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-standing-single-arm-cross-rear-delt-row"
+    },
+    {
+      "id": 250260655278244,
+      "name": "Cable High Single Arm Rolling Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Set cable at about elbow level. Stand facing away from the cables and grab handle attachment.",
+        "Take an underhand grip, flex your elbows, as you curl hinge forward.",
+        "As you extend your elbow, also extend your hips until you are back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-rolling-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-rolling-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-rolling-curl"
+    },
+    {
+      "id": 51670481142432,
+      "name": "Cable High Single Arm Reverse Rolling Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set at elbow level.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards, as you curl hinge forward.",
+        "As you extend your elbow, also extend your hips until you are back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-rolling-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-rolling-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-reverse-rolling-curl"
+    },
+    {
+      "id": 20550029753826,
+      "name": "Cable High Single Arm Reverse Bayesian Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set at elbow level.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards, and curl."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-bayesian-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-bayesian-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-reverse-bayesian-curl"
+    },
+    {
+      "id": 227747415028711,
+      "name": "Cable High Single Arm Hammer Rolling Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Set cable at about elbow level. Stand facing away from the cables and grab handle attachment.",
+        "Take a neutral grip, flex your elbows, as you curl hinge forward.",
+        "As you extend your elbow, also extend your hips until you are back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-hammer-rolling-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-hammer-rolling-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-hammer-rolling-curl"
+    },
+    {
+      "id": 12574365549768,
+      "name": "Cable High Single Arm Hammer Bayesian Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand facing away from high cable, hold handle with palm facing inward.",
+        "Step forward to create tension and let arm extend fully behind you.",
+        "Curl handle toward shoulder, keeping palm neutral, then lower slowly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-hammer-bayesian-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-hammer-bayesian-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-hammer-bayesian-curl"
+    },
+    {
+      "id": 46724724957080,
+      "name": "Cable High Bayesian Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set to about elbow height.",
+        "Face away from the cable machine.",
+        "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-bayesian-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-bayesian-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-bayesian-curl"
+    }
+  ]
+}

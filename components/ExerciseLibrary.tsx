@@ -33,7 +33,7 @@ function formatMuscleName(muscle: string) {
   return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 }
 
-function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: string }) {
+function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercise; muscle: string; routePath: string }) {
   const videos = Array.from(new Set(exercise.media.map((item) => item.videoUrl).filter(Boolean)));
   const videoCount = Math.max(videos.length, 1);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
@@ -73,7 +73,7 @@ function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: 
     <article className="health-card exercise-library-exercise-card">
       <header className="exercise-library-exercise-card__header">
         <h2>{exercise.name}</h2>
-        <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`/exercises/${muscle}/${exercise.id}`}>›</Link>
+        <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`/exercises/${muscle}/${exercise.id}?from=${encodeURIComponent(routePath)}`}>›</Link>
       </header>
       <div className="exercise-library-showcase__media">
         <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
@@ -93,9 +93,9 @@ function ExerciseCard({ exercise, muscle }: { exercise: PublicExercise; muscle: 
   );
 }
 
-export default function ExerciseLibrary({ muscle, exercises }: { muscle: string; exercises: PublicExercise[] }) {
+export default function ExerciseLibrary({ muscle, exercises, routePath = `/exercises/${muscle}`, targetLabel }: { muscle: string; exercises: PublicExercise[]; routePath?: string; targetLabel?: string }) {
   const router = useRouter();
-  const muscleName = formatMuscleName(muscle);
+  const muscleName = targetLabel ?? formatMuscleName(muscle);
 
   return (
     <main aria-label={`${muscleName} exercises`} className="exercise-library-page">
@@ -103,7 +103,7 @@ export default function ExerciseLibrary({ muscle, exercises }: { muscle: string;
         <svg aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         <span>Quay lại</span>
       </button>
-      {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><h2 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h2><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
+      {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><h2 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h2><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} routePath={routePath} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
     </main>
   );
 }

@@ -1,0 +1,225 @@
+{
+  "total": 7,
+  "limit": 7,
+  "offset": 0,
+  "count": 7,
+  "results": [
+    {
+      "id": 145039176685390,
+      "name": "Back Rowing Preps Open Elbow Seated",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at shoulder height.",
+        "Start with elbows bent, hands near chest, palms facing inward.",
+        "Open elbows wide, rotating shoulders externally while keeping chest lifted.",
+        "Return with control, maintaining upright posture and steady strap tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-open-elbow-seated-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-open-elbow-seated-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-open-elbow-seated"
+    },
+    {
+      "id": 1352426819195,
+      "name": "Plow Back Rowing Preps",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps forward.",
+        "Begin with arms long, shoulders relaxed and chest open.",
+        "Pull arms down and back in a plow motion, engaging lats.",
+        "Return to start with control, maintaining upright posture and tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-plow-back-rowing-preps"
+    },
+    {
+      "id": 199320652622624,
+      "name": "Arms Pulling Straps Plow Prone On The Box",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie prone on the box, chest just off edge, arms holding straps overhead.",
+        "Start with arms long, palms down, shoulders depressed and neck neutral.",
+        "Pull arms down toward hips, squeezing lats while keeping torso stable.",
+        "Return slowly to start, maintaining control and continuous tension on straps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-plow-prone-on-the-box-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-plow-prone-on-the-box-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-arms-pulling-straps-plow-prone-on-the-box"
+    },
+    {
+      "id": 18536507379724,
+      "name": "Long Arm Adduction Side Kneeling",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel sideways, supporting hand under shoulder, top arm reaching long overhead.",
+        "Engage core, keep torso upright and shoulders stacked.",
+        "Pull top arm down toward hip, using lats and obliques.",
+        "Return arm overhead with control, maintaining balance and steady breathing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-arm-adduction-side-kneeling-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-long-arm-adduction-side-kneeling-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-long-arm-adduction-side-kneeling"
+    },
+    {
+      "id": 125193917851060,
+      "name": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle while rotating torso slightly.",
+        "Keep hips stable and movement controlled.",
+        "Return arm and torso to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-rotations-back-rowing-seated-row"
+    },
+    {
+      "id": 34324077096519,
+      "name": "Pilates Single Arm Back Rowing Seated Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle toward torso, squeezing shoulder blade.",
+        "Keep torso stable without rotation.",
+        "Extend arm forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-back-rowing-seated-row"
+    },
+    {
+      "id": 11590841068976,
+      "name": "Pilates Back Rowing Seated Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, legs extended, hold straps with arms forward.",
+        "Pull handles toward torso, squeezing shoulder blades together.",
+        "Keep chest lifted and spine neutral throughout.",
+        "Extend arms forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-seated-row"
+    }
+  ]
+}

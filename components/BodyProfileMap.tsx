@@ -2,8 +2,11 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState, type MouseEvent as ReactMouseEvent } from "react";
+import Link from "next/link";
+import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
 
 type BodyView = "front" | "back";
+type BodyMapMode = "standard" | "advanced" | "joints";
 
 const muscleSlugByGroup: Record<string, string> = {
   "front-shoulders": "shoulders",
@@ -11,20 +14,69 @@ const muscleSlugByGroup: Record<string, string> = {
   "traps-middle": "traps",
 };
 
-function BodyViewIcon({ view }: { view: BodyView }) {
-  return (
-    <svg aria-hidden="true" className="body-view-icon" viewBox="0 0 24 24">
-      <circle cx="12" cy="4.5" fill="currentColor" r="1.8" />
-      <path d="M12 7.2v6.2m0-4.2-3.2 2.6m3.2-2.6 3.2 2.6m-3.2 2.2-2.5 5m2.5-5 2.5 5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" />
-      {view === "back" && <path d="M10.4 8.7h3.2M10.5 11.1h3M10.8 13.3h2.4" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1" />}
-    </svg>
-  );
+const advancedParentSlugByGroup: Record<string, string> = {
+  "medial-hamstrings": "hamstrings",
+  "lateral-hamstrings": "hamstrings",
+  "gluteus-maximus": "glutes",
+  "gluteus-medius": "glutes",
+  "medial-head-triceps": "triceps",
+  "long-head-triceps": "triceps",
+  "lateral-head-triceps": "triceps",
+  "posterior-deltoid": "rear-shoulders",
+  "lower-trapezius": "traps",
+  "traps-middle": "traps",
+};
+
+type HotspotPosition = {
+  left: number;
+  top: number;
+};
+
+const jointMapPositions: Record<string, HotspotPosition[]> = {
+  shoulders: [
+    { left: 33, top: 22 },
+    { left: 67, top: 22 },
+  ],
+  elbow: [
+    { left: 19, top: 35 },
+    { left: 81, top: 35 },
+  ],
+  wrist: [
+    { left: 8, top: 44 },
+    { left: 92, top: 44 },
+  ],
+  hips: [
+    { left: 38, top: 44 },
+    { left: 62, top: 44 },
+  ],
+  knees: [
+    { left: 37, top: 73 },
+    { left: 63, top: 73 },
+  ],
+  ankles: [
+    { left: 35, top: 91 },
+    { left: 65, top: 91 },
+  ],
+};
+
+const bodyMapViewBox = { width: 660.46, height: 1206.46 };
+const advancedBodyMapViewBox = { width: 676.49, height: 1203.49 };
+
+function getHotspotPosition(position: HotspotPosition, viewBox = bodyMapViewBox) {
+  const cx = (position.left / 100) * viewBox.width;
+  const cy = (position.top / 100) * viewBox.height;
+
+  return { cx, cy };
 }
 
 export default function BodyProfileMap() {
   const router = useRouter();
   const [activeView, setActiveView] = useState<BodyView>("front");
-  const [svgMarkup, setSvgMarkup] = useState<{ front: string; back: string } | null>(null);
+  const [activeMode, setActiveMode] = useState<BodyMapMode>("standard");
+  const [svgMarkup, setSvgMarkup] = useState<{
+    standard: { front: string; back: string };
+    advanced: { front: string; back: string };
+  } | null>(null);
 
   useEffect(() => {
     let isCurrent = true;
@@ -32,15 +84,23 @@ export default function BodyProfileMap() {
     Promise.all([
       fetch("/male-fe.svg"),
       fetch("/male-be.svg"),
+      fetch("/musclewiki-advanced-fe.svg"),
+      fetch("/musclewiki-advanced-be.svg"),
     ])
-      .then(async ([frontResponse, backResponse]) => {
-        if (!frontResponse.ok || !backResponse.ok) {
+      .then(async ([frontResponse, backResponse, advancedFrontResponse, advancedBackResponse]) => {
+        if (!frontResponse.ok || !backResponse.ok || !advancedFrontResponse.ok || !advancedBackResponse.ok) {
           throw new Error("Unable to load body maps");
         }
 
         return {
-          front: await frontResponse.text(),
-          back: await backResponse.text(),
+          standard: {
+            front: await frontResponse.text(),
+            back: await backResponse.text(),
+          },
+          advanced: {
+            front: (await advancedFrontResponse.text()).replaceAll("rgb(var(--bodymap-stroke))", "#484a68"),
+            back: (await advancedBackResponse.text()).replaceAll("rgb(var(--bodymap-stroke))", "#484a68"),
+          },
         };
       })
       .then((markup) => {
@@ -71,15 +131,29 @@ export default function BodyProfileMap() {
       return;
     }
 
+    if (activeMode === "advanced") {
+      router.push(getAdvancedRoute(advancedParentSlugByGroup[groupId] ?? groupId));
+      return;
+    }
+
     const muscleSlug = muscleSlugByGroup[groupId] ?? groupId;
     router.push(`/exercises/${muscleSlug}`);
   }
 
   const bodyLabel = activeView === "front" ? "Cơ trước" : "Cơ sau";
-  const activeMarkup = svgMarkup?.[activeView];
+  const activeMarkup = activeMode === "advanced" ? svgMarkup?.advanced[activeView] : svgMarkup?.standard[activeView];
   const oppositeView: BodyView = activeView === "front" ? "back" : "front";
   const oppositeLabel = oppositeView === "front" ? "Cơ trước" : "Cơ sau";
-  const oppositeMarkup = svgMarkup?.[oppositeView];
+  const oppositeMarkup = activeMode === "advanced" ? svgMarkup?.advanced[oppositeView] : svgMarkup?.standard[oppositeView];
+
+  const modeItems: Array<{ id: BodyMapMode; label: string }> = [
+    { id: "standard", label: "Standard" },
+    { id: "advanced", label: "Advanced" },
+    { id: "joints", label: "Joints" },
+  ];
+  const overlayTargets = activeMode === "joints" ? JOINT_TARGETS : [];
+  const overlayPositions = jointMapPositions;
+  const hotspotViewBox = activeMode === "advanced" ? advancedBodyMapViewBox : bodyMapViewBox;
 
   return (
     <>
@@ -108,15 +182,32 @@ export default function BodyProfileMap() {
         </div>
       </section> */}
 
-      <section aria-labelledby="body-profiles-title" className="health-card body-profiles-card">
+      <section aria-label="Chọn vùng cơ thể" className="health-card body-profiles-card">
+        {/*
         <div className="body-profiles-card__header">
           <div>
-            <h2 id="body-profiles-title">Choose a muscle group</h2>
-            <p>Tap a muscle to explore exercises</p>
+            <h2 id="body-profiles-title">{activeMode === "standard" ? "Choose a muscle group" : activeMode === "advanced" ? "Advanced anatomy" : "Joint recovery"}</h2>
+            <p>{modeDescription}</p>
           </div>
         </div>
+        */}
+        <div aria-label="Body map view" className="body-profile-mode-switcher" role="tablist">
+          {modeItems.map((item) => (
+            <button
+              aria-selected={activeMode === item.id}
+              className={`body-profile-mode-switcher__item${activeMode === item.id ? " body-profile-mode-switcher__item--active" : ""}`}
+              key={item.id}
+              onClick={() => setActiveMode(item.id)}
+              role="tab"
+              type="button"
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+
         <div className="body-profiles-card__visuals">
-          <figure className="body-profile">
+          <figure className={`body-profile body-profile--${activeMode}`}>
             <button
               aria-label={`Chuyển nhanh sang xem ${oppositeLabel}`}
               className="body-profile__quick-switch"
@@ -134,20 +225,40 @@ export default function BodyProfileMap() {
             </button>
 
             <div className="body-profile__image">
-              <div
-                aria-label={`${bodyLabel}. Chọn một nhóm cơ để xem bài tập.`}
-                className="body-profile__svg"
-                onClick={handleMuscleClick}
-                role="img"
-              >
-                {activeMarkup ? (
-                  <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
-                ) : (
-                  <div aria-hidden="true" className="body-profile__loading" />
-                )}
+              <div className="body-profile__map-stage">
+                <div
+                  aria-label={`${bodyLabel}. ${activeMode === "standard" ? "Chọn một nhóm cơ để xem bài tập." : "Chọn một vùng trên ảnh để xem bài tập."}`}
+                  className={`body-profile__svg${activeMode === "joints" ? " body-profile__svg--overlay" : ""}`}
+                  onClick={activeMode === "joints" ? undefined : handleMuscleClick}
+                  role="img"
+                >
+                  {activeMarkup ? (
+                    <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
+                  ) : (
+                    <div aria-hidden="true" className="body-profile__loading" />
+                  )}
+                </div>
+
+                {activeMode === "joints" && activeMarkup ? (
+                  <div aria-label="Các khớp" className="body-profile__hotspots body-profile__hotspots--joints" role="list">
+                    <svg aria-hidden="true" className="body-profile__hotspot-overlay" preserveAspectRatio="xMidYMid meet" viewBox={`0 0 ${hotspotViewBox.width} ${hotspotViewBox.height}`}>
+                      {overlayTargets.flatMap((target) => (overlayPositions[target.slug] ?? []).map((position, index) => {
+                        const layout = getHotspotPosition(position, hotspotViewBox);
+                        const href = getTargetRoute(target);
+
+                        return (
+                          <Link aria-label={`Mở bài tập ${target.label}`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
+                            <circle className="body-profile__hotspot-halo" cx={layout.cx} cy={layout.cy} r="25" />
+                            <circle className="body-profile__hotspot-dot" cx={layout.cx} cy={layout.cy} r="13" />
+                          </Link>
+                        );
+                      }))}
+                    </svg>
+                  </div>
+                ) : null}
               </div>
+
             </div>
-            {/* <figcaption>{bodyLabel}</figcaption> */}
           </figure>
         </div>
       </section>

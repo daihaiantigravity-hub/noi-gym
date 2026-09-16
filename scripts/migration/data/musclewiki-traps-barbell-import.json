@@ -1,0 +1,372 @@
+{
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "count": 12,
+  "results": [
+    {
+      "id": 192837041505895,
+      "name": "Barbell Silverback Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the Barbell with both hands in front just past shoulder width.",
+        "Bend forward at the hips with a slight bend in your knees, keeping your back straight.",
+        "Engage your shoulder blades, as if you are trying to touch them together.",
+        "Release the shrug."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-silverback-shrug-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-silverback-shrug-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-silverback-shrug"
+    },
+    {
+      "id": 84642741099326,
+      "name": "Barbell Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Take a double overhand roughly shoulder width grip.",
+        "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-upright-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-upright-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-upright-row"
+    },
+    {
+      "id": 219026837272464,
+      "name": "Barbell Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with a barbell in front of you.",
+        "Bend down and grab the barbell with an overhand grip, your hands slightly wider than shoulder-width apart. Keep your back straight and your shoulders down as you grip the bar.",
+        "Stand up straight, lifting the barbell off the ground and pulling it toward your hips. Keep your elbows close to your body and your shoulders down as you do this.",
+        "Once the barbell is at your hips, raise your shoulders as high as you can, holding the position for a moment."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-shrug"
+    },
+    {
+      "id": 111228657289425,
+      "name": "Barbell Z Press",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Begin by sitting on the ground with your legs extended and a barbell in your hands, with your palms facing forward and your elbows bent.",
+        "Keeping your core engaged and your back straight, lift the barbell up from your chest and press it straight up above your head.",
+        "Lower the barbell back down to your chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-z-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-z-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-z-press"
+    },
+    {
+      "id": 150091323478210,
+      "name": "Barbell High Pull",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, grip the barbell slightly wider than shoulder-width, and keep your back straight.",
+        "Drive through your legs, extending your hips, knees, and ankles explosively while pulling the barbell upward.",
+        "As the bar rises, pull it close to your body, leading with your elbows until it reaches chest level."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-pull-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-pull-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-high-pull"
+    },
+    {
+      "id": 92641339847879,
+      "name": "Barbell Snatch Grip High Pull",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, gripping the barbell with a wide (snatch-width) grip. Keep your back straight, chest up, and bar close to your body.",
+        "Drive through your legs, extending your hips, knees, and ankles while pulling the barbell up explosively.",
+        "Shrug your shoulders forcefully and pull the bar as high as possible, keeping elbows above the bar.",
+        "Lower the bar back to the starting position in a controlled manner and reset for the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-grip-high-pull-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-grip-high-pull-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-snatch-grip-high-pull"
+    },
+    {
+      "id": 90240452139392,
+      "name": "Barbell Behind The Back 30 Degree Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold barbell behind you with arms at a",
+        "degree angle with your torso.",
+        "Shrug shoulders up and slightly back toward ears, keeping elbows locked.",
+        "Pause briefly at the top, then lower under control to full stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-back-30-degree-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-back-30-degree-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-behind-the-back-30-degree-shrug"
+    },
+    {
+      "id": 88935731308486,
+      "name": "Barbell Behind The Back Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold barbell behind your hips with overhand grip, arms straight.",
+        "Shrug shoulders straight up toward ears without bending elbows.",
+        "Lower slowly, maintaining tension in traps throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-back-shrug-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-back-shrug-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-behind-the-back-shrug"
+    },
+    {
+      "id": 246833846879451,
+      "name": "Barbell 30 Degree Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold barbell with a wide grip. Your arms should be at a roughly",
+        "degree angle.",
+        "Pull your shoulders towards your ears instead of straight up toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-30-degree-shrug-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-30-degree-shrug-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-30-degree-shrug"
+    },
+    {
+      "id": 62709917427776,
+      "name": "Ez Bar Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by standing with your feet about hip-width apart, with a barbell in front of you.",
+        "Bend down and grab the bar with an overhand grip, your hands slightly wider than shoulder-width apart. Keep your back straight and your shoulders down as you grip the bar.",
+        "Stand up straight, lifting the bar off the ground and pulling it toward your hips. Keep your elbows close to your body and your shoulders down as you do this.",
+        "Once the bar is at your hips, raise your shoulders as high as you can, holding the position for a moment."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-shrug"
+    },
+    {
+      "id": 44628185312305,
+      "name": "Ez Bar Upright Row",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Take a double overhand roughly shoulder width grip.",
+        "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-upright-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-upright-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-upright-row"
+    },
+    {
+      "id": 159000476055164,
+      "name": "Trap Bar Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand inside trap bar, arms straight, shoulders relaxed.",
+        "Elevate shoulders straight upward toward ears.",
+        "Pause briefly at top, squeezing traps.",
+        "Lower shoulders slowly to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-trap-bar-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trap-bar-shrug"
+    }
+  ]
+}

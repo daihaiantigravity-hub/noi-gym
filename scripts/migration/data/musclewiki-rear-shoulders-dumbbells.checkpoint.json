@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/rear-shoulders/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/rear-shoulders/dumbbells", "found": 4},
+    {"number": 2, "url": "https://musclewiki.com/exercises/rear-shoulders/dumbbells/2", "found": 4},
+    {"number": 3, "url": "https://musclewiki.com/exercises/rear-shoulders/dumbbells/3", "found": 4}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-rear-delt-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-rear-delt-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-rear-delt-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-reverse-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-reverse-fly-internally-rotated"},
+    {"sourceUrl": "https://musclewiki.com/exercise/internally-rotated-seated-rear-delt-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-shoulder-external-rotation"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-rear-delt-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-internally-rotated-rear-delt-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-alternating-rear-delt-fly"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-external-rotation"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-head-on-bench-rear-delt-fly"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 3, "cards": 12, "candidates": 12, "videos": 24}
+}

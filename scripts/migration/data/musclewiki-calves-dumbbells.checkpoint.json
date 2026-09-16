@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/calves/dumbbells", "found": 3}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-calf-raise"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-calf-raise"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-leg-calf-raise"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 1, "cards": 3, "candidates": 3, "videos": 6}
+}

@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/hamstrings/cables",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/hamstrings/cables",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/hamstrings/cables/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/hamstrings/cables/3",
+      "found": 1
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/hamstrings/cables/4",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Cable Bar Romanian Deadlift",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-bar-romanian-deadlift",
+      "cardText": "Cable Bar Romanian Deadlift\nBeginner\n1\nStart with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back\n2\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\n3\nTo protect yourself from injury, always maintain a flat back on any exercise.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-romanian-deadlift-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-romanian-deadlift-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Single Leg Deadlift",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-single-leg-deadlift",
+      "cardText": "Cable Single Leg Deadlift\nAdvanced\n1\nStart with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.\n2\nPush your butt back to initiate the movement while lifting one of your legs. Then push your butt forward until you're back in a standing position.\n3\nCompete your given amount of reps, then switch to opposite leg.\n4\nTo protect yourself from injury, always maintain a flat back.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-single-leg-romanian-deadlift-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-single-leg-romanian-deadlift-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Hamstring Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-hamstring-curl",
+      "cardText": "Cable Hamstring Curl\nAdvanced\n1\nUse an ankle attachment with the cable set all the way to the bottom of the machine.\n2\nStand upright or try bending slightly forward.\n3\nFlex at the knee and pull your ankle straight back.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-hamstring-curl-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-hamstring-curl-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Pull Through",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-pull-through",
+      "cardText": "Cable Pull Through\nBeginner\n1\nThis exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine.\n2\nFace away from the cable machine, straddle the cable itself, and grab the attachment. Walk a few steps away.\n3\nBreak at the hips while maintaining a flat back and mostly extended knees.\n4\nPush hips forward until you are back in a standing position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-through-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-pull-through-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Bar Staggered Romanian Deadlift",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-bar-staggered-romanian-deadlift",
+      "cardText": "Cable Bar Staggered Romanian Deadlift\nIntermediate\n1\nStart with a straight bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.\n2\nStand with a staggered stance. Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\n3\nTo protect yourself from injury, always maintain a flat back on any exercise.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-staggered-romanian-deadlift-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-staggered-romanian-deadlift-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Elevated Deadlift",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-elevated-deadlift",
+      "cardText": "Cable Elevated Deadlift\nIntermediate\n1\nStart with handles set to the bottom of the machine. Grab a box, stand on top of the box, squat the weight up into a standing position.\n2\nPush your butt back to initiate the movement and then push your butt forward until you're back in a standing position.\n3\nTo protect yourself from injury, always maintain a flat back on any exercise.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-elevated-deadlift-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-elevated-deadlift-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Seated Leg Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-seated-leg-curl",
+      "cardText": "Cable Seated Leg Curl\nAdvanced\n1\nBring a bench over to the cable stack, put the cable at head height (when seated). Use an ankle attachment.\n2\nSit on the bench.\n3\nFlex at the knee and pull your ankle straight back.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-leg-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-leg-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Single Leg Laying Leg Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-single-leg-laying-leg-curl",
+      "cardText": "Cable Single Leg Laying Leg Curl\nAdvanced\n1\nBring a bench over to the cable stack, put the cable all the way at the bottom. Use an ankle attachment.\n2\nLay on the bench.\n3\nFlex at the knee and pull your ankle straight back.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-single-leg-laying-leg-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-single-leg-laying-leg-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Cable Zercher Good Morning",
+      "sourceUrl": "https://musclewiki.com/exercise/cable-zercher-good-morning",
+      "cardText": "Cable Zercher Good Morning\nAdvanced\n1\nBegin by standing with your feet about hip-width apart and holding the bar in the crook of your elbows, with your palms facing towards your body.\n2\nKeeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground.\n3\nPush through your heels to extend your hips and raise your body back to the starting position.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-zercher-good-morning-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-zercher-good-morning-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 4,
+    "cards": 9,
+    "candidates": 9,
+    "videos": 18
+  }
+}

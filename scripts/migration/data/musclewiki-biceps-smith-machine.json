@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Smith Machine Drag Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-drag-curl",
+    "difficulty": "Beginner",
+    "cardText": "Smith Machine Drag Curl\nBeginner\n1\nGrab the bar with an underhand grip.\n2\nPull your elbows straight back and let the bar drag against your upper body (or very close to it).",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Underhand Row",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-underhand-row",
+    "difficulty": "Novice",
+    "cardText": "Smith Machine Underhand Row\nNovice\n1\nBegin by standing in front of a bar with your feet about hip-width apart.\n2\nBend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins.\n3\nKeeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest.\n4\nAs the bar reaches your chest, pause briefly, and then lower the bar back to the starting position.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-front.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Overhand Row",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-overhand-row",
+    "difficulty": "Beginner",
+    "cardText": "Smith Machine Overhand Row\nBeginner\n1\nStart hinged forward with a flat back. Make sure your elbows are fully extended.\n2\nPull the bar to your sternum.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-side.mp4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 210592473098399,
+      "name": "Midback Series Triceps Press Lying",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie prone supported, arms bent, elbows pointing forward.",
+        "Set shoulders down and back, engaging mid-back for stability.",
+        "Extend elbows fully, pressing arms long without shoulder movement.",
+        "Bend elbows to return, maintaining control and upper-back engagement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-triceps-press-lying-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-triceps-press-lying-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-triceps-press-lying"
+    },
+    {
+      "id": 76336737064348,
+      "name": "Back Rowing Preps Triceps Seated",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at chest height.",
+        "Start with elbows bent, upper arms close to sides.",
+        "Extend elbows fully, pressing straps back while keeping torso upright.",
+        "Bend elbows slowly to return, maintaining control and steady tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-triceps-seated-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-triceps-seated-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-triceps-seated"
+    },
+    {
+      "id": 277379112334134,
+      "name": "Front Rowing Preps Offering Seated",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps, elbows bent by sides.",
+        "Palms face up, forearms parallel, shoulders relaxed and chest open.",
+        "Extend arms forward as if offering, maintaining upright posture.",
+        "Bend elbows to return, keeping tension and controlled movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-front-rowing-preps-offering-seated-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-front-rowing-preps-offering-seated-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-front-rowing-preps-offering-seated"
+    },
+    {
+      "id": 197026202446955,
+      "name": "Reverse Expansion Salute Kneeling",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel tall facing straps, elbows bent, palms facing forward.",
+        "Keep elbows lifted and shoulders relaxed.",
+        "Press arms upward on a diagonal, extending elbows fully.",
+        "Bend elbows to return with control, maintaining vertical torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-reverse-expansion-salute-kneeling-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-reverse-expansion-salute-kneeling-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/reverse-expansion-salute-kneeling"
+    }
+  ]
+}

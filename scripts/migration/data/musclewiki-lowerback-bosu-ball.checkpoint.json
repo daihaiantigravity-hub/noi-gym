@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lowerback/bosu-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/lowerback/bosu-ball",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/lowerback/bosu-ball/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bosu Ball Single Leg Hip Thrust",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-single-leg-hip-thrust",
+      "cardText": "Bosu Ball Single Leg Hip Thrust\nBeginner\n1\nSit on Bosu, lean back, one foot on the floor.\n2\nDrive hips upward, squeezing glutes, one leg extended.\n3\nLower hips back down and switch legs.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-front_aBwyvlD.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-single-leg-hip-thrust-side_2ro2ZyY.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Superman",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-superman",
+      "cardText": "Bosu Ball Superman\nBeginner\n1\nLie face down on Bosu, arms extended.\n2\nLift arms, chest, and legs off the Bosu.\n3\nHold for a moment, then lower back down.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-superman-front_wu1ihDh.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-superman-side_aPEoH2j.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

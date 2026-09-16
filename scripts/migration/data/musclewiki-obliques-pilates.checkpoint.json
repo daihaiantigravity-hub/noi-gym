@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/obliques/pilates",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/obliques/pilates",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/obliques/pilates/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Side Twist Kneeling",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-side-twist-kneeling",
+      "cardText": "Side Twist Kneeling\nNovice\n1\nKneel tall sideways, hands holding straps, arms extended forward.\n2\nEngage core, rotate torso away from anchor.\n3\nKeep hips square and shoulders stacked.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-twist-kneeling-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-twist-kneeling-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Star Prep",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-star-prep",
+      "cardText": "Star Prep\nBeginner\n1\nKneel sideways, one hand on bar, feet staggered.\n2\nPush knees outward and raise off hand until at shoulder height.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-star-prep-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-star-prep-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Back Rowing Preps Roll Down With Obliques",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-back-rowing-preps-roll-down-with-obliques",
+      "cardText": "Back Rowing Preps Roll Down With Obliques\nIntermediate\n1\nSit tall with legs extended, arms holding straps at chest height.\n2\nRotate torso slightly, engaging obliques as you begin rolling back.\n3\nMaintain rotation and bend elbows, keeping shoulders relaxed and spine controlled.\n4\nRoll back up with control, returning to center without losing tension.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-obliques-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-obliques-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-single-arm-rotations-back-rowing-seated-row",
+      "cardText": "Pilates Single Arm Rotations Back Rowing Seated Row\nBeginner\n1\nSit tall, hold one strap, arm extended forward.\n2\nPull handle while rotating torso slightly.\n3\nKeep hips stable and movement controlled.\n4\nReturn arm and torso to start.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

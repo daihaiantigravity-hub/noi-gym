@@ -1,0 +1,493 @@
+{
+  "total": 16,
+  "limit": 16,
+  "offset": 0,
+  "count": 16,
+  "results": [
+    {
+      "id": 115137138372837,
+      "name": "Kettlebell Chest Press (Single)",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Laying on the floor with your knees bent and feet firmly on the floor, hold the kettlebell at your chest with both hands.",
+        "Fully extend your arms, raising the kettlebell until your elbows are locked.",
+        "Lower the kettlebell to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-chest-press-front_E1OX9Ah.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-chest-press-side_fpJAzkR.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-chest-press-single"
+    },
+    {
+      "id": 137720977525222,
+      "name": "Kettlebell Single Arm Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Laying on the floor with your knees bent and feet firmly on the floor, leave one arm resting to the side of the body.",
+        "Using the other arm, hold the kettlebell at arms length directly upwards of your shoulder.",
+        "Lower your arm until your upper arm to elbow is resting on the floor.",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-press"
+    },
+    {
+      "id": 25056863296452,
+      "name": "Kettlebell Walkover Pushup",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Starting in a press up position with feet wide and one hand resting on the kettlebell, complete a full press up, lowering your chest towards the ground while keeping your body straight and returning to the starting position.",
+        "Swap hands on the kettlebell, placing the hand originally on the kettlebell underneath your shoulder, complete another press up.",
+        "Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walkover-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walkover-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-walkover-pushup"
+    },
+    {
+      "id": 50667781431728,
+      "name": "Kettlebell Tate Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie flat on your back. Keeping your arm straight, hold the kettlebell above your chest with your palm facing away from your body.",
+        "Bend your arm, touching the kettlebell to the top of the shoulder opposite to the arm being worked.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-kettlebell-tate-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-kettlebell-tate-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-tate-press"
+    },
+    {
+      "id": 235473006091556,
+      "name": "Kettlebell Decline Skull Crusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lie on the floor with your upper back and soles of feet on the floor, knees bent, and pelvis and lower back suspended in the air.",
+        "Hold the kettlebell in both hands directly above your chest.",
+        "Keeping your upper arms in place, bend your elbows to bring the kettlebell to the floor above your head.",
+        "Return the kettlebell to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-decline-skull-crusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-decline-skull-crusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-decline-skull-crusher"
+    },
+    {
+      "id": 42539070343222,
+      "name": "Kettlebell Standing Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with legs shoulder width apart.",
+        "Hold the kettlebell in both hands behind your head.",
+        "Straighten arms bringing kettlebell above your head.",
+        "Return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-standing-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-standing-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-standing-tricep-extension"
+    },
+    {
+      "id": 248050773573981,
+      "name": "Kettlebell Single Arm Tricep Guilotine Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on bench holding kettlebell above upper chest with palm facing in.",
+        "Lower kettlebell toward neck or upper chest by bending elbow forward.",
+        "Extend arm fully, squeezing triceps at the top while keeping shoulder stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-tricep-guilotine-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-tricep-guilotine-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-tricep-guilotine-press"
+    },
+    {
+      "id": 126352872905253,
+      "name": "Kettlebell Single Arm Incline Chest Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on incline bench holding kettlebell at shoulder with elbow bent.",
+        "Press kettlebell upward and slightly inward until arm fully extends.",
+        "Lower slowly to starting position, keeping torso stable and controlled."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-incline-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-incline-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-incline-chest-press"
+    },
+    {
+      "id": 39003208526991,
+      "name": "Kettlebell Larsen Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a bench press position with your legs elevated. Try to keep your knees with a slight bend in them.",
+        "Lower kettlebells toward chest while keeping legs elevated and torso stable.",
+        "Press upward, squeezing chest at the top without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-larsen-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-larsen-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-larsen-press"
+    },
+    {
+      "id": 261964433761656,
+      "name": "Kettlebell Single Arm Larsen Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench with feet off floor, holding one kettlebell above chest.",
+        "Lower kettlebell toward chest while keeping core tight and legs raised.",
+        "Press upward, squeezing chest at the top without twisting torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-larsen-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-larsen-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-larsen-press"
+    },
+    {
+      "id": 242674471702248,
+      "name": "Kettlebell Single Arm Push Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold kettlebell at shoulder height, feet shoulder-width apart.",
+        "Dip slightly at knees, then drive upward, pressing kettlebell overhead.",
+        "Lock out arm briefly, then lower kettlebell under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-push-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-push-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-push-press"
+    },
+    {
+      "id": 61169543204351,
+      "name": "Kettlebell Kneeling Bottoms Up Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by taking a kneeling position and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+        "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kneeling-bottoms-up-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-kneeling-bottoms-up-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-kneeling-bottoms-up-overhead-press"
+    },
+    {
+      "id": 237501859855935,
+      "name": "Kettlebell Incline Guillotine Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench, hold kettlebell with both hands over chest.",
+        "Lower kettlebells, elbows flared.",
+        "Press kettlebells upward, fully extending arms. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-guillotine-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-guillotine-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-incline-guillotine-bench-press"
+    },
+    {
+      "id": 33988427116994,
+      "name": "Kettlebell Bottoms Up Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+        "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-bottoms-up-overhead-press"
+    },
+    {
+      "id": 23615915529298,
+      "name": "Kettlebell Bottoms Up Single Arm Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding one kettlebell with the bottom of the kettlebell facing up.",
+        "Bring the kettlebell to your shoulders, with your palms facing forward and your elbows bent.",
+        "From this starting position, extend your arms upwards so that the kettlebell are overhead.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-single-arm-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bottoms-up-single-arm-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-bottoms-up-single-arm-overhead-press"
+    },
+    {
+      "id": 126215200351214,
+      "name": "Kettlebell Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Be careful getting the KB into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+        "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-overhead-tricep-extension"
+    }
+  ]
+}

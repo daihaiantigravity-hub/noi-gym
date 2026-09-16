@@ -1,0 +1,101 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 234010652020889,
+      "name": "Happy Baby",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie down on your back with your knees bent and feet flat on the floor.",
+        "Lift your feet off the floor and bring your knees towards your chest.",
+        "Reach inside your knees and hold onto the outside edges of your feet.",
+        "Gently pull your knees towards your armpits and rock side to side for a few breaths."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-happy-baby-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-happy-baby-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/happy-baby"
+    },
+    {
+      "id": 140787775978743,
+      "name": "Sphinx Pose",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by lying down on your stomach on a yoga mat or a comfortable surface.",
+        "Place your elbows underneath your shoulders, keeping your forearms parallel to each other.",
+        "Press your palms and forearms firmly into the ground to lift your chest up, while keeping your hips and legs relaxed.",
+        "Make sure your shoulders are relaxed and away from your ears. Gently roll your shoulder blades down and back to open up your chest.",
+        "Lengthen your spine by lifting the crown of your head towards the ceiling, while keeping your chin tucked in slightly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-sphinx-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-sphinx-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/sphinx-pose"
+    },
+    {
+      "id": 37464142885932,
+      "name": "Cobra Pose",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start prone, hands under shoulders.",
+        "Inhale, lift chest, arch back.",
+        "Elongate neck, gaze up. Breathe, hold. Release, exhale."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-cobra-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-cobra-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cobra-pose"
+    }
+  ]
+}

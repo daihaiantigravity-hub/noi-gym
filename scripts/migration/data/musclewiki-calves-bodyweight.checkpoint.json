@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/bodyweight",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/calves/bodyweight",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/calves/bodyweight/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/calves/bodyweight/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Walking Calf Raises",
+      "sourceUrl": "https://musclewiki.com/exercise/walking-calf-raises",
+      "cardText": "Walking Calf Raises\nNovice\n1\nWalk forward and push your toe into the ground\n2\nLift you heel off the ground each step and tense your calf muscle\n3\nRepeat on each leg and walk forward slowly",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-walking-calf-raises-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-walking-calf-raises-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Tip Toe Walking",
+      "sourceUrl": "https://musclewiki.com/exercise/tip-toe-walking",
+      "cardText": "Tip Toe Walking\nNovice\n1\nPoint your toes into the floor.\n2\nSlowly walk forwards and backward\n3\nKeep your heels in the air as long as possible while walking.\n4\nIt may be beneficial to do this last at the end of your workout.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-tip-toe-walking-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-tip-toe-walking-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Calf Raises",
+      "sourceUrl": "https://musclewiki.com/exercise/calf-raises",
+      "cardText": "Calf Raises\nNovice\n1\nBalance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.\n2\nLower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.\n3\nRepeat as necessary.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-calf-raises-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-calf-raises-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Donkey Calf Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-donkey-calf-raise",
+      "cardText": "Bodyweight Donkey Calf Raise\nNovice\n1\nHold on to something for balance.\n2\nHinge forward and maintain that position. Calf raise until you feel a contraction in your calfs.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-donkey-calf-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-donkey-calf-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Single Leg Calf Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-single-leg-calf-raise",
+      "cardText": "Bodyweight Single Leg Calf Raise\nNovice\n1\nHold onto something for balance. Raise one foot off the ground.\n2\nRaise your heel upwards while keeping your knees stationary.\n3\nPause when your heels are fully extended and then slowly return to the starting position and repeat.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-calf-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-calf-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

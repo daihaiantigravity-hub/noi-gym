@@ -1,0 +1,455 @@
+{
+  "total": 15,
+  "limit": 15,
+  "offset": 0,
+  "count": 15,
+  "results": [
+    {
+      "id": 102333237375147,
+      "name": "Kettlebell Farmers Carry",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold two kettlebells in each hand.",
+        "Keep your shoulders blades pulled back and walk for a specified duration."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-farmers-carry-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-farmers-carry-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-farmers-carry"
+    },
+    {
+      "id": 97618927832030,
+      "name": "Kettlebell Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight with a kettlebell in both hands in front of your pelvis, with your forearms facing outwards.",
+        "Flex your wrist towards your body until the kettlebell is level with your stomach.",
+        "Lower to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-wrist-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-wrist-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-wrist-curl"
+    },
+    {
+      "id": 225419194611581,
+      "name": "Kettlebell Wrist Extension",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight with a kettlebell in both hands in front of your pelvis, with your forearms facing inwards.",
+        "Flex your wrist upwards until wrists are fully extended.",
+        "Lower to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-wrist-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-wrist-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-wrist-extension"
+    },
+    {
+      "id": 95543026836640,
+      "name": "Kettlebell Row (Single)",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Lift the kettlebell upwards towards your chest and lower - repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-row-single-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-row-single-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-row-single"
+    },
+    {
+      "id": 122619597716409,
+      "name": "Kettlebell Single Arm Row",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart, shifting one foot behind you. Hold the kettlebell in the same hand as the leg shifted backwards.",
+        "Bend forwards at the hips bringing the kettlebell to the floor while you slightly bend your knee, keeping your back straight.",
+        "Lift the kettlebell upwards towards your chest and lower - repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-row"
+    },
+    {
+      "id": 212481030591314,
+      "name": "Kettlebell Reverse Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet hip-width apart.",
+        "Hold kettlebell with palms facing down.",
+        "Lift kettlebell toward shoulders, squeezing biceps, then lower with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-reverse-curl"
+    },
+    {
+      "id": 90597747777921,
+      "name": "Kettlebell Bench Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grip the kettlebells with your palm facing upwards with your forearm rested against the bench.",
+        "Slowly curl your wrist upwards in a semicircular motion.",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bench-wrist-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-bench-wrist-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-bench-wrist-curl"
+    },
+    {
+      "id": 134517526969851,
+      "name": "Kettlebell Farmers March",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall holding two kettlebells in each hand.",
+        "March in place for the desired amount of reps or time."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-farmers-march-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-farmers-march-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-farmers-march"
+    },
+    {
+      "id": 267409708979970,
+      "name": "Kettlebell Single Arm Farmers March",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Standing straight with a kettlebell in one hand, lift the knee of one leg off the floor to knee height.",
+        "Bring the leg back to standing and repeat with the other leg, keeping the kettlebell on the same side.",
+        "Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-farmers-march-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-farmers-march-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-farmers-march"
+    },
+    {
+      "id": 239312613347222,
+      "name": "Kettlebell Single Arm Reverse Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet hip-width apart.",
+        "Hold a kettlebell with palms facing down.",
+        "Lift kettlebell toward shoulders, squeezing biceps, then lower with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-reverse-curl"
+    },
+    {
+      "id": 170691057325639,
+      "name": "Kettlebell Walking Farmers March",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Standing straight with kettlebells, start walking towards a set point. Pulling your knee up toward the ceiling.",
+        "Make sure to keep your chest tall and shoulder blades pulled back.",
+        "Try to keep your stride distance roughly the same."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walking-farmers-march-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walking-farmers-march-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-walking-farmers-march"
+    },
+    {
+      "id": 154689794834227,
+      "name": "Kettlebell Alternating Row",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, kettlebell in one hand.",
+        "Bend at hips, row kettlebell to chest.",
+        "Alternate hands for each row."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-alternating-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-alternating-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-alternating-row"
+    },
+    {
+      "id": 244634033548368,
+      "name": "Kettlebell Row",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, hold a kettlebell in each hand.",
+        "Hinge at hips, keep back straight, and pull both kettlebells to hips."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-row"
+    },
+    {
+      "id": 188636413643949,
+      "name": "Kettlebell Single Arm Row On Bench",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by standing in front of a flat bench with your feet shoulder-width apart and holding a kettlebell in one hand.",
+        "Place your other hand on the bench for support, and bend at the waist so that your chest is parallel to the ground.",
+        "From this starting position, row the kettlebell up towards your chest, squeezing your shoulder blade together as you do so.",
+        "Make sure to keep your elbow close to your body and your core engaged throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-row-on-bench-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-row-on-bench-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-row-on-bench"
+    },
+    {
+      "id": 38541116658298,
+      "name": "Kettlebell Single Arm Farmers Walk",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Standing straight with a kettlebell in one hand, walk for a specified distance or duration.",
+        "Stay upright and don't lean to one side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-farmers-walk-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-farmers-walk-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-farmers-walk"
+    }
+  ]
+}

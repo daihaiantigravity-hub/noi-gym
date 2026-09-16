@@ -1,0 +1,67 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 183244226919183,
+      "name": "TRX Forearm Side Plank",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on your side with your legs straight and your feet resting in the TRX foot cradles.",
+        "Prop yourself up on your forearm and engage your core to maintain a straight line from your head to your feet."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-forearm-side-plank-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-forearm-side-plank-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-forearm-side-plank"
+    },
+    {
+      "id": 178486089386884,
+      "name": "TRX Oblique Crunch",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your feet in the TRX stirrups and get in to a hand plank position.",
+        "Pull both knees to your right elbow.",
+        "Extend your legs back to the starting position, then pull both knees to the left elbow."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-oblique-crunch-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-oblique-crunch-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-oblique-crunch"
+    }
+  ]
+}

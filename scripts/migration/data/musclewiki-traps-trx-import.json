@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 189269946716859,
+      "name": "TRX Y Raise",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the TRX straps and lean away from the anchor point until the straps are taut.",
+        "Keep both elbows mostly extended and raise both arms out and upwards.",
+        "You should make a Y shape with your arms during the back portion of the exercise."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-y-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-y-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-y-raise"
+    }
+  ]
+}

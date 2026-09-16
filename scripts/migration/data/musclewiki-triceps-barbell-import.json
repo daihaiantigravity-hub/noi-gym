@@ -1,0 +1,606 @@
+{
+  "total": 20,
+  "limit": 20,
+  "offset": 0,
+  "count": 20,
+  "results": [
+    {
+      "id": 111088383728105,
+      "name": "Barbell Close Grip Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With a narrow grip on the bar, straighten your arms",
+        "Lower the bar to your lower-mid chest",
+        "Slowly raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-close-grip-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-close-grip-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-close-grip-bench-press"
+    },
+    {
+      "id": 278904111651708,
+      "name": "Barbell Laying Triceps Extensions",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay on a flat bench while holding a barbell with a shoulder-width grip.",
+        "Fully extend your elbows until the barbell is directly over your chest.",
+        "Begin to flex your elbows and allow the barbell to nearly touch your forehead.",
+        "Extend your elbows back to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-laying-tricep-extensions-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-laying-tricep-extensions-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-laying-triceps-extensions"
+    },
+    {
+      "id": 73944088018844,
+      "name": "Barbell Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a shoulder width grip. Break at the elbows. Try to keep your elbows tucked in. Don't let them flare out.",
+        "Stop the bar a few inches from your forehead and extend your elbows back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-skullcrusher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-skullcrusher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-skullcrusher"
+    },
+    {
+      "id": 36368359669984,
+      "name": "Barbell Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Be careful getting the bar into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+        "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-overhead-tricep-extension"
+    },
+    {
+      "id": 152536249540531,
+      "name": "Barbell Floor Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Un-rack the bar and break at the elbows and shoulders.",
+        "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-floor-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-floor-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-floor-press"
+    },
+    {
+      "id": 83667173388808,
+      "name": "Barbell Decline Close Grip Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the bench with your feet in the pads. With a narrow grip on the bar, straighten your arms",
+        "Lower the bar to your lower-mid chest",
+        "Slowly raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-close-grip-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-close-grip-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-decline-close-grip-bench-press"
+    },
+    {
+      "id": 169171967335975,
+      "name": "Barbell Decline Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on a decline bench with your feet in the pads. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-decline-bench-press"
+    },
+    {
+      "id": 172582505131182,
+      "name": "Ez Bar Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Be careful getting the bar into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+        "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ez-bar-overhead-tricep-extension"
+    },
+    {
+      "id": 258659600921577,
+      "name": "Barbell J M Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie flat on bench and grip bar slightly narrower than shoulder-width.",
+        "Lower bar toward upper chest by bending elbows forward, not flaring out.",
+        "Extend elbows to press bar back to starting position above chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-j-m-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-j-m-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-j-m-press"
+    },
+    {
+      "id": 50392453561893,
+      "name": "Barbell Guillotine Incline Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set bench to moderate incline and grip bar slightly wider than shoulders.",
+        "Lower bar toward upper chest or neck, keeping elbows out wide.",
+        "Press bar back up in a straight line over shoulders."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-guillotine-incline-bench-press"
+    },
+    {
+      "id": 174987385793993,
+      "name": "Barbell Guillotine High Incline Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set bench to high incline and grip bar slightly wider than shoulders.",
+        "Lower bar slowly toward upper chest or neck with elbows flared.",
+        "Press bar upward until arms fully extend without locking elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-high-incline-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-high-incline-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-guillotine-high-incline-bench-press"
+    },
+    {
+      "id": 161359506311638,
+      "name": "Barbell Tricep Guillotine Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Unrack the barbell. Break at the elbows and begin lowering the barbell.",
+        "Lower the barbell to your neck before extending your elbows back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-tricep-guillotine-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-tricep-guillotine-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-tricep-guillotine-press"
+    },
+    {
+      "id": 168770370510286,
+      "name": "Landmine Single Arm Staggered Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the bar in a split stance with one leg forward and bent and the other back and straight. Hold the bar in the hand on the side of the leg that is back with the end of the bar at your shoulder with your elbow tucked beneath your hand.",
+        "Drive the bar upwards until your arm is fully extended. Pause briefly before lowering the end of the bar back down to the starting position with control.",
+        "Repeat for the desired number of reps before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-staggered-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-staggered-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-arm-staggered-overhead-press"
+    },
+    {
+      "id": 176683950768401,
+      "name": "Landmine Single Arm Push Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+        "Dip your body slightly then drive up through the ground to generate momentum as your extend your arm fully upwards. Pause briefly at the top of the rep, then lower the weight back down to the starting position with control.",
+        "Repeat for the desired number of reps on one side before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-push-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-push-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-arm-push-press"
+    },
+    {
+      "id": 38834321559698,
+      "name": "Landmine Single Arm Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+        "Press the barbell overhead by extending your arm fully, pushing the weight upward. Keep your core engaged, your back straight, and your shoulder down throughout the movement. Pause briefly at the top of the movement with your arm fully extended overhead. Slowly lower the barbell back to the starting position at shoulder height with control.",
+        "Repeat for the desired number of reps on one side before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-arm-overhead-press"
+    },
+    {
+      "id": 16189906001079,
+      "name": "Landmine Single Arm Chest Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Starting lying on your back perpendicularly to the barbell while holding the end of the bar in your hand that is further away from the landmine attachment. Your elbow should be rest on the ground at a",
+        "to",
+        "degree angle from your torso, with your wrist stacked over your elbow.",
+        "Drive the end of the bar upwards, squeezing your chest at the top of the movement. Lower the bar back down until your elbow gently touches the ground.",
+        "Repeat for the desired number of reps on one side before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-arm-chest-press"
+    },
+    {
+      "id": 88763575622540,
+      "name": "Landmine Seated Single Arm Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in one hand in front of that shoulder with your palm facing across your body.",
+        "While keeping your torso tall and your core braced, drive the bar upwards until your arm is fully extended, leaning forward slightly for full range of motion in the shoulder joint. Lower the bar back down to the starting position with control.",
+        "Repeat for desired number of reps on one side, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-single-arm-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-single-arm-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-seated-single-arm-overhead-press"
+    },
+    {
+      "id": 48408687848090,
+      "name": "Landmine Seated Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in both hands in front of your chest with your palms facing each other.",
+        "While keeping your torso tall and core brace, drive the end of the bar upward until your arms are fully extended. Lean forward slightly for full range of motion in the shoulder joints. Lower the bar back down to the starting position.",
+        "Repeat for desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-seated-overhead-press"
+    },
+    {
+      "id": 78410367864963,
+      "name": "Landmine Seated Alternating Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start sitting on the ground facing the landmine attachment with your legs open for stability while holding the end of the bar in a neutral grip with your hand resting at your shoulder and your elbow beneath your wrist.",
+        "Leaning forward slightly, press the bar up into the air until your arm is fully extended. At the top of the movement, switch which hand is holding the end of the bar and lower the bar back down to the opposite shoulder. Perform again to return the bar to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-alternating-overhead-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-seated-alternating-overhead-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-seated-alternating-overhead-press"
+    },
+    {
+      "id": 83653343447252,
+      "name": "Landmine Overhead Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the landmine, holding the end of the bar in both hands with your palms facing each other.",
+        "Extend your arms upward, pressing the end of the bar up overhead. Pause at the top of the movement, then lower the bar with control back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-overhead-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-overhead-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-overhead-press"
+    }
+  ]
+}

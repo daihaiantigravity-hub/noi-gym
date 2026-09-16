@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lowerback/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/lowerback/trx",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/lowerback/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Ab Rollout",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-ab-rollout",
+      "cardText": "TRX Ab Rollout\nAdvanced\n1\nGrasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.\n2\nKeep your abs engaged, roll forward onto your toes, and extend your arms in front of you.\n3\nSlowly lower your body down to the ground, keeping your arms straight and your abs engaged.\n4\nWhen your head gets between your arms, pause for a moment and then use your abs to pull your body back up to the starting position.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-ab-rollout-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-ab-rollout-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 3268545347808,
+      "name": "Footwork Lower And Lift",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie supine, balls of feet on bar, heels lifted.",
+        "Press bar away, fully extending legs with control.",
+        "Lower heels under bar, then lift heels as high as possible.",
+        "Bend knees to return, maintaining steady tension and ankle control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-lower-and-lift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-lower-and-lift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-footwork-lower-and-lift"
+    },
+    {
+      "id": 961251256941,
+      "name": "Running Lying On The Back",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie supine with feet on bar, legs fully extended.",
+        "Alternate lowering one heel while the other stays lifted.",
+        "Switch rhythmically, maintaining stable pelvis and quiet upper body.",
+        "Continue alternating, emphasizing ankle mobility and control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-running-lying-on-the-back-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-running-lying-on-the-back-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-running-lying-on-the-back"
+    }
+  ]
+}

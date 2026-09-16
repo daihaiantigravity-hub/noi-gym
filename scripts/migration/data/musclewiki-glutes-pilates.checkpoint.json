@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/glutes/pilates",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/glutes/pilates",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/glutes/pilates/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/glutes/pilates/3",
+      "found": 3
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/glutes/pilates/4",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Single Leg Bicycle",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-single-leg-bicycle",
+      "cardText": "Single Leg Bicycle\nNovice\n1\nLie supine, one knee bent, opposite leg extended.\n2\nPress through one leg. Simultaneously pull the raised leg up to a table top position.\n3\nAs you lower, bring your non-working leg back into extension.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-single-leg-bicycle-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-single-leg-bicycle-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Single Leg One Leg Bent",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-single-leg-one-leg-bent",
+      "cardText": "Single Leg One Leg Bent\nNovice\n1\nLie supine, one foot planted, opposite leg in a tabletop position.\n2\nEngage core, maintain neutral pelvis.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-single-leg-one-leg-bent-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-single-leg-one-leg-bent-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Footwork High Half Toe",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-high-half-toe",
+      "cardText": "Footwork High Half Toe\nNovice\n1\nLie supine, balls of feet on bar, heels lifted high.\n2\nPress bar away, extending legs while maintaining lifted heels.\n3\nKeep pelvis neutral, ribs down, and core engaged.\n4\nBend knees to return smoothly, maintaining ankle stability and control.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-high-half-toe-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-high-half-toe-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Footwork Heels On The Bar",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-heels-on-the-bar",
+      "cardText": "Footwork Heels On The Bar\nNovice\n1\nLie supine, heels on bar hip-width, toes lifted slightly.\n2\nPress bar away, fully extending legs without locking knees.\n3\nMaintain neutral pelvis, ribs down, and steady core engagement.\n4\nBend knees to return with control, keeping heels connected.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-heels-on-the-bar-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-heels-on-the-bar-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Side Splits Skating",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-side-splits-skating",
+      "cardText": "Side Splits Skating\nNovice\n1\nStand on reformer, feet on platforms, hinged forward, spine neutral.\n2\nPush carriage out.\n3\nReturn to center with control, maintaining upright posture.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-splits-skating-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-splits-skating-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Hip Rolls",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-hip-rolls",
+      "cardText": "Hip Rolls\nBeginner\n1\nLie supine with knees bent, feet hip-width, arms relaxed by sides.\n2\nInhale to prepare, exhale and posteriorly tilt pelvis.\n3\nRoll spine up one vertebra at a time into bridge.\n4\nPress through legs until legs are nearly extended. Lower back to start.\n5\nThen begin rolling your spine downward until your back is flat against the carriage.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-rolls-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-rolls-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Hip Lift",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-hip-lift",
+      "cardText": "Hip Lift\nNovice\n1\nLie supine with knees bent, feet hip-width and flat. Hips slightly off the carriage.\n2\nEngage core and glutes, press through heels.\n3\nMaintain hip position as you press.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-lift-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-hip-lift-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Short Spine",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-short-spine",
+      "cardText": "Pilates Short Spine\nIntermediate\n1\nLie supine, feet in straps, legs extended upward.\n2\nLift hips, rolling spine off carriage.\n3\nBend knees, bringing heels toward glutes overhead.\n4\nRoll down slowly, extending legs to start.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Footwork First Position",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-first-position",
+      "cardText": "Pilates Footwork First Position\nBeginner\n1\nLie on reformer, heels together, toes apart on footbar.\n2\nPress carriage out by extending legs evenly.\n3\nKeep pelvis stable and core engaged.\n4\nBend knees to return with control.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-footwork-first-position-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-footwork-first-position-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Single Leg Heel",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-single-leg-heel",
+      "cardText": "Pilates Single Leg Heel\nBeginner\n1\nLie on reformer, one heel on footbar, other leg extended.\n2\nPress carriage out using working leg.\n3\nKeep hips level and core engaged.\n4\nBend knee to return with control.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-leg-heel-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-leg-heel-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Scooter",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-scooter",
+      "cardText": "Pilates Scooter\nNovice\n1\nStand beside reformer, one foot on carriage, one stable on floor.\n2\nPress carriage back by extending moving leg.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 4,
+    "cards": 11,
+    "candidates": 11,
+    "videos": 22
+  }
+}

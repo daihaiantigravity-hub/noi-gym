@@ -1,0 +1,191 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 53305763242912,
+      "name": "Barbell Deadlift",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your mid-foot under the bar and grip the bar with your hands, about a shoulder width apart.",
+        "Bend your knees, then lift the bar by straightening your back. It is important to keep your back straight.",
+        "Stand to your full height and hold.",
+        "Lower the bar to the floor by bending your knees and keeping your back straight."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-deadlift"
+    },
+    {
+      "id": 175782553719545,
+      "name": "Barbell Landmine Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position a barbell in a landmine or corner of a room and stand facing it with your feet shoulder-width apart.",
+        "Grasp the end of the barbell with a neutral grip, keeping your arms straight and your shoulders relaxed.",
+        "Bend at the hips and knees to lower your torso until it is almost parallel to the ground.",
+        "Pull the barbell towards your chest, squeezing your shoulder blades together as you row the weight up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-landmine-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-landmine-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-landmine-row"
+    },
+    {
+      "id": 150091323478210,
+      "name": "Barbell High Pull",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, grip the barbell slightly wider than shoulder-width, and keep your back straight.",
+        "Drive through your legs, extending your hips, knees, and ankles explosively while pulling the barbell upward.",
+        "As the bar rises, pull it close to your body, leading with your elbows until it reaches chest level."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-pull-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-pull-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-high-pull"
+    },
+    {
+      "id": 92641339847879,
+      "name": "Barbell Snatch Grip High Pull",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width apart, gripping the barbell with a wide (snatch-width) grip. Keep your back straight, chest up, and bar close to your body.",
+        "Drive through your legs, extending your hips, knees, and ankles while pulling the barbell up explosively.",
+        "Shrug your shoulders forcefully and pull the bar as high as possible, keeping elbows above the bar.",
+        "Lower the bar back to the starting position in a controlled manner and reset for the next rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-grip-high-pull-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-grip-high-pull-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-snatch-grip-high-pull"
+    },
+    {
+      "id": 31555441977811,
+      "name": "Barbell Banded Deadlift",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Loop bands under your feet and around the barbell. Stand hip-width apart.",
+        "Hinge at the hips, keep your back flat, and lower to grasp the bar.",
+        "Drive through heels, extend hips and knees, and stand tall with shoulders back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-banded-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-banded-deadlift"
+    },
+    {
+      "id": 231243241017219,
+      "name": "Barbell Rack Pull",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Set barbell just below knee height in rack and stand hip-width apart.",
+        "Hinge at hips, grip bar firmly, and keep back flat.",
+        "Drive hips forward and stand tall, locking out at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-rack-pull-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-rack-pull-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-rack-pull"
+    }
+  ]
+}

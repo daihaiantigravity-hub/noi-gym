@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps-middle/band",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps-middle/band",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps-middle/band/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/traps-middle/band/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Band Pull Apart",
+      "sourceUrl": "https://musclewiki.com/exercise/band-pull-apart",
+      "cardText": "Band Pull Apart\nNovice\n1\nGrab the band with a shoulder width grip. Point your arms straight in front of you.\n2\nRetract your shoulder blades and shoulder joint until the band taps your chest.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-apart-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-apart-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Horizontal Shrug",
+      "sourceUrl": "https://musclewiki.com/exercise/band-horizontal-shrug",
+      "cardText": "Band Horizontal Shrug\nNovice\n1\nAnchor the band at shoulder height. Take a few steps away until the band is taut.\n2\nRetract your shoulder blades straight back in schools. Then protract to the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band High Face Pull",
+      "sourceUrl": "https://musclewiki.com/exercise/band-high-face-pull",
+      "cardText": "Band High Face Pull\nNovice\n1\nStart with a band anchored to a high point. Stagger your stance.\n2\nPull the band to the bridge of your nose.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-face-pull-front_Rw6dM9Q.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-face-pull-side_SluSCw4.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Rear Delt Fly",
+      "sourceUrl": "https://musclewiki.com/exercise/band-rear-delt-fly",
+      "cardText": "Band Rear Delt Fly\nIntermediate\n1\nStart by standing between the two anchored bands with your feet shoulder-width apart and the bands positioned at a high point.\n2\nGrasp the ends of each band with your hands, keeping your palms facing each other.\n3\nKeeping your arms slightly bent and your back straight, slowly pull the bands away from your body until your arms are extended straight out to the sides. Hold for a second, then slowly release back to the starting position. Repeat for desired reps.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rear-delt-fly-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rear-delt-fly-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Pull Around",
+      "sourceUrl": "https://musclewiki.com/exercise/band-pull-around",
+      "cardText": "Band Pull Around\nNovice\n1\nStand sideways to anchor and hold band with arm slightly extended.\n2\nPull arm across your body in a smooth arc without rotating torso.\n3\nSqueeze chest at end range, then return slowly with control.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

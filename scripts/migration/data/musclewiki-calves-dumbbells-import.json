@@ -1,0 +1,97 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 253072720953463,
+      "name": "Dumbbell Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand tall with your feet on the ground. You can put the the balls of your feet on top of a plate to extend the range of motion.",
+        "Imagine you have a string attached to your heels and pull your heels up toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-calf-raise"
+    },
+    {
+      "id": 93944170667365,
+      "name": "Dumbbell Seated Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by sitting on a bench with your feet shoulder-width apart and a dumbbell in each hand placed on each leg.",
+        "From this starting position, raise your heels as high as you can by pushing up through your toes.",
+        "Slowly lower your heels back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-calf-raise-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-calf-raise-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-calf-raise"
+    },
+    {
+      "id": 199635310458800,
+      "name": "Dumbbell Single Leg Calf Raise",
+      "primary_muscles": [
+        "Calves"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Standing straight with a dumbbell in one hand, lift the same foot as the side without the dumbbell off the floor. Hold onto something for balance.",
+        "Raise your heel upwards while keeping your knees stationary.",
+        "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-calf-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-leg-calf-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-leg-calf-raise"
+    }
+  ]
+}

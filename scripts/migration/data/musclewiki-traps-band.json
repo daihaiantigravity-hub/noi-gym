@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Band Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/band-shrug",
+    "difficulty": "Novice",
+    "cardText": "Band Shrug\nNovice\n1\nPlace the band under your feet. Stand upright.\n2\nElevate your shoulder blades and then depress back to the starting position.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-shrug-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-shrug-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Band Horizontal Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/band-horizontal-shrug",
+    "difficulty": "Novice",
+    "cardText": "Band Horizontal Shrug\nNovice\n1\nAnchor the band at shoulder height. Take a few steps away until the band is taut.\n2\nRetract your shoulder blades straight back in schools. Then protract to the starting position.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-front.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Band Upright Row",
+    "sourceUrl": "https://musclewiki.com/exercise/band-upright-row",
+    "difficulty": "Advanced",
+    "cardText": "Band Upright Row\nAdvanced\n1\nStand with one or both feet on one end of a band. Take a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the band to chin level or slightly higher.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Band-band-upright-row-front.mp4"
+      }
+    ]
+  }
+]

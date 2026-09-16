@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 244369258171492,
+      "name": "Medicine Ball Single Leg Deadlift",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold medicine ball while standing on one leg.",
+        "Hinge forward on one leg, extending other leg behind.",
+        "Return to starting position. Repeat on other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-single-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-single-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/single-leg-deadlift"
+    }
+  ]
+}

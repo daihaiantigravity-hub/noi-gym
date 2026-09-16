@@ -4,6 +4,7 @@ import { createSupabaseAdminClient, createSupabaseServerClient, isSupabaseConfig
 import { getSourceMuscleName } from "./source";
 import type { ValidatedExerciseInput } from "./validation";
 import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise } from "./types";
+import type { ExerciseTargetMode } from "./types";
 
 const exerciseSelect = "id, source, source_id, name, slug, description, primary_muscles, category, force, grips, mechanic, difficulty, status, steps, media, source_snapshot, created_at, updated_at";
 
@@ -116,6 +117,18 @@ export async function listExercises(filters: ExerciseListFilters = {}) {
   const pageSize = Math.min(Math.max(filters.pageSize ?? 20, 1), 100);
   const start = (page - 1) * pageSize;
 
+  let targetExerciseIds: string[] | null = null;
+  if (filters.targetMode && filters.targetSlug) {
+    const { data, error } = await supabase
+      .from("exercise_targets")
+      .select("exercise_id")
+      .eq("mode", filters.targetMode)
+      .eq("slug", filters.targetSlug);
+    if (error) throwDatabaseError(error);
+    targetExerciseIds = (data ?? []).map((row) => String(row.exercise_id));
+    if (targetExerciseIds.length === 0) return { items: [], total: 0, page, pageSize };
+  }
+
   let query = supabase
     .from("exercises")
     .select(exerciseSelect, { count: "exact" })
@@ -127,6 +140,7 @@ export async function listExercises(filters: ExerciseListFilters = {}) {
   if (filters.category) query = query.eq("category", filters.category);
   if (filters.source) query = query.eq("source", filters.source);
   if (filters.muscle) query = query.overlaps("primary_muscles", [filters.muscle]);
+  if (targetExerciseIds) query = query.in("id", targetExerciseIds);
 
   const { data, error, count } = await query;
   if (error) throwDatabaseError(error);
@@ -166,17 +180,47 @@ export async function getExercise(id: string) {
   return data ? mapRow(data as ExerciseRow) : null;
 }
 
-export async function listPublishedExercises(muscle: string) {
+export async function listPublishedExercises(muscle: string, options: { category?: string } = {}) {
   if (!isSupabaseConfigured()) return [];
 
   const supabase = await createSupabaseServerClient();
-  const { data, error } = await supabase
+  let query = supabase
     .from("exercises")
     .select(exerciseSelect)
     .eq("status", "Published")
     .overlaps("primary_muscles", [getSourceMuscleName(muscle)])
     .order("updated_at", { ascending: false });
 
+  if (options.category) query = query.eq("category", options.category);
+
+  const { data, error } = await query;
+  if (error) throwDatabaseError(error);
+  return ((data ?? []) as ExerciseRow[]).map(mapPublicExercise);
+}
+
+export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string } = {}) {
+  if (!isSupabaseConfigured()) return [];
+
+  const supabase = await createSupabaseServerClient();
+  const { data: targets, error: targetError } = await supabase
+    .from("exercise_targets")
+    .select("exercise_id")
+    .eq("mode", mode)
+    .eq("slug", slug);
+  if (targetError) throwDatabaseError(targetError);
+
+  const exerciseIds = (targets ?? []).map((target) => String(target.exercise_id));
+  if (exerciseIds.length === 0) return [];
+
+  let query = supabase
+    .from("exercises")
+    .select(exerciseSelect)
+    .eq("status", "Published")
+    .in("id", exerciseIds)
+    .order("updated_at", { ascending: false });
+  if (options.category) query = query.eq("category", options.category);
+
+  const { data, error } = await query;
   if (error) throwDatabaseError(error);
   return ((data ?? []) as ExerciseRow[]).map(mapPublicExercise);
 }

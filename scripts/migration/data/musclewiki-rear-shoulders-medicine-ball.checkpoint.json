@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/rear-shoulders/medicine-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/rear-shoulders/medicine-ball",
+      "found": 1
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/rear-shoulders/medicine-ball/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Medicine Ball Halo",
+      "sourceUrl": "https://musclewiki.com/exercise/halo",
+      "cardText": "Medicine Ball Halo\nBeginner\n1\nStand with feet shoulder-width apart, hold a medicine ball.\n2\nCircle the ball around your head, maintaining control.\n3\nComplete the desired number of repetitions in both directions.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 1,
+    "candidates": 1,
+    "videos": 2
+  }
+}

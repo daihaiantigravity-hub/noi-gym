@@ -1,0 +1,154 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 268174363113549,
+      "name": "Machine Dips",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine and grab the handles.",
+        "Press the handles down until your elbows are nearly extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-dips-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-dips-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-dips"
+    },
+    {
+      "id": 101930062776783,
+      "name": "Machine Bent Arm Pec Fly",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust seat height so handles align with chest. Put your elbows on the pads.",
+        "Slowly bring pads together in front, keeping tension. Focus on squeezing chest muscles.",
+        "Return pads to starting position with controlled motion. Keep chest up throughout. Repeat for reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-bent-arm-pec-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-bent-arm-pec-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-bent-arm-pec-fly"
+    },
+    {
+      "id": 72867197876792,
+      "name": "Machine Plate Loaded Low Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-low-incline-bench-press"
+    },
+    {
+      "id": 173830970466912,
+      "name": "Machine Plate Loaded Decline Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-decline-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-decline-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-decline-chest-press"
+    },
+    {
+      "id": 81394681703882,
+      "name": "Machine Plate Loaded Incline Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-incline-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-incline-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-incline-chest-press"
+    }
+  ]
+}

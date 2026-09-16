@@ -1,0 +1,128 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 90043358506972,
+      "name": "Kettlebell Rear Delt Row",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart, holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Lift the kettlebell upwards towards your upper chest and then lower the kettlebell- repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-rear-delt-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-rear-delt-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-rear-delt-row"
+    },
+    {
+      "id": 247614384271140,
+      "name": "Kettlebell Single Arm Rear Delt Fly",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+        "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+        "Bring one arm behind you and rest this arm on your back. With the other arm, hold the kettlebell at arms length close to the floor.",
+        "Swing the kettlebell out and up towards the side of your body and then return to centre. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-rear-delt-fly-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-rear-delt-fly-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-rear-delt-fly"
+    },
+    {
+      "id": 47031215782274,
+      "name": "Kettlebell Rear Delt Row (Double)",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet hip-width apart, kettlebell in each hand, hinge at hips.",
+        "Pull kettlebells while flaring your elbows, squeezing shoulder blades. Keep back flat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-rear-delt-row-side_8lh6HT6.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-rear-delt-row-front_t7u0Mf0.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-rear-delt-row-double"
+    },
+    {
+      "id": 113160443347383,
+      "name": "Kettlebell Single Arm Rear Delt Row",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hinge at hips with back flat, holding kettlebell under shoulder.",
+        "Pull elbow out and back at a wide angle, targeting rear delt.",
+        "Squeeze at the top, then lower slowly to full stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-rear-delt-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-rear-delt-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-rear-delt-row"
+    }
+  ]
+}

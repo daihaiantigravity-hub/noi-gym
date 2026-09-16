@@ -1,0 +1,130 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 214944847984726,
+      "name": "Smith Machine Guillotine Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward.",
+        "Slowly lower the bar to your chest, keeping your elbows flared out.",
+        "Once you feel a stretch in your chest press the weight back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-guillotine-bench-press"
+    },
+    {
+      "id": 251291704496218,
+      "name": "Smith Machine Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-bench-press"
+    },
+    {
+      "id": 157369389002576,
+      "name": "Smith Machine Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-incline-bench-press"
+    },
+    {
+      "id": 166281361630155,
+      "name": "Smith Machine Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place hands on the bar, in push-up position.",
+        "Lower yourself to the bar, maintaining proper form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-pushup"
+    }
+  ]
+}

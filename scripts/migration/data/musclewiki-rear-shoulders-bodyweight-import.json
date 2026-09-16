@@ -1,0 +1,96 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 133337594493270,
+      "name": "Backward Arm Circle",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold your arms out to your sides.",
+        "Rotate your arms backwards in small circles."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-backward-arm-circle-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-backward-arm-circle-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/backward-arm-circle"
+    },
+    {
+      "id": 108335733808371,
+      "name": "Forward Arm Circle",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold your arms out to your sides.",
+        "Rotate your arms forward in small circles."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-arm-circle-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-arm-circle-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forward-arm-circle"
+    },
+    {
+      "id": 50524741085640,
+      "name": "Ring Rear Delt Fly",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing rings and grab the handles.",
+        "Step forward so that your body is in a plank position, with your arms straight and your body in a straight line from your head to your heels.",
+        "Keeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a \"T\" shape."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-rear-delt-fly-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-rear-delt-fly-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/ring-rear-delt-fly"
+    }
+  ]
+}

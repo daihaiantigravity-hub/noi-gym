@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/smith-machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/smith-machine",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/smith-machine/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Smith Machine Drag Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-drag-curl",
+      "cardText": "Smith Machine Drag Curl\nBeginner\n1\nGrab the bar with an underhand grip.\n2\nPull your elbows straight back and let the bar drag against your upper body (or very close to it).",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-drag-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Underhand Row",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-underhand-row",
+      "cardText": "Smith Machine Underhand Row\nNovice\n1\nBegin by standing in front of a bar with your feet about hip-width apart.\n2\nBend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins.\n3\nKeeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest.\n4\nAs the bar reaches your chest, pause briefly, and then lower the bar back to the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-underhand-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Overhand Row",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-overhand-row",
+      "cardText": "Smith Machine Overhand Row\nBeginner\n1\nStart hinged forward with a flat back. Make sure your elbows are fully extended.\n2\nPull the bar to your sternum.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-overhand-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

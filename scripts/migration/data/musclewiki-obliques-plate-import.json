@@ -1,0 +1,161 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 62797738117690,
+      "name": "Plate Reverse Lunge Twist",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Step back with your right foot into a lunge position, both knees bent at",
+        "degrees.",
+        "Twist your torso to the right, keeping the plate close to your chest.",
+        "Push through your front foot to return to the starting position and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-reverse-lunge-twist"
+    },
+    {
+      "id": 96883355164908,
+      "name": "Plate Pinch Grip Side Bend",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand straight with the plate held at your side",
+        "Keep your hips and shoulders facing forward, bend to one side slowly",
+        "Return to the upright position.",
+        "Switch hands and repeat"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-pinch-grip-side-bend-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-pinch-grip-side-bend-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-pinch-grip-side-bend"
+    },
+    {
+      "id": 210307780838743,
+      "name": "Plate Russian Twist",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by sitting on the floor with your knees bent and feet flat on the ground",
+        "Engage your core muscles by pulling your belly button toward your spine.",
+        "Slowly twist your upper body to the right, keeping your feet flat on the ground and your back straight.",
+        "Hold for a second and then twist to the left, holding for another second."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-russian-twist-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-russian-twist-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-russian-twist"
+    },
+    {
+      "id": 175449971712404,
+      "name": "Plate Standing Twist",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with a plate extended away from your body. Elbows mostly extended.",
+        "Rotate at the upper spine while keeping your lumbar spine in a neutral position.",
+        "Do not let the plate go behind your body."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-standing-twist-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-standing-twist-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-standing-twist"
+    },
+    {
+      "id": 16696238490868,
+      "name": "Plate Wood Chopper",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Plate",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with a shoulder width stance. Begin with the plate near one of your quads.",
+        "Rotate at your upper spine to engage the obliques.",
+        "You can pivot your back foot to keep from generating too much torque at the knee."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-woodchopper-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-woodchopper-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/plate-wood-chopper"
+    }
+  ]
+}

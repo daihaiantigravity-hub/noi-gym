@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/band",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/band",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/band/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/biceps/band/3",
+      "found": 4
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/biceps/band/4",
+      "found": 4
+    },
+    {
+      "number": 5,
+      "url": "https://musclewiki.com/exercises/biceps/band/5",
+      "found": 3
+    },
+    {
+      "number": 6,
+      "url": "https://musclewiki.com/exercises/biceps/band/6",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Band Bayesian Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-curl",
+      "cardText": "Band Bayesian Curl\nBeginner\n1\nAttach band to a low anchor point. Point your palms straight forward.\n2\nFlex your elbow until you feel your biceps contract. Then fully extend elbows.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-row",
+      "cardText": "Band Row\nNovice\n1\nStand on your band with both feet.\n2\nHinge forward at the hips while keeping a flat back.\n3\nLet your arms hang freely, then pull your elbows straight back toward the ceiling.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Kneeling Single Arm Pulldown",
+      "sourceUrl": "https://musclewiki.com/exercise/band-kneeling-single-arm-pulldown",
+      "cardText": "Band Kneeling Single Arm Pulldown\nNovice\n1\nPlace the band at about eye level. Fall into a kneeling position.\n2\nThe knee that is on the ground should be the same side as the working arm. Stick your chest out.\n3\nAnd then pull your elbow straight back. Flex your lats and then extend into the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-kneeling-single-arm-pulldown-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-kneeling-single-arm-pulldown-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Bayesian Hammer Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-hammer-curl",
+      "cardText": "Band Bayesian Hammer Curl\nIntermediate\n1\nAttach band to a low anchor point. Use a neutral grip.\n2\nFlex your elbow until you feel your biceps contract. Then fully extend elbows.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-hammer-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-hammer-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Bayesian Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-reverse-curl",
+      "cardText": "Band Bayesian Reverse Curl\nBeginner\n1\nAttach band to a low anchor point. . Point your palms toward your thighs.\n2\nFlex your elbow until you feel your biceps contract. Then fully extend elbows.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-reverse-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bayesian-reverse-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band High Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-high-curl",
+      "cardText": "Band High Curl\nNovice\n1\nAnchor a band to a high point.\n2\nStart with your feet staggered and your elbows high.\n3\nFlex your elbows while keeping your arms high. Curl the band to your forehead.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band High Hammer Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-high-hammer-curl",
+      "cardText": "Band High Hammer Curl\nNovice\n1\nStart with the band anchored to something high with your feet staggered and a neutral grip.\n2\nKeep your elbows high. Curl until your fists are at your forehead.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-hammer-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-hammer-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band High Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-high-reverse-curl",
+      "cardText": "Band High Reverse Curl\nNovice\n1\nStart with a band attached to a high point, your feet staggered, and an overhand grip.\n2\nFlex your elbows pulling your forearms to your biceps. Your fists should land by your forehead.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-reverse-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-high-reverse-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-curl",
+      "cardText": "Band Curl\nNovice\n1\nStand with your feet shoulder-width apart, with the band under both feet.\n2\nGrasp the handles of the band with both hands, keeping your arms straight and extended in front of you.\n3\nKeep your back straight, abs engaged, and shoulders relaxed as you curl your hands towards your shoulders, bending at the elbows.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-curl-front_1YwVVEx.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-curl-side_qegXZDv.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Reverse Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/band-reverse-curl",
+      "cardText": "Band Reverse Curl\nNovice\n1\nStart by standing on the center of the band with both feet, shoulder-width apart.\n2\nHold the band with both hands, palms facing down, arms extended straight in front of you.\n3\nSlowly curl your hands towards your shoulders, pulling the band tight, then lower your arms back to the starting position, keeping tension on the band throughout the exercise.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-reverse-curl-front_iQSuy66.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-band-reverse-curl-side_Cez320W.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Squat Hold Single Arm Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-squat-hold-single-arm-row",
+      "cardText": "Band Squat Hold Single Arm Row\nNovice\n1\nAnchor the band to a stable point and take a half squat position.\n2\nHold the band loop in one hand and pull your elbow straight back.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-single-arm-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Squat Hold Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-squat-hold-row",
+      "cardText": "Band Squat Hold Row\nNovice\n1\nAnchor the band to a stable point.\n2\nTake a half squat position and hold there.\n3\nPerform a row while holding the squat position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-squat-hold-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Pulldown",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-pulldown",
+      "cardText": "Band Single Arm Pulldown\nNovice\n1\nAnchor the band to a high point. Go into a seated position.\n2\nGrab the loop of the band and pull your upper arm to your side.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-pulldown-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-pulldown-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-row",
+      "cardText": "Band Single Arm Row\nNovice\n1\nAnchor band to a stable point.\n2\nStep back until there is no slack in the band and hold the end of the band with one hand.\n3\nPull through the elbow straight back.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Single Arm Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-bent-over-row",
+      "cardText": "Band Single Arm Bent Over Row\nNovice\n1\nStand on band and hinge at hips, holding handle with arm extended.\n2\nPull elbow toward your hip, keeping back flat and shoulders square.\n3\nSqueeze back at the top, then lower slowly to full stretch.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-bent-over-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-single-arm-bent-over-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/band-bent-over-row",
+      "cardText": "Band Bent Over Row\nBeginner\n1\nStand on band with feet hip-width, holding handles with palms facing in.\n2\nHinge at hips, keeping back flat and elbows close to ribs.\n3\nPull handles toward torso, squeeze back, then lower slowly with control.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bent-over-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-bent-over-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Band Pull Around",
+      "sourceUrl": "https://musclewiki.com/exercise/band-pull-around",
+      "cardText": "Band Pull Around\nNovice\n1\nStand sideways to anchor and hold band with arm slightly extended.\n2\nPull arm across your body in a smooth arc without rotating torso.\n3\nSqueeze chest at end range, then return slowly with control.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Bent Over Row",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-bent-over-row",
+      "cardText": "Mini Band Bent Over Row\nNovice\n1\nStand on band, hinge forward with flat back.\n2\nStand on band, hinge forward with flat back.\n3\nLower under control, maintaining core tension.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-over-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-bent-over-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Mini Band Kneeling Row",
+      "sourceUrl": "https://musclewiki.com/exercise/mini-band-kneeling-row",
+      "cardText": "Mini Band Kneeling Row\nNovice\n1\nAnchor band around foot, kneel tall holding ends.\n2\nRow elbow back, squeezing shoulder blades together.\n3\nReturn slowly, maintaining upright torso.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-kneeling-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-kneeling-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 6,
+    "cards": 19,
+    "candidates": 19,
+    "videos": 38
+  }
+}

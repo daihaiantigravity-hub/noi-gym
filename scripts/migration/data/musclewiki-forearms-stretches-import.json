@@ -1,0 +1,134 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 46982575592111,
+      "name": "Forearms Stretch Variation One",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your palm flush against the wall.",
+        "Take one step forward and straighten your arm slowly to extend your bicep.",
+        "Hold at the peak of the stretch.",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forearms-stretch-variation-one"
+    },
+    {
+      "id": 196309960403050,
+      "name": "Forearms Stretch Variation Two",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your hand against a wall, palms facing upward, with finger tips touching.",
+        "Slowly lean into your palm.",
+        "Hold at the peak of the stretch.",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forearms-stretch-variation-two"
+    },
+    {
+      "id": 34958525106676,
+      "name": "Forearms Stretch Variation Three",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your hands together.",
+        "Rotate your arms and hands",
+        "degrees.",
+        "Hold at the peak of the stretch.",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forearms-stretch-variation-three"
+    },
+    {
+      "id": 84460948077646,
+      "name": "Forearms Stretch Variation Four",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Raise your arm to shoulder height at",
+        "degrees to your body.",
+        "Press lightly on your hand and push towards you.",
+        "Rotate the arm across your body.",
+        "Switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-4-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-forearms-stretch-variation-4-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forearms-stretch-variation-four"
+    }
+  ]
+}

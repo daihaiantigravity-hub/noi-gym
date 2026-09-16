@@ -1,0 +1,129 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 41165909858959,
+      "name": "Side Twist Kneeling",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Kneel tall sideways, hands holding straps, arms extended forward.",
+        "Engage core, rotate torso away from anchor.",
+        "Keep hips square and shoulders stacked."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-twist-kneeling-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-side-twist-kneeling-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-side-twist-kneeling"
+    },
+    {
+      "id": 194522352258024,
+      "name": "Star Prep",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Kneel sideways, one hand on bar, feet staggered.",
+        "Push knees outward and raise off hand until at shoulder height."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-star-prep-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-star-prep-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-star-prep"
+    },
+    {
+      "id": 278605913126393,
+      "name": "Back Rowing Preps Roll Down With Obliques",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps at chest height.",
+        "Rotate torso slightly, engaging obliques as you begin rolling back.",
+        "Maintain rotation and bend elbows, keeping shoulders relaxed and spine controlled.",
+        "Roll back up with control, returning to center without losing tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-obliques-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-back-rowing-preps-roll-down-with-obliques-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-preps-roll-down-with-obliques"
+    },
+    {
+      "id": 125193917851060,
+      "name": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle while rotating torso slightly.",
+        "Keep hips stable and movement controlled.",
+        "Return arm and torso to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-rotations-back-rowing-seated-row"
+    }
+  ]
+}

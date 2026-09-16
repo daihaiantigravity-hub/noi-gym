@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps/bodyweight",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/traps/bodyweight",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/traps/bodyweight/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Elevated Pike Press",
+      "sourceUrl": "https://musclewiki.com/exercise/elevated-pike-press",
+      "cardText": "Elevated Pike Press\nIntermediate\n1\nUse a bench or an object to elevate your feet.\n2\nLower your head towards the floor by bending your elbows\n3\nPush through your hands and return to the starting pike position.\n4\nRepeat",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Elevated Pike Shoulder Shrug",
+      "sourceUrl": "https://musclewiki.com/exercise/elevated-pike-shoulder-shrug",
+      "cardText": "Elevated Pike Shoulder Shrug\nIntermediate\n1\nUse a bench or an object like a chair to elevate your feet.\n2\nSlowly lower your body (scapula) while keeping your elbows locked (this is key)\n3\nSlowly raise your body back to the start position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-shoulder-shrug-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-elevated-pike-shoulder-shrug-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Pike Press",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-pike-press",
+      "cardText": "Bodyweight Pike Press\nIntermediate\n1\nStart in a plank position. Push your hips up toward the ceiling.\n2\nLower your head towards the floor by bending your elbows\n3\nPush through your hands and return to the starting pike position.\n4\nRepeat",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Pike Shrug",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-pike-shrug",
+      "cardText": "Bodyweight Pike Shrug\nIntermediate\n1\nStart in a plank position and raise your hips toward the ceiling.\n2\nSlowly lower your body (scapula) while keeping your elbows locked (this is key)\n3\nSlowly raise your body back to the start position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-shrug-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pike-shrug-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

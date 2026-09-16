@@ -1,0 +1,373 @@
+{
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "count": 12,
+  "results": [
+    {
+      "id": 266502207720283,
+      "name": "Machine Leg Extension",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a",
+        "degree angle at the starting position.",
+        "Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-leg-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-leg-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-leg-extension"
+    },
+    {
+      "id": 256118342265539,
+      "name": "Machine Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-leg-press"
+    },
+    {
+      "id": 122004221925765,
+      "name": "Machine Plate Loaded Leg Extension",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a",
+        "degree angle at the starting position.",
+        "Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-leg-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-leg-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-leg-extension"
+    },
+    {
+      "id": 111992486887711,
+      "name": "Machine Belt Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Put the belt around your waist and hook the end of the belt onto the machines.",
+        "Stand up to disengage the holding mechanism. Hold the arms while you squat.",
+        "Once you've completed your set, reset the holding mechanism."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-belt-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-belt-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-belt-squat"
+    },
+    {
+      "id": 23654739996274,
+      "name": "Machine Hack Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself in the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+        "Place feet shoulder-width apart on the platform. Keep your back straight, and slowly lower into a squat position.",
+        "Press through your heels to return to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hack-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hack-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-hack-squat"
+    },
+    {
+      "id": 76929258509028,
+      "name": "Machine Horizontal Sissy Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place your feet at the bottom the platform at shoulder width. Lift your heels up.",
+        "Press against the platform and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-sissy-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-sissy-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-horizontal-sissy-leg-press"
+    },
+    {
+      "id": 178646612794241,
+      "name": "Machine Horizontal Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-horizontal-leg-press"
+    },
+    {
+      "id": 106564661572203,
+      "name": "Machine Pendulum Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself in the pendulum squat machine with your back against the pad and shoulders under the shoulder pads.",
+        "Place feet shoulder-width apart on the platform. Keep your back straight, and slowly lower into a squat position.",
+        "Press through your heels to return to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pendulum-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pendulum-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-pendulum-squat"
+    },
+    {
+      "id": 147049548317454,
+      "name": "Machine Single Leg Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "This particular leg press has two separate foot plates. There are holding pins on both sides. Engage the pin on one side.",
+        "Lower the weight but stop before your lower back begins to round.",
+        "Press back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-single-leg-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-single-leg-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-single-leg-leg-press"
+    },
+    {
+      "id": 275249204321496,
+      "name": "Machine Squat Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-squat-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-squat-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-squat-press"
+    },
+    {
+      "id": 110432636835144,
+      "name": "Horizontal Hack Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself in the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+        "Place feet shoulder-width apart on the platform.",
+        "Press through your heels to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-horizontal-hack-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-horizontal-hack-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/horizontal-hack-squat"
+    },
+    {
+      "id": 50060454815728,
+      "name": "Vertical Leg Press",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the pad and place your feet on the foot plate.",
+        "Lift the plate up and disengage the holding hook.",
+        "Lower the weight. Stop before your lower back rounds off the pad.",
+        "Press the weight back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-vertical-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-vertical-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/vertical-leg-press"
+    }
+  ]
+}

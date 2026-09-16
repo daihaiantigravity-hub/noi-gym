@@ -6,6 +6,13 @@ export type ExerciseGrip = "Mixed" | "Neutral" | "None" | "Overhand" | "Underhan
 export type ExerciseMechanic = "Compound" | "Isolation";
 export type ExerciseGender = "male" | "female";
 export type ExerciseAngle = "front" | "side";
+export type ExerciseTargetMode = "advanced" | "joint";
+
+export type ExerciseTarget = {
+  mode: ExerciseTargetMode;
+  slug: string;
+  label: string;
+};
 
 export type ExerciseMediaValue = {
   gender: ExerciseGender;
@@ -75,6 +82,8 @@ export type ExerciseListFilters = {
   category?: string;
   muscle?: string;
   source?: ExerciseSource | "";
+  targetMode?: ExerciseTargetMode;
+  targetSlug?: string;
 };
 
 export type ExerciseStats = {

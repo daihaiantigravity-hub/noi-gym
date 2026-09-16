@@ -1,0 +1,461 @@
+{
+  "total": 15,
+  "limit": 15,
+  "offset": 0,
+  "count": 15,
+  "results": [
+    {
+      "id": 256118342265539,
+      "name": "Machine Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-leg-press"
+    },
+    {
+      "id": 111992486887711,
+      "name": "Machine Belt Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Put the belt around your waist and hook the end of the belt onto the machines.",
+        "Stand up to disengage the holding mechanism. Hold the arms while you squat.",
+        "Once you've completed your set, reset the holding mechanism."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-belt-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-belt-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-belt-squat"
+    },
+    {
+      "id": 50060454815728,
+      "name": "Vertical Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the pad and place your feet on the foot plate.",
+        "Lift the plate up and disengage the holding hook.",
+        "Lower the weight. Stop before your lower back rounds off the pad.",
+        "Press the weight back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-vertical-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-vertical-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/vertical-leg-press"
+    },
+    {
+      "id": 191041570722401,
+      "name": "Gluteator",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the seat upright with your knees placed on the pads and your feet on the foot pads.",
+        "Push your legs outwards and backwards and flex your glutes."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-gluteator-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-gluteator-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/gluteator"
+    },
+    {
+      "id": 178646612794241,
+      "name": "Machine Horizontal Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-horizontal-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-horizontal-leg-press"
+    },
+    {
+      "id": 177053538626337,
+      "name": "Machine Hip Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust machine settings to fit your height. Sit with back flat against pad, legs together.",
+        "Slowly press legs apart against resistance. Pause at peak.",
+        "Slowly return legs to starting position. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-hip-abduction"
+    },
+    {
+      "id": 35579995846233,
+      "name": "Machine Hip And Glute Abduction",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on the platform and set the pad just over the opposing hip of the working leg.",
+        "Place the working leg over the pad.",
+        "Press your leg outward. Aim to get the longest range of motion possible."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-and-glute-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-and-glute-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-hip-and-glute-abduction"
+    },
+    {
+      "id": 229338810639662,
+      "name": "Machine Hip And Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on the platform and sideways on the machine.",
+        "Place the pad at just above hip height. Place the working leg over the pad.",
+        "Extend the working leg backwards and flex your glute at the end of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-and-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-hip-and-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-hip-and-glute-kickback"
+    },
+    {
+      "id": 215944451190919,
+      "name": "Machine Reverse Hyperextension",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the pad and grab the handles.",
+        "Slip your legs into the belt loop.",
+        "Push your legs back until they are horizontal with the ground.",
+        "Lower back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-reverse-hyperextension"
+    },
+    {
+      "id": 106564661572203,
+      "name": "Machine Pendulum Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself in the pendulum squat machine with your back against the pad and shoulders under the shoulder pads.",
+        "Place feet shoulder-width apart on the platform. Keep your back straight, and slowly lower into a squat position.",
+        "Press through your heels to return to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pendulum-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-pendulum-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-pendulum-squat"
+    },
+    {
+      "id": 147049548317454,
+      "name": "Machine Single Leg Leg Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "This particular leg press has two separate foot plates. There are holding pins on both sides. Engage the pin on one side.",
+        "Lower the weight but stop before your lower back begins to round.",
+        "Press back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-single-leg-leg-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-single-leg-leg-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-single-leg-leg-press"
+    },
+    {
+      "id": 275249204321496,
+      "name": "Machine Squat Press",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place your legs on the platform with your feet at shoulder width.",
+        "Release the weight and extend your legs fully, without locking your knees.",
+        "Lower the weight until your legs are at a 90° angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-squat-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-squat-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-squat-press"
+    },
+    {
+      "id": 124008810391925,
+      "name": "Machine Plate Loaded Hip Thrust",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the machine for your height, sit with your back against the pad, knees bent, feet flat on the platform.",
+        "Brace your core, push through your heels, and extend your hips upwards, lifting the weight while squeezing your glutes.",
+        "Lower the weight slowly back to the starting position, ensuring controlled movement; repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-hip-thrust-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-hip-thrust-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-hip-thrust"
+    },
+    {
+      "id": 110432636835144,
+      "name": "Horizontal Hack Squat",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Position yourself in the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+        "Place feet shoulder-width apart on the platform.",
+        "Press through your heels to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-horizontal-hack-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-horizontal-hack-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/horizontal-hack-squat"
+    },
+    {
+      "id": 63777870792058,
+      "name": "Machine Glute Kickback",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab the handles, place one knee on the pad, and the foot of the working leg on the foot plate.",
+        "Push your working leg back until you feel your glute contract, then return to the starting position without resting the weights."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-glute-kickback"
+    }
+  ]
+}

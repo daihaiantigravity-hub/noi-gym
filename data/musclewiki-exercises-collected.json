@@ -1,0 +1,1854 @@
+{
+  "total": 62,
+  "limit": 62,
+  "offset": 0,
+  "count": 62,
+  "results": [
+    {
+      "id": 203251843849973,
+      "name": "Dumbbell Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "Pull",
+      "grips": "Underhand",
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight with a dumbbell in each hand at arm's length.",
+        "Raise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder.",
+        "Lower to original position and repeat with opposite arm"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-curl"
+    },
+    {
+      "id": 259522102085337,
+      "name": "Dumbbell Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the dumbbells with a neutral grip (thumbs facing the ceiling).",
+        "Slowly lift the dumbbell up to chest height",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hammer-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-hammer-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-hammer-curl"
+    },
+    {
+      "id": 151520829909027,
+      "name": "Dumbbell Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grab the dumbbells with a pronated (overhand) grip. You can do this exercise thumbless if it's more comfortable on your wrists.",
+        "Flex at the elbows until your biceps touch your forearms. Try not to let your elbows flair outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-reverse-curl-front_SOFvEAZ.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-reverse-curl-side_TUoPPM0.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-reverse-curl"
+    },
+    {
+      "id": 121259568792460,
+      "name": "Dumbbell Rear Delt Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hinge forward at the hips while maintaining a flat back. Try to get your torso as close to parallel with the ground as your mobility will allow for.",
+        "Let your arms hang in front of you. Pull your elbows back towards the ceiling while flaring your elbows outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rear-delt-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rear-delt-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-rear-delt-row"
+    },
+    {
+      "id": 147962705640209,
+      "name": "Dumbbell Incline Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the dumbbells with a neutral grip (thumbs facing the ceiling). Seated on an incline bench.",
+        "Slowly lift the dumbbell up to chest height",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-hammer-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-hammer-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-hammer-curl"
+    },
+    {
+      "id": 124172553058200,
+      "name": "Dumbbell Incline Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on an incline bench.",
+        "Grab the dumbbells with a pronated (overhand) grip. You can do this exercise thumbless if it's more comfortable on your wrists.",
+        "Flex at the elbows until your biceps touch your forearms. Try not to let your elbows flair outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-reverse-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-reverse-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-reverse-curl"
+    },
+    {
+      "id": 122278126074221,
+      "name": "Dumbbell Incline Zottman Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay on an incline bench with your palms facing forward.",
+        "Flex at the elbows until your forearms touch your biceps.",
+        "When you hit the top of the movement, rotate your palms and then lower the dumbbells slowly."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-zottman-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-zottman-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-zottman-curl"
+    },
+    {
+      "id": 59242153519109,
+      "name": "Dumbbell Single Arm Preacher Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start with a with a dumbbell in one hand and your elbow resting on the bench.",
+        "From this starting position, curl the dumbbell up towards your shoulder, keeping your upper arm stationary on the bench."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-preacher-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-preacher-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-preacher-curl"
+    },
+    {
+      "id": 160586120608812,
+      "name": "Dumbbell Single Arm Spider Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay on an incline or preacher curl bench.",
+        "Let your arms hang freely off the edge of the bench.",
+        "Fully flex your elbow and fully extend your elbow on each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-spider-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-spider-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-spider-curl"
+    },
+    {
+      "id": 18721940661577,
+      "name": "Dumbbell Spider Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by placing your forearms on a flat bench and holding a dumbbell in each hand.",
+        "From this starting position, curl the dumbbells up towards your shoulders, keeping your elbows close to your body and your core engaged.",
+        "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-spider-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-spider-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-spider-curl"
+    },
+    {
+      "id": 271717753896654,
+      "name": "Dumbbell Twisting Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+        "Bring the dumbbells to your sides, with your palms facing inward and your elbows bent.",
+        "From this starting position, curl the dumbbells up towards your shoulders while rotating your wrists so that your palms face your shoulders at the top of the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-twisting-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-twisting-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-twisting-curl"
+    },
+    {
+      "id": 120921031781183,
+      "name": "Dumbbell Concentration Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on a flat bench with your feet flat on the floor and your back straight.",
+        "Lean forward and place your elbow on the inside of your leg.",
+        "Curl the dumbbell while keeping your elbow against your leg. Make sure to fully extend your elbow on each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-concentration-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-concentration-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-concentration-curl"
+    },
+    {
+      "id": 80373607962256,
+      "name": "Dumbbell Alternating Pendlay Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "The dumbbells should be set on the ground. Hinge forward while keeping a flat back.",
+        "Pull one elbow back toward the ceiling and then return the dumbbell to the ground softly.",
+        "Then pull with the other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-alternating-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-alternating-pendlay-row"
+    },
+    {
+      "id": 217796690837963,
+      "name": "Dumbbell Kneeling Single Arm Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place one hand and one knee on a bench. Make sure you keep a flat back.",
+        "Pull the dumbbell toward the ceiling.",
+        "Make sure to avoid any jerking or rotating."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-kneeling-single-arm-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-kneeling-single-arm-row"
+    },
+    {
+      "id": 164068274444753,
+      "name": "Dumbbell Laying Incline Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on an incline bench that is between 30-45 degrees high.",
+        "Let your arms hang freely. Pull your elbows straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-incline-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-laying-incline-row"
+    },
+    {
+      "id": 244098355925936,
+      "name": "Dumbbell Pendlay Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "The dumbbells should be placed on the floor.",
+        "Hinge forward with a flat back and grab the dumbbells.",
+        "Pull both dumbbells back and your elbows toward the ceiling.",
+        "Return the dumbbells back to the floor softly on each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-pendlay-row"
+    },
+    {
+      "id": 119076791970382,
+      "name": "Dumbbell Single Arm Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by standing in front of a flat bench with your feet shoulder-width apart and holding a dumbbell in one hand.",
+        "Place your other hand on the bench for support, and bend at the waist so that your chest is parallel to the ground.",
+        "From this starting position, row the dumbbell up towards your chest, squeezing your shoulder blade together as you do so.",
+        "Make sure to keep your elbow close to your body and your core engaged throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-row"
+    },
+    {
+      "id": 127465164842496,
+      "name": "Dumbbell Single Arm Row Knee",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by placing your elbow on one knee.",
+        "Hold a dumbbell in your other hand, with your palm facing inwards towards your body.",
+        "From this starting position, row the dumbbell up towards your chest, keeping your elbow close to your body and your core engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-row-knee-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-row-knee"
+    },
+    {
+      "id": 209896244189977,
+      "name": "Lawnmower Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet staggered and one hand on a bench/box. Hold a dumbbell in the opposing hand.",
+        "Hinge forward at the hips, keeping the back flat, and eyes facing forward. The weight should hang directly below the shoulders.",
+        "Start with an overhand grip, as you pull rotate the dumbbell. When your upper arm reaches your side your palm should be facing forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-bench-lawnmower-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lawnmower-row"
+    },
+    {
+      "id": 271564075146781,
+      "name": "Dumbbell Knee Lawnmower Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet staggered and one hand on your knee. Hold a dumbbell in the opposing hand.",
+        "Hinge forward at the hips, keeping the back flat, and eyes facing forward. The weight should hang directly below the shoulders.",
+        "Start with an overhand grip, as you pull rotate the dumbbell. When your upper arm reaches your side your palm should be facing forward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-knee-lawnmower-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-knee-lawnmower-row"
+    },
+    {
+      "id": 85065571006137,
+      "name": "Dumbbell Supinated Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+        "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+        "Let your arms hang freely, maintain an underhand grip, and then pull your elbow joint straight back toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-supinated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-supinated-row"
+    },
+    {
+      "id": 202761256573505,
+      "name": "Dumbbell Preacher Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit at preacher bench, hold dumbbells in each hand with arm extended, palm facing up.",
+        "Curl dumbbells towards shoulder, keeping upper arm stationary and elbows in.",
+        "Lower dumbbell slowly back to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-preacher-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-preacher-curl"
+    },
+    {
+      "id": 74647870610322,
+      "name": "Dumbbell Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold the dumbbells with an underhand grip. Seated on an incline bench.",
+        "Slowly lift the dumbbell up to chest height",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-curl"
+    },
+    {
+      "id": 206555312472321,
+      "name": "Dumbbell Weighted Chin Ups",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grab the bar shoulder width apart with a supinated grip (palms facing you). Use a dip belt and the let the weight hang between your legs.",
+        "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.",
+        "Slowly return to starting position. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-weighted-chin-ups-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-weighted-chin-ups"
+    },
+    {
+      "id": 255603619810534,
+      "name": "Dumbbell Laying Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the dumbbells with an underhand grip. Seated on a bench.",
+        "Start with the dumbbells pointed toward the ceiling, then lower the dumbbells toward your sides.",
+        "Fully extend your elbows, but don't let your upper arm fall behind your torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-laying-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-laying-curl"
+    },
+    {
+      "id": 219192235922453,
+      "name": "Dumbbell Bench Braced Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-flat-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-flat-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-flat-curl"
+    },
+    {
+      "id": 15745955680020,
+      "name": "Dumbbell Bench Braced Hammer Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Take a neutral grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-flat-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-hammer-flat-curl"
+    },
+    {
+      "id": 163723375206417,
+      "name": "Dumbbell Bench Braced Hammer Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips lowered toward the floor.",
+        "Take a neutral grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-hammer-incline-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-hammer-incline-curl"
+    },
+    {
+      "id": 224190081994085,
+      "name": "Dumbbell Bench Braced Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips lowered toward the floor.",
+        "Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-incline-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-incline-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-incline-curl"
+    },
+    {
+      "id": 53405129480120,
+      "name": "Dumbbell Bench Braced Reverse Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Take an overhand grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-flat-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-flat-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-reverse-flat-curl"
+    },
+    {
+      "id": 176518991446298,
+      "name": "Dumbbell Bench Braced Reverse Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips lowered toward the floor.",
+        "Take an overhand grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-incline-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-reverse-incline-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-reverse-incline-curl"
+    },
+    {
+      "id": 60823231271263,
+      "name": "Dumbbell Bench Braced Rolling Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-rolling-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-rolling-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-rolling-curl"
+    },
+    {
+      "id": 192206080506358,
+      "name": "Dumbbell Single Arm Bench Braced Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay off the side of a bench with the back of your working arm pressed into the side of the bench. Keep your hips all the way up.",
+        "Fully extend your elbow and feel a stretch through your bicep, then curl.",
+        "Stop before the dumbbell is pointed at the ceiling to keep tension on your biceps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-flat-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-flat-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-flat-curl"
+    },
+    {
+      "id": 125238618180841,
+      "name": "Dumbbell Single Arm Bench Braced Hammer Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Use a hammer grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-flat-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-flat-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-hammer-flat-curl"
+    },
+    {
+      "id": 234701034119222,
+      "name": "Dumbbell Single Arm Bench Braced Hammer Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips down.",
+        "Take a neutral grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-incline-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-hammer-incline-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-hammer-incline-curl"
+    },
+    {
+      "id": 45467871217329,
+      "name": "Dumbbell Single Arm Bench Braced Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips lowered toward the floor.",
+        "Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-incline-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-incline-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-incline-curl"
+    },
+    {
+      "id": 166701773516222,
+      "name": "Dumbbell Single Arm Bench Braced Reverse Flat Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips pushed toward the ceiling.",
+        "Use an overhand grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-flat-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-flat-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-reverse-flat-curl"
+    },
+    {
+      "id": 86568305493731,
+      "name": "Dumbbell Single Arm Bench Braced Reverse Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay off the side of a bench and place the back off your arms on the edge of your bench. Keep your hips lowered toward the floor.",
+        "Take an overhand grip. Fully extend your elbows and then flex the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-incline-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-bench-braced-reverse-incline-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-braced-reverse-incline-curl"
+    },
+    {
+      "id": 50180237868018,
+      "name": "Dumbbell Drag Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold dumbbells at sides with palms forward and elbows tight to body.",
+        "Curl dumbbells by dragging them along torso, moving elbows behind you.",
+        "Squeeze biceps at top, then lower slowly to start position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-drag-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-drag-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-drag-curl"
+    },
+    {
+      "id": 251108031241083,
+      "name": "Dumbbell Incline Twisting Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on incline bench holding dumbbells at sides, palms facing inward.",
+        "Curl one dumbbell while twisting palm toward shoulder.",
+        "Lower slowly, then repeat with opposite arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-twisting-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-twisting-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-twisting-curl"
+    },
+    {
+      "id": 183351885176520,
+      "name": "Dumbbell Single Arm Incline Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold a dumbbell with an underhand grip. Seated on an incline bench.",
+        "Slowly lift the dumbbell up to chest height",
+        "Return to starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-curl"
+    },
+    {
+      "id": 113856263930207,
+      "name": "Dumbbell Single Arm Incline Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on an incline bench.",
+        "Grab a dumbbell with a pronated (overhand) grip. You can do this exercise thumbless if it's more comfortable on your wrists.",
+        "Flex at the elbows until your bicep touches your forearm. Try not to let your elbow flair outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-reverse-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-reverse-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-reverse-curl"
+    },
+    {
+      "id": 52138395127739,
+      "name": "Dumbbell Single Arm Incline Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on incline bench holding one dumbbell with a neutral grip with arm hanging straight down.",
+        "Curl dumbbell toward shoulder without moving upper arm.",
+        "Squeeze bicep, then lower slowly to full stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-hammer-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-hammer-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-hammer-curl"
+    },
+    {
+      "id": 165628439069455,
+      "name": "Dumbbell Single Arm Incline Twisting Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on incline bench holding dumbbell at side, palm facing inward.",
+        "Curl dumbbell while twisting palm toward shoulder."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-twisting-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-twisting-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-twisting-curl"
+    },
+    {
+      "id": 214916459002514,
+      "name": "Dumbbell Standing Single Arm Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand tall holding one dumbbell at your side, palm facing forward.",
+        "Curl dumbbell toward shoulder, keeping elbow close to your torso.",
+        "Squeeze bicep, then lower slowly to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-curl"
+    },
+    {
+      "id": 15687478304574,
+      "name": "Dumbbell Standing Single Arm Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold dumbbell at side with palm facing inward, elbow tight to body.",
+        "Curl dumbbell upward while maintaining neutral grip throughout.",
+        "Lower under control, keeping tension on biceps and forearm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-hammer-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-hammer-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-hammer-curl"
+    },
+    {
+      "id": 163539370858493,
+      "name": "Dumbbell Standing Single Arm Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold dumbbell with palm facing down and arm straight by your side.",
+        "Curl dumbbell toward shoulder, leading with back of hand.",
+        "Lower slowly to starting position, keeping wrist stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-reverse-curl"
+    },
+    {
+      "id": 150703067547782,
+      "name": "Dumbbell Standing Single Arm Twisting Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold dumbbell with palm facing inward and arm extended fully.",
+        "Curl upward while rotating palm to face shoulder at the top.",
+        "Squeeze bicep, then lower dumbbell, rotating back to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-standing-single-arm-twisting-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-standing-single-arm-twisting-curl"
+    },
+    {
+      "id": 125005080785081,
+      "name": "Dumbbell Zottman Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold dumbbells at sides, palms facing forward, elbows tight to body.",
+        "Curl both dumbbells up, then rotate palms downward at the top.",
+        "Lower slowly with palms facing the floor, controlling the descent."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-zottman-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-zottman-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-zottman-curl"
+    },
+    {
+      "id": 100914114727577,
+      "name": "Dumbbell Seated Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall holding dumbbells at your sides with palms facing forward.",
+        "Curl both dumbbells toward your shoulders, keeping elbows tight to torso.",
+        "Squeeze biceps, then lower slowly to full extension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-curl"
+    },
+    {
+      "id": 255263293315649,
+      "name": "Dumbbell Seated Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall holding dumbbells at your sides with palms facing inward.",
+        "Curl dumbbells toward shoulders while maintaining neutral grip throughout.",
+        "Squeeze biceps, then lower slowly to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-hammer-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-hammer-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-hammer-curl"
+    },
+    {
+      "id": 81983490155553,
+      "name": "Dumbbell Seated Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall holding dumbbells at your sides with palms facing downward.",
+        "Curl dumbbells toward your shoulders, keeping wrists stable and elbows tucked.",
+        "Lower slowly to full extension, maintaining control throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-reverse-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-reverse-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-reverse-curl"
+    },
+    {
+      "id": 88087830376554,
+      "name": "Dumbbell Seated Single Arm Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall holding one dumbbell at your side with palm facing inward.",
+        "Curl dumbbell toward shoulder while keeping elbow tight to your torso.",
+        "Squeeze bicep, then lower slowly to full extension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-hammer-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-hammer-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-hammer-curl"
+    },
+    {
+      "id": 23603882336107,
+      "name": "Dumbbell Seated Single Arm Reverse Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall holding one dumbbell at your side with palm facing downward.",
+        "Curl dumbbell toward shoulder, keeping wrist stable and elbow tucked.",
+        "Lower slowly to full extension while maintaining control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-reverse-curl"
+    },
+    {
+      "id": 85824815960172,
+      "name": "Dumbbell Seated Zottman Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall holding dumbbells at sides with palms facing forward.",
+        "Curl dumbbells up, then rotate palms downward at the top.",
+        "Lower slowly with palms down, controlling the entire descent."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-zottman-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-zottman-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-zottman-curl"
+    },
+    {
+      "id": 238312274304039,
+      "name": "Dumbbell Single Arm Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand or sit tall holding dumbbell at your side with palm facing inward.",
+        "Curl dumbbell toward shoulder while keeping elbow tight to torso.",
+        "Squeeze bicep, then lower slowly to full extension under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-hammer-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-hammer-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-hammer-curl"
+    },
+    {
+      "id": 12709962052512,
+      "name": "Dumbbell Single Arm Pendlay Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet hip-width, hinge forward until torso is nearly parallel to floor.",
+        "Grab dumbbell from floor with straight arm, keeping back flat and core braced.",
+        "Pull elbow straight up to ribs, then lower dumbbell fully back to the floor each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-pendlay-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-pendlay-row"
+    },
+    {
+      "id": 92754277503830,
+      "name": "Dumbbell Single Arm Rear Delt Row",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hinge at hips with back flat, holding dumbbell under shoulder with arm extended.",
+        "Pull elbow out and back at a wide angle, targeting rear delt.",
+        "Squeeze at the top, then lower slowly to full stretch."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-rear-delt-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-rear-delt-row"
+    },
+    {
+      "id": 1154122145693,
+      "name": "Dumbbell Single Arm Seated Hammer Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall holding one dumbbell at your side with palm facing inward.",
+        "Curl dumbbell toward shoulder while keeping elbow tight to your torso.",
+        "Squeeze bicep, then lower slowly to full extension under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-hammer-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-hammer-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-seated-hammer-curl"
+    },
+    {
+      "id": 162892113606884,
+      "name": "Dumbbell Seated Single Arm Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall holding dumbbell at your sides with palm facing forward.",
+        "Curl the dumbbell toward your shoulder, keeping elbow tight to torso.",
+        "Squeeze bicep, then lower slowly to full extension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-curl"
+    },
+    {
+      "id": 146308890270724,
+      "name": "Dumbbell Seated Single Arm Zottman Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit tall holding dumbbell at your side with palm facing forward.",
+        "Curl dumbbell up, then rotate palm downward at the top.",
+        "Lower slowly with palm down, controlling the entire descent."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-zottman-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-single-arm-zottman-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-single-arm-zottman-curl"
+    },
+    {
+      "id": 186974390021422,
+      "name": "Dumbbell Flat Preacher Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start with a with a dumbbell in one hand and your tricep resting on flat bench.",
+        "From this starting position, curl the dumbbell up towards your shoulder, keeping your upper arm stationary on the bench."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-flat-preacher-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-flat-preacher-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-flat-preacher-curl"
+    }
+  ]
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/traps/dumbbells", "found": 4},
+    {"number": 2, "url": "https://musclewiki.com/exercises/traps/dumbbells/2", "found": 2}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-silverback-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-30-degree-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-silverback-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-upright-row"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 2, "cards": 6, "candidates": 6, "videos": 12}
+}

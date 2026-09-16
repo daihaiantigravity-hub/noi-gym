@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bosu Ball Burpee",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-burpee",
+    "difficulty": "Intermediate",
+    "cardText": "Bosu Ball Burpee\nIntermediate\n1\nStand on Bosu with feet shoulder-width apart.\n2\nDrop into squat position and place hands on Bosu.\n3\nJump feet back into plank, perform a pushup, then jump back to squat.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-bosu-ball-burpee-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Bosu Ball Half Burpee",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-half-burpee",
+    "difficulty": "Beginner",
+    "cardText": "Bosu Ball Half Burpee\nBeginner\n1\nStand on Bosu with feet shoulder-width apart.\n2\nDrop into squat position and place hands on Bosu.\n3\nJump feet back to plank, then jump back to squat.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-half-burpee-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Bosu Ball Offset Pushup",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-offset-pushup",
+    "difficulty": "Intermediate",
+    "cardText": "Bosu Ball Offset Pushup\nIntermediate\n1\nPlace one hand on Bosu, other on the floor.\n2\nLower chest to the ground, keeping the body straight.\n3\nPush back up to the starting position.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-offset-pushup-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-offset-pushup-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Bosu Ball Pushup",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-pushup",
+    "difficulty": "Intermediate",
+    "cardText": "Bosu Ball Pushup\nIntermediate\n1\nPlace hands on Bosu, shoulder-width apart.\n2\nLower chest to the ground, keeping the body straight.\n3\nPush back up to the starting position.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pushup-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pushup-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Bosu Ball Walkover Pushup",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-walkover-pushup",
+    "difficulty": "Intermediate",
+    "cardText": "Bosu Ball Walkover Pushup\nIntermediate\n1\nPlace both hands on Bosu, wider than shoulder-width.\n2\nPerform a pushup, then walk hands to the other side.\n3\nPerform another pushup, repeat back and forth.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-walkover-pushup-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-walkover-pushup-front.mp4"
+      }
+    ]
+  }
+]

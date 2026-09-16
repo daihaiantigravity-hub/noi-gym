@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/hamstrings/pilates",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/hamstrings/pilates",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/hamstrings/pilates/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Feet Pulling Straps Hamstring Curls Prone On The Long Box",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box",
+      "cardText": "Feet Pulling Straps Hamstring Curls Prone On The Long Box\nNovice\n1\nLie prone on long box, hips supported, straps around feet.\n2\nStart with legs extended, core engaged, pelvis neutral.\n3\nBend knees, curling heels toward glutes using hamstrings.\n4\nExtend legs slowly, maintaining control and constant strap tension.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-feet-pulling-straps-hamstring-curls-prone-on-the-long-box-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Short Spine",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-short-spine",
+      "cardText": "Pilates Short Spine\nIntermediate\n1\nLie supine, feet in straps, legs extended upward.\n2\nLift hips, rolling spine off carriage.\n3\nBend knees, bringing heels toward glutes overhead.\n4\nRoll down slowly, extending legs to start.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-short-spine-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Scooter",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-scooter",
+      "cardText": "Pilates Scooter\nNovice\n1\nStand beside reformer, one foot on carriage, one stable on floor.\n2\nPress carriage back by extending moving leg.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-scooter-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Pilates Hamtring Curls Prone",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-hamtring-curls-prone",
+      "cardText": "Pilates Hamtring Curls Prone\nNovice\n1\nLie prone, attach straps to ankles, legs extended.\n2\nBend knees, pulling heels toward glutes.\n3\nKeep hips pressed down and core engaged.\n4\nExtend legs slowly back to start.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-hamtring-curls-prone-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-hamtring-curls-prone-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

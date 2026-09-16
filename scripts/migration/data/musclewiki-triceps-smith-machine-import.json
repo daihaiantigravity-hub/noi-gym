@@ -1,0 +1,126 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 230798782108384,
+      "name": "Smith Machine Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a shoulder width grip. Break at the elbows. Try to keep your elbows tucked in. Don't let them flare out.",
+        "Stop the bar a few inches from your forehead and extend your elbows back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-skullcrusher"
+    },
+    {
+      "id": 214944847984726,
+      "name": "Smith Machine Guillotine Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward.",
+        "Slowly lower the bar to your chest, keeping your elbows flared out.",
+        "Once you feel a stretch in your chest press the weight back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-guillotine-bench-press"
+    },
+    {
+      "id": 13881715868606,
+      "name": "Smith Machine Close Grip Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With a narrow grip on the bar, straighten your arms",
+        "Lower the bar to your lower-mid chest",
+        "Slowly raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-close-grip-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-close-grip-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-close-grip-bench-press"
+    },
+    {
+      "id": 152404758609921,
+      "name": "Smith Machine Bodyweight Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Smith Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the smith bar and lean forward.",
+        "Keep your elbows tucked in and then flex and extend at the elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bodyweight-skullcrusher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bodyweight-skullcrusher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/smith-machine-bodyweight-skullcrusher"
+    }
+  ]
+}

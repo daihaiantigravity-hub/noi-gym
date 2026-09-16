@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/front-shoulders/trx",
+      "found": 3
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/front-shoulders/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX I Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-i-raise",
+      "cardText": "TRX I Raise\nBeginner\n1\nStand facing the TRX straps and hold onto the handles with an overhand grip, keeping your arms straight and hands slightly wider than shoulder-width apart.\n2\nKeeping your core engaged, slowly raise your arms forward until they are overhead.\n3\nPause for a moment at the top of the movement, then slowly lower your arms back to the starting position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-I-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-I-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Pushup",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-pushup",
+      "cardText": "TRX Pushup\nBeginner\n1\nStart by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.\n2\nStand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.\n3\nLower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.\n4\nPush your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Y Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-y-raise",
+      "cardText": "TRX Y Raise\nBeginner\n1\nHold the TRX straps and lean away from the anchor point until the straps are taut.\n2\nKeep both elbows mostly extended and raise both arms out and upwards.\n3\nYou should make a Y shape with your arms during the back portion of the exercise.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-y-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-y-raise-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 3,
+    "candidates": 3,
+    "videos": 6
+  }
+}

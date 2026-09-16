@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/smith-machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/front-shoulders/smith-machine",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/front-shoulders/smith-machine/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Smith Machine Upright Row",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-upright-row",
+      "cardText": "Smith Machine Upright Row\nIntermediate\n1\nTake a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.\n3\nlower the bar and repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-upright-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Bench Press",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-bench-press",
+      "cardText": "Smith Machine Bench Press\nNovice\n1\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n2\nLower the bar to your mid chest\n3\nRaise the bar until you've locked your elbows.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Incline Bench Press",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-incline-bench-press",
+      "cardText": "Smith Machine Incline Bench Press\nBeginner\n1\nPosition the bench between 30 and 45 degrees.\n2\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n3\nLower the bar to your mid chest\n4\nRaise the bar (slowly and controlled) until you've locked your elbows.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Seated Overhead Press",
+      "sourceUrl": "https://musclewiki.com/exercise/smith-machine-seated-overhead-press",
+      "cardText": "Smith Machine Seated Overhead Press\nBeginner\n1\nSit on a bench with back support. Raise the bar to shoulder height with your palms forward.\n2\nRaise the bar upwards and pause at the contracted position.\n3\nLower the weight back to starting position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-overhead-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-seated-overhead-press-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 4,
+    "candidates": 4,
+    "videos": 8
+  }
+}

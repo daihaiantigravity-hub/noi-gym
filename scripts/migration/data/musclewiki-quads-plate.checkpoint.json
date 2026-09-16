@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/quads/plate",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/quads/plate",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/quads/plate/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/quads/plate/3",
+      "found": 4
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/quads/plate/4",
+      "found": 4
+    },
+    {
+      "number": 5,
+      "url": "https://musclewiki.com/exercises/quads/plate/5",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Plate Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-squat",
+      "cardText": "Plate Squat\nNovice\n1\nStand with feet shoulder-width apart and hold a weight plate in front of your chest with both hands.\n2\nKeep your back straight, lower your body as if you were sitting back into a chair.\n3\nGo as low as you can while keeping your heels flat on the ground, then push through your heels to return to the starting position.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Squat Reach",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-squat-reach",
+      "cardText": "Plate Squat Reach\nBeginner\n1\nStand holding a weight plate at chest height with both hands.\n2\nLower into a squat, extending the plate in front of you at chest height\n3\nAs you stand back up, pull the plate back into your chest.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-reach-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-reach-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Squat Hold Reach",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-squat-hold-reach",
+      "cardText": "Plate Squat Hold Reach\nIntermediate\n1\nHold the plate with both hands at chest height.\n2\nKeeping your core tight and your chest up, squat down as low as you can go while keeping your feet flat on the ground.\n3\nHold the squat position and reach the plate forward, keeping your arms straight and your back straight.\n4\nReturn the plate to your chest while you hold the squat position and repeat reaching the plate in front of you",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-reach-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-reach-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Curtsy Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-curtsy-lunge",
+      "cardText": "Plate Curtsy Lunge\nIntermediate\n1\nStand with feet shoulder-width apart and the plate in front of the torso.\n2\nStep back and across the body with the right foot, bending both legs to lower into a lunge position.\n3\nPush through the front foot to return to the starting position.\n4\nRepeat on the other side by stepping back and across with the left foot.\n5\nContinue alternating sides for desired reps.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-curtsy-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-curtsy-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Squat Hold Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-squat-hold-curl",
+      "cardText": "Plate Squat Hold Curl\nIntermediate\n1\nLower into a squat position, keeping the plate at chest height.\n2\nSlowly curl the plate towards your shoulders, keeping your elbows close to your body.\n3\nHold for a moment at the top of the curl before lowering the plate back to chest height.\n4\nRepeat the curls as you hold the squat position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Lateral Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-lateral-lunge",
+      "cardText": "Plate Lateral Lunge\nNovice\n1\nStand with feet hip-width apart and the plate held in front of the torso.\n2\nTake a step to the side with one foot, bending the knee and lowering the hips into a lunge.\n3\nPush through the front foot to return to the starting position.\n4\nRepeat on the other side by stepping to the other side with the other foot.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-lateral-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-lateral-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Forward Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-forward-lunge",
+      "cardText": "Plate Forward Lunge\nNovice\n1\nStand with feet hip-width apart and the plate held in front of the torso.\n2\nTake a step forward with one foot, bending the front knee to lower the hips into a lunge.\n3\nPush through the front foot to return to the starting position.\n4\nRepeat on the other side by stepping forward with the other foot.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-forward-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-forward-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Reverse Lunge Twist",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-reverse-lunge-twist",
+      "cardText": "Plate Reverse Lunge Twist\nIntermediate\n1\nStep back with your right foot into a lunge position, both knees bent at 90 degrees.\n2\nTwist your torso to the right, keeping the plate close to your chest.\n3\nPush through your front foot to return to the starting position and repeat on the other side.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-reverse-lunge-twist-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Reverse Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-reverse-lunge",
+      "cardText": "Plate Reverse Lunge\nNovice\n1\nHold the plate at chest height close to your body\n2\nTake a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.\n3\nPush through your right heel to return to standing, bringing your left leg back to starting position.\n4\nRepeat the movement on the other side, stepping backwards with your right leg and lowering your body until your right thigh is parallel to the ground and your left knee is bent at a 90-degree angle.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-reverse-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-reverse-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Overhead Squat",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-overhead-squat",
+      "cardText": "Plate Overhead Squat\nIntermediate\n1\nHold a weight plate at arm's length overhead, with your arms fully extended. The plate should be directly above your head and your elbows should be locked.\n2\nBegin to bend your knees, lowering your body as far as you can while keeping the weight plate overhead. Make sure to keep your back straight and your chest lifted.\n3\nOnce your thighs are parallel to the ground or as low as you can go, pause for a moment.\n4\nPush through your heels to return to a standing position, keeping the weight plate overhead the entire time.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-squat-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-squat-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Deficit Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-deficit-lunge",
+      "cardText": "Plate Deficit Lunge\nAdvanced\n1\nStand on a plate with both feet.\n2\nStep back with one foot to the floor and let your back knee get close to or tap the floor.\n3\nPush through your front leg until both feet are back on the plate.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-deficit-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Overhead Walking Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-overhead-walking-lunge",
+      "cardText": "Plate Overhead Walking Lunge\nIntermediate\n1\nStand tall with a plate overhead.\n2\nStep with one foot forward bringing your back knee to the floor. Gently tap your knee then drive through your front leg.\n3\nGo back to a standing position and then step forward with the opposing legs.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-walking-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-overhead-walking-lunge-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Squat Hold",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-squat-hold",
+      "cardText": "Plate Squat Hold\nNovice\n1\nStart by standing with your feet shoulder-width apart, with a weight plate held in both hands at chest height.\n2\nLower your body by bending your knees and hips, keeping your back straight and your weight in your heels.\n3\nGo down until your thighs are parallel to the floor, then pause for a moment.\n4\nHold the squat position for the desired amount of time, keeping the weight plate steady and your core engaged.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-front_LrtgCLV.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-hold-side_mxmbCnO.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Thruster",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-thruster",
+      "cardText": "Plate Thruster\nIntermediate\n1\nStart with the plate at chest height. Begin a squat.\n2\nMake sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.\n3\nLet the plate return to chest height before initiating the next squat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-thruster-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-plate-squat-thruster-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Weighted Wall Sit",
+      "sourceUrl": "https://musclewiki.com/exercise/weighted-wall-sit",
+      "cardText": "Weighted Wall Sit\nBeginner\n1\nPress your back against a wall, feet shoulder-width apart, holding weights at your sides.\n2\nLower into a squat position, thighs parallel to the floor, knees above ankles.\n3\nHold the position, maintaining tension in your core and legs.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-wall-sit-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-weighted-wall-sit-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Plate Goblet Deficit Reverse Lunge",
+      "sourceUrl": "https://musclewiki.com/exercise/plate-goblet-deficit-reverse-lunge",
+      "cardText": "Plate Goblet Deficit Reverse Lunge\nIntermediate\n1\nStand on a platform, Holding a plate to your chest, feet hip-width apart.\n2\nStep back, lowering knee toward floor, keeping chest upright and core engaged.\n3\nPush through front foot, return to start.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-goblet-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Plate-plate-goblet-deficit-reverse-lunge-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 5,
+    "cards": 16,
+    "candidates": 16,
+    "videos": 32
+  }
+}

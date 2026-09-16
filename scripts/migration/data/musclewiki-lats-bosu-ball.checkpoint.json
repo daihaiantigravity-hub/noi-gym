@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/lats/bosu-ball",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/lats/bosu-ball",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/lats/bosu-ball/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Bosu Ball Pullover",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-pullover",
+      "cardText": "Bosu Ball Pullover\nBeginner\n1\nLie on ground with head and shoulders supported.\n2\nHold a bosu and lower it back over the head.\n3\nBring the bosu back over the chest to complete one rep.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pullover-front_d3yCntO.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-pullover-side_PgRC1Vt.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bosu Ball Row",
+      "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-row",
+      "cardText": "Bosu Ball Row\nBeginner\n1\nHold bosu and hinge forward.\n2\nPull bosu towards chest, squeezing shoulder blades.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-front_vJao3jZ.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-row-side_Pk4xlaf.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/biceps/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/biceps/machine/2","found":4},
+    {"number":3,"url":"https://musclewiki.com/exercises/biceps/machine/3","found":4},
+    {"number":4,"url":"https://musclewiki.com/exercises/biceps/machine/4","found":1}
+  ],
+  "candidates": [
+    {"name":"Machine Seated Cable Row","sourceUrl":"https://musclewiki.com/exercise/machine-seated-cable-row","difficulty":"Novice"},
+    {"name":"Machine Bicep Curl","sourceUrl":"https://musclewiki.com/exercise/machine-bicep-curl","difficulty":"Novice"},
+    {"name":"Machine Seated Plate Loaded Preacher Curl","sourceUrl":"https://musclewiki.com/exercise/machine-seated-plate-loaded-preacher-curl","difficulty":"Novice"},
+    {"name":"Machine Standing Plate Loaded Preacher Curl","sourceUrl":"https://musclewiki.com/exercise/machine-standing-plate-loaded-preacher-curl","difficulty":"Novice"},
+    {"name":"Machine Assisted Pull Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-pull-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Narrow Pull Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-narrow-pull-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Neutral Chin Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-neutral-chin-up","difficulty":"Novice"},
+    {"name":"Machine Assisted Chin Up","sourceUrl":"https://musclewiki.com/exercise/machine-assisted-chin-up","difficulty":"Novice"},
+    {"name":"Machine Underhand Row","sourceUrl":"https://musclewiki.com/exercise/machine-underhand-row","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Pulldown","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-pulldown","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":4,"cards":13,"candidates":10,"videos":20}
+}

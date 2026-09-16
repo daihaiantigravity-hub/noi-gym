@@ -1,0 +1,520 @@
+{
+  "total": 17,
+  "limit": 17,
+  "offset": 0,
+  "count": 17,
+  "results": [
+    {
+      "id": 243690902085558,
+      "name": "Dumbbell Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on the floor or a bench with your fists extended to the ceiling and a neutral grip.",
+        "Break at the elbows until your fists are by your temples. Then extend your elbows and flex your triceps at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-skullcrusher"
+    },
+    {
+      "id": 17870987552370,
+      "name": "Dumbbell Seated Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on the bench and hold a dumbbell with both hands. Raise the dumbbell overhead at arms length, holding the weight up with the palms of your hands.",
+        "Keep your elbows in while you lower the weight behind your head, your upper arms stationary.",
+        "Raise the weight back to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-seated-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-seated-overhead-tricep-extension"
+    },
+    {
+      "id": 97820859497016,
+      "name": "Dumbbell Decline Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by lying on a decline bench with a dumbbell in each hand.",
+        "Hold the dumbbells above your chest with your arms extended and your palms facing each other. This is the starting position.",
+        "Slowly lower the dumbbells towards your forehead by bending your elbows. Keep your upper arms stationary and only move your forearms.",
+        "Once the dumbbells are close to your forehead, reverse the motion by extending your elbows and returning to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-decline-skullcrusher-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-decline-skullcrusher-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-decline-skullcrusher"
+    },
+    {
+      "id": 163892541470805,
+      "name": "Dumbbell Rolling Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on a bench with two dumbbells pointed toward the ceiling.",
+        "Break at the elbows until your forearms touch your biceps, then flex at the shoulder joint bringing your upper arms to the sides of your head.",
+        "Bring your elbows back up until they are pointed at the ceiling, then extend your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rolling-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-rolling-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-rolling-tricep-extension"
+    },
+    {
+      "id": 63566070485321,
+      "name": "Dumbbell Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold a dumbbell overhead.",
+        "Flex at the elbows until the dumbbell is behind your head.",
+        "Then extend your elbows until the dumbbell is back in the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-overhead-tricep-extension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-overhead-tricep-extension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-overhead-tricep-extension"
+    },
+    {
+      "id": 75640503677995,
+      "name": "Dumbbell Tricep Kickback",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by standing with your feet shoulder-width apart and holding a dumbbell in one hand.",
+        "Bend at the waist and place your opposite hand on your knee for support.",
+        "From this starting position, extend your arm backwards so that the dumbbell is behind your body.",
+        "Make sure to keep your elbow close to your body and your core engaged throughout the movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-tricep-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-tricep-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-tricep-kickback"
+    },
+    {
+      "id": 240462139572247,
+      "name": "Dumbbell Single Arm Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall with a single dumbbell extended overhead.",
+        "Flex at the elbow letting the dumbbell travel behind your body.",
+        "Try not to let your elbow flare outward."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-single-arm-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-overhead-tricep-extension"
+    },
+    {
+      "id": 202774376793131,
+      "name": "Dumbbell Tate Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on a bench with two dumbbells extended toward the ceiling.",
+        "Maintain an overhand grip. Flex at the elbows.",
+        "The dumbbells will land on your upper chest/clavicle.",
+        "Extend your elbows bringing the dumbbells back into their starting position.",
+        "*Named after Dave Tate*"
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-tate-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-dumbbell-tate-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-tate-press"
+    },
+    {
+      "id": 125764083481305,
+      "name": "Dumbbell Incline Skullover",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Lay flat on an incline bench with two dumbbells pointed toward the ceiling.",
+        "Break at the elbows until your forearms touch your biceps, then flex at the shoulder joint bringing your upper arms to the sides of your head.",
+        "Bring your elbows back up until they are pointed at the ceiling, then extend your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-skullover-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-skullover-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-skullover"
+    },
+    {
+      "id": 165435977115419,
+      "name": "Dumbbell Bench Braced Single Arm Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay sideways on an incline bench and press the elbow of the working arm into the bench.",
+        "Use your free arm to pull your upper body into the bench.",
+        "Break at the elbow until your elbow is fully flexed, then extend your elbow until the dumbbell is pointed at the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-single-arm-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-bench-braced-single-arm-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-braced-single-arm-overhead-tricep-extension"
+    },
+    {
+      "id": 142343277866596,
+      "name": "Dumbbell Tricep Guillotine Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lay flat on a bench.",
+        "Push your elbows forward until your biceps touch your forearms. Then extend your elbows until back at the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-tricep-guillotine-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-tricep-guillotine-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-tricep-guillotine-press"
+    },
+    {
+      "id": 143460031132012,
+      "name": "Dumbbell High Incline Skullover",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set bench to high incline and hold dumbbells above chest.",
+        "Flex elbows first, then flex the shoulders until a stretch is felt in your triceps.",
+        "Bring your elbows back up until they are pointed at the ceiling, then extend your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-high-incline-skullover-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-high-incline-skullover-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-high-incline-skullover"
+    },
+    {
+      "id": 279816310240105,
+      "name": "Dumbbell Incline Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set bench to incline and hold dumbbells above chest with palms facing in.",
+        "Bend elbows to lower dumbbells toward forehead under control.",
+        "Extend arms fully, squeezing triceps at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-incline-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-incline-skullcrusher"
+    },
+    {
+      "id": 216633032477330,
+      "name": "Dumbbell Single Arm Incline Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Set bench to incline and hold dumbbell above chest with palmsfacing in.",
+        "Bend elbow to lower dumbbell toward forehead under control.",
+        "Extend arm fully, squeezing tricep at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-incline-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-incline-skullcrusher"
+    },
+    {
+      "id": 40336301946895,
+      "name": "Dumbbell Single Arm Seated Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit tall holding dumbbell overhead with one hand, arm fully extended.",
+        "Lower dumbbell behind head by bending elbow slowly.",
+        "Extend arm back up, squeezing triceps at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-seated-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-seated-overhead-tricep-extension"
+    },
+    {
+      "id": 79417795936345,
+      "name": "Dumbbell Single Arm Skullcrusher",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on flat bench holding one dumbbell above shoulder, palm facing in.",
+        "Bend elbow to lower dumbbell beside head without moving upper arm.",
+        "Extend arm fully, contracting triceps at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-skullcrusher-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-skullcrusher-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-skullcrusher"
+    },
+    {
+      "id": 20912794398639,
+      "name": "Dumbbell Single Arm Tricep Guilotine Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench holding dumbbell above upper chest with palm facing in.",
+        "Lower dumbbell toward neck or upper chest by bending elbow forward.",
+        "Extend arm fully, squeezing triceps at the top while keeping shoulder stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-tricep-guilotine-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Dumbbells-dumbbell-single-arm-tricep-guilotine-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-single-arm-tricep-guilotine-press"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/biceps/bodyweight",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/biceps/bodyweight",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/biceps/bodyweight/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/biceps/bodyweight/3",
+      "found": 4
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/biceps/bodyweight/4",
+      "found": 3
+    },
+    {
+      "number": 5,
+      "url": "https://musclewiki.com/exercises/biceps/bodyweight/5",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Chin Ups",
+      "sourceUrl": "https://musclewiki.com/exercise/chin-ups",
+      "cardText": "Chin Ups\nIntermediate\n1\nGrab the bar shoulder width apart with a supinated grip (palms facing you)\n2\nWith your body hanging and arms fully extended, pull yourself up until your chin is past the bar.\n3\nSlowly return to starting position. Repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-chinup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-chinup-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Close Grip Inverted Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-close-grip-inverted-curl",
+      "cardText": "Bodyweight Close Grip Inverted Curl\nNovice\n1\nGrab the bar with a close grip. Feet on the floor.\n2\nBreak at the elbow and curl your body toward the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-close-grip-inverted-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-close-grip-inverted-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Inverted Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-inverted-curl",
+      "cardText": "Bodyweight Inverted Curl\nNovice\n1\nHang from a bar with your feet on the floor.\n2\nBreak at the elbows and curl your body towards the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-inverted-curl-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-inverted-curl-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Concentration Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-concentration-curl",
+      "cardText": "Bodyweight Concentration Curl\nNovice\n1\nPlace your elbow on one knee and your hand underneath the other leg. Keep the leg that's over your hand extended.\n2\nCurl the working arm and use your leg as the resistance.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-concentration-curl-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-concentration-curl-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Assisted Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-assisted-chin-up",
+      "cardText": "Bodyweight Assisted Chin Up\nNovice\n1\nGrasp the chin-up bar with an underhand grip, shoulder-width apart.\n2\nPlace your feet on the ground, legs bent slightly.\n3\nUse your legs to assist as you pull your chin above the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-chin-up-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-chin-up-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Assisted Pull Up",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-assisted-pull-up",
+      "cardText": "Bodyweight Assisted Pull Up\nNovice\n1\nGrasp the chin-up bar with an overhand grip, shoulder-width apart.\n2\nPlace your feet on the ground, legs bent slightly.\n3\nUse your legs to assist as you pull your chin above the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-pull-up-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-pull-up-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ring Twisting Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/ring-twisting-chin-up",
+      "cardText": "Ring Twisting Chin Up\nAdvanced\n1\nGrab the rings shoulder width apart with a pronated grip (palms facing away).\n2\nWith your body hanging and arms fully extended, pull yourself up and rotate your fists until your chin is past the rings.\n3\nSlowly return to starting position. Repeat.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-twisting-chin-up-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-twisting-chin-up-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ring Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/ring-chin-up",
+      "cardText": "Ring Chin Up\nIntermediate\n1\nGrab the rings shoulder width apart with a supinated grip (palms facing you)\n2\nWith your body hanging and arms fully extended, pull yourself up until your chin is past the rings.\n3\nSlowly return to starting position. Repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-chin-up-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-chin-up-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Gironda Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/gironda-chin-up",
+      "cardText": "Gironda Chin Up\nAdvanced\n1\nGrab the bar shoulder width apart with a supinated grip (palms facing you)\n2\nWith your body hanging and arms fully extended, pull yourself up and lean backwards. Try to touch your chest to the bar.\n3\nSlowly return to starting position. Repeat.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-gironda-chin-up-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-gironda-chin-up-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "L Sit Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/l-sit-chin-up",
+      "cardText": "L Sit Chin Up\nIntermediate\n1\nGrab the bar shoulder width apart with a supinated grip (palms facing you)\n2\nWith your body in an \"L\" position and arms fully extended, pull yourself up until your chin is past the bar.\n3\nSlowly return to starting position. Repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-chin-up-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-l-sit-chin-up-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Underhand Inverted Row",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-underhand-inverted-row",
+      "cardText": "Bodyweight Underhand Inverted Row\nBeginner\n1\nLay underneath a fixed horizontal bar and grab the bar with an underhand grip.\n2\nPull your body straight up to the bar.\n3\nReturn to the starting position, your arms fully extended. Repeat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-underhand-inverted-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-underhand-inverted-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Assisted Mixed Grip Pullup",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-assisted-mixed-grip-pullup",
+      "cardText": "Bodyweight Assisted Mixed Grip Pullup\nNovice\n1\nGrasp the chin-up bar with a mixed grip, shoulder-width apart.\n2\nPlace your feet on the ground, legs bent slightly.\n3\nUse your legs to assist as you pull your chin above the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-mixed-grip-pullup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-mixed-grip-pullup-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Bodyweight Assisted Gironda Chin Up",
+      "sourceUrl": "https://musclewiki.com/exercise/bodyweight-assisted-gironda-chin-up",
+      "cardText": "Bodyweight Assisted Gironda Chin Up\nNovice\n1\nGrasp the chin-up bar with an underhand grip, shoulder-width apart.\n2\nPlace your feet on the ground, legs bent slightly.\n3\nUse your legs to assist as you pull your chest to the bar.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-gironda-chin-up-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-gironda-chin-up-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ring Curl",
+      "sourceUrl": "https://musclewiki.com/exercise/ring-curl",
+      "cardText": "Ring Curl\nBeginner\n1\nStand holding gymnastic rings with your arms extended in front of you, palms facing up.\n2\nCurl rings towards shoulders, squeezing biceps.\n3\nSlowly lower rings back to starting position, keeping control. Repeat.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-curl-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-curl-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ring Row",
+      "sourceUrl": "https://musclewiki.com/exercise/ring-row",
+      "cardText": "Ring Row\nNovice\n1\nSet up rings at a high point.\n2\nGrip rings and lean back, arms extended.\n3\nPull chest to rings, keeping body straight.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-ring-row-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 5,
+    "cards": 15,
+    "candidates": 15,
+    "videos": 30
+  }
+}

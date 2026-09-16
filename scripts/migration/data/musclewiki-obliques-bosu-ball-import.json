@@ -1,0 +1,127 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 141012153077392,
+      "name": "Bosu Ball Forearm Sideplank",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on one side, forearm on Bosu, elbow under shoulder.",
+        "Lift hips to create a side plank.",
+        "Hold the side plank position, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-forearm-sideplank-front_Qcp69b4.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-forearm-sideplank-side_nMvKaTZ.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-forearm-sideplank"
+    },
+    {
+      "id": 176638251760111,
+      "name": "Bosu Ball Hand Sideplank",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place hand on Bosu, arm straight, facing sideways.",
+        "Stack feet and lift hips to side plank.",
+        "Hold the side plank position, then switch sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank"
+    },
+    {
+      "id": 63846516254855,
+      "name": "Bosu Ball Hand Sideplank Hip Abduction",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start in a side plank with hand on Bosu.",
+        "Lift the top leg while keeping the body stable.",
+        "Lower the leg back down."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-hip-abduction-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-hand-sideplank-hip-abduction-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank-hip-abduction"
+    },
+    {
+      "id": 179780961633551,
+      "name": "Bosu Ball Wood Chopper",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Bosu Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall holding the bosu.",
+        "Swing bosu diagonally across the body."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-wood-chopper-front_zS8IIYb.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bosu-Ball-wood-chopper-side_x8xY81r.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bosu-ball-wood-chopper"
+    }
+  ]
+}

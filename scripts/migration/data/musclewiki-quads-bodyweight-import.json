@@ -1,0 +1,915 @@
+{
+  "total": 30,
+  "limit": 30,
+  "offset": 0,
+  "count": 30,
+  "results": [
+    {
+      "id": 94137702848114,
+      "name": "Bodyweight Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart.",
+        "flex your knees and hips and sit back into the squat while lowering your body",
+        "Continue down to full depth",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-squat"
+    },
+    {
+      "id": 174773526005482,
+      "name": "Forward Lunges",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Step forward with one leg.",
+        "Lower your body until your rear knee nearly touches the ground.",
+        "Ensure you remain upright, and your front knee stay above the front foot.",
+        "Push off the floor with your front foot until you return to the starting position. Switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-lunges-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-forward-lunges-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/forward-lunges"
+    },
+    {
+      "id": 94681525459409,
+      "name": "Jump Squats",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, then engage your core and jump up explosively.",
+        "When you land, lower your body back into the squat position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-jump-squats-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-jump-squats-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/jump-squats"
+    },
+    {
+      "id": 266785570685297,
+      "name": "Bulgarian Split Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your back to a bench (or raised surface) and place one of your feet on the bench.",
+        "Squat down until your front leg is about parallel to the floor.",
+        "Go back to the starting position. After completing the desired amount of reps, switch legs and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bulgarian-split-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bulgarian-split-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bulgarian-split-squat"
+    },
+    {
+      "id": 191211191585371,
+      "name": "Side Lunges",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Take a slow, lateral step to the right.",
+        "Extend the left knee, and drive your weight into your right side.",
+        "Flex your knee and lower your body.",
+        "Push back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-bodyweight-side-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/side-lunges"
+    },
+    {
+      "id": 274640222734272,
+      "name": "Bodyweight Step Down",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on platform with one foot off edge and torso tall.",
+        "Lower hanging foot toward floor by bending standing knee under control.",
+        "Drive through standing heel to stand tall again without pushing off bottom foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-step-down-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-step-down-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-step-down"
+    },
+    {
+      "id": 247801367674797,
+      "name": "Bodyweight Partial Step Down",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on platform with one foot hanging off edge.",
+        "Lower hanging foot toward floor by bending standing knee slightly.",
+        "Drive through standing heel to return upright under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-partial-step-down-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-partial-step-down-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-partial-step-down"
+    },
+    {
+      "id": 141423578779415,
+      "name": "Bodyweight Curtsy Step Down",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall on platform and cross free leg diagonally behind you.",
+        "Lower body by bending standing knee, keeping hips square.",
+        "Drive through standing heel to return upright with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-step-down-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-step-down-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-curtsy-step-down"
+    },
+    {
+      "id": 100121312801278,
+      "name": "Bodyweight Assisted Sissy Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall holding support for balance, feet shoulder-width apart.",
+        "Lean back while bending knees, keeping body straight from knees up.",
+        "Push through toes and extend knees to return upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-sissy-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-assisted-sissy-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-assisted-sissy-squat"
+    },
+    {
+      "id": 4526561305790,
+      "name": "Stability Ball Wall Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, placing a stability ball between your lower back and wall.",
+        "Slowly squat down by bending knees to",
+        "degrees, keeping back straight and core engaged.",
+        "Press through heels, straighten legs, and return to standing while maintaining balance and control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-wall-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-wall-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-wall-squat"
+    },
+    {
+      "id": 193271984762541,
+      "name": "Stability Ball Sissy Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with feet hip-width apart, stability ball behind your back against a wall.",
+        "Lean back onto the ball, bend knees forward, lowering slowly while keeping hips extended.",
+        "Push through toes, straighten legs, and return to standing while maintaining balance and control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-sissy-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-stability-ball-sissy-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/stability-ball-sissy-squat"
+    },
+    {
+      "id": 222896604904592,
+      "name": "Bodyweight Curtsy Deficit Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping bar stable throughout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-deficit-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-curtsy-deficit-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-curtsy-deficit-lunge"
+    },
+    {
+      "id": 215318497162323,
+      "name": "Bodyweight Quad Stomp",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place your foot on a plate or a low box.",
+        "Put all of your weight on your front foot and lean forward.",
+        "Lower until your calves touch your hamstrings and then extend back up."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-quad-stomp-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-quad-stomp-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-quad-stomp"
+    },
+    {
+      "id": 57501666497493,
+      "name": "Bodyweight Deficit Reverse Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand on a platform, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-deficit-reverse-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-deficit-reverse-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-deficit-reverse-lunge"
+    },
+    {
+      "id": 239316653317334,
+      "name": "Wall Sit",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Press your back against a wall, feet shoulder-width apart.",
+        "Lower into a squat position, thighs parallel to the floor, knees above ankles.",
+        "Hold the position, maintaining tension in your core and legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-wall-sit-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-wall-sit-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/wall-sit"
+    },
+    {
+      "id": 269382828547022,
+      "name": "Bodyweight Single Leg Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand on one leg, extend the other forward for balance.",
+        "Lower into a squat, keeping your chest up and core tight.",
+        "Press through your heel to stand back up, repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-single-leg-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-single-leg-squat"
+    },
+    {
+      "id": 147769176166075,
+      "name": "Bodyweight Kickstand Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet hip-width apart, one foot slightly behind.",
+        "Lower into a squat, keeping weight on front heel.",
+        "Return to standing, engaging glutes and core."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-kickstand-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-kickstand-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-kickstand-squat"
+    },
+    {
+      "id": 181838276853978,
+      "name": "Bodyweight Box Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand in front of a box or bench with your feet shoulder-width apart.",
+        "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up.",
+        "Push through your heels to return to the standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-box-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-box-squat"
+    },
+    {
+      "id": 1706443532177,
+      "name": "Walking Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Take a step forward shifting your weight onto the front leg.",
+        "Bend the knee of the front leg so the knee of the back leg comes close to the ground.",
+        "Stand up and go into lunging with the opposite leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-walking-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-walking-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lunge-walking"
+    },
+    {
+      "id": 176562344535947,
+      "name": "Bodyweight Alternating Forward Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position. Then switch legs."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-alternate-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-lunge-alternate-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lunge-alternate"
+    },
+    {
+      "id": 65065140484801,
+      "name": "Bodyweight Pulse Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Hold a dumbbell in goblet position.",
+        "Squat down to parallel depth and then halfway back up.",
+        "Stay in this short range of motion for the duration of the set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pulse-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-pulse-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pulse-squat"
+    },
+    {
+      "id": 129261613996499,
+      "name": "Bodyweight Swing Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position.",
+        "Step back with the same leg until the back knee taps the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swing-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swing-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-swing-lunge"
+    },
+    {
+      "id": 99507369855125,
+      "name": "Bodyweight Swingthrough Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width.",
+        "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+        "Push off your right foot to return to the starting position.",
+        "Step back with the same leg until the back knee taps the floor."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swingthrough-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-swingthrough-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-swingthrough-lunge"
+    },
+    {
+      "id": 133776912886305,
+      "name": "In And Out Jump Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, then engage your core and jump up explosively.",
+        "Narrow your stance while in the air, and land softly. Go directly into another rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-in-and-out-jump-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-in-and-out-jump-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/in-and-out-jump-squat"
+    },
+    {
+      "id": 19389924243878,
+      "name": "Pole Overhead Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.",
+        "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+        "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+        "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pole-overhead-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pole-overhead-squat"
+    },
+    {
+      "id": 88482520370308,
+      "name": "Bodyweight Pop Squat",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder-width apart.",
+        "Start by doing a regular squat, tap the floor, then engage your core and jump up explosively.",
+        "Bring your feet mostly together, tap your toes back to the floor, then bring your feet back their original width."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pop-squat-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-pop-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-pop-squat"
+    },
+    {
+      "id": 134433394472690,
+      "name": "Bodyweight Alternating Curtsy Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place the barbell on your back",
+        "Step your foot back and around while simultaneously bringing the weight down.",
+        "Return to start and repeat on other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-curtsy-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-curtsy-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-curtsy-lunge"
+    },
+    {
+      "id": 189766369297791,
+      "name": "Bodyweight Alternating Lateral Lunge",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand tall, feet hip-width apart.",
+        "Step right, lunge to side.",
+        "Return, then lunge left."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-lateral-lunge-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-lateral-lunge-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-lateral-lunge"
+    },
+    {
+      "id": 66713391060070,
+      "name": "Bodyweight Alternating Reverse Lunges",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with feet together.",
+        "Step back with right foot.",
+        "Return to starting position, then lunge with left foot."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-reverse-lunges-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Bodyweight-bodyweight-alternating-reverse-lunges-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-reverse-lunges"
+    },
+    {
+      "id": 79117409630790,
+      "name": "Bodyweight Step Up Knee Drive",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin by standing in front of a sturdy box or bench that is about knee-height.",
+        "Place your right foot on the box and push through the heel to lift your body up and onto the box, bring your off leg all the way through until your leg is parallel with the ground.",
+        "Step back down with your right foot, lowering your left foot to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-step-up-knee-drive-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Recovery-step-up-knee-drive-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/step-up-knee-drive"
+    }
+  ]
+}

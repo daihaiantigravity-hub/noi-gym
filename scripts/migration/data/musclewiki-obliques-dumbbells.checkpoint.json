@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/obliques/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/obliques/dumbbells",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/obliques/dumbbells/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/obliques/dumbbells/3",
+      "found": 4
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-russian-twist"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-wood-chopper"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-half-kneeling-wood-chopper"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-kneeling-wood-chopper"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-overhead-side-bend"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-side-plank-up-down"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-hand-side-plank"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-elbow-side-plank"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-long-lever-russian-twist"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-side-bend"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-offset-squat"
+    },
+    {
+      "sourceUrl": "https://musclewiki.com/exercise/dumbbell-feet-down-russian-twist"
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "candidates": 12,
+    "videos": 24
+  }
+}

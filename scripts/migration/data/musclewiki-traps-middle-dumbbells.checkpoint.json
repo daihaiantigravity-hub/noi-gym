@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/traps-middle/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number": 1, "url": "https://musclewiki.com/exercises/traps-middle/dumbbells", "found": 4},
+    {"number": 2, "url": "https://musclewiki.com/exercises/traps-middle/dumbbells/2", "found": 3}
+  ],
+  "candidates": [
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-silverback-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-row-bilateral"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-row-unilateral"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-rear-delt-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-silverback-shrug"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-rear-delt-row"},
+    {"sourceUrl": "https://musclewiki.com/exercise/dumbbell-weighted-pull-ups"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages": 2, "cards": 7, "candidates": 7, "videos": 14}
+}

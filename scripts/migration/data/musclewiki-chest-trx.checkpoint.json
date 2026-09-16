@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/chest/trx",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/chest/trx",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/chest/trx/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TRX Pec Fly",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-pec-fly",
+      "cardText": "TRX Pec Fly\nIntermediate\n1\nStart by adjusting the TRX straps to chest height. Stand facing the TRX with your feet shoulder-width apart.\n2\nGrasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.\n3\nLean forward, keeping your arms extended and your core engaged. Your body should form a slight diagonal line from your ankles to your head.\n4\nSlowly bring your arms towards each other, in front of your chest, while keeping your core engaged and your body in a stable position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-chest-fly-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-chest-fly-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "TRX Pushup",
+      "sourceUrl": "https://musclewiki.com/exercise/trx-pushup",
+      "cardText": "TRX Pushup\nBeginner\n1\nStart by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.\n2\nStand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.\n3\nLower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.\n4\nPush your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-pushup-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

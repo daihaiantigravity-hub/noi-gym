@@ -1,0 +1,129 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 242563744200515,
+      "name": "Hamstrings Stretch Variation One",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie down with your legs reaching up the wall. your bum should be slightly off the floor.",
+        "Bend one leg and leave the other outstretched.",
+        "Push your thigh towards the wall.",
+        "Hold the stretch for a few seconds then return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstrings-stretch-variation-one"
+    },
+    {
+      "id": 200072221445780,
+      "name": "Hamstrings Stretch Variation Two",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with one foot in front of the other.",
+        "Bend your rear leg as much as you can, keeping the front leg straight.",
+        "Hold the stretch for a few seconds then return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstrings-stretch-variation-two"
+    },
+    {
+      "id": 89082699061181,
+      "name": "Hamstrings Stretch Variation Three",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the floor with one leg outstretched and the other bent at the knee, foot resting on the opposite inner thigh.",
+        "Reach forward to touch the toes of the outstretched leg.",
+        "Hold the stretch for a few seconds then return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstrings-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstrings-stretch-variation-three"
+    },
+    {
+      "id": 126182166638870,
+      "name": "Hamstrings Stretch Variation Four",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the floor with your legs out in front of you.",
+        "Reach forward to try and touch your toes. Reach as far forward as you can go.",
+        "Hold the stretch for a few seconds then return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstring-stretch-variation-4-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-hamstring-stretch-variation-4-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/hamstrings-stretch-variation-four"
+    }
+  ]
+}

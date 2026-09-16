@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 63886398594194,
+      "name": "TRX Reverse Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand facing the TRX straps and grasp the handles with both hands, palms facing away from your body.",
+        "Walk back until the straps are taut, keeping your arms straight.",
+        "Slowly curl your hands towards your shoulders, keeping your elbows close to your body."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-reverse-curl"
+    }
+  ]
+}

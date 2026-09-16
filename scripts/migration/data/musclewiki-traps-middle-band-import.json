@@ -1,0 +1,155 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 237409079712813,
+      "name": "Band Pull Apart",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grab the band with a shoulder width grip. Point your arms straight in front of you.",
+        "Retract your shoulder blades and shoulder joint until the band taps your chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-apart-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-apart-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pull-apart"
+    },
+    {
+      "id": 198600380293318,
+      "name": "Band Horizontal Shrug",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band at shoulder height. Take a few steps away until the band is taut.",
+        "Retract your shoulder blades straight back in schools. Then protract to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-horizontal-shrug-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-horizontal-shrug"
+    },
+    {
+      "id": 17256943607077,
+      "name": "Band High Face Pull",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start with a band anchored to a high point. Stagger your stance.",
+        "Pull the band to the bridge of your nose."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-band-face-pull-front_Rw6dM9Q.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-band-face-pull-side_SluSCw4.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-high-face-pull"
+    },
+    {
+      "id": 171076027728335,
+      "name": "Band Rear Delt Fly",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start by standing between the two anchored bands with your feet shoulder-width apart and the bands positioned at a high point.",
+        "Grasp the ends of each band with your hands, keeping your palms facing each other.",
+        "Keeping your arms slightly bent and your back straight, slowly pull the bands away from your body until your arms are extended straight out to the sides. Hold for a second, then slowly release back to the starting position. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rear-delt-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-band-rear-delt-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-rear-delt-fly"
+    },
+    {
+      "id": 101856119427940,
+      "name": "Band Pull Around",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand sideways to anchor and hold band with arm slightly extended.",
+        "Pull arm across your body in a smooth arc without rotating torso.",
+        "Squeeze chest at end range, then return slowly with control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pull-around-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pull-around"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 92423114480971,
+      "name": "TRX Ab Rollout",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+        "Keep your abs engaged, roll forward onto your toes, and extend your arms in front of you.",
+        "Slowly lower your body down to the ground, keeping your arms straight and your abs engaged.",
+        "When your head gets between your arms, pause for a moment and then use your abs to pull your body back up to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-ab-rollout-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-ab-rollout-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-ab-rollout"
+    },
+    {
+      "id": 203042324412172,
+      "name": "TRX Kneeling Ab Rollout",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Begin in a kneeling position with the TRX straps adjusted to mid-calf length.",
+        "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+        "Keep your abs engaged, roll forward onto your toes, and extend your arms in front of you.",
+        "Slowly lower your body down to the ground, keeping your arms straight and your abs engaged."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-kneeling-body-saw-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-kneeling-body-saw-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-kneeling-ab-rollout"
+    },
+    {
+      "id": 272767095532114,
+      "name": "TRX Rotating Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grab the TRX straps and lean away from the anchor point until the strap is taut.",
+        "Start with an overhand grip. Pull your elbows back and rotate your grip.",
+        "By the time your elbows reach your side, your palms should be facing upwards."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rotating-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-rotating-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-rotating-row"
+    },
+    {
+      "id": 132252862656360,
+      "name": "TRX Single Arm row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold the TRX strap with one hand.",
+        "Lean back until the strap is taut. Fully extend your elbow.",
+        "Pull your elbow behind the body. Make sure to avoid twisting. Try to keep your shoulders even."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-single-arm-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-single-arm-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-single-arm-row"
+    }
+  ]
+}

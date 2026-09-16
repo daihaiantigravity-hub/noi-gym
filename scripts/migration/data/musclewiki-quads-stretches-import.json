@@ -1,0 +1,129 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 53941919131885,
+      "name": "Quads Stretch Variation One",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand perpendicular to a wall, using one arm against the wall for balance. With your other arm, grab the top of your foot.",
+        "Pull your leg upwards and back to engage your quads, pausing at the apex of the stretch for a few seconds.",
+        "Return to starting position and repeat with your other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/quads-stretch-variation-one"
+    },
+    {
+      "id": 55053628597646,
+      "name": "Quads Stretch Variation Two",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place one foot flat on the ground in front of you at a",
+        "degree angle. With your other leg, balance upon your knee, placing the tip of your foot against the wall behind you for balance.",
+        "Place your hands on your knee in front of you, and lean forward so that your knee extends over your foot.",
+        "Pause at the apex of the stretch, and slowly return to starting position. Repeat with your other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/quads-stretch-variation-two"
+    },
+    {
+      "id": 155230660536878,
+      "name": "Quads Stretch Variation Three",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on your belly, with both hands reach back and grab the tops of your feet.",
+        "Keeping your upper legs flat on the ground, pull both of your feet towards your buttocks.",
+        "Pause at the apex of the stretch, then return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/quads-stretch-variation-three"
+    },
+    {
+      "id": 60235059483404,
+      "name": "Quads Stretch Variation Four",
+      "primary_muscles": [
+        "Quads"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on your belly. Extend one arm out in front of you, placing your palm on the floor. With your other arm, grab the top of your foot.",
+        "Keeping your upper leg flat on the floor, pull your foot towards your buttocks to engage the stretch.",
+        "Pause for a few seconds, and then repeat the stretch with your other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-4-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-quads-stretch-variation-4-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/quads-stretch-variation-four"
+    }
+  ]
+}

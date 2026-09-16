@@ -1,0 +1,310 @@
+{
+  "total": 10,
+  "limit": 10,
+  "offset": 0,
+  "count": 10,
+  "results": [
+    {
+      "id": 215711220842007,
+      "name": "Cable Wrist Extension",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Start with your elbow at a",
+        "degree angle with your palm facing down. Flex and extend at the wrist."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-wrist-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-wrist-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-wrist-extension"
+    },
+    {
+      "id": 104786387944321,
+      "name": "Cable Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Start with your elbow at a 90° angle with your palm facing up. Flex and extend at the wrist."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-wrist-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-wrist-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-wrist-curl"
+    },
+    {
+      "id": 279781953713419,
+      "name": "Cable Single Arm Reverse Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-single-arm-reverse-curl"
+    },
+    {
+      "id": 280490859697687,
+      "name": "Cable Bar Reverse Grip Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use a bar attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face the cable machine.",
+        "Stagger your stance so you have a better base of support. Face your palm down. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-reverse-grip-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-bar-reverse-grip-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-bar-reverse-grip-curl"
+    },
+    {
+      "id": 201059537154999,
+      "name": "Cable Seated Bayesian Reverse Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine and sit on the bench. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-bayesian-reverse-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-seated-bayesian-reverse-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-seated-bayesian-reverse-curl"
+    },
+    {
+      "id": 218147559041372,
+      "name": "Cable Reverse Bayesian Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards. Flex at the elbow and extend."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-bayesian-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-reverse-bayesian-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-reverse-bayesian-curl"
+    },
+    {
+      "id": 91453806709194,
+      "name": "Cable Braced Wrist Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand facing cable, brace forearm on support with palm up holding handle.",
+        "Lower wrist slowly to feel stretch in forearm flexors.",
+        "Curl wrist upward, squeezing forearm at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-braced-wrist-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-braced-wrist-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-braced-wrist-curl"
+    },
+    {
+      "id": 268185180211024,
+      "name": "Cable Braced Wrist Extension",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand facing cable, brace forearm on support with palm down holding handle.",
+        "Lower wrist slowly to feel stretch in top of forearm.",
+        "Extend wrist upward, contracting forearm extensors fully."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-braced-wrist-extension-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-braced-wrist-extension-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-braced-wrist-extension"
+    },
+    {
+      "id": 20550029753826,
+      "name": "Cable High Single Arm Reverse Bayesian Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set at elbow level.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards, and curl."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-bayesian-curl-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-bayesian-curl-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-reverse-bayesian-curl"
+    },
+    {
+      "id": 51670481142432,
+      "name": "Cable High Single Arm Reverse Rolling Curl",
+      "primary_muscles": [
+        "Forearms"
+      ],
+      "category": "Cables",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Use a handle attachment. The cable should be set at elbow level.",
+        "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+        "Face your palm downwards, as you curl hinge forward.",
+        "As you extend your elbow, also extend your hips until you are back in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-rolling-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Cables-cable-high-single-arm-reverse-rolling-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/cable-high-single-arm-reverse-rolling-curl"
+    }
+  ]
+}

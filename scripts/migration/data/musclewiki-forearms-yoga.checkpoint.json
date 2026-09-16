@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/forearms/yoga",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/forearms/yoga",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/forearms/yoga/2",
+      "found": 1
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/forearms/yoga/3",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Table Top Pose Variation 1",
+      "sourceUrl": "https://musclewiki.com/exercise/table-top-pose-variation-1",
+      "cardText": "Table Top Pose Variation 1\nBeginner\n1\nStart in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.\n2\nTurn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.\n3\nKeep your arms straight and your shoulders away from your ears.\n4\nHold the pose for several breaths or as long as is comfortable.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Table Top Pose Variation 2",
+      "sourceUrl": "https://musclewiki.com/exercise/table-top-pose-variation-2",
+      "cardText": "Table Top Pose Variation 2\nBeginner\n1\nStart in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.\n2\nTurn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.\n3\nKeep your arms straight and your shoulders away from your ears.\n4\nHold the pose for several breaths or as long as is comfortable.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-2-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Table Top Pose Variation 3",
+      "sourceUrl": "https://musclewiki.com/exercise/table-top-pose-variation-3",
+      "cardText": "Table Top Pose Variation 3\nBeginner\n1\nCome onto your hands and knees on the mat with your wrists directly under your shoulders and your knees under your hips.\n2\nTurn your palms down and spread your fingers wide, with your fingertips pointing towards your knees.\n3\nPress into your palms and extend your arms fully to lift your shoulders away from your ears.\n4\nHold the pose for a few breaths, and then release by slowly lowering your hands to the mat and coming back to a neutral tabletop position.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-3-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Bharmanasana-Variation-3-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Vajrasana Variation 1",
+      "sourceUrl": "https://musclewiki.com/exercise/vajrasana-variation-1",
+      "cardText": "Vajrasana Variation 1\nBeginner\n1\nBegin in a kneeling position with your knees together and your shins and feet on the floor.\n2\nSit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.\n3\nRelax your shoulders and take deep breaths.\n4\nHold the pose for several breaths or as long as is comfortable.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-vajrasana-variation-1-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-vajrasana-variation-1-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Vajrasana Variation 2",
+      "sourceUrl": "https://musclewiki.com/exercise/vajrasana-Variation-2",
+      "cardText": "Vajrasana Variation 2\nBeginner\n1\nBegin in a kneeling position with your knees together and your shins and feet on the floor.\n2\nSit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.\n3\nRelax your shoulders and take deep breaths.\n4\nHold the pose for several breaths or as long as is comfortable.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-vajrasana-Variation-2-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-vajrasana-Variation-2-side.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 3,
+    "cards": 5,
+    "candidates": 5,
+    "videos": 10
+  }
+}

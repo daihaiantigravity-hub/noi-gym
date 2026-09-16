@@ -1,0 +1,407 @@
+{
+  "total": 13,
+  "limit": 13,
+  "offset": 0,
+  "count": 13,
+  "results": [
+    {
+      "id": 169373646056155,
+      "name": "Barbell Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-bench-press-side_KciuhbB.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-bench-press"
+    },
+    {
+      "id": 40821886447222,
+      "name": "Barbell Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-incline-bench-press"
+    },
+    {
+      "id": 152536249540531,
+      "name": "Barbell Floor Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Un-rack the bar and break at the elbows and shoulders.",
+        "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-floor-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-floor-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-floor-press"
+    },
+    {
+      "id": 169171967335975,
+      "name": "Barbell Decline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on a decline bench with your feet in the pads. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-decline-bench-press"
+    },
+    {
+      "id": 50392453561893,
+      "name": "Barbell Guillotine Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set bench to moderate incline and grip bar slightly wider than shoulders.",
+        "Lower bar toward upper chest or neck, keeping elbows out wide.",
+        "Press bar back up in a straight line over shoulders."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-guillotine-incline-bench-press"
+    },
+    {
+      "id": 174987385793993,
+      "name": "Barbell Guillotine High Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Set bench to high incline and grip bar slightly wider than shoulders.",
+        "Lower bar slowly toward upper chest or neck with elbows flared.",
+        "Press bar upward until arms fully extend without locking elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-high-incline-bench-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-guillotine-high-incline-bench-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-guillotine-high-incline-bench-press"
+    },
+    {
+      "id": 281003743224862,
+      "name": "Barbell Reverse Grip Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar with a reverse grip.",
+        "Lower the bar to your lower chest",
+        "Raise the bar until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-reverse-grip-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-reverse-grip-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-reverse-grip-bench-press"
+    },
+    {
+      "id": 100214159909435,
+      "name": "Barbell High Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+        "Lower the bar to your mid chest",
+        "Raise the bar (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-high-incline-bench-press"
+    },
+    {
+      "id": 16189906001079,
+      "name": "Landmine Single Arm Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Starting lying on your back perpendicularly to the barbell while holding the end of the bar in your hand that is further away from the landmine attachment. Your elbow should be rest on the ground at a",
+        "to",
+        "degree angle from your torso, with your wrist stacked over your elbow.",
+        "Drive the end of the bar upwards, squeezing your chest at the top of the movement. Lower the bar back down until your elbow gently touches the ground.",
+        "Repeat for the desired number of reps on one side before switching sides."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-single-arm-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-single-arm-chest-press"
+    },
+    {
+      "id": 31485199778920,
+      "name": "Landmine Alternating Lunge To Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Stand facing the landmine with feet hip-width apart and holding the end of the landmine barbell with both hands, keeping elbows bent and close to your body.",
+        "Step backward with the right foot, lunge down, and press the landmine away from your chest.",
+        "Push through the left heel to return to the starting position while pulling the landmine back to your chest.",
+        "Repeat on the opposite side, alternating for the desired number of reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-to-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-alternating-lunge-to-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/landmine-alternating-lunge-to-chest-press"
+    },
+    {
+      "id": 1213815766472,
+      "name": "Barbell Spoto Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start on the bench with your shoulder blades pulled back.",
+        "As you initiate the first rep, tuck your elbows slightly until the bar is a few inches off your chest.",
+        "Pause just off your chest for 1-3 seconds. Then press explosively."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-spoto-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-spoto-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-spoto-press"
+    },
+    {
+      "id": 259327348215143,
+      "name": "Barbell Larsen Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start in a bench press position with your legs elevated. Try to keep your knees with a slight bend in them.",
+        "Unrack the bar then initiate the rep.",
+        "Bring the bar to your torso and tap your ribcage before pressing back to the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-larsen-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-larsen-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-larsen-bench-press"
+    },
+    {
+      "id": 97779207140029,
+      "name": "Barbell Hooklying Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Barbell",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Start in a bench press position with your feet planted on the bench and knees bent.",
+        "Grasp the barbell with an overhand grip, positioning your hands slightly wider than shoulder-width apart.",
+        "Lift the barbell off the rack and lower it to your chest, keeping your elbows close to your sides.",
+        "Push the barbell back up to the starting position, fully extending your arms."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-hooklying-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-barbell-hooklying-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-hooklying-bench-press"
+    }
+  ]
+}

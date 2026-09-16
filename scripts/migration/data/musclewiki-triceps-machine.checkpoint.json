@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/triceps/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/triceps/machine","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/triceps/machine/2","found":4},
+    {"number":3,"url":"https://musclewiki.com/exercises/triceps/machine/3","found":2}
+  ],
+  "candidates": [
+    {"name":"Machine Cable V Bar Push Downs","sourceUrl":"https://musclewiki.com/exercise/machine-cable-v-bar-push-downs","difficulty":"Beginner"},
+    {"name":"Machine Dips","sourceUrl":"https://musclewiki.com/exercise/machine-dips","difficulty":"Novice"},
+    {"name":"Machine Tricep Pushdown","sourceUrl":"https://musclewiki.com/exercise/machine-tricep-pushdown","difficulty":"Novice"},
+    {"name":"Machine Overhead Tricep Extension","sourceUrl":"https://musclewiki.com/exercise/machine-overhead-tricep-extension","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Incline Chest Press","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-incline-chest-press","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Decline Chest Press","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-decline-chest-press","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Low Incline Bench Press","sourceUrl":"https://musclewiki.com/exercise/machine-plate-loaded-low-incline-bench-press","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":3,"cards":10,"candidates":7,"videos":14}
+}

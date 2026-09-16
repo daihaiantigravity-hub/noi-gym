@@ -1,0 +1,129 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 102146935454530,
+      "name": "Lower back Stretch Variation One",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the floor with the tops of your feet pointed and flat on the ground. Move your arms out in front of you in the diving position, placing your palms flat against the ground.",
+        "With your arms fully extended, rest your buttocks on the heels of your feet, you can crawl your hands forward to extend the stretch if need be.",
+        "Hold the extended position for a few seconds, and return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lower-back-stretch-variation-one"
+    },
+    {
+      "id": 184283879469673,
+      "name": "Lower back Stretch Variation Two",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on the floor with your arms at either side.",
+        "With one leg, hook one foot under the joint of your other leg.",
+        "Rotate your hips so that your knees are pointing sideways, keeping your hooked leg flat against the floor.",
+        "Pause at the apex of the stretch and repeat with your other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lower-back-stretch-variation-two"
+    },
+    {
+      "id": 245976091633787,
+      "name": "Lower back Stretch Variation Three",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on your back with your arms at either side.",
+        "Raise your knees so that they are pointing straight towards the ceiling. Keeping your legs pressed together, rotate your hips to either side.",
+        "Repeat this motion as necessary."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lower-back-stretch-variation-three"
+    },
+    {
+      "id": 44997606061590,
+      "name": "Lower back Stretch Variation Four",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat against the ground with your knees at an angle and your feet flat against the floor.",
+        "Grab your legs just below the knees, and pull your legs towards your chest.",
+        "Pause at the apex of the stretch, then return to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-4-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-lower-back-stretch-variation-4-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/lower-back-stretch-variation-four"
+    }
+  ]
+}

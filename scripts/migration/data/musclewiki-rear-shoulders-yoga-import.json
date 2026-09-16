@@ -1,0 +1,39 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 49787441462859,
+      "name": "Puppy Pose",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in a tabletop position with your hands and knees on the ground.",
+        "Walk your hands forward as you lower your chest towards the ground.",
+        "Keep your hips over your knees and extend your arms out in front of you.",
+        "Hold for a few breaths and then release."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-puppy-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-puppy-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/puppy-pose"
+    }
+  ]
+}

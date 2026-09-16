@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/abdominals/dumbbells",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {"number":1,"url":"https://musclewiki.com/exercises/abdominals/dumbbells","found":4},
+    {"number":2,"url":"https://musclewiki.com/exercises/abdominals/dumbbells/2","found":4},
+    {"number":3,"url":"https://musclewiki.com/exercises/abdominals/dumbbells/3","found":4}
+  ],
+  "candidates": [
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-russian-twist"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-situp"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-plank-pullthrough"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-hollow-hold"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-crunch"},
+    {"sourceUrl":"https://musclewiki.com/exercise/plank-iytw"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-suitcase-crunch"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-half-kneeling-wood-chopper"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-renegade-row"},
+    {"sourceUrl":"https://musclewiki.com/exercise/pushup-to-renegade-row"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-larsen-press"},
+    {"sourceUrl":"https://musclewiki.com/exercise/dumbbell-single-arm-larsen-press"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":3,"candidates":12,"videos":24}
+}

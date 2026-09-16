@@ -1,0 +1,127 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 175224934643128,
+      "name": "Machine Seated Cable Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit with your back straight on the machine and grip the handles.",
+        "Pull the handles back using your arms. Your legs and torso should be at a 90° angle. Push out your chest.",
+        "Pull the handles towards your body until your hands are beside your abdomen."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-cable-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-seated-cable-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-seated-cable-row"
+    },
+    {
+      "id": 98381821385119,
+      "name": "Narrow Pulldown",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use the Straight Bar attachment.",
+        "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+        "Pull the bar to your clavicle, then raise back up until your arm are extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-narrow-pulldown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-narrow-pulldown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/narrow-pulldown"
+    },
+    {
+      "id": 84429131318232,
+      "name": "Neutral Pulldown",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Use the V Bar attachment.",
+        "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+        "Pull the bar to your clavicle, then raise back up until your arm are extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-neutral-pulldown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-neutral-pulldown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/neutral-pulldown"
+    },
+    {
+      "id": 234312271332878,
+      "name": "Machine Plate Loaded Low Row",
+      "primary_muscles": [
+        "Middle Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Press your chest into the chest pad and grab the horizontal handles with an overhand grip.",
+        "Pull the handles toward you, make sure your elbows stay flared out."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-low-row"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/calves/pilates",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/calves/pilates",
+      "found": 2
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/calves/pilates/2",
+      "found": 0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Footwork Lower And Lift",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-lower-and-lift",
+      "cardText": "Footwork Lower And Lift\nNovice\n1\nLie supine, balls of feet on bar, heels lifted.\n2\nPress bar away, fully extending legs with control.\n3\nLower heels under bar, then lift heels as high as possible.\n4\nBend knees to return, maintaining steady tension and ankle control.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-lower-and-lift-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-footwork-lower-and-lift-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Running Lying On The Back",
+      "sourceUrl": "https://musclewiki.com/exercise/pilates-running-lying-on-the-back",
+      "cardText": "Running Lying On The Back\nNovice\n1\nLie supine with feet on bar, legs fully extended.\n2\nAlternate lowering one heel while the other stays lifted.\n3\nSwitch rhythmically, maintaining stable pelvis and quiet upper body.\n4\nContinue alternating, emphasizing ankle mobility and control.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-running-lying-on-the-back-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-running-lying-on-the-back-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 2,
+    "cards": 2,
+    "candidates": 2,
+    "videos": 4
+  }
+}

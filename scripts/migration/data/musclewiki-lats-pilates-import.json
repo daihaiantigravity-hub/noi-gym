@@ -1,0 +1,381 @@
+{
+  "total": 12,
+  "limit": 12,
+  "offset": 0,
+  "count": 12,
+  "results": [
+    {
+      "id": 1352426819195,
+      "name": "Plow Back Rowing Preps",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit tall with legs extended, arms holding straps forward.",
+        "Begin with arms long, shoulders relaxed and chest open.",
+        "Pull arms down and back in a plow motion, engaging lats.",
+        "Return to start with control, maintaining upright posture and tension."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-plow-back-rowing-preps-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-plow-back-rowing-preps"
+    },
+    {
+      "id": 175053897779925,
+      "name": "Arms Pulling Straps Airplane Prone On The Box",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie prone on the box, chest just off edge, arms holding straps.",
+        "Start with arms down, palms facing in, shoulders set away from ears.",
+        "Lift arms out to a T, squeezing shoulder blades, keeping neck long.",
+        "Lower with control, maintain neutral spine, repeat for smooth controlled reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-airplane-prone-on-the-box-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-airplane-prone-on-the-box-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-arms-pulling-straps-airplane-prone-on-the-box"
+    },
+    {
+      "id": 199320652622624,
+      "name": "Arms Pulling Straps Plow Prone On The Box",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie prone on the box, chest just off edge, arms holding straps overhead.",
+        "Start with arms long, palms down, shoulders depressed and neck neutral.",
+        "Pull arms down toward hips, squeezing lats while keeping torso stable.",
+        "Return slowly to start, maintaining control and continuous tension on straps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-plow-prone-on-the-box-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-arms-pulling-straps-plow-prone-on-the-box-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-arms-pulling-straps-plow-prone-on-the-box"
+    },
+    {
+      "id": 157274939862877,
+      "name": "Backstroke Prep Lying On Box",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie prone on the box, chest supported, arms holding straps forward.",
+        "Start with arms straight, palms facing down, shoulders relaxed.",
+        "Pull arms back in a sweeping motion, engaging upper back.",
+        "Return to start with control, keeping neck long and torso stable."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-backstroke-prep-lying-on-box-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-backstroke-prep-lying-on-box-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-backstroke-prep-lying-on-box"
+    },
+    {
+      "id": 270414613566827,
+      "name": "Midback Series 2",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Novice",
+        "Sit or lie supported, spine long, arms positioned in a t-pose.",
+        "Initiate movement by drawing shoulder blades together and down.",
+        "Move arms down to your sides, keeping neck relaxed and ribs down.",
+        "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-2-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-2-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-2"
+    },
+    {
+      "id": 200993322921583,
+      "name": "Midback Series 3",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Novice",
+        "Sit or lie supported, spine long, arms positioned in a v-pose.",
+        "Initiate movement by drawing shoulder blades together and down.",
+        "Move arms down to your sides, keeping neck relaxed and ribs down.",
+        "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-3-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-3-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-3"
+    },
+    {
+      "id": 74501225854111,
+      "name": "Midback Series 1",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Novice",
+        "Lie supported, spine long, arms straight up toward ceiling.",
+        "Initiate movement by drawing shoulder blades together and down.",
+        "Move arms down towards your side, keeping neck relaxed and ribs down.",
+        "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-1"
+    },
+    {
+      "id": 35877549560529,
+      "name": "Midback Series Circles Outward",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on carriage, legs in tabletop position.",
+        "Start with arms up toward ceiling.",
+        "Bring arms to your sides, then out to a t-pose, then back to start position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-circles-outward-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-circles-outward-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-circles-outward"
+    },
+    {
+      "id": 116506769860671,
+      "name": "Midback Series Circles Inward",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay flat on carriage with arms toward the ceiling.",
+        "Move arms out to a t-pose.",
+        "Pull arms to your side, then raise arms back toward ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-circles-inward-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-midback-series-circles-inward-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-midback-series-circles-inward"
+    },
+    {
+      "id": 125193917851060,
+      "name": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle while rotating torso slightly.",
+        "Keep hips stable and movement controlled.",
+        "Return arm and torso to start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-rotations-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-rotations-back-rowing-seated-row"
+    },
+    {
+      "id": 34324077096519,
+      "name": "Pilates Single Arm Back Rowing Seated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, hold one strap, arm extended forward.",
+        "Pull handle toward torso, squeezing shoulder blade.",
+        "Keep torso stable without rotation.",
+        "Extend arm forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-single-arm-back-rowing-seated-row-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-single-arm-back-rowing-seated-row"
+    },
+    {
+      "id": 11590841068976,
+      "name": "Pilates Back Rowing Seated Row",
+      "primary_muscles": [
+        "Lats"
+      ],
+      "category": "Pilates",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit tall, legs extended, hold straps with arms forward.",
+        "Pull handles toward torso, squeezing shoulder blades together.",
+        "Keep chest lifted and spine neutral throughout.",
+        "Extend arms forward under control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Pilates-pilates-back-rowing-seated-row-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pilates-back-rowing-seated-row"
+    }
+  ]
+}

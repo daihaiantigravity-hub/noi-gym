@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 86355193902184,
+      "name": "Medicine Ball Halo",
+      "primary_muscles": [
+        "Rear Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, hold a medicine ball.",
+        "Circle the ball around your head, maintaining control.",
+        "Complete the desired number of repetitions in both directions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/halo"
+    }
+  ]
+}

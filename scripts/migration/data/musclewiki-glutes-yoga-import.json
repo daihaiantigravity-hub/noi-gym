@@ -1,0 +1,162 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 90440789825269,
+      "name": "Double Pigeon Pose",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the ground with your legs extended in front of you.",
+        "Place a block under your left knee, then bend your right knee and stack it on top of your left ankle.",
+        "Flex both feet and gently press your knees towards the ground, feeling a stretch in your hips.",
+        "Hold the pose for a few breaths, then switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-double-pigeon-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-double-pigeon-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/double-pigeon-pose"
+    },
+    {
+      "id": 26919560009509,
+      "name": "Half Lotus",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on a yoga mat with legs straight in front of you.",
+        "Bend the right knee and place the right foot on top of the left thigh. Allow the right knee to fall towards the floor.",
+        "Bring the left foot onto the right thigh. Keep the spine straight and rest hands on the knees.",
+        "Hold for several breaths and then release."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-lotus-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-lotus-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-lotus"
+    },
+    {
+      "id": 53193558926195,
+      "name": "Pigeon Pose",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Extend your right leg behind you and place your right ankle on top of your left thigh, with your right knee pointing out to the side.",
+        "Sitting up straight, use your hands to gently press down on your right knee while at the same time pulling your left buttock back.",
+        "Hold for 5-10 deep breaths, then release and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pigeon-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pigeon-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pigeon-pose"
+    },
+    {
+      "id": 183274535046910,
+      "name": "Reclining Pigeon Pose",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie down on your back with your knees bent and your feet on the ground.",
+        "Cross your right ankle over your left knee, creating a figure four shape.",
+        "Use your hands to gently pull your left knee towards your chest, feeling a stretch in your right hip.",
+        "Hold the pose for a few breaths, then switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-reclining-pigeon-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-reclining-pigeon-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/reclining-pigeon-pose"
+    },
+    {
+      "id": 153159243593661,
+      "name": "Restful Cow Face Pose Legs",
+      "primary_muscles": [
+        "Glutes"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a seated position with your legs extended in front of you.",
+        "Cross your right leg over your left leg, placing your right foot on the floor beside your left hip.",
+        "Cross your left leg over your right leg, placing your left foot on the floor beside your right hip.",
+        "Relax your arms by your sides or place them on your abdomen and take deep breaths."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-restful-cow-face-pose-legs-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-restful-cow-face-pose-legs-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/restful-cow-face-pose-legs"
+    }
+  ]
+}

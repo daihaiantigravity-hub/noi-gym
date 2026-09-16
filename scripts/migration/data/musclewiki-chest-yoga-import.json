@@ -1,0 +1,227 @@
+{
+  "total": 7,
+  "limit": 7,
+  "offset": 0,
+  "count": 7,
+  "results": [
+    {
+      "id": 53250757419222,
+      "name": "Bow Pose",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on your stomach with your arms at your sides.",
+        "Bend your knees and bring your heels towards your buttocks.",
+        "Reach back with your hands and grab your ankles.",
+        "Inhale and lift your chest off the ground, pulling your legs up and back with your hands.",
+        "Keep your gaze forward and hold the pose for a few breaths before releasing back to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-bow-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-bow-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bow-pose"
+    },
+    {
+      "id": 67519347050699,
+      "name": "Mountain",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand tall with your feet hip-width apart and your arms at your sides.",
+        "Press your feet into the ground and engage your leg muscles.",
+        "Lift your chest and roll your shoulders back and down.",
+        "Take a deep breath in, and as you exhale, release any tension in your body and relax your muscles."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-mountain-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-mountain-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mountain"
+    },
+    {
+      "id": 187432833183417,
+      "name": "Supported Matsyasana Pose",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the floor with your legs stretched out in front of you.",
+        "Place a yoga block behind you, horizontally, at the base of your spine.",
+        "Slowly recline over the block, supporting yourself with your forearms, until your back is resting on the block.",
+        "Relax your arms at your sides, palms facing up, and breathe deeply."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-supported-matsyasana-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-supported-matsyasana-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/supported-matsyasana-pose"
+    },
+    {
+      "id": 89846869788065,
+      "name": "Tree Pose",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+        "Shift your weight onto your left foot and bend your right knee, bringing the sole of your right foot to the inside of your left thigh.",
+        "Bring your hands together in front of your heart, or raise them overhead.",
+        "Hold the pose for a few breaths, then release and repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-tree-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-tree-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/tree-pose"
+    },
+    {
+      "id": 234783497399033,
+      "name": "Warrior One",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+        "Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward.",
+        "Inhale and raise your arms overhead, then exhale and bend your right knee, bringing it directly over your ankle.",
+        "Hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-warrior-one-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-warrior-one-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/warrior-one"
+    },
+    {
+      "id": 176735916993328,
+      "name": "Warrior Two",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+        "Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward.",
+        "Inhale and raise your arms to shoulder height, parallel to the ground, with your palms facing down.",
+        "Exhale and bend your right knee, bringing it directly over your ankle while keeping your left leg straight.",
+        "Look over your right hand and hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-warrior-two-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-warrior-two-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/warrior-two"
+    },
+    {
+      "id": 98886038903982,
+      "name": "Yogi Arm Clock",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand facing a wall with your arms extended and your palms pressing into the wall at shoulder height.",
+        "Slowly begin to walk your feet away from the wall, keeping your arms straight and your hands pressing into the wall.",
+        "Walk until your arms are fully extended and your body is at a 45-degree angle to the ground.",
+        "Repeat From High to Low Angles starting above the shoulder, and ending below the chest."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-yogi-arm-clock-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-yogi-arm-clock-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/yogi-arm-clock"
+    }
+  ]
+}

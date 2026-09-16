@@ -1,0 +1,493 @@
+{
+  "total": 16,
+  "limit": 16,
+  "offset": 0,
+  "count": 16,
+  "results": [
+    {
+      "id": 115137138372837,
+      "name": "Kettlebell Chest Press (Single)",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Laying on the floor with your knees bent and feet firmly on the floor, hold the kettlebell at your chest with both hands.",
+        "Fully extend your arms, raising the kettlebell until your elbows are locked.",
+        "Lower the kettlebell to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-chest-press-front_E1OX9Ah.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-chest-press-side_fpJAzkR.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-chest-press-single"
+    },
+    {
+      "id": 137720977525222,
+      "name": "Kettlebell Single Arm Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Laying on the floor with your knees bent and feet firmly on the floor, leave one arm resting to the side of the body.",
+        "Using the other arm, hold the kettlebell at arms length directly upwards of your shoulder.",
+        "Lower your arm until your upper arm to elbow is resting on the floor.",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-press"
+    },
+    {
+      "id": 272303026893737,
+      "name": "Kettlebell Single Arm Chest Fly",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on the floor with your knees bent and feet firmly on the floor, with your arms to the side of your body.",
+        "Holding a kettlebell in one hand, keeping your arm fully extended with a slight bend in the elbow and your forearms facing upwards, lift the kettlebell above your chest.",
+        "Lower the kettlebell to the starting position and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-chest-fly-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-chest-fly-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-chest-fly"
+    },
+    {
+      "id": 25056863296452,
+      "name": "Kettlebell Walkover Pushup",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Starting in a press up position with feet wide and one hand resting on the kettlebell, complete a full press up, lowering your chest towards the ground while keeping your body straight and returning to the starting position.",
+        "Swap hands on the kettlebell, placing the hand originally on the kettlebell underneath your shoulder, complete another press up.",
+        "Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walkover-pushup-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-walkover-pushup-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-walkover-pushup"
+    },
+    {
+      "id": 227127298149561,
+      "name": "Kettlebell Floor Fly",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie on your back holding kettlebells above chest with slight elbow bend.",
+        "Lower arms out wide until elbows lightly touch the floor.",
+        "Bring kettlebells back together over chest, squeezing pecs at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-floor-fly-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-floor-fly-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-floor-fly"
+    },
+    {
+      "id": 34905365379448,
+      "name": "Kettlebell Single Arm Floor Fly",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lie on your back holding one kettlebell above chest with slight elbow bend.",
+        "Lower arm out wide until elbow lightly touches the floor.",
+        "Bring kettlebell back over chest, squeezing pec at the top."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-floor-fly-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-floor-fly-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-floor-fly"
+    },
+    {
+      "id": 176178269297787,
+      "name": "Kettlebell Single Arm Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Lie on bench holding one kettlebell above chest with arm extended.",
+        "Lower kettlebell toward chest while keeping torso stable.",
+        "Press upward, squeezing chest at the top without twisting."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-chest-press"
+    },
+    {
+      "id": 126352872905253,
+      "name": "Kettlebell Single Arm Incline Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on incline bench holding kettlebell at shoulder with elbow bent.",
+        "Press kettlebell upward and slightly inward until arm fully extends.",
+        "Lower slowly to starting position, keeping torso stable and controlled."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-incline-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-incline-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-incline-chest-press"
+    },
+    {
+      "id": 246352321010384,
+      "name": "Kettlebell Single Arm High Incline Chest Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Sit on high incline bench holding kettlebell at shoulder height.",
+        "Press kettlebell upward and slightly inward until arm fully extends.",
+        "Lower slowly to start position, keeping torso stable and controlled."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-high-incline-chest-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-high-incline-chest-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-high-incline-chest-press"
+    },
+    {
+      "id": 39003208526991,
+      "name": "Kettlebell Larsen Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in a bench press position with your legs elevated. Try to keep your knees with a slight bend in them.",
+        "Lower kettlebells toward chest while keeping legs elevated and torso stable.",
+        "Press upward, squeezing chest at the top without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-larsen-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-larsen-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-larsen-press"
+    },
+    {
+      "id": 261964433761656,
+      "name": "Kettlebell Single Arm Larsen Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench with feet off floor, holding one kettlebell above chest.",
+        "Lower kettlebell toward chest while keeping core tight and legs raised.",
+        "Press upward, squeezing chest at the top without twisting torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-larsen-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-larsen-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-larsen-press"
+    },
+    {
+      "id": 237501859855935,
+      "name": "Kettlebell Incline Guillotine Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Lie on bench, hold kettlebell with both hands over chest.",
+        "Lower kettlebells, elbows flared.",
+        "Press kettlebells upward, fully extending arms. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-guillotine-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-guillotine-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-incline-guillotine-bench-press"
+    },
+    {
+      "id": 124194842831113,
+      "name": "Kettlebell Single Arm Floor Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start flat on your back with a kettlebell extended over you.",
+        "Bring your elbow to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-floor-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-single-arm-floor-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-single-arm-floor-press"
+    },
+    {
+      "id": 161872591925309,
+      "name": "Kettlebell Floor Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start flat on your back with the kettlebells extended over you.",
+        "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-floor-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-floor-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-floor-press"
+    },
+    {
+      "id": 251872070488837,
+      "name": "Kettlebell Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground.",
+        "Lower the kettlebells to your mid chest",
+        "Raise the kettlebells (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-incline-bench-press"
+    },
+    {
+      "id": 41658992398893,
+      "name": "Kettlebell High Incline Bench Press",
+      "primary_muscles": [
+        "Chest"
+      ],
+      "category": "Kettlebells",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Position the bench between",
+        "and",
+        "degrees.",
+        "Lay flat on the bench with your feet on the ground.",
+        "Lower the kettlebells to your mid chest",
+        "Raise the kettlebells (slowly and controlled) until you've locked your elbows."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-high-incline-bench-press-front_SC0RUFk.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Kettlebells-kettlebell-high-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-high-incline-bench-press"
+    }
+  ]
+}

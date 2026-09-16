@@ -1,0 +1,190 @@
+{
+  "total": 6,
+  "limit": 6,
+  "offset": 0,
+  "count": 6,
+  "results": [
+    {
+      "id": 260708778315439,
+      "name": "Glute Ham Raise",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Position yourself on a glute ham raise machine or find a suitable substitute like a stability ball or bench.",
+        "Adjust the equipment to fit your body by setting the footplate at an appropriate height and making sure your feet are securely anchored.",
+        "Begin the movement by slowly lowering your upper body towards the ground while keeping your torso and legs aligned.",
+        "Once you reach the lowest point where your body is parallel to the ground or as far as you can comfortably go, pause briefly.",
+        "Engage your glutes and hamstrings again as you push yourself back up to the starting position, using the strength of your posterior chain muscles."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-glute-ham-raise-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-glute-ham-raise-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/glute-ham-raise"
+    },
+    {
+      "id": 104573440077135,
+      "name": "Machine Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay down on the machine, placing your legs beneath the padded lever. Position your legs so that the padded lever is below your calve muscles.",
+        "Support yourself by grabbing the side handles of the machine, and slowly raise the weight with your legs, toes pointed straight.",
+        "Pause at the apex of the motion, then slowly return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-machine-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-hamstring-curl"
+    },
+    {
+      "id": 85619425534533,
+      "name": "Machine Seated Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the back pad and ankle pad to suit your height.",
+        "Disengage the knee pad and lower it as far as you can.",
+        "Flex your knees against resistance, then extend until you feel a stretch in your hamstrings."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-seated-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-seated-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-seated-hamstring-curl"
+    },
+    {
+      "id": 279243581254608,
+      "name": "Machine Plate Loaded Kneeling Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay down on the machine, placing your working leg beneath the padded lever. Position your leg so that the padded lever is below your calve muscle.",
+        "Support yourself by grabbing the side handles of the machine, and slowly raise the weight with your legs.",
+        "Pause at the apex of the motion, then slowly return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-kneeling-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-kneeling-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-kneeling-hamstring-curl"
+    },
+    {
+      "id": 215944451190919,
+      "name": "Machine Reverse Hyperextension",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Lay on the pad and grab the handles.",
+        "Slip your legs into the belt loop.",
+        "Push your legs back until they are horizontal with the ground.",
+        "Lower back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-reverse-hyperextension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-reverse-hyperextension"
+    },
+    {
+      "id": 234579558644338,
+      "name": "Machine Standing Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Press yourself into the pads and put your calves against the lower pads.",
+        "Flex your knee until you feel a contraction in your hamstring, then lower back to the start."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-standing-hamstring-curl"
+    }
+  ]
+}

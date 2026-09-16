@@ -1,0 +1,38 @@
+{
+  "total": 1,
+  "limit": 1,
+  "offset": 0,
+  "count": 1,
+  "results": [
+    {
+      "id": 224523140561081,
+      "name": "TRX Hamstring Curl",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "TRX",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start by facing the TRX straps and positioning yourself in a push-up position with your hands on the ground and your feet in the TRX foot cradles.",
+        "Keeping your core engaged and body in a straight line, bend your knees and bring your heels towards your glutes.",
+        "Pause for a moment at the top of the movement, then slowly lower your legs back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-hamstring-curl-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-trx-hamstring-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/trx-hamstring-curl"
+    }
+  ]
+}

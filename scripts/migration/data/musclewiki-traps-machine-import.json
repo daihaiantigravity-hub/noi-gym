@@ -1,0 +1,66 @@
+{
+  "total": 2,
+  "limit": 2,
+  "offset": 0,
+  "count": 2,
+  "results": [
+    {
+      "id": 260259663645740,
+      "name": "Machine Seated Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Have a seat on the machine, and grab each handle.",
+        "Pull your shoulder blades straight up toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-seated-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-seated-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-seated-shrug"
+    },
+    {
+      "id": 16494790358925,
+      "name": "Machine Standing Shrug",
+      "primary_muscles": [
+        "Traps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Grab both handles and stand upright. Make sure you keep a flat back while lifting to the starting position.",
+        "Pull your shoulder blades straight up toward the ceiling."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-shrug-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-standing-shrug-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-standing-shrug"
+    }
+  ]
+}

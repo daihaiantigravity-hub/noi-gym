@@ -1,0 +1,491 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/barbell",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell",
+      "found": 4
+    },
+    {
+      "number": 2,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/2",
+      "found": 4
+    },
+    {
+      "number": 3,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/3",
+      "found": 4
+    },
+    {
+      "number": 4,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/4",
+      "found": 4
+    },
+    {
+      "number": 5,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/5",
+      "found": 4
+    },
+    {
+      "number": 6,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/6",
+      "found": 4
+    },
+    {
+      "number": 7,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/7",
+      "found": 4
+    },
+    {
+      "number": 8,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/8",
+      "found": 4
+    },
+    {
+      "number": 9,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/9",
+      "found": 4
+    },
+    {
+      "number": 10,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/10",
+      "found": 4
+    },
+    {
+      "number": 11,
+      "url": "https://musclewiki.com/exercises/front-shoulders/barbell/11",
+      "found": 2
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Barbell Overhead Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-overhead-press",
+      "cardText": "Barbell Overhead Press\nIntermediate\n1\nTake a roughly shoulder width grip. There should be a straight line from your elbow to fist (vertical forearms).\n2\nPull your chin back and press the weight toward the ceiling by extending at the elbow joint and flexing at the shoulder joint.\n3\nPress until your elbows are extended and push your head forward slightly.\n4\nReturn to the start position with control. Pulling your chin back to allow the bar to pass your face safely.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-overhead-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-overhead-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Incline Bench Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-incline-bench-press",
+      "cardText": "Barbell Incline Bench Press\nIntermediate\n1\nPosition the bench between 30 and 45 degrees.\n2\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n3\nLower the bar to your mid chest\n4\nRaise the bar (slowly and controlled) until you've locked your elbows.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-incline-bench-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-incline-bench-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Upright Row",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-upright-row",
+      "cardText": "Barbell Upright Row\nAdvanced\n1\nTake a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-upright-row-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-upright-row-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Front Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-front-raise",
+      "cardText": "Barbell Front Raise\nIntermediate\n1\nStand tall with an overhand grip on the barbell. Raise your arms until your fists are around eye level.\n2\nReturn to the start under control. This exercise is prone to using momentum when you begin to fatigue.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-front-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Decline Bench Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-decline-bench-press",
+      "cardText": "Barbell Decline Bench Press\nIntermediate\n1\nLay flat on a decline bench with your feet in the pads. With straight arms unrack the bar.\n2\nLower the bar to your mid chest\n3\nRaise the bar until you've locked your elbows.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-decline-bench-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ez Bar Front Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/ez-bar-front-raise",
+      "cardText": "Ez Bar Front Raise\nBeginner\n1\nStand tall with an overhand grip on the barbell. Raise your arms until your fists are around eye level.\n2\nReturn to the start under control. This exercise is prone to using momentum when you begin to fatigue.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-front-raise-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-front-raise-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ez Bar Upright Row",
+      "sourceUrl": "https://musclewiki.com/exercise/ez-bar-upright-row",
+      "cardText": "Ez Bar Upright Row\nBeginner\n1\nTake a double overhand roughly shoulder width grip.\n2\nPull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+      "difficulty": "Beginner",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-upright-row-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-upright-row-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ez Bar Overhead Press",
+      "sourceUrl": "https://musclewiki.com/exercise/ez-bar-overhead-press",
+      "cardText": "Ez Bar Overhead Press\nNovice\n1\nTake a roughly shoulder width grip. There should be a straight line from your elbow to fist (vertical forearms).\n2\nPull your chin back and press the weight toward the ceiling by extending at the elbow joint and flexing at the shoulder joint.\n3\nPress until your elbows are extended and push your head forward slightly.\n4\nReturn to the start position with control. Pulling your chin back to allow the bar to pass your face safely.",
+      "difficulty": "Novice",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-overhead-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-overhead-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ez Bar Cuban Press",
+      "sourceUrl": "https://musclewiki.com/exercise/ez-bar-cuban-press",
+      "cardText": "Ez Bar Cuban Press\nIntermediate\n1\nHold EZ bar with overhand grip, elbows bent, bar at upper abdomen.\n2\nRaise elbows to shoulder height while externally rotating forearms upward.\n3\nPress bar overhead once forearms are vertical and aligned.\n4\nReverse motion slowly back to starting position.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-cuban-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-ez-bar-cuban-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Thruster",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-thruster",
+      "cardText": "Barbell Thruster\nIntermediate\n1\nHold the bar in a front rack position.\n2\nPush your hips back and sink into a squat.\n3\nPush through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.\n4\nLet the bar return to the front rack position before starting the next rep.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-thruster-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-thruster-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Behind The Neck Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-behind-the-neck-press",
+      "cardText": "Barbell Behind The Neck Press\nIntermediate\n1\nGrip bar slightly wider than shoulders and rest it across upper traps.\n2\nBrace core, press bar upward until arms are fully extended overhead.\n3\nLower bar slowly behind head under control and repeat.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-neck-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-neck-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Hang Clean And Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-hang-clean-and-press",
+      "cardText": "Barbell Hang Clean And Press\nAdvanced\n1\nHold bar just above knees with slight bend in hips and knees.\n2\nExplosively pull bar to shoulders, catching it in a partial squat.\n3\nStand tall and press bar overhead until arms are fully extended.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-hang-clean-and-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-hang-clean-and-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Clean And Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-clean-and-press",
+      "cardText": "Barbell Clean And Press\nAdvanced\n1\nStand with feet hip-width, grip barbell just outside thighs.\n2\nExplosively extend hips and pull bar to shoulders in one motion.\n3\nPress overhead until arms lock out, then lower bar under control.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-clean-and-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-clean-and-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Snatch",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-snatch",
+      "cardText": "Barbell Snatch\nAdvanced\n1\nStand with feet shoulder-width apart, barbell over midfoot. Grip the bar wide with an overhand grip, chest up, and back straight.\n2\nLift the bar by driving through your legs, keeping it close to your body. Extend your hips and knees while maintaining a straight back.\n3\nExplosively extend your hips, knees, and ankles while shrugging your shoulders. Pull yourself under the bar as it moves upward.\n4\nDrop into a deep squat while locking the bar overhead. Stabilize, then stand up fully to complete the lift.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-snatch-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Clean And Jerk",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-clean-and-jerk",
+      "cardText": "Barbell Clean And Jerk\nAdvanced\n1\nStand with feet hip-width apart, grip the bar just outside your knees. Pull the bar from the floor by driving through your legs, keeping your back straight.\n2\nAs the bar reaches your hips, extend explosively, shrug, and drop under to catch it in a front squat position with elbows high. Stand up tall.\n3\nDip slightly, then drive through your legs to push the bar overhead.\n4\nStabilize the bar overhead, lock arms, then bring feet together before lowering the bar safely.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-clean-and-jerk-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-clean-and-jerk-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Power Snatch",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-power-snatch",
+      "cardText": "Barbell Power Snatch\nIntermediate\n1\nStand with feet hip-width apart, barbell over midfoot. Grip the bar wide (outside shoulders), hook grip recommended.\n2\nKeep chest up, back straight, and drive through heels to lift the bar off the ground, keeping it close to your body.\n3\nAs the bar reaches mid-thigh, explode upwards by extending hips, knees, and ankles, shrugging shoulders and pulling the bar high.\n4\nDrop under the bar slightly, catching it overhead with arms locked out. Stand up fully to complete the lift.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-power-snatch-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-power-snatch-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Split Jerk",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-split-jerk",
+      "cardText": "Barbell Split Jerk\nIntermediate\n1\nStart with the barbell on your shoulders in a front rack position, feet hip-width apart. Slightly bend your knees and dip straight down.\n2\nExplosively extend your legs and push the barbell upward, generating momentum with your legs.\n3\nAs the bar rises, quickly split your legs (one forward, one back) and drop under the bar, locking your arms overhead.\n4\nBring your front foot back, then your back foot forward to a stable standing position with the bar locked overhead.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-split-jerk-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-split-jerk-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Muscle Snatch",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-muscle-snatch",
+      "cardText": "Barbell Muscle Snatch\nIntermediate\n1\nStand with feet hip-width apart, grip the barbell with a wide overhand grip, and keep your back straight and core engaged.\n2\nLift the barbell by explosively extending your hips, knees, and ankles while keeping the bar close to your body.\n3\nAs the bar reaches chest level, rotate your wrists and elbows up and back, transitioning into an overhead press.\n4\nFully extend your arms overhead, stabilize the bar, then lower it back to the starting position with control.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-muscle-snatch-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-muscle-snatch-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Full Front Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-full-front-raise",
+      "cardText": "Barbell Full Front Raise\nIntermediate\n1\nStand tall with an overhand grip on the barbell. Raise your arms until your fists are pointed toward the ceiling.\n2\nReturn to the start under control. This exercise is prone to using momentum when you begin to fatigue.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-full-front-raise-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-full-front-raise-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Bradford Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-bradford-press",
+      "cardText": "Barbell Bradford Press\nIntermediate\n1\nHold a barbell at shoulder height with a pronated grip.\n2\nPress the barbell over your head.\n3\nLower it behind your head, then return to the front. Repeat for desired reps.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-bradford-press-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-bradford-press-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Landmine Snatch",
+      "sourceUrl": "https://musclewiki.com/exercise/landmine-snatch",
+      "cardText": "Landmine Snatch\nIntermediate\n1\nHold the end of the bar in front of you.\n2\nPop your hips, pull your elbows up to the ceiling, and get underneath the bar.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-snatch-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-snatch-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Landmine Split Jerk",
+      "sourceUrl": "https://musclewiki.com/exercise/landmine-split-jerk",
+      "cardText": "Landmine Split Jerk\nAdvanced\n1\nHold the bar over one shoulder. Stand with a shoulder width stance.\n2\nDip at the hips and knees, generate some momentum and press the bar.\n3\nAs you press, split your stance. Bring the leg of the working arm back and the other forward.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-split-jerk-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-split-jerk-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Landmine Thruster",
+      "sourceUrl": "https://musclewiki.com/exercise/landmine-thruster",
+      "cardText": "Landmine Thruster\nIntermediate\n1\nHold the bar with a goblet position.\n2\nPush your hips back and sink into a squat.\n3\nPush through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.\n4\nLet the bar return to the goblet position before starting the next rep.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-thruster-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-landmine-thruster-front.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Behind The Neck Seated Overhead Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-behind-the-neck-seated-overhead-press",
+      "cardText": "Barbell Behind The Neck Seated Overhead Press\nAdvanced\n1\nTake a roughly shoulder width grip. There should be a straight line from your elbow to fist (vertical forearms).\n2\nPush your head foward and press the weight toward the ceiling by extending at the elbow joint and flexing at the shoulder joint.\n3\nPress until your elbows are extended and push your head forward slightly.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-neck-seated-overhead-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-behind-the-neck-seated-overhead-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell High Incline Bench Press",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-high-incline-bench-press",
+      "cardText": "Barbell High Incline Bench Press\nIntermediate\n1\nPosition the bench between 45 and 60 degrees.\n2\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n3\nLower the bar to your mid chest\n4\nRaise the bar (slowly and controlled) until you've locked your elbows.",
+      "difficulty": "Intermediate",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-incline-bench-press-front.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-high-incline-bench-press-side.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Seated Full Front Raise",
+      "sourceUrl": "https://musclewiki.com/exercise/barbell-seated-full-front-raise",
+      "cardText": "Barbell Seated Full Front Raise\nAdvanced\n1\nSit on an incline bench with an overhand grip on the barbell. Raise your arms until your fists are pointed toward the ceiling.\n2\nReturn to the start under control. This exercise is prone to using momentum when you begin to fatigue.",
+      "difficulty": "Advanced",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-seated-full-front-raise-side.mp4"
+        },
+        {
+          "type": "video",
+          "url": "https://musclewiki.com/api-next/videos/male-Barbell-barbell-seated-full-front-raise-front.mp4"
+        }
+      ]
+    }
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {
+    "pages": 11,
+    "cards": 42,
+    "candidates": 26,
+    "videos": 52
+  }
+}

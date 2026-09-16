@@ -1,0 +1,214 @@
+{
+  "total": 7,
+  "limit": 7,
+  "offset": 0,
+  "count": 7,
+  "results": [
+    {
+      "id": 13493678184101,
+      "name": "Machine Cable V Bar Push Downs",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Grip the pulley bar with palms facing down at shoulder width.",
+        "Stand straight with a small forward incline. Keep your upper arms close to your body, and slowly bring the pulley bar down until your arms are fully extended.",
+        "Pause when you are at the contracted position of the motion, then slowly raise the pulley bar back to the starting point."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-push-downs-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-cable-push-downs-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-cable-v-bar-push-downs"
+    },
+    {
+      "id": 268174363113549,
+      "name": "Machine Dips",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine and grab the handles.",
+        "Press the handles down until your elbows are nearly extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-dips-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-dips-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-dips"
+    },
+    {
+      "id": 111995870716039,
+      "name": "Machine Tricep Pushdown",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Sit on the machine and place the back of your upper arm on the bench.",
+        "Extend your elbows until you feel a contraction in your triceps.",
+        "Bring the weight back to the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-tricep-pushdown-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-tricep-pushdown-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-tricep-pushdown"
+    },
+    {
+      "id": 161333065163891,
+      "name": "Machine Overhead Tricep Extension",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the pad to suit your height.",
+        "Grab the v bar (or other attachment) and extend your elbows until they are almost fully extended.",
+        "Flex your elbows and look to feel a stretch at the bottom of each rep."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhead-tricep-extension-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-overhead-tricep-extension-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-overhead-tricep-extension"
+    },
+    {
+      "id": 81394681703882,
+      "name": "Machine Plate Loaded Incline Chest Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-incline-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-incline-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-incline-chest-press"
+    },
+    {
+      "id": 173830970466912,
+      "name": "Machine Plate Loaded Decline Chest Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-decline-chest-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-decline-chest-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-decline-chest-press"
+    },
+    {
+      "id": 72867197876792,
+      "name": "Machine Plate Loaded Low Incline Bench Press",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Machine",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Adjust the seat pad to match your height.",
+        "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-incline-bench-press-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Machine-machine-plate-loaded-low-incline-bench-press-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/machine-plate-loaded-low-incline-bench-press"
+    }
+  ]
+}

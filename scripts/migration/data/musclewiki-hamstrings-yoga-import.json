@@ -1,0 +1,256 @@
+{
+  "total": 8,
+  "limit": 8,
+  "offset": 0,
+  "count": 8,
+  "results": [
+    {
+      "id": 83251393444387,
+      "name": "Half Monkey Pose",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start in a tabletop position with your hands and knees on the floor.",
+        "Step your right foot forward, placing it between your hands.",
+        "Straighten your right leg and flex your toes towards your face, keeping your hands on the floor for support.",
+        "Hold for several breaths, then switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-monkey-pose-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-half-monkey-pose-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/half-monkey-pose"
+    },
+    {
+      "id": 160164460247158,
+      "name": "Seated Forward Bend",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Sit on the floor with your legs extended in front of you.",
+        "Inhale and lengthen your spine, then exhale and fold forward from your hips, keeping your spine long.",
+        "Reach for your feet or ankles, keeping your elbows straight.",
+        "Hold for several breaths, then release."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Paschimottanasana-seated-forward-fall-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-Paschimottanasana-seated-forward-fall-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/seated-forward-bend"
+    },
+    {
+      "id": 26298376724322,
+      "name": "Pyramid Pose Blocks",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in Tadasana (Mountain Pose) with two blocks at the top of your mat.",
+        "Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward.",
+        "Place the blocks on either side of your right foot at a height that allows you to comfortably place your hands on them.",
+        "Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the blocks. Hold for several breaths, then switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-blocks-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-blocks-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pyramid-pose-blocks"
+    },
+    {
+      "id": 235381942562146,
+      "name": "Pyramid Pose",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Begin in Tadasana (Mountain Pose).",
+        "Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward.",
+        "Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the floor on either side of your right foot.",
+        "Hold for several breaths, then switch sides and repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-pyramid-pose-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pyramid-pose"
+    },
+    {
+      "id": 129201260209824,
+      "name": "Standing Forward Bend Blocks",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet hip-width apart and place a block on the ground in front of you.",
+        "Hinge forward at your hips and place your hands on the block.",
+        "Allow your head to hang heavy and feel a stretch in the back of your legs.",
+        "Hold for a few breaths and then slowly roll up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-blocks-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-blocks-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/standing-forward-bend-blocks"
+    },
+    {
+      "id": 222688319868426,
+      "name": "Standing Forward Bend",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with your feet hip-width apart.",
+        "Hinge forward at your hips, reaching your hands towards the ground.",
+        "Allow your head to hang heavy and feel a stretch in the back of your legs.",
+        "Hold for a few breaths and then slowly roll up to a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-standing-forward-bend-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/standing-forward-bend"
+    },
+    {
+      "id": 189923695501260,
+      "name": "Warrior Three",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+        "Step your left foot back about 3-4 feet and raise it off the ground, while keeping your right foot facing forward.",
+        "Inhale and reach your arms forward, parallel to the ground.",
+        "Exhale and hinge forward at your hips, bringing your torso parallel to the ground and extending your left leg straight back. Keep your arms and right leg straight and hold the pose for a few breaths",
+        "inhale and return to mountain pose. Repeat on the other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-warrior-three-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Yoga-warrior-three-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/warrior-three"
+    },
+    {
+      "id": 76547392951327,
+      "name": "Wide Legged Standing Forward Bend Holding Heels",
+      "primary_muscles": [
+        "Hamstrings"
+      ],
+      "category": "Yoga",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start standing at the top of your mat with your feet wide apart.",
+        "Exhale and fold forward from your hips, bringing your hands up and over your head towards the ground.",
+        "Hold for a few breaths and then release the hands and come back up to standing."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-wide-legged-standing-forward-bend-holding-heels-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-yoga-wide-legged-standing-forward-bend-holding-heels-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels"
+    }
+  ]
+}

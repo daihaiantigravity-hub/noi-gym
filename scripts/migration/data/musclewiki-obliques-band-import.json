@@ -1,0 +1,128 @@
+{
+  "total": 4,
+  "limit": 4,
+  "offset": 0,
+  "count": 4,
+  "results": [
+    {
+      "id": 253040662798540,
+      "name": "Band Pallof Press",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Place the band at an anchor point that is shoulder height. Take a few steps away until the band is taut.",
+        "Start with your fingers interlocked around the band and your fists connected to your chest.",
+        "Extend at the elbows pressing the band away from your body until your elbows are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pallof-press-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pallof-press-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pallof-press"
+    },
+    {
+      "id": 9420995003605,
+      "name": "Band Wood Chopper",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Advanced",
+      "steps": [
+        "Anchor band at shoulder height. Stand sideways, feet shoulder-width, slight knee bend.",
+        "Grip band with both hands, arms extended.",
+        "Pull across body, rotating torso."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-wood-chopper-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-wood-chopper-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-wood-chopper"
+    },
+    {
+      "id": 183604695699578,
+      "name": "Band Side Bend",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with band anchored low on one side, holding handle at hip.",
+        "Lean torso away from anchor, keeping hips and legs still.",
+        "Contract obliques to return upright, maintaining smooth control."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-side-bend-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-side-bend-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-side-bend"
+    },
+    {
+      "id": 248003479137955,
+      "name": "Band Pallof Press To Wood Chopper",
+      "primary_muscles": [
+        "Obliques"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand sideways to band, hold handle at chest, and brace your core.",
+        "Press arms straight forward, resisting rotation.",
+        "Rotate torso and pull band across body in a wood chopper motion, then return."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pallof-press-to-wood-chopper-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pallof-press-to-wood-chopper-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pallof-press-to-wood-chopper"
+    }
+  ]
+}

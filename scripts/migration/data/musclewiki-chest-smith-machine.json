@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Smith Machine Guillotine Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-guillotine-bench-press",
+    "difficulty": "Intermediate",
+    "cardText": "Smith Machine Guillotine Bench Press\nIntermediate\n1\nLie on the flat bench, grasp the bar at shoulder level with your palms facing forward.\n2\nSlowly lower the bar to your chest, keeping your elbows flared out.\n3\nOnce you feel a stretch in your chest press the weight back up.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-guillotine-bench-press-side.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-bench-press",
+    "difficulty": "Novice",
+    "cardText": "Smith Machine Bench Press\nNovice\n1\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n2\nLower the bar to your mid chest\n3\nRaise the bar until you've locked your elbows.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-bench-press-front.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Incline Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-incline-bench-press",
+    "difficulty": "Beginner",
+    "cardText": "Smith Machine Incline Bench Press\nBeginner\n1\nPosition the bench between 30 and 45 degrees.\n2\nLay flat on the bench with your feet on the ground. With straight arms unrack the bar.\n3\nLower the bar to your mid chest\n4\nRaise the bar (slowly and controlled) until you've locked your elbows.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-side.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-incline-bench-press-front.mp4"
+      }
+    ]
+  },
+  {
+    "name": "Smith Machine Pushup",
+    "sourceUrl": "https://musclewiki.com/exercise/smith-machine-pushup",
+    "difficulty": "Beginner",
+    "cardText": "Smith Machine Pushup\nBeginner\n1\nPlace hands on the bar, in push-up position.\n2\nLower yourself to the bar, maintaining proper form.",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-front.mp4"
+      },
+      {
+        "type": "video",
+        "url": "https://musclewiki.com/api-next/videos/male-Smithmachine-pushup-side.mp4"
+      }
+    ]
+  }
+]

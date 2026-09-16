@@ -1,0 +1,159 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 163727068898818,
+      "name": "Shoulders Stretch Variation One",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Reach one arm behind your body, with your elbow pointing upward behind your head.",
+        "Assist the stretch with your other hand on your elbow to engage your shoulder.",
+        "Pause for a few seconds, then repeat the stretch with your other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-1-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-1-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/shoulders-stretch-variation-one"
+    },
+    {
+      "id": 55345814121955,
+      "name": "Shoulders Stretch Variation Two",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start with your arms at either side. Begin by pushing your shoulders forward and in towards your chest.",
+        "Continue the circular motion with your shoulders, pinching up towards your ears, and then extending your chest outwards while you finish the motion.",
+        "Repeat as necessary."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-2-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-2-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/shoulders-stretch-variation-two"
+    },
+    {
+      "id": 20374539110082,
+      "name": "Shoulders Stretch Variation Three",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Place the top of your hand into the small of your back, your arm at a",
+        "degree angle.",
+        "Hold your elbow with the other arm, and slowly pull the arm forward until you feel your shoulder engaged in the stretch. Pause at the apex of the stretch and return to the starting position.",
+        "Return to starting position, and repeat with your other arm."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-3-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-shoulders-stretch-variation-3-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/shoulders-stretch-variation-three"
+    },
+    {
+      "id": 164138721153136,
+      "name": "Alternating Pole Rotation",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+        "Rotate one arm overhead and behind while keeping the other arm in front of you.",
+        "Then rotate the other arm.",
+        "Bring the original arm back to the starting position, then the other arm. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Stretches-alternating-pole-rotation-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Stretches-alternating-pole-rotation-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/alternating-pole-rotation"
+    },
+    {
+      "id": 187225403355035,
+      "name": "Pole Rotation",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Stretches",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+        "Rotate both arms overhead and behind you while leaving your elbows mostly extended."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Stretches-pole-rotation-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Stretches-pole-rotation-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/pole-rotation"
+    }
+  ]
+}

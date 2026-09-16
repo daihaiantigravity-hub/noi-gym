@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source": "https://musclewiki.com/exercises/front-shoulders/machine",
+  "status": "complete",
+  "listingDone": true,
+  "nextPageUrl": null,
+  "pages": [{"number":1,"url":"https://musclewiki.com/exercises/front-shoulders/machine","found":4}],
+  "candidates": [
+    {"name":"Machine Standing Lateral Raise","sourceUrl":"https://musclewiki.com/exercise/machine-standing-lateral-raise","difficulty":"Novice"},
+    {"name":"Machine Plate Loaded Front Military Press","sourceUrl":"https://musclewiki.com/exercise/machine-front-military-press","difficulty":"Novice"},
+    {"name":"Machine Neutral Overhead Press","sourceUrl":"https://musclewiki.com/exercise/machine-neutral-overhead-press","difficulty":"Novice"},
+    {"name":"Machine Overhand Overhead Press","sourceUrl":"https://musclewiki.com/exercise/machine-overhand-overhead-press","difficulty":"Novice"}
+  ],
+  "records": [],
+  "processedDetailUrls": [],
+  "error": null,
+  "verification": {"pages":1,"cards":4,"candidates":4,"videos":8}
+}

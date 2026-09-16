@@ -1,0 +1,158 @@
+{
+  "total": 5,
+  "limit": 5,
+  "offset": 0,
+  "count": 5,
+  "results": [
+    {
+      "id": 102071366615164,
+      "name": "Band Romanian Deadlift",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand on your band with both feet.",
+        "Hinge forward at the hips while keeping a flat back.",
+        "Hinge until you feel a stretch in your hamstrings.",
+        "Push your hips back forward until you are in a standing position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-romanian-deadlift-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-romanian-deadlift-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-romanian-deadlift"
+    },
+    {
+      "id": 214212114745593,
+      "name": "Band Good Morning",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Anchor the band at hip level. Take a few steps away until the band is taut.",
+        "Push your hips back while keeping your back flat until you feel a stretch in your hamstrings."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-band-good-morning-front_8qJRfbm.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-band-good-morning-side_pGmFQtq.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-good-morning"
+    },
+    {
+      "id": 118876896190817,
+      "name": "Band Pullthrough",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Anchor the band to the lowest point possible. Straddle the band and then grab with both hands.",
+        "Take a few steps away until the band is taut.",
+        "Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pullthrough-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-band-pullthrough-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/band-pullthrough"
+    },
+    {
+      "id": 230018627509161,
+      "name": "Mini Band Standing Glute Kickback",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Loop band around ankles, stand tall holding support.",
+        "Extend one leg backward, squeezing glute.",
+        "Return slowly without arching lower back."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-glute-kickback-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-standing-glute-kickback-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-standing-glute-kickback"
+    },
+    {
+      "id": 234098841528106,
+      "name": "Mini Band Single Leg Deadlift",
+      "primary_muscles": [
+        "Lower Back"
+      ],
+      "category": "Band",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand on band with one foot, hinge at hips.",
+        "Keep back flat, opposite leg extended behind.",
+        "Drive hips forward to return upright."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-single-leg-deadlift-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Band-mini-band-single-leg-deadlift-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/mini-band-single-leg-deadlift"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "total": 7,
+  "limit": 7,
+  "offset": 0,
+  "count": 7,
+  "results": [
+    {
+      "id": 179348052723908,
+      "name": "Medicine Ball Clean And Press Slam",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold the medicine ball with an overhand grip.",
+        "Lift the ball explosively, clean it to shoulder height.",
+        "Press the ball overhead, then slam it to the ground."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-clean-and-press-slam-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-clean-and-press-slam-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/clean-and-press-slam"
+    },
+    {
+      "id": 86355193902184,
+      "name": "Medicine Ball Halo",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand with feet shoulder-width apart, hold a medicine ball.",
+        "Circle the ball around your head, maintaining control.",
+        "Complete the desired number of repetitions in both directions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-halo-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/halo"
+    },
+    {
+      "id": 227083065906790,
+      "name": "Medicine Ball Overhead Reverse Lunge",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Hold medicine ball overhead.",
+        "Step back into lunge position.",
+        "Return to starting position. Repeat on other leg."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-overhead-reverse-lunge-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-overhead-reverse-lunge-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/overhead-reverse-lunge"
+    },
+    {
+      "id": 251803075401480,
+      "name": "Medicine Ball Press Jack",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold medicine ball at chest.",
+        "Jump, extending arms overhead.",
+        "Return to starting position. Repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-press-jack-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-press-jack-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/press-jack"
+    },
+    {
+      "id": 78149092031773,
+      "name": "Medicine Ball Self Toss",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Toss medicine ball up, catch with both hands.",
+        "Repeat toss and catch for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-self-toss-front.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-self-toss-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/self-toss"
+    },
+    {
+      "id": 129788345989397,
+      "name": "Medicine Ball Squat Reach",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold medicine ball at chest.",
+        "Squat down, reach ball to one side.",
+        "Stand up and repeat reach on other side."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-squat-reach-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-squat-reach-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/squat-reach"
+    },
+    {
+      "id": 48570146544063,
+      "name": "Medicine Ball Wall Ball",
+      "primary_muscles": [
+        "Front Shoulders"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Hold medicine ball at chest, facing wall.",
+        "Squat down, then throw ball at wall.",
+        "Catch and repeat for desired reps."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-wall-ball-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-wall-ball-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/wall-ball"
+    }
+  ]
+}

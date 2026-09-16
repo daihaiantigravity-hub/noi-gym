@@ -1,0 +1,95 @@
+{
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "count": 3,
+  "results": [
+    {
+      "id": 40947850531367,
+      "name": "Medicine Ball Chest Press Partner Toss",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Beginner",
+      "steps": [
+        "Stand tall, partner tosses medicine ball to chest.",
+        "Catch ball and press it back to partner. Repeat."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-chest-press-partner-toss-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-chest-press-partner-toss-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/chest-press-partner-toss"
+    },
+    {
+      "id": 281169573551151,
+      "name": "Medicine Ball Pushup",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place hands on medicine ball, in push-up position.",
+        "Perform push-up, maintaining proper form."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-pushup-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-pushup-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/medicine-ball-push-up"
+    },
+    {
+      "id": 55239094171624,
+      "name": "Medicine Ball Walkover Pushup",
+      "primary_muscles": [
+        "Triceps"
+      ],
+      "category": "Medicine Ball",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Place one hand on medicine ball, other on ground.",
+        "Perform push-up, walking hands to switch positions."
+      ],
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-walkover-pushup-side.mp4"
+        },
+        {
+          "gender": "male",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/male-Medicine-Ball-walkover-pushup-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/walkover-pushup"
+    }
+  ]
+}
