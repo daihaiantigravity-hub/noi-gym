@@ -1,9 +1,10 @@
 import ExerciseLibrary from "@/components/ExerciseLibrary";
+import { paginate, parsePage, PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import { listPublishedExercises, listPublishedExercisesByTarget } from "@/lib/exercises/repository";
 import { getLocalPublicExercises } from "@/lib/exercises/source";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
-import type { PublicExercise } from "@/lib/exercises/types";
+import type { PublicExercisePage } from "@/lib/exercises/types";
 
 export default async function ExercisesPage({
   params,
@@ -15,19 +16,22 @@ export default async function ExercisesPage({
   const { muscle } = await params;
   const queryParams = await searchParams;
   const view = Array.isArray(queryParams.view) ? queryParams.view[0] : queryParams.view;
+  const page = parsePage(queryParams.page);
   const advancedTarget = getAdvancedTarget(muscle);
   const isAdvancedView = Boolean(advancedTarget && (!isAdvancedSlugConflict(muscle) || view === "advanced"));
-  let databaseExercises: PublicExercise[] = [];
+  let databasePage: PublicExercisePage | null = null;
   if (isSupabaseConfigured()) {
     try {
-      databaseExercises = isAdvancedView && advancedTarget
-        ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug)
-        : await listPublishedExercises(muscle);
+      databasePage = isAdvancedView && advancedTarget
+        ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
+        : await listPublishedExercises(muscle, { page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE });
     } catch {
-      databaseExercises = [];
+      databasePage = null;
     }
   }
-  const exercises = databaseExercises.length > 0 ? databaseExercises : isAdvancedView ? [] : getLocalPublicExercises(muscle);
+  const localExercises = isAdvancedView ? [] : getLocalPublicExercises(muscle);
+  const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
+  const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
 
-  return <ExerciseLibrary exercises={exercises} muscle={muscle} routePath={isAdvancedView ? getAdvancedRoute(muscle) : `/exercises/${muscle}`} targetLabel={isAdvancedView ? advancedTarget?.label : undefined} />;
+  return <ExerciseLibrary exercises={pageData.items} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={isAdvancedView ? getAdvancedRoute(muscle) : `/exercises/${muscle}`} targetLabel={isAdvancedView ? advancedTarget?.label : undefined} total={pageData.total} />;
 }

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
+import { PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import type { PublicExercise } from "@/lib/exercises/types";
 
 const fakeExerciseThumbnails = [
@@ -31,6 +32,20 @@ const muscleNameBySlug: Record<string, string> = {
 
 function formatMuscleName(muscle: string) {
   return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+}
+
+function getPageHref(path: string, page: number) {
+  const [pathname, query = ""] = path.split("?", 2);
+  const searchParams = new URLSearchParams(query);
+
+  if (page <= 1) {
+    searchParams.delete("page");
+  } else {
+    searchParams.set("page", String(page));
+  }
+
+  const serializedQuery = searchParams.toString();
+  return `${pathname}${serializedQuery ? `?${serializedQuery}` : ""}`;
 }
 
 function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercise; muscle: string; routePath: string }) {
@@ -93,9 +108,12 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
   );
 }
 
-export default function ExerciseLibrary({ muscle, exercises, routePath = `/exercises/${muscle}`, targetLabel }: { muscle: string; exercises: PublicExercise[]; routePath?: string; targetLabel?: string }) {
+export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
   const router = useRouter();
   const muscleName = targetLabel ?? formatMuscleName(muscle);
+  const totalPages = Math.max(Math.ceil(total / pageSize), 1);
+  const firstItem = (page - 1) * pageSize + 1;
+  const lastItem = Math.min(page * pageSize, total);
 
   return (
     <main aria-label={`${muscleName} exercises`} className="exercise-library-page">
@@ -104,6 +122,11 @@ export default function ExerciseLibrary({ muscle, exercises, routePath = `/exerc
         <span>Quay lại</span>
       </button>
       {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><h2 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h2><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} routePath={routePath} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
+      {totalPages > 1 ? <nav aria-label="Phân trang bài tập" className="exercise-library-pagination">
+        {page > 1 ? <Link className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)}>← Trước</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">← Trước</span>}
+        <span className="exercise-library-pagination__status">Bài {firstItem}–{lastItem} / {total} · Trang {page} / {totalPages}</span>
+        {page < totalPages ? <Link className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)}>Sau →</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">Sau →</span>}
+      </nav> : null}
     </main>
   );
 }

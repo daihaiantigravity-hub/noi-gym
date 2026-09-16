@@ -2,8 +2,9 @@ import "server-only";
 
 import { createSupabaseAdminClient, createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import { getSourceMuscleName } from "./source";
+import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import type { ValidatedExerciseInput } from "./validation";
-import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise } from "./types";
+import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
 import type { ExerciseTargetMode } from "./types";
 
 const exerciseSelect = "id, source, source_id, name, slug, description, primary_muscles, category, force, grips, mechanic, difficulty, status, steps, media, source_snapshot, created_at, updated_at";
@@ -180,26 +181,36 @@ export async function getExercise(id: string) {
   return data ? mapRow(data as ExerciseRow) : null;
 }
 
-export async function listPublishedExercises(muscle: string, options: { category?: string } = {}) {
-  if (!isSupabaseConfigured()) return [];
+function getPublicPageOptions(options: { page?: number; pageSize?: number }) {
+  const page = Math.max(options.page ?? 1, 1);
+  const pageSize = Math.min(Math.max(options.pageSize ?? PUBLIC_EXERCISES_PAGE_SIZE, 1), 100);
+
+  return { page, pageSize, start: (page - 1) * pageSize };
+}
+
+export async function listPublishedExercises(muscle: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+  const { page, pageSize, start } = getPublicPageOptions(options);
+  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
 
   const supabase = await createSupabaseServerClient();
   let query = supabase
     .from("exercises")
-    .select(exerciseSelect)
+    .select(exerciseSelect, { count: "exact" })
     .eq("status", "Published")
     .overlaps("primary_muscles", [getSourceMuscleName(muscle)])
-    .order("updated_at", { ascending: false });
+    .order("updated_at", { ascending: false })
+    .range(start, start + pageSize - 1);
 
   if (options.category) query = query.eq("category", options.category);
 
-  const { data, error } = await query;
+  const { data, error, count } = await query;
   if (error) throwDatabaseError(error);
-  return ((data ?? []) as ExerciseRow[]).map(mapPublicExercise);
+  return { items: ((data ?? []) as ExerciseRow[]).map(mapPublicExercise), total: count ?? 0, page, pageSize };
 }
 
-export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string } = {}) {
-  if (!isSupabaseConfigured()) return [];
+export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+  const { page, pageSize, start } = getPublicPageOptions(options);
+  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
 
   const supabase = await createSupabaseServerClient();
   const { data: targets, error: targetError } = await supabase
@@ -210,19 +221,20 @@ export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, s
   if (targetError) throwDatabaseError(targetError);
 
   const exerciseIds = (targets ?? []).map((target) => String(target.exercise_id));
-  if (exerciseIds.length === 0) return [];
+  if (exerciseIds.length === 0) return { items: [], total: 0, page, pageSize };
 
   let query = supabase
     .from("exercises")
-    .select(exerciseSelect)
+    .select(exerciseSelect, { count: "exact" })
     .eq("status", "Published")
     .in("id", exerciseIds)
-    .order("updated_at", { ascending: false });
+    .order("updated_at", { ascending: false })
+    .range(start, start + pageSize - 1);
   if (options.category) query = query.eq("category", options.category);
 
-  const { data, error } = await query;
+  const { data, error, count } = await query;
   if (error) throwDatabaseError(error);
-  return ((data ?? []) as ExerciseRow[]).map(mapPublicExercise);
+  return { items: ((data ?? []) as ExerciseRow[]).map(mapPublicExercise), total: count ?? 0, page, pageSize };
 }
 
 export async function getPublishedExerciseByKey(key: string) {

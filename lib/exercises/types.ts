@@ -57,6 +57,13 @@ export type PublicExercise = {
   media: ExerciseMediaValue[];
 };
 
+export type PublicExercisePage = {
+  items: PublicExercise[];
+  total: number;
+  page: number;
+  pageSize: number;
+};
+
 export type ExerciseListItem = Pick<
   ExerciseRecord,
   "id" | "source" | "sourceId" | "name" | "slug" | "category" | "difficulty" | "status" | "updatedAt"
