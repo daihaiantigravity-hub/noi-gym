@@ -22,6 +22,11 @@ export default function ExerciseDetailAmbientBackground({ videoRef }: { videoRef
     let canvasHeight = 0;
 
     function drawFrame() {
+      if (activeVideo.paused || activeVideo.ended) {
+        frameId = 0;
+        return;
+      }
+
       if (activeVideo.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && activeVideo.videoWidth > 0 && activeVideo.videoHeight > 0) {
         const nextHeight = Math.max(1, Math.round(BACKDROP_WIDTH * (activeVideo.videoHeight / activeVideo.videoWidth)));
         if (backdropCanvas.width !== BACKDROP_WIDTH || canvasHeight !== nextHeight) {
@@ -44,7 +49,6 @@ export default function ExerciseDetailAmbientBackground({ videoRef }: { videoRef
       frameId = 0;
     }
 
-    startDrawing();
     activeVideo.addEventListener("play", startDrawing);
     activeVideo.addEventListener("pause", stopDrawing);
     activeVideo.addEventListener("ended", stopDrawing);

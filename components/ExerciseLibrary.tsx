@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import type { PublicExercise } from "@/lib/exercises/types";
+import LazyExerciseVideo from "./LazyExerciseVideo";
 
 const fakeExerciseThumbnails = [
   { variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
@@ -97,7 +98,7 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
             const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
               <div aria-label={`${exercise.name} view ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
-                {video ? <video aria-label={`${exercise.name} video ${videoIndex + 1}`} autoPlay className="exercise-library-showcase__video" loop muted playsInline preload="metadata" src={video} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
+                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`${exercise.name} video ${videoIndex + 1}`} src={video} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
           })}
