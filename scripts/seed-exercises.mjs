@@ -22,7 +22,7 @@ function slugify(value) {
 function normalizeVideo(video) {
   if (!video || !["male", "female"].includes(video.gender) || !["front", "side"].includes(video.angle)) return null;
   if (!video.url && !video.og_image) return null;
-  return { gender: video.gender, angle: video.angle, videoUrl: "" };
+  return { gender: video.gender, angle: video.angle, videoUrl: video.url ?? "" };
 }
 
 function mergeMedia(existing, incoming) {

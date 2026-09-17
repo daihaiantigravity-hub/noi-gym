@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState, type MouseEvent as ReactMouseEvent } from "react";
 import Link from "next/link";
+import type { EquipmentIconName } from "./EquipmentIcon";
 import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
 
 type BodyView = "front" | "back";
@@ -69,7 +70,7 @@ function getHotspotPosition(position: HotspotPosition, viewBox = bodyMapViewBox)
   return { cx, cy };
 }
 
-export default function BodyProfileMap() {
+export default function BodyProfileMap({ equipment = "featured" }: { equipment?: EquipmentIconName }) {
   const router = useRouter();
   const [activeView, setActiveView] = useState<BodyView>("front");
   const [activeMode, setActiveMode] = useState<BodyMapMode>("standard");
@@ -131,13 +132,15 @@ export default function BodyProfileMap() {
       return;
     }
 
+    const categorySlug = equipment === "featured" ? undefined : equipment;
+
     if (activeMode === "advanced") {
-      router.push(getAdvancedRoute(advancedParentSlugByGroup[groupId] ?? groupId));
+      router.push(getAdvancedRoute(advancedParentSlugByGroup[groupId] ?? groupId, categorySlug));
       return;
     }
 
     const muscleSlug = muscleSlugByGroup[groupId] ?? groupId;
-    router.push(`/exercises/${muscleSlug}`);
+    router.push(categorySlug ? `/exercises/${muscleSlug}/${categorySlug}` : `/exercises/${muscleSlug}`);
   }
 
   const bodyLabel = activeView === "front" ? "Cơ trước" : "Cơ sau";

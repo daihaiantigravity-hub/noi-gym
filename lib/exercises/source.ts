@@ -1,13 +1,106 @@
 import "server-only";
 
+import crypto from "node:crypto";
 import type { MuscleWikiExercise, MuscleWikiVideo } from "@/lib/musclewiki";
+import bicepsDumbbellRecords from "@/scripts/migration/data/musclewiki-biceps-dumbbells.json";
+import bicepsDumbbellCheckpoint from "@/scripts/migration/data/musclewiki-biceps-dumbbells.checkpoint.json";
+import chestDumbbellRecords from "@/scripts/migration/data/musclewiki-chest-dumbbells.json";
 import { EMPTY_EXERCISE_FORM } from "./constants";
 import { slugify } from "./slug";
 import type { ExerciseDifficulty, ExerciseFormValues, ExerciseListItem, ExerciseMediaValue, ExerciseSourceOption, PublicExercise } from "./types";
 
-// The original local MuscleWiki datasets are intentionally not bundled anymore.
-// New exercises should be created in the admin dashboard or imported explicitly.
-const collectedExercises: MuscleWikiExercise[] = [];
+type DomMediaRecord = {
+  type?: string;
+  url?: string;
+};
+
+type DomExerciseRecord = {
+  name: string;
+  sourceUrl: string;
+  difficulty?: string | null;
+  primaryMuscle?: string | null;
+  equipment?: string | null;
+  instructions?: string[] | null;
+  cardText?: string | null;
+  media?: DomMediaRecord[] | null;
+  force?: string | null;
+  grip?: string | null;
+  mechanic?: string | null;
+};
+
+type CheckpointCandidate = Pick<DomExerciseRecord, "sourceUrl" | "cardText">;
+
+const registeredDatasets: Array<{ records: DomExerciseRecord[]; primaryMuscle: string; equipment: string }> = [
+  {
+    records: bicepsDumbbellRecords as unknown as DomExerciseRecord[],
+    primaryMuscle: "Biceps",
+    equipment: "Dumbbells",
+  },
+  {
+    records: chestDumbbellRecords as unknown as DomExerciseRecord[],
+    primaryMuscle: "Chest",
+    equipment: "Dumbbells",
+  },
+];
+
+const bicepsCheckpointCandidates = new Map(
+  ((bicepsDumbbellCheckpoint as unknown as { candidates?: CheckpointCandidate[] }).candidates ?? [])
+    .filter((candidate) => candidate?.sourceUrl)
+    .map((candidate) => [candidate.sourceUrl, candidate]),
+);
+
+const cleanText = (value: unknown) => String(value ?? "").replace(/\u00a0/g, " ").replace(/[ \t]+/g, " ").trim();
+
+function stableSourceId(sourceUrl: string) {
+  // Keep this algorithm identical to the migration converter so local and
+  // imported MuscleWiki records resolve to the same source-${id} key.
+  const digest = crypto.createHash("sha256").update(sourceUrl).digest("hex").slice(0, 12);
+  return Number.parseInt(digest, 16) + 1;
+}
+
+function extractSteps(cardText: string | null | undefined, fallback: string[] | null | undefined) {
+  const text = cleanText(cardText);
+  const numberedSteps = [...text.matchAll(/(?:^|\s)\d+[.)]?\s+(.+?)(?=\s+\d+[.)]?\s+|$)/g)]
+    .map((match) => cleanText(match[1]).replace(/\s+Remove Ads(?:\s+Remove Ads)*$/i, ""))
+    .filter(Boolean);
+  const values = numberedSteps.length ? numberedSteps : (fallback ?? []);
+
+  return [...new Set(values
+    .map(cleanText)
+    .filter((value) => value && !/^\/?(?:Exercises|Biceps|Chest|Dumbbell Curl)$/i.test(value)))];
+}
+
+function convertDomRecord(record: DomExerciseRecord, defaults: { primaryMuscle: string; equipment: string }): MuscleWikiExercise {
+  const checkpoint = bicepsCheckpointCandidates.get(record.sourceUrl);
+  const sourceId = stableSourceId(record.sourceUrl);
+  const videos = (record.media ?? [])
+    .filter((media) => media.type === "video" && media.url)
+    .map((media) => ({
+      gender: "male",
+      angle: /-side(?:[_./?]|$)/i.test(media.url ?? "") ? "side" : "front",
+      url: media.url,
+    }));
+
+  return {
+    id: sourceId,
+    name: record.name,
+    primary_muscles: [record.primaryMuscle || defaults.primaryMuscle],
+    category: record.equipment || defaults.equipment,
+    force: record.force ?? undefined,
+    grips: record.grip ?? undefined,
+    mechanic: record.mechanic ?? undefined,
+    difficulty: record.difficulty ?? undefined,
+    steps: extractSteps(checkpoint?.cardText || record.cardText, record.instructions),
+    videos,
+  };
+}
+
+const collectedExercises: MuscleWikiExercise[] = Array.from(
+  new Map(
+    registeredDatasets
+      .flatMap((dataset) => dataset.records.map((record) => [record.sourceUrl, convertDomRecord(record, dataset)] as const)),
+  ).values(),
+);
 const sourceMuscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
   biceps: "Biceps",
@@ -45,9 +138,7 @@ function normalizeVideo(video: MuscleWikiVideo): ExerciseMediaValue | null {
   return {
     gender: video.gender,
     angle: video.angle,
-    // MuscleWiki URLs are kept in source_snapshot only. New media must be uploaded
-    // to our Supabase Storage bucket from the admin form.
-    videoUrl: "",
+    videoUrl: video.url ?? "",
   };
 }
 
@@ -136,11 +227,13 @@ export function getLocalExerciseList(filters: { query?: string; status?: string;
     .filter((exercise) => !filters.status || exercise.status === filters.status);
 }
 
-export function getLocalPublicExercises(muscle: string): PublicExercise[] {
+export function getLocalPublicExercises(muscle: string, options: { category?: string } = {}): PublicExercise[] {
   const targetMuscle = getSourceMuscleName(muscle).toLowerCase();
+  const targetCategory = options.category?.trim().toLowerCase();
 
   return collectedExercises
     .filter((exercise) => exercise.primary_muscles?.some((group) => group.toLowerCase() === targetMuscle))
+    .filter((exercise) => !targetCategory || exercise.category?.toLowerCase() === targetCategory)
     .map((exercise) => {
       const form = toFormValues(exercise);
       return {
@@ -154,6 +247,15 @@ export function getLocalPublicExercises(muscle: string): PublicExercise[] {
         media: form.media,
       };
     });
+}
+
+export function getLocalPublicExerciseBySourceId(sourceId: number): PublicExercise | null {
+  return getLocalPublicExerciseById(`source-${sourceId}`);
+}
+
+export function getLocalPublicExerciseBySourceUrl(sourceUrl: string): PublicExercise | null {
+  const sourceId = stableSourceId(sourceUrl);
+  return getLocalPublicExerciseBySourceId(sourceId);
 }
 
 export function getLocalPublicExerciseById(id: string): PublicExercise | null {

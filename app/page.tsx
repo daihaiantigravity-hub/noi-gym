@@ -409,7 +409,7 @@ export default function Home() {
           </div>
         </section> */}
 
-        <BodyProfileMap />
+        <BodyProfileMap equipment={activeCategory} />
 
         <div className="workout-showcase-list">
           {workoutRows.map((row) => (

@@ -4556,7 +4556,7 @@ button {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.26);
 }
 
-.workout-thumbnail::before {
+/* .workout-thumbnail::before {
   position: absolute;
   right: -12%;
   bottom: -42%;
@@ -4566,7 +4566,7 @@ button {
   background: rgba(255, 255, 255, 0.22);
   content: "";
   transform: rotate(-12deg);
-}
+} */
 
 .workout-thumbnail__kicker,
 .workout-thumbnail__hero,

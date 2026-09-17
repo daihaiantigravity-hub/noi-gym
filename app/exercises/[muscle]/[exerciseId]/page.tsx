@@ -64,9 +64,14 @@ export default async function ExerciseDetailPage({
       }
     }
 
-    const localExercises = !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle).filter((exercise) => exercise.category === category) : [];
+    const localExercises = !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle, { category }) : [];
     const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
-    const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
+    // A registered DOM dataset is the canonical scoped migration set. Use the
+    // Published query when it represents that complete set; otherwise fall
+    // back to the exact local dataset so stale/duplicate Published rows do not
+    // leak into a filtered equipment route.
+    const hasCompleteDatabaseSet = databasePage && localExercises.length > 0 && databasePage.total === localExercises.length;
+    const pageData = hasCompleteDatabaseSet || localExercises.length === 0 ? databasePage ?? localPage : localPage;
     const routePath = isJointRoute
       ? `/exercises/${muscle}/${exerciseId}`
       : isAdvancedView

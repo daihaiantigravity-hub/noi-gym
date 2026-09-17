@@ -1,7 +1,7 @@
 import "server-only";
 
 import { createSupabaseAdminClient, createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
-import { getSourceMuscleName } from "./source";
+import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleName } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import type { ValidatedExerciseInput } from "./validation";
 import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
@@ -53,17 +53,49 @@ function mapRow(row: ExerciseRow): ExerciseRecord {
   };
 }
 
+function mergePublicMedia(existing: PublicExercise["media"], fallback: PublicExercise["media"]) {
+  const media = [...existing];
+
+  for (const item of fallback) {
+    const index = media.findIndex((candidate) => candidate.gender === item.gender && candidate.angle === item.angle);
+    if (index < 0) {
+      media.push(item);
+      continue;
+    }
+
+    if (!media[index].videoUrl && item.videoUrl) {
+      media[index] = { ...media[index], videoUrl: item.videoUrl };
+    }
+  }
+
+  return media;
+}
+
+function getLocalSupplement(exercise: ExerciseRecord): PublicExercise | null {
+  if (exercise.source !== "musclewiki") return null;
+  if (exercise.sourceId) return getLocalPublicExerciseBySourceId(exercise.sourceId);
+
+  const snapshot = exercise.sourceSnapshot;
+  const sourceUrl = snapshot && typeof snapshot.sourceUrl === "string"
+    ? snapshot.sourceUrl
+    : snapshot && typeof snapshot.source_url === "string"
+      ? snapshot.source_url
+      : "";
+  return sourceUrl ? getLocalPublicExerciseBySourceUrl(sourceUrl) : null;
+}
+
 function mapPublicExercise(row: ExerciseRow): PublicExercise {
   const exercise = mapRow(row);
+  const fallback = getLocalSupplement(exercise);
   return {
     id: exercise.id,
     name: exercise.name,
-    description: exercise.description,
-    primaryMuscles: exercise.primaryMuscles,
-    category: exercise.category,
-    difficulty: exercise.difficulty,
-    steps: exercise.steps,
-    media: exercise.media,
+    description: exercise.description || fallback?.description || "",
+    primaryMuscles: exercise.primaryMuscles.length > 0 ? exercise.primaryMuscles : fallback?.primaryMuscles ?? [],
+    category: exercise.category || fallback?.category || "",
+    difficulty: exercise.difficulty || fallback?.difficulty || "",
+    steps: exercise.steps.length > 0 ? exercise.steps : fallback?.steps ?? [],
+    media: mergePublicMedia(exercise.media, fallback?.media ?? []),
   };
 }
 
