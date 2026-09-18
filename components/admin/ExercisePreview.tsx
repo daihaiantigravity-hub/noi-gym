@@ -14,7 +14,7 @@ function PreviewMedia({ values, detail = false }: { values: ExerciseFormValues; 
 
   return (
     <div className={`admin-preview-media${detail ? " admin-preview-media--detail" : ""}`}>
-      {media?.videoUrl ? <video aria-label="Video demo bài tập" autoPlay className="admin-preview-media__video" loop muted playsInline preload="metadata" src={media.videoUrl} /> : null}
+      {media?.videoUrl ? <video aria-label="Video demo bài tập" autoPlay className="admin-preview-media__video" loop muted playsInline poster={media.posterUrl || undefined} preload="metadata" src={media.videoUrl} /> : null}
       <div className="admin-preview-media__shade" />
       {!media?.videoUrl ? (
         <div className="admin-preview-media__placeholder">

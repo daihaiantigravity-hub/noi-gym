@@ -1,5 +1,6 @@
 import { getAdminUser } from "@/lib/admin-auth";
 import { isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
+import AdminSidebar from "@/components/admin/AdminSidebar";
 import { redirect } from "next/navigation";
 
 export default async function AdminLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -12,6 +13,7 @@ export default async function AdminLayout({ children }: Readonly<{ children: Rea
 
   return (
     <div className="admin-shell">
+      <AdminSidebar />
       <div className="admin-area">
         {!authConfigured || !databaseConfigured ? (
           <div className="admin-config-banner" role="status">

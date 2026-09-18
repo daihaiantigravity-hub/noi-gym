@@ -18,6 +18,7 @@ export type ExerciseMediaValue = {
   gender: ExerciseGender;
   angle: ExerciseAngle;
   videoUrl: string;
+  posterUrl?: string;
   duration?: number;
   storagePath?: string;
 };

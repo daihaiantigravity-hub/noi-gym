@@ -152,7 +152,7 @@ function mergeMedia(existing, incoming) {
   const media = Array.isArray(existing) ? [...existing] : [];
   for (const item of incoming) {
     const index = media.findIndex((candidate) => candidate.gender === item.gender && candidate.angle === item.angle);
-    if (index >= 0) media[index] = item;
+    if (index >= 0) media[index] = { ...media[index], ...item };
     else media.push(item);
   }
   return media;
@@ -215,11 +215,12 @@ for (const exercise of selectedExercises) {
           gender: video.gender || "male",
           angle: video.angle,
           videoUrl: publicUrl.publicUrl,
+          ...(video.og_image ? { posterUrl: video.og_image } : {}),
           storagePath,
           ...(duration <= maxVideoDuration ? { duration } : {}),
         });
       } else {
-        uploaded.push({ gender: video.gender || "male", angle: video.angle, videoUrl: "dry-run", storagePath, duration });
+        uploaded.push({ gender: video.gender || "male", angle: video.angle, videoUrl: "dry-run", ...(video.og_image ? { posterUrl: video.og_image } : {}), storagePath, duration });
       }
       processedVideos += 1;
     } catch (error) {

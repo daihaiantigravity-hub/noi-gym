@@ -17,6 +17,7 @@ const mediaSchema = z.object({
   gender: z.enum(EXERCISE_GENDERS),
   angle: z.enum(EXERCISE_ANGLES),
   videoUrl: httpUrl,
+  posterUrl: httpUrl.optional(),
   duration: z.number().finite().positive().max(15).optional(),
   storagePath: z.string().trim().max(500).optional(),
 });

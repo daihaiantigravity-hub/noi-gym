@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
-import EquipmentIcon, { type EquipmentIconName } from "@/components/EquipmentIcon";
-import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import HealthCategoryNav from "@/components/HealthCategoryNav";
+import { type EquipmentIconName } from "@/components/EquipmentIcon";
 
 type IconName =
   | "grid"
@@ -298,10 +298,6 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     title: "Train with a Smith machine",
     subtitle: "Choose a muscle group to explore Smith machine exercises.",
   },
-  recovery: {
-    title: "What do you want to recover?",
-    subtitle: "Choose a muscle group to explore recovery exercises.",
-  },
   pilates: {
     title: "What do you want to practice?",
     subtitle: "Choose a muscle group to explore Pilates exercises.",
@@ -352,21 +348,7 @@ export default function Home() {
           </div>
         </div>
 
-        <nav aria-label="Các nhóm sức khỏe" className="health-category-nav">
-          {HEALTH_CATEGORY_ITEMS.map((item) => (
-            <button
-              aria-label={item.label}
-              aria-pressed={activeCategory === item.icon}
-              className={`health-category-button${activeCategory === item.icon ? " health-category-button--active" : ""}`}
-              key={item.label}
-              onClick={() => setActiveCategory(item.icon)}
-              title={item.label}
-              type="button"
-            >
-              <EquipmentIcon name={item.icon} />
-            </button>
-          ))}
-        </nav>
+        <HealthCategoryNav activeCategory={activeCategory} onSelect={setActiveCategory} />
       </header>
 
       <main className="health-content">

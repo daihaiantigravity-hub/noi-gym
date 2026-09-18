@@ -6,6 +6,7 @@ import bicepsDumbbellRecords from "@/scripts/migration/data/musclewiki-biceps-du
 import bicepsDumbbellCheckpoint from "@/scripts/migration/data/musclewiki-biceps-dumbbells.checkpoint.json";
 import chestDumbbellRecords from "@/scripts/migration/data/musclewiki-chest-dumbbells.json";
 import { EMPTY_EXERCISE_FORM } from "./constants";
+import { getExerciseCategoryOrder } from "./category-order";
 import { slugify } from "./slug";
 import type { ExerciseDifficulty, ExerciseFormValues, ExerciseListItem, ExerciseMediaValue, ExerciseSourceOption, PublicExercise } from "./types";
 
@@ -73,12 +74,18 @@ function extractSteps(cardText: string | null | undefined, fallback: string[] | 
 function convertDomRecord(record: DomExerciseRecord, defaults: { primaryMuscle: string; equipment: string }): MuscleWikiExercise {
   const checkpoint = bicepsCheckpointCandidates.get(record.sourceUrl);
   const sourceId = stableSourceId(record.sourceUrl);
+  const posterByAngle = new Map(
+    (record.media ?? [])
+      .filter((media) => media.type === "image" && media.url)
+      .map((media) => [/-side(?:[_./?]|$)/i.test(media.url ?? "") ? "side" : "front", media.url] as const),
+  );
   const videos = (record.media ?? [])
     .filter((media) => media.type === "video" && media.url)
     .map((media) => ({
       gender: "male",
       angle: /-side(?:[_./?]|$)/i.test(media.url ?? "") ? "side" : "front",
       url: media.url,
+      og_image: posterByAngle.get(/-side(?:[_./?]|$)/i.test(media.url ?? "") ? "side" : "front"),
     }));
 
   return {
@@ -139,6 +146,7 @@ function normalizeVideo(video: MuscleWikiVideo): ExerciseMediaValue | null {
     gender: video.gender,
     angle: video.angle,
     videoUrl: video.url ?? "",
+    ...(video.og_image ? { posterUrl: video.og_image } : {}),
   };
 }
 
@@ -231,7 +239,7 @@ export function getLocalPublicExercises(muscle: string, options: { category?: st
   const targetMuscle = getSourceMuscleName(muscle).toLowerCase();
   const targetCategory = options.category?.trim().toLowerCase();
 
-  return collectedExercises
+  const exercises = collectedExercises
     .filter((exercise) => exercise.primary_muscles?.some((group) => group.toLowerCase() === targetMuscle))
     .filter((exercise) => !targetCategory || exercise.category?.toLowerCase() === targetCategory)
     .map((exercise) => {
@@ -247,6 +255,10 @@ export function getLocalPublicExercises(muscle: string, options: { category?: st
         media: form.media,
       };
     });
+
+  return targetCategory
+    ? exercises
+    : [...exercises].sort((first, second) => getExerciseCategoryOrder(first.category) - getExerciseCategoryOrder(second.category));
 }
 
 export function getLocalPublicExerciseBySourceId(sourceId: number): PublicExercise | null {

@@ -12,11 +12,13 @@ function assignRef<T>(ref: ForwardedRef<T>, value: T | null) {
 
 export default function LazyExerciseVideo({
   src,
+  poster,
   label,
   className,
   forwardedRef,
 }: {
   src: string;
+  poster?: string;
   label: string;
   className: string;
   forwardedRef?: ForwardedRef<HTMLVideoElement>;
@@ -70,6 +72,7 @@ export default function LazyExerciseVideo({
       loop
       muted
       playsInline
+      poster={poster || undefined}
       preload={hasEnteredViewport ? "metadata" : "none"}
       ref={(element) => {
         videoRef.current = element;

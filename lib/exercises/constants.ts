@@ -10,23 +10,22 @@ import type {
 } from "./types";
 
 export const EXERCISE_CATEGORY_ITEMS = [
-  { icon: "barbell", label: "Barbell" },
   { icon: "dumbbells", label: "Dumbbells" },
-  { icon: "bodyweight", label: "Bodyweight" },
-  { icon: "machine", label: "Machine" },
-  { icon: "medicine-ball", label: "Medicine Ball" },
-  { icon: "kettlebells", label: "Kettlebells" },
-  { icon: "stretches", label: "Stretches" },
+  { icon: "barbell", label: "Barbell" },
   { icon: "cables", label: "Cables" },
+  { icon: "machine", label: "Machine" },
+  { icon: "smith-machine", label: "Smith Machine" },
+  { icon: "cardio", label: "Cardio" },
   { icon: "band", label: "Band" },
+  { icon: "bodyweight", label: "Bodyweight" },
+  { icon: "kettlebells", label: "Kettlebells" },
   { icon: "plate", label: "Plate" },
+  { icon: "medicine-ball", label: "Medicine Ball" },
   { icon: "trx", label: "TRX" },
+  { icon: "stretches", label: "Stretches" },
+  { icon: "pilates", label: "Pilates" },
   { icon: "yoga", label: "Yoga" },
   { icon: "bosu-ball", label: "Bosu Ball" },
-  { icon: "cardio", label: "Cardio" },
-  { icon: "smith-machine", label: "Smith Machine" },
-  { icon: "recovery", label: "Recovery" },
-  { icon: "pilates", label: "Pilates" },
 ] as const;
 
 export const HEALTH_CATEGORY_ITEMS = [

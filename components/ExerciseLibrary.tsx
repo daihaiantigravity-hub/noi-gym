@@ -50,7 +50,13 @@ function getPageHref(path: string, page: number) {
 }
 
 function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercise; muscle: string; routePath: string }) {
-  const videos = Array.from(new Set(exercise.media.map((item) => item.videoUrl).filter(Boolean)));
+  const videos = Array.from(
+    new Map(
+      exercise.media
+        .filter((item) => item.videoUrl)
+        .map((item) => [item.videoUrl, item] as const),
+    ).values(),
+  );
   const videoCount = Math.max(videos.length, 1);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
@@ -98,7 +104,7 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
             const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
               <div aria-label={`${exercise.name} view ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
-                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`${exercise.name} video ${videoIndex + 1}`} src={video} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
+                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`${exercise.name} video ${videoIndex + 1}`} poster={video.posterUrl} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
           })}

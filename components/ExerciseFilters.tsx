@@ -162,13 +162,6 @@ function EquipmentIcon({ name }: { name: EquipmentName }) {
           <path d="M13 11v12M19 11v12" />
         </svg>
       );
-    case "Recovery":
-      return (
-        <svg {...commonProps}>
-          <path d="M23 11a8 8 0 0 0-13-3L7 10M9 7v4h4M9 21a8 8 0 0 0 13-3l3-2M23 25v-4h-4" />
-          <path d="M16 11v6M13 14h6" />
-        </svg>
-      );
     case "Pilates":
       return (
         <svg {...commonProps}>

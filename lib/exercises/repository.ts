@@ -1,6 +1,7 @@
 import "server-only";
 
 import { createSupabaseAdminClient, createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import { getExerciseCategoryOrder } from "./category-order";
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleName } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import type { ValidatedExerciseInput } from "./validation";
@@ -63,9 +64,11 @@ function mergePublicMedia(existing: PublicExercise["media"], fallback: PublicExe
       continue;
     }
 
-    if (!media[index].videoUrl && item.videoUrl) {
-      media[index] = { ...media[index], videoUrl: item.videoUrl };
-    }
+    media[index] = {
+      ...media[index],
+      ...(!media[index].videoUrl && item.videoUrl ? { videoUrl: item.videoUrl } : {}),
+      ...(!media[index].posterUrl && item.posterUrl ? { posterUrl: item.posterUrl } : {}),
+    };
   }
 
   return media;
@@ -84,9 +87,41 @@ function getLocalSupplement(exercise: ExerciseRecord): PublicExercise | null {
   return sourceUrl ? getLocalPublicExerciseBySourceUrl(sourceUrl) : null;
 }
 
+function getSnapshotPosterMedia(snapshot: Record<string, unknown> | null | undefined): PublicExercise["media"] {
+  if (!snapshot) return [];
+
+  const rawMedia = Array.isArray(snapshot.videos)
+    ? snapshot.videos
+    : Array.isArray(snapshot.media)
+      ? snapshot.media
+      : [];
+
+  return rawMedia.flatMap((value) => {
+    if (!value || typeof value !== "object") return [];
+
+    const item = value as Record<string, unknown>;
+    const videoUrl = typeof item.videoUrl === "string" ? item.videoUrl : typeof item.url === "string" && item.type === "video" ? item.url : "";
+    const posterUrl = typeof item.og_image === "string"
+      ? item.og_image
+      : item.type === "image" && typeof item.url === "string"
+        ? item.url
+        : "";
+    if (!posterUrl) return [];
+
+    const source = `${videoUrl} ${posterUrl}`;
+    return [{
+      gender: item.gender === "female" ? "female" : "male",
+      angle: item.angle === "side" || /-side(?:[_./?]|$)/i.test(source) ? "side" : "front",
+      videoUrl,
+      posterUrl,
+    }];
+  });
+}
+
 function mapPublicExercise(row: ExerciseRow): PublicExercise {
   const exercise = mapRow(row);
   const fallback = getLocalSupplement(exercise);
+  const snapshotMedia = getSnapshotPosterMedia(exercise.sourceSnapshot);
   return {
     id: exercise.id,
     name: exercise.name,
@@ -95,7 +130,7 @@ function mapPublicExercise(row: ExerciseRow): PublicExercise {
     category: exercise.category || fallback?.category || "",
     difficulty: exercise.difficulty || fallback?.difficulty || "",
     steps: exercise.steps.length > 0 ? exercise.steps : fallback?.steps ?? [],
-    media: mergePublicMedia(exercise.media, fallback?.media ?? []),
+    media: mergePublicMedia(exercise.media, mergePublicMedia(fallback?.media ?? [], snapshotMedia)),
   };
 }
 
@@ -220,6 +255,16 @@ function getPublicPageOptions(options: { page?: number; pageSize?: number }) {
   return { page, pageSize, start: (page - 1) * pageSize };
 }
 
+function comparePublicRowsByCategoryOrder(first: ExerciseRow, second: ExerciseRow) {
+  const categoryDifference = getExerciseCategoryOrder(first.category) - getExerciseCategoryOrder(second.category);
+  if (categoryDifference !== 0) return categoryDifference;
+
+  const updatedAtDifference = new Date(second.updated_at).getTime() - new Date(first.updated_at).getTime();
+  if (updatedAtDifference !== 0) return updatedAtDifference;
+
+  return first.name.localeCompare(second.name);
+}
+
 export async function listPublishedExercises(muscle: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
   const { page, pageSize, start } = getPublicPageOptions(options);
   if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
@@ -230,14 +275,20 @@ export async function listPublishedExercises(muscle: string, options: { category
     .select(exerciseSelect, { count: "exact" })
     .eq("status", "Published")
     .overlaps("primary_muscles", [getSourceMuscleName(muscle)])
-    .order("updated_at", { ascending: false })
-    .range(start, start + pageSize - 1);
+    .order("updated_at", { ascending: false });
 
   if (options.category) query = query.eq("category", options.category);
+  if (options.category) query = query.range(start, start + pageSize - 1);
 
   const { data, error, count } = await query;
   if (error) throwDatabaseError(error);
-  return { items: ((data ?? []) as ExerciseRow[]).map(mapPublicExercise), total: count ?? 0, page, pageSize };
+
+  const rows = (data ?? []) as ExerciseRow[];
+  const orderedRows = options.category
+    ? rows
+    : [...rows].sort(comparePublicRowsByCategoryOrder).slice(start, start + pageSize);
+
+  return { items: orderedRows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
 }
 
 export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
@@ -260,13 +311,19 @@ export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, s
     .select(exerciseSelect, { count: "exact" })
     .eq("status", "Published")
     .in("id", exerciseIds)
-    .order("updated_at", { ascending: false })
-    .range(start, start + pageSize - 1);
+    .order("updated_at", { ascending: false });
   if (options.category) query = query.eq("category", options.category);
+  if (options.category) query = query.range(start, start + pageSize - 1);
 
   const { data, error, count } = await query;
   if (error) throwDatabaseError(error);
-  return { items: ((data ?? []) as ExerciseRow[]).map(mapPublicExercise), total: count ?? 0, page, pageSize };
+
+  const rows = (data ?? []) as ExerciseRow[];
+  const orderedRows = options.category
+    ? rows
+    : [...rows].sort(comparePublicRowsByCategoryOrder).slice(start, start + pageSize);
+
+  return { items: orderedRows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
 }
 
 export async function getPublishedExerciseByKey(key: string) {
