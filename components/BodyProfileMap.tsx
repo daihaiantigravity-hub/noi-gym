@@ -60,8 +60,7 @@ const jointMapPositions: Record<string, HotspotPosition[]> = {
   ],
 };
 
-const bodyMapViewBox = { width: 660.46, height: 1206.46 };
-const advancedBodyMapViewBox = { width: 676.49, height: 1203.49 };
+const bodyMapViewBox = { width: 676.49, height: 1203.49 };
 
 function getHotspotPosition(position: HotspotPosition, viewBox = bodyMapViewBox) {
   const cx = (position.left / 100) * viewBox.width;
@@ -83,10 +82,10 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
     let isCurrent = true;
 
     Promise.all([
-      fetch("/male-fe.svg"),
-      fetch("/male-be.svg"),
-      fetch("/musclewiki-advanced-fe.svg"),
-      fetch("/musclewiki-advanced-be.svg"),
+      fetch("/male-aligned-fe-v2.svg"),
+      fetch("/male-aligned-be-v2.svg"),
+      fetch("/musclewiki-aligned-fe-v2.svg"),
+      fetch("/musclewiki-aligned-be-v2.svg"),
     ])
       .then(async ([frontResponse, backResponse, advancedFrontResponse, advancedBackResponse]) => {
         if (!frontResponse.ok || !backResponse.ok || !advancedFrontResponse.ok || !advancedBackResponse.ok) {
@@ -151,12 +150,13 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
 
   const modeItems: Array<{ id: BodyMapMode; label: string }> = [
     { id: "standard", label: "Standard" },
-    { id: "advanced", label: "Advanced" },
     { id: "joints", label: "Joints" },
+    { id: "advanced", label: "Advanced" },
+
   ];
   const overlayTargets = activeMode === "joints" ? JOINT_TARGETS : [];
   const overlayPositions = jointMapPositions;
-  const hotspotViewBox = activeMode === "advanced" ? advancedBodyMapViewBox : bodyMapViewBox;
+  const hotspotViewBox = bodyMapViewBox;
 
   return (
     <>
@@ -219,10 +219,8 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
               type="button"
             >
               <div aria-hidden="true" className="body-profile__quick-switch-thumb">
-                {oppositeMarkup ? (
+                {oppositeMarkup && (
                   <div dangerouslySetInnerHTML={{ __html: oppositeMarkup }} />
-                ) : (
-                  <div className="body-profile__loading body-profile__quick-switch-loading" />
                 )}
               </div>
             </button>
@@ -235,10 +233,8 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                   onClick={activeMode === "joints" ? undefined : handleMuscleClick}
                   role="img"
                 >
-                  {activeMarkup ? (
+                  {activeMarkup && (
                     <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
-                  ) : (
-                    <div aria-hidden="true" className="body-profile__loading" />
                   )}
                 </div>
 

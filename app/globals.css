@@ -5578,6 +5578,56 @@ button {
   text-align: center;
 }
 
+.weekly-schedule-list {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.weekly-schedule-list__item {
+  display: grid;
+  grid-template-columns: 100px 110px 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.weekly-schedule-list__item:last-child {
+  border-bottom: none;
+}
+
+.weekly-schedule-list__day {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: -0.01em;
+}
+
+.weekly-schedule-list__session {
+  font-size: 13px;
+  font-weight: 700;
+  color: #9ad1ff;
+  letter-spacing: 0.01em;
+}
+
+.weekly-schedule-list__muscles {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: -0.01em;
+}
+
+.weekly-schedule-list__item--flexible .weekly-schedule-list__day,
+.weekly-schedule-list__item--flexible .weekly-schedule-list__session,
+.weekly-schedule-list__item--flexible .weekly-schedule-list__muscles {
+  opacity: 0.45;
+}
+
 .cardio-card {
   display: flex;
   min-height: 352px;

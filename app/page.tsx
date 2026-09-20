@@ -233,6 +233,16 @@ const workoutRows: { title: string; cards: WorkoutCard[] }[] = [
   },
 ];
 
+const weeklySchedule: { day: string; session: string; muscles: string; flexible?: boolean }[] = [
+  { day: "Thứ 2", session: "Push", muscles: "Ngực · Vai · Tay sau" },
+  { day: "Thứ 3", session: "Pull", muscles: "Lưng · Tay trước" },
+  { day: "Thứ 4", session: "Legs", muscles: "Chân · Mông" },
+  { day: "Thứ 5", session: "Upper", muscles: "Ngực · Lưng · Vai · Tay" },
+  { day: "Thứ 6", session: "Lower", muscles: "Chân · Mông · Core" },
+  { day: "Thứ 7", session: "Linh hoạt", muscles: "Cardio / Core / nhóm cơ yếu", flexible: true },
+  { day: "Chủ nhật", session: "Linh hoạt", muscles: "Nghỉ hoặc cardio nhẹ", flexible: true },
+];
+
 const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string }> = {
   featured: {
     title: "What do you want to train?",
@@ -393,23 +403,35 @@ export default function Home() {
 
         <BodyProfileMap equipment={activeCategory} />
 
+        <section aria-labelledby="weekly-schedule-title" className="health-card cardio-card">
+          <div className="cardio-card__copy">
+            <h2 id="weekly-schedule-title">Lịch tập trong tuần</h2>
+            <ul className="weekly-schedule-list">
+              {weeklySchedule.map((item) => (
+                <li className={`weekly-schedule-list__item${item.flexible ? " weekly-schedule-list__item--flexible" : ""}`} key={item.day}>
+                  <span className="weekly-schedule-list__day">{item.day}</span>
+                  <span className="weekly-schedule-list__session">{item.session}</span>
+                  <span className="weekly-schedule-list__muscles">{item.muscles}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div aria-hidden="true" className="cardio-gauge"><span /><i /></div>
+        </section>
+
+
+
         <div className="workout-showcase-list">
           {workoutRows.map((row) => (
             <WorkoutShowcase cards={row.cards} key={row.title} title={row.title} />
           ))}
         </div>
 
-        <section aria-labelledby="cardio-load-title" className="health-card cardio-card">
-          <div className="cardio-card__copy">
-            <h2 id="cardio-load-title">Daily cardio load</h2>
-            <p>Track your daily activity to see when you&apos;ve reached your cardio load goal.</p>
-          </div>
-          <div aria-hidden="true" className="cardio-gauge"><span /><i /></div>
-        </section>
-
         <section className="health-card fitness-index-card">
           <h2>Fitness index</h2>
         </section>
+
+
       </main>
 
       <nav aria-label="Điều hướng chính" className="health-bottom-nav">
