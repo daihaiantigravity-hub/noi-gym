@@ -5270,6 +5270,15 @@ button {
   margin-top: 8px;
 }
 
+.exercise-library-pagination__pages {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
 .exercise-library-pagination__link {
   display: inline-flex;
   min-width: 94px;
@@ -5292,6 +5301,42 @@ button {
   color: #fff;
   background: rgba(89, 111, 141, 0.58);
   outline: none;
+}
+
+.exercise-library-pagination__page {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(191, 208, 225, 0.22);
+  border-radius: 50%;
+  color: #e5e9ee;
+  background: rgba(17, 41, 77, 0.42);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.exercise-library-pagination__page:hover,
+.exercise-library-pagination__page:focus-visible,
+.exercise-library-pagination__page--active {
+  border-color: rgba(154, 209, 255, 0.8);
+  color: #fff;
+  background: #1974bd;
+  outline: none;
+}
+
+.exercise-library-pagination__ellipsis {
+  display: inline-flex;
+  width: 20px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  color: #aeb6c0;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .exercise-library-pagination__link--disabled {
@@ -5916,6 +5961,23 @@ button {
 }
 
 @media (max-width: 700px) {
+  .exercise-library-pagination__pages {
+    width: 100%;
+  }
+
+  .exercise-library-pagination__link {
+    min-width: 78px;
+  }
+
+  .exercise-library-pagination__page {
+    width: 34px;
+    height: 34px;
+  }
+
+  .exercise-library-pagination__ellipsis {
+    height: 34px;
+  }
+
   .health-page {
     padding-bottom: calc(96px + env(safe-area-inset-bottom));
   }

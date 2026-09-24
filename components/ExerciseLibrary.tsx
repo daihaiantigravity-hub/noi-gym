@@ -49,6 +49,24 @@ function getPageHref(path: string, page: number) {
   return `${pathname}${serializedQuery ? `?${serializedQuery}` : ""}`;
 }
 
+type PaginationItem = number | "ellipsis";
+
+function getPaginationItems(page: number, totalPages: number): PaginationItem[] {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
+
+  if (page <= 4) {
+    return [1, 2, 3, 4, 5, "ellipsis", totalPages];
+  }
+
+  if (page >= totalPages - 3) {
+    return [1, "ellipsis", totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+  }
+
+  return [1, "ellipsis", page - 1, page, page + 1, "ellipsis", totalPages];
+}
+
 function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercise; muscle: string; routePath: string }) {
   const videos = Array.from(
     new Map(
@@ -121,6 +139,8 @@ export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize 
   const totalPages = Math.max(Math.ceil(total / pageSize), 1);
   const firstItem = (page - 1) * pageSize + 1;
   const lastItem = Math.min(page * pageSize, total);
+  const paginationItems = getPaginationItems(page, totalPages);
+  const currentRoutePath = getPageHref(routePath, page);
 
   return (
     <main aria-label={`${muscleName} exercises`} className="exercise-library-page">
@@ -128,11 +148,14 @@ export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize 
         <svg aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         <span>Quay lại</span>
       </button>
-      {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><h2 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h2><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} routePath={routePath} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
+      {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><h2 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h2><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} routePath={currentRoutePath} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
       {totalPages > 1 ? <nav aria-label="Phân trang bài tập" className="exercise-library-pagination">
-        {page > 1 ? <Link className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)}>← Trước</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">← Trước</span>}
+        <div className="exercise-library-pagination__pages">
+          {page > 1 ? <Link aria-label="Trang trước" className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)}>← Trước</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">← Trước</span>}
+          {paginationItems.map((item, index) => item === "ellipsis" ? <span aria-hidden="true" className="exercise-library-pagination__ellipsis" key={`ellipsis-${index}`}>…</span> : item === page ? <span aria-current="page" aria-label={`Trang ${item}`} className="exercise-library-pagination__page exercise-library-pagination__page--active" key={item}>{item}</span> : <Link aria-label={`Trang ${item}`} className="exercise-library-pagination__page" href={getPageHref(routePath, item)} key={item}>{item}</Link>)}
+          {page < totalPages ? <Link aria-label="Trang sau" className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)}>Sau →</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">Sau →</span>}
+        </div>
         <span className="exercise-library-pagination__status">Bài {firstItem}–{lastItem} / {total} · Trang {page} / {totalPages}</span>
-        {page < totalPages ? <Link className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)}>Sau →</Link> : <span aria-hidden="true" className="exercise-library-pagination__link exercise-library-pagination__link--disabled">Sau →</span>}
       </nav> : null}
     </main>
   );

@@ -41,11 +41,13 @@ export default function LazyExerciseVideo({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
+        // Start loading before the video reaches the viewport so scrolling does
+        // not expose an empty poster while the remote media is fetched.
         const visible = entry.isIntersecting && entry.intersectionRatio >= 0.25;
         setIsInViewport(visible);
-        if (visible) setHasEnteredViewport(true);
+        if (entry.isIntersecting) setHasEnteredViewport(true);
       },
-      { threshold: [0, 0.25], rootMargin: "0px" },
+      { threshold: [0, 0.25], rootMargin: "720px 0px" },
     );
 
     observer.observe(video);
@@ -73,7 +75,7 @@ export default function LazyExerciseVideo({
       muted
       playsInline
       poster={poster || undefined}
-      preload={hasEnteredViewport ? "metadata" : "none"}
+      preload={hasEnteredViewport ? "auto" : "none"}
       ref={(element) => {
         videoRef.current = element;
         assignRef(forwardedRef ?? null, element);

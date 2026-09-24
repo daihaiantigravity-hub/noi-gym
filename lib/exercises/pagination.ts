@@ -1,4 +1,4 @@
-export const PUBLIC_EXERCISES_PAGE_SIZE = 10;
+export const PUBLIC_EXERCISES_PAGE_SIZE = 5;
 
 export function parsePage(value: string | string[] | undefined) {
   const rawValue = Array.isArray(value) ? value[0] : value;
