@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useState, type MouseEvent as ReactMouseEvent } from "react";
+import { useEffect, useRef, useState, useTransition, type MouseEvent as ReactMouseEvent, type PointerEvent as ReactPointerEvent } from "react";
 import Link from "next/link";
 import type { EquipmentIconName } from "./EquipmentIcon";
 import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
@@ -71,6 +71,8 @@ function getHotspotPosition(position: HotspotPosition, viewBox = bodyMapViewBox)
 
 export default function BodyProfileMap({ equipment = "featured" }: { equipment?: EquipmentIconName }) {
   const router = useRouter();
+  const prefetchedRoutes = useRef(new Set<string>());
+  const [isPending, startTransition] = useTransition();
   const [activeView, setActiveView] = useState<BodyView>("front");
   const [activeMode, setActiveMode] = useState<BodyMapMode>("standard");
   const [svgMarkup, setSvgMarkup] = useState<{
@@ -119,27 +121,49 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
     };
   }, []);
 
-  function handleMuscleClick(event: ReactMouseEvent<HTMLDivElement>) {
-    if (!(event.target instanceof Element)) {
-      return;
+  function getGroupId(target: EventTarget | null) {
+    if (!(target instanceof Element)) {
+      return null;
     }
 
-    const muscleGroup = event.target.closest<SVGGElement>("g.bodymap");
-    const groupId = muscleGroup?.id;
+    return target.closest<SVGGElement>("g.bodymap")?.id ?? null;
+  }
 
+  function getMuscleRoute(groupId: string) {
+    const categorySlug = equipment === "featured" ? undefined : equipment;
+
+    if (activeMode === "advanced") {
+      return getAdvancedRoute(advancedParentSlugByGroup[groupId] ?? groupId, categorySlug);
+    }
+
+    const muscleSlug = muscleSlugByGroup[groupId] ?? groupId;
+    return categorySlug ? `/exercises/${muscleSlug}/${categorySlug}` : `/exercises/${muscleSlug}`;
+  }
+
+  function handleMusclePointerOver(event: ReactPointerEvent<HTMLDivElement>) {
+    const groupId = getGroupId(event.target);
     if (!groupId) {
       return;
     }
 
-    const categorySlug = equipment === "featured" ? undefined : equipment;
-
-    if (activeMode === "advanced") {
-      router.push(getAdvancedRoute(advancedParentSlugByGroup[groupId] ?? groupId, categorySlug));
+    const route = getMuscleRoute(groupId);
+    if (prefetchedRoutes.current.has(route)) {
       return;
     }
 
-    const muscleSlug = muscleSlugByGroup[groupId] ?? groupId;
-    router.push(categorySlug ? `/exercises/${muscleSlug}/${categorySlug}` : `/exercises/${muscleSlug}`);
+    prefetchedRoutes.current.add(route);
+    router.prefetch(route);
+  }
+
+  function handleMuscleClick(event: ReactMouseEvent<HTMLDivElement>) {
+    const groupId = getGroupId(event.target);
+    if (!groupId || isPending) {
+      return;
+    }
+
+    startTransition(() => {
+      router.push(getMuscleRoute(groupId));
+    });
   }
 
   const bodyLabel = activeView === "front" ? "Cơ trước" : "Cơ sau";
@@ -229,12 +253,20 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
               <div className="body-profile__map-stage">
                 <div
                   aria-label={`${bodyLabel}. ${activeMode === "standard" ? "Chọn một nhóm cơ để xem bài tập." : "Chọn một vùng trên ảnh để xem bài tập."}`}
-                  className={`body-profile__svg${activeMode === "joints" ? " body-profile__svg--overlay" : ""}`}
+                  aria-busy={isPending}
+                  className={`body-profile__svg${activeMode === "joints" ? " body-profile__svg--overlay" : ""}${isPending ? " body-profile__svg--pending" : ""}`}
                   onClick={activeMode === "joints" ? undefined : handleMuscleClick}
+                  onPointerOver={activeMode === "joints" ? undefined : handleMusclePointerOver}
                   role="img"
                 >
                   {activeMarkup && (
                     <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
+                  )}
+                  {isPending && (
+                    <span className="body-profile__navigation-feedback" role="status">
+                      <span aria-hidden="true" className="body-profile__navigation-spinner" />
+                      Đang mở bài tập…
+                    </span>
                   )}
                 </div>
 

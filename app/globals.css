@@ -2501,6 +2501,76 @@
   text-align: center;
 }
 
+@keyframes exercise-library-loading-pulse {
+  0%,
+  100% {
+    opacity: 0.52;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.exercise-library-loading__back,
+.exercise-library-loading__title,
+.exercise-library-loading__line,
+.exercise-library-loading__media {
+  animation: exercise-library-loading-pulse 1.4s ease-in-out infinite;
+  background: linear-gradient(110deg, #202630 8%, #303a49 18%, #202630 33%);
+  background-size: 200% 100%;
+}
+
+.exercise-library-loading__back {
+  width: 98px;
+  height: 38px;
+  border-radius: 999px;
+}
+
+.exercise-library-loading__title {
+  width: min(62%, 360px);
+  height: 42px;
+  border-radius: 12px;
+}
+
+.exercise-library-loading__status {
+  margin: 20px 0 0;
+  color: #b8c1cc;
+  font-size: 14px;
+  text-align: center;
+}
+
+.exercise-library-loading__card {
+  min-height: 390px;
+  padding: clamp(24px, 4vw, 48px) clamp(24px, 4.7vw, 54px);
+  background: linear-gradient(145deg, #17191e 0%, #1b1b1f 100%);
+}
+
+.exercise-library-loading__media {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 22px;
+  border-radius: 24px;
+}
+
+.exercise-library-loading__line {
+  width: 82%;
+  height: 16px;
+  margin-top: 22px;
+  border-radius: 999px;
+}
+
+.exercise-library-loading__line--heading {
+  width: 56%;
+  height: 28px;
+  margin-top: 0;
+}
+
+.exercise-library-loading__line--short {
+  width: 64%;
+  margin-top: 10px;
+}
+
 .exercise-detail-page {
   width: 100%;
   max-width: 980px;
@@ -2929,6 +2999,20 @@
 @media (max-width: 700px) {
   .exercise-library-page {
     padding: 20px 18px calc(100px + env(safe-area-inset-bottom));
+  }
+
+  .exercise-library-loading__title {
+    height: 30px;
+  }
+
+  .exercise-library-loading__card {
+    min-height: 270px;
+    padding: 18px 16px;
+  }
+
+  .exercise-library-loading__media {
+    margin-top: 16px;
+    border-radius: 18px;
   }
 
   .exercise-library-toolbar {
@@ -5453,6 +5537,46 @@ button {
   cursor: pointer;
 }
 
+.body-profile__svg--pending {
+  cursor: progress;
+}
+
+.body-profile__navigation-feedback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: #f4f7fb;
+  background: rgba(20, 31, 48, 0.86);
+  box-shadow: 0 10px 26px rgba(14, 29, 52, 0.22);
+  font-size: 13px;
+  font-weight: 700;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.body-profile__navigation-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: body-profile-navigation-spin 700ms linear infinite;
+}
+
+@keyframes body-profile-navigation-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .body-profile__svg--overlay,
 .body-profile__svg--overlay .bodymap,
 .body-profile__svg--overlay .bodymap path {
@@ -6038,6 +6162,11 @@ button {
   .body-profile__quick-switch-thumb {
     width: 52px;
     height: 94px;
+  }
+
+  .body-profile__navigation-feedback {
+    padding: 8px 10px;
+    font-size: 12px;
   }
 
   .weekly-workouts-card__dot {
