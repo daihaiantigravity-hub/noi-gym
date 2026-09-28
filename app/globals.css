@@ -2001,10 +2001,13 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
-  height: 30px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 0 0 inherit inherit;
+  width: 210px;
+  max-width: 50%;
+  height: 20px;
+  background: linear-gradient(to right, rgba(16, 25, 35, 0.96) 0%, #000000 65%, transparent 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 12px;
   pointer-events: none;
   z-index: 1;
 }
@@ -2531,6 +2534,7 @@
 }
 
 @keyframes exercise-library-loading-pulse {
+
   0%,
   100% {
     opacity: 0.52;
@@ -4366,6 +4370,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .health-topbar,
   .health-bottom-nav__pill,
   .health-scan-button,
@@ -5222,7 +5227,24 @@ button {
 }
 
 .exercise-library-showcase__real-video {
+  position: relative;
   background: #101923;
+}
+
+.exercise-library-showcase__real-video::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+  max-width: 45%;
+  height: 34px;
+  background: linear-gradient(to right, rgba(16, 25, 35, 0.96) 0%, rgba(16, 25, 35, 0.85) 65%, transparent 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .exercise-library-showcase__video {
@@ -5406,6 +5428,7 @@ button {
 }
 
 @media (hover: hover) {
+
   a.exercise-library-pagination__page:hover,
   a.exercise-library-pagination__link:hover,
   .exercise-library-pagination__jump:hover {
@@ -5425,6 +5448,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .exercise-library-pagination__link,
   .exercise-library-pagination__page {
     transition: none;
@@ -6446,6 +6470,7 @@ button {
     gap: 14px;
   }
 }
+
 .body-profile-mode-switcher {
   display: flex;
   width: fit-content;
