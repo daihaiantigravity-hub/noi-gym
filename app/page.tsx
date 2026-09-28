@@ -5,7 +5,6 @@ import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
-import { useHealthMood } from "@/hooks/useHealthMood";
 
 type IconName =
   | "grid"
@@ -352,11 +351,10 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState<EquipmentIconName>("featured");
-  const healthMood = useHealthMood();
   const activeCategoryCopy = categoryCopy[activeCategory];
 
   return (
-    <div className="health-page health-mood-surface" data-health-mood={healthMood}>
+    <div className="health-page health-mood-surface">
       <header className="health-topbar">
         <div className="health-topbar__row">
           <span className="health-brand">444 Health</span>

@@ -18,6 +18,9 @@ Open [http://localhost:3001](http://localhost:3001) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+For time-of-day background configuration, development theme previews, and the
+verification checklist, see [Health background](docs/health-background.md).
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

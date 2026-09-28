@@ -110,10 +110,10 @@ export default async function ExerciseDetailPage({
 
       <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={displayName} />
 
-      <section className="exercise-detail-copy">
+      {/* <section className="exercise-detail-copy">
         <div className="exercise-detail-copy__heading"><h1>{displayName}</h1></div>
         <p>{exercise.description || `Hãy thử bài tập ${displayName} hàng ngày để duy trì sức khỏe và hoàn thành đúng kỹ thuật.`}</p>
-      </section>
+      </section> */}
 
       <section aria-labelledby="exercise-instructions-title" className="exercise-detail-instructions">
         <h2 id="exercise-instructions-title">Các bước tập</h2>

@@ -1,17 +1,15 @@
 "use client";
 
-import { useHealthMood } from "@/hooks/useHealthMood";
-
 const loadingCards = ["first", "second", "third"];
 
 export default function ExerciseLibraryLoading() {
-  const healthMood = useHealthMood();
-
   return (
-    <main aria-busy="true" aria-label="Đang tải danh sách bài tập" className="exercise-library-page exercise-library-loading health-mood-surface" data-health-mood={healthMood}>
-      <div aria-hidden="true" className="exercise-library-loading__back" />
-      <section aria-hidden="true" className="exercise-library-results">
+    <main aria-busy="true" aria-label="Đang tải danh sách bài tập" className="exercise-library-page exercise-library-loading health-mood-surface">
+      <header aria-hidden="true" className="exercise-library-header">
+        <div className="exercise-library-loading__back" />
         <div className="exercise-library-loading__title" />
+      </header>
+      <section aria-hidden="true" className="exercise-library-results">
         <div className="exercise-library-results__list">
           {loadingCards.map((card) => (
             <article className="health-card exercise-library-loading__card" key={card}>

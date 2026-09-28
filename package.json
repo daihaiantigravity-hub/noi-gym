@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start -p 3001",
     "lint": "eslint",
+    "test:health-background": "node --test tests/health-background.test.mjs",
+    "test:pagination": "node --test tests/exercise-pagination.test.mjs",
     "seed:exercises": "node scripts/seed-exercises.mjs",
     "prepare:musclewiki-import": "node scripts/migration/convert-musclewiki-dom-to-import.mjs",
     "upload:musclewiki-media": "node scripts/migration/upload-musclewiki-media.mjs",
