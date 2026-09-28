@@ -428,11 +428,11 @@ export default function Home() {
 
 
 
-        <div className="workout-showcase-list">
+        {/* <div className="workout-showcase-list">
           {workoutRows.map((row) => (
             <WorkoutShowcase cards={row.cards} key={row.title} title={row.title} />
           ))}
-        </div>
+        </div> */}
 
         <section className="health-card fitness-index-card">
           <h2>Fitness index</h2>
