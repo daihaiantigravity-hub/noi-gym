@@ -5,6 +5,7 @@ import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
+import { useHealthMood } from "@/hooks/useHealthMood";
 
 type IconName =
   | "grid"
@@ -147,16 +148,23 @@ function Icon({ name, size = 28 }: { name: IconName; size?: number }) {
         </>
       )}
       {name === "home" && (
+        <path
+          d="M10.9 2.9a1.8 1.8 0 0 1 2.2 0l7 5.4c.5.4.8 1 .8 1.6v9.4a2 2 0 0 1-2 2H5.1a2 2 0 0 1-2-2V9.9c0-.6.3-1.2.8-1.6l7-5.4ZM8.3 12.8c0-1.9 2.2-2.8 3.7-1.3 1.5-1.5 3.7-.6 3.7 1.3 0 1.7-1.7 2.8-3.7 4.3-2-1.5-3.7-2.6-3.7-4.3Z"
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      )}
+      {name === "together" && (
         <>
-          <path {...common} d="m4.3 10.7 7.7-6 7.7 6v8.1a1.7 1.7 0 0 1-1.7 1.7H6a1.7 1.7 0 0 1-1.7-1.7Z" />
-          <path {...common} d="M8.6 13.6c0-1.7 2-2.5 3.4-1.2 1.4-1.3 3.4-.5 3.4 1.2 0 1.5-1.5 2.4-3.4 3.4-1.9-1-3.4-1.9-3.4-3.4Z" />
+          <path {...common} d="M5 3v18" />
+          <path {...common} d="M5 4c2.5-1.4 4.8-.6 7.1.1 2.2.7 4.5 1.3 6.9.2v10.8c-2.4 1.1-4.7.5-6.9-.2-2.3-.7-4.6-1.5-7.1-.1" />
         </>
       )}
-      {name === "together" && <path {...common} d="M4.2 5.2v13.6c3.2-2 5.4-2 8.6 0 3.2-2 5.4-2 7 0V5.2c-1.6-1-3.8-1-7 1-3.2-2-5.4-2-8.6-1Z" />}
       {name === "fitness" && (
         <>
           <rect {...common} height="14" rx="2.3" width="15.8" x="4.1" y="5.2" />
-          <path {...common} d="M8 3.5v3M16 3.5v3M8 15.2l2.1 2 4.2-4.4" />
+          <path {...common} d="M8 3.5v3M16 3.5v3" />
+          <path {...common} d="m10 9.5 5 3.5-5 3.5Z" />
         </>
       )}
     </svg>
@@ -344,10 +352,11 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState<EquipmentIconName>("featured");
+  const healthMood = useHealthMood();
   const activeCategoryCopy = categoryCopy[activeCategory];
 
   return (
-    <div className="health-page">
+    <div className="health-page health-mood-surface" data-health-mood={healthMood}>
       <header className="health-topbar">
         <div className="health-topbar__row">
           <span className="health-brand">444 Health</span>
@@ -436,20 +445,20 @@ export default function Home() {
 
       <nav aria-label="Điều hướng chính" className="health-bottom-nav">
         <div className="health-bottom-nav__pill">
-          <button className="health-bottom-nav__item health-bottom-nav__item--active" type="button">
-            <Icon name="home" size={33} />
+          <button aria-current="page" className="health-bottom-nav__item health-bottom-nav__item--active" type="button">
+            <Icon name="home" size={24} />
             <span>Home</span>
           </button>
           <button className="health-bottom-nav__item" type="button">
-            <Icon name="together" size={34} />
+            <Icon name="together" size={24} />
             <span>Together</span>
           </button>
           <button className="health-bottom-nav__item" type="button">
-            <Icon name="fitness" size={34} />
+            <Icon name="fitness" size={24} />
             <span>Fitness</span>
           </button>
         </div>
-        <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={33} /></Link>
+        <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
       </nav>
     </div>
   );

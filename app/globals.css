@@ -4364,50 +4364,121 @@ button {
 }
 
 .health-page {
-  position: relative;
   width: 100%;
   max-width: 100%;
   min-height: 100svh;
   overflow-x: clip;
   padding-bottom: calc(142px + env(safe-area-inset-bottom));
-  isolation: isolate;
 }
 
-.health-page::before,
-.health-page::after {
-  position: absolute;
+/* Shared viewport background for Home, exercise lists, and their loading state. */
+.health-mood-surface {
+  position: relative;
+  isolation: isolate;
+  --health-bg-top: #102e4a;
+  --health-bg-mid: #122a41;
+  --health-bg-lower: #172933;
+  --health-bg-end: #102536;
+  --health-glow-primary: rgba(142, 111, 55, 0.13);
+  --health-topbar-start: rgba(15, 41, 64, 0.95);
+  --health-topbar-mid: rgba(18, 42, 65, 0.82);
+  background: transparent;
+}
+
+.health-mood-surface[data-health-mood="dawn"] {
+  --health-bg-top: #102e49;
+  --health-bg-mid: #142f45;
+  --health-bg-lower: #1c3035;
+  --health-bg-end: #142832;
+  --health-glow-primary: rgba(171, 125, 59, 0.11);
+  --health-topbar-start: rgba(15, 41, 64, 0.95);
+  --health-topbar-mid: rgba(20, 47, 69, 0.82);
+}
+
+.health-mood-surface[data-health-mood="morning"] {
+  --health-bg-top: #102e4a;
+  --health-bg-mid: #122a41;
+  --health-bg-lower: #172933;
+  --health-bg-end: #102536;
+  --health-glow-primary: rgba(142, 111, 55, 0.13);
+}
+
+.health-mood-surface[data-health-mood="midday"] {
+  --health-bg-top: #122f49;
+  --health-bg-mid: #162f42;
+  --health-bg-lower: #1a3033;
+  --health-bg-end: #12292f;
+  --health-glow-primary: rgba(153, 127, 55, 0.15);
+  --health-topbar-start: rgba(17, 45, 70, 0.95);
+  --health-topbar-mid: rgba(22, 47, 65, 0.82);
+}
+
+.health-mood-surface[data-health-mood="afternoon"] {
+  --health-bg-top: #1b3040;
+  --health-bg-mid: #213738;
+  --health-bg-lower: #192d31;
+  --health-bg-end: #14272d;
+  --health-glow-primary: rgba(108, 108, 61, 0.14);
+  --health-topbar-start: rgba(26, 47, 63, 0.95);
+  --health-topbar-mid: rgba(33, 55, 57, 0.82);
+}
+
+.health-mood-surface[data-health-mood="evening"] {
+  --health-bg-top: #1c2b40;
+  --health-bg-mid: #213037;
+  --health-bg-lower: #1b2933;
+  --health-bg-end: #171e31;
+  --health-glow-primary: rgba(88, 61, 114, 0.13);
+  --health-topbar-start: rgba(27, 42, 62, 0.95);
+  --health-topbar-mid: rgba(32, 47, 56, 0.82);
+}
+
+.health-mood-surface[data-health-mood="night"] {
+  --health-bg-top: #0b1c37;
+  --health-bg-mid: #11263f;
+  --health-bg-lower: #141f36;
+  --health-bg-end: #0d1931;
+  --health-glow-primary: rgba(64, 72, 125, 0.12);
+  --health-topbar-start: rgba(11, 28, 55, 0.96);
+  --health-topbar-mid: rgba(17, 38, 63, 0.82);
+}
+
+.health-mood-surface::before {
+  position: fixed;
+  inset: 0;
   z-index: -1;
   display: block;
-  border-radius: 50%;
+  width: auto;
+  height: auto;
+  border-radius: 0;
   content: "";
-  filter: blur(42px);
   pointer-events: none;
+  background:
+    radial-gradient(42% 28% at 8% 68%, var(--health-glow-primary), transparent 76%),
+    linear-gradient(180deg, var(--health-bg-top) 0%, var(--health-bg-mid) 31%, var(--health-bg-lower) 67%, var(--health-bg-end) 100%);
+  transition: background 1200ms ease;
 }
 
-.health-page::before {
-  top: 46%;
-  left: -16%;
-  width: 60%;
-  height: 27%;
-  background: rgba(100, 67, 42, 0.22);
-}
-
-.health-page::after {
-  right: -15%;
-  bottom: -2%;
-  width: 54%;
-  height: 25%;
-  background: rgba(34, 102, 62, 0.22);
+@media (prefers-reduced-motion: reduce) {
+  .health-mood-surface,
+  .health-mood-surface::before,
+  .health-topbar,
+  .health-bottom-nav__pill,
+  .health-scan-button,
+  .health-bottom-nav__item--active {
+    transition: none;
+  }
 }
 
 .health-topbar {
   position: relative;
   z-index: 2;
   width: 100%;
-  padding: 30px clamp(30px, 7.2vw, 74px) 16px;
-  background: linear-gradient(180deg, rgba(16, 41, 77, 0.98) 52%, rgba(16, 41, 77, 0.82) 84%, rgba(16, 41, 77, 0));
+  padding: 22px clamp(30px, 7.2vw, 74px) 16px;
+  background: linear-gradient(180deg, var(--health-topbar-start) 52%, var(--health-topbar-mid) 84%, transparent);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
+  transition: background 1200ms ease;
   animation: health-topbar-scroll-fade linear both;
   animation-range: 0 220px;
   animation-timeline: scroll(root block);
@@ -4425,19 +4496,19 @@ button {
   min-width: 0;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 12px;
   max-width: 980px;
-  margin: 0 auto 26px;
+  margin: 0 auto 16px;
 }
 
 .health-brand {
   min-width: 0;
   overflow: hidden;
   color: #f5f6f8;
-  font-size: clamp(30px, 4.5vw, 51px);
+  font-size: clamp(20px, 2.2vw, 28px);
   font-weight: 700;
-  letter-spacing: -0.065em;
-  line-height: 1;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
   white-space: nowrap;
 }
 
@@ -4446,7 +4517,7 @@ button {
   min-width: 0;
   flex: 0 0 auto;
   align-items: center;
-  gap: clamp(12px, 2vw, 24px);
+  gap: 4px;
   color: #f3f6f9;
 }
 
@@ -4462,12 +4533,22 @@ button {
 
 .health-icon-button {
   display: grid;
-  width: 47px;
-  height: 47px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   padding: 0;
   color: #eef3f7;
   background: transparent;
+}
+
+.health-topbar__row .health-icon-button .health-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.health-topbar__row .health-icon-button--more .health-icon {
+  width: 22px;
+  height: 22px;
 }
 
 .health-icon-button--more {
@@ -4475,21 +4556,26 @@ button {
 }
 
 .health-avatar {
+  --health-avatar-size: 30px;
   display: grid;
-  width: 58px;
-  height: 58px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   padding: 0;
   border-radius: 50%;
-  background: #f5f6f7;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
-  font-size: 31px;
+  background: transparent;
+  font-size: 18px;
   line-height: 1;
 }
 
 .health-avatar span {
-  display: block;
-  transform: translateY(2px);
+  display: grid;
+  width: var(--health-avatar-size);
+  height: var(--health-avatar-size);
+  place-items: center;
+  border-radius: 50%;
+  background: #f5f6f7;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 .health-category-nav-shell {
@@ -4502,17 +4588,19 @@ button {
   display: flex;
   align-items: stretch;
   width: 100%;
-  height: 83px;
+  height: 48px;
   min-width: 0;
   margin: 0 auto;
-  padding: 5px;
-  border: 1px solid rgba(117, 142, 165, 0.18);
-  border-radius: 44px;
-  background: rgba(24, 47, 71, 0.94);
-  box-shadow: 0 12px 30px rgba(3, 12, 26, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  -webkit-backdrop-filter: blur(22px) saturate(125%);
-  backdrop-filter: blur(22px) saturate(125%);
+  padding: 2px;
+  border: 1px solid rgba(206, 221, 231, 0.14);
+  border-radius: 999px;
+  background: rgba(203, 218, 228, 0.035);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-padding-inline: 4px;
   scrollbar-width: none;
 }
 
@@ -4522,16 +4610,13 @@ button {
 
 .health-category-button {
   display: flex;
-  width: 75px;
-  flex: 0 0 75px;
-  min-width: 0;
+  flex: 0 0 72px;
+  min-width: 48px;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 3px;
   padding: 0;
-  border-radius: 40px;
-  color: #c6ccd2;
+  border-radius: 999px;
+  color: #bdcbd6;
   background: transparent;
   line-height: 1;
   transition: color 160ms ease, background-color 160ms ease;
@@ -4540,8 +4625,8 @@ button {
 .health-equipment-icon {
   --health-equipment-icon-scale: 1;
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
   overflow: hidden;
   transform: scale(var(--health-equipment-icon-scale));
@@ -4550,9 +4635,12 @@ button {
 
 /* Optical corrections keep the source artwork intact while balancing perceived size. */
 .health-equipment-icon--featured,
-.health-equipment-icon--barbell,
-.health-equipment-icon--machine {
+.health-equipment-icon--barbell {
   --health-equipment-icon-scale: 1.2;
+}
+
+.health-equipment-icon--machine {
+  --health-equipment-icon-scale: 1.05;
 }
 
 .health-equipment-icon--bodyweight,
@@ -4581,8 +4669,21 @@ button {
 }
 
 .health-category-button--active {
-  color: #f0f3f7;
-  background: rgba(88, 111, 138, 0.62);
+  color: #f0f4f8;
+  background: rgba(184, 201, 216, 0.21);
+}
+
+@media (hover: hover) {
+  .health-category-button:not(.health-category-button--active):hover {
+    color: #f0f4f8;
+    background: rgba(184, 201, 216, 0.09);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .health-category-button {
+    transition: none;
+  }
 }
 
 .health-category-button:focus-visible,
@@ -4592,6 +4693,10 @@ button {
 .health-scan-button:focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.9);
   outline-offset: 3px;
+}
+
+.health-category-button:focus-visible {
+  outline-offset: -3px;
 }
 
 .health-content {
@@ -4637,7 +4742,11 @@ button {
 .health-card.exercise-library-exercise-card {
   border-radius: clamp(30px, 4vw, 48px);
   padding: clamp(24px, 4vw, 48px) clamp(24px, 4.7vw, 54px) clamp(26px, 4vw, 42px);
-  background: linear-gradient(145deg, #17191e 0%, #1b1b1f 100%);
+  /* Subtle warm-to-cool charcoal sampled from the reference cards; stable while scrolling. */
+  background:
+    radial-gradient(ellipse 70% 100% at 0% 55%, rgba(80, 49, 18, 0.09) 0%, rgba(80, 49, 18, 0) 70%),
+    linear-gradient(90deg, #22211d 0%, #1d1e20 48%, #161a23 100%);
+  box-shadow: 0 6px 18px rgba(4, 9, 20, 0.1);
 }
 
 .health-card h2 {
@@ -5894,70 +6003,88 @@ button {
 }
 
 .health-bottom-nav {
+  --health-bottom-nav-height: 64px;
+  --health-nav: rgba(36, 36, 42, 0.96);
+  --health-nav-border: rgba(235, 237, 243, 0.05);
+  --health-nav-active: rgba(255, 255, 255, 0.1);
   position: fixed;
   z-index: 30;
   right: 0;
   bottom: max(14px, env(safe-area-inset-bottom));
   left: 0;
   display: flex;
-  width: min(calc(100% - 30px), 710px);
+  width: min(85%, 420px);
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   pointer-events: none;
 }
 
 .health-bottom-nav__pill,
 .health-scan-button {
-  border: 1px solid rgba(117, 142, 165, 0.18);
-  background: rgba(24, 47, 71, 0.94);
-  box-shadow: 0 12px 30px rgba(3, 12, 26, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  -webkit-backdrop-filter: blur(22px) saturate(125%);
-  backdrop-filter: blur(22px) saturate(125%);
+  border: 1px solid var(--health-nav-border);
+  background: var(--health-nav);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   pointer-events: auto;
 }
 
 .health-bottom-nav__pill {
   display: flex;
-  height: 83px;
+  height: var(--health-bottom-nav-height);
   min-width: 0;
   flex: 1;
-  padding: 5px;
-  border-radius: 44px;
+  padding: 4px;
+  border-radius: 999px;
 }
 
 .health-bottom-nav__item {
   display: flex;
   min-width: 0;
-  flex: 1;
+  flex: 1 1 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 3px;
-  border-radius: 40px;
-  color: #c6ccd2;
+  padding: 0 2px;
+  border-radius: 999px;
+  color: #c5c5cb;
   background: transparent;
-  font-size: clamp(14px, 2vw, 21px);
-  line-height: 1;
+  font-size: 13px;
+  line-height: 1.15;
+  white-space: nowrap;
   transition: color 160ms ease, background-color 160ms ease;
 }
 
 .health-bottom-nav__item--active {
-  color: #f1f4f7;
-  background: rgba(88, 111, 138, 0.62);
+  color: #f3f3f6;
+  background-color: var(--health-nav-active);
+}
+
+.health-bottom-nav .health-icon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
 }
 
 .health-scan-button {
   display: grid;
-  width: 83px;
-  height: 83px;
-  flex: 0 0 83px;
+  width: var(--health-bottom-nav-height);
+  height: var(--health-bottom-nav-height);
+  flex: 0 0 var(--health-bottom-nav-height);
   place-items: center;
   padding: 0;
   border-radius: 50%;
-  color: #eff3f6;
+  color: #f0f0f3;
   text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .health-bottom-nav__item {
+    transition: none;
+  }
 }
 
 @media (max-width: 700px) {
@@ -5989,10 +6116,11 @@ button {
   .health-topbar__row {
     gap: 6px;
     margin-bottom: 12px;
+    padding-inline: 8px;
   }
 
   .health-brand {
-    font-size: clamp(20px, 6.5vw, 29px);
+    font-size: clamp(18px, 4.6vw, 20px);
   }
 
   .health-topbar__actions {
@@ -6000,14 +6128,25 @@ button {
   }
 
   .health-icon-button {
-    width: 38px;
+    width: 40px;
     height: 40px;
   }
 
+  .health-topbar__row .health-icon-button .health-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .health-topbar__row .health-icon-button--more .health-icon {
+    width: 20px;
+    height: 20px;
+  }
+
   .health-avatar {
+    --health-avatar-size: 24px;
     width: 40px;
     height: 40px;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .health-category-nav-shell {
@@ -6015,21 +6154,13 @@ button {
   }
 
   .health-category-nav {
-    height: 42px;
-    padding: 0px;
-    border-radius: 34px;
+    height: 44px;
+    padding: 1px;
   }
 
   .health-category-button {
-    width: 64px;
-    flex-basis: 64px;
-    border-radius: 28px;
-  }
-
-  .health-category-button .health-icon,
-  .health-category-button .health-equipment-icon {
-    width: 25px;
-    height: 25px;
+    /* A partial next item makes horizontal scrolling discoverable on phones. */
+    flex-basis: clamp(48px, calc(100% / 5.5), 72px);
   }
 
   .health-content {
@@ -6310,13 +6441,8 @@ button {
   }
 
   .health-bottom-nav {
-    width: calc(100% - 16px);
-    gap: 5px;
-  }
-
-  .health-bottom-nav__pill {
-    height: 60px;
-    padding: 4px;
+    --health-bottom-nav-height: 54px;
+    gap: 6px;
   }
 
   .health-bottom-nav__item {
@@ -6324,18 +6450,7 @@ button {
     font-size: 12px;
   }
 
-  .health-bottom-nav__item .health-icon {
-    width: 23px;
-    height: 23px;
-  }
-
-  .health-scan-button {
-    width: 60px;
-    height: 60px;
-    flex-basis: 60px;
-  }
-
-  .health-scan-button .health-icon {
+  .health-bottom-nav .health-icon {
     width: 24px;
     height: 24px;
   }
@@ -6381,7 +6496,6 @@ button {
   display: flex;
   width: fit-content;
   max-width: 100%;
-  margin-top: 24px;
   padding: 4px;
   gap: 4px;
   border: 1px solid rgba(72, 74, 104, 0.16);

@@ -1,14 +1,17 @@
 import "server-only";
 
-import { createSupabaseAdminClient, createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import { revalidateTag, unstable_cache } from "next/cache";
+import { createSupabaseAdminClient, createSupabaseServerClient, isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
 import { getExerciseCategoryOrder } from "./category-order";
-import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleName } from "./source";
+import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import type { ValidatedExerciseInput } from "./validation";
 import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
 import type { ExerciseTargetMode } from "./types";
 
 const exerciseSelect = "id, source, source_id, name, slug, description, primary_muscles, category, force, grips, mechanic, difficulty, status, steps, media, source_snapshot, created_at, updated_at";
+const publicOrderSelect = "id, name, category, updated_at";
+export const PUBLIC_EXERCISES_CACHE_TAG = "public-exercises";
 
 type ExerciseRow = {
   id: string;
@@ -30,6 +33,9 @@ type ExerciseRow = {
   created_at: string;
   updated_at: string;
 };
+
+type PublicOrderRow = Pick<ExerciseRow, "id" | "name" | "category" | "updated_at">;
+type PublicQueryClient = Awaited<ReturnType<typeof createSupabaseServerClient>>;
 
 function mapRow(row: ExerciseRow): ExerciseRecord {
   return {
@@ -255,7 +261,7 @@ function getPublicPageOptions(options: { page?: number; pageSize?: number }) {
   return { page, pageSize, start: (page - 1) * pageSize };
 }
 
-function comparePublicRowsByCategoryOrder(first: ExerciseRow, second: ExerciseRow) {
+function comparePublicRowsByCategoryOrder(first: PublicOrderRow, second: PublicOrderRow) {
   const categoryDifference = getExerciseCategoryOrder(first.category) - getExerciseCategoryOrder(second.category);
   if (categoryDifference !== 0) return categoryDifference;
 
@@ -265,37 +271,57 @@ function comparePublicRowsByCategoryOrder(first: ExerciseRow, second: ExerciseRo
   return first.name.localeCompare(second.name);
 }
 
-export async function listPublishedExercises(muscle: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
-  const { page, pageSize, start } = getPublicPageOptions(options);
-  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
+async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: string[]) {
+  if (ids.length === 0) return [];
 
-  const supabase = await createSupabaseServerClient();
-  let query = supabase
+  const { data, error } = await supabase
     .from("exercises")
-    .select(exerciseSelect, { count: "exact" })
+    .select(exerciseSelect)
     .eq("status", "Published")
-    .overlaps("primary_muscles", [getSourceMuscleName(muscle)])
-    .order("updated_at", { ascending: false });
-
-  if (options.category) query = query.eq("category", options.category);
-  if (options.category) query = query.range(start, start + pageSize - 1);
-
-  const { data, error, count } = await query;
+    .in("id", ids);
   if (error) throwDatabaseError(error);
 
-  const rows = (data ?? []) as ExerciseRow[];
-  const orderedRows = options.category
-    ? rows
-    : [...rows].sort(comparePublicRowsByCategoryOrder).slice(start, start + pageSize);
-
-  return { items: orderedRows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+  const rowsById = new Map((data ?? []).map((row) => [String(row.id), mapPublicExercise(row as ExerciseRow)]));
+  return ids.flatMap((id) => {
+    const exercise = rowsById.get(id);
+    return exercise ? [exercise] : [];
+  });
 }
 
-export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+async function listPublishedExercisesWithClient(supabase: PublicQueryClient, muscleNames: string[], options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
   const { page, pageSize, start } = getPublicPageOptions(options);
-  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
+  if (options.category) {
+    const { data, error, count } = await supabase
+      .from("exercises")
+      .select(exerciseSelect, { count: "exact" })
+      .eq("status", "Published")
+      .overlaps("primary_muscles", muscleNames)
+      .eq("category", options.category)
+      .order("updated_at", { ascending: false })
+      .range(start, start + pageSize - 1);
+    if (error) throwDatabaseError(error);
 
-  const supabase = await createSupabaseServerClient();
+    const rows = (data ?? []) as ExerciseRow[];
+    return { items: rows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+  }
+
+  const { data: orderData, error: orderError, count } = await supabase
+    .from("exercises")
+    .select(publicOrderSelect, { count: "exact" })
+    .eq("status", "Published")
+    .overlaps("primary_muscles", muscleNames);
+  if (orderError) throwDatabaseError(orderError);
+
+  const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
+    .sort(comparePublicRowsByCategoryOrder)
+    .slice(start, start + pageSize);
+  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id));
+
+  return { items, total: count ?? orderData?.length ?? 0, page, pageSize };
+}
+
+async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryClient, mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+  const { page, pageSize, start } = getPublicPageOptions(options);
   const { data: targets, error: targetError } = await supabase
     .from("exercise_targets")
     .select("exercise_id")
@@ -306,24 +332,79 @@ export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, s
   const exerciseIds = (targets ?? []).map((target) => String(target.exercise_id));
   if (exerciseIds.length === 0) return { items: [], total: 0, page, pageSize };
 
-  let query = supabase
+  if (options.category) {
+    const { data, error, count } = await supabase
+      .from("exercises")
+      .select(exerciseSelect, { count: "exact" })
+      .eq("status", "Published")
+      .in("id", exerciseIds)
+      .eq("category", options.category)
+      .order("updated_at", { ascending: false })
+      .range(start, start + pageSize - 1);
+    if (error) throwDatabaseError(error);
+
+    const rows = (data ?? []) as ExerciseRow[];
+    return { items: rows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+  }
+
+  const { data: orderData, error: orderError } = await supabase
     .from("exercises")
-    .select(exerciseSelect, { count: "exact" })
+    .select(publicOrderSelect)
     .eq("status", "Published")
-    .in("id", exerciseIds)
-    .order("updated_at", { ascending: false });
-  if (options.category) query = query.eq("category", options.category);
-  if (options.category) query = query.range(start, start + pageSize - 1);
+    .in("id", exerciseIds);
+  if (orderError) throwDatabaseError(orderError);
 
-  const { data, error, count } = await query;
-  if (error) throwDatabaseError(error);
+  const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
+    .sort(comparePublicRowsByCategoryOrder)
+    .slice(start, start + pageSize);
+  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id));
 
-  const rows = (data ?? []) as ExerciseRow[];
-  const orderedRows = options.category
-    ? rows
-    : [...rows].sort(comparePublicRowsByCategoryOrder).slice(start, start + pageSize);
+  return { items, total: orderData?.length ?? 0, page, pageSize };
+}
 
-  return { items: orderedRows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+const getCachedPublishedExercises = unstable_cache(
+  async (muscleNames: string[], category: string, page: number, pageSize: number) => listPublishedExercisesWithClient(
+    createSupabaseAdminClient(),
+    muscleNames,
+    { category: category || undefined, page, pageSize },
+  ),
+  ["public-exercises"],
+  { revalidate: 60, tags: [PUBLIC_EXERCISES_CACHE_TAG] },
+);
+
+const getCachedPublishedExercisesByTarget = unstable_cache(
+  async (mode: ExerciseTargetMode, slug: string, category: string, page: number, pageSize: number) => listPublishedExercisesByTargetWithClient(
+    createSupabaseAdminClient(),
+    mode,
+    slug,
+    { category: category || undefined, page, pageSize },
+  ),
+  ["public-exercises-by-target"],
+  { revalidate: 60, tags: [PUBLIC_EXERCISES_CACHE_TAG] },
+);
+
+export async function listPublishedExercises(muscle: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+  const { page, pageSize } = getPublicPageOptions(options);
+  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
+
+  // Include the resolved names in the cache key, not just their potentially outdated slug.
+  const muscleNames = getSourceMuscleNames(muscle);
+  if (isDatabaseConfigured()) {
+    return getCachedPublishedExercises(muscleNames, options.category ?? "", page, pageSize);
+  }
+
+  return listPublishedExercisesWithClient(await createSupabaseServerClient(), muscleNames, { ...options, page, pageSize });
+}
+
+export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+  const { page, pageSize } = getPublicPageOptions(options);
+  if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
+
+  if (isDatabaseConfigured()) {
+    return getCachedPublishedExercisesByTarget(mode, slug, options.category ?? "", page, pageSize);
+  }
+
+  return listPublishedExercisesByTargetWithClient(await createSupabaseServerClient(), mode, slug, { ...options, page, pageSize });
 }
 
 export async function getPublishedExerciseByKey(key: string) {
@@ -348,6 +429,7 @@ export async function createExercise(input: ValidatedExerciseInput) {
   const supabase = createSupabaseAdminClient();
   const { data, error } = await supabase.from("exercises").insert(toDatabaseRow(input)).select("id").single();
   if (error) throwDatabaseError(error);
+  revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, "max");
   return getExercise((data as { id: string }).id);
 }
 
@@ -355,6 +437,7 @@ export async function updateExercise(id: string, input: ValidatedExerciseInput) 
   const supabase = createSupabaseAdminClient();
   const { error } = await supabase.from("exercises").update(toDatabaseRow(input)).eq("id", id);
   if (error) throwDatabaseError(error);
+  revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, "max");
   return getExercise(id);
 }
 
@@ -362,6 +445,7 @@ export async function deleteExercise(id: string) {
   const supabase = createSupabaseAdminClient();
   const { error } = await supabase.from("exercises").delete().eq("id", id);
   if (error) throwDatabaseError(error);
+  revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, "max");
 }
 
 export async function upsertExercises(inputs: ValidatedExerciseInput[]) {
@@ -371,5 +455,6 @@ export async function upsertExercises(inputs: ValidatedExerciseInput[]) {
   const rows = inputs.map(toDatabaseRow);
   const { error } = await supabase.from("exercises").upsert(rows, { onConflict: "source,source_id" });
   if (error) throwDatabaseError(error);
+  revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, "max");
   return inputs.length;
 }

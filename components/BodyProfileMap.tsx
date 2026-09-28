@@ -10,8 +10,6 @@ type BodyView = "front" | "back";
 type BodyMapMode = "standard" | "advanced" | "joints";
 
 const muscleSlugByGroup: Record<string, string> = {
-  "front-shoulders": "shoulders",
-  "rear-shoulders": "shoulders",
   "traps-middle": "traps",
 };
 

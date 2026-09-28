@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
+import { useHealthMood } from "@/hooks/useHealthMood";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import type { PublicExercise } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
@@ -135,6 +136,7 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
 
 export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
   const router = useRouter();
+  const healthMood = useHealthMood();
   const muscleName = targetLabel ?? formatMuscleName(muscle);
   const totalPages = Math.max(Math.ceil(total / pageSize), 1);
   const firstItem = (page - 1) * pageSize + 1;
@@ -143,7 +145,7 @@ export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize 
   const currentRoutePath = getPageHref(routePath, page);
 
   return (
-    <main aria-label={`${muscleName} exercises`} className="exercise-library-page">
+    <main aria-label={`${muscleName} exercises`} className="exercise-library-page health-mood-surface" data-health-mood={healthMood}>
       <button aria-label="Quay lại trang chủ" className="exercise-library-back-button" onClick={() => router.push("/")} type="button">
         <svg aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         <span>Quay lại</span>

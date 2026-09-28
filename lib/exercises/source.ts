@@ -113,12 +113,14 @@ const sourceMuscleNameBySlug: Record<string, string> = {
   biceps: "Biceps",
   calves: "Calves",
   chest: "Chest",
+  "front-shoulders": "Front Shoulders",
   glutes: "Glutes",
   hamstrings: "Hamstrings",
   lats: "Lats",
   lowerback: "Lower back",
   obliques: "Obliques",
   quads: "Quads",
+  "rear-shoulders": "Rear Shoulders",
   shoulders: "Shoulders",
   traps: "Traps",
   triceps: "Triceps",
@@ -127,6 +129,13 @@ const sourceMuscleNameBySlug: Record<string, string> = {
 export function getSourceMuscleName(muscle: string) {
   const normalizedMuscle = muscle.trim().toLowerCase();
   return sourceMuscleNameBySlug[normalizedMuscle] ?? muscle;
+}
+
+export function getSourceMuscleNames(muscle: string) {
+  // Keep older /shoulders links useful without merging the individual body-map selections.
+  return muscle.trim().toLowerCase() === "shoulders"
+    ? ["Shoulders", "Front Shoulders", "Rear Shoulders"]
+    : [getSourceMuscleName(muscle)];
 }
 
 function normalizeDifficulty(value: string | undefined): ExerciseDifficulty | "" {
@@ -236,11 +245,11 @@ export function getLocalExerciseList(filters: { query?: string; status?: string;
 }
 
 export function getLocalPublicExercises(muscle: string, options: { category?: string } = {}): PublicExercise[] {
-  const targetMuscle = getSourceMuscleName(muscle).toLowerCase();
+  const targetMuscles = getSourceMuscleNames(muscle).map((name) => name.toLowerCase());
   const targetCategory = options.category?.trim().toLowerCase();
 
   const exercises = collectedExercises
-    .filter((exercise) => exercise.primary_muscles?.some((group) => group.toLowerCase() === targetMuscle))
+    .filter((exercise) => exercise.primary_muscles?.some((group) => targetMuscles.includes(group.toLowerCase())))
     .filter((exercise) => !targetCategory || exercise.category?.toLowerCase() === targetCategory)
     .map((exercise) => {
       const form = toFormValues(exercise);
