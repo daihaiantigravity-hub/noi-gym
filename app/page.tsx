@@ -368,7 +368,7 @@ export default function Home() {
     <div className="health-page health-mood-surface">
       <header className="health-topbar">
         <div className="health-topbar__row">
-          <span className="health-brand">444 Health</span>
+          <span className="health-brand">Equix Health</span>
           <div className="health-topbar__actions">
             {/* <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
             <button aria-label="Hồ sơ cá nhân" className="health-avatar" type="button"><span>🧔🏻</span></button>
@@ -439,11 +439,11 @@ export default function Home() {
 
 
 
-        <div className="workout-showcase-list">
+        {/* <div className="workout-showcase-list">
           {workoutRows.map((row) => (
             <WorkoutShowcase cards={row.cards} key={row.title} title={row.title} />
           ))}
-        </div>
+        </div> */}
 
         <section className="health-card fitness-index-card">
           <h2>Fitness index</h2>

@@ -2030,6 +2030,22 @@
   object-fit: cover;
 }
 
+.exercise-detail-hero__watermark-cover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+  max-width: 50%;
+  height: 10%;
+  min-width: 100px;
+  background: linear-gradient(to right, rgba(16, 25, 35, 0.96) 0%, #000000 65%, transparent 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
+}
+
 @media (max-width: 1000px) {
   .admin-shell {
     grid-template-columns: 218px minmax(0, 1fr);
@@ -2609,6 +2625,7 @@
 }
 
 @keyframes exercise-library-loading-pulse {
+
   0%,
   100% {
     opacity: 0.52;
@@ -4444,6 +4461,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .health-topbar,
   .health-bottom-nav__pill,
   .health-scan-button,
@@ -4719,13 +4737,14 @@ button {
 }
 
 .health-card.exercise-library-exercise-card {
-  border-radius: clamp(30px, 4vw, 48px);
+  border-radius: clamp(24px, 3.5vw, 36px);
   padding: clamp(24px, 4vw, 48px) clamp(24px, 4.7vw, 54px) clamp(26px, 4vw, 42px);
-  /* Subtle warm-to-cool charcoal sampled from the reference cards; stable while scrolling. */
-  background:
-    radial-gradient(ellipse 70% 100% at 0% 55%, rgba(80, 49, 18, 0.09) 0%, rgba(80, 49, 18, 0) 70%),
-    linear-gradient(90deg, #22211d 0%, #1d1e20 48%, #161a23 100%);
-  box-shadow: 0 6px 18px rgba(4, 9, 20, 0.1);
+  /* Dark charcoal base sampled directly from Samsung Health 'Exercise' card with high opacity and subtle blur */
+  background: linear-gradient(145deg, rgba(24, 27, 34, 0.92) 0%, rgba(19, 21, 27, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 12px 32px rgba(4, 8, 18, 0.28);
 }
 
 .health-card h2 {
@@ -5015,7 +5034,11 @@ button {
 .workout-showcase {
   min-width: 0;
   padding: clamp(30px, 4vw, 48px) clamp(24px, 4.7vw, 54px) clamp(28px, 4vw, 44px);
-  background: linear-gradient(145deg, #17191e 0%, #1b1b1f 100%);
+  background: linear-gradient(145deg, rgba(24, 27, 34, 0.92) 0%, rgba(19, 21, 27, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 12px 32px rgba(4, 8, 18, 0.28);
 }
 
 .workout-showcase__header {
@@ -5300,7 +5323,25 @@ button {
 }
 
 .exercise-library-showcase__real-video {
+  position: relative;
   background: #101923;
+}
+
+.exercise-library-showcase__real-video::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 210px;
+  max-width: 50%;
+  height: 10%;
+  min-width: 160px;
+  background: linear-gradient(to right, rgba(16, 25, 35, 0.96) 0%, #000000 65%, transparent 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom-left-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .exercise-library-showcase__video {
@@ -5484,6 +5525,7 @@ button {
 }
 
 @media (hover: hover) {
+
   a.exercise-library-pagination__page:hover,
   a.exercise-library-pagination__link:hover,
   .exercise-library-pagination__jump:hover {
@@ -5503,6 +5545,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .exercise-library-pagination__link,
   .exercise-library-pagination__page {
     transition: none;

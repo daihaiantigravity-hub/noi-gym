@@ -55,6 +55,9 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
           return (
             <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
               {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`${title} demonstration video ${index + 1}`} poster={selectedMedia.posterUrl} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+              {selectedMedia?.videoUrl && (
+                <div aria-hidden="true" className="exercise-detail-hero__watermark-cover" />
+              )}
             </section>
           );
         })}
