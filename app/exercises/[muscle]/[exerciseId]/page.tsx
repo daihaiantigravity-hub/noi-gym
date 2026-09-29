@@ -7,6 +7,7 @@ import { getPublishedExerciseByKey, listPublishedExercises, listPublishedExercis
 import { getLocalPublicExerciseById, getLocalPublicExercises } from "@/lib/exercises/source";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, getExerciseCategoryBySlug, getJointTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
+import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercise, PublicExercisePage } from "@/lib/exercises/types";
 
 const muscleNameBySlug: Record<string, string> = {
@@ -43,11 +44,12 @@ export default async function ExerciseDetailPage({
   const { muscle, exerciseId } = await params;
   const queryParams = await searchParams;
   const view = Array.isArray(queryParams.view) ? queryParams.view[0] : queryParams.view;
+  const gender = parseExerciseGender(queryParams.gender);
   const page = parsePage(queryParams.page);
   const category = getExerciseCategoryBySlug(exerciseId);
   const advancedTarget = getAdvancedTarget(muscle);
   const jointTarget = getJointTarget(muscle);
-  const isJointRoute = Boolean(jointTarget && exerciseId === jointTarget.pathSuffix);
+  const isJointRoute = Boolean(jointTarget && exerciseId === jointTarget.pathSuffix && view !== "category");
   const isAdvancedView = Boolean(advancedTarget && (!isAdvancedSlugConflict(muscle) || view === "advanced"));
 
   if (category || isJointRoute) {
@@ -55,47 +57,42 @@ export default async function ExerciseDetailPage({
     if (isSupabaseConfigured()) {
       try {
         databasePage = isJointRoute && jointTarget
-          ? await listPublishedExercisesByTarget("joint", jointTarget.slug, { page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
+          ? await listPublishedExercisesByTarget("joint", jointTarget.slug, { gender, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
           : isAdvancedView && advancedTarget
-            ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { category, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
-            : await listPublishedExercises(muscle, { category, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE });
+            ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { category, gender, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
+            : await listPublishedExercises(muscle, { category, gender, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE });
       } catch {
         databasePage = null;
       }
     }
 
-    const localExercises = !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle, { category }) : [];
+    const localExercises = gender !== "female" && !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle, { category }) : [];
     const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
-    // A registered DOM dataset is the canonical scoped migration set. Use the
-    // Published query when it represents that complete set; otherwise fall
-    // back to the exact local dataset so stale/duplicate Published rows do not
-    // leak into a filtered equipment route.
-    const hasCompleteDatabaseSet = databasePage && localExercises.length > 0 && databasePage.total === localExercises.length;
-    const pageData = hasCompleteDatabaseSet || localExercises.length === 0 ? databasePage ?? localPage : localPage;
+    const pageData = databasePage ?? localPage;
     const routePath = isJointRoute
       ? `/exercises/${muscle}/${exerciseId}`
       : isAdvancedView
         ? getAdvancedRoute(muscle, exerciseId)
-        : `/exercises/${muscle}/${exerciseId}`;
+        : `/exercises/${muscle}/${exerciseId}${view === "category" ? "?view=category" : ""}`;
     const targetLabel = isJointRoute ? jointTarget?.label : isAdvancedView ? advancedTarget?.label : undefined;
-    return <ExerciseLibrary exercises={pageData.items} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={routePath} targetLabel={targetLabel} total={pageData.total} />;
+    return <ExerciseLibrary exercises={pageData.items} gender={gender ?? "male"} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={withExerciseGender(routePath, gender)} targetLabel={targetLabel} total={pageData.total} />;
   }
 
   let databaseExercise: PublicExercise | null = null;
   if (isSupabaseConfigured()) {
     try {
-      databaseExercise = await getPublishedExerciseByKey(exerciseId);
+      databaseExercise = await getPublishedExerciseByKey(exerciseId, gender);
     } catch {
       databaseExercise = null;
     }
   }
-  const exercise = databaseExercise ?? getLocalPublicExerciseById(exerciseId);
+  const exercise = databaseExercise ?? (gender === "female" ? null : getLocalPublicExerciseById(exerciseId));
   if (!exercise) notFound();
 
   const displayName = getDisplayExerciseName(exercise.name);
   const steps = exercise.steps.filter(Boolean);
   const mediaCount = Math.max(exercise.media.length, 1);
-  const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : `/exercises/${muscle}`;
+  const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : withExerciseGender(`/exercises/${muscle}`, gender);
 
   return (
     <main aria-label={`${displayName} details`} className="exercise-detail-page">

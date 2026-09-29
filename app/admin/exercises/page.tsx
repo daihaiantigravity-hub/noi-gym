@@ -1,6 +1,6 @@
 import Link from "next/link";
 import DeleteExerciseButton from "@/components/admin/DeleteExerciseButton";
-import { EXERCISE_CATEGORIES, EXERCISE_MUSCLES, EXERCISE_STATUSES } from "@/lib/exercises/constants";
+import AdminExerciseFilters from "@/components/admin/AdminExerciseFilters";
 import { getLocalExerciseList } from "@/lib/exercises/source";
 import { listExercises, getExerciseStats } from "@/lib/exercises/repository";
 import type { ExerciseListFilters, ExerciseStats } from "@/lib/exercises/types";
@@ -16,8 +16,8 @@ function localStats(items: ReturnType<typeof getLocalExerciseList>): ExerciseSta
   return {
     total: items.length,
     draft: items.filter((item) => item.status === "Draft").length,
-    published: 0,
-    archived: 0,
+    published: items.filter((item) => item.status === "Published").length,
+    archived: items.filter((item) => item.status === "Archived").length,
   };
 }
 
@@ -33,15 +33,25 @@ export default async function AdminExercisesPage({ searchParams }: { searchParam
   const status = firstParam(params.status) ?? "";
   const muscle = firstParam(params.muscle) ?? "";
   const source = firstParam(params.source) ?? "";
+  const gender = firstParam(params.gender) ?? "";
   const page = Math.max(Number(firstParam(params.page) ?? 1) || 1, 1);
+  const requestedPageSize = Number(firstParam(params.pageSize) ?? 50);
+  const pageSize = [20, 50, 100].includes(requestedPageSize) ? requestedPageSize : 50;
   const databaseConfigured = isDatabaseConfigured();
 
-  const filters: ExerciseListFilters = { page, pageSize: 20, query, category, status: status as ExerciseListFilters["status"], muscle, source: source as ExerciseListFilters["source"] };
-  const localItems = getLocalExerciseList({ query, category, status });
-  const [result, stats] = databaseConfigured ? await Promise.all([listExercises(filters), getExerciseStats()]) : [null, localStats(localItems)];
-  const items = result?.items ?? localItems.slice((page - 1) * 20, page * 20);
+  const filters: ExerciseListFilters = { page, pageSize, query, category, status: status as ExerciseListFilters["status"], muscle, source: source as ExerciseListFilters["source"], gender: gender as ExerciseListFilters["gender"] };
+  const localItems = getLocalExerciseList({ query, category, status, gender: gender as ExerciseListFilters["gender"] });
+  const [result, stats] = databaseConfigured ? await Promise.all([listExercises(filters), getExerciseStats()]) : [null, localStats(getLocalExerciseList({}))];
+  const items = result?.items ?? localItems.slice((page - 1) * pageSize, page * pageSize);
   const total = result?.total ?? localItems.length;
-  const totalPages = Math.max(Math.ceil(total / 20), 1);
+  const totalPages = Math.max(Math.ceil(total / pageSize), 1);
+  const rangeStart = total ? (page - 1) * pageSize + 1 : 0;
+  const rangeEnd = Math.min(page * pageSize, total);
+  function listHref(nextPage: number, nextPageSize = pageSize) {
+    const next = new URLSearchParams({ q: query, category, muscle, status, gender, page: String(nextPage), pageSize: String(nextPageSize) });
+    if (source) next.set("source", source);
+    return `?${next}`;
+  }
 
   return (
     <main className="admin-page">
@@ -65,15 +75,9 @@ export default async function AdminExercisesPage({ searchParams }: { searchParam
       </section>
 
       <section className="admin-list-panel">
-        <form className="admin-filter-bar" method="get">
-          <label className="admin-search-field"><span aria-hidden="true">⌕</span><input defaultValue={query} name="q" placeholder="Tìm theo tên bài tập…" /></label>
-          <select defaultValue={category} name="category"><option value="">Tất cả equipment</option>{EXERCISE_CATEGORIES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
-          <select defaultValue={muscle} name="muscle"><option value="">Tất cả nhóm cơ</option>{EXERCISE_MUSCLES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
-          <select defaultValue={status} name="status"><option value="">Tất cả status</option>{EXERCISE_STATUSES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
-          <button className="admin-button admin-button--small" type="submit">Lọc</button>
-        </form>
+        <AdminExerciseFilters category={category} gender={gender} key={`${category}:${muscle}:${status}:${gender}:${source}:${pageSize}`} muscle={muscle} pageSize={pageSize} query={query} source={source} status={status} />
 
-        <div className="admin-list-heading"><div><span className="admin-eyebrow">EXERCISES</span><h2>{total} bài tập</h2></div><span className="admin-list-page">Trang {page}/{totalPages}</span></div>
+        <div className="admin-list-heading"><div><span className="admin-eyebrow">EXERCISES</span><h2>{total.toLocaleString("vi-VN")} bài tập</h2></div><div className="admin-list-page-controls"><span className="admin-list-page">Đang hiển thị {rangeStart.toLocaleString("vi-VN")}–{rangeEnd.toLocaleString("vi-VN")} · Trang {page}/{totalPages}</span><div className="admin-page-size">Mỗi trang: {[20, 50, 100].map((size) => <Link aria-current={pageSize === size ? "page" : undefined} href={listHref(1, size)} key={size}>{size}</Link>)}</div></div></div>
 
         {items.length > 0 ? (
           <div className="admin-table-wrap">
@@ -82,7 +86,7 @@ export default async function AdminExercisesPage({ searchParams }: { searchParam
               <tbody>
                 {items.map((exercise) => (
                   <tr key={exercise.id}>
-                    <td><div className="admin-exercise-name"><strong>{exercise.name}</strong><small>{exercise.source === "musclewiki" ? `MuscleWiki #${exercise.sourceId}` : "Custom"} · {exercise.stepsCount} steps · {exercise.mediaCount} media</small></div></td>
+                    <td><div className="admin-exercise-name"><strong>{exercise.name}</strong><small>{exercise.source === "musclewiki" ? `MuscleWiki #${exercise.sourceId}` : "Custom"} · {exercise.stepsCount} steps · {exercise.mediaCount} media{exercise.femaleMediaCount > 0 ? ` · ${exercise.femaleMediaCount} video nữ` : ""}</small></div></td>
                     <td><div className="admin-tag-list">{exercise.primaryMuscles.slice(0, 2).map((item) => <span className="admin-tag" key={item}>{item}</span>)}{exercise.primaryMuscles.length > 2 ? <span className="admin-tag">+{exercise.primaryMuscles.length - 2}</span> : null}</div></td>
                     <td>{exercise.category || "—"}</td>
                     <td>{exercise.difficulty || "—"}</td>
@@ -97,8 +101,8 @@ export default async function AdminExercisesPage({ searchParams }: { searchParam
         ) : <div className="admin-empty-state"><strong>Không tìm thấy bài tập</strong><p>Thử thay đổi bộ lọc hoặc tạo một bài tập mới.</p></div>}
 
         <nav className="admin-pagination" aria-label="Phân trang">
-          {page > 1 ? <Link className="admin-button admin-button--small" href={`?q=${encodeURIComponent(query)}&category=${encodeURIComponent(category)}&muscle=${encodeURIComponent(muscle)}&status=${encodeURIComponent(status)}&page=${page - 1}`}>← Trước</Link> : <span />}
-          {page < totalPages ? <Link className="admin-button admin-button--small" href={`?q=${encodeURIComponent(query)}&category=${encodeURIComponent(category)}&muscle=${encodeURIComponent(muscle)}&status=${encodeURIComponent(status)}&page=${page + 1}`}>Sau →</Link> : <span />}
+          {page > 1 ? <Link className="admin-button admin-button--small" href={listHref(page - 1)}>← Trước</Link> : <span />}
+          {page < totalPages ? <Link className="admin-button admin-button--small" href={listHref(page + 1)}>Sau →</Link> : <span />}
         </nav>
       </section>
     </main>

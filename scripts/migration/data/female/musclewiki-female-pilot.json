@@ -1,0 +1,264 @@
+{
+  "total": 5,
+  "count": 5,
+  "gender": "female",
+  "staged": true,
+  "results": [
+    {
+      "id": 203251843849973,
+      "name": "Dumbbell Curl",
+      "primary_muscles": [
+        "Biceps"
+      ],
+      "category": "Dumbbells",
+      "category_source": "existing-project-dataset",
+      "primary_muscles_source": "existing-project-dataset",
+      "force": "Pull",
+      "grips": "Underhand",
+      "mechanic": "Isolation",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand up straight with a dumbbell in each hand at arm's length.",
+        "Raise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder.",
+        "Lower to original position and repeat with opposite arm"
+      ],
+      "videos": [
+        {
+          "gender": "female",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/female-Dumbbells-dumbbell-curl-front.mp4"
+        },
+        {
+          "gender": "female",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/female-Dumbbells-dumbbell-curl-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-curl",
+      "female_source_url": "https://musclewiki.com/exercise/dumbbell-curl?model=f",
+      "listed_in": [
+        "biceps"
+      ],
+      "listed_in_scopes": [
+        "equipment:biceps:dumbbells"
+      ],
+      "joint_targets": [],
+      "source_equipment": [
+        "dumbbells"
+      ],
+      "video_resolution": null,
+      "metadata_source": "existing-project-dataset"
+    },
+    {
+      "id": 32795438904903,
+      "name": "Dumbbell Bench Press",
+      "primary_muscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "category": "Dumbbells",
+      "category_source": "existing-project-dataset",
+      "primary_muscles_source": "existing-project-dataset",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Start by lying flat on a bench with a dumbbell in each hand.",
+        "Hold the dumbbells at chest level with your palms facing forward.",
+        "Engage your core and press the dumbbells upward until your arms are fully extended."
+      ],
+      "videos": [
+        {
+          "gender": "female",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/female-dumbbell-bench-press-front_9Asgczg.mp4"
+        },
+        {
+          "gender": "female",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/female-dumbbell-bench-press-side_5wGWrBA.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/dumbbell-bench-press",
+      "female_source_url": "https://musclewiki.com/exercise/dumbbell-bench-press?model=f",
+      "listed_in": [
+        "chest",
+        "triceps",
+        "mid-lower-pectoralis"
+      ],
+      "listed_in_scopes": [
+        "equipment:chest:dumbbells",
+        "equipment:triceps:dumbbells",
+        "equipment:mid-lower-pectoralis:dumbbells"
+      ],
+      "joint_targets": [],
+      "source_equipment": [
+        "dumbbells"
+      ],
+      "video_resolution": null,
+      "metadata_source": "existing-project-dataset"
+    },
+    {
+      "id": 94137702848114,
+      "name": "Bodyweight Squat",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Bodyweight",
+      "category_source": "existing-project-dataset",
+      "primary_muscles_source": "existing-project-dataset",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Novice",
+      "steps": [
+        "Stand with your feet shoulder width apart.",
+        "flex your knees and hips and sit back into the squat while lowering your body",
+        "Continue down to full depth",
+        "Return to starting position."
+      ],
+      "videos": [
+        {
+          "gender": "female",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/female-Bodyweight-bodyweight-squat-front.mp4"
+        },
+        {
+          "gender": "female",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/female-Bodyweight-bodyweight-squat-side.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/bodyweight-squat",
+      "female_source_url": "https://musclewiki.com/exercise/bodyweight-squat?model=f",
+      "listed_in": [
+        "glutes",
+        "quads",
+        "groin"
+      ],
+      "listed_in_scopes": [
+        "equipment:glutes:bodyweight",
+        "equipment:quads:bodyweight",
+        "equipment:groin:bodyweight"
+      ],
+      "joint_targets": [],
+      "source_equipment": [
+        "bodyweight"
+      ],
+      "video_resolution": null,
+      "metadata_source": "existing-project-dataset"
+    },
+    {
+      "id": 228701448245355,
+      "name": "Barbell Squat",
+      "primary_muscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "category": "Barbell",
+      "category_source": "existing-project-dataset",
+      "primary_muscles_source": "existing-project-dataset",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet shoulder-width apart. Maintain the natural arch in your back, squeezing your shoulder blades and raising your chest.",
+        "Grip the bar across your shoulders and support it on your upper back. Unwrack the bar by straightening your legs, and take a step back.",
+        "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+        "Raise the bar back to starting position, lift with your legs and exhale at the top."
+      ],
+      "videos": [
+        {
+          "gender": "female",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/female-Barbell-barbell-squat-side.mp4"
+        },
+        {
+          "gender": "female",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/female-Barbell-barbell-squat-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/barbell-squat",
+      "female_source_url": "https://musclewiki.com/exercise/barbell-squat?model=f",
+      "listed_in": [
+        "glutes",
+        "quads",
+        "gluteus-maximus",
+        "groin",
+        "inner-quadricep",
+        "inner-thigh",
+        "outer-quadricep"
+      ],
+      "listed_in_scopes": [
+        "equipment:glutes:barbell",
+        "equipment:quads:barbell",
+        "equipment:gluteus-maximus:barbell",
+        "equipment:groin:barbell",
+        "equipment:inner-quadricep:barbell",
+        "equipment:inner-thigh:barbell",
+        "equipment:outer-quadricep:barbell"
+      ],
+      "joint_targets": [],
+      "source_equipment": [
+        "barbell"
+      ],
+      "video_resolution": null,
+      "metadata_source": "existing-project-dataset"
+    },
+    {
+      "id": 244282570501512,
+      "name": "Kettlebell Swing",
+      "primary_muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "category": "Kettlebells",
+      "category_source": "existing-project-dataset",
+      "primary_muscles_source": "existing-project-dataset",
+      "force": "",
+      "grips": "",
+      "mechanic": "",
+      "difficulty": "Intermediate",
+      "steps": [
+        "Stand with your feet slightly wider than shoulder width apart holding the kettlebell between your legs, with your knees slightly bent.",
+        "Keeping your back straight, swing the kettlebell upwards until the kettlebell is level with your chest and carefully lower.",
+        "Repeat"
+      ],
+      "videos": [
+        {
+          "gender": "female",
+          "angle": "side",
+          "url": "https://musclewiki.com/api-next/videos/female-Kettlebells-kettlebell-swing-side.mp4"
+        },
+        {
+          "gender": "female",
+          "angle": "front",
+          "url": "https://musclewiki.com/api-next/videos/female-Kettlebells-kettlebell-swing-front.mp4"
+        }
+      ],
+      "source_url": "https://musclewiki.com/exercise/kettlebell-swing",
+      "female_source_url": "https://musclewiki.com/exercise/kettlebell-swing?model=f",
+      "listed_in": [
+        "glutes",
+        "hamstrings",
+        "lowerback"
+      ],
+      "listed_in_scopes": [
+        "equipment:glutes:kettlebells",
+        "equipment:hamstrings:kettlebells",
+        "equipment:lowerback:kettlebells"
+      ],
+      "joint_targets": [],
+      "source_equipment": [
+        "kettlebells"
+      ],
+      "video_resolution": null,
+      "metadata_source": "existing-project-dataset"
+    }
+  ]
+}

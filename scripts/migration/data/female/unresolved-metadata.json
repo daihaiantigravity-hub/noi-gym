@@ -1,0 +1,5161 @@
+[
+  {
+    "id": 133634048251802,
+    "name": "Cable Bayesian Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-bilateral-bayesian-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep",
+      "short-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables",
+      "equipment:short-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 270246703347966,
+    "name": "Kettlebell Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-curl?model=f",
+    "listedIn": [
+      "biceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 259041202422115,
+    "name": "Cable Bar Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-bar-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep",
+      "short-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables",
+      "equipment:short-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 141760311797131,
+    "name": "Cable Rope Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-rope-hammer-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep",
+      "short-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables",
+      "equipment:short-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 69379561529948,
+    "name": "Cable Seated Bayesian Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-seated-bayesian-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep",
+      "short-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables",
+      "equipment:short-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 171870237463856,
+    "name": "Cable Seated Bayesian Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-seated-bayesian-hammer-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 16570803956169,
+    "name": "Cable Hammer Bayesian Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-hammer-bayesian-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "long-head-bicep"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-bicep:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 207600834561573,
+    "name": "Vitruvian Hammer Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/hammer-curl?model=f",
+    "listedIn": [
+      "biceps",
+      "forearms"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 14531307015647,
+    "name": "Vitruvian Row",
+    "sourceUrl": "https://musclewiki.com/exercise/row?model=f",
+    "listedIn": [
+      "biceps",
+      "forearms",
+      "lats",
+      "traps-middle"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 203274909870157,
+    "name": "Vitruvian Single Arm Row",
+    "sourceUrl": "https://musclewiki.com/exercise/single-arm-row?model=f",
+    "listedIn": [
+      "biceps",
+      "lats",
+      "traps-middle"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 265755113577058,
+    "name": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+    "sourceUrl": "https://musclewiki.com/exercise/core-stability-2-opposite-shoulder-tap-4pt-position?model=f",
+    "listedIn": [
+      "biceps",
+      "abdominals",
+      "front-shoulders",
+      "obliques",
+      "triceps",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 152807065317940,
+    "name": "Dumbbell Service Exercise",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-service-exercise?model=f",
+    "listedIn": [
+      "biceps",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 269702062694359,
+    "name": "Seated Ulnar Nerve Slider",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-ulnar-nerve-slider?model=f",
+    "listedIn": [
+      "biceps"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "joint:elbow",
+      "joint:wrist",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders",
+      "elbow",
+      "wrist"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 172429706755604,
+    "name": "Seated Ulnar Nerve Tensioner",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-ulnar-nerve-tensioner?model=f",
+    "listedIn": [
+      "biceps"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "joint:elbow",
+      "joint:wrist",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders",
+      "elbow",
+      "wrist"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 88574895966462,
+    "name": "Hand Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/hand-plank?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals",
+      "upper-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight",
+      "equipment:upper-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 60967590151027,
+    "name": "Hollow Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/hollow-hold?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals",
+      "upper-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight",
+      "equipment:upper-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 239640197946916,
+    "name": "Mountain Climber",
+    "sourceUrl": "https://musclewiki.com/exercise/mountain-climber?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 55816303914970,
+    "name": "Bicycle Crunch",
+    "sourceUrl": "https://musclewiki.com/exercise/bicycle-crunch?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals",
+      "upper-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight",
+      "equipment:upper-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 177221108532512,
+    "name": "Long Lever Forearm Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/long-lever-forearm-plank?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals",
+      "upper-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight",
+      "equipment:upper-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 242062595447848,
+    "name": "Situp",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-situp?model=f",
+    "listedIn": [
+      "abdominals",
+      "upper-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:upper-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 214579671708130,
+    "name": "Bodyweight Knee Plank Up Down",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-knee-plank-up-down?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 151039896184340,
+    "name": "Bodyweight Plank Up Down",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-plank-up-down?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 146914002687807,
+    "name": "Dumbbell Laying Row",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-row?model=f",
+    "listedIn": [
+      "biceps",
+      "lats"
+    ],
+    "listedInScopes": [
+      "equipment:biceps:dumbbells",
+      "equipment:lats:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 21914748569507,
+    "name": "Landmine Meadows Row",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-meadows-row?model=f",
+    "listedIn": [
+      "biceps",
+      "lats"
+    ],
+    "listedInScopes": [
+      "equipment:biceps:barbell",
+      "equipment:lats:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 258828132017337,
+    "name": "Machine Horizontal Leg Press Calf Jump",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-horizontal-leg-press-calf-jump?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [
+      "equipment:gastrocnemius:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 347632512597,
+    "name": "Machine Horizontal Leg Press Calf Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-horizontal-leg-press-calf-raise?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [
+      "equipment:gastrocnemius:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 131337355514201,
+    "name": "Vitruvian Seated Calf Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-calf-raise?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 239864540178915,
+    "name": "Vitruvian Standing Calf Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-calf-raise?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 106876038169730,
+    "name": "Vitruvian Crunch",
+    "sourceUrl": "https://musclewiki.com/exercise/crunch?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 100713647956893,
+    "name": "Bird Dog",
+    "sourceUrl": "https://musclewiki.com/exercise/bird-dog?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 203269736260600,
+    "name": "Dead Bug",
+    "sourceUrl": "https://musclewiki.com/exercise/dead-bug?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 211986485241312,
+    "name": "Reverse Crunch",
+    "sourceUrl": "https://musclewiki.com/exercise/reverse-crunch?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 44062184739400,
+    "name": "Rower Knee Tuck",
+    "sourceUrl": "https://musclewiki.com/exercise/rower-knee-tuck?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [
+      "equipment:lower-abdominals:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 55929479556481,
+    "name": "Calf Isometric On Step",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-isometric-on-step?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 141041524017149,
+    "name": "Calf Mobilisation Seated Floor Roll",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-mobilisation-seated-floor-roll?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 141810277333592,
+    "name": "Calf Raise 1A Bilateral Eccentric Floor",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1a-bilateral-eccentric-floor?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 129970133942741,
+    "name": "Calf Raise 1B Bilateral Floor",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1b-bilateral-floor?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 72053964370442,
+    "name": "Calf Raise 1C Bilateral Eccentric From Box",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1c-bilateral-eccentric-from-box?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 64586261744742,
+    "name": "Calf Raise 1D Bilateral From Box",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1d-bilateral-from-box?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 6120381531421,
+    "name": "Calf Raise 1E Bilateral Isometric Floor",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1e-bilateral-isometric-floor?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 86072620127856,
+    "name": "Calf Raise 2A Eccentric Unilateral Floor",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2a-eccentric-unilateral-floor?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 94859898052284,
+    "name": "Calf Raise 2B Unilateral Floor",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2b-unilateral-floor?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 267729420447142,
+    "name": "Calf Raise 2C Eccentric Unilateral From Box",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2c-eccentric-unilateral-from-box?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 80753214638055,
+    "name": "Calf Raise 2D Unilateral From Box",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2d-unilateral-from-box?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 9164432996481,
+    "name": "Core Stability 1 Crosslateral Limb Raise 4Pt Position",
+    "sourceUrl": "https://musclewiki.com/exercise/core-stability-1-crosslateral-limb-raise-4pt-position?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders",
+      "glutes",
+      "obliques",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 277110802770001,
+    "name": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+    "sourceUrl": "https://musclewiki.com/exercise/core-stability-4-crosslateral-limb-raise-push-up-position?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders",
+      "glutes",
+      "obliques",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 126975764659687,
+    "name": "Core Stability 5 Crosslateral Limb Raise Into Knee Elbow Tuck Push Up Position",
+    "sourceUrl": "https://musclewiki.com/exercise/core-stability-5-crosslateral-limb-raise-into-knee-elbow-tuck-push-up-position?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders",
+      "glutes",
+      "obliques",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 39077319856727,
+    "name": "Core Stability Regression Crosslateral Limb Raise Push Up Position",
+    "sourceUrl": "https://musclewiki.com/exercise/core-stability-regression-crosslateral-limb-raise-push-up-position?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders",
+      "glutes",
+      "obliques",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 264723024041495,
+    "name": "Dead Bugs Cross Lateral",
+    "sourceUrl": "https://musclewiki.com/exercise/dead-bugs-cross-lateral?model=f",
+    "listedIn": [
+      "abdominals",
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 269016496789816,
+    "name": "Dead Bugs Same Side",
+    "sourceUrl": "https://musclewiki.com/exercise/dead-bugs-same-side?model=f",
+    "listedIn": [
+      "abdominals",
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 105960536666171,
+    "name": "Calf Raise 3A Soleus Bias Bilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-3a-soleus-bias-bilateral?model=f",
+    "listedIn": [
+      "calves",
+      "soleus"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 8659988472903,
+    "name": "Calf Raise 3B Soleus Bias Unilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-3b-soleus-bias-unilateral?model=f",
+    "listedIn": [
+      "calves",
+      "soleus"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 96883155344193,
+    "name": "Calf Raise Isometric Unilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-raise-isometric-unilateral?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 176283122068822,
+    "name": "Calf Stretch On Box Bilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/calf-stretch-on-box-bilateral?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 76813505491882,
+    "name": "Gastrocnemius Stretch Bilateral On Box",
+    "sourceUrl": "https://musclewiki.com/exercise/gastrocnemius-stretch-bilateral-on-box?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 275243826603572,
+    "name": "Gastrocnemius Stretch Push Up Position",
+    "sourceUrl": "https://musclewiki.com/exercise/gastrocnemius-stretch-push-up-position?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 55852239164899,
+    "name": "Gastrocnemius Stretch Unilateral On Box",
+    "sourceUrl": "https://musclewiki.com/exercise/gastrocnemius-stretch-unilateral-on-box?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 163848782915213,
+    "name": "Gastrocnemius Stretch Unilateral On Wall",
+    "sourceUrl": "https://musclewiki.com/exercise/gastrocnemius-stretch-unilateral-on-wall?model=f",
+    "listedIn": [
+      "calves",
+      "gastrocnemius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 181506875447260,
+    "name": "Leg Lowers",
+    "sourceUrl": "https://musclewiki.com/exercise/leg-lowers?model=f",
+    "listedIn": [
+      "abdominals",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 103024131298659,
+    "name": "Plank Saw",
+    "sourceUrl": "https://musclewiki.com/exercise/plank-2-saw?model=f",
+    "listedIn": [
+      "abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 184838679105531,
+    "name": "Serratus Activation Active Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/serratus-activation-active-plank?model=f",
+    "listedIn": [
+      "abdominals",
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 154224024868920,
+    "name": "Bosu Serratus Activation Active Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-serratus-activation-active-plank?model=f",
+    "listedIn": [
+      "abdominals",
+      "chest"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 159336626897711,
+    "name": "Seated Plantar Flexions",
+    "sourceUrl": "https://musclewiki.com/exercise/plantar-flexions-seated-resisted?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 126234971785083,
+    "name": "Soleus Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/soleus-stretch-static?model=f",
+    "listedIn": [
+      "calves",
+      "soleus"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 236263251452052,
+    "name": "Ankle Circle",
+    "sourceUrl": "https://musclewiki.com/exercise/ankle-circle?model=f",
+    "listedIn": [
+      "calves"
+    ],
+    "listedInScopes": [
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 89921334133547,
+    "name": "Band High To Low Pallof Press Wood Chopper",
+    "sourceUrl": "https://musclewiki.com/exercise/band-high-to-low-pallof-press-wood-chopper?model=f",
+    "listedIn": [
+      "abdominals",
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 262050566751253,
+    "name": "Band Low To High Pallof Press Wood Chopper",
+    "sourceUrl": "https://musclewiki.com/exercise/band-low-to-high-pallof-press-wood-chopper?model=f",
+    "listedIn": [
+      "abdominals",
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 230691264360676,
+    "name": "Machine Pec Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-pec-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 108947577175257,
+    "name": "Machine Assisted Parallel Bar Dips",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-assisted-parallel-bar-dips?model=f",
+    "listedIn": [
+      "chest",
+      "triceps",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 47229792719080,
+    "name": "Machine Chest Press",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-chest-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 112657639374490,
+    "name": "Dumbbell Alternating Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-alternating-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:dumbbells",
+      "equipment:front-shoulders:dumbbells",
+      "equipment:shoulders:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 66041039237570,
+    "name": "Dumbbell Single Arm Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:dumbbells",
+      "equipment:front-shoulders:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 150488070500029,
+    "name": "Dumbbell Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:dumbbells",
+      "equipment:front-shoulders:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 40294382537438,
+    "name": "Kettlebell Alternating Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-alternating-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:kettlebells",
+      "equipment:front-shoulders:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 269956384119426,
+    "name": "Kettlebell Single Arm Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-single-arm-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:kettlebells",
+      "equipment:front-shoulders:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 87178208477741,
+    "name": "Kettlebell Z Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-z-press?model=f",
+    "listedIn": [
+      "abdominals",
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:abdominals:kettlebells",
+      "equipment:front-shoulders:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 159595854324904,
+    "name": "Band Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/band-chest-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 27018858859536,
+    "name": "Band Chest Press",
+    "sourceUrl": "https://musclewiki.com/exercise/band-chest-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 141734498064932,
+    "name": "Neutral Chest Press",
+    "sourceUrl": "https://musclewiki.com/exercise/neutral-chest-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 243609379727311,
+    "name": "Kettlebell Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-bench-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 146325705239106,
+    "name": "Kettlebell Guillotine Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-guillotine-bench-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 189841404207651,
+    "name": "Kettlebell Pec Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-pec-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 124392279259119,
+    "name": "Cable Incline Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-incline-chest-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 250001394781353,
+    "name": "Cable Bench Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-bench-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 42287375653111,
+    "name": "Cable Decline Bench Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-decline-bench-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 218449629077239,
+    "name": "Cable Incline Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-incline-bench-press?model=f",
+    "listedIn": [
+      "chest",
+      "upper-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:upper-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 217146305829684,
+    "name": "Cable Braced Single Arm Chest Press",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-braced-single-arm-chest-press?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 210880804156624,
+    "name": "Cable Braced Single Arm Internally Rotated Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-braced-single-arm-internally-rotated-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 122189217164296,
+    "name": "Vitruvian Romanian Deadlift",
+    "sourceUrl": "https://musclewiki.com/exercise/romanian-deadlift?model=f",
+    "listedIn": [
+      "forearms",
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 271154191783137,
+    "name": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+    "sourceUrl": "https://musclewiki.com/exercise/crosslateral-core-stabilisation-unilateral-load-kettlebell?model=f",
+    "listedIn": [
+      "forearms",
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 37380733626599,
+    "name": "Wrist Extensor Kneeling Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/wrist-extensor-isometric-dumbbell-kneeling?model=f",
+    "listedIn": [
+      "forearms",
+      "wrist-extensors"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 197043284498857,
+    "name": "Wrist Extensor Mobilisation",
+    "sourceUrl": "https://musclewiki.com/exercise/wrist-extensor-mobilisation-lacrosse-ball-kneeling?model=f",
+    "listedIn": [
+      "forearms",
+      "wrist-extensors"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 215449275676626,
+    "name": "Seated Wrist Extensor Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/wrist-extensor-stretch-seated?model=f",
+    "listedIn": [
+      "forearms",
+      "wrist-extensors"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 107598752698033,
+    "name": "Seated Wrist Flexor Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/wrist-flexor-stretch-seated?model=f",
+    "listedIn": [
+      "forearms",
+      "wrist-flexors"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 130656460030138,
+    "name": "Ulnar Deviations",
+    "sourceUrl": "https://musclewiki.com/exercise/ulnar-deviations?model=f",
+    "listedIn": [
+      "forearms"
+    ],
+    "listedInScopes": [
+      "joint:wrist"
+    ],
+    "jointTargets": [
+      "wrist"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 277556769519263,
+    "name": "Vitruvian Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/bench-press?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 148642236177143,
+    "name": "Vitruvian Pec Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/pec-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 5953929748037,
+    "name": "Vitruvian Push Up",
+    "sourceUrl": "https://musclewiki.com/exercise/vitruvian-push-up?model=f",
+    "listedIn": [
+      "chest",
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 150248504886853,
+    "name": "Cable Single Arm Decline Bench Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-decline-bench-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 77051010024019,
+    "name": "Cable Single Arm Bench Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-bench-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 238498216524527,
+    "name": "Cable Single Arm Incline Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-incline-chest-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 206500985275665,
+    "name": "Cable Single Arm Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-bench-press?model=f",
+    "listedIn": [
+      "chest",
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:anterior-deltoid:cables",
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 168708752960209,
+    "name": "Cable Single Arm Incline Bench Press",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-incline-bench-press?model=f",
+    "listedIn": [
+      "chest",
+      "triceps",
+      "upper-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:upper-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 211464548304837,
+    "name": "Hip Openers",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-openers?model=f",
+    "listedIn": [
+      "chest",
+      "front-shoulders",
+      "glutes",
+      "rear-shoulders",
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 222685606504143,
+    "name": "Knee Pull And Lumbar Rotation",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-pull-and-lumbar-rotation-supine-glute-and-lower-back-stretch?model=f",
+    "listedIn": [
+      "chest",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 12896258717942,
+    "name": "Serratus Activation Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/serratus-activation-plank?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 275445887078288,
+    "name": "Bosu Serratus Activation Plank",
+    "sourceUrl": "https://musclewiki.com/exercise/bosu-serratus-activation-plank?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 23724860134906,
+    "name": "Serratus Activation Cross Punch",
+    "sourceUrl": "https://musclewiki.com/exercise/serratus-activation-cross-punch?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 70923771956886,
+    "name": "Cable Braced Single Arm Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-braced-single-arm-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "mid-lower-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:mid-lower-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 149649501146316,
+    "name": "Cable Standing Single Arm Incline Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-standing-single-arm-incline-chest-fly?model=f",
+    "listedIn": [
+      "chest"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 272630418848395,
+    "name": "Cable Standing Single Arm Internally Rotated Incline Chest Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-standing-single-arm-internally-rotated-incline-chest-fly?model=f",
+    "listedIn": [
+      "chest",
+      "upper-pectoralis"
+    ],
+    "listedInScopes": [
+      "equipment:upper-pectoralis:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 22107960311198,
+    "name": "Band Low Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/band-low-lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:shoulders:band"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "band"
+    ]
+  },
+  {
+    "id": 67041722923041,
+    "name": "Band Mid Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/band-mid-lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-deltoid:band",
+      "equipment:shoulders:band"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "band"
+    ]
+  },
+  {
+    "id": 212946331763533,
+    "name": "Landmine Half Kneeling Single Arm Overhead Press",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-half-kneeling-single-arm-overhead-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:anterior-deltoid:barbell",
+      "equipment:lateral-deltoid:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 228000015608673,
+    "name": "Landmine Kneeling Overhead Press",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-kneeling-overhead-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:triceps:barbell",
+      "equipment:anterior-deltoid:barbell",
+      "equipment:lateral-deltoid:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 126037157681001,
+    "name": "Landmine Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:anterior-deltoid:barbell",
+      "equipment:lateral-deltoid:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 23699898379335,
+    "name": "Kettlebell Push Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-push-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:anterior-deltoid:kettlebells",
+      "equipment:lateral-deltoid:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 65684535248962,
+    "name": "Kettlebell Seated Overhead Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-seated-overhead-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:anterior-deltoid:kettlebells",
+      "equipment:lateral-deltoid:kettlebells",
+      "equipment:shoulders:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 15817117598233,
+    "name": "Kettlebell Single Arm Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-single-arm-lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-deltoid:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 147590158248020,
+    "name": "Machine Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 19285745502607,
+    "name": "Landmine Alternating Single Arm Press",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-alternating-single-arm-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:triceps:barbell",
+      "equipment:anterior-deltoid:barbell",
+      "equipment:lateral-deltoid:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 94499038569014,
+    "name": "Landmine Kneeling Alternating Overhead Press",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-kneeling-alternating-overhead-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "triceps",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:triceps:barbell",
+      "equipment:anterior-deltoid:barbell",
+      "equipment:lateral-deltoid:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 105807578069614,
+    "name": "Vitruvian Arnold Press",
+    "sourceUrl": "https://musclewiki.com/exercise/arnold-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 265381902870627,
+    "name": "Vitruvian Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 244962843259414,
+    "name": "Vitruvian Overhead Press",
+    "sourceUrl": "https://musclewiki.com/exercise/overhead-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 220892451606260,
+    "name": "Kettlebell Clean And Press",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-clean-and-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "glutes",
+      "anterior-deltoid",
+      "lateral-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-deltoid:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 107941217916102,
+    "name": "Bodyweight Feet Elevated Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-feet-elevated-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 29665802566959,
+    "name": "Dumbbell Feet Elevated Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-feet-elevated-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 94911824752953,
+    "name": "Barbell Coan Deadlift",
+    "sourceUrl": "https://musclewiki.com/exercise/barbell-coan-deadlift?model=f",
+    "listedIn": [
+      "glutes",
+      "lowerback",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 163889946958997,
+    "name": "Barbell Forward Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/barbell-forward-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 229892187568833,
+    "name": "Barbell Front Rack Step Up",
+    "sourceUrl": "https://musclewiki.com/exercise/barbell-front-rack-step-up?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 164803105555103,
+    "name": "Lat And Shoulder External Rotation Stretch 2 Kneeling Dowel",
+    "sourceUrl": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-2-kneeling-dowel?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lats",
+      "rear-shoulders",
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 119774219424282,
+    "name": "Lat And Shoulder External Rotation Stretch 3 Kneeling Dowel",
+    "sourceUrl": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-3-kneeling-dowel?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lats",
+      "rear-shoulders",
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 148508278407647,
+    "name": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+    "sourceUrl": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lats",
+      "rear-shoulders",
+      "anterior-deltoid",
+      "posterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 180133424296079,
+    "name": "I's Prone",
+    "sourceUrl": "https://musclewiki.com/exercise/is-prone?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "anterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 5043577441258,
+    "name": "Band Shoulder Y Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/band-shoulder-y-raise?model=f",
+    "listedIn": [
+      "front-shoulders"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 159604696852566,
+    "name": "Wall Angels",
+    "sourceUrl": "https://musclewiki.com/exercise/wall-angels?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "rear-shoulders"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 276199353899241,
+    "name": "Assisted Bulgarian Split Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/assisted-bulgarian-split-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 211950085458276,
+    "name": "Curtsy Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/curtsy-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-quadricep",
+      "inner-thigh",
+      "outer-quadricep"
+    ],
+    "listedInScopes": [
+      "equipment:gluteus-medius:bodyweight",
+      "equipment:inner-quadricep:bodyweight",
+      "equipment:inner-thigh:bodyweight",
+      "equipment:outer-quadricep:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 256703806260395,
+    "name": "Forward Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/forward-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 33346234479282,
+    "name": "Heels Up Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/heels-up-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 152965698707057,
+    "name": "Split Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/split-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 36791279241522,
+    "name": "Dumbbell Forward Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-forward-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 129754427899172,
+    "name": "Dumbbell Goblet Forward Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-forward-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 238572344966644,
+    "name": "Dumbbell Goblet Reverse Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-reverse-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 894471845890,
+    "name": "Dumbbell Goblet Split Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-split-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 261640549166702,
+    "name": "Dumbbell Reverse Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-reverse-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 238170145846523,
+    "name": "Dumbbell Split Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-split-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [
+      "equipment:quads:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 74605315034263,
+    "name": "Medicine Ball Clean And Press",
+    "sourceUrl": "https://musclewiki.com/exercise/medicine-ball-clean-and-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 143546028069672,
+    "name": "Medicine Ball Hang Clean And Press",
+    "sourceUrl": "https://musclewiki.com/exercise/medicine-ball-hang-clean-and-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 217917793530611,
+    "name": "Medicine Ball Thruster",
+    "sourceUrl": "https://musclewiki.com/exercise/medicine-ball-thruster?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "glutes",
+      "quads",
+      "anterior-deltoid",
+      "gluteus-maximus",
+      "inner-quadricep",
+      "outer-quadricep",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 196352965545445,
+    "name": "Dumbbell Heels Elevated Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-heels-elevated-hip-thrust?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-maximus"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:dumbbells",
+      "equipment:gluteus-maximus:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 69782212980085,
+    "name": "Dumbbell Seated Bent Arm Lateral Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-bent-arm-lateral-raise?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "lateral-deltoid"
+    ],
+    "listedInScopes": [
+      "equipment:front-shoulders:dumbbells",
+      "equipment:lateral-deltoid:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 36196970446846,
+    "name": "Landmine Lunge Rotate To Press",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-lunge-rotate-to-press?model=f",
+    "listedIn": [
+      "front-shoulders",
+      "glutes",
+      "obliques",
+      "quads"
+    ],
+    "listedInScopes": [
+      "equipment:front-shoulders:barbell",
+      "equipment:glutes:barbell",
+      "equipment:obliques:barbell",
+      "equipment:quads:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 31445573706635,
+    "name": "Band Leg Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/band-leg-curl?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 259262200825457,
+    "name": "Seated Leg Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-leg-curl?model=f",
+    "listedIn": [
+      "hamstrings",
+      "medial-hamstrings"
+    ],
+    "listedInScopes": [
+      "equipment:medial-hamstrings:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 41017400171707,
+    "name": "Machine Seated Leg Curl",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-seated-leg-curl?model=f",
+    "listedIn": [
+      "hamstrings",
+      "medial-hamstrings"
+    ],
+    "listedInScopes": [
+      "equipment:medial-hamstrings:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 270015943817755,
+    "name": "Dumbbell Figure Four Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-figure-four-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 21441177298942,
+    "name": "Dumbbell Figure Four Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-figure-four-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 216851817190376,
+    "name": "Dumbbell Single Leg Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-leg-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 229924916802820,
+    "name": "Dumbbell Single Leg Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-leg-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 56438532303445,
+    "name": "Dumbbell Staggered Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-staggered-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 256997047056248,
+    "name": "Dumbbell Staggered Hip thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-staggered-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 21627983711395,
+    "name": "Vitruvian Staggered Deadlift",
+    "sourceUrl": "https://musclewiki.com/exercise/staggered-deadlift?model=f",
+    "listedIn": [
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 127912152785679,
+    "name": "Bodyweight Feet Elevated Figure Four Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-feet-elevated-figure-four-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 60264011165734,
+    "name": "Kettlebell Alternating Swing",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-alternating-swing?model=f",
+    "listedIn": [
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 1501284372894,
+    "name": "Bodyweight Feet Elevated Single Leg Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-feet-elevated-single-leg-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 53775215951208,
+    "name": "Dumbbell Feet Elevated Figure Four Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-feet-elevated-figure-four-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 87401920067873,
+    "name": "Dumbbell Feet Elevated Single Leg Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-feet-elevated-single-leg-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 236876555393327,
+    "name": "Dumbbell Feet Elevated Staggered Glute Bridge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-feet-elevated-staggered-glute-bridge?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 197261618361427,
+    "name": "Dumbbell Standing Hip Abduction",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-hip-abduction?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [
+      "equipment:gluteus-medius:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 141806539802169,
+    "name": "Lateral Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/lateral-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 170991639200362,
+    "name": "Deadlift Bounces Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/deadlift-bounces-stretch?model=f",
+    "listedIn": [
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 110779713557226,
+    "name": "Dumbbell Goblet Curtsy Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-curtsy-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-maximus",
+      "gluteus-medius",
+      "inner-quadricep",
+      "inner-thigh",
+      "outer-quadricep"
+    ],
+    "listedInScopes": [
+      "equipment:gluteus-maximus:dumbbells",
+      "equipment:gluteus-medius:dumbbells",
+      "equipment:inner-quadricep:dumbbells",
+      "equipment:inner-thigh:dumbbells",
+      "equipment:outer-quadricep:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 209515639239306,
+    "name": "Dumbbell Lateral Lunge Reach",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-lateral-lunge-reach?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 20389460305210,
+    "name": "Hamstring Mobilisation Seated Lacrosse Ball",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-mobilisation-seated-lacrosse-ball?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 156505330767730,
+    "name": "Hamstring Stretch Dynamic Standing Bilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-dynamic-standing-bilateral?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 58439520032407,
+    "name": "Hamstring Stretch Dynamic Supine Alternating",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-dynamic-supine-alternating?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 120022398370379,
+    "name": "Hamstring Stretch Seated Single Leg",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-seated-single-leg?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 178082470033555,
+    "name": "Hamstring Stretch Seated Single Leg Isometric",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-seated-single-leg-isometric?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 7740007739355,
+    "name": "Hamstring Stretch Static Standing Single Leg",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-static-standing-single-leg?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 123521727261291,
+    "name": "Hamstring Stretch Supine Dynamic Band",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-supine-dynamic?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 57362002258796,
+    "name": "Hamstring Stretch Supine Glide",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-supine-glide?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 165538450593605,
+    "name": "Hamstring Stretch Supine Static",
+    "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-supine-static?model=f",
+    "listedIn": [
+      "hamstrings"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 22150722124978,
+    "name": "Box Supported Single Leg Deadlift",
+    "sourceUrl": "https://musclewiki.com/exercise/single-leg-deadlift-1-box-support?model=f",
+    "listedIn": [
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 48155343299908,
+    "name": "Vitruvian Belt Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/belt-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 16434147322637,
+    "name": "Inchworm",
+    "sourceUrl": "https://musclewiki.com/exercise/inchworm?model=f",
+    "listedIn": [
+      "hamstrings",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 263493072237458,
+    "name": "Vitruvian Deficit Lunge",
+    "sourceUrl": "https://musclewiki.com/exercise/deficit-lunge?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 231234379951755,
+    "name": "Vitruvian Figure Four Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/figure-four-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 85675597776055,
+    "name": "Vitruvian Front Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/front-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 26325722283998,
+    "name": "Vitruvian Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/vitruvian-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 105979653172424,
+    "name": "Dumbbell Figure Four Heels Elevated Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-figure-four-heels-elevated-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 15162011587719,
+    "name": "Abductor Leg Raise Side Lying",
+    "sourceUrl": "https://musclewiki.com/exercise/abductor-leg-raise-side-lying?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 60801960491089,
+    "name": "Abductor Leg Raise Side Lying Isometric",
+    "sourceUrl": "https://musclewiki.com/exercise/abductor-leg-raise-side-lying-isometric?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 88350792743855,
+    "name": "Clamshells 1 Side Lying",
+    "sourceUrl": "https://musclewiki.com/exercise/clamshells-1-side-lying?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 80423375062617,
+    "name": "Clamshells 2 Side Lying",
+    "sourceUrl": "https://musclewiki.com/exercise/clamshells-2-side-lying?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 24457837651135,
+    "name": "Clamshells 3 Internal External Rotations Side Lying",
+    "sourceUrl": "https://musclewiki.com/exercise/clamshells-3-internal-external-rotations-side-lying?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 5527371754917,
+    "name": "Clamshells 4 Side Lying Resisted",
+    "sourceUrl": "https://musclewiki.com/exercise/clamshells-4-side-lying-resisted?model=f",
+    "listedIn": [
+      "glutes",
+      "gluteus-medius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 246316250780993,
+    "name": "Clock Taps",
+    "sourceUrl": "https://musclewiki.com/exercise/clock-taps?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 224826510391160,
+    "name": "Glute Hip Rotator Stretch 1 Seated",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-hip-rotator-stretch-1-seated?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 119280063220448,
+    "name": "Glute Hip Rotator Stretch 2 Seated",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-hip-rotator-stretch-2-seated?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 148860565017548,
+    "name": "Glute Hip Rotator Stretch 3 Seated",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-hip-rotator-stretch-3-seated?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 180248842665068,
+    "name": "Glute Hip Rotator Stretch Supine",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-hip-rotator-stretch-supine?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 57967897629117,
+    "name": "Glute Piriformis Mobilisation 1 Floor Seated Lacrosse Ball",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-piriformis-mobilisation-1-floor-seated-lacrosse-ball?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 38448406182823,
+    "name": "Glute Stretch Knee Pull Dynamic Standing",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-stretch-knee-pull-dynamic-standing-unilateral?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 78658416412085,
+    "name": "Glute Stretch Static Unilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/glute-stretch-static-unilateral?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 3815548749246,
+    "name": "Hip Extension 4Pt Position Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-4pt-position-isometric?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 7059825153269,
+    "name": "Hip Extension External Rotation 4Pt Position",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-external-rotation-4pt-position?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 247428607804312,
+    "name": "Hip Extension External Rotation Pulses 4Pt Position",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-external-rotation-pulses-4pt-position?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 259589304579561,
+    "name": "Hip Extension Into Side Flexion",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-into-side-flexion?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 266008419420593,
+    "name": "Prone Single Leg Hip Extension Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-prone-unilateral-isometric?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 49399953383145,
+    "name": "Band Glute Kickback Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-extension-standing-resisted-isometric?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 126383660256584,
+    "name": "I Into W",
+    "sourceUrl": "https://musclewiki.com/exercise/i-into-w-prone?model=f",
+    "listedIn": [
+      "lats",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 217343395238072,
+    "name": "Band Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-thrust-standing-resisted?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 65290127734165,
+    "name": "Infinity Loop Standing Hip Mobility",
+    "sourceUrl": "https://musclewiki.com/exercise/infinity-loop-standing-hip-mobility?model=f",
+    "listedIn": [
+      "glutes",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 216731289595185,
+    "name": "Jump Into Single Leg Landing",
+    "sourceUrl": "https://musclewiki.com/exercise/jump-bilateral-into-unilateral-landing?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 100715156904180,
+    "name": "Jump Off Box Single Leg Landing",
+    "sourceUrl": "https://musclewiki.com/exercise/jump-off-box-single-leg-landing?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 265340138398635,
+    "name": "Lat Mobilisation Floor Foam Roller",
+    "sourceUrl": "https://musclewiki.com/exercise/lat-mobilisation-floor-foam-roller?model=f",
+    "listedIn": [
+      "lats"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 172272394078852,
+    "name": "Prayer Stretch 1",
+    "sourceUrl": "https://musclewiki.com/exercise/prayer-stretch-1?model=f",
+    "listedIn": [
+      "lats",
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 62019517183129,
+    "name": "Jump On And Off Box",
+    "sourceUrl": "https://musclewiki.com/exercise/jump-on-and-off-box?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 275616986266294,
+    "name": "Prayer Stretch 2 Roller",
+    "sourceUrl": "https://musclewiki.com/exercise/prayer-stretch-2-roller?model=f",
+    "listedIn": [
+      "glutes",
+      "lats",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 49790415714431,
+    "name": "Swipe Around",
+    "sourceUrl": "https://musclewiki.com/exercise/swipe-around-prone?model=f",
+    "listedIn": [
+      "lats",
+      "lowerback",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 204675615075999,
+    "name": "Alternating Swipe Around",
+    "sourceUrl": "https://musclewiki.com/exercise/swipe-around-prone-alternate?model=f",
+    "listedIn": [
+      "lats",
+      "lowerback",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 129082404325080,
+    "name": "Dumbbell Pullover Eccentrics",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-pullover-eccentrics?model=f",
+    "listedIn": [
+      "lats"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 120677573105981,
+    "name": "Side Step On And Off Box",
+    "sourceUrl": "https://musclewiki.com/exercise/side-step-on-and-off-box?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 278365734079261,
+    "name": "Skater Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/skater-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 28261890356018,
+    "name": "Single Leg Concentric Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/squat-concentric-single-leg?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 142241362411993,
+    "name": "Single Leg Eccentric Box Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/squat-unilateral-eccentric-box?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 138011415659222,
+    "name": "Bosu Ball Single Leg Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/squat-on-bosu-ball-single-leg?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 226246923578762,
+    "name": "Bodyweight Deadlift",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-deadlift?model=f",
+    "listedIn": [
+      "glutes",
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 2664583083935,
+    "name": "Dumbbell Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:dumbbells",
+      "equipment:quads:dumbbells",
+      "equipment:gluteus-medius:dumbbells",
+      "equipment:inner-thigh:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 183751389226971,
+    "name": "Dumbbell Front Rack Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-front-rack-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:dumbbells",
+      "equipment:quads:dumbbells",
+      "equipment:gluteus-medius:dumbbells",
+      "equipment:inner-thigh:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 65011603129322,
+    "name": "Dumbbell Goblet Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-goblet-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:dumbbells",
+      "equipment:quads:dumbbells",
+      "equipment:gluteus-medius:dumbbells",
+      "equipment:inner-thigh:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 263918501115299,
+    "name": "Barbell Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/barbell-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell",
+      "equipment:quads:barbell",
+      "equipment:gluteus-medius:barbell",
+      "equipment:inner-thigh:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 151050550800060,
+    "name": "Landmine Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell",
+      "equipment:quads:barbell",
+      "equipment:gluteus-medius:barbell",
+      "equipment:inner-thigh:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 108897444619453,
+    "name": "Landmine Goblet Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-goblet-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "gluteus-medius",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell",
+      "equipment:quads:barbell",
+      "equipment:gluteus-medius:barbell",
+      "equipment:inner-thigh:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 255847840652359,
+    "name": "Landmine Goblet Step Up",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-goblet-step-up?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell",
+      "equipment:quads:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 227712583503784,
+    "name": "Landmine Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 189449157445419,
+    "name": "Landmine Single Leg Hip Thrust",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-single-leg-hip-thrust?model=f",
+    "listedIn": [
+      "glutes"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 238241692657670,
+    "name": "Landmine Split Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-split-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:barbell",
+      "equipment:quads:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 3845062575457,
+    "name": "Bodyweight Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:bodyweight",
+      "equipment:quads:bodyweight",
+      "equipment:inner-thigh:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 194100394429491,
+    "name": "Kettlebell Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:kettlebells",
+      "equipment:quads:kettlebells",
+      "equipment:inner-thigh:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 152629656685371,
+    "name": "Kettlebell Front Rack Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-front-rack-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:kettlebells",
+      "equipment:quads:kettlebells",
+      "equipment:inner-thigh:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 114854341236122,
+    "name": "Kettlebell Goblet Cossack Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-goblet-cossack-squat?model=f",
+    "listedIn": [
+      "glutes",
+      "quads",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:glutes:kettlebells",
+      "equipment:quads:kettlebells",
+      "equipment:inner-thigh:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 164959440179585,
+    "name": "Kettlebell Superman",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-superman?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 133539660606724,
+    "name": "Kettlebell Superman Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-superman-hold?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 96179389713646,
+    "name": "Cobra Stretch 1",
+    "sourceUrl": "https://musclewiki.com/exercise/cobra-stretch-1?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 51540987361217,
+    "name": "Cobra Stretch 2",
+    "sourceUrl": "https://musclewiki.com/exercise/cobra-stretch-2?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 160463656906602,
+    "name": "Partner Lower Back Extensions",
+    "sourceUrl": "https://musclewiki.com/exercise/lower-back-extensions-1?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 276764614561033,
+    "name": "Lower Back Extensions 2",
+    "sourceUrl": "https://musclewiki.com/exercise/lower-back-extensions-2?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 2388634020779,
+    "name": "Lower Back Extensions 3",
+    "sourceUrl": "https://musclewiki.com/exercise/lower-back-extensions-3?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 149040945241198,
+    "name": "Lower Back Extensions 4",
+    "sourceUrl": "https://musclewiki.com/exercise/lower-back-extensions-4?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 107304155540727,
+    "name": "Lumbar Extensor Mobilisation Supine Bent Knees Peanut Tool",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 253894146172616,
+    "name": "Floor Knee Pull Bilateral",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-flexion-knee-pull-bilateral-floor?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 259649462145873,
+    "name": "Lumbar Rotation 1",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-1-supine-passive?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 39986958727063,
+    "name": "Lumbar Rotation 2",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-2-supine-active?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 227130737736895,
+    "name": "Lumbar Rotation 3",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-3-supine-passive-ankle-over-opposite-knee?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 257146496780152,
+    "name": "Lumbar Rotation 4",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-4-supine-active-crossed-legs?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 79396855229852,
+    "name": "Lumbar Rotation 5",
+    "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-5-active-kick?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 216887442910566,
+    "name": "QL Mobilisation Floor Foam Roller",
+    "sourceUrl": "https://musclewiki.com/exercise/ql-mobilisation-floor-foam-roller?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 17785753836319,
+    "name": "Skydiver",
+    "sourceUrl": "https://musclewiki.com/exercise/skydiver?model=f",
+    "listedIn": [
+      "lowerback"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 155093037477986,
+    "name": "Vitruvian Kneeling Wood Chopper",
+    "sourceUrl": "https://musclewiki.com/exercise/vitruvian-kneeling-wood-chopper?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 26142130168254,
+    "name": "Vitruvian Side Bend",
+    "sourceUrl": "https://musclewiki.com/exercise/side-bend?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 97875627315831,
+    "name": "Vitruvian Windmill",
+    "sourceUrl": "https://musclewiki.com/exercise/windmill?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 34136726449165,
+    "name": "Lat And Lateral Line Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/lat-and-lateral-line-stretch-unilateral-standing?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 235439633007256,
+    "name": "Seated Lateral Line Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/lateral-line-stretch-and-lumbar-spine-rotation-seated?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 106918386423531,
+    "name": "Prayer Stretch Side Bend",
+    "sourceUrl": "https://musclewiki.com/exercise/prayer-stretch-side-bend?model=f",
+    "listedIn": [
+      "obliques"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 171098654297106,
+    "name": "Ys",
+    "sourceUrl": "https://musclewiki.com/exercise/ys?model=f",
+    "listedIn": [
+      "rear-shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 182326787464862,
+    "name": "Vitruvian Rear Delt Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/rear-delt-fly?model=f",
+    "listedIn": [
+      "rear-shoulders",
+      "posterior-deltoid",
+      "shoulders"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 36151674916785,
+    "name": "Laying Ts",
+    "sourceUrl": "https://musclewiki.com/exercise/laying-ts?model=f",
+    "listedIn": [
+      "rear-shoulders",
+      "traps-middle"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 2923737092593,
+    "name": "Band Leg Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/band-leg-extension?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 41426834905941,
+    "name": "Dumbbell Laying Rear Delt Fly",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-laying-rear-delt-fly?model=f",
+    "listedIn": [
+      "rear-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:rear-shoulders:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 256607817486275,
+    "name": "Landmine Rear Delt Row",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-rear-delt-row?model=f",
+    "listedIn": [
+      "rear-shoulders"
+    ],
+    "listedInScopes": [
+      "equipment:rear-shoulders:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 199123339104070,
+    "name": "Machine Goblet Sissy Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-goblet-sissy-squat?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 232118032355886,
+    "name": "Machine Sissy Squat",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-sissy-squat?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 245031885769190,
+    "name": "Vitruvian Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/shrug?model=f",
+    "listedIn": [
+      "traps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 280321027042191,
+    "name": "Shoulder Flexion Thoracic Extensions",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-flexion-thoracic-extensions?model=f",
+    "listedIn": [
+      "traps"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 38822492559428,
+    "name": "Thoracic Flexion And Extensions",
+    "sourceUrl": "https://musclewiki.com/exercise/thoracic-flexion-and-extensions?model=f",
+    "listedIn": [
+      "traps"
+    ],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 186088061682725,
+    "name": "Landmine Shrug",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-shrug?model=f",
+    "listedIn": [
+      "traps"
+    ],
+    "listedInScopes": [
+      "equipment:traps:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 188125698963670,
+    "name": "Bodyweight Reverse Step Up",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-reverse-step-up?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 132342072239686,
+    "name": "Scapular Retraction",
+    "sourceUrl": "https://musclewiki.com/exercise/scapular-retraction?model=f",
+    "listedIn": [
+      "traps-middle"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 278754422930315,
+    "name": "Seated Hip Flexion Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexion-seated-bench-isometric?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 62769696041720,
+    "name": "Standing Mini-Band Hip Flexion",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexions-standing-resisted?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 122737754666183,
+    "name": "Hip Flexor Stretch Kneeling Lunge 1",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexor-stretch-kneeling-lunge-1?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 180543181159661,
+    "name": "Hip Flexor Stretch Kneeling Lunge 2",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexor-stretch-kneeling-lunge-2?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 30028715127067,
+    "name": "Kettlebell Skull Crusher",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-skull-crusher?model=f",
+    "listedIn": [
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 79754312825922,
+    "name": "Hip Flexor Stretch Kneeling Lunge 3",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexor-stretch-kneeling-lunge-3?model=f",
+    "listedIn": [
+      "quads",
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 125675971464995,
+    "name": "Band Knee Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-extension-closed-chain-standing-resisted?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 203902819952794,
+    "name": "Towel Knee Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-extension-seated-active-floor-towel?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 276663907116481,
+    "name": "Towel Knee Extension Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-extension-seated-isometric-floor-towel?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 187209692906058,
+    "name": "Knee Extension Seated Partial",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-extension-seated-partial?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 157876880438466,
+    "name": "Foam Roller Quad Mobilisation",
+    "sourceUrl": "https://musclewiki.com/exercise/quad-mobilisation-floor-foam-roller?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 72776686388994,
+    "name": "Band Floor Quad Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/quad-stretch-floor-prone?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 126541870952816,
+    "name": "Kneeling Quad Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/quad-stretch-kneeling?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 204175341206639,
+    "name": "Seated Quad Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/quad-stretch-seated?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 47492958826208,
+    "name": "Cable Bar Pushdown",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-bar-pushdown?model=f",
+    "listedIn": [
+      "triceps",
+      "lateral-head-triceps",
+      "medial-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-head-triceps:cables",
+      "equipment:medial-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 259748277046758,
+    "name": "Cable Tricep Kickback",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-tricep-kickback?model=f",
+    "listedIn": [
+      "triceps",
+      "lateral-head-triceps",
+      "medial-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-head-triceps:cables",
+      "equipment:medial-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 89855056613074,
+    "name": "Cable Single Arm Rope Pushdown",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-rope-pushdown?model=f",
+    "listedIn": [
+      "triceps",
+      "lateral-head-triceps",
+      "medial-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-head-triceps:cables",
+      "equipment:medial-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 139191163692806,
+    "name": "Femoral Nerve Mobilisation",
+    "sourceUrl": "https://musclewiki.com/exercise/femoral-nerve-mobilisation?model=f",
+    "listedIn": [
+      "quads"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 272864409190331,
+    "name": "Cable Single Arm Skullcrusher",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-skullcrusher?model=f",
+    "listedIn": [
+      "triceps",
+      "long-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 17713844195575,
+    "name": "Cable Overhead Tricep Press",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-overhead-tricep-press?model=f",
+    "listedIn": [
+      "triceps",
+      "long-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 115131682000608,
+    "name": "Cable Single Arm Overhead Tricep Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-overhead-tricep-extension?model=f",
+    "listedIn": [
+      "triceps",
+      "long-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:long-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 151073480258681,
+    "name": "Landmine Lying Tricep Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/landmine-lying-tricep-extension?model=f",
+    "listedIn": [
+      "triceps"
+    ],
+    "listedInScopes": [
+      "equipment:triceps:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 62380103012090,
+    "name": "Cable Bar Reverse Grip Pushdown",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-bar-reverse-grip-pushdown?model=f",
+    "listedIn": [
+      "triceps",
+      "lateral-head-triceps",
+      "medial-head-triceps"
+    ],
+    "listedInScopes": [
+      "equipment:lateral-head-triceps:cables",
+      "equipment:medial-head-triceps:cables"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "cables"
+    ]
+  },
+  {
+    "id": 53438696301010,
+    "name": "Cable Single Arm Cross Pushdown",
+    "sourceUrl": "https://musclewiki.com/exercise/cable-single-arm-cross-pushdown?model=f",
+    "listedIn": [
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 173068983778508,
+    "name": "Elbow Extensor Isometric Seated Overhead Dumbbell",
+    "sourceUrl": "https://musclewiki.com/exercise/elbow-extensor-isometric-seated-overhead-dumbbell?model=f",
+    "listedIn": [
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 94810386969579,
+    "name": "Elbow Extensor Mobilisation Kneeling Lacrosse Ball",
+    "sourceUrl": "https://musclewiki.com/exercise/elbow-extensor-mobilisation-kneeling-lacrosse-ball?model=f",
+    "listedIn": [
+      "triceps"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 3431418308219,
+    "name": "Alphabet",
+    "sourceUrl": "https://musclewiki.com/exercise/alphabet?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 265787503621074,
+    "name": "Big Toe Abduction",
+    "sourceUrl": "https://musclewiki.com/exercise/big-toe-abduction?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 114491420470817,
+    "name": "Big Toe Dorsiflexion",
+    "sourceUrl": "https://musclewiki.com/exercise/big-toe-dorsiflexion?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 109897209924222,
+    "name": "Standing Doming",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-doming?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 61271569972625,
+    "name": "Seated Doming",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-doming?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 44716489599014,
+    "name": "Eversions",
+    "sourceUrl": "https://musclewiki.com/exercise/eversions?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 139341276391319,
+    "name": "Standing Inversions Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-inversions-hold?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 69324572916530,
+    "name": "Band Seated Inversions",
+    "sourceUrl": "https://musclewiki.com/exercise/band-seated-inversions?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 166238072866516,
+    "name": "Single Leg Balance 2",
+    "sourceUrl": "https://musclewiki.com/exercise/balance-2-single-leg?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [
+      "joint:hips",
+      "joint:knees",
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "hips",
+      "knees",
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 141375936316062,
+    "name": "Single Leg Bosu Ball Balance 2",
+    "sourceUrl": "https://musclewiki.com/exercise/single-leg-bosu-ball-balance-2?model=f",
+    "listedIn": [
+      "feet"
+    ],
+    "listedInScopes": [
+      "joint:hips",
+      "joint:knees",
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "hips",
+      "knees",
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 55596691983891,
+    "name": "Medicine Ball Hip Abduction",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-abduction?model=f",
+    "listedIn": [
+      "gluteus-medius"
+    ],
+    "listedInScopes": [
+      "equipment:gluteus-medius:medicine-ball"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "medicine-ball"
+    ]
+  },
+  {
+    "id": 80009045324079,
+    "name": "Machine Hip Adduction",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-hip-adduction?model=f",
+    "listedIn": [
+      "groin",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:groin:machine",
+      "equipment:inner-thigh:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 177554052490913,
+    "name": "Machine Hip And Glute Adduction",
+    "sourceUrl": "https://musclewiki.com/exercise/machine-hip-and-glute-adduction?model=f",
+    "listedIn": [
+      "groin",
+      "inner-thigh"
+    ],
+    "listedInScopes": [
+      "equipment:groin:machine",
+      "equipment:inner-thigh:machine"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "machine"
+    ]
+  },
+  {
+    "id": 209884053880177,
+    "name": "Bodyweight Butterfly Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/bodyweight-butterfly-stretch?model=f",
+    "listedIn": [
+      "groin"
+    ],
+    "listedInScopes": [
+      "equipment:groin:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 250700108713484,
+    "name": "Adductor Leg Raise Side Lying",
+    "sourceUrl": "https://musclewiki.com/exercise/adductor-leg-raise-side-lying?model=f",
+    "listedIn": [
+      "inner-thigh"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 127674165312290,
+    "name": "Adductor Leg Raise Side Lying Isometric",
+    "sourceUrl": "https://musclewiki.com/exercise/adductor-leg-raise-side-lying-isometric?model=f",
+    "listedIn": [
+      "inner-thigh"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 226246341022744,
+    "name": "Adductor Stretch Seated Bilateral Dynamic",
+    "sourceUrl": "https://musclewiki.com/exercise/adductor-stretch-seated-bilateral-dynamic?model=f",
+    "listedIn": [
+      "inner-thigh"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 70845652968809,
+    "name": "Adductor Stretch Seated Bilateral Static",
+    "sourceUrl": "https://musclewiki.com/exercise/adductor-stretch-seated-bilateral-static?model=f",
+    "listedIn": [
+      "inner-thigh"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 110090557567750,
+    "name": "Bench Lift Off Active",
+    "sourceUrl": "https://musclewiki.com/exercise/bench-lift-off-active?model=f",
+    "listedIn": [
+      "lower-trapezius",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 60290828679624,
+    "name": "Bench Lift Off Static",
+    "sourceUrl": "https://musclewiki.com/exercise/bench-lift-off-static?model=f",
+    "listedIn": [
+      "lower-trapezius",
+      "lower-abdominals"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 43398827821602,
+    "name": "Scapular Depression",
+    "sourceUrl": "https://musclewiki.com/exercise/scapular-depression?model=f",
+    "listedIn": [
+      "lower-trapezius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 231649212723405,
+    "name": "Standing Neck Mobility Circumductions",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-neck-mobility-circumductions?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 189389986496348,
+    "name": "Standing Neck Extensions",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-neck-extensions?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 171652441319100,
+    "name": "Standing Neck Flexions",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-neck-flexions?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 102551933261864,
+    "name": "Standing Neck Rotations",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-neck-rotations?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 237135973110605,
+    "name": "Standing Neck Side Flexions",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-neck-side-flexions?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 2514632515861,
+    "name": "Seated Radial Nerve Slider",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-radial-nerve-slider?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [
+      "joint:wrist"
+    ],
+    "jointTargets": [
+      "wrist"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 149984501397424,
+    "name": "Seated Radial Nerve Tensioner",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-radial-nerve-tensioner?model=f",
+    "listedIn": [
+      "neck"
+    ],
+    "listedInScopes": [
+      "joint:wrist"
+    ],
+    "jointTargets": [
+      "wrist"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 240985885260234,
+    "name": "Band Straight Leg Hip Flexions",
+    "sourceUrl": "https://musclewiki.com/exercise/hip-flexions-straight-leg-standing-resisted?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 228143029790615,
+    "name": "Standing Knee Raise Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/knee-raise-standing-unilateral?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 278540761712897,
+    "name": "Floor Incline Leg Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/leg-raise-straight-incline-seated?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 150562812415045,
+    "name": "Mini Band Laying Hip Flexion",
+    "sourceUrl": "https://musclewiki.com/exercise/mini-band-laying-hip-flexion?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:band"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "band"
+    ]
+  },
+  {
+    "id": 58701260942494,
+    "name": "Mini Band Single Leg Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/mini-band-single-leg-raise?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:band"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "band"
+    ]
+  },
+  {
+    "id": 116562321718575,
+    "name": "Mini Band Standing Hip Flexion",
+    "sourceUrl": "https://musclewiki.com/exercise/mini-band-standing-hip-flexion?model=f",
+    "listedIn": [
+      "rectus-femoris"
+    ],
+    "listedInScopes": [
+      "equipment:rectus-femoris:band"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "band"
+    ]
+  },
+  {
+    "id": 175620024857803,
+    "name": "Dumbbell Seated Tibialis Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-seated-tibialis-raise?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "equipment:tibialis:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 146927745628780,
+    "name": "Seated Tibialis Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-tibialis-raise?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "equipment:tibialis:bodyweight"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "bodyweight"
+    ]
+  },
+  {
+    "id": 162868923018165,
+    "name": "Standing Tibialis Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-tibialis-raise?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "equipment:tibialis:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 252691054582630,
+    "name": "Dumbbell Standing Tibialis Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-standing-tibialis-raise?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "equipment:tibialis:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 50271209036716,
+    "name": "Dorsal Flexion Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/dorsal-flexion-hold?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "ankles"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 144900466810793,
+    "name": "Wall Supported Dorsal Flexion",
+    "sourceUrl": "https://musclewiki.com/exercise/wall-supported-dorsal-flexion?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 253228660414095,
+    "name": "Kettlebell Tibialis Raise",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-tibialis-raise?model=f",
+    "listedIn": [
+      "tibialis"
+    ],
+    "listedInScopes": [
+      "equipment:tibialis:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 7753352383068,
+    "name": "Scapular Elevation",
+    "sourceUrl": "https://musclewiki.com/exercise/scapular-elevation?model=f",
+    "listedIn": [
+      "upper-trapezius"
+    ],
+    "listedInScopes": [],
+    "jointTargets": [],
+    "sourceEquipment": []
+  },
+  {
+    "id": 45701613603175,
+    "name": "Barbell Wrist Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/barbell-wrist-extension?model=f",
+    "listedIn": [
+      "wrist-extensors"
+    ],
+    "listedInScopes": [
+      "equipment:wrist-extensors:barbell"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "barbell"
+    ]
+  },
+  {
+    "id": 213854392465636,
+    "name": "Dumbbell Bench Wrist Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-bench-wrist-extension?model=f",
+    "listedIn": [
+      "wrist-extensors"
+    ],
+    "listedInScopes": [
+      "equipment:wrist-extensors:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 80995308405284,
+    "name": "Kettlebell Bench Wrist Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-bench-wrist-extension?model=f",
+    "listedIn": [
+      "wrist-extensors"
+    ],
+    "listedInScopes": [
+      "equipment:wrist-extensors:kettlebells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "kettlebells"
+    ]
+  },
+  {
+    "id": 50486787872256,
+    "name": "Dumbbell Single Arm Bench Wrist Extension",
+    "sourceUrl": "https://musclewiki.com/exercise/dumbbell-single-arm-bench-wrist-extension?model=f",
+    "listedIn": [
+      "wrist-extensors"
+    ],
+    "listedInScopes": [
+      "equipment:wrist-extensors:dumbbells"
+    ],
+    "jointTargets": [],
+    "sourceEquipment": [
+      "dumbbells"
+    ]
+  },
+  {
+    "id": 56262635777053,
+    "name": "Rotator Cuff External Rotations 1",
+    "sourceUrl": "https://musclewiki.com/exercise/rotator-cuff-external-rotations-1?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 198073068838809,
+    "name": "Rotator Cuff External Rotations 2",
+    "sourceUrl": "https://musclewiki.com/exercise/rotator-cuff-external-rotations-2?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 58351810191172,
+    "name": "Rotator Cuff External Rotations 3",
+    "sourceUrl": "https://musclewiki.com/exercise/rotator-cuff-external-rotations-3?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 275961720025839,
+    "name": "Rotator Cuff Mobilisation Lacrosse Ball",
+    "sourceUrl": "https://musclewiki.com/exercise/rotator-cuff-mobilisation-lacrosse-ball?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 165346743978771,
+    "name": "Seated Shoulder Abduction",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-shoulder-abduction?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 114313794908631,
+    "name": "Side Lying External Rotator Cuff Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/side-lying-external-rotator-cuff-stretch?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 42383772847583,
+    "name": "Standing Shoulder Abduction",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-shoulder-abduction?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 145660570586046,
+    "name": "Shoulder Abduction Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-abduction-stretch?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 7068600242140,
+    "name": "Pushup Position Shoulder Clock",
+    "sourceUrl": "https://musclewiki.com/exercise/pushup-position-shoulder-clock?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 178860188771087,
+    "name": "Shoulder External Internal Rotation",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-external-internal-rotation?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 200318770990049,
+    "name": "Shoulder External Rotation Deceleration",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-external-rotation-deceleration?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 171895628605041,
+    "name": "Standing Shoulder Flexion Mobility",
+    "sourceUrl": "https://musclewiki.com/exercise/standing-shoulder-flexion-mobility?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 241783804885205,
+    "name": "Shoulder Flexion Wall Stretch",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-flexion-wall-stretch?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 115684973689142,
+    "name": "Kettlebell Shoulder Flexion Bent Elbow Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-shoulder-flexion-bent-elbow-hold?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 178205918348099,
+    "name": "Kettlebell Walking Shoulder Flexion Bent Elbow Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-walking-shoulder-flexion-bent-elbow-hold?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 209490172010062,
+    "name": "Kettlebell Kneel To Stand Shoulder Flexion Bent Elbow Hold",
+    "sourceUrl": "https://musclewiki.com/exercise/kettlebell-kneel-to-stand-shoulder-flexion-bent-elbow-hold?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 175345285262094,
+    "name": "Shoulder Girdle Stability Circles",
+    "sourceUrl": "https://musclewiki.com/exercise/shoulder-girdle-stability-circles?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 216669180027430,
+    "name": "Side Shoulder Girdle Stability Circles",
+    "sourceUrl": "https://musclewiki.com/exercise/side-shoulder-girdle-stability-circles?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:shoulders",
+      "equipment:shoulders:recovery"
+    ],
+    "jointTargets": [
+      "shoulders"
+    ],
+    "sourceEquipment": [
+      "recovery"
+    ]
+  },
+  {
+    "id": 114040980934425,
+    "name": "Seated Median Nerve Slider",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-median-nerve-slider?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:elbow"
+    ],
+    "jointTargets": [
+      "elbow"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 231598363705506,
+    "name": "Seated Median Nerve Tensioner",
+    "sourceUrl": "https://musclewiki.com/exercise/seated-median-nerve-tensioner?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:elbow"
+    ],
+    "jointTargets": [
+      "elbow"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 79220454566480,
+    "name": "Resisted Radial Deviation",
+    "sourceUrl": "https://musclewiki.com/exercise/resisted-radial-deviation?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:wrist"
+    ],
+    "jointTargets": [
+      "wrist"
+    ],
+    "sourceEquipment": []
+  },
+  {
+    "id": 189845790913676,
+    "name": "Bosu Ball Single Leg Balance",
+    "sourceUrl": "https://musclewiki.com/exercise/balance-3-single-leg-bosu-ball?model=f",
+    "listedIn": [],
+    "listedInScopes": [
+      "joint:hips",
+      "joint:knees",
+      "joint:ankles"
+    ],
+    "jointTargets": [
+      "hips",
+      "knees",
+      "ankles"
+    ],
+    "sourceEquipment": []
+  }
+]

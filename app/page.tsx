@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
+import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import { usePersistedChoice } from "@/lib/use-persisted-choice";
+
+const categoryChoices: readonly EquipmentIconName[] = HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
 
 type IconName =
   | "grid"
@@ -280,7 +283,7 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     subtitle: "Choose a muscle group to explore kettlebell exercises.",
   },
   stretches: {
-    title: "What do you want to stretch?",
+    title: "Explore stretches",
     subtitle: "Choose a muscle group to explore stretches.",
   },
   cables: {
@@ -300,7 +303,7 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     subtitle: "Choose a muscle group to explore TRX exercises.",
   },
   yoga: {
-    title: "What do you want to practice?",
+    title: "Practice yoga",
     subtitle: "Choose a muscle group to explore yoga exercises.",
   },
   "bosu-ball": {
@@ -308,7 +311,7 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     subtitle: "Choose a muscle group to explore Bosu ball exercises.",
   },
   cardio: {
-    title: "Train with cardio",
+    title: "Explore cardio exercises",
     subtitle: "Choose a muscle group to explore cardio exercises.",
   },
   "smith-machine": {
@@ -316,8 +319,16 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     subtitle: "Choose a muscle group to explore Smith machine exercises.",
   },
   pilates: {
-    title: "What do you want to practice?",
+    title: "Practice Pilates",
     subtitle: "Choose a muscle group to explore Pilates exercises.",
+  },
+  recovery: {
+    title: "Explore recovery exercises",
+    subtitle: "Choose a muscle group to explore recovery exercises.",
+  },
+  vitruvian: {
+    title: "Train with Vitruvian",
+    subtitle: "Choose a muscle group to explore Vitruvian exercises.",
   },
 };
 
@@ -350,7 +361,7 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
 }
 
 export default function Home() {
-  const [activeCategory, setActiveCategory] = useState<EquipmentIconName>("featured");
+  const [activeCategory, setActiveCategory] = usePersistedChoice<EquipmentIconName>("noi-gym:home:category:v1", "featured", categoryChoices);
   const activeCategoryCopy = categoryCopy[activeCategory];
 
   return (
@@ -359,7 +370,7 @@ export default function Home() {
         <div className="health-topbar__row">
           <span className="health-brand">444 Health</span>
           <div className="health-topbar__actions">
-            <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button>
+            {/* <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
             <button aria-label="Hồ sơ cá nhân" className="health-avatar" type="button"><span>🧔🏻</span></button>
             <button aria-label="Thêm tùy chọn" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
           </div>
@@ -447,14 +458,14 @@ export default function Home() {
             <Icon name="home" size={24} />
             <span>Home</span>
           </button>
-          <button className="health-bottom-nav__item" type="button">
+          <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="together" size={24} />
             <span>Together</span>
-          </button>
-          <button className="health-bottom-nav__item" type="button">
+          </Link>
+          <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="fitness" size={24} />
             <span>Fitness</span>
-          </button>
+          </Link>
         </div>
         <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
       </nav>

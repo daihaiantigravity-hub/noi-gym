@@ -113,6 +113,7 @@ const sourceMuscleNameBySlug: Record<string, string> = {
   biceps: "Biceps",
   calves: "Calves",
   chest: "Chest",
+  forearms: "Forearms",
   "front-shoulders": "Front Shoulders",
   glutes: "Glutes",
   hamstrings: "Hamstrings",
@@ -221,12 +222,13 @@ export function normalizeSourcePayload(payload: unknown): ExerciseFormValues[] {
   });
 }
 
-export function getLocalExerciseList(filters: { query?: string; status?: string; category?: string }): ExerciseListItem[] {
+export function getLocalExerciseList(filters: { query?: string; status?: string; category?: string; gender?: "male" | "female" | "" }): ExerciseListItem[] {
   const query = filters.query?.trim().toLowerCase();
 
   return collectedExercises
     .filter((exercise) => !query || exercise.name.toLowerCase().includes(query))
     .filter((exercise) => !filters.category || exercise.category === filters.category)
+    .filter((exercise) => !filters.gender || exercise.videos?.some((video) => video.gender === filters.gender))
     .map((exercise) => ({
       id: `source-${exercise.id}`,
       source: "musclewiki" as const,
@@ -239,6 +241,7 @@ export function getLocalExerciseList(filters: { query?: string; status?: string;
       primaryMuscles: exercise.primary_muscles ?? [],
       stepsCount: exercise.steps?.filter(Boolean).length ?? 0,
       mediaCount: exercise.videos?.filter((video) => Boolean(video.url || video.og_image)).length ?? 0,
+      femaleMediaCount: exercise.videos?.filter((video) => video.gender === "female" && Boolean(video.url)).length ?? 0,
       updatedAt: "",
     }))
     .filter((exercise) => !filters.status || exercise.status === filters.status);

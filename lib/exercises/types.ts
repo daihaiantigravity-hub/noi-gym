@@ -72,6 +72,7 @@ export type ExerciseListItem = Pick<
   primaryMuscles: string[];
   stepsCount: number;
   mediaCount: number;
+  femaleMediaCount: number;
 };
 
 export type ExerciseSourceOption = {
@@ -90,6 +91,7 @@ export type ExerciseListFilters = {
   category?: string;
   muscle?: string;
   source?: ExerciseSource | "";
+  gender?: ExerciseGender | "";
   targetMode?: ExerciseTargetMode;
   targetSlug?: string;
 };

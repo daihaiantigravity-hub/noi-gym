@@ -1,0 +1,268 @@
+{
+  "capturedAt": "2026-09-29T03:18:48.088Z",
+  "localFiles": 821,
+  "local": {
+    "exercises": 1698,
+    "categories": {
+      "Band": {
+        "exercises": 97,
+        "withSteps": 97,
+        "maleVideos": 194,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Barbell": {
+        "exercises": 193,
+        "withSteps": 193,
+        "maleVideos": 386,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Bodyweight": {
+        "exercises": 181,
+        "withSteps": 181,
+        "maleVideos": 362,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Bosu Ball": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 62,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Cables": {
+        "exercises": 175,
+        "withSteps": 174,
+        "maleVideos": 350,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Cardio": {
+        "exercises": 48,
+        "withSteps": 48,
+        "maleVideos": 96,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Dumbbells": {
+        "exercises": 276,
+        "withSteps": 276,
+        "maleVideos": 552,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Kettlebells": {
+        "exercises": 153,
+        "withSteps": 153,
+        "maleVideos": 308,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Machine": {
+        "exercises": 74,
+        "withSteps": 74,
+        "maleVideos": 148,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Medicine Ball": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 62,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Pilates": {
+        "exercises": 49,
+        "withSteps": 49,
+        "maleVideos": 98,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Plate": {
+        "exercises": 68,
+        "withSteps": 68,
+        "maleVideos": 136,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Smith Machine": {
+        "exercises": 34,
+        "withSteps": 34,
+        "maleVideos": 68,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Stretches": {
+        "exercises": 52,
+        "withSteps": 52,
+        "maleVideos": 104,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "TRX": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 62,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Yoga": {
+        "exercises": 73,
+        "withSteps": 73,
+        "maleVideos": 146,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Unknown": {
+        "exercises": 132,
+        "withSteps": 132,
+        "maleVideos": 264,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      }
+    },
+    "videosByGender": {
+      "male": 3398
+    },
+    "statuses": {},
+    "withoutSteps": 1
+  },
+  "checkpointCount": 257,
+  "incompleteCheckpoints": [],
+  "parseErrors": [],
+  "database": {
+    "exercises": 1704,
+    "categories": {
+      "Pilates": {
+        "exercises": 49,
+        "withSteps": 49,
+        "maleVideos": 98,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Kettlebells": {
+        "exercises": 153,
+        "withSteps": 153,
+        "maleVideos": 306,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Unknown": {
+        "exercises": 132,
+        "withSteps": 132,
+        "maleVideos": 264,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Dumbbells": {
+        "exercises": 282,
+        "withSteps": 282,
+        "maleVideos": 563,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Bodyweight": {
+        "exercises": 181,
+        "withSteps": 181,
+        "maleVideos": 362,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Plate": {
+        "exercises": 68,
+        "withSteps": 68,
+        "maleVideos": 136,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Yoga": {
+        "exercises": 73,
+        "withSteps": 73,
+        "maleVideos": 127,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Cardio": {
+        "exercises": 48,
+        "withSteps": 48,
+        "maleVideos": 96,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Cables": {
+        "exercises": 175,
+        "withSteps": 174,
+        "maleVideos": 350,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Machine": {
+        "exercises": 74,
+        "withSteps": 74,
+        "maleVideos": 148,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Bosu Ball": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 55,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Band": {
+        "exercises": 97,
+        "withSteps": 97,
+        "maleVideos": 194,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Barbell": {
+        "exercises": 193,
+        "withSteps": 193,
+        "maleVideos": 386,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Stretches": {
+        "exercises": 52,
+        "withSteps": 52,
+        "maleVideos": 104,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Smith Machine": {
+        "exercises": 34,
+        "withSteps": 34,
+        "maleVideos": 68,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "Medicine Ball": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 62,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      },
+      "TRX": {
+        "exercises": 31,
+        "withSteps": 31,
+        "maleVideos": 62,
+        "femaleVideos": 0,
+        "otherVideos": 0
+      }
+    },
+    "videosByGender": {
+      "male": 3381
+    },
+    "statuses": {
+      "Published": 1704
+    },
+    "withoutSteps": 1
+  },
+  "localMissingInDatabase": []
+}

@@ -46,7 +46,12 @@ export const exerciseInputSchema = z
       context.addIssue({ code: "custom", path: ["sourceId"], message: "Bài tập MuscleWiki cần source ID" });
     }
 
-    if (value.status === "Published" && value.primaryMuscles.length === 0) {
+    const jointOnlyMuscleWiki = value.source === "musclewiki"
+      && Array.isArray(value.sourceSnapshot?.joint_targets)
+      && value.sourceSnapshot.joint_targets.length > 0
+      && Array.isArray(value.sourceSnapshot?.listed_in)
+      && value.sourceSnapshot.listed_in.length === 0;
+    if (value.status === "Published" && value.primaryMuscles.length === 0 && !jointOnlyMuscleWiki) {
       context.addIssue({ code: "custom", path: ["primaryMuscles"], message: "Bài tập publish cần ít nhất một nhóm cơ" });
     }
 

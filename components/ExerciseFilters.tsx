@@ -77,6 +77,7 @@ function EquipmentIcon({ name }: { name: EquipmentName }) {
         </svg>
       );
     case "Machine":
+    case "Vitruvian":
       return (
         <svg {...commonProps}>
           <path d="M7 24V11M7 11h13M20 11v13M4 24h23M10 17h7M10 14v7" />
@@ -98,6 +99,7 @@ function EquipmentIcon({ name }: { name: EquipmentName }) {
         </svg>
       );
     case "Stretches":
+    case "Recovery":
       return (
         <svg {...commonProps}>
           <circle cx="19" cy="6" r="2" />

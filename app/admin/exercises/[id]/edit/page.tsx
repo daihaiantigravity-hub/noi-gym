@@ -8,13 +8,23 @@ export default async function EditExercisePage({ params }: { params: Promise<{ i
   const { id } = await params;
   const exercise = await getExercise(id);
   if (!exercise) notFound();
+  const sourceOptions = getSourceExerciseOptions();
+  if (exercise.source === "musclewiki" && exercise.sourceId && !sourceOptions.some((option) => option.id === exercise.sourceId)) {
+    sourceOptions.push({
+      id: exercise.sourceId,
+      name: exercise.name,
+      category: exercise.category,
+      primaryMuscles: exercise.primaryMuscles,
+      difficulty: exercise.difficulty,
+    });
+  }
 
   return (
     <main className="admin-page admin-editor-page">
       <header className="admin-page-header admin-page-header--editor">
         <div><Link className="admin-back-link" href="/admin/exercises">← Quay lại danh sách</Link><span className="admin-eyebrow">BUILD · EDIT EXERCISE</span><h1>Chỉnh sửa bài tập</h1><p className="admin-muted">Cập nhật nội dung và trạng thái xuất bản.</p></div>
       </header>
-      <ExerciseForm initialValues={{ ...exercise, id: exercise.id }} mode="edit" sourceOptions={getSourceExerciseOptions()} />
+      <ExerciseForm initialValues={{ ...exercise, id: exercise.id }} mode="edit" sourceOptions={sourceOptions} />
     </main>
   );
 }

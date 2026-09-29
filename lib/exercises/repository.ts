@@ -6,12 +6,24 @@ import { getExerciseCategoryOrder } from "./category-order";
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import type { ValidatedExerciseInput } from "./validation";
-import type { ExerciseFormValues, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
+import type { ExerciseFormValues, ExerciseGender, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
 import type { ExerciseTargetMode } from "./types";
 
 const exerciseSelect = "id, source, source_id, name, slug, description, primary_muscles, category, force, grips, mechanic, difficulty, status, steps, media, source_snapshot, created_at, updated_at";
 const publicOrderSelect = "id, name, category, updated_at";
 export const PUBLIC_EXERCISES_CACHE_TAG = "public-exercises";
+const femaleStoragePathPattern = /^exercises\/musclewiki\/female\/\d+-(front|side)\.mp4$/;
+
+function isStoredFemaleMedia(item: ExerciseFormValues["media"][number]) {
+  return item.gender === "female" && Boolean(item.storagePath && femaleStoragePathPattern.test(item.storagePath));
+}
+
+function hydrateAdminMedia(media: ExerciseFormValues["media"]) {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.replace(/\/$/, "");
+  return media.map((item) => isStoredFemaleMedia(item) && !item.videoUrl && supabaseUrl
+    ? { ...item, videoUrl: `${supabaseUrl}/storage/v1/object/public/exercise-media/${item.storagePath}` }
+    : item);
+}
 
 type ExerciseRow = {
   id: string;
@@ -53,7 +65,7 @@ function mapRow(row: ExerciseRow): ExerciseRecord {
     difficulty: row.difficulty ?? "",
     status: row.status,
     steps: row.steps ?? [],
-    media: row.media ?? [],
+    media: hydrateAdminMedia(row.media ?? []),
     sourceSnapshot: row.source_snapshot,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
@@ -124,10 +136,12 @@ function getSnapshotPosterMedia(snapshot: Record<string, unknown> | null | undef
   });
 }
 
-function mapPublicExercise(row: ExerciseRow): PublicExercise {
+function mapPublicExercise(row: ExerciseRow, gender?: ExerciseGender): PublicExercise {
   const exercise = mapRow(row);
   const fallback = getLocalSupplement(exercise);
   const snapshotMedia = getSnapshotPosterMedia(exercise.sourceSnapshot);
+  const mergedMedia = mergePublicMedia(exercise.media, mergePublicMedia(fallback?.media ?? [], snapshotMedia));
+  const playableMaleMedia = mergedMedia.filter((item) => item.gender === "male" && item.videoUrl);
   return {
     id: exercise.id,
     name: exercise.name,
@@ -136,7 +150,9 @@ function mapPublicExercise(row: ExerciseRow): PublicExercise {
     category: exercise.category || fallback?.category || "",
     difficulty: exercise.difficulty || fallback?.difficulty || "",
     steps: exercise.steps.length > 0 ? exercise.steps : fallback?.steps ?? [],
-    media: mergePublicMedia(exercise.media, mergePublicMedia(fallback?.media ?? [], snapshotMedia)),
+    media: gender
+      ? mergedMedia.filter((item) => item.gender === gender)
+      : playableMaleMedia.length > 0 ? mergedMedia.filter((item) => item.gender === "male") : mergedMedia.filter((item) => item.gender === "female"),
   };
 }
 
@@ -152,7 +168,8 @@ function mapListItem(row: ExerciseRow): ExerciseListItem {
     status: row.status,
     primaryMuscles: row.primary_muscles ?? [],
     stepsCount: row.steps?.filter(Boolean).length ?? 0,
-    mediaCount: row.media?.filter((item) => Boolean(item.videoUrl)).length ?? 0,
+    mediaCount: row.media?.filter((item) => Boolean(item.videoUrl) || isStoredFemaleMedia(item)).length ?? 0,
+    femaleMediaCount: row.media?.filter((item) => item.gender === "female" && (Boolean(item.videoUrl) || isStoredFemaleMedia(item))).length ?? 0,
     updatedAt: row.updated_at,
   };
 }
@@ -172,7 +189,7 @@ function toDatabaseRow(input: ValidatedExerciseInput) {
     difficulty: input.difficulty,
     status: input.status,
     steps: input.steps.filter(Boolean),
-    media: input.media,
+    media: input.media.map((item) => isStoredFemaleMedia(item) ? { ...item, videoUrl: "" } : item),
     source_snapshot: input.sourceSnapshot ?? null,
   };
 }
@@ -213,6 +230,7 @@ export async function listExercises(filters: ExerciseListFilters = {}) {
   if (filters.status) query = query.eq("status", filters.status);
   if (filters.category) query = query.eq("category", filters.category);
   if (filters.source) query = query.eq("source", filters.source);
+  if (filters.gender) query = query.filter("media", "cs", JSON.stringify([{ gender: filters.gender }]));
   if (filters.muscle) query = query.overlaps("primary_muscles", [filters.muscle]);
   if (targetExerciseIds) query = query.in("id", targetExerciseIds);
 
@@ -254,7 +272,9 @@ export async function getExercise(id: string) {
   return data ? mapRow(data as ExerciseRow) : null;
 }
 
-function getPublicPageOptions(options: { page?: number; pageSize?: number }) {
+type PublicExerciseOptions = { category?: string; gender?: ExerciseGender; page?: number; pageSize?: number };
+
+function getPublicPageOptions(options: PublicExerciseOptions) {
   const page = Math.max(options.page ?? 1, 1);
   const pageSize = Math.min(Math.max(options.pageSize ?? PUBLIC_EXERCISES_PAGE_SIZE, 1), 100);
 
@@ -271,7 +291,7 @@ function comparePublicRowsByCategoryOrder(first: PublicOrderRow, second: PublicO
   return first.name.localeCompare(second.name);
 }
 
-async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: string[]) {
+async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: string[], gender?: ExerciseGender) {
   if (ids.length === 0) return [];
 
   const { data, error } = await supabase
@@ -281,17 +301,17 @@ async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: stri
     .in("id", ids);
   if (error) throwDatabaseError(error);
 
-  const rowsById = new Map((data ?? []).map((row) => [String(row.id), mapPublicExercise(row as ExerciseRow)]));
+  const rowsById = new Map((data ?? []).map((row) => [String(row.id), mapPublicExercise(row as ExerciseRow, gender)]));
   return ids.flatMap((id) => {
     const exercise = rowsById.get(id);
     return exercise ? [exercise] : [];
   });
 }
 
-async function listPublishedExercisesWithClient(supabase: PublicQueryClient, muscleNames: string[], options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+async function listPublishedExercisesWithClient(supabase: PublicQueryClient, muscleNames: string[], options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
   const { page, pageSize, start } = getPublicPageOptions(options);
   if (options.category) {
-    const { data, error, count } = await supabase
+    let query = supabase
       .from("exercises")
       .select(exerciseSelect, { count: "exact" })
       .eq("status", "Published")
@@ -299,28 +319,32 @@ async function listPublishedExercisesWithClient(supabase: PublicQueryClient, mus
       .eq("category", options.category)
       .order("updated_at", { ascending: false })
       .range(start, start + pageSize - 1);
+    if (options.gender) query = query.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
+    const { data, error, count } = await query;
     if (error) throwDatabaseError(error);
 
     const rows = (data ?? []) as ExerciseRow[];
-    return { items: rows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+    return { items: rows.map((row) => mapPublicExercise(row, options.gender)), total: count ?? rows.length, page, pageSize };
   }
 
-  const { data: orderData, error: orderError, count } = await supabase
+  let orderQuery = supabase
     .from("exercises")
     .select(publicOrderSelect, { count: "exact" })
     .eq("status", "Published")
     .overlaps("primary_muscles", muscleNames);
+  if (options.gender) orderQuery = orderQuery.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
+  const { data: orderData, error: orderError, count } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
     .sort(comparePublicRowsByCategoryOrder)
     .slice(start, start + pageSize);
-  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id));
+  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
   return { items, total: count ?? orderData?.length ?? 0, page, pageSize };
 }
 
-async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryClient, mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryClient, mode: ExerciseTargetMode, slug: string, options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
   const { page, pageSize, start } = getPublicPageOptions(options);
   const { data: targets, error: targetError } = await supabase
     .from("exercise_targets")
@@ -333,7 +357,7 @@ async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryCli
   if (exerciseIds.length === 0) return { items: [], total: 0, page, pageSize };
 
   if (options.category) {
-    const { data, error, count } = await supabase
+    let query = supabase
       .from("exercises")
       .select(exerciseSelect, { count: "exact" })
       .eq("status", "Published")
@@ -341,73 +365,80 @@ async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryCli
       .eq("category", options.category)
       .order("updated_at", { ascending: false })
       .range(start, start + pageSize - 1);
+    if (options.gender) query = query.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
+    const { data, error, count } = await query;
     if (error) throwDatabaseError(error);
 
     const rows = (data ?? []) as ExerciseRow[];
-    return { items: rows.map(mapPublicExercise), total: count ?? rows.length, page, pageSize };
+    return { items: rows.map((row) => mapPublicExercise(row, options.gender)), total: count ?? rows.length, page, pageSize };
   }
 
-  const { data: orderData, error: orderError } = await supabase
+  let orderQuery = supabase
     .from("exercises")
     .select(publicOrderSelect)
     .eq("status", "Published")
     .in("id", exerciseIds);
+  if (options.gender) orderQuery = orderQuery.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
+  const { data: orderData, error: orderError } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
     .sort(comparePublicRowsByCategoryOrder)
     .slice(start, start + pageSize);
-  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id));
+  const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
   return { items, total: orderData?.length ?? 0, page, pageSize };
 }
 
 const getCachedPublishedExercises = unstable_cache(
-  async (muscleNames: string[], category: string, page: number, pageSize: number) => listPublishedExercisesWithClient(
+  async (muscleNames: string[], category: string, gender: ExerciseGender | "", page: number, pageSize: number) => listPublishedExercisesWithClient(
     createSupabaseAdminClient(),
     muscleNames,
-    { category: category || undefined, page, pageSize },
+    { category: category || undefined, gender: gender || undefined, page, pageSize },
   ),
   ["public-exercises"],
   { revalidate: 60, tags: [PUBLIC_EXERCISES_CACHE_TAG] },
 );
 
 const getCachedPublishedExercisesByTarget = unstable_cache(
-  async (mode: ExerciseTargetMode, slug: string, category: string, page: number, pageSize: number) => listPublishedExercisesByTargetWithClient(
+  async (mode: ExerciseTargetMode, slug: string, category: string, gender: ExerciseGender | "", page: number, pageSize: number) => listPublishedExercisesByTargetWithClient(
     createSupabaseAdminClient(),
     mode,
     slug,
-    { category: category || undefined, page, pageSize },
+    { category: category || undefined, gender: gender || undefined, page, pageSize },
   ),
   ["public-exercises-by-target"],
   { revalidate: 60, tags: [PUBLIC_EXERCISES_CACHE_TAG] },
 );
 
-export async function listPublishedExercises(muscle: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+export async function listPublishedExercises(muscle: string, options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
   const { page, pageSize } = getPublicPageOptions(options);
   if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
 
+  // Routes without a gender come from the default male body map.
+  const gender = options.gender ?? "male";
   // Include the resolved names in the cache key, not just their potentially outdated slug.
   const muscleNames = getSourceMuscleNames(muscle);
   if (isDatabaseConfigured()) {
-    return getCachedPublishedExercises(muscleNames, options.category ?? "", page, pageSize);
+    return getCachedPublishedExercises(muscleNames, options.category ?? "", gender, page, pageSize);
   }
 
-  return listPublishedExercisesWithClient(await createSupabaseServerClient(), muscleNames, { ...options, page, pageSize });
+  return listPublishedExercisesWithClient(await createSupabaseServerClient(), muscleNames, { ...options, gender, page, pageSize });
 }
 
-export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: { category?: string; page?: number; pageSize?: number } = {}): Promise<PublicExercisePage> {
+export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
   const { page, pageSize } = getPublicPageOptions(options);
   if (!isSupabaseConfigured()) return { items: [], total: 0, page, pageSize };
 
+  const gender = options.gender ?? "male";
   if (isDatabaseConfigured()) {
-    return getCachedPublishedExercisesByTarget(mode, slug, options.category ?? "", page, pageSize);
+    return getCachedPublishedExercisesByTarget(mode, slug, options.category ?? "", gender, page, pageSize);
   }
 
-  return listPublishedExercisesByTargetWithClient(await createSupabaseServerClient(), mode, slug, { ...options, page, pageSize });
+  return listPublishedExercisesByTargetWithClient(await createSupabaseServerClient(), mode, slug, { ...options, gender, page, pageSize });
 }
 
-export async function getPublishedExerciseByKey(key: string) {
+export async function getPublishedExerciseByKey(key: string, gender?: ExerciseGender) {
   if (!isSupabaseConfigured()) return null;
 
   const supabase = await createSupabaseServerClient();
@@ -419,10 +450,11 @@ export async function getPublishedExerciseByKey(key: string) {
     if (!Number.isInteger(sourceId) || sourceId <= 0) return null;
     query = query.eq("source", "musclewiki").eq("source_id", sourceId);
   }
+  if (gender) query = query.filter("media", "cs", JSON.stringify([{ gender }]));
 
   const { data, error } = await query.maybeSingle();
   if (error) throwDatabaseError(error);
-  return data ? mapPublicExercise(data as ExerciseRow) : null;
+  return data ? mapPublicExercise(data as ExerciseRow, gender) : null;
 }
 
 export async function createExercise(input: ValidatedExerciseInput) {

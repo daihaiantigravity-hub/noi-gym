@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import { getPageHref, PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
-import type { PublicExercise } from "@/lib/exercises/types";
+import { withExerciseGender } from "@/lib/exercises/gender";
+import type { ExerciseGender, PublicExercise } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
 import ExercisePagination from "./ExercisePagination";
 
@@ -36,7 +37,8 @@ function formatMuscleName(muscle: string) {
   return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 }
 
-function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercise; muscle: string; routePath: string }) {
+function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: PublicExercise; gender?: ExerciseGender; muscle: string; routePath: string }) {
+  const detailRoute = withExerciseGender(`/exercises/${muscle}/${exercise.id}`, gender);
   const videos = Array.from(
     new Map(
       exercise.media
@@ -82,7 +84,7 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
     <article className="health-card exercise-library-exercise-card">
       <header className="exercise-library-exercise-card__header">
         <h2>{exercise.name}</h2>
-        <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`/exercises/${muscle}/${exercise.id}?from=${encodeURIComponent(routePath)}`}>›</Link>
+        <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`${detailRoute}${detailRoute.includes("?") ? "&" : "?"}from=${encodeURIComponent(routePath)}`}>›</Link>
       </header>
       <div className="exercise-library-showcase__media">
         <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
@@ -102,21 +104,39 @@ function ExerciseCard({ exercise, muscle, routePath }: { exercise: PublicExercis
   );
 }
 
-export default function ExerciseLibrary({ muscle, exercises, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
+export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; gender?: ExerciseGender; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
   const router = useRouter();
   const muscleName = targetLabel ?? formatMuscleName(muscle);
   const currentRoutePath = getPageHref(routePath, page);
+  const isEmptyPage = exercises.length === 0 && (page > 1 || total > 0);
 
   return (
     <main aria-label={`${muscleName} exercises`} className="exercise-library-page health-mood-surface">
       <header className="exercise-library-header">
-        <button aria-label="Quay lại trang chủ" className="exercise-library-back-button" onClick={() => router.push("/")} title="Quay lại trang chủ" type="button">
+        <button aria-label="Back to Home" className="exercise-library-back-button" onClick={() => router.push("/")} title="Back to Home" type="button">
           <svg aria-hidden="true" fill="none" height="22" viewBox="0 0 24 24" width="22"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </button>
-        <h1 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}</h1>
+        <h1 className="exercise-library-results__title" id="exercise-results-title">{gender === "female" ? "Female " : ""}{muscleName} Exercises</h1>
       </header>
-      {exercises.length > 0 ? <section aria-labelledby="exercise-results-title" className="exercise-library-results"><div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} key={exercise.id} muscle={muscle} routePath={currentRoutePath} />)}</div></section> : <p className="exercise-library-empty" role="status">No exercises found for this muscle yet.</p>}
-      <ExercisePagination page={page} pageSize={pageSize} routePath={routePath} total={total} />
+      {exercises.length > 0 ? (
+        <section aria-labelledby="exercise-results-title" className="exercise-library-results">
+          <div className="exercise-library-results__list">{exercises.map((exercise) => <ExerciseCard exercise={exercise} gender={gender} key={exercise.id} muscle={muscle} routePath={currentRoutePath} />)}</div>
+        </section>
+      ) : (
+        <section aria-labelledby="exercise-empty-title" className="exercise-library-empty" role="status">
+          <span aria-hidden="true" className="exercise-library-empty__icon">
+            <svg fill="none" height="32" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" viewBox="0 0 32 32" width="32">
+              <path d="M8 11v10M12 8v16M20 8v16M24 11v10M12 16h8M5 13v6M27 13v6" />
+            </svg>
+          </span>
+          <h2 id="exercise-empty-title">{isEmptyPage ? "No exercises on this page" : "No exercises available yet"}</h2>
+          <p>{isEmptyPage ? "This page is empty. Return to the first page to see available exercises." : `There are no ${gender === "female" ? "female" : "male"} exercises for ${muscleName} in this selection yet.`}</p>
+          <Link className="exercise-library-empty__action" href={isEmptyPage ? getPageHref(routePath, 1) : "/"}>
+            {isEmptyPage ? "View first page" : "Explore other exercises"}
+          </Link>
+        </section>
+      )}
+      {exercises.length > 0 && <ExercisePagination page={page} pageSize={pageSize} routePath={routePath} total={total} />}
     </main>
   );
 }

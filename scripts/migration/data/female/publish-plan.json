@@ -1,0 +1,4355 @@
+{
+  "generatedAt": "2026-09-29T08:38:31.000Z",
+  "summary": {
+    "sourceRows": 242,
+    "draftsToPublish": 242,
+    "alreadyPublished": 0,
+    "categories": {
+      "Kettlebells": 15,
+      "Vitruvian": 22,
+      "Bodyweight": 16,
+      "Dumbbells": 30,
+      "Barbell": 15,
+      "Recovery": 116,
+      "Band": 8,
+      "Machine": 6,
+      "Cables": 11,
+      "Medicine Ball": 3
+    },
+    "muscleSources": {
+      "source-standard-listings": 233,
+      "source-advanced-listing": 8,
+      "joint-only": 1
+    },
+    "targetLinks": 48
+  },
+  "plan": [
+    {
+      "sourceId": 270246703347966,
+      "name": "Kettlebell Curl",
+      "primaryMuscles": [
+        "Biceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "8611ca5b-d8f1-40a7-ac89-cc9de6dbbfc7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:41:58.615205+00:00"
+    },
+    {
+      "sourceId": 207600834561573,
+      "name": "Vitruvian Hammer Curl",
+      "primaryMuscles": [
+        "Biceps",
+        "Forearms"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "276f560b-bee8-4e8a-babb-4490ecdb1e28",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:42:40.92619+00:00"
+    },
+    {
+      "sourceId": 14531307015647,
+      "name": "Vitruvian Row",
+      "primaryMuscles": [
+        "Biceps",
+        "Forearms",
+        "Lats"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "116fc5b8-8b87-4aaa-b8dd-c6643546c26e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:42:42.883948+00:00"
+    },
+    {
+      "sourceId": 203274909870157,
+      "name": "Vitruvian Single Arm Row",
+      "primaryMuscles": [
+        "Biceps",
+        "Lats"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "2811fb8e-aae1-4ab9-b6d3-6da753c047c1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:42:43.760143+00:00"
+    },
+    {
+      "sourceId": 60967590151027,
+      "name": "Hollow Hold",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lower-abdominals",
+          "label": "Lower Abdominals",
+          "source_url": "https://musclewiki.com/exercises/lower-abdominals"
+        },
+        {
+          "mode": "advanced",
+          "slug": "upper-abdominals",
+          "label": "Upper Abdominals",
+          "source_url": "https://musclewiki.com/exercises/upper-abdominals"
+        }
+      ],
+      "databaseId": "64949e87-c9f9-4195-919c-2abe22a7bbbe",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:12.594693+00:00"
+    },
+    {
+      "sourceId": 239640197946916,
+      "name": "Mountain Climber",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lower-abdominals",
+          "label": "Lower Abdominals",
+          "source_url": "https://musclewiki.com/exercises/lower-abdominals"
+        }
+      ],
+      "databaseId": "7002b898-33b5-4d4a-b4cd-37bc10bd4f09",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:25.018997+00:00"
+    },
+    {
+      "sourceId": 242062595447848,
+      "name": "Situp",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "upper-abdominals",
+          "label": "Upper Abdominals",
+          "source_url": "https://musclewiki.com/exercises/upper-abdominals"
+        }
+      ],
+      "databaseId": "fb40a10a-a1f9-497f-ae74-c50fc3fb9b8c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:44.98753+00:00"
+    },
+    {
+      "sourceId": 214579671708130,
+      "name": "Bodyweight Knee Plank Up Down",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "fe2a2169-6021-4d73-91c5-005879a7ed68",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:48.266564+00:00"
+    },
+    {
+      "sourceId": 151039896184340,
+      "name": "Bodyweight Plank Up Down",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "bc2c214c-eec3-402a-9666-9d0ee56e4445",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:48.358829+00:00"
+    },
+    {
+      "sourceId": 146914002687807,
+      "name": "Dumbbell Laying Row",
+      "primaryMuscles": [
+        "Biceps",
+        "Lats"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "6abf0b5c-f15b-4f05-bd55-419976ff20ed",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:52.135322+00:00"
+    },
+    {
+      "sourceId": 21914748569507,
+      "name": "Landmine Meadows Row",
+      "primaryMuscles": [
+        "Biceps",
+        "Lats"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "fd8229cc-33af-4ea9-bcc4-1a014cf28885",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:43:53.439377+00:00"
+    },
+    {
+      "sourceId": 131337355514201,
+      "name": "Vitruvian Seated Calf Raise",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "3c1fb0dd-50a9-4981-808d-804199bc3fb1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:31.14014+00:00"
+    },
+    {
+      "sourceId": 239864540178915,
+      "name": "Vitruvian Standing Calf Raise",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "b5847b2c-c134-4847-a9d5-a99f09cf7f4b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:33.525097+00:00"
+    },
+    {
+      "sourceId": 106876038169730,
+      "name": "Vitruvian Crunch",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "eefe0f79-a847-42a1-b2cb-63613532d4e4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:44.235081+00:00"
+    },
+    {
+      "sourceId": 100713647956893,
+      "name": "Bird Dog",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "7f870c9a-4a62-4d51-9008-822e2e842c8b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:45.486922+00:00"
+    },
+    {
+      "sourceId": 203269736260600,
+      "name": "Dead Bug",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "452e64b8-3839-4cbc-a731-bbd217ecf150",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:45.776593+00:00"
+    },
+    {
+      "sourceId": 55929479556481,
+      "name": "Calf Isometric On Step",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "5955b123-0694-4b29-80c5-ce74bc0c3f57",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:52.923728+00:00"
+    },
+    {
+      "sourceId": 141041524017149,
+      "name": "Calf Mobilisation Seated Floor Roll",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "c43618c6-6357-4207-b9fb-879a4801aa18",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:53.283456+00:00"
+    },
+    {
+      "sourceId": 141810277333592,
+      "name": "Calf Raise 1A Bilateral Eccentric Floor",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "219636d7-7f76-4350-a99f-30d3d5cb90ec",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:53.523026+00:00"
+    },
+    {
+      "sourceId": 129970133942741,
+      "name": "Calf Raise 1B Bilateral Floor",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "10d06a7b-c3dd-4b9a-9039-09a5f3cf7fa2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:55.01848+00:00"
+    },
+    {
+      "sourceId": 72053964370442,
+      "name": "Calf Raise 1C Bilateral Eccentric From Box",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "c15c48e4-3318-4b63-ac31-22a315943752",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:56.394608+00:00"
+    },
+    {
+      "sourceId": 64586261744742,
+      "name": "Calf Raise 1D Bilateral From Box",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "fda11487-db0e-4623-acec-0adc10649fe4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:56.007154+00:00"
+    },
+    {
+      "sourceId": 6120381531421,
+      "name": "Calf Raise 1E Bilateral Isometric Floor",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4c579e2a-72cc-4e07-9dff-1a98bc7c29b5",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:56.189319+00:00"
+    },
+    {
+      "sourceId": 86072620127856,
+      "name": "Calf Raise 2A Eccentric Unilateral Floor",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4b3f1db2-0c01-40be-953c-f32e214b06d2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:01.058233+00:00"
+    },
+    {
+      "sourceId": 94859898052284,
+      "name": "Calf Raise 2B Unilateral Floor",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "8829bbeb-92f3-4a8d-9878-b9ea5c3e63f4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:57.400977+00:00"
+    },
+    {
+      "sourceId": 267729420447142,
+      "name": "Calf Raise 2C Eccentric Unilateral From Box",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "5b494ab8-bc93-4ef0-a5dd-53752fb50853",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:57.987659+00:00"
+    },
+    {
+      "sourceId": 80753214638055,
+      "name": "Calf Raise 2D Unilateral From Box",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a4dee7dc-663a-4a9f-b9bb-76a6826a76ee",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:44:57.87544+00:00"
+    },
+    {
+      "sourceId": 39077319856727,
+      "name": "Core Stability Regression Crosslateral Limb Raise Push Up Position",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders",
+        "Glutes",
+        "Obliques",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        },
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "b18135c4-6eaf-4501-83ca-696c04ba59b9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:01.322245+00:00"
+    },
+    {
+      "sourceId": 264723024041495,
+      "name": "Dead Bugs Cross Lateral",
+      "primaryMuscles": [
+        "Abdominals",
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "29a68ecb-ac8b-4fa1-85d6-a2eaa51f811a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:01.909423+00:00"
+    },
+    {
+      "sourceId": 269016496789816,
+      "name": "Dead Bugs Same Side",
+      "primaryMuscles": [
+        "Abdominals",
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "9b2d1f1d-26bc-4a17-97b3-5d3f21a51d23",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:03.152522+00:00"
+    },
+    {
+      "sourceId": 96883155344193,
+      "name": "Calf Raise Isometric Unilateral",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "ccc4ee25-9cca-4375-8f14-6fc0f3a9cdc8",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:04.399568+00:00"
+    },
+    {
+      "sourceId": 176283122068822,
+      "name": "Calf Stretch On Box Bilateral",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4d64425d-a884-4aed-8aac-bc991e9450dc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:03.920952+00:00"
+    },
+    {
+      "sourceId": 103024131298659,
+      "name": "Plank Saw",
+      "primaryMuscles": [
+        "Abdominals"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f79a7b72-e301-4d89-bfcd-30b84d8a767d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:07.482453+00:00"
+    },
+    {
+      "sourceId": 184838679105531,
+      "name": "Serratus Activation Active Plank",
+      "primaryMuscles": [
+        "Abdominals",
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2707e542-0ede-4798-90b7-f6da1172fab5",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:08.552389+00:00"
+    },
+    {
+      "sourceId": 159336626897711,
+      "name": "Seated Plantar Flexions",
+      "primaryMuscles": [
+        "Calves"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "7995ae6f-eeb4-476d-a40d-be5bb5c59e12",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:09.237429+00:00"
+    },
+    {
+      "sourceId": 89921334133547,
+      "name": "Band High To Low Pallof Press Wood Chopper",
+      "primaryMuscles": [
+        "Abdominals",
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "abc68ed9-d03f-4167-a4ac-9a08a55063bd",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:21.825252+00:00"
+    },
+    {
+      "sourceId": 262050566751253,
+      "name": "Band Low To High Pallof Press Wood Chopper",
+      "primaryMuscles": [
+        "Abdominals",
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "a64d5d25-f679-4a9d-89ab-552bfdd0143f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:23.406659+00:00"
+    },
+    {
+      "sourceId": 230691264360676,
+      "name": "Machine Pec Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "0d1bf747-6d0a-4f4b-864a-0d0eba55b353",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:25.541744+00:00"
+    },
+    {
+      "sourceId": 47229792719080,
+      "name": "Machine Chest Press",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "aa60deef-61f5-467f-97dd-bfdc281f1b84",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:35.706286+00:00"
+    },
+    {
+      "sourceId": 112657639374490,
+      "name": "Dumbbell Alternating Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Advanced",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "62df066f-0b30-4c5f-8976-71897461057c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:38.890454+00:00"
+    },
+    {
+      "sourceId": 66041039237570,
+      "name": "Dumbbell Single Arm Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "9c478625-9bed-4496-9dab-080878a4dc9a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:39.125259+00:00"
+    },
+    {
+      "sourceId": 150488070500029,
+      "name": "Dumbbell Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "09e22efc-4eeb-42a6-af15-d05f71d00ea1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:39.824808+00:00"
+    },
+    {
+      "sourceId": 40294382537438,
+      "name": "Kettlebell Alternating Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "968af6f0-a480-4dc9-91af-94c2112476ad",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:43.365345+00:00"
+    },
+    {
+      "sourceId": 269956384119426,
+      "name": "Kettlebell Single Arm Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "083c3fac-57e3-40c6-9785-2bc457aaf054",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:44.099289+00:00"
+    },
+    {
+      "sourceId": 87178208477741,
+      "name": "Kettlebell Z Press",
+      "primaryMuscles": [
+        "Abdominals",
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "d837df1d-cf0e-4198-aba7-ad778f3d27a3",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:44.599019+00:00"
+    },
+    {
+      "sourceId": 159595854324904,
+      "name": "Band Chest Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "0d55c65a-0c1b-4db0-961b-3cd3f2418bc3",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:54.782999+00:00"
+    },
+    {
+      "sourceId": 27018858859536,
+      "name": "Band Chest Press",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "f0671d0a-2210-4d74-9e20-a643d0e23fbd",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:45:57.305812+00:00"
+    },
+    {
+      "sourceId": 141734498064932,
+      "name": "Neutral Chest Press",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a07af0fa-0508-40f1-81a7-1f5103d4ec84",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:00.439833+00:00"
+    },
+    {
+      "sourceId": 243609379727311,
+      "name": "Kettlebell Bench Press",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a554ee78-f0f8-48cb-a8eb-ffc7f513928f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:02.118837+00:00"
+    },
+    {
+      "sourceId": 146325705239106,
+      "name": "Kettlebell Guillotine Bench Press",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "376acc8c-ec4f-4430-9f5d-283edba5d446",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:02.133494+00:00"
+    },
+    {
+      "sourceId": 189841404207651,
+      "name": "Kettlebell Pec Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "17432e82-51b8-41a3-aebf-fd3e300b0ff2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:02.672391+00:00"
+    },
+    {
+      "sourceId": 124392279259119,
+      "name": "Cable Incline Chest Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f2c8d73b-e735-4af9-832f-9cb3d5006669",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:03.579107+00:00"
+    },
+    {
+      "sourceId": 122189217164296,
+      "name": "Vitruvian Romanian Deadlift",
+      "primaryMuscles": [
+        "Forearms",
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2f169561-9438-464c-915c-46bc1b3b8c0f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:42.18703+00:00"
+    },
+    {
+      "sourceId": 271154191783137,
+      "name": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+      "primaryMuscles": [
+        "Forearms",
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "9c3889b0-767c-479e-a1d3-bde7fd252e04",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:46:53.515672+00:00"
+    },
+    {
+      "sourceId": 37380733626599,
+      "name": "Wrist Extensor Kneeling Hold",
+      "primaryMuscles": [
+        "Forearms"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "wrist-extensors",
+          "label": "Wrist Extensors",
+          "source_url": "https://musclewiki.com/exercises/wrist-extensors"
+        }
+      ],
+      "databaseId": "7bb99b6f-cfb4-4545-9371-a79bc666bb65",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:13.018708+00:00"
+    },
+    {
+      "sourceId": 197043284498857,
+      "name": "Wrist Extensor Mobilisation",
+      "primaryMuscles": [
+        "Forearms"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "wrist-extensors",
+          "label": "Wrist Extensors",
+          "source_url": "https://musclewiki.com/exercises/wrist-extensors"
+        }
+      ],
+      "databaseId": "c62ec39d-7737-496c-90f8-ed30726e21f6",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:15.355639+00:00"
+    },
+    {
+      "sourceId": 215449275676626,
+      "name": "Seated Wrist Extensor Stretch",
+      "primaryMuscles": [
+        "Forearms"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "wrist-extensors",
+          "label": "Wrist Extensors",
+          "source_url": "https://musclewiki.com/exercises/wrist-extensors"
+        }
+      ],
+      "databaseId": "4563845e-7734-47d9-a4f6-41b33bf01fb2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:16.547905+00:00"
+    },
+    {
+      "sourceId": 130656460030138,
+      "name": "Ulnar Deviations",
+      "primaryMuscles": [
+        "Forearms"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "joint",
+          "slug": "wrist",
+          "label": "Wrist",
+          "source_url": "https://musclewiki.com/exercises/wrist/recovery"
+        }
+      ],
+      "databaseId": "1417d706-1b21-46d1-9d31-a011d2273158",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:21.776459+00:00"
+    },
+    {
+      "sourceId": 277556769519263,
+      "name": "Vitruvian Bench Press",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "3ab18dfe-12ad-4056-97c2-5630b5636300",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:25.330569+00:00"
+    },
+    {
+      "sourceId": 148642236177143,
+      "name": "Vitruvian Pec Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "9193caaf-3edd-49ee-8c9f-928af4ff4813",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:26.283489+00:00"
+    },
+    {
+      "sourceId": 5953929748037,
+      "name": "Vitruvian Push Up",
+      "primaryMuscles": [
+        "Chest",
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "0c9a89ac-cf8a-4b3e-810d-41aba43508ff",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:26.538226+00:00"
+    },
+    {
+      "sourceId": 238498216524527,
+      "name": "Cable Single Arm Incline Chest Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e2b73eb3-bdf0-4ecb-888f-377253b0ec72",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:27.666118+00:00"
+    },
+    {
+      "sourceId": 211464548304837,
+      "name": "Hip Openers",
+      "primaryMuscles": [
+        "Chest",
+        "Front Shoulders",
+        "Glutes",
+        "Rear Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "75ce5ff6-edd9-4dc6-9dff-0290dd8f9d26",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:32.787201+00:00"
+    },
+    {
+      "sourceId": 222685606504143,
+      "name": "Knee Pull And Lumbar Rotation",
+      "primaryMuscles": [
+        "Chest",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "0e624667-cef8-44a0-b6a4-8c66e42da76e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:32.028426+00:00"
+    },
+    {
+      "sourceId": 149649501146316,
+      "name": "Cable Standing Single Arm Incline Chest Fly",
+      "primaryMuscles": [
+        "Chest"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "b4a37300-6ed2-4df5-a133-642ceab6c38d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:47:42.828286+00:00"
+    },
+    {
+      "sourceId": 22107960311198,
+      "name": "Band Low Lateral Raise",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lateral-deltoid",
+          "label": "Lateral Deltoid",
+          "source_url": "https://musclewiki.com/exercises/lateral-deltoid"
+        }
+      ],
+      "databaseId": "9d276afd-b7cf-40e9-b063-380c67cce973",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:48:02.863359+00:00"
+    },
+    {
+      "sourceId": 67041722923041,
+      "name": "Band Mid Lateral Raise",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lateral-deltoid",
+          "label": "Lateral Deltoid",
+          "source_url": "https://musclewiki.com/exercises/lateral-deltoid"
+        }
+      ],
+      "databaseId": "30dbe6a3-7639-434b-9b43-aa1312bd0068",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:48:05.946043+00:00"
+    },
+    {
+      "sourceId": 15817117598233,
+      "name": "Kettlebell Single Arm Lateral Raise",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lateral-deltoid",
+          "label": "Lateral Deltoid",
+          "source_url": "https://musclewiki.com/exercises/lateral-deltoid"
+        }
+      ],
+      "databaseId": "38f78066-740d-43ea-ac28-754ecedbb6af",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:48:40.298979+00:00"
+    },
+    {
+      "sourceId": 147590158248020,
+      "name": "Machine Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "fbd547ad-321d-4712-a2b8-720c782509d2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:48:52.653386+00:00"
+    },
+    {
+      "sourceId": 265381902870627,
+      "name": "Vitruvian Lateral Raise",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lateral-deltoid",
+          "label": "Lateral Deltoid",
+          "source_url": "https://musclewiki.com/exercises/lateral-deltoid"
+        }
+      ],
+      "databaseId": "7130a5c8-97d1-44fb-8267-90ca1c5484fc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:19.469536+00:00"
+    },
+    {
+      "sourceId": 107941217916102,
+      "name": "Bodyweight Feet Elevated Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "30d3fdfa-4e23-451d-91df-c322dc70f18a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:35.120961+00:00"
+    },
+    {
+      "sourceId": 29665802566959,
+      "name": "Dumbbell Feet Elevated Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "cb86a70a-7f3d-40f8-901f-02c0b4eabd2e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:33.87856+00:00"
+    },
+    {
+      "sourceId": 94911824752953,
+      "name": "Barbell Coan Deadlift",
+      "primaryMuscles": [
+        "Glutes",
+        "Lower back",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "656f7d07-26c3-40a3-b3dd-4ad05ca8c5a6",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:35.515632+00:00"
+    },
+    {
+      "sourceId": 163889946958997,
+      "name": "Barbell Forward Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "cf4b13bb-9402-4cca-8dcc-6fa9d1fd0adf",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:36.222933+00:00"
+    },
+    {
+      "sourceId": 229892187568833,
+      "name": "Barbell Front Rack Step Up",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "a07c71e8-8227-4950-ac84-03a7c07d2fb9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:36.557607+00:00"
+    },
+    {
+      "sourceId": 164803105555103,
+      "name": "Lat And Shoulder External Rotation Stretch 2 Kneeling Dowel",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Lats",
+        "Rear Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "c5454b7c-3b8f-44b1-9cdf-b85b493149ea",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:37.943377+00:00"
+    },
+    {
+      "sourceId": 119774219424282,
+      "name": "Lat And Shoulder External Rotation Stretch 3 Kneeling Dowel",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Lats",
+        "Rear Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "b94f8b3e-ce2f-4aff-9086-6e14265270ac",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:46.532201+00:00"
+    },
+    {
+      "sourceId": 148508278407647,
+      "name": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Lats",
+        "Rear Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "b588e7b3-7b77-4429-a73b-c0ea7928bd5a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:45.984945+00:00"
+    },
+    {
+      "sourceId": 180133424296079,
+      "name": "I's Prone",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "anterior-deltoid",
+          "label": "Anterior Deltoid",
+          "source_url": "https://musclewiki.com/exercises/anterior-deltoid"
+        }
+      ],
+      "databaseId": "b7b6345d-5315-46a5-89fc-0fda3c07254a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:45.335791+00:00"
+    },
+    {
+      "sourceId": 276199353899241,
+      "name": "Assisted Bulgarian Split Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "1f8699b7-3f7b-40f3-bf18-7ff84ce55e7b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:48.081694+00:00"
+    },
+    {
+      "sourceId": 256703806260395,
+      "name": "Forward Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e1504131-58cf-4df4-8c11-1270bfda3df9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:50.773596+00:00"
+    },
+    {
+      "sourceId": 33346234479282,
+      "name": "Heels Up Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c228aa5a-9b89-4b9e-8773-afd2f088d7c7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:51.659477+00:00"
+    },
+    {
+      "sourceId": 152965698707057,
+      "name": "Split Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a07e9e06-bfc3-4928-89bb-d22736c4f7aa",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:51.788716+00:00"
+    },
+    {
+      "sourceId": 36791279241522,
+      "name": "Dumbbell Forward Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a2e32329-7416-4b0e-91bd-72fe72bf6514",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:52.170233+00:00"
+    },
+    {
+      "sourceId": 129754427899172,
+      "name": "Dumbbell Goblet Forward Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "7cabaf36-feea-427d-bfa5-f3603f43e575",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:54.051962+00:00"
+    },
+    {
+      "sourceId": 238572344966644,
+      "name": "Dumbbell Goblet Reverse Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "b9140f5f-4d1d-4aef-b1e5-7f5e568dd053",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:54.869815+00:00"
+    },
+    {
+      "sourceId": 894471845890,
+      "name": "Dumbbell Goblet Split Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e725041c-90a9-4dea-a3be-a9aa42c5abd4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:55.952671+00:00"
+    },
+    {
+      "sourceId": 261640549166702,
+      "name": "Dumbbell Reverse Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "5c502938-784a-49bf-ad97-eb1a5645bc4f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:56.772393+00:00"
+    },
+    {
+      "sourceId": 238170145846523,
+      "name": "Dumbbell Split Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "d83ffcc8-889f-4f39-adb3-440e6b32b201",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:49:57.946279+00:00"
+    },
+    {
+      "sourceId": 74605315034263,
+      "name": "Medicine Ball Clean And Press",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Medicine Ball",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "5a47d8b8-ed36-4043-9ac6-7e867ba609f6",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:50:21.573027+00:00"
+    },
+    {
+      "sourceId": 143546028069672,
+      "name": "Medicine Ball Hang Clean And Press",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Medicine Ball",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "56eabcc3-6f8b-40df-ac61-b24363626e97",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:50:22.091718+00:00"
+    },
+    {
+      "sourceId": 196352965545445,
+      "name": "Dumbbell Heels Elevated Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "e1040847-b775-41a8-9e0f-cd41fde07869",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:50:34.110201+00:00"
+    },
+    {
+      "sourceId": 69782212980085,
+      "name": "Dumbbell Seated Bent Arm Lateral Raise",
+      "primaryMuscles": [
+        "Front Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "lateral-deltoid",
+          "label": "Lateral Deltoid",
+          "source_url": "https://musclewiki.com/exercises/lateral-deltoid"
+        }
+      ],
+      "databaseId": "ae72d281-fc48-40fa-a26a-df6f0a1e3d8a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:50:35.716061+00:00"
+    },
+    {
+      "sourceId": 36196970446846,
+      "name": "Landmine Lunge Rotate To Press",
+      "primaryMuscles": [
+        "Front Shoulders",
+        "Glutes",
+        "Obliques",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "9d024d86-b69c-48c0-8535-362cc68476a5",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:50:36.191814+00:00"
+    },
+    {
+      "sourceId": 31445573706635,
+      "name": "Band Leg Curl",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "8d2c8f91-b930-4529-a0d2-a93f4eab2db0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:00.468998+00:00"
+    },
+    {
+      "sourceId": 259262200825457,
+      "name": "Seated Leg Curl",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "972ec444-ed1e-415d-89e6-980c1484a1c8",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:04.349985+00:00"
+    },
+    {
+      "sourceId": 41017400171707,
+      "name": "Machine Seated Leg Curl",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Machine",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "26c35c1b-0c7f-4f2b-97cb-2d898247b9f7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:07.49699+00:00"
+    },
+    {
+      "sourceId": 270015943817755,
+      "name": "Dumbbell Figure Four Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "85af6678-95f5-48f6-b773-d5282214b7e1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:41.526188+00:00"
+    },
+    {
+      "sourceId": 21441177298942,
+      "name": "Dumbbell Figure Four Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "6e831942-3166-40ae-aa8c-f5f53efe8050",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:42.027152+00:00"
+    },
+    {
+      "sourceId": 216851817190376,
+      "name": "Dumbbell Single Leg Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4f92411e-e462-4fb8-90df-f463afeb6703",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:43.900051+00:00"
+    },
+    {
+      "sourceId": 229924916802820,
+      "name": "Dumbbell Single Leg Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "64698995-f765-4fb2-a59b-32b374d13df0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:48.710059+00:00"
+    },
+    {
+      "sourceId": 56438532303445,
+      "name": "Dumbbell Staggered Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e5147105-87bd-4eaa-896a-9d8a1ecd759b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:50.895682+00:00"
+    },
+    {
+      "sourceId": 256997047056248,
+      "name": "Dumbbell Staggered Hip thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "d086fa3e-a1e1-4f8a-ab47-1ceeb65e1b9c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:53.392422+00:00"
+    },
+    {
+      "sourceId": 21627983711395,
+      "name": "Vitruvian Staggered Deadlift",
+      "primaryMuscles": [
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "4e9846fa-82ee-4551-a0b4-244529ce0be9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:55.914093+00:00"
+    },
+    {
+      "sourceId": 127912152785679,
+      "name": "Bodyweight Feet Elevated Figure Four Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "8e9130d2-6d82-4dd6-9516-0f4167862fed",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:58.253353+00:00"
+    },
+    {
+      "sourceId": 60264011165734,
+      "name": "Kettlebell Alternating Swing",
+      "primaryMuscles": [
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "89fd8388-82f4-4fff-9cd0-327097641ada",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:56.442719+00:00"
+    },
+    {
+      "sourceId": 1501284372894,
+      "name": "Bodyweight Feet Elevated Single Leg Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "a1047574-070f-43d2-ace2-3407ec3adec9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:59.219966+00:00"
+    },
+    {
+      "sourceId": 53775215951208,
+      "name": "Dumbbell Feet Elevated Figure Four Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "52c7b853-f2e5-4589-a458-60e174999bf7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:51:59.694909+00:00"
+    },
+    {
+      "sourceId": 87401920067873,
+      "name": "Dumbbell Feet Elevated Single Leg Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c10d8458-1424-4ca1-8435-d3630a3a3710",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:00.683329+00:00"
+    },
+    {
+      "sourceId": 236876555393327,
+      "name": "Dumbbell Feet Elevated Staggered Glute Bridge",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "eaebd900-e67c-4f45-b05f-1421b987bbd0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:03.803348+00:00"
+    },
+    {
+      "sourceId": 197261618361427,
+      "name": "Dumbbell Standing Hip Abduction",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "291e8a2c-256b-40c0-b345-86d882e3b800",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:02.370548+00:00"
+    },
+    {
+      "sourceId": 141806539802169,
+      "name": "Lateral Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "6eff9dba-4660-4cd7-8fa3-5391b8e277db",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:05.371508+00:00"
+    },
+    {
+      "sourceId": 170991639200362,
+      "name": "Deadlift Bounces Stretch",
+      "primaryMuscles": [
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "94fa27d3-e887-4289-ac56-57f2cae2101e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:06.390405+00:00"
+    },
+    {
+      "sourceId": 209515639239306,
+      "name": "Dumbbell Lateral Lunge Reach",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "7af1edf9-d4e0-4db4-af93-ec52de617e88",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:07.5507+00:00"
+    },
+    {
+      "sourceId": 20389460305210,
+      "name": "Hamstring Mobilisation Seated Lacrosse Ball",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "55998c1d-5f12-4639-86aa-2bd85baebd59",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:14.050731+00:00"
+    },
+    {
+      "sourceId": 156505330767730,
+      "name": "Hamstring Stretch Dynamic Standing Bilateral",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "eb3d533e-fd7a-44de-bbeb-550fd3919027",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:14.497393+00:00"
+    },
+    {
+      "sourceId": 58439520032407,
+      "name": "Hamstring Stretch Dynamic Supine Alternating",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "81f2a1fe-986f-47a0-b272-51c0cbee7049",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:15.610056+00:00"
+    },
+    {
+      "sourceId": 120022398370379,
+      "name": "Hamstring Stretch Seated Single Leg",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "a5a2e11c-402c-4fb9-bf58-6dcc4d8c2ab6",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:16.157213+00:00"
+    },
+    {
+      "sourceId": 178082470033555,
+      "name": "Hamstring Stretch Seated Single Leg Isometric",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "8d742f9d-3df6-447d-bc8f-91dbb7352740",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:29.760525+00:00"
+    },
+    {
+      "sourceId": 7740007739355,
+      "name": "Hamstring Stretch Static Standing Single Leg",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "d9b4f657-edc9-4ba2-91d8-fbf16db915e5",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:31.254349+00:00"
+    },
+    {
+      "sourceId": 123521727261291,
+      "name": "Hamstring Stretch Supine Dynamic Band",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "341216c0-506c-4eb6-86f0-2fc6f63bb74d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:32.449826+00:00"
+    },
+    {
+      "sourceId": 57362002258796,
+      "name": "Hamstring Stretch Supine Glide",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "7e9b2876-e8ee-42e5-84df-2986e7eeecde",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:42.7959+00:00"
+    },
+    {
+      "sourceId": 165538450593605,
+      "name": "Hamstring Stretch Supine Static",
+      "primaryMuscles": [
+        "Hamstrings"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:56.81089+00:00"
+    },
+    {
+      "sourceId": 22150722124978,
+      "name": "Box Supported Single Leg Deadlift",
+      "primaryMuscles": [
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "1df2c30c-18c6-4f6c-a4fe-cdb15a604f6e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:44.054002+00:00"
+    },
+    {
+      "sourceId": 48155343299908,
+      "name": "Vitruvian Belt Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "2b2100af-6333-438b-be2b-dc453c9428d4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:44.263308+00:00"
+    },
+    {
+      "sourceId": 16434147322637,
+      "name": "Inchworm",
+      "primaryMuscles": [
+        "Hamstrings",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "56a20f67-43b1-4186-9183-273e305f65cc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:52:47.858044+00:00"
+    },
+    {
+      "sourceId": 263493072237458,
+      "name": "Vitruvian Deficit Lunge",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "b9c7fd9e-bd86-4cab-bb54-942b6ef6d776",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:08.583495+00:00"
+    },
+    {
+      "sourceId": 231234379951755,
+      "name": "Vitruvian Figure Four Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "40dccd0c-142a-434d-8c89-f69cbed7a05a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:10.305686+00:00"
+    },
+    {
+      "sourceId": 85675597776055,
+      "name": "Vitruvian Front Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f17ef13b-15ed-47eb-830d-f8d59beba99d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:09.735426+00:00"
+    },
+    {
+      "sourceId": 26325722283998,
+      "name": "Vitruvian Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4a2dbd14-d2e2-4d09-a134-94ce61f7943d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:13.201264+00:00"
+    },
+    {
+      "sourceId": 105979653172424,
+      "name": "Dumbbell Figure Four Heels Elevated Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "677dd74a-6587-4a94-92e9-cc91257fe482",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:22.248282+00:00"
+    },
+    {
+      "sourceId": 15162011587719,
+      "name": "Abductor Leg Raise Side Lying",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "993d5495-0199-4688-a3e7-4f623dd974d3",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:29.448297+00:00"
+    },
+    {
+      "sourceId": 60801960491089,
+      "name": "Abductor Leg Raise Side Lying Isometric",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c610a5d7-0bb5-4e1a-a940-af26bddaab48",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:31.698175+00:00"
+    },
+    {
+      "sourceId": 88350792743855,
+      "name": "Clamshells 1 Side Lying",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c48c2334-4fb5-49ae-af7f-81f5b858d3bd",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:30.556434+00:00"
+    },
+    {
+      "sourceId": 80423375062617,
+      "name": "Clamshells 2 Side Lying",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "6d611d36-3f8a-492b-aa60-dbb791c57a99",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:31.121843+00:00"
+    },
+    {
+      "sourceId": 24457837651135,
+      "name": "Clamshells 3 Internal External Rotations Side Lying",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "0e2c6dde-31f2-4efd-8243-7334ee412279",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:32.025822+00:00"
+    },
+    {
+      "sourceId": 5527371754917,
+      "name": "Clamshells 4 Side Lying Resisted",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "b9ed7c02-6669-4146-9f1d-70e8d95f02ac",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:31.678987+00:00"
+    },
+    {
+      "sourceId": 246316250780993,
+      "name": "Clock Taps",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "85b8e873-1ff3-41bb-986f-57b75a908cdb",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:34.116578+00:00"
+    },
+    {
+      "sourceId": 224826510391160,
+      "name": "Glute Hip Rotator Stretch 1 Seated",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "dad251eb-c054-4851-b3ed-c5f9c379856a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:36.11366+00:00"
+    },
+    {
+      "sourceId": 119280063220448,
+      "name": "Glute Hip Rotator Stretch 2 Seated",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "7eca3669-4221-44f6-85e9-283631a82f7a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:38.389675+00:00"
+    },
+    {
+      "sourceId": 148860565017548,
+      "name": "Glute Hip Rotator Stretch 3 Seated",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f4ce239a-1c98-4b10-9955-7fb1998f8c51",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:38.288198+00:00"
+    },
+    {
+      "sourceId": 180248842665068,
+      "name": "Glute Hip Rotator Stretch Supine",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "8c101fe7-bbd7-4f27-bdfe-130c43a91726",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:38.607012+00:00"
+    },
+    {
+      "sourceId": 57967897629117,
+      "name": "Glute Piriformis Mobilisation 1 Floor Seated Lacrosse Ball",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "1df80d03-f212-4108-b10f-8d70a5b5ed68",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:38.957177+00:00"
+    },
+    {
+      "sourceId": 38448406182823,
+      "name": "Glute Stretch Knee Pull Dynamic Standing",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "75447b23-6d64-4625-a2a4-94105b53e09e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:40.666718+00:00"
+    },
+    {
+      "sourceId": 78658416412085,
+      "name": "Glute Stretch Static Unilateral",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "b9282f26-1d73-4233-8ff1-c61b71e1a73a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:40.008976+00:00"
+    },
+    {
+      "sourceId": 3815548749246,
+      "name": "Hip Extension 4Pt Position Hold",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "bfba0878-ef36-44c7-9bd7-76085e0c4a4c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:55.205201+00:00"
+    },
+    {
+      "sourceId": 7059825153269,
+      "name": "Hip Extension External Rotation 4Pt Position",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "2f05e89a-1893-4f4e-b460-6c1d88e80fb9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:55.749806+00:00"
+    },
+    {
+      "sourceId": 247428607804312,
+      "name": "Hip Extension External Rotation Pulses 4Pt Position",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "8fa14866-fed9-4b3f-b891-85106e40e757",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:56.858687+00:00"
+    },
+    {
+      "sourceId": 259589304579561,
+      "name": "Hip Extension Into Side Flexion",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "1c350f8e-21b5-427a-b442-72d266fde398",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:57.137177+00:00"
+    },
+    {
+      "sourceId": 266008419420593,
+      "name": "Prone Single Leg Hip Extension Hold",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "195b5e92-2d86-4518-9d69-2645720cc079",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:57.801675+00:00"
+    },
+    {
+      "sourceId": 49399953383145,
+      "name": "Band Glute Kickback Hold",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "88037637-1889-4a7d-a46d-6325391d3252",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:58.53308+00:00"
+    },
+    {
+      "sourceId": 126383660256584,
+      "name": "I Into W",
+      "primaryMuscles": [
+        "Lats",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "506d4cb2-658a-46e1-800a-b864195ac407",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:53:59.249566+00:00"
+    },
+    {
+      "sourceId": 217343395238072,
+      "name": "Band Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "4e27ac8e-56fe-42ff-a2fb-12a7be92082b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:01.107346+00:00"
+    },
+    {
+      "sourceId": 216731289595185,
+      "name": "Jump Into Single Leg Landing",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f4db2833-1f25-4fd1-be7e-0b7bbf8e2420",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:04.412757+00:00"
+    },
+    {
+      "sourceId": 100715156904180,
+      "name": "Jump Off Box Single Leg Landing",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f6d41518-d225-48b3-8a23-2df5e73cbe0a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:02.260399+00:00"
+    },
+    {
+      "sourceId": 265340138398635,
+      "name": "Lat Mobilisation Floor Foam Roller",
+      "primaryMuscles": [
+        "Lats"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "4e8818e6-2c24-4815-a974-b09f9767baf3",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:03.905719+00:00"
+    },
+    {
+      "sourceId": 172272394078852,
+      "name": "Prayer Stretch 1",
+      "primaryMuscles": [
+        "Lats",
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 1,
+      "targets": [],
+      "databaseId": "09464169-1a20-49ad-9d44-a200af08c149",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:03.424973+00:00"
+    },
+    {
+      "sourceId": 62019517183129,
+      "name": "Jump On And Off Box",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "f5dc9e97-7e0e-437f-a370-a13612a5b5cc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:05.113949+00:00"
+    },
+    {
+      "sourceId": 275616986266294,
+      "name": "Prayer Stretch 2 Roller",
+      "primaryMuscles": [
+        "Glutes",
+        "Lats",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 1,
+      "targets": [],
+      "databaseId": "9fb2edc8-0076-47aa-919e-911091ce16f8",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:06.931807+00:00"
+    },
+    {
+      "sourceId": 49790415714431,
+      "name": "Swipe Around",
+      "primaryMuscles": [
+        "Lats",
+        "Lower back",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "fb39d9b5-36a0-45b9-892d-ef18c8ff6855",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:06.974686+00:00"
+    },
+    {
+      "sourceId": 204675615075999,
+      "name": "Alternating Swipe Around",
+      "primaryMuscles": [
+        "Lats",
+        "Lower back",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "5cbbb7be-4a75-432f-9441-ae6ea8a7fd06",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:08.274473+00:00"
+    },
+    {
+      "sourceId": 120677573105981,
+      "name": "Side Step On And Off Box",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "5dd3bc59-40cc-4428-a711-999783690cdc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:09.915624+00:00"
+    },
+    {
+      "sourceId": 278365734079261,
+      "name": "Skater Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2b0cf95c-57ac-420f-b9f6-ab4a90b1714b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:12.758706+00:00"
+    },
+    {
+      "sourceId": 28261890356018,
+      "name": "Single Leg Concentric Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2a2c820e-a76e-4fbf-ac6c-4eee14127045",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:13.194284+00:00"
+    },
+    {
+      "sourceId": 142241362411993,
+      "name": "Single Leg Eccentric Box Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "26cd60b6-73b4-4713-a35d-f22480d40d78",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:16.176369+00:00"
+    },
+    {
+      "sourceId": 138011415659222,
+      "name": "Bosu Ball Single Leg Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "2aa6b195-d6f0-4626-bab9-a89d786acb66",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:15.384192+00:00"
+    },
+    {
+      "sourceId": 226246923578762,
+      "name": "Bodyweight Deadlift",
+      "primaryMuscles": [
+        "Glutes",
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:19.783488+00:00"
+    },
+    {
+      "sourceId": 2664583083935,
+      "name": "Dumbbell Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "09d8773e-04ac-4643-a0bd-fc81c227bb62",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:53.430788+00:00"
+    },
+    {
+      "sourceId": 183751389226971,
+      "name": "Dumbbell Front Rack Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "f71d4ae4-01c5-4e5a-837a-5887f6e93e99",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:53.84339+00:00"
+    },
+    {
+      "sourceId": 65011603129322,
+      "name": "Dumbbell Goblet Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "c355900a-6bf8-4109-a054-4416dff1980e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:54.049687+00:00"
+    },
+    {
+      "sourceId": 263918501115299,
+      "name": "Barbell Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "1bbba120-a063-4101-8736-203ae239a366",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:54.633509+00:00"
+    },
+    {
+      "sourceId": 151050550800060,
+      "name": "Landmine Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "ea903627-fd9d-47c3-8dda-01ae383318dc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:55.294642+00:00"
+    },
+    {
+      "sourceId": 108897444619453,
+      "name": "Landmine Goblet Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Advanced",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "60b38418-8ca9-4ead-8535-82bd4577c348",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:55.234319+00:00"
+    },
+    {
+      "sourceId": 255847840652359,
+      "name": "Landmine Goblet Step Up",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "abe1ac5a-2385-4a5a-9805-ce29f62413e7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:57.065127+00:00"
+    },
+    {
+      "sourceId": 227712583503784,
+      "name": "Landmine Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "8b3329a6-2fd5-4bd6-a078-e063fe2a9ada",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:56.205805+00:00"
+    },
+    {
+      "sourceId": 189449157445419,
+      "name": "Landmine Single Leg Hip Thrust",
+      "primaryMuscles": [
+        "Glutes"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "d53fa304-b809-4d86-b02c-3fd417d8ca6f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:56.251917+00:00"
+    },
+    {
+      "sourceId": 238241692657670,
+      "name": "Landmine Split Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "e58fb503-ff8f-42e5-a4a2-cf2b6ee362f9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:56.381916+00:00"
+    },
+    {
+      "sourceId": 3845062575457,
+      "name": "Bodyweight Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Bodyweight",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "5ff3d5f5-dd4a-4eeb-8e16-46a1fb71a602",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:57.365436+00:00"
+    },
+    {
+      "sourceId": 194100394429491,
+      "name": "Kettlebell Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "8996e067-8ddf-4776-9651-dcaeb88b5953",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:58.017105+00:00"
+    },
+    {
+      "sourceId": 152629656685371,
+      "name": "Kettlebell Front Rack Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "1df014b7-23ca-47e3-92ec-f54ca472be98",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:58.341021+00:00"
+    },
+    {
+      "sourceId": 114854341236122,
+      "name": "Kettlebell Goblet Cossack Squat",
+      "primaryMuscles": [
+        "Glutes",
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "2bcd22ab-3b27-417f-b2b9-32634ac0cfd1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:54:58.463936+00:00"
+    },
+    {
+      "sourceId": 164959440179585,
+      "name": "Kettlebell Superman",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "ff9994c0-eed3-446c-be83-a4187378eec0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:11.66503+00:00"
+    },
+    {
+      "sourceId": 133539660606724,
+      "name": "Kettlebell Superman Hold",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Advanced",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "9caf1a9e-fc74-4328-9448-3278097cc6e1",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:11.803233+00:00"
+    },
+    {
+      "sourceId": 96179389713646,
+      "name": "Cobra Stretch 1",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "fe159d28-1ece-4587-bcba-cb9ef780d0b2",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:18.419214+00:00"
+    },
+    {
+      "sourceId": 51540987361217,
+      "name": "Cobra Stretch 2",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "baba62ce-631d-478a-84eb-3ec495074c6a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:19.12892+00:00"
+    },
+    {
+      "sourceId": 160463656906602,
+      "name": "Partner Lower Back Extensions",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "c46aac72-af0d-4b61-9d4b-a1c02867c728",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:22.216522+00:00"
+    },
+    {
+      "sourceId": 276764614561033,
+      "name": "Lower Back Extensions 2",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e62f7c2b-aa53-43f7-b174-ee601c5c6798",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:22.798506+00:00"
+    },
+    {
+      "sourceId": 2388634020779,
+      "name": "Lower Back Extensions 3",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2a418eff-5e0b-424c-ae73-f8a10e387ed7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:24.465967+00:00"
+    },
+    {
+      "sourceId": 149040945241198,
+      "name": "Lower Back Extensions 4",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "ecced23c-8e77-4ce6-9d66-a74c418cb66a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:24.843145+00:00"
+    },
+    {
+      "sourceId": 107304155540727,
+      "name": "Lumbar Extensor Mobilisation Supine Bent Knees Peanut Tool",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "574fb29c-676f-495b-b7f3-5de7f34b4480",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:26.863612+00:00"
+    },
+    {
+      "sourceId": 253894146172616,
+      "name": "Floor Knee Pull Bilateral",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "ccca2335-f287-4631-bbad-2f0bdac4d249",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:30.592278+00:00"
+    },
+    {
+      "sourceId": 259649462145873,
+      "name": "Lumbar Rotation 1",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "e79daef7-ccad-4e2f-8347-4c84910ff8d3",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:30.266271+00:00"
+    },
+    {
+      "sourceId": 39986958727063,
+      "name": "Lumbar Rotation 2",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "b82bdd0b-e8c2-4802-a05a-667da2771a41",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:30.393595+00:00"
+    },
+    {
+      "sourceId": 227130737736895,
+      "name": "Lumbar Rotation 3",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "f290a06f-2584-4715-acd0-60e89a23f7f0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:33.601406+00:00"
+    },
+    {
+      "sourceId": 257146496780152,
+      "name": "Lumbar Rotation 4",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "fd2feef7-c7f9-409a-b563-ddb66ac9ce31",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:38.524793+00:00"
+    },
+    {
+      "sourceId": 79396855229852,
+      "name": "Lumbar Rotation 5",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "6ce8cbb7-362a-4525-8f02-a52e4c92b540",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:39.665261+00:00"
+    },
+    {
+      "sourceId": 216887442910566,
+      "name": "QL Mobilisation Floor Foam Roller",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "fa42b0d8-0bff-4c20-887d-a288263a7cca",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:45.454033+00:00"
+    },
+    {
+      "sourceId": 17785753836319,
+      "name": "Skydiver",
+      "primaryMuscles": [
+        "Lower back"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "2e526f63-4f56-4e76-9ece-ab03c8483caa",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:55:44.343572+00:00"
+    },
+    {
+      "sourceId": 155093037477986,
+      "name": "Vitruvian Kneeling Wood Chopper",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "afab9c4d-b305-43e8-88f3-be4212e43b55",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:01.439393+00:00"
+    },
+    {
+      "sourceId": 26142130168254,
+      "name": "Vitruvian Side Bend",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "0d0d8601-aa5a-46a6-908e-d0e2ae0550ba",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:01.696312+00:00"
+    },
+    {
+      "sourceId": 97875627315831,
+      "name": "Vitruvian Windmill",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "982a7602-dfe5-4608-be51-c7f714553b92",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:02.677756+00:00"
+    },
+    {
+      "sourceId": 34136726449165,
+      "name": "Lat And Lateral Line Stretch",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 5,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "7604b5b7-ba4a-40fa-a6be-aa6652265769",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:04.078382+00:00"
+    },
+    {
+      "sourceId": 235439633007256,
+      "name": "Seated Lateral Line Stretch",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 5,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "e27cd7a8-0246-4d4f-9390-25c1ff05b6fe",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:04.32157+00:00"
+    },
+    {
+      "sourceId": 106918386423531,
+      "name": "Prayer Stretch Side Bend",
+      "primaryMuscles": [
+        "Obliques"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "obliques",
+          "label": "Obliques",
+          "source_url": "https://musclewiki.com/exercises/obliques"
+        }
+      ],
+      "databaseId": "4465a30c-7966-4941-9c64-fbb467cb3482",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:06.777742+00:00"
+    },
+    {
+      "sourceId": 171098654297106,
+      "name": "Ys",
+      "primaryMuscles": [
+        "Rear Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "7028a69c-cd9a-4de0-90ec-8a4a6e56347e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:29.748319+00:00"
+    },
+    {
+      "sourceId": 182326787464862,
+      "name": "Vitruvian Rear Delt Fly",
+      "primaryMuscles": [
+        "Rear Shoulders",
+        "Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "a649ef62-d76d-4cbf-9a27-7459a55be794",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:27.728906+00:00"
+    },
+    {
+      "sourceId": 36151674916785,
+      "name": "Laying Ts",
+      "primaryMuscles": [
+        "Rear Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "5e847b9c-3601-4331-97e4-132e2b48b898",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:34.003041+00:00"
+    },
+    {
+      "sourceId": 2923737092593,
+      "name": "Band Leg Extension",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Band",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "e1b42fe3-a934-40cf-8a5c-cebd2fb03b33",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:41.010626+00:00"
+    },
+    {
+      "sourceId": 41426834905941,
+      "name": "Dumbbell Laying Rear Delt Fly",
+      "primaryMuscles": [
+        "Rear Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "370c6d23-45cc-43d1-b3f8-be56e6c0e4bc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:38.56989+00:00"
+    },
+    {
+      "sourceId": 256607817486275,
+      "name": "Landmine Rear Delt Row",
+      "primaryMuscles": [
+        "Rear Shoulders"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "9b15fbb5-5cf3-42f7-a28a-ccb560690186",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:56:38.837949+00:00"
+    },
+    {
+      "sourceId": 245031885769190,
+      "name": "Vitruvian Shrug",
+      "primaryMuscles": [
+        "Traps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Vitruvian",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "786decf0-6039-4452-acf4-401d1ee3f37d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:57:10.240552+00:00"
+    },
+    {
+      "sourceId": 186088061682725,
+      "name": "Landmine Shrug",
+      "primaryMuscles": [
+        "Traps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "f776fe1a-71f2-46c5-b7a0-ec550097672d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:57:17.25814+00:00"
+    },
+    {
+      "sourceId": 132342072239686,
+      "name": "Scapular Retraction",
+      "primaryMuscles": [
+        "Traps (mid-back)",
+        "Traps"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "163b7f7f-1921-48f7-8c96-6bd1c90f6286",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:01.512256+00:00"
+    },
+    {
+      "sourceId": 30028715127067,
+      "name": "Kettlebell Skull Crusher",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Kettlebells",
+      "categorySource": "female-media-filename",
+      "difficulty": "Intermediate",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "d2b8355e-d052-4988-b73d-1392f285ab3b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:20.733964+00:00"
+    },
+    {
+      "sourceId": 125675971464995,
+      "name": "Band Knee Extension",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "7d20fee3-b418-4ed8-872d-329cd18ac7f9",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:24.71811+00:00"
+    },
+    {
+      "sourceId": 203902819952794,
+      "name": "Towel Knee Extension",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a5aff05b-0663-4fcb-803a-e10b7796ed74",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:24.50526+00:00"
+    },
+    {
+      "sourceId": 276663907116481,
+      "name": "Towel Knee Extension Hold",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "01413419-7df6-4138-a338-068f2685b262",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:24.914713+00:00"
+    },
+    {
+      "sourceId": 187209692906058,
+      "name": "Knee Extension Seated Partial",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a6646493-aeb9-4f29-962e-23189f1f03eb",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:25.754753+00:00"
+    },
+    {
+      "sourceId": 157876880438466,
+      "name": "Foam Roller Quad Mobilisation",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "78d544f0-68a1-41f5-9130-17bf5143ea0a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:30.913115+00:00"
+    },
+    {
+      "sourceId": 72776686388994,
+      "name": "Band Floor Quad Stretch",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "cf94c4cd-2c64-451b-b28c-59aaeeb325e5",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:30.968817+00:00"
+    },
+    {
+      "sourceId": 126541870952816,
+      "name": "Kneeling Quad Stretch",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c7dd2070-fb6c-4780-a32e-6af7a31d11b0",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:32.083922+00:00"
+    },
+    {
+      "sourceId": 204175341206639,
+      "name": "Seated Quad Stretch",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "97a07aa0-b3ed-491a-bea3-553d4d4ee920",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:31.708395+00:00"
+    },
+    {
+      "sourceId": 47492958826208,
+      "name": "Cable Bar Pushdown",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "77e1a6dc-e39f-4830-bff4-4dfe05ae47b7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:33.506312+00:00"
+    },
+    {
+      "sourceId": 259748277046758,
+      "name": "Cable Tricep Kickback",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "6c05a7f7-c981-496c-9a3a-df91e8fec239",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:32.907277+00:00"
+    },
+    {
+      "sourceId": 89855056613074,
+      "name": "Cable Single Arm Rope Pushdown",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "ab7f2174-759f-4d21-9c40-7a256379e1dc",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:33.248017+00:00"
+    },
+    {
+      "sourceId": 139191163692806,
+      "name": "Femoral Nerve Mobilisation",
+      "primaryMuscles": [
+        "Quads"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "424db28c-ef6a-453d-a5e2-ddaf2ce27c03",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:36.957999+00:00"
+    },
+    {
+      "sourceId": 272864409190331,
+      "name": "Cable Single Arm Skullcrusher",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "a6cef9f7-b351-4267-8c0d-b456587240f7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:34.051628+00:00"
+    },
+    {
+      "sourceId": 17713844195575,
+      "name": "Cable Overhead Tricep Press",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "9a641a68-4613-48b1-98fd-1cfc94ffab7f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:41.352249+00:00"
+    },
+    {
+      "sourceId": 115131682000608,
+      "name": "Cable Single Arm Overhead Tricep Extension",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "eadd7afb-4091-438b-ad0d-991332350def",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:41.372668+00:00"
+    },
+    {
+      "sourceId": 151073480258681,
+      "name": "Landmine Lying Tricep Extension",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Barbell",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Intermediate",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "a6766baf-3c8e-4729-b516-f01f04477d3d",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:50.700033+00:00"
+    },
+    {
+      "sourceId": 62380103012090,
+      "name": "Cable Bar Reverse Grip Pushdown",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [],
+      "databaseId": "5513598d-250b-4e4a-b652-7f63d836354c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:52.754196+00:00"
+    },
+    {
+      "sourceId": 53438696301010,
+      "name": "Cable Single Arm Cross Pushdown",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Cables",
+      "categorySource": "female-media-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c6872f0c-b31b-43f8-947b-5b06dc90f12f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:55.340703+00:00"
+    },
+    {
+      "sourceId": 173068983778508,
+      "name": "Elbow Extensor Isometric Seated Overhead Dumbbell",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "9ef7ff65-6d7f-491e-a959-aae2eb6c6a43",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:56.047299+00:00"
+    },
+    {
+      "sourceId": 94810386969579,
+      "name": "Elbow Extensor Mobilisation Kneeling Lacrosse Ball",
+      "primaryMuscles": [
+        "Triceps"
+      ],
+      "muscleSource": "source-standard-listings",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [],
+      "databaseId": "002533bf-c52b-40e5-8796-67f29ae62cb7",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:58:56.940222+00:00"
+    },
+    {
+      "sourceId": 55596691983891,
+      "name": "Medicine Ball Hip Abduction",
+      "primaryMuscles": [
+        "Gluteus Medius",
+        "Glutes"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Medicine Ball",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "c808e453-49ea-4362-8fac-e836f304ecc4",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:08.481726+00:00"
+    },
+    {
+      "sourceId": 250700108713484,
+      "name": "Adductor Leg Raise Side Lying",
+      "primaryMuscles": [
+        "Inner Thigh"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "04f8031b-bd6c-4fc0-8ae0-b4fc3677f08e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:09.053464+00:00"
+    },
+    {
+      "sourceId": 127674165312290,
+      "name": "Adductor Leg Raise Side Lying Isometric",
+      "primaryMuscles": [
+        "Inner Thigh"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 2,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "31a0f374-b270-4822-a5f3-588a6f41af1e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:09.237563+00:00"
+    },
+    {
+      "sourceId": 226246341022744,
+      "name": "Adductor Stretch Seated Bilateral Dynamic",
+      "primaryMuscles": [
+        "Inner Thigh"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "eb3d01d1-fcc5-40e2-a047-be6f3233124a",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:09.487509+00:00"
+    },
+    {
+      "sourceId": 70845652968809,
+      "name": "Adductor Stretch Seated Bilateral Static",
+      "primaryMuscles": [
+        "Inner Thigh"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Beginner",
+      "stepsCount": 4,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "inner-thigh",
+          "label": "Inner Thigh",
+          "source_url": "https://musclewiki.com/exercises/inner-thigh"
+        }
+      ],
+      "databaseId": "e7aabdb7-8f54-47a8-b1a6-dba655d8110f",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:09.719574+00:00"
+    },
+    {
+      "sourceId": 43398827821602,
+      "name": "Scapular Depression",
+      "primaryMuscles": [
+        "Lower Trapezius",
+        "Traps"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [],
+      "databaseId": "3e2fcec9-7b2c-4871-a9d3-6249e585319e",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:10.410066+00:00"
+    },
+    {
+      "sourceId": 50486787872256,
+      "name": "Dumbbell Single Arm Bench Wrist Extension",
+      "primaryMuscles": [
+        "Wrist Extensors"
+      ],
+      "muscleSource": "source-advanced-listing",
+      "category": "Dumbbells",
+      "categorySource": "source-equipment-listing",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "advanced",
+          "slug": "wrist-extensors",
+          "label": "Wrist Extensors",
+          "source_url": "https://musclewiki.com/exercises/wrist-extensors"
+        }
+      ],
+      "databaseId": "bb8005f3-772d-4ef1-bd89-37556fb4d13b",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:19.371305+00:00"
+    },
+    {
+      "sourceId": 79220454566480,
+      "name": "Resisted Radial Deviation",
+      "primaryMuscles": [],
+      "muscleSource": "joint-only",
+      "category": "Recovery",
+      "categorySource": "female-video-filename",
+      "difficulty": "Novice",
+      "stepsCount": 3,
+      "targets": [
+        {
+          "mode": "joint",
+          "slug": "wrist",
+          "label": "Wrist",
+          "source_url": "https://musclewiki.com/exercises/wrist/recovery"
+        }
+      ],
+      "databaseId": "74079fc1-840f-4659-b458-ddf92bdafb7c",
+      "statusBefore": "Draft",
+      "updatedAt": "2026-09-29T07:59:26.401616+00:00"
+    }
+  ]
+}

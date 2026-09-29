@@ -26,6 +26,8 @@ export const EXERCISE_CATEGORY_ITEMS = [
   { icon: "pilates", label: "Pilates" },
   { icon: "yoga", label: "Yoga" },
   { icon: "bosu-ball", label: "Bosu Ball" },
+  { icon: "recovery", label: "Recovery" },
+  { icon: "vitruvian", label: "Vitruvian" },
 ] as const;
 
 export const HEALTH_CATEGORY_ITEMS = [
@@ -51,6 +53,7 @@ export const EXERCISE_MUSCLES = [
   "Gluteus Maximus",
   "Gluteus Medius",
   "Hamstrings",
+  "Inner Thigh",
   "Lateral Deltoid",
   "Lateral Hamstrings",
   "Lats",
@@ -58,6 +61,7 @@ export const EXERCISE_MUSCLES = [
   "Long Head Tricep",
   "Lower Abdominals",
   "Lower back",
+  "Lower Trapezius",
   "Medial Hamstrings",
   "Obliques",
   "Posterior Deltoid",
@@ -70,6 +74,7 @@ export const EXERCISE_MUSCLES = [
   "Triceps",
   "Upper Abdominals",
   "Upper Traps",
+  "Wrist Extensors",
 ] as const;
 
 export const EXERCISE_DIFFICULTIES: ExerciseDifficulty[] = ["Beginner", "Novice", "Intermediate", "Advanced"];

@@ -1,0 +1,101 @@
+{
+  "auditedAt": "2026-09-29T08:39:56.644Z",
+  "sourceExercises": 1938,
+  "sourceVideos": 3876,
+  "databaseMusclewikiRows": 1940,
+  "newDrafts": 0,
+  "newPublished": 242,
+  "femaleMediaCount": 3864,
+  "femaleUrlsUnmasked": 0,
+  "femaleStorageObjects": 3864,
+  "linkedObjectsMissingFromStorage": [],
+  "unlinkedFemaleStorageObjects": [],
+  "missingRows": [],
+  "missingVideos": [
+    {
+      "sourceId": 247964159295743,
+      "name": "Bosu Ball Plank Glute Kickback",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-plank-glute-kickback-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 247964159295743,
+      "name": "Bosu Ball Plank Glute Kickback",
+      "angle": "side",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-plank-glute-kickback-side.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 201359459354025,
+      "name": "Bosu Ball Calf Raise",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-ball-calf-raise-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 224887412917910,
+      "name": "Bosu Ball Half Burpee",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-half-burpee-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 224887412917910,
+      "name": "Bosu Ball Half Burpee",
+      "angle": "side",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-half-burpee-side.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 133721459530456,
+      "name": "Plate Staggered Deadlift",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Plate-plate-staggered-deadlift-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 133721459530456,
+      "name": "Plate Staggered Deadlift",
+      "angle": "side",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Plate-plate-staggered-deadlift-side.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 261500363529661,
+      "name": "Bosu Ball Feet Elevated Glute Bridge",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-feet-elevated-glute-bridge-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 176638251760111,
+      "name": "Bosu Ball Hand Sideplank",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-hand-sideplank-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 176638251760111,
+      "name": "Bosu Ball Hand Sideplank",
+      "angle": "side",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-hand-sideplank-side.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 63846516254855,
+      "name": "Bosu Ball Hand Sideplank Hip Abduction",
+      "angle": "front",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-hand-sideplank-hip-abduction-front.mp4",
+      "lastUploadError": "Source HTTP 404"
+    },
+    {
+      "sourceId": 63846516254855,
+      "name": "Bosu Ball Hand Sideplank Hip Abduction",
+      "angle": "side",
+      "sourceUrl": "https://musclewiki.com/api-next/videos/female-Bosu-Ball-hand-sideplank-hip-abduction-side.mp4",
+      "lastUploadError": "Source HTTP 404"
+    }
+  ],
+  "changedExisting": []
+}

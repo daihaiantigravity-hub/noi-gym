@@ -8,8 +8,8 @@ function localStats(items: ReturnType<typeof getLocalExerciseList>): ExerciseSta
   return {
     total: items.length,
     draft: items.filter((item) => item.status === "Draft").length,
-    published: 0,
-    archived: 0,
+    published: items.filter((item) => item.status === "Published").length,
+    archived: items.filter((item) => item.status === "Archived").length,
   };
 }
 

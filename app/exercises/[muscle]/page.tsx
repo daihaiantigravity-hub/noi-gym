@@ -4,6 +4,7 @@ import { listPublishedExercises, listPublishedExercisesByTarget } from "@/lib/ex
 import { getLocalPublicExercises } from "@/lib/exercises/source";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
+import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercisePage } from "@/lib/exercises/types";
 
 export default async function ExercisesPage({
@@ -16,6 +17,7 @@ export default async function ExercisesPage({
   const { muscle } = await params;
   const queryParams = await searchParams;
   const view = Array.isArray(queryParams.view) ? queryParams.view[0] : queryParams.view;
+  const gender = parseExerciseGender(queryParams.gender);
   const page = parsePage(queryParams.page);
   const advancedTarget = getAdvancedTarget(muscle);
   const isAdvancedView = Boolean(advancedTarget && (!isAdvancedSlugConflict(muscle) || view === "advanced"));
@@ -23,15 +25,15 @@ export default async function ExercisesPage({
   if (isSupabaseConfigured()) {
     try {
       databasePage = isAdvancedView && advancedTarget
-        ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
-        : await listPublishedExercises(muscle, { page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE });
+        ? await listPublishedExercisesByTarget("advanced", advancedTarget.slug, { gender, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE })
+        : await listPublishedExercises(muscle, { gender, page, pageSize: PUBLIC_EXERCISES_PAGE_SIZE });
     } catch {
       databasePage = null;
     }
   }
-  const localExercises = isAdvancedView ? [] : getLocalPublicExercises(muscle);
+  const localExercises = isAdvancedView || gender === "female" ? [] : getLocalPublicExercises(muscle);
   const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
   const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
 
-  return <ExerciseLibrary exercises={pageData.items} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={isAdvancedView ? getAdvancedRoute(muscle) : `/exercises/${muscle}`} targetLabel={isAdvancedView ? advancedTarget?.label : undefined} total={pageData.total} />;
+  return <ExerciseLibrary exercises={pageData.items} gender={gender ?? "male"} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={withExerciseGender(isAdvancedView ? getAdvancedRoute(muscle) : `/exercises/${muscle}`, gender)} targetLabel={isAdvancedView ? advancedTarget?.label : undefined} total={pageData.total} />;
 }

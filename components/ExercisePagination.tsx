@@ -21,7 +21,7 @@ export default function ExercisePagination({ page, pageSize, routePath, total }:
 
   return (
     <nav aria-label="Phân trang bài tập" className="exercise-library-pagination">
-      <div className="exercise-library-pagination__summary">
+      {/* <div className="exercise-library-pagination__summary">
         <span className="exercise-library-pagination__status">
           <strong>{(page - 1) * pageSize + 1}–{Math.min(page * pageSize, total)}</strong> trong {total} bài tập
         </span>
@@ -35,7 +35,7 @@ export default function ExercisePagination({ page, pageSize, routePath, total }:
             {Array.from({ length: totalPages }, (_, index) => <option key={index + 1} value={index + 1}>Trang {index + 1} / {totalPages}</option>)}
           </select>
         </label>
-      </div>
+      </div> */}
       <div className="exercise-library-pagination__pages">
         {page > 1 ? (
           <Link aria-label="Trang trước" className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)} rel="prev" title="Trang trước"><Chevron direction="previous" /></Link>

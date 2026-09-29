@@ -1,0 +1,23 @@
+{
+  "https://musclewiki.com/exercise/kettlebell-upright-row": {
+    "reason": "Selected the female front/side pair whose filename matches the full exercise URL slug and the observed Kettlebells listing.",
+    "selectedUrls": [
+      "https://musclewiki.com/api-next/videos/female-Kettlebells-kettlebell-upright-row-front.mp4",
+      "https://musclewiki.com/api-next/videos/female-Kettlebells-kettlebell-upright-row-side.mp4"
+    ]
+  },
+  "https://musclewiki.com/exercise/dumbbell-goblet-bulgarian-split-squat": {
+    "reason": "Selected the female front/side pair observed in the Dumbbells-filtered source listing; the other pair has variant suffixes and is retained as excluded provenance.",
+    "selectedUrls": [
+      "https://musclewiki.com/api-next/videos/female-Dumbbells-dumbbell-goblet-bulgarian-split-squat-front.mp4",
+      "https://musclewiki.com/api-next/videos/female-Dumbbells-dumbbell-goblet-bulgarian-split-squat-side.mp4"
+    ]
+  },
+  "https://musclewiki.com/exercise/single-leg-deadlift": {
+    "reason": "Selected the female front/side pair observed in the Medicine Ball-filtered source listing; the alternate pair is labeled Vitruvian.",
+    "selectedUrls": [
+      "https://musclewiki.com/api-next/videos/female-Medicine-Ball-single-leg-deadlift-front.mp4",
+      "https://musclewiki.com/api-next/videos/female-Medicine-Ball-single-leg-deadlift-side.mp4"
+    ]
+  }
+}

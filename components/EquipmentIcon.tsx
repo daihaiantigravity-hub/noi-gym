@@ -66,6 +66,14 @@ const equipmentIcons: Record<EquipmentIconName, EquipmentIconDefinition> = {
     viewBox: "0 0 57 28",
     markup: `<path d="M1 18.252h6.804M50.774 18.154c-18.859-31.067-36.523-12.945-42.997 0h42.997Zm0 0h5.385V27H1.243v-8.846"/><path d="M38.42 8.29c1.36-.028 4.383 1 5.59 5.346"/>`,
   },
+  recovery: {
+    viewBox: "0 0 32 32",
+    markup: `<path d="M16 4v24M4 16h24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"/>`,
+  },
+  vitruvian: {
+    viewBox: "0 0 32 32",
+    markup: `<path d="M6 5v20h20V5M10 9l6 14 6-14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>`,
+  },
   cardio: {
     viewBox: "0 0 166 166",
     markup: `<g stroke="currentColor" stroke-linecap="round" stroke-width="7"><path stroke-linejoin="round" d="M82.905 147.183 18.651 87.755C-16.363 52.586 34.718-15.521 82.905 39.567c48.187-54.922 99.742 13.174 64.242 48.188l-64.242 59.428Z"/><path stroke-linejoin="round" d="M41.678 80.071h18.141l12.237-23.335L90.588 99.72l15.925-19.648h17.785"/><path d="M114 80h55M-13 80h55"/></g>`,
