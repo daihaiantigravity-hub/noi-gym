@@ -42,7 +42,7 @@ export const EXERCISE_CATEGORIES = EXERCISE_CATEGORY_ITEMS.map((item) => item.la
 
 // Keep stored categories available for validation and existing exercise routes while
 // temporarily omitting these entries from equipment pickers.
-const hiddenEquipmentLabels = new Set<string>(["Exercises", "Vitruvian"]);
+const hiddenEquipmentLabels = new Set<string>(["Exercises", "Recovery", "Vitruvian"]);
 export const VISIBLE_EXERCISE_CATEGORIES = EXERCISE_CATEGORIES.filter((label) => !hiddenEquipmentLabels.has(label));
 export const VISIBLE_HEALTH_CATEGORY_ITEMS = HEALTH_CATEGORY_ITEMS.filter((item) => !hiddenEquipmentLabels.has(item.label));
 
