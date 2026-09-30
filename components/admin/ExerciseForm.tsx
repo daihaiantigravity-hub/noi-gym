@@ -3,7 +3,7 @@
 import { useActionState, useState } from "react";
 import { saveExerciseAction, type ExerciseActionState } from "@/app/actions/exercises";
 import ExercisePreview from "@/components/admin/ExercisePreview";
-import { EXERCISE_CATEGORIES, EXERCISE_DIFFICULTIES, EXERCISE_FORCES, EXERCISE_GRIPS, EXERCISE_MECHANICS, EXERCISE_MUSCLES, EXERCISE_STATUSES } from "@/lib/exercises/constants";
+import { EXERCISE_DIFFICULTIES, EXERCISE_FORCES, EXERCISE_GRIPS, EXERCISE_MECHANICS, EXERCISE_MUSCLES, EXERCISE_STATUSES, VISIBLE_EXERCISE_CATEGORIES } from "@/lib/exercises/constants";
 import { EXERCISE_VIDEO_TYPES, MAX_EXERCISE_VIDEO_DURATION_SECONDS, MAX_EXERCISE_VIDEO_SIZE } from "@/lib/exercises/media";
 import { slugify } from "@/lib/exercises/slug";
 import type { ExerciseFormValues, ExerciseMediaValue, ExerciseSourceOption } from "@/lib/exercises/types";
@@ -179,7 +179,7 @@ export default function ExerciseForm({
               </div>
             </div>
             <div className="admin-two-fields">
-              <label className="admin-field"><span>Equipment <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Chọn equipment</option>{EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{category}</option>)}</select></label>
+              <label className="admin-field"><span>Equipment <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Chọn equipment</option>{values.category && !VISIBLE_EXERCISE_CATEGORIES.some((category) => category === values.category) ? <option hidden value={values.category}>{values.category}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{category}</option>)}</select></label>
               <label className="admin-field"><span>Difficulty <em>*</em></span><select required={values.status === "Published"} value={values.difficulty} onChange={(event) => updateField("difficulty", event.target.value as typeof values.difficulty)}><option value="">Chọn độ khó</option>{EXERCISE_DIFFICULTIES.map((difficulty) => <option key={difficulty} value={difficulty}>{difficulty}</option>)}</select></label>
             </div>
             <div className="admin-three-fields">

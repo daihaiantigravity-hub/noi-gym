@@ -273,29 +273,32 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         </div>
         */}
         <div className="body-profile-toolbar">
-          <div aria-label="Body map view" className="body-profile-mode-switcher" role="tablist">
-            {modeItems.map((item) => (
-              <button
-                aria-selected={activeMode === item.id}
-                className={`body-profile-mode-switcher__item${activeMode === item.id ? " body-profile-mode-switcher__item--active" : ""}`}
-                key={item.id}
-                onClick={() => setActiveMode(item.id)}
-                role="tab"
-                type="button"
-              >
-                {item.label}
-              </button>
-            ))}
+          <div className={`body-profile-mode-switcher body-profile-mode-switcher--${activeGender}`}>
+            <div aria-label="Body map view" className="body-profile-mode-switcher__modes" role="tablist">
+              {modeItems.map((item) => (
+                <button
+                  aria-selected={activeMode === item.id}
+                  className={`body-profile-mode-switcher__item${activeMode === item.id ? " body-profile-mode-switcher__item--active" : ""}`}
+                  key={item.id}
+                  onClick={() => setActiveMode(item.id)}
+                  role="tab"
+                  type="button"
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+            <span aria-hidden="true" className="body-profile-mode-switcher__divider" />
+            <button
+              aria-label={`Đang hiển thị bản đồ cơ thể ${activeGender === "male" ? "nam" : "nữ"}. Nhấn để chuyển sang ${activeGender === "male" ? "nữ" : "nam"}.`}
+              className={`body-profile-gender-toggle body-profile-gender-toggle--${activeGender}`}
+              onClick={() => setActiveGender((gender) => gender === "male" ? "female" : "male")}
+              title={`Chuyển sang bản đồ cơ thể ${activeGender === "male" ? "nữ" : "nam"}`}
+              type="button"
+            >
+              <GenderIcon gender={activeGender} />
+            </button>
           </div>
-          <button
-            aria-label={`Đang hiển thị bản đồ cơ thể ${activeGender === "male" ? "nam" : "nữ"}. Nhấn để chuyển sang ${activeGender === "male" ? "nữ" : "nam"}.`}
-            className={`body-profile-gender-toggle body-profile-gender-toggle--${activeGender}`}
-            onClick={() => setActiveGender((gender) => gender === "male" ? "female" : "male")}
-            title={`Chuyển sang bản đồ cơ thể ${activeGender === "male" ? "nữ" : "nam"}`}
-            type="button"
-          >
-            <GenderIcon gender={activeGender} />
-          </button>
         </div>
 
         <div className="body-profiles-card__visuals">

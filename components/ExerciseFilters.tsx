@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import { HEALTH_CATEGORY_ITEMS, VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 
 export type EquipmentName = typeof HEALTH_CATEGORY_ITEMS[number]["label"];
 
@@ -13,7 +13,7 @@ type ExerciseFiltersProps = {
   onEquipmentChange?: (equipment: EquipmentName[]) => void;
 };
 
-const equipmentItems: EquipmentName[] = HEALTH_CATEGORY_ITEMS.map((item) => item.label);
+const equipmentItems: EquipmentName[] = VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => item.label);
 
 function GenderIcon({ female = false }: { female?: boolean }) {
   return (

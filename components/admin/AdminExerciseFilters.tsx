@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import { EXERCISE_CATEGORIES, EXERCISE_MUSCLES, EXERCISE_STATUSES } from "@/lib/exercises/constants";
+import { EXERCISE_MUSCLES, EXERCISE_STATUSES, VISIBLE_EXERCISE_CATEGORIES } from "@/lib/exercises/constants";
 
 type Props = {
   query: string;
@@ -57,7 +57,7 @@ export default function AdminExerciseFilters({ query, category, muscle, status, 
         if (searchTimer.current) clearTimeout(searchTimer.current);
         searchTimer.current = setTimeout(applyFilters, 350);
       }} placeholder="Tìm theo tên bài tập…" ref={searchRef} type="search" /></label>
-      <select aria-label="Equipment" defaultValue={category} name="category"><option value="">Tất cả equipment</option>{EXERCISE_CATEGORIES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
+      <select aria-label="Equipment" defaultValue={category} name="category"><option value="">Tất cả equipment</option>{category && !VISIBLE_EXERCISE_CATEGORIES.some((item) => item === category) ? <option hidden value={category}>{category}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
       <select aria-label="Nhóm cơ" defaultValue={muscle} name="muscle"><option value="">Tất cả nhóm cơ</option>{EXERCISE_MUSCLES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
       <select aria-label="Trạng thái" defaultValue={status} name="status"><option value="">Tất cả status</option>{EXERCISE_STATUSES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
       <select aria-label="Giới tính video" defaultValue={gender} name="gender"><option value="">Cả nam và nữ</option><option value="male">Có video nam</option><option value="female">Có video nữ</option></select>

@@ -9,7 +9,7 @@ export default function ComingSoonPage() {
   return (
     <div className="health-mood-surface coming-soon-page">
       <header className="coming-soon-page__header">
-        <Link className="coming-soon-page__brand" href="/">444 Health</Link>
+        <Link className="coming-soon-page__brand" href="/">Equix Health</Link>
       </header>
 
       <main className="coming-soon-page__main">

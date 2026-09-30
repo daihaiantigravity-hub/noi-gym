@@ -4,10 +4,10 @@ import Link from "next/link";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
-import { HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
 
-const categoryChoices: readonly EquipmentIconName[] = HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
+const categoryChoices: readonly EquipmentIconName[] = VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
 
 type IconName =
   | "grid"
