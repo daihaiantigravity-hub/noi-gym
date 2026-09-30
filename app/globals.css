@@ -6736,13 +6736,10 @@ button {
   color: #d5a7b9;
 }
 
-.body-profile-gender-toggle__avatar {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  place-items: center;
-  font-size: 22px;
-  line-height: 1;
+.body-profile-gender-toggle__icon {
+  display: block;
+  width: 23px;
+  height: 23px;
 }
 
 .body-profile-gender-toggle:focus-visible,

@@ -17,7 +17,21 @@ const bodyModeChoices: readonly BodyMapMode[] = ["standard", "joints", "advanced
 const bodyGenderChoices: readonly BodyGender[] = ["male", "female"];
 
 function GenderIcon({ gender }: { gender: BodyGender }) {
-  return <span aria-hidden="true" className="body-profile-gender-toggle__avatar">{gender === "male" ? "🧔🏻" : "👩🏻"}</span>;
+  return (
+    <svg aria-hidden="true" className="body-profile-gender-toggle__icon" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+      {gender === "male" ? (
+        <>
+          <circle cx="10" cy="14" r="5" />
+          <path d="M13.5 10.5 20 4M15 4h5v5" />
+        </>
+      ) : (
+        <>
+          <circle cx="12" cy="9" r="5" />
+          <path d="M12 14v7M8.5 18h7" />
+        </>
+      )}
+    </svg>
+  );
 }
 
 const muscleSlugByGroup: Record<string, string> = {
