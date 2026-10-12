@@ -10,7 +10,7 @@ function getAdminEmails() {
     .filter(Boolean);
 }
 
-export function isAdminUser(user: User | null | undefined) {
+export function isAdminUser(user: User | null | undefined): user is User {
   if (!user) return false;
 
   const email = user.email?.toLowerCase();

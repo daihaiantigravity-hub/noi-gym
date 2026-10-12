@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import { getPageHref, PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import { withExerciseGender } from "@/lib/exercises/gender";
+import { useSavedExercise } from "@/lib/exercises/use-saved-exercise";
 import type { ExerciseGender, PublicExercise } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
 import ExercisePagination from "./ExercisePagination";
@@ -39,6 +40,8 @@ function formatMuscleName(muscle: string) {
 
 function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: PublicExercise; gender?: ExerciseGender; muscle: string; routePath: string }) {
   const detailRoute = withExerciseGender(`/exercises/${muscle}/${exercise.id}`, gender);
+  const { isLoading: saveIsLoading, isPending: saveIsPending, isSaved, toggleSaved, error: saveError } = useSavedExercise(exercise.id);
+  const saveLabel = `${isSaved ? "Bỏ lưu bài tập" : "Lưu bài tập"} ${exercise.name}`;
   const videos = Array.from(
     new Map(
       exercise.media
@@ -84,8 +87,26 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
     <article className="health-card exercise-library-exercise-card">
       <header className="exercise-library-exercise-card__header">
         <h2>{exercise.name}</h2>
-        <Link aria-label={`Xem chi tiết ${exercise.name}`} className="workout-showcase__arrow exercise-library-exercise-card__detail" href={`${detailRoute}${detailRoute.includes("?") ? "&" : "?"}from=${encodeURIComponent(routePath)}`}>›</Link>
+        <div className="exercise-library-exercise-card__actions">
+          <button
+            aria-label={saveLabel}
+            aria-pressed={isSaved}
+            disabled={saveIsLoading || saveIsPending}
+            className="exercise-library-exercise-card__save"
+            onClick={toggleSaved}
+            title={saveLabel}
+            type="button"
+          >
+            <svg aria-hidden="true" fill={isSaved ? "currentColor" : "none"} height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" viewBox="0 0 24 24" width="24">
+              <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1.55.83L12 17.2l-5.45 3.63A1 1 0 0 1 5 20V4a1 1 0 0 1 1-1Z" />
+            </svg>
+          </button>
+          <Link aria-label={`Xem chi tiết ${exercise.name}`} className="exercise-detail-topbar__icon exercise-library-exercise-card__detail" href={`${detailRoute}${detailRoute.includes("?") ? "&" : "?"}from=${encodeURIComponent(routePath)}`}>
+            <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m9 6 6 6-6 6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
+          </Link>
+        </div>
       </header>
+      {saveError && <p className="exercise-library-exercise-card__save-error" role="alert">{saveError}</p>}
       <div className="exercise-library-showcase__media">
         <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
           {Array.from({ length: videoCount }, (_, videoIndex) => {
@@ -114,7 +135,7 @@ export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, p
     <main aria-label={`${muscleName} exercises`} className="exercise-library-page health-mood-surface">
       <header className="exercise-library-header">
         <button aria-label="Back to Home" className="exercise-library-back-button" onClick={() => router.push("/")} title="Back to Home" type="button">
-          <svg aria-hidden="true" fill="none" height="22" viewBox="0 0 24 24" width="22"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
+          <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </button>
         <h1 className="exercise-library-results__title" id="exercise-results-title">{gender === "female" ? "Female " : ""}{muscleName} Exercises</h1>
       </header>

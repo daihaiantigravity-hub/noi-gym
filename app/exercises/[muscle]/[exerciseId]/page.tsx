@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ExerciseDetailMedia from "@/components/ExerciseDetailMedia";
+import ExerciseDetailSaveButton from "@/components/ExerciseDetailSaveButton";
 import ExerciseLibrary from "@/components/ExerciseLibrary";
 import { paginate, parsePage, PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import { getPublishedExerciseByKey, listPublishedExercises, listPublishedExercisesByTarget } from "@/lib/exercises/repository";
@@ -100,17 +101,14 @@ export default async function ExerciseDetailPage({
         <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </Link>
-        <button aria-label="Thêm vào bài tập yêu thích" className="exercise-detail-topbar__icon" type="button">
-          <svg aria-hidden="true" fill="none" height="27" viewBox="0 0 24 24" width="27"><path d="M20.8 8.7c0 5.1-8.8 10.1-8.8 10.1S3.2 13.8 3.2 8.7A4.7 4.7 0 0 1 12 6.2a4.7 4.7 0 0 1 8.8 2.5Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" /></svg>
-        </button>
+        <ExerciseDetailSaveButton exerciseId={exercise.id} exerciseName={displayName} />
       </header>
 
       <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={displayName} />
 
-      {/* <section className="exercise-detail-copy">
+      <section className="exercise-detail-copy">
         <div className="exercise-detail-copy__heading"><h1>{displayName}</h1></div>
-        <p>{exercise.description || `Hãy thử bài tập ${displayName} hàng ngày để duy trì sức khỏe và hoàn thành đúng kỹ thuật.`}</p>
-      </section> */}
+      </section>
 
       <section aria-labelledby="exercise-instructions-title" className="exercise-detail-instructions">
         <h2 id="exercise-instructions-title">Các bước tập</h2>
