@@ -12,6 +12,7 @@ const fakeDetailSlides = [
 
 export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: { mediaCount: number; title: string; media?: ExerciseMediaValue[] }) {
   const realMedia = media.filter((item) => item.videoUrl);
+  const fallbackPoster = media.find((item) => item.posterUrl)?.posterUrl;
   const slideCount = Math.max(realMedia.length || mediaCount, 1);
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
@@ -54,7 +55,7 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
           const selectedMedia = realMedia[index];
           return (
             <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
-              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`${title} demonstration video ${index + 1}`} poster={selectedMedia.posterUrl} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`${title} demonstration video ${index + 1}`} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
               {selectedMedia?.videoUrl && (
                 <div aria-hidden="true" className="exercise-detail-hero__watermark-cover" />
               )}

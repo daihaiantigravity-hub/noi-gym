@@ -19,6 +19,7 @@ export type ExerciseMediaValue = {
   angle: ExerciseAngle;
   videoUrl: string;
   posterUrl?: string;
+  posterStoragePath?: string;
   duration?: number;
   storagePath?: string;
 };

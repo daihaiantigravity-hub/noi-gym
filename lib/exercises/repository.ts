@@ -27,14 +27,19 @@ function hasPlayableMedia(item: ExerciseFormValues["media"][number]) {
 function hydrateAdminMedia(media: ExerciseFormValues["media"]) {
   const externalMediaConfigured = Boolean(process.env.R2_PUBLIC_BASE_URL?.trim());
   return media.map((item) => {
-    if (isExerciseMediaUnavailable(item.storagePath)) {
-      return { ...item, videoUrl: "" };
-    }
+    const videoUnavailable = isExerciseMediaUnavailable(item.storagePath);
+    const videoUrl = !videoUnavailable && item.storagePath && (externalMediaConfigured || !item.videoUrl)
+      ? getExerciseMediaPublicUrl(item.storagePath, item.gender)
+      : item.videoUrl;
+    const posterUrl = item.posterStoragePath && externalMediaConfigured
+      ? getExerciseMediaPublicUrl(item.posterStoragePath, item.gender)
+      : item.posterUrl;
 
-    if (!item.storagePath || (!externalMediaConfigured && item.videoUrl)) return item;
-
-    const videoUrl = getExerciseMediaPublicUrl(item.storagePath, item.gender);
-    return videoUrl ? { ...item, videoUrl } : item;
+    return {
+      ...item,
+      ...(videoUnavailable ? { videoUrl: "" } : videoUrl ? { videoUrl } : {}),
+      ...(posterUrl ? { posterUrl } : {}),
+    };
   });
 }
 
@@ -99,6 +104,7 @@ function mergePublicMedia(existing: PublicExercise["media"], fallback: PublicExe
       ...media[index],
       ...(!media[index].videoUrl && item.videoUrl ? { videoUrl: item.videoUrl } : {}),
       ...(!media[index].posterUrl && item.posterUrl ? { posterUrl: item.posterUrl } : {}),
+      ...(!media[index].posterStoragePath && item.posterStoragePath ? { posterStoragePath: item.posterStoragePath } : {}),
     };
   }
 

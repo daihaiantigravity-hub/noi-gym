@@ -26,6 +26,7 @@ export default function LazyExerciseVideo({
   const videoRef = useRef<HTMLVideoElement>(null);
   const [hasEnteredViewport, setHasEnteredViewport] = useState(false);
   const [isInViewport, setIsInViewport] = useState(false);
+  const [isVideoReady, setIsVideoReady] = useState(false);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -66,21 +67,37 @@ export default function LazyExerciseVideo({
   }, [hasEnteredViewport, isInViewport]);
 
   return (
-    <video
-      aria-label={label}
-      autoPlay={isInViewport}
-      className={className}
-      data-lazy-video-state={hasEnteredViewport ? (isInViewport ? "playing" : "paused") : "waiting"}
-      loop
-      muted
-      playsInline
-      poster={poster || undefined}
-      preload={hasEnteredViewport ? "auto" : "none"}
-      ref={(element) => {
-        videoRef.current = element;
-        assignRef(forwardedRef ?? null, element);
-      }}
-      src={hasEnteredViewport ? src : undefined}
-    />
+    <>
+      {poster ? (
+        // Posters are already resized and encoded as compact WebP objects in R2.
+        // Loading them directly keeps the fallback independent from the video request.
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          alt=""
+          aria-hidden="true"
+          className={`lazy-exercise-video__poster${isVideoReady ? " lazy-exercise-video__poster--hidden" : ""}`}
+          draggable={false}
+          src={poster}
+        />
+      ) : null}
+      <video
+        aria-label={label}
+        autoPlay={isInViewport}
+        className={className}
+        data-lazy-video-state={hasEnteredViewport ? (isVideoReady ? (isInViewport ? "playing" : "paused") : "loading") : "waiting"}
+        loop
+        muted
+        onError={() => setIsVideoReady(false)}
+        onLoadedData={() => setIsVideoReady(true)}
+        playsInline
+        poster={poster || undefined}
+        preload={hasEnteredViewport ? "auto" : "none"}
+        ref={(element) => {
+          videoRef.current = element;
+          assignRef(forwardedRef ?? null, element);
+        }}
+        src={hasEnteredViewport ? src : undefined}
+      />
+    </>
   );
 }
