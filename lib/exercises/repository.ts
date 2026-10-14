@@ -5,6 +5,7 @@ import { createSupabaseAdminClient, createSupabaseServerClient, isDatabaseConfig
 import { getExerciseCategoryOrder } from "./category-order";
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
+import { getExerciseMediaPublicUrl, isExerciseMediaUnavailable } from "./media-server";
 import type { ValidatedExerciseInput } from "./validation";
 import type { ExerciseFormValues, ExerciseGender, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
 import type { ExerciseTargetMode } from "./types";
@@ -18,11 +19,23 @@ function isStoredFemaleMedia(item: ExerciseFormValues["media"][number]) {
   return item.gender === "female" && Boolean(item.storagePath && femaleStoragePathPattern.test(item.storagePath));
 }
 
+function hasPlayableMedia(item: ExerciseFormValues["media"][number]) {
+  if (isExerciseMediaUnavailable(item.storagePath)) return false;
+  return Boolean(item.videoUrl) || isStoredFemaleMedia(item);
+}
+
 function hydrateAdminMedia(media: ExerciseFormValues["media"]) {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.replace(/\/$/, "");
-  return media.map((item) => isStoredFemaleMedia(item) && !item.videoUrl && supabaseUrl
-    ? { ...item, videoUrl: `${supabaseUrl}/storage/v1/object/public/exercise-media/${item.storagePath}` }
-    : item);
+  const externalMediaConfigured = Boolean(process.env.R2_PUBLIC_BASE_URL?.trim());
+  return media.map((item) => {
+    if (isExerciseMediaUnavailable(item.storagePath)) {
+      return { ...item, videoUrl: "" };
+    }
+
+    if (!item.storagePath || (!externalMediaConfigured && item.videoUrl)) return item;
+
+    const videoUrl = getExerciseMediaPublicUrl(item.storagePath, item.gender);
+    return videoUrl ? { ...item, videoUrl } : item;
+  });
 }
 
 type ExerciseRow = {
@@ -92,6 +105,12 @@ function mergePublicMedia(existing: PublicExercise["media"], fallback: PublicExe
   return media;
 }
 
+function suppressUnavailableMedia(media: PublicExercise["media"]) {
+  return media.map((item) => isExerciseMediaUnavailable(item.storagePath)
+    ? { ...item, videoUrl: "" }
+    : item);
+}
+
 function getLocalSupplement(exercise: ExerciseRecord): PublicExercise | null {
   if (exercise.source !== "musclewiki") return null;
   if (exercise.sourceId) return getLocalPublicExerciseBySourceId(exercise.sourceId);
@@ -140,7 +159,9 @@ function mapPublicExercise(row: ExerciseRow, gender?: ExerciseGender): PublicExe
   const exercise = mapRow(row);
   const fallback = getLocalSupplement(exercise);
   const snapshotMedia = getSnapshotPosterMedia(exercise.sourceSnapshot);
-  const mergedMedia = mergePublicMedia(exercise.media, mergePublicMedia(fallback?.media ?? [], snapshotMedia));
+  const mergedMedia = suppressUnavailableMedia(
+    mergePublicMedia(exercise.media, mergePublicMedia(fallback?.media ?? [], snapshotMedia)),
+  );
   const playableMaleMedia = mergedMedia.filter((item) => item.gender === "male" && item.videoUrl);
   return {
     id: exercise.id,
@@ -168,8 +189,8 @@ function mapListItem(row: ExerciseRow): ExerciseListItem {
     status: row.status,
     primaryMuscles: row.primary_muscles ?? [],
     stepsCount: row.steps?.filter(Boolean).length ?? 0,
-    mediaCount: row.media?.filter((item) => Boolean(item.videoUrl) || isStoredFemaleMedia(item)).length ?? 0,
-    femaleMediaCount: row.media?.filter((item) => item.gender === "female" && (Boolean(item.videoUrl) || isStoredFemaleMedia(item))).length ?? 0,
+    mediaCount: row.media?.filter(hasPlayableMedia).length ?? 0,
+    femaleMediaCount: row.media?.filter((item) => item.gender === "female" && hasPlayableMedia(item)).length ?? 0,
     updatedAt: row.updated_at,
   };
 }

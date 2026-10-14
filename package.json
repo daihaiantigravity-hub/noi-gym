@@ -15,10 +15,17 @@
     "import:musclewiki-targets": "node scripts/migration/import-musclewiki-targets.mjs",
     "prepare:musclewiki-targets": "node scripts/migration/import-musclewiki-targets.mjs --prepare-only",
     "upload:musclewiki-targets": "node scripts/migration/upload-musclewiki-media.mjs --dataset scripts/migration/data/musclewiki-target-new-import.json --skip-unavailable",
+    "migrate:media:r2": "node scripts/migration/migrate-supabase-media-to-s3.mjs",
+    "migrate:media:musclewiki:r2": "node scripts/migration/migrate-musclewiki-media-to-r2.mjs",
+    "migrate:media:musclewiki:r2:male": "node scripts/migration/migrate-musclewiki-media-to-r2.mjs --gender male",
+    "migrate:media:musclewiki:r2:female": "node scripts/migration/migrate-musclewiki-media-to-r2.mjs --gender female",
+    "restore:supabase:backup": "node scripts/migration/restore-supabase-backup.mjs",
     "migrate:musclewiki:biceps-dumbbells": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs",
     "migrate:musclewiki:biceps-dumbbells:browser": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs --browser"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1150.0",
+    "@aws-sdk/s3-request-presigner": "^3.1150.0",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.90.1",
     "next": "16.3.1",

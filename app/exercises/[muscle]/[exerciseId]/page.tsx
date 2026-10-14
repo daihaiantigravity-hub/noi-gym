@@ -69,7 +69,7 @@ export default async function ExerciseDetailPage({
 
     const localExercises = gender !== "female" && !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle, { category }) : [];
     const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
-    const pageData = databasePage ?? localPage;
+    const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
     const routePath = isJointRoute
       ? `/exercises/${muscle}/${exerciseId}`
       : isAdvancedView

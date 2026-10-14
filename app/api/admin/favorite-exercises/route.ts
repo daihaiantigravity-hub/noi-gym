@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/admin-auth";
 
 const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -102,6 +103,7 @@ export async function PUT(request: Request) {
       .upsert({ user_id: user.id, exercise_id: exercise.id }, { onConflict: "user_id,exercise_id", ignoreDuplicates: true });
     if (error) throw new Error(error.message);
 
+    revalidatePath("/admin/favorites");
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: true });
   } catch (error) {
     return errorResponse(error);
@@ -120,6 +122,7 @@ export async function DELETE(request: Request) {
       .eq("exercise_id", exercise.id);
     if (error) throw new Error(error.message);
 
+    revalidatePath("/admin/favorites");
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: false });
   } catch (error) {
     return errorResponse(error);

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-type AdminIconName = "dashboard" | "dumbbell" | "upload" | "media" | "users" | "settings";
+type AdminIconName = "dashboard" | "dumbbell" | "bookmark" | "upload" | "media" | "users" | "settings";
 
 type AdminNavigationItem = {
   label: string;
@@ -15,6 +15,7 @@ type AdminNavigationItem = {
 const workspaceItems: AdminNavigationItem[] = [
   { label: "Tổng quan", href: "/admin", icon: "dashboard" },
   { label: "Bài tập", href: "/admin/exercises", icon: "dumbbell" },
+  { label: "Yêu thích", href: "/admin/favorites", icon: "bookmark" },
   { label: "Import dữ liệu", href: "/admin/exercises/import", icon: "upload" },
 ];
 
@@ -52,6 +53,12 @@ function Icon({ name }: { name: AdminIconName }) {
         <svg {...commonProps}>
           <path d="M7 8v8M4.5 10v4M17 8v8M19.5 10v4M7 12h10" />
           <path d="M3 11.5h1.5M19.5 11.5H21" />
+        </svg>
+      );
+    case "bookmark":
+      return (
+        <svg {...commonProps}>
+          <path d="M6 3.5h12a1 1 0 0 1 1 1v15.2a1 1 0 0 1-1.55.83L12 17l-5.45 3.53A1 1 0 0 1 5 19.7V4.5a1 1 0 0 1 1-1Z" />
         </svg>
       );
     case "upload":

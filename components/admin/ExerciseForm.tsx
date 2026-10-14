@@ -126,14 +126,26 @@ export default function ExerciseForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ type: file.type, size: file.size, duration }),
       });
-      const data = (await response.json()) as { error?: string; path?: string; signedUrl?: string; url?: string };
+      const data = (await response.json()) as {
+        error?: string;
+        path?: string;
+        provider?: "r2" | "supabase";
+        signedUrl?: string;
+        uploadHeaders?: Record<string, string>;
+        url?: string;
+      };
       if (!response.ok || !data.path || !data.signedUrl || !data.url) throw new Error(data.error || "Không thể tạo phiên upload video");
 
-      const uploadBody = new FormData();
-      uploadBody.append("cacheControl", "31536000");
-      uploadBody.append("", file);
-      const uploadResponse = await fetch(data.signedUrl, { method: "PUT", body: uploadBody });
-      if (!uploadResponse.ok) throw new Error("Không thể lưu video vào Supabase Storage.");
+      let uploadResponse: Response;
+      if (data.provider === "r2") {
+        uploadResponse = await fetch(data.signedUrl, { method: "PUT", headers: data.uploadHeaders, body: file });
+      } else {
+        const uploadBody = new FormData();
+        uploadBody.append("cacheControl", "31536000");
+        uploadBody.append("", file);
+        uploadResponse = await fetch(data.signedUrl, { method: "PUT", body: uploadBody });
+      }
+      if (!uploadResponse.ok) throw new Error("Không thể lưu video vào kho media.");
 
       setValues((current) => ({
         ...current,

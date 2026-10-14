@@ -54,6 +54,11 @@ export default async function AdminPage() {
               <span><strong>Mở thư viện bài tập</strong><small>Xem, lọc và chỉnh sửa nội dung hiện có</small></span>
               <span className="admin-dashboard-action__arrow">→</span>
             </Link>
+            <Link className="admin-dashboard-action" href="/admin/favorites">
+              <span className="admin-dashboard-action__icon">♡</span>
+              <span><strong>Bài tập yêu thích</strong><small>Xem lại các bài tập đã lưu từ thư viện công khai</small></span>
+              <span className="admin-dashboard-action__arrow">→</span>
+            </Link>
             <Link className="admin-dashboard-action" href="/admin/exercises/import">
               <span className="admin-dashboard-action__icon">↓</span>
               <span><strong>Import dataset</strong><small>Đưa dữ liệu JSON vào trạng thái Draft</small></span>

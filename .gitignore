@@ -16,6 +16,9 @@
 # local headed migration browser profile
 /scripts/migration/browser-profile/
 
+# generated media migration manifests (contain object inventory and checksums)
+/artifacts/media-migration/
+
 # next.js
 /.next/
 /out/

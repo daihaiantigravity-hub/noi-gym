@@ -734,6 +734,56 @@
   font-size: 13px;
 }
 
+.admin-favorites-table {
+  min-width: 820px;
+}
+
+.admin-favorite-actions {
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.admin-favorite-remove {
+  position: relative;
+}
+
+.admin-favorite-remove .admin-row-action:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.admin-favorite-remove__error {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 7px);
+  right: 0;
+  width: 220px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 120, 110, 0.36);
+  border-radius: 9px;
+  color: #ffd7d2;
+  background: #4b2526;
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+.admin-favorites-empty-icon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 15px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  color: #ffc09c;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.admin-empty-state .admin-button {
+  margin-top: 18px;
+}
+
 .admin-loading-header {
   display: grid;
   gap: 10px;
@@ -1801,6 +1851,19 @@
   color: #172033;
 }
 
+.admin-favorites-empty-icon {
+  border-color: #e1e7ef;
+  color: #c85e2c;
+  background: #fff7ed;
+}
+
+.admin-favorite-remove__error {
+  border-color: #fecaca;
+  color: #991b1b;
+  background: #fff1f2;
+  box-shadow: 0 8px 20px rgba(127, 29, 29, 0.12);
+}
+
 .admin-skeleton {
   background: linear-gradient(100deg, #e8edf3 30%, #f8fafc 50%, #e8edf3 70%);
 }
@@ -2834,6 +2897,10 @@
   border-radius: 50%;
   outline: 2px solid rgba(255, 255, 255, 0.82);
   outline-offset: 2px;
+}
+
+.admin-login-form__recovery {
+  justify-self: center;
 }
 
 .exercise-detail-topbar__save[aria-pressed="true"] {

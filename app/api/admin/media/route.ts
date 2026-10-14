@@ -8,6 +8,8 @@ import {
   MAX_EXERCISE_VIDEO_SIZE,
 } from "@/lib/exercises/media";
 import { createSupabaseAdminClient, isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
+import { getExerciseMediaPublicUrl } from "@/lib/exercises/media-server";
+import { createR2ExerciseMediaUpload, isR2Configured } from "@/lib/storage/r2";
 
 export const runtime = "nodejs";
 
@@ -47,6 +49,21 @@ export async function POST(request: Request) {
     }
 
     const storagePath = `exercises/${crypto.randomUUID()}.${exerciseVideoExtension(type)}`;
+
+    if (isR2Configured()) {
+      const upload = await createR2ExerciseMediaUpload({ storagePath, contentType: type });
+      return NextResponse.json({
+        provider: "r2",
+        path: storagePath,
+        signedUrl: upload.signedUrl,
+        uploadHeaders: upload.headers,
+        url: getExerciseMediaPublicUrl(storagePath),
+        size,
+        type,
+        duration,
+      });
+    }
+
     const supabase = createSupabaseAdminClient();
     const { data, error } = await supabase.storage.from(EXERCISE_MEDIA_BUCKET).createSignedUploadUrl(storagePath);
 
@@ -54,6 +71,7 @@ export async function POST(request: Request) {
 
     const { data: publicUrl } = supabase.storage.from(EXERCISE_MEDIA_BUCKET).getPublicUrl(storagePath);
     return NextResponse.json({
+      provider: "supabase",
       path: storagePath,
       token: data.token,
       signedUrl: data.signedUrl,

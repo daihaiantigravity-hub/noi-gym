@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 import { signInAction, type LoginActionState } from "@/app/actions/auth";
 
 const initialState: LoginActionState = {};
@@ -22,6 +23,7 @@ export default function LoginForm() {
       <button className="admin-button admin-button--primary admin-button--full" disabled={pending} type="submit">
         {pending ? "Đang đăng nhập…" : "Đăng nhập"}
       </button>
+      <Link className="admin-text-link admin-login-form__recovery" href="/auth/forgot-password">Quên mật khẩu?</Link>
     </form>
   );
 }

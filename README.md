@@ -56,6 +56,8 @@ The Supabase secret key is server-only and must never use the `NEXT_PUBLIC_` pre
 
 Exercise demo videos are stored in the Supabase Storage bucket `exercise-media`; the exercise record stores the generated public URL, storage path, and duration. The migration creates this bucket with a 25MB limit for MP4, WebM, and MOV files. The admin validates videos at no more than 15 seconds and the public pages play them muted, inline, and on repeat.
 
+For external media storage, verified migration, and the Cloudflare R2 runtime configuration, see [`docs/media-storage-migration.md`](docs/media-storage-migration.md). When `R2_PUBLIC_BASE_URL` is configured, the application derives migrated exercise video URLs from their existing `storagePath`.
+
 ## MuscleWiki migration scraper
 
 The Playwright scraper for all paginated dumbbell biceps exercises writes `scripts/migration/data/musclewiki-biceps-dumbbells.json` and keeps resumable state in the adjacent `.checkpoint.json` file:

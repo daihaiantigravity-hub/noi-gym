@@ -10,12 +10,16 @@ function getAdminEmails() {
     .filter(Boolean);
 }
 
+export function isAdminEmail(email: string) {
+  return getAdminEmails().includes(email.trim().toLowerCase());
+}
+
 export function isAdminUser(user: User | null | undefined): user is User {
   if (!user) return false;
 
   const email = user.email?.toLowerCase();
   const hasRole = user.app_metadata?.role === "admin";
-  return hasRole || Boolean(email && getAdminEmails().includes(email));
+  return hasRole || Boolean(email && isAdminEmail(email));
 }
 
 export async function getAdminUser() {
