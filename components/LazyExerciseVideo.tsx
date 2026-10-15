@@ -2,25 +2,6 @@
 
 import { useEffect, useRef, useState, type ForwardedRef } from "react";
 
-type PlaybackCandidate = {
-  ratio: number;
-  setActive: (active: boolean) => void;
-};
-
-const playbackCandidates = new Map<HTMLVideoElement, PlaybackCandidate>();
-
-function reconcilePlayback() {
-  let selectedVideo: HTMLVideoElement | null = null;
-  let selectedRatio = 0;
-  for (const [video, candidate] of playbackCandidates) {
-    if (candidate.ratio > selectedRatio) {
-      selectedVideo = video;
-      selectedRatio = candidate.ratio;
-    }
-  }
-  for (const [video, candidate] of playbackCandidates) candidate.setActive(video === selectedVideo);
-}
-
 function assignRef<T>(ref: ForwardedRef<T>, value: T | null) {
   if (typeof ref === "function") {
     ref(value);
@@ -43,11 +24,12 @@ export default function LazyExerciseVideo({
   forwardedRef?: ForwardedRef<HTMLVideoElement>;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isInViewport, setIsInViewport] = useState(false);
   const [videoSourceToLoad, setVideoSourceToLoad] = useState<string | null>(null);
   const [readyVideoSource, setReadyVideoSource] = useState<string | null>(null);
+  const [playingVideoSource, setPlayingVideoSource] = useState<string | null>(null);
   const shouldLoadVideo = videoSourceToLoad === src;
   const isVideoReady = readyVideoSource === src;
+  const isVideoPlaying = playingVideoSource === src;
 
   useEffect(() => {
     // Let the lightweight poster request start first, but never let a slow or
@@ -58,44 +40,9 @@ export default function LazyExerciseVideo({
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video) return;
-
-    if (typeof IntersectionObserver === "undefined") {
-      const timeoutId = window.setTimeout(() => setIsInViewport(true), 0);
-      return () => window.clearTimeout(timeoutId);
-    }
-
-    const playbackObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && entry.intersectionRatio >= 0.25) {
-          playbackCandidates.set(video, { ratio: entry.intersectionRatio, setActive: setIsInViewport });
-        } else {
-          playbackCandidates.delete(video);
-          setIsInViewport(false);
-        }
-        reconcilePlayback();
-      },
-      { threshold: [0, 0.25, 0.5, 0.75, 1], rootMargin: "0px" },
-    );
-
-    playbackObserver.observe(video);
-    return () => {
-      playbackObserver.disconnect();
-      playbackCandidates.delete(video);
-      reconcilePlayback();
-    };
-  }, []);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (isInViewport && isVideoReady) {
-      void video.play().catch(() => undefined);
-    } else {
-      video.pause();
-    }
-  }, [isInViewport, isVideoReady]);
+    if (!video || !isVideoReady) return;
+    void video.play().catch(() => undefined);
+  }, [isVideoReady]);
 
   return (
     <>
@@ -117,12 +64,21 @@ export default function LazyExerciseVideo({
       ) : null}
       <video
         aria-label={label}
+        autoPlay
         className={className}
-        data-lazy-video-state={shouldLoadVideo ? (isVideoReady ? (isInViewport ? "playing" : "paused") : "loading") : "waiting"}
+        data-lazy-video-state={shouldLoadVideo ? (isVideoReady ? (isVideoPlaying ? "playing" : "ready") : "loading") : "waiting"}
         loop
         muted
-        onError={() => setReadyVideoSource((currentSource) => currentSource === src ? null : currentSource)}
-        onLoadedData={() => setReadyVideoSource(src)}
+        onError={() => {
+          setReadyVideoSource((currentSource) => currentSource === src ? null : currentSource);
+          setPlayingVideoSource((currentSource) => currentSource === src ? null : currentSource);
+        }}
+        onLoadedData={(event) => {
+          setReadyVideoSource(src);
+          void event.currentTarget.play().catch(() => undefined);
+        }}
+        onPause={() => setPlayingVideoSource((currentSource) => currentSource === src ? null : currentSource)}
+        onPlay={() => setPlayingVideoSource(src)}
         playsInline
         poster={poster || undefined}
         preload={shouldLoadVideo ? "auto" : "none"}
