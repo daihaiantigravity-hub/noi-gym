@@ -2,6 +2,25 @@
 
 import { useEffect, useRef, useState, type ForwardedRef } from "react";
 
+type PlaybackCandidate = {
+  ratio: number;
+  setActive: (active: boolean) => void;
+};
+
+const playbackCandidates = new Map<HTMLVideoElement, PlaybackCandidate>();
+
+function reconcilePlayback() {
+  let selectedVideo: HTMLVideoElement | null = null;
+  let selectedRatio = 0;
+  for (const [video, candidate] of playbackCandidates) {
+    if (candidate.ratio > selectedRatio) {
+      selectedVideo = video;
+      selectedRatio = candidate.ratio;
+    }
+  }
+  for (const [video, candidate] of playbackCandidates) candidate.setActive(video === selectedVideo);
+}
+
 function assignRef<T>(ref: ForwardedRef<T>, value: T | null) {
   if (typeof ref === "function") {
     ref(value);
@@ -40,19 +59,39 @@ export default function LazyExerciseVideo({
       return () => window.clearTimeout(timeoutId);
     }
 
-    const observer = new IntersectionObserver(
+    const loadObserver = new IntersectionObserver(
       ([entry]) => {
-        // Start loading before the video reaches the viewport so scrolling does
-        // not expose an empty poster while the remote media is fetched.
-        const visible = entry.isIntersecting && entry.intersectionRatio >= 0.25;
-        setIsInViewport(visible);
-        if (entry.isIntersecting) setHasEnteredViewport(true);
+        setHasEnteredViewport(entry.isIntersecting);
+        if (!entry.isIntersecting) {
+          video.pause();
+          video.removeAttribute("src");
+          video.load();
+          setIsVideoReady(false);
+        }
       },
-      { threshold: [0, 0.25], rootMargin: "720px 0px" },
+      { threshold: 0, rootMargin: "240px 0px" },
+    );
+    const playbackObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.6) {
+          playbackCandidates.set(video, { ratio: entry.intersectionRatio, setActive: setIsInViewport });
+        } else {
+          playbackCandidates.delete(video);
+          setIsInViewport(false);
+        }
+        reconcilePlayback();
+      },
+      { threshold: [0, 0.6, 0.75, 1], rootMargin: "0px" },
     );
 
-    observer.observe(video);
-    return () => observer.disconnect();
+    loadObserver.observe(video);
+    playbackObserver.observe(video);
+    return () => {
+      loadObserver.disconnect();
+      playbackObserver.disconnect();
+      playbackCandidates.delete(video);
+      reconcilePlayback();
+    };
   }, []);
 
   useEffect(() => {
@@ -68,21 +107,22 @@ export default function LazyExerciseVideo({
 
   return (
     <>
-      {poster ? (
+      {poster && !isVideoReady ? (
         // Posters are already resized and encoded as compact WebP objects in R2.
         // Loading them directly keeps the fallback independent from the video request.
         // eslint-disable-next-line @next/next/no-img-element
         <img
           alt=""
           aria-hidden="true"
-          className={`lazy-exercise-video__poster${isVideoReady ? " lazy-exercise-video__poster--hidden" : ""}`}
+          className="lazy-exercise-video__poster"
+          decoding="async"
           draggable={false}
+          loading={hasEnteredViewport ? "eager" : "lazy"}
           src={poster}
         />
       ) : null}
       <video
         aria-label={label}
-        autoPlay={isInViewport}
         className={className}
         data-lazy-video-state={hasEnteredViewport ? (isVideoReady ? (isInViewport ? "playing" : "paused") : "loading") : "waiting"}
         loop
@@ -90,8 +130,8 @@ export default function LazyExerciseVideo({
         onError={() => setIsVideoReady(false)}
         onLoadedData={() => setIsVideoReady(true)}
         playsInline
-        poster={poster || undefined}
-        preload={hasEnteredViewport ? "auto" : "none"}
+        poster={hasEnteredViewport ? poster || undefined : undefined}
+        preload={hasEnteredViewport ? (isInViewport ? "auto" : "metadata") : "none"}
         ref={(element) => {
           videoRef.current = element;
           assignRef(forwardedRef ?? null, element);

@@ -77,8 +77,11 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
   function handleWheel(event: WheelEvent<HTMLDivElement>) {
     const track = event.currentTarget;
     const maxScrollLeft = track.scrollWidth - track.clientWidth;
-    if (maxScrollLeft <= 0 || event.deltaY === 0) return;
-    const nextScrollLeft = Math.max(0, Math.min(maxScrollLeft, track.scrollLeft + event.deltaY));
+    const horizontalDelta = Math.abs(event.deltaX) > Math.abs(event.deltaY)
+      ? event.deltaX
+      : event.shiftKey ? event.deltaY : 0;
+    if (maxScrollLeft <= 0 || horizontalDelta === 0) return;
+    const nextScrollLeft = Math.max(0, Math.min(maxScrollLeft, track.scrollLeft + horizontalDelta));
     if (nextScrollLeft === track.scrollLeft) return;
     event.preventDefault();
     track.scrollLeft = nextScrollLeft;

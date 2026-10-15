@@ -84,7 +84,7 @@ unavailable source URLs are written to the gender-specific `musclewiki-r2-male-s
 `musclewiki-r2-female-summary.json`. A target object with different bytes is reported and is never
 overwritten.
 
-### Create compact male exercise posters
+### Create compact exercise posters
 
 Build the poster inventory without changing R2 or Supabase:
 
@@ -99,17 +99,26 @@ npm run migrate:posters:musclewiki:r2:male -- --apply --limit 10 --concurrency 2
 npm run migrate:posters:musclewiki:r2:male -- --apply --concurrency 8
 ```
 
-This migration is deliberately restricted to male media. It chooses the front poster when one is
-available, falls back to the side poster, resizes the source to 320x180, and stores it as WebP at
-quality 72. The SHA-256 content hash is the R2 object name under `posters/male/`, so identical images
-share one object. The hash provides deduplication; resizing and WebP encoding provide the byte-size
-reduction.
+Each migration run is restricted to the gender passed on the command line. It chooses the front
+poster when one is available, falls back to the side poster, resizes the source to 320x180, and
+stores it as WebP at quality 72. The SHA-256 content hash is the R2 object name under the gender's
+poster prefix, so identical images share one object. The hash provides deduplication; resizing and
+WebP encoding provide the byte-size reduction.
+
+After the male migration has been verified, run the same isolated pilot and full migration for female
+posters. Female objects are stored separately under `posters/female/`:
+
+```powershell
+npm run migrate:posters:musclewiki:r2:female -- --apply --limit 10 --concurrency 2
+npm run migrate:posters:musclewiki:r2:female -- --apply --concurrency 8
+```
 
 After each R2 object passes a downloaded SHA-256 verification, the script stores both `posterUrl` and
 `posterStoragePath` in the matching Supabase exercise media. It never deletes a source object and
 never overwrites a different R2 object. Progress and results are written to
 `artifacts/media-migration/musclewiki-r2-poster-manifest.jsonl` and
-`artifacts/media-migration/musclewiki-r2-poster-male-summary.json`.
+the gender-specific `artifacts/media-migration/musclewiki-r2-poster-male-summary.json` or
+`artifacts/media-migration/musclewiki-r2-poster-female-summary.json`.
 
 This route reconstructs the expected exercise media paths without changing Supabase. A SQL inventory
 of the current project confirmed that the 19 unavailable original URLs were never present in the

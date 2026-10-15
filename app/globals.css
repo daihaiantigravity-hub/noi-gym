@@ -5455,13 +5455,7 @@ button {
   height: 100%;
   border-radius: inherit;
   object-fit: cover;
-  opacity: 1;
   pointer-events: none;
-  transition: opacity 160ms ease;
-}
-
-.lazy-exercise-video__poster--hidden {
-  opacity: 0;
 }
 
 .exercise-library-showcase__image {
@@ -5510,50 +5504,6 @@ button {
   gap: 4px;
   margin: 28px auto 0;
   font-variant-numeric: tabular-nums;
-}
-
-.exercise-library-pagination__summary {
-  display: flex;
-  min-width: 0;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding-inline: 12px;
-}
-
-.exercise-library-pagination__status,
-.exercise-library-pagination__jump {
-  color: #afb6c0;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.4;
-  white-space: nowrap;
-}
-
-.exercise-library-pagination__summary strong {
-  color: var(--health-muted);
-  font-weight: 500;
-}
-
-.exercise-library-pagination__jump {
-  position: relative;
-  display: flex;
-  min-height: 44px;
-  align-items: center;
-  gap: 7px;
-  padding-inline: 6px;
-  border-radius: 999px;
-}
-
-.exercise-library-pagination__jump select {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  cursor: pointer;
-  color-scheme: dark;
-  font-size: 16px;
 }
 
 .exercise-library-pagination__pages {
@@ -5630,8 +5580,7 @@ button {
 }
 
 .exercise-library-pagination__page:focus-visible,
-.exercise-library-pagination__link:focus-visible,
-.exercise-library-pagination__jump:has(select:focus-visible) {
+.exercise-library-pagination__link:focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.9);
   outline-offset: 3px;
 }
@@ -5639,8 +5588,7 @@ button {
 @media (hover: hover) {
 
   a.exercise-library-pagination__page:hover,
-  a.exercise-library-pagination__link:hover,
-  .exercise-library-pagination__jump:hover {
+  a.exercise-library-pagination__link:hover {
     color: #f0f4f8;
     background: rgba(184, 201, 216, 0.09);
   }

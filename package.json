@@ -20,6 +20,7 @@
     "migrate:media:musclewiki:r2:male": "node scripts/migration/migrate-musclewiki-media-to-r2.mjs --gender male",
     "migrate:media:musclewiki:r2:female": "node scripts/migration/migrate-musclewiki-media-to-r2.mjs --gender female",
     "migrate:posters:musclewiki:r2:male": "node scripts/migration/migrate-musclewiki-posters-to-r2.mjs --gender male",
+    "migrate:posters:musclewiki:r2:female": "node scripts/migration/migrate-musclewiki-posters-to-r2.mjs --gender female",
     "restore:supabase:backup": "node scripts/migration/restore-supabase-backup.mjs",
     "migrate:musclewiki:biceps-dumbbells": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs",
     "migrate:musclewiki:biceps-dumbbells:browser": "node scripts/migration/scrape-musclewiki-biceps-dumbbells.mjs --browser"

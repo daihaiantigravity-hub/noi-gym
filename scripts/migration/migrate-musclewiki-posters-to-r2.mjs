@@ -19,7 +19,7 @@ const maxSourceBytes = 5 * 1024 * 1024;
 const targetWidth = 320;
 const targetHeight = 180;
 const verifiedPosterSourceOverrides = new Map([
-  [115137138372837, [
+  ["male:115137138372837", [
     "https://musclewiki.com/api-next/images/og-male-Kettlebells-kettlebell-chest-press-front_S2ic9bl.jpg",
   ]],
 ]);
@@ -67,8 +67,8 @@ function parseArgs(argv) {
     }
   }
 
-  if (options.gender !== "male") {
-    throw new Error("This migration is intentionally limited to --gender male");
+  if (options.gender !== "male" && options.gender !== "female") {
+    throw new Error("--gender must be male or female");
   }
   if (![options.limit, options.offset, options.sourceId, options.concurrency].every(Number.isSafeInteger)
     || options.limit < 0 || options.offset < 0 || options.sourceId < 0
@@ -80,10 +80,10 @@ function parseArgs(argv) {
 }
 
 function printHelp() {
-  console.log(`Create compact, content-addressed male exercise posters in Cloudflare R2.
+  console.log(`Create compact, content-addressed exercise posters in Cloudflare R2.
 
 Usage:
-  node scripts/migration/migrate-musclewiki-posters-to-r2.mjs --gender male [--apply] [options]
+  node scripts/migration/migrate-musclewiki-posters-to-r2.mjs --gender <male|female> [--apply] [options]
 
 Options:
   --apply              Download, resize, upload, verify, and update Supabase.
@@ -91,7 +91,7 @@ Options:
   --offset N           Skip N exercises after filtering.
   --source-id N        Process a single MuscleWiki source ID.
   --concurrency N      Concurrent transfers, from 1 to 12 (default: 8).
-  --gender male        Required safety scope. Female posters are not enabled.
+  --gender GENDER      Process only male or only female posters (default: male).
   --help               Show this message.
 
 Without --apply, the command only builds the local inventory. It never deletes or overwrites
@@ -185,7 +185,7 @@ function videoAngle(video, videoUrl) {
   return fileName.match(/-(front|side)(?:_[a-z0-9]+)?\.mp4$/i)?.[1]?.toLowerCase() || null;
 }
 
-function buildInventory() {
+function buildInventory(gender) {
   const roots = [
     path.join(projectRoot, "data"),
     path.join(projectRoot, "scripts", "migration", "data"),
@@ -209,7 +209,7 @@ function buildInventory() {
 
     for (const video of exercise.videos) {
       const videoUrl = normalizeVideoUrl(video?.url);
-      if (!videoUrl || videoGender(video, videoUrl) !== "male") continue;
+      if (!videoUrl || videoGender(video, videoUrl) !== gender) continue;
       const angle = videoAngle(video, videoUrl);
       if (angle !== "front" && angle !== "side") continue;
 
@@ -250,7 +250,7 @@ function buildInventory() {
     sourceId: candidate.sourceId,
     angle: candidate.frontExplicit.size || candidate.frontDerived.size ? "front" : "side",
     sourceUrls: [
-      ...(verifiedPosterSourceOverrides.get(candidate.sourceId) ?? []),
+      ...(verifiedPosterSourceOverrides.get(`${gender}:${candidate.sourceId}`) ?? []),
       ...candidate.frontExplicit,
       ...candidate.frontDerived,
       ...candidate.sideExplicit,
@@ -362,13 +362,13 @@ async function readObject(client, bucket, key) {
   return bodyToBuffer(response.Body);
 }
 
-function readManifest() {
+function readManifest(gender) {
   const records = new Map();
   if (!fs.existsSync(manifestPath)) return records;
 
   for (const line of fs.readFileSync(manifestPath, "utf8").split(/\r?\n/).filter(Boolean)) {
     const record = JSON.parse(line);
-    if (record.sourceId && record.gender === "male" && record.storagePath) records.set(Number(record.sourceId), record);
+    if (record.sourceId && record.gender === gender && record.storagePath) records.set(Number(record.sourceId), record);
   }
   return records;
 }
@@ -417,7 +417,7 @@ async function listExerciseRows(supabase) {
   return rows;
 }
 
-async function updateDatabase(supabase, posterRecords, concurrency) {
+async function updateDatabase(supabase, posterRecords, concurrency, gender) {
   const rows = await listExerciseRows(supabase);
   const rowsBySourceId = new Map(rows.map((row) => [Number(row.source_id), row]));
   const updates = [];
@@ -431,10 +431,10 @@ async function updateDatabase(supabase, posterRecords, concurrency) {
       continue;
     }
     const media = Array.isArray(row.media) ? row.media.map((item) => ({ ...item })) : [];
-    let index = media.findIndex((item) => item?.gender === "male" && item?.angle === "front");
-    if (index < 0) index = media.findIndex((item) => item?.gender === "male");
+    let index = media.findIndex((item) => item?.gender === gender && item?.angle === "front");
+    if (index < 0) index = media.findIndex((item) => item?.gender === gender);
     if (index < 0) {
-      failures.push({ sourceId: record.sourceId, message: "Male media entry not found" });
+      failures.push({ sourceId: record.sourceId, message: `${gender} media entry not found` });
       continue;
     }
 
@@ -472,8 +472,8 @@ async function main() {
   }
 
   fs.mkdirSync(outputDir, { recursive: true });
-  const summaryPath = path.join(outputDir, "musclewiki-r2-poster-male-summary.json");
-  const inventory = buildInventory();
+  const summaryPath = path.join(outputDir, `musclewiki-r2-poster-${options.gender}-summary.json`);
+  const inventory = buildInventory(options.gender);
   const filtered = inventory.candidates.filter((candidate) => !options.sourceId || candidate.sourceId === options.sourceId);
   const selected = filtered.slice(options.offset, options.limit ? options.offset + options.limit : undefined);
   const baseSummary = {
@@ -513,7 +513,7 @@ async function main() {
   const supabaseSecret = process.env.SUPABASE_SECRET_KEY?.trim() || process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
   if (!supabaseSecret) throw new Error("Missing SUPABASE_SECRET_KEY in .env.local");
   const supabase = createSupabase(supabaseUrl, supabaseSecret);
-  const previous = readManifest();
+  const previous = readManifest(options.gender);
   const posterRecords = [];
   const failures = [];
   let uploadedObjects = 0;
@@ -545,7 +545,7 @@ async function main() {
       const downloaded = await downloadPoster(candidate.sourceUrls);
       const optimized = await optimizePoster(downloaded.buffer);
       const sha256 = hashBuffer(optimized.data);
-      const storagePath = `posters/male/${sha256}.webp`;
+      const storagePath = `posters/${options.gender}/${sha256}.webp`;
       const head = await headObject(client, bucket, storagePath);
       let status;
 
@@ -568,7 +568,7 @@ async function main() {
           CacheControl: "public, max-age=31536000, immutable",
           Metadata: {
             sha256,
-            gender: "male",
+            gender: options.gender,
             "source-id": String(candidate.sourceId),
             "source-url-sha256": hashText(downloaded.sourceUrl),
           },
@@ -583,7 +583,7 @@ async function main() {
 
       const record = {
         sourceId: candidate.sourceId,
-        gender: "male",
+        gender: options.gender,
         angle: candidate.angle,
         sourceUrl: downloaded.sourceUrl,
         sourceFile: candidate.sourceFiles[0] || null,
@@ -625,7 +625,7 @@ async function main() {
 
   await manifestQueue;
   posterRecords.sort((first, second) => first.sourceId - second.sourceId);
-  const database = await updateDatabase(supabase, posterRecords, options.concurrency);
+  const database = await updateDatabase(supabase, posterRecords, options.concurrency, options.gender);
   const summary = {
     ...baseSummary,
     bucket,

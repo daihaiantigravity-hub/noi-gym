@@ -21,17 +21,15 @@ function load(path, imports = {}) {
 }
 
 const pagination = load("lib/exercises/pagination.ts");
-const pushes = [];
 const { default: ExercisePagination } = load("components/ExercisePagination.tsx", {
   "react/jsx-runtime": jsxRuntime,
   "next/link": { default: (props) => createElement("a", props) },
-  "next/navigation": { useRouter: () => ({ push: (href) => pushes.push(href) }) },
   "@/lib/exercises/pagination": pagination,
 });
 const props = { page: 1, pageSize: 5, routePath: "/exercises/biceps?view=advanced", total: 145 };
 
 test("compact and desktop windows always include current, first and last pages, without duplicates", () => {
-  for (const slots of [5, 7]) {
+  for (const slots of [5, 7, 9]) {
     for (let total = 1; total <= 100; total++) {
       for (let page = 1; page <= total; page++) {
         const items = pagination.getPaginationItems(page, total, slots);
@@ -48,6 +46,8 @@ test("compact and desktop windows always include current, first and last pages, 
   assert.equal(JSON.stringify(pagination.getPaginationItems(1, 29, 5)), '[1,2,3,"ellipsis",29]');
   assert.equal(JSON.stringify(pagination.getPaginationItems(15, 29, 5)), '[1,"ellipsis",15,"ellipsis",29]');
   assert.equal(JSON.stringify(pagination.getPaginationItems(29, 29, 5)), '[1,"ellipsis",27,28,29]');
+  assert.equal(JSON.stringify(pagination.getPaginationItems(5, 30, 7)), '[1,"ellipsis",4,5,6,"ellipsis",30]');
+  assert.equal(JSON.stringify(pagination.getPaginationItems(5, 30, 9)), '[1,2,3,4,5,6,7,"ellipsis",30]');
 });
 
 test("URLs preserve filters and first page removes only the page parameter; five exercises per page", () => {
@@ -57,13 +57,12 @@ test("URLs preserve filters and first page removes only the page parameter; five
   assert.equal(pagination.getPageHref("/exercises/biceps", 1), "/exercises/biceps");
 });
 
-test("first/middle/last page markup has accessible arrows, selected pages and direct page picker", () => {
+test("first/middle/last page markup has accessible arrows and responsive page windows", () => {
   for (const page of [1, 15, 29]) {
     const html = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page }));
     assert.equal((html.match(/<nav /g) ?? []).length, 1);
-    assert.equal((html.match(/aria-current="page"/g) ?? []).length, 2); // CSS displays one responsive window.
-    assert.equal((html.match(/<option /g) ?? []).length, 29);
-    assert.match(html, new RegExp(`<option value="${page}" selected=""`));
+    assert.equal((html.match(/aria-current="page"/g) ?? []).length, 2);
+    assert.equal((html.match(/<select/g) ?? []).length, 0);
     assert.equal((html.match(/disabled=""/g) ?? []).length, page === 15 ? 0 : 1);
     assert.ok(html.includes(`aria-label="Trang ${page}"`));
   }
@@ -72,14 +71,10 @@ test("first/middle/last page markup has accessible arrows, selected pages and di
   }
 });
 
-test("page picker jumps directly, retains filters and ignores selecting the current page", () => {
-  // Hooks are stubbed above; inspect the actual React element's event handler.
-  const tree = ExercisePagination(props);
-  const summary = tree.props.children[0];
-  const select = summary.props.children[1].props.children[2];
-  select.props.onChange({ target: { value: "15" } });
-  assert.equal(pushes.at(-1), "/exercises/biceps?view=advanced&page=15");
-  const count = pushes.length;
-  select.props.onChange({ target: { value: "1" } });
-  assert.equal(pushes.length, count);
+test("mobile page window exposes the neighboring page buttons", () => {
+  const html = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page: 5, total: 150 }));
+  assert.match(html, /exercise-library-pagination__numbers--compact/);
+  assert.match(html, /aria-label="Trang 4"/);
+  assert.match(html, /aria-label="Trang 5"/);
+  assert.match(html, /aria-label="Trang 6"/);
 });

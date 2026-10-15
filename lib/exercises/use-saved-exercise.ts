@@ -88,7 +88,8 @@ export function useSavedExercise(exerciseId: string) {
   const isSaved = favorites.exerciseIds.has(exerciseId);
 
   useEffect(() => {
-    void loadFavorites();
+    const timeoutId = window.setTimeout(() => void loadFavorites(), 250);
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   const toggleSaved = useCallback(async () => {

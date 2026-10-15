@@ -2,13 +2,13 @@ export const PUBLIC_EXERCISES_PAGE_SIZE = 5;
 
 export type PaginationItem = number | "ellipsis";
 
-/** A smaller window on phones keeps both arrows on the same row. */
-export function getPaginationItems(page: number, totalPages: number, slots: 5 | 7 = 7): PaginationItem[] {
+/** Responsive page windows keep nearby pages visible without wrapping the arrow controls. */
+export function getPaginationItems(page: number, totalPages: number, slots: 5 | 7 | 9 = 9): PaginationItem[] {
   if (totalPages <= slots) {
     return Array.from({ length: totalPages }, (_, index) => index + 1);
   }
 
-  const siblings = slots === 7 ? 1 : 0;
+  const siblings = slots === 9 ? 2 : slots === 7 ? 1 : 0;
   const edgeCount = slots - 2;
   if (page <= edgeCount - siblings) {
     return [...Array.from({ length: edgeCount }, (_, index) => index + 1), "ellipsis", totalPages];
