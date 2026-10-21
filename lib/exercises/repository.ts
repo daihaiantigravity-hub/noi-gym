@@ -2,6 +2,7 @@ import "server-only";
 
 import { revalidateTag, unstable_cache } from "next/cache";
 import { createSupabaseAdminClient, createSupabaseServerClient, isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
+import { PUBLIC_EXERCISES_CACHE_TAG } from "./cache";
 import { getExerciseCategoryOrder } from "./category-order";
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
@@ -12,7 +13,6 @@ import type { ExerciseTargetMode } from "./types";
 
 const exerciseSelect = "id, source, source_id, name, slug, description, primary_muscles, category, force, grips, mechanic, difficulty, status, steps, media, source_snapshot, created_at, updated_at";
 const publicOrderSelect = "id, name, category, updated_at";
-export const PUBLIC_EXERCISES_CACHE_TAG = "public-exercises";
 const femaleStoragePathPattern = /^exercises\/musclewiki\/female\/\d+-(front|side)\.mp4$/;
 
 function isStoredFemaleMedia(item: ExerciseFormValues["media"][number]) {
@@ -65,6 +65,7 @@ type ExerciseRow = {
 };
 
 type PublicOrderRow = Pick<ExerciseRow, "id" | "name" | "category" | "updated_at">;
+type FavoriteOrderRow = { exercise_id: string };
 type PublicQueryClient = Awaited<ReturnType<typeof createSupabaseServerClient>>;
 
 function mapRow(row: ExerciseRow): ExerciseRecord {
@@ -308,7 +309,31 @@ function getPublicPageOptions(options: PublicExerciseOptions) {
   return { page, pageSize, start: (page - 1) * pageSize };
 }
 
-function comparePublicRowsByCategoryOrder(first: PublicOrderRow, second: PublicOrderRow) {
+async function getFavoriteRankByExerciseId(supabase: PublicQueryClient) {
+  const { data, error } = await supabase
+    .from("user_favorite_exercises")
+    .select("exercise_id")
+    .order("created_at", { ascending: false });
+  if (error) return new Map<string, number>();
+
+  const rankByExerciseId = new Map<string, number>();
+  for (const row of (data ?? []) as FavoriteOrderRow[]) {
+    if (!rankByExerciseId.has(row.exercise_id)) {
+      rankByExerciseId.set(row.exercise_id, rankByExerciseId.size);
+    }
+  }
+  return rankByExerciseId;
+}
+
+function comparePublicRowsByPriority(first: PublicOrderRow, second: PublicOrderRow, favoriteRanks: ReadonlyMap<string, number>) {
+  const firstFavoriteRank = favoriteRanks.get(first.id);
+  const secondFavoriteRank = favoriteRanks.get(second.id);
+  if (firstFavoriteRank !== undefined || secondFavoriteRank !== undefined) {
+    if (firstFavoriteRank === undefined) return 1;
+    if (secondFavoriteRank === undefined) return -1;
+    if (firstFavoriteRank !== secondFavoriteRank) return firstFavoriteRank - secondFavoriteRank;
+  }
+
   const categoryDifference = getExerciseCategoryOrder(first.category) - getExerciseCategoryOrder(second.category);
   if (categoryDifference !== 0) return categoryDifference;
 
@@ -337,34 +362,19 @@ async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: stri
 
 async function listPublishedExercisesWithClient(supabase: PublicQueryClient, muscleNames: string[], options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
   const { page, pageSize, start } = getPublicPageOptions(options);
-  if (options.category) {
-    let query = supabase
-      .from("exercises")
-      .select(exerciseSelect, { count: "exact" })
-      .eq("status", "Published")
-      .overlaps("primary_muscles", muscleNames)
-      .eq("category", options.category)
-      .order("updated_at", { ascending: false })
-      .range(start, start + pageSize - 1);
-    if (options.gender) query = query.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
-    const { data, error, count } = await query;
-    if (error) throwDatabaseError(error);
-
-    const rows = (data ?? []) as ExerciseRow[];
-    return { items: rows.map((row) => mapPublicExercise(row, options.gender)), total: count ?? rows.length, page, pageSize };
-  }
-
   let orderQuery = supabase
     .from("exercises")
     .select(publicOrderSelect, { count: "exact" })
     .eq("status", "Published")
     .overlaps("primary_muscles", muscleNames);
+  if (options.category) orderQuery = orderQuery.eq("category", options.category);
   if (options.gender) orderQuery = orderQuery.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
   const { data: orderData, error: orderError, count } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
+  const favoriteRanks = await getFavoriteRankByExerciseId(supabase);
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
-    .sort(comparePublicRowsByCategoryOrder)
+    .sort((first, second) => comparePublicRowsByPriority(first, second, favoriteRanks))
     .slice(start, start + pageSize);
   const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
@@ -383,38 +393,23 @@ async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryCli
   const exerciseIds = (targets ?? []).map((target) => String(target.exercise_id));
   if (exerciseIds.length === 0) return { items: [], total: 0, page, pageSize };
 
-  if (options.category) {
-    let query = supabase
-      .from("exercises")
-      .select(exerciseSelect, { count: "exact" })
-      .eq("status", "Published")
-      .in("id", exerciseIds)
-      .eq("category", options.category)
-      .order("updated_at", { ascending: false })
-      .range(start, start + pageSize - 1);
-    if (options.gender) query = query.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
-    const { data, error, count } = await query;
-    if (error) throwDatabaseError(error);
-
-    const rows = (data ?? []) as ExerciseRow[];
-    return { items: rows.map((row) => mapPublicExercise(row, options.gender)), total: count ?? rows.length, page, pageSize };
-  }
-
   let orderQuery = supabase
     .from("exercises")
-    .select(publicOrderSelect)
+    .select(publicOrderSelect, { count: "exact" })
     .eq("status", "Published")
     .in("id", exerciseIds);
+  if (options.category) orderQuery = orderQuery.eq("category", options.category);
   if (options.gender) orderQuery = orderQuery.filter("media", "cs", JSON.stringify([{ gender: options.gender }]));
-  const { data: orderData, error: orderError } = await orderQuery;
+  const { data: orderData, error: orderError, count } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
+  const favoriteRanks = await getFavoriteRankByExerciseId(supabase);
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
-    .sort(comparePublicRowsByCategoryOrder)
+    .sort((first, second) => comparePublicRowsByPriority(first, second, favoriteRanks))
     .slice(start, start + pageSize);
   const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
-  return { items, total: orderData?.length ?? 0, page, pageSize };
+  return { items, total: count ?? orderData?.length ?? 0, page, pageSize };
 }
 
 const getCachedPublishedExercises = unstable_cache(
