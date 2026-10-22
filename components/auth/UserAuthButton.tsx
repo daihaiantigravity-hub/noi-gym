@@ -5,14 +5,14 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { resetSavedExercises } from "@/lib/exercises/use-saved-exercise";
 
-type SessionUser = {
+export type SessionUser = {
   id: string;
   email: string;
   name: string;
   avatarUrl: string | null;
 };
 
-type SessionResponse = {
+export type SessionResponse = {
   user: SessionUser | null;
   isAdmin: boolean;
 };
@@ -32,11 +32,11 @@ function LoginIcon() {
   );
 }
 
-export default function UserAuthButton() {
+export default function UserAuthButton({ initialSession }: { initialSession: SessionResponse }) {
   const router = useRouter();
   const rootRef = useRef<HTMLDivElement>(null);
-  const [session, setSession] = useState<SessionResponse>({ user: null, isAdmin: false });
-  const [loading, setLoading] = useState(true);
+  const [session, setSession] = useState<SessionResponse>(initialSession);
+  const [loading, setLoading] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [error, setError] = useState<string | null>(null);
 

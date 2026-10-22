@@ -121,6 +121,7 @@ Tiêu chí hoàn thành: phiên Google tồn tại sau refresh, callback không 
 - [x] Render trực tiếp URL ảnh Google nhỏ với `referrerPolicy=no-referrer`, không cần mở hostname động trong `next/image`.
 - [x] Thêm menu gồm tên, email, “Bài tập đã lưu”, liên kết admin khi có quyền và “Đăng xuất”.
 - [x] Khi đăng xuất, xóa trạng thái yêu thích trong bộ nhớ client.
+- [x] Cấp trạng thái đăng nhập ban đầu từ cookie phiên ở Server Component để icon hoặc avatar đúng ngay trong lần render đầu; API tiếp tục xác thực lại ở nền.
 - [ ] Kiểm tra kích thước vùng bấm và bố cục trên mobile.
 
 Tiêu chí hoàn thành: icon phản ánh đúng phiên đăng nhập, avatar không làm xê dịch header và thao tác được bằng bàn phím.
@@ -291,3 +292,4 @@ Danh sách này có thể thay đổi khi triển khai, nhưng mọi thay đổi
 | 2026-10-22 | 9 | Đang kiểm thử | Đăng xuất production đạt: menu tài khoản biến mất, nút đăng nhập xuất hiện và trạng thái favorites client được reset. Đã bắt đầu luồng anonymous lưu `Dumbbell Twisting Curl`; đang chờ chọn tài khoản Google thường để kiểm tra RLS và quyền admin. |
 | 2026-10-22 | 9 | Hoàn thành Việt hóa giao diện | Đã chuyển các nhãn tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và admin sang tiếng Việt; giữ nguyên dữ liệu nguồn MuscleWiki cùng các giá trị canonical. TypeScript, lint, 30 test và production build đều đạt. |
 | 2026-10-22 | 9 | Kiểm thử tài khoản thường đạt | Tài khoản Google thường có 2 favorites riêng, không thấy 289 favorites của admin, session trả `isAdmin: false` và `/admin` chuyển về trang đăng nhập. Lưu `Dumbbell Twisting Curl` làm bộ sưu tập tăng lên 3, aggregate của bài tăng lên 2 và khớp 2 bản ghi thực tế; bỏ lưu đưa bộ sưu tập về 2, aggregate về 1 và khớp 1 bản ghi thực tế. Tổng favorites toàn hệ thống trở về 291. |
+| 2026-10-22 | 3, 9 | Tối ưu trạng thái tài khoản | Trang chủ được tách thành Server Component và Client Component. Server đọc snapshot phiên từ cookie để render đúng icon đăng nhập hoặc avatar ngay từ HTML đầu tiên; quyền nhạy cảm vẫn xác thực bằng `getUser()` ở server. TypeScript, lint, 30 test và production build đều đạt. |

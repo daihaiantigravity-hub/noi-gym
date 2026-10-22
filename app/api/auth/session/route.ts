@@ -6,15 +6,18 @@ export async function GET() {
   if (!isSupabaseConfigured()) return NextResponse.json({ user: null, isAdmin: false });
 
   const supabase = await createSupabaseServerClient();
-  const { data, error } = await supabase.auth.getUser();
-  if (error || !data.user) return NextResponse.json({ user: null, isAdmin: false });
+  // The proxy has already verified/refreshed the token for this request. Reading
+  // the cookie-backed session here avoids a second remote Auth request for UI data.
+  const { data, error } = await supabase.auth.getSession();
+  const user = data.session?.user ?? null;
+  if (error || !user) return NextResponse.json({ user: null, isAdmin: false });
 
-  const metadata = data.user.user_metadata ?? {};
+  const metadata = user.user_metadata ?? {};
   const name = typeof metadata.full_name === "string"
     ? metadata.full_name
     : typeof metadata.name === "string"
       ? metadata.name
-      : data.user.email?.split("@")[0] ?? "Người dùng";
+      : user.email?.split("@")[0] ?? "Người dùng";
   const avatarUrl = typeof metadata.avatar_url === "string"
     ? metadata.avatar_url
     : typeof metadata.picture === "string"
@@ -22,8 +25,8 @@ export async function GET() {
       : null;
 
   return NextResponse.json({
-    user: { id: data.user.id, email: data.user.email ?? "", name, avatarUrl },
-    isAdmin: isAdminUser(data.user),
+    user: { id: user.id, email: user.email ?? "", name, avatarUrl },
+    isAdmin: isAdminUser(user),
   });
 }
 
