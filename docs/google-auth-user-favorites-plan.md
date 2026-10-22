@@ -153,7 +153,7 @@ Tiêu chí hoàn thành: hai tài khoản khác nhau có danh sách riêng và k
 - [x] Khi chưa đăng nhập, lưu URL quay lại và exercise key đang chờ trong `sessionStorage`.
 - [x] Sau callback thành công, hoàn tất một lần thao tác lưu đang chờ.
 - [x] Xóa thao tác đang chờ sau khi thành công hoặc hết hạn sau 15 phút.
-- [x] Hiển thị lỗi ngắn gọn, đúng tiếng Việt và không dùng thông báo “tài khoản quản trị”.
+- [x] Hiển thị lỗi ngắn gọn bằng tiếng Anh và không dùng thông báo “tài khoản quản trị”.
 
 Tiêu chí hoàn thành: trạng thái icon lưu nhất quán trên các card, trang chi tiết và sau khi đăng nhập lại.
 
@@ -234,7 +234,7 @@ Tiêu chí hoàn thành: bài nhiều lượt yêu thích hơn đứng trước 
 - [ ] Scroll danh sách không chậm thêm đáng kể.
 - [x] Ảnh preview và video vẫn xuất hiện trong kiểm tra giao diện local.
 - [ ] Giao diện avatar, menu và icon lưu hoạt động trên mobile.
-- [x] Nhãn giao diện tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và khu vực quản trị hiển thị bằng tiếng Việt; giá trị kỹ thuật trong URL, API và database được giữ nguyên.
+- [x] Khôi phục nhãn giao diện tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và khu vực quản trị về tiếng Anh; giữ nguyên giá trị kỹ thuật trong URL, API và database.
 
 ### 9.3 Kiểm tra mã nguồn và rollout
 
@@ -290,6 +290,6 @@ Danh sách này có thể thay đổi khi triển khai, nhưng mọi thay đổi
 | 2026-10-22 | 1–3, 6, 9 | Production đạt | Đã deploy commit `8636e0c` lên Vercel. Google OAuth production trả đúng callback; session nhận ảnh Google và quyền admin, `/favorites` tải 289 bài, `/admin/exercises` tải 1.946 bài, Privacy và Terms đều hoạt động. Audience vẫn ở Testing và chờ xác nhận Publish app. |
 | 2026-10-22 | 1 | Hoàn thành | Đã Publish app sau khi được xác nhận. Google Auth Platform hiển thị `In production`, User type `External`; ứng dụng chỉ yêu cầu `openid`, email và profile. |
 | 2026-10-22 | 9 | Đang kiểm thử | Đăng xuất production đạt: menu tài khoản biến mất, nút đăng nhập xuất hiện và trạng thái favorites client được reset. Đã bắt đầu luồng anonymous lưu `Dumbbell Twisting Curl`; đang chờ chọn tài khoản Google thường để kiểm tra RLS và quyền admin. |
-| 2026-10-22 | 9 | Hoàn thành Việt hóa giao diện | Đã chuyển các nhãn tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và admin sang tiếng Việt; giữ nguyên dữ liệu nguồn MuscleWiki cùng các giá trị canonical. TypeScript, lint, 30 test và production build đều đạt. |
+| 2026-10-22 | 9 | Khôi phục giao diện tiếng Anh | Đã chuyển toàn bộ nhãn tĩnh và thông báo lỗi có thể hiển thị trên trang chủ, thư viện, chi tiết, yêu thích và admin về tiếng Anh; giữ nguyên dữ liệu nguồn MuscleWiki cùng các giá trị canonical. TypeScript, lint, 30 test, kiểm tra giao diện local và production build đều đạt. |
 | 2026-10-22 | 9 | Kiểm thử tài khoản thường đạt | Tài khoản Google thường có 2 favorites riêng, không thấy 289 favorites của admin, session trả `isAdmin: false` và `/admin` chuyển về trang đăng nhập. Lưu `Dumbbell Twisting Curl` làm bộ sưu tập tăng lên 3, aggregate của bài tăng lên 2 và khớp 2 bản ghi thực tế; bỏ lưu đưa bộ sưu tập về 2, aggregate về 1 và khớp 1 bản ghi thực tế. Tổng favorites toàn hệ thống trở về 291. |
 | 2026-10-22 | 3, 9 | Tối ưu trạng thái tài khoản | Trang chủ được tách thành Server Component và Client Component. Server đọc snapshot phiên từ cookie để render đúng icon đăng nhập hoặc avatar ngay từ HTML đầu tiên; quyền nhạy cảm vẫn xác thực bằng `getUser()` ở server. TypeScript, lint, 30 test và production build đều đạt. |

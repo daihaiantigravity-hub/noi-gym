@@ -32,14 +32,14 @@ export async function getAdminUser() {
 
 export async function requireAdmin() {
   if (!isSupabaseConfigured() || !isDatabaseConfigured()) {
-    throw new Error("Admin chưa sẵn sàng. Hãy cấu hình Supabase và database trước.");
+    throw new Error("Admin is unavailable. Configure Supabase and the database first.");
   }
 
   const authClient = await createSupabaseServerClient();
   const { data } = await authClient.auth.getUser();
 
   if (!isAdminUser(data.user)) {
-    throw new Error("Bạn không có quyền thực hiện thao tác này");
+    throw new Error("You do not have permission to perform this action");
   }
 
   return {

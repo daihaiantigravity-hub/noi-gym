@@ -13,16 +13,16 @@ type AdminNavigationItem = {
 };
 
 const workspaceItems: AdminNavigationItem[] = [
-  { label: "Tổng quan", href: "/admin", icon: "dashboard" },
-  { label: "Bài tập", href: "/admin/exercises", icon: "dumbbell" },
-  { label: "Ưu tiên", href: "/admin/favorites", icon: "bookmark" },
-  { label: "Nhập dữ liệu", href: "/admin/exercises/import", icon: "upload" },
+  { label: "Overview", href: "/admin", icon: "dashboard" },
+  { label: "Exercises", href: "/admin/exercises", icon: "dumbbell" },
+  { label: "Featured", href: "/admin/favorites", icon: "bookmark" },
+  { label: "Import data", href: "/admin/exercises/import", icon: "upload" },
 ];
 
 const futureItems: AdminNavigationItem[] = [
-  { label: "Thư viện media", icon: "media", comingSoon: true },
-  { label: "Người dùng", icon: "users", comingSoon: true },
-  { label: "Cài đặt chung", icon: "settings", comingSoon: true },
+  { label: "Media library", icon: "media", comingSoon: true },
+  { label: "Users", icon: "users", comingSoon: true },
+  { label: "General settings", icon: "settings", comingSoon: true },
 ];
 
 function Icon({ name }: { name: AdminIconName }) {
@@ -122,7 +122,7 @@ function NavigationGroup({
                 <span className={className} aria-disabled="true">
                   <Icon name={item.icon} />
                   <span>{item.label}</span>
-                  <small>Sắp có</small>
+                  <small>Coming soon</small>
                 </span>
               )}
             </li>
@@ -141,26 +141,26 @@ export default function AdminSidebar() {
     .find((item) => pathname === item.href || pathname.startsWith(`${item.href}/`))?.href;
 
   return (
-    <aside className="admin-sidebar" aria-label="Điều hướng admin">
+    <aside className="admin-sidebar" aria-label="Admin navigation">
       <div className="admin-sidebar__brand">
         <span className="admin-sidebar__brand-mark">N</span>
         <div>
           <strong>NOI GYM</strong>
-          <span>Không gian quản trị</span>
+          <span>Admin workspace</span>
         </div>
       </div>
 
-      <nav className="admin-sidebar__nav" aria-label="Menu quản trị">
-        <NavigationGroup label="Quản lý" items={workspaceItems} activeHref={activeHref} />
-        <NavigationGroup label="Mở rộng" items={futureItems} activeHref={activeHref} />
+      <nav className="admin-sidebar__nav" aria-label="Admin menu">
+        <NavigationGroup label="Workspace" items={workspaceItems} activeHref={activeHref} />
+        <NavigationGroup label="More" items={futureItems} activeHref={activeHref} />
       </nav>
 
       <div className="admin-sidebar__footer">
         <Link className="admin-sidebar__back-link" href="/">
           <span aria-hidden="true">←</span>
-          <span>Về giao diện người dùng</span>
+          <span>Back to public site</span>
         </Link>
-        <span className="admin-sidebar__version">NOI GYM · QUẢN TRỊ</span>
+        <span className="admin-sidebar__version">NOI GYM · ADMIN</span>
       </div>
     </aside>
   );

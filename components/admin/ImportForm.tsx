@@ -12,13 +12,13 @@ export default function ImportForm() {
     <form action={formAction} className="admin-import-form">
       <label className="admin-upload-box">
         <span className="admin-upload-icon">↑</span>
-        <strong>Chọn file JSON</strong>
-        <small>Hỗ trợ file MuscleWiki trực tiếp hoặc dạng tệp bọc từ playground, tối đa 5MB.</small>
+        <strong>Select a JSON file</strong>
+        <small>Supports direct MuscleWiki files or playground wrappers, up to 5 MB.</small>
         <input accept="application/json,.json" name="file" required type="file" />
       </label>
       {state.error ? <p className="admin-form-error" role="alert">{state.error}</p> : null}
       {state.success ? <p className="admin-form-success" role="status">{state.success}</p> : null}
-      <button className="admin-button admin-button--primary" disabled={pending} type="submit">{pending ? "Đang nhập…" : "Nhập thành bản nháp"}</button>
+      <button className="admin-button admin-button--primary" disabled={pending} type="submit">{pending ? "Importing…" : "Import as Draft"}</button>
     </form>
   );
 }

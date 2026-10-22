@@ -17,7 +17,7 @@ export default async function AdminLayout({ children }: Readonly<{ children: Rea
       <div className="admin-area">
         {!authConfigured || !databaseConfigured ? (
           <div className="admin-config-banner" role="status">
-            <strong>Chế độ preview:</strong> hãy cấu hình Supabase để bật đăng nhập và lưu dữ liệu thật.
+            <strong>Preview mode:</strong> configure Supabase to enable sign-in and persistent data.
           </div>
         ) : null}
         {children}

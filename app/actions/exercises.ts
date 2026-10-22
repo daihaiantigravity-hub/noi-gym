@@ -13,12 +13,12 @@ export type ExerciseActionState = {
 };
 
 function getActionError(error: unknown) {
-  return error instanceof Error ? error.message : "Đã xảy ra lỗi. Vui lòng thử lại.";
+  return error instanceof Error ? error.message : "An error occurred. Please try again.";
 }
 
 export async function saveExerciseAction(_previousState: ExerciseActionState, formData: FormData): Promise<ExerciseActionState> {
   const payload = formData.get("payload");
-  if (typeof payload !== "string") return { error: "Không nhận được dữ liệu bài tập" };
+  if (typeof payload !== "string") return { error: "Exercise data was not received" };
 
   const parsed = parseExercisePayload(payload);
   if (!parsed.success) return { error: parsed.error };
@@ -42,7 +42,7 @@ export async function saveExerciseAction(_previousState: ExerciseActionState, fo
 
 export async function deleteExerciseAction(formData: FormData) {
   const id = formData.get("id");
-  if (typeof id !== "string" || !id) throw new Error("ID bài tập không hợp lệ");
+  if (typeof id !== "string" || !id) throw new Error("Invalid exercise ID");
 
   await requireAdmin();
   await deleteExercise(id);
@@ -52,14 +52,14 @@ export async function deleteExerciseAction(formData: FormData) {
 
 export async function importExercisesAction(_previousState: ExerciseActionState, formData: FormData): Promise<ExerciseActionState> {
   const file = formData.get("file");
-  if (!(file instanceof File) || file.size === 0) return { error: "Hãy chọn một file JSON" };
-  if (file.size > 5 * 1024 * 1024) return { error: "File JSON không được vượt quá 5MB" };
+  if (!(file instanceof File) || file.size === 0) return { error: "Select a JSON file" };
+  if (file.size > 5 * 1024 * 1024) return { error: "The JSON file cannot exceed 5 MB" };
 
   try {
     await requireAdmin();
     const payload = JSON.parse(await file.text()) as unknown;
     const sourceExercises = normalizeSourcePayload(payload);
-    if (sourceExercises.length === 0) return { error: "Không tìm thấy record bài tập hợp lệ trong JSON" };
+    if (sourceExercises.length === 0) return { error: "No valid exercise records were found in the JSON file" };
 
     const count = await upsertExercises(
       sourceExercises.map((exercise) => ({
@@ -69,7 +69,7 @@ export async function importExercisesAction(_previousState: ExerciseActionState,
     );
 
     revalidatePath("/admin/exercises");
-    return { success: `Đã import ${count} bài tập ở trạng thái Draft` };
+    return { success: `Imported ${count} exercises as Draft` };
   } catch (error) {
     return { error: getActionError(error) };
   }

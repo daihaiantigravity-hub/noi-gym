@@ -4,7 +4,7 @@ import { useSavedExercise } from "@/lib/exercises/use-saved-exercise";
 
 export default function ExerciseDetailSaveButton({ exerciseId, exerciseName }: { exerciseId: string; exerciseName: string }) {
   const { error, isLoading, isPending, isSaved, toggleSaved } = useSavedExercise(exerciseId);
-  const label = `${isSaved ? "Bỏ lưu bài tập" : "Lưu bài tập"} ${exerciseName}`;
+  const label = `${isSaved ? "Remove saved exercise" : "Save exercise"} ${exerciseName}`;
 
   return (
     <div className="exercise-detail-topbar__save-control">

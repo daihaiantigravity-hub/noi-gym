@@ -3,7 +3,7 @@ import "server-only";
 import { createSupabaseServerClient, isSupabaseConfigured } from "./supabase/server";
 
 export class AuthenticationRequiredError extends Error {
-  constructor(message = "Bạn cần đăng nhập để thực hiện thao tác này") {
+  constructor(message = "You need to sign in to perform this action") {
     super(message);
     this.name = "AuthenticationRequiredError";
   }
@@ -18,7 +18,7 @@ export async function getCurrentUser() {
 }
 
 export async function requireUser() {
-  if (!isSupabaseConfigured()) throw new AuthenticationRequiredError("Đăng nhập chưa được cấu hình");
+  if (!isSupabaseConfigured()) throw new AuthenticationRequiredError("Sign-in is not configured");
 
   const supabase = await createSupabaseServerClient();
   const { data, error } = await supabase.auth.getUser();

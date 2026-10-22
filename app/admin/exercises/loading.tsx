@@ -1,6 +1,6 @@
 export default function AdminExercisesLoading() {
   return (
-    <main className="admin-page" aria-busy="true" aria-label="Đang tải danh sách bài tập">
+    <main className="admin-page" aria-busy="true" aria-label="Loading exercise list">
       <div className="admin-loading-header">
         <div className="admin-skeleton admin-skeleton--eyebrow" />
         <div className="admin-skeleton admin-skeleton--title" />

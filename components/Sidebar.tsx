@@ -14,12 +14,12 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
-  { label: "Trang chủ", icon: "home", href: "/" },
-  { label: "Bài tập", icon: "workouts" },
-  { label: "Lịch tập", icon: "routines" },
-  { label: "Công cụ", icon: "tools" },
-  { label: "Bài viết", icon: "articles" },
-  { label: "Quản trị", icon: "build", href: "/admin/exercises" },
+  { label: "Home", icon: "home", href: "/" },
+  { label: "Workouts", icon: "workouts" },
+  { label: "Routines", icon: "routines" },
+  { label: "Tools", icon: "tools" },
+  { label: "Articles", icon: "articles" },
+  { label: "Build", icon: "build", href: "/admin/exercises" },
 ];
 
 function Icon({ name }: { name: IconName }) {
@@ -102,15 +102,15 @@ function MoonIcon() {
 export default function Sidebar() {
   const pathname = usePathname();
   const [theme, setTheme] = useState<Theme>("light");
-  const activeItem = pathname.startsWith("/admin") ? "Quản trị" : pathname.startsWith("/exercises") ? "Bài tập" : "Trang chủ";
+  const activeItem = pathname.startsWith("/admin") ? "Build" : pathname.startsWith("/exercises") ? "Workouts" : "Home";
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
   }, [theme]);
 
   return (
-    <aside className="sidebar" aria-label="Điều hướng bảng điều khiển">
-      <nav aria-label="Điều hướng chính">
+    <aside className="sidebar" aria-label="Dashboard navigation">
+      <nav aria-label="Main navigation">
         <ul className="sidebar__nav">
           {navigationItems.map((item) => {
             const isActive = item.label === activeItem;
@@ -134,11 +134,11 @@ export default function Sidebar() {
         </ul>
       </nav>
 
-      <div className="sidebar__theme" aria-label="Giao diện">
+      <div className="sidebar__theme" aria-label="Appearance">
         <button
           className={`sidebar__theme-button${theme === "light" ? " sidebar__theme-button--active" : ""}`}
           type="button"
-          aria-label="Dùng giao diện sáng"
+          aria-label="Use light theme"
           aria-pressed={theme === "light"}
           onClick={() => setTheme("light")}
         >
@@ -147,7 +147,7 @@ export default function Sidebar() {
         <button
           className={`sidebar__theme-button${theme === "dark" ? " sidebar__theme-button--active" : ""}`}
           type="button"
-          aria-label="Dùng giao diện tối"
+          aria-label="Use dark theme"
           aria-pressed={theme === "dark"}
           onClick={() => setTheme("dark")}
         >

@@ -18,28 +18,28 @@ export default function ExercisePagination({ page, pageSize, routePath, total }:
   if (totalPages <= 1) return null;
 
   return (
-    <nav aria-label="Phân trang bài tập" className="exercise-library-pagination">
+    <nav aria-label="Exercise pagination" className="exercise-library-pagination">
       <div className="exercise-library-pagination__pages">
         {page > 1 ? (
-          <Link aria-label="Trang trước" className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)} rel="prev" title="Trang trước"><Chevron direction="previous" /></Link>
+          <Link aria-label="Previous page" className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)} rel="prev" title="Previous page"><Chevron direction="previous" /></Link>
         ) : (
-          <button aria-label="Trang trước" className="exercise-library-pagination__link" disabled type="button"><Chevron direction="previous" /></button>
+          <button aria-label="Previous page" className="exercise-library-pagination__link" disabled type="button"><Chevron direction="previous" /></button>
         )}
         {([9, 7] as const).map((slots) => (
           <div className={`exercise-library-pagination__numbers exercise-library-pagination__numbers--${slots === 7 ? "compact" : "wide"}`} key={slots}>
             {getPaginationItems(page, totalPages, slots).map((item, index) => item === "ellipsis" ? (
               <span aria-hidden="true" className="exercise-library-pagination__ellipsis" key={`ellipsis-${index}`}>…</span>
             ) : item === page ? (
-              <span aria-current="page" aria-label={`Trang ${item}`} className="exercise-library-pagination__page exercise-library-pagination__page--active" key={item}>{item}</span>
+              <span aria-current="page" aria-label={`Page ${item}`} className="exercise-library-pagination__page exercise-library-pagination__page--active" key={item}>{item}</span>
             ) : (
-              <Link aria-label={`Trang ${item}`} className="exercise-library-pagination__page" href={getPageHref(routePath, item)} key={item}>{item}</Link>
+              <Link aria-label={`Page ${item}`} className="exercise-library-pagination__page" href={getPageHref(routePath, item)} key={item}>{item}</Link>
             ))}
           </div>
         ))}
         {page < totalPages ? (
-          <Link aria-label="Trang sau" className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)} rel="next" title="Trang sau"><Chevron direction="next" /></Link>
+          <Link aria-label="Next page" className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)} rel="next" title="Next page"><Chevron direction="next" /></Link>
         ) : (
-          <button aria-label="Trang sau" className="exercise-library-pagination__link" disabled type="button"><Chevron direction="next" /></button>
+          <button aria-label="Next page" className="exercise-library-pagination__link" disabled type="button"><Chevron direction="next" /></button>
         )}
       </div>
     </nav>

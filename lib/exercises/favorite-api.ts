@@ -37,12 +37,12 @@ export async function resolvePublishedExercise(supabase: SupabaseClient, exercis
   } else if (sourceMatch) {
     query = query.eq("source", "musclewiki").eq("source_id", Number(sourceMatch[1]));
   } else {
-    throw new Error("ID bài tập không hợp lệ");
+    throw new Error("Invalid exercise ID");
   }
 
   const { data, error } = await query.maybeSingle();
   if (error) throw new Error(error.message);
-  if (!data) throw new Error("Không tìm thấy bài tập đã xuất bản");
+  if (!data) throw new Error("Published exercise not found");
   return data as FavoriteExerciseKeyRow;
 }
 
@@ -51,12 +51,12 @@ export async function readExerciseKey(request: Request) {
   try {
     body = await request.json();
   } catch {
-    throw new Error("Dữ liệu yêu cầu không hợp lệ");
+    throw new Error("Invalid request data");
   }
 
   const exerciseId = body && typeof body === "object" && "exerciseId" in body
     ? String((body as { exerciseId?: unknown }).exerciseId ?? "").trim()
     : "";
-  if (!exerciseId) throw new Error("Thiếu ID bài tập");
+  if (!exerciseId) throw new Error("Exercise ID is required");
   return exerciseId;
 }

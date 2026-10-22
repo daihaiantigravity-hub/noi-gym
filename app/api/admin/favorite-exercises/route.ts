@@ -5,12 +5,12 @@ import { PUBLIC_EXERCISES_CACHE_TAG } from "@/lib/exercises/cache";
 import { exerciseKeys, favoriteKeys, readExerciseKey, resolvePublishedExercise, type FavoriteRelationRow } from "@/lib/exercises/favorite-api";
 
 function errorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Không thể cập nhật bài tập yêu thích";
-  const status = message.includes("quyền") || message.includes("Admin")
+  const message = error instanceof Error ? error.message : "Unable to update the favorite exercise";
+  const status = message.includes("permission") || message.includes("Admin")
     ? 401
-    : message.includes("không hợp lệ") || message.includes("Thiếu")
+    : message.includes("Invalid") || message.includes("required")
       ? 400
-      : message.includes("Không tìm thấy")
+      : message.includes("not found")
         ? 404
         : 500;
   return NextResponse.json({ error: message }, { status });

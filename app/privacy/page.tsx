@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Chính sách quyền riêng tư | Noi Gym",
-  description: "Cách Noi Gym sử dụng dữ liệu đăng nhập Google và danh sách bài tập đã lưu.",
+  title: "Privacy Policy | Noi Gym",
+  description: "How Noi Gym uses Google sign-in data and saved exercise information.",
 };
 
 export default function PrivacyPage() {
@@ -10,54 +10,54 @@ export default function PrivacyPage() {
     <main className="legal-page">
       <article className="legal-card">
         <Link className="legal-back-link" href="/">
-          ← Về Noi Gym
+          ← Back to Noi Gym
         </Link>
         <p className="legal-eyebrow">NOI GYM</p>
-        <h1>Chính sách quyền riêng tư</h1>
-        <p className="legal-updated">Cập nhật ngày 22 tháng 10 năm 2026</p>
+        <h1>Privacy Policy</h1>
+        <p className="legal-updated">Updated October 22, 2026</p>
 
         <section>
-          <h2>Dữ liệu được sử dụng</h2>
+          <h2>Data we use</h2>
           <p>
-            Khi bạn đăng nhập bằng Google, Noi Gym nhận mã định danh tài khoản, tên, địa chỉ email và
-            ảnh đại diện công khai để tạo phiên đăng nhập và hiển thị hồ sơ của bạn.
+            When you sign in with Google, Noi Gym receives your account identifier, name, email address, and
+            public profile image to create your session and display your profile.
           </p>
         </section>
 
         <section>
-          <h2>Bài tập đã lưu</h2>
+          <h2>Saved exercises</h2>
           <p>
-            Danh sách bài tập yêu thích được gắn với tài khoản của bạn. Noi Gym dùng tổng số lượt lưu để
-            ưu tiên những bài tập được cộng đồng quan tâm; danh tính và email của người lưu không được công
-            khai trong số liệu tổng hợp.
+            Your favorite exercises are linked to your account. Noi Gym uses aggregate save counts to prioritize
+            exercises that interest the community. Individual identities and email addresses are not published in
+            these aggregate statistics.
           </p>
         </section>
 
         <section>
-          <h2>Lưu trữ và bảo vệ dữ liệu</h2>
+          <h2>Data storage and protection</h2>
           <p>
-            Google cung cấp dịch vụ xác thực và Supabase lưu phiên đăng nhập cùng dữ liệu yêu thích. Noi Gym
-            chỉ yêu cầu các quyền Google cơ bản gồm nhận dạng tài khoản, email và hồ sơ công khai.
+            Google provides authentication, while Supabase stores sign-in sessions and favorite exercise data.
+            Noi Gym requests only basic Google permissions for account identity, email, and public profile data.
           </p>
         </section>
 
         <section>
-          <h2>Quyền lựa chọn của bạn</h2>
+          <h2>Your choices</h2>
           <p>
-            Bạn có thể bỏ lưu từng bài tập và đăng xuất bất kỳ lúc nào. Để yêu cầu hỗ trợ liên quan đến dữ
-            liệu tài khoản, hãy liên hệ qua email bên dưới.
+            You can remove saved exercises and sign out at any time. For support related to account data, contact
+            us at the email address below.
           </p>
         </section>
 
         <section>
-          <h2>Liên hệ</h2>
+          <h2>Contact</h2>
           <p>
             Email: <a href="mailto:daihai.antigravity@gmail.com">daihai.antigravity@gmail.com</a>
           </p>
         </section>
 
         <footer className="legal-footer">
-          <Link href="/terms">Điều khoản sử dụng</Link>
+          <Link href="/terms">Terms of Use</Link>
         </footer>
       </article>
     </main>

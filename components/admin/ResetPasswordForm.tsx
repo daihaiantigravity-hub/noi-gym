@@ -11,16 +11,16 @@ export default function ResetPasswordForm() {
   return (
     <form action={formAction} className="admin-login-form">
       <label>
-        Mật khẩu mới
+        New password
         <input autoComplete="new-password" minLength={12} name="password" required type="password" />
       </label>
       <label>
-        Nhập lại mật khẩu mới
+        Confirm new password
         <input autoComplete="new-password" minLength={12} name="passwordConfirmation" required type="password" />
       </label>
       {state.error && <p className="admin-form-error" role="alert">{state.error}</p>}
       <button className="admin-button admin-button--primary admin-button--full" disabled={pending} type="submit">
-        {pending ? "Đang cập nhật…" : "Đặt mật khẩu mới"}
+        {pending ? "Updating…" : "Set new password"}
       </button>
     </form>
   );

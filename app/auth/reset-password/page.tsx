@@ -14,10 +14,10 @@ export default async function ResetPasswordPage() {
     <main className="admin-login-page">
       <section className="admin-login-card">
         <span className="admin-eyebrow">NOI GYM · ADMIN</span>
-        <h1>Đặt mật khẩu mới</h1>
-        <p className="admin-muted">Mật khẩu nên dài ít nhất 12 ký tự và chỉ sử dụng cho tài khoản này.</p>
+        <h1>Set a new password</h1>
+        <p className="admin-muted">Use a password with at least 12 characters that is unique to this account.</p>
         <ResetPasswordForm />
-        <Link className="admin-text-link" href="/auth/login">← Quay lại đăng nhập</Link>
+        <Link className="admin-text-link" href="/auth/login">← Back to sign in</Link>
       </section>
     </main>
   );

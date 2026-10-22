@@ -11,13 +11,13 @@ export default function ForgotPasswordForm() {
   return (
     <form action={formAction} className="admin-login-form">
       <label>
-        Email quản trị
+        Administrator email
         <input autoComplete="email" defaultValue="daihai.antigravity@gmail.com" name="email" required type="email" />
       </label>
       {state.error && <p className="admin-form-error" role="alert">{state.error}</p>}
       {state.success && <p className="admin-form-success" role="status">{state.success}</p>}
       <button className="admin-button admin-button--primary admin-button--full" disabled={pending} type="submit">
-        {pending ? "Đang gửi…" : "Gửi email khôi phục"}
+        {pending ? "Sending…" : "Send reset email"}
       </button>
     </form>
   );

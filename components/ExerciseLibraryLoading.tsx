@@ -4,7 +4,7 @@ const loadingCards = ["first", "second", "third"];
 
 export default function ExerciseLibraryLoading() {
   return (
-    <main aria-busy="true" aria-label="Đang tải danh sách bài tập" className="exercise-library-page exercise-library-loading health-mood-surface">
+    <main aria-busy="true" aria-label="Loading exercise list" className="exercise-library-page exercise-library-loading health-mood-surface">
       <header aria-hidden="true" className="exercise-library-header">
         <div className="exercise-library-loading__back" />
         <div className="exercise-library-loading__title" />
@@ -21,7 +21,7 @@ export default function ExerciseLibraryLoading() {
           ))}
         </div>
       </section>
-      <p className="exercise-library-loading__status" role="status">Đang tải bài tập…</p>
+      <p className="exercise-library-loading__status" role="status">Loading exercises…</p>
     </main>
   );
 }

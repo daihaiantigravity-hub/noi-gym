@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Điều khoản sử dụng | Noi Gym",
-  description: "Điều khoản áp dụng khi sử dụng thư viện bài tập Noi Gym.",
+  title: "Terms of Use | Noi Gym",
+  description: "Terms that apply when using the Noi Gym exercise library.",
 };
 
 export default function TermsPage() {
@@ -10,53 +10,53 @@ export default function TermsPage() {
     <main className="legal-page">
       <article className="legal-card">
         <Link className="legal-back-link" href="/">
-          ← Về Noi Gym
+          ← Back to Noi Gym
         </Link>
         <p className="legal-eyebrow">NOI GYM</p>
-        <h1>Điều khoản sử dụng</h1>
-        <p className="legal-updated">Cập nhật ngày 22 tháng 10 năm 2026</p>
+        <h1>Terms of Use</h1>
+        <p className="legal-updated">Updated October 22, 2026</p>
 
         <section>
-          <h2>Mục đích của Noi Gym</h2>
+          <h2>Purpose of Noi Gym</h2>
           <p>
-            Noi Gym cung cấp thư viện bài tập để tham khảo, tìm kiếm và lưu lại nội dung phù hợp với nhu cầu
-            cá nhân. Nội dung trên trang không thay thế tư vấn y tế hoặc hướng dẫn trực tiếp của chuyên gia.
+            Noi Gym provides an exercise library for browsing, searching, and saving content that fits your needs.
+            Content on this site does not replace medical advice or direct guidance from a qualified professional.
           </p>
         </section>
 
         <section>
-          <h2>Sử dụng an toàn</h2>
+          <h2>Safe use</h2>
           <p>
-            Bạn chịu trách nhiệm lựa chọn mức độ tập luyện phù hợp với sức khỏe và khả năng của mình. Hãy
-            dừng tập và tìm tư vấn chuyên môn khi có đau, chóng mặt hoặc dấu hiệu bất thường.
+            You are responsible for choosing exercise intensity that suits your health and ability. Stop exercising
+            and seek professional advice if you experience pain, dizziness, or other unusual symptoms.
           </p>
         </section>
 
         <section>
-          <h2>Tài khoản và bài tập yêu thích</h2>
+          <h2>Accounts and favorite exercises</h2>
           <p>
-            Bạn có thể đăng nhập bằng Google để lưu bài tập. Bạn chịu trách nhiệm bảo vệ quyền truy cập tài
-            khoản Google của mình và không sử dụng dịch vụ theo cách gây gián đoạn hoặc xâm phạm người khác.
+            You can sign in with Google to save exercises. You are responsible for protecting access to your Google
+            account and for using the service without disrupting or harming others.
           </p>
         </section>
 
         <section>
-          <h2>Thay đổi dịch vụ</h2>
+          <h2>Service changes</h2>
           <p>
-            Nội dung, tính năng và các điều khoản này có thể được cập nhật để cải thiện dịch vụ hoặc đáp ứng
-            yêu cầu vận hành. Ngày cập nhật gần nhất luôn được ghi ở đầu trang.
+            Content, features, and these terms may be updated to improve the service or meet operational needs. The
+            most recent update date is always shown at the top of this page.
           </p>
         </section>
 
         <section>
-          <h2>Liên hệ</h2>
+          <h2>Contact</h2>
           <p>
             Email: <a href="mailto:daihai.antigravity@gmail.com">daihai.antigravity@gmail.com</a>
           </p>
         </section>
 
         <footer className="legal-footer">
-          <Link href="/privacy">Chính sách quyền riêng tư</Link>
+          <Link href="/privacy">Privacy Policy</Link>
         </footer>
       </article>
     </main>

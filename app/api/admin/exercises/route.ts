@@ -5,8 +5,8 @@ import { getExerciseStats, listExercises, createExercise } from "@/lib/exercises
 import { parseExercisePayload } from "@/lib/exercises/validation";
 
 function errorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Request không hợp lệ";
-  const status = message.includes("quyền") || message.includes("Admin") ? 401 : 500;
+  const message = error instanceof Error ? error.message : "Invalid request";
+  const status = message.includes("permission") || message.includes("Admin") ? 401 : 500;
   return NextResponse.json({ error: message }, { status });
 }
 

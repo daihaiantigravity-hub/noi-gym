@@ -12,18 +12,18 @@ export default function LoginForm() {
   return (
     <form className="admin-login-form" action={formAction}>
       <label>
-        Email admin
+        Admin email
         <input autoComplete="email" name="email" required type="email" defaultValue="daihai.antigravity@gmail.com" />
       </label>
       <label>
-        Mật khẩu
+        Password
         <input autoComplete="current-password" name="password" required type="password" />
       </label>
       {state.error ? <p className="admin-form-error" role="alert">{state.error}</p> : null}
       <button className="admin-button admin-button--primary admin-button--full" disabled={pending} type="submit">
-        {pending ? "Đang đăng nhập…" : "Đăng nhập"}
+        {pending ? "Signing in…" : "Sign in"}
       </button>
-      <Link className="admin-text-link admin-login-form__recovery" href="/auth/forgot-password">Quên mật khẩu?</Link>
+      <Link className="admin-text-link admin-login-form__recovery" href="/auth/forgot-password">Forgot password?</Link>
     </form>
   );
 }

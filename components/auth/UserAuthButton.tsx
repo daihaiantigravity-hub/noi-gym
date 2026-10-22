@@ -45,19 +45,19 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
 
     void fetch("/api/auth/session", { cache: "no-store", credentials: "same-origin", signal: controller.signal })
       .then(async (response) => {
-        if (!response.ok) throw new Error("Không thể kiểm tra trạng thái đăng nhập.");
+        if (!response.ok) throw new Error("Unable to check your sign-in status.");
         return response.json() as Promise<SessionResponse>;
       })
       .then(setSession)
       .catch((requestError: unknown) => {
         if (requestError instanceof DOMException && requestError.name === "AbortError") return;
-        setError(requestError instanceof Error ? requestError.message : "Không thể kiểm tra trạng thái đăng nhập.");
+        setError(requestError instanceof Error ? requestError.message : "Unable to check your sign-in status.");
       })
       .finally(() => setLoading(false));
 
     const authReason = new URL(window.location.href).searchParams.get("auth");
     const authErrorTimer = authReason
-      ? window.setTimeout(() => setError("Không thể đăng nhập bằng Google. Vui lòng thử lại."), 0)
+      ? window.setTimeout(() => setError("Unable to sign in with Google. Please try again."), 0)
       : undefined;
 
     return () => {
@@ -99,13 +99,13 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
 
     try {
       const response = await fetch("/api/auth/session", { method: "DELETE", credentials: "same-origin" });
-      if (!response.ok) throw new Error("Không thể đăng xuất. Vui lòng thử lại.");
+      if (!response.ok) throw new Error("Unable to sign out. Please try again.");
       resetSavedExercises();
       setSession({ user: null, isAdmin: false });
       setMenuOpen(false);
       router.refresh();
     } catch (requestError) {
-      setError(requestError instanceof Error ? requestError.message : "Không thể đăng xuất. Vui lòng thử lại.");
+      setError(requestError instanceof Error ? requestError.message : "Unable to sign out. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -116,11 +116,11 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       <div className="health-user-auth" ref={rootRef}>
         <button
           aria-busy={loading}
-          aria-label="Đăng nhập bằng Google"
+          aria-label="Sign in with Google"
           className="health-avatar health-avatar--login"
           disabled={loading}
           onClick={signIn}
-          title="Đăng nhập bằng Google"
+          title="Sign in with Google"
           type="button"
         >
           <LoginIcon />
@@ -137,7 +137,7 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       <button
         aria-expanded={menuOpen}
         aria-haspopup="menu"
-        aria-label={`Mở menu tài khoản ${session.user.name}`}
+        aria-label={`Open account menu for ${session.user.name}`}
         className="health-avatar health-avatar--profile"
         onClick={() => setMenuOpen((open) => !open)}
         type="button"
@@ -152,14 +152,14 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       </button>
 
       {menuOpen ? (
-        <div aria-label="Tài khoản" className="health-user-menu" role="menu">
+        <div aria-label="Account" className="health-user-menu" role="menu">
           <div className="health-user-menu__identity">
             <strong>{session.user.name}</strong>
             <span>{session.user.email}</span>
           </div>
-          <Link className="health-user-menu__item" href="/favorites" onClick={() => setMenuOpen(false)} role="menuitem">Bài tập đã lưu</Link>
-          {session.isAdmin ? <Link className="health-user-menu__item" href="/admin/exercises" onClick={() => setMenuOpen(false)} role="menuitem">Quản trị</Link> : null}
-          <button className="health-user-menu__item health-user-menu__item--button" disabled={loading} onClick={signOut} role="menuitem" type="button">Đăng xuất</button>
+          <Link className="health-user-menu__item" href="/favorites" onClick={() => setMenuOpen(false)} role="menuitem">Saved exercises</Link>
+          {session.isAdmin ? <Link className="health-user-menu__item" href="/admin/exercises" onClick={() => setMenuOpen(false)} role="menuitem">Admin</Link> : null}
+          <button className="health-user-menu__item health-user-menu__item--button" disabled={loading} onClick={signOut} role="menuitem" type="button">Sign out</button>
         </div>
       ) : null}
       {error ? <span className="health-user-auth__error" role="alert">{error}</span> : null}

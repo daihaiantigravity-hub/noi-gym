@@ -17,7 +17,7 @@ export async function GET() {
     ? metadata.full_name
     : typeof metadata.name === "string"
       ? metadata.name
-      : user.email?.split("@")[0] ?? "Người dùng";
+      : user.email?.split("@")[0] ?? "User";
   const avatarUrl = typeof metadata.avatar_url === "string"
     ? metadata.avatar_url
     : typeof metadata.picture === "string"

@@ -5,7 +5,6 @@ import Link from "next/link";
 import ExerciseFilters, { type EquipmentName } from "./ExerciseFilters";
 import MuscleMap from "./MuscleMap";
 import type { MuscleWikiExercise } from "@/lib/musclewiki";
-import { getDifficultyLabel, getMuscleLabel } from "@/lib/exercises/labels";
 
 type Exercise = {
   id: number;
@@ -15,10 +14,25 @@ type Exercise = {
   steps: string[];
 };
 
+const muscleNameBySlug: Record<string, string> = {
+  abdominals: "Abdominals",
+  calves: "Calves",
+  chest: "Chest",
+  glutes: "Glutes",
+  hamstrings: "Hamstrings",
+  lats: "Lats",
+  lowerback: "Lower back",
+  obliques: "Obliques",
+  quads: "Quads",
+  shoulders: "Shoulders",
+  traps: "Traps",
+  triceps: "Triceps",
+};
+
 const collectedExercises: MuscleWikiExercise[] = [];
 
 function formatMuscleName(muscle: string) {
-  return getMuscleLabel(muscle);
+  return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 }
 
 function normalizeDifficulty(difficulty: string | undefined): Exercise["level"] {
@@ -60,14 +74,14 @@ function ExerciseCard({ exercise, index }: { exercise: Exercise; index: number }
     <article className="exercise-card">
       <header className="exercise-card__header">
         <h2>{exercise.title}</h2>
-        <button className="exercise-card__share" type="button" aria-label={`Chia sẻ ${exercise.title}`}>
+        <button className="exercise-card__share" type="button" aria-label={`Share ${exercise.title}`}>
           <ShareIcon />
         </button>
       </header>
 
-      <div className="exercise-card__media" aria-label={`Ảnh minh họa ${exercise.title}`}>
+      <div className="exercise-card__media" aria-label={`${exercise.title} demonstration images`}>
         <span className={`exercise-card__level exercise-card__level--${exercise.level.toLowerCase()}`}>
-          {getDifficultyLabel(exercise.level)}
+          {exercise.level}
         </span>
         {exercise.images.map((image, imageIndex) =>
           image ? (
@@ -75,7 +89,7 @@ function ExerciseCard({ exercise, index }: { exercise: Exercise; index: number }
               className="exercise-card__image"
               key={`${exercise.id}-${imageIndex}`}
               role="img"
-              aria-label={`${exercise.title}, góc nhìn ${imageIndex + 1}`}
+              aria-label={`${exercise.title} view ${imageIndex + 1}`}
               style={{ backgroundImage: `url("${image}")` }}
             />
           ) : (
@@ -83,7 +97,7 @@ function ExerciseCard({ exercise, index }: { exercise: Exercise; index: number }
               className="exercise-card__image exercise-card__image--empty"
               key={`${exercise.id}-${imageIndex}`}
               role="img"
-              aria-label={`${exercise.title}, chưa có góc nhìn ${imageIndex + 1}`}
+              aria-label={`${exercise.title} view ${imageIndex + 1} unavailable`}
             />
           ),
         )}
@@ -99,7 +113,7 @@ function ExerciseCard({ exercise, index }: { exercise: Exercise; index: number }
           ))}
         </ol>
       ) : (
-        <p className="exercise-card__steps-empty">Chưa có hướng dẫn cho bài tập này.</p>
+        <p className="exercise-card__steps-empty">Instructions are not available for this exercise.</p>
       )}
 
       <span className="exercise-card__index" aria-hidden="true">
@@ -121,7 +135,7 @@ export default function ExerciseListPage({ muscle }: { muscle: string }) {
     .map((exercise) => mapLocalExercise(exercise, isMale));
 
   return (
-    <main className="exercise-list-page" aria-label={`Bài tập ${muscleName}`}>
+    <main className="exercise-list-page" aria-label={`${muscleName} exercises`}>
       <div className="exercise-list-layout">
         <section className="exercise-list-results" aria-labelledby="exercise-list-title">
           <header className="exercise-list-toolbar">
@@ -129,14 +143,14 @@ export default function ExerciseListPage({ muscle }: { muscle: string }) {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m15 18-6-6 6-6" />
               </svg>
-              <span>Bản đồ cơ thể</span>
+              <span>Muscle map</span>
             </Link>
             <div className="exercise-list-toolbar__title">
-              <span>Thư viện bài tập</span>
+              <span>Exercise library</span>
               <h1 id="exercise-list-title">{muscleName}</h1>
             </div>
             <span className="exercise-list-toolbar__count">
-              {exercises.length} bài tập
+              {exercises.length} {exercises.length === 1 ? "exercise" : "exercises"}
             </span>
           </header>
 
@@ -148,12 +162,12 @@ export default function ExerciseListPage({ muscle }: { muscle: string }) {
             </div>
           ) : (
             <p className="exercise-list-empty" role="status">
-              Chưa có bài tập phù hợp với nhóm cơ và dụng cụ đã chọn.
+              No collected exercises match this muscle and equipment filter yet.
             </p>
           )}
         </section>
 
-        <aside className="exercise-list-sidebar" aria-label="Bộ lọc bài tập và bản đồ cơ thể">
+        <aside className="exercise-list-sidebar" aria-label="Exercise filters and muscle map">
           <ExerciseFilters
             isMale={isMale}
             onGenderChange={setIsMale}

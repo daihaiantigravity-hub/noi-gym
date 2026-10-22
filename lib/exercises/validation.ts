@@ -11,7 +11,7 @@ const httpUrl = z.string().refine((value) => {
   } catch {
     return false;
   }
-}, "URL phải bắt đầu bằng http:// hoặc https://");
+}, "URL must start with http:// or https://");
 
 const mediaSchema = z.object({
   gender: z.enum(EXERCISE_GENDERS),
@@ -28,8 +28,8 @@ export const exerciseInputSchema = z
     id: z.string().uuid().nullable().optional(),
     source: z.enum(EXERCISE_SOURCES),
     sourceId: z.number().int().positive().nullable(),
-    name: z.string().trim().min(2, "Tên bài tập phải có ít nhất 2 ký tự").max(160),
-    slug: z.string().trim().min(2, "Slug không được để trống").max(180).regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Slug chỉ gồm chữ thường, số và dấu gạch ngang"),
+    name: z.string().trim().min(2, "Exercise name must contain at least 2 characters").max(160),
+    slug: z.string().trim().min(2, "Slug cannot be empty").max(180).regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Slug may contain only lowercase letters, numbers, and hyphens"),
     description: z.string().trim().max(2000),
     primaryMuscles: z.array(z.string().trim().min(1)).default([]),
     category: z.enum(EXERCISE_CATEGORIES).or(z.literal("")),
@@ -44,7 +44,7 @@ export const exerciseInputSchema = z
   })
   .superRefine((value, context) => {
     if (value.source === "musclewiki" && !value.sourceId) {
-      context.addIssue({ code: "custom", path: ["sourceId"], message: "Bài tập MuscleWiki cần source ID" });
+      context.addIssue({ code: "custom", path: ["sourceId"], message: "MuscleWiki exercises require a source ID" });
     }
 
     const jointOnlyMuscleWiki = value.source === "musclewiki"
@@ -53,20 +53,20 @@ export const exerciseInputSchema = z
       && Array.isArray(value.sourceSnapshot?.listed_in)
       && value.sourceSnapshot.listed_in.length === 0;
     if (value.status === "Published" && value.primaryMuscles.length === 0 && !jointOnlyMuscleWiki) {
-      context.addIssue({ code: "custom", path: ["primaryMuscles"], message: "Bài tập publish cần ít nhất một nhóm cơ" });
+      context.addIssue({ code: "custom", path: ["primaryMuscles"], message: "Published exercises require at least one muscle group" });
     }
 
     if (value.status === "Published" && !value.category) {
-      context.addIssue({ code: "custom", path: ["category"], message: "Bài tập publish cần chọn equipment" });
+      context.addIssue({ code: "custom", path: ["category"], message: "Published exercises require equipment" });
     }
 
     if (value.status === "Published" && !value.difficulty) {
-      context.addIssue({ code: "custom", path: ["difficulty"], message: "Bài tập publish cần chọn độ khó" });
+      context.addIssue({ code: "custom", path: ["difficulty"], message: "Published exercises require a difficulty level" });
     }
 
     const steps = value.steps.filter(Boolean);
     if (value.status === "Published" && steps.length === 0) {
-      context.addIssue({ code: "custom", path: ["steps"], message: "Bài tập publish cần ít nhất một bước hướng dẫn" });
+      context.addIssue({ code: "custom", path: ["steps"], message: "Published exercises require at least one instruction step" });
     }
   });
 
@@ -78,13 +78,13 @@ export function parseExercisePayload(payload: string) {
   try {
     parsed = JSON.parse(payload);
   } catch {
-    return { success: false as const, error: "Dữ liệu form không hợp lệ" };
+    return { success: false as const, error: "Invalid form data" };
   }
 
   const result = exerciseInputSchema.safeParse(parsed);
   if (!result.success) {
     const firstIssue = result.error.issues[0];
-    return { success: false as const, error: firstIssue?.message ?? "Dữ liệu bài tập không hợp lệ" };
+    return { success: false as const, error: firstIssue?.message ?? "Invalid exercise data" };
   }
 
   return { success: true as const, data: result.data };

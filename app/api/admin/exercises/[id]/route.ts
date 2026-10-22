@@ -5,8 +5,8 @@ import { deleteExercise, getExercise, updateExercise } from "@/lib/exercises/rep
 import { parseExercisePayload } from "@/lib/exercises/validation";
 
 function errorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Request không hợp lệ";
-  const status = message.includes("quyền") || message.includes("Admin") ? 401 : 500;
+  const message = error instanceof Error ? error.message : "Invalid request";
+  const status = message.includes("permission") || message.includes("Admin") ? 401 : 500;
   return NextResponse.json({ error: message }, { status });
 }
 
@@ -15,7 +15,7 @@ export async function GET(_request: Request, context: RouteContext<"/api/admin/e
     await requireAdmin();
     const { id } = await context.params;
     const exercise = await getExercise(id);
-    return exercise ? NextResponse.json(exercise) : NextResponse.json({ error: "Không tìm thấy bài tập" }, { status: 404 });
+    return exercise ? NextResponse.json(exercise) : NextResponse.json({ error: "Exercise not found" }, { status: 404 });
   } catch (error) {
     return errorResponse(error);
   }
@@ -27,10 +27,10 @@ export async function PATCH(request: Request, context: RouteContext<"/api/admin/
     const { id } = await context.params;
     const parsed = parseExercisePayload(JSON.stringify(await request.json()));
     if (!parsed.success) return NextResponse.json({ error: parsed.error }, { status: 400 });
-    if (parsed.data.id && parsed.data.id !== id) return NextResponse.json({ error: "ID trong body không khớp URL" }, { status: 400 });
+    if (parsed.data.id && parsed.data.id !== id) return NextResponse.json({ error: "The ID in the request body does not match the URL" }, { status: 400 });
 
     const exercise = await updateExercise(id, parsed.data);
-    if (!exercise) return NextResponse.json({ error: "Không tìm thấy bài tập" }, { status: 404 });
+    if (!exercise) return NextResponse.json({ error: "Exercise not found" }, { status: 404 });
     revalidatePath("/admin/exercises");
     return NextResponse.json(exercise);
   } catch (error) {

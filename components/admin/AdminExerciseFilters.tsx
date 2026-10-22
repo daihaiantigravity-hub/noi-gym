@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { EXERCISE_MUSCLES, EXERCISE_STATUSES, VISIBLE_EXERCISE_CATEGORIES } from "@/lib/exercises/constants";
-import { getEquipmentLabel, getMuscleLabel, getStatusLabel } from "@/lib/exercises/labels";
 
 type Props = {
   query: string;
@@ -57,11 +56,11 @@ export default function AdminExerciseFilters({ query, category, muscle, status, 
       <label className="admin-search-field"><span aria-hidden="true">⌕</span><input defaultValue={query} name="q" onInput={() => {
         if (searchTimer.current) clearTimeout(searchTimer.current);
         searchTimer.current = setTimeout(applyFilters, 350);
-      }} placeholder="Tìm theo tên bài tập…" ref={searchRef} type="search" /></label>
-      <select aria-label="Dụng cụ" defaultValue={category} name="category"><option value="">Tất cả dụng cụ</option>{category && !VISIBLE_EXERCISE_CATEGORIES.some((item) => item === category) ? <option hidden value={category}>{getEquipmentLabel(category)}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((item) => <option key={item} value={item}>{getEquipmentLabel(item)}</option>)}</select>
-      <select aria-label="Nhóm cơ" defaultValue={muscle} name="muscle"><option value="">Tất cả nhóm cơ</option>{EXERCISE_MUSCLES.map((item) => <option key={item} value={item}>{getMuscleLabel(item)}</option>)}</select>
-      <select aria-label="Trạng thái" defaultValue={status} name="status"><option value="">Tất cả trạng thái</option>{EXERCISE_STATUSES.map((item) => <option key={item} value={item}>{getStatusLabel(item)}</option>)}</select>
-      <select aria-label="Giới tính video" defaultValue={gender} name="gender"><option value="">Cả nam và nữ</option><option value="male">Có video nam</option><option value="female">Có video nữ</option></select>
+      }} placeholder="Search by exercise name…" ref={searchRef} type="search" /></label>
+      <select aria-label="Equipment" defaultValue={category} name="category"><option value="">All equipment</option>{category && !VISIBLE_EXERCISE_CATEGORIES.some((item) => item === category) ? <option hidden value={category}>{category}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
+      <select aria-label="Muscle group" defaultValue={muscle} name="muscle"><option value="">All muscle groups</option>{EXERCISE_MUSCLES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
+      <select aria-label="Status" defaultValue={status} name="status"><option value="">All statuses</option>{EXERCISE_STATUSES.map((item) => <option key={item} value={item}>{item}</option>)}</select>
+      <select aria-label="Video gender" defaultValue={gender} name="gender"><option value="">Male and female</option><option value="male">Has male video</option><option value="female">Has female video</option></select>
       <input name="source" type="hidden" value={source} />
       <input name="pageSize" type="hidden" value={pageSize} />
     </form>

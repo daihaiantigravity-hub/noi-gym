@@ -13,11 +13,11 @@ import { createR2ExerciseMediaUpload, isR2Configured } from "@/lib/storage/r2";
 
 export const runtime = "nodejs";
 
-const storageConfigError = "Upload video chưa được bật. Hãy cấu hình Supabase và chạy migration Storage mới.";
+const storageConfigError = "Video uploads are not enabled. Configure Supabase and run the latest Storage migration.";
 
 function errorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Không thể tạo phiên upload video";
-  const status = message.includes("quyền") ? 403 : 500;
+  const message = error instanceof Error ? error.message : "Unable to create a video upload session";
+  const status = message.includes("permission") ? 403 : 500;
   return NextResponse.json({ error: message }, { status });
 }
 
@@ -39,13 +39,13 @@ export async function POST(request: Request) {
     const duration = typeof payload.duration === "number" ? payload.duration : Number(payload.duration);
 
     if (!isExerciseVideoType(type)) {
-      return NextResponse.json({ error: "Chỉ hỗ trợ video MP4, WebM hoặc MOV." }, { status: 400 });
+      return NextResponse.json({ error: "Only MP4, WebM, or MOV videos are supported." }, { status: 400 });
     }
     if (!Number.isFinite(size) || size <= 0 || size > MAX_EXERCISE_VIDEO_SIZE) {
-      return NextResponse.json({ error: "Video không được vượt quá 25MB." }, { status: 400 });
+      return NextResponse.json({ error: "Videos cannot exceed 25 MB." }, { status: 400 });
     }
     if (!Number.isFinite(duration) || duration <= 0 || duration > MAX_EXERCISE_VIDEO_DURATION_SECONDS) {
-      return NextResponse.json({ error: "Video phải dài hơn 0 và tối đa 15 giây." }, { status: 400 });
+      return NextResponse.json({ error: "Videos must be longer than 0 seconds and no longer than 15 seconds." }, { status: 400 });
     }
 
     const storagePath = `exercises/${crypto.randomUUID()}.${exerciseVideoExtension(type)}`;
@@ -67,7 +67,7 @@ export async function POST(request: Request) {
     const supabase = createSupabaseAdminClient();
     const { data, error } = await supabase.storage.from(EXERCISE_MEDIA_BUCKET).createSignedUploadUrl(storagePath);
 
-    if (error || !data) throw new Error(error?.message || "Không thể tạo signed upload URL");
+    if (error || !data) throw new Error(error?.message || "Unable to create a signed upload URL");
 
     const { data: publicUrl } = supabase.storage.from(EXERCISE_MEDIA_BUCKET).getPublicUrl(storagePath);
     return NextResponse.json({

@@ -53,7 +53,7 @@ export async function createR2ExerciseMediaUpload({
 }) {
   const config = getR2Config();
   if (!config || !process.env.R2_PUBLIC_BASE_URL?.trim()) {
-    throw new Error("Cloudflare R2 chưa được cấu hình đầy đủ");
+    throw new Error("Cloudflare R2 is not fully configured");
   }
 
   const cacheControl = "public, max-age=31536000, immutable";

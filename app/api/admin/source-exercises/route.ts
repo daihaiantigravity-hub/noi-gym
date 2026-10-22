@@ -10,9 +10,9 @@ export async function GET(request: Request) {
 
   const sourceId = Number(new URL(request.url).searchParams.get("sourceId"));
   if (!Number.isInteger(sourceId) || sourceId <= 0) {
-    return NextResponse.json({ error: "Source ID không hợp lệ" }, { status: 400 });
+    return NextResponse.json({ error: "Invalid source ID" }, { status: 400 });
   }
 
   const exercise = getSourceExerciseById(sourceId);
-  return exercise ? NextResponse.json(exercise) : NextResponse.json({ error: "Không tìm thấy bài tập nguồn" }, { status: 404 });
+  return exercise ? NextResponse.json(exercise) : NextResponse.json({ error: "Source exercise not found" }, { status: 404 });
 }

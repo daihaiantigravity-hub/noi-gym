@@ -225,10 +225,10 @@ function toDatabaseRow(input: ValidatedExerciseInput) {
 
 function throwDatabaseError(error: { message?: string; code?: string }) {
   if (error.code === "23505") {
-    throw new Error("Tên slug hoặc source ID đã tồn tại");
+    throw new Error("This slug or source ID already exists");
   }
 
-  throw new Error(error.message || "Không thể lưu bài tập");
+  throw new Error(error.message || "Unable to save the exercise");
 }
 
 export async function listExercises(filters: ExerciseListFilters = {}) {

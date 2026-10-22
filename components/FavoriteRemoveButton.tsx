@@ -23,12 +23,12 @@ export default function FavoriteRemoveButton({ exerciseId, exerciseName }: { exe
       });
       if (!response.ok) {
         const body = await response.json().catch(() => null) as { error?: string } | null;
-        throw new Error(body?.error || "Không thể bỏ lưu bài tập.");
+        throw new Error(body?.error || "Unable to remove the saved exercise.");
       }
       resetSavedExercises();
       router.refresh();
     } catch (requestError) {
-      setError(requestError instanceof Error ? requestError.message : "Không thể cập nhật danh sách yêu thích.");
+      setError(requestError instanceof Error ? requestError.message : "Unable to update your saved exercises.");
     } finally {
       setPending(false);
     }
@@ -36,11 +36,11 @@ export default function FavoriteRemoveButton({ exerciseId, exerciseName }: { exe
 
   return (
     <div className="favorite-card__remove-control">
-      <button aria-label={`Bỏ lưu ${exerciseName}`} disabled={pending} onClick={remove} type="button">
+      <button aria-label={`Remove ${exerciseName} from saved exercises`} disabled={pending} onClick={remove} type="button">
         <svg aria-hidden="true" fill="currentColor" height="21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" viewBox="0 0 24 24" width="21">
           <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1.55.83L12 17.2l-5.45 3.63A1 1 0 0 1 5 20V4a1 1 0 0 1 1-1Z" />
         </svg>
-        <span>{pending ? "Đang bỏ lưu…" : "Bỏ lưu"}</span>
+        <span>{pending ? "Removing…" : "Remove"}</span>
       </button>
       {error ? <small role="alert">{error}</small> : null}
     </div>

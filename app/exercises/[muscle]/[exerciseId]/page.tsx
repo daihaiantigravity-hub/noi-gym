@@ -10,10 +10,24 @@ import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, getExerciseCategoryBySlug, getJointTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
 import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercise, PublicExercisePage } from "@/lib/exercises/types";
-import { getMuscleLabel } from "@/lib/exercises/labels";
+
+const muscleNameBySlug: Record<string, string> = {
+  abdominals: "Abdominals",
+  calves: "Calves",
+  chest: "Chest",
+  glutes: "Glutes",
+  hamstrings: "Hamstrings",
+  lats: "Lats",
+  lowerback: "Lower back",
+  obliques: "Obliques",
+  quads: "Quads",
+  shoulders: "Shoulders",
+  traps: "Traps",
+  triceps: "Triceps",
+};
 
 function formatMuscleName(muscle: string) {
-  return getMuscleLabel(muscle);
+  return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 }
 
 function getDisplayExerciseName(name: string) {
@@ -82,9 +96,9 @@ export default async function ExerciseDetailPage({
   const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : withExerciseGender(`/exercises/${muscle}`, gender);
 
   return (
-    <main aria-label={`Chi tiết bài tập ${displayName}`} className="exercise-detail-page">
+    <main aria-label={`${displayName} details`} className="exercise-detail-page">
       <header className="exercise-detail-topbar">
-        <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
+        <Link aria-label={`Back to ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </Link>
         <ExerciseDetailSaveButton exerciseId={exercise.id} exerciseName={displayName} />
@@ -97,8 +111,8 @@ export default async function ExerciseDetailPage({
       </section>
 
       <section aria-labelledby="exercise-instructions-title" className="exercise-detail-instructions">
-        <h2 id="exercise-instructions-title">Các bước tập</h2>
-        {steps.length > 0 ? <ol>{steps.map((step, index) => <li key={`${exercise.id}-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p>Chưa có hướng dẫn cho bài tập này.</p>}
+        <h2 id="exercise-instructions-title">Instructions</h2>
+        {steps.length > 0 ? <ol>{steps.map((step, index) => <li key={`${exercise.id}-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p>No instructions are available for this exercise yet.</p>}
       </section>
     </main>
   );

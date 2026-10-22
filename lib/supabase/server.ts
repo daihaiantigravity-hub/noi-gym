@@ -34,7 +34,7 @@ export function isDatabaseConfigured() {
 
 export async function createSupabaseServerClient() {
   if (!isSupabaseConfigured()) {
-    throw new Error("Supabase chưa được cấu hình");
+    throw new Error("Supabase is not configured");
   }
 
   const cookieStore = await cookies();
@@ -57,7 +57,7 @@ export async function createSupabaseServerClient() {
 
 export function createSupabaseAdminClient() {
   if (!isDatabaseConfigured()) {
-    throw new Error("Database chưa được cấu hình. Cần NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SECRET_KEY");
+    throw new Error("The database is not configured. NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SECRET_KEY are required");
   }
 
   const serviceKey = getServiceRoleKey();

@@ -5,7 +5,6 @@ import { saveExerciseAction, type ExerciseActionState } from "@/app/actions/exer
 import ExercisePreview from "@/components/admin/ExercisePreview";
 import { EXERCISE_DIFFICULTIES, EXERCISE_FORCES, EXERCISE_GRIPS, EXERCISE_MECHANICS, EXERCISE_MUSCLES, EXERCISE_STATUSES, VISIBLE_EXERCISE_CATEGORIES } from "@/lib/exercises/constants";
 import { EXERCISE_VIDEO_TYPES, MAX_EXERCISE_VIDEO_DURATION_SECONDS, MAX_EXERCISE_VIDEO_SIZE } from "@/lib/exercises/media";
-import { getAngleLabel, getDifficultyLabel, getEquipmentLabel, getForceLabel, getGenderLabel, getGripLabel, getMechanicLabel, getMuscleLabel, getStatusLabel } from "@/lib/exercises/labels";
 import { slugify } from "@/lib/exercises/slug";
 import type { ExerciseFormValues, ExerciseMediaValue, ExerciseSourceOption } from "@/lib/exercises/types";
 
@@ -25,7 +24,7 @@ function readVideoDuration(file: File) {
     video.onerror = () => {
       URL.revokeObjectURL(objectUrl);
       video.remove();
-      reject(new Error("Không thể đọc thời lượng video. Hãy chọn file MP4, WebM hoặc MOV hợp lệ."));
+      reject(new Error("Unable to read the video duration. Select a valid MP4, WebM, or MOV file."));
     };
     video.src = objectUrl;
   });
@@ -69,12 +68,12 @@ export default function ExerciseForm({
     try {
       const response = await fetch(`/api/admin/source-exercises?sourceId=${sourceId}`);
       const data = (await response.json()) as ExerciseFormValues & { error?: string };
-      if (!response.ok) throw new Error(data.error || "Không thể tải bài tập nguồn");
+      if (!response.ok) throw new Error(data.error || "Unable to load the source exercise");
 
       setValues((current) => ({ ...current, ...data, id: current.id, status: current.status === "Published" ? "Draft" : current.status }));
       setSlugEdited(false);
     } catch (error) {
-      setSourceError(error instanceof Error ? error.message : "Không thể tải bài tập nguồn");
+      setSourceError(error instanceof Error ? error.message : "Unable to load the source exercise");
     } finally {
       setSourceLoading(false);
     }
@@ -107,11 +106,11 @@ export default function ExerciseForm({
   async function handleVideoUpload(index: number, file: File) {
     setMediaUploadError("");
     if (!EXERCISE_VIDEO_TYPES.includes(file.type as (typeof EXERCISE_VIDEO_TYPES)[number])) {
-      setMediaUploadError("Chỉ hỗ trợ video MP4, WebM hoặc MOV.");
+      setMediaUploadError("Only MP4, WebM, or MOV videos are supported.");
       return;
     }
     if (file.size > MAX_EXERCISE_VIDEO_SIZE) {
-      setMediaUploadError("Video không được vượt quá 25MB.");
+      setMediaUploadError("The video cannot exceed 25 MB.");
       return;
     }
 
@@ -119,7 +118,7 @@ export default function ExerciseForm({
     try {
       const duration = await readVideoDuration(file);
       if (duration <= 0 || duration > MAX_EXERCISE_VIDEO_DURATION_SECONDS) {
-        throw new Error("Video phải dài hơn 0 và tối đa 15 giây.");
+        throw new Error("The video must be longer than 0 seconds and no longer than 15 seconds.");
       }
 
       const response = await fetch("/api/admin/media", {
@@ -135,7 +134,7 @@ export default function ExerciseForm({
         uploadHeaders?: Record<string, string>;
         url?: string;
       };
-      if (!response.ok || !data.path || !data.signedUrl || !data.url) throw new Error(data.error || "Không thể tạo phiên upload video");
+      if (!response.ok || !data.path || !data.signedUrl || !data.url) throw new Error(data.error || "Unable to create a video upload session");
 
       let uploadResponse: Response;
       if (data.provider === "r2") {
@@ -146,14 +145,14 @@ export default function ExerciseForm({
         uploadBody.append("", file);
         uploadResponse = await fetch(data.signedUrl, { method: "PUT", body: uploadBody });
       }
-      if (!uploadResponse.ok) throw new Error("Không thể lưu video vào kho media.");
+      if (!uploadResponse.ok) throw new Error("Unable to save the video to media storage.");
 
       setValues((current) => ({
         ...current,
         media: current.media.map((item, mediaIndex) => mediaIndex === index ? { ...item, videoUrl: data.url ?? "", storagePath: data.path, duration } : item),
       }));
     } catch (error) {
-      setMediaUploadError(error instanceof Error ? error.message : "Không thể upload video");
+      setMediaUploadError(error instanceof Error ? error.message : "Unable to upload the video");
     } finally {
       setUploadingMediaIndex(null);
     }
@@ -167,88 +166,88 @@ export default function ExerciseForm({
         <div className="admin-form-column admin-editor-form-column">
           <section className="admin-panel">
             <div className="admin-panel-heading">
-              <div><span className="admin-eyebrow">01 · Thông tin chính</span><h2>Nội dung bài tập</h2></div>
+              <div><span className="admin-eyebrow">01 · Core information</span><h2>Exercise content</h2></div>
               <span className="admin-panel-number">A</span>
             </div>
 
             <label className="admin-field admin-field--wide">
-              <span>Tên bài tập <em>*</em></span>
+              <span>Exercise name <em>*</em></span>
               <input required value={values.name} onChange={(event) => { const name = event.target.value; setValues((current) => ({ ...current, name, slug: slugEdited ? current.slug : slugify(name) })); }} />
             </label>
             <label className="admin-field admin-field--wide">
-              <span>Đường dẫn rút gọn <em>*</em></span>
+              <span>Slug <em>*</em></span>
               <input aria-readonly={mode === "create"} readOnly={mode === "create"} required value={values.slug} onChange={(event) => { if (mode === "edit") { setSlugEdited(true); updateField("slug", event.target.value); } }} />
-              <small>{mode === "create" ? "Tự động tạo từ tên bài tập theo dạng ten-bai-tap." : "Dùng cho URL và nhận diện duy nhất bài tập."}</small>
+              <small>{mode === "create" ? "Generated automatically from the exercise name." : "Used in the URL and as the exercise's unique identifier."}</small>
             </label>
             <div className="admin-field admin-field--wide">
-              <span>Nhóm cơ chính <em>*</em></span>
+              <span>Primary muscle groups <em>*</em></span>
               <div className="admin-chip-grid">
                 {EXERCISE_MUSCLES.map((muscle) => (
                   <label className={`admin-chip${values.primaryMuscles.includes(muscle) ? " admin-chip--selected" : ""}`} key={muscle}>
                     <input checked={values.primaryMuscles.includes(muscle)} onChange={() => toggleMuscle(muscle)} type="checkbox" />
-                    {getMuscleLabel(muscle)}
+                    {muscle}
                   </label>
                 ))}
               </div>
             </div>
             <div className="admin-two-fields">
-              <label className="admin-field"><span>Dụng cụ <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Chọn dụng cụ</option>{values.category && !VISIBLE_EXERCISE_CATEGORIES.some((category) => category === values.category) ? <option hidden value={values.category}>{getEquipmentLabel(values.category)}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{getEquipmentLabel(category)}</option>)}</select></label>
-              <label className="admin-field"><span>Độ khó <em>*</em></span><select required={values.status === "Published"} value={values.difficulty} onChange={(event) => updateField("difficulty", event.target.value as typeof values.difficulty)}><option value="">Chọn độ khó</option>{EXERCISE_DIFFICULTIES.map((difficulty) => <option key={difficulty} value={difficulty}>{getDifficultyLabel(difficulty)}</option>)}</select></label>
+              <label className="admin-field"><span>Equipment <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Select equipment</option>{values.category && !VISIBLE_EXERCISE_CATEGORIES.some((category) => category === values.category) ? <option hidden value={values.category}>{values.category}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{category}</option>)}</select></label>
+              <label className="admin-field"><span>Difficulty <em>*</em></span><select required={values.status === "Published"} value={values.difficulty} onChange={(event) => updateField("difficulty", event.target.value as typeof values.difficulty)}><option value="">Select difficulty</option>{EXERCISE_DIFFICULTIES.map((difficulty) => <option key={difficulty} value={difficulty}>{difficulty}</option>)}</select></label>
             </div>
             <div className="admin-three-fields">
-              <label className="admin-field"><span>Chuyển động</span><select value={values.force} onChange={(event) => updateField("force", event.target.value as typeof values.force)}><option value="">Chưa chọn</option>{EXERCISE_FORCES.map((force) => <option key={force} value={force}>{getForceLabel(force)}</option>)}</select></label>
-              <label className="admin-field"><span>Kiểu cầm</span><select value={values.grips} onChange={(event) => updateField("grips", event.target.value as typeof values.grips)}><option value="">Chưa chọn</option>{EXERCISE_GRIPS.map((grip) => <option key={grip} value={grip}>{getGripLabel(grip)}</option>)}</select></label>
-              <label className="admin-field"><span>Cơ chế</span><select value={values.mechanic} onChange={(event) => updateField("mechanic", event.target.value as typeof values.mechanic)}><option value="">Chưa chọn</option>{EXERCISE_MECHANICS.map((mechanic) => <option key={mechanic} value={mechanic}>{getMechanicLabel(mechanic)}</option>)}</select></label>
+              <label className="admin-field"><span>Force</span><select value={values.force} onChange={(event) => updateField("force", event.target.value as typeof values.force)}><option value="">Not selected</option>{EXERCISE_FORCES.map((force) => <option key={force} value={force}>{force}</option>)}</select></label>
+              <label className="admin-field"><span>Grip</span><select value={values.grips} onChange={(event) => updateField("grips", event.target.value as typeof values.grips)}><option value="">Not selected</option>{EXERCISE_GRIPS.map((grip) => <option key={grip} value={grip}>{grip}</option>)}</select></label>
+              <label className="admin-field"><span>Mechanic</span><select value={values.mechanic} onChange={(event) => updateField("mechanic", event.target.value as typeof values.mechanic)}><option value="">Not selected</option>{EXERCISE_MECHANICS.map((mechanic) => <option key={mechanic} value={mechanic}>{mechanic}</option>)}</select></label>
             </div>
           </section>
 
           <section className="admin-panel">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">02 · Hướng dẫn</span><h2>Các bước thực hiện</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("steps", [...values.steps, ""])} type="button">+ Thêm bước</button></div>
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">02 · Instructions</span><h2>Exercise steps</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("steps", [...values.steps, ""])} type="button">+ Add step</button></div>
             <div className="admin-step-list">
-              {values.steps.map((step, index) => <div className="admin-step-row" key={`step-${index}`}><span className="admin-step-number">{String(index + 1).padStart(2, "0")}</span><textarea aria-label={`Bước ${index + 1}`} value={step} onChange={(event) => updateStep(index, event.target.value)} /><button aria-label={`Xóa bước ${index + 1}`} className="admin-icon-button" onClick={() => removeStep(index)} type="button">×</button></div>)}
+              {values.steps.map((step, index) => <div className="admin-step-row" key={`step-${index}`}><span className="admin-step-number">{String(index + 1).padStart(2, "0")}</span><textarea aria-label={`Step ${index + 1}`} value={step} onChange={(event) => updateStep(index, event.target.value)} /><button aria-label={`Remove step ${index + 1}`} className="admin-icon-button" onClick={() => removeStep(index)} type="button">×</button></div>)}
             </div>
           </section>
 
           <section className="admin-panel admin-panel--accent">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">03 · Dữ liệu nguồn</span><h2>Điền sẵn từ JSON</h2></div><span className="admin-panel-number">B</span></div>
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">03 · Source data</span><h2>Prefill from JSON</h2></div><span className="admin-panel-number">B</span></div>
             <label className="admin-field admin-field--wide">
-              <span>Bài tập MuscleWiki</span>
-              <select disabled={sourceLoading} value={values.source === "musclewiki" ? String(values.sourceId ?? "") : ""} onChange={(event) => void handleSourceChange(event.target.value)}><option value="">Tạo bài tập thủ công</option>{sourceOptions.map((option) => <option key={option.id} value={option.id}>{option.id} · {option.name}</option>)}</select>
-              <small>{sourceLoading ? "Đang tải dữ liệu…" : "Chọn một bản ghi để tự động điền biểu mẫu."}</small>
+              <span>MuscleWiki exercise</span>
+              <select disabled={sourceLoading} value={values.source === "musclewiki" ? String(values.sourceId ?? "") : ""} onChange={(event) => void handleSourceChange(event.target.value)}><option value="">Create a custom exercise</option>{sourceOptions.map((option) => <option key={option.id} value={option.id}>{option.id} · {option.name}</option>)}</select>
+              <small>{sourceLoading ? "Loading data…" : "Select a record to prefill the form."}</small>
               {sourceError ? <small className="admin-form-error">{sourceError}</small> : null}
             </label>
-            <div className="admin-source-meta"><span>Nguồn</span><strong>{values.source === "musclewiki" ? `MuscleWiki #${values.sourceId}` : "Tự tạo"}</strong></div>
+            <div className="admin-source-meta"><span>Source</span><strong>{values.source === "musclewiki" ? `MuscleWiki #${values.sourceId}` : "Custom"}</strong></div>
           </section>
 
           <section className="admin-panel">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">04 · Media</span><h2>Video bài tập</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("media", [...values.media, mediaValue()])} type="button">+ Thêm video</button></div>
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">04 · Media</span><h2>Exercise videos</h2></div><button className="admin-button admin-button--small" onClick={() => updateField("media", [...values.media, mediaValue()])} type="button">+ Add video</button></div>
             {values.media.length > 0 ? (
               <div className="admin-media-list">
                 {values.media.map((media, index) => (
                   <div className="admin-media-row" key={`media-${index}`}>
                     <div className="admin-two-fields">
-                      <label className="admin-field"><span>Giới tính</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">{getGenderLabel("male")}</option><option value="female">{getGenderLabel("female")}</option></select></label>
-                      <label className="admin-field"><span>Góc quay</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">{getAngleLabel("front")}</option><option value="side">{getAngleLabel("side")}</option></select></label>
+                      <label className="admin-field"><span>Gender</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">Male</option><option value="female">Female</option></select></label>
+                      <label className="admin-field"><span>Angle</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">Front</option><option value="side">Side</option></select></label>
                     </div>
                     <label className="admin-field admin-field--wide">
-                      <span>Tải video lên <em>*</em></span>
+                      <span>Upload video <em>*</em></span>
                       <input accept="video/mp4,video/webm,video/quicktime" onChange={(event) => { const file = event.target.files?.[0]; if (file) void handleVideoUpload(index, file); event.currentTarget.value = ""; }} type="file" />
-                      <small>MP4, WebM hoặc MOV · tối đa 25MB · thời lượng không quá 15 giây.</small>
+                      <small>MP4, WebM, or MOV · up to 25 MB · no longer than 15 seconds.</small>
                     </label>
-                    {media.videoUrl ? <div className="admin-media-video-status"><span>Đã upload video{media.duration ? ` · ${media.duration.toFixed(1)}s` : ""}</span><button className="admin-text-button" onClick={() => { updateMedia(index, "videoUrl", ""); updateMedia(index, "storagePath", ""); updateMedia(index, "duration", 0); }} type="button">Xóa video</button></div> : null}
-                    {uploadingMediaIndex === index ? <small className="admin-media-uploading">Đang kiểm tra và upload video…</small> : null}
+                    {media.videoUrl ? <div className="admin-media-video-status"><span>Video uploaded{media.duration ? ` · ${media.duration.toFixed(1)}s` : ""}</span><button className="admin-text-button" onClick={() => { updateMedia(index, "videoUrl", ""); updateMedia(index, "storagePath", ""); updateMedia(index, "duration", 0); }} type="button">Remove video</button></div> : null}
+                    {uploadingMediaIndex === index ? <small className="admin-media-uploading">Validating and uploading video…</small> : null}
                     {media.videoUrl ? <video className="admin-media-video-preview" autoPlay loop muted playsInline preload="metadata" src={media.videoUrl} /> : null}
-                    <button className="admin-text-button admin-text-button--danger" onClick={() => updateField("media", values.media.filter((_, mediaIndex) => mediaIndex !== index))} type="button">Xóa video</button>
+                    <button className="admin-text-button admin-text-button--danger" onClick={() => updateField("media", values.media.filter((_, mediaIndex) => mediaIndex !== index))} type="button">Remove video</button>
                   </div>
                 ))}
               </div>
-            ) : <p className="admin-muted">Chưa có video. Thêm video demo ngắn để hiển thị trực tiếp trên danh sách và trang chi tiết.</p>}
+            ) : <p className="admin-muted">No videos yet. Add a short demo video for the list and detail pages.</p>}
             {mediaUploadError ? <p className="admin-form-error" role="alert">{mediaUploadError}</p> : null}
           </section>
 
           <section className="admin-panel">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">05 · Trạng thái</span><h2>Xuất bản</h2></div></div>
-            <label className="admin-field admin-field--wide"><span>Trạng thái</span><select value={values.status} onChange={(event) => updateField("status", event.target.value as typeof values.status)}>{EXERCISE_STATUSES.map((status) => <option key={status} value={status}>{getStatusLabel(status)}</option>)}</select><small>Bản nháp cho phép lưu dữ liệu chưa hoàn chỉnh. Bài đã xuất bản sẽ xuất hiện trong thư viện công khai.</small></label>
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">05 · Status</span><h2>Publishing</h2></div></div>
+            <label className="admin-field admin-field--wide"><span>Status</span><select value={values.status} onChange={(event) => updateField("status", event.target.value as typeof values.status)}>{EXERCISE_STATUSES.map((status) => <option key={status} value={status}>{status}</option>)}</select><small>Draft allows incomplete data. Published exercises appear in the public library.</small></label>
           </section>
         </div>
 
@@ -256,7 +255,7 @@ export default function ExerciseForm({
       </div>
 
       {state.error ? <p className="admin-form-error admin-form-error--global" role="alert">{state.error}</p> : null}
-      <div className="admin-form-actions"><a className="admin-button" href="/admin/exercises">Hủy</a><button className="admin-button admin-button--primary" disabled={pending} type="submit">{pending ? "Đang lưu…" : mode === "edit" ? "Lưu thay đổi" : "Tạo bài tập"}</button></div>
+      <div className="admin-form-actions"><a className="admin-button" href="/admin/exercises">Cancel</a><button className="admin-button admin-button--primary" disabled={pending} type="submit">{pending ? "Saving…" : mode === "edit" ? "Save changes" : "Create exercise"}</button></div>
     </form>
   );
 }

@@ -7,12 +7,12 @@ import { createSupabaseAdminClient, isDatabaseConfigured } from "@/lib/supabase/
 import { AuthenticationRequiredError, requireUser } from "@/lib/user-auth";
 
 function errorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Không thể cập nhật bài tập yêu thích";
+  const message = error instanceof Error ? error.message : "Unable to update the favorite exercise";
   const status = error instanceof AuthenticationRequiredError
     ? 401
-    : message.includes("không hợp lệ") || message.includes("Thiếu")
+    : message.includes("Invalid") || message.includes("required")
       ? 400
-      : message.includes("Không tìm thấy")
+      : message.includes("not found")
         ? 404
         : 500;
   return NextResponse.json({ error: message }, { status });

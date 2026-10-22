@@ -56,14 +56,14 @@ function parseExerciseIds(value: unknown) {
 }
 
 async function getResponseError(response: Response) {
-  if (response.status === 401) return "Hãy đăng nhập bằng Google để lưu bài tập yêu thích.";
+  if (response.status === 401) return "Sign in with Google to save favorite exercises.";
   try {
     const body = await response.json() as { error?: unknown };
     if (typeof body.error === "string" && body.error) return body.error;
   } catch {
     // Use the fallback when the response is not JSON.
   }
-  return "Không thể cập nhật danh sách bài tập yêu thích.";
+  return "Unable to update your favorite exercises.";
 }
 
 function setSaved(exerciseIds: Iterable<string>, saved: boolean) {
@@ -124,7 +124,7 @@ async function completePendingFavorite() {
       emit({
         ...snapshot,
         status: "ready",
-        error: error instanceof Error ? error.message : "Không thể hoàn tất thao tác lưu bài tập.",
+        error: error instanceof Error ? error.message : "Unable to complete the save action.",
       });
     } finally {
       pendingCompletionPromise = null;
@@ -163,7 +163,7 @@ async function loadFavorites(force = false) {
         authenticated: null,
         userId: null,
         exerciseIds: new Set(),
-        error: error instanceof Error ? error.message : "Không thể tải danh sách bài tập yêu thích.",
+        error: error instanceof Error ? error.message : "Unable to load your favorite exercises.",
       });
     } finally {
       loadPromise = null;
@@ -199,7 +199,7 @@ export function useSavedExercise(exerciseId: string) {
     let current = snapshot;
     if (current.status !== "ready") current = await loadFavorites(current.status === "error");
     if (current.status !== "ready") {
-      setError(current.error ?? "Không thể tải danh sách bài tập yêu thích.");
+      setError(current.error ?? "Unable to load your favorite exercises.");
       setIsPending(false);
       return;
     }
@@ -229,7 +229,7 @@ export function useSavedExercise(exerciseId: string) {
       setSaved(resolvedIds.length > 0 ? resolvedIds : [exerciseId], nextSaved);
     } catch (requestError) {
       setSaved([exerciseId], !nextSaved);
-      setError(requestError instanceof Error ? requestError.message : "Không thể cập nhật bài tập yêu thích.");
+      setError(requestError instanceof Error ? requestError.message : "Unable to update the favorite exercise.");
     } finally {
       setIsPending(false);
     }

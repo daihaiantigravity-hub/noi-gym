@@ -178,7 +178,7 @@ function HeartRings() {
   const heartPath = "M110 182C92 164 25 128 25 68c0-29 22-47 49-47 17 0 30 8 36 22 6-14 19-22 36-22 27 0 49 18 49 47 0 60-67 96-85 114Z";
 
   return (
-    <div aria-label="Mức độ hoàn thành hoạt động" className="heart-rings" role="img">
+    <div aria-label="Activity completion" className="heart-rings" role="img">
       <svg aria-hidden="true" viewBox="0 0 220 205">
         <path className="heart-rings__track heart-rings__track--outer" d={heartPath} pathLength="100" />
         <path className="heart-rings__progress heart-rings__progress--outer" d={heartPath} pathLength="100" />
@@ -222,114 +222,114 @@ type WorkoutCard = {
 
 const workoutRows: { title: string; cards: WorkoutCard[] }[] = [
   {
-    title: "Học động tác khó từ vận động viên chuyên nghiệp",
+    title: "Learn advanced moves from professional athletes",
     cards: [
-      { title: "Bài tập toàn thân 10 phút", meta: "10:36 LILLIUS", variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
-      { title: "Bài tập cơ bắp chuyên sâu", meta: "13:29 LILLIUS", variant: "muscle", kicker: "10 MINUTE MIRACLE", hero: "MUSCLE", sub: "WORKOUT" },
+      { title: "10-minute full-body workout", meta: "10:36 LILLIUS", variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
+      { title: "Intensive muscle workout", meta: "13:29 LILLIUS", variant: "muscle", kicker: "10 MINUTE MIRACLE", hero: "MUSCLE", sub: "WORKOUT" },
     ],
   },
   {
-    title: "Thưởng cho việc tập tại nhà của bạn",
+    title: "Make the most of your home workouts",
     cards: [
-      { title: "6 mức độ gánh đùi", meta: "10:24 Pocket Gym", variant: "home-yoga", kicker: "AT HOME", hero: "FLOW", sub: "YOGA" },
-      { title: "Tạo hình cơ thể", meta: "08:22 Pocket Gym", variant: "outdoor", kicker: "MOVE EVERY DAY", hero: "MOVE", sub: "OUTDOOR" },
+      { title: "6 squat progressions", meta: "10:24 Pocket Gym", variant: "home-yoga", kicker: "AT HOME", hero: "FLOW", sub: "YOGA" },
+      { title: "Shape your body", meta: "08:22 Pocket Gym", variant: "outdoor", kicker: "MOVE EVERY DAY", hero: "MOVE", sub: "OUTDOOR" },
     ],
   },
   {
-    title: "Zumba® – Tập luyện thật vui",
+    title: "Zumba® — Make fitness fun",
     cards: [
-      { title: "Zumba® – Tập luyện thật vui", meta: "12:10 Zumba", variant: "zumba", kicker: "DANCE FITNESS", hero: "ZUMBA®", sub: "LET'S MOVE" },
-      { title: "Nhịp điệu đầy năng lượng", meta: "09:40 Zumba", variant: "dance", kicker: "DANCE FITNESS", hero: "DANCE", sub: "TOGETHER" },
+      { title: "Zumba® — Make fitness fun", meta: "12:10 Zumba", variant: "zumba", kicker: "DANCE FITNESS", hero: "ZUMBA®", sub: "LET'S MOVE" },
+      { title: "High-energy rhythm", meta: "09:40 Zumba", variant: "dance", kicker: "DANCE FITNESS", hero: "DANCE", sub: "TOGETHER" },
     ],
   },
 ];
 
 const weeklySchedule: { day: string; session: string; muscles: string; flexible?: boolean }[] = [
-  { day: "Thứ 2", session: "Đẩy", muscles: "Ngực · Vai · Tay sau" },
-  { day: "Thứ 3", session: "Kéo", muscles: "Lưng · Tay trước" },
-  { day: "Thứ 4", session: "Thân dưới", muscles: "Chân · Mông" },
-  { day: "Thứ 5", session: "Thân trên", muscles: "Ngực · Lưng · Vai · Tay" },
-  { day: "Thứ 6", session: "Thân dưới", muscles: "Chân · Mông · Cơ trung tâm" },
-  { day: "Thứ 7", session: "Linh hoạt", muscles: "Tim mạch / Cơ trung tâm / nhóm cơ yếu", flexible: true },
-  { day: "Chủ nhật", session: "Linh hoạt", muscles: "Nghỉ hoặc tập tim mạch nhẹ", flexible: true },
+  { day: "Monday", session: "Push", muscles: "Chest · Shoulders · Triceps" },
+  { day: "Tuesday", session: "Pull", muscles: "Back · Biceps" },
+  { day: "Wednesday", session: "Legs", muscles: "Legs · Glutes" },
+  { day: "Thursday", session: "Upper", muscles: "Chest · Back · Shoulders · Arms" },
+  { day: "Friday", session: "Lower", muscles: "Legs · Glutes · Core" },
+  { day: "Saturday", session: "Flexible", muscles: "Cardio / Core / weak areas", flexible: true },
+  { day: "Sunday", session: "Flexible", muscles: "Rest or light cardio", flexible: true },
 ];
 
 const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string }> = {
   featured: {
-    title: "Bạn muốn tập nhóm cơ nào?",
-    subtitle: "Chọn một nhóm cơ để khám phá các bài tập phù hợp.",
+    title: "What do you want to train?",
+    subtitle: "Choose a muscle group to explore exercises.",
   },
   barbell: {
-    title: "Tập với tạ đòn",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ đòn.",
+    title: "Train with a barbell",
+    subtitle: "Choose a muscle group to explore barbell exercises.",
   },
   dumbbells: {
-    title: "Tập với tạ đơn",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ đơn.",
+    title: "Train with dumbbells",
+    subtitle: "Choose a muscle group to explore dumbbell exercises.",
   },
   bodyweight: {
-    title: "Tập với trọng lượng cơ thể",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập không cần dụng cụ.",
+    title: "Train with your bodyweight",
+    subtitle: "Choose a muscle group to explore bodyweight exercises.",
   },
   machine: {
-    title: "Tập với máy",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy.",
+    title: "Train with machines",
+    subtitle: "Choose a muscle group to explore machine exercises.",
   },
   "medicine-ball": {
-    title: "Tập với bóng tạ",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với bóng tạ.",
+    title: "Train with a medicine ball",
+    subtitle: "Choose a muscle group to explore medicine ball exercises.",
   },
   kettlebells: {
-    title: "Tập với tạ ấm",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ ấm.",
+    title: "Train with kettlebells",
+    subtitle: "Choose a muscle group to explore kettlebell exercises.",
   },
   stretches: {
-    title: "Khám phá bài tập giãn cơ",
-    subtitle: "Chọn một nhóm cơ để xem các động tác giãn cơ.",
+    title: "Explore stretches",
+    subtitle: "Choose a muscle group to explore stretches.",
   },
   cables: {
-    title: "Tập với cáp",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với cáp.",
+    title: "Train with cables",
+    subtitle: "Choose a muscle group to explore cable exercises.",
   },
   band: {
-    title: "Tập với dây kháng lực",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với dây kháng lực.",
+    title: "Train with bands",
+    subtitle: "Choose a muscle group to explore band exercises.",
   },
   plate: {
-    title: "Tập với đĩa tạ",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với đĩa tạ.",
+    title: "Train with plates",
+    subtitle: "Choose a muscle group to explore plate exercises.",
   },
   trx: {
-    title: "Tập với dây TRX",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với dây TRX.",
+    title: "Train with TRX",
+    subtitle: "Choose a muscle group to explore TRX exercises.",
   },
   yoga: {
-    title: "Tập Yoga",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập Yoga.",
+    title: "Practice yoga",
+    subtitle: "Choose a muscle group to explore yoga exercises.",
   },
   "bosu-ball": {
-    title: "Tập với bóng Bosu",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với bóng Bosu.",
+    title: "Train with a Bosu ball",
+    subtitle: "Choose a muscle group to explore Bosu ball exercises.",
   },
   cardio: {
-    title: "Khám phá bài tập tim mạch",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập tim mạch.",
+    title: "Explore cardio exercises",
+    subtitle: "Choose a muscle group to explore cardio exercises.",
   },
   "smith-machine": {
-    title: "Tập với máy Smith",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy Smith.",
+    title: "Train with a Smith machine",
+    subtitle: "Choose a muscle group to explore Smith machine exercises.",
   },
   pilates: {
-    title: "Tập Pilates",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập Pilates.",
+    title: "Practice Pilates",
+    subtitle: "Choose a muscle group to explore Pilates exercises.",
   },
   recovery: {
-    title: "Khám phá bài tập phục hồi",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập phục hồi.",
+    title: "Explore recovery exercises",
+    subtitle: "Choose a muscle group to explore recovery exercises.",
   },
   vitruvian: {
-    title: "Tập với máy Vitruvian",
-    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy Vitruvian.",
+    title: "Train with Vitruvian",
+    subtitle: "Choose a muscle group to explore Vitruvian exercises.",
   },
 };
 
@@ -340,7 +340,7 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
     <section aria-labelledby={headingId} className="health-card workout-showcase">
       <div className="workout-showcase__header">
         <h2 id={headingId}>{title}</h2>
-        <button aria-label={`Xem thêm: ${title}`} className="workout-showcase__arrow" type="button">›</button>
+        <button aria-label={`View more: ${title}`} className="workout-showcase__arrow" type="button">›</button>
       </div>
       <div className="workout-showcase__track">
         {cards.map((card) => (
@@ -371,9 +371,9 @@ export default function HomePage({ initialAuthSession }: { initialAuthSession: S
         <div className="health-topbar__row">
           <span className="health-brand">Equix Health</span>
           <div className="health-topbar__actions">
-            {/* <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
+            {/* <button aria-label="Watch" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
             <UserAuthButton initialSession={initialAuthSession} />
-            <button aria-label="Thêm tùy chọn" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
+            <button aria-label="More options" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
           </div>
         </div>
 
@@ -407,7 +407,7 @@ export default function HomePage({ initialAuthSession }: { initialAuthSession: S
               <span>12 sessions</span>
               <span>626 kcal</span>
             </div>
-            <div aria-label="Hoạt động theo từng ngày trong tuần" className="week-chart" role="img">
+            <div aria-label="Activity by day of the week" className="week-chart" role="img">
               <div className="week-chart__bars">
                 {weekBars.map((bar, index) => (
                   <div className={`week-chart__column${bar.current ? " week-chart__column--current" : ""}`} key={`${bar.day}-${index}`}>
@@ -424,7 +424,7 @@ export default function HomePage({ initialAuthSession }: { initialAuthSession: S
 
         <section aria-labelledby="weekly-schedule-title" className="health-card cardio-card">
           <div className="cardio-card__copy">
-            <h2 id="weekly-schedule-title">Lịch tập trong tuần</h2>
+            <h2 id="weekly-schedule-title">Weekly workout schedule</h2>
             <ul className="weekly-schedule-list">
               {weeklySchedule.map((item) => (
                 <li className={`weekly-schedule-list__item${item.flexible ? " weekly-schedule-list__item--flexible" : ""}`} key={item.day}>
@@ -447,28 +447,28 @@ export default function HomePage({ initialAuthSession }: { initialAuthSession: S
         </div> */}
 
         <section className="health-card fitness-index-card">
-          <h2>Chỉ số thể lực</h2>
+          <h2>Fitness index</h2>
         </section>
 
 
       </main>
 
-      <nav aria-label="Điều hướng chính" className="health-bottom-nav">
+      <nav aria-label="Main navigation" className="health-bottom-nav">
         <div className="health-bottom-nav__pill">
           <button aria-current="page" className="health-bottom-nav__item health-bottom-nav__item--active" type="button">
             <Icon name="home" size={24} />
-            <span>Trang chủ</span>
+            <span>Home</span>
           </button>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="together" size={24} />
-            <span>Cộng đồng</span>
+            <span>Together</span>
           </Link>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="fitness" size={24} />
-            <span>Thể lực</span>
+            <span>Fitness</span>
           </Link>
         </div>
-        <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
+        <Link aria-label="Open exercise management" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
       </nav>
     </div>
   );

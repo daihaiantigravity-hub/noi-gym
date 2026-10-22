@@ -9,10 +9,10 @@ export default function ForgotPasswordPage() {
     <main className="admin-login-page">
       <section className="admin-login-card">
         <span className="admin-eyebrow">NOI GYM · ADMIN</span>
-        <h1>Khôi phục mật khẩu</h1>
-        <p className="admin-muted">Nhập email quản trị để nhận liên kết đặt mật khẩu mới.</p>
-        {configured ? <ForgotPasswordForm /> : <p className="admin-form-error" role="alert">Supabase chưa được cấu hình.</p>}
-        <Link className="admin-text-link" href="/auth/login">← Quay lại đăng nhập</Link>
+        <h1>Reset password</h1>
+        <p className="admin-muted">Enter the administrator email to receive a password reset link.</p>
+        {configured ? <ForgotPasswordForm /> : <p className="admin-form-error" role="alert">Supabase is not configured.</p>}
+        <Link className="admin-text-link" href="/auth/login">← Back to sign in</Link>
       </section>
     </main>
   );

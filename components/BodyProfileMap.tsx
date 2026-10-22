@@ -6,7 +6,6 @@ import Link from "next/link";
 import type { EquipmentIconName } from "./EquipmentIcon";
 import { withExerciseGender } from "@/lib/exercises/gender";
 import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
-import { getMuscleLabel } from "@/lib/exercises/labels";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
 
 type BodyView = "front" | "back";
@@ -230,21 +229,21 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
     });
   }
 
-  const bodyLabel = activeView === "front" ? "Cơ trước" : "Cơ sau";
+  const bodyLabel = activeView === "front" ? "Front" : "Back";
   const activeMarkup = activeGender === "female"
     ? femaleMarkup?.[activeMode === "advanced" ? "advanced" : "standard"][activeView]
     : activeMode === "advanced" ? svgMarkup?.advanced[activeView] : svgMarkup?.standard[activeView];
   const oppositeView: BodyView = activeView === "front" ? "back" : "front";
-  const oppositeLabel = oppositeView === "front" ? "Cơ trước" : "Cơ sau";
+  const oppositeLabel = oppositeView === "front" ? "Front" : "Back";
   const oppositeMarkup = activeGender === "female"
     ? femaleMarkup?.[activeMode === "advanced" ? "advanced" : "standard"][oppositeView]
     : activeMode === "advanced" ? svgMarkup?.advanced[oppositeView] : svgMarkup?.standard[oppositeView];
   const mapIsInteractive = activeMode !== "joints";
 
   const modeItems: Array<{ id: BodyMapMode; label: string }> = [
-    { id: "standard", label: "Cơ bản" },
-    { id: "joints", label: "Khớp" },
-    { id: "advanced", label: "Chuyên sâu" },
+    { id: "standard", label: "Standard" },
+    { id: "joints", label: "Joints" },
+    { id: "advanced", label: "Advanced" },
 
   ];
   const overlayTargets = activeMode === "joints" ? JOINT_TARGETS : [];
@@ -253,32 +252,32 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
 
   return (
     <>
-      {/* <section aria-label="Chọn vùng cơ thể" className="health-card quick-activity-card">
+      {/* <section aria-label="Choose a body area" className="health-card quick-activity-card">
         <div className="quick-activity-card__items">
           <button
-            aria-label="Hiển thị cơ trước"
+            aria-label="Show front muscles"
             aria-pressed={activeView === "front"}
             className={`quick-activity-card__item${activeView === "front" ? " quick-activity-card__item--active" : ""}`}
             onClick={() => setActiveView("front")}
             type="button"
           >
             <span className="quick-activity-card__icon"><BodyViewIcon view="front" /></span>
-            <span>Cơ trước</span>
+            <span>Front</span>
           </button>
           <button
-            aria-label="Hiển thị cơ sau"
+            aria-label="Show back muscles"
             aria-pressed={activeView === "back"}
             className={`quick-activity-card__item${activeView === "back" ? " quick-activity-card__item--active" : ""}`}
             onClick={() => setActiveView("back")}
             type="button"
           >
             <span className="quick-activity-card__icon"><BodyViewIcon view="back" /></span>
-            <span>Cơ sau</span>
+            <span>Back</span>
           </button>
         </div>
       </section> */}
 
-      <section aria-label="Chọn vùng cơ thể" className="health-card body-profiles-card">
+      <section aria-label="Choose a body area" className="health-card body-profiles-card">
         {/*
         <div className="body-profiles-card__header">
           <div>
@@ -289,7 +288,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         */}
         <div className="body-profile-toolbar">
           <div className={`body-profile-mode-switcher body-profile-mode-switcher--${activeGender}`}>
-            <div aria-label="Chế độ xem bản đồ cơ thể" className="body-profile-mode-switcher__modes" role="tablist">
+            <div aria-label="Body map view" className="body-profile-mode-switcher__modes" role="tablist">
               {modeItems.map((item) => (
                 <button
                   aria-selected={activeMode === item.id}
@@ -305,10 +304,10 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
             </div>
             <span aria-hidden="true" className="body-profile-mode-switcher__divider" />
             <button
-              aria-label={`Đang hiển thị bản đồ cơ thể ${activeGender === "male" ? "nam" : "nữ"}. Nhấn để chuyển sang ${activeGender === "male" ? "nữ" : "nam"}.`}
+              aria-label={`Showing the ${activeGender === "male" ? "male" : "female"} body map. Press to switch to ${activeGender === "male" ? "female" : "male"}.`}
               className={`body-profile-gender-toggle body-profile-gender-toggle--${activeGender}`}
               onClick={() => setActiveGender((gender) => gender === "male" ? "female" : "male")}
-              title={`Chuyển sang bản đồ cơ thể ${activeGender === "male" ? "nữ" : "nam"}`}
+              title={`Switch to the ${activeGender === "male" ? "female" : "male"} body map`}
               type="button"
             >
               <GenderIcon gender={activeGender} />
@@ -319,10 +318,10 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         <div className="body-profiles-card__visuals">
           <figure className={`body-profile body-profile--${activeMode} body-profile--${activeGender}`}>
             <button
-              aria-label={`Chuyển nhanh sang xem ${oppositeLabel}`}
+              aria-label={`Switch to the ${oppositeLabel.toLowerCase()} view`}
               className="body-profile__quick-switch"
               onClick={() => setActiveView(oppositeView)}
-              title={`Chuyển nhanh sang xem ${oppositeLabel}`}
+              title={`Switch to the ${oppositeLabel.toLowerCase()} view`}
               type="button"
             >
               <div aria-hidden="true" className="body-profile__quick-switch-thumb">
@@ -335,7 +334,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
             <div className="body-profile__image">
               <div className="body-profile__map-stage">
                 <div
-                  aria-label={`${activeGender === "male" ? "Nam" : "Nữ"}, ${bodyLabel}. ${activeMode === "joints" ? "Chọn một khớp để xem bài tập." : "Chọn một vùng trên ảnh để xem bài tập."}`}
+                  aria-label={`${activeGender === "male" ? "Male" : "Female"}, ${bodyLabel}. ${activeMode === "joints" ? "Select a joint to view exercises." : "Select an area on the image to view exercises."}`}
                   aria-busy={isPending}
                   className={`body-profile__svg${!mapIsInteractive ? " body-profile__svg--overlay" : ""}${isPending ? " body-profile__svg--pending" : ""}`}
                   onClick={mapIsInteractive ? handleMuscleClick : undefined}
@@ -345,24 +344,24 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                   {activeMarkup && (
                     <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
                   )}
-                  {activeGender === "female" && femaleLoadFailed && !activeMarkup && <span role="status">Không tải được bản đồ cơ thể nữ.</span>}
+                  {activeGender === "female" && femaleLoadFailed && !activeMarkup && <span role="status">Unable to load the female body map.</span>}
                   {isPending && (
                     <span className="body-profile__navigation-feedback" role="status">
                       <span aria-hidden="true" className="body-profile__navigation-spinner" />
-                      Đang mở bài tập…
+                      Opening exercises…
                     </span>
                   )}
                 </div>
 
                 {activeMode === "joints" && activeMarkup ? (
-                  <div aria-label="Các khớp" className="body-profile__hotspots body-profile__hotspots--joints" role="list">
+                  <div aria-label="Joints" className="body-profile__hotspots body-profile__hotspots--joints" role="list">
                     <svg aria-hidden="true" className="body-profile__hotspot-overlay" preserveAspectRatio="xMidYMid meet" viewBox={`0 0 ${hotspotViewBox.width} ${hotspotViewBox.height}`}>
                       {overlayTargets.flatMap((target) => (overlayPositions[target.slug] ?? []).map((position, index) => {
                         const layout = getHotspotPosition(position, hotspotViewBox);
                         const href = withExerciseGender(getTargetRoute(target), activeGender === "female" ? "female" : undefined);
 
                         return (
-                          <Link aria-label={`Mở bài tập ${getMuscleLabel(target.label)}`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
+                          <Link aria-label={`Open ${target.label} exercises`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
                             <circle className="body-profile__hotspot-halo" cx={layout.cx} cy={layout.cy} r="25" />
                             <circle className="body-profile__hotspot-dot" cx={layout.cx} cy={layout.cy} r="13" />
                           </Link>

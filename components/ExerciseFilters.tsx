@@ -2,7 +2,6 @@
 
 import { useState, type ReactNode } from "react";
 import { HEALTH_CATEGORY_ITEMS, VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
-import { getEquipmentLabel } from "@/lib/exercises/labels";
 
 export type EquipmentName = typeof HEALTH_CATEGORY_ITEMS[number]["label"];
 
@@ -191,7 +190,7 @@ function EquipmentOption({
       <span className="equipment-option__icon">
         <EquipmentIcon name={name} />
       </span>
-      <span className="equipment-option__label">{getEquipmentLabel(name)}</span>
+      <span className="equipment-option__label">{name}</span>
     </label>
   );
 }
@@ -217,27 +216,27 @@ export default function ExerciseFilters({
   }
 
   return (
-    <aside className="exercise-filters" aria-label="Bộ lọc bài tập">
-      <div className="exercise-filters__controls" role="group" aria-label="Chọn giới tính">
+    <aside className="exercise-filters" aria-label="Exercise filters">
+      <div className="exercise-filters__controls" role="group" aria-label="Choose body type">
         <button
           className={isMale ? "exercise-filters__gender-button exercise-filters__gender-button--active" : "exercise-filters__gender-button"}
           type="button"
-          aria-label="Hiển thị bài tập cho nam"
+          aria-label="Show male exercises"
           aria-pressed={isMale}
           onClick={() => onGenderChange(true)}
         >
           <GenderIcon />
-          <span>Nam</span>
+          <span>Male</span>
         </button>
         <button
           className={!isMale ? "exercise-filters__gender-button exercise-filters__gender-button--active" : "exercise-filters__gender-button"}
           type="button"
-          aria-label="Hiển thị bài tập cho nữ"
+          aria-label="Show female exercises"
           aria-pressed={!isMale}
           onClick={() => onGenderChange(false)}
         >
           <GenderIcon female />
-          <span>Nữ</span>
+          <span>Female</span>
         </button>
       </div>
 
@@ -245,11 +244,11 @@ export default function ExerciseFilters({
 
       <div className="exercise-filters__body">
         <div className="exercise-filters__heading">
-          <h2>Dụng cụ</h2>
+          <h2>Equipment</h2>
           <button
             className="exercise-filters__collapse"
             type="button"
-            aria-label={isEquipmentOpen ? "Thu gọn bộ lọc dụng cụ" : "Mở rộng bộ lọc dụng cụ"}
+            aria-label={isEquipmentOpen ? "Collapse equipment filters" : "Expand equipment filters"}
             aria-expanded={isEquipmentOpen}
             onClick={() => setIsEquipmentOpen((current) => !current)}
           >

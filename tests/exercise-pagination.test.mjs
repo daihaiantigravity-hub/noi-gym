@@ -64,7 +64,7 @@ test("first/middle/last page markup has accessible arrows and responsive page wi
     assert.equal((html.match(/aria-current="page"/g) ?? []).length, 2);
     assert.equal((html.match(/<select/g) ?? []).length, 0);
     assert.equal((html.match(/disabled=""/g) ?? []).length, page === 15 ? 0 : 1);
-    assert.ok(html.includes(`aria-label="Trang ${page}"`));
+    assert.ok(html.includes(`aria-label="Page ${page}"`));
   }
   for (const total of [0, 1, 5]) {
     assert.equal(renderToStaticMarkup(createElement(ExercisePagination, { ...props, total })), "");
@@ -74,7 +74,7 @@ test("first/middle/last page markup has accessible arrows and responsive page wi
 test("mobile page window exposes the neighboring page buttons", () => {
   const html = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page: 5, total: 150 }));
   assert.match(html, /exercise-library-pagination__numbers--compact/);
-  assert.match(html, /aria-label="Trang 4"/);
-  assert.match(html, /aria-label="Trang 5"/);
-  assert.match(html, /aria-label="Trang 6"/);
+  assert.match(html, /aria-label="Page 4"/);
+  assert.match(html, /aria-label="Page 5"/);
+  assert.match(html, /aria-label="Page 6"/);
 });

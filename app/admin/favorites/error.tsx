@@ -4,10 +4,10 @@ export default function AdminFavoritesError({ reset }: { error: Error & { digest
   return (
     <main className="admin-page">
       <section className="admin-error-state" role="alert">
-        <span className="admin-eyebrow">BÀI TẬP ƯU TIÊN</span>
-        <h1>Không tải được danh sách yêu thích</h1>
-        <p>Kiểm tra kết nối Supabase hoặc thử tải lại trang.</p>
-        <button className="admin-button admin-button--primary" onClick={() => reset()} type="button">Thử lại</button>
+        <span className="admin-eyebrow">FAVORITES</span>
+        <h1>Unable to load featured exercises</h1>
+        <p>Check the Supabase connection or reload the page.</p>
+        <button className="admin-button admin-button--primary" onClick={() => reset()} type="button">Try again</button>
       </section>
     </main>
   );

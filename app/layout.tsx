@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Noi Gym",
-  description: "Thư viện bài tập và trang quản lý nội dung Noi Gym",
+  description: "Noi Gym exercise library and content dashboard",
 };
 
 export const viewport: Viewport = {
@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi" suppressHydrationWarning style={{
+    <html lang="en" suppressHydrationWarning style={{
       "--health-initial-background": getHealthBackground(DEFAULT_HEALTH_MOOD),
       "--health-canvas-color": HEALTH_THEMES[DEFAULT_HEALTH_MOOD].bottom,
     } as CSSProperties}>

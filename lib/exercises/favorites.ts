@@ -75,10 +75,10 @@ function getGender(media: FavoriteExerciseRelation["media"]): ExerciseGender | u
 function getMediaLabel(media: FavoriteExerciseRelation["media"]) {
   const hasMale = media?.some((item) => item.gender === "male") ?? false;
   const hasFemale = media?.some((item) => item.gender === "female") ?? false;
-  if (hasMale && hasFemale) return "Video nam và nữ";
-  if (hasMale) return "Video nam";
-  if (hasFemale) return "Video nữ";
-  return "Chưa có video";
+  if (hasMale && hasFemale) return "Male and female videos";
+  if (hasMale) return "Male video";
+  if (hasFemale) return "Female video";
+  return "No video";
 }
 
 function getPublicHref(exercise: FavoriteExerciseRelation, gender?: ExerciseGender) {

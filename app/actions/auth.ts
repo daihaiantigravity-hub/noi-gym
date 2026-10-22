@@ -14,11 +14,11 @@ export type PasswordResetActionState = {
   success?: string;
 };
 
-const passwordResetSuccess = "Nếu email thuộc tài khoản quản trị, hướng dẫn đặt lại mật khẩu đã được gửi.";
+const passwordResetSuccess = "If the email belongs to an administrator account, password reset instructions have been sent.";
 
 function getAuthError(error: { message?: string; status?: number } | null, fallback: string) {
   if (error?.status === 402 || error?.message?.includes("exceed_storage_size_quota")) {
-    return "Dự án Supabase đang bị tạm khóa do vượt giới hạn dung lượng. Hãy xử lý quota trước khi sử dụng đăng nhập hoặc khôi phục mật khẩu.";
+    return "The Supabase project is paused because it exceeded its storage quota. Resolve the quota before signing in or resetting a password.";
   }
   return fallback;
 }
@@ -50,19 +50,19 @@ async function getRequestOrigin() {
 }
 
 export async function signInAction(_previousState: LoginActionState, formData: FormData): Promise<LoginActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase chưa được cấu hình" };
+  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
 
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
-  if (!email || !password) return { error: "Nhập email và mật khẩu để đăng nhập" };
+  if (!email || !password) return { error: "Enter your email and password to sign in" };
 
   const supabase = await createSupabaseServerClient();
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
 
-  if (error || !data.user) return { error: getAuthError(error, "Email hoặc mật khẩu không chính xác") };
+  if (error || !data.user) return { error: getAuthError(error, "Incorrect email or password") };
   if (!isAdminUser(data.user)) {
     await supabase.auth.signOut();
-    return { error: "Tài khoản này chưa được cấp quyền admin" };
+    return { error: "This account does not have administrator access" };
   }
 
   redirect("/admin/exercises");
@@ -72,16 +72,16 @@ export async function requestPasswordResetAction(
   _previousState: PasswordResetActionState,
   formData: FormData,
 ): Promise<PasswordResetActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase chưa được cấu hình" };
+  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
 
   const email = String(formData.get("email") ?? "").trim().toLowerCase();
-  if (!email || !/^\S+@\S+\.\S+$/.test(email)) return { error: "Nhập địa chỉ email hợp lệ" };
+  if (!email || !/^\S+@\S+\.\S+$/.test(email)) return { error: "Enter a valid email address" };
   if (!isAdminEmail(email)) return { success: passwordResetSuccess };
 
   const supabase = await createSupabaseServerClient();
   const redirectTo = new URL("/auth/callback", await getRequestOrigin()).toString();
   const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo });
-  if (error) return { error: getAuthError(error, "Không thể gửi email khôi phục mật khẩu. Vui lòng thử lại.") };
+  if (error) return { error: getAuthError(error, "Unable to send the password reset email. Please try again.") };
 
   return { success: passwordResetSuccess };
 }
@@ -90,21 +90,21 @@ export async function updatePasswordAction(
   _previousState: PasswordResetActionState,
   formData: FormData,
 ): Promise<PasswordResetActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase chưa được cấu hình" };
+  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
 
   const password = String(formData.get("password") ?? "");
   const confirmation = String(formData.get("passwordConfirmation") ?? "");
-  if (password.length < 12) return { error: "Mật khẩu mới phải có ít nhất 12 ký tự" };
-  if (password !== confirmation) return { error: "Hai mật khẩu chưa khớp" };
+  if (password.length < 12) return { error: "The new password must contain at least 12 characters" };
+  if (password !== confirmation) return { error: "The passwords do not match" };
 
   const supabase = await createSupabaseServerClient();
   const { data, error: userError } = await supabase.auth.getUser();
   if (userError || !isAdminUser(data.user)) {
-    return { error: getAuthError(userError, "Liên kết khôi phục không hợp lệ hoặc đã hết hạn. Hãy yêu cầu email mới.") };
+    return { error: getAuthError(userError, "The reset link is invalid or has expired. Request a new email.") };
   }
 
   const { error } = await supabase.auth.updateUser({ password });
-  if (error) return { error: getAuthError(error, "Không thể cập nhật mật khẩu. Vui lòng thử lại.") };
+  if (error) return { error: getAuthError(error, "Unable to update the password. Please try again.") };
 
   redirect("/admin/exercises");
 }

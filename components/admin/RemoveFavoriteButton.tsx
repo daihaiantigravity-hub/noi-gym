@@ -22,11 +22,11 @@ export default function RemoveFavoriteButton({ exerciseId, exerciseName }: { exe
       });
       if (!response.ok) {
         const body = await response.json().catch(() => null) as { error?: string } | null;
-        throw new Error(body?.error || "Không thể bỏ bài tập khỏi danh sách ưu tiên.");
+        throw new Error(body?.error || "Unable to remove the exercise from the featured list.");
       }
       router.refresh();
     } catch (requestError) {
-      setError(requestError instanceof Error ? requestError.message : "Không thể cập nhật danh sách yêu thích.");
+      setError(requestError instanceof Error ? requestError.message : "Unable to update the featured list.");
     } finally {
       setPending(false);
     }
@@ -35,13 +35,13 @@ export default function RemoveFavoriteButton({ exerciseId, exerciseName }: { exe
   return (
     <div className="admin-favorite-remove">
       <button
-        aria-label={`Bỏ ưu tiên bài tập ${exerciseName}`}
+        aria-label={`Remove ${exerciseName} from featured exercises`}
         className="admin-row-action admin-row-action--danger"
         disabled={pending}
         onClick={removeFavorite}
         type="button"
       >
-        {pending ? "Đang cập nhật…" : "Bỏ ưu tiên"}
+        {pending ? "Updating…" : "Remove featured"}
       </button>
       {error ? <span className="admin-favorite-remove__error" role="alert">{error}</span> : null}
     </div>
