@@ -71,34 +71,34 @@ export default function MuscleMap({ isMale }: MuscleMapProps) {
   );
 
   return (
-    <section className={`muscle-map muscle-map--${activeView}`} aria-label={`${isMale ? "Male" : "Female"} muscle map`}>
+    <section className={`muscle-map muscle-map--${activeView}`} aria-label={`Bản đồ cơ thể ${isMale ? "nam" : "nữ"}`}>
       <div className="muscle-map__labels">
-        <span className="muscle-map__label">Front View</span>
-        <span className="muscle-map__label">Back View</span>
-        <div className="muscle-map__view-toggle" role="group" aria-label="Choose body view">
+        <span className="muscle-map__label">Mặt trước</span>
+        <span className="muscle-map__label">Mặt sau</span>
+        <div className="muscle-map__view-toggle" role="group" aria-label="Chọn góc nhìn cơ thể">
           <button
             className={activeView === "front" ? "muscle-map__view-button muscle-map__view-button--active" : "muscle-map__view-button"}
             type="button"
-            aria-label="Show front view"
+            aria-label="Hiển thị mặt trước"
             aria-pressed={activeView === "front"}
             onClick={() => setActiveView("front")}
           >
-            Front
+            Mặt trước
           </button>
           <button
             className={activeView === "back" ? "muscle-map__view-button muscle-map__view-button--active" : "muscle-map__view-button"}
             type="button"
-            aria-label="Show back view"
+            aria-label="Hiển thị mặt sau"
             aria-pressed={activeView === "back"}
             onClick={() => setActiveView("back")}
           >
-            Back
+            Mặt sau
           </button>
         </div>
       </div>
       <div className="muscle-map__figures">
-        {renderFigure(svgMarkup?.front, `${isMale ? "Male" : "Female"} front body view`)}
-        {renderFigure(svgMarkup?.back, `${isMale ? "Male" : "Female"} back body view`)}
+        {renderFigure(svgMarkup?.front, `Mặt trước cơ thể ${isMale ? "nam" : "nữ"}`)}
+        {renderFigure(svgMarkup?.back, `Mặt sau cơ thể ${isMale ? "nam" : "nữ"}`)}
       </div>
     </section>
   );

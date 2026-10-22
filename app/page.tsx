@@ -245,91 +245,91 @@ const workoutRows: { title: string; cards: WorkoutCard[] }[] = [
 ];
 
 const weeklySchedule: { day: string; session: string; muscles: string; flexible?: boolean }[] = [
-  { day: "Thứ 2", session: "Push", muscles: "Ngực · Vai · Tay sau" },
-  { day: "Thứ 3", session: "Pull", muscles: "Lưng · Tay trước" },
-  { day: "Thứ 4", session: "Legs", muscles: "Chân · Mông" },
-  { day: "Thứ 5", session: "Upper", muscles: "Ngực · Lưng · Vai · Tay" },
-  { day: "Thứ 6", session: "Lower", muscles: "Chân · Mông · Core" },
-  { day: "Thứ 7", session: "Linh hoạt", muscles: "Cardio / Core / nhóm cơ yếu", flexible: true },
-  { day: "Chủ nhật", session: "Linh hoạt", muscles: "Nghỉ hoặc cardio nhẹ", flexible: true },
+  { day: "Thứ 2", session: "Đẩy", muscles: "Ngực · Vai · Tay sau" },
+  { day: "Thứ 3", session: "Kéo", muscles: "Lưng · Tay trước" },
+  { day: "Thứ 4", session: "Thân dưới", muscles: "Chân · Mông" },
+  { day: "Thứ 5", session: "Thân trên", muscles: "Ngực · Lưng · Vai · Tay" },
+  { day: "Thứ 6", session: "Thân dưới", muscles: "Chân · Mông · Cơ trung tâm" },
+  { day: "Thứ 7", session: "Linh hoạt", muscles: "Tim mạch / Cơ trung tâm / nhóm cơ yếu", flexible: true },
+  { day: "Chủ nhật", session: "Linh hoạt", muscles: "Nghỉ hoặc tập tim mạch nhẹ", flexible: true },
 ];
 
 const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string }> = {
   featured: {
-    title: "What do you want to train?",
-    subtitle: "Choose a muscle group to explore exercises.",
+    title: "Bạn muốn tập nhóm cơ nào?",
+    subtitle: "Chọn một nhóm cơ để khám phá các bài tập phù hợp.",
   },
   barbell: {
-    title: "Train with a barbell",
-    subtitle: "Choose a muscle group to explore barbell exercises.",
+    title: "Tập với tạ đòn",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ đòn.",
   },
   dumbbells: {
-    title: "Train with dumbbells",
-    subtitle: "Choose a muscle group to explore dumbbell exercises.",
+    title: "Tập với tạ đơn",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ đơn.",
   },
   bodyweight: {
-    title: "Train with your bodyweight",
-    subtitle: "Choose a muscle group to explore bodyweight exercises.",
+    title: "Tập với trọng lượng cơ thể",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập không cần dụng cụ.",
   },
   machine: {
-    title: "Train with machines",
-    subtitle: "Choose a muscle group to explore machine exercises.",
+    title: "Tập với máy",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy.",
   },
   "medicine-ball": {
-    title: "Train with a medicine ball",
-    subtitle: "Choose a muscle group to explore medicine ball exercises.",
+    title: "Tập với bóng tạ",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với bóng tạ.",
   },
   kettlebells: {
-    title: "Train with kettlebells",
-    subtitle: "Choose a muscle group to explore kettlebell exercises.",
+    title: "Tập với tạ ấm",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với tạ ấm.",
   },
   stretches: {
-    title: "Explore stretches",
-    subtitle: "Choose a muscle group to explore stretches.",
+    title: "Khám phá bài tập giãn cơ",
+    subtitle: "Chọn một nhóm cơ để xem các động tác giãn cơ.",
   },
   cables: {
-    title: "Train with cables",
-    subtitle: "Choose a muscle group to explore cable exercises.",
+    title: "Tập với cáp",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với cáp.",
   },
   band: {
-    title: "Train with bands",
-    subtitle: "Choose a muscle group to explore band exercises.",
+    title: "Tập với dây kháng lực",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với dây kháng lực.",
   },
   plate: {
-    title: "Train with plates",
-    subtitle: "Choose a muscle group to explore plate exercises.",
+    title: "Tập với đĩa tạ",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với đĩa tạ.",
   },
   trx: {
-    title: "Train with TRX",
-    subtitle: "Choose a muscle group to explore TRX exercises.",
+    title: "Tập với dây TRX",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với dây TRX.",
   },
   yoga: {
-    title: "Practice yoga",
-    subtitle: "Choose a muscle group to explore yoga exercises.",
+    title: "Tập Yoga",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập Yoga.",
   },
   "bosu-ball": {
-    title: "Train with a Bosu ball",
-    subtitle: "Choose a muscle group to explore Bosu ball exercises.",
+    title: "Tập với bóng Bosu",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với bóng Bosu.",
   },
   cardio: {
-    title: "Explore cardio exercises",
-    subtitle: "Choose a muscle group to explore cardio exercises.",
+    title: "Khám phá bài tập tim mạch",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập tim mạch.",
   },
   "smith-machine": {
-    title: "Train with a Smith machine",
-    subtitle: "Choose a muscle group to explore Smith machine exercises.",
+    title: "Tập với máy Smith",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy Smith.",
   },
   pilates: {
-    title: "Practice Pilates",
-    subtitle: "Choose a muscle group to explore Pilates exercises.",
+    title: "Tập Pilates",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập Pilates.",
   },
   recovery: {
-    title: "Explore recovery exercises",
-    subtitle: "Choose a muscle group to explore recovery exercises.",
+    title: "Khám phá bài tập phục hồi",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập phục hồi.",
   },
   vitruvian: {
-    title: "Train with Vitruvian",
-    subtitle: "Choose a muscle group to explore Vitruvian exercises.",
+    title: "Tập với máy Vitruvian",
+    subtitle: "Chọn một nhóm cơ để xem các bài tập với máy Vitruvian.",
   },
 };
 
@@ -447,7 +447,7 @@ export default function Home() {
         </div> */}
 
         <section className="health-card fitness-index-card">
-          <h2>Fitness index</h2>
+          <h2>Chỉ số thể lực</h2>
         </section>
 
 
@@ -457,15 +457,15 @@ export default function Home() {
         <div className="health-bottom-nav__pill">
           <button aria-current="page" className="health-bottom-nav__item health-bottom-nav__item--active" type="button">
             <Icon name="home" size={24} />
-            <span>Home</span>
+            <span>Trang chủ</span>
           </button>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="together" size={24} />
-            <span>Together</span>
+            <span>Cộng đồng</span>
           </Link>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="fitness" size={24} />
-            <span>Fitness</span>
+            <span>Thể lực</span>
           </Link>
         </div>
         <Link aria-label="Mở trang quản lý bài tập" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>

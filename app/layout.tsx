@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Noi Gym",
-  description: "Noi Gym exercise library and content dashboard",
+  description: "Thư viện bài tập và trang quản lý nội dung Noi Gym",
 };
 
 export const viewport: Viewport = {

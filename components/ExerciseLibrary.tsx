@@ -5,37 +5,23 @@ import { useRouter } from "next/navigation";
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import { getPageHref, PUBLIC_EXERCISES_PAGE_SIZE } from "@/lib/exercises/pagination";
 import { withExerciseGender } from "@/lib/exercises/gender";
+import { getMuscleLabel } from "@/lib/exercises/labels";
 import { useSavedExercise } from "@/lib/exercises/use-saved-exercise";
 import type { ExerciseGender, PublicExercise } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
 import ExercisePagination from "./ExercisePagination";
 
 const fakeExerciseThumbnails = [
-  { variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
-  { variant: "muscle", kicker: "10 MINUTE MIRACLE", hero: "MUSCLE", sub: "WORKOUT" },
-  { variant: "home-yoga", kicker: "AT HOME", hero: "FLOW", sub: "YOGA" },
-  { variant: "outdoor", kicker: "MOVE EVERY DAY", hero: "MOVE", sub: "OUTDOOR" },
-  { variant: "zumba", kicker: "DANCE FITNESS", hero: "ZUMBA®", sub: "LET'S MOVE" },
-  { variant: "dance", kicker: "DANCE FITNESS", hero: "DANCE", sub: "TOGETHER" },
+  { variant: "full-body", kicker: "10 PHÚT TẬP LUYỆN", hero: "TOÀN THÂN", sub: "BÀI TẬP" },
+  { variant: "muscle", kicker: "10 PHÚT TẬP LUYỆN", hero: "NHÓM CƠ", sub: "BÀI TẬP" },
+  { variant: "home-yoga", kicker: "TẬP TẠI NHÀ", hero: "CHUYỂN ĐỘNG", sub: "YOGA" },
+  { variant: "outdoor", kicker: "VẬN ĐỘNG MỖI NGÀY", hero: "VẬN ĐỘNG", sub: "NGOÀI TRỜI" },
+  { variant: "zumba", kicker: "THỂ LỰC VŨ ĐẠO", hero: "ZUMBA®", sub: "CÙNG TẬP" },
+  { variant: "dance", kicker: "THỂ LỰC VŨ ĐẠO", hero: "VŨ ĐẠO", sub: "CÙNG NHAU" },
 ] as const;
 
-const muscleNameBySlug: Record<string, string> = {
-  abdominals: "Abdominals",
-  calves: "Calves",
-  chest: "Chest",
-  glutes: "Glutes",
-  hamstrings: "Hamstrings",
-  lats: "Lats",
-  lowerback: "Lower back",
-  obliques: "Obliques",
-  quads: "Quads",
-  shoulders: "Shoulders",
-  traps: "Traps",
-  triceps: "Triceps",
-};
-
 function formatMuscleName(muscle: string) {
-  return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+  return getMuscleLabel(muscle);
 }
 
 function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: PublicExercise; gender?: ExerciseGender; muscle: string; routePath: string }) {
@@ -112,36 +98,36 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
       </header>
       {saveError && <p className="exercise-library-exercise-card__save-error" role="alert">{saveError}</p>}
       <div className="exercise-library-showcase__media">
-        <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
+        <div aria-label={`Video minh họa ${exercise.name}`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
           {Array.from({ length: videoCount }, (_, videoIndex) => {
             const video = videos[videoIndex];
             const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
-              <div aria-label={`${exercise.name} view ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
-                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`${exercise.name} video ${videoIndex + 1}`} poster={video.posterUrl ?? fallbackPoster} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
+              <div aria-label={`${exercise.name}, góc quay ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
+                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`Video ${exercise.name}, góc quay ${videoIndex + 1}`} poster={video.posterUrl ?? fallbackPoster} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
           })}
         </div>
       </div>
-      {exercise.steps.length > 0 ? <ol aria-label={`${exercise.name} instructions`} className="exercise-library-exercise-card__steps">{exercise.steps.map((step, index) => <li key={`${exercise.id}-step-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p className="exercise-library-exercise-card__steps-empty">Instructions are not available for this exercise.</p>}
+      {exercise.steps.length > 0 ? <ol aria-label={`Hướng dẫn ${exercise.name}`} className="exercise-library-exercise-card__steps">{exercise.steps.map((step, index) => <li key={`${exercise.id}-step-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p className="exercise-library-exercise-card__steps-empty">Chưa có hướng dẫn cho bài tập này.</p>}
     </article>
   );
 }
 
 export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; gender?: ExerciseGender; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
   const router = useRouter();
-  const muscleName = targetLabel ?? formatMuscleName(muscle);
+  const muscleName = targetLabel ? getMuscleLabel(targetLabel) : formatMuscleName(muscle);
   const currentRoutePath = getPageHref(routePath, page);
   const isEmptyPage = exercises.length === 0 && (page > 1 || total > 0);
 
   return (
-    <main aria-label={`${muscleName} exercises`} className="exercise-library-page health-mood-surface">
+    <main aria-label={`Bài tập ${muscleName}`} className="exercise-library-page health-mood-surface">
       <header className="exercise-library-header">
-        <button aria-label="Back to Home" className="exercise-library-back-button" onClick={() => router.push("/")} title="Back to Home" type="button">
+        <button aria-label="Quay về trang chủ" className="exercise-library-back-button" onClick={() => router.push("/")} title="Quay về trang chủ" type="button">
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </button>
-        <h1 className="exercise-library-results__title" id="exercise-results-title">{gender === "female" ? "Female " : ""}{muscleName} Exercises</h1>
+        <h1 className="exercise-library-results__title" id="exercise-results-title">Bài tập {muscleName}{gender === "female" ? " cho nữ" : " cho nam"}</h1>
       </header>
       {exercises.length > 0 ? (
         <section aria-labelledby="exercise-results-title" className="exercise-library-results">
@@ -154,10 +140,10 @@ export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, p
               <path d="M8 11v10M12 8v16M20 8v16M24 11v10M12 16h8M5 13v6M27 13v6" />
             </svg>
           </span>
-          <h2 id="exercise-empty-title">{isEmptyPage ? "No exercises on this page" : "No exercises available yet"}</h2>
-          <p>{isEmptyPage ? "This page is empty. Return to the first page to see available exercises." : `There are no ${gender === "female" ? "female" : "male"} exercises for ${muscleName} in this selection yet.`}</p>
+          <h2 id="exercise-empty-title">{isEmptyPage ? "Trang này không có bài tập" : "Chưa có bài tập phù hợp"}</h2>
+          <p>{isEmptyPage ? "Hãy quay lại trang đầu để xem các bài tập hiện có." : `Chưa có bài tập ${muscleName} cho ${gender === "female" ? "nữ" : "nam"} với lựa chọn này.`}</p>
           <Link className="exercise-library-empty__action" href={isEmptyPage ? getPageHref(routePath, 1) : "/"}>
-            {isEmptyPage ? "View first page" : "Explore other exercises"}
+            {isEmptyPage ? "Xem trang đầu" : "Khám phá bài tập khác"}
           </Link>
         </section>
       )}

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Coming Soon | Noi Gym",
+  title: "Sắp ra mắt | Noi Gym",
 };
 
 export default function ComingSoonPage() {
@@ -14,10 +14,10 @@ export default function ComingSoonPage() {
 
       <main className="coming-soon-page__main">
         <div className="coming-soon-page__content">
-          <span className="coming-soon-page__eyebrow">Coming soon</span>
-          <h1>In Development</h1>
-          <p>This feature is in development.</p>
-          <Link className="coming-soon-page__home" href="/">Back to Home</Link>
+          <span className="coming-soon-page__eyebrow">Sắp ra mắt</span>
+          <h1>Đang phát triển</h1>
+          <p>Tính năng này đang được hoàn thiện.</p>
+          <Link className="coming-soon-page__home" href="/">Về trang chủ</Link>
         </div>
       </main>
     </div>

@@ -5,9 +5,9 @@ import type { ExerciseMediaValue } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
 
 const fakeDetailSlides = [
-  { kicker: "HOME TRAINING 10 MINUTE MIRACLE", sub: "BURN FAT IN 10 MINUTES WITH FULL BODY", modifier: "" },
-  { kicker: "10 MINUTE MIRACLE", sub: "WORKOUT AT HOME", modifier: "exercise-detail-hero--second" },
-  { kicker: "MOVE EVERY DAY", sub: "TRAIN WITH CONTROL", modifier: "exercise-detail-hero--third" },
+  { kicker: "10 PHÚT TẬP TẠI NHÀ", sub: "BÀI TẬP TOÀN THÂN TRONG 10 PHÚT", modifier: "" },
+  { kicker: "10 PHÚT TẬP LUYỆN", sub: "BÀI TẬP TẠI NHÀ", modifier: "exercise-detail-hero--second" },
+  { kicker: "VẬN ĐỘNG MỖI NGÀY", sub: "KIỂM SOÁT TỪNG CHUYỂN ĐỘNG", modifier: "exercise-detail-hero--third" },
 ] as const;
 
 export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: { mediaCount: number; title: string; media?: ExerciseMediaValue[] }) {
@@ -52,13 +52,13 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
 
   return (
     <>
-      <div aria-label={`${title} demonstration videos`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
+      <div aria-label={`Video minh họa ${title}`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
         {Array.from({ length: slideCount }, (_, index) => {
           const slide = fakeDetailSlides[index % fakeDetailSlides.length];
           const selectedMedia = realMedia[index];
           return (
-            <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
-              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`${title} demonstration video ${index + 1}`} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+            <section aria-label={`${title}, góc quay ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
+              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`Video ${title}, góc quay ${index + 1}`} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
               {selectedMedia?.videoUrl && (
                 <div aria-hidden="true" className="exercise-detail-hero__watermark-cover" />
               )}

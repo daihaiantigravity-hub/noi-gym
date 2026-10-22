@@ -4,7 +4,7 @@ export default function AdminExercisesError({ reset }: { error: Error & { digest
   return (
     <main className="admin-page">
       <section className="admin-error-state" role="alert">
-        <span className="admin-eyebrow">EXERCISE LIBRARY</span>
+        <span className="admin-eyebrow">THƯ VIỆN BÀI TẬP</span>
         <h1>Không tải được dữ liệu</h1>
         <p>Kiểm tra cấu hình Supabase hoặc thử tải lại dashboard.</p>
         <button className="admin-button admin-button--primary" onClick={() => reset()} type="button">Thử lại</button>

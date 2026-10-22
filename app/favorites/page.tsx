@@ -6,6 +6,7 @@ import { listUserFavoriteExercises, USER_FAVORITES_PAGE_SIZE } from "@/lib/exerc
 import { parsePage } from "@/lib/exercises/pagination";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getCurrentUser } from "@/lib/user-auth";
+import { getEquipmentLabel, getMuscleLabel } from "@/lib/exercises/labels";
 
 function formatSavedAt(value: string) {
   return new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
@@ -48,8 +49,8 @@ export default async function FavoritesPage({ searchParams }: { searchParams: Pr
               <div className="favorite-card__body">
                 <div className="favorite-card__copy">
                   <h2><Link href={exercise.publicHref}>{exercise.name}</Link></h2>
-                  <p>{exercise.primaryMuscles.slice(0, 2).join(" · ") || "Bài tập"}</p>
-                  <small>{exercise.category || "Không dụng cụ"} · Đã lưu {formatSavedAt(exercise.savedAt)}</small>
+                  <p>{exercise.primaryMuscles.slice(0, 2).map(getMuscleLabel).join(" · ") || "Bài tập"}</p>
+                  <small>{exercise.category ? getEquipmentLabel(exercise.category) : "Không dụng cụ"} · Đã lưu {formatSavedAt(exercise.savedAt)}</small>
                 </div>
                 <FavoriteRemoveButton exerciseId={exercise.id} exerciseName={exercise.name} />
               </div>

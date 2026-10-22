@@ -2,6 +2,7 @@ import Link from "next/link";
 import RemoveFavoriteButton from "@/components/admin/RemoveFavoriteButton";
 import { listAdminFavoriteExercises } from "@/lib/exercises/favorites";
 import { isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
+import { getDifficultyLabel, getEquipmentLabel, getMuscleLabel, getStatusLabel } from "@/lib/exercises/labels";
 
 function formatSavedAt(value: string) {
   return new Intl.DateTimeFormat("vi-VN", {
@@ -21,7 +22,7 @@ export default async function AdminFavoritesPage() {
     <main className="admin-page">
       <header className="admin-page-header">
         <div>
-          <span className="admin-eyebrow">BUILD · FEATURED EXERCISES</span>
+          <span className="admin-eyebrow">QUẢN LÝ · BÀI TẬP ƯU TIÊN</span>
           <h1>Bài tập ưu tiên</h1>
           <p className="admin-muted">Danh sách bài tập được quản trị chọn để ưu tiên trước khi xếp theo lượt yêu thích cộng đồng.</p>
         </div>
@@ -34,7 +35,7 @@ export default async function AdminFavoritesPage() {
       <section className="admin-list-panel" aria-labelledby="admin-favorites-title">
         <div className="admin-list-heading">
           <div>
-            <span className="admin-eyebrow">FEATURED</span>
+            <span className="admin-eyebrow">ƯU TIÊN</span>
             <h2 id="admin-favorites-title">{favorites.length.toLocaleString("vi-VN")} bài ưu tiên</h2>
           </div>
           <span className="admin-list-page">Mới lưu gần đây hiển thị trước</span>
@@ -47,8 +48,8 @@ export default async function AdminFavoritesPage() {
                 <tr>
                   <th>Bài tập</th>
                   <th>Nhóm cơ</th>
-                  <th>Equipment</th>
-                  <th>Difficulty</th>
+                  <th>Dụng cụ</th>
+                  <th>Độ khó</th>
                   <th>Đã lưu</th>
                   <th />
                 </tr>
@@ -59,17 +60,17 @@ export default async function AdminFavoritesPage() {
                     <td>
                       <div className="admin-exercise-name">
                         <strong>{exercise.name}</strong>
-                        <small>{exercise.mediaLabel} · {exercise.status}</small>
+                        <small>{exercise.mediaLabel} · {getStatusLabel(exercise.status)}</small>
                       </div>
                     </td>
                     <td>
                       <div className="admin-tag-list">
-                        {exercise.primaryMuscles.slice(0, 2).map((muscle) => <span className="admin-tag" key={muscle}>{muscle}</span>)}
+                        {exercise.primaryMuscles.slice(0, 2).map((muscle) => <span className="admin-tag" key={muscle}>{getMuscleLabel(muscle)}</span>)}
                         {exercise.primaryMuscles.length > 2 ? <span className="admin-tag">+{exercise.primaryMuscles.length - 2}</span> : null}
                       </div>
                     </td>
-                    <td>{exercise.category || "—"}</td>
-                    <td>{exercise.difficulty || "—"}</td>
+                    <td>{exercise.category ? getEquipmentLabel(exercise.category) : "—"}</td>
+                    <td>{exercise.difficulty ? getDifficultyLabel(exercise.difficulty) : "—"}</td>
                     <td>{formatSavedAt(exercise.savedAt)}</td>
                     <td>
                       <div className="admin-row-actions admin-favorite-actions">

@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import EquipmentIcon, { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import { getEquipmentLabel } from "@/lib/exercises/labels";
 
 type HealthCategoryNavProps = {
   activeCategory: EquipmentIconName;
@@ -43,9 +44,10 @@ export default function HealthCategoryNav({ activeCategory, onSelect }: HealthCa
     <div className="health-category-nav-shell">
       <nav aria-label="Loại thiết bị tập luyện" className="health-category-nav" ref={navRef}>
         {VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => {
+          const displayLabel = getEquipmentLabel(item.label);
           return (
             <button
-              aria-label={item.label}
+              aria-label={displayLabel}
               aria-pressed={activeCategory === item.icon}
               className={`health-category-button${activeCategory === item.icon ? " health-category-button--active" : ""}`}
               key={item.icon}
@@ -54,7 +56,7 @@ export default function HealthCategoryNav({ activeCategory, onSelect }: HealthCa
                 if (navRef.current) revealCategory(navRef.current, event.currentTarget);
               }}
               ref={activeCategory === item.icon ? activeButtonRef : null}
-              title={item.label}
+              title={displayLabel}
               type="button"
             >
               <EquipmentIcon name={item.icon} />

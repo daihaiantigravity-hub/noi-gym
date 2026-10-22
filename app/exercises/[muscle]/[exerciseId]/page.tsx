@@ -10,24 +10,10 @@ import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, getExerciseCategoryBySlug, getJointTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
 import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercise, PublicExercisePage } from "@/lib/exercises/types";
-
-const muscleNameBySlug: Record<string, string> = {
-  abdominals: "Abdominals",
-  calves: "Calves",
-  chest: "Chest",
-  glutes: "Glutes",
-  hamstrings: "Hamstrings",
-  lats: "Lats",
-  lowerback: "Lower back",
-  obliques: "Obliques",
-  quads: "Quads",
-  shoulders: "Shoulders",
-  traps: "Traps",
-  triceps: "Triceps",
-};
+import { getMuscleLabel } from "@/lib/exercises/labels";
 
 function formatMuscleName(muscle: string) {
-  return muscleNameBySlug[muscle] ?? muscle.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+  return getMuscleLabel(muscle);
 }
 
 function getDisplayExerciseName(name: string) {
@@ -96,7 +82,7 @@ export default async function ExerciseDetailPage({
   const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : withExerciseGender(`/exercises/${muscle}`, gender);
 
   return (
-    <main aria-label={`${displayName} details`} className="exercise-detail-page">
+    <main aria-label={`Chi tiết bài tập ${displayName}`} className="exercise-detail-page">
       <header className="exercise-detail-topbar">
         <Link aria-label={`Quay lại ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>

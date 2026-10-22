@@ -16,7 +16,7 @@ const workspaceItems: AdminNavigationItem[] = [
   { label: "Tổng quan", href: "/admin", icon: "dashboard" },
   { label: "Bài tập", href: "/admin/exercises", icon: "dumbbell" },
   { label: "Ưu tiên", href: "/admin/favorites", icon: "bookmark" },
-  { label: "Import dữ liệu", href: "/admin/exercises/import", icon: "upload" },
+  { label: "Nhập dữ liệu", href: "/admin/exercises/import", icon: "upload" },
 ];
 
 const futureItems: AdminNavigationItem[] = [
@@ -146,12 +146,12 @@ export default function AdminSidebar() {
         <span className="admin-sidebar__brand-mark">N</span>
         <div>
           <strong>NOI GYM</strong>
-          <span>Admin workspace</span>
+          <span>Không gian quản trị</span>
         </div>
       </div>
 
       <nav className="admin-sidebar__nav" aria-label="Menu quản trị">
-        <NavigationGroup label="Workspace" items={workspaceItems} activeHref={activeHref} />
+        <NavigationGroup label="Quản lý" items={workspaceItems} activeHref={activeHref} />
         <NavigationGroup label="Mở rộng" items={futureItems} activeHref={activeHref} />
       </nav>
 
@@ -160,7 +160,7 @@ export default function AdminSidebar() {
           <span aria-hidden="true">←</span>
           <span>Về giao diện người dùng</span>
         </Link>
-        <span className="admin-sidebar__version">NOI GYM · ADMIN</span>
+        <span className="admin-sidebar__version">NOI GYM · QUẢN TRỊ</span>
       </div>
     </aside>
   );

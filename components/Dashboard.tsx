@@ -8,8 +8,8 @@ export default function Dashboard() {
   const [isMale, setIsMale] = useState(true);
 
   return (
-    <main className="dashboard-layout" aria-label="Noi Gym dashboard">
-      <section className="dashboard-workspace" aria-label="Muscle map and exercise filters">
+    <main className="dashboard-layout" aria-label="Bảng điều khiển Noi Gym">
+      <section className="dashboard-workspace" aria-label="Bản đồ cơ thể và bộ lọc bài tập">
         <MuscleMap isMale={isMale} />
         <ExerciseFilters isMale={isMale} onGenderChange={setIsMale} />
       </section>

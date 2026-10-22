@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { EquipmentIconName } from "./EquipmentIcon";
 import { withExerciseGender } from "@/lib/exercises/gender";
 import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
+import { getMuscleLabel } from "@/lib/exercises/labels";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
 
 type BodyView = "front" | "back";
@@ -241,9 +242,9 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
   const mapIsInteractive = activeMode !== "joints";
 
   const modeItems: Array<{ id: BodyMapMode; label: string }> = [
-    { id: "standard", label: "Standard" },
-    { id: "joints", label: "Joints" },
-    { id: "advanced", label: "Advanced" },
+    { id: "standard", label: "Cơ bản" },
+    { id: "joints", label: "Khớp" },
+    { id: "advanced", label: "Chuyên sâu" },
 
   ];
   const overlayTargets = activeMode === "joints" ? JOINT_TARGETS : [];
@@ -288,7 +289,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         */}
         <div className="body-profile-toolbar">
           <div className={`body-profile-mode-switcher body-profile-mode-switcher--${activeGender}`}>
-            <div aria-label="Body map view" className="body-profile-mode-switcher__modes" role="tablist">
+            <div aria-label="Chế độ xem bản đồ cơ thể" className="body-profile-mode-switcher__modes" role="tablist">
               {modeItems.map((item) => (
                 <button
                   aria-selected={activeMode === item.id}
@@ -361,7 +362,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                         const href = withExerciseGender(getTargetRoute(target), activeGender === "female" ? "female" : undefined);
 
                         return (
-                          <Link aria-label={`Mở bài tập ${target.label}`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
+                          <Link aria-label={`Mở bài tập ${getMuscleLabel(target.label)}`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
                             <circle className="body-profile__hotspot-halo" cx={layout.cx} cy={layout.cy} r="25" />
                             <circle className="body-profile__hotspot-dot" cx={layout.cx} cy={layout.cy} r="13" />
                           </Link>

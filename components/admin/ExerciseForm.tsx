@@ -5,6 +5,7 @@ import { saveExerciseAction, type ExerciseActionState } from "@/app/actions/exer
 import ExercisePreview from "@/components/admin/ExercisePreview";
 import { EXERCISE_DIFFICULTIES, EXERCISE_FORCES, EXERCISE_GRIPS, EXERCISE_MECHANICS, EXERCISE_MUSCLES, EXERCISE_STATUSES, VISIBLE_EXERCISE_CATEGORIES } from "@/lib/exercises/constants";
 import { EXERCISE_VIDEO_TYPES, MAX_EXERCISE_VIDEO_DURATION_SECONDS, MAX_EXERCISE_VIDEO_SIZE } from "@/lib/exercises/media";
+import { getAngleLabel, getDifficultyLabel, getEquipmentLabel, getForceLabel, getGenderLabel, getGripLabel, getMechanicLabel, getMuscleLabel, getStatusLabel } from "@/lib/exercises/labels";
 import { slugify } from "@/lib/exercises/slug";
 import type { ExerciseFormValues, ExerciseMediaValue, ExerciseSourceOption } from "@/lib/exercises/types";
 
@@ -175,7 +176,7 @@ export default function ExerciseForm({
               <input required value={values.name} onChange={(event) => { const name = event.target.value; setValues((current) => ({ ...current, name, slug: slugEdited ? current.slug : slugify(name) })); }} />
             </label>
             <label className="admin-field admin-field--wide">
-              <span>Slug <em>*</em></span>
+              <span>Đường dẫn rút gọn <em>*</em></span>
               <input aria-readonly={mode === "create"} readOnly={mode === "create"} required value={values.slug} onChange={(event) => { if (mode === "edit") { setSlugEdited(true); updateField("slug", event.target.value); } }} />
               <small>{mode === "create" ? "Tự động tạo từ tên bài tập theo dạng ten-bai-tap." : "Dùng cho URL và nhận diện duy nhất bài tập."}</small>
             </label>
@@ -185,19 +186,19 @@ export default function ExerciseForm({
                 {EXERCISE_MUSCLES.map((muscle) => (
                   <label className={`admin-chip${values.primaryMuscles.includes(muscle) ? " admin-chip--selected" : ""}`} key={muscle}>
                     <input checked={values.primaryMuscles.includes(muscle)} onChange={() => toggleMuscle(muscle)} type="checkbox" />
-                    {muscle}
+                    {getMuscleLabel(muscle)}
                   </label>
                 ))}
               </div>
             </div>
             <div className="admin-two-fields">
-              <label className="admin-field"><span>Equipment <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Chọn equipment</option>{values.category && !VISIBLE_EXERCISE_CATEGORIES.some((category) => category === values.category) ? <option hidden value={values.category}>{values.category}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{category}</option>)}</select></label>
-              <label className="admin-field"><span>Difficulty <em>*</em></span><select required={values.status === "Published"} value={values.difficulty} onChange={(event) => updateField("difficulty", event.target.value as typeof values.difficulty)}><option value="">Chọn độ khó</option>{EXERCISE_DIFFICULTIES.map((difficulty) => <option key={difficulty} value={difficulty}>{difficulty}</option>)}</select></label>
+              <label className="admin-field"><span>Dụng cụ <em>*</em></span><select required={values.status === "Published"} value={values.category} onChange={(event) => updateField("category", event.target.value)}><option value="">Chọn dụng cụ</option>{values.category && !VISIBLE_EXERCISE_CATEGORIES.some((category) => category === values.category) ? <option hidden value={values.category}>{getEquipmentLabel(values.category)}</option> : null}{VISIBLE_EXERCISE_CATEGORIES.map((category) => <option key={category} value={category}>{getEquipmentLabel(category)}</option>)}</select></label>
+              <label className="admin-field"><span>Độ khó <em>*</em></span><select required={values.status === "Published"} value={values.difficulty} onChange={(event) => updateField("difficulty", event.target.value as typeof values.difficulty)}><option value="">Chọn độ khó</option>{EXERCISE_DIFFICULTIES.map((difficulty) => <option key={difficulty} value={difficulty}>{getDifficultyLabel(difficulty)}</option>)}</select></label>
             </div>
             <div className="admin-three-fields">
-              <label className="admin-field"><span>Force</span><select value={values.force} onChange={(event) => updateField("force", event.target.value as typeof values.force)}><option value="">Chưa chọn</option>{EXERCISE_FORCES.map((force) => <option key={force} value={force}>{force}</option>)}</select></label>
-              <label className="admin-field"><span>Grip</span><select value={values.grips} onChange={(event) => updateField("grips", event.target.value as typeof values.grips)}><option value="">Chưa chọn</option>{EXERCISE_GRIPS.map((grip) => <option key={grip} value={grip}>{grip}</option>)}</select></label>
-              <label className="admin-field"><span>Mechanic</span><select value={values.mechanic} onChange={(event) => updateField("mechanic", event.target.value as typeof values.mechanic)}><option value="">Chưa chọn</option>{EXERCISE_MECHANICS.map((mechanic) => <option key={mechanic} value={mechanic}>{mechanic}</option>)}</select></label>
+              <label className="admin-field"><span>Chuyển động</span><select value={values.force} onChange={(event) => updateField("force", event.target.value as typeof values.force)}><option value="">Chưa chọn</option>{EXERCISE_FORCES.map((force) => <option key={force} value={force}>{getForceLabel(force)}</option>)}</select></label>
+              <label className="admin-field"><span>Kiểu cầm</span><select value={values.grips} onChange={(event) => updateField("grips", event.target.value as typeof values.grips)}><option value="">Chưa chọn</option>{EXERCISE_GRIPS.map((grip) => <option key={grip} value={grip}>{getGripLabel(grip)}</option>)}</select></label>
+              <label className="admin-field"><span>Cơ chế</span><select value={values.mechanic} onChange={(event) => updateField("mechanic", event.target.value as typeof values.mechanic)}><option value="">Chưa chọn</option>{EXERCISE_MECHANICS.map((mechanic) => <option key={mechanic} value={mechanic}>{getMechanicLabel(mechanic)}</option>)}</select></label>
             </div>
           </section>
 
@@ -209,14 +210,14 @@ export default function ExerciseForm({
           </section>
 
           <section className="admin-panel admin-panel--accent">
-            <div className="admin-panel-heading"><div><span className="admin-eyebrow">03 · Dữ liệu nguồn</span><h2>Prefill từ JSON</h2></div><span className="admin-panel-number">B</span></div>
+            <div className="admin-panel-heading"><div><span className="admin-eyebrow">03 · Dữ liệu nguồn</span><h2>Điền sẵn từ JSON</h2></div><span className="admin-panel-number">B</span></div>
             <label className="admin-field admin-field--wide">
               <span>Bài tập MuscleWiki</span>
-              <select disabled={sourceLoading} value={values.source === "musclewiki" ? String(values.sourceId ?? "") : ""} onChange={(event) => void handleSourceChange(event.target.value)}><option value="">Tạo bài tập custom</option>{sourceOptions.map((option) => <option key={option.id} value={option.id}>{option.id} · {option.name}</option>)}</select>
-              <small>{sourceLoading ? "Đang tải dữ liệu…" : "Chọn một record để tự động điền form."}</small>
+              <select disabled={sourceLoading} value={values.source === "musclewiki" ? String(values.sourceId ?? "") : ""} onChange={(event) => void handleSourceChange(event.target.value)}><option value="">Tạo bài tập thủ công</option>{sourceOptions.map((option) => <option key={option.id} value={option.id}>{option.id} · {option.name}</option>)}</select>
+              <small>{sourceLoading ? "Đang tải dữ liệu…" : "Chọn một bản ghi để tự động điền biểu mẫu."}</small>
               {sourceError ? <small className="admin-form-error">{sourceError}</small> : null}
             </label>
-            <div className="admin-source-meta"><span>Source</span><strong>{values.source === "musclewiki" ? `MuscleWiki #${values.sourceId}` : "Custom"}</strong></div>
+            <div className="admin-source-meta"><span>Nguồn</span><strong>{values.source === "musclewiki" ? `MuscleWiki #${values.sourceId}` : "Tự tạo"}</strong></div>
           </section>
 
           <section className="admin-panel">
@@ -226,11 +227,11 @@ export default function ExerciseForm({
                 {values.media.map((media, index) => (
                   <div className="admin-media-row" key={`media-${index}`}>
                     <div className="admin-two-fields">
-                      <label className="admin-field"><span>Gender</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">Male</option><option value="female">Female</option></select></label>
-                      <label className="admin-field"><span>Angle</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">Front</option><option value="side">Side</option></select></label>
+                      <label className="admin-field"><span>Giới tính</span><select value={media.gender} onChange={(event) => updateMedia(index, "gender", event.target.value)}><option value="male">{getGenderLabel("male")}</option><option value="female">{getGenderLabel("female")}</option></select></label>
+                      <label className="admin-field"><span>Góc quay</span><select value={media.angle} onChange={(event) => updateMedia(index, "angle", event.target.value)}><option value="front">{getAngleLabel("front")}</option><option value="side">{getAngleLabel("side")}</option></select></label>
                     </div>
                     <label className="admin-field admin-field--wide">
-                      <span>Upload video <em>*</em></span>
+                      <span>Tải video lên <em>*</em></span>
                       <input accept="video/mp4,video/webm,video/quicktime" onChange={(event) => { const file = event.target.files?.[0]; if (file) void handleVideoUpload(index, file); event.currentTarget.value = ""; }} type="file" />
                       <small>MP4, WebM hoặc MOV · tối đa 25MB · thời lượng không quá 15 giây.</small>
                     </label>
@@ -247,7 +248,7 @@ export default function ExerciseForm({
 
           <section className="admin-panel">
             <div className="admin-panel-heading"><div><span className="admin-eyebrow">05 · Trạng thái</span><h2>Xuất bản</h2></div></div>
-            <label className="admin-field admin-field--wide"><span>Trạng thái</span><select value={values.status} onChange={(event) => updateField("status", event.target.value as typeof values.status)}>{EXERCISE_STATUSES.map((status) => <option key={status} value={status}>{status}</option>)}</select><small>Draft cho phép lưu dữ liệu chưa hoàn chỉnh. Published sẽ xuất hiện ở public library.</small></label>
+            <label className="admin-field admin-field--wide"><span>Trạng thái</span><select value={values.status} onChange={(event) => updateField("status", event.target.value as typeof values.status)}>{EXERCISE_STATUSES.map((status) => <option key={status} value={status}>{getStatusLabel(status)}</option>)}</select><small>Bản nháp cho phép lưu dữ liệu chưa hoàn chỉnh. Bài đã xuất bản sẽ xuất hiện trong thư viện công khai.</small></label>
           </section>
         </div>
 

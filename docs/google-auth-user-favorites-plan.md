@@ -215,7 +215,7 @@ Tiêu chí hoàn thành: bài nhiều lượt yêu thích hơn đứng trước 
 - [x] Anonymous xem được thư viện và thứ tự cộng đồng; HTTP kiểm tra trả `200`.
 - [ ] Anonymous bấm lưu, đăng nhập Google và quay lại đúng trang.
 - [x] Avatar Google xuất hiện, menu hiển thị đúng tên/email và session tồn tại sau OAuth callback.
-- [ ] Người dùng đăng xuất thành công và cache cá nhân được xóa.
+- [x] Người dùng đăng xuất thành công; giao diện chuyển về nút đăng nhập và snapshot favorites cá nhân được reset bởi luồng đăng xuất.
 - [ ] User A không đọc hoặc thay đổi favorites của User B.
 - [ ] Tài khoản thường bị từ chối ở `/admin`.
 - [x] Tài khoản admin đăng nhập Google vẫn được nhận diện đúng quyền; đã mở được `/admin/exercises` và tải 1.946 bài tập.
@@ -233,6 +233,7 @@ Tiêu chí hoàn thành: bài nhiều lượt yêu thích hơn đứng trước 
 - [ ] Scroll danh sách không chậm thêm đáng kể.
 - [x] Ảnh preview và video vẫn xuất hiện trong kiểm tra giao diện local.
 - [ ] Giao diện avatar, menu và icon lưu hoạt động trên mobile.
+- [x] Nhãn giao diện tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và khu vực quản trị hiển thị bằng tiếng Việt; giá trị kỹ thuật trong URL, API và database được giữ nguyên.
 
 ### 9.3 Kiểm tra mã nguồn và rollout
 
@@ -287,3 +288,5 @@ Danh sách này có thể thay đổi khi triển khai, nhưng mọi thay đổi
 | 2026-10-22 | 1–3, 6, 9 | Kiểm thử E2E đạt | Đã sửa callback OAuth dùng redirect URI chính xác và cookie HTTP-only lưu `next`. Đăng nhập Google localhost thành công; session nhận đúng Đại Hải, ảnh Google và quyền admin. Menu tài khoản, `/favorites` với 289 bài và `/admin/exercises` với 1.946 bài đều tải đúng. |
 | 2026-10-22 | 1–3, 6, 9 | Production đạt | Đã deploy commit `8636e0c` lên Vercel. Google OAuth production trả đúng callback; session nhận ảnh Google và quyền admin, `/favorites` tải 289 bài, `/admin/exercises` tải 1.946 bài, Privacy và Terms đều hoạt động. Audience vẫn ở Testing và chờ xác nhận Publish app. |
 | 2026-10-22 | 1 | Hoàn thành | Đã Publish app sau khi được xác nhận. Google Auth Platform hiển thị `In production`, User type `External`; ứng dụng chỉ yêu cầu `openid`, email và profile. |
+| 2026-10-22 | 9 | Đang kiểm thử | Đăng xuất production đạt: menu tài khoản biến mất, nút đăng nhập xuất hiện và trạng thái favorites client được reset. Đã bắt đầu luồng anonymous lưu `Dumbbell Twisting Curl`; đang chờ chọn tài khoản Google thường để kiểm tra RLS và quyền admin. |
+| 2026-10-22 | 9 | Hoàn thành Việt hóa giao diện | Đã chuyển các nhãn tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và admin sang tiếng Việt; giữ nguyên dữ liệu nguồn MuscleWiki cùng các giá trị canonical. TypeScript, lint, 30 test và production build đều đạt. |
