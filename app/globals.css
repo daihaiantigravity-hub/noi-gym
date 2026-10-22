@@ -4677,10 +4677,8 @@ button {
 }
 
 .health-avatar--login {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
   color: #f5f7f9;
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
 }
 
 .health-avatar:disabled {

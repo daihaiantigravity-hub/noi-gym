@@ -25,9 +25,9 @@ function getCurrentPath() {
 
 function LoginIcon() {
   return (
-    <svg aria-hidden="true" fill="none" height="23" viewBox="0 0 24 24" width="23">
-      <path d="M14 8.5 17.5 12 14 15.5M17 12H8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" />
-      <path d="M11 4.5H6.5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2H11" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" />
+    <svg aria-hidden="true" fill="none" height="19" viewBox="0 0 24 24" width="19">
+      <path d="M2.5 12h12m0 0-4.2-4.2m4.2 4.2-4.2 4.2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+      <path d="M8.5 5V4A2 2 0 0 1 10.5 2h8A2 2 0 0 1 20.5 4v16a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-1" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
     </svg>
   );
 }
