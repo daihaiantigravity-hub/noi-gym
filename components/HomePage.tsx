@@ -3,9 +3,11 @@
 import Link from "next/link";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
+import LanguageToggle from "@/components/LanguageToggle";
 import UserAuthButton, { type SessionResponse } from "@/components/auth/UserAuthButton";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import type { AppLanguage } from "@/lib/language";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
 
 const categoryChoices: readonly EquipmentIconName[] = VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
@@ -361,7 +363,10 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
   );
 }
 
-export default function HomePage({ initialAuthSession }: { initialAuthSession: SessionResponse }) {
+export default function HomePage({ initialAuthSession, initialLanguage }: {
+  initialAuthSession: SessionResponse;
+  initialLanguage: AppLanguage;
+}) {
   const [activeCategory, setActiveCategory] = usePersistedChoice<EquipmentIconName>("noi-gym:home:category:v1", "featured", categoryChoices);
   const activeCategoryCopy = categoryCopy[activeCategory];
 
@@ -372,7 +377,11 @@ export default function HomePage({ initialAuthSession }: { initialAuthSession: S
           <span className="health-brand">Equix Health</span>
           <div className="health-topbar__actions">
             {/* <button aria-label="Watch" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
-            <UserAuthButton initialSession={initialAuthSession} />
+            <div className="health-topbar__identity-actions">
+              <LanguageToggle initialLanguage={initialLanguage} />
+              <span aria-hidden="true" className="health-topbar__action-divider" />
+              <UserAuthButton initialSession={initialAuthSession} />
+            </div>
             <button aria-label="More options" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
           </div>
         </div>

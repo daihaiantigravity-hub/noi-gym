@@ -4609,12 +4609,32 @@ button {
   min-width: 0;
   flex: 0 0 auto;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
   color: #f3f6f9;
+}
+
+.health-topbar__identity-actions {
+  display: flex;
+  height: 36px;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 5px;
+  border: 1px solid rgba(220, 231, 238, 0.14);
+  border-radius: 999px;
+  background: rgba(7, 25, 24, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.health-topbar__action-divider {
+  width: 1px;
+  height: 16px;
+  flex: 0 0 auto;
+  background: rgba(220, 231, 238, 0.13);
 }
 
 .health-icon-button,
 .health-avatar,
+.health-language-toggle,
 .health-category-button,
 .health-bottom-nav__item,
 .health-scan-button {
@@ -4631,6 +4651,43 @@ button {
   padding: 0;
   color: #eef3f7;
   background: transparent;
+}
+
+.health-language-toggle {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+}
+
+.health-language-toggle__flag {
+  display: block;
+  width: 21px;
+  height: 14px;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+  filter: saturate(0.82) brightness(0.94);
+}
+
+.health-language-toggle__flag svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.health-topbar__identity-actions > .health-language-toggle,
+.health-topbar__identity-actions .health-avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.health-topbar__identity-actions .health-avatar {
+  --health-avatar-size: 25px;
 }
 
 .health-topbar__row .health-icon-button .health-icon {
@@ -4888,6 +4945,7 @@ button {
 .health-category-button:focus-visible,
 .health-icon-button:focus-visible,
 .health-avatar:focus-visible,
+.health-language-toggle:focus-visible,
 .health-bottom-nav__item:focus-visible,
 .health-scan-button:focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.9);
@@ -6691,12 +6749,36 @@ button {
   }
 
   .health-topbar__actions {
-    gap: 0;
+    gap: 2px;
+  }
+
+  .health-topbar__identity-actions {
+    height: 34px;
   }
 
   .health-icon-button {
     width: 40px;
     height: 40px;
+  }
+
+  .health-language-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .health-language-toggle__flag {
+    width: 21px;
+    height: 14px;
+  }
+
+  .health-topbar__identity-actions > .health-language-toggle,
+  .health-topbar__identity-actions .health-avatar {
+    width: 28px;
+    height: 28px;
+  }
+
+  .health-topbar__identity-actions .health-avatar {
+    --health-avatar-size: 23px;
   }
 
   .health-topbar__row .health-icon-button .health-icon {

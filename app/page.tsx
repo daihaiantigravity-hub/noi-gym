@@ -1,7 +1,9 @@
 import type { User } from "@supabase/supabase-js";
+import { cookies } from "next/headers";
 import HomePage from "@/components/HomePage";
 import type { SessionResponse } from "@/components/auth/UserAuthButton";
 import { isAdminUser } from "@/lib/admin-auth";
+import { LANGUAGE_COOKIE_NAME, parseAppLanguage } from "@/lib/language";
 import { createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
 
 function getSessionResponse(user: User | null): SessionResponse {
@@ -36,5 +38,11 @@ async function getInitialAuthSession(): Promise<SessionResponse> {
 }
 
 export default async function Home() {
-  return <HomePage initialAuthSession={await getInitialAuthSession()} />;
+  const [initialAuthSession, cookieStore] = await Promise.all([
+    getInitialAuthSession(),
+    cookies(),
+  ]);
+  const initialLanguage = parseAppLanguage(cookieStore.get(LANGUAGE_COOKIE_NAME)?.value);
+
+  return <HomePage initialAuthSession={initialAuthSession} initialLanguage={initialLanguage} />;
 }
