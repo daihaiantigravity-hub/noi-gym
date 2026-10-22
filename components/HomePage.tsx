@@ -260,75 +260,75 @@ const categoryCopy: Record<EquipmentIconName, { title: string; subtitle: string 
     subtitle: "Choose a muscle group to explore exercises.",
   },
   barbell: {
-    title: "Train with a barbell",
+    title: "Barbell exercises",
     subtitle: "Choose a muscle group to explore barbell exercises.",
   },
   dumbbells: {
-    title: "Train with dumbbells",
+    title: "Dumbbell exercises",
     subtitle: "Choose a muscle group to explore dumbbell exercises.",
   },
   bodyweight: {
-    title: "Train with your bodyweight",
+    title: "Bodyweight exercises",
     subtitle: "Choose a muscle group to explore bodyweight exercises.",
   },
   machine: {
-    title: "Train with machines",
+    title: "Machine exercises",
     subtitle: "Choose a muscle group to explore machine exercises.",
   },
   "medicine-ball": {
-    title: "Train with a medicine ball",
+    title: "Medicine ball exercises",
     subtitle: "Choose a muscle group to explore medicine ball exercises.",
   },
   kettlebells: {
-    title: "Train with kettlebells",
+    title: "Kettlebell exercises",
     subtitle: "Choose a muscle group to explore kettlebell exercises.",
   },
   stretches: {
-    title: "Explore stretches",
-    subtitle: "Choose a muscle group to explore stretches.",
+    title: "Stretching exercises",
+    subtitle: "Choose a muscle group to explore stretching exercises.",
   },
   cables: {
-    title: "Train with cables",
+    title: "Cable exercises",
     subtitle: "Choose a muscle group to explore cable exercises.",
   },
   band: {
-    title: "Train with bands",
-    subtitle: "Choose a muscle group to explore band exercises.",
+    title: "Resistance band exercises",
+    subtitle: "Choose a muscle group to explore resistance band exercises.",
   },
   plate: {
-    title: "Train with plates",
-    subtitle: "Choose a muscle group to explore plate exercises.",
+    title: "Weight plate exercises",
+    subtitle: "Choose a muscle group to explore weight plate exercises.",
   },
   trx: {
-    title: "Train with TRX",
+    title: "TRX exercises",
     subtitle: "Choose a muscle group to explore TRX exercises.",
   },
   yoga: {
-    title: "Practice yoga",
+    title: "Yoga exercises",
     subtitle: "Choose a muscle group to explore yoga exercises.",
   },
   "bosu-ball": {
-    title: "Train with a Bosu ball",
-    subtitle: "Choose a muscle group to explore Bosu ball exercises.",
+    title: "BOSU ball exercises",
+    subtitle: "Choose a muscle group to explore BOSU ball exercises.",
   },
   cardio: {
-    title: "Explore cardio exercises",
+    title: "Cardio exercises",
     subtitle: "Choose a muscle group to explore cardio exercises.",
   },
   "smith-machine": {
-    title: "Train with a Smith machine",
+    title: "Smith machine exercises",
     subtitle: "Choose a muscle group to explore Smith machine exercises.",
   },
   pilates: {
-    title: "Practice Pilates",
+    title: "Pilates exercises",
     subtitle: "Choose a muscle group to explore Pilates exercises.",
   },
   recovery: {
-    title: "Explore recovery exercises",
+    title: "Recovery exercises",
     subtitle: "Choose a muscle group to explore recovery exercises.",
   },
   vitruvian: {
-    title: "Train with Vitruvian",
+    title: "Vitruvian exercises",
     subtitle: "Choose a muscle group to explore Vitruvian exercises.",
   },
 };
