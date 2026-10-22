@@ -42,7 +42,7 @@ Tài liệu này là checklist triển khai chính cho tính năng đăng nhập
 | Giai đoạn | Nội dung | Trạng thái |
 | --- | --- | --- |
 | 0 | Khảo sát hiện trạng | Hoàn thành |
-| 1 | Cấu hình Google và Supabase | Đang thực hiện — OAuth E2E đã đạt, chờ deploy trang pháp lý và xuất bản Audience |
+| 1 | Cấu hình Google và Supabase | Hoàn thành — OAuth app đã ở trạng thái In production |
 | 2 | Nền tảng session và OAuth callback | Hoàn thành |
 | 3 | Icon đăng nhập, avatar và menu tài khoản | Hoàn thành trên desktop; chờ kiểm tra mobile |
 | 4 | API yêu thích cho người dùng | Đã triển khai |
@@ -71,7 +71,7 @@ Tiêu chí hoàn thành: các điểm cần thay đổi đã được định v�
 ### 1.1 Google Auth Platform
 
 - [x] Cấu hình Branding với tên Noi Gym, website, chính sách quyền riêng tư, điều khoản và authorized domain.
-- [-] Cấu hình Audience; ứng dụng đang ở chế độ Testing và cần hoàn tất đăng nhập E2E trước khi Publish.
+- [x] Cấu hình Audience loại External và xuất bản ứng dụng; trạng thái Google OAuth hiện là `In production`.
 - [x] Xác nhận Data Access chỉ có `openid`, email và profile.
 - [x] Tạo OAuth Client loại **Web application**.
 - [x] Thêm Authorized JavaScript origins:
@@ -242,10 +242,10 @@ Tiêu chí hoàn thành: bài nhiều lượt yêu thích hơn đứng trước 
 - [x] Chạy production build Next.js 16.3.1 thành công.
 - [x] Review migration và chạy trên dự án Supabase `noi-gym-v2` đang Healthy.
 - [x] Áp dụng migration production và đối soát `289 favorite_rows = 289 aggregate_total = 289 featured_exercises`.
-- [ ] Kiểm tra cấu hình Google/Supabase production lần cuối.
-- [ ] Deploy Vercel.
-- [ ] Smoke test trên `https://noi-gym.vercel.app`.
-- [ ] Theo dõi lỗi Auth, lỗi API và số đếm favorites sau deploy.
+- [x] Kiểm tra cấu hình Google/Supabase production lần cuối.
+- [x] Deploy Vercel commit `8636e0c`; deployment production ở trạng thái Ready.
+- [x] Smoke test trên `https://noi-gym.vercel.app`: trang chủ, session API, Privacy, Terms, Google callback, avatar, favorites và quyền admin đều đạt.
+- [x] Theo dõi sau deploy trong phiên smoke test: không thấy lỗi Auth/API; session, 289 favorites và quyền admin đều tải đúng.
 
 Tiêu chí hoàn thành: toàn bộ trường hợp chính đạt yêu cầu trên localhost và production, không có lỗi build hoặc lỗi phân quyền.
 
@@ -285,3 +285,5 @@ Danh sách này có thể thay đổi khi triển khai, nhưng mọi thay đổi
 | 2026-10-21 | 1 | Bị chặn một phần | Supabase Site URL và 2 Redirect URLs đã lưu. Google Cloud yêu cầu chủ tài khoản chấp nhận điều khoản và bật 2-Step Verification trước khi tạo OAuth Client. |
 | 2026-10-22 | 1 | Đang thực hiện | Đã tạo dự án Google Cloud `noi-gym`, cấu hình Branding, ba scope cơ bản, OAuth client web và bật Google Provider trên Supabase `noi-gym-v2`. Đã xử lý lỗi `missing OAuth secret`; localhost đã đi tới màn hình chọn tài khoản Google. |
 | 2026-10-22 | 1–3, 6, 9 | Kiểm thử E2E đạt | Đã sửa callback OAuth dùng redirect URI chính xác và cookie HTTP-only lưu `next`. Đăng nhập Google localhost thành công; session nhận đúng Đại Hải, ảnh Google và quyền admin. Menu tài khoản, `/favorites` với 289 bài và `/admin/exercises` với 1.946 bài đều tải đúng. |
+| 2026-10-22 | 1–3, 6, 9 | Production đạt | Đã deploy commit `8636e0c` lên Vercel. Google OAuth production trả đúng callback; session nhận ảnh Google và quyền admin, `/favorites` tải 289 bài, `/admin/exercises` tải 1.946 bài, Privacy và Terms đều hoạt động. Audience vẫn ở Testing và chờ xác nhận Publish app. |
+| 2026-10-22 | 1 | Hoàn thành | Đã Publish app sau khi được xác nhận. Google Auth Platform hiển thị `In production`, User type `External`; ứng dụng chỉ yêu cầu `openid`, email và profile. |
