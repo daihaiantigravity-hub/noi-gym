@@ -216,11 +216,11 @@ Tiêu chí hoàn thành: bài nhiều lượt yêu thích hơn đứng trước 
 - [ ] Anonymous bấm lưu, đăng nhập Google và quay lại đúng trang.
 - [x] Avatar Google xuất hiện, menu hiển thị đúng tên/email và session tồn tại sau OAuth callback.
 - [x] Người dùng đăng xuất thành công; giao diện chuyển về nút đăng nhập và snapshot favorites cá nhân được reset bởi luồng đăng xuất.
-- [ ] User A không đọc hoặc thay đổi favorites của User B.
-- [ ] Tài khoản thường bị từ chối ở `/admin`.
+- [x] User A không đọc hoặc thay đổi favorites của User B; tài khoản thường chỉ thấy 2 bài riêng thay vì 289 bài của admin.
+- [x] Tài khoản thường bị từ chối ở `/admin`; production chuyển về `/auth/login?next=/admin/exercises` và session API trả `isAdmin: false`.
 - [x] Tài khoản admin đăng nhập Google vẫn được nhận diện đúng quyền; đã mở được `/admin/exercises` và tải 1.946 bài tập.
 - [x] Lưu trùng không làm tăng count hai lần nhờ khóa chính `(user_id, exercise_id)` và upsert `ignoreDuplicates`.
-- [ ] Bỏ lưu giảm đúng một count và không xuống dưới 0.
+- [x] Bỏ lưu giảm đúng một count và không xuống dưới 0; production giảm aggregate từ 2 xuống 1 và khớp đúng 1 bản ghi thực tế.
 - [ ] OAuth bị hủy hoặc callback lỗi không làm hỏng session hiện có.
 - [ ] Luồng đăng nhập mật khẩu và khôi phục mật khẩu admin không bị ảnh hưởng.
 
@@ -290,3 +290,4 @@ Danh sách này có thể thay đổi khi triển khai, nhưng mọi thay đổi
 | 2026-10-22 | 1 | Hoàn thành | Đã Publish app sau khi được xác nhận. Google Auth Platform hiển thị `In production`, User type `External`; ứng dụng chỉ yêu cầu `openid`, email và profile. |
 | 2026-10-22 | 9 | Đang kiểm thử | Đăng xuất production đạt: menu tài khoản biến mất, nút đăng nhập xuất hiện và trạng thái favorites client được reset. Đã bắt đầu luồng anonymous lưu `Dumbbell Twisting Curl`; đang chờ chọn tài khoản Google thường để kiểm tra RLS và quyền admin. |
 | 2026-10-22 | 9 | Hoàn thành Việt hóa giao diện | Đã chuyển các nhãn tĩnh trên trang chủ, thư viện, chi tiết, yêu thích và admin sang tiếng Việt; giữ nguyên dữ liệu nguồn MuscleWiki cùng các giá trị canonical. TypeScript, lint, 30 test và production build đều đạt. |
+| 2026-10-22 | 9 | Kiểm thử tài khoản thường đạt | Tài khoản Google thường có 2 favorites riêng, không thấy 289 favorites của admin, session trả `isAdmin: false` và `/admin` chuyển về trang đăng nhập. Lưu `Dumbbell Twisting Curl` làm bộ sưu tập tăng lên 3, aggregate của bài tăng lên 2 và khớp 2 bản ghi thực tế; bỏ lưu đưa bộ sưu tập về 2, aggregate về 1 và khớp 1 bản ghi thực tế. Tổng favorites toàn hệ thống trở về 291. |
