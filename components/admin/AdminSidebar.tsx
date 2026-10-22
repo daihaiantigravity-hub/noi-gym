@@ -15,7 +15,7 @@ type AdminNavigationItem = {
 const workspaceItems: AdminNavigationItem[] = [
   { label: "Tổng quan", href: "/admin", icon: "dashboard" },
   { label: "Bài tập", href: "/admin/exercises", icon: "dumbbell" },
-  { label: "Yêu thích", href: "/admin/favorites", icon: "bookmark" },
+  { label: "Ưu tiên", href: "/admin/favorites", icon: "bookmark" },
   { label: "Import dữ liệu", href: "/admin/exercises/import", icon: "upload" },
 ];
 

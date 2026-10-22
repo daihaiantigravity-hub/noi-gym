@@ -22,7 +22,7 @@ export default function RemoveFavoriteButton({ exerciseId, exerciseName }: { exe
       });
       if (!response.ok) {
         const body = await response.json().catch(() => null) as { error?: string } | null;
-        throw new Error(body?.error || "Không thể bỏ bài tập khỏi danh sách yêu thích.");
+        throw new Error(body?.error || "Không thể bỏ bài tập khỏi danh sách ưu tiên.");
       }
       router.refresh();
     } catch (requestError) {
@@ -35,13 +35,13 @@ export default function RemoveFavoriteButton({ exerciseId, exerciseName }: { exe
   return (
     <div className="admin-favorite-remove">
       <button
-        aria-label={`Bỏ lưu bài tập ${exerciseName}`}
+        aria-label={`Bỏ ưu tiên bài tập ${exerciseName}`}
         className="admin-row-action admin-row-action--danger"
         disabled={pending}
         onClick={removeFavorite}
         type="button"
       >
-        {pending ? "Đang bỏ lưu…" : "Bỏ lưu"}
+        {pending ? "Đang cập nhật…" : "Bỏ ưu tiên"}
       </button>
       {error ? <span className="admin-favorite-remove__error" role="alert">{error}</span> : null}
     </div>

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
+import UserAuthButton from "@/components/auth/UserAuthButton";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
@@ -371,7 +372,7 @@ export default function Home() {
           <span className="health-brand">Equix Health</span>
           <div className="health-topbar__actions">
             {/* <button aria-label="Đồng hồ" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
-            <button aria-label="Hồ sơ cá nhân" className="health-avatar" type="button"><span>🧔🏻</span></button>
+            <UserAuthButton />
             <button aria-label="Thêm tùy chọn" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
           </div>
         </div>

@@ -21,9 +21,9 @@ export default async function AdminFavoritesPage() {
     <main className="admin-page">
       <header className="admin-page-header">
         <div>
-          <span className="admin-eyebrow">BUILD · SAVED EXERCISES</span>
-          <h1>Bài tập yêu thích</h1>
-          <p className="admin-muted">Danh sách bài tập đã được tài khoản quản trị lưu lại từ thư viện công khai.</p>
+          <span className="admin-eyebrow">BUILD · FEATURED EXERCISES</span>
+          <h1>Bài tập ưu tiên</h1>
+          <p className="admin-muted">Danh sách bài tập được quản trị chọn để ưu tiên trước khi xếp theo lượt yêu thích cộng đồng.</p>
         </div>
         <div className="admin-header-actions">
           <Link className="admin-button" href="/">Tìm thêm bài tập</Link>
@@ -34,8 +34,8 @@ export default async function AdminFavoritesPage() {
       <section className="admin-list-panel" aria-labelledby="admin-favorites-title">
         <div className="admin-list-heading">
           <div>
-            <span className="admin-eyebrow">FAVORITES</span>
-            <h2 id="admin-favorites-title">{favorites.length.toLocaleString("vi-VN")} bài đã lưu</h2>
+            <span className="admin-eyebrow">FEATURED</span>
+            <h2 id="admin-favorites-title">{favorites.length.toLocaleString("vi-VN")} bài ưu tiên</h2>
           </div>
           <span className="admin-list-page">Mới lưu gần đây hiển thị trước</span>
         </div>
@@ -90,8 +90,8 @@ export default async function AdminFavoritesPage() {
                 <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1.55.83L12 17.2l-5.45 3.63A1 1 0 0 1 5 20V4a1 1 0 0 1 1-1Z" />
               </svg>
             </span>
-            <strong>Chưa có bài tập yêu thích</strong>
-            <p>Lưu một bài tập từ thư viện công khai để bài đó xuất hiện tại đây.</p>
+            <strong>Chưa có bài tập ưu tiên</strong>
+            <p>Dùng tài khoản admin lưu một bài tập từ thư viện công khai để đưa bài đó vào nhóm ưu tiên.</p>
             <Link className="admin-button admin-button--small" href="/">Tìm bài tập</Link>
           </div>
         )}

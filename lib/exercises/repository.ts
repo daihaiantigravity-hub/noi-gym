@@ -3,7 +3,7 @@ import "server-only";
 import { revalidateTag, unstable_cache } from "next/cache";
 import { createSupabaseAdminClient, createSupabaseServerClient, isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
 import { PUBLIC_EXERCISES_CACHE_TAG } from "./cache";
-import { getExerciseCategoryOrder } from "./category-order";
+import { comparePublicExercisePriority, type ExercisePriority } from "./ranking";
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import { getExerciseMediaPublicUrl, isExerciseMediaUnavailable } from "./media-server";
@@ -65,7 +65,8 @@ type ExerciseRow = {
 };
 
 type PublicOrderRow = Pick<ExerciseRow, "id" | "name" | "category" | "updated_at">;
-type FavoriteOrderRow = { exercise_id: string };
+type FavoriteStatsRow = { exercise_id: string; favorite_count: number };
+type FavoriteExerciseIdRow = { exercise_id: string };
 type PublicQueryClient = Awaited<ReturnType<typeof createSupabaseServerClient>>;
 
 function mapRow(row: ExerciseRow): ExerciseRecord {
@@ -309,38 +310,35 @@ function getPublicPageOptions(options: PublicExerciseOptions) {
   return { page, pageSize, start: (page - 1) * pageSize };
 }
 
-async function getFavoriteRankByExerciseId(supabase: PublicQueryClient) {
+async function getFavoriteCountByExerciseId(supabase: PublicQueryClient) {
   const { data, error } = await supabase
-    .from("user_favorite_exercises")
-    .select("exercise_id")
-    .order("created_at", { ascending: false });
-  if (error) return new Map<string, number>();
-
-  const rankByExerciseId = new Map<string, number>();
-  for (const row of (data ?? []) as FavoriteOrderRow[]) {
-    if (!rankByExerciseId.has(row.exercise_id)) {
-      rankByExerciseId.set(row.exercise_id, rankByExerciseId.size);
-    }
+    .from("exercise_favorite_stats")
+    .select("exercise_id, favorite_count");
+  if (!error) {
+    return new Map(((data ?? []) as FavoriteStatsRow[]).map((row) => [row.exercise_id, Number(row.favorite_count) || 0]));
   }
-  return rankByExerciseId;
+
+  // Keep ranking functional while the new aggregate migration is being rolled out.
+  const fallback = await supabase.from("user_favorite_exercises").select("exercise_id");
+  const counts = new Map<string, number>();
+  if (fallback.error) return counts;
+  for (const row of (fallback.data ?? []) as FavoriteExerciseIdRow[]) {
+    counts.set(row.exercise_id, (counts.get(row.exercise_id) ?? 0) + 1);
+  }
+  return counts;
 }
 
-function comparePublicRowsByPriority(first: PublicOrderRow, second: PublicOrderRow, favoriteRanks: ReadonlyMap<string, number>) {
-  const firstFavoriteRank = favoriteRanks.get(first.id);
-  const secondFavoriteRank = favoriteRanks.get(second.id);
-  if (firstFavoriteRank !== undefined || secondFavoriteRank !== undefined) {
-    if (firstFavoriteRank === undefined) return 1;
-    if (secondFavoriteRank === undefined) return -1;
-    if (firstFavoriteRank !== secondFavoriteRank) return firstFavoriteRank - secondFavoriteRank;
+async function getExercisePriority(supabase: PublicQueryClient): Promise<ExercisePriority> {
+  const [favoriteCounts, featuredResult] = await Promise.all([
+    getFavoriteCountByExerciseId(supabase),
+    supabase.from("admin_featured_exercises").select("exercise_id"),
+  ]);
+  const featuredExerciseIds = new Set<string>();
+  if (!featuredResult.error) {
+    for (const row of (featuredResult.data ?? []) as FavoriteExerciseIdRow[]) featuredExerciseIds.add(row.exercise_id);
   }
 
-  const categoryDifference = getExerciseCategoryOrder(first.category) - getExerciseCategoryOrder(second.category);
-  if (categoryDifference !== 0) return categoryDifference;
-
-  const updatedAtDifference = new Date(second.updated_at).getTime() - new Date(first.updated_at).getTime();
-  if (updatedAtDifference !== 0) return updatedAtDifference;
-
-  return first.name.localeCompare(second.name);
+  return { favoriteCounts, featuredExerciseIds };
 }
 
 async function getPublishedExercisesByIds(supabase: PublicQueryClient, ids: string[], gender?: ExerciseGender) {
@@ -372,9 +370,9 @@ async function listPublishedExercisesWithClient(supabase: PublicQueryClient, mus
   const { data: orderData, error: orderError, count } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
-  const favoriteRanks = await getFavoriteRankByExerciseId(supabase);
+  const priority = await getExercisePriority(supabase);
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
-    .sort((first, second) => comparePublicRowsByPriority(first, second, favoriteRanks))
+    .sort((first, second) => comparePublicExercisePriority(first, second, priority))
     .slice(start, start + pageSize);
   const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
@@ -403,9 +401,9 @@ async function listPublishedExercisesByTargetWithClient(supabase: PublicQueryCli
   const { data: orderData, error: orderError, count } = await orderQuery;
   if (orderError) throwDatabaseError(orderError);
 
-  const favoriteRanks = await getFavoriteRankByExerciseId(supabase);
+  const priority = await getExercisePriority(supabase);
   const orderedRows = [...((orderData ?? []) as PublicOrderRow[])]
-    .sort((first, second) => comparePublicRowsByPriority(first, second, favoriteRanks))
+    .sort((first, second) => comparePublicExercisePriority(first, second, priority))
     .slice(start, start + pageSize);
   const items = await getPublishedExercisesByIds(supabase, orderedRows.map((row) => row.id), options.gender);
 
