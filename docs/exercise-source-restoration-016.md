@@ -1,0 +1,13 @@
+# Exercise source review 8.17
+
+On 23 October 2026, `Hip Rolls` was rechecked against the complete male and female source video cycles, using front and side clips. The MuscleWiki detail page currently returns “Exercise Not Found”; the original clips remain available in Cloudflare R2.
+
+The video sequence shows the demonstrator lift into a bridge, press the legs until nearly straight to move the carriage, bend the knees to return the carriage while keeping the hips raised, and only then roll the spine down. The old source step “Lower back to start” blurred the carriage return with the separate spinal roll-down in the next step. The source step was clarified to preserve these distinct actions. The Vietnamese title is `Cuộn hông`, and its five steps were reviewed against the corrected English source and video sequence.
+
+The transaction changed only the source `steps` field and inserted one reviewed Vietnamese translation. It preserved the existing source timestamp and all unrelated source fields. The source hash changed from `4edd28f047f899f6c6621b626c30a68b53552c84168cc6d03216886af166f453` to `79dde42dd03435978c2a1ecf24146de53bf8de03a65ef58e57e5c0902c570b64`.
+
+Live verification confirmed 1,926 reviewed translations (1,925 Vietnamese and one English), 5,944 translated steps, and Vietnamese content for 1,926 of 1,946 exercises, leaving 20. Pilates coverage is 48/49. Anonymous reads returned all 1,926 reviewed translations, the source scanner reported zero warnings, and the 291 user favorites and 289 admin-featured exercises were unchanged. Importer dry-run for batch 050 reported one unchanged record and zero writes.
+
+On localhost:3001, the detail page showed the title and all five steps in English and Vietnamese for both male and female routes. The local UI was left in Vietnamese. The 41 relevant localization tests passed when run directly; Node's combined `--test` runner could not spawn its child processes in this environment (`EPERM`). No application code or build was changed.
+
+Files: [live verification](../artifacts/localization/stage-24-after.json), [expected counts](../artifacts/localization/stage-24-expected.json), [SQL repair](../supabase/repairs/20261023_correct_pilates_instructions_stage24.sql), [source correction](../scripts/localization/data/source-restorations-017.json), [reviewed translation](../scripts/localization/data/reviewed-translations-050.json), [video observations](../artifacts/localization/stage-24-video-evidence/observations.json), and [remaining review queue](../artifacts/localization/stage-24-remaining-source-review-queue.json). The source webpage was unavailable during review; the evidence consists of the four accessible R2 clips and the recorded video observations.

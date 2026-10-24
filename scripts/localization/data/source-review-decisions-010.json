@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "female-only recovery source review and correction",
+  "reviewMethod": "Reviewed six chronological frames across the full duration of both available female camera angles for all 11 Recovery candidates, checked original female import identity, and retained unresolved items as holds.",
+  "deferred": [
+    {
+      "exercise_id": "19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d",
+      "sourceName": "Hamstring Stretch Supine Static",
+      "reason": "Static title has the same dynamic end-range strap-tug instructions as the dynamic variant. Verify intended static hold. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-supine-static",
+        "sourceId": 165538450593605,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/165538450593605-side.mp4",
+            "storage_path": "exercises/musclewiki/female/165538450593605-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 11.8,
+            "video_sha256": "4dc79fbef852d0c133c5e6b4964c0042b4ba0806a22928d054e3f9223d8cd5dc",
+            "sample_image_sha256": "8836898c9b69276c9286875b26119199215e1117994a89b3decebd13b266d91b"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/165538450593605-front.mp4",
+            "storage_path": "exercises/musclewiki/female/165538450593605-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 11.8,
+            "video_sha256": "4226972e2b412d61aaf2bd1f0ea1443d5c619d80903216fe67e6c17597eccf69",
+            "sample_image_sha256": "26fbbfeda3f5116c4b738353fdfbbef35ce2d81d6fbf4955ddbb1ed444ee81cd"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d-contact.png",
+        "contactSheetSha256": "af5a27e1bac84510af29533452176865402ca2c11b3f5e3b5dbeaa3c6aa4dfef"
+      }
+    },
+    {
+      "exercise_id": "1c350f8e-21b5-427a-b442-72d266fde398",
+      "sourceName": "Hip Extension Into Side Flexion",
+      "reason": "Instructions duplicate the straight hip-extension hold and omit the side flexion named in the title. Verify variant-specific movement. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/hip-extension-into-side-flexion",
+        "sourceId": 259589304579561,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/259589304579561-front.mp4",
+            "storage_path": "exercises/musclewiki/female/259589304579561-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 16.75,
+            "video_sha256": "463d6fb28a39e63fded980dea588c3ef5dc687c5fc120f62a8c57802a87dcdf9",
+            "sample_image_sha256": "86583f7683563a20d39daaaa36375f02553d619c8daa795ea4184b19cad9a35e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/259589304579561-side.mp4",
+            "storage_path": "exercises/musclewiki/female/259589304579561-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 16.75,
+            "video_sha256": "cbb75e5695e606946f2a7744589143279b459eb0c3c10406c3c9d20c0020fb5a",
+            "sample_image_sha256": "9361b74dfc4ea4842e409f95922efb54c56a4b2a8ac218648bfada4fe2ac4e9e"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/1c350f8e-21b5-427a-b442-72d266fde398-contact.png",
+        "contactSheetSha256": "35afb659b7231516121a8b23ce15d913eb9e932bac0fd490d7fe3be187763ae5"
+      }
+    },
+    {
+      "exercise_id": "4b3f1db2-0c01-40be-953c-f32e214b06d2",
+      "sourceName": "Calf Raise 2A Eccentric Unilateral Floor",
+      "reason": "Source raises both heels then asks to avoid calf contraction during ascent, without establishing assisted ascent. Verify the loading cue before translation. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2a-eccentric-unilateral-floor",
+        "sourceId": 86072620127856,
+        "stepCount": 3,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/86072620127856-front.mp4",
+            "storage_path": "exercises/musclewiki/female/86072620127856-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 18.22,
+            "video_sha256": "3d467fc07737b4ee44dd7f7bfd7eea38987b670b436122ec339b582204e439b8",
+            "sample_image_sha256": "e239f2aca38791e15899dfe1383fb538c2e02896e88f6dde7e859c9db9a2a8e5"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/86072620127856-side.mp4",
+            "storage_path": "exercises/musclewiki/female/86072620127856-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 18.22,
+            "video_sha256": "ddeb681e1b12161b297e2a444b2cabff1f288ee4856b79f27ff3ae0850acab98",
+            "sample_image_sha256": "2ba91be4055910ef612cbcd3b4f0333f5228b6f4d03037ab6b8a0655445bb7c9"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/4b3f1db2-0c01-40be-953c-f32e214b06d2-contact.png",
+        "contactSheetSha256": "9326ae5f071d18cf21f60b38799c96b29f7923d20fcd777082c6f90184c58ab0"
+      }
+    },
+    {
+      "exercise_id": "5b494ab8-bc93-4ef0-a5dd-53752fb50853",
+      "sourceName": "Calf Raise 2C Eccentric Unilateral From Box",
+      "reason": "Source uses both legs for ascent but says to avoid calf contraction during heel raising. Verify which calf is intended to be unloaded rather than changing the cue. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/calf-raise-2c-eccentric-unilateral-from-box",
+        "sourceId": 267729420447142,
+        "stepCount": 3,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/267729420447142-front.mp4",
+            "storage_path": "exercises/musclewiki/female/267729420447142-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 19.08,
+            "video_sha256": "151a08172634c621923c0d17534edb4d3c669cf0903b704215a44986b0b6903b",
+            "sample_image_sha256": "8f68c6b2655ec44242d437d5583a7c18613af257b38f8764cadf7376e0dea10f"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/267729420447142-side.mp4",
+            "storage_path": "exercises/musclewiki/female/267729420447142-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 19.08,
+            "video_sha256": "1c0fd08f0e94e839f9f26ff5f75e572547870e9929da82d64654b9ff5342b7be",
+            "sample_image_sha256": "29fd93577ccf67a3b7213e4c301c8714122b3a722db72224bc06e957920379bb"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/5b494ab8-bc93-4ef0-a5dd-53752fb50853-contact.png",
+        "contactSheetSha256": "013d65e518978c21f5091f1b5343123dca2bc327dc5284e87941dbdf86d45277"
+      }
+    },
+    {
+      "exercise_id": "8d742f9d-3df6-447d-bc8f-91dbb7352740",
+      "sourceName": "Hamstring Stretch Seated Single Leg Isometric",
+      "reason": "Isometric title conflicts with dynamically reaching forward and returning. Verify hold versus repeated motion. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/hamstring-stretch-seated-single-leg-isometric",
+        "sourceId": 178082470033555,
+        "stepCount": 3,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/178082470033555-front.mp4",
+            "storage_path": "exercises/musclewiki/female/178082470033555-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 12.05,
+            "video_sha256": "b01249c37f74caf45eb505b0e7776e7e48be97fe83fbdb4afc0f2fcdda99a64f",
+            "sample_image_sha256": "02f972577b6abfda08fc681be757a3bb34c17cb5ea9e470f5df198754c1332bf"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/178082470033555-side.mp4",
+            "storage_path": "exercises/musclewiki/female/178082470033555-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 12.05,
+            "video_sha256": "595e39bba1739d677ea01255f886e8a43e29286a46b170f94300908067cdf834",
+            "sample_image_sha256": "69ee172363dc64ff01e63a062087263985a46703bc3a498e5ca3ab518edb5a59"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/8d742f9d-3df6-447d-bc8f-91dbb7352740-contact.png",
+        "contactSheetSha256": "a68bdadab332517f5db188f0ee7d3e2ebc08afd1df83520bd08a3a9d4fd7f05b"
+      }
+    },
+    {
+      "exercise_id": "94fa27d3-e887-4289-ac56-57f2cae2101e",
+      "sourceName": "Deadlift Bounces Stretch",
+      "reason": "Source gives a forward hinge and range cue but omits the bouncing movement named by the variant. Verify intended dynamic versus static stretch. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/deadlift-bounces-stretch",
+        "sourceId": 170991639200362,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/170991639200362-side.mp4",
+            "storage_path": "exercises/musclewiki/female/170991639200362-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.867,
+            "video_sha256": "5ac422a0cfce92c86877f7ac95b7ab548684224b3bc40f3a47804e5c3c3e5d67",
+            "sample_image_sha256": "32031558b33390d72ccb77a5f3d08e9d8b15bfba215752959efff0ecd5f53c60"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/170991639200362-front.mp4",
+            "storage_path": "exercises/musclewiki/female/170991639200362-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.867,
+            "video_sha256": "6336995edaa93745702f05e001f98afcf67ad2775871836eedc929abc667185e",
+            "sample_image_sha256": "717afe9e4ac5903cca5960f7ccbfddceb3cac31fb4b68a55f7f7bd970c2c8f3d"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/94fa27d3-e887-4289-ac56-57f2cae2101e-contact.png",
+        "contactSheetSha256": "16e2451a33e75a44007ee7ca72fd9a080f59c7d341869717ca72ba547b3c76c6"
+      }
+    },
+    {
+      "exercise_id": "9c3889b0-767c-479e-a1d3-bde7fd252e04",
+      "sourceName": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+      "reason": "Source already holds the kettlebell at the side, then hinges forward to lift it without stating a set-down or starting load position. Verify the pickup versus carry sequence. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/crosslateral-core-stabilisation-unilateral-load-kettlebell",
+        "sourceId": 271154191783137,
+        "stepCount": 3,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/271154191783137-side.mp4",
+            "storage_path": "exercises/musclewiki/female/271154191783137-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 11,
+            "video_sha256": "5312befc5d56511f1ecbc66b84a399a691966e6ac6dfc0e9800db1394849bf39",
+            "sample_image_sha256": "3b80d6a2a4661fb79dc73c9f91bef96ea6a5d18b83bdcaa3182093ba43f2bab7"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/271154191783137-front.mp4",
+            "storage_path": "exercises/musclewiki/female/271154191783137-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 11,
+            "video_sha256": "95ca9cf33925bafb4cc91f057b318dda9796184c913ad47cff868aacb776666a",
+            "sample_image_sha256": "073c9e7f041b346136c610ff01ba93898634e8c47ca7a1ce0c843651648f218a"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/9c3889b0-767c-479e-a1d3-bde7fd252e04-contact.png",
+        "contactSheetSha256": "1c430b8bf5b7b13df919b80caf7f941fd163f415a90305cb70017bd76d1cee3a"
+      }
+    },
+    {
+      "exercise_id": "c15c48e4-3318-4b63-ac31-22a315943752",
+      "sourceName": "Calf Raise 1C Bilateral Eccentric From Box",
+      "reason": "Source asks for a rapid bilateral heel raise while avoiding calf contraction, without specifying assistance. Verify how the concentric phase is supported. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/calf-raise-1c-bilateral-eccentric-from-box",
+        "sourceId": 72053964370442,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/72053964370442-front.mp4",
+            "storage_path": "exercises/musclewiki/female/72053964370442-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 12.7,
+            "video_sha256": "c1f1f0a8c2a78d474cd8cbb20a2e0c9ec44af6a575d47088653efbf5a75e4d4c",
+            "sample_image_sha256": "166a011d55c4cdb3d3a98c2e938d96eb712de2e30cf3cf9d7a88fdfd03308a37"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/72053964370442-side.mp4",
+            "storage_path": "exercises/musclewiki/female/72053964370442-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 12.7,
+            "video_sha256": "a2995cc191fbd88d1005f05401e1c7a41cd0e2ff87d2ab88254efccb90b5d1f2",
+            "sample_image_sha256": "776b3b5d3702051a8cb30f7579502cfd3feb0da71e7c32db8805d1bc82450b9a"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/c15c48e4-3318-4b63-ac31-22a315943752-contact.png",
+        "contactSheetSha256": "edbde90aaab9384796ec19db470511abf0a995d98d652150b7a876f104f812ac"
+      }
+    },
+    {
+      "exercise_id": "fe159d28-1ece-4587-bcba-cb9ef780d0b2",
+      "sourceName": "Cobra Stretch 1",
+      "reason": "Source places palms under shoulders, then supports the lifted body on forearms without repositioning. Verify forearm support and shoulder/elbow alignment. Both female angles were checked as six chronological samples; footage did not resolve the remaining contradiction sufficiently to edit or approve a translation.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/cobra-stretch-1",
+        "sourceId": 96179389713646,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/96179389713646-front.mp4",
+            "storage_path": "exercises/musclewiki/female/96179389713646-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 12.25,
+            "video_sha256": "c855572b9366ed79da85ea78bfa6c508fe7418bb952030d64ac0a3e5f1e62a51",
+            "sample_image_sha256": "e6b8752ce7445453b3321e92bb2255711f635d6241bd86d0dd3fed6bbb0d5854"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/96179389713646-side.mp4",
+            "storage_path": "exercises/musclewiki/female/96179389713646-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 12.25,
+            "video_sha256": "cfc4bd91d515f7a5167d2444f7403acb12f886bd1f60ccda731ef9b3970eb7eb",
+            "sample_image_sha256": "fc1d6e642a7ac1c695c33624bf909260f3477f727c696a5e30072b21fbee54f0"
+          }
+        ],
+        "contactSheet": "artifacts/localization/stage-18-video-evidence/fe159d28-1ece-4587-bcba-cb9ef780d0b2-contact.png",
+        "contactSheetSha256": "7954c241d5b9509af6e846c4b794655935298206fcda642eacb76abe7dc81708"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "exercise_id": "4d64425d-a884-4aed-8aac-bc991e9450dc",
+      "sourceName": "Calf Stretch On Box Bilateral",
+      "changeReason": "Both front and side videos show both feet on the raised box and both heels lowering. Replace the conflicting singular-foot setup with the bilateral support visible in the source video.",
+      "steps": [
+        "Stand on a box with the balls of both feet near its edge.",
+        "Lower both heels toward the ground and hold the position for the duration specified.",
+        "You should feel your calves stretching."
+      ]
+    },
+    {
+      "exercise_id": "c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7",
+      "sourceName": "Bodyweight Deadlift",
+      "changeReason": "Both front and side videos show a bodyweight hip hinge with no bar or other equipment. Replace the unrelated bar-lowering instruction with the visible return to standing.",
+      "steps": [
+        "Stand upright with good form.",
+        "Push your hips back and hinge your upper body forward.",
+        "Keep your back straight as you reach toward your toes.",
+        "Return to standing by extending your hips and knees while keeping your back straight."
+      ]
+    }
+  ]
+}

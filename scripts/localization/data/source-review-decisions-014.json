@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "male/female Yoga source review",
+  "reviewedAt": "2026-10-23T10:32:37.491Z",
+  "reviewMethod": "Reviewed five Yoga pages and both gender variants. Used source-page instruction text plus saved video screenshots; corrected two clear source defects and held three where the clips do not establish consistent side or pose details.",
+  "decisions": [
+    {
+      "exercise_id": "078576ac-b424-4c81-aa9d-0c919e937dd9",
+      "sourceName": "Gate Pose Rounding Spine Looking Up",
+      "changeReason": "The sampled female clip remains in a kneeling transition while the male clip shows a side bend; they do not consistently establish the named upward gaze or the side-specific arm sequence. Keep source and translation on hold.",
+      "before": [
+        "Begin in a kneeling position with your knees hip-width apart.",
+        "Extend your right leg out to the side, placing your foot flat on the ground.",
+        "Reach your right arm overhead and then round your spine, bringing your right hand to your left ear.",
+        "Look down towards your left foot as you reach your left arm towards your right foot, feeling a stretch in your side body. Hold for a few breaths and then switch sides."
+      ],
+      "after": [
+        "Begin in a kneeling position with your knees hip-width apart.",
+        "Extend your right leg out to the side, placing your foot flat on the ground.",
+        "Reach your right arm overhead and then round your spine, bringing your right hand to your left ear.",
+        "Look down towards your left foot as you reach your left arm towards your right foot, feeling a stretch in your side body. Hold for a few breaths and then switch sides."
+      ],
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-male-sample-1.png",
+                "sha256": "697eb897cfe9f008a00253dfdc3e6ed1e12be5e3846452367c62aa7b5de1b0cb"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-male-sample-2.png",
+                "sha256": "4a58b37206552a62aa46998d711c11c1c0b679a4ec94e4b937e60d10401ec0dd"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-female-sample-1.png",
+                "sha256": "e6e68e0df64f37bea9c13479370c3f0768563196179e742c8af191f7874a8360"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-female-sample-2.png",
+                "sha256": "9f624c049b34ecd70c002f3f9f4c6e65a5930facbee40e01eecfdfe2bc2bda28"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "16b32320-269a-4c51-b8ce-1b9b8693c4a6",
+      "sourceName": "Table Top Pose Variation 3",
+      "changeReason": "The source page displays Beginner as a difficulty badge, not as an instruction, and the database had imported it as a fifth step. The final instruction also says to lower the hands to the mat although the opening step already places them there. Remove the stray difficulty entry and clarify the release as returning to neutral tabletop; the male/female clips show the same hands-and-knees base position.",
+      "before": [
+        "Beginner",
+        "Come onto your hands and knees on the mat with your wrists directly under your shoulders and your knees under your hips.",
+        "Turn your palms down and spread your fingers wide, with your fingertips pointing towards your knees.",
+        "Press into your palms and extend your arms fully to lift your shoulders away from your ears.",
+        "Hold the pose for a few breaths, and then release by slowly lowering your hands to the mat and coming back to a neutral tabletop position."
+      ],
+      "after": [
+        "Come onto your hands and knees on the mat with your wrists directly under your shoulders and your knees under your hips.",
+        "Turn your palms so your fingertips point toward your knees, and spread your fingers wide.",
+        "Press into your palms and extend your arms fully to lift your shoulders away from your ears.",
+        "Hold the pose for a few breaths, then return your hands to the neutral tabletop position to release."
+      ],
+      "translation_decision": "ready",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/table-top-pose-variation-3",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/table-top-pose-variation-3?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/table-top-pose-variation-3-male-sample-1.png",
+                "sha256": "c97428d62e44ec3e40440b5ebbea5d88c68d6c7ef60ab080d2fa952cd0cc2dfd"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/table-top-pose-variation-3-male-sample-2.png",
+                "sha256": "43861e117346f73c500b2906b3cc182f44ab146bc7580a94725d1c955c4b86cd"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/table-top-pose-variation-3?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/table-top-pose-variation-3-female-sample-1.png",
+                "sha256": "6b521568a654901d4e3d945118aa685f9b6ab2ebe9a114818d9727b1aa034839"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/table-top-pose-variation-3-female-sample-2.png",
+                "sha256": "14b89762ab4ef5f427a2e22ac01e16a50a9d45a5e189656b510776fcb0d3b07d"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e",
+      "sourceName": "Thread The Needle Hip Over Knees",
+      "changeReason": "The sampled male and female frames do not consistently establish the hip-over-knees setup and threaded-arm direction needed to reconcile the pigeon-like source steps with the title. Keep source and translation on hold.",
+      "before": [
+        "Start on your hands and knees in a tabletop position.",
+        "Slide your right knee up between your hands and place your right foot close to your left wrist.",
+        "Take your left leg back and lower it down to the ground, keeping your toes tucked.",
+        "Twist your torso to the right and reach your right arm underneath your left arm, threading the needle. Hold for a few breaths, then switch sides."
+      ],
+      "after": [
+        "Start on your hands and knees in a tabletop position.",
+        "Slide your right knee up between your hands and place your right foot close to your left wrist.",
+        "Take your left leg back and lower it down to the ground, keeping your toes tucked.",
+        "Twist your torso to the right and reach your right arm underneath your left arm, threading the needle. Hold for a few breaths, then switch sides."
+      ],
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-male-sample-1.png",
+                "sha256": "4660731009fae9fa1c58bc1477214e148b7fa3ba8b026e0459fcf28eafad6038"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-male-sample-2.png",
+                "sha256": "dfcac620baa0207dd7092ee67a8a763eaff6df4a228ad868fbddaa5e8d2ed778"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-female-sample-1.png",
+                "sha256": "65c7eee4dff5726507f9798698157e6682ffe8e885c592495d984db3938baef9"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-female-sample-2.png",
+                "sha256": "85ca18ad07a3ccd164bc69e54da28c291f6cbd9a20c55ac3e6d63cd85bbf9bd2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "847edd28-c001-47e8-8a2b-d1a4552d438b",
+      "sourceName": "Wild Thing Pose",
+      "changeReason": "The male clip demonstrates an open-chest backbend, but the sampled female clip is in a seated/transition position and does not establish the matching hand and leg sides. Keep source and translation on hold.",
+      "before": [
+        "Start in a downward facing dog position.",
+        "Shift your weight onto your left hand and foot, and lift your right leg towards the ceiling.",
+        "Slowly bend your right knee and shift your weight onto your right hand as you open up your chest towards the ceiling.",
+        "Look towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "after": [
+        "Start in a downward facing dog position.",
+        "Shift your weight onto your left hand and foot, and lift your right leg towards the ceiling.",
+        "Slowly bend your right knee and shift your weight onto your right hand as you open up your chest towards the ceiling.",
+        "Look towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/wild-thing-pose",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/wild-thing-pose?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-male-sample-1.png",
+                "sha256": "7451aa21cc1c30bb442f911cf2317c8d86ca9dca3b9e8b13851014c4790b2009"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-male-sample-2.png",
+                "sha256": "02201a3a084d00ffb790996c3c06f65d3d322fd5eaf37eee8b9b626d1a72bbee"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/wild-thing-pose?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-female-sample-1.png",
+                "sha256": "5e45e436ab06b2cb25e73b2981f81712bcfb811895c161c40c4d34e5143d6aa2"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-female-sample-2.png",
+                "sha256": "54f79b7ca12bb3b2964688c3f9086a2fe9eb72d633fa112f622cf13e352acb3b"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "baef22eb-8454-46cd-9639-4fce2c76545a",
+      "sourceName": "Crescent Moon Pose Quad Stretch",
+      "changeReason": "The male and female clips show a right-foot-forward lunge with the rear left foot held by the left hand. The source asks the same left hand to press a block and hold the foot at once. Rewrite the sequence so the rear-side hand holds the foot and the free hand or block provides optional balance support.",
+      "before": [
+        "Begin in Crescent Moon Pose with your right foot forward and a block nearby.",
+        "Place the block at the highest height under your left hand.",
+        "Reach your left arm behind you and take hold of your left foot or ankle.",
+        "Gently pull your foot towards your buttocks while pressing your left hand into the block to deepen the stretch in your left quad. Hold for a few breaths before releasing and repeating on the other side."
+      ],
+      "after": [
+        "Begin in Crescent Moon Pose with your right foot forward and a block nearby for support if needed.",
+        "Bend your left knee and reach your left hand behind you to hold your left foot or ankle.",
+        "Gently draw your left heel toward your buttock to stretch your left quadriceps.",
+        "Use your free hand on your front thigh or a block to steady yourself. Hold for a few breaths, then release and repeat on the other side."
+      ],
+      "translation_decision": "ready",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-male-sample-1.png",
+                "sha256": "a06d7b8f9d70b1e9824e18e5a23106205ca0b0ff9ee877a5161eae8859fb78eb"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-male-sample-2.png",
+                "sha256": "fa4a485a1f9c3227aad7cb01c88cce248c547df805e576d703fe50d3a319c4df"
+              },
+              {
+                "selected_step": true,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-male-reviewed-step.png",
+                "sha256": "b7cd6322ac6f1a378728cf24cdaf5d9c91109059c383aec02872e242823d1522"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-female-sample-1.png",
+                "sha256": "c0cc3179be7dcf6ec4c120664163c74a6091f5335df2bda5f90d2e870f9b7701"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-female-sample-2.png",
+                "sha256": "183d4a3555ccb2ec3a1a6c29c0ceeaa2584693f0d613cdec694a96064c89f1aa"
+              },
+              {
+                "selected_step": true,
+                "path": "artifacts/localization/stage-22-video-evidence/crescent-moon-pose-quad-stretch-female-reviewed-step.png",
+                "sha256": "d481f4ffb73fe296604f094da01c16af04ef9fb13cdcd4c8da16a5a90d30a8a5"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "exercise_id": "078576ac-b424-4c81-aa9d-0c919e937dd9",
+      "sourceName": "Gate Pose Rounding Spine Looking Up",
+      "reason": "The sampled female clip remains in a kneeling transition while the male clip shows a side bend; they do not consistently establish the named upward gaze or the side-specific arm sequence. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-male-sample-1.png",
+                "sha256": "697eb897cfe9f008a00253dfdc3e6ed1e12be5e3846452367c62aa7b5de1b0cb"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-male-sample-2.png",
+                "sha256": "4a58b37206552a62aa46998d711c11c1c0b679a4ec94e4b937e60d10401ec0dd"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/gate-pose-rounding-spine-looking-up?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-female-sample-1.png",
+                "sha256": "e6e68e0df64f37bea9c13479370c3f0768563196179e742c8af191f7874a8360"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/gate-pose-rounding-spine-looking-up-female-sample-2.png",
+                "sha256": "9f624c049b34ecd70c002f3f9f4c6e65a5930facbee40e01eecfdfe2bc2bda28"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e",
+      "sourceName": "Thread The Needle Hip Over Knees",
+      "reason": "The sampled male and female frames do not consistently establish the hip-over-knees setup and threaded-arm direction needed to reconcile the pigeon-like source steps with the title. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-male-sample-1.png",
+                "sha256": "4660731009fae9fa1c58bc1477214e148b7fa3ba8b026e0459fcf28eafad6038"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-male-sample-2.png",
+                "sha256": "dfcac620baa0207dd7092ee67a8a763eaff6df4a228ad868fbddaa5e8d2ed778"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-female-sample-1.png",
+                "sha256": "65c7eee4dff5726507f9798698157e6682ffe8e885c592495d984db3938baef9"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/thread-the-needle-hip-over-knees-female-sample-2.png",
+                "sha256": "85ca18ad07a3ccd164bc69e54da28c291f6cbd9a20c55ac3e6d63cd85bbf9bd2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "847edd28-c001-47e8-8a2b-d1a4552d438b",
+      "sourceName": "Wild Thing Pose",
+      "reason": "The male clip demonstrates an open-chest backbend, but the sampled female clip is in a seated/transition position and does not establish the matching hand and leg sides. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/wild-thing-pose",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/wild-thing-pose?model=m",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-male-sample-1.png",
+                "sha256": "7451aa21cc1c30bb442f911cf2317c8d86ca9dca3b9e8b13851014c4790b2009"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-male-sample-2.png",
+                "sha256": "02201a3a084d00ffb790996c3c06f65d3d322fd5eaf37eee8b9b626d1a72bbee"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/wild-thing-pose?model=f",
+            "screenshots": [
+              {
+                "sample": 1,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-female-sample-1.png",
+                "sha256": "5e45e436ab06b2cb25e73b2981f81712bcfb811895c161c40c4d34e5143d6aa2"
+              },
+              {
+                "sample": 2,
+                "path": "artifacts/localization/stage-22-video-evidence/wild-thing-pose-female-sample-2.png",
+                "sha256": "54f79b7ca12bb3b2964688c3f9086a2fe9eb72d633fa112f622cf13e352acb3b"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

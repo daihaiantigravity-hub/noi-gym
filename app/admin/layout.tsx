@@ -2,10 +2,13 @@ import { getAdminUser } from "@/lib/admin-auth";
 import { isDatabaseConfigured, isSupabaseConfigured } from "@/lib/supabase/server";
 import AdminSidebar from "@/components/admin/AdminSidebar";
 import { redirect } from "next/navigation";
+import { getAppLanguage } from "@/lib/i18n/server";
+import { getWorkspaceMessages } from "@/lib/i18n/workspace-messages";
 
 export default async function AdminLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const authConfigured = isSupabaseConfigured();
   const databaseConfigured = isDatabaseConfigured();
+  const text = getWorkspaceMessages(await getAppLanguage());
 
   if (authConfigured && databaseConfigured && !(await getAdminUser())) {
     redirect("/auth/login?next=/admin/exercises");
@@ -17,7 +20,7 @@ export default async function AdminLayout({ children }: Readonly<{ children: Rea
       <div className="admin-area">
         {!authConfigured || !databaseConfigured ? (
           <div className="admin-config-banner" role="status">
-            <strong>Preview mode:</strong> configure Supabase to enable sign-in and persistent data.
+            {text.previewMode}
           </div>
         ) : null}
         {children}

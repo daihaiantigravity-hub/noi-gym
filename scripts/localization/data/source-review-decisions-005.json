@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Compared all 11 remaining TRX source blocks with six chronological samples from each of 44 male/female front/side clips. Inspected 48 additional offset samples for lateral lunge, pec fly and rear-delt fly where uniform samples repeatedly captured similar phases: 312 inspected samples in total. These are editorial corrections using observed anchor orientation, hand/foot support, grip and movement, not recovered provider wording. Retain the existing 90-degree cue and illustrative left/right sequence; do not invent loading, repetitions, sets, body angles or strap-height prescriptions.",
+  "decisions": [
+    {
+      "exercise_id": "251b06f4-d14b-4124-85da-1f222a90993e",
+      "sourceName": "TRX Lateral Lunge",
+      "changeReason": "Both genders face the anchor and use the handles for support while stepping to one side, bending that side's knee and leaving the opposite leg extended. The original front/back leg labels describe a different lunge. Retain its existing 90-degree knee cue with the correct lateral-side reference, and do not require straight arms throughout the return; the elbows bend as the body rises. Offset female samples confirm the low phase missed by the initial uniform samples.",
+      "steps": [
+        "Stand facing the anchor point and grasp the TRX handles with both hands in front of you.",
+        "Step laterally to one side, keeping your core engaged.",
+        "Lower into a side lunge, bending the knee on that side to a 90-degree angle while keeping the opposite leg straight.",
+        "Use the handles for support as you push through the foot of the bent leg to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "2f8f2f47-7916-4691-b71c-26dfd8690dd1",
+      "sourceName": "TRX Jumping Squat",
+      "changeReason": "Both genders keep hold of both TRX handles during the squat, jump and landing. Establish that support in the setup and replace the optional free-arm swing with maintaining the grip; retain the source's squat and soft-landing cues.",
+      "steps": [
+        "Stand facing the anchor point, grasp both TRX handles, and place your feet shoulder-width apart.",
+        "Begin by lowering into a squat position by bending at the knees and hips, keeping your back straight and chest up.",
+        "Explosively jump up off the ground while maintaining your grip on the TRX handles.",
+        "Land softly back in the squat position, making sure to absorb the impact with your legs."
+      ]
+    },
+    {
+      "exercise_id": "36a77a27-e15e-4f8b-9082-7157fad66aa3",
+      "sourceName": "TRX Kneeling Ab Rollout",
+      "changeReason": "Both genders remain supported on their knees while the hands reach forward/overhead and the body inclines from the knees, then returns upright. There is no roll onto the toes or lowering the entire body to the floor. Replace those conflicting phases and the unverified mid-calf strap-height setup with the visible kneeling setup and controlled return.",
+      "steps": [
+        "Kneel on the floor facing the TRX anchor point.",
+        "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+        "Keep your abs engaged and your knees on the floor as you lean forward and reach your arms forward and overhead, keeping your body aligned from your knees to your head.",
+        "Bring the handles back toward the starting position and return to upright kneeling under control, keeping your knees supported on the floor."
+      ]
+    },
+    {
+      "exercise_id": "5557cf21-aa81-4b51-8fb0-6d29f766e1bb",
+      "sourceName": "TRX Pushup",
+      "changeReason": "Both genders face away from the anchor and lean forward onto the handles with their feet on the floor. Correct the facing-anchor setup and replace the confusing forward-step instruction with the observed inclined-plank support. Retain the original secure-anchor, approximate handle height, lowering and pressing cues.",
+      "steps": [
+        "Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+        "Stand facing away from the anchor point, grab the handles with both hands, and lean forward into an inclined plank with your arms extended and your feet on the floor.",
+        "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+        "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+      ]
+    },
+    {
+      "exercise_id": "75f49f00-1deb-4145-aa48-56d4d39d4b5e",
+      "sourceName": "TRX Pec Fly",
+      "changeReason": "Both genders face away from the anchor, open the hands to the sides while leaning forward, then bring the handles back together. Correct the anchor direction and establish the missing opening phase before the closing phase. The samples show some elbow bend, so do not prescribe rigidly straight elbows or an absolute chest-height handle setting. Offset female samples verify both open and closed phases.",
+      "steps": [
+        "Stand facing away from the TRX anchor point with both feet on the floor.",
+        "Grasp the TRX handles with both hands and extend your arms in front of your chest, keeping your shoulders away from your ears.",
+        "Lean forward and open your arms out to the sides with a slight bend in your elbows, keeping your core engaged and your body aligned from your ankles to your head.",
+        "Bring the handles back together in front of your chest under control while keeping your body stable."
+      ]
+    },
+    {
+      "exercise_id": "9ea486c1-b081-4f96-9cc8-dae04dd6ac20",
+      "sourceName": "TRX Forearm Plank",
+      "changeReason": "Both genders support their upper body on the forearms while the feet are suspended in the foot cradles. They do not hold the handles above the head at the same time. Establish those two supports, lift the hips/knees and retain the source's core/glute/leg engagement and body-line cue.",
+      "steps": [
+        "Place your feet in the TRX foot cradles and set your forearms on the floor with your elbows under your shoulders.",
+        "Lift your hips and knees off the floor, keeping your feet suspended and your upper body supported on your forearms.",
+        "Tighten your abs, glutes, and legs to form a straight line from your head to your feet."
+      ]
+    },
+    {
+      "exercise_id": "c073514c-61fd-420d-b879-9dcc3bfed0d4",
+      "sourceName": "TRX Rear Delt Fly",
+      "changeReason": "Both genders face the anchor and lean backward with their feet on the floor, then open their arms outward to raise the torso. Correct the facing-away/forward-plank setup. Offset samples show the extended-arm starting phase and the outward opening; elbows are not rigidly locked in every sample, so describe the visible arm-opening and controlled return without forcing the original fixed straight-arm T shape.",
+      "steps": [
+        "Stand facing the TRX anchor point and grasp the handles with both hands.",
+        "Lean backward with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+        "Open your arms out to the sides at shoulder height to raise your torso, then bring your hands back in front of you under control."
+      ]
+    },
+    {
+      "exercise_id": "c7bfb07c-6ef6-478d-bce0-2fe25de793c3",
+      "sourceName": "TRX Curtsy Lunge",
+      "changeReason": "Both genders face the anchor while using the handles to support a crossed-back lunge. Correct only the source's facing-away instruction; keep its illustrative left-behind-right example and return through the right/front foot. The example is not a claim that both clips use the same leading side.",
+      "steps": [
+        "Stand facing the anchor point, holding onto the TRX handles with both hands.",
+        "Step your left foot behind your right, crossing it behind your right leg, and lower yourself into a curtsy lunge.",
+        "Push through your right foot to return to the starting position and repeat the movement with the other leg."
+      ]
+    },
+    {
+      "exercise_id": "cbb9fd87-e742-44f9-9a75-790fc56f35f7",
+      "sourceName": "TRX Reverse Curl",
+      "changeReason": "Both genders face the anchor with an overhand grip, lean backward on floor-supported feet and curl the handles toward the forehead. The upper arms remain in front of the body rather than pinned against the torso. Clarify the grip relative to the starting arms, the suspended lean and the elbow-extension return.",
+      "steps": [
+        "Stand facing the TRX anchor point and grasp the handles with an overhand grip, palms facing down.",
+        "Lean backward until the straps are taut with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+        "Bend your elbows to curl the handles toward your forehead while keeping your upper arms in front of you, then extend your elbows under control to return."
+      ]
+    },
+    {
+      "exercise_id": "e61f6e13-b45f-4b9a-889e-09025a03626a",
+      "sourceName": "TRX Hamstring Curl",
+      "changeReason": "Both genders lie on their backs with heels supported in the foot cradles and arms/shoulders on the floor, lift the hips and bend the knees to bring the heels inward, then extend the knees. Replace the prone hand-plank setup and unspecified lowering with that visible support and curl/extension sequence.",
+      "steps": [
+        "Lie on your back with your heels supported in the TRX foot cradles and your arms by your sides on the floor.",
+        "Lift your hips and bend your knees to pull your heels toward your glutes, keeping your core engaged and your shoulders on the floor.",
+        "Pause for a moment, then slowly extend your knees to move your feet away from your body and return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "f14ee018-ec29-4945-9533-c585d8511460",
+      "sourceName": "TRX Rear Delt Row",
+      "changeReason": "Both genders face the anchor, lean backward on floor-supported feet and bend flared elbows to pull the torso upward. Correct the facing-away setup, establish the extended-arm lean, and add the visible controlled return while keeping the original outward-elbow emphasis.",
+      "steps": [
+        "Stand facing the TRX anchor point and grasp the handles with both hands.",
+        "Lean backward with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+        "Bend your elbows and pull them back to raise your torso toward the handles.",
+        "Keep your elbows flared outward as you pull, then extend your arms under control to return to the starting position."
+      ]
+    }
+  ]
+}

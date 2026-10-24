@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "male/female Yoga source corrections",
+  "preparedAt": "2026-10-23T10:06:33.231Z",
+  "reviewMethod": "Reviewed five Yoga candidates against the original MuscleWiki exercise pages. Captured two time-separated screenshots of both angles for male and female variants per exercise (20 images total). Two source mismatches were clear enough to correct and translate; three remain held because the videos do not settle one consistent source instruction.",
+  "databaseStatus": "Applied on 2026-10-23 and verified on Supabase project exhgtcaczbgdqfozwrvg. The expected source hash matched live data; both source corrections and reviewed translations were present with source timestamps, media, favorites and admin-priority rows unchanged.",
+  "restorations": [
+    {
+      "exercise_id": "3b04d689-6830-4946-9ea2-f73e926102cb",
+      "source_id": 90440789825269,
+      "before": {
+        "name": "Double Pigeon Pose",
+        "description": "",
+        "steps": [
+          "Sit on the ground with your legs extended in front of you.",
+          "Place a block under your left knee, then bend your right knee and stack it on top of your left ankle.",
+          "Flex both feet and gently press your knees towards the ground, feeling a stretch in your hips.",
+          "Hold the pose for a few breaths, then switch sides and repeat."
+        ]
+      },
+      "after": {
+        "name": "Double Pigeon Pose",
+        "description": "",
+        "steps": [
+          "Sit on the ground with your legs extended in front of you.",
+          "Bend both knees and stack your shins, bringing the top ankle toward the opposite knee.",
+          "Flex both feet and gently lower your knees toward the ground, feeling a stretch in your hips.",
+          "Hold the pose for a few breaths, then release and repeat on the other side."
+        ]
+      },
+      "before_hash": "7471a22977a2fa7836e8850504b0a7ec210e34f86f60fe33522ff06cc42bbed1",
+      "after_hash": "1f76192bc1b96f78ffbb54cad57423322e05372e7f35eed68267b419a0c35db5",
+      "expected_updated_at": "2026-10-14T10:47:03.641441+00:00",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the project's original public exercise videos; not newly retrieved provider wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "The male and female front/side clips show both knees bent with the shins stacked. The source's second step bends only the right knee and leaves the left-leg setup unexplained; rewrite it to describe both legs without unsupported side assignment.",
+        "sampling": "Two time-separated screenshots for each gender; each source page shows the front and side video angles together.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/double-pigeon-pose",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/double-pigeon-pose",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/double-pigeon-pose-male-sample-1.png",
+                  "sample": 1,
+                  "sha256": "3545cf1cd8b7d2d8c95c3a93af340c79492320a1bba019cb7a11bbf69db00e2f"
+                },
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/double-pigeon-pose-male-sample-2.png",
+                  "sample": 2,
+                  "sha256": "1b7186e7ed133c8074199788d8557e81cae53823663d04cf6f2fe987c238588c"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/double-pigeon-pose",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/double-pigeon-pose-female-sample-1.png",
+                  "sample": 1,
+                  "sha256": "f646eea030a48d17481bff821730b8161305b6a3e746659b50b1ca1519b5a294"
+                },
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/double-pigeon-pose-female-sample-2.png",
+                  "sample": 2,
+                  "sha256": "f83ea00925c3b3d3dbd126312e56c007773c9b27ac4f825a1dd6f79c760e59bf"
+                }
+              ]
+            }
+          ]
+        },
+        "contact_sheet": {
+          "path": "artifacts/localization/stage-21-video-evidence/double-pigeon-pose-contact.jpg",
+          "sha256": "ede9492f6e731e63b465bc808b3ff4231da5ea801b61d113c4959fc5d2dc9cef"
+        }
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "bd843d68-7f5d-4dcc-a870-e839427a10a3",
+      "source_id": 26919560009509,
+      "before": {
+        "name": "Half Lotus",
+        "description": "",
+        "steps": [
+          "Sit on a yoga mat with legs straight in front of you.",
+          "Bend the right knee and place the right foot on top of the left thigh. Allow the right knee to fall towards the floor.",
+          "Bring the left foot onto the right thigh. Keep the spine straight and rest hands on the knees.",
+          "Hold for several breaths and then release."
+        ]
+      },
+      "after": {
+        "name": "Half Lotus",
+        "description": "",
+        "steps": [
+          "Sit on a yoga mat with your legs extended in front of you.",
+          "Bend one knee and place that foot on the opposite thigh, allowing the knee to lower comfortably.",
+          "Keep your other leg extended on the mat, sit upright, and rest your hands on your thighs.",
+          "Hold for several breaths and then release."
+        ]
+      },
+      "before_hash": "a172cbacef227ed7ebe569a6ec707d182ec264049490310fe02d2444bff5e1d0",
+      "after_hash": "8a0fbb6e232b548110b4b0930296a10053bdc9b05202fc566f98815ed827f53c",
+      "expected_updated_at": "2026-10-14T10:46:49.110333+00:00",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the project's original public exercise videos; not newly retrieved provider wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "The male and female front/side clips show one foot resting on the opposite thigh while the other leg remains extended. The source's third step brings the second foot onto the other thigh, which changes Half Lotus into full Lotus; replace that step with the leg position visible in the clips.",
+        "sampling": "Two time-separated screenshots for each gender; each source page shows the front and side video angles together.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/half-lotus",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/half-lotus",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/half-lotus-male-sample-1.png",
+                  "sample": 1,
+                  "sha256": "bec2170bb94f7f8f60a62e2c7e801b89c42a1a9047b001e3cac2a540b6953d40"
+                },
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/half-lotus-male-sample-2.png",
+                  "sample": 2,
+                  "sha256": "07da860eee4057641f2e4928f5d71b9f0f01b6bffa22352b145476668b7dbb93"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/half-lotus",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/half-lotus-female-sample-1.png",
+                  "sample": 1,
+                  "sha256": "70d2008a26fdf575cb090c29eb2841fc74fb9a84759a406e6877324a413c1054"
+                },
+                {
+                  "path": "artifacts/localization/stage-21-video-evidence/half-lotus-female-sample-2.png",
+                  "sample": 2,
+                  "sha256": "400765df3ecb69441b2b5c407f161c3470b35e6743f98d7c94b73beb9e2bee9c"
+                }
+              ]
+            }
+          ]
+        },
+        "contact_sheet": {
+          "path": "artifacts/localization/stage-21-video-evidence/half-lotus-contact.jpg",
+          "sha256": "b181e177d093b24407ec7f10a623dced27c306977625a897810b45a2318fb5bf"
+        }
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    }
+  ],
+  "deferred": [
+    {
+      "exercise_id": "2091cc69-6557-48c9-a6d2-a2f2e70a563d",
+      "sourceName": "Pigeon Pose",
+      "reason": "The male clips show one leg extended behind and the opposite leg folded in front, but the female clips show a seated/transition position that does not establish one consistent side-specific setup or hand position. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/pigeon-pose",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/pigeon-pose",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/pigeon-pose-male-sample-1.png",
+                "sample": 1,
+                "sha256": "c5b831fdddf5076f682bc9afe498bade57dedbcd06e8d2e629acca2300d9887f"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/pigeon-pose-male-sample-2.png",
+                "sample": 2,
+                "sha256": "76950f49cb4b9f8c7535b126c351bd61c0cd4166e4aefd8da7a5e69298bc6b74"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/pigeon-pose",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/pigeon-pose-female-sample-1.png",
+                "sample": 1,
+                "sha256": "cbe885bc325965931f9aee8640d9d76e6e0fd0721d51a96b4f2bd3a14487de85"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/pigeon-pose-female-sample-2.png",
+                "sample": 2,
+                "sha256": "04eeb0e9be954da6252337159e8db961cd788a1c987e8c73bf69cff97a15d193"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "c9efa90c-6348-4cdc-b471-ac78acaa2ce5",
+      "sourceName": "Reverse Prayer",
+      "reason": "Both genders show the arms behind the torso, but the available frames do not clearly distinguish palms pressed together from fingers interlaced. Keep the hand configuration on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/reverse-prayer",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/reverse-prayer",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/reverse-prayer-male-sample-1.png",
+                "sample": 1,
+                "sha256": "9dff673f2175aae10201c78db378334ba02ec8442efc84edc66dc55946db34be"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/reverse-prayer-male-sample-2.png",
+                "sample": 2,
+                "sha256": "e49e5465e52892e31d3154f73f5974388323ee5f458384adbc05dbffaf57ffb2"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/reverse-prayer",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/reverse-prayer-female-sample-1.png",
+                "sample": 1,
+                "sha256": "df9200fdb2078e40afd537e5d896f64bf9cd3f3b5d99b5323cb7ec6b7d50a86d"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/reverse-prayer-female-sample-2.png",
+                "sample": 2,
+                "sha256": "ff47d17e1e1e0bfa72025fdc17eb3dc7dadf4d4ac94c9e6e417948334bb9041f"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333",
+      "sourceName": "Wide Legged Standing Forward Bend Holding Heels",
+      "reason": "Male clips show a wide-legged forward fold, but the sampled female clip does not confirm the same position or a heel grip. The title and instructions remain unresolved across genders; keep them on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/wide-legged-standing-forward-bend-holding-heels-male-sample-1.png",
+                "sample": 1,
+                "sha256": "88a81896cf15e931461f324eef9968334755663d73d7eae19cab37f6196fefed"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/wide-legged-standing-forward-bend-holding-heels-male-sample-2.png",
+                "sample": 2,
+                "sha256": "cdbe7300ed3f210bfc00eaa90bb6a1c9d552916b9e4ae2962e98997e18574d2d"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/wide-legged-standing-forward-bend-holding-heels-female-sample-1.png",
+                "sample": 1,
+                "sha256": "9932a7f96c3c10bd2ed9446d6995166fcd37012554564f1446e310da3428d2a3"
+              },
+              {
+                "path": "artifacts/localization/stage-21-video-evidence/wide-legged-standing-forward-bend-holding-heels-female-sample-2.png",
+                "sample": 2,
+                "sha256": "e9c7ccb694e24981cc44e47623ab75f7c2b6a00316880be5ed56c5cfc8f99c3e"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceHashBefore": "90565ce240ae77de42fcf90368f487d136937b2a78d13d28cdec7c5cc2719307",
+  "sourceHashAfter": "e444cd605435192a7810f9792e223ffb426e3d40d15e1e05768800a8cc57be5c"
+}

@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared every source step with the Vietnamese text, preserving supports, grip changes, left/right cues, numbers and step order. Held TRX sources with contradictory anchor direction, simultaneous incompatible supports, missing suspension setup or unclear leg references rather than repairing the source during translation.",
+  "translations": [
+    {
+      "index": 181,
+      "sourceName": "Medicine Ball Pushup",
+      "name": "Chống đẩy trên bóng tạ",
+      "steps": [
+        "Đặt hai tay lên bóng tạ trong tư thế chống đẩy.",
+        "Thực hiện chống đẩy, giữ đúng tư thế."
+      ],
+      "exercise_id": "7a254424-f5e7-4e1c-a2d0-71b3226bd128"
+    },
+    {
+      "index": 182,
+      "sourceName": "Medicine Ball Rainbow Slam",
+      "name": "Đập bóng tạ luân phiên hai bên",
+      "steps": [
+        "Nâng bóng tạ qua đầu.",
+        "Đập bóng xuống một bên.",
+        "Bắt bóng và lặp lại động tác đập sang bên kia."
+      ],
+      "exercise_id": "bd776365-0a16-4f1b-bc03-64499bee1d43"
+    },
+    {
+      "index": 183,
+      "sourceName": "Medicine Ball Reverse Lunge",
+      "name": "Chùng chân lùi với bóng tạ",
+      "steps": [
+        "Giữ bóng tạ trước ngực.",
+        "Bước lùi vào tư thế chùng chân.",
+        "Trở về vị trí ban đầu. Lặp lại với chân kia."
+      ],
+      "exercise_id": "8f75b982-e4cb-41da-aa42-de96f0b3f023"
+    },
+    {
+      "index": 184,
+      "sourceName": "Medicine Ball Reverse Lunge Twist",
+      "name": "Chùng chân lùi kết hợp xoay người với bóng tạ",
+      "steps": [
+        "Giữ bóng tạ trước ngực.",
+        "Bước lùi vào tư thế chùng chân, duỗi hai tay và xoay thân.",
+        "Trở về vị trí ban đầu. Lặp lại với chân kia."
+      ],
+      "exercise_id": "f36d201c-3db5-4a59-9ad1-ff7b90d60ece"
+    },
+    {
+      "index": 185,
+      "sourceName": "Medicine Ball Russian Twist",
+      "name": "Ngồi xoay người với bóng tạ",
+      "steps": [
+        "Ngồi co gối, nhấc hai bàn chân khỏi sàn.",
+        "Xoay thân sang hai bên, chạm bóng tạ xuống sàn."
+      ],
+      "exercise_id": "e503da96-fde0-4957-b108-8ea01d2bf865"
+    },
+    {
+      "index": 186,
+      "sourceName": "Medicine Ball Self Toss",
+      "name": "Tự tung và bắt bóng tạ",
+      "steps": [
+        "Tung bóng tạ lên rồi bắt bằng hai tay.",
+        "Lặp lại động tác tung và bắt theo số lần mong muốn."
+      ],
+      "exercise_id": "6a66c9fa-6495-43e1-811a-977841617bd0"
+    },
+    {
+      "index": 187,
+      "sourceName": "Medicine Ball Single Leg Deadlift",
+      "name": "Deadlift một chân với bóng tạ",
+      "steps": [
+        "Giữ bóng tạ khi đứng trên một chân.",
+        "Gập người về trước trên chân trụ, duỗi chân kia ra sau.",
+        "Trở về vị trí ban đầu. Lặp lại với chân kia."
+      ],
+      "exercise_id": "cc92a25a-bb89-45a1-9681-d6fc7878a4e0"
+    },
+    {
+      "index": 188,
+      "sourceName": "Medicine Ball Slam",
+      "name": "Đập bóng tạ xuống sàn",
+      "steps": [
+        "Nâng bóng tạ qua đầu.",
+        "Dùng lực đập bóng xuống sàn."
+      ],
+      "exercise_id": "67b898b7-669d-4d50-a86e-cdb4591c5b62"
+    },
+    {
+      "index": 189,
+      "sourceName": "Medicine Ball Squat Reach",
+      "name": "Squat kết hợp đưa bóng tạ sang bên",
+      "steps": [
+        "Giữ bóng tạ trước ngực.",
+        "Hạ người vào tư thế squat, đưa bóng sang một bên.",
+        "Đứng lên rồi lặp lại động tác đưa bóng sang bên kia."
+      ],
+      "exercise_id": "4a9e2344-ef6d-4a89-a08e-4ad231863679"
+    },
+    {
+      "index": 190,
+      "sourceName": "Medicine Ball Walkover Pushup",
+      "name": "Chống đẩy đổi tay trên bóng tạ",
+      "steps": [
+        "Đặt một tay lên bóng tạ, tay kia trên sàn.",
+        "Thực hiện chống đẩy, di chuyển hai tay để đổi vị trí."
+      ],
+      "exercise_id": "169da61d-5b61-4879-9bf5-da5cd4354f63"
+    },
+    {
+      "index": 191,
+      "sourceName": "Medicine Ball Wall Ball",
+      "name": "Squat ném bóng tạ vào tường",
+      "steps": [
+        "Giữ bóng tạ trước ngực, quay mặt về tường.",
+        "Hạ người vào tư thế squat rồi ném bóng vào tường.",
+        "Bắt bóng và lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "4989388e-950c-49e8-8455-a9423395b80b"
+    },
+    {
+      "index": 192,
+      "sourceName": "Medicine Ball Wood Chopper",
+      "name": "Đưa bóng tạ chéo người",
+      "steps": [
+        "Giữ bóng tạ bằng hai tay, hai tay duỗi.",
+        "Vung bóng chéo qua thân, siết cơ trung tâm."
+      ],
+      "exercise_id": "45d8e0c2-803f-46b2-b462-45ce68649ea0"
+    },
+    {
+      "index": 193,
+      "sourceName": "Medicine Ball Wood Chopper Toss",
+      "name": "Ném bóng tạ chéo người vào tường",
+      "steps": [
+        "Đứng nghiêng bên cạnh tường.",
+        "Vung bóng tạ qua thân rồi ném vào tường để bóng bật lại.",
+        "Bắt bóng và lặp lại động tác ném ở bên kia."
+      ],
+      "exercise_id": "6a79f001-6249-4394-b22f-7156a57024ed"
+    },
+    {
+      "index": 194,
+      "sourceName": "TRX Calf Raise",
+      "name": "Nhón gót với TRX",
+      "steps": [
+        "Giữ dây TRX dưới cánh tay, đặt tay cầm ở nách.",
+        "Nghiêng người về trước, tựa vào dây.",
+        "Giữ thân thẳng và bắt đầu nhón gót bằng cách nâng gót chân khỏi sàn."
+      ],
+      "exercise_id": "ab60275a-064e-4862-880f-888e4a4b97f3"
+    },
+    {
+      "index": 195,
+      "sourceName": "TRX Curl",
+      "name": "Cuốn tay trước với TRX",
+      "steps": [
+        "Nắm dây TRX với tay nắm ngửa, ngả người ra sau và ra xa điểm neo.",
+        "Giữ khuỷu tay cao khi gập khuỷu tay. Kéo hai nắm tay về phía trán."
+      ],
+      "exercise_id": "57f63a1a-5a7a-4f4c-8d92-347fb8fb3894"
+    },
+    {
+      "index": 198,
+      "sourceName": "TRX Forearm Side Plank",
+      "name": "Plank nghiêng trên cẳng tay với TRX",
+      "steps": [
+        "Nằm nghiêng, hai chân duỗi thẳng và bàn chân đặt trong đai đỡ chân TRX.",
+        "Chống người trên cẳng tay và siết cơ trung tâm để giữ một đường thẳng từ đầu đến bàn chân."
+      ],
+      "exercise_id": "ea2b8aea-a09c-4a33-aa15-2087df34ceea"
+    },
+    {
+      "index": 200,
+      "sourceName": "TRX Hammer Curl",
+      "name": "Cuốn búa với TRX",
+      "steps": [
+        "Nắm dây TRX và ngả người ra xa điểm neo.",
+        "Giữ tay nắm trung tính. Gập khuỷu tay và kéo hai nắm tay về hai bên thái dương."
+      ],
+      "exercise_id": "bd08cd33-918c-4483-bab8-568eb7eec3fa"
+    },
+    {
+      "index": 202,
+      "sourceName": "TRX Hand Plank",
+      "name": "Plank chống tay với TRX",
+      "steps": [
+        "Quay mặt ra xa dây TRX, đặt bàn chân trong tay cầm TRX và lòng bàn tay trên sàn.",
+        "Nhấc đầu gối khỏi sàn để bắt đầu hiệp.",
+        "Siết cơ trung tâm và giữ vững tư thế plank trong khoảng thời gian mong muốn."
+      ],
+      "exercise_id": "6860a35f-020a-4eaf-9b9b-b00bc4954f4a"
+    },
+    {
+      "index": 203,
+      "sourceName": "TRX I Raise",
+      "name": "Nâng tay hình chữ I với TRX",
+      "steps": [
+        "Đứng đối diện dây TRX, nắm tay cầm với tay nắm sấp, giữ hai tay thẳng và hai bàn tay hơi rộng hơn vai.",
+        "Giữ cơ trung tâm siết, từ từ nâng hai tay ra trước đến khi ở trên đầu.",
+        "Dừng một chút ở điểm cao nhất rồi từ từ hạ tay về vị trí ban đầu."
+      ],
+      "exercise_id": "955bd0e6-02a6-49ae-aad3-6a5dc071c71d"
+    },
+    {
+      "index": 205,
+      "sourceName": "TRX Knee Tuck",
+      "name": "Co gối với TRX",
+      "steps": [
+        "Đặt bàn chân trong đai TRX và vào tư thế plank chống tay.",
+        "Kéo đầu gối về ngực và co cơ bụng."
+      ],
+      "exercise_id": "4a484063-2fe9-4054-8871-8ed730e53001"
+    },
+    {
+      "index": 208,
+      "sourceName": "TRX Mountain Climber",
+      "name": "Leo núi với TRX",
+      "steps": [
+        "Bắt đầu ở tư thế plank với dây TRX được điều chỉnh ngang giữa bắp chân. Đặt bàn chân trong đai TRX.",
+        "Giữ cơ bụng siết, đưa một đầu gối về ngực trong khi chân kia vẫn duỗi ra sau.",
+        "Đổi chân, đưa đầu gối bên kia về ngực, giữ cơ bụng siết và lưng thẳng."
+      ],
+      "exercise_id": "84cc935c-8629-4959-a52b-97aaaf694935"
+    },
+    {
+      "index": 209,
+      "sourceName": "TRX Oblique Crunch",
+      "name": "Co gối chéo tập bụng với TRX",
+      "steps": [
+        "Đặt bàn chân trong đai TRX và vào tư thế plank chống tay.",
+        "Kéo cả hai đầu gối về khuỷu tay phải.",
+        "Duỗi chân về vị trí ban đầu rồi kéo cả hai đầu gối về khuỷu tay trái."
+      ],
+      "exercise_id": "d73b4881-1d69-41fd-b858-9309628f3cb1"
+    },
+    {
+      "index": 211,
+      "sourceName": "TRX Pike",
+      "name": "Nâng hông với TRX",
+      "steps": [
+        "Đặt bàn chân trong đai và vào tư thế plank.",
+        "Kéo hông thẳng lên phía trần.",
+        "Hạ hông đến khi trở lại tư thế plank."
+      ],
+      "exercise_id": "7bbbaceb-7f37-42a2-a239-40d944bad9d4"
+    },
+    {
+      "index": 216,
+      "sourceName": "TRX Reverse Lunge",
+      "name": "Chùng chân lùi với TRX",
+      "steps": [
+        "Nắm dây TRX và bước ra xa đến khi dây căng.",
+        "Bước lùi một chân vào tư thế chùng chân và chạm nhẹ đầu gối xuống sàn.",
+        "Trở về vị trí ban đầu rồi lặp lại với chân kia."
+      ],
+      "exercise_id": "25e8c321-b556-44a6-a18b-36494ce6b5e6"
+    },
+    {
+      "index": 217,
+      "sourceName": "TRX Rotating Row",
+      "name": "Kéo TRX kết hợp xoay tay nắm",
+      "steps": [
+        "Nắm dây TRX và ngả người ra xa điểm neo đến khi dây căng.",
+        "Bắt đầu với tay nắm sấp. Kéo khuỷu tay ra sau và xoay tay nắm.",
+        "Khi khuỷu tay đến hai bên thân, lòng bàn tay cần hướng lên trên."
+      ],
+      "exercise_id": "55917827-17a1-409a-b81b-3081bd9e4565"
+    },
+    {
+      "index": 218,
+      "sourceName": "TRX Single Arm row",
+      "name": "Kéo TRX một tay",
+      "steps": [
+        "Giữ dây TRX bằng một tay.",
+        "Ngả người ra sau đến khi dây căng. Duỗi hoàn toàn khuỷu tay.",
+        "Kéo khuỷu tay ra sau thân. Tránh xoay người. Cố gắng giữ hai vai cân bằng."
+      ],
+      "exercise_id": "a4abd3cb-e7c3-49ae-bb83-880cedd8c764"
+    },
+    {
+      "index": 219,
+      "sourceName": "TRX Skullcrusher",
+      "name": "Duỗi tay sau với TRX",
+      "steps": [
+        "Giữ hai dây TRX và nghiêng người về trước. Mỗi dây đi qua phía trên một vai.",
+        "Giữ khuỷu tay khép vào rồi gập và duỗi khuỷu tay."
+      ],
+      "exercise_id": "685a8e9e-f1c0-4a5e-94d4-2eeea3fc5ece"
+    },
+    {
+      "index": 220,
+      "sourceName": "TRX Split Squat",
+      "name": "Squat tách chân với TRX",
+      "steps": [
+        "Giữ hai dây TRX và bước ra xa đến khi dây căng. Đứng tách chân trước sau.",
+        "Hạ đầu gối sau và chạm nhẹ xuống sàn.",
+        "Dùng hai tay và TRX hỗ trợ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "c8efb99b-9722-401e-bdba-8d2f6e91e758"
+    },
+    {
+      "index": 221,
+      "sourceName": "TRX Squat",
+      "name": "Squat với TRX",
+      "steps": [
+        "Giữ hai dây TRX và ngả người ra xa điểm neo.",
+        "Gập hông và gối để vào tư thế squat.",
+        "Có thể dùng hai tay và dây hỗ trợ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "ac01fe3e-e4b8-40e5-81ad-0817b20adcfd"
+    },
+    {
+      "index": 222,
+      "sourceName": "TRX W Raise",
+      "name": "Nâng tay hình chữ W với TRX",
+      "steps": [
+        "Giữ dây TRX và ngả người ra xa điểm neo.",
+        "Kéo khuỷu tay ra sau đồng thời xoay ngoài khớp vai. Hai tay tạo hình chữ W ở phần cuối động tác."
+      ],
+      "exercise_id": "4121191a-5b77-429d-8a97-30155df053ab"
+    },
+    {
+      "index": 223,
+      "sourceName": "TRX Y Raise",
+      "name": "Nâng tay hình chữ Y với TRX",
+      "steps": [
+        "Giữ dây TRX và ngả người ra xa điểm neo đến khi dây căng.",
+        "Giữ hai khuỷu tay gần duỗi thẳng, nâng hai tay sang bên và lên trên.",
+        "Hai tay tạo hình chữ Y ở phần cuối động tác."
+      ],
+      "exercise_id": "6035dac8-b086-4072-a30c-7f36d8c73417"
+    },
+    {
+      "index": 224,
+      "sourceName": "Vitruvian Bench Press",
+      "name": "Đẩy ngực trên ghế với Vitruvian",
+      "steps": [
+        "Nằm trên ghế phẳng.",
+        "Hơi khép khuỷu tay, đẩy tay cầm lên phía trần."
+      ],
+      "exercise_id": "3ab18dfe-12ad-4056-97c2-5630b5636300"
+    },
+    {
+      "index": 225,
+      "sourceName": "Vitruvian Crunch",
+      "name": "Gập bụng với Vitruvian",
+      "steps": [
+        "Giữ phụ kiện dây thừng và nằm thẳng.",
+        "Gập cột sống và cuộn lưng trên lên khỏi sàn."
+      ],
+      "exercise_id": "eefe0f79-a847-42a1-b2cb-63613532d4e4"
+    },
+    {
+      "index": 226,
+      "sourceName": "Vitruvian Deficit Lunge",
+      "name": "Chùng chân lùi từ bục Vitruvian",
+      "steps": [
+        "Đứng thẳng, cả hai bàn chân trên bục.",
+        "Bước lùi và hạ đầu gối sau xuống sàn."
+      ],
+      "exercise_id": "b9c7fd9e-bd86-4cab-bb54-942b6ef6d776"
+    },
+    {
+      "index": 227,
+      "sourceName": "Vitruvian Figure Four Hip Thrust",
+      "name": "Đẩy hông bắt chéo chân hình số bốn với Vitruvian",
+      "steps": [
+        "Đeo phụ kiện đai.",
+        "Vắt một chân qua chân kia rồi đẩy hông lên phía trần."
+      ],
+      "exercise_id": "40dccd0c-142a-434d-8c89-f69cbed7a05a"
+    },
+    {
+      "index": 228,
+      "sourceName": "Vitruvian Front Squat",
+      "name": "Squat với thanh đòn trước vai trên Vitruvian",
+      "steps": [
+        "Dùng phụ kiện thanh đòn.",
+        "Đặt thanh đòn trên vai trước và bắt chéo hai tay.",
+        "Đẩy hông ra sau và hướng tới độ sâu squat song song với sàn."
+      ],
+      "exercise_id": "f17ef13b-15ed-47eb-830d-f8d59beba99d"
+    },
+    {
+      "index": 229,
+      "sourceName": "Vitruvian Hammer Curl",
+      "name": "Cuốn búa với Vitruvian",
+      "steps": [
+        "Giữ tay nắm trung tính.",
+        "Gập khuỷu tay đến khi cẳng tay chạm bắp tay trước.",
+        "Duỗi hoàn toàn khuỷu tay để kết thúc mỗi lần lặp."
+      ],
+      "exercise_id": "276f560b-bee8-4e8a-babb-4490ecdb1e28"
+    },
+    {
+      "index": 230,
+      "sourceName": "Vitruvian Hip Thrust",
+      "name": "Đẩy hông với Vitruvian",
+      "steps": [
+        "Tựa lưng lên ghế.",
+        "Đặt thanh đòn hoặc đai trên hông.",
+        "Gập và duỗi hông hết biên độ trong mỗi lần lặp."
+      ],
+      "exercise_id": "4a2dbd14-d2e2-4d09-a134-94ce61f7943d"
+    },
+    {
+      "index": 231,
+      "sourceName": "Vitruvian Kneeling Wood Chopper",
+      "name": "Quỳ kéo chéo người với Vitruvian",
+      "steps": [
+        "Giữ phụ kiện bằng hai tay và vào tư thế quỳ.",
+        "Xoay qua thân."
+      ],
+      "exercise_id": "afab9c4d-b305-43e8-88f3-be4212e43b55"
+    },
+    {
+      "index": 232,
+      "sourceName": "Vitruvian Lateral Raise",
+      "name": "Nâng tay sang ngang với Vitruvian",
+      "steps": [
+        "Đứng thẳng với tay nắm trung tính.",
+        "Nâng hai tay sang bên, giữ khuỷu tay gần duỗi thẳng."
+      ],
+      "exercise_id": "7130a5c8-97d1-44fb-8267-90ca1c5484fc"
+    },
+    {
+      "index": 233,
+      "sourceName": "Vitruvian Pec Fly",
+      "name": "Ép ngực với Vitruvian",
+      "steps": [
+        "Nằm thẳng trên ghế.",
+        "Giữ khuỷu tay gần duỗi thẳng và hạ hai tay về phía sàn."
+      ],
+      "exercise_id": "9193caaf-3edd-49ee-8c9f-928af4ff4813"
+    },
+    {
+      "index": 234,
+      "sourceName": "Vitruvian Push Up",
+      "name": "Chống đẩy với Vitruvian",
+      "steps": [
+        "Dùng phụ kiện đai. Vào tư thế chống đẩy.",
+        "Đặt khuỷu tay ở góc 45 độ. Gập khuỷu tay đến khi cánh tay trên đến bên thân.",
+        "Sau đó đẩy người lên."
+      ],
+      "exercise_id": "0c9a89ac-cf8a-4b3e-810d-41aba43508ff"
+    },
+    {
+      "index": 235,
+      "sourceName": "Vitruvian Rear Delt Fly",
+      "name": "Dang tay tập vai sau với Vitruvian",
+      "steps": [
+        "Nắm hai tay cầm và gập người về trước.",
+        "Giữ khuỷu tay gần duỗi thẳng, nâng hai tay thẳng sang bên."
+      ],
+      "exercise_id": "a649ef62-d76d-4cbf-9a27-7459a55be794"
+    },
+    {
+      "index": 236,
+      "sourceName": "Vitruvian Romanian Deadlift",
+      "name": "Romanian deadlift với Vitruvian",
+      "steps": [
+        "Dùng tay nắm sấp.",
+        "Giữ đầu gối gần duỗi thẳng và gập người về trước tại hông.",
+        "Giữ lưng phẳng."
+      ],
+      "exercise_id": "2f169561-9438-464c-915c-46bc1b3b8c0f"
+    },
+    {
+      "index": 237,
+      "sourceName": "Vitruvian Row",
+      "name": "Kéo lưng với Vitruvian",
+      "steps": [
+        "Gập người về trước tại hông. Giữ lưng phẳng.",
+        "Duỗi hoàn toàn khuỷu tay rồi kéo khuỷu tay ra sau hướng lên trần."
+      ],
+      "exercise_id": "116fc5b8-8b87-4aaa-b8dd-c6643546c26e"
+    },
+    {
+      "index": 238,
+      "sourceName": "Vitruvian Seated Calf Raise",
+      "name": "Ngồi nhón gót với Vitruvian",
+      "steps": [
+        "Ngồi trên ghế, đặt phụ kiện thanh đòn trên hai chân.",
+        "Nâng gót chân lên phía trần."
+      ],
+      "exercise_id": "3c1fb0dd-50a9-4981-808d-804199bc3fb1"
+    },
+    {
+      "index": 239,
+      "sourceName": "Vitruvian Shrug",
+      "name": "Nhún vai với Vitruvian",
+      "steps": [
+        "Đứng thẳng và giữ hai phụ kiện tay cầm.",
+        "Kéo bả vai thẳng lên phía trần."
+      ],
+      "exercise_id": "786decf0-6039-4452-acf4-401d1ee3f37d"
+    },
+    {
+      "index": 240,
+      "sourceName": "Vitruvian Side Bend",
+      "name": "Nghiêng người sang bên với Vitruvian",
+      "steps": [
+        "Giữ một phụ kiện tay cầm.",
+        "Đứng thẳng, nghiêng người sang phía đối diện dây cáp."
+      ],
+      "exercise_id": "0d0d8601-aa5a-46a6-908e-d0e2ae0550ba"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 196,
+      "sourceName": "TRX Curtsy Lunge",
+      "reason": "Source says to face away from the anchor while holding both handles for the supported crossing lunge. Verify anchor orientation and grip before translating this setup.",
+      "exercise_id": "c7bfb07c-6ef6-478d-bce0-2fe25de793c3"
+    },
+    {
+      "index": 197,
+      "sourceName": "TRX Forearm Plank",
+      "reason": "Source requires forearms on the ground and simultaneously holding the handles above the head while feet occupy the straps. These support instructions conflict.",
+      "exercise_id": "9ea486c1-b081-4f96-9cc8-dae04dd6ac20"
+    },
+    {
+      "index": 199,
+      "sourceName": "TRX Glute Bridge",
+      "reason": "Source places feet both in suspended foot cradles and flat on the ground. Verify the intended foot support before translating.",
+      "exercise_id": "209cfd4e-69c1-40b6-903c-6f4d22bef4d0"
+    },
+    {
+      "index": 201,
+      "sourceName": "TRX Hamstring Curl",
+      "reason": "Source starts in a face-down push-up position then describes a heel-to-glute hamstring curl while maintaining a straight body. Verify the intended supine versus prone exercise.",
+      "exercise_id": "e61f6e13-b45f-4b9a-889e-09025a03626a"
+    },
+    {
+      "index": 204,
+      "sourceName": "TRX Jumping Squat",
+      "reason": "Source only faces the straps and gives a generic free-arm jumping squat without holding or using the TRX. Verify suspension setup rather than adding it.",
+      "exercise_id": "2f8f2f47-7916-4691-b71c-26dfd8690dd1"
+    },
+    {
+      "index": 206,
+      "sourceName": "TRX Kneeling Ab Rollout",
+      "reason": "Kneeling start is followed by rolling onto toes and lowering all the way to the ground, without a clear knee support or rollout return. Verify the intended kneeling versus standing variant.",
+      "exercise_id": "36a77a27-e15e-4f8b-9082-7157fad66aa3"
+    },
+    {
+      "index": 207,
+      "sourceName": "TRX Lateral Lunge",
+      "reason": "After a lateral step, source switches to front/back leg references and a front-knee angle. Verify the loaded leg and stance before translating those cues.",
+      "exercise_id": "251b06f4-d14b-4124-85da-1f222a90993e"
+    },
+    {
+      "index": 210,
+      "sourceName": "TRX Pec Fly",
+      "reason": "Facing the anchor and then leaning forward conflicts with the suspended fly setup described by the arm-closing movement. Verify the anchor direction and starting arm position.",
+      "exercise_id": "75f49f00-1deb-4145-aa48-56d4d39d4b5e"
+    },
+    {
+      "index": 212,
+      "sourceName": "TRX Pushup",
+      "reason": "Source says to face the straps and step forward into the push-up. Verify which side of the anchor the user should face before translating the suspension setup.",
+      "exercise_id": "5557cf21-aa81-4b51-8fb0-6d29f766e1bb"
+    },
+    {
+      "index": 213,
+      "sourceName": "TRX Rear Delt Fly",
+      "reason": "Facing away from the straps and stepping forward into a plank conflicts with the rear-delt pulling fly described afterward. Verify body orientation and lean direction.",
+      "exercise_id": "c073514c-61fd-420d-b879-9dcc3bfed0d4"
+    },
+    {
+      "index": 214,
+      "sourceName": "TRX Rear Delt Row",
+      "reason": "Source faces away from the straps before leaning away from the anchor and rowing. Verify anchor orientation rather than silently changing it.",
+      "exercise_id": "f14ee018-ec29-4945-9533-c585d8511460"
+    },
+    {
+      "index": 215,
+      "sourceName": "TRX Reverse Curl",
+      "reason": "Source specifies palms away from the body without a clear suspended lean, then keeps elbows close while curling. Verify grip orientation and loaded body position for the reverse-curl variant.",
+      "exercise_id": "cbb9fd87-e742-44f9-9a75-790fc56f35f7"
+    }
+  ]
+}

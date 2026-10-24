@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared against the corrected English source and the reviewed front/side source videos.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ca5b56d07a888a1c5994b4965612b3b65e257ca8fef3e6bdeb20c11d722716d4",
+      "name": "Tư thế gập người chân rộng giữ gót chân",
+      "description": "",
+      "steps": [
+        "Bắt đầu đứng ở đầu thảm, hai chân mở rộng.",
+        "Thở ra, gập người từ hông và đưa cả hai tay xuống nắm gót chân.",
+        "Giữ cả hai gót chân trong vài nhịp thở, sau đó thả tay và từ từ trở lại tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T14:27:42.672Z",
+      "source": {
+        "name": "Wide Legged Standing Forward Bend Holding Heels",
+        "description": "",
+        "steps": [
+          "Start standing at the top of your mat with your feet wide apart.",
+          "Exhale and fold forward from your hips, reaching both hands down to hold your heels.",
+          "Hold both heels for a few breaths, then release the grip and slowly return to standing."
+        ]
+      }
+    }
+  ]
+}

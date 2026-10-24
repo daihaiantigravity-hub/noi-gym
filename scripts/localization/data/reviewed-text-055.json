@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared corrected English wording against captured front/side source videos.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "c15c48e4-3318-4b63-ac31-22a315943752",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3ebb7611f09f1b3e75e16f805ab7d9bc7210056d485548bd4dca5b565fa8d97e",
+      "name": "Nâng bắp chân 1C lệch tâm hai chân trên bục",
+      "description": "",
+      "steps": [
+        "Đặt phần trước của cả hai bàn chân trên mép bục và vịn tường để giữ thăng bằng.",
+        "Nhanh chóng nâng cả hai gót chân lên vị trí cao nhất.",
+        "Giữ ngắn, sau đó từ từ hạ cả hai gót xuống dưới mặt bục cho đến khi cảm thấy căng bắp chân.",
+        "Tạm dừng ở cả hai điểm cuối biên độ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:40:22.785Z",
+      "sourceName": "Calf Raise 1C Bilateral Eccentric From Box"
+    },
+    {
+      "exercise_id": "443b5ff2-5934-44f8-a10e-685bf0a7d708",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e4648f59c209044a649b6f56533b0184a33ab7748551ff530471d81d0c1bc348",
+      "name": "Nâng hông",
+      "description": "",
+      "steps": [
+        "Nằm ngửa trên bệ trượt, gập gối và đặt hai bàn chân rộng bằng hông trên thanh đạp; giữ hông hơi nhấc khỏi bệ.",
+        "Siết cơ bụng và cơ mông, sau đó dùng gót chân đạp thanh để di chuyển bệ trượt.",
+        "Giữ hông nâng và ổn định trong khi đạp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:40:22.790Z",
+      "sourceName": "Hip Lift"
+    },
+    {
+      "exercise_id": "ff0457f4-54bb-48e6-84e3-e8a66867688b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5e82dcafd565643033a525678eca748837792fc1d8f2035b3b5996bcff135db3",
+      "name": "Giãn lưng dưới biến thể 2",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, duỗi hai tay dọc theo thân và gập cả hai gối.",
+        "Duỗi một chân, gập chân kia và đưa gối chân gập bắt chéo qua chân duỗi.",
+        "Xoay hông để gối chân gập hạ về phía sàn bên cạnh, giữ chân duỗi áp trên sàn.",
+        "Giữ ở cuối biên độ giãn, sau đó đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:40:22.790Z",
+      "sourceName": "Lower back Stretch Variation Two"
+    },
+    {
+      "exercise_id": "94fa27d3-e887-4289-ac56-57f2cae2101e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0a0d648315004e959825ff70bd81836e842ba84651ee731808477eb41b024dc3",
+      "name": "Gập người deadlift nhún giãn cơ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông và giữ lưng ở tư thế trung lập.",
+        "Đẩy hông ra sau, gập thân người về trước và giữ lưng thẳng.",
+        "Vươn về phía các ngón chân và thực hiện những nhịp nhún nhỏ có kiểm soát trong biên độ thoải mái.",
+        "Trở lại tư thế đứng; biên độ phụ thuộc vào độ linh hoạt của gân kheo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:40:22.790Z",
+      "sourceName": "Deadlift Bounces Stretch"
+    },
+    {
+      "exercise_id": "9c3889b0-767c-479e-a1d3-bde7fd252e04",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0fad71722f06a5644dca37e69c3f147d7130eb142938410fca0ec4ae81b0d42f",
+      "name": "Ổn định cơ trung tâm chéo bên với tạ ấm một tay",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông và đặt tạ ấm trên sàn bên cạnh một bàn chân.",
+        "Gập hông với lưng thẳng và nhấc tạ ấm bằng một tay.",
+        "Đứng thẳng, giữ tạ bên thân, giữ thân người cân bằng và không nghiêng sang một bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:40:22.790Z",
+      "sourceName": "Crosslateral Core Stabilisation Unilateral Load Kettlebell"
+    }
+  ]
+}

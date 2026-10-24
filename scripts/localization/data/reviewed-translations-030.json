@@ -1,0 +1,1369 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared full stretch and cardio instructions, retaining named body regions, supports, directions, unilateral variants, pace and step order. Held unclear palm contact, prone leg positioning and an unspecified joint rather than guessing setup.",
+  "sourceExceptions": [
+    {
+      "index": 244,
+      "sourceName": "Forearms Stretch Variation Two",
+      "reason": "Source puts a hand against a wall with palms facing upward and fingertips touching, then leans into the palm. Verify which hand surface contacts the wall and what the fingertips touch.",
+      "exercise_id": "39a07611-a045-4d15-983f-e60daa133db0"
+    },
+    {
+      "index": 245,
+      "sourceName": "Glutes Stretch Variation One",
+      "reason": "Prone setup brings one leg forward then fully extends that leg without establishing hip orientation or support. Verify the intended leg placement.",
+      "exercise_id": "e38c6169-c56c-4074-9a73-63037169e582"
+    },
+    {
+      "index": 257,
+      "sourceName": "Lower back Stretch Variation Two",
+      "reason": "Source hooks a foot under an unspecified joint of the other leg, then keeps the hooked leg flat while knees rotate. Verify the joint and supporting leg.",
+      "exercise_id": "ff0457f4-54bb-48e6-84e3-e8a66867688b"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "8839720f-5b33-44d8-a8ee-c289ef78b858",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "daec7a7d5b6c714991629231ad64c7cefa09662ada581ebbc7ab7b7c89534985",
+      "name": "Giãn cơ ngực biến thể ba",
+      "description": "",
+      "steps": [
+        "Đưa tay ra sau lưng và nắm hai bàn tay lại.",
+        "Từ từ duỗi khuỷu tay đến khi thẳng hết rồi nâng tay ra xa người.",
+        "Dừng ở tư thế này vài giây rồi đưa tay về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Chest Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Place your arms behind your back and clasp your hands together.",
+          "Slowly extend your elbows until they are locked then lift them away from you.",
+          "Pause in this position for a few seconds and then return them to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dcdad194-4b92-444e-92f7-069fcfc70094",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a7f56f8de23cbe5eefcde76ae150827cebffefaee551931af3105f8c137c6841",
+      "name": "Giãn cơ ngực biến thể hai",
+      "description": "",
+      "steps": [
+        "Nằm nghiêng với một bàn tay ngay phía trước.",
+        "Giữ tay hơi co, xoay tay quanh thân chậm nhất có thể.",
+        "Trở về vị trí ban đầu rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Chest Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Lay on your side with one hand just in front of you.",
+          "With a slight bend in your arm, rotate your arm around your body as slowly as possible.",
+          "Return to the starting position and then repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3f795bc1-00a4-4c34-92df-5d4480326f79",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c7181ddc0625c468a0ac75105557f6260db9c941cd70aff352bf251961a9c156",
+      "name": "Giãn cơ cẳng tay biến thể một",
+      "description": "",
+      "steps": [
+        "Đặt lòng bàn tay áp sát tường.",
+        "Bước một bước về trước, từ từ duỗi thẳng tay để kéo dài cơ tay trước.",
+        "Giữ ở điểm giãn sâu nhất.",
+        "Trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Forearms Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Place your palm flush against the wall.",
+          "Take one step forward and straighten your arm slowly to extend your bicep.",
+          "Hold at the peak of the stretch.",
+          "Return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b9908230-5755-4ad8-83c7-8efe5b4affa8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f4eb02c51717b910f50083945d8a6b8afb0cc722a6313a6085673e0a3b6561c6",
+      "name": "Giãn cơ mông biến thể hai",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, đặt một chân nằm thẳng và chân kia vắt qua trên.",
+        "Giữ chân bằng tay cùng bên, từ từ xoay hông và lưng.",
+        "Giữ ở điểm giãn sâu nhất rồi từ từ trở về vị trí ban đầu.",
+        "Đổi bên và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Glutes Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Sit on the ground and lay one leg flat and the other over the top.",
+          "Hold your leg with the same side arm and slowly rotate your hips and back.",
+          "Hold at the peak of the stretch, then slowly return to starting position.",
+          "Switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b8839289-0a95-463b-9db7-13ec251aba6d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fb8ff71cc5694c35e96774c62c0e631db4cac9b7891e17c09add141573a1ad8b",
+      "name": "Giãn cơ đùi sau biến thể bốn",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Với về trước để thử chạm mũi chân. Vươn xa nhất có thể.",
+        "Giữ giãn trong vài giây rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Hamstrings Stretch Variation Four",
+        "description": "",
+        "steps": [
+          "Sit on the floor with your legs out in front of you.",
+          "Reach forward to try and touch your toes. Reach as far forward as you can go.",
+          "Hold the stretch for a few seconds then return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ec04642d-99b9-4a36-9316-0b3517b69ba2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6a89ad51cf2e332396dc46ff2ce5739fa39304117100a08561a4f52b5a38071c",
+      "name": "Giãn cơ đùi sau biến thể một",
+      "description": "",
+      "steps": [
+        "Nằm với hai chân vươn lên tường, mông hơi nâng khỏi sàn.",
+        "Co một chân và giữ chân kia duỗi.",
+        "Đẩy đùi về phía tường.",
+        "Giữ giãn trong vài giây rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Hamstrings Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Lie down with your legs reaching up the wall. your bum should be slightly off the floor.",
+          "Bend one leg and leave the other outstretched.",
+          "Push your thigh towards the wall.",
+          "Hold the stretch for a few seconds then return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e228e410-928f-4f3c-a6ee-542ac4d0d625",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b4fe1bb56b3a1db0790559f353cc0e731ff78f11f191124d5baebe70fc624371",
+      "name": "Giãn cơ đùi sau biến thể ba",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, một chân duỗi và chân kia co gối, bàn chân tựa vào mặt trong đùi đối diện.",
+        "Với về trước chạm mũi chân của chân duỗi.",
+        "Giữ giãn trong vài giây rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Hamstrings Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Sit on the floor with one leg outstretched and the other bent at the knee, foot resting on the opposite inner thigh.",
+          "Reach forward to touch the toes of the outstretched leg.",
+          "Hold the stretch for a few seconds then return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7dce74a9-41b2-485e-bdc1-636688c505bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "549160c9eb7a0ef05203b6ea7c82c9d609f4afbc808ce3d4035343304dcf7f65",
+      "name": "Giãn cơ đùi sau biến thể hai",
+      "description": "",
+      "steps": [
+        "Đứng chân trước chân sau.",
+        "Co chân sau hết mức có thể, giữ chân trước thẳng.",
+        "Giữ giãn trong vài giây rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Hamstrings Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Stand with one foot in front of the other.",
+          "Bend your rear leg as much as you can, keeping the front leg straight.",
+          "Hold the stretch for a few seconds then return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0a73a8d7-6095-4c67-88a5-bbeac218947c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "223d3d52ce974aadece0e05d1e3ca71fb0cfc7c3a66d12cc082607ff010ad129",
+      "name": "Giãn cơ xô biến thể một",
+      "description": "",
+      "steps": [
+        "Đặt cả hai tay lên tường phía trước.",
+        "Từ từ hạ người đến khi cảm thấy giãn.",
+        "Giữ ở vị trí thấp nhất của động tác giãn rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lats Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Place both hands on the wall in front of you.",
+          "Slowly lower your body until you feel the stretch.",
+          "Hold at the bottom of the stretch, return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "67b4a4ad-35e5-45ad-84fb-38b451fe7cd1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1008ad8289e83e29a31be7f99ebdb0e7f22ac46763cd74ad38cf336393a9252e",
+      "name": "Giãn cơ xô biến thể ba",
+      "description": "",
+      "steps": [
+        "Tìm tường để tựa, đặt mặt sau cánh tay trên vào tường với bàn tay sau lưng.",
+        "Từ từ nghiêng người vào tường.",
+        "Trở về vị trí ban đầu rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lats Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Find a wall to lean against, lay your tricep against the wall with your hand behind your back.",
+          "Slowly lean into the wall.",
+          "Return to starting position, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9234c48c-faa5-47a3-a37d-41abd34842e0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8cf2d6d7301d8ff96f095208571ff32ad5f3e6bf896e6c85dd87a5173ae7b528",
+      "name": "Giãn cơ xô biến thể hai",
+      "description": "",
+      "steps": [
+        "Đứng thẳng và vươn tay hết mức lên trên đầu.",
+        "Từ từ nghiêng qua thân, đưa tay đối diện trượt xuống dọc chân.",
+        "Giữ ở vị trí thấp nhất của động tác giãn, trở về vị trí ban đầu rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lats Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Stand up right and raise your hand to a full stretch above your head.",
+          "Slowly lean across your body and trace the opposite hand down your leg.",
+          "Hold at the bottom of the stretch, return to starting position and then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7fa9dd2d-c9ff-4787-8fa5-195f3aa2efc4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a0137feb41f813a222f935bded5debda935e27cb585ec9255ee318230cd7e493",
+      "name": "Giãn lưng dưới biến thể bốn",
+      "description": "",
+      "steps": [
+        "Nằm phẳng trên sàn, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Nắm chân ngay dưới đầu gối, kéo chân về ngực.",
+        "Dừng ở điểm giãn sâu nhất rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lower back Stretch Variation Four",
+        "description": "",
+        "steps": [
+          "Lay flat against the ground with your knees at an angle and your feet flat against the floor.",
+          "Grab your legs just below the knees, and pull your legs towards your chest.",
+          "Pause at the apex of the stretch, then return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "29fd9e57-3157-41b2-9990-b653b61a2596",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f0b5c1b12767bd8a51a8d0698c2625f1d3042fa64d0a3da0a6ea2632dea961bd",
+      "name": "Giãn lưng dưới biến thể một",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, duỗi mũi chân và đặt mu bàn chân phẳng xuống sàn. Đưa tay ra trước như tư thế lao xuống nước, đặt lòng bàn tay phẳng trên sàn.",
+        "Giữ hai tay duỗi hoàn toàn, tựa mông lên gót chân; có thể bước tay xa hơn về trước để tăng mức giãn nếu cần.",
+        "Giữ tư thế duỗi trong vài giây rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lower back Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Sit on the floor with the tops of your feet pointed and flat on the ground. Move your arms out in front of you in the diving position, placing your palms flat against the ground.",
+          "With your arms fully extended, rest your buttocks on the heels of your feet, you can crawl your hands forward to extend the stretch if need be.",
+          "Hold the extended position for a few seconds, and return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3a22d4c7-bbec-427a-bb71-0e08281cad7e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6b240e21e24e74b999cb11533d2a1047cb8c12aa9f4486873c0ed7ea987e2c13",
+      "name": "Giãn lưng dưới biến thể ba",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai tay bên thân.",
+        "Nâng đầu gối hướng thẳng lên trần. Giữ hai chân ép sát nhau, xoay hông sang hai bên.",
+        "Lặp lại chuyển động theo nhu cầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Lower back Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Lay on your back with your arms at either side.",
+          "Raise your knees so that they are pointing straight towards the ceiling. Keeping your legs pressed together, rotate your hips to either side.",
+          "Repeat this motion as necessary."
+        ]
+      }
+    },
+    {
+      "exercise_id": "250afa48-283e-4cc2-86bf-feb7fe65361d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "16c882a0b363a261f5d8efdd6ffd1d70f30b06e38b6ecf3ae874e6b07abaa2df",
+      "name": "Xoay gậy qua đầu",
+      "description": "",
+      "steps": [
+        "Bắt đầu giữ gậy phía trước bằng tay nắm sấp rộng hơn vai.",
+        "Xoay cả hai tay qua đầu và ra sau, giữ khuỷu tay gần duỗi thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Pole Rotation",
+        "description": "",
+        "steps": [
+          "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+          "Rotate both arms overhead and behind you while leaving your elbows mostly extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ca5f26e2-e446-4843-bfb1-8947ca5d18e7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6d1c958f3f0db78a4007e2bb95328178ec2f538b277c8201523d522e2c727b1e",
+      "name": "Giãn cơ đùi trước biến thể bốn",
+      "description": "",
+      "steps": [
+        "Nằm sấp. Duỗi một tay ra trước, đặt lòng bàn tay trên sàn. Dùng tay kia nắm mu bàn chân.",
+        "Giữ đùi phẳng trên sàn, kéo bàn chân về mông để tạo độ giãn.",
+        "Dừng vài giây rồi lặp lại với chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Quads Stretch Variation Four",
+        "description": "",
+        "steps": [
+          "Lay flat on your belly. Extend one arm out in front of you, placing your palm on the floor. With your other arm, grab the top of your foot.",
+          "Keeping your upper leg flat on the floor, pull your foot towards your buttocks to engage the stretch.",
+          "Pause for a few seconds, and then repeat the stretch with your other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0ad7ffa7-78bd-4946-9bba-fdb328ef987d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a09cf7b0188102d390271bd979f4f12000c4591404cf3fa32b9b49253b56d700",
+      "name": "Giãn cơ đùi trước biến thể một",
+      "description": "",
+      "steps": [
+        "Đứng vuông góc với tường, dùng một tay tựa tường giữ thăng bằng. Tay kia nắm mu bàn chân.",
+        "Kéo chân lên và ra sau để tác động cơ đùi trước, dừng vài giây ở điểm giãn sâu nhất.",
+        "Trở về vị trí ban đầu rồi lặp lại với chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Quads Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Stand perpendicular to a wall, using one arm against the wall for balance. With your other arm, grab the top of your foot.",
+          "Pull your leg upwards and back to engage your quads, pausing at the apex of the stretch for a few seconds.",
+          "Return to starting position and repeat with your other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "88c85165-8b6d-4435-8e69-50921fdda5c4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a6fe1925df8aa69be9f0032b7ed39b4de30b98fb4369336dcfef5f3bc3d45046",
+      "name": "Giãn cơ đùi trước biến thể ba",
+      "description": "",
+      "steps": [
+        "Nằm sấp, đưa cả hai tay ra sau nắm mu bàn chân.",
+        "Giữ đùi phẳng trên sàn, kéo cả hai bàn chân về mông.",
+        "Dừng ở điểm giãn sâu nhất rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Quads Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Lay flat on your belly, with both hands reach back and grab the tops of your feet.",
+          "Keeping your upper legs flat on the ground, pull both of your feet towards your buttocks.",
+          "Pause at the apex of the stretch, then return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "08bd2e1a-ac8e-4844-a059-30f7d7d6aaae",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d61d5d9fe89809f8906fbeb4d4bceef67c5720f99e3025bc648ec1dbdaca6f04",
+      "name": "Giãn vai biến thể bốn",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai. Đưa một tay ngang trước ngực ở độ cao vai, áp cẳng tay kia phía trên khuỷu tay và dùng bàn tay móc giữ tay đang giãn.",
+        "Ấn tay đến khi thẳng, xoay thân trên để tăng mức giãn.",
+        "Lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Shoulders Stretch Variation Four",
+        "description": "",
+        "steps": [
+          "Stand with you feet shoulder width apart. Place one arm across the front of your chest at shoulder height, press the forearm of your other arm above the elbow, hooking the stretching arm with your hand.",
+          "Press the arm until it is straight and rotate your upper torso to engage the stretch even deeper.",
+          "Repeat with your other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e9be712d-7c31-416f-a425-ce2cdc076ad0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8eef799d08a5d303efd14c416a6991f443f1980ed0c09a863ddd1af74683910a",
+      "name": "Giãn vai biến thể một",
+      "description": "",
+      "steps": [
+        "Đưa một tay ra sau thân, khuỷu tay hướng lên trên phía sau đầu.",
+        "Dùng tay kia đặt trên khuỷu tay để hỗ trợ giãn vai.",
+        "Dừng vài giây rồi lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Shoulders Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Reach one arm behind your body, with your elbow pointing upward behind your head.",
+          "Assist the stretch with your other hand on your elbow to engage your shoulder.",
+          "Pause for a few seconds, then repeat the stretch with your other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cedac081-7239-47f1-8803-b4f2c3e711cd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d268aaa1d69f807a7227124cd0f32cfc4a1128938d5e997f0f5861879751cd3c",
+      "name": "Giãn vai biến thể hai",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai tay bên thân. Đẩy vai về trước và vào phía ngực.",
+        "Tiếp tục xoay tròn vai, nhún lên về phía tai rồi mở ngực ra khi kết thúc chuyển động.",
+        "Lặp lại theo nhu cầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Shoulders Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Start with your arms at either side. Begin by pushing your shoulders forward and in towards your chest.",
+          "Continue the circular motion with your shoulders, pinching up towards your ears, and then extending your chest outwards while you finish the motion.",
+          "Repeat as necessary."
+        ]
+      }
+    },
+    {
+      "exercise_id": "73634367-d588-4916-a8e8-705f1b16d66f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e71832558e1395845ceb02da7b3da4cf9e57a4ce1675865d0405100ef5652768",
+      "name": "Giãn cơ thang giữa lưng biến thể một",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai. Đưa một tay ngang trước ngực ở độ cao vai, áp cẳng tay kia phía trên khuỷu tay và dùng bàn tay móc giữ tay đang giãn.",
+        "Ấn tay đến khi thẳng, xoay thân trên để tăng mức giãn.",
+        "Lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Traps mid back Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Stand up with your feet shoulder width apart. Place one arm across the front of your chest at shoulder height, press the forearm of your other arm above the elbow, hooking the stretching arm with your hand.",
+          "Press the arm until it is straight and rotate your upper torso to engage the stretch even deeper.",
+          "Repeat with your other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d44af1a7-a18f-4ad6-92fb-3d0596e60c09",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "76b184751ea68b899795a9465b8afa3c97924848a847735529cb36745df7b9ea",
+      "name": "Giãn cơ thang giữa lưng biến thể hai",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, đặt một chân nằm thẳng và chân kia vắt qua trên.",
+        "Giữ chân bằng tay cùng bên, từ từ xoay hông và lưng.",
+        "Giữ ở điểm giãn sâu nhất rồi từ từ trở về vị trí ban đầu.",
+        "Đổi bên và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Traps mid back Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Sit on the ground and lay one leg flat and the other over the top.",
+          "Hold your leg with the same side arm and slowly rotate your hips and back.",
+          "Hold at the peak of the stretch, then slowly return to starting position.",
+          "Switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9f4fbaba-bdd6-4b6a-99b5-3af0a4cd9323",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7656e99fc8ae6a97f4e2f1eb8e6ca9b518f4fe4e8d532c2870739545f75cb4c1",
+      "name": "Giãn cơ thang biến thể một",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai.",
+        "Đặt tay trái trên đầu, nhẹ nhàng kéo đầu xuống về vai trái. Sau đó trở về giữa.",
+        "Lặp lại, dùng tay phải kéo về vai phải."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Traps Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Stand upright with your feet shoulder width apart.",
+          "Place your left hand on your head and gently pull your head down towards your left shoulder. Then return to centre point.",
+          "Repeat, using your right hand pulling towards your right shoulder."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b9b3a089-688c-4aa4-a832-c4b1499b9f07",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9fe07938839c64cb1a7e3cc57e92d21f8dc3ecd31208bf4b8655be33f39f2b92",
+      "name": "Giãn cơ thang biến thể ba",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai.",
+        "Cúi đầu về trước, đưa cằm về ngực.",
+        "Bạn sẽ cảm nhận giãn dọc vùng cổ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Traps Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Stand upright with your feet shoulder width apart.",
+          "Nod your head forward, bringing your chin to your chest.",
+          "You will feel the stretch across your neck."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9a9a4950-b214-472f-afbb-795f4c0d3a32",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f545d200cf0171369bef6c3e9b6f4450477ac0f1b541b39c8378d166cd329be8",
+      "name": "Giãn cơ tay sau biến thể một",
+      "description": "",
+      "steps": [
+        "Nâng tay trái qua đầu, co khuỷu tay để bàn tay tựa ở phần trên lưng.",
+        "Dùng tay đối diện nhẹ nhàng tạo áp lực lên khuỷu tay.",
+        "Giữ giãn trong vài giây rồi lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Triceps Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Raise your left arm above your head, and bend at the elbow so your hand is resting at the top of your back.",
+          "Use the opposite hand to gently apply pressure to the elbow.",
+          "Hold the stretch for a few seconds then repeat with the other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e3764c86-3809-4af6-a2c0-f83aeed4fe89",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "10ccb77dfc4076cca8cd26eb3adf7a1197c1926db3781a7c9c765f0e22236716",
+      "name": "Giãn cơ tay sau biến thể ba",
+      "description": "",
+      "steps": [
+        "Co tay trái để bàn tay ở vai, dùng tay đối diện giữ khuỷu tay.",
+        "Nhẹ nhàng đẩy khuỷu tay lên cạnh đầu.",
+        "Giữ giãn trong vài giây rồi lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Triceps Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Bend your left arm so your hand is at your shoulder, and hold your elbow with the opposite hand.",
+          "Gently push on your elbow so it is raised by your head.",
+          "Hold the stretch for a few seconds then repeat with the other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "64424e2d-dcc7-478d-b2e3-8440748832bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eb0deb0905388b6903424d00008723b5374b6551c8a13cf41a19a9c827cbd5be",
+      "name": "Giãn cơ tay sau biến thể hai",
+      "description": "",
+      "steps": [
+        "Giữ dây thẳng hàng với cột sống. Tay phải giữ đầu trên, tay trái giữ đầu dưới.",
+        "Giữ đầu trên cố định, kéo dây xuống.",
+        "Giữ giãn trong vài giây rồi lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Triceps Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Hold a band so it is in line with your spine. Hold the top with your right hand and the bottom with your left.",
+          "Keeping the top still, pull down on the band.",
+          "Hold the stretch for a few seconds then repeat with the other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e65deb1b-bbcb-4d66-8e80-693a0f4f969a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "da8fa63cd7bb2bcf5cbaeb5b6cea1c008765bb65a6669123f1893fe98285da8f",
+      "name": "Đạp xe quạt gió Assault Bike",
+      "description": "",
+      "steps": [
+        "Điều chỉnh độ cao yên và tay cầm để thoải mái, giữ đúng tư thế trên xe quạt gió.",
+        "Bắt đầu đạp đều và có kiểm soát, giữ mức kháng lực mong muốn.",
+        "Theo dõi nhịp tim và cường độ; tăng hoặc giảm kháng lực để tập cardio hiệu quả."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Assault Bike",
+        "description": "",
+        "steps": [
+          "Adjust seat and handlebar height for comfort and proper posture on the assault bike.",
+          "Start pedaling with even, controlled motion, maintaining your desired resistance level.",
+          "Monitor heart rate and intensity; increase or decrease resistance for an effective cardio workout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "21be0bb0-20b8-45e3-88d8-b3460bc3f902",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "dc8a06d0aca94adf66d87b950e64d1f799914e7fc9918aea7800d3e4c0075509",
+      "name": "Tập xe quạt gió Assault Bike chỉ dùng tay",
+      "description": "",
+      "steps": [
+        "Điều chỉnh độ cao yên và tay cầm để thoải mái, giữ đúng tư thế trên xe quạt gió.",
+        "Bắt đầu đạp đều và có kiểm soát, giữ mức kháng lực mong muốn. Sau đó tiếp tục chuyển động chỉ bằng hai tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Assault Bike Arms Only",
+        "description": "",
+        "steps": [
+          "Adjust seat and handlebar height for comfort and proper posture on the assault bike.",
+          "Start pedaling with even, controlled motion, maintaining your desired resistance level. Then keep the motion going with only your arms."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ef1746c4-a3ba-4052-8624-2c0c73a3ad45",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2780a76722b554a4979e97784314ccf11191900e35d3f22d645b6d368020bfb5",
+      "name": "Bật tách chân kết hợp cuốn búa với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng với dây vòng dưới hai bàn chân, hai tay nắm dây.",
+        "Bật nhẹ, đưa hai chân ra ngoài đồng thời co khuỷu tay.",
+        "Đưa hai chân lại gần nhau và duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Band Hammer Curl Jacks",
+        "description": "",
+        "steps": [
+          "Stand with a band looped under both feet and the band grasped in both hands.",
+          "Do a light hop and bring your feet outward while simultaneously flexing the elbows.",
+          "Bring both feet back together and extend the elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "896c82aa-d494-41f7-a3df-db1faec1b7bf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3cd9c01e9af08fd72c00f69d81a23b1ea77d15f6375b11ba555ff4a982d894f0",
+      "name": "Bật tách chân đẩy dây kháng lực qua đầu",
+      "description": "",
+      "steps": [
+        "Đứng với dây vòng dưới hai bàn chân, hai tay giữ đầu còn lại ở tư thế đẩy qua đầu.",
+        "Bật nhẹ, đưa cả hai chân ra ngoài đồng thời đẩy dây qua đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Band Press Jacks",
+        "description": "",
+        "steps": [
+          "Stand with the band looped under both feet and the other end of the band in both hands in an overhead press position.",
+          "Do a light hop and bring both feet outward while pressing the band overhead."
+        ]
+      }
+    },
+    {
+      "exercise_id": "870155d1-35a8-42fb-904b-38c3ac9e3d7a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9b8a7bc8429edb5be15619a66201428098d60fe7c1645093aeffbc52ed914537",
+      "name": "Bật tách chân kéo giãn dây tập vai sau",
+      "description": "",
+      "steps": [
+        "Nắm dây bằng hai tay nắm sấp. Bật nhẹ và đưa hai chân ra ngoài.",
+        "Khi bật, kéo hai đầu dây ra xa nhau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Band Reverse Fly Jacks",
+        "description": "",
+        "steps": [
+          "Grab the band with a double overhand grip. Bring both feet outward while performing a little hop.",
+          "As you hop, pull the band apart."
+        ]
+      }
+    },
+    {
+      "exercise_id": "21121caf-3257-4abd-afe8-4a75903da87a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ac257ff770456c757da95948df3b08aaf74b5bdca3ecaa7807addbb7e9920612",
+      "name": "Bật tách chân vỗ tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh lưng. Bắt đầu với hai tay duỗi sang hai bên.",
+        "Khi thực hiện bật tách chân, đưa hai tay lại gần nhau và vỗ nhẹ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Band Seal Jacks",
+        "description": "",
+        "steps": [
+          "Loop a band around your back. Start with both arms extended at your side.",
+          "As you perform the jack. Bring both arms together and make a little clap."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ea7e0c4b-a1d4-4dcc-954e-857c45f2ec26",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "be4d5f6926917c9dba89a1a3b17599c341accf156ed3514c8e8c7207a35202a1",
+      "name": "Bước chân nhanh theo hình vuông",
+      "description": "",
+      "steps": [
+        "Di chuyển nhẹ trên mũi chân, chạm hai chân xuống sàn liên tiếp thật nhanh.",
+        "Di chuyển theo hình vuông."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Box Quick Feet",
+        "description": "",
+        "steps": [
+          "Stay light on your toes and tap both feet to the ground in quick succession.",
+          "Move in a square pattern."
+        ]
+      }
+    },
+    {
+      "exercise_id": "937bcf84-cf2e-493b-8b27-894e6ab44746",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e3bacfe1407fd097985218352de6228b45100dd414b455afb0490ffb6bb4a929",
+      "name": "Bật nhảy bắt chéo chân",
+      "description": "",
+      "steps": [
+        "Thực hiện jumping jack đồng thời bắt chéo hai chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Criss Cross Jacks",
+        "description": "",
+        "steps": [
+          "Perform a jumping jack while crossing the feet."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a453a51c-da46-4d6b-95fe-93604e1fe4f8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8cc8e749e509580986f61f9d4050e100e0ffd34ade9c7c50044b6376110d4c80",
+      "name": "Bật nhảy theo hình thoi",
+      "description": "",
+      "steps": [
+        "Dùng cả hai chân bật về trước rồi ra sau, sau đó sang trái rồi sang phải.",
+        "Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Diamond Hop",
+        "description": "",
+        "steps": [
+          "With both feet, leap forward then back, then to the left, then to the right.",
+          "Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "21deb807-5ca8-4bd4-a13f-e024d8d9691e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "377a222c08987a1fc64fd86bc2d27ce34616abfcfcd85623f2c25c2d4c49c837",
+      "name": "Chạy nước rút hình số tám",
+      "description": "",
+      "steps": [
+        "Chạy nước rút theo hình số tám.",
+        "Giữ người thấp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Figure Eight Sprint",
+        "description": "",
+        "steps": [
+          "Perform s sprint in a figure eight pattern.",
+          "Make sure to stay low."
+        ]
+      }
+    },
+    {
+      "exercise_id": "77dd4749-628a-4927-8245-5b25a9b5cf32",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f782ddbb63d939ac29df67dc7847603b0d3e53d30cb5352497aa1995cb9fd785",
+      "name": "Bật đổi chân trước sau",
+      "description": "",
+      "steps": [
+        "Bật nhẹ và tách chân trước sau.",
+        "Tiếp đất nhẹ trên mũi chân rồi đưa chân đối diện lên trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Forward Scissor",
+        "description": "",
+        "steps": [
+          "Do a light hop and split your stance.",
+          "Land lightly on your toes, and then bring the opposing leg forward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2215a6cd-dc88-4c99-9500-6d4133109f4d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "737e3b75e7f7ea6bac54eeb6a7888534d75305455f93a792c1d2de97fea5d9a9",
+      "name": "Bước chân tới lui luân phiên",
+      "description": "",
+      "steps": [
+        "Đưa một chân về trước rồi đến chân kia.",
+        "Đưa chân đầu tiên ra sau rồi đến chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio In And Out Forward",
+        "description": "",
+        "steps": [
+          "Bring one leg forward and then the other.",
+          "Bring the original leg backwards and then the other."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1bfaf426-12df-496b-8687-b020c35b3bc6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d2c8c9c11d29da610f2858ea45ba53c6cd8022d8981462d601397e0315e2a775",
+      "name": "Bật mở và khép chân",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai chân sát nhau.",
+        "Bật nhẹ, đưa hai chân ra ngoài rồi khép vào."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio In And Outs",
+        "description": "",
+        "steps": [
+          "Start with both feet together.",
+          "Do a slight hop and bring your feet outwards, then back inwards."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dccdc07a-b15c-4ede-b115-fa2d7195e14a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b4dd2f219f22e3c298d1ae04b6cba9fd299cc5637a6a79f66f23fc4a2a42ec49",
+      "name": "Bước chân sang ngang vào ra luân phiên",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai chân cạnh nhau.",
+        "Đưa một bàn chân sang bên rồi đến bàn chân kia.",
+        "Đưa bàn chân đầu tiên về vị trí ban đầu rồi đến bàn chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio In In Out Out Shuffle",
+        "description": "",
+        "steps": [
+          "Start with your feet side by side.",
+          "Bring one foot laterally, then the other.",
+          "Return the first foot to its starting position, then the other."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ae1c5eef-dc55-4f20-adfd-430a580d493f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "69b7347c078b1cf3b1fbc4777e34602a208b0eb8d9dcb52315f5823d261c7082",
+      "name": "Bật nhảy tách chân vung tay",
+      "description": "",
+      "steps": [
+        "Đứng hai chân sát nhau, tay bên thân và sẵn sàng bật nhảy.",
+        "Bật nhảy, mở hai chân và nâng tay qua đầu.",
+        "Trở về vị trí ban đầu với hai chân sát nhau, tay bên thân. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Jumping Jacks",
+        "description": "",
+        "steps": [
+          "Stand with feet together, arms at your sides, ready to jump.",
+          "Jump while spreading legs and raising arms overhead.",
+          "Return to starting position with legs together and arms at your sides. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9fab9d0b-1222-4c58-925c-372f11840012",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f9641d3adc96685510386d37e2648581da6b3cce9e985bffbc02280b20beda55",
+      "name": "Bước chéo chân sang ngang",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân sát nhau, hướng về trước và sẵn sàng di chuyển ngang.",
+        "Đưa chân phải ra sau chân trái rồi bước chân trái sang bên.",
+        "Luân phiên bắt chéo và bước, tăng tốc, giữ nhịp và thăng bằng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Karaoke",
+        "description": "",
+        "steps": [
+          "Stand upright, feet together, facing forward, ready to move laterally.",
+          "Move right foot behind left, then step left foot to the side.",
+          "Alternate crossing and stepping, increase speed, maintain rhythm and balance."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6d157939-d25c-408b-9c7c-432c1ae13ba1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eac90e90df7391abba61fcd26c35609c11aa6756035c6738da544840e757cb05",
+      "name": "Nâng gối chạm tay",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông và siết cơ trung tâm.",
+        "Luân phiên nâng gối, dùng tay cùng bên chạm gối.",
+        "Tiếp tục theo nhịp, giữ tư thế và tăng tốc theo khả năng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Knee Taps",
+        "description": "",
+        "steps": [
+          "Stand straight, feet hip-width apart, engage core.",
+          "Lift knees alternately, tap with same side hand.",
+          "Continue rhythmically, maintain posture, increase speed as able."
+        ]
+      }
+    },
+    {
+      "exercise_id": "457665f5-816a-43a4-9b1d-bad6d5353bce",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e61999854f31f02760d99b77944c38a286f18758bcc1bdafbaad4ad6ce25cda7",
+      "name": "Bước chân nhanh sang ngang",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai chân rộng bằng vai.",
+        "Chạm chân nhanh xuống sàn khi di chuyển ngang."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Lateral Quick Feet",
+        "description": "",
+        "steps": [
+          "Start with a shoulder width stance.",
+          "Quickly tap your feet while moving laterally."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f11e241a-ebe1-4395-8e19-04af8601531e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2e1a17301af6555924086a040ad6d8859115739d9b2fb111c3f162a3f51bf7bc",
+      "name": "Di chuyển ngang ở tư thế squat thấp",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai chân mở rộng.",
+        "Di chuyển ngang theo quãng đường được chỉ định, giữ tư thế squat một phần tư biên độ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Lateral Shuffle",
+        "description": "",
+        "steps": [
+          "Start with a wide stance.",
+          "Shuffle sideways for a specified distance while maintaining a quarter squat position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4298a7e9-456e-4c8c-8bdf-5057c3f01593",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f8d8611ea3ff7c6af5006fbeec51963ee9d4a3ff2186ad83b3a04334a7908f35",
+      "name": "Bật nhảy xa",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, gối hơi co, tay phía sau và mắt nhìn trước.",
+        "Vung tay ra sau, squat sâu để dồn lực vào chân cho cú bật mạnh.",
+        "Vung tay và bật mạnh về trước, duỗi chân trên không rồi tiếp đất nhẹ bằng cả hai chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Long Jump",
+        "description": "",
+        "steps": [
+          "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+          "Swing arms backward, squat deeply, loading legs for explosive power.",
+          "Swing arms, explode forward, extend legs mid-air, land softly on both feet."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5f393f3b-32fe-4961-b66f-8b8106a2d258",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "22bbbf9db8601bb688b4ca906a6d4b17973920712ec4d99cff1c8182ac481925",
+      "name": "Bật nhảy xa rồi bước lùi",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, gối hơi co, tay phía sau và mắt nhìn trước.",
+        "Vung tay ra sau, squat sâu để dồn lực vào chân cho cú bật mạnh.",
+        "Vung tay và bật mạnh về trước, duỗi chân trên không rồi tiếp đất nhẹ bằng cả hai chân.",
+        "Bước nhanh lùi về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Long Jump Shuffle Back",
+        "description": "",
+        "steps": [
+          "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+          "Swing arms backward, squat deeply, loading legs for explosive power.",
+          "Swing arms, explode forward, extend legs mid-air, land softly on both feet.",
+          "Shuffle back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0277408c-a120-4385-8fc7-f928b502f660",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8118eece388f9803c12257e640e4fd791e7f9a9d05362747a3107ffad1d71e83",
+      "name": "Bước chân nhanh tại chỗ",
+      "description": "",
+      "steps": [
+        "Nhanh chóng chạm từng bàn chân xuống sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Quick Feet",
+        "description": "",
+        "steps": [
+          "Quickly tap each foot to the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "48ed89e2-2818-4929-be3f-e1b606d9b3cb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4aee845273a06adfdb92d9a8c9a541a53cbd23f67a0e714658b786580f397b08",
+      "name": "Tập máy chèo thuyền RowErg",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, cố định bàn chân bằng đai và nắm tay cầm với hai tay duỗi.",
+        "Đạp bằng chân, hơi ngả ra sau và kéo tay cầm về phần sườn dưới.",
+        "Duỗi tay, nghiêng về trước tại hông, co gối để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Row Erg Rower",
+        "description": "",
+        "steps": [
+          "Sit on seat, feet strapped in, grip handle with arms extended.",
+          "Push with legs, lean back slightly, pull handle to lower ribs.",
+          "Extend arms, lean forward from hips, bend knees to return to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e78db589-f22c-4823-8202-c245e19dd72e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d309240d91fa101ae3cd24b1b2cf139b7c5ff84facc992c8cb92c51062317c6a",
+      "name": "Tập máy chèo RowErg chỉ dùng tay",
+      "description": "",
+      "steps": [
+        "Cố định chắc hai bàn chân bằng đai.",
+        "Không co chân, kéo tay cầm về lồng ngực.",
+        "Duỗi hoàn toàn khuỷu tay trước lần lặp tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Row Erg Rower Arms Only",
+        "description": "",
+        "steps": [
+          "Make sure your feet are strapped in tightly.",
+          "Without bending your legs, pull the handle to your ribcage.",
+          "Fully extend your elbows before initiating the next rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "018d3269-5974-4b38-b6dd-0fd76202b70c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "12e067c7c803cf3cbeda131115385a1791c7137d2fbc405ef1f8286502632374",
+      "name": "Khởi động nước rút bốn nhịp trên máy chèo RowErg",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, cố định bàn chân bằng đai và nắm tay cầm với hai tay duỗi.",
+        "Đạp bằng chân và hơi ngả ra sau. Thực hiện bốn nhịp kéo ngắn, tăng quãng kéo ở mỗi lần.",
+        "Duỗi tay, nghiêng về trước tại hông, co gối để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Row Erg Rower Four Stroke Sprint Start",
+        "description": "",
+        "steps": [
+          "Sit on seat, feet strapped in, grip handle with arms extended.",
+          "Push with legs, lean back slightly. Do four small pulls with increasing distance on each rep.",
+          "Extend arms, lean forward from hips, bend knees to return to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6ed35c25-52e9-4ce8-80f9-8a09f2f46221",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "97c4e80131d3063b8871583dc4a3ebfd7d76e329d585c349b43be33c4d5e3954",
+      "name": "Tập máy chèo RowErg chỉ dùng chân",
+      "description": "",
+      "steps": [
+        "Cố định chắc hai bàn chân bằng đai.",
+        "Giữ hai tay duỗi trong khi gập và duỗi hông, đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Row Erg Rower Legs Only",
+        "description": "",
+        "steps": [
+          "Strap your feet in tightly.",
+          "Keep your arms extended while flexing and extending at the hips and knees."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6bd46b03-9543-4543-8cef-316023ea5ee3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "848857a82aff1fd1bced60e16072f9b8485f9a4b688fb207206d7afa574351a4",
+      "name": "Bật tách chân vỗ tay trước ngực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân sát nhau, tay phía trước ngang ngực và hai lòng bàn tay chạm nhau.",
+        "Mở rộng chân, đồng thời vung tay sang hai bên với lòng bàn tay hướng về trước.",
+        "Bật về vị trí ban đầu, nhanh chóng đưa hai tay lại gần nhau. Lặp lại theo nhịp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Seal Jacks",
+        "description": "",
+        "steps": [
+          "Stand with feet together, arms in front at chest level, palms touching.",
+          "Spread legs wide, simultaneously swing arms out to sides, palms facing forward.",
+          "Jump back to starting position, bringing arms together again quickly. Repeat rhythmically."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bfdecf5f-186a-4187-a636-6e8c7d7f06cd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "83abfc524c479a741c2219dcf4c254c33457c0371a008b26d8ec47c0e4872249",
+      "name": "Chạy nước rút con thoi",
+      "description": "",
+      "steps": [
+        "Đặt hai cọc tiêu cách nhau theo quãng đường được chỉ định.",
+        "Giữ người thấp, chạy nước rút nhanh đến cọc thứ hai.",
+        "Gập người về trước và chạm cọc, sau đó quay lại chạy nước rút về cọc ban đầu.",
+        "Lặp lại theo thời gian hoặc số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Shuttle Sprint",
+        "description": "",
+        "steps": [
+          "Set up two cones at a specified distance.",
+          "Stay low and sprint quickly to the second cone.",
+          "Hinge forward and tap the cone, then turn and sprint to the original cone.",
+          "Repeat for the desired time or reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e72480ff-7f97-4c55-8c2e-a858ea27493b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ccfab6ef0d4b3ccb56db54d24d615c1f0fd97c1e7ddea4b09c14eb7d179eb2f4",
+      "name": "Bật một chân tới lui",
+      "description": "",
+      "steps": [
+        "Nhấc một chân khỏi sàn.",
+        "Bật nhanh tới lui, giữ tiếp xúc trên mũi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:15.116Z",
+      "source": {
+        "name": "Cardio Single Leg Forward Hop",
+        "description": "",
+        "steps": [
+          "Pick up one leg off the ground.",
+          "Hop forward and backward quickly while staying on your toes."
+        ]
+      }
+    }
+  ]
+}

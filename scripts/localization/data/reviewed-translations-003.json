@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared all eight names and full instruction blocks with the matched reviewed exercise. Reuse is limited to identical complete source descriptions and instructions in the same stored equipment category; each exercise retains its own ID, name and source hash.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "0317309a-319f-4fca-aae5-0ae602e0166a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "21edbbd915d35f5c4ebbd750a80b962c9e943c1777a347c56e53d4b9d2d3010f",
+      "name": "Ngồi mở tay tập vai sau với tạ đơn",
+      "description": "",
+      "steps": [
+        "Mỗi tay giữ một tạ đơn, co gối và hướng bàn chân hơi ra ngoài. Gập người trên đầu gối, giữ độ cong lưng và bắt đầu với hai tạ chạm nhau trước ngực.",
+        "Co khuỷu tay, nâng tay lên ngang vai và dừng lại ở cuối chuyển động.",
+        "Từ từ hạ tay về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Dumbbell Seated Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.",
+          "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+          "Slowly lower your arms back to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1a34770b-3d81-439f-a0d9-6510b664b717",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ec4f8191af6ef92c927f72d050593bc06f2c082d95e9b43d8771b53240fb83b3",
+      "name": "Romanian deadlift với thanh EZ",
+      "description": "",
+      "steps": [
+        "Nắm thanh tạ với hai tay rộng bằng vai, dùng cả hai tay nắm sấp hoặc tay nắm kết hợp.",
+        "Đẩy hông ra sau, giữ đầu gối gần duỗi thẳng. Cảm nhận cơ đùi sau được kéo giãn.",
+        "Khi cảm nhận độ căng, đẩy hông về trước đến khi trở lại tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Ez Bar Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Take a shoulder width, double overhand or mixed grip.",
+          "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+          "When you feel the stretch, push your hips forward until you're back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1eb85935-9186-449e-9827-97f2c10e9fb0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4615faf22c3ca5cf9553b12ce888bb813e8cb4b253007b05897efaa09a2dc9ee",
+      "name": "Nâng thanh EZ trước người",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, nắm thanh tạ bằng tay nắm sấp. Nâng tay đến khi nắm tay khoảng ngang mắt.",
+        "Hạ về vị trí ban đầu có kiểm soát. Bài tập này dễ bị dùng đà khi bạn bắt đầu mệt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Ez Bar Front Raise",
+        "description": "",
+        "steps": [
+          "Stand tall with an overhand grip on the barbell. Raise your arms until your fists are around eye level.",
+          "Return to the start under control. This exercise is prone to using momentum when you begin to fatigue."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5f8cc8cf-d292-416a-a1e3-13ef58c9147b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d4dde2f9e2ff6a1bdf60323909b68e5e14abfaed03ea1d531a8d9f98c679bafe",
+      "name": "Duỗi tay sau qua đầu với tạ đòn",
+      "description": "",
+      "steps": [
+        "Cẩn thận khi đưa thanh tạ vào vị trí phía trên đầu. Hướng khuỷu tay về trước và giữ khuỷu tay khép vào trong.",
+        "Cảm nhận độ căng ở cơ tay sau. Duỗi khuỷu tay đến khi nắm tay hướng lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Barbell Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "Be careful getting the bar into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+          "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7e19f3df-72f2-48d0-b8ec-f9526de8e231",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "edd1a19f3c4e189f976f2fe06243afcef2f2541e386a5676899d4eddf4263483",
+      "name": "Mở tay tập vai sau với tạ đơn",
+      "description": "",
+      "steps": [
+        "Mỗi tay giữ một tạ đơn, co gối và hướng bàn chân hơi ra ngoài. Gập người trên đầu gối, giữ độ cong lưng và bắt đầu với hai tạ chạm nhau trước ngực.",
+        "Co khuỷu tay, nâng tay lên ngang vai và dừng lại ở cuối chuyển động.",
+        "Từ từ hạ tay về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Dumbbell Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.",
+          "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+          "Slowly lower your arms back to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b2d02880-2a0a-4291-ad54-f9e5b034006c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fe6729d67b799cea10d67168e390be283d362d09ee85697c4b0c2119e138175b",
+      "name": "Đẩy tạ đòn qua đầu",
+      "description": "",
+      "steps": [
+        "Nắm thanh với hai tay rộng khoảng bằng vai. Khuỷu tay và nắm tay nằm trên một đường thẳng, cẳng tay thẳng đứng.",
+        "Thu cằm về sau, đẩy tạ lên trần bằng cách duỗi khớp khuỷu tay và gập khớp vai.",
+        "Đẩy đến khi khuỷu tay duỗi thẳng và đưa đầu hơi ra trước.",
+        "Trở về vị trí ban đầu có kiểm soát. Thu cằm về sau để thanh tạ đi qua mặt an toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Barbell Overhead Press",
+        "description": "",
+        "steps": [
+          "Take a roughly shoulder width grip. There should be a straight line from your elbow to fist (vertical forearms).",
+          "Pull your chin back and press the weight toward the ceiling by extending at the elbow joint and flexing at the shoulder joint.",
+          "Press until your elbows are extended and push your head forward slightly.",
+          "Return to the start position with control. Pulling your chin back to allow the bar to pass your face safely."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6e73904-0990-44f3-b9f3-853ba1259dad",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8fb36bda217a9c03109c6fb8327e0c82709b12cb6b425cc5c6e742d92e8534de",
+      "name": "Gập tay ngược với tạ đòn",
+      "description": "",
+      "steps": [
+        "Nắm thanh bằng cả hai tay nắm sấp, rộng khoảng bằng vai. Gập khuỷu tay và giữ khuỷu tay sát người, tránh mở sang hai bên.",
+        "Gập tay đến khi cẳng tay ép vào cơ tay trước. Sau đó duỗi thẳng hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Barbell Reverse Curl",
+        "description": "",
+        "steps": [
+          "Take a double overhand grip that's about shoulder width. Flex your elbows while keeping your elbows tucked in. Try not to let them flare out.",
+          "Curl until your forearm presses into your bicep. Then fully extend your elbows at the bottom of each rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6fba8cb-de37-4144-8095-c90b98ebcf08",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fd49e045e3a0be63db8f739c4c71e7b8bd99e5fd348a6b7e631659bc07390d2a",
+      "name": "Kéo tạ đơn tập vai sau",
+      "description": "",
+      "steps": [
+        "Gập người về trước tại hông, giữ lưng thẳng. Đưa thân người gần song song với mặt đất nhất trong khả năng vận động của bạn.",
+        "Để tay buông trước người. Kéo khuỷu tay ra sau về phía trần, đồng thời mở khuỷu tay sang hai bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:07:14.144Z",
+      "source": {
+        "name": "Dumbbell Rear Delt Row",
+        "description": "",
+        "steps": [
+          "Hinge forward at the hips while maintaining a flat back. Try to get your torso as close to parallel with the ground as your mobility will allow for.",
+          "Let your arms hang in front of you. Pull your elbows back towards the ceiling while flaring your elbows outward."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "translations": [
+    {
+      "index": 312,
+      "sourceName": "Cable Standing Single Arm Internally Rotated Chest Fly",
+      "name": "Đứng ép ngực một tay với cáp, vai xoay trong",
+      "steps": [
+        "Đứng nghiêng so với cáp, giữ tay cầm ngang vai, cánh tay hơi co.",
+        "Xoay lòng bàn tay vào trong và đưa tay chéo qua ngực theo đường vòng cung.",
+        "Siết cơ ngực ở cuối biên độ, sau đó từ từ trở lại, duy trì tư thế xoay trong."
+      ],
+      "exercise_id": "e972d9fd-cd8d-4ba4-9222-bf0f2f3d0272"
+    },
+    {
+      "index": 313,
+      "sourceName": "Cable Standing Straight Leg Mid Kickback",
+      "name": "Đứng đá chân thẳng ra sau với cáp đặt giữa máy",
+      "steps": [
+        "Dùng đai cổ chân. Đặt cáp ở giữa chiều cao máy cáp chéo.",
+        "Đẩy cổ chân thẳng về sau bằng cách duỗi hông. Giữ một nhịp đếm khi cảm nhận cơ mông co lại.",
+        "Sau đó gập hông để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "139e35fa-71c1-4888-81b7-163e4b28f6e2"
+    },
+    {
+      "index": 314,
+      "sourceName": "Cable Standing Svend Press",
+      "name": "Đứng đẩy Svend với cáp",
+      "steps": [
+        "Đứng quay lưng về phía hai cáp đặt thấp, ép hai tay cầm vào nhau trước ngực.",
+        "Duỗi hai tay về trước, liên tục ép hai tay cầm vào nhau.",
+        "Dừng một chút rồi đưa các tay cầm về phía ngực."
+      ],
+      "exercise_id": "d3b03768-e17d-4e57-b499-0a53b6123ca6"
+    },
+    {
+      "index": 315,
+      "sourceName": "Cable Straight Arm Pull In",
+      "name": "Kéo cáp tay thẳng vào người",
+      "steps": [
+        "Dùng tay cầm, đặt ở vị trí cao nhất của máy cáp chéo.",
+        "Bước ra xa máy cáp vài bước. Hướng người sang bên so với máy.",
+        "Hướng lòng bàn tay về trước. Sau đó kéo khuỷu tay về phía lồng ngực."
+      ],
+      "exercise_id": "dce72886-ee63-4383-885f-f1d661af6e36"
+    },
+    {
+      "index": 316,
+      "sourceName": "Cable Supinating Row",
+      "name": "Kéo cáp kết hợp xoay ngửa tay",
+      "steps": [
+        "Đặt cáp ngang vai.",
+        "Bắt đầu bằng tay nắm sấp. Khi kéo khuỷu tay về sau, xoay lòng bàn tay đến khi hướng lên."
+      ],
+      "exercise_id": "ab47ab3f-325f-4678-b4f2-ad2f7a26c067"
+    },
+    {
+      "index": 317,
+      "sourceName": "Cable Thruster",
+      "name": "Squat kết hợp đẩy cáp qua đầu",
+      "steps": [
+        "Giữ các tay cầm của cáp đặt thấp ở ngang vai, hai chân rộng bằng vai.",
+        "Squat xuống, giữ ngực nâng và đầu gối hướng ra ngoài.",
+        "Đứng lên mạnh mẽ và đẩy cả hai tay cầm qua đầu đến khi hai tay duỗi."
+      ],
+      "exercise_id": "08edb3c1-4db6-4b61-8e89-f88b97a012cd"
+    },
+    {
+      "index": 318,
+      "sourceName": "Cable Tricep Kickback",
+      "name": "Duỗi tay sau ra sau với cáp",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ngang hông.",
+        "Gập người về trước tại hông. Giữ bắp tay sát bên thân. Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại."
+      ],
+      "exercise_id": "6c05a7f7-c981-496c-9a3a-df91e8fec239"
+    },
+    {
+      "index": 319,
+      "sourceName": "Cable Wood Chopper",
+      "name": "Kéo cáp chéo kiểu bổ củi",
+      "steps": [
+        "Đặt cáp khoảng ngang núm vú. Dùng tay cầm.",
+        "Hướng người sang bên so với máy, sau đó xoay thân với hai tay duỗi để thắng lực cản.",
+        "Sau khi hoàn thành số lần lặp được chỉ định, đổi sang hướng đối diện và lặp lại."
+      ],
+      "exercise_id": "9eb0320f-8a6d-4f66-bf28-7275f5c68905"
+    },
+    {
+      "index": 320,
+      "sourceName": "Cable Wrist Curl",
+      "name": "Gập cổ tay với cáp",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Đứng quay lưng về phía máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Bắt đầu với khuỷu tay tạo góc 90°, lòng bàn tay ngửa. Gập và duỗi cổ tay."
+      ],
+      "exercise_id": "2509a9fa-5143-48ca-94b7-b41d6414a4a9"
+    },
+    {
+      "index": 321,
+      "sourceName": "Cable Y Raise",
+      "name": "Nâng tay hình chữ Y với cáp",
+      "steps": [
+        "Đứng phía trên hai cáp đặt thấp bắt chéo, mỗi tay nắm tay cầm đối diện.",
+        "Nâng hai tay lên trên và ra ngoài thành hình chữ Y.",
+        "Dừng khi tay gần qua đầu rồi từ từ hạ các tay cầm."
+      ],
+      "exercise_id": "8fbaa026-cce8-4209-b4af-e39e0adb866e"
+    },
+    {
+      "index": 322,
+      "sourceName": "Cable Zercher Good Morning",
+      "name": "Gập hông kiểu good morning Zercher với cáp",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ thanh trong nếp khuỷu tay, lòng bàn tay hướng về người.",
+        "Giữ cơ bụng siết và lưng thẳng, gập hông để hạ thân về trước đến khi gần song song với mặt đất.",
+        "Ấn gót chân xuống để duỗi hông và nâng người trở về vị trí ban đầu."
+      ],
+      "exercise_id": "2b98d31d-0e18-4c9e-9349-5053dca4e728"
+    },
+    {
+      "index": 323,
+      "sourceName": "Cable Zercher Squat",
+      "name": "Zercher squat với cáp",
+      "steps": [
+        "Bắt đầu với thanh thẳng hoặc thanh EZ gắn cáp.",
+        "Đặt thanh trong khuỷu tay, đứng thẳng lên bằng động tác squat rồi lùi vài bước.",
+        "Gập gối và hông để bắt đầu squat. Giữ lưng phẳng.",
+        "Đứng lên hoàn toàn để trở về tư thế đứng thẳng."
+      ],
+      "exercise_id": "f8788b61-95dd-43b9-be92-36b427fa6855"
+    },
+    {
+      "index": 324,
+      "sourceName": "Gluteator",
+      "name": "Tập mông với máy Gluteator",
+      "steps": [
+        "Ngồi thẳng trên ghế, đặt đầu gối lên đệm và bàn chân lên bệ chân.",
+        "Đẩy hai chân ra ngoài và về sau, siết cơ mông."
+      ],
+      "exercise_id": "39595cfd-1731-4561-a7ad-f43ccadc09d4"
+    },
+    {
+      "index": 325,
+      "sourceName": "Horizontal Hack Squat",
+      "name": "Hack squat trên máy nằm ngang",
+      "steps": [
+        "Vào vị trí trên máy hack squat, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp.",
+        "Ấn gót chân để đẩy về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "exercise_id": "a148a98c-96e4-4284-a99f-7dae0975ab5d"
+    },
+    {
+      "index": 326,
+      "sourceName": "Machine 45 Degree Back Extension",
+      "name": "Duỗi lưng trên máy góc 45 độ",
+      "steps": [
+        "Đặt đùi lên đệm và móc chân vào các bệ đỡ.",
+        "Giữ lưng thẳng, từ từ gập người tại eo đến khi chân và lưng tạo góc 45°.",
+        "Từ từ nâng người về vị trí ban đầu."
+      ],
+      "exercise_id": "f087dc11-0278-4cd6-b251-e38c44a99d75"
+    },
+    {
+      "index": 327,
+      "sourceName": "Machine 45 Degree Calf Raise",
+      "name": "Nhón gót trên máy góc 45 độ",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao rồi ngồi xuống.",
+        "Đặt phần trước lòng bàn chân lên bệ tập bắp chân để chịu trọng lượng, để gót chân nhô ra ngoài bệ.",
+        "Nâng gót chân lên, giữ đầu gối cố định và dừng ở vị trí cơ co.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "98b91ca5-6672-4009-a17a-44f8d00492bb"
+    },
+    {
+      "index": 328,
+      "sourceName": "Machine Assisted Neutral Chin Up",
+      "name": "Kéo xà với máy trợ lực, tay nắm trung tính",
+      "steps": [
+        "Điều chỉnh mức tạ trợ lực. Đứng lên bệ, nắm tay cầm với khoảng cách rộng hơn vai. Đặt đầu gối lên đệm nếu có.",
+        "Từ từ kéo người lên đến khi cằm cao hơn thanh. Giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Hạ người có kiểm soát. Dừng ở vị trí thấp nhất. Lặp lại theo số lần tập."
+      ],
+      "exercise_id": "2640d743-045c-47b4-acf4-d6df090a26b4"
+    },
+    {
+      "index": 329,
+      "sourceName": "Machine Assisted Pull Up",
+      "name": "Kéo xà với máy trợ lực",
+      "steps": [
+        "Điều chỉnh mức tạ trợ lực. Đứng lên bệ, nắm tay cầm với khoảng cách rộng hơn vai. Đặt đầu gối lên đệm nếu có.",
+        "Từ từ kéo người lên đến khi cằm cao hơn thanh. Giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Hạ người có kiểm soát. Dừng ở vị trí thấp nhất. Lặp lại theo số lần tập."
+      ],
+      "exercise_id": "54046e06-dc0f-4ef7-a695-fd91be1fd9c5"
+    },
+    {
+      "index": 330,
+      "sourceName": "Machine Back Extension",
+      "name": "Duỗi lưng trên máy",
+      "steps": [
+        "Ngồi trên máy, đặt lưng trên vào đệm con lăn.",
+        "Duỗi hông và lưng dưới. Không duỗi cột sống quá mức."
+      ],
+      "exercise_id": "77350b9c-ac56-4ab7-b5a7-6c7718d517b1"
+    },
+    {
+      "index": 331,
+      "sourceName": "Machine Belt Squat",
+      "name": "Squat với máy đai kéo",
+      "steps": [
+        "Đeo đai quanh eo và móc đầu đai vào máy.",
+        "Đứng lên để nhả cơ cấu giữ. Giữ các tay vịn khi squat.",
+        "Sau khi hoàn thành hiệp tập, gài lại cơ cấu giữ."
+      ],
+      "exercise_id": "34e6d154-1660-485b-aedc-a45ecdfa3287"
+    },
+    {
+      "index": 332,
+      "sourceName": "Machine Bent Arm Pec Fly",
+      "name": "Ép ngực trên máy với tay co",
+      "steps": [
+        "Điều chỉnh ghế để tay cầm ngang ngực. Đặt khuỷu tay lên đệm.",
+        "Từ từ đưa hai đệm lại gần nhau phía trước, duy trì lực căng. Tập trung siết cơ ngực.",
+        "Đưa các đệm về vị trí ban đầu có kiểm soát. Luôn giữ ngực nâng. Lặp lại theo số lần tập."
+      ],
+      "exercise_id": "71da99d2-9b73-452d-a945-a76ff5b9ec14"
+    },
+    {
+      "index": 333,
+      "sourceName": "Machine Bicep Curl",
+      "name": "Cuốn tay trước trên máy",
+      "steps": [
+        "Điều chỉnh ghế theo chiều cao và đặt khuỷu tay lên đệm.",
+        "Nắm các tay cầm và gập khuỷu tay."
+      ],
+      "exercise_id": "f06eecfb-c42a-4878-b746-84a56b01d2aa"
+    },
+    {
+      "index": 334,
+      "sourceName": "Machine Cable V Bar Push Downs",
+      "name": "Đẩy thanh chữ V xuống tập tay sau trên máy cáp",
+      "steps": [
+        "Nắm thanh cáp với lòng bàn tay úp, khoảng cách hai tay rộng bằng vai.",
+        "Đứng thẳng và hơi nghiêng về trước. Giữ bắp tay gần thân, từ từ đẩy thanh cáp xuống đến khi hai tay duỗi hoàn toàn.",
+        "Dừng ở vị trí cơ co, sau đó từ từ nâng thanh cáp về điểm bắt đầu."
+      ],
+      "exercise_id": "1c72a3f6-3e52-4b57-ae4b-260f6a855cba"
+    },
+    {
+      "index": 336,
+      "sourceName": "Machine Chest Supported T Bar Row",
+      "name": "Kéo thanh chữ T trên máy có đệm tựa ngực",
+      "steps": [
+        "Nằm tựa lên đệm ngực và nắm các tay cầm. Nhấc thanh ra khỏi móc giữ.",
+        "Kéo thanh về ngực, sau đó duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "exercise_id": "c2844e8a-2feb-4996-85a3-e3ccc8071301"
+    },
+    {
+      "index": 337,
+      "sourceName": "Machine Dips",
+      "name": "Đẩy tay sau kiểu dips trên máy",
+      "steps": [
+        "Ngồi trên máy và nắm các tay cầm.",
+        "Đẩy các tay cầm xuống đến khi khuỷu tay gần duỗi thẳng."
+      ],
+      "exercise_id": "108d0406-5fe9-4fbf-8526-cf2ce2692039"
+    },
+    {
+      "index": 338,
+      "sourceName": "Machine Donkey Calf Raise",
+      "name": "Nhón gót gập người trên máy",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao. Đặt khuỷu tay lên đệm, nắm các tay cầm. Đệm thẳng đứng tựa trên lưng dưới.",
+        "Nâng gót chân về phía trần."
+      ],
+      "exercise_id": "eee45b18-f937-4ab9-9e60-9f05911e3b42"
+    },
+    {
+      "index": 339,
+      "sourceName": "Machine Glute Kickback",
+      "name": "Đá chân ra sau tập mông trên máy",
+      "steps": [
+        "Nắm các tay cầm, đặt một đầu gối lên đệm và bàn chân của chân đang tập lên bàn đạp.",
+        "Đẩy chân đang tập về sau đến khi cảm nhận cơ mông co lại, sau đó trở về vị trí ban đầu mà không để tạ nghỉ."
+      ],
+      "exercise_id": "b8d4d77b-5319-48e0-8b0e-38ba4363c57b"
+    },
+    {
+      "index": 340,
+      "sourceName": "Machine Hack Squat",
+      "name": "Hack squat trên máy",
+      "steps": [
+        "Vào vị trí trên máy hack squat, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp. Giữ lưng thẳng và từ từ hạ người vào tư thế squat.",
+        "Ấn gót chân để trở về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "exercise_id": "facaefe8-665c-4538-b709-73be0c115111"
+    },
+    {
+      "index": 341,
+      "sourceName": "Machine Hip And Glute Abduction",
+      "name": "Dạng hông tập mông trên máy",
+      "steps": [
+        "Đứng trên bệ, đặt đệm ngay phía trên hông đối diện với chân đang tập.",
+        "Đặt chân đang tập qua phía trên đệm.",
+        "Đẩy chân ra ngoài. Cố gắng đạt biên độ chuyển động lớn nhất có thể."
+      ],
+      "exercise_id": "e2d42fd9-04c5-4856-a0ea-62456f50117e"
+    },
+    {
+      "index": 342,
+      "sourceName": "Machine Hip And Glute Kickback",
+      "name": "Duỗi hông đá chân ra sau trên máy",
+      "steps": [
+        "Đứng trên bệ, hướng thân sang bên so với máy.",
+        "Đặt đệm hơi cao hơn hông. Đặt chân đang tập qua phía trên đệm.",
+        "Duỗi chân đang tập về sau và siết cơ mông ở cuối mỗi lần lặp."
+      ],
+      "exercise_id": "588e5442-570c-4a44-8f97-c9c41943c973"
+    },
+    {
+      "index": 343,
+      "sourceName": "Machine Hip Thrust",
+      "name": "Đẩy hông trên máy",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao, ngồi tựa lưng vào đệm, đầu gối co, bàn chân đặt phẳng trên bệ.",
+        "Siết cơ bụng, ấn gót chân và duỗi hông lên trên, nâng tạ đồng thời siết cơ mông.",
+        "Từ từ hạ tạ về vị trí ban đầu có kiểm soát; lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "exercise_id": "fbd547ad-321d-4712-a2b8-720c782509d2"
+    },
+    {
+      "index": 344,
+      "sourceName": "Machine Neutral Row",
+      "name": "Kéo lưng trên máy với tay nắm trung tính",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay hướng vào nhau, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "c1fc45c5-810a-40c6-b1e4-cf5c2a513a92"
+    },
+    {
+      "index": 345,
+      "sourceName": "Machine Overhand Row",
+      "name": "Kéo lưng trên máy với tay nắm sấp",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay úp, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "a2812a93-9bc6-44ce-bbc0-de6a9d369c1e"
+    },
+    {
+      "index": 346,
+      "sourceName": "Machine Overhead Tricep Extension",
+      "name": "Duỗi tay sau qua đầu trên máy",
+      "steps": [
+        "Điều chỉnh đệm theo chiều cao.",
+        "Nắm thanh chữ V hoặc phụ kiện khác và duỗi khuỷu tay đến khi gần thẳng hoàn toàn.",
+        "Gập khuỷu tay, cảm nhận độ kéo giãn ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "exercise_id": "7ef7eb64-1ae6-4c0a-8fc5-22389f3a5293"
+    },
+    {
+      "index": 347,
+      "sourceName": "Machine Pec Fly",
+      "name": "Ép ngực trên máy",
+      "steps": [
+        "Điều chỉnh ghế để tay cầm ngang ngực. Ngồi và nắm các tay cầm, khuỷu tay hơi co.",
+        "Từ từ đưa hai tay cầm lại gần nhau phía trước, duy trì lực căng. Tập trung siết cơ ngực.",
+        "Đưa các tay cầm về vị trí ban đầu có kiểm soát. Luôn giữ ngực nâng. Lặp lại theo số lần tập."
+      ],
+      "exercise_id": "0d1bf747-6d0a-4f4b-864a-0d0eba55b353"
+    },
+    {
+      "index": 348,
+      "sourceName": "Machine Pendulum Squat",
+      "name": "Squat trên máy con lắc",
+      "steps": [
+        "Vào vị trí trên máy squat con lắc, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp. Giữ lưng thẳng và từ từ hạ người vào tư thế squat.",
+        "Ấn gót chân để trở về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "exercise_id": "9825c858-8b6a-4140-a27f-b363b9cdc20d"
+    },
+    {
+      "index": 349,
+      "sourceName": "Machine Plate Loaded Crunch",
+      "name": "Gập bụng trên máy gắn bánh tạ",
+      "steps": [
+        "Đặt bàn chân dưới các đệm chân và dùng tay nắm các tay cầm.",
+        "Gập cột sống để đưa phần thân trên và thân dưới lại gần nhau."
+      ],
+      "exercise_id": "d6be019a-129b-4c0d-9b0a-04365c774577"
+    },
+    {
+      "index": 350,
+      "sourceName": "Machine Plate Loaded Decline Chest Press",
+      "name": "Đẩy ngực hướng xuống trên máy gắn bánh tạ",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "exercise_id": "54e1e038-e839-4c30-bb28-589232cc608b"
+    },
+    {
+      "index": 351,
+      "sourceName": "Machine Plate Loaded Hip Thrust",
+      "name": "Đẩy hông trên máy gắn bánh tạ",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao, ngồi tựa lưng vào đệm, đầu gối co, bàn chân đặt phẳng trên bệ.",
+        "Siết cơ bụng, ấn gót chân và duỗi hông lên trên, nâng tạ đồng thời siết cơ mông.",
+        "Từ từ hạ tạ về vị trí ban đầu có kiểm soát; lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "exercise_id": "3f5a943d-4e81-4d5c-9099-7241a6a915e3"
+    },
+    {
+      "index": 352,
+      "sourceName": "Machine Plate Loaded Incline Chest Press",
+      "name": "Đẩy ngực hướng lên trên máy gắn bánh tạ",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "exercise_id": "4da6626e-030c-4d93-8394-47deb37fb752"
+    },
+    {
+      "index": 354,
+      "sourceName": "Machine Plate Loaded Low Incline Bench Press",
+      "name": "Đẩy ngực trên ghế dốc thấp của máy gắn bánh tạ",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "exercise_id": "9b0449e8-f6f0-493c-949a-48c2b15e1b9b"
+    },
+    {
+      "index": 355,
+      "sourceName": "Machine Plate Loaded Low Row",
+      "name": "Kéo lưng thấp trên máy gắn bánh tạ",
+      "steps": [
+        "Áp ngực vào đệm và nắm sấp các tay cầm nằm ngang.",
+        "Kéo các tay cầm về phía người, giữ khuỷu tay đưa ra ngoài."
+      ],
+      "exercise_id": "8cf9a87c-b62e-4667-91e8-cc18afa8e239"
+    },
+    {
+      "index": 356,
+      "sourceName": "Machine Plate Loaded Pulldown",
+      "name": "Kéo xô trên máy gắn bánh tạ",
+      "steps": [
+        "Nắm các tay cầm với lòng bàn tay úp.",
+        "Ngồi trên máy và tì đầu gối vào đệm gối.",
+        "Kéo tay cầm đến khi bắp tay ngang với thân hoặc hơi ra sau thân.",
+        "Duỗi đến khi khuỷu tay thẳng hoàn toàn trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "exercise_id": "9a9e0bab-99cc-4927-b97b-241a9a7ec7cb"
+    },
+    {
+      "index": 357,
+      "sourceName": "Machine Plate Loaded Row",
+      "name": "Kéo lưng trên máy gắn bánh tạ",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng và nắm các tay cầm.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "821800de-7571-4ded-bc51-4bbd1f41c130"
+    },
+    {
+      "index": 358,
+      "sourceName": "Machine Plate Loaded Seal Row",
+      "name": "Kéo lưng nằm sấp kiểu seal row trên máy gắn bánh tạ",
+      "steps": [
+        "Điều chỉnh độ cao móc giữ thanh theo chiều dài cánh tay rồi nằm sấp.",
+        "Nhấc thanh ra khỏi móc rồi bắt đầu hiệp tập.",
+        "Kéo thanh thẳng về sau rồi hạ về vị trí bắt đầu. Duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "exercise_id": "7802ea27-9a23-4f3b-8178-97f2c21fda25"
+    },
+    {
+      "index": 359,
+      "sourceName": "Machine Plate Loaded T Bar Row",
+      "name": "Kéo thanh chữ T trên máy gắn bánh tạ",
+      "steps": [
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Nắm các tay cầm và kéo tạ về phía ngực.",
+        "Duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp. Không dùng đà."
+      ],
+      "exercise_id": "53590e26-358a-4f27-b463-5894c31765a4"
+    },
+    {
+      "index": 361,
+      "sourceName": "Machine Pullover",
+      "name": "Kéo tay qua đầu trên máy",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đặt khuỷu tay lên đệm. Kéo thanh về trước đến khi gần chạm bụng."
+      ],
+      "exercise_id": "4e1bddf4-922f-454a-b581-a00a1e2df7c3"
+    },
+    {
+      "index": 362,
+      "sourceName": "Machine Rear Deltoid Row",
+      "name": "Kéo tập vai sau trên máy",
+      "steps": [
+        "Áp ngực vào đệm và nắm sấp các tay cầm.",
+        "Kéo khuỷu tay thẳng về sau, giữ khuỷu tay hướng ra ngoài trong suốt lần lặp."
+      ],
+      "exercise_id": "fc2b9d18-8b5f-4b4b-8451-5ec355277a2d"
+    },
+    {
+      "index": 363,
+      "sourceName": "Machine Reverse Fly",
+      "name": "Dang tay ngược trên máy",
+      "steps": [
+        "Ngồi trên máy và áp ngực vào đệm.",
+        "Nắm sấp các tay cầm. Giữ khuỷu tay gần như duỗi thẳng.",
+        "Đưa hai tay về sau và ép hai bả vai lại gần nhau."
+      ],
+      "exercise_id": "5763d671-641a-4010-af54-032fe0fa064e"
+    },
+    {
+      "index": 364,
+      "sourceName": "Machine Reverse Hyperextension",
+      "name": "Duỗi hông ngược trên máy",
+      "steps": [
+        "Nằm trên đệm và nắm các tay cầm.",
+        "Luồn hai chân vào vòng đai.",
+        "Đẩy hai chân về sau đến khi nằm ngang so với mặt đất.",
+        "Hạ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "7328b65a-778e-4866-af99-fa8039b447fd"
+    },
+    {
+      "index": 365,
+      "sourceName": "Machine Roll Outs",
+      "name": "Lăn bánh xe tập bụng",
+      "steps": [
+        "Dùng hai tay giữ bánh xe tập bụng, quỳ trên sàn, nhấc hai bàn chân lên và bắt chéo.",
+        "Từ từ lăn bánh xe thẳng về trước, duỗi người thành tư thế thẳng.",
+        "Dừng ở tư thế duỗi, sau đó bắt đầu kéo người trở về vị trí ban đầu. Thực hiện chậm và có kiểm soát."
+      ],
+      "exercise_id": "8885419c-05a6-4b8e-8de8-7c9de9241b95"
+    },
+    {
+      "index": 366,
+      "sourceName": "Machine Seated Leg Curl",
+      "name": "Ngồi gập gối tập đùi sau trên máy",
+      "steps": [
+        "Ngồi lùi vào ghế. Dùng hai tay cầm để đẩy người tựa về sau vào ghế.",
+        "Gập cổ chân để hướng các ngón chân lên trên.",
+        "Gập gối đưa đệm về sau, sau đó duỗi gối mà không để tạ chạm xuống."
+      ],
+      "exercise_id": "26c35c1b-0c7f-4f2b-97cb-2d898247b9f7"
+    },
+    {
+      "index": 367,
+      "sourceName": "Machine Standing Lateral Raise",
+      "name": "Đứng nâng tay sang ngang trên máy",
+      "steps": [
+        "Nắm hai tay cầm và nâng hai tay thẳng sang hai bên."
+      ],
+      "exercise_id": "1585d73c-f865-4546-9d75-75b13d959210"
+    },
+    {
+      "index": 368,
+      "sourceName": "Machine Tricep Pushdown",
+      "name": "Đẩy xuống tập tay sau trên máy",
+      "steps": [
+        "Ngồi trên máy và đặt mặt sau bắp tay lên ghế đệm.",
+        "Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại.",
+        "Đưa tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "e9358ad8-8350-4e95-80ba-25a15ab318e0"
+    },
+    {
+      "index": 369,
+      "sourceName": "Machine Underhand Row",
+      "name": "Kéo lưng trên máy với tay nắm ngửa",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay ngửa, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "ae46e4aa-bc87-486c-807e-3c151238ddec"
+    },
+    {
+      "index": 370,
+      "sourceName": "Narrow Pulldown",
+      "name": "Kéo xô tay hẹp",
+      "steps": [
+        "Dùng thanh thẳng gắn cáp.",
+        "Giữ thanh, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "exercise_id": "a768f330-b549-4d7e-a58c-d835d4e50319"
+    },
+    {
+      "index": 372,
+      "sourceName": "Neutral Pulldown",
+      "name": "Kéo xô với tay nắm trung tính",
+      "steps": [
+        "Dùng thanh chữ V gắn cáp.",
+        "Giữ phụ kiện, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "exercise_id": "06868a9e-6fdb-40c8-a723-94c4f7473846"
+    },
+    {
+      "index": 373,
+      "sourceName": "Rower Pike",
+      "name": "Nâng hông kiểu pike trên máy chèo thuyền",
+      "steps": [
+        "Đặt bàn chân lên ghế máy chèo thuyền và vào tư thế plank.",
+        "Kéo hông thẳng lên phía trần.",
+        "Hạ hông đến khi trở về tư thế plank."
+      ],
+      "exercise_id": "04e7456d-124f-4def-9374-4d039b654b97"
+    },
+    {
+      "index": 374,
+      "sourceName": "Seated Leg Curl",
+      "name": "Ngồi gập gối tập đùi sau",
+      "steps": [
+        "Ngồi trên máy. Điều chỉnh đệm lưng để đệm chân nằm ngay phía trên đầu gối.",
+        "Điều chỉnh đệm ở cẳng chân đến vị trí gân Achilles.",
+        "Dùng hai tay cầm để đẩy người tựa về sau vào ghế. Gập chân hết mức có thể rồi duỗi gối, không duỗi quá mức."
+      ],
+      "exercise_id": "972ec444-ed1e-415d-89e6-980c1484a1c8"
+    },
+    {
+      "index": 375,
+      "sourceName": "Stretcher",
+      "name": "Kéo giãn với máy cáp",
+      "steps": [
+        "Đặt bàn chân lên đệm chân làm điểm tựa và nắm phụ kiện.",
+        "Bắt đầu với hai tay duỗi, đầu ở giữa hai cánh tay.",
+        "Bắt đầu kéo. Khi kéo, ngả người về sau đến khi phụ kiện chạm ngực."
+      ],
+      "exercise_id": "82e5501b-6a22-4b59-8b51-a240e4847488"
+    },
+    {
+      "index": 376,
+      "sourceName": "Underhand Pulldown",
+      "name": "Kéo xô với tay nắm ngửa",
+      "steps": [
+        "Dùng thanh thẳng gắn cáp. Nắm thanh theo kiểu ngửa.",
+        "Giữ thanh, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "exercise_id": "08a8d94a-d72a-40f9-8284-a2eb4a6f4a62"
+    },
+    {
+      "index": 377,
+      "sourceName": "Vertical Leg Press",
+      "name": "Đạp chân trên máy thẳng đứng",
+      "steps": [
+        "Nằm trên đệm và đặt bàn chân lên bàn đạp.",
+        "Đẩy bàn đạp lên và nhả móc giữ.",
+        "Hạ tạ xuống. Dừng trước khi lưng dưới cong và rời khỏi đệm.",
+        "Đẩy tạ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "ab99220a-19f7-42f1-a3bd-c54afc7165fc"
+    }
+  ],
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Reviewed each complete instruction block against source, preserving angles, grip, supports and machine setup, contraction and release cues, and step count. Suspect elbow-extension wording, missing angles, and kneeling-versus-lying setup are held for verification.",
+  "sourceExceptions": [
+    {
+      "index": 335,
+      "sourceName": "Machine Chest Press",
+      "reason": "The press endpoint says elbows 'are not extended but not hyperextended'; verify the intended extension cue instead of silently correcting it.",
+      "exercise_id": "aa60deef-61f5-467f-97dd-bfdc281f1b84"
+    },
+    {
+      "index": 353,
+      "sourceName": "Machine Plate Loaded Kneeling Hamstring Curl",
+      "reason": "The title specifies kneeling but the instructions say to lie down on the machine; verify the supported body position.",
+      "exercise_id": "b571d4f6-5ab3-4966-9a77-3f94fb95294a"
+    },
+    {
+      "index": 360,
+      "sourceName": "Machine Pulldown",
+      "reason": "A torso-angle value is missing across two source steps.",
+      "exercise_id": "77222098-18f3-4e01-b21f-cdf90a08d6bb"
+    },
+    {
+      "index": 371,
+      "sourceName": "Neutral Chest Press",
+      "reason": "The press endpoint says elbows 'are not extended but not hyperextended'; verify the intended extension cue.",
+      "exercise_id": "a07af0fa-0508-40f1-81a7-1f5103d4ec84"
+    }
+  ]
+}

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { resetSavedExercises } from "@/lib/exercises/use-saved-exercise";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages, translate, type MessageKey } from "@/lib/i18n/messages";
 
 export type SessionUser = {
   id: string;
@@ -33,12 +35,15 @@ function LoginIcon() {
 }
 
 export default function UserAuthButton({ initialSession }: { initialSession: SessionResponse }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const router = useRouter();
   const rootRef = useRef<HTMLDivElement>(null);
   const [session, setSession] = useState<SessionResponse>(initialSession);
   const [loading, setLoading] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [errorKey, setError] = useState<MessageKey | null>(null);
+  const error = errorKey ? messages[errorKey] : null;
 
   useEffect(() => {
     const controller = new AbortController();
@@ -51,13 +56,13 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       .then(setSession)
       .catch((requestError: unknown) => {
         if (requestError instanceof DOMException && requestError.name === "AbortError") return;
-        setError(requestError instanceof Error ? requestError.message : "Unable to check your sign-in status.");
+        setError("authSessionFailed");
       })
       .finally(() => setLoading(false));
 
     const authReason = new URL(window.location.href).searchParams.get("auth");
     const authErrorTimer = authReason
-      ? window.setTimeout(() => setError("Unable to sign in with Google. Please try again."), 0)
+      ? window.setTimeout(() => setError("googleSignInFailed"), 0)
       : undefined;
 
     return () => {
@@ -104,8 +109,8 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       setSession({ user: null, isAdmin: false });
       setMenuOpen(false);
       router.refresh();
-    } catch (requestError) {
-      setError(requestError instanceof Error ? requestError.message : "Unable to sign out. Please try again.");
+    } catch {
+      setError("signOutFailed");
     } finally {
       setLoading(false);
     }
@@ -116,11 +121,11 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       <div className="health-user-auth" ref={rootRef}>
         <button
           aria-busy={loading}
-          aria-label="Sign in with Google"
+          aria-label={messages.signIn}
           className="health-avatar health-avatar--login"
           disabled={loading}
           onClick={signIn}
-          title="Sign in with Google"
+          title={messages.signIn}
           type="button"
         >
           <LoginIcon />
@@ -137,7 +142,7 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       <button
         aria-expanded={menuOpen}
         aria-haspopup="menu"
-        aria-label={`Open account menu for ${session.user.name}`}
+        aria-label={translate(language, "accountMenu", { name: session.user.name })}
         className="health-avatar health-avatar--profile"
         onClick={() => setMenuOpen((open) => !open)}
         type="button"
@@ -152,14 +157,14 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
       </button>
 
       {menuOpen ? (
-        <div aria-label="Account" className="health-user-menu" role="menu">
+        <div aria-label={messages.account} className="health-user-menu" role="menu">
           <div className="health-user-menu__identity">
             <strong>{session.user.name}</strong>
             <span>{session.user.email}</span>
           </div>
-          <Link className="health-user-menu__item" href="/favorites" onClick={() => setMenuOpen(false)} role="menuitem">Saved exercises</Link>
-          {session.isAdmin ? <Link className="health-user-menu__item" href="/admin/exercises" onClick={() => setMenuOpen(false)} role="menuitem">Admin</Link> : null}
-          <button className="health-user-menu__item health-user-menu__item--button" disabled={loading} onClick={signOut} role="menuitem" type="button">Sign out</button>
+          <Link className="health-user-menu__item" href="/favorites" onClick={() => setMenuOpen(false)} role="menuitem">{messages.savedExercises}</Link>
+          {session.isAdmin ? <Link className="health-user-menu__item" href="/admin/exercises" onClick={() => setMenuOpen(false)} role="menuitem">{messages.admin}</Link> : null}
+          <button className="health-user-menu__item health-user-menu__item--button" disabled={loading} onClick={signOut} role="menuitem" type="button">{messages.signOut}</button>
         </div>
       ) : null}
       {error ? <span className="health-user-auth__error" role="alert">{error}</span> : null}

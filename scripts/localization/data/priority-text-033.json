@@ -1,0 +1,571 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete uncategorized source blocks, preserving inverted kettlebell holds, anchor/hand relationships, band positions, nerve-mobility directions, no-pain limits, numeric angles and clock positions. Held unclear movement paths, joint angles, supports and contradictory directions. Stored category remains unchanged.",
+  "translations": [
+    {
+      "index": 57,
+      "sourceName": "Kettlebell Bench Wrist Extension",
+      "name": "Duỗi cổ tay với tạ ấm tựa ghế",
+      "steps": [
+        "Nắm hai tạ ấm bằng tay nắm sấp và đặt cẳng tay ngang qua ghế.",
+        "Để cổ tay gập hết biên độ rồi duỗi cổ tay."
+      ],
+      "exercise_id": "411f5ba3-7834-4862-82b8-ec37b64cf78b"
+    },
+    {
+      "index": 58,
+      "sourceName": "Kettlebell Clean And Press",
+      "name": "Đưa tạ ấm lên vai rồi đẩy qua đầu",
+      "steps": [
+        "Bắt đầu với tạ ấm ở giữa hai chân.",
+        "Vung tạ ấm lên vai.",
+        "Đẩy tạ ấm qua đầu."
+      ],
+      "exercise_id": "f751317d-8427-4571-9e3a-ceb996def445"
+    },
+    {
+      "index": 59,
+      "sourceName": "Kettlebell Kneel To Stand Shoulder Flexion Bent Elbow Hold",
+      "name": "Quỳ rồi đứng giữ tạ ấm ngược với khuỷu tay co",
+      "steps": [
+        "Đứng thẳng, tay đang tập phía trước và khuỷu tay co 90°.",
+        "Giữ tạ ấm lật ngược, đáy hướng lên, bằng tay đó.",
+        "Thử quỳ xuống rồi đứng lên mà không để tạ ấm đổ nghiêng."
+      ],
+      "exercise_id": "68f30f84-ea34-4a78-9ab8-6bd9549048fa"
+    },
+    {
+      "index": 60,
+      "sourceName": "Kettlebell Push Press",
+      "name": "Đẩy tạ ấm qua đầu có đà chân",
+      "steps": [
+        "Bắt đầu với tạ ấm ở vị trí trước vai.",
+        "Nhún gối và hông.",
+        "Đẩy mạnh tạ ấm qua đầu, duỗi hoàn toàn tay."
+      ],
+      "exercise_id": "e8f2d61e-5f0c-43c8-b951-b29426f48a61"
+    },
+    {
+      "index": 61,
+      "sourceName": "Kettlebell Seated Overhead Press",
+      "name": "Ngồi đẩy tạ ấm qua đầu",
+      "steps": [
+        "Từ khuỷu tay đến nắm tay cần tạo thành đường thẳng, cẳng tay thẳng đứng.",
+        "Ngồi thẳng và cố gắng không ưỡn cột sống khi đẩy.",
+        "Đẩy đến khi khuỷu tay duỗi và hơi đưa đầu về trước."
+      ],
+      "exercise_id": "763c0eff-6324-4890-8734-7d4b1079b23c"
+    },
+    {
+      "index": 62,
+      "sourceName": "Kettlebell Shoulder Flexion Bent Elbow Hold",
+      "name": "Giữ tạ ấm ngược phía trước với khuỷu tay co",
+      "steps": [
+        "Đứng thẳng, tay đang tập phía trước và khuỷu tay co 90°.",
+        "Giữ tạ ấm lật ngược, đáy hướng lên, bằng tay đó.",
+        "Mục tiêu là giữ vị trí tạ ấm mà không để tạ đổ nghiêng."
+      ],
+      "exercise_id": "1e3e93dd-b695-4be8-bc78-5f6e9146dfa2"
+    },
+    {
+      "index": 63,
+      "sourceName": "Kettlebell Tibialis Raise",
+      "name": "Nâng bàn chân với tạ ấm tập cơ chày trước",
+      "steps": [
+        "Ngồi trên ghế với tạ ấm móc qua phần giữa bàn chân.",
+        "Để tạ ấm kéo bàn chân xuống.",
+        "Nâng bàn chân thẳng lên và siết phần trước cẳng chân."
+      ],
+      "exercise_id": "d2709c1f-f9be-499e-a69e-e3047a4ae42a"
+    },
+    {
+      "index": 64,
+      "sourceName": "Kettlebell Walking Shoulder Flexion Bent Elbow Hold",
+      "name": "Đi bộ giữ tạ ấm ngược phía trước với khuỷu tay co",
+      "steps": [
+        "Đứng thẳng, tay đang tập phía trước và khuỷu tay co 90°.",
+        "Giữ tạ ấm lật ngược, đáy hướng lên, bằng tay đó. Đi lại trong khi giữ tạ ở vị trí này.",
+        "Mục tiêu là giữ vị trí tạ ấm mà không để tạ đổ nghiêng."
+      ],
+      "exercise_id": "9ab56698-039c-4067-a978-1d79b6105f3f"
+    },
+    {
+      "index": 65,
+      "sourceName": "Landmine Alternating Single Arm Press",
+      "name": "Đẩy landmine một tay luân phiên",
+      "steps": [
+        "Đứng đối diện landmine, hơi nghiêng về trước, một tay giữ đầu tạ đòn ở vai và khuỷu tay dưới cổ tay.",
+        "Giữ khuỷu tay hướng về trước, đẩy thanh đòn thẳng qua đầu và đổi tay ở điểm cao nhất. Hạ thanh đòn về phía bên kia thân, đối xứng với tư thế ban đầu.",
+        "Lặp lại theo số lần mong muốn, đổi tay ở điểm cao nhất của mỗi lần."
+      ],
+      "exercise_id": "62c574ea-4230-45ae-bdae-0f3853e82588"
+    },
+    {
+      "index": 66,
+      "sourceName": "Landmine Half Kneeling Single Arm Overhead Press",
+      "name": "Quỳ một gối đẩy landmine một tay qua đầu",
+      "steps": [
+        "Quỳ một gối đối diện landmine, bàn chân kia phía trước; một tay giữ tạ đòn ở vai cùng bên với đầu gối trên sàn.",
+        "Giữ khuỷu tay hướng về trước, đẩy thanh đòn lên đến khi tay duỗi hoàn toàn, rồi hạ về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "630ba696-4b6a-491f-bf60-a1a7da79eb25"
+    },
+    {
+      "index": 67,
+      "sourceName": "Landmine Kneeling Alternating Overhead Press",
+      "name": "Quỳ đẩy landmine qua đầu luân phiên",
+      "steps": [
+        "Bắt đầu quỳ đối diện thanh đòn, một tay giữ đầu thanh đòn ở vai và khuỷu tay ngay dưới cổ tay.",
+        "Giữ khuỷu tay hướng về trước, đẩy thanh đòn qua đầu đến khi tay duỗi hoàn toàn, rồi chuyển thanh đòn sang tay kia ở điểm cao nhất.",
+        "Hạ thanh đòn về vai bên kia có kiểm soát, lặp lại theo số lần mong muốn và đổi tay ở điểm cao nhất mỗi lần."
+      ],
+      "exercise_id": "be08c2d6-9ab4-4fbf-a3b4-7c0714a3a74c"
+    },
+    {
+      "index": 68,
+      "sourceName": "Landmine Kneeling Overhead Press",
+      "name": "Quỳ đẩy landmine qua đầu",
+      "steps": [
+        "Quỳ trước landmine và quay mặt về nó, hai gối rộng bằng hông, lưng thẳng, hai tay giữ đầu thanh đòn trước ngực.",
+        "Đẩy landmine qua đầu bằng cách duỗi hoàn toàn tay đến khi tạ ở ngay trên đầu. Dừng ngắn ở điểm cao nhất rồi từ từ hạ về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "514bdd8d-3fb9-43f5-9305-4ed6d7304e71"
+    },
+    {
+      "index": 69,
+      "sourceName": "Landmine Lateral Raise",
+      "name": "Nâng tay sang ngang với landmine",
+      "steps": [
+        "Đứng vuông góc với thanh đòn, dùng tay phía trong giữ đầu thanh đòn ở hông phía ngoài, lòng bàn tay hướng vào thân.",
+        "Giữ cơ trung tâm siết và tay thẳng, nâng thanh đòn chéo lên về hướng điểm gắn landmine rồi đưa về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "8754af7d-f38b-4f51-bcb3-3aa2e55018c9"
+    },
+    {
+      "index": 72,
+      "sourceName": "Machine Assisted Parallel Bar Dips",
+      "name": "Chống đẩy xà kép với máy hỗ trợ",
+      "steps": [
+        "Nắm hai thanh xà, tay thẳng và vai phía trên bàn tay. Đặt đầu gối lên đệm.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "exercise_id": "8879f414-e366-4032-b2f2-6944a253da2c"
+    },
+    {
+      "index": 73,
+      "sourceName": "Machine Goblet Sissy Squat",
+      "name": "Sissy squat trên máy giữ tạ trước ngực",
+      "steps": [
+        "Đặt đệm máy sissy squat ngay sau đầu gối, đệm trước áp sát cổ chân.",
+        "Giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Ngồi thẳng ra sau vào squat. Sau đó đẩy bắp chân vào mặt sau đệm và duỗi gối về vị trí ban đầu."
+      ],
+      "exercise_id": "e718717e-e0af-4a5e-82c5-ba3398e70bd3"
+    },
+    {
+      "index": 76,
+      "sourceName": "Machine Horizontal Leg Press Calf Raise",
+      "name": "Nhón gót trên máy đạp chân ngang",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao của bạn.",
+        "Phần đệm trước bàn chân đỡ trọng lượng ở mép dưới bàn đạp, gót chân nhô ra ngoài.",
+        "Nâng gót lên, giữ đầu gối cố định và dừng ở vị trí co cơ.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "fccd4187-7bc1-443e-af77-14f3c671f48d"
+    },
+    {
+      "index": 77,
+      "sourceName": "Machine Sissy Squat",
+      "name": "Sissy squat trên máy",
+      "steps": [
+        "Đặt đệm máy sissy squat ngay sau đầu gối, đệm trước áp sát cổ chân.",
+        "Giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Ngồi thẳng ra sau vào squat. Sau đó đẩy bắp chân vào mặt sau đệm và duỗi gối về vị trí ban đầu."
+      ],
+      "exercise_id": "ad6c7bb4-ee01-43f2-adab-3029aa7c8fdb"
+    },
+    {
+      "index": 78,
+      "sourceName": "Medicine Ball Thruster",
+      "name": "Squat kết hợp đẩy bóng tạ qua đầu",
+      "steps": [
+        "Giữ bóng tạ trước ngực, khuỷu tay khép và hai chân rộng bằng vai.",
+        "Squat xuống đến khi đùi song song với sàn, giữ ngực nâng.",
+        "Đẩy người lên và đẩy bóng qua đầu trong một chuyển động liền mạch."
+      ],
+      "exercise_id": "fd4b2bd8-53e0-4d45-b462-c29200d10063"
+    },
+    {
+      "index": 79,
+      "sourceName": "Mini Band Laying Hip Flexion",
+      "name": "Nằm nâng chân gập hông với mini band",
+      "steps": [
+        "Vòng dây quanh hai bàn chân, nằm ngửa phẳng.",
+        "Nâng một chân lên, giữ đầu gối thẳng.",
+        "Từ từ hạ xuống và luân phiên hai bên có kiểm soát."
+      ],
+      "exercise_id": "934171b7-fe75-4fe2-8051-3c55cafd4204"
+    },
+    {
+      "index": 80,
+      "sourceName": "Mini Band Single Leg Raise",
+      "name": "Nâng một chân với mini band",
+      "steps": [
+        "Vòng dây quanh cổ chân, đứng thẳng và bám điểm hỗ trợ.",
+        "Nâng một chân về trước với đầu gối thẳng.",
+        "Từ từ hạ xuống, lặp lại rồi đổi bên."
+      ],
+      "exercise_id": "a735713a-ba5d-4921-91fd-e4895099e4e3"
+    },
+    {
+      "index": 81,
+      "sourceName": "Mini Band Standing Hip Flexion",
+      "name": "Đứng gập hông với mini band",
+      "steps": [
+        "Vòng dây quanh bàn chân hoặc neo phía sau.",
+        "Nâng một đầu gối lên ngang hông.",
+        "Từ từ hạ xuống mà không ngả người ra sau."
+      ],
+      "exercise_id": "5b070769-9d0d-4c23-83cb-41e2d281bb44"
+    },
+    {
+      "index": 82,
+      "sourceName": "Pushup Position Shoulder Clock",
+      "name": "Chạm tay theo mặt đồng hồ ở tư thế chống đẩy",
+      "steps": [
+        "Vòng dây kháng lực quanh cổ tay và vào tư thế chống đẩy.",
+        "Đỡ người trên một tay, tay còn lại di chuyển ra ngoài chạm các vị trí giờ trên mặt đồng hồ.",
+        "Nếu di chuyển tay phải, chạm các vị trí 12, 1, ..., 6.",
+        "Nếu di chuyển tay trái, chạm các vị trí 12, 11, ..., 6."
+      ],
+      "exercise_id": "6eee8d32-251b-4e83-a75a-d02ea2de4ba2"
+    },
+    {
+      "index": 84,
+      "sourceName": "Rotator Cuff External Rotations 1",
+      "name": "Xoay ngoài chóp xoay vai 1",
+      "steps": [
+        "Đứng nghiêng với ròng rọc; cũng có thể gắn dây TheraBand vào điểm cố định để thay thế.",
+        "Dùng tay phía xa ròng rọc giữ tay cầm hoặc dây. Đưa tay sát thân và co khuỷu tay 90°.",
+        "Xoay lòng bàn tay ra ngoài chống lại lực kháng. Giữ khuỷu tay sát xương sườn suốt động tác."
+      ],
+      "exercise_id": "3da54465-a380-4dd6-be04-75fadac98fe2"
+    },
+    {
+      "index": 85,
+      "sourceName": "Rotator Cuff External Rotations 2",
+      "name": "Xoay ngoài chóp xoay vai 2",
+      "steps": [
+        "Dùng một chân giẫm lên một đầu dây TheraBand, tay đối bên giữ đầu còn lại.",
+        "Đưa khuỷu tay về trước 45° tại vai nhưng giữ góc 90° ở khuỷu tay.",
+        "Xoay ngoài chống lại lực kháng."
+      ],
+      "exercise_id": "af8e4df3-c560-462b-ab7b-32edae334731"
+    },
+    {
+      "index": 86,
+      "sourceName": "Rotator Cuff External Rotations 3",
+      "name": "Xoay ngoài chóp xoay vai 3",
+      "steps": [
+        "Dạng tay 90°, nâng tay sang bên.",
+        "Giữ góc 90° ở khuỷu tay, cẳng tay song song với sàn.",
+        "Xoay ngoài chống lại lực kháng."
+      ],
+      "exercise_id": "b9625f49-687d-4a22-9747-5c63d851c7c9"
+    },
+    {
+      "index": 87,
+      "sourceName": "Rotator Cuff Mobilisation Lacrosse Ball",
+      "name": "Vận động chóp xoay vai với bóng lacrosse",
+      "steps": [
+        "Nằm trên sàn, đặt bóng massage dưới vùng chóp xoay vai.",
+        "Dùng tay đối bên đỡ khuỷu tay.",
+        "Lăn người vào bóng để tăng áp lực và ra xa bóng để giảm áp lực."
+      ],
+      "exercise_id": "adc7d0f9-da58-43c3-8278-ac3a52939db2"
+    },
+    {
+      "index": 88,
+      "sourceName": "Rower Knee Tuck",
+      "name": "Co gối với ghế máy chèo thuyền",
+      "steps": [
+        "Đặt bàn chân lên ghế máy chèo thuyền và vào tư thế plank chống tay.",
+        "Kéo đầu gối về ngực và co cơ bụng."
+      ],
+      "exercise_id": "cdc1885d-20d8-4900-a805-f89ea413e20f"
+    },
+    {
+      "index": 90,
+      "sourceName": "Seated Doming",
+      "name": "Ngồi tạo vòm bàn chân",
+      "steps": [
+        "Ngồi trên ghế hoặc bục. Ấn ngón chân cái xuống sàn đến khi cảm thấy mặt trong bàn chân nâng khỏi sàn.",
+        "Vòm bàn chân cần rõ hơn. Không nghiêng bàn chân ra ngoài để nâng mặt trong bàn chân.",
+        "Nên tập bằng chân trần hoặc đi tất, không mang giày."
+      ],
+      "exercise_id": "19caf1b1-3332-4324-8f2f-3fb948b78e11"
+    },
+    {
+      "index": 91,
+      "sourceName": "Seated Hip Flexion Hold",
+      "name": "Ngồi giữ nâng chân gập hông",
+      "steps": [
+        "Ngồi trên ghế không có tựa lưng.",
+        "Giữ lưng thẳng và vai kéo về sau.",
+        "Nâng một chân, giữ tư thế trong thời gian được chỉ định."
+      ],
+      "exercise_id": "2a9443c4-60f6-4c60-94d7-9d72df4fb209"
+    },
+    {
+      "index": 92,
+      "sourceName": "Seated Median Nerve Slider",
+      "name": "Ngồi vận động trượt thần kinh giữa",
+      "steps": [
+        "Dạng tay 90°, khuỷu tay thẳng và lòng bàn tay hướng lên.",
+        "Co khuỷu tay và gập cổ tay, đưa nắm tay gần vai đồng thời nghiêng đầu sang phía đối diện.",
+        "Luân phiên giữa các tư thế để vận động thần kinh giữa."
+      ],
+      "exercise_id": "1a79ab44-f4d2-41ce-899e-731d1a84a3d2"
+    },
+    {
+      "index": 93,
+      "sourceName": "Seated Median Nerve Tensioner",
+      "name": "Ngồi tạo độ căng thần kinh giữa",
+      "steps": [
+        "Dạng tay 90°, khuỷu tay thẳng và lòng bàn tay hướng lên.",
+        "Duỗi cổ tay, hướng các ngón xuống dưới.",
+        "Nghiêng đầu sang phía đối diện, không co khuỷu tay.",
+        "Tìm vị trí căng tối đa nhưng không gây đau và giữ."
+      ],
+      "exercise_id": "813dbc36-4fa1-4b5e-a5a6-0c938299e3d0"
+    },
+    {
+      "index": 94,
+      "sourceName": "Seated Radial Nerve Slider",
+      "name": "Ngồi vận động trượt thần kinh quay",
+      "steps": [
+        "Từ tư thế ngồi, đưa tay sang bên với lòng bàn tay hướng ra sau.",
+        "Gập cổ tay đồng thời nghiêng đầu về phía tay đang duỗi.",
+        "Nghiêng đầu ra xa tay đang duỗi đồng thời duỗi cổ tay."
+      ],
+      "exercise_id": "36ee24c5-9170-4eaf-838e-d28f7241ce7f"
+    },
+    {
+      "index": 95,
+      "sourceName": "Seated Radial Nerve Tensioner",
+      "name": "Ngồi tạo độ căng thần kinh quay",
+      "steps": [
+        "Co khuỷu tay, đưa ngón cái về giữa ngực.",
+        "Duỗi khuỷu tay sang bên với lòng bàn tay hướng ra sau và cổ tay gập.",
+        "Khi duỗi tay, nghiêng đầu về vai đối diện.",
+        "Khi đạt độ căng tối đa nhưng không gây đau, giữ tư thế."
+      ],
+      "exercise_id": "bbb35379-5ecb-4d72-90e0-f4f30f6e0237"
+    },
+    {
+      "index": 96,
+      "sourceName": "Seated Shoulder Abduction",
+      "name": "Ngồi dạng vai nâng tay",
+      "steps": [
+        "Đứng hoặc ngồi với tay bên thân, lòng bàn tay hướng về trước.",
+        "Đưa tay sang bên rồi qua đầu mà không co khuỷu tay.",
+        "Ngón cái dẫn hướng chuyển động."
+      ],
+      "exercise_id": "7db7211a-7b11-434a-8a63-862927b76b8e"
+    },
+    {
+      "index": 97,
+      "sourceName": "Seated Tibialis Raise",
+      "name": "Ngồi nâng mũi chân",
+      "steps": [
+        "Ngồi trên bục hoặc ghế, đặt gót chân trên bậc hoặc bánh tạ.",
+        "Nâng mũi chân thẳng lên phía trần."
+      ],
+      "exercise_id": "cdb9f0ee-0a36-4cea-9771-fa100f7bec7e"
+    },
+    {
+      "index": 98,
+      "sourceName": "Seated Ulnar Nerve Slider",
+      "name": "Ngồi vận động trượt thần kinh trụ",
+      "steps": [
+        "Dạng tay 90°, lòng bàn tay hướng xuống.",
+        "Co khuỷu tay và gập cổ tay, đưa mặt trước các đầu ngón tay về thái dương đồng thời nghiêng đầu về phía tay.",
+        "Nghiêng đầu ra xa tay trong khi duỗi khuỷu tay và gập cổ tay.",
+        "Luân phiên giữa các tư thế để vận động thần kinh trụ."
+      ],
+      "exercise_id": "f4b15e1b-bab1-494d-b1b1-567fb727b228"
+    },
+    {
+      "index": 100,
+      "sourceName": "Seated Wrist Flexor Stretch",
+      "name": "Ngồi giãn cơ gấp cổ tay",
+      "steps": [
+        "Đưa một tay ra trước, lòng bàn tay hướng lên, khuỷu tay thẳng và vai thả lỏng.",
+        "Dùng tay kia giữ lòng bàn tay và đưa cổ tay vào tư thế duỗi thụ động.",
+        "Động tác này giãn các cơ gấp cổ tay."
+      ],
+      "exercise_id": "8ea764bd-d7af-42cd-a0c1-a2567b9eac9e"
+    },
+    {
+      "index": 101,
+      "sourceName": "Serratus Activation Cross Punch",
+      "name": "Đấm tay hình dấu cộng kích hoạt cơ răng trước",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân phẳng trên sàn.",
+        "Giữ tạ đơn trên vai với tay thẳng.",
+        "Di chuyển thành hình dấu cộng, thêm động tác đưa vai ra trước như đấm ở mỗi đầu dấu cộng, kể cả vị trí giữa."
+      ],
+      "exercise_id": "e452038d-450e-43e9-a054-1a38d8b9d181"
+    },
+    {
+      "index": 102,
+      "sourceName": "Serratus Activation Plank",
+      "name": "Plank kích hoạt cơ răng trước",
+      "steps": [
+        "Đỡ trọng lượng trên cẳng tay và mũi chân ở tư thế plank.",
+        "Để lưng trên hạ xuống giữa hai bả vai.",
+        "Ấn khuỷu tay xuống sàn và hơi về trước, đưa bả vai ra xa cột sống."
+      ],
+      "exercise_id": "b0f60d1f-cd26-4c4e-b7be-f78c17923199"
+    },
+    {
+      "index": 103,
+      "sourceName": "Shoulder Abduction Stretch",
+      "name": "Giãn vai ở tư thế dạng tay",
+      "steps": [
+        "Đứng nghiêng với tường.",
+        "Nâng tay phía gần tường và đặt cạnh bàn tay lên tường.",
+        "Trượt tay lên qua đầu, bước gần tường hơn để tăng mức giãn."
+      ],
+      "exercise_id": "fee1e7ff-f3fa-4414-ab67-e424b8c0bfb4"
+    },
+    {
+      "index": 104,
+      "sourceName": "Shoulder External Internal Rotation",
+      "name": "Xoay ngoài và xoay trong vai",
+      "steps": [
+        "Xoay ngoài và xoay trong vai để vận động khớp theo chuyển động này."
+      ],
+      "exercise_id": "9c123648-3487-49a7-b2d0-cabd40c8418e"
+    },
+    {
+      "index": 105,
+      "sourceName": "Shoulder External Rotation Deceleration",
+      "name": "Xoay ngoài vai thả và bắt bóng có tải",
+      "steps": [
+        "Nằm sấp trên ghế.",
+        "Đưa tay song song với sàn, co khuỷu tay và giữ bóng có tải.",
+        "Xoay ngoài vai đồng thời thả bóng.",
+        "Bắt bóng trước khi rơi xuống sàn."
+      ],
+      "exercise_id": "e4e4c312-2f9e-477c-9f97-ad42ee75c09b"
+    },
+    {
+      "index": 107,
+      "sourceName": "Shoulder Flexion Wall Stretch",
+      "name": "Giãn vai gập tay tựa tường",
+      "steps": [
+        "Đứng đối diện tường.",
+        "Nâng tay qua đầu và đặt lên tường, ngón cái hướng ra sau.",
+        "Trượt tay lên, nghiêng vào tường để tăng mức giãn."
+      ],
+      "exercise_id": "4877d2e6-1547-4435-8bc1-e12dc479becb"
+    },
+    {
+      "index": 108,
+      "sourceName": "Shoulder Girdle Stability Circles",
+      "name": "Ổn định đai vai với bóng theo vòng tròn",
+      "steps": [
+        "Đứng đối diện tường. Giữ bóng tập giữa lòng bàn tay và tường, khuỷu tay thẳng.",
+        "Đẩy tay vào bóng mà không nghiêng người tựa lên bóng.",
+        "Trong khi tạo áp lực, di chuyển thành dấu cộng lên/xuống/trái/phải và các vòng tròn."
+      ],
+      "exercise_id": "794b670b-1a2e-4a73-b2cb-63a550c4df0c"
+    },
+    {
+      "index": 109,
+      "sourceName": "Side Lying External Rotator Cuff Stretch",
+      "name": "Nằm nghiêng giãn nhóm cơ xoay ngoài vai",
+      "steps": [
+        "Nằm nghiêng, tay phía dưới duỗi ra trước.",
+        "Kéo vai về sau để ổn định bả vai.",
+        "Co khuỷu tay 90° hoặc hơn.",
+        "Dùng tay phía trên ấn lòng bàn tay phía dưới ra ngoài."
+      ],
+      "exercise_id": "dfedc66d-6c75-4f26-a22a-d567c5d249ac"
+    },
+    {
+      "index": 110,
+      "sourceName": "Side Shoulder Girdle Stability Circles",
+      "name": "Đứng nghiêng ổn định đai vai với bóng theo vòng tròn",
+      "steps": [
+        "Đứng nghiêng với tường. Giữ bóng tập giữa lòng bàn tay và tường, khuỷu tay thẳng.",
+        "Đẩy tay vào bóng mà không nghiêng người tựa lên bóng.",
+        "Trong khi tạo áp lực, di chuyển thành dấu cộng lên/xuống/trái/phải và các vòng tròn."
+      ],
+      "exercise_id": "ec7b610c-1b98-402c-8e31-f20b6f190d2e"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 56,
+      "sourceName": "Infinity Loop Standing Hip Mobility",
+      "reason": "Named infinity-loop movement only raises the knee and moves it sideways, without the loop path or return sequence. Verify the intended pattern.",
+      "exercise_id": "4dfd84e1-792e-4d3f-9acf-d6cabf5b3115"
+    },
+    {
+      "index": 70,
+      "sourceName": "Leg Lowers",
+      "reason": "Source says to keep 90 degrees at both hips and knees while lowering toes, without distinguishing starting hip angle from the changing hip angle. Verify the angle cue and knee position.",
+      "exercise_id": "b437e1ea-8762-4122-87e8-34d06576e34e"
+    },
+    {
+      "index": 71,
+      "sourceName": "Long Lever Forearm Plank",
+      "reason": "Starts in a hand plank then walks elbows farther forward without establishing the transition to forearm support. Verify support sequence.",
+      "exercise_id": "07c8b8ae-c0e7-4dcb-82db-dba648b2f6e5"
+    },
+    {
+      "index": 74,
+      "sourceName": "Machine Hip Adduction",
+      "reason": "Source places pads against outer thighs for squeezing legs together. Verify inner versus outer pad placement for the adduction machine.",
+      "exercise_id": "1ac2a75c-8126-43ec-9329-9cfcf97cfd38"
+    },
+    {
+      "index": 75,
+      "sourceName": "Machine Hip And Glute Adduction",
+      "reason": "Source puts a pad just over the hip and then puts the working leg over that pad before pressing inward. Verify pad height and contact surface.",
+      "exercise_id": "1244468a-2bcf-4569-87d0-3f0ab747c061"
+    },
+    {
+      "index": 83,
+      "sourceName": "Reverse Crunch",
+      "reason": "Source describes a seated V-position leg/torso tuck instead of establishing the reverse-crunch setup. Verify the intended exercise variant and starting support.",
+      "exercise_id": "82bd72ae-7d93-492d-8fe7-4e64f8006689"
+    },
+    {
+      "index": 89,
+      "sourceName": "Scapular Elevation",
+      "reason": "Source says shoulders move towards from the ears, leaving direction contradictory. Verify elevation versus depression wording.",
+      "exercise_id": "f1060f7b-82eb-4ab8-90d6-7e69fd2297e5"
+    },
+    {
+      "index": 99,
+      "sourceName": "Seated Ulnar Nerve Tensioner",
+      "reason": "Source turns a downward-facing palm upward by bending wrist and elbow without clarifying forearm/shoulder rotation. Verify hand orientation and joint movement before translating this nerve tensioner.",
+      "exercise_id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62"
+    },
+    {
+      "index": 106,
+      "sourceName": "Shoulder Flexion Thoracic Extensions",
+      "reason": "Supine spine-and-neck-supported roller setup says bent knees are on the ground, leaving unclear whether knees or feet support the legs. Verify support points rather than replacing knees with feet.",
+      "exercise_id": "f1f42d92-f79d-4fe4-8d33-0fd14745a370"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete source blocks with Vietnamese wording, retaining grip, supports, load, arm/leg directions, pause cues and step order. Held ambiguous quantity or setup, reverse-lunge leg conflicts and missing variant-specific movement.",
+  "translations": [
+    {
+      "index": 121,
+      "sourceName": "Plate Internally Rotated Rear Delt Fly",
+      "name": "Dang bánh tạ tập vai sau với vai xoay trong",
+      "steps": [
+        "Mỗi tay giữ bánh tạ, co đầu gối và để bàn chân hơi xoay ra ngoài. Gập người về trước tại hông, giữ lưng phẳng.",
+        "Giữ tay nắm sấp và vai xoay trong.",
+        "Nâng hai tay về sau hướng lên trần, giữ khuỷu tay hơi co."
+      ],
+      "exercise_id": "8b6b14cb-aa1c-47fa-ae07-3540a5abf6f8"
+    },
+    {
+      "index": 122,
+      "sourceName": "Plate Lateral Lunge",
+      "name": "Chùng chân sang ngang với bánh tạ",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ bánh tạ trước thân.",
+        "Bước một chân sang bên, gập gối và hạ hông vào tư thế chùng chân.",
+        "Đạp chân trước để trở về vị trí ban đầu.",
+        "Lặp lại bên kia bằng cách bước chân còn lại sang phía đối diện."
+      ],
+      "exercise_id": "3884623a-1697-4486-ac51-9e1c880e30ac"
+    },
+    {
+      "index": 124,
+      "sourceName": "Plate Overhead Carry",
+      "name": "Đi bộ giữ bánh tạ trên đầu",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai. Dùng hai tay giữ một bánh tạ trên đầu, hai tay duỗi thẳng ngay trên đầu.",
+        "Bắt đầu đi về trước với bước chậm và đều theo đường thẳng. Tập trung giữ thăng bằng và kiểm soát bánh tạ trên đầu.",
+        "Khi đi, tiếp tục giữ tay duỗi và bánh tạ trên đầu. Giữ tư thế tốt, tránh nghiêng về trước hoặc sau vì có thể mất kiểm soát bánh tạ.",
+        "Tiếp tục theo quãng đường hoặc thời gian được chỉ định, tập trung đúng tư thế và kỹ thuật. Khi xong, trở về vị trí ban đầu và lặp lại theo nhu cầu."
+      ],
+      "exercise_id": "859422da-75af-4dcb-b36a-206c73934a06"
+    },
+    {
+      "index": 125,
+      "sourceName": "Plate Overhead Press To Tricep Extension",
+      "name": "Đẩy bánh tạ qua đầu kết hợp duỗi tay sau",
+      "steps": [
+        "Siết cơ bụng và đẩy bánh tạ qua đầu đến khi hai tay duỗi hoàn toàn. Giữ vai hạ và kéo về sau.",
+        "Khi hai tay duỗi hoàn toàn, hạ tạ ra sau đầu để thực hiện động tác duỗi tay sau.",
+        "Sau khi hoàn thành động tác duỗi tay sau, hạ tạ về ngực rồi đẩy qua đầu. Lặp lại."
+      ],
+      "exercise_id": "4245e94f-0ccc-4c70-a400-fe25baec30a4"
+    },
+    {
+      "index": 126,
+      "sourceName": "Plate Overhead Shrug",
+      "name": "Nhún vai với bánh tạ giữ trên đầu",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ trên đầu.",
+        "Nâng và hạ bả vai.",
+        "Tránh nghiêng về trước hoặc sau để không gây áp lực lên cột sống thắt lưng."
+      ],
+      "exercise_id": "916aa2ee-7a85-481d-a4f5-8180250045c8"
+    },
+    {
+      "index": 127,
+      "sourceName": "Plate Overhead Squat",
+      "name": "Squat với bánh tạ giữ trên đầu",
+      "steps": [
+        "Duỗi hoàn toàn hai tay giữ bánh tạ trên đầu. Bánh tạ ngay phía trên đầu, khuỷu tay khóa thẳng.",
+        "Gập gối, hạ người sâu hết mức có thể trong khi giữ bánh tạ trên đầu. Giữ lưng thẳng và ngực nâng.",
+        "Khi đùi song song với đất hoặc xuống thấp hết mức có thể, dừng một chút.",
+        "Ấn gót chân để đứng lên, giữ bánh tạ trên đầu suốt động tác."
+      ],
+      "exercise_id": "c8dd5280-0ffa-4905-8fe1-4ebbc02df1eb"
+    },
+    {
+      "index": 128,
+      "sourceName": "Plate Overhead Tricep Extension",
+      "name": "Duỗi tay sau qua đầu với bánh tạ",
+      "steps": [
+        "Đứng hoặc ngồi, giữ bánh tạ với hai tay duỗi thẳng trên đầu.",
+        "Gập khuỷu tay để hạ bánh tạ ra sau đầu.",
+        "Giữ khuỷu tay gần đầu và vai thả lỏng.",
+        "Đẩy bánh tạ về vị trí ban đầu, duỗi hoàn toàn hai tay."
+      ],
+      "exercise_id": "5a0ac1c0-a5a8-4c04-a508-ff9a6f6242af"
+    },
+    {
+      "index": 129,
+      "sourceName": "Plate Overhead Walking Lunge",
+      "name": "Chùng chân bước đi với bánh tạ giữ trên đầu",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ trên đầu.",
+        "Bước một chân về trước, hạ đầu gối sau xuống sàn. Chạm nhẹ đầu gối rồi đạp chân trước.",
+        "Trở về tư thế đứng rồi bước chân đối diện về trước."
+      ],
+      "exercise_id": "e03dcd4c-d275-4e3c-b366-ba228253a5da"
+    },
+    {
+      "index": 130,
+      "sourceName": "Plate Pinch Grip Row",
+      "name": "Kéo bánh tạ với tay nắm kẹp",
+      "steps": [
+        "Giữ khuỷu tay gần thân và cơ bụng siết trong suốt chuyển động.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Kéo bánh tạ về phía bụng trên.",
+        "Hạ tạ có kiểm soát rồi lặp lại."
+      ],
+      "exercise_id": "1b8376bf-08f1-4eac-b881-89c72e4d7166"
+    },
+    {
+      "index": 131,
+      "sourceName": "Plate Pinch Grip Side Bend",
+      "name": "Nghiêng người sang bên với bánh tạ nắm kẹp",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ bên thân.",
+        "Giữ hông và vai hướng về trước, từ từ nghiêng sang một bên.",
+        "Trở về tư thế thẳng.",
+        "Đổi tay rồi lặp lại."
+      ],
+      "exercise_id": "19aea4c8-2195-4fd4-87f3-79ffedbe3e5a"
+    },
+    {
+      "index": 132,
+      "sourceName": "Plate Reach",
+      "name": "Đẩy bánh tạ ra trước",
+      "steps": [
+        "Đứng và giữ bánh tạ sát ngực.",
+        "Đẩy bánh tạ ra xa người đến khi khuỷu tay duỗi."
+      ],
+      "exercise_id": "ff054545-cf97-4ab1-81d0-5cdbd5c302ed"
+    },
+    {
+      "index": 133,
+      "sourceName": "Plate Rear Delt Fly",
+      "name": "Dang bánh tạ tập vai sau",
+      "steps": [
+        "Giữ lưng thẳng và hơi gập người về trước tại eo.",
+        "Giữ tay duỗi, nâng tạ sang hai bên đến ngang vai.",
+        "Dừng một chút rồi hạ tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "8014ff8e-bb0e-4e02-862b-130e0bdc70db"
+    },
+    {
+      "index": 136,
+      "sourceName": "Plate Single Leg Deadlift",
+      "name": "Deadlift một chân với bánh tạ",
+      "steps": [
+        "Siết cơ bụng và duỗi chân để nhấc bánh tạ khỏi đất.",
+        "Đứng trên một chân, giữ chân còn lại khỏi đất và bánh tạ trước người.",
+        "Giữ lưng thẳng, đầu ở tư thế trung tính và mắt nhìn về trước.",
+        "Hạ bánh tạ về đất, giữ thăng bằng trên một chân."
+      ],
+      "exercise_id": "6dd53c47-4c6c-4fae-abd2-50a841a13db7"
+    },
+    {
+      "index": 138,
+      "sourceName": "Plate Situp",
+      "name": "Gập bụng ngồi dậy với bánh tạ",
+      "steps": [
+        "Nằm ngửa trên thảm, hai chân co và bàn chân đặt phẳng trên đất.",
+        "Dùng hai tay giữ bánh tạ phía trên đầu, giữ tay thẳng.",
+        "Siết cơ bụng và dùng cơ bụng ngồi dậy, giữ bánh tạ hướng lên trần."
+      ],
+      "exercise_id": "a44822a7-df35-44a8-b96f-7a3f0bf8eb6a"
+    },
+    {
+      "index": 139,
+      "sourceName": "Plate Squat",
+      "name": "Squat với bánh tạ",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ bánh tạ trước ngực.",
+        "Giữ lưng thẳng, hạ người như đang ngồi về sau vào ghế.",
+        "Hạ sâu hết mức có thể trong khi giữ gót chân phẳng trên đất, sau đó ấn gót chân để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "5a955870-01c3-4005-a181-465318c64d84"
+    },
+    {
+      "index": 140,
+      "sourceName": "Plate Squat Hold",
+      "name": "Giữ squat với bánh tạ",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ bánh tạ ngang ngực.",
+        "Gập gối và hông để hạ người, giữ lưng thẳng và trọng lượng ở gót chân.",
+        "Hạ đến khi đùi song song với sàn rồi dừng một chút.",
+        "Giữ tư thế squat trong thời gian mong muốn, giữ bánh tạ ổn định và cơ bụng siết."
+      ],
+      "exercise_id": "a7a30b23-3015-4d41-bdca-da5171dd3fdc"
+    },
+    {
+      "index": 141,
+      "sourceName": "Plate Squat Hold Curl",
+      "name": "Giữ squat kết hợp cuốn bánh tạ",
+      "steps": [
+        "Hạ vào tư thế squat, giữ bánh tạ ngang ngực.",
+        "Từ từ cuốn bánh tạ về phía vai, giữ khuỷu tay gần thân.",
+        "Giữ một chút ở điểm cao nhất rồi hạ bánh tạ về ngang ngực.",
+        "Lặp lại động tác cuốn trong khi giữ tư thế squat."
+      ],
+      "exercise_id": "1c8cfff2-8b65-4a76-bc98-02706f736df8"
+    },
+    {
+      "index": 142,
+      "sourceName": "Plate Squat Hold Reach",
+      "name": "Giữ squat kết hợp đẩy bánh tạ ra trước",
+      "steps": [
+        "Dùng hai tay giữ bánh tạ ngang ngực.",
+        "Giữ cơ bụng siết và ngực nâng, squat sâu hết mức có thể trong khi bàn chân đặt phẳng trên đất.",
+        "Giữ tư thế squat và vươn bánh tạ về trước, giữ tay và lưng thẳng.",
+        "Đưa bánh tạ về ngực khi vẫn giữ squat, tiếp tục lặp lại động tác vươn tạ ra trước."
+      ],
+      "exercise_id": "859dc35d-491c-407a-80a9-853ba8e88e20"
+    },
+    {
+      "index": 143,
+      "sourceName": "Plate Squat Reach",
+      "name": "Squat kết hợp đẩy bánh tạ ra trước",
+      "steps": [
+        "Đứng và dùng hai tay giữ bánh tạ ngang ngực.",
+        "Hạ vào tư thế squat, duỗi bánh tạ ra trước ở ngang ngực.",
+        "Khi đứng lên, kéo bánh tạ về ngực."
+      ],
+      "exercise_id": "c3b116de-3e09-4769-840f-32d280265304"
+    },
+    {
+      "index": 144,
+      "sourceName": "Plate Staggered Deadlift",
+      "name": "Deadlift với bánh tạ, chân trước chân sau",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bánh tạ.",
+        "Đặt một chân hơi sau chân còn lại, gót chân sau nâng.",
+        "Từ vị trí này, gập hông và gối để hạ bánh tạ về đất, giữ lưng thẳng và cơ bụng siết.",
+        "Khi bánh tạ xuống dưới gối, ấn gót chân để đứng lên về vị trí ban đầu."
+      ],
+      "exercise_id": "6a2193c4-a24a-4740-948a-de133d84baef"
+    },
+    {
+      "index": 145,
+      "sourceName": "Plate Staggered Pinch Grip Deadlift",
+      "name": "Deadlift chân trước chân sau với bánh tạ nắm kẹp",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ hai bánh tạ theo kiểu nắm kẹp.",
+        "Đặt một chân hơi sau chân còn lại, gót chân sau nâng.",
+        "Từ vị trí này, gập hông và gối để hạ các bánh tạ về đất, giữ lưng thẳng và cơ bụng siết."
+      ],
+      "exercise_id": "9f1a51bd-3138-4a0f-9ad4-c828f027b01d"
+    },
+    {
+      "index": 147,
+      "sourceName": "Plate Standing Twist",
+      "name": "Đứng xoay người với bánh tạ",
+      "steps": [
+        "Đứng và giữ bánh tạ ra xa người, khuỷu tay gần như duỗi thẳng.",
+        "Xoay phần trên cột sống, giữ cột sống thắt lưng trung tính.",
+        "Không để bánh tạ đi ra sau người."
+      ],
+      "exercise_id": "5e8de2a0-9d7d-4e50-a96b-ccd608b33e1e"
+    },
+    {
+      "index": 148,
+      "sourceName": "Plate Superman Hold",
+      "name": "Giữ tư thế Superman với bánh tạ",
+      "steps": [
+        "Dùng hai tay giữ bánh tạ.",
+        "Nâng tay và chân khỏi đất rồi giữ tư thế đó."
+      ],
+      "exercise_id": "b3a8d963-86be-4980-920d-22a402661c6e"
+    },
+    {
+      "index": 149,
+      "sourceName": "Plate Thruster",
+      "name": "Squat kết hợp đẩy bánh tạ qua đầu",
+      "steps": [
+        "Giữ bánh tạ ngang ngực. Bắt đầu squat.",
+        "Hạ đến độ sâu song song. Khi đứng lên, dùng đà từ chân để hỗ trợ đẩy bánh tạ lên trên đầu.",
+        "Đưa bánh tạ về ngang ngực trước khi bắt đầu lần squat tiếp theo."
+      ],
+      "exercise_id": "5158c8e9-0ed2-4797-b877-ef320a6fa10c"
+    },
+    {
+      "index": 150,
+      "sourceName": "Plate Waiters Bow",
+      "name": "Gập hông tựa thanh với bánh tạ giữ trước ngực",
+      "steps": [
+        "Đặt thanh tạ đòn khoảng giữa chiều cao đùi. Tì cơ đùi trước vào thanh. Giữ bánh tạ sát ngực.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "exercise_id": "5d183ff8-cb0b-4990-9a08-f6cdc4da8e42"
+    },
+    {
+      "index": 151,
+      "sourceName": "Plate Weighted Dead Hang",
+      "name": "Treo xà với bánh tạ bổ sung",
+      "steps": [
+        "Gắn tạ vào người bằng đai treo tạ. Nắm thanh xà với lòng bàn tay hướng về trước.",
+        "Treo người với hai tay duỗi hoàn toàn.",
+        "Giữ trong thời gian được khuyến nghị, duy trì cơ bụng siết."
+      ],
+      "exercise_id": "25e5e14e-7786-4aa6-86e8-bd10868c0a19"
+    },
+    {
+      "index": 152,
+      "sourceName": "Plate Weighted Inverted Row",
+      "name": "Kéo người dưới xà với bánh tạ trên ngực",
+      "steps": [
+        "Nằm dưới thanh ngang cố định, nắm sấp thanh với tay rộng. Đặt bánh tạ trên ngực.",
+        "Kéo người thẳng lên thanh.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "exercise_id": "40f882c3-98be-46d0-917a-c03d9961dad7"
+    },
+    {
+      "index": 153,
+      "sourceName": "Plate Wood Chopper",
+      "name": "Xoay bánh tạ chéo người kiểu bổ củi",
+      "steps": [
+        "Đứng hai chân rộng bằng vai. Bắt đầu với bánh tạ gần một bên đùi trước.",
+        "Xoay phần trên cột sống để tác động vào cơ bụng chéo.",
+        "Có thể xoay bàn chân sau để tránh tạo mô-men xoắn quá lớn ở đầu gối."
+      ],
+      "exercise_id": "55fb86a1-5471-4cb2-9183-ef3ba7c5af97"
+    },
+    {
+      "index": 154,
+      "sourceName": "Weighted Chin Ups",
+      "name": "Kéo xà tay ngửa có thêm tạ",
+      "steps": [
+        "Nắm thanh rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người. Dùng đai treo tạ, để tạ treo giữa hai chân.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên đến khi cằm vượt qua thanh.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "00c411d2-ccda-4209-b01c-6abc6901eb96"
+    },
+    {
+      "index": 155,
+      "sourceName": "Weighted Diamond Push Ups",
+      "name": "Chống đẩy tay hình kim cương có thêm tạ",
+      "steps": [
+        "Đặt bánh tạ trên lưng. Đặt ngón trỏ và ngón cái chạm nhau tạo hình kim cương.",
+        "Vào tư thế chống đẩy tiêu chuẩn.",
+        "Hạ ngực về phía hai tay, giữ khuỷu tay gần thân.",
+        "Dừng ngay trước khi ngực chạm sàn rồi đẩy người về vị trí ban đầu."
+      ],
+      "exercise_id": "2444baf7-ee8b-4dd2-85fa-70c58077c404"
+    },
+    {
+      "index": 156,
+      "sourceName": "Weighted Forearm Plank",
+      "name": "Plank cẳng tay có thêm tạ",
+      "steps": [
+        "Vào tư thế quỳ, tì cả hai cẳng tay xuống đất.",
+        "Đặt bánh tạ trên lưng hoặc nhờ bạn tập đặt giúp.",
+        "Giữ plank trong thời gian được chỉ định."
+      ],
+      "exercise_id": "cc1a9afc-5f6e-4e3d-9bd9-da419f913974"
+    },
+    {
+      "index": 157,
+      "sourceName": "Weighted Hand Plank",
+      "name": "Plank chống bàn tay có thêm tạ",
+      "steps": [
+        "Bắt đầu ở tư thế quỳ, hai bàn tay đặt trên đất.",
+        "Đặt bánh tạ trên lưng hoặc nhờ bạn tập đặt giúp.",
+        "Nhấc đầu gối khỏi đất. Giữ tư thế với lưng phẳng."
+      ],
+      "exercise_id": "b3a2153a-6c08-46f8-b619-11b31c330a6a"
+    },
+    {
+      "index": 159,
+      "sourceName": "Weighted Plank Up Down",
+      "name": "Plank chuyển xuống khuỷu tay có thêm tạ",
+      "steps": [
+        "Bắt đầu ở tư thế plank. Đặt bánh tạ trên lưng.",
+        "Chuyển xuống một khuỷu tay rồi đến khuỷu tay còn lại. Cố gắng không lắc người qua lại."
+      ],
+      "exercise_id": "ec48a403-d1ef-4d1d-ba63-1417fafe586f"
+    },
+    {
+      "index": 160,
+      "sourceName": "Weighted Pull Ups",
+      "name": "Kéo xà tay sấp có thêm tạ",
+      "steps": [
+        "Nắm sấp thanh, tay và vai duỗi hoàn toàn. Tạ treo giữa hai chân.",
+        "Kéo người lên đến khi cằm cao hơn thanh.",
+        "Hạ người về vị trí ban đầu."
+      ],
+      "exercise_id": "95d858be-1d85-4d84-baaf-ab38125362c6"
+    },
+    {
+      "index": 161,
+      "sourceName": "Weighted Push Ups",
+      "name": "Chống đẩy có thêm tạ",
+      "steps": [
+        "Đặt chắc hai bàn tay trên đất, ngay dưới vai. Đặt bánh tạ trên lưng.",
+        "Giữ lưng phẳng để toàn thân thẳng và từ từ hạ người.",
+        "Kéo bả vai về sau và xuống, giữ khuỷu tay khép gần thân.",
+        "Thở ra khi đẩy người về vị trí ban đầu."
+      ],
+      "exercise_id": "f53955a5-eebb-41bf-a02d-8d7430293e49"
+    },
+    {
+      "index": 162,
+      "sourceName": "Weighted Wall Sit",
+      "name": "Ngồi tựa tường có thêm tạ",
+      "steps": [
+        "Áp lưng vào tường, hai chân rộng bằng vai, giữ tạ hai bên thân.",
+        "Hạ vào tư thế squat, đùi song song với sàn, đầu gối trên cổ chân.",
+        "Giữ tư thế, duy trì lực căng ở cơ bụng và chân."
+      ],
+      "exercise_id": "284ce22b-608a-468f-a5b8-cb7ab9791a37"
+    },
+    {
+      "index": 163,
+      "sourceName": "Medicine Ball Ball Offset Squat",
+      "name": "Squat với bóng tạ giữ lệch một bên",
+      "steps": [
+        "Giữ bóng tạ tại một vai, hai chân rộng bằng vai.",
+        "Squat xuống, giữ bóng cùng một bên trong suốt chuyển động.",
+        "Đứng lên, siết cơ mông. Lặp lại ở bên kia."
+      ],
+      "exercise_id": "0e95d432-dc11-4211-9007-6943ccf1e084"
+    },
+    {
+      "index": 164,
+      "sourceName": "Medicine Ball Chest Press Partner Toss",
+      "name": "Đẩy chuyền bóng tạ trước ngực với bạn tập",
+      "steps": [
+        "Đứng thẳng, bạn tập tung bóng tạ về ngực.",
+        "Bắt bóng rồi đẩy chuyền lại cho bạn tập. Lặp lại."
+      ],
+      "exercise_id": "be22b754-7be6-4e2a-aabc-7b6cf2b29663"
+    },
+    {
+      "index": 165,
+      "sourceName": "Medicine Ball Chest Press Slam",
+      "name": "Đẩy ném bóng tạ xuống đất từ ngực",
+      "steps": [
+        "Giữ bóng tạ trước ngực, hai chân rộng bằng vai.",
+        "Duỗi tay về trước, ném mạnh bóng xuống đất.",
+        "Bắt bóng nảy lên rồi lặp lại theo số lần tập."
+      ],
+      "exercise_id": "811b935c-f5dd-430d-8943-40bb3f12d464"
+    },
+    {
+      "index": 166,
+      "sourceName": "Medicine Ball Chest Press Toss",
+      "name": "Đẩy ném bóng tạ trước ngực vào tường",
+      "steps": [
+        "Đứng trước tường, giữ bóng tạ.",
+        "Đẩy bóng về trước, duỗi tay và tung bóng.",
+        "Bắt bóng và trở về vị trí ban đầu."
+      ],
+      "exercise_id": "eb8244f8-eab2-4580-9bd2-73b54aa82663"
+    },
+    {
+      "index": 167,
+      "sourceName": "Medicine Ball Clean And Press",
+      "name": "Đưa bóng tạ lên ngực và đẩy qua đầu",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, hai tay trên bóng phía trước người.",
+        "Hạ vào tư thế squat rồi bật mạnh lên, đưa bóng lên ngang ngực.",
+        "Đẩy bóng qua đầu đến khi hai tay duỗi, sau đó hạ xuống và lặp lại."
+      ],
+      "exercise_id": "5a47d8b8-ed36-4043-9ac6-7e867ba609f6"
+    },
+    {
+      "index": 168,
+      "sourceName": "Medicine Ball Clean And Press Slam",
+      "name": "Đưa bóng tạ lên vai, đẩy qua đầu và ném xuống",
+      "steps": [
+        "Giữ bóng tạ theo kiểu nắm sấp.",
+        "Nâng bóng mạnh lên đến ngang vai.",
+        "Đẩy bóng qua đầu rồi ném mạnh xuống đất."
+      ],
+      "exercise_id": "72bbaa2a-8329-44bb-9229-678f7b507ee2"
+    },
+    {
+      "index": 169,
+      "sourceName": "Medicine Ball Dead Bug",
+      "name": "Duỗi tay chân đối diện kiểu dead bug với bóng tạ",
+      "steps": [
+        "Nằm ngửa, đặt bóng tạ giữa hai tay duỗi và đầu gối co.",
+        "Hạ tay và chân đối diện về sàn, giữ lưng áp xuống đất và bóng tại chỗ.",
+        "Luân phiên hai bên, duy trì cơ bụng siết và lặp lại theo số lần hoặc thời gian mong muốn."
+      ],
+      "exercise_id": "e8322fb1-e6cc-4cbe-b40c-622a1ad8b799"
+    },
+    {
+      "index": 170,
+      "sourceName": "Medicine Ball Half Kneeling Wood Chopper",
+      "name": "Quỳ một gối xoay bóng tạ kiểu bổ củi",
+      "steps": [
+        "Quỳ một gối, giữ bóng tạ.",
+        "Xoay thân đến khi bóng hướng về phía đối diện.",
+        "Lặp lại động tác ở bên kia."
+      ],
+      "exercise_id": "9face795-e71e-4007-af51-e73803219853"
+    },
+    {
+      "index": 171,
+      "sourceName": "Medicine Ball Halo",
+      "name": "Xoay bóng tạ quanh đầu",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bóng tạ.",
+        "Di chuyển bóng vòng quanh đầu có kiểm soát.",
+        "Hoàn thành số lần mong muốn theo cả hai chiều."
+      ],
+      "exercise_id": "e6546708-5958-4533-9260-338aabaaad88"
+    },
+    {
+      "index": 172,
+      "sourceName": "Medicine Ball Hollow Hold",
+      "name": "Giữ thân cong kiểu hollow hold với bóng tạ",
+      "steps": [
+        "Nằm ngửa, giữ bóng tạ phía trên đầu.",
+        "Nâng vai và chân khỏi đất, siết cơ bụng.",
+        "Giữ tư thế và duy trì ổn định."
+      ],
+      "exercise_id": "a96ba7a3-f4b9-4d97-980d-e812985c3f4f"
+    },
+    {
+      "index": 173,
+      "sourceName": "Medicine Ball Kneeling Wood Chopper",
+      "name": "Quỳ ném bóng tạ chéo xuống kiểu bổ củi",
+      "steps": [
+        "Quỳ gối, giữ bóng tạ.",
+        "Xoay thân và ném mạnh bóng chéo xuống, qua người.",
+        "Lặp lại động tác ở bên kia."
+      ],
+      "exercise_id": "6bee9709-8809-4efc-acbd-e22ba45e8d23"
+    },
+    {
+      "index": 174,
+      "sourceName": "Medicine Ball Lateral Lunge Slam",
+      "name": "Chùng chân sang ngang kết hợp ném bóng tạ xuống",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bóng tạ.",
+        "Bước sang bên vào tư thế chùng chân rồi ném mạnh bóng xuống.",
+        "Trở về vị trí ban đầu và lặp lại ở bên kia."
+      ],
+      "exercise_id": "6269b766-7a67-455a-bb07-f612d5458f51"
+    },
+    {
+      "index": 175,
+      "sourceName": "Medicine Ball Overhead Reverse Lunge",
+      "name": "Chùng chân lùi với bóng tạ giữ trên đầu",
+      "steps": [
+        "Giữ bóng tạ trên đầu.",
+        "Bước lùi vào tư thế chùng chân.",
+        "Trở về vị trí ban đầu. Lặp lại với chân còn lại."
+      ],
+      "exercise_id": "18a1dff2-09fb-4430-a193-7db7e195735c"
+    },
+    {
+      "index": 176,
+      "sourceName": "Medicine Ball Overhead Squat",
+      "name": "Squat với bóng tạ giữ trên đầu",
+      "steps": [
+        "Giữ bóng tạ trên đầu.",
+        "Squat xuống, giữ lưng thẳng.",
+        "Đứng lên. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "93c05a09-c6eb-421d-9c83-e1e87b413f52"
+    },
+    {
+      "index": 178,
+      "sourceName": "Medicine Ball Partner Situp Toss",
+      "name": "Gập bụng ngồi dậy chuyền bóng tạ với bạn tập",
+      "steps": [
+        "Nằm hướng về bạn tập, đầu gối co.",
+        "Ngồi dậy và tung bóng tạ cho bạn tập.",
+        "Bắt bóng rồi hạ xuống. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "e45c5d8c-9e35-40b7-b2bc-cfb10ce2b4a0"
+    },
+    {
+      "index": 179,
+      "sourceName": "Medicine Ball Plank",
+      "name": "Plank cẳng tay trên bóng tạ",
+      "steps": [
+        "Đặt cẳng tay lên bóng tạ, duỗi hai chân.",
+        "Giữ cơ thể thẳng trong thời gian mong muốn."
+      ],
+      "exercise_id": "37ac4862-a13f-4b29-92cb-c7bfa249056f"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 123,
+      "sourceName": "Plate Lateral Raise",
+      "reason": "The source explicitly says two plates in each hand; verify intended load quantity.",
+      "exercise_id": "5e581341-2be4-4dd5-91bc-4ce6a3890a74"
+    },
+    {
+      "index": 134,
+      "sourceName": "Plate Reverse Lunge",
+      "reason": "The backward leg thigh and supporting knee references conflict; verify the leg cue.",
+      "exercise_id": "28e888f8-2dba-4bf2-91e5-ad4fcbb9a2b6"
+    },
+    {
+      "index": 135,
+      "sourceName": "Plate Russian Twist",
+      "reason": "The source contains only bodyweight twist instructions and omits how the plate is held; verify load setup.",
+      "exercise_id": "9d621ff9-86fa-4c12-a454-a57bb829b92c"
+    },
+    {
+      "index": 137,
+      "sourceName": "Plate Single Leg Pinch Grip Deadlift",
+      "reason": "The source has a corrupted raised-leg reference and unclear foot return relative to the lift; verify the limb cue.",
+      "exercise_id": "365a565e-071e-4c31-866d-11c356dcd915"
+    },
+    {
+      "index": 146,
+      "sourceName": "Plate Staggered Waiters Bow",
+      "reason": "The source specifies bracing against a bar but omits plate placement; verify load setup.",
+      "exercise_id": "eeea366a-c885-4a83-b819-46e04daa94d6"
+    },
+    {
+      "index": 158,
+      "sourceName": "Weighted Knee Push Ups",
+      "reason": "The source contains knee pushup instructions without placement of the added weight; verify load setup.",
+      "exercise_id": "44233008-622d-462c-9e7e-13dc6de91e78"
+    },
+    {
+      "index": 177,
+      "sourceName": "Medicine Ball Partner Side Toss",
+      "reason": "The setup simultaneously says facing the partner and side by side; verify orientation.",
+      "exercise_id": "f0f0397a-da6c-466d-9dd7-f28db52fe91a"
+    },
+    {
+      "index": 180,
+      "sourceName": "Medicine Ball Press Jack",
+      "reason": "The source has a jump and overhead press but no jack-specific leg opening/closing cue; verify the variant.",
+      "exercise_id": "3282f40b-df10-48c1-b38c-c5342300b511"
+    }
+  ]
+}

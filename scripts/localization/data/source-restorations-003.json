@@ -1,0 +1,868 @@
+{
+  "version": 1,
+  "kind": "difficulty-metadata-cleanup",
+  "reviewStatus": "reviewed",
+  "databaseStatus": "applied-and-verified",
+  "reviewedAt": "2026-10-23T04:33:17.421Z",
+  "sourceHashBefore": "c85fba7bcc50f328caa03845d35695238add1ae770f16a18a32eb30637290f26",
+  "reviewMethod": "Exact captured DOM numbered instructions; remove only the unnumbered difficulty label in both locales. Preserve all retained words and existing approval history.",
+  "restorations": [
+    {
+      "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033",
+      "source_id": 205350103074314,
+      "expected_updated_at": "2026-10-14T10:47:26.766369+00:00",
+      "before_hash": "0cc7c1484ac78fd45a0077238d9e585ed538d6187e27a913ac7acf6d610a5355",
+      "after_hash": "9fc141276d7c1826b6926a5ce1096b9d7e520508a26b6f94d1671852141b4e6d",
+      "before": {
+        "name": "Vajrasana Variation 1",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "after": {
+        "name": "Vajrasana Variation 1",
+        "description": "",
+        "steps": [
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033",
+        "locale": "vi",
+        "name": "Tư thế kim cương Vajrasana biến thể 1",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt lòng bàn tay úp trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "0cc7c1484ac78fd45a0077238d9e585ed538d6187e27a913ac7acf6d610a5355",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229+00:00",
+        "created_at": "2026-10-23T00:59:44.546479+00:00",
+        "updated_at": "2026-10-23T00:59:44.546479+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033",
+        "locale": "vi",
+        "name": "Tư thế kim cương Vajrasana biến thể 1",
+        "description": "",
+        "steps": [
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt lòng bàn tay úp trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "9fc141276d7c1826b6926a5ce1096b9d7e520508a26b6f94d1671852141b4e6d",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T00:59:44.546479+00:00",
+        "updated_at": "2026-10-23T00:59:44.546479+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "0cc7c1484ac78fd45a0077238d9e585ed538d6187e27a913ac7acf6d610a5355",
+        "name": "Tư thế kim cương Vajrasana biến thể 1",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt lòng bàn tay úp trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229Z",
+        "source": {
+          "name": "Vajrasana Variation 1",
+          "description": "",
+          "steps": [
+            "Beginner",
+            "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+            "Sit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.",
+            "Relax your shoulders and take deep breaths.",
+            "Hold the pose for several breaths or as long as is comfortable."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-forearms-yoga.checkpoint.json",
+        "pointer": "/candidates/3",
+        "sourceUrl": "https://musclewiki.com/exercise/vajrasana-variation-1",
+        "cardText": "Vajrasana Variation 1\nBeginner\n1\nBegin in a kneeling position with your knees together and your shins and feet on the floor.\n2\nSit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.\n3\nRelax your shoulders and take deep breaths.\n4\nHold the pose for several breaths or as long as is comfortable.",
+        "steps": [
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ],
+        "warnings": [],
+        "sha256": "1a31175f52307957799c14d263c3e3ee05b1443801042342ef9fcbc991f517ed"
+      }
+    },
+    {
+      "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9",
+      "source_id": 58122968730966,
+      "expected_updated_at": "2026-10-14T10:46:56.580389+00:00",
+      "before_hash": "b92df305f5c67601f808e11ccee50a3a05b7eb48c0ab30e309b388ecce028adb",
+      "after_hash": "67e4220718acba7df66624c63aa48108c1bf2a165d0caca7dabd01d2d3a104dc",
+      "before": {
+        "name": "Vajrasana Variation 2",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "after": {
+        "name": "Vajrasana Variation 2",
+        "description": "",
+        "steps": [
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9",
+        "locale": "vi",
+        "name": "Tư thế kim cương Vajrasana biến thể 2",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt mu bàn tay trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "b92df305f5c67601f808e11ccee50a3a05b7eb48c0ab30e309b388ecce028adb",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229+00:00",
+        "created_at": "2026-10-23T00:59:44.753998+00:00",
+        "updated_at": "2026-10-23T00:59:44.753998+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9",
+        "locale": "vi",
+        "name": "Tư thế kim cương Vajrasana biến thể 2",
+        "description": "",
+        "steps": [
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt mu bàn tay trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "67e4220718acba7df66624c63aa48108c1bf2a165d0caca7dabd01d2d3a104dc",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T00:59:44.753998+00:00",
+        "updated_at": "2026-10-23T00:59:44.753998+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "b92df305f5c67601f808e11ccee50a3a05b7eb48c0ab30e309b388ecce028adb",
+        "name": "Tư thế kim cương Vajrasana biến thể 2",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+          "Ngồi về gót chân, đặt mu bàn tay trên đùi với các ngón hướng về đầu gối.",
+          "Thả lỏng vai và thở sâu.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229Z",
+        "source": {
+          "name": "Vajrasana Variation 2",
+          "description": "",
+          "steps": [
+            "Beginner",
+            "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+            "Sit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.",
+            "Relax your shoulders and take deep breaths.",
+            "Hold the pose for several breaths or as long as is comfortable."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-forearms-yoga.checkpoint.json",
+        "pointer": "/candidates/4",
+        "sourceUrl": "https://musclewiki.com/exercise/vajrasana-Variation-2",
+        "cardText": "Vajrasana Variation 2\nBeginner\n1\nBegin in a kneeling position with your knees together and your shins and feet on the floor.\n2\nSit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.\n3\nRelax your shoulders and take deep breaths.\n4\nHold the pose for several breaths or as long as is comfortable.",
+        "steps": [
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ],
+        "warnings": [],
+        "sha256": "1a31175f52307957799c14d263c3e3ee05b1443801042342ef9fcbc991f517ed"
+      }
+    },
+    {
+      "exercise_id": "81f96125-adaf-453f-8bd4-2cf00f1a1fed",
+      "source_id": 200993322921583,
+      "expected_updated_at": "2026-10-14T10:47:26.027927+00:00",
+      "before_hash": "aaf3d5d10b214b56ccb9e142add2754bec4a2e9090776d63ebf60e75128540af",
+      "after_hash": "24a5f6c7ec7464f771a48ee468445db89eede705022872f396b14ef477541888",
+      "before": {
+        "name": "Midback Series 3",
+        "description": "",
+        "steps": [
+          "Novice",
+          "Sit or lie supported, spine long, arms positioned in a v-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "after": {
+        "name": "Midback Series 3",
+        "description": "",
+        "steps": [
+          "Sit or lie supported, spine long, arms positioned in a v-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "81f96125-adaf-453f-8bd4-2cf00f1a1fed",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 3 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ V.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "aaf3d5d10b214b56ccb9e142add2754bec4a2e9090776d63ebf60e75128540af",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629+00:00",
+        "created_at": "2026-10-23T01:02:28.640592+00:00",
+        "updated_at": "2026-10-23T01:02:28.640592+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "81f96125-adaf-453f-8bd4-2cf00f1a1fed",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 3 trong Pilates",
+        "description": "",
+        "steps": [
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ V.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "24a5f6c7ec7464f771a48ee468445db89eede705022872f396b14ef477541888",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T01:02:28.640592+00:00",
+        "updated_at": "2026-10-23T01:02:28.640592+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "81f96125-adaf-453f-8bd4-2cf00f1a1fed",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "aaf3d5d10b214b56ccb9e142add2754bec4a2e9090776d63ebf60e75128540af",
+        "name": "Chuỗi bài lưng giữa 3 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ V.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629Z",
+        "source": {
+          "name": "Midback Series 3",
+          "description": "",
+          "steps": [
+            "Novice",
+            "Sit or lie supported, spine long, arms positioned in a v-pose.",
+            "Initiate movement by drawing shoulder blades together and down.",
+            "Move arms down to your sides, keeping neck relaxed and ribs down.",
+            "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-lats-pilates.checkpoint.json",
+        "pointer": "/candidates/5",
+        "sourceUrl": "https://musclewiki.com/exercise/pilates-midback-series-3",
+        "cardText": "Midback Series 3\nNovice\n1\nSit or lie supported, spine long, arms positioned in a v-pose.\n2\nInitiate movement by drawing shoulder blades together and down.\n3\nMove arms down to your sides, keeping neck relaxed and ribs down.\n4\nMaintain control throughout, emphasizing mid-back engagement over arm dominance.",
+        "steps": [
+          "Sit or lie supported, spine long, arms positioned in a v-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ],
+        "warnings": [],
+        "sha256": "a3a35219928abce1d2ca4861ce6dcb0495c8ce37b6a8490a2fd1375cf024a9f8"
+      }
+    },
+    {
+      "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45",
+      "source_id": 241481264476397,
+      "expected_updated_at": "2026-10-14T10:47:34.246306+00:00",
+      "before_hash": "eadb3b7eeec1eb19983b0bda07df0092127c09809dc7605f410ead25b2b2f05a",
+      "after_hash": "8701be1688574c89f978c261bfcc2b8cf95398f9e7d4e3ee831d48a81093a5d9",
+      "before": {
+        "name": "Table Top Pose Variation 1",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "after": {
+        "name": "Table Top Pose Variation 1",
+        "description": "",
+        "steps": [
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45",
+        "locale": "vi",
+        "name": "Tư thế cái bàn biến thể 1",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng sang hai cạnh thảm và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "eadb3b7eeec1eb19983b0bda07df0092127c09809dc7605f410ead25b2b2f05a",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229+00:00",
+        "created_at": "2026-10-23T00:59:43.532243+00:00",
+        "updated_at": "2026-10-23T00:59:43.532243+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45",
+        "locale": "vi",
+        "name": "Tư thế cái bàn biến thể 1",
+        "description": "",
+        "steps": [
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng sang hai cạnh thảm và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "8701be1688574c89f978c261bfcc2b8cf95398f9e7d4e3ee831d48a81093a5d9",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T00:59:43.532243+00:00",
+        "updated_at": "2026-10-23T00:59:43.532243+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "eadb3b7eeec1eb19983b0bda07df0092127c09809dc7605f410ead25b2b2f05a",
+        "name": "Tư thế cái bàn biến thể 1",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng sang hai cạnh thảm và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229Z",
+        "source": {
+          "name": "Table Top Pose Variation 1",
+          "description": "",
+          "steps": [
+            "Beginner",
+            "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+            "Turn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.",
+            "Keep your arms straight and your shoulders away from your ears.",
+            "Hold the pose for several breaths or as long as is comfortable."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-forearms-yoga.checkpoint.json",
+        "pointer": "/candidates/0",
+        "sourceUrl": "https://musclewiki.com/exercise/table-top-pose-variation-1",
+        "cardText": "Table Top Pose Variation 1\nBeginner\n1\nStart in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.\n2\nTurn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.\n3\nKeep your arms straight and your shoulders away from your ears.\n4\nHold the pose for several breaths or as long as is comfortable.",
+        "steps": [
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ],
+        "warnings": [],
+        "sha256": "1a31175f52307957799c14d263c3e3ee05b1443801042342ef9fcbc991f517ed"
+      }
+    },
+    {
+      "exercise_id": "d0d3e5a2-4b2f-4ba8-b6fa-0d875c8fec76",
+      "source_id": 270414613566827,
+      "expected_updated_at": "2026-10-14T10:47:40.040974+00:00",
+      "before_hash": "270b7a653033e3fb715ecbb7371fbe006469a184b0db9c8acdc177d1259eeca0",
+      "after_hash": "3c8c5fb0ccd1f12f69d41e140196fb2d7a57c954c7db6b61d4c1b80c32c66d29",
+      "before": {
+        "name": "Midback Series 2",
+        "description": "",
+        "steps": [
+          "Novice",
+          "Sit or lie supported, spine long, arms positioned in a t-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "after": {
+        "name": "Midback Series 2",
+        "description": "",
+        "steps": [
+          "Sit or lie supported, spine long, arms positioned in a t-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "d0d3e5a2-4b2f-4ba8-b6fa-0d875c8fec76",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 2 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ T.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "270b7a653033e3fb715ecbb7371fbe006469a184b0db9c8acdc177d1259eeca0",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629+00:00",
+        "created_at": "2026-10-23T01:02:28.43441+00:00",
+        "updated_at": "2026-10-23T01:02:28.43441+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "d0d3e5a2-4b2f-4ba8-b6fa-0d875c8fec76",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 2 trong Pilates",
+        "description": "",
+        "steps": [
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ T.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "3c8c5fb0ccd1f12f69d41e140196fb2d7a57c954c7db6b61d4c1b80c32c66d29",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T01:02:28.43441+00:00",
+        "updated_at": "2026-10-23T01:02:28.43441+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "d0d3e5a2-4b2f-4ba8-b6fa-0d875c8fec76",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "270b7a653033e3fb715ecbb7371fbe006469a184b0db9c8acdc177d1259eeca0",
+        "name": "Chuỗi bài lưng giữa 2 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ T.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629Z",
+        "source": {
+          "name": "Midback Series 2",
+          "description": "",
+          "steps": [
+            "Novice",
+            "Sit or lie supported, spine long, arms positioned in a t-pose.",
+            "Initiate movement by drawing shoulder blades together and down.",
+            "Move arms down to your sides, keeping neck relaxed and ribs down.",
+            "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-lats-pilates.checkpoint.json",
+        "pointer": "/candidates/4",
+        "sourceUrl": "https://musclewiki.com/exercise/pilates-midback-series-2",
+        "cardText": "Midback Series 2\nNovice\n1\nSit or lie supported, spine long, arms positioned in a t-pose.\n2\nInitiate movement by drawing shoulder blades together and down.\n3\nMove arms down to your sides, keeping neck relaxed and ribs down.\n4\nMaintain control throughout, emphasizing mid-back engagement over arm dominance.",
+        "steps": [
+          "Sit or lie supported, spine long, arms positioned in a t-pose.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down to your sides, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ],
+        "warnings": [],
+        "sha256": "a3a35219928abce1d2ca4861ce6dcb0495c8ce37b6a8490a2fd1375cf024a9f8"
+      }
+    },
+    {
+      "exercise_id": "e0811330-ece7-48f5-8ecf-3e8e57fd4f35",
+      "source_id": 74501225854111,
+      "expected_updated_at": "2026-10-14T10:47:00.040512+00:00",
+      "before_hash": "ee79586da0de6c1e2d839092f31351838b2decd04f611ac5c2bdc814dda82ee6",
+      "after_hash": "49ae699d64c941f3c67226a2c1f3cdcdce2d3a652d8987ee401db960fd2c8be8",
+      "before": {
+        "name": "Midback Series 1",
+        "description": "",
+        "steps": [
+          "Novice",
+          "Lie supported, spine long, arms straight up toward ceiling.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down towards your side, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "after": {
+        "name": "Midback Series 1",
+        "description": "",
+        "steps": [
+          "Lie supported, spine long, arms straight up toward ceiling.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down towards your side, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "e0811330-ece7-48f5-8ecf-3e8e57fd4f35",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 1 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Nằm có điểm đỡ, giữ cột sống dài và hai tay thẳng lên trần.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "ee79586da0de6c1e2d839092f31351838b2decd04f611ac5c2bdc814dda82ee6",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629+00:00",
+        "created_at": "2026-10-23T01:02:28.220152+00:00",
+        "updated_at": "2026-10-23T01:02:28.220152+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "e0811330-ece7-48f5-8ecf-3e8e57fd4f35",
+        "locale": "vi",
+        "name": "Chuỗi bài lưng giữa 1 trong Pilates",
+        "description": "",
+        "steps": [
+          "Nằm có điểm đỡ, giữ cột sống dài và hai tay thẳng lên trần.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "source_locale": "en",
+        "source_hash": "49ae699d64c941f3c67226a2c1f3cdcdce2d3a652d8987ee401db960fd2c8be8",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T01:02:28.220152+00:00",
+        "updated_at": "2026-10-23T01:02:28.220152+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "e0811330-ece7-48f5-8ecf-3e8e57fd4f35",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "ee79586da0de6c1e2d839092f31351838b2decd04f611ac5c2bdc814dda82ee6",
+        "name": "Chuỗi bài lưng giữa 1 trong Pilates",
+        "description": "",
+        "steps": [
+          "Cơ bản.",
+          "Nằm có điểm đỡ, giữ cột sống dài và hai tay thẳng lên trần.",
+          "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+          "Đưa tay xuống bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+          "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T01:00:00.629Z",
+        "source": {
+          "name": "Midback Series 1",
+          "description": "",
+          "steps": [
+            "Novice",
+            "Lie supported, spine long, arms straight up toward ceiling.",
+            "Initiate movement by drawing shoulder blades together and down.",
+            "Move arms down towards your side, keeping neck relaxed and ribs down.",
+            "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-lats-pilates.checkpoint.json",
+        "pointer": "/candidates/6",
+        "sourceUrl": "https://musclewiki.com/exercise/pilates-midback-series-1",
+        "cardText": "Midback Series 1\nNovice\n1\nLie supported, spine long, arms straight up toward ceiling.\n2\nInitiate movement by drawing shoulder blades together and down.\n3\nMove arms down towards your side, keeping neck relaxed and ribs down.\n4\nMaintain control throughout, emphasizing mid-back engagement over arm dominance.",
+        "steps": [
+          "Lie supported, spine long, arms straight up toward ceiling.",
+          "Initiate movement by drawing shoulder blades together and down.",
+          "Move arms down towards your side, keeping neck relaxed and ribs down.",
+          "Maintain control throughout, emphasizing mid-back engagement over arm dominance."
+        ],
+        "warnings": [],
+        "sha256": "a3a35219928abce1d2ca4861ce6dcb0495c8ce37b6a8490a2fd1375cf024a9f8"
+      }
+    },
+    {
+      "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2",
+      "source_id": 244545930930386,
+      "expected_updated_at": "2026-10-14T10:47:35.003673+00:00",
+      "before_hash": "a937e5ec569de2c9e40a9aeeafcc394355ad03bc5d5f0816d93f2ac97da6c2f6",
+      "after_hash": "df910fae90047042e95b3fec1a571b5ea481ab53aa9d93750e2e00550cffafc6",
+      "before": {
+        "name": "Table Top Pose Variation 2",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "after": {
+        "name": "Table Top Pose Variation 2",
+        "description": "",
+        "steps": [
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2",
+        "locale": "vi",
+        "name": "Tư thế cái bàn biến thể 2",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng về đầu gối và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "a937e5ec569de2c9e40a9aeeafcc394355ad03bc5d5f0816d93f2ac97da6c2f6",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229+00:00",
+        "created_at": "2026-10-23T00:59:43.733211+00:00",
+        "updated_at": "2026-10-23T00:59:43.733211+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2",
+        "locale": "vi",
+        "name": "Tư thế cái bàn biến thể 2",
+        "description": "",
+        "steps": [
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng về đầu gối và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "source_locale": "en",
+        "source_hash": "df910fae90047042e95b3fec1a571b5ea481ab53aa9d93750e2e00550cffafc6",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T00:59:43.733211+00:00",
+        "updated_at": "2026-10-23T00:59:43.733211+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "a937e5ec569de2c9e40a9aeeafcc394355ad03bc5d5f0816d93f2ac97da6c2f6",
+        "name": "Tư thế cái bàn biến thể 2",
+        "description": "",
+        "steps": [
+          "Người mới bắt đầu.",
+          "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+          "Xoay tay để ngón tay hướng về đầu gối và mu bàn tay đặt trên sàn.",
+          "Giữ tay thẳng, vai xa tai.",
+          "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:56:38.229Z",
+        "source": {
+          "name": "Table Top Pose Variation 2",
+          "description": "",
+          "steps": [
+            "Beginner",
+            "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+            "Turn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.",
+            "Keep your arms straight and your shoulders away from your ears.",
+            "Hold the pose for several breaths or as long as is comfortable."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-forearms-yoga.checkpoint.json",
+        "pointer": "/candidates/1",
+        "sourceUrl": "https://musclewiki.com/exercise/table-top-pose-variation-2",
+        "cardText": "Table Top Pose Variation 2\nBeginner\n1\nStart in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.\n2\nTurn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.\n3\nKeep your arms straight and your shoulders away from your ears.\n4\nHold the pose for several breaths or as long as is comfortable.",
+        "steps": [
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ],
+        "warnings": [],
+        "sha256": "1a31175f52307957799c14d263c3e3ee05b1443801042342ef9fcbc991f517ed"
+      }
+    },
+    {
+      "exercise_id": "f3edc777-f7bd-4829-8bc0-9d54c983a870",
+      "source_id": 166504035439885,
+      "expected_updated_at": "2026-10-14T10:47:19.180317+00:00",
+      "before_hash": "95a48163822276deb5ff4909ddfd97c9e9a548ccd39e808011430cc80daedf6b",
+      "after_hash": "34ff67453f3c615807be07947c8f020a6c6f9a7f94c0601e3485ef9df00e9a05",
+      "before": {
+        "name": "Single Leg Slider Hamstring Curl 2",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Lie on your back with bent knees and heels on a slider.",
+          "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+          "Press the heels into the ground to raise your hips off it.",
+          "Extend and bend the working leg."
+        ]
+      },
+      "after": {
+        "name": "Single Leg Slider Hamstring Curl 2",
+        "description": "",
+        "steps": [
+          "Lie on your back with bent knees and heels on a slider.",
+          "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+          "Press the heels into the ground to raise your hips off it.",
+          "Extend and bend the working leg."
+        ]
+      },
+      "before_translation": {
+        "exercise_id": "f3edc777-f7bd-4829-8bc0-9d54c983a870",
+        "locale": "vi",
+        "name": "Gập gối một chân tập đùi sau với đĩa trượt, biến thể 2",
+        "description": "",
+        "steps": [
+          "Mới bắt đầu.",
+          "Nằm ngửa, đầu gối co, gót chân trên đĩa trượt.",
+          "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+          "Ấn gót chân xuống đất để nâng hông khỏi đất.",
+          "Duỗi và gập chân đang tập."
+        ],
+        "source_locale": "en",
+        "source_hash": "95a48163822276deb5ff4909ddfd97c9e9a548ccd39e808011430cc80daedf6b",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:13:54.754+00:00",
+        "created_at": "2026-10-23T00:14:38.864844+00:00",
+        "updated_at": "2026-10-23T00:14:38.864844+00:00"
+      },
+      "after_translation": {
+        "exercise_id": "f3edc777-f7bd-4829-8bc0-9d54c983a870",
+        "locale": "vi",
+        "name": "Gập gối một chân tập đùi sau với đĩa trượt, biến thể 2",
+        "description": "",
+        "steps": [
+          "Nằm ngửa, đầu gối co, gót chân trên đĩa trượt.",
+          "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+          "Ấn gót chân xuống đất để nâng hông khỏi đất.",
+          "Duỗi và gập chân đang tập."
+        ],
+        "source_locale": "en",
+        "source_hash": "34ff67453f3c615807be07947c8f020a6c6f9a7f94c0601e3485ef9df00e9a05",
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T04:33:17.421Z",
+        "created_at": "2026-10-23T00:14:38.864844+00:00",
+        "updated_at": "2026-10-23T00:14:38.864844+00:00"
+      },
+      "previous_approval": {
+        "exercise_id": "f3edc777-f7bd-4829-8bc0-9d54c983a870",
+        "locale": "vi",
+        "source_locale": "en",
+        "source_hash": "95a48163822276deb5ff4909ddfd97c9e9a548ccd39e808011430cc80daedf6b",
+        "name": "Gập gối một chân tập đùi sau với đĩa trượt, biến thể 2",
+        "description": "",
+        "steps": [
+          "Mới bắt đầu.",
+          "Nằm ngửa, đầu gối co, gót chân trên đĩa trượt.",
+          "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+          "Ấn gót chân xuống đất để nâng hông khỏi đất.",
+          "Duỗi và gập chân đang tập."
+        ],
+        "translation_status": "reviewed",
+        "reviewed_at": "2026-10-23T00:13:54.754Z",
+        "source": {
+          "name": "Single Leg Slider Hamstring Curl 2",
+          "description": "",
+          "steps": [
+            "Beginner",
+            "Lie on your back with bent knees and heels on a slider.",
+            "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+            "Press the heels into the ground to raise your hips off it.",
+            "Extend and bend the working leg."
+          ]
+        }
+      },
+      "evidence": {
+        "file": "scripts/migration/data/musclewiki-bodyweight-transfer.json",
+        "pointer": "/hamstrings/pages/2/exercises/0",
+        "sourceUrl": "https://musclewiki.com/exercise/hamstring-curl-2-supine-single-leg-slider",
+        "cardText": "Single Leg Slider Hamstring Curl 2\nBeginner\n1\nLie on your back with bent knees and heels on a slider.\n2\nPerform a posterior pelvic tilt (flatten your lower back on the ground).\n3\nPress the heels into the ground to raise your hips off it.\n4\nExtend and bend the working leg.",
+        "steps": [
+          "Lie on your back with bent knees and heels on a slider.",
+          "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+          "Press the heels into the ground to raise your hips off it.",
+          "Extend and bend the working leg."
+        ],
+        "warnings": [],
+        "sha256": "ad5d5d835a889e30394cde2dfc1b545cddeba5380758833c8c4273dedc780d00"
+      }
+    }
+  ],
+  "databaseVerifiedAt": "2026-10-23T04:35:58.364Z"
+}

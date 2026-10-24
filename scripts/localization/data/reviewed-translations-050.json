@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese wording was checked against the corrected English source and complete male/female video cycles; step count and sequence are preserved.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "06144a01-a685-456d-a1be-ebbb1f1c9192",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3eb3102e8b58eda5768f743920b704f253864ce82394b9d509ebf00a2f950416",
+      "name": "Cuộn hông",
+      "description": "",
+      "steps": [
+        "Nằm ngửa trên máy Reformer, gập gối, đặt hai bàn chân rộng bằng hông và thả lỏng hai tay dọc theo thân người.",
+        "Hít vào để chuẩn bị, thở ra và nghiêng xương chậu về phía sau.",
+        "Cuộn cột sống lên từng đốt một để nâng hông thành tư thế cây cầu.",
+        "Giữ hông nâng lên, đạp chân đến khi gần duỗi thẳng, sau đó gập gối để đưa bàn trượt về vị trí ban đầu.",
+        "Sau đó cuộn cột sống xuống từng đốt một cho đến khi lưng áp phẳng lên bàn trượt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T11:18:05.848Z",
+      "source": {
+        "name": "Hip Rolls",
+        "description": "",
+        "steps": [
+          "Lie supine with knees bent, feet hip-width, arms relaxed by sides.",
+          "Inhale to prepare, exhale and posteriorly tilt pelvis.",
+          "Roll spine up one vertebra at a time into bridge.",
+          "Press through your legs until they are nearly extended, then bend your knees to return the carriage to its starting position while keeping your hips lifted.",
+          "Then begin rolling your spine downward until your back is flat against the carriage."
+        ]
+      }
+    }
+  ]
+}

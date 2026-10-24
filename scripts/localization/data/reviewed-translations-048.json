@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese steps were checked against the corrected English sources and preserve the corrected step count.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "16b32320-269a-4c51-b8ce-1b9b8693c4a6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7ce8b324122b65fd61a18222bbbd58610804c95799c4c4fd8422bf399d05a969",
+      "name": "Tư thế mặt bàn biến thể 3",
+      "description": "",
+      "steps": [
+        "Chống hai tay và quỳ trên thảm, đặt cổ tay ngay dưới vai và đầu gối dưới hông.",
+        "Xoay hai bàn tay để các đầu ngón tay hướng về phía đầu gối, đồng thời xòe rộng các ngón tay.",
+        "Ấn lòng bàn tay xuống thảm và duỗi thẳng hai cánh tay, giữ vai tránh nhún lên sát tai.",
+        "Giữ tư thế trong vài nhịp thở, sau đó đưa hai bàn tay về vị trí chống bàn trung tính để thả lỏng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T10:32:37.491Z",
+      "source": {
+        "name": "Table Top Pose Variation 3",
+        "description": "",
+        "steps": [
+          "Come onto your hands and knees on the mat with your wrists directly under your shoulders and your knees under your hips.",
+          "Turn your palms so your fingertips point toward your knees, and spread your fingers wide.",
+          "Press into your palms and extend your arms fully to lift your shoulders away from your ears.",
+          "Hold the pose for a few breaths, then return your hands to the neutral tabletop position to release."
+        ]
+      }
+    },
+    {
+      "exercise_id": "baef22eb-8454-46cd-9639-4fce2c76545a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9d3924b908994844a6549689d189b3b06484f098d232b711a5ff4a6dc00fa31c",
+      "name": "Tư thế trăng lưỡi liềm kéo giãn cơ tứ đầu đùi",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế Chùng chân trăng lưỡi liềm, đặt chân phải phía trước và để khối kê ở gần nếu cần hỗ trợ.",
+        "Gập gối trái, đưa tay trái ra sau để nắm bàn chân hoặc cổ chân trái.",
+        "Nhẹ nhàng kéo gót chân trái về phía mông để kéo giãn cơ tứ đầu đùi trái.",
+        "Dùng tay còn lại tựa lên đùi trước hoặc khối kê để giữ thăng bằng. Giữ vài nhịp thở, sau đó thả ra và lặp lại ở bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T10:32:37.491Z",
+      "source": {
+        "name": "Crescent Moon Pose Quad Stretch",
+        "description": "",
+        "steps": [
+          "Begin in Crescent Moon Pose with your right foot forward and a block nearby for support if needed.",
+          "Bend your left knee and reach your left hand behind you to hold your left foot or ankle.",
+          "Gently draw your left heel toward your buttock to stretch your left quadriceps.",
+          "Use your free hand on your front thigh or a block to steady yourself. Hold for a few breaths, then release and repeat on the other side."
+        ]
+      }
+    }
+  ]
+}

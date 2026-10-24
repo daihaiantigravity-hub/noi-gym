@@ -1,0 +1,1369 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared full source blocks with Vietnamese wording, retaining band placement, anchor, grip, leg directions, load and step order. Held unclear squat-depth/body reference, anatomical motion, missing row phase and ambiguous support setup.",
+  "sourceExceptions": [
+    {
+      "index": 61,
+      "sourceName": "Band Squat",
+      "reason": "The source mixes shoulder-width grip with standing setup and gives an unclear 'bottom of your leg' parallel-depth reference; verify.",
+      "exercise_id": "df80b49f-2768-4b16-adc6-f5a24f0ee221"
+    },
+    {
+      "index": 64,
+      "sourceName": "Band Standing Chest Press",
+      "reason": "The source asks for shoulder extension across the torso during a chest press; verify the anatomical cue.",
+      "exercise_id": "d09ab5d4-11a7-470f-bdfb-ebde9e49b290"
+    },
+    {
+      "index": 72,
+      "sourceName": "Mini Band Bent Over Row",
+      "reason": "The source includes setup and lowering but no pulling phase; verify missing row instruction.",
+      "exercise_id": "bf20011e-fd35-4fa5-8ebb-10d585dd13a5"
+    },
+    {
+      "index": 109,
+      "sourceName": "Plate Deficit Pushup",
+      "reason": "Both hands are placed on one plate while the source claims extra chest descent; verify number and spacing of supports.",
+      "exercise_id": "f5b86cc6-a245-497d-ac5c-edacddb14500"
+    },
+    {
+      "index": 119,
+      "sourceName": "Plate Hip Abduction",
+      "reason": "Load placement alternates between outer thigh and anchoring between the legs without specifying the attachment; verify support and working leg.",
+      "exercise_id": "6fc94c3a-eada-4f02-9128-13d0003aaf02"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "9a87aea0-83ad-4b74-98c5-8ffd113715e1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "939519ecaa71fb8be847f9050a9416fb41ac5b04c6f06396aef9612c92455ed5",
+      "name": "Giữ squat kết hợp kéo dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Vào tư thế squat nửa biên độ và giữ.",
+        "Thực hiện động tác kéo trong khi giữ tư thế squat."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Squat Hold Row",
+        "description": "",
+        "steps": [
+          "Anchor the band to a stable point.",
+          "Take a half squat position and hold there.",
+          "Perform a row while holding the squat position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a6734bb0-506f-4f50-b677-3cfd6c4e5762",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eeda3a83d37f457ef7d4aea3e1d235bab8eac545bca674156c8681ce1dd6f2a1",
+      "name": "Giữ squat kết hợp kéo dây kháng lực một tay",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn và vào tư thế squat nửa biên độ.",
+        "Một tay giữ vòng dây, kéo khuỷu tay thẳng về sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Squat Hold Single Arm Row",
+        "description": "",
+        "steps": [
+          "Anchor the band to a stable point and take a half squat position.",
+          "Hold the band loop in one hand and pull your elbow straight back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4737298a-6285-493e-b24d-8c0fb6ed5aa2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b139e10ecea861d693fdd5da9862777348b4f237dbde75ca034182b976fd4770",
+      "name": "Đứng gập hông kiểu good morning với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng lên dây, vòng dây quanh lưng trên, hai chân rộng bằng hông.",
+        "Gập hông, giữ lưng phẳng và đầu gối hơi co.",
+        "Siết cơ mông để đứng lên, duy trì lực căng của dây trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Standing Good Morning",
+        "description": "",
+        "steps": [
+          "Stand on band and loop it around upper back, feet hip-width apart.",
+          "Hinge at hips while keeping back flat and slight bend in knees.",
+          "Squeeze glutes to return to standing, maintaining band tension throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ad4c4d69-04a4-44bf-a51f-902880ad4990",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e80eae029d23d0173278a98d98bb734779f8f686e5340cc3b860a53f62e55940",
+      "name": "Duỗi tay sau ra sau với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Gập người về trước tại hông. Duỗi và gập khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Tricep Kickback",
+        "description": "",
+        "steps": [
+          "Anchor the band to a stable point.",
+          "Hinge forward. Extend and flex at the elbow."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8d537ccf-c29b-4d0b-b850-9b4bcb62b4d0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "59ef5e17533085213d2dbec9629b6c12559f7164e08fdf9dfd286cc014e0bec3",
+      "name": "Kéo dây kháng lực dọc thân",
+      "description": "",
+      "steps": [
+        "Đứng một hoặc cả hai bàn chân lên một đầu dây. Hai tay nắm sấp, rộng khoảng bằng vai.",
+        "Kéo khuỷu tay thẳng lên trần. Cố gắng đưa dây đến ngang cằm hoặc hơi cao hơn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Upright Row",
+        "description": "",
+        "steps": [
+          "Stand with one or both feet on one end of a band. Take a double overhand roughly shoulder width grip.",
+          "Pull your elbows straight up the ceiling. Aim to get the band to chin level or slightly higher."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cb3264dd-ba24-48f9-9de5-d9d48e7298b4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "90c7a28d4c96eef977ee2976036cacb56a3ac8f0cec305678ae2e84ff8d47c31",
+      "name": "Kéo dây kháng lực chéo người kiểu bổ củi",
+      "description": "",
+      "steps": [
+        "Neo dây ngang vai. Đứng nghiêng, hai chân rộng bằng vai, đầu gối hơi co.",
+        "Dùng hai tay nắm dây, hai tay duỗi.",
+        "Kéo chéo qua người, đồng thời xoay thân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Band Wood Chopper",
+        "description": "",
+        "steps": [
+          "Anchor band at shoulder height. Stand sideways, feet shoulder-width, slight knee bend.",
+          "Grip band with both hands, arms extended.",
+          "Pull across body, rotating torso."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6900f7a-7a6b-48ec-84e5-1be15c947d61",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "454cd311f6a747c5badf02ba016582712c4fbfefcb80617d50b131381d774a91",
+      "name": "Đi ngang với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đặt dây ngay dưới hoặc trên đầu gối.",
+        "Vào tư thế squat một phần tư biên độ.",
+        "Bước sang hai bên, không để dây chùng nhằm duy trì lực căng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Banded Side Walks",
+        "description": "",
+        "steps": [
+          "Place a band either just below or above your knees.",
+          "Get into a quarter squat position.",
+          "Step side to side without letting there be any slack in the band to keep tension on the band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e3c17966-3e9d-4c1b-9821-eb556d991c8d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6207e432883ed11b0fdbd864fccf558ff467ee927853ae28f6e3e87602edd761",
+      "name": "Plank di chuyển tay vòng tròn với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ tay, giữ tư thế plank cao.",
+        "Đưa một tay về trước, ra ngoài rồi trở lại theo đường tròn.",
+        "Luân phiên hai bên, giữ hông ngang bằng và cơ bụng siết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Around The World Plank",
+        "description": "",
+        "steps": [
+          "Loop band around wrists, hold high plank position.",
+          "Move one hand forward, outward, then back in circular pattern.",
+          "Alternate sides, keeping hips level and core braced."
+        ]
+      }
+    },
+    {
+      "exercise_id": "697e624e-b4bf-4729-8707-9fecf0d71915",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c9581451696e4bf3c3ce6d723ce2c287dced6f882ae30c696ef216ff7a821ebf",
+      "name": "Gập người kéo mini band tập vai sau",
+      "description": "",
+      "steps": [
+        "Đứng lên dây, gập người về trước với cột sống trung tính.",
+        "Kéo khuỷu tay mở rộng sang bên, siết bả vai về sau.",
+        "Từ từ hạ xuống, duy trì tư thế gập người."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Bent Over Rear Delt Row",
+        "description": "",
+        "steps": [
+          "Stand on band, hinge forward with neutral spine.",
+          "Row elbows out wide, squeezing shoulder blades back.",
+          "Lower slowly, maintaining bent-over position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b9f09edc-1477-402a-866f-7976ea3f2b5a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4b210b06c73374fd5f882858a57c8d91438a044651986218e9234225c7248784",
+      "name": "Mở gối nâng hông kiểu vỏ sò với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm nghiêng với đầu gối co.",
+        "Giữ hai bàn chân sát nhau, nâng đầu gối trên lên, ấn đầu gối dưới xuống đất và đẩy hông về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Clamshell Raise",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on side knees bent.",
+          "Keep feet together, lift top knee upward, push bottom knee into ground, and push your hips forward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dc37a0c8-951d-45da-ae72-fb5e82b69710",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2fdbb3b33ac9ff4c10ac12e2c07723fc9c2dd1f31954b7a0c65e2b00db9fe772",
+      "name": "Chạm chân các hướng với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, đứng thẳng trên một chân.",
+        "Chạm chân đối diện về trước, sang bên rồi ra sau.",
+        "Duy trì thăng bằng và hông ổn định trong suốt chuyển động."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Clock Tap",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, stand tall on one leg.",
+          "Tap opposite foot forward, side, then back.",
+          "Maintain balance and hip stability throughout movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8eb17c94-2988-455e-bf5b-c117d0f40b62",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5095ce03ae32e993bd5187079277d9ad369d79a793581a637e34e1411eecea79",
+      "name": "Chống gối mở chân sang bên với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, chống hai tay và hai gối.",
+        "Nâng một đầu gối ra ngoài, giữ hông ngang bằng.",
+        "Từ từ hạ xuống và lặp lại trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Fire Hydrant",
+        "description": "",
+        "steps": [
+          "Loop band above knees, start on hands and knees.",
+          "Lift one knee outward, keeping hips level.",
+          "Lower slowly and repeat before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e50a55f5-25fa-4130-8a45-00bd82c523e9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8562907f8e8d0d5ad0ef2fb5a409eec2d9a2795f452c8a8863bcabf8af587691",
+      "name": "Nâng mông với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm ngửa với gối co.",
+        "Ấn gót chân, nâng hông đến khi duỗi hoàn toàn.",
+        "Từ từ hạ xuống, giữ đầu gối đẩy ra ngoài."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Glute Bridge",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on back knees bent.",
+          "Drive through heels, lift hips until fully extended.",
+          "Lower slowly, keeping knees pressed outward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f0b33c6f-af31-4111-b354-ca1327d41e8b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "773eca4872e3d7a0103d2f3c47adad9098730ded3b354bb123e9ff3fe420994d",
+      "name": "Squat nhảy với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, đứng rộng bằng vai.",
+        "Squat xuống, đẩy gối ra ngoài ngược lực cản của dây.",
+        "Bật mạnh lên, tiếp đất nhẹ nhàng rồi vào lại tư thế chuẩn bị."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Jump Squat",
+        "description": "",
+        "steps": [
+          "Loop band above knees, stand feet shoulder width.",
+          "Squat down, knees pushed outward against band.",
+          "Explode upward into jump, land softly and reset."
+        ]
+      }
+    },
+    {
+      "exercise_id": "de9af4cf-79a4-42cd-9569-2789154d356e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "54528c3c07078dd96898acad5ff20c9292ae87a9506167344d1b65fe6e24065e",
+      "name": "Quỳ kéo mini band",
+      "description": "",
+      "steps": [
+        "Neo dây quanh bàn chân, quỳ thẳng và giữ các đầu dây.",
+        "Kéo khuỷu tay về sau, ép hai bả vai lại gần nhau.",
+        "Từ từ trở lại, giữ thân thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Kneeling Row",
+        "description": "",
+        "steps": [
+          "Anchor band around foot, kneel tall holding ends.",
+          "Row elbow back, squeezing shoulder blades together.",
+          "Return slowly, maintaining upright torso."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8f554b8a-8b4a-4f79-a0ef-e3004b859c2d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9ca53e7a2ebd047d556df688035e6e3c05e4944ad61479c434ccde4f8f0c818e",
+      "name": "Giữ nâng mông mở gối với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm ngửa với gối co.",
+        "Nâng hông vào tư thế cầu và giữ vị trí trên cùng.",
+        "Nhấp đầu gối ra ngoài ngược lực cản của dây, kiểm soát lực căng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Laying Glute Bridge Abduction",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on back knees bent.",
+          "Lift hips into bridge, hold top position.",
+          "Pulse knees outward against band, controlling tension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "28ac6fee-0228-476b-aed0-4723967e34ac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9759a90fdfe451a3480b84d75bd5a8474a9e69cf35429fa0309df8f54a5ea22a",
+      "name": "Nằm nghiêng dạng hông với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm nghiêng với hai chân thẳng.",
+        "Nâng chân trên lên, không xoay hông.",
+        "Từ từ hạ xuống, giữ lực căng trên dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Laying Hip Abduction",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on side legs straight.",
+          "Lift top leg upward without rotating hips.",
+          "Lower slowly, keeping tension on band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2ff04b07-5c88-4997-a739-bb3cf68f1ec9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ce32e3ca400ebfe12fcdde0e23cb958bfb34a5c0ae8cb212a3ac4abae4e0cd6d",
+      "name": "Nằm nâng chân với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, nằm ngửa.",
+        "Nâng cả hai chân lên, giữ chân thẳng.",
+        "Từ từ hạ xuống, không ưỡn lưng dưới."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Leg Raise",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, lie flat on back.",
+          "Raise both legs upward, keeping them straight.",
+          "Lower slowly without arching lower back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "771f8ebe-b609-4e24-bda4-6e1727f61738",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b938e6a612b9093a2159c21fff46c334aea271540dec79d4df7d3a3724236e15",
+      "name": "Plank kéo gối kiểu leo núi với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh bàn chân, vào tư thế plank cao.",
+        "Kéo một đầu gối về ngực ngược lực cản.",
+        "Nhanh chóng đổi chân, giữ hông ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Mountain Climber",
+        "description": "",
+        "steps": [
+          "Loop band around feet, start in high plank.",
+          "Drive one knee toward chest against resistance.",
+          "Alternate legs quickly while keeping hips stable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1777864-694d-4d74-a43a-44ee975689e6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "633a547858d66734eb3f3d71fcfd5b72cf64a37773d1811dad6b988ea7661a80",
+      "name": "Dang tay qua đầu với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ tay, hai tay duỗi trên đầu.",
+        "Kéo hai tay ra ngoài theo đường vòng cung.",
+        "Từ từ trở lại, kiểm soát lực căng trong suốt chuyển động."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Overhead Fly",
+        "description": "",
+        "steps": [
+          "Loop bands around wrists,, arms extended overhead.",
+          "Pull arms outward in arc motion.",
+          "Return slowly, controlling tension throughout movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9afadc8e-478a-41b5-88d2-e27d28d1f3be",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6610ae32130b981acd9ed8ada6387ad214a30638497d76bd997330c14b1f2a55",
+      "name": "Plank đá chân ra sau với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh bàn chân, giữ tư thế plank cao.",
+        "Duỗi một chân về sau, siết cơ mông ở điểm cao nhất.",
+        "Từ từ hạ xuống và lặp lại trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Plank Glute Kickback",
+        "description": "",
+        "steps": [
+          "Loop band around feet, hold high plank.",
+          "Extend one leg back, squeezing glute at top.",
+          "Lower slowly and repeat before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b09cf9bf-d88f-4023-a910-c5603c4cc316",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "785158905c92486a96ee69876be7001b7461fb63a8613f7cb0ff3b1f8a95963e",
+      "name": "Plank bước tay sang bên với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ tay, giữ tư thế plank cao.",
+        "Bước một tay ra ngoài ngược lực căng của dây.",
+        "Trở lại và đổi tay, giữ hông ngang bằng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Plank Hand Step Out",
+        "description": "",
+        "steps": [
+          "Loop band around wrists, hold high plank.",
+          "Step one hand outward against band tension.",
+          "Return and alternate, keeping hips level."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f9ef61a3-09ce-482b-b396-129d545957ad",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "06c9128d9f2f7603b0c4fedc9604e70f0ff78259fb99b8e9ac78ad99d02c7b94",
+      "name": "Plank bước chân sang bên với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, giữ tư thế plank cao.",
+        "Bước một chân ra ngoài, chống lại lực kéo của dây.",
+        "Trở lại và đổi chân, giữ hông ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Plank Step Out",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, hold high plank.",
+          "Step one foot outward, resisting band pull.",
+          "Return and alternate, maintaining stable hips."
+        ]
+      }
+    },
+    {
+      "exercise_id": "95b36ef3-57c9-48ae-878c-78402ab87b5a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a336e045daaeb15f0de9a0558529521b733f83705dbd601ee8112bc558adb456",
+      "name": "Kéo dang mini band",
+      "description": "",
+      "steps": [
+        "Giữ dây ngang vai, hai tay thẳng.",
+        "Kéo hai tay xa nhau, ép hai bả vai lại gần nhau.",
+        "Từ từ trở lại, duy trì lực căng trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Pull Apart",
+        "description": "",
+        "steps": [
+          "Hold band at shoulder height, arms straight.",
+          "Pull hands apart, squeezing shoulder blades together.",
+          "Return slowly, maintaining tension throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "abc7faec-9800-4cc8-90a0-806a385dc522",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "202c958e8d5f0c0cf70101ccbd42036a319f2d50c8e96a386b737c8efc5c0597",
+      "name": "Đá chân cắt kéo với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, nằm ngửa.",
+        "Hơi nâng chân khỏi sàn, siết cơ bụng.",
+        "Luân phiên hai chân theo động tác cắt kéo có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Scissor Kick",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, lie on back.",
+          "Lift legs slightly off floor, core braced.",
+          "Alternate legs in controlled scissor motion."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f702b730-7aab-4b3a-a234-56f5b1ab94c0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d92b9c15562af55bae510a5997f8499a7f6be226d1f87557ae9920d7ffa0e328",
+      "name": "Nằm nghiêng nâng chân dạng hông với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm nghiêng với hai chân thẳng.",
+        "Nâng chân trên lên, không xoay hông.",
+        "Từ từ hạ xuống, duy trì lực căng liên tục của dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Side Laying Hip Abduction",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on side legs straight.",
+          "Lift top leg upward without rotating hips.",
+          "Lower slowly, maintaining constant band tension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c5952ab2-9150-4bbd-9802-add55622c4c0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "97a252c3ca49892960f20eabb64cb0cdd28292a6987f69d626147dc9804063b9",
+      "name": "Bước sang hai bên với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, đứng ở tư thế sẵn sàng hơi chùng.",
+        "Bước sang bên, giữ đầu gối đẩy ra ngoài.",
+        "Tiếp tục bước sang hai bên có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Side To Side",
+        "description": "",
+        "steps": [
+          "Loop band above knees, slight athletic stance.",
+          "Step laterally, keeping knees pushed outward.",
+          "Continue stepping side to side under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a2049b09-02ef-419a-8177-816c13c2fdd8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ec447174f047014e029de1420d5afafd4cb638f7ff85d40be9965de0e86aab54",
+      "name": "Deadlift một chân với mini band",
+      "description": "",
+      "steps": [
+        "Đứng một bàn chân lên dây và gập hông.",
+        "Giữ lưng phẳng, chân đối diện duỗi ra sau.",
+        "Đẩy hông về trước để đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Single Leg Deadlift",
+        "description": "",
+        "steps": [
+          "Stand on band with one foot, hinge at hips.",
+          "Keep back flat, opposite leg extended behind.",
+          "Drive hips forward to return upright."
+        ]
+      }
+    },
+    {
+      "exercise_id": "33f863ab-b703-43b3-9252-784fc58c1d7c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "734e791787bf9a532e39705cab070fabf8a5294c4b8d6e49037da803fd312044",
+      "name": "Squat với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, đứng rộng bằng vai.",
+        "Ngồi về sau và hạ xuống, đẩy gối ra ngoài.",
+        "Đứng lên, duy trì lực căng của dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Squat",
+        "description": "",
+        "steps": [
+          "Loop band above knees, stand shoulder width.",
+          "Sit back and down, pushing knees outward.",
+          "Stand up, maintaining tension on band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1b25e6d-23e3-4b72-a239-6d390a15bd11",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3d95505a6b489cf9511fbfd58923c2e93e547b7bbbebbadb8bb68892d99145c2",
+      "name": "Đứng đá chân ra sau với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, đứng thẳng và giữ điểm tựa.",
+        "Duỗi một chân về sau, siết cơ mông.",
+        "Từ từ trở lại, không ưỡn lưng dưới."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Standing Glute Kickback",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, stand tall holding support.",
+          "Extend one leg backward, squeezing glute.",
+          "Return slowly without arching lower back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fa1fff24-72e9-4618-9e03-5c21590cd550",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b74a0ab76427c6147ab61412e96e9978d9b0f19f6f2458b7790e06102fa0844c",
+      "name": "Đứng dạng hông với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ chân, đứng thẳng và giữ điểm tựa.",
+        "Nâng một chân sang bên, giữ thân thẳng.",
+        "Từ từ hạ xuống và lặp lại trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Standing Hip Abduction",
+        "description": "",
+        "steps": [
+          "Loop band around ankles, stand tall holding support.",
+          "Lift one leg out to side, torso upright.",
+          "Lower slowly and repeat before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f946c022-3408-4761-8ca5-bcb5fc206af2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "89e3b96852c6003db1f84c2f9a5a230125d87abfdbe65be5b24659fdf7c9c5c0",
+      "name": "Đẩy xuống tập tay sau với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh cổ tay.",
+        "Giữ một tay ngang vai và đẩy tay còn lại xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Tricep Pushdown",
+        "description": "",
+        "steps": [
+          "Loop band around wrists.",
+          "Keep one hand at shoulder height and press your other hand down."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8a9c8adc-2475-4ccf-8f1b-bd2ad0647067",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "55129d84722051724e9f9e54730ec2a9e3747bd6e3b8cd4de32bd44be570b623",
+      "name": "Plank bước chân kiểu leo núi với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh bàn chân, vào tư thế plank cao.",
+        "Bước một bàn chân về trước dưới thân.",
+        "Liên tục đổi bước, giữ hông ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Walking Mountain Climber",
+        "description": "",
+        "steps": [
+          "Loop band around feet, start in high plank.",
+          "Step one foot forward under torso.",
+          "Alternate steps continuously, keeping hips stable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "80a253c4-9ecc-4ef1-870c-7d395ad71fa0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "948c1a7f9c126d043571c5cc3d7a6ec032dda328474d719e93cbb8421f956437",
+      "name": "Đi ngang trong tư thế squat nhẹ với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, vào tư thế squat nhẹ.",
+        "Bước sang bên, liên tục đẩy đầu gối ra ngoài.",
+        "Tiếp tục đi sang hai bên có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini Band Walking Side To Side",
+        "description": "",
+        "steps": [
+          "Loop band above knees, slight squat stance.",
+          "Step laterally, keeping constant outward knee pressure.",
+          "Continue walking side to side under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a72e4f54-9cda-4544-b1a7-e9432cf23d7a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d264ca5378536332be16ae2fd1ca32df56f7fba6c279e820610a27410416f552",
+      "name": "Mở gối kiểu vỏ sò với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây phía trên đầu gối, nằm nghiêng với đầu gối co.",
+        "Giữ hai bàn chân sát nhau, nâng đầu gối trên lên.",
+        "Từ từ hạ xuống, không xoay hông ra sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Mini-Band Clamshell",
+        "description": "",
+        "steps": [
+          "Loop band above knees, lie on side knees bent.",
+          "Keep feet together, lift top knee upward.",
+          "Lower slowly without rotating hips backward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "218b109d-8f90-4990-bd1e-b5d0b007c7e5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6dc1dbc64436bfc9069a3b98c93cd310ae264295508fad63580e7b46291f623c",
+      "name": "Đẩy xuống một tay kiểu Rapunzel với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng với dây neo vào điểm cao. Quay lưng về dây. Một tay giữ vòng dây.",
+        "Giữ khuỷu tay khép bên thân. Duỗi khuỷu tay, không để bắp tay nâng lên khi duỗi. Dây hạ qua phía trên vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Single Arm Rapunzel Pushdown",
+        "description": "",
+        "steps": [
+          "Stand with a band anchored to a high point. Face away from the band. Hold the loop in one hand.",
+          "Keep your elbow tucked in to your side. Extend your elbow. When you extend, don't let your upper arm raise. The band should land over your shoulder."
+        ]
+      }
+    },
+    {
+      "exercise_id": "edb30573-9bdc-416c-a652-f28cdc4bf53f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "91eed8714288623467cabb0e5bdf954aabaeabb7d3491ad2f2edb5ec05bd48a1",
+      "name": "Cuốn tay trước với bánh tạ",
+      "description": "",
+      "steps": [
+        "Dùng hai tay giữ bánh tạ.",
+        "Gập khuỷu tay đến khi bánh tạ gần ngực.",
+        "Duỗi khuỷu tay đến khi thẳng hoàn toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Bicep Curl",
+        "description": "",
+        "steps": [
+          "Hold plate in both hands.",
+          "Flex your elbows until the plate nears your chest.",
+          "Extend your elbows until they are fully extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "43d23399-5033-4a09-bf32-0ee4f9a43c8d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "004f0a86a7f83ad9139934e177c71612865499a1d7dc4e46cea6098ba1615e63",
+      "name": "Xoay bánh tạ kiểu lái xe",
+      "description": "",
+      "steps": [
+        "Hít vào và siết cơ bụng.",
+        "Nâng hai tay lên, giữ khuỷu tay hơi co.",
+        "Khi hai tay song song với sàn, xoay bánh tạ theo chiều kim đồng hồ và ngược chiều.",
+        "Hạ bánh tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Car Driver",
+        "description": "",
+        "steps": [
+          "Inhale and brace your abdominals",
+          "Raise the arms vertically while keeping the elbows slightly bent",
+          "Once the arms are parallel with the floor, rotate the plate clockwise and counterclockwise.",
+          "Lower the plate back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3e420f9d-5107-4ba5-8d9b-47c113ff7cd4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "23b6d2a9f069bebef8a1fef01edfd589d997789649e5293338565dc759f5c17d",
+      "name": "Kéo bánh tạ lên ngực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, bánh tạ trước bàn chân.",
+        "Gập gối và hông để nhấc bánh tạ, giữ lưng thẳng và cơ bụng siết.",
+        "Đứng lên, đồng thời kéo bánh tạ về ngực.",
+        "Giữ vai ngang bằng, khuỷu tay nâng cao và ở phía trước bánh tạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Clean",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the feet.",
+          "Bend the knees and hips to pick up the plate, keeping the back straight and core engaged.",
+          "Stand up while pulling the plate towards the chest.",
+          "Keep shoulder level while keeping the elbows high and in front of the plate."
+        ]
+      }
+    },
+    {
+      "exercise_id": "06a99b9c-1cb2-43b5-9a2f-1b025af7ee5b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b8033d34bffeaa0086fae643840651fb626c4132283fa90d705524097455c943",
+      "name": "Kéo bánh tạ lên và đẩy qua đầu",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, bánh tạ trước bàn chân.",
+        "Gập gối và hông để nhấc bánh tạ, giữ lưng thẳng và cơ bụng siết.",
+        "Đứng lên, khóa hông và chân, đẩy bánh tạ qua đầu với tay thẳng.",
+        "Hạ bánh tạ về vị trí ban đầu có kiểm soát, lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Clean And Press",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the feet.",
+          "Bend the knees and hips to pick up the plate, keeping the back straight and core engaged.",
+          "Stand up, lock the hips and legs, and press the plate overhead with straight arms.",
+          "Lower the plate back to the starting position, keeping control of it, and repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "777e7386-56f5-4bc2-bb7e-9fc7570eed25",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a7090b88be1e3ed2e6ffb46038113f8f5cd9f823bf475c0207c3bd8d5851b0e",
+      "name": "Cuốn bánh tạ kết hợp đẩy qua đầu",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bánh tạ trước thân, lòng bàn tay hướng về trước.",
+        "Cuốn bánh tạ lên trước vai, giữ khuỷu tay gần thân.",
+        "Xoay lòng bàn tay về trước và đẩy bánh tạ qua đầu, khóa hai tay.",
+        "Hạ bánh tạ về vị trí ban đầu có kiểm soát, lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Curl To Overhead Press",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing forward.",
+          "Curl the plate up to the front of the shoulder while keeping the elbows close to the body.",
+          "Rotate the palms to face forward and press the plate overhead, locking out the arms.",
+          "Lower the plate back to the starting position, keeping control of it, and repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "323269ae-5055-43a6-975d-1b16908c0b25",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7133062d4d5655d1be9846a5e2171c93fbdb6cb214a5c9367db06d7a80cbe531",
+      "name": "Cuốn bánh tạ, đẩy qua đầu và duỗi tay sau",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bánh tạ trước thân, lòng bàn tay hướng về trước.",
+        "Cuốn bánh tạ lên trước vai, giữ khuỷu tay gần thân.",
+        "Xoay lòng bàn tay về trước và đẩy bánh tạ qua đầu, khóa hai tay.",
+        "Hạ bánh tạ ra sau đầu vào vị trí bắt đầu của động tác duỗi tay sau.",
+        "Đẩy bánh tạ lên trên đầu, sau đó hạ về vị trí ban đầu và lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Curl To Overhead Press To Tricep Extension",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing forward.",
+          "Curl the plate up to the front of the shoulder while keeping the elbows close to the body.",
+          "Rotate the palms to face forward and press the plate overhead, locking out the arms.",
+          "Lower the plate back behind the head to the starting position of a tricep extension.",
+          "Push the plate back up overhead, then lower it back to the starting position and repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e73f1e5c-c662-49ae-b90f-b948c6999435",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cc1813da19b769391e25033d1f07959449e21b5decce90df84b6295a34e4019f",
+      "name": "Chùng chân chéo với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bánh tạ trước thân.",
+        "Bước chân phải chéo về sau, gập cả hai chân để hạ vào tư thế chùng chân.",
+        "Đạp chân trước để trở về vị trí ban đầu.",
+        "Lặp lại bên kia bằng cách bước chân trái chéo về sau.",
+        "Tiếp tục luân phiên hai bên theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the torso.",
+          "Step back and across the body with the right foot, bending both legs to lower into a lunge position.",
+          "Push through the front foot to return to the starting position.",
+          "Repeat on the other side by stepping back and across with the left foot.",
+          "Continue alternating sides for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dd61fabd-f13b-4618-a10a-9b1bd1d61ea5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2a560c10875fabba4009ddbefb591038ea9d468f87c8a321e8a6f5550a670c61",
+      "name": "Deadlift với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, bánh tạ trước bàn chân, đầu gối hơi co.",
+        "Gập hông và gối để nắm bánh tạ, lòng bàn tay hướng về người.",
+        "Giữ lưng thẳng, đứng lên để nâng bánh tạ khỏi đất.",
+        "Gập hông và gối để đưa bánh tạ về vị trí ban đầu, kiểm soát bánh tạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Deadlift",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart, the plate in front of the feet, and the knees slightly bent.",
+          "Bend the hips and knees to grip the plate with palms facing the body.",
+          "Keeping the back straight, stand up while lifting the plate off the ground.",
+          "Return the plate back to the starting position by bending the hips and knees, keeping control of the plate."
+        ]
+      }
+    },
+    {
+      "exercise_id": "47c286bf-8032-4548-8306-8f5740e03319",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d4b3f692226779510b174a02a30b6069af6436f6b9c4327e5a352b1a3b7ba2e2",
+      "name": "Chùng chân lùi khi đứng trên bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng cả hai bàn chân lên bánh tạ.",
+        "Bước một chân lùi xuống sàn, để đầu gối sau gần sàn hoặc chạm nhẹ sàn.",
+        "Đạp chân trước đến khi cả hai bàn chân trở lại bánh tạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Deficit Lunge",
+        "description": "",
+        "steps": [
+          "Stand on a plate with both feet.",
+          "Step back with one foot to the floor and let your back knee get close to or tap the floor.",
+          "Push through your front leg until both feet are back on the plate."
+        ]
+      }
+    },
+    {
+      "exercise_id": "606a9c37-5a58-4abb-a8a0-ad28fdb4bc51",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "193779cc0ff800bc09bb130dd113743d08537b7f1601c5dab92274bfe934ca3f",
+      "name": "Chùng chân bước tới với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ bánh tạ trước thân.",
+        "Bước một chân về trước, gập gối trước để hạ hông vào tư thế chùng chân.",
+        "Đạp chân trước để trở về vị trí ban đầu.",
+        "Lặp lại bên kia bằng cách bước chân còn lại về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Forward Lunge",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart and the plate held in front of the torso.",
+          "Take a step forward with one foot, bending the front knee to lower the hips into a lunge.",
+          "Push through the front foot to return to the starting position.",
+          "Repeat on the other side by stepping forward with the other foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fadbf756-6c42-4e91-b6c7-c5b40363263a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4497695d91d4184ae93ae26bd41b9f16b8fe48c204ddbdc8a501afbfe7ebab5a",
+      "name": "Nâng bánh tạ ra trước",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, bánh tạ trước thân, lòng bàn tay hướng về đùi.",
+        "Giữ khuỷu tay hơi co, nâng bánh tạ lên trước người.",
+        "Tiếp tục nâng đến khi hai tay duỗi hoàn toàn, duy trì kiểm soát bánh tạ.",
+        "Hạ bánh tạ về vị trí ban đầu và lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Front Raise",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing the thighs.",
+          "Keeping the elbows slightly bent, lift the plate up to the front of the body.",
+          "Raise the plate up until the arms are fully extended, maintaining control of the plate.",
+          "Lower the plate back to the starting position and repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "461daeb1-3500-4a87-ad65-7d4a9f2f1fe0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "020d3c1aef57c7a2e78de6eb57a7e104a9b8d74335a671834aad55fe1e2f1057",
+      "name": "Nâng bánh tạ sang ngang hết biên độ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ hai bánh tạ bên thân.",
+        "Nâng bánh tạ sang hai bên và tiếp tục đến khi bánh tạ hướng lên trần.",
+        "Để khớp vai xoay tự nhiên. Ở dưới, dùng tay nắm trung tính hoặc sấp. Khi bánh tạ qua đầu, lòng bàn tay hướng về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Full Lateral Raise",
+        "description": "",
+        "steps": [
+          "Stand tall holding two plates at your side.",
+          "Lateral raise the plates to your side and continue until the plates are pointed at the ceiling.",
+          "Let your shoulder joint naturally rotate. At the bottom you should have a neutral or overhand grip. By the time the plates are overhead, your palms should be facing forward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a672f4ce-d716-48af-89dc-036d01fe0c55",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "862da4623bccc779eaf2578d2cde1995980c99b6f20ae85c3ae312cedc68c099",
+      "name": "Nâng mông kết hợp đẩy ngực với bánh tạ",
+      "description": "",
+      "steps": [
+        "Nằm trên đất, đặt bánh tạ trên ngực.",
+        "Đẩy hông lên phía trần và giữ tư thế duỗi đó.",
+        "Giữ hông nâng, đẩy bánh tạ lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Glute Bridge to Chest Press",
+        "description": "",
+        "steps": [
+          "Lay flat on the ground with a plate on your chest.",
+          "Push your hips up toward the ceiling and maintain that extended position.",
+          "With your hips up, press the plate toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6ba29b55-2fe1-4d90-85b4-41fea3f4182d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "869652cf18cbdce4b37446578db2ff59e17df4cf96e01b3257e5efb1235b1824",
+      "name": "Nâng mông kết hợp kéo bánh tạ qua đầu",
+      "description": "",
+      "steps": [
+        "Nằm trên đất, đặt bánh tạ trên ngực.",
+        "Đẩy hông lên phía trần và giữ tư thế duỗi đó.",
+        "Duỗi khuỷu tay gần thẳng rồi gập tại khớp vai, duy trì hông duỗi và khuỷu tay hơi co.",
+        "Để bánh tạ chạm nhẹ hoặc gần chạm sàn rồi kéo về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Glute Bridge to Pullover",
+        "description": "",
+        "steps": [
+          "Lay flat on the ground with a plate on your chest.",
+          "Push your hips up toward the ceiling and maintain that extended position.",
+          "Extend your elbows mostly, break at the shoulder joint while maintaining hip extension and the slight bend in your elbows.",
+          "Let the plate tap the floor (or get close) and then pull the plate back into the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "168e05a3-67e7-49f7-8126-fe1a2e481b81",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c51d7e08bf07fb00d5e23b7781f3e3ae45bb2cfd5bd13f90f8653a830b1ff664",
+      "name": "Chùng chân lùi từ bục với bánh tạ giữ trước ngực",
+      "description": "",
+      "steps": [
+        "Đứng trên bục, giữ bánh tạ sát ngực, hai chân rộng bằng hông.",
+        "Bước lùi, hạ đầu gối về phía sàn, giữ ngực thẳng và cơ bụng siết.",
+        "Đạp chân trước để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Goblet Deficit Reverse Lunge",
+        "description": "",
+        "steps": [
+          "Stand on a platform, Holding a plate to your chest, feet hip-width apart.",
+          "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+          "Push through front foot, return to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "da0f7c2d-7317-4f37-8857-2c33facebaa0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a2c6f644096914b31a4129d3215a1ed2d4a9e977f60fe812fcaa0daaeeed471",
+      "name": "Gập hông kiểu good morning với bánh tạ sau cổ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ bánh tạ sau cổ, đầu gối hơi co.",
+        "Gập người về trước tại hông, giữ lưng thẳng đến khi thân song song với sàn.",
+        "Đẩy hông để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Good Morning",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart, the plate held behind the neck and the knees slightly bent.",
+          "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+          "Push through the hips to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c463df8f-071a-4920-ae2e-be6c4577ffd9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "29845392fd994d9b578e2bd5fa98da184f6c4e6d8a87285c393c53c84849465b",
+      "name": "Gập hông kiểu good morning với bánh tạ phía trước",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ bánh tạ phía trước, đầu gối hơi co.",
+        "Gập người về trước tại hông, giữ lưng thẳng đến khi thân song song với sàn.",
+        "Đẩy hông để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Good Morning Anterior",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart, the plate held in front of you, and the knees slightly bent.",
+          "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+          "Push through the hips to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c648544-4548-4db6-89a3-1053f7767eb8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "89e3936a6a62c7735cc97e2db7a10f20bc9e67286c05b6dbdca35129cdc68733",
+      "name": "Xoay bánh tạ quanh đầu",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ bánh tạ trước mặt, lòng bàn tay hướng vào nhau.",
+        "Xoay bánh tạ quanh đầu, giữ tay duỗi và di chuyển bánh tạ theo vòng tròn.",
+        "Hoàn thành một vòng tròn rồi đổi chiều để thực hiện vòng tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Halo",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and the plate held in front of your face with both hands, palms facing each other.",
+          "Rotate the plate around the head, keeping the arms extended and moving the plate in a circular motion.",
+          "Complete one full circle, then reverse the direction to complete another circle."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f79d7f86-28b2-436d-806a-5537602e1fbf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ffa015d64fc86b23e7e1141565ad5de3ac0d94e2dd591ec5ec59d3a3bddcbeaf",
+      "name": "Giữ thân cong kiểu hollow hold với bánh tạ",
+      "description": "",
+      "steps": [
+        "Nằm trên đất, hai tay duỗi qua đầu giữ bánh tạ.",
+        "Nâng lưng trên và chân khỏi đất. Cơ thể cong như quả chuối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:33:23.699Z",
+      "source": {
+        "name": "Plate Hollow Hold",
+        "description": "",
+        "steps": [
+          "Lay flat on the ground with your arms extended over head holding a weight plate.",
+          "Pick your upper back and your legs off the ground. Your body should be in a banana shape."
+        ]
+      }
+    }
+  ]
+}

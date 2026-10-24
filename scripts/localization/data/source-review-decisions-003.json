@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Compared the captured English blocks and six chronological samples across the full recorded duration of each of 32 existing source clips: male/female, front/side, eight exercises. Editorial corrections resolve visible equipment, support or return-motion conflicts; these are not recovered provider wording. No load, set, repetition or angle prescriptions are invented.",
+  "decisions": [
+    {
+      "exercise_id": "07c8b8ae-c0e7-4dcb-82db-dba648b2f6e5",
+      "sourceName": "Long Lever Forearm Plank",
+      "changeReason": "Both genders visibly support the hold on their forearms and toes, with elbows forward of the shoulders. No hand-plank-to-elbow walking transition is shown. Replace the contradictory starting support while retaining the long lever and hold cues.",
+      "steps": [
+        "Start in a forearm plank with your elbows farther forward than your shoulders, until your ears are between your biceps. Support your body on your forearms and toes.",
+        "Hold in this position for the allotted amount of time.",
+        "Make sure you keep a flat back for the whole set."
+      ]
+    },
+    {
+      "exercise_id": "090000cf-7975-47eb-98ea-1c8bdb29653d",
+      "sourceName": "Kettlebell Seated Calf Raise Double",
+      "changeReason": "Both genders sit on a bench with a kettlebell on each thigh near the knee, hands steadying the handles. There is no barbell. Heels rise and return while the forefeet remain supported on the floor.",
+      "steps": [
+        "Start by sitting on a bench with one kettlebell resting on each thigh near your knees. Your feet should be flat on the ground, about hip-width apart.",
+        "Hold the kettlebells steady with your hands and lift your heels off the ground.",
+        "Hold this position for a moment, then slowly lower your heels back to the ground."
+      ]
+    },
+    {
+      "exercise_id": "1990c31f-1797-420b-95c7-b1f7e84d0e79",
+      "sourceName": "Kettlebell Quad Stomp",
+      "changeReason": "Both genders hold one kettlebell in each hand, not two per hand, while the front foot stays on a low plate and the rear leg bends behind them. Correct only the load quantity in the first step.",
+      "steps": [
+        "Place your foot on a plate or a low box. Hold one kettlebell in each hand.",
+        "Put all of your weight on your front foot and lean forward.",
+        "Lower until your calves touch your hamstrings and then extend back up."
+      ]
+    },
+    {
+      "exercise_id": "1c3f8472-f46d-4425-b75a-067d22be80ea",
+      "sourceName": "Slow Tempo Mountain Climber",
+      "changeReason": "The clips show alternating knee drives from hand support, with each leg extending back before the opposite knee advances. Remove the conflicting 'quickly switch' cue and unnecessary foot-near-hand instruction; retain the explicit slow-tempo intent already present in the source's final step without adding a numeric cadence.",
+      "steps": [
+        "To perform a bodyweight mountain climber, start in a plank position with your hands placed directly under your shoulders.",
+        "Slowly bring your right knee towards your chest, then extend that leg back and bring your left knee towards your chest.",
+        "Continue this movement, alternating legs, at a slow pace for a set amount of time or repetitions."
+      ]
+    },
+    {
+      "exercise_id": "1d51764d-0979-40ee-a893-dd9cbb7f70fd",
+      "sourceName": "Dumbbell Front Rack Step Up",
+      "changeReason": "Both genders keep one dumbbell at each shoulder through the step-up and descent; no barbell is present. Remove the overhand-only grip prescription and retain the source's explicit right-up/left-down sequence as an example, not a claim that both clips use the same leading side.",
+      "steps": [
+        "Stand in front of a step or bench with your feet shoulder-width apart and hold one dumbbell at each shoulder.",
+        "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench.",
+        "Bring your left foot up onto the bench and stand up straight, keeping the dumbbells at your shoulders.",
+        "Step back down with your left foot, followed by your right foot, to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "209cfd4e-69c1-40b6-903c-6f4d22bef4d0",
+      "sourceName": "TRX Glute Bridge",
+      "changeReason": "Both genders have their feet suspended in the TRX foot cradles while their shoulders and arms stay on the floor; the feet are not flat on the floor. Hip raising and lowering are visible, so make the suspended support and return explicit in the existing three-step block.",
+      "steps": [
+        "Lie on your back with your feet supported in the foot cradles of the TRX straps and your knees bent. Keep your feet suspended off the ground.",
+        "Place your arms by your sides with your palms facing down.",
+        "Drive your hips up towards the ceiling, squeezing your glutes and hamstrings at the top of the movement, then lower your hips back down under control."
+      ]
+    },
+    {
+      "exercise_id": "26ad762c-2f0f-482e-bbf3-32d5d9b6851b",
+      "sourceName": "Stability Ball Glute Bridge",
+      "changeReason": "Both genders keep their feet on a stability ball, not on a bar, while raising and lowering the hips. Correct the support object in the second step only.",
+      "steps": [
+        "Start by lying flat on your back with your feet resting on top of a ball.",
+        "Push through your heels and raise your hips towards the ceiling, keeping your feet on the ball.",
+        "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "29955145-41dd-4e7d-b11a-e7a632f8e714",
+      "sourceName": "Band Overhead Press",
+      "changeReason": "Both genders press two low-anchored bands overhead and then bend the elbows to return their hands toward shoulder level. The source's straight-arm return conflicts with that motion. Correct only the return cue; keep the setup and press.",
+      "steps": [
+        "Stand between the two anchored bands, grasp them with an overhand grip, and position the bands at shoulder level.",
+        "Brace your core and push the bands overhead, fully extending your arms.",
+        "Lower the bands back to shoulder level by bending your elbows, keeping your core engaged. Repeat for desired number of reps."
+      ]
+    }
+  ]
+}

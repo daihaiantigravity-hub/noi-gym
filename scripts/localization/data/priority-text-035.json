@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared all restored DOM source blocks with Vietnamese text, retaining recovered numbers, units, supports, left/right, contraction and controlled-return cues. Prepared against a prospective corrected snapshot, not yet applied to the database. Two restored sources remain held for separate semantic verification.",
+  "translations": [
+    {
+      "index": 1,
+      "sourceName": "Band Front Raise",
+      "name": "Nâng tay ra trước với dây kháng lực",
+      "steps": [
+        "Giẫm lên dây bằng một hoặc 2 bàn chân tùy mức kháng lực mong muốn.",
+        "Giữ khuỷu tay duỗi, nâng nắm tay thẳng lên phía trần đến ngang mắt."
+      ],
+      "exercise_id": "fde63e2f-1d58-404a-9f37-34a0db384220"
+    },
+    {
+      "index": 6,
+      "sourceName": "Band Leg Press",
+      "name": "Đạp chân với dây kháng lực",
+      "steps": [
+        "Nằm phẳng trên sàn, đầu gần điểm neo dây, điểm neo cao hơn đầu 6 đến 12 inch.",
+        "Vòng dây quanh giữa bàn chân, duỗi gối và hông."
+      ],
+      "exercise_id": "409f685b-d478-436d-a86b-cfee60294b44"
+    },
+    {
+      "index": 12,
+      "sourceName": "Mini Band Alternating Bent Arm Lateral Raise",
+      "name": "Nâng khuỷu tay sang ngang luân phiên với mini band",
+      "steps": [
+        "Vòng dây quanh khuỷu tay, hai tay co 90 độ ở hai bên thân.",
+        "Nâng một khuỷu tay ra ngoài đến ngang vai.",
+        "Từ từ hạ xuống và luân phiên hai bên, giữ lực căng trên dây."
+      ],
+      "exercise_id": "ad77025e-38b2-40c2-bccb-afa1248fd4da"
+    },
+    {
+      "index": 15,
+      "sourceName": "Mini Band External Rotation",
+      "name": "Xoay ngoài vai với mini band",
+      "steps": [
+        "Neo dây, giữ khuỷu tay sát thân và co 90 độ.",
+        "Xoay cẳng tay ra ngoài, giữ khuỷu tay cố định.",
+        "Từ từ trở về vị trí ban đầu, kiểm soát lực kháng."
+      ],
+      "exercise_id": "527c0819-c11c-41db-9f45-d4c7761fac09"
+    },
+    {
+      "index": 16,
+      "sourceName": "Barbell 30 Degree Shrug",
+      "name": "Nhún vai với tạ đòn ở góc 30 độ",
+      "steps": [
+        "Giữ tạ đòn với tay nắm rộng. Hai tay tạo góc khoảng 30 độ.",
+        "Kéo vai về phía tai thay vì nâng thẳng lên phía trần."
+      ],
+      "exercise_id": "f8818dd6-62df-40b3-b06e-4cdbf1bc9b59"
+    },
+    {
+      "index": 17,
+      "sourceName": "Barbell Behind The Back 30 Degree Shrug",
+      "name": "Nhún vai với tạ đòn sau lưng ở góc 30 độ",
+      "steps": [
+        "Giữ tạ đòn phía sau, hai tay tạo góc 30 độ với thân.",
+        "Nhún vai lên và hơi ra sau về phía tai, giữ khuỷu tay duỗi thẳng.",
+        "Dừng ngắn ở điểm cao nhất rồi hạ có kiểm soát đến khi giãn hết."
+      ],
+      "exercise_id": "64dc6018-12ff-4a7b-8d45-3d0973b58097"
+    },
+    {
+      "index": 22,
+      "sourceName": "Barbell High Incline Bench Press",
+      "name": "Đẩy tạ đòn trên ghế dốc cao",
+      "steps": [
+        "Đặt ghế ở góc từ 45 đến 60 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "exercise_id": "d06f14d0-9a5b-47b0-ae6b-d808251ef169"
+    },
+    {
+      "index": 23,
+      "sourceName": "Barbell Incline Bench Press",
+      "name": "Đẩy tạ đòn trên ghế dốc lên",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "exercise_id": "6433bf12-e67e-4ea7-841d-e0c741f7e6b1"
+    },
+    {
+      "index": 27,
+      "sourceName": "Landmine Curtsy Lunge",
+      "name": "Chùng chân bắt chéo với landmine",
+      "steps": [
+        "Đứng đối diện thanh đòn, một tay giữ đầu thanh đòn ở bên thân.",
+        "Dùng chân cùng bên với thanh đòn bước lùi và chéo qua thân ở góc 45 độ, giữ trọng lượng trên gót chân trước để nhẹ nhàng hạ đầu gối sau xuống sàn.",
+        "Đạp qua gót chân trước để bước về vị trí ban đầu, lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "acae8c6a-d0de-436d-9c04-8c92f3003aa4"
+    },
+    {
+      "index": 28,
+      "sourceName": "Landmine Glute Kick Back",
+      "name": "Đá chân ra sau với landmine",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối vuông góc với thanh đòn, đầu thanh đòn tựa vào mặt trong đầu gối phía gần thanh đòn.",
+        "Giữ cơ trung tâm siết, lưng phẳng và chân đang tập co 90 độ, đẩy gót chân lên phía trần đồng thời siết cơ mông.",
+        "Đưa đầu gối theo quỹ đạo trở xuống sàn dưới hông, giữ gối co để kiểm soát thanh đòn.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "62a98c2f-1a87-4320-8337-a637b4f3634e"
+    },
+    {
+      "index": 29,
+      "sourceName": "Landmine Goblet Curtsy Lunge",
+      "name": "Chùng chân bắt chéo giữ landmine trước ngực",
+      "steps": [
+        "Bắt đầu đối diện thanh đòn, giữ đầu thanh đòn trước ngực ở tư thế goblet và khuỷu tay sát thân.",
+        "Bước lùi và chéo qua thân bằng một chân ở góc 45 độ, giữ trọng lượng trên gót chân trước để nhẹ nhàng hạ đầu gối sau xuống sàn.",
+        "Đạp qua gót chân trước để bước lên trở về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn rồi đổi chân."
+      ],
+      "exercise_id": "eb499a97-b40c-4cda-8a79-b5d53a7c3716"
+    },
+    {
+      "index": 30,
+      "sourceName": "Landmine Single Arm Chest Press",
+      "name": "Đẩy ngực một tay với landmine",
+      "steps": [
+        "Nằm ngửa vuông góc với thanh đòn, dùng tay phía xa điểm gắn landmine giữ đầu thanh đòn. Khuỷu tay tựa sàn ở góc 45 đến 60 độ với thân, cổ tay ngay trên khuỷu tay.",
+        "Đẩy đầu thanh đòn lên, siết ngực ở điểm cao nhất. Hạ thanh đòn đến khi khuỷu tay chạm nhẹ sàn.",
+        "Lặp lại đủ số lần mong muốn ở một bên rồi đổi bên."
+      ],
+      "exercise_id": "48851130-e3d7-4a55-94fa-255322897744"
+    },
+    {
+      "index": 32,
+      "sourceName": "Landmine Sit Up",
+      "name": "Gập bụng ngồi dậy với landmine",
+      "steps": [
+        "Nằm phẳng trên sàn, giữ đầu thanh đòn với hai tay duỗi.",
+        "Nâng lưng khỏi sàn đến khi ngồi ở góc 90 độ.",
+        "Sau đó từ từ hạ trở lại sàn."
+      ],
+      "exercise_id": "671ac465-b4d9-498f-881a-912d1e2528c5"
+    },
+    {
+      "index": 45,
+      "sourceName": "Parallel Bar Dips",
+      "name": "Chống đẩy xà kép",
+      "steps": [
+        "Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "exercise_id": "90dfa42f-efc7-474c-9cda-f7d9ed603200"
+    },
+    {
+      "index": 50,
+      "sourceName": "Stability Ball Wall Squat",
+      "name": "Squat tựa tường với bóng thăng bằng",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, đặt bóng thăng bằng giữa lưng dưới và tường.",
+        "Từ từ squat xuống bằng cách co gối đến 90 độ, giữ lưng thẳng và cơ trung tâm siết.",
+        "Ấn qua gót chân, duỗi chân và đứng lên, giữ thăng bằng và kiểm soát."
+      ],
+      "exercise_id": "6af3a49a-5a01-4cb1-8b41-acb2e3a2d9db"
+    },
+    {
+      "index": 51,
+      "sourceName": "Windshield Wiper",
+      "name": "Xoay chân kiểu cần gạt nước",
+      "steps": [
+        "Nằm ngửa, hai tay dang và hai chân sát nhau.",
+        "Nâng chân đến 90 độ.",
+        "Xoay hai chân sang hai bên, giữ vai trên sàn."
+      ],
+      "exercise_id": "9d8c3706-b54c-4029-8189-348470f4b39e"
+    },
+    {
+      "index": 55,
+      "sourceName": "Bosu Ball Split Squat",
+      "name": "Squat tách chân với bóng BOSU",
+      "steps": [
+        "Đứng trước BOSU, một bàn chân ở giữa bóng.",
+        "Hạ vào tư thế chùng chân, đầu gối ở góc 90 độ.",
+        "Đạp chân trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "61dccbc8-0f36-461c-ba4a-4f8ec7ab9593"
+    },
+    {
+      "index": 57,
+      "sourceName": "Cable Belt Calf Raise",
+      "name": "Nhón gót với đai gắn cáp",
+      "steps": [
+        "Đeo đai tập xà kép và móc khóa cáp vào xích hoặc dây đai.",
+        "Bước lùi vài bước rồi đứng thẳng. Nhón lên phần đệm trước bàn chân và giữ trong 1 nhịp đếm."
+      ],
+      "exercise_id": "8e8fd6cb-2969-4a0d-b11c-c963a080b2e9"
+    },
+    {
+      "index": 58,
+      "sourceName": "Cable Cross Pushdown",
+      "name": "Đẩy cáp chéo tập tay sau",
+      "steps": [
+        "Dùng hai tay cầm hoặc không dùng phụ kiện. Đặt cả hai bên cáp chéo ở vị trí cao nhất.",
+        "Đứng giữa máy, mỗi tay giữ cáp bên đối diện. Cánh tay trên tạo góc 45 độ với thân.",
+        "Duỗi khuỷu tay đến khi cảm thấy cơ co rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "13950676-cd8b-4856-81ad-99dbbce23e15"
+    },
+    {
+      "index": 60,
+      "sourceName": "Cable External Rotation",
+      "name": "Xoay ngoài vai với cáp",
+      "steps": [
+        "Một tay giữ tay cầm cáp, khuỷu tay co 90 độ và tay đi ngang qua thân.",
+        "Xoay tay ra ngoài, giữ khuỷu tay ổn định."
+      ],
+      "exercise_id": "dc46c05f-2836-4af7-9905-1aa16a670493"
+    },
+    {
+      "index": 61,
+      "sourceName": "Cable Internal Rotation",
+      "name": "Xoay trong vai với cáp",
+      "steps": [
+        "Đứng thẳng, nắm tay cầm cáp bằng tay nắm trung tính, khuỷu tay ở góc 90 độ.",
+        "Xoay vai bằng cách đưa cẳng tay ngang qua thân."
+      ],
+      "exercise_id": "021f6cb3-27a9-4962-a250-79fa9517f933"
+    },
+    {
+      "index": 65,
+      "sourceName": "Cable Wrist Extension",
+      "name": "Duỗi cổ tay với cáp",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Bắt đầu với khuỷu tay ở góc 90 độ, lòng bàn tay hướng xuống. Gập và duỗi cổ tay."
+      ],
+      "exercise_id": "8aee4fef-ff5a-481f-a8aa-e25e98010192"
+    },
+    {
+      "index": 94,
+      "sourceName": "Dumbbell Weighted Dip",
+      "name": "Chống đẩy xà kép gắn tạ đơn",
+      "steps": [
+        "Dùng đai tập xà kép gắn tạ đơn vào người. Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "exercise_id": "cb875305-f2f6-48fc-909e-27815d816abf"
+    },
+    {
+      "index": 106,
+      "sourceName": "Kettlebell High Incline Bench Press",
+      "name": "Đẩy tạ ấm trên ghế dốc cao",
+      "steps": [
+        "Đặt ghế ở góc từ 45 đến 60 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn.",
+        "Hạ tạ ấm về giữa ngực.",
+        "Nâng tạ ấm chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "exercise_id": "00e0406c-028e-488b-9567-03080b5137e0"
+    },
+    {
+      "index": 107,
+      "sourceName": "Kettlebell Incline Bench Press",
+      "name": "Đẩy tạ ấm trên ghế dốc lên",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn.",
+        "Hạ tạ ấm về giữa ngực.",
+        "Nâng tạ ấm chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "exercise_id": "a424ec46-2fd1-4a46-a3ea-a883bfcb89f4"
+    },
+    {
+      "index": 121,
+      "sourceName": "Machine Leg Extension",
+      "name": "Duỗi gối trên máy",
+      "steps": [
+        "Ngồi trên máy, lưng tựa đệm, điều chỉnh máy để đầu gối ở góc 90 độ tại vị trí bắt đầu.",
+        "Nâng tạ bằng cách duỗi gối ra rồi hạ chân về vị trí ban đầu. Cả hai chiều chuyển động cần chậm và có kiểm soát."
+      ],
+      "exercise_id": "b87e6b1b-6800-4998-a22d-1248fe674499"
+    },
+    {
+      "index": 123,
+      "sourceName": "Machine Plate Loaded Leg Extension",
+      "name": "Duỗi gối trên máy gắn bánh tạ",
+      "steps": [
+        "Ngồi trên máy, lưng tựa đệm, điều chỉnh máy để đầu gối ở góc 90 độ tại vị trí bắt đầu.",
+        "Nâng tạ bằng cách duỗi gối ra rồi hạ chân về vị trí ban đầu. Cả hai chiều chuyển động cần chậm và có kiểm soát."
+      ],
+      "exercise_id": "41275e45-0a4b-4352-970d-e0f389ec663a"
+    },
+    {
+      "index": 124,
+      "sourceName": "Machine Pulldown",
+      "name": "Kéo xô trên máy",
+      "steps": [
+        "Nắm thanh với lòng bàn tay hướng về trước, hai tay rộng hơn vai.",
+        "Khi hai tay duỗi phía trước giữ thanh, ngả thân ra sau khoảng 30 độ và nâng ngực.",
+        "Kéo thanh xuống khoảng ngang cằm hoặc thấp hơn một chút theo chuyển động mượt, đồng thời siết hai bả vai lại gần nhau.",
+        "Siết trong một giây rồi từ từ nâng thanh về vị trí ban đầu đến khi hai tay duỗi hoàn toàn."
+      ],
+      "exercise_id": "77222098-18f3-4e01-b21f-cdf90a08d6bb"
+    },
+    {
+      "index": 138,
+      "sourceName": "Plate Reverse Lunge Twist",
+      "name": "Chùng chân lùi xoay người với bánh tạ",
+      "steps": [
+        "Bước chân phải ra sau vào tư thế chùng chân, cả hai gối co 90 độ.",
+        "Xoay thân sang phải, giữ bánh tạ sát ngực.",
+        "Đạp chân trước để trở về vị trí ban đầu rồi lặp lại bên kia."
+      ],
+      "exercise_id": "80da666a-26c7-4060-921f-69f5d887136a"
+    },
+    {
+      "index": 142,
+      "sourceName": "Plate Weighted Dip",
+      "name": "Chống đẩy xà kép gắn bánh tạ",
+      "steps": [
+        "Dùng đai tập xà kép gắn bánh tạ vào người. Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "exercise_id": "510abfb8-b0dd-4953-a347-34639ac9f210"
+    },
+    {
+      "index": 155,
+      "sourceName": "Smith Machine Glute Kickback",
+      "name": "Đá chân ra sau trên máy Smith",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối, một bàn chân đặt vào mặt dưới thanh đòn.",
+        "Giữ cơ trung tâm siết, lưng phẳng và chân đang tập co 90 độ, đẩy gót chân lên phía trần đồng thời siết cơ mông.",
+        "Đưa đầu gối theo quỹ đạo trở xuống sàn dưới hông, giữ gối co để kiểm soát thanh đòn.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "0d274d59-d309-4a3b-bf06-d816dadbc9ca"
+    },
+    {
+      "index": 156,
+      "sourceName": "Smith Machine Incline Bench Press",
+      "name": "Đẩy ngực trên ghế dốc lên với máy Smith",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "exercise_id": "29ca15ed-d688-4e9c-9c0b-2ced5cfb9e8c"
+    },
+    {
+      "index": 159,
+      "sourceName": "Chest Stretch Variation One",
+      "name": "Giãn cơ ngực biến thể một",
+      "steps": [
+        "Dùng tường cao, đặt tay tựa vào tường ở góc 90 độ.",
+        "Đứng chân trước chân sau, nghiêng vào tường để mở ngực.",
+        "Dừng vài giây rồi trở về vị trí ban đầu và lặp lại bên đối diện."
+      ],
+      "exercise_id": "d2efa759-8d10-4e96-9563-f4c34e398abe"
+    },
+    {
+      "index": 160,
+      "sourceName": "Forearms Stretch Variation Four",
+      "name": "Giãn cơ cẳng tay biến thể bốn",
+      "steps": [
+        "Nâng tay ngang vai, tạo góc 90 độ với thân.",
+        "Ấn nhẹ lên bàn tay và đẩy về phía mình.",
+        "Xoay tay ngang qua thân.",
+        "Đổi bên và lặp lại."
+      ],
+      "exercise_id": "78948b30-4f20-48a9-ada3-737617b85f2e"
+    },
+    {
+      "index": 161,
+      "sourceName": "Forearms Stretch Variation Three",
+      "name": "Giãn cơ cẳng tay biến thể ba",
+      "steps": [
+        "Đặt hai bàn tay lại với nhau.",
+        "Xoay cánh tay và bàn tay 180 độ.",
+        "Giữ ở điểm giãn sâu nhất.",
+        "Trở về vị trí ban đầu."
+      ],
+      "exercise_id": "532d22b3-fba0-4749-8605-8f7cc98d4a1c"
+    },
+    {
+      "index": 164,
+      "sourceName": "Glutes Stretch Variation Three",
+      "name": "Giãn cơ mông biến thể ba",
+      "steps": [
+        "Nằm phẳng và đưa chân trái lên 90 độ.",
+        "Giữ chân trái bằng hai tay, từ từ xoay hông sang bên phải.",
+        "Giữ ở điểm giãn sâu nhất rồi từ từ trở về vị trí ban đầu.",
+        "Đổi bên và lặp lại."
+      ],
+      "exercise_id": "b71d4fa0-47ae-480f-a244-0a4a292c1f96"
+    },
+    {
+      "index": 167,
+      "sourceName": "Shoulders Stretch Variation Three",
+      "name": "Giãn vai biến thể ba",
+      "steps": [
+        "Đặt mu bàn tay vào vùng lõm lưng dưới, tay ở góc 90 độ.",
+        "Dùng tay kia giữ khuỷu tay, từ từ kéo tay về trước đến khi cảm thấy vai được giãn. Dừng ở điểm giãn sâu nhất rồi trở về vị trí ban đầu.",
+        "Trở về vị trí ban đầu rồi lặp lại với tay kia."
+      ],
+      "exercise_id": "b637bb52-7c75-4342-a8b0-09a28bb82fce"
+    },
+    {
+      "index": 168,
+      "sourceName": "Traps Stretch Variation Two",
+      "name": "Giãn cơ thang biến thể hai",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai.",
+        "Giữ ngực hướng về trước, xoay đầu 90 độ sang trái rồi trở về giữa.",
+        "Lặp lại bằng cách xoay đầu sang hướng kia."
+      ],
+      "exercise_id": "b415a3f3-14c7-47e4-862a-f37b9c3163b0"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 13,
+      "sourceName": "Mini Band Bent Arm Lateral Raise",
+      "reason": "Angle restored from DOM, but bilateral raising still ends with an alternating lowering cue. Translation remains held for variant verification.",
+      "exercise_id": "2a854fdd-57fa-4f00-822d-4d119cdd1919"
+    },
+    {
+      "index": 166,
+      "sourceName": "Quads Stretch Variation Two",
+      "reason": "Angle restored from DOM, but front-foot setup does not identify the joint for the 90-degree angle. Translation remains held for support/reference verification.",
+      "exercise_id": "4998e346-5462-4ed3-a55e-e17c7566ca23"
+    }
+  ]
+}

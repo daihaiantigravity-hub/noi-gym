@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared full source blocks with Vietnamese text, preserving load, grip, support, same/opposite limbs, angles, caution strength, range and step order. Held incomplete or misordered setup, conflicting load, and mismatched thruster/upright-row motions.",
+  "translations": [
+    {
+      "index": 301,
+      "sourceName": "Kettlebell Single Arm Rear Delt Row",
+      "name": "Kéo tạ ấm một tay tập vai sau",
+      "steps": [
+        "Gập hông, giữ lưng phẳng và tạ ấm dưới vai.",
+        "Kéo khuỷu tay ra ngoài và về sau theo góc rộng để tập trung vào cơ vai sau.",
+        "Siết cơ ở điểm cao nhất rồi từ từ hạ xuống đến khi giãn hết biên độ."
+      ],
+      "exercise_id": "6a89137d-357c-4b59-8b0d-a22f5cd0b079"
+    },
+    {
+      "index": 302,
+      "sourceName": "Kettlebell Single Arm Reverse Curl",
+      "name": "Cuốn tay trước một tay nắm sấp với tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng hông.",
+        "Giữ tạ ấm với lòng bàn tay úp.",
+        "Nâng tạ về phía vai, siết cơ tay trước rồi hạ xuống có kiểm soát."
+      ],
+      "exercise_id": "13fd88aa-f384-432e-b422-71f69cead222"
+    },
+    {
+      "index": 303,
+      "sourceName": "Kettlebell Single Arm Reverse Lunge",
+      "name": "Chùng chân lùi với tạ ấm giữ một tay",
+      "steps": [
+        "Đứng thẳng, hai chân hơi cách nhau, một tay giữ tạ ấm.",
+        "Đưa chân cùng bên tay giữ tạ về sau, hạ người đến khi đầu gối sau chạm đất, giữ lưng thẳng.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "0813038b-e881-48c2-b7d8-4bbd02d1caf0"
+    },
+    {
+      "index": 304,
+      "sourceName": "Kettlebell Single Arm Row",
+      "name": "Kéo tạ ấm một tay với chân trước chân sau",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, lùi một chân về sau. Dùng tay cùng bên chân sau giữ tạ ấm.",
+        "Gập người về trước tại hông, đưa tạ xuống sàn trong khi hơi co gối và giữ lưng thẳng.",
+        "Nâng tạ về phía ngực rồi hạ xuống và lặp lại."
+      ],
+      "exercise_id": "85e40b53-ce52-4e58-8db0-b1864df34688"
+    },
+    {
+      "index": 305,
+      "sourceName": "Kettlebell Single Arm Row On Bench",
+      "name": "Kéo tạ ấm một tay tựa ghế",
+      "steps": [
+        "Đứng trước ghế phẳng, hai chân rộng bằng vai, một tay giữ tạ ấm.",
+        "Đặt tay còn lại lên ghế làm điểm tựa, gập người tại eo để ngực song song với mặt đất.",
+        "Từ vị trí này, kéo tạ về phía ngực, đồng thời siết bả vai.",
+        "Giữ khuỷu tay gần thân và cơ bụng siết trong suốt chuyển động."
+      ],
+      "exercise_id": "312c78f2-da7c-4513-98f2-d6c01f4c8a88"
+    },
+    {
+      "index": 306,
+      "sourceName": "Kettlebell Single Arm Shoulder Extension",
+      "name": "Duỗi vai một tay với tạ ấm",
+      "steps": [
+        "Giữ tạ ấm bên thân, tay thẳng và lòng bàn tay ở tư thế trung tính.",
+        "Đưa tay về sau đến khi cảm nhận cơ xô và vai sau hoạt động.",
+        "Từ từ hạ về vị trí ban đầu, kiểm soát hoàn toàn chuyển động."
+      ],
+      "exercise_id": "8ffe6e75-5003-446c-a0e1-5865713fbf4f"
+    },
+    {
+      "index": 307,
+      "sourceName": "Kettlebell Single Arm Snatch",
+      "name": "Cử giật một tay với tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tạ ấm giữa hai chân.",
+        "Squat xuống, nắm tạ, bật hông mạnh và nâng tạ qua đầu.",
+        "Hạ tạ an toàn về vị trí bắt đầu."
+      ],
+      "exercise_id": "329b7c45-da01-4b05-a38d-5646a852cca1"
+    },
+    {
+      "index": 308,
+      "sourceName": "Kettlebell Single Arm Step Up Balance",
+      "name": "Bước lên bục giữ thăng bằng với tạ ấm giữ một tay",
+      "steps": [
+        "Đứng trước bục hoặc ghế chắc chắn cao khoảng ngang gối, một tay giữ tạ ấm.",
+        "Đặt chân phải lên bục, ấn gót chân để nâng người lên bục, giữ chân trái không chạm đất.",
+        "Bước chân phải xuống, hạ chân trái về đất."
+      ],
+      "exercise_id": "99c9458c-8a00-4f59-9b60-3873f9a633b9"
+    },
+    {
+      "index": 309,
+      "sourceName": "Kettlebell Single Arm Step Up Knee Drive",
+      "name": "Bước lên bục nâng gối với tạ ấm giữ một tay",
+      "steps": [
+        "Giữ một tạ ấm bên thân, đặt bàn chân đối diện lên bục.",
+        "Ấn gót chân trước để bước lên, giữ thân thẳng và cơ bụng siết.",
+        "Nâng cao đầu gối chân sau ở điểm trên cùng rồi từ từ bước xuống có kiểm soát."
+      ],
+      "exercise_id": "abace5a3-f9b2-4ffe-a4d7-68377bd182e8"
+    },
+    {
+      "index": 310,
+      "sourceName": "Kettlebell Single Arm Swing",
+      "name": "Vung tạ ấm một tay",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tạ ấm giữa hai chân, nắm tạ bằng một tay và gập hông.",
+        "Dùng lực đẩy hông để vung tạ mạnh về trước, giữ tay thẳng.",
+        "Vung tạ trở lại giữa hai chân, lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "922f2b2f-1ca1-4951-acca-18430a53b0d1"
+    },
+    {
+      "index": 311,
+      "sourceName": "Kettlebell Single Arm Thruster",
+      "name": "Squat kết hợp đẩy tạ ấm qua đầu một tay",
+      "steps": [
+        "Giữ tạ ấm ngang vai, hai chân rộng bằng vai.",
+        "Squat xuống rồi đạp người lên, đẩy tạ qua đầu trong một chuyển động liền mạch.",
+        "Hạ tạ khi hạ người vào lần lặp tiếp theo một cách nhịp nhàng."
+      ],
+      "exercise_id": "5b3e5b28-9ad8-44ba-b91e-04018ee23c65"
+    },
+    {
+      "index": 312,
+      "sourceName": "Kettlebell Single Arm Tricep Guilotine Press",
+      "name": "Đẩy tay sau một tay kiểu guillotine với tạ ấm",
+      "steps": [
+        "Nằm trên ghế, giữ tạ ấm phía trên ngực trên, lòng bàn tay hướng vào trong.",
+        "Gập khuỷu tay về trước để hạ tạ về phía cổ hoặc ngực trên.",
+        "Duỗi hoàn toàn tay, siết cơ tay sau ở điểm cao nhất và giữ vai ổn định."
+      ],
+      "exercise_id": "a19f9ee6-13d1-44f9-bb97-cc03bb23dbd4"
+    },
+    {
+      "index": 313,
+      "sourceName": "Kettlebell Single Arm Z Press",
+      "name": "Ngồi duỗi chân đẩy tạ ấm một tay kiểu Z press",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, giữ một tạ ấm ngang vai.",
+        "Siết cơ bụng và đẩy tạ qua đầu, không nghiêng người sang bên.",
+        "Duỗi hoàn toàn tay, giữ thân ổn định.",
+        "Từ từ hạ tạ về vai."
+      ],
+      "exercise_id": "083c3fac-57e3-40c6-9785-2bc457aaf054"
+    },
+    {
+      "index": 314,
+      "sourceName": "Kettlebell Single Leg Calf Raise",
+      "name": "Nhón gót một chân với tạ ấm",
+      "steps": [
+        "Đứng thẳng, một tay giữ tạ ấm, nhấc bàn chân ở bên không giữ tạ khỏi sàn.",
+        "Nâng gót chân lên, giữ đầu gối cố định.",
+        "Dừng khi gót chân nâng hết biên độ, sau đó từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "276102e6-92bc-405a-888d-b6476c464540"
+    },
+    {
+      "index": 315,
+      "sourceName": "Kettlebell Single Leg Deadlift",
+      "name": "Deadlift một chân với tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, nhấc một bàn chân khỏi sàn ra phía sau. Dùng tay cùng bên chân nhấc giữ tạ ấm.",
+        "Gập người về trước tại hông, đưa tạ xuống sàn trong khi duỗi chân nhấc ra sau, giữ lưng thẳng và dang tay còn lại sang bên để thăng bằng.",
+        "Trở về tư thế đứng thẳng rồi lặp lại."
+      ],
+      "exercise_id": "7783d74b-fb38-4c7e-8545-c95c84117525"
+    },
+    {
+      "index": 316,
+      "sourceName": "Kettlebell Single Leg Glute Bridge",
+      "name": "Nâng mông một chân với tạ ấm",
+      "steps": [
+        "Nằm trên sàn, một gối co với bàn chân đặt chắc trên sàn, chân còn lại duỗi, đặt tạ ấm trên chậu.",
+        "Đạp chân đang co và giữ cơ bụng siết, nâng chậu và chân duỗi khỏi sàn đến khi bụng, chậu và đùi thành đường thẳng.",
+        "Từ từ hạ xuống đất về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "7915bb2f-1446-4508-b2df-a66bcae4a4ea"
+    },
+    {
+      "index": 317,
+      "sourceName": "Kettlebell Single Leg Hip Thrust",
+      "name": "Đẩy hông một chân với tạ ấm",
+      "steps": [
+        "Ngồi trên sàn, một gối co với bàn chân đặt chắc trên sàn, chân còn lại duỗi, tựa lưng vào ghế.",
+        "Đặt tạ ấm trên chậu, nâng chậu đến khi bụng, chậu và đùi thẳng hàng.",
+        "Từ từ hạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "6de17417-0f36-4378-bc9a-96be3f3dc91c"
+    },
+    {
+      "index": 318,
+      "sourceName": "Kettlebell Single Leg Single Arm Calf Raise",
+      "name": "Nhón gót một chân với tạ ấm giữ một tay",
+      "steps": [
+        "Đứng thẳng, một tay giữ tạ ấm, nhấc bàn chân đối diện khỏi sàn.",
+        "Nâng gót chân lên, giữ đầu gối cố định.",
+        "Dừng khi gót chân nâng hết biên độ, sau đó từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "85d8ae17-b4f5-4164-9f1e-9a31ff76ca0d"
+    },
+    {
+      "index": 319,
+      "sourceName": "Kettlebell Situp",
+      "name": "Gập bụng ngồi dậy với tạ ấm",
+      "steps": [
+        "Nằm ngửa, hai chân thẳng, duỗi tay giữ tạ ấm phía trên ngực.",
+        "Kéo bụng về gốc cột sống để siết cơ, sau đó nâng đầu và vai khỏi sàn, giữ tạ với tay duỗi phía trên ngực.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "e767ba52-bd39-489c-ab56-68ebb6600deb"
+    },
+    {
+      "index": 320,
+      "sourceName": "Kettlebell Skull Crusher",
+      "name": "Duỗi tay sau kiểu skullcrusher với tạ ấm",
+      "steps": [
+        "Nằm ngửa, đầu gối nâng và lòng bàn chân đặt phẳng trên sàn.",
+        "Dùng hai tay giữ tạ ấm ngay phía trên ngực.",
+        "Giữ yên bắp tay, gập khuỷu tay để từ từ đưa tạ về phía trước trán.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "d2b8355e-d052-4988-b73d-1392f285ab3b"
+    },
+    {
+      "index": 321,
+      "sourceName": "Kettlebell Snatch (Double)",
+      "name": "Cử giật với hai tạ ấm",
+      "steps": [
+        "Bắt đầu với hai tạ ấm giữa hai chân, gập hông rồi vung tạ mạnh lên.",
+        "Khi tạ đi lên, khóa tay trên đầu, giữ cổ tay thẳng.",
+        "Kiểm soát chuyển động hạ xuống rồi lặp lại."
+      ],
+      "exercise_id": "e656bdcf-676b-4ff6-bc89-e062e1c02fd1"
+    },
+    {
+      "index": 322,
+      "sourceName": "Kettlebell Somersault Squat",
+      "name": "Squat kiểu somersault với tạ ấm",
+      "steps": [
+        "Bắt đầu trong tư thế squat sâu, giữ tạ ấm giữa hai đùi.",
+        "Duỗi gối đến khi gần thẳng, không duỗi hông."
+      ],
+      "exercise_id": "3488220d-f96c-4751-b673-8ec70a87bc98"
+    },
+    {
+      "index": 323,
+      "sourceName": "Kettlebell Spinal Jefferson Curl",
+      "name": "Cuộn cột sống kiểu Jefferson với tạ ấm",
+      "steps": [
+        "Đứng thẳng, giữ các tạ ấm phía trước, hai chân rộng bằng hông.",
+        "Từ từ cuộn cột sống xuống từng đốt sống một, vươn về phía ngón chân.",
+        "Đảo ngược chuyển động, cuộn cột sống lên đến khi đứng thẳng trở lại."
+      ],
+      "exercise_id": "bfdd7f2a-5162-46d4-8ef3-b3135c574a29"
+    },
+    {
+      "index": 324,
+      "sourceName": "Kettlebell Squat Clean And Jerk",
+      "name": "Đưa tạ ấm lên vai qua squat rồi đẩy có trợ lực chân",
+      "steps": [
+        "Bắt đầu với các tạ ấm đặt trên sàn giữa hai chân, đầu gối co và lưng phẳng.",
+        "Kéo tạ mạnh lên vai, đón tạ trong tư thế squat.",
+        "Đứng thẳng, hơi nhún người rồi đạp lên để đẩy tạ qua đầu."
+      ],
+      "exercise_id": "507c2334-c25f-410b-b2ae-4df0379487d3"
+    },
+    {
+      "index": 325,
+      "sourceName": "Kettlebell Staggered Deadlift",
+      "name": "Deadlift với tạ ấm, chân trước chân sau",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, một chân phía trước, tạ ấm giữa hai bàn chân.",
+        "Gập hông, nắm tạ và đứng thẳng lên.",
+        "Hạ tạ có kiểm soát rồi lặp lại."
+      ],
+      "exercise_id": "24089c9a-6a8d-4666-b62e-b5e785d98218"
+    },
+    {
+      "index": 326,
+      "sourceName": "Kettlebell Staggered Deadlift (Single)",
+      "name": "Deadlift với một tạ ấm, chân trước chân sau",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, lùi một chân về sau. Dùng hai tay giữ tạ ấm trước đùi.",
+        "Gập người về trước tại hông, đưa tạ xuống sàn trong khi hơi co gối và giữ lưng thẳng.",
+        "Trở về tư thế đứng thẳng rồi lặp lại."
+      ],
+      "exercise_id": "cc6729d4-3fc0-483a-8cc1-a4fee011e51a"
+    },
+    {
+      "index": 329,
+      "sourceName": "Kettlebell Standing Tricep Extension",
+      "name": "Đứng duỗi tay sau qua đầu với tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Dùng hai tay giữ tạ ấm sau đầu.",
+        "Duỗi thẳng tay để đưa tạ lên trên đầu.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "b5edabcb-5370-42d1-b872-60e99237c7d3"
+    },
+    {
+      "index": 330,
+      "sourceName": "Kettlebell Step Up",
+      "name": "Bước lên bục với tạ ấm",
+      "steps": [
+        "Đứng thẳng, dùng ghế làm bậc, đặt một bàn chân lên ghế và dùng tay cùng bên chân thẳng giữ tạ ấm.",
+        "Đứng lên và đưa cả hai chân lên ghế. Từ từ hạ chân về vị trí ban đầu.",
+        "Lặp lại."
+      ],
+      "exercise_id": "e9ab9114-3e2f-4882-9156-c3598fb3ba17"
+    },
+    {
+      "index": 332,
+      "sourceName": "Kettlebell Sumo Deadlift",
+      "name": "Sumo deadlift với tạ ấm",
+      "steps": [
+        "Đứng rộng chân, các ngón chân hơi hướng ra ngoài, tạ ấm trên sàn giữa hai bàn chân.",
+        "Gập hông và gối, giữ lưng thẳng và nắm tay cầm tạ.",
+        "Duỗi hông và gối để nâng tạ, đứng thẳng rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "f6471f6a-15f2-46d0-8b21-72188c65e85a"
+    },
+    {
+      "index": 333,
+      "sourceName": "Kettlebell Swing",
+      "name": "Vung tạ ấm",
+      "steps": [
+        "Đứng hai chân hơi rộng hơn vai, giữ tạ ấm giữa hai chân, đầu gối hơi co.",
+        "Giữ lưng thẳng, vung tạ lên đến ngang ngực rồi cẩn thận hạ xuống.",
+        "Lặp lại."
+      ],
+      "exercise_id": "a5a7ed22-fc91-418d-ac5a-8a90f395d45b"
+    },
+    {
+      "index": 334,
+      "sourceName": "Kettlebell Swing (Double)",
+      "name": "Vung hai tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, các tạ ấm phía ngoài chân.",
+        "Gập hông, vung tạ về trước rồi về sau.",
+        "Đẩy hông để vung tạ lên, giữ tay thẳng."
+      ],
+      "exercise_id": "64567381-98db-4977-88e5-2be2ad374802"
+    },
+    {
+      "index": 335,
+      "sourceName": "Kettlebell Swing Lunge",
+      "name": "Chùng chân tới lùi với tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tạ ấm bên thân.",
+        "Bước chân phải về trước và gập cả hai gối để hạ người đến khi đùi phải song song với đất.",
+        "Đạp chân phải để trở về vị trí ban đầu.",
+        "Bước chính chân đó về sau đến khi đầu gối sau chạm nhẹ sàn."
+      ],
+      "exercise_id": "4dd1fac1-ef7f-477a-9dec-85efa7989036"
+    },
+    {
+      "index": 336,
+      "sourceName": "Kettlebell Tate Press",
+      "name": "Đẩy tạ ấm kiểu Tate",
+      "steps": [
+        "Nằm ngửa, giữ tay thẳng và tạ ấm phía trên ngực, lòng bàn tay hướng ra xa người.",
+        "Gập tay để tạ chạm phần trên vai đối diện với tay đang tập.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "b583e66a-001b-44f2-aab7-1d41d7bd79d0"
+    },
+    {
+      "index": 341,
+      "sourceName": "Kettlebell Walkover Pushup",
+      "name": "Chống đẩy đổi tay qua tạ ấm",
+      "steps": [
+        "Vào tư thế chống đẩy với chân rộng, một tay tựa lên tạ ấm. Chống đẩy đầy đủ, hạ ngực về đất trong khi giữ cơ thể thẳng rồi trở về vị trí ban đầu.",
+        "Đổi tay đặt trên tạ, đưa tay ban đầu ở trên tạ xuống dưới vai và chống đẩy thêm một lần.",
+        "Lặp lại."
+      ],
+      "exercise_id": "ba6e4a35-403f-4561-bb19-7ce50e18dc00"
+    },
+    {
+      "index": 342,
+      "sourceName": "Kettlebell Windmill",
+      "name": "Nghiêng người kiểu cối xay gió với tạ ấm trên đầu",
+      "steps": [
+        "Đứng hai chân hơi rộng hơn vai. Một tay giữ tạ ấm và duỗi tay lên trên đầu.",
+        "Giữ chân thẳng và tạ trên đầu, hạ tay thả lỏng về phía đất, xoay người về phía tay đang nâng.",
+        "Trở về vị trí ban đầu, nghiêng chậu về trước rồi lặp lại."
+      ],
+      "exercise_id": "ac00c686-a6b4-4443-a26b-2888e68c2a44"
+    },
+    {
+      "index": 343,
+      "sourceName": "Kettlebell Windmill Bottom Hand",
+      "name": "Nghiêng người kiểu cối xay gió với tạ ấm ở tay dưới",
+      "steps": [
+        "Đứng hai chân hơi rộng hơn vai. Tay phía dưới giữ tạ ấm, tay còn lại duỗi trên đầu.",
+        "Giữ chân thẳng và tạ phía trong đùi, hạ tạ về đất, xoay người về phía tay đang nâng.",
+        "Trở về vị trí ban đầu, nghiêng chậu về trước rồi lặp lại."
+      ],
+      "exercise_id": "fe012edc-eefa-4250-9a64-202676c7fc39"
+    },
+    {
+      "index": 344,
+      "sourceName": "Kettlebell Wood Chopper",
+      "name": "Vung tạ ấm chéo người kiểu bổ củi",
+      "steps": [
+        "Đứng hai chân hơi rộng hơn vai, dùng hai tay giữ tạ ấm sát hông.",
+        "Giữ tay thẳng, vung tạ lên chéo qua người về phía vai đến ngang đầu, đồng thời xoay hông.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "881b9812-3187-4158-af47-eadc7e5b3201"
+    },
+    {
+      "index": 345,
+      "sourceName": "Kettlebell Wrist Curl",
+      "name": "Gập cổ tay với tạ ấm",
+      "steps": [
+        "Đứng thẳng, dùng hai tay giữ tạ ấm trước chậu, cẳng tay hướng ra ngoài.",
+        "Gập cổ tay về phía người đến khi tạ ngang bụng.",
+        "Hạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "1afd3cc1-1221-47f5-a311-9ebadd4ff021"
+    },
+    {
+      "index": 346,
+      "sourceName": "Kettlebell Wrist Extension",
+      "name": "Duỗi cổ tay với tạ ấm",
+      "steps": [
+        "Đứng thẳng, dùng hai tay giữ tạ ấm trước chậu, cẳng tay hướng vào trong.",
+        "Đưa cổ tay lên đến khi cổ tay duỗi hoàn toàn.",
+        "Hạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "293f8469-3b9a-4653-a697-854812d6573c"
+    },
+    {
+      "index": 347,
+      "sourceName": "Kettlebell Z Press",
+      "name": "Ngồi duỗi chân đẩy tạ ấm kiểu Z press",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, giữ tạ ấm ngang vai.",
+        "Siết cơ bụng và đẩy cả hai tạ qua đầu.",
+        "Duỗi hoàn toàn hai tay, không ngả thân về sau.",
+        "Từ từ hạ tạ về ngang vai."
+      ],
+      "exercise_id": "d837df1d-cf0e-4198-aba7-ad778f3d27a3"
+    },
+    {
+      "index": 348,
+      "sourceName": "Swing To Upright Row",
+      "name": "Vung tạ ấm kết hợp kéo dọc thân",
+      "steps": [
+        "Bắt đầu với tạ ấm giữa hai chân, gập hông và vung tạ lên.",
+        "Nâng tạ đến ngang ngực, khuỷu tay cao, siết cơ vai.",
+        "Hạ tạ xuống có kiểm soát. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "e07333c0-a434-4f2b-9cef-3c15afa662ee"
+    },
+    {
+      "index": 349,
+      "sourceName": "Smith Machine Bodyweight Skullcrusher",
+      "name": "Duỗi tay sau không tạ kiểu skullcrusher với thanh máy Smith",
+      "steps": [
+        "Giữ thanh máy Smith và nghiêng người về trước.",
+        "Giữ khuỷu tay khép, sau đó gập và duỗi khuỷu tay."
+      ],
+      "exercise_id": "3af80209-8c26-4768-b6c0-7cbca2c121fb"
+    },
+    {
+      "index": 350,
+      "sourceName": "Smith Machine Close Grip Bench Press",
+      "name": "Đẩy ngực tay hẹp trên máy Smith",
+      "steps": [
+        "Nằm trên ghế, bàn chân đặt trên đất. Nắm thanh hẹp và duỗi thẳng hai tay.",
+        "Hạ thanh về phần ngực dưới đến giữa.",
+        "Từ từ nâng thanh đến khi khóa khuỷu tay."
+      ],
+      "exercise_id": "81de7ae5-52ce-46b8-bd87-afedeb529f1e"
+    },
+    {
+      "index": 351,
+      "sourceName": "Smith Machine Hanging Knee Tuck",
+      "name": "Treo người co gối trên thanh máy Smith",
+      "steps": [
+        "Đặt đệm đẩy hông lên thanh máy Smith ở ngang cổ. Đưa cả hai tay qua thanh và nhấc bàn chân khỏi đất.",
+        "Kéo đầu gối về ngực và co cơ bụng."
+      ],
+      "exercise_id": "13bafce5-dda7-4587-9bae-e0c189800e9d"
+    },
+    {
+      "index": 352,
+      "sourceName": "Smith Machine Hip Thrust",
+      "name": "Đẩy hông trên máy Smith",
+      "steps": [
+        "Ngồi trên đất với ghế phía sau. Đặt thanh trên chân, ngay phía trên hông.",
+        "Ngả lưng vào ghế để vai tựa lên ghế, dang hai tay sang hai bên và dùng ghế làm điểm tựa.",
+        "Ấn bàn chân và duỗi hông lên để nâng tạ. Dùng vai và bàn chân đỡ trọng lượng.",
+        "Từ từ duỗi hết mức có thể rồi từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "54bcc374-c950-40bc-8a33-e97dab763026"
+    },
+    {
+      "index": 353,
+      "sourceName": "Smith Machine Inverted Row",
+      "name": "Kéo người dưới thanh máy Smith",
+      "steps": [
+        "Nằm dưới thanh ngang cố định, nắm sấp thanh với tay rộng.",
+        "Kéo người thẳng lên thanh.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "exercise_id": "6825d8c8-d0d7-4083-98df-6879d2a7b5a8"
+    },
+    {
+      "index": 354,
+      "sourceName": "Smith Machine Leg Press",
+      "name": "Đạp chân trên máy Smith",
+      "steps": [
+        "Đặt chân lên thanh, hai bàn chân rộng bằng vai.",
+        "Nhả tạ và duỗi hoàn toàn chân mà không khóa gối.",
+        "Hạ tạ đến khi chân tạo góc 90°, nhưng KHÔNG để mông và lưng dưới nhấc khỏi sàn. Điều này làm lưng dưới cong, rất nguy hiểm.",
+        "Đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "c2680400-2a63-4e5b-a08b-08561449b451"
+    },
+    {
+      "index": 355,
+      "sourceName": "Smith Machine Oblique Crunch",
+      "name": "Gập bụng chéo với máy Smith",
+      "steps": [
+        "Nằm nghiêng, đầu gối co.",
+        "Giữ thanh duỗi phía trên người.",
+        "Co cơ bụng chéo để nâng người lên."
+      ],
+      "exercise_id": "221da888-a96f-42d2-9c11-e430b76f3078"
+    },
+    {
+      "index": 356,
+      "sourceName": "Smith Machine Reverse Crunch Hip Raise",
+      "name": "Gập bụng ngược nâng hông với máy Smith",
+      "steps": [
+        "Nằm trên đất, bàn chân đặt trên thanh.",
+        "Nâng hông khỏi đất."
+      ],
+      "exercise_id": "eb6b36ba-f7f4-432c-93a2-1877d184e2d1"
+    },
+    {
+      "index": 357,
+      "sourceName": "Smith Machine Reverse Lunge",
+      "name": "Chùng chân lùi trên máy Smith",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, thanh đặt trên vai. Bàn chân hơi hướng ra ngoài, vai hạ và thả lỏng.",
+        "Bước một chân về sau, hạ người đến khi đùi trước song song với đất và đầu gối sau ở ngay trên đất.",
+        "Đạp chân sau để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "1330c928-564c-4f04-96f6-d2100d72b803"
+    },
+    {
+      "index": 358,
+      "sourceName": "Smith Machine Romanian Deadlift",
+      "name": "Romanian deadlift trên máy Smith",
+      "steps": [
+        "Nắm thanh rộng bằng vai, hai tay nắm sấp hoặc dùng tay nắm kết hợp.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "exercise_id": "1aa321ad-03c0-4fc4-9b86-e3981e684e4e"
+    },
+    {
+      "index": 359,
+      "sourceName": "Smith Machine Seated Calf Raise",
+      "name": "Ngồi nhón gót trên máy Smith",
+      "steps": [
+        "Ngồi trên ghế hoặc bục, thanh tựa trên đầu gối. Bàn chân đặt phẳng trên đất, rộng khoảng bằng hông.",
+        "Đặt hai tay lên thanh làm điểm tựa, nâng gót chân khỏi đất.",
+        "Giữ một chút rồi từ từ hạ gót chân về đất."
+      ],
+      "exercise_id": "66aa7541-0a4a-4c40-b10d-5cd6255fcf2d"
+    },
+    {
+      "index": 360,
+      "sourceName": "Smith Machine Seated Overhead Press",
+      "name": "Ngồi đẩy qua đầu trên máy Smith",
+      "steps": [
+        "Ngồi trên ghế có tựa lưng. Nâng thanh lên ngang vai, lòng bàn tay hướng về trước.",
+        "Nâng thanh lên và dừng ở vị trí cơ co.",
+        "Hạ tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "2399ff7d-332e-40b6-992f-6e6deeb6bbc1"
+    },
+    {
+      "index": 361,
+      "sourceName": "Smith Machine Side Bend",
+      "name": "Nghiêng người sang bên với máy Smith",
+      "steps": [
+        "Đứng cạnh thanh.",
+        "Giữ hông và vai hướng về trước, từ từ nghiêng sang một bên.",
+        "Trở về tư thế thẳng.",
+        "Đổi tay rồi lặp lại."
+      ],
+      "exercise_id": "af10f6ec-64c7-430f-a921-a92f65161ea5"
+    },
+    {
+      "index": 362,
+      "sourceName": "Smith Machine Side Plank Up Down",
+      "name": "Plank nghiêng nâng hạ hông với máy Smith",
+      "steps": [
+        "Nằm nghiêng, hai bàn chân chồng lên nhau, thanh đặt trên hông.",
+        "Đặt khuỷu tay phía dưới lên đất ngay dưới vai, siết cơ bụng để nâng hông khỏi đất.",
+        "Chỉ di chuyển hông. Hình dung nhịp “nâng hông, hạ hông”."
+      ],
+      "exercise_id": "eda69a0b-9212-4daf-bcb0-7a2fe617a0d3"
+    },
+    {
+      "index": 363,
+      "sourceName": "Smith Machine Single Leg Hip Thrust",
+      "name": "Đẩy hông một chân trên máy Smith",
+      "steps": [
+        "Nằm trên ghế, đặt bàn chân trên đất và thanh tạ trên hông.",
+        "Nhấc một chân khỏi đất, siết cơ mông để nâng hông lên phía trần.",
+        "Từ vị trí này, từ từ hạ hông trở về vị trí ban đầu."
+      ],
+      "exercise_id": "d9f67da1-32ce-4681-8c15-1319436f3c37"
+    },
+    {
+      "index": 364,
+      "sourceName": "Smith Machine Sissy Squat",
+      "name": "Sissy squat có thanh máy Smith hỗ trợ",
+      "steps": [
+        "Đứng quay lưng về máy, hai chân hơi rộng hơn vai để có điểm trụ vững. Vươn hai tay ra sau nắm chắc thanh theo kiểu sấp.",
+        "Bắt đầu bằng cách ngả người về sau, để thân trên nghiêng đồng thời gập gối. Giữ kiểm soát khi hạ xuống.",
+        "Dùng lực cơ đùi trước và đẩy hông về trước, từ từ duỗi gối. Giữ nhịp chậm và có kiểm soát."
+      ],
+      "exercise_id": "9caa3e37-062b-4912-a328-b67c584794a8"
+    },
+    {
+      "index": 365,
+      "sourceName": "Smith Machine Skullcrusher",
+      "name": "Duỗi tay sau kiểu skullcrusher trên máy Smith",
+      "steps": [
+        "Nắm thanh rộng bằng vai. Gập khuỷu tay, cố gắng giữ khuỷu tay khép vào, không xòe ra ngoài.",
+        "Dừng thanh cách trán vài inch rồi duỗi khuỷu tay lên lại."
+      ],
+      "exercise_id": "0cf7d08d-855c-47c5-8241-8b86370e5ea9"
+    },
+    {
+      "index": 366,
+      "sourceName": "Smith Machine Staggered Deadlift",
+      "name": "Deadlift trên máy Smith với chân trước chân sau",
+      "steps": [
+        "Đặt một chân về sau, chỉ các ngón chân sau chạm đất. Bàn chân trước luôn đặt phẳng trong suốt động tác.",
+        "Gập gối chân sau và đẩy hông về sau. Cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "exercise_id": "8ca1e897-afcb-412a-8b4f-32fbcd26f631"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 327,
+      "sourceName": "Kettlebell Staggered Swing",
+      "reason": "The first step starts with lowering and repeating, before setup or the upward swing; verify source sequence.",
+      "exercise_id": "3dd7655e-fe50-4bc0-8a9c-4dfe97492ff2"
+    },
+    {
+      "index": 328,
+      "sourceName": "Kettlebell Staggered Waiters Bow",
+      "reason": "The source describes a leg braced on a bar but has no kettlebell setup or load placement; verify apparatus and load.",
+      "exercise_id": "38081e8c-4479-422c-af21-70711e37f2cf"
+    },
+    {
+      "index": 331,
+      "sourceName": "Kettlebell Step Up Double",
+      "reason": "The double-kettlebell title has an explicit one-arm single-kettlebell setup; verify quantity.",
+      "exercise_id": "d9178084-b721-4759-8a1a-fcf2d29b8036"
+    },
+    {
+      "index": 337,
+      "sourceName": "Kettlebell Thruster",
+      "reason": "The thruster title describes only a slight knee dip and push press, without a squat; verify intended range.",
+      "exercise_id": "e03cd0c4-0f3d-4a92-8dec-440025ac5704"
+    },
+    {
+      "index": 338,
+      "sourceName": "Kettlebell Upright Row",
+      "reason": "The source describes a hinged bent-over row rather than an upright row; verify trunk position and movement.",
+      "exercise_id": "75fced1a-7bea-421b-a6a2-acb55fbca87a"
+    },
+    {
+      "index": 339,
+      "sourceName": "Kettlebell Upright Row Single",
+      "reason": "The source describes a hinged bent-over row rather than an upright row; verify trunk position and movement.",
+      "exercise_id": "228cb264-339b-452f-b857-0fa6829f7b22"
+    },
+    {
+      "index": 340,
+      "sourceName": "Kettlebell Waiters Bow",
+      "reason": "The source describes bracing against a barbell without specifying kettlebell load placement; verify apparatus and load.",
+      "exercise_id": "1fa90b16-7f60-484d-939b-3b1fa11c7838"
+    }
+  ]
+}

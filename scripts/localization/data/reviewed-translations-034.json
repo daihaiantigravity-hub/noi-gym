@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared the remaining uncategorized source instructions, preserving balance tasks, band position, neck directions, support, reinjury precautions, numbers and step order. Held unclear foot-loading direction and plate support. No category or source edits.",
+  "sourceExceptions": [
+    {
+      "index": 115,
+      "sourceName": "Standing Inversions Hold",
+      "reason": "Named inversion hold says to roll feet out without identifying sole direction or loaded foot border. Verify inversion versus outward body-weight shift before translating.",
+      "exercise_id": "50dd43ed-2d46-41a1-84bc-cc86d67f4341"
+    },
+    {
+      "index": 125,
+      "sourceName": "Standing Tibialis Raise",
+      "reason": "Source steps on a plate without stating whether heels or whole feet are supported, then lowers toes to the floor under a barbell load. Verify heel placement and support surface.",
+      "exercise_id": "1ab4a56e-891e-451d-9eea-1d7fa2a966a5"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "0055c10f-9173-429a-af44-6766d7bbeeec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c7811ac99059877b2028c76c6cc6cf4868be00c2682242e0e59a847160c29784",
+      "name": "Giữ thăng bằng một chân kết hợp nảy bóng 2",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, siết cơ trung tâm.",
+        "Chọn chân trụ và chuyển trọng lượng lên chân đó, đồng thời nhấc chân kia hơi khỏi sàn.",
+        "Cố gắng giữ thăng bằng khi nảy bóng tennis vào tường hoặc xuống sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Single Leg Balance 2",
+        "description": "",
+        "steps": [
+          "Stand upright with a braced core.",
+          "Choose the supporting leg and shift your weight on that, while lifting the other slightly off the ground.",
+          "Try to maintain your balance while bouncing a tennis ball off the wall or ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2b6b0e87-ff53-4fe0-a858-2f524cbd6f6c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "43501bcc6aaaaa5047d1c2b8127eae15479b34657b8905b6088be976c03e6d14",
+      "name": "Giữ thăng bằng một chân trên BOSU kết hợp nảy bóng 2",
+      "description": "",
+      "steps": [
+        "Đặt chân trụ ở giữa bóng BOSU.",
+        "Giữ đầu gối chân đang nhấc hơi co.",
+        "Cố gắng giữ thăng bằng trên BOSU khi nảy bóng tennis vào tường."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Single Leg Bosu Ball Balance 2",
+        "description": "",
+        "steps": [
+          "Place the supporting leg on the middle of a bosu ball.",
+          "Keep the knee of the suspended leg slightly bent.",
+          "Try to maintain your balance on the bosu ball while bouncing a tennis ball off the wall."
+        ]
+      }
+    },
+    {
+      "exercise_id": "adb4b59b-59ff-433f-90e8-3661bf82d1d5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "576a8ae662a9dad0a50113c46f95f6bdadeac31f63ab58b55df4e52aef7b229a",
+      "name": "Giãn cơ dép",
+      "description": "",
+      "steps": [
+        "Đứng gần tường với hai chân so le và hẹp; mũi chân sau ngang với gót chân trước.",
+        "Giữ trọng lượng trên chân sau khi co gối.",
+        "Giữ tư thế trong thời gian được chỉ định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Soleus Stretch",
+        "description": "",
+        "steps": [
+          "Stand close to a wall on a narrow, staggered stance (toes of the back leg should be at the same level as the heel of the front leg).",
+          "Keep your weight on the back leg as you bend your knees.",
+          "Hold the position for the prescribed duration."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7c592ddd-373b-42da-bf4c-81d90dd22975",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e3e65a57d67a5a52c9c0f5d8aecfb04c4f70f8136b78b4f339ee23a8b8a10850",
+      "name": "Đứng tạo vòm bàn chân",
+      "description": "",
+      "steps": [
+        "Từ tư thế đứng, ấn ngón chân cái xuống sàn đến khi cảm thấy mặt trong bàn chân nâng khỏi sàn.",
+        "Vòm bàn chân cần rõ hơn.",
+        "Không nghiêng bàn chân ra ngoài để nâng mặt trong bàn chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Doming",
+        "description": "",
+        "steps": [
+          "From the standing position press the big toe into the ground till you feel the inside part of your foot raise off the ground",
+          "The arch of your foot should now look more pronounced.",
+          "Do not roll your foot out to lift the inside part of your foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "10c3b676-0f41-42ed-a9b2-6b1da11576f1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d258599c016aaa94b9768aa43df40d80c6500cfbf631adbb6d35a81dc9a46ab2",
+      "name": "Đứng giữ nâng gối",
+      "description": "",
+      "steps": [
+        "Đứng thẳng với tư thế đúng.",
+        "Chuyển trọng lượng lên chân trụ đồng thời nâng đầu gối chân kia.",
+        "Đùi cần song song với sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Knee Raise Hold",
+        "description": "",
+        "steps": [
+          "Stand up straight and with a good posture.",
+          "Shift your weight onto the supporting leg while driving the other knee.",
+          "Your thigh should be parallel to the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "85670da8-35fa-4fa5-91df-846515227cf2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d51b32ef6e2e9581b530d08c5c1f6e08c8cd707ceef0677caf8c9b7ed87d2d7a",
+      "name": "Đứng nâng gối gập hông với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây kháng lực quanh hai bàn chân.",
+        "Nâng một đầu gối lên đến khi đùi song song với sàn.",
+        "Dừng một chút rồi trở về vị trí ban đầu.",
+        "Cố gắng giữ thăng bằng và tư thế đúng khi nâng gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Mini-Band Hip Flexion",
+        "description": "",
+        "steps": [
+          "Wrap a loop band around your feet.",
+          "Drive a knee upwards till your thigh is parallel to the ground.",
+          "Pause for a moment and then return to the starting position.",
+          "Try to maintain balance and a good posture when raising the knee."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2e7f267c-f0be-4d00-a297-1b8cd975a648",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a66b11fed9f231be232a885e13ddf4b866092ac441ebc1e67f6da45cef3505c8",
+      "name": "Đứng ngửa cổ",
+      "description": "",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Ngả đầu ra sau, cố gắng giữ mặt trước cổ thẳng.",
+        "Hướng cằm lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Neck Extensions",
+        "description": "",
+        "steps": [
+          "Pull your shoulders back and away from the ears and straighten the back.",
+          "Lean your head back trying to keep the front of the neck straight.",
+          "Point your chin to the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "361a3705-20ad-43e8-85c0-b13be44b8b55",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e374b0b3378802b8858218efbc4d63ab9239b4766423efc233c6d2e491460b45",
+      "name": "Đứng cúi cổ",
+      "description": "",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Thu cằm và hạ đầu về trước mà không cuộn cong lưng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Neck Flexions",
+        "description": "",
+        "steps": [
+          "Pull your shoulders back and away from the ears and straighten the back.",
+          "Tuck your chin in and drop your head forwards without rounding the back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c4fe835-7459-4587-b69b-7ffecd125145",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1ff8fb00b51e5742adc1eef747bdfef08c1b2d3f10322555524ab37cb1e0fbf2",
+      "name": "Đứng xoay cổ theo vòng tròn",
+      "description": "",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Xoay đầu theo cả chiều kim đồng hồ lẫn ngược chiều, thực hiện ở cuối biên độ trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Neck Mobility Circumductions",
+        "description": "",
+        "steps": [
+          "Pull your shoulders back and away from the ears and straighten the back",
+          "Circumduct the head both clockwise and anti-clockwise making sure you are working on the end range throughout the movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "116cbde2-a2bb-4fc2-955b-1332eb72b235",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0633d54bb3fbedce3ca1a3c18f294f942e61b641b3f14aba9b467f2d47be16f1",
+      "name": "Đứng xoay đầu sang hai bên",
+      "description": "",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Xoay đầu qua lại hai bên mà không cuộn vai về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Neck Rotations",
+        "description": "",
+        "steps": [
+          "Pull your shoulders back and away from the ears and straighten the back.",
+          "Rotate your head from side to side without rounding your shoulders."
+        ]
+      }
+    },
+    {
+      "exercise_id": "046f4a11-2ca5-46d9-9cbc-1d4558d4515e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "05f9e4207722a8bf95bdfb7a4afb87424ecaf52c98a5deffb0eb445718900699",
+      "name": "Đứng nghiêng cổ sang bên",
+      "description": "",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Nghiêng đầu sang bên, đưa tai về vai, không nhún vai hoặc nghiêng cột sống sang bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Neck Side Flexions",
+        "description": "",
+        "steps": [
+          "Pull your shoulders back and away from the ears and straighten the back.",
+          "Lean your head to the side (bring your ear to your shoulder) without shrugging your shoulder or leaning the spine to the side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bc8a2149-20e4-4bfa-96a1-4fed1afae1b8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "de048167e1e2b02769e3defa0f60bbcd6ec3c895cb753dffbe9b0df0e46a0b33",
+      "name": "Đứng dạng vai với gậy hỗ trợ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng và giữ gậy. Lòng bàn tay của tay đang giãn hướng về trước.",
+        "Dùng tay đối diện đẩy gậy sang bên.",
+        "Nhờ đó, tay đang giãn được nâng qua đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Shoulder Abduction",
+        "description": "",
+        "steps": [
+          "Stand up straight holding a dowel. The stretching arms palm should face forward",
+          "Push the dowel to the side with the opposite arm.",
+          "This in turn will raise the stretching arm over the head."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f34fa6e2-c881-436f-b996-99f1e00dc83c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cf85e4ecd25adf59744e15b99750f85753f02e7cb02b0664974cf94846867e7c",
+      "name": "Đứng vận động gập vai với gậy",
+      "description": "",
+      "steps": [
+        "Từ tư thế đứng, dùng một tay nắm gậy phía trước giữa thân, ngón cái ở trên.",
+        "Tay kia nắm gậy ở bên và phía sau thân.",
+        "Tay phía sau dẫn tay kia ra trước rồi lên qua đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Standing Shoulder Flexion Mobility",
+        "description": "",
+        "steps": [
+          "From the standing position grab the dowel with one arm, thumb on top, in front of the centre of your body.",
+          "Grab the dowel with your other arm to the side and behind your body.",
+          "The arm that is back, guides the other in front of you and into the overhead position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9725962b-b186-46a6-8c7e-77940cfbdde3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "afdf8a416049e8e27795d975d949ce94e8271c080e0f3a14e7de58e8cfe95083",
+      "name": "Gập và duỗi cột sống ngực",
+      "description": "",
+      "steps": [
+        "Vào tư thế chống 4 điểm. Đẩy sàn ra xa, cuộn cong lưng và vai hết mức có thể.",
+        "Để tăng độ gập cột sống, hóp rốn và thu xương cụt vào dưới. Giữ thoáng chốc.",
+        "Sau đó làm ngược lại, thử uốn cột sống ra sau. Luân phiên giữa hai tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Thoracic Flexion And Extensions",
+        "description": "",
+        "steps": [
+          "Bring yourself on all 4's. Push the ground away from you, rounding back and shoulders as much as possible.",
+          "To enhance the spine flexion suck the belly button in and tuck the tailbone (coccyx) under. Hold this position for a brief moment",
+          "Now do the exact opposite, try to bend the spine backwards. Go back and forth on these positions"
+        ]
+      }
+    },
+    {
+      "exercise_id": "9511cb99-52e9-40d6-9990-7f91ad1fdf80",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4ef7e4ffe40bb6202b1db37fec52d4702fa6ca194626b0e1d468ad4a92fed8af",
+      "name": "Đẩy Arnold với Vitruvian",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, lòng bàn tay hướng về mình.",
+        "Khi đẩy, xoay hai tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Vitruvian Arnold Press",
+        "description": "",
+        "steps": [
+          "Stand tall with your palms facing yourself.",
+          "As you press, rotate your arms."
+        ]
+      }
+    },
+    {
+      "exercise_id": "55772bf2-79f9-44c8-843e-6c4971341672",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e3fe44421b9f25d01f4b72cbd57a4cdad23b6c69b18d383f51714d975ca2bcc1",
+      "name": "Đẩy qua đầu với Vitruvian",
+      "description": "",
+      "steps": [
+        "Giữ phụ kiện tay cầm, nắm tay hướng lên trời và khuỷu tay hướng xuống sàn.",
+        "Đẩy tay cầm lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Vitruvian Overhead Press",
+        "description": "",
+        "steps": [
+          "Hold the handle attachments with your fists to the sky and elbows toward the floor.",
+          "Press the handles to the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e3a00bb7-3790-4290-afeb-1a4994c9fa63",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "93cadec369c268a7dd43c3d283e3de88081be6c2483926843bf26c0e13d26f2e",
+      "name": "Trượt tay hình thiên thần tựa tường",
+      "description": "",
+      "steps": [
+        "Đứng tựa tường với lưng phẳng, hai tay bên thân ở góc 90°.",
+        "Từ từ nâng tay qua đầu, giữ khuỷu tay và cổ tay tiếp xúc với tường.",
+        "Hạ tay về vị trí ban đầu, giữ tiếp xúc liên tục với tường suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Wall Angels",
+        "description": "",
+        "steps": [
+          "Stand against a wall with your back flat, arms at 90° by your sides.",
+          "Slowly raise arms overhead, keeping elbows and wrists in contact with the wall.",
+          "Lower arms back down to starting position, maintaining constant wall contact throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2c9ed22f-57dd-427a-a064-3a56afee5eb9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8667be660ff918a2e70be72ab9e91a3b49c26a2257ff3c144c21aec99eaa8f38",
+      "name": "Tựa tường giữ nâng mũi chân",
+      "description": "",
+      "steps": [
+        "Tựa vào tường, nâng mũi chân và giữ thăng bằng trên gót trong thời gian được chỉ định.",
+        "Giữ tư thế thân trên đúng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:16:36.087Z",
+      "source": {
+        "name": "Wall Supported Dorsal Flexion",
+        "description": "",
+        "steps": [
+          "Lean against a wall, raise your toes and balance on your heels for the given duration.",
+          "Maintain a good upper body form."
+        ]
+      }
+    }
+  ]
+}

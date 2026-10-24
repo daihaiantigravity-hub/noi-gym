@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "The live MuscleWiki page and its front and side demonstration views confirm the interlaced-finger variation and the written sequence. The source wording is retained and translated directly.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "c9efa90c-6348-4cdc-b471-ac78acaa2ce5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ab22980df172bd30129a4a19f32231d817b2309eeb171a19d0cacff3f24a293c",
+      "name": "Tư thế cầu nguyện ngược",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế ngồi hoặc đứng, hai tay thả dọc theo thân người.",
+        "Đưa hai tay ra sau lưng, đan các ngón tay vào nhau và hướng lòng bàn tay lên trên.",
+        "Hít vào, kéo hai bả vai lại gần nhau và nâng ngực lên.",
+        "Thở ra, nhẹ nhàng ấn hai tay xuống sàn đồng thời tiếp tục nâng ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T11:45:08.117Z",
+      "source": {
+        "name": "Reverse Prayer",
+        "description": "",
+        "steps": [
+          "Start seated or standing with your arms at your sides.",
+          "Bring your hands behind your back and interlace your fingers with your palms facing up.",
+          "Inhale and draw your shoulder blades together, lifting your chest.",
+          "Exhale and gently press your hands down towards the floor as you continue to lift your chest."
+        ]
+      }
+    }
+  ]
+}

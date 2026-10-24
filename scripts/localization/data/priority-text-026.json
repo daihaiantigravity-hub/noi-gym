@@ -1,0 +1,632 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete Recovery source blocks with Vietnamese text, retaining support, isometric holds, anatomical directions, discomfort cues, prescribed durations and numbers. Held conflicting equipment, calf-contraction cues, static/dynamic mismatches and missing named movement instead of repairing source instructions.",
+  "translations": [
+    {
+      "index": 1,
+      "sourceName": "Abductor Leg Raise Side Lying Isometric",
+      "name": "Nằm nghiêng giữ nâng chân dạng hông",
+      "steps": [
+        "Giữ vững tư thế nằm nghiêng bằng tay phía trên và chân phía dưới.",
+        "Nâng chân phía trên đến khi song song với sàn và giữ co cơ tĩnh trong thời gian được chỉ định.",
+        "Cảm nhận cơ mông nhỡ và phía ngoài chân hoạt động."
+      ],
+      "exercise_id": "c610a5d7-0bb5-4e1a-a940-af26bddaab48"
+    },
+    {
+      "index": 2,
+      "sourceName": "Alternating Swipe Around",
+      "name": "Nằm sấp quét tay luân phiên",
+      "steps": [
+        "Nằm sấp, hai tay trên đầu. Siết cơ mông để bảo vệ lưng dưới.",
+        "Nâng ngực và tay khỏi sàn. Luân phiên khép tay, đưa tay về bên hông.",
+        "Có thể hạ chạm sàn rồi lặp lại toàn bộ động tác, hoặc giữ người nâng khỏi sàn và chỉ thực hiện động tác quét tay."
+      ],
+      "exercise_id": "5cbbb7be-4a75-432f-9441-ae6ea8a7fd06"
+    },
+    {
+      "index": 3,
+      "sourceName": "Band Floor Quad Stretch",
+      "name": "Nằm sấp giãn cơ đùi trước với dây",
+      "steps": [
+        "Nằm sấp. Co một chân, đưa một tay ra sau nắm bàn chân.",
+        "Kéo gót chân về mông để giãn cơ đùi trước.",
+        "Có thể dùng dây kháng lực hoặc dây giãn cơ để thực hiện tương tự."
+      ],
+      "exercise_id": "cf94c4cd-2c64-451b-b28c-59aaeeb325e5"
+    },
+    {
+      "index": 4,
+      "sourceName": "Band Glute Kickback Hold",
+      "name": "Giữ đá chân ra sau với dây kháng lực",
+      "steps": [
+        "Gắn dây kháng lực vào điểm cố định. Vòng đầu dây còn lại quanh cổ chân.",
+        "Quay mặt về điểm gắn dây. Chuyển trọng lượng lên một chân, dùng vật hỗ trợ thăng bằng nếu cần.",
+        "Duỗi chân đang tập ra sau và giữ tư thế."
+      ],
+      "exercise_id": "88037637-1889-4a7d-a46d-6325391d3252"
+    },
+    {
+      "index": 5,
+      "sourceName": "Band Hip Thrust",
+      "name": "Đẩy hông với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo và quay mặt ra xa điểm neo.",
+        "Vòng đầu dây còn lại quanh hông.",
+        "Giữ đầu gối duỗi, đưa hông ra sau rồi đẩy về trước chống lại lực dây."
+      ],
+      "exercise_id": "4e27ac8e-56fe-42ff-a2fb-12a7be92082b"
+    },
+    {
+      "index": 6,
+      "sourceName": "Band Knee Extension",
+      "name": "Duỗi gối với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm cố định, vòng đầu dây còn lại quanh đầu gối.",
+        "Bắt đầu ở tư thế đứng, quay mặt về điểm neo và để dây căng sẵn.",
+        "Để đầu gối đang tập co lại theo lực kéo của dây, đồng thời chuyển trọng lượng lên chân trụ.",
+        "Chuyển trọng lượng trở lại chân đang co và duỗi hoàn toàn đầu gối, kéo xương bánh chè lên."
+      ],
+      "exercise_id": "7d20fee3-b418-4ed8-872d-329cd18ac7f9"
+    },
+    {
+      "index": 8,
+      "sourceName": "Bosu Ball Single Leg Squat",
+      "name": "Squat một chân trên bóng BOSU",
+      "steps": [
+        "Đứng trên bóng BOSU và giữ thăng bằng bằng một chân.",
+        "Thử co và duỗi đầu gối chân trụ để thực hiện squat một chân trong khi giữ thăng bằng."
+      ],
+      "exercise_id": "2aa6b195-d6f0-4626-bab9-a89d786acb66"
+    },
+    {
+      "index": 9,
+      "sourceName": "Box Supported Single Leg Deadlift",
+      "name": "Deadlift một chân có bục hỗ trợ",
+      "steps": [
+        "Đặt bục phía sau và đặt một bàn chân lên bục. Giữ ngực nâng và lưng thẳng.",
+        "Gập người tại hông để thực hiện deadlift. Dùng bục để giữ thăng bằng và hỗ trợ.",
+        "Duỗi thẳng chân sau khi thực hiện deadlift.",
+        "Khi đã quen động tác, thử nhấc chân khỏi bục khi đến cuối biên độ deadlift."
+      ],
+      "exercise_id": "1df2c30c-18c6-4f6c-a4fe-cdb15a604f6e"
+    },
+    {
+      "index": 10,
+      "sourceName": "Calf Isometric On Step",
+      "name": "Giữ nhón gót trên bậc",
+      "steps": [
+        "Đứng ở mép bậc, tựa trên phần đệm trước bàn chân.",
+        "Đỡ trọng lượng cơ thể ở tư thế này trong thời gian được chỉ định.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "5955b123-0694-4b29-80c5-ce74bc0c3f57"
+    },
+    {
+      "index": 11,
+      "sourceName": "Calf Mobilisation Seated Floor Roll",
+      "name": "Ngồi lăn giãn cơ bắp chân trên sàn",
+      "steps": [
+        "Ngồi duỗi chân, đặt con lăn xốp hoặc bóng dưới bắp chân.",
+        "Dùng hai tay chống phía sau để nâng hông nhẹ lên.",
+        "Lăn chậm từ cổ chân đến dưới đầu gối.",
+        "Dừng ở điểm căng và tạo áp lực."
+      ],
+      "exercise_id": "c43618c6-6357-4207-b9fb-879a4801aa18"
+    },
+    {
+      "index": 12,
+      "sourceName": "Calf Raise 1A Bilateral Eccentric Floor",
+      "name": "Nhón gót hai chân, hạ chậm trên sàn 1A",
+      "steps": [
+        "Bám vào vật hỗ trợ để giữ thăng bằng.",
+        "Bật nhón mạnh nhưng không để mũi chân rời sàn.",
+        "Từ từ hạ gót chân về sàn."
+      ],
+      "exercise_id": "219636d7-7f76-4350-a99f-30d3d5cb90ec"
+    },
+    {
+      "index": 13,
+      "sourceName": "Calf Raise 1B Bilateral Floor",
+      "name": "Nhón gót hai chân trên sàn 1B",
+      "steps": [
+        "Từ tư thế đứng, chuyển trọng lượng lên phần đệm trước hai bàn chân.",
+        "Nâng gót chân khỏi sàn rồi hạ trở lại sàn.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chân chạm sàn, lặp lại động tác.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "10d06a7b-c3dd-4b9a-9039-09a5f3cf7fa2"
+    },
+    {
+      "index": 15,
+      "sourceName": "Calf Raise 1D Bilateral From Box",
+      "name": "Nhón gót hai chân trên bục 1D",
+      "steps": [
+        "Đặt phần đệm trước hai bàn chân lên mép bậc.",
+        "Nâng gót chân rồi hạ thấp hơn mặt bậc, hoặc đến khi cảm thấy căng ở bắp chân.",
+        "Thử dừng thoáng chốc ở cả hai đầu biên độ.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "fda11487-db0e-4623-acec-0adc10649fe4"
+    },
+    {
+      "index": 16,
+      "sourceName": "Calf Raise 1E Bilateral Isometric Floor",
+      "name": "Giữ nhón gót hai chân trên sàn 1E",
+      "steps": [
+        "Từ tư thế đứng, chuyển trọng lượng lên phần đệm trước hai bàn chân.",
+        "Nâng gót chân khỏi sàn và giữ trong thời gian được chỉ định.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "4c579e2a-72cc-4e07-9dff-1a98bc7c29b5"
+    },
+    {
+      "index": 18,
+      "sourceName": "Calf Raise 2B Unilateral Floor",
+      "name": "Nhón gót một chân trên sàn 2B",
+      "steps": [
+        "Từ tư thế đứng, chuyển trọng lượng lên một bàn chân.",
+        "Nâng gót chân đang tập khỏi sàn rồi hạ trở lại sàn.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chân chạm sàn, lặp lại động tác.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "8829bbeb-92f3-4a8d-9878-b9ea5c3e63f4"
+    },
+    {
+      "index": 20,
+      "sourceName": "Calf Raise 2D Unilateral From Box",
+      "name": "Nhón gót một chân trên bục 2D",
+      "steps": [
+        "Đặt phần đệm trước một bàn chân lên mép bậc.",
+        "Nâng gót chân rồi hạ thấp hơn mặt bậc, hoặc đến khi cảm thấy căng ở bắp chân.",
+        "Thử dừng thoáng chốc ở cả hai đầu biên độ."
+      ],
+      "exercise_id": "a4dee7dc-663a-4a9f-b9bb-76a6826a76ee"
+    },
+    {
+      "index": 21,
+      "sourceName": "Calf Raise Isometric Unilateral",
+      "name": "Giữ nhón gót một chân",
+      "steps": [
+        "Từ tư thế đứng, chuyển trọng lượng lên phần đệm trước một bàn chân.",
+        "Nâng gót chân khỏi sàn và giữ trong thời gian được chỉ định.",
+        "Bạn cần cảm nhận cơ bắp chân hoạt động."
+      ],
+      "exercise_id": "ccc4ee25-9cca-4375-8f14-6fc0f3a9cdc8"
+    },
+    {
+      "index": 23,
+      "sourceName": "Clamshells 1 Side Lying",
+      "name": "Nằm nghiêng mở gối kiểu vỏ sò 1",
+      "steps": [
+        "Nằm nghiêng, hai đầu gối co. Đặt góc 90° ở hông, gối và bàn chân.",
+        "Xoay đầu gối phía trên ra ngoài, không để hông ngả ra sau.",
+        "Giữ thoáng chốc hoặc theo chỉ định của chuyên viên trị liệu/huấn luyện viên, rồi trở về vị trí ban đầu mà không đặt nghỉ lên đầu gối phía dưới."
+      ],
+      "exercise_id": "c48c2334-4fb5-49ae-af7f-81f5b858d3bd"
+    },
+    {
+      "index": 24,
+      "sourceName": "Clamshells 2 Side Lying",
+      "name": "Nằm nghiêng mở gối kiểu vỏ sò 2",
+      "steps": [
+        "Nằm nghiêng, hai đầu gối co. Đặt góc 90° ở hông, gối và bàn chân.",
+        "Nhấc chân phía trên nhẹ lên để không còn được chân phía dưới đỡ.",
+        "Xoay đầu gối phía trên ra ngoài, không để hông ngả ra sau.",
+        "Giữ thoáng chốc hoặc theo chỉ định của chuyên viên trị liệu/huấn luyện viên, rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "6d611d36-3f8a-492b-aa60-dbb791c57a99"
+    },
+    {
+      "index": 25,
+      "sourceName": "Clamshells 3 Internal External Rotations Side Lying",
+      "name": "Nằm nghiêng xoay trong và ngoài kiểu vỏ sò 3",
+      "steps": [
+        "Nằm nghiêng, hai đầu gối co. Đặt góc 90° ở hông, gối và bàn chân.",
+        "Nhấc chân phía trên cách chân phía dưới một khoảng 15-20cm.",
+        "Xoay đầu gối phía trên ra ngoài, không để hông ngả ra sau.",
+        "Giữ thoáng chốc hoặc theo chỉ định của chuyên viên trị liệu/huấn luyện viên, rồi xoay đầu gối vào trong."
+      ],
+      "exercise_id": "0e2c6dde-31f2-4efd-8243-7334ee412279"
+    },
+    {
+      "index": 26,
+      "sourceName": "Clamshells 4 Side Lying Resisted",
+      "name": "Nằm nghiêng mở gối kiểu vỏ sò với dây kháng lực 4",
+      "steps": [
+        "Nằm nghiêng, hai đầu gối co và vòng dây kháng lực quanh gối. Đặt góc 90° ở hông, gối và bàn chân.",
+        "Xoay đầu gối phía trên ra ngoài, không để hông ngả ra sau.",
+        "Giữ thoáng chốc hoặc theo chỉ định của chuyên viên trị liệu/huấn luyện viên, rồi trở về vị trí ban đầu mà không đặt nghỉ lên đầu gối phía dưới."
+      ],
+      "exercise_id": "b9ed7c02-6669-4146-9f1d-70e8d95f02ac"
+    },
+    {
+      "index": 27,
+      "sourceName": "Clock Taps",
+      "name": "Chạm mũi chân theo mặt đồng hồ",
+      "steps": [
+        "Giữ thăng bằng bằng một chân.",
+        "Thử chạm các mục tiêu bằng mũi chân đang nhấc khỏi sàn.",
+        "Mục tiêu là giữ thăng bằng khi đưa chân đến mục tiêu rồi trở lại."
+      ],
+      "exercise_id": "85b8e873-1ff3-41bb-986f-57b75a908cdb"
+    },
+    {
+      "index": 29,
+      "sourceName": "Cobra Stretch 2",
+      "name": "Giãn cơ tư thế rắn hổ mang 2",
+      "steps": [
+        "Nằm sấp, đặt lòng bàn tay dưới vai.",
+        "Giữ khuỷu tay co và sát thân.",
+        "Nâng thân trên khỏi sàn, dùng lòng bàn tay đỡ trọng lượng.",
+        "Giữ hông trên sàn."
+      ],
+      "exercise_id": "baba62ce-631d-478a-84eb-3ec495074c6a"
+    },
+    {
+      "index": 30,
+      "sourceName": "Core Stability Regression Crosslateral Limb Raise Push Up Position",
+      "name": "Nâng tay chân đối bên từ tư thế chống đẩy để ổn định cơ trung tâm",
+      "steps": [
+        "Vào tư thế chống đẩy chuẩn.",
+        "Chạm bàn tay đang tập xuống sàn để tìm thăng bằng. Nâng tay và chân đối bên đến khi song song với sàn.",
+        "Giữ thoáng chốc rồi thử đưa khuỷu tay về đầu gối đối bên bằng cách đưa cả hai về giữa thân.",
+        "Cột sống có thể hơi cong nhưng không dịch chuyển hông trong động tác."
+      ],
+      "exercise_id": "b18135c4-6eaf-4501-83ca-696c04ba59b9"
+    },
+    {
+      "index": 32,
+      "sourceName": "Dead Bugs Cross Lateral",
+      "name": "Dead bug với tay chân đối bên",
+      "steps": [
+        "Nằm ngửa. Duỗi thẳng hai tay phía trên ngực, nâng đầu gối đang co đến khi ở trên hông.",
+        "Hạ tay và chân đối bên về sàn. Có thể cảm nhận sàn nhưng không đặt nghỉ hoặc bật lấy đà từ sàn.",
+        "Giữ lưng dưới phẳng trong suốt động tác, lưng dưới cần tiếp xúc với sàn."
+      ],
+      "exercise_id": "29a68ecb-ac8b-4fa1-85d6-a2eaa51f811a"
+    },
+    {
+      "index": 33,
+      "sourceName": "Dead Bugs Same Side",
+      "name": "Dead bug với tay chân cùng bên",
+      "steps": [
+        "Nằm ngửa. Duỗi thẳng hai tay phía trên ngực, nâng đầu gối đang co đến khi ở trên hông.",
+        "Hạ tay và chân cùng bên về sàn. Có thể cảm nhận sàn nhưng không đặt nghỉ hoặc bật lấy đà từ sàn.",
+        "Giữ lưng dưới phẳng trong suốt động tác, lưng dưới cần tiếp xúc với sàn."
+      ],
+      "exercise_id": "9b2d1f1d-26bc-4a17-97b3-5d3f21a51d23"
+    },
+    {
+      "index": 35,
+      "sourceName": "Elbow Extensor Isometric Seated Overhead Dumbbell",
+      "name": "Ngồi giữ duỗi tay sau qua đầu với tạ đơn",
+      "steps": [
+        "Ngồi trên bục hoặc ghế không có điểm tựa lưng.",
+        "Nâng tạ qua đầu và duỗi khuỷu tay.",
+        "Từ đó, gập khuỷu tay 1/4 biên độ.",
+        "Giữ co cơ tĩnh trong thời gian được chỉ định."
+      ],
+      "exercise_id": "9ef7ff65-6d7f-491e-a959-aae2eb6c6a43"
+    },
+    {
+      "index": 36,
+      "sourceName": "Femoral Nerve Mobilisation",
+      "name": "Vận động trượt thần kinh đùi",
+      "steps": [
+        "Đứng, co đầu gối và nắm bàn chân.",
+        "Đưa đầu gối về trước đồng thời thu cằm, đưa đầu về trước.",
+        "Kéo chân ra sau đồng thời ngửa đầu ra sau, nhìn lên."
+      ],
+      "exercise_id": "424db28c-ef6a-453d-a5e2-ddaf2ce27c03"
+    },
+    {
+      "index": 37,
+      "sourceName": "Floor Knee Pull Bilateral",
+      "name": "Nằm kéo hai gối về ngực",
+      "steps": [
+        "Nằm ngửa, hai đầu gối co.",
+        "Ôm đầu gối và kéo về ngực.",
+        "Cảm nhận lưng dưới nâng khỏi sàn.",
+        "Có thể thêm động tác dạng hông để tác động cả vùng hông."
+      ],
+      "exercise_id": "ccca2335-f287-4631-bbad-2f0bdac4d249"
+    },
+    {
+      "index": 38,
+      "sourceName": "Foam Roller Quad Mobilisation",
+      "name": "Lăn vận động cơ đùi trước với con lăn xốp",
+      "steps": [
+        "Nằm sấp, đặt con lăn xốp dưới đùi.",
+        "Lăn lên xuống đến khi tìm được điểm căng hoặc đau.",
+        "Giữ vị trí này rồi bắt đầu co và duỗi gối để vận động cơ đùi trước."
+      ],
+      "exercise_id": "78d544f0-68a1-41f5-9130-17bf5143ea0a"
+    },
+    {
+      "index": 39,
+      "sourceName": "Glute Hip Rotator Stretch 1 Seated",
+      "name": "Ngồi giãn cơ mông và cơ xoay hông 1",
+      "steps": [
+        "Ngồi trên ghế.",
+        "Vắt cổ chân của một chân lên đầu gối chân kia.",
+        "Ấn đầu gối chân bắt chéo ra ngoài."
+      ],
+      "exercise_id": "dad251eb-c054-4851-b3ed-c5f9c379856a"
+    },
+    {
+      "index": 40,
+      "sourceName": "Glute Hip Rotator Stretch 2 Seated",
+      "name": "Ngồi giãn cơ mông và cơ xoay hông 2",
+      "steps": [
+        "Ngồi trên ghế.",
+        "Vắt cổ chân của một chân lên đầu gối chân kia.",
+        "Kéo đầu gối về phía mình và giữ trong thời gian được chỉ định."
+      ],
+      "exercise_id": "7eca3669-4221-44f6-85e9-283631a82f7a"
+    },
+    {
+      "index": 41,
+      "sourceName": "Glute Hip Rotator Stretch 3 Seated",
+      "name": "Ngồi giãn cơ mông và cơ xoay hông 3",
+      "steps": [
+        "Ngồi trên ghế.",
+        "Vắt cổ chân của một chân lên đầu gối chân kia.",
+        "Đẩy đầu gối ra xa và nghiêng người về trước trong thời gian được chỉ định."
+      ],
+      "exercise_id": "f4ce239a-1c98-4b10-9955-7fb1998f8c51"
+    },
+    {
+      "index": 42,
+      "sourceName": "Glute Hip Rotator Stretch Supine",
+      "name": "Nằm ngửa giãn cơ mông và cơ xoay hông",
+      "steps": [
+        "Nằm ngửa, co gối và đặt bàn chân trên sàn.",
+        "Vắt cổ chân của một chân lên đầu gối chân kia.",
+        "Luồn tay giữa hai chân, nắm đùi của chân vẫn đang đặt trên sàn.",
+        "Kéo chân đó về ngực."
+      ],
+      "exercise_id": "8c101fe7-bbd7-4f27-bdfe-130c43a91726"
+    },
+    {
+      "index": 43,
+      "sourceName": "Glute Piriformis Mobilisation 1 Floor Seated Lacrosse Ball",
+      "name": "Ngồi vận động cơ mông và cơ hình lê với bóng lacrosse 1",
+      "steps": [
+        "Ngồi trên bóng massage, phân bố trọng lượng giữa bàn chân, lòng bàn tay và mông.",
+        "Nghiêng sang bên và thử tìm điểm căng hoặc đau khi di chuyển nhẹ trên bóng.",
+        "Tiếp tục theo vị trí đau khi nó dịch chuyển quanh vùng mông."
+      ],
+      "exercise_id": "1df80d03-f212-4108-b10f-8d70a5b5ed68"
+    },
+    {
+      "index": 44,
+      "sourceName": "Glute Stretch Knee Pull Dynamic Standing",
+      "name": "Đứng kéo gối luân phiên giãn cơ mông",
+      "steps": [
+        "Đứng thẳng với tư thế đúng.",
+        "Luân phiên kéo đầu gối về ngực.",
+        "Giữ tư thế thẳng người trong suốt động tác."
+      ],
+      "exercise_id": "75447b23-6d64-4625-a2a4-94105b53e09e"
+    },
+    {
+      "index": 45,
+      "sourceName": "Glute Stretch Static Unilateral",
+      "name": "Giãn cơ mông tĩnh một bên",
+      "steps": [
+        "Nằm ngửa.",
+        "Co một đầu gối và kéo về ngực.",
+        "Giữ giãn trong vài giây rồi đổi chân."
+      ],
+      "exercise_id": "b9282f26-1d73-4233-8ff1-c61b71e1a73a"
+    },
+    {
+      "index": 46,
+      "sourceName": "Hamstring Mobilisation Seated Lacrosse Ball",
+      "name": "Ngồi vận động cơ đùi sau với bóng lacrosse",
+      "steps": [
+        "Đặt bóng massage trên ghế.",
+        "Ngồi để cơ đùi sau tựa lên bóng.",
+        "Di chuyển đến khi tìm được điểm căng hoặc đau.",
+        "Duỗi và co gối để vận động cơ đùi sau."
+      ],
+      "exercise_id": "55998c1d-5f12-4639-86aa-2bd85baebd59"
+    },
+    {
+      "index": 47,
+      "sourceName": "Hamstring Stretch Dynamic Standing Bilateral",
+      "name": "Đứng giãn cơ đùi sau động hai bên",
+      "steps": [
+        "Đứng tách chân trước sau.",
+        "Vung chân sau về trước và lên trên.",
+        "Trở về vị trí ban đầu."
+      ],
+      "exercise_id": "eb3d533e-fd7a-44de-bbeb-550fd3919027"
+    },
+    {
+      "index": 48,
+      "sourceName": "Hamstring Stretch Dynamic Supine Alternating",
+      "name": "Nằm ngửa giãn cơ đùi sau động luân phiên",
+      "steps": [
+        "Nằm ngửa, hai chân thẳng.",
+        "Nghiêng chậu về sau và giữ vị trí.",
+        "Đá một chân lên để cảm nhận giãn cơ đùi sau."
+      ],
+      "exercise_id": "81f2a1fe-986f-47a0-b272-51c0cbee7049"
+    },
+    {
+      "index": 49,
+      "sourceName": "Hamstring Stretch Seated Single Leg",
+      "name": "Ngồi giãn cơ đùi sau một chân",
+      "steps": [
+        "Bắt đầu ở tư thế ngồi với một chân duỗi, chân kia co.",
+        "Với tay về bàn chân của chân duỗi, nhún qua lại giữa vị trí ban đầu và vị trí giãn."
+      ],
+      "exercise_id": "a5a2e11c-402c-4fb9-bf58-6dcc4d8c2ab6"
+    },
+    {
+      "index": 51,
+      "sourceName": "Hamstring Stretch Static Standing Single Leg",
+      "name": "Đứng giãn cơ đùi sau tĩnh một chân",
+      "steps": [
+        "Từ tư thế đứng, đưa một chân hơi ra trước.",
+        "Nhấc mũi chân và nghiêng người về phía mũi chân.",
+        "Giữ tư thế."
+      ],
+      "exercise_id": "d9b4f657-edc9-4ba2-91d8-fbf16db915e5"
+    },
+    {
+      "index": 52,
+      "sourceName": "Hamstring Stretch Supine Dynamic Band",
+      "name": "Nằm ngửa giãn cơ đùi sau động với dây",
+      "steps": [
+        "Vòng dây TheraBand hoặc dây giãn cơ quanh bàn chân.",
+        "Nằm ngửa xuống sàn.",
+        "Dùng dây hỗ trợ nâng chân đến điểm giãn.",
+        "Kéo dây ở cuối biên độ để thực hiện giãn cơ đùi sau động."
+      ],
+      "exercise_id": "341216c0-506c-4eb6-86f0-2fc6f63bb74d"
+    },
+    {
+      "index": 53,
+      "sourceName": "Hamstring Stretch Supine Glide",
+      "name": "Nằm ngửa co duỗi gối giãn cơ đùi sau với dây",
+      "steps": [
+        "Vòng dây TheraBand quanh bàn chân.",
+        "Nằm ngửa xuống sàn.",
+        "Dùng dây hỗ trợ nâng chân đến điểm giãn, giữ đầu gối hơi co.",
+        "Duỗi và co gối để chủ động giãn cơ đùi sau."
+      ],
+      "exercise_id": "7e9b2876-e8ee-42e5-84df-2986e7eeecde"
+    },
+    {
+      "index": 55,
+      "sourceName": "Hip Extension 4Pt Position Hold",
+      "name": "Giữ duỗi hông ở tư thế chống bốn điểm",
+      "steps": [
+        "Bắt đầu ở tư thế chống 4 điểm bằng hai tay và hai gối.",
+        "Duỗi thẳng và nâng một chân đến khi song song với sàn.",
+        "Giữ cột sống ở vị trí trung tính.",
+        "Nếu thấy lưng dưới cứng hoặc đau khi tập bài này, hãy nhờ huấn luyện viên hoặc chuyên viên trị liệu hướng dẫn."
+      ],
+      "exercise_id": "bfba0878-ef36-44c7-9bd7-76085e0c4a4c"
+    },
+    {
+      "index": 56,
+      "sourceName": "Hip Extension External Rotation 4Pt Position",
+      "name": "Duỗi hông và xoay ngoài ở tư thế chống bốn điểm",
+      "steps": [
+        "Bắt đầu ở tư thế chống 4 điểm bằng hai tay và hai gối.",
+        "Duỗi thẳng và nâng một chân đến khi song song với sàn.",
+        "Giữ vị trí nhưng xoay chân ra ngoài, đầu gối hướng ra ngoài.",
+        "Nếu thấy lưng dưới cứng hoặc đau khi tập bài này, hãy nhờ huấn luyện viên hoặc chuyên viên trị liệu hướng dẫn."
+      ],
+      "exercise_id": "2f05e89a-1893-4f4e-b460-6c1d88e80fb9"
+    },
+    {
+      "index": 57,
+      "sourceName": "Hip Extension External Rotation Pulses 4Pt Position",
+      "name": "Duỗi hông xoay ngoài và nhấp chân ở tư thế chống bốn điểm",
+      "steps": [
+        "Bắt đầu ở tư thế chống 4 điểm bằng hai tay và hai gối.",
+        "Duỗi thẳng và nâng một chân đến khi song song với sàn, xoay chân ra ngoài để đầu gối hướng ra ngoài.",
+        "Thực hiện các chuyển động nhỏ lên trên trong khi giữ đầu gối xoay ngoài.",
+        "Giữ cột sống ở vị trí trung tính."
+      ],
+      "exercise_id": "8fa14866-fed9-4b3f-b891-85106e40e757"
+    },
+    {
+      "index": 59,
+      "sourceName": "I Into W",
+      "name": "Nằm sấp chuyển tay từ chữ I sang chữ W",
+      "steps": [
+        "Nằm sấp, hai tay duỗi thẳng trên đầu.",
+        "Hướng ngón cái lên. Thử nâng tay khỏi sàn trong khi giữ tay thẳng.",
+        "Co khuỷu tay sang hai bên, tạo hình chữ W bằng hai tay.",
+        "Duỗi về vị trí chữ I nhưng không đặt nghỉ trên sàn."
+      ],
+      "exercise_id": "506d4cb2-658a-46e1-800a-b864195ac407"
+    },
+    {
+      "index": 60,
+      "sourceName": "I's Prone",
+      "name": "Nằm sấp nâng tay hình chữ I",
+      "steps": [
+        "Nằm sấp, hai tay duỗi thẳng trên đầu.",
+        "Hướng ngón cái lên.",
+        "Thử nâng tay khỏi sàn trong khi giữ tay thẳng."
+      ],
+      "exercise_id": "b7b6345d-5315-46a5-89fc-0fda3c07254a"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 7,
+      "sourceName": "Bodyweight Deadlift",
+      "reason": "Bodyweight setup unexpectedly ends by lowering a bar to the floor. Verify equipment and intended final step.",
+      "exercise_id": "c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7"
+    },
+    {
+      "index": 14,
+      "sourceName": "Calf Raise 1C Bilateral Eccentric From Box",
+      "reason": "Source asks for a rapid bilateral heel raise while avoiding calf contraction, without specifying assistance. Verify how the concentric phase is supported.",
+      "exercise_id": "c15c48e4-3318-4b63-ac31-22a315943752"
+    },
+    {
+      "index": 17,
+      "sourceName": "Calf Raise 2A Eccentric Unilateral Floor",
+      "reason": "Source raises both heels then asks to avoid calf contraction during ascent, without establishing assisted ascent. Verify the loading cue before translation.",
+      "exercise_id": "4b3f1db2-0c01-40be-953c-f32e214b06d2"
+    },
+    {
+      "index": 19,
+      "sourceName": "Calf Raise 2C Eccentric Unilateral From Box",
+      "reason": "Source uses both legs for ascent but says to avoid calf contraction during heel raising. Verify which calf is intended to be unloaded rather than changing the cue.",
+      "exercise_id": "5b494ab8-bc93-4ef0-a5dd-53752fb50853"
+    },
+    {
+      "index": 22,
+      "sourceName": "Calf Stretch On Box Bilateral",
+      "reason": "Bilateral title and plural heel-lowering conflict with a setup shifting onto only one forefoot. Verify supporting feet.",
+      "exercise_id": "4d64425d-a884-4aed-8aac-bc991e9450dc"
+    },
+    {
+      "index": 28,
+      "sourceName": "Cobra Stretch 1",
+      "reason": "Source places palms under shoulders, then supports the lifted body on forearms without repositioning. Verify forearm support and shoulder/elbow alignment.",
+      "exercise_id": "fe159d28-1ece-4587-bcba-cb9ef780d0b2"
+    },
+    {
+      "index": 31,
+      "sourceName": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+      "reason": "Source already holds the kettlebell at the side, then hinges forward to lift it without stating a set-down or starting load position. Verify the pickup versus carry sequence.",
+      "exercise_id": "9c3889b0-767c-479e-a1d3-bde7fd252e04"
+    },
+    {
+      "index": 34,
+      "sourceName": "Deadlift Bounces Stretch",
+      "reason": "Source gives a forward hinge and range cue but omits the bouncing movement named by the variant. Verify intended dynamic versus static stretch.",
+      "exercise_id": "94fa27d3-e887-4289-ac56-57f2cae2101e"
+    },
+    {
+      "index": 50,
+      "sourceName": "Hamstring Stretch Seated Single Leg Isometric",
+      "reason": "Isometric title conflicts with dynamically reaching forward and returning. Verify hold versus repeated motion.",
+      "exercise_id": "8d742f9d-3df6-447d-bc8f-91dbb7352740"
+    },
+    {
+      "index": 54,
+      "sourceName": "Hamstring Stretch Supine Static",
+      "reason": "Static title has the same dynamic end-range strap-tug instructions as the dynamic variant. Verify intended static hold.",
+      "exercise_id": "19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d"
+    },
+    {
+      "index": 58,
+      "sourceName": "Hip Extension Into Side Flexion",
+      "reason": "Instructions duplicate the straight hip-extension hold and omit the side flexion named in the title. Verify variant-specific movement.",
+      "exercise_id": "1c350f8e-21b5-427a-b442-72d266fde398"
+    }
+  ]
+}

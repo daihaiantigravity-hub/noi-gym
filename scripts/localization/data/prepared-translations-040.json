@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Vietnamese names and steps checked against source-review-decisions-006.json and all available male/female front/side samples, with offset phases where needed. Preserve the existing 90-degree cue, step counts, grip differences, supports, unilateral adduction and distinct band positions. Prepared only until the source/translation transaction and live verification pass.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "29ad0a17-31c2-413e-b894-80901728c28e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2ee0b880175879b195bdc3426838ec173ec77159aec11bb7ca31809b98ce3f0f",
+      "name": "Kéo dây kháng lực từ trên xuống",
+      "description": "",
+      "steps": [
+        "Neo dây kháng lực cao hơn đầu, hai tay nắm dây và lùi lại vài bước đến khi dây căng.",
+        "Đẩy hông nhẹ ra sau, giữ lưng thẳng. Giữ khuỷu tay hơi gập, kéo hai tay xuống về phía đùi rồi đưa tay ra trước và lên trên có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Pullover",
+        "description": "",
+        "steps": [
+          "Anchor the band above head level, grasp it with both hands, and take a few steps back until it is taut.",
+          "Push your hips back slightly, keeping your back straight. With your elbows slightly bent, pull your hands down toward your thighs, then return them forward and up under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2a854fdd-57fa-4f00-822d-4d119cdd1919",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "61749af2f0ee29b69c418ddd7e9d7d7a59ebc76b5c692a9bc6396e3b0327926d",
+      "name": "Nâng tay sang ngang gập khuỷu với dây kháng lực ngắn",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh hai tay gần khuỷu, giữ hai khuỷu tay gập 90 độ ở hai bên người.",
+        "Nâng cả hai khuỷu tay sang hai bên đến ngang vai.",
+        "Từ từ hạ đồng thời cả hai khuỷu tay, giữ dây căng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Mini Band Bent Arm Lateral Raise",
+        "description": "",
+        "steps": [
+          "Loop the band around your arms near the elbows, with your elbows bent 90 degrees at your sides.",
+          "Raise both elbows outward to shoulder height.",
+          "Lower both elbows slowly together, keeping tension on the band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "480cf1bf-b9cf-4dd8-879a-b32a33b51164",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a15927b42ffd64e76f00842c395f2783ba1e93f1f1545ed4b4f2312f8bcf376",
+      "name": "Đẩy ngực chéo xuống với cáp",
+      "description": "",
+      "steps": [
+        "Gắn tay cầm vào mỗi bên cáp và đặt ghế ở giữa máy cáp đôi. Ngồi tựa lưng, điều chỉnh ròng rọc cao hơn vai khi ngồi.",
+        "Đưa hai tay cầm về hai bên ngực, giữ hai bàn chân trên sàn.",
+        "Đẩy hai tay cầm ra trước và chéo xuống về phía đùi khi duỗi khuỷu tay, sau đó gập khuỷu để đưa tay cầm về ngực có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Cable Decline Bench Press",
+        "description": "",
+        "steps": [
+          "Attach a handle to each cable and place a bench in the center of the cable crossover. Sit with your back supported and the pulleys above your seated shoulder height.",
+          "Bring both handles to the sides of your chest, keeping your feet on the floor.",
+          "Press the handles forward and down toward your thighs as you extend your elbows, then bend your elbows to return the handles to your chest under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5513598d-250b-4e4a-b652-7f63d836354c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c7bdbea039eed0df505342192ed962b6c7636a5cc83662e5296aaae3b242906d",
+      "name": "Duỗi tay sau với thanh cáp nắm ngửa",
+      "description": "",
+      "steps": [
+        "Dùng thanh gắn cáp và đặt cáp ở vị trí cao nhất của máy. Nắm thanh bằng kiểu nắm ngửa, lòng bàn tay hướng lên.",
+        "Giữ cánh tay trên sát hai bên người và duỗi khuỷu để đẩy thanh xuống đến khi cảm nhận cơ tay sau co lại. Gập khuỷu để đưa thanh trở về có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Cable Bar Reverse Grip Pushdown",
+        "description": "",
+        "steps": [
+          "Use the bar attachment with the cable set at the top of the machine. Grasp the bar with an underhand grip, palms facing up.",
+          "Keep your upper arms at your sides and extend your elbows to press the bar down until you feel your triceps contract. Bend your elbows to return the bar under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "81857c43-9f25-4920-9a6a-c3bd2e085845",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "78abfbb8979ffbbfbe9fb36c49e0135fa78bedc59a73f751c50c5fea9adbedfb",
+      "name": "Squat giữ dây kháng lực trước ngực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai trên dây kháng lực, hai tay nắm cùng vòng dây trước ngực.",
+        "Đẩy hông ra sau và gập gối để hạ vào tư thế squat, giữ hai tay trước ngực.",
+        "Cố gắng hạ đến khi hai đùi song song với sàn rồi đứng lên trở lại. Nếu khó xác định độ sâu, hãy squat trước gương để kiểm tra tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Goblet Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width apart on the band, holding its loop with both hands together in front of your chest.",
+          "Push your hips back and bend your knees to lower into a squat, keeping your hands in front of your chest.",
+          "Aim for your thighs to be parallel with the ground, then stand back up. If you cannot judge your depth, squat in front of a mirror to check your form."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a07af0fa-0508-40f1-81a7-1f5103d4ec84",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1865beb2f7cefd3c8d8decde6b49cf01f10f8110c2c2d0e572f7dee937335b82",
+      "name": "Đẩy ngực trên máy nắm trung tính",
+      "description": "",
+      "steps": [
+        "Ngồi tựa lưng vào đệm máy và nắm tay cầm bằng kiểu nắm trung tính, hai lòng bàn tay hướng vào nhau.",
+        "Điều chỉnh máy để di chuyển tay cầm trong biên độ thoải mái mà lưng vẫn tựa vào đệm.",
+        "Đẩy tay cầm ra trước đến khi khuỷu tay duỗi thẳng nhưng không quá duỗi, sau đó gập khuỷu để trở về có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Neutral Chest Press",
+        "description": "",
+        "steps": [
+          "Sit with your back against the machine pad and grasp the handles with a neutral grip, palms facing each other.",
+          "Adjust the machine so that you can move the handles through a comfortable range of motion while keeping your back supported.",
+          "Press the handles forward until your elbows are extended without hyperextending them, then bend your elbows to return under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aa60deef-61f5-467f-97dd-bfdc281f1b84",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0fafe72ea56f11ddf6753a79d0c7c5e1a7c84cbb6d1313764721d091f9e23a34",
+      "name": "Đẩy ngực trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi tựa lưng vào đệm máy và nắm tay cầm bằng kiểu nắm sấp.",
+        "Điều chỉnh máy để di chuyển tay cầm trong biên độ thoải mái mà lưng vẫn tựa vào đệm.",
+        "Đẩy tay cầm ra trước đến khi khuỷu tay duỗi thẳng nhưng không quá duỗi, sau đó gập khuỷu để trở về có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Machine Chest Press",
+        "description": "",
+        "steps": [
+          "Sit with your back against the machine pad and grasp the handles with an overhand grip.",
+          "Adjust the machine so that you can move the handles through a comfortable range of motion while keeping your back supported.",
+          "Press the handles forward until your elbows are extended without hyperextending them, then bend your elbows to return under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1e3970b-f516-4f25-b513-265d7a1ffd16",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "15ae62aadc897afa49ba5af11e30b99fe1feb7f5db83092cb814d454d3255117",
+      "name": "Kéo bả vai ra sau với dây kháng lực ngang",
+      "description": "",
+      "steps": [
+        "Neo dây kháng lực ngang vai. Hai tay nắm dây ở trước người và lùi lại vài bước đến khi dây căng.",
+        "Giữ khuỷu tay thẳng, kéo hai bả vai ra sau và về phía nhau. Sau đó đưa bả vai ra trước để trở về tư thế ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Horizontal Shrug",
+        "description": "",
+        "steps": [
+          "Anchor the band at shoulder height. Grasp it with both hands in front of you and take a few steps back until it is taut.",
+          "Keeping your elbows straight, draw your shoulder blades back toward each other. Then let your shoulder blades move forward to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b571d4f6-5ab3-4966-9a77-3f94fb95294a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "428e64688d00feb5118376422da70ca9c49c0802a71b849cb3f786cd8b2269e7",
+      "name": "Quỳ gập gối tập đùi sau trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Đặt một gối lên đệm đỡ của máy và tựa thân trên vào các đệm phía trước. Đặt chân tập dưới cần đệm sao cho con lăn nằm bên dưới bắp chân.",
+        "Nắm tay cầm máy để giữ vững và gập gối chân tập để nâng cần, đưa gót chân về phía mông.",
+        "Dừng ở vị trí trên cùng, sau đó từ từ duỗi gối chân tập để trở về tư thế ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Machine Plate Loaded Kneeling Hamstring Curl",
+        "description": "",
+        "steps": [
+          "Place one knee on the machine's support pad and lean your upper body onto the front pads. Position the working leg under the padded lever, with the roller below your calf.",
+          "Hold the machine handles for support and bend the working knee to raise the lever, bringing your heel toward your glutes.",
+          "Pause at the top, then slowly extend the working knee to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bda7dc7d-68fa-492d-afea-8cbe8bca7d23",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "550240ddc755da29321030b073d233034ed3679738115a4459f0b3e3fd934314",
+      "name": "Chống tay quỳ dang chân với cáp",
+      "description": "",
+      "steps": [
+        "Đặt cáp ở vị trí thấp nhất của máy và gắn đai cổ chân vào chân tập.",
+        "Chống cả hai tay và gối bên đối diện, duỗi chân tập ra sau sao cho cáp căng.",
+        "Dang chân tập sang bên từ khớp hông, giữ thân người ổn định.",
+        "Đưa chân trở về có kiểm soát, giữ bàn chân tập không chạm sàn và duy trì độ căng của cáp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Cable Quadruped Hip Abduction",
+        "description": "",
+        "steps": [
+          "Set the cable at the bottom of the machine and fasten the ankle attachment to your working leg.",
+          "Support yourself on both hands and the opposite knee, extending the working leg behind you with the cable taut.",
+          "Move the working leg outward from your hip, keeping your torso steady.",
+          "Return the leg under control, keeping the working foot off the floor and maintaining tension on the cable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bf20011e-fd35-4fa5-8ebb-10d585dd13a5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ea396144ffaf23b32e0416dd218ff581e2e41003b86d6285eee754abc4cce2a8",
+      "name": "Gập người kéo một tay với dây kháng lực ngắn",
+      "description": "",
+      "steps": [
+        "Đứng một chân trước, đạp lên dây kháng lực ngắn. Gập người ra trước với lưng phẳng, một tay nắm dây và tay còn lại tựa lên đùi trước.",
+        "Gập khuỷu và kéo ra sau để đưa dây về phía eo, sau đó hạ tay có kiểm soát, giữ cơ trung tâm siết chặt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Mini Band Bent Over Row",
+        "description": "",
+        "steps": [
+          "Stand with one foot forward on the mini band. Hinge forward with a flat back, hold the band in one hand, and support your free hand on your front thigh.",
+          "Pull the band toward your waist by bending your elbow and drawing it back, then lower your hand under control while keeping your core engaged."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c169df11-87fc-4350-8d79-dc759d11b549",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9bb5fbc30a9f978df18208c52da5a71c20cbefc00f625e62d5ac75111897534b",
+      "name": "Đứng khép chân với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây kháng lực vào một điểm neo thấp, chắc chắn.",
+        "Đứng nghiêng bên cạnh điểm neo và vòng dây quanh cổ chân gần điểm neo nhất. Giữ bàn chân còn lại trên sàn làm điểm tựa.",
+        "Kéo chân có dây vào trong về phía đường giữa cơ thể, sau đó đưa chân ra ngoài trở lại có kiểm soát. Lặp lại đủ số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Hip Adduction",
+        "description": "",
+        "steps": [
+          "Attach the band to a stable low anchor point.",
+          "Stand side-on to the anchor and loop the band around the ankle nearest to it. Keep your other foot planted for support.",
+          "Pull the banded leg inward toward the midline of your body, then return it outward under control. Repeat for the desired number of repetitions."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d09ab5d4-11a7-470f-bdfb-ebde9e49b290",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e194177549097725480dfb704bba788169aa68effd439b9ad814e2f9a32dd1c6",
+      "name": "Đứng đẩy ngực với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Vòng dây kháng lực qua lưng trên và cầm mỗi đầu dây bằng một tay ở hai bên ngực, giữ khuỷu tay gập.",
+        "Đẩy cả hai tay ra trước đến khi tay duỗi trước ngực, sau đó gập khuỷu để trở về có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Standing Chest Press",
+        "description": "",
+        "steps": [
+          "Loop the band around your upper back and hold an end in each hand beside your chest, with your elbows bent.",
+          "Press both hands forward until your arms are extended in front of your chest, then bend your elbows to return under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dbb91c4a-21b8-4a68-b2ca-f7acb5b7fded",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "988b01869a6c12fda6a7cc49bb145663f14b29402e5f3009046c82af7e95efb1",
+      "name": "Ép ngực xoay trong vai với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây kháng lực ở phía sau ngang khoảng vai. Đứng một chân trước, mỗi tay nắm một đầu dây với lòng bàn tay hướng xuống và hai tay mở sang hai bên.",
+        "Giữ khuỷu tay hơi gập, đưa hai tay khép lại trước ngực.",
+        "Dừng ngắn rồi từ từ mở tay trở lại hai bên, giữ nguyên kiểu nắm và độ căng của dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Internally Rotated Chest Fly",
+        "description": "",
+        "steps": [
+          "Anchor the band behind you at about shoulder height. Stand with one foot forward and hold an end in each hand with your palms facing down and your arms open to the sides.",
+          "Keeping your elbows slightly bent, bring your hands together in front of your chest.",
+          "Pause briefly, then slowly open your arms back out to the sides, maintaining the same grip and tension on the band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "df80b49f-2768-4b16-adc6-f5a24f0ee221",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "633cfe88f1359c5aebf66000de5eb24363c926b2b5044c25cc5e0fbb02e06cc4",
+      "name": "Squat với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai trên dây kháng lực, mỗi tay nắm một đầu dây ở hai bên người.",
+        "Đẩy hông ra sau và gập gối để hạ vào tư thế squat, giữ hai tay ở hai bên người.",
+        "Cố gắng hạ đến khi hai đùi song song với sàn rồi đứng lên trở lại. Nếu khó xác định độ sâu, hãy squat trước gương để kiểm tra tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width apart on the band, holding an end in each hand at your sides.",
+          "Push your hips back and bend your knees to lower into a squat, keeping your hands at your sides.",
+          "Aim for your thighs to be parallel with the ground, then stand back up. If you cannot judge your depth, squat in front of a mirror to check your form."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e702fe77-adf6-4cdb-9b92-037b0150abb3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "505285344d58f44f469b0b4d981edc1694d6da7765ee855f572d1ee539d7672e",
+      "name": "Đứng khép chân với cáp",
+      "description": "",
+      "steps": [
+        "Đặt cáp ở vị trí thấp nhất của máy và gắn đai cổ chân vào chân gần máy nhất. Đứng nghiêng bên cạnh máy, giữ bàn chân còn lại trên sàn và vịn khung máy để giữ vững.",
+        "Kéo chân gắn cáp vào trong, đi ngang phía trước chân trụ, sau đó đưa chân ra ngoài trở lại có kiểm soát. Lặp lại đủ số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Cable Standing Hip Adduction",
+        "description": "",
+        "steps": [
+          "Set the cable at the bottom of the machine and attach the ankle cuff to the leg nearest the machine. Stand side-on, keeping your other foot planted and holding the frame for support.",
+          "Pull the attached leg inward across the front of your supporting leg, then return it outward under control. Repeat for the desired number of repetitions."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eb589db7-6217-4ecb-b087-7fab222e4942",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "66b42c5c45a92b34a10b4f5a646b1684ce4c14f5302ebd92baaca2c70b81fead",
+      "name": "Tập tim mạch với máy Ski Erg",
+      "description": "",
+      "steps": [
+        "Đứng hướng về máy Ski Erg, hai chân tách nhau, mỗi tay nắm một tay cầm và vươn tay lên để bắt đầu lượt kéo.",
+        "Kéo cả hai tay cầm xuống về phía đùi đồng thời gập hông và gối, giữ hai bàn chân trên sàn.",
+        "Đứng thẳng trở lại, đưa tay ra trước và lên trên để về tư thế ban đầu, sau đó lặp lại động tác kéo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Cardio Ski Erg",
+        "description": "",
+        "steps": [
+          "Stand facing the Ski Erg with your feet apart and grasp a handle in each hand, reaching your hands up to begin the stroke.",
+          "Pull both handles down toward your thighs as you hinge at the hips and bend your knees, keeping your feet planted.",
+          "Stand back up and let your hands travel forward and up to reset, then repeat the pulling motion."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ff006eef-2a90-4966-bcac-84a7d65a0257",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "158f0949d2989bab4b00d5bebe4bc2906c12dd5aace7c8890cce660688bc7157",
+      "name": "Ép ngực một tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây kháng lực vào điểm neo ngang khoảng vai. Một tay nắm dây với cánh tay mở sang bên và bước ra xa vài bước đến khi dây căng.",
+        "Giữ khuỷu tay hơi gập, đưa cánh tay qua trước ngực đến khi cảm nhận cơ ngực co lại, sau đó đưa tay mở ra ngoài trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T06:20:40.151Z",
+      "source": {
+        "name": "Band Single Arm Pec Fly",
+        "description": "",
+        "steps": [
+          "Attach the band to an anchor at about shoulder height. Hold it in one hand with your arm open to the side and take a few steps away until the band is taut.",
+          "Keeping a slight bend in your elbow, bring your arm across the front of your chest until you feel your pecs contract, then return it outward under control."
+        ]
+      }
+    }
+  ]
+}

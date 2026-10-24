@@ -4,21 +4,22 @@ import { redirect } from "next/navigation";
 import { headers } from "next/headers";
 import { isAdminEmail, isAdminUser } from "@/lib/admin-auth";
 import { createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import type { WorkspaceMessageKey } from "@/lib/i18n/workspace-messages";
 
 export type LoginActionState = {
-  error?: string;
+  error?: WorkspaceMessageKey;
 };
 
 export type PasswordResetActionState = {
-  error?: string;
-  success?: string;
+  error?: WorkspaceMessageKey;
+  success?: WorkspaceMessageKey;
 };
 
-const passwordResetSuccess = "If the email belongs to an administrator account, password reset instructions have been sent.";
+const passwordResetSuccess = "authResetSent";
 
-function getAuthError(error: { message?: string; status?: number } | null, fallback: string) {
+function getAuthError(error: { message?: string; status?: number } | null, fallback: WorkspaceMessageKey): WorkspaceMessageKey {
   if (error?.status === 402 || error?.message?.includes("exceed_storage_size_quota")) {
-    return "The Supabase project is paused because it exceeded its storage quota. Resolve the quota before signing in or resetting a password.";
+    return "authQuotaExceeded";
   }
   return fallback;
 }
@@ -50,19 +51,19 @@ async function getRequestOrigin() {
 }
 
 export async function signInAction(_previousState: LoginActionState, formData: FormData): Promise<LoginActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
+  if (!isSupabaseConfigured()) return { error: "authNotConfigured" };
 
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
-  if (!email || !password) return { error: "Enter your email and password to sign in" };
+  if (!email || !password) return { error: "authCredentialsRequired" };
 
   const supabase = await createSupabaseServerClient();
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
 
-  if (error || !data.user) return { error: getAuthError(error, "Incorrect email or password") };
+  if (error || !data.user) return { error: getAuthError(error, "authInvalidCredentials") };
   if (!isAdminUser(data.user)) {
     await supabase.auth.signOut();
-    return { error: "This account does not have administrator access" };
+    return { error: "authAdminRequired" };
   }
 
   redirect("/admin/exercises");
@@ -72,16 +73,16 @@ export async function requestPasswordResetAction(
   _previousState: PasswordResetActionState,
   formData: FormData,
 ): Promise<PasswordResetActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
+  if (!isSupabaseConfigured()) return { error: "authNotConfigured" };
 
   const email = String(formData.get("email") ?? "").trim().toLowerCase();
-  if (!email || !/^\S+@\S+\.\S+$/.test(email)) return { error: "Enter a valid email address" };
+  if (!email || !/^\S+@\S+\.\S+$/.test(email)) return { error: "authInvalidEmail" };
   if (!isAdminEmail(email)) return { success: passwordResetSuccess };
 
   const supabase = await createSupabaseServerClient();
   const redirectTo = new URL("/auth/callback", await getRequestOrigin()).toString();
   const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo });
-  if (error) return { error: getAuthError(error, "Unable to send the password reset email. Please try again.") };
+  if (error) return { error: getAuthError(error, "authResetFailed") };
 
   return { success: passwordResetSuccess };
 }
@@ -90,21 +91,21 @@ export async function updatePasswordAction(
   _previousState: PasswordResetActionState,
   formData: FormData,
 ): Promise<PasswordResetActionState> {
-  if (!isSupabaseConfigured()) return { error: "Supabase is not configured" };
+  if (!isSupabaseConfigured()) return { error: "authNotConfigured" };
 
   const password = String(formData.get("password") ?? "");
   const confirmation = String(formData.get("passwordConfirmation") ?? "");
-  if (password.length < 12) return { error: "The new password must contain at least 12 characters" };
-  if (password !== confirmation) return { error: "The passwords do not match" };
+  if (password.length < 12) return { error: "authPasswordTooShort" };
+  if (password !== confirmation) return { error: "authPasswordsMismatch" };
 
   const supabase = await createSupabaseServerClient();
   const { data, error: userError } = await supabase.auth.getUser();
   if (userError || !isAdminUser(data.user)) {
-    return { error: getAuthError(userError, "The reset link is invalid or has expired. Request a new email.") };
+    return { error: getAuthError(userError, "authRecoveryInvalid") };
   }
 
   const { error } = await supabase.auth.updateUser({ password });
-  if (error) return { error: getAuthError(error, "Unable to update the password. Please try again.") };
+  if (error) return { error: getAuthError(error, "authPasswordUpdateFailed") };
 
   redirect("/admin/exercises");
 }

@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "Yoga source corrections and Vietnamese localization",
+  "preparedAt": "2026-10-23T10:59:21.780Z",
+  "databaseStatus": "applied_and_verified",
+  "restorations": [
+    {
+      "exercise_id": "59c29200-b637-4c9b-8203-f72cc620f98d",
+      "source_id": 273404307121980,
+      "before": {
+        "name": "Crow Pose",
+        "description": "",
+        "steps": [
+          "Begin in a squatting position with your feet together and your knees apart.",
+          "Place your hands on the floor in front of you, shoulder-width apart. Keep your arms straight and engage your core.",
+          "Slowly shift your weight forward and lift your feet off the ground, coming onto your tiptoes.",
+          "Bend your elbows and lean your weight onto your hands, shifting your knees towards your upper arms.",
+          "Gently lift one foot off the ground, and then the other, balancing on your hands. Hold the pose for a few breaths before releasing back to the ground."
+        ]
+      },
+      "after": {
+        "name": "Crow Pose",
+        "description": "",
+        "steps": [
+          "Begin in a squatting position with your feet together and your knees apart.",
+          "Place your hands on the floor in front of you, shoulder-width apart. Keep your arms straight and engage your core.",
+          "Shift your weight forward over your hands and rise onto your toes, bringing your knees toward your upper arms.",
+          "Bend your elbows and lean your weight onto your hands, shifting your knees towards your upper arms.",
+          "Gently lift one foot off the ground, and then the other, balancing on your hands. Hold the pose for a few breaths before releasing back to the ground."
+        ]
+      },
+      "before_hash": "6e8dad8adb449462c4f5a736b410755bb48d94dcc118d4360c77d616121d906a",
+      "after_hash": "7b3e9eccd85520145246afc06c3abc480388a3d9b191d1bb0a3635d55f4835c6",
+      "expected_updated_at": "2026-10-14T10:47:40.63774+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the original public exercise page and male/female video clips; not provider-written replacement wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "The male and female videos show a squat-to-arm-balance progression. Source step 3 says to lift the feet completely off the floor while also coming onto the tiptoes, which cannot happen at the same time. Clarify this as rising onto the toes while shifting forward; the following steps then describe the arm balance and controlled lower.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/crow-pose",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/crow-pose?model=m",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crow-pose-m-step-3.png",
+                  "sha256": "5209daa5d54f5e6998f99aaeb94ee9ea38923b2528a6e3e7aec863ff86a4b7a4"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crow-pose-m-step-4-final.png",
+                  "sha256": "a3d8f0ad1a4df5d4f4cf8c53da028128360bbb01f632cc438a5de35f39e1eecb"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/crow-pose?model=f",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crow-pose-f-loaded.png",
+                  "sha256": "b04b02895ed7828473abc0f7ccf1a98428628db7eee1ca986803677f14e99e99"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crow-pose-f-step-4.png",
+                  "sha256": "aa4010adeb5b48f01b8ea21d83815e8d51d44a0fd2382c4d21bff2f59406529f"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "exercise_id": "889058f1-8343-477e-89ab-833177608803",
+      "source_id": 10170937093419,
+      "before": {
+        "name": "Headstand",
+        "description": "",
+        "steps": [
+          "Begin on your hands and knees with your wrists under your shoulders and your knees under your hips.",
+          "Place your forearms on the floor and interlace your fingers.",
+          "Place the crown of your head on the floor and tuck your toes under.",
+          "Walk your feet towards your head and lift your hips up.",
+          "Straighten your legs and find your balance. Hold for several breaths and then release."
+        ]
+      },
+      "after": {
+        "name": "Headstand",
+        "description": "",
+        "steps": [
+          "Begin on your hands and knees with your wrists under your shoulders and your knees under your hips.",
+          "Place your forearms on the floor and interlace your fingers.",
+          "Place the crown of your head on the floor and tuck your toes under.",
+          "Walk your feet towards your head and lift your hips up.",
+          "Engage your core, tuck your knees toward your chest, and lift your legs overhead. Straighten your legs and stack your ankles over your hips to balance. Hold for several breaths, then lower your legs with control."
+        ]
+      },
+      "before_hash": "e04b6841a646c8bb38146b8528a9344a42a83d0c4918355eff562e9b6f4de55f",
+      "after_hash": "d8f5dc1ae4a28a34fd29ce13e36ccd4ec9cd19d32d9e396797ee1b235d9d2254",
+      "expected_updated_at": "2026-10-14T10:46:45.773355+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the original public exercise page and male/female video clips; not provider-written replacement wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "Both videos progress from the kneeling forearm-and-head setup into a supported headstand with the legs extended overhead. The source jumps from raising the hips to straightening the legs without describing lifting the legs into the inversion. Complete the final instruction with a controlled entry, stacked alignment, and controlled lowering while keeping the same five-step structure.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/headstand",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/headstand?model=m",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/headstand-m-later.png",
+                  "sha256": "4983e53da564a0167c70a6dc37d9a2d3294d54d6f7fac35b3234ee5b920d8310"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/headstand?model=f",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/headstand-f-later.png",
+                  "sha256": "e64b00778811e83f3c0796d588fe6cd17c16ec846445c49f8f7925ac3c8a8f6f"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "exercise_id": "d78dd7b1-3296-48d7-aa1f-89777f00b8d6",
+      "source_id": 153159243593661,
+      "before": {
+        "name": "Restful Cow Face Pose Legs",
+        "description": "",
+        "steps": [
+          "Start in a seated position with your legs extended in front of you.",
+          "Cross your right leg over your left leg, placing your right foot on the floor beside your left hip.",
+          "Cross your left leg over your right leg, placing your left foot on the floor beside your right hip.",
+          "Relax your arms by your sides or place them on your abdomen and take deep breaths."
+        ]
+      },
+      "after": {
+        "name": "Restful Cow Face Pose Legs",
+        "description": "",
+        "steps": [
+          "Start in a seated position with your legs extended in front of you.",
+          "Bend both knees and stack your right knee over your left, bringing your right foot beside your left hip and your left foot toward your right hip.",
+          "Sit tall, relax your arms by your sides or rest your hands on your abdomen, and breathe deeply while holding the pose.",
+          "Release your legs and extend them forward. Switch sides by stacking your left knee over your right, then settle into the pose and breathe deeply for several breaths."
+        ]
+      },
+      "before_hash": "7bfd8eb18ee00b58db0683c4c01a4212e7437f2e3cc12b2e0f00037b99f44936",
+      "after_hash": "fede166e202024ed30d54719fee49421c56cc3a94c32679b4a44b3fd3e129ae1",
+      "expected_updated_at": "2026-10-14T10:47:16.319899+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the original public exercise page and male/female video clips; not provider-written replacement wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "The male and female clips show a seated, bent-knee setup and a stacked Cow Face leg position. The source describes crossing the legs in opposite directions one after another without releasing or resetting between sides. Clarify the first-side hold and the release/switch before repeating on the other side.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/restful-cow-face-pose-legs",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/restful-cow-face-pose-legs?model=m",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/restful-cow-face-pose-legs-m-loaded.png",
+                  "sha256": "8823033b2647abd78018081cc230aff0ef147fa78d3a9f4d9b21a609b242a8e6"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/restful-cow-face-pose-legs-m-later.png",
+                  "sha256": "8920654816342876dceb8bd13028c664dfd4f2afd1c617f72c5c71a64c36cee4"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/restful-cow-face-pose-legs?model=f",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/restful-cow-face-pose-legs-f-loaded.png",
+                  "sha256": "06ec689e92a864371b8707d64230d564508ca9f1378fa6d1c42fe8a9782b9868"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/restful-cow-face-pose-legs-f-later.png",
+                  "sha256": "7a3b170d3b3917e966ecdc0b4e735abfada2ee7ce28107855c79bb6853501c3b"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "exercise_id": "f20e50b0-df5a-49be-a980-92a5f894128b",
+      "source_id": 272325948163863,
+      "before": {
+        "name": "Crescent Moon Pose Quad Stretch With Block",
+        "description": "",
+        "steps": [
+          "Begin in Crescent Moon Pose with your right foot forward and a block nearby.",
+          "Place the block at the highest height under your left hand.",
+          "Reach your left arm behind you and take hold of your left foot or ankle.",
+          "Gently pull your foot towards your buttocks while pressing your left hand into the block to deepen the stretch in your left quad. Hold for a few breaths before releasing and repeating on the other side."
+        ]
+      },
+      "after": {
+        "name": "Crescent Moon Pose Quad Stretch With Block",
+        "description": "",
+        "steps": [
+          "Begin in a low crescent lunge with one foot forward, the opposite knee resting on the floor, and a block beside the front foot.",
+          "Set the block at a height that lets you support your torso comfortably, then place one hand on it for balance.",
+          "Bend your rear knee and reach the other hand behind you to hold your rear foot or ankle.",
+          "Gently draw your rear heel toward your buttock while pressing your support hand into the block. Hold for a few breaths, then release and repeat on the other side."
+        ]
+      },
+      "before_hash": "aa47cb154c678e4b4fa6bb3be26fc1f07f218a2de80e07ba69c37233aade11a1",
+      "after_hash": "908301f65e255c00d61c0b5bae80c8c01113dac7b2bbc90abcbb3ec5eeb8beef",
+      "expected_updated_at": "2026-10-14T10:47:40.428269+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "written_source_status": "Editorial correction based on the original public exercise page and male/female video clips; not provider-written replacement wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "The male and female videos show a low lunge, one hand using the block for support, and the opposite hand holding the rear foot. The source assigns the same hand to press the block and hold the foot at once. Rewrite by role (support hand/rear-foot hand) so the actions are physically possible on either side.",
+        "source_videos": {
+          "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch-with-block",
+          "genders": [
+            {
+              "gender": "male",
+              "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch-with-block?model=m",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crescent-moon-pose-quad-stretch-with-block-m-loaded.png",
+                  "sha256": "ac176913a5d783309fe792e6df21fd4df7674c62746f7ac2ae29d0ac6d8dbfa5"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crescent-moon-pose-quad-stretch-with-block-m-later.png",
+                  "sha256": "c965575fef65ee7e19f8a50c06e63ef72b67e7b8e36b64b1489f96764b5200f4"
+                }
+              ]
+            },
+            {
+              "gender": "female",
+              "source_url": "https://musclewiki.com/exercise/crescent-moon-pose-quad-stretch-with-block?model=f",
+              "screenshots": [
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crescent-moon-pose-quad-stretch-with-block-f-loaded.png",
+                  "sha256": "4d1477c1d209d89373595053c6fac0ee9a6486e1299017b77b48bd23bc896111"
+                },
+                {
+                  "path": "artifacts/localization/stage-23-video-evidence/crescent-moon-pose-quad-stretch-with-block-f-later.png",
+                  "sha256": "72a3bc83ed4bfa918004b76c13d88384b9622fc1d88a1f933cc0f2bd6a18c49f"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "exercise_id": "090eb4c5-a2a8-48ab-8665-9a47159852fd",
+      "sourceName": "Scorpion Twist Pose",
+      "reason": "The male and female videos show kneeling and prone/supine spinal positions rather than the named Scorpion Twist inversion in the source instructions. The clip does not establish a safe, accurate replacement sequence for this pose, so keep the source and translation on hold.",
+      "translation_decision": "hold",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/scorpion-twist-pose",
+        "genders": [
+          {
+            "gender": "male",
+            "source_url": "https://musclewiki.com/exercise/scorpion-twist-pose?model=m",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-23-video-evidence/scorpion-twist-pose-m-later.png",
+                "sha256": "f5d40357bcc0a3757ee482d3b1e803ea516522d8d0cbbbf8c44619ee74ba65df"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "source_url": "https://musclewiki.com/exercise/scorpion-twist-pose?model=f",
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-23-video-evidence/scorpion-twist-pose-f-later.png",
+                "sha256": "7de399f282ed6c72457375855f5347251d9175473f82d950de27a3d92b3d3c96"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceHashBefore": "3549a82e950e21b987b4bd41da6148ec9561b428696c095bd4c5db825d7c1cfd",
+  "sourceHashAfter": "4edd28f047f899f6c6621b626c30a68b53552c84168cc6d03216886af166f453",
+  "verifiedAt": "2026-10-23T11:02:55.218Z"
+}

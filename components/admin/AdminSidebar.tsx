@@ -2,27 +2,31 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import LanguageToggle from "@/components/LanguageToggle";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getWorkspaceMessages, type WorkspaceMessageKey } from "@/lib/i18n/workspace-messages";
 
-type AdminIconName = "dashboard" | "dumbbell" | "bookmark" | "upload" | "media" | "users" | "settings";
+type AdminIconName = "dashboard" | "dumbbell" | "bookmark" | "upload" | "media" | "users" | "settings" | "language";
 
 type AdminNavigationItem = {
-  label: string;
+  label: WorkspaceMessageKey;
   href?: string;
   icon: AdminIconName;
   comingSoon?: boolean;
 };
 
 const workspaceItems: AdminNavigationItem[] = [
-  { label: "Overview", href: "/admin", icon: "dashboard" },
-  { label: "Exercises", href: "/admin/exercises", icon: "dumbbell" },
-  { label: "Featured", href: "/admin/favorites", icon: "bookmark" },
-  { label: "Import data", href: "/admin/exercises/import", icon: "upload" },
+  { label: "overview", href: "/admin", icon: "dashboard" },
+  { label: "exercises", href: "/admin/exercises", icon: "dumbbell" },
+  { label: "featured", href: "/admin/favorites", icon: "bookmark" },
+  { label: "translations", href: "/admin/translations", icon: "language" },
+  { label: "importData", href: "/admin/exercises/import", icon: "upload" },
 ];
 
 const futureItems: AdminNavigationItem[] = [
-  { label: "Media library", icon: "media", comingSoon: true },
-  { label: "Users", icon: "users", comingSoon: true },
-  { label: "General settings", icon: "settings", comingSoon: true },
+  { label: "mediaLibrary", icon: "media", comingSoon: true },
+  { label: "users", icon: "users", comingSoon: true },
+  { label: "settings", icon: "settings", comingSoon: true },
 ];
 
 function Icon({ name }: { name: AdminIconName }) {
@@ -39,6 +43,8 @@ function Icon({ name }: { name: AdminIconName }) {
   };
 
   switch (name) {
+    case "language":
+      return <svg {...commonProps}><path d="M3 5h12M9 3v2M5 5c1 5 4 8 8 10M13 5c-1 5-4 8-8 10M14 21l4-10 4 10M15.5 17h5" /></svg>;
     case "dashboard":
       return (
         <svg {...commonProps}>
@@ -103,6 +109,7 @@ function NavigationGroup({
   items: AdminNavigationItem[];
   activeHref?: string;
 }) {
+  const text = getWorkspaceMessages(useAppLanguage().language);
   return (
     <div className="admin-sidebar__group">
       <span className="admin-sidebar__group-title">{label}</span>
@@ -116,13 +123,13 @@ function NavigationGroup({
               {item.href ? (
                 <Link className={className} href={item.href} aria-current={isActive ? "page" : undefined}>
                   <Icon name={item.icon} />
-                  <span>{item.label}</span>
+                  <span>{text[item.label]}</span>
                 </Link>
               ) : (
                 <span className={className} aria-disabled="true">
                   <Icon name={item.icon} />
-                  <span>{item.label}</span>
-                  <small>Coming soon</small>
+                  <span>{text[item.label]}</span>
+                  <small>{text.comingSoon}</small>
                 </span>
               )}
             </li>
@@ -135,32 +142,34 @@ function NavigationGroup({
 
 export default function AdminSidebar() {
   const pathname = usePathname();
+  const text = getWorkspaceMessages(useAppLanguage().language);
   const activeHref = [...workspaceItems, ...futureItems]
     .filter((item): item is AdminNavigationItem & { href: string } => Boolean(item.href))
     .sort((first, second) => second.href.length - first.href.length)
     .find((item) => pathname === item.href || pathname.startsWith(`${item.href}/`))?.href;
 
   return (
-    <aside className="admin-sidebar" aria-label="Admin navigation">
+    <aside className="admin-sidebar" aria-label={text.adminNavigation}>
       <div className="admin-sidebar__brand">
         <span className="admin-sidebar__brand-mark">N</span>
         <div>
           <strong>NOI GYM</strong>
-          <span>Admin workspace</span>
+          <span>{text.adminWorkspace}</span>
         </div>
+        <div className="admin-sidebar__language"><LanguageToggle whenEnabledOnly /></div>
       </div>
 
-      <nav className="admin-sidebar__nav" aria-label="Admin menu">
-        <NavigationGroup label="Workspace" items={workspaceItems} activeHref={activeHref} />
-        <NavigationGroup label="More" items={futureItems} activeHref={activeHref} />
+      <nav className="admin-sidebar__nav" aria-label={text.adminMenu}>
+        <NavigationGroup label={text.workspace} items={workspaceItems} activeHref={activeHref} />
+        <NavigationGroup label={text.more} items={futureItems} activeHref={activeHref} />
       </nav>
 
       <div className="admin-sidebar__footer">
         <Link className="admin-sidebar__back-link" href="/">
           <span aria-hidden="true">←</span>
-          <span>Back to public site</span>
+          <span>{text.backToSite}</span>
         </Link>
-        <span className="admin-sidebar__version">NOI GYM · ADMIN</span>
+        <span className="admin-sidebar__version">{text.adminBrand}</span>
       </div>
     </aside>
   );

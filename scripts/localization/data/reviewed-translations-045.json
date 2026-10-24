@@ -1,0 +1,108 @@
+{
+    "version":  1,
+    "reviewStatus":  "Reviewed against captured source; approved for public display.",
+    "reviewMethod":  "Reviewed against the source corrections and project video evidence in scripts/localization/data/source-restorations-012.json; four corrections and translations verified against the live database before finalizing this manifest.",
+    "sourceExceptions":  [
+
+                         ],
+    "translations":  [
+                         {
+                             "exercise_id":  "0d186026-7797-4ab8-93b1-25b162d38f23",
+                             "locale":  "vi",
+                             "source_locale":  "en",
+                             "source_hash":  "d85e9b6b88f91ff287e7e5efe9088adbd10bfa40013245032340b892c6067bc8",
+                             "name":  "Khép tay với dây khi quỳ nghiêng",
+                             "description":  "",
+                             "steps":  [
+                                           "Quỳ nghiêng trên bục máy Pilates, giữ thân người thẳng và cầm dây bằng tay đang tập.",
+                                           "Siết cơ bụng, giữ thân người ổn định và vai xếp thẳng trên hông.",
+                                           "Kéo cánh tay đang tập xuống về phía hông, sử dụng cơ xô và cơ liên sườn.",
+                                           "Đưa tay trở lại vị trí bắt đầu một cách có kiểm soát, đồng thời giữ thăng bằng và thở đều."
+                                       ],
+                             "translation_status":  "reviewed",
+                             "reviewed_at":  "2026-10-23T09:21:05.686Z",
+                             "source":  {
+                                            "name":  "Long Arm Adduction Side Kneeling",
+                                            "description":  "",
+                                            "steps":  [
+                                                          "Kneel sideways on the reformer carriage with your torso upright and hold the strap in your working hand.",
+                                                          "Engage your core and keep your shoulders stacked over your hips.",
+                                                          "Pull the working arm down toward your hip, using your lats and obliques.",
+                                                          "Return your arm to the starting reach with control, maintaining balance and steady breathing."
+                                                      ]
+                                        }
+                         },
+                         {
+                             "exercise_id":  "1018382d-bfe2-4f78-8b98-dc0e97c09d51",
+                             "locale":  "vi",
+                             "source_locale":  "en",
+                             "source_hash":  "7332ae742f22c92c0139ae749d88fecff43ab46fea77062825595398d0fa6cf4",
+                             "name":  "Đạp xe một chân trên máy Pilates",
+                             "description":  "",
+                             "steps":  [
+                                           "Nằm ngửa trên bục máy, gập một gối và duỗi chân còn lại.",
+                                           "Đạp chân đang duỗi, đồng thời đưa gối chân đối diện lên tư thế tabletop.",
+                                           "Đổi vị trí hai chân khi hạ xuống: duỗi chân đang nâng và gập chân kia."
+                                       ],
+                             "translation_status":  "reviewed",
+                             "reviewed_at":  "2026-10-23T09:21:05.687Z",
+                             "source":  {
+                                            "name":  "Single Leg Bicycle",
+                                            "description":  "",
+                                            "steps":  [
+                                                          "Lie supine, one knee bent and the opposite leg extended.",
+                                                          "Press through the extended leg as you draw the opposite knee up to a tabletop position.",
+                                                          "Switch leg positions as you lower, extending the raised leg and bending the other knee."
+                                                      ]
+                                        }
+                         },
+                         {
+                             "exercise_id":  "b35700e9-f0e0-44cd-93d8-70ed4892ad2a",
+                             "locale":  "vi",
+                             "source_locale":  "en",
+                             "source_hash":  "27c814017f87145b731a8f16613332e4e3d346b775987f0faa6fc575a3ac6a90",
+                             "name":  "Chuẩn bị chèo thuyền: ngồi, đưa tay thẳng về trước",
+                             "description":  "",
+                             "steps":  [
+                                           "Ngồi thẳng, duỗi hai chân và cầm dây bằng cả hai tay.",
+                                           "Bắt đầu với hai tay duỗi dọc thân người, bàn tay gần hông và vai thả lỏng.",
+                                           "Đưa thẳng hai tay về trước, giữ thân người thẳng và siết cơ bụng."
+                                       ],
+                             "translation_status":  "reviewed",
+                             "reviewed_at":  "2026-10-23T09:21:05.688Z",
+                             "source":  {
+                                            "name":  "Front Rowing Preps Straight Forward Seated",
+                                            "description":  "",
+                                            "steps":  [
+                                                          "Sit tall with your legs extended, holding the straps in both hands.",
+                                                          "Start with your elbows extended and hands beside your hips, shoulders relaxed.",
+                                                          "Reach both arms straight forward, maintaining upright posture and core engagement."
+                                                      ]
+                                        }
+                         },
+                         {
+                             "exercise_id":  "fdce9075-8080-41e9-9943-8cb4b4a8be70",
+                             "locale":  "vi",
+                             "source_locale":  "en",
+                             "source_hash":  "a2ad501ff8cc2455e63f25bb07dc57825be494c5d6b7ec10e57d1f889f33f56b",
+                             "name":  "Trượt tách chân ngang trên máy Pilates",
+                             "description":  "",
+                             "steps":  [
+                                           "Đứng trên máy Pilates, mỗi chân đặt trên một bục trượt; gập thân người về trước và giữ lưng trung lập.",
+                                           "Đẩy bục trượt ra ngoài.",
+                                           "Đưa bục trượt về giữa có kiểm soát, giữ thân người gập về trước và lưng trung lập."
+                                       ],
+                             "translation_status":  "reviewed",
+                             "reviewed_at":  "2026-10-23T09:21:05.688Z",
+                             "source":  {
+                                            "name":  "Side Splits Skating",
+                                            "description":  "",
+                                            "steps":  [
+                                                          "Stand on the reformer with one foot on each platform, hinge forward, and keep your spine neutral.",
+                                                          "Push the carriage out to the side.",
+                                                          "Return the carriage to center with control while keeping your torso hinged forward and your spine neutral."
+                                                      ]
+                                        }
+                         }
+                     ]
+}

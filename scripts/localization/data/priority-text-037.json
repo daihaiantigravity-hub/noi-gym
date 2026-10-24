@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese text reviewed step by step against source-review-decisions-003.json and the inspected male/female front/side sample sequences. Preserves load quantities, support objects, body sides, slow/control cues and source step counts. Prepared only until source corrections and translations pass the live transaction and verification.",
+  "translations": [
+    {
+      "exercise_id": "07c8b8ae-c0e7-4dcb-82db-dba648b2f6e5",
+      "sourceName": "Long Lever Forearm Plank",
+      "name": "Plank cẳng tay với khuỷu tay đưa xa về trước",
+      "steps": [
+        "Bắt đầu ở tư thế plank cẳng tay, đưa khuỷu tay ra trước vai đến khi tai nằm giữa hai bắp tay. Chống cơ thể trên cẳng tay và các ngón chân.",
+        "Giữ tư thế trong thời gian đã định.",
+        "Giữ lưng phẳng trong suốt hiệp tập."
+      ]
+    },
+    {
+      "exercise_id": "090000cf-7975-47eb-98ea-1c8bdb29653d",
+      "sourceName": "Kettlebell Seated Calf Raise Double",
+      "name": "Nhón gót ngồi với hai tạ ấm",
+      "steps": [
+        "Ngồi trên ghế, đặt một tạ ấm lên mỗi đùi ở gần đầu gối. Hai bàn chân đặt phẳng trên sàn, cách nhau khoảng bằng hông.",
+        "Dùng tay giữ ổn định hai tạ ấm rồi nhấc gót chân khỏi sàn.",
+        "Giữ một chút rồi từ từ hạ gót chân trở lại sàn."
+      ]
+    },
+    {
+      "exercise_id": "1990c31f-1797-420b-95c7-b1f7e84d0e79",
+      "sourceName": "Kettlebell Quad Stomp",
+      "name": "Hạ gối tập đùi trước với tạ ấm và chân trước kê bục",
+      "steps": [
+        "Đặt bàn chân lên bánh tạ hoặc bục thấp. Mỗi tay cầm một tạ ấm.",
+        "Dồn toàn bộ trọng lượng lên chân trước và nghiêng người về trước.",
+        "Hạ xuống đến khi bắp chân chạm cơ đùi sau rồi duỗi người lên lại."
+      ]
+    },
+    {
+      "exercise_id": "1c3f8472-f46d-4425-b75a-067d22be80ea",
+      "sourceName": "Slow Tempo Mountain Climber",
+      "name": "Leo núi tại chỗ nhịp chậm",
+      "steps": [
+        "Bắt đầu bài leo núi tại chỗ không tạ ở tư thế plank, hai tay đặt ngay dưới vai.",
+        "Từ từ đưa đầu gối phải về phía ngực, sau đó duỗi chân đó ra sau rồi đưa đầu gối trái về phía ngực.",
+        "Tiếp tục luân phiên hai chân với nhịp chậm trong thời gian hoặc số lần đã định."
+      ]
+    },
+    {
+      "exercise_id": "1d51764d-0979-40ee-a893-dd9cbb7f70fd",
+      "sourceName": "Dumbbell Front Rack Step Up",
+      "name": "Bước lên bục với tạ đơn giữ trước vai",
+      "steps": [
+        "Đứng trước bục hoặc ghế, hai chân rộng bằng vai và giữ một tạ đơn ở mỗi vai.",
+        "Bước chân phải lên ghế, đẩy qua bàn chân để nâng người lên ghế.",
+        "Đưa chân trái lên ghế và đứng thẳng, vẫn giữ hai tạ đơn ở vai.",
+        "Bước chân trái xuống trước, sau đó đến chân phải để trở về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "209cfd4e-69c1-40b6-903c-6f4d22bef4d0",
+      "sourceName": "TRX Glute Bridge",
+      "name": "Nâng hông với chân treo trên dây TRX",
+      "steps": [
+        "Nằm ngửa, đặt hai bàn chân vào quai đỡ chân của dây TRX và gập đầu gối. Giữ hai chân treo khỏi sàn.",
+        "Đặt hai tay dọc hai bên người, lòng bàn tay úp xuống.",
+        "Đẩy hông lên phía trần, siết cơ mông và cơ đùi sau ở vị trí cao nhất, sau đó hạ hông xuống có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "26ad762c-2f0f-482e-bbf3-32d5d9b6851b",
+      "sourceName": "Stability Ball Glute Bridge",
+      "name": "Nâng hông với chân đặt trên bóng thăng bằng",
+      "steps": [
+        "Nằm ngửa, đặt hai bàn chân lên trên bóng.",
+        "Ấn qua gót chân và nâng hông lên phía trần, giữ hai bàn chân trên bóng.",
+        "Siết cơ mông ở vị trí cao nhất, dừng một chút rồi hạ hông trở lại tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "29955145-41dd-4e7d-b11a-e7a632f8e714",
+      "sourceName": "Band Overhead Press",
+      "name": "Đẩy vai qua đầu với dây kháng lực",
+      "steps": [
+        "Đứng giữa hai dây đã neo cố định, nắm dây với lòng bàn tay hướng về trước và đưa dây lên ngang vai.",
+        "Siết cơ trung tâm rồi đẩy dây qua đầu, duỗi thẳng hai tay.",
+        "Gập khuỷu tay để hạ dây về ngang vai, vẫn siết cơ trung tâm. Lặp lại theo số lần mong muốn."
+      ]
+    }
+  ]
+}

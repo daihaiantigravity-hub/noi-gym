@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "decision": "source_corrected_and_ready",
+  "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333",
+  "source_id": 76547392951327,
+  "source_page_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+  "observation": "The front and side demonstrations show a wide-legged forward fold with both hands reaching to and holding the heel area. The previous source steps omitted this named grip.",
+  "translation_decision": "Correct the English source to state the heel grip, then translate the corrected three-step sequence into Vietnamese.",
+  "sourceHashBefore": "8675790bdb0a9acb53f18929ff5f43ae2295fe2ed133a61dbd4c064a1b665a0c",
+  "sourceHashAfter": "ca5b56d07a888a1c5994b4965612b3b65e257ca8fef3e6bdeb20c11d722716d4",
+  "databaseStatus": "applied_and_verified",
+  "verifiedAt": "2026-10-23T14:36:32.093Z"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared against the corrected English source and the reviewed female front/side source videos.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "fe159d28-1ece-4587-bcba-cb9ef780d0b2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9b0e3fe6174a9c52eb313164da86cbe0310e0b57a0ff8b1520ad5b84737836e9",
+      "name": "Tư thế rắn hổ mang giãn cơ 1",
+      "description": "",
+      "steps": [
+        "Nằm sấp, duỗi hai chân và đặt hai lòng bàn tay xuống sàn phía trước vai.",
+        "Gập khuỷu tay, giữ sát thân người và đặt cẳng tay trên sàn.",
+        "Nâng ngực và thân trên khỏi sàn, dùng cẳng tay làm điểm tựa.",
+        "Giữ hông và hai chân trên sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T14:50:41.139Z",
+      "source": {
+        "name": "Cobra Stretch 1",
+        "description": "",
+        "steps": [
+          "Lie on your stomach with your legs extended and place your palms on the floor in front of your shoulders.",
+          "Bend your elbows and keep them close to your body, with your forearms resting on the floor.",
+          "Lift your chest and upper body off the floor, supporting your weight on your forearms.",
+          "Keep your hips and legs on the floor."
+        ]
+      }
+    }
+  ]
+}

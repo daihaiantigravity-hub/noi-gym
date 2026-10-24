@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { fetchMuscleWikiExercises } from "@/lib/musclewiki";
 
+// Legacy upstream/source-data endpoint. Public localized pages use the exercise
+// repository and its database translations; source API keys and filters remain canonical.
+
 const muscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
   biceps: "Biceps",

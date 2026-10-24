@@ -1,0 +1,11 @@
+# Exercise source review 8.22
+
+On 23 October 2026, five remaining exercises were checked against their original female front and side MuscleWiki clips. The videos clearly established the wall-supported bilateral calf raise, reformer footbar support for Hip Lift, crossed-knee lower-back rotation, the bouncing phase of Deadlift Bounces Stretch, and the floor pickup/one-sided hold in Crosslateral Core Stabilisation Unilateral Load Kettlebell.
+
+The guarded live update corrected only each source `steps` array and added five reviewed Vietnamese translations. Exercise IDs, names, descriptions, media, categories, targets, timestamps outside the normal update trigger, favorites, and admin-featured rows were preserved. Eleven items remain deferred because the clips still do not resolve their source-text conflicts safely.
+
+Live verification confirmed 1,935 reviewed translations (1,934 Vietnamese and one English), 5,976 translated steps, and Vietnamese content for 1,935 of 1,946 exercises, leaving 11. Yoga remains 69/73. Anonymous reads returned all 1,935 reviewed translations, the source scanner reported zero warnings, and the 291 user favorites and 289 admin-featured exercises were unchanged.
+
+The source hash changed from `e5871ef23c14380bb728829e84b4d093c1de9217e880fd4c5e994ae5ba41eda3` to `0202503be35e3e24e3611620731ce693e877d0e800c64a9d2307870cbff79e05`. The five clips and sampled observations are recorded in `stage-29-video-evidence/observations.json`. The guarded SQL audit is `supabase/repairs/20261023_correct_remaining_clear_stage29.sql`.
+
+Files: [live verification](../artifacts/localization/stage-29-after.json), [UI checks](../artifacts/localization/stage-29-ui-checks.json), [video evidence](../artifacts/localization/stage-29-video-evidence/observations.json), [before snapshot](../artifacts/localization/stage-29-before.json), [remaining review queue](../artifacts/localization/stage-29-remaining-source-review-queue.json), [source restoration manifest](../scripts/localization/data/source-restorations-021.json), [source review decisions](../scripts/localization/data/source-review-decisions-022.json), [prepared translations](../scripts/localization/data/prepared-translations-055.json), and [guarded apply script](../artifacts/localization/apply-stage-29-direct.mjs).

@@ -1,0 +1,1573 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Translated and compared each name and complete instruction block with the captured source. Preserved step order, numeric quantities, side and movement direction, grip, equipment and control. Held conflicting equipment, missing load instructions and ambiguous position/quantity references rather than guessing corrections.",
+  "sourceExceptions": [
+    {
+      "exercise_id": "b5f459f1-4963-4ac9-a961-9a93cd97f03b",
+      "sourceName": "Dumbbell Single Arm Incline Chest Press",
+      "reason": "Single-arm incline dumbbell title has a copied flat barbell bench-press instruction block. Verify equipment and position before approval."
+    },
+    {
+      "exercise_id": "9f8bbde9-ad37-4d68-a831-e1d941ca3fd9",
+      "sourceName": "Dumbbell Single Arm Step Up",
+      "reason": "The source starts with one dumbbell at the side but later requires a barbell at the shoulders. Verify load position before approval."
+    },
+    {
+      "exercise_id": "ad686dec-9b32-42ad-9070-fd5f89ca27b1",
+      "sourceName": "Dumbbell Sumo Squat",
+      "reason": "The source places dumbbells on the ground but never describes picking up or holding the weights during the squat. Verify the intended movement."
+    },
+    {
+      "exercise_id": "dbcdd64b-af9b-447f-b210-7f7e9ca1cab5",
+      "sourceName": "Dumbbell Waiters Bow",
+      "reason": "Dumbbell title contains instructions using a barbell against the thighs; verify intended equipment before approval."
+    },
+    {
+      "exercise_id": "5002aef8-c257-4252-aab7-2dde4b24ddea",
+      "sourceName": "Kettlebell Farmers Carry",
+      "reason": "Source says two kettlebells in each hand; verify whether the quantity is per hand or total."
+    },
+    {
+      "exercise_id": "23e433fe-9617-41bc-a5c5-917acea34538",
+      "sourceName": "Kettlebell Farmers March",
+      "reason": "Source says two kettlebells in each hand; verify whether the quantity is per hand or total."
+    },
+    {
+      "exercise_id": "2d178d61-0642-4b3f-9d32-7f611fd14a0e",
+      "sourceName": "Kettlebell Single Arm Farmers March",
+      "reason": "Source asks to lift a knee to knee height; verify the intended limb position and height before translating it."
+    },
+    {
+      "exercise_id": "83756c9a-15f9-4036-a6b1-790b20de9ded",
+      "sourceName": "Smith Machine Split Squat",
+      "reason": "Source says the back knee nearly touches the ground while the back leg stays straight. Verify knee position before approval."
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "891c0284-e734-49db-b882-99929e96632d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ce3bd40485b83902524f9da3dc990a3c9e97b1304e2ab25a669610c7835b1b03",
+      "name": "Đẩy tạ đơn trên ghế phẳng, tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế phẳng, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng vào nhau. Giữ khuỷu tay co và gần người.",
+        "Từ từ hạ tạ xuống ngực, giữ khuỷu tay co và gần người.",
+        "Khi tạ đến ngực, dừng lại một chút rồi đẩy trở về vị trí ban đầu.",
+        "Biến thể này tạo áp lực nhẹ hơn nhiều lên khớp vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Neutral Bench Press",
+        "description": "",
+        "steps": [
+          "Lie on a flat bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+          "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+          "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+          "This variation is much easier on the shoulder joints."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a873a21e-4576-4933-941f-36f7fb75b261",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1f7078389a8a4af6ce3d78309421a86ea3fd39c3069ef1b4a27cee01fd24416c",
+      "name": "Đẩy tạ đơn trên ghế dốc lên, tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế dốc lên, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng vào nhau. Giữ khuỷu tay co và gần người.",
+        "Từ từ hạ tạ xuống ngực, giữ khuỷu tay co và gần người.",
+        "Khi tạ đến ngực, dừng lại một chút rồi đẩy trở về vị trí ban đầu.",
+        "Biến thể này tạo áp lực nhẹ hơn nhiều lên khớp vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Neutral Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Lie on an incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+          "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+          "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+          "This variation is much easier on the shoulder joints."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cb166502-d805-44ba-a51d-1679449bab1d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a66001da72876465d83c3665e49afba0940d7710204d84710f14b59af91ea32a",
+      "name": "Gập tay với tạ đơn trên ghế preacher",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế preacher, mỗi tay giữ một tạ đơn, duỗi tay và hướng lòng bàn tay lên.",
+        "Gập tay nâng tạ về phía vai, giữ bắp tay cố định và khuỷu tay khép vào trong.",
+        "Từ từ hạ tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Preacher Curl",
+        "description": "",
+        "steps": [
+          "Sit at preacher bench, hold dumbbells in each hand with arm extended, palm facing up.",
+          "Curl dumbbells towards shoulder, keeping upper arm stationary and elbows in.",
+          "Lower dumbbell slowly back to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a9da124a-1049-46c1-80de-6332a85c2c19",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9e43e027b81a11129b4a4e2a0e8e04ef34db698f1ba5f51e46c090bbbf64519f",
+      "name": "Gập tay ngược với tạ đơn",
+      "description": "",
+      "steps": [
+        "Nắm tạ đơn bằng tay nắm sấp. Có thể không vòng ngón cái quanh tay cầm nếu cổ tay thấy thoải mái hơn.",
+        "Gập khuỷu tay đến khi cơ tay trước chạm cẳng tay. Cố gắng không để khuỷu tay mở sang hai bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Reverse Curl",
+        "description": "",
+        "steps": [
+          "Grab the dumbbells with a pronated (overhand) grip. You can do this exercise thumbless if it's more comfortable on your wrists.",
+          "Flex at the elbows until your biceps touch your forearms. Try not to let your elbows flair outward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1bba0d1e-1f9e-4b33-b66a-010c2627f648",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a7dfc08829975f41bed88e1ee89c21aaadb03408fd7c7057f61cc7eb27eaf9c9",
+      "name": "Ngồi đẩy vai Arnold với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế có tựa lưng thẳng đứng, lòng bàn tay hướng về phía mình.",
+        "Bắt đầu đẩy lên phía trần và đồng thời xoay lòng bàn tay.",
+        "Khi khuỷu tay duỗi thẳng hoàn toàn, lòng bàn tay hướng về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Arnold Press",
+        "description": "",
+        "steps": [
+          "Begin seated on an upright bench with your palms facing you.",
+          "Begin pressing toward the ceiling. As you press, rotate your palms.",
+          "As you extend your elbows fully your palms should be facing forward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c698e367-91e4-4c83-8958-5e97fd2ab151",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5adeffc5bf09b3f87b1b19349e2757d48549a0691c4310bae2175c110d715c52",
+      "name": "Ngồi gập tay với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, giữ tạ đơn ở hai bên người, lòng bàn tay hướng về trước.",
+        "Gập hai tay nâng tạ về phía vai, giữ khuỷu tay sát thân người.",
+        "Siết cơ tay trước, rồi từ từ hạ tạ đến khi tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding dumbbells at your sides with palms facing forward.",
+          "Curl both dumbbells toward your shoulders, keeping elbows tight to torso.",
+          "Squeeze biceps, then lower slowly to full extension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6441a1df-ee6f-4b3f-ab79-fe1133b28c29",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7dc42785b87ba149cb12f2290c26fd564b4be11189e4b0b843854e4b0bd95ac6",
+      "name": "Ngồi đẩy tạ đơn qua đầu",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế có tựa lưng. Nâng tạ đơn lên ngang vai với lòng bàn tay hướng về trước.",
+        "Đẩy tạ lên và dừng lại ở vị trí cơ co.",
+        "Hạ tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Overhead Press",
+        "description": "",
+        "steps": [
+          "Sit on a bench with back support. Raise the dumbbells to shoulder height with your palms forward.",
+          "Raise the dumbbells upwards and pause at the contracted position.",
+          "Lower the weights back to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7a2409d7-d0b4-48fd-958c-5e7f5a23102c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8245b3ce71f7cfccf5f7ff58170d1384a218835146163d1a7e49be30ab272532",
+      "name": "Ngồi gập tay ngược với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, giữ tạ đơn ở hai bên người, lòng bàn tay hướng xuống.",
+        "Gập tay nâng tạ về phía vai, giữ cổ tay ổn định và khuỷu tay khép vào trong.",
+        "Từ từ hạ đến khi tay duỗi hết, duy trì kiểm soát trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Reverse Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding dumbbells at your sides with palms facing downward.",
+          "Curl dumbbells toward your shoulders, keeping wrists stable and elbows tucked.",
+          "Lower slowly to full extension, maintaining control throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "99053f56-1372-4442-816c-ac6b8b47f0d2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7feba50f0f5520ff0dc42dd3c37ae0ddf1624ca812e0b395a8a3e9d3d4957149",
+      "name": "Ngồi gập tay một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng về trước.",
+        "Gập tay nâng tạ về phía vai, giữ khuỷu tay sát thân người.",
+        "Siết cơ tay trước, rồi từ từ hạ tạ đến khi tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Single Arm Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding dumbbell at your sides with palm facing forward.",
+          "Curl the dumbbell toward your shoulder, keeping elbow tight to torso.",
+          "Squeeze bicep, then lower slowly to full extension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c947feda-fd82-4ed9-acdf-3336d60af636",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d27176e74a8b41a57797a2a75f70cd445b650ea93006c6c6c7a1dbbd0e9de228",
+      "name": "Ngồi gập tay kiểu búa một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng vào trong.",
+        "Gập tay nâng tạ về phía vai, giữ khuỷu tay sát thân người.",
+        "Siết cơ tay trước, rồi từ từ hạ tạ đến khi tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Single Arm Hammer Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding one dumbbell at your side with palm facing inward.",
+          "Curl dumbbell toward shoulder while keeping elbow tight to your torso.",
+          "Squeeze bicep, then lower slowly to full extension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b60fce53-d947-439b-a648-52ded770633b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e546818fce05ae5c97f447d18de9fce8cda3b825f2dc4a593af1cd352f6df143",
+      "name": "Ngồi nâng tạ đơn sang ngang một tay",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng vào trong.",
+        "Nâng tay sang bên đến ngang vai, giữ khuỷu tay hơi co.",
+        "Hạ xuống nhịp nhàng và lặp lại, giữ thân người cố định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Single Arm Lateral Raise",
+        "description": "",
+        "steps": [
+          "Sit tall with one dumbbell at your side, palm facing inward.",
+          "Lift arm outward until shoulder height, keeping elbow slightly bent.",
+          "Lower smoothly and repeat, keeping torso still."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8243e8d1-02fd-49a0-a130-f2e2b0b018dd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "da02d7fc8bc415ebe2d19511f1168b1d206b2688cba9a21d524af7af77ca11ca",
+      "name": "Ngồi gập tay ngược một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng xuống.",
+        "Gập tay nâng tạ về phía vai, giữ cổ tay ổn định và khuỷu tay khép vào trong.",
+        "Từ từ hạ đến khi tay duỗi hết, duy trì kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Single Arm Reverse Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding one dumbbell at your side with palm facing downward.",
+          "Curl dumbbell toward shoulder, keeping wrist stable and elbow tucked.",
+          "Lower slowly to full extension while maintaining control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aaf84f27-d2dd-4ad0-a0f1-73d4f2dd8832",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "29eb9cbad5de5dab20c8296da6783974328ca71962e23bb3bd8cdf656263bfa0",
+      "name": "Ngồi gập tay Zottman một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng về trước.",
+        "Gập tay nâng tạ, rồi xoay lòng bàn tay xuống ở vị trí cao nhất.",
+        "Từ từ hạ tạ với lòng bàn tay hướng xuống, kiểm soát toàn bộ quá trình hạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Single Arm Zottman Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding dumbbell at your side with palm facing forward.",
+          "Curl dumbbell up, then rotate palm downward at the top.",
+          "Lower slowly with palm down, controlling the entire descent."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8bfe33fa-98f8-4a25-b6aa-b89e977570da",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "aeae3d305fe3612ba37ed1e28aad391ddc9b83fc1bcbeea43727157816f0447a",
+      "name": "Ngồi gập tay Zottman với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, giữ tạ đơn ở hai bên người, lòng bàn tay hướng về trước.",
+        "Gập tay nâng tạ, rồi xoay lòng bàn tay xuống ở vị trí cao nhất.",
+        "Từ từ hạ tạ với lòng bàn tay hướng xuống, kiểm soát toàn bộ quá trình hạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Seated Zottman Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding dumbbells at sides with palms facing forward.",
+          "Curl dumbbells up, then rotate palms downward at the top.",
+          "Lower slowly with palms down, controlling the entire descent."
+        ]
+      }
+    },
+    {
+      "exercise_id": "523f6693-37bc-4728-ab93-e23021f7f5fa",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f4f75d428768f45bbf391b9a56c7aa4d8604fc85b4a5072bfad1ca2927e4963c",
+      "name": "Nghiêng người sang bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Đứng với hai chân rộng bằng hông, đặt tay phải lên hông phải.",
+        "Tay trái cầm tạ đơn, nghiêng người sang bên tại hông.",
+        "Không ngả người về trước để cố tăng biên độ chuyển động."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Side Bend",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart and place your right hand on the right hip.",
+          "Hold a dumbbell with the left hand. Bend at the hips to the side.",
+          "Make sure you don't start to lean forward to try and force a longer range of motion."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7aabc8fb-4cba-407e-97d3-dc7526597f72",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c07507c3e4f3294237eb0142c11b71d9449b4eeb0f6a1fc45e16cda0b2f49df3",
+      "name": "Gập tay một bên với tạ đơn, tựa cánh tay lên cạnh ghế",
+      "description": "",
+      "steps": [
+        "Nằm ra ngoài mép một bên ghế, ép mặt sau cánh tay đang tập vào cạnh ghế. Giữ hông nâng cao hết mức.",
+        "Duỗi thẳng hoàn toàn khuỷu tay để cảm nhận độ căng ở cơ tay trước, rồi gập tay.",
+        "Dừng trước khi tạ hướng lên trần để duy trì lực căng ở cơ tay trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Bench Braced Flat Curl",
+        "description": "",
+        "steps": [
+          "Lay off the side of a bench with the back of your working arm pressed into the side of the bench. Keep your hips all the way up.",
+          "Fully extend your elbow and feel a stretch through your bicep, then curl.",
+          "Stop before the dumbbell is pointed at the ceiling to keep tension on your biceps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "10519288-56ab-4705-bf78-722476820917",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "dce7500a8b72652385b65aaa796fb2ca7ec19885a0b1754feb61b2f7d97373e2",
+      "name": "Ngồi gập cổ tay một bên với tạ đơn, tựa tay trên đùi",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, đặt cẳng tay tựa trên đùi, cầm tạ đơn với lòng bàn tay hướng lên.",
+        "Hạ cổ tay để kéo giãn cẳng tay, giữ cẳng tay nằm phẳng trên đùi.",
+        "Gập cổ tay lên, siết các cơ gấp cẳng tay ở vị trí cao nhất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Bench Wrist Curl",
+        "description": "",
+        "steps": [
+          "Sit on bench, forearm resting on thigh, palm facing up holding dumbbell.",
+          "Lower wrist to stretch forearm, keeping forearm flat on thigh.",
+          "Curl wrist upward, squeezing forearm flexors at the top."
+        ]
+      }
+    },
+    {
+      "exercise_id": "60bcc1e0-a636-47b2-b237-300e25a3ea46",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "96e02c471f2c44d7f99df0c82381cf619016b14bc659e5f218c0be17deba66a3",
+      "name": "Nằm đẩy ngực một tay với tạ đơn",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, một tay giữ tạ đơn phía trên ngực với tay duỗi thẳng.",
+        "Hạ tạ về phía ngực, giữ thân người ổn định và cân bằng.",
+        "Đẩy tạ lên, siết cơ ngực ở vị trí cao nhất và không xoay người."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Chest Press",
+        "description": "",
+        "steps": [
+          "Lie on bench holding one dumbbell above chest with arm extended.",
+          "Lower dumbbell toward chest while keeping torso stable and level.",
+          "Press upward, squeezing chest at the top without twisting."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0e39bdda-852f-4c2b-9a75-ab17279be1e7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b33446239c24d964cc88e74a26cf1cb35517e173c6f181361f4e4fb97fdbef5d",
+      "name": "Đẩy ngực một tay với tạ đơn trên ghế dốc cao",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế dốc cao, một tay giữ tạ đơn ngang vai với tay co.",
+        "Đẩy tạ lên và hơi vào trong đến khi tay duỗi thẳng hoàn toàn.",
+        "Từ từ hạ về vị trí ban đầu, giữ thân người ổn định và chuyển động có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm High Incline Chest Press",
+        "description": "",
+        "steps": [
+          "Sit on high incline bench holding dumbbell at shoulder with arm bent.",
+          "Press dumbbell upward and slightly inward until arm fully extends.",
+          "Lower slowly to starting position, keeping torso stable and controlled."
+        ]
+      }
+    },
+    {
+      "exercise_id": "858ea4e2-332f-4954-aa31-e778f97a33f7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "14329615cd915ee1c1493fccb4f29a5d44bc2337b6c065a2c84ae5c5dfae8925",
+      "name": "Gập tay một bên với tạ đơn trên ghế dốc",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế dốc, một tay nắm tạ đơn bằng tay nắm ngửa.",
+        "Từ từ nâng tạ lên ngang ngực.",
+        "Trở về vị trí ban đầu và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Incline Curl",
+        "description": "",
+        "steps": [
+          "Hold a dumbbell with an underhand grip. Seated on an incline bench.",
+          "Slowly lift the dumbbell up to chest height",
+          "Return to starting position and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "214eb8f1-18e1-45c7-b630-f271ab1331ae",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3ed81b2ae01f3904e74a0f42ab924427f44f704240277e27741e67d8fa21120e",
+      "name": "Gập tay kiểu búa một bên với tạ đơn trên ghế dốc",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế dốc, một tay nắm tạ đơn bằng tay nắm trung tính, để cánh tay buông thẳng xuống.",
+        "Gập tay nâng tạ về phía vai, không di chuyển bắp tay.",
+        "Siết cơ tay trước, rồi từ từ hạ xuống đến khi cơ được kéo giãn hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Incline Hammer Curl",
+        "description": "",
+        "steps": [
+          "Sit on incline bench holding one dumbbell with a neutral grip with arm hanging straight down.",
+          "Curl dumbbell toward shoulder without moving upper arm.",
+          "Squeeze bicep, then lower slowly to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6bd29e5e-6fc7-4ac4-ae52-f74fb5d20d63",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "abaaedffda2f72dca71785a9c5f25f8e103c68ca80699a428470bed03df430a0",
+      "name": "Gập tay ngược một bên với tạ đơn trên ghế dốc",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế dốc.",
+        "Một tay nắm tạ đơn bằng tay nắm sấp. Có thể không vòng ngón cái quanh tay cầm nếu cổ tay thấy thoải mái hơn.",
+        "Gập khuỷu tay đến khi cơ tay trước chạm cẳng tay. Cố gắng không để khuỷu tay mở sang bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Incline Reverse Curl",
+        "description": "",
+        "steps": [
+          "Lay on an incline bench.",
+          "Grab a dumbbell with a pronated (overhand) grip. You can do this exercise thumbless if it's more comfortable on your wrists.",
+          "Flex at the elbows until your bicep touches your forearm. Try not to let your elbow flair outward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b35b02f3-83f0-4a36-8570-d7a9adcfd74f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6541da2499795703d1a702da9c1eaa0d44c1ee86d0262b71a1aa7ebdab63a137",
+      "name": "Duỗi tay sau một bên với tạ đơn trên ghế dốc",
+      "description": "",
+      "steps": [
+        "Đặt ghế dốc lên và giữ tạ đơn phía trên ngực, lòng bàn tay hướng vào trong.",
+        "Gập khuỷu tay để hạ tạ về phía trán có kiểm soát.",
+        "Duỗi thẳng hoàn toàn tay và siết cơ tay sau ở vị trí cao nhất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Incline Skullcrusher",
+        "description": "",
+        "steps": [
+          "Set bench to incline and hold dumbbell above chest with palmsfacing in.",
+          "Bend elbow to lower dumbbell toward forehead under control.",
+          "Extend arm fully, squeezing tricep at the top."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ee9f208a-08f6-458a-81d7-19003d04be99",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c3f7aeae7c3227af7ff557ed360830164d57168e9389c63cdd04dd5a15baa2ba",
+      "name": "Gập tay xoay cổ tay một bên với tạ đơn trên ghế dốc",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế dốc, một tay giữ tạ đơn bên người, lòng bàn tay hướng vào trong.",
+        "Gập tay nâng tạ, đồng thời xoay lòng bàn tay về phía vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Incline Twisting Curl",
+        "description": "",
+        "steps": [
+          "Sit on incline bench holding dumbbell at side, palm facing inward.",
+          "Curl dumbbell while twisting palm toward shoulder."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a792737f-fe8d-4cae-987a-3a5e56687089",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ff14218c573e23bb7453d79c5db0a4247da56cb7006deb637512d1b032a75431",
+      "name": "Nâng tạ đơn sang ngang một tay",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ tạ đơn ở hai bên người, khuỷu tay hơi co.",
+        "Nâng tay sang bên đến khi tay song song với mặt đất.",
+        "Hạ xuống có kiểm soát, duy trì lực căng liên tục ở cơ vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Lateral Raise",
+        "description": "",
+        "steps": [
+          "Stand tall holding dumbbells at your sides with slight bend in elbows.",
+          "Raise arm outward until arms are parallel with the ground.",
+          "Lower under control, maintaining constant tension on delts."
+        ]
+      }
+    },
+    {
+      "exercise_id": "66b48b56-167d-4bb8-b141-ef3e4734ca2b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "514b34a3d5f9495c82f33c41b5e8a80bf3e66c0ca69f3d8227a4592b398b997c",
+      "name": "Gập tay một bên với tạ đơn trên ghế preacher",
+      "description": "",
+      "steps": [
+        "Một tay cầm tạ đơn, đặt khuỷu tay tựa trên ghế.",
+        "Từ vị trí này, gập tay nâng tạ về phía vai, giữ bắp tay cố định trên ghế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Preacher Curl",
+        "description": "",
+        "steps": [
+          "Start with a with a dumbbell in one hand and your elbow resting on the bench.",
+          "From this starting position, curl the dumbbell up towards your shoulder, keeping your upper arm stationary on the bench."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a0f01430-08f5-4da1-b4e6-94f679008c80",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eb83d92781618ff0fc2e1e8ac956f9dd53f7cc3f194242e576f697fd55af6fdf",
+      "name": "Nằm đẩy tạ đơn từng tay",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế với hai tạ đơn.",
+        "Đặt tạ phía trên ngực, khuỷu tay co và ngang vai.",
+        "Từ từ hạ một tạ về phía ngực, giữ khuỷu tay gần người và siết cơ bụng; tạ còn lại vẫn hướng lên trần.",
+        "Khi tạ xuống đến bên người, dừng lại một chút rồi đẩy tạ về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn trước khi chuyển sang tay còn lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Press",
+        "description": "",
+        "steps": [
+          "Start by laying on a bench with two dumbbells.",
+          "Position the dumbbell above your chest with your elbow bent and shoulder level.",
+          "Slowly lower the dumbbell towards your chest, keeping your elbow close to your body and your core engaged while the other dumbbell remains pointed toward the ceiling.",
+          "Once the dumbbell reaches your side, pause for a moment and then press the weight back up to the starting position.",
+          "Repeat for the desired number of repetitions before switching to your other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0d8fd796-ac7b-40e4-bfed-ab63671c6d2f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "31307dd7924083e7412508018c4f4f6d2fef7415870f79e33b1bd9b07ab89b67",
+      "name": "Ngồi gập tay kiểu búa một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng vào trong.",
+        "Gập tay nâng tạ về phía vai, giữ khuỷu tay sát thân người.",
+        "Siết cơ tay trước, rồi từ từ hạ tạ có kiểm soát đến khi tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Arm Seated Hammer Curl",
+        "description": "",
+        "steps": [
+          "Sit tall holding one dumbbell at your side with palm facing inward.",
+          "Curl dumbbell toward shoulder while keeping elbow tight to your torso.",
+          "Squeeze bicep, then lower slowly to full extension under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e7af1f42-cd6b-4300-9e2f-f300e15a4b7d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a2d3e2c17a94375c20aabf19a209876a1d1b67531c4f85d77ebbd00cf290525e",
+      "name": "Đẩy hông một chân kê gót cao với tạ đơn",
+      "description": "",
+      "steps": [
+        "Nằm tựa trên ghế, đặt bàn chân lên bánh tạ hoặc bục thấp, để tạ đơn trên hông.",
+        "Nhấc một chân khỏi sàn và siết cơ mông để nâng hông lên phía trần.",
+        "Từ vị trí này, từ từ hạ hông về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Single Leg Heels Elevated Hip Thrust",
+        "description": "",
+        "steps": [
+          "Start by lying on a bench with your foot on a plate or low box and a dumbbell on your hips.",
+          "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+          "From this starting position, slowly lower your hips back down to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1d26cae7-11bb-497e-84a4-c60cffe0c49d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "206502f9c1a671ec480f41caa67c3af20cbd0f509e2f1320adfcd263ad8d03ac",
+      "name": "Đẩy ép hai tạ đơn trên ghế",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, ép hai tạ đơn sát vào nhau.",
+        "Gập khuỷu tay và giữ khuỷu tay sát người khi đưa tạ xuống ngực.",
+        "Tiếp tục ép hai tạ vào nhau trong suốt mỗi lần lặp.",
+        "Khi tạ chạm ngực, đẩy tạ trở lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Squeeze Press",
+        "description": "",
+        "steps": [
+          "Lay flat on a bench with two dumbbells pressed to one another.",
+          "Break at the elbows and keep your elbows tucked as you bring the dumbbells to your chest.",
+          "Continue to press the dumbbells into one another throughout the rep.",
+          "Once the dumbbells reach your chest, press back toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "28cbd112-d462-4ff8-82d5-17cd61cb6e4c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "21b48d10df806c54fb76f676c9ecd660e6a6ac0699ec867f5e37a20d0454997e",
+      "name": "Đứng gập tay một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, một tay giữ tạ đơn bên người, lòng bàn tay hướng về trước.",
+        "Gập tay nâng tạ về phía vai, giữ khuỷu tay gần thân người.",
+        "Siết cơ tay trước, rồi từ từ hạ tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Standing Single Arm Curl",
+        "description": "",
+        "steps": [
+          "Stand tall holding one dumbbell at your side, palm facing forward.",
+          "Curl dumbbell toward shoulder, keeping elbow close to your torso.",
+          "Squeeze bicep, then lower slowly to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "61d3decd-7b41-4cd0-8180-36e769e7b13a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "94d3f87587a47017af6d4a361d7dadddb4b7eed610d5ebb0b850067489edf717",
+      "name": "Đứng gập tay kiểu búa một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Giữ tạ đơn bên người, lòng bàn tay hướng vào trong và khuỷu tay sát người.",
+        "Gập tay nâng tạ lên, duy trì tay nắm trung tính trong suốt động tác.",
+        "Hạ xuống có kiểm soát, giữ lực căng ở cơ tay trước và cẳng tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Standing Single Arm Hammer Curl",
+        "description": "",
+        "steps": [
+          "Hold dumbbell at side with palm facing inward, elbow tight to body.",
+          "Curl dumbbell upward while maintaining neutral grip throughout.",
+          "Lower under control, keeping tension on biceps and forearm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "370fa8f2-54a1-4cad-9507-c8ef1c24e321",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2e41ef78072eb8329c1f5f76998a4a8595492eeb9a3115a2b17f2cfc0f5c7f4b",
+      "name": "Đứng gập tay ngược một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Cầm tạ đơn với lòng bàn tay hướng xuống, tay duỗi thẳng bên người.",
+        "Gập tay nâng tạ về phía vai, dẫn chuyển động bằng mu bàn tay.",
+        "Từ từ hạ về vị trí ban đầu, giữ cổ tay ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Standing Single Arm Reverse Curl",
+        "description": "",
+        "steps": [
+          "Hold dumbbell with palm facing down and arm straight by your side.",
+          "Curl dumbbell toward shoulder, leading with back of hand.",
+          "Lower slowly to starting position, keeping wrist stable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "74131b71-4db1-48c5-85b2-338e9c4596ea",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1ac05f4f9000eee6443226d36b79f921f4b393ba439715aeaadaadc64370447f",
+      "name": "Đứng gập tay xoay cổ tay một bên với tạ đơn",
+      "description": "",
+      "steps": [
+        "Cầm tạ đơn với lòng bàn tay hướng vào trong và tay duỗi thẳng hoàn toàn.",
+        "Gập tay nâng tạ lên, đồng thời xoay lòng bàn tay về phía vai ở vị trí cao nhất.",
+        "Siết cơ tay trước, rồi hạ tạ và xoay tay trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Standing Single Arm Twisting Curl",
+        "description": "",
+        "steps": [
+          "Hold dumbbell with palm facing inward and arm extended fully.",
+          "Curl upward while rotating palm to face shoulder at the top.",
+          "Squeeze bicep, then lower dumbbell, rotating back to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9aa6f809-db19-487e-b763-d6c544c2c6f3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "42a80359eb5badc09c8a1574bac64c43198d8c68af10523c2362a31be72073c1",
+      "name": "Đứng xoay người chéo với tạ đơn",
+      "description": "",
+      "steps": [
+        "Đứng với hai chân rộng bằng vai, bắt đầu với tạ đơn ở cạnh một bên đùi trước.",
+        "Xoay phần cột sống trên để tác động vào cơ bụng chéo.",
+        "Có thể xoay bàn chân sau để tránh tạo lực xoắn quá lớn ở đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand with a shoulder width stance. Begin with the dumbbell near one of your quads.",
+          "Rotate at your upper spine to engage the obliques.",
+          "You can pivot your back foot to keep from generating too much torque at the knee."
+        ]
+      }
+    },
+    {
+      "exercise_id": "79d5218e-7dfc-49da-a20c-175bdec92133",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fc0735224c785460d1471f2348d3802a513844def96e01e63812a3f845384f2a",
+      "name": "Duỗi cổ tay với tạ đơn",
+      "description": "",
+      "steps": [
+        "Nắm hai tạ đơn bằng tay nắm sấp và đặt cẳng tay tựa ngang đầu gối.",
+        "Để cổ tay gập hết, rồi duỗi cổ tay lên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Wrist Extension",
+        "description": "",
+        "steps": [
+          "Grab two dumbbells with an overhand grip and lay your forearms across your knees.",
+          "Let your wrists flex fully, then extend your wrists."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4f3963f3-e9ae-46bf-835d-a640e2535d80",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "52a4edd9c31a0e57bea91cc0691a12741f52b3c6e5707eb40aa2c24bf3837e7c",
+      "name": "Xoay cổ tay sấp ngửa với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi cạnh ghế hoặc bàn và đặt cánh tay tựa lên đó.",
+        "Nắm vào một đầu của tạ đơn, vật nặng hoặc đòn bẩy.",
+        "Lần lượt xoay cổ tay để lòng bàn tay hướng xuống rồi hướng lên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Wrist Supinations Pronations",
+        "description": "",
+        "steps": [
+          "Sit by a bench or table and lean your arm on it.",
+          "Hold a dumbbell/weight/lever on one end.",
+          "Rotate the wrist so the palm faces down and up in succession."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ccf85650-8528-4509-876b-573d3b1d4031",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a41c7ec7a0449ff96827ce218995f98dd439a8e558be1b8ebefe5c768a95257d",
+      "name": "Gập tay Zottman với tạ đơn",
+      "description": "",
+      "steps": [
+        "Giữ tạ đơn ở hai bên người, lòng bàn tay hướng về trước và khuỷu tay sát người.",
+        "Gập cả hai tay nâng tạ lên, rồi xoay lòng bàn tay xuống ở vị trí cao nhất.",
+        "Từ từ hạ tạ với lòng bàn tay hướng xuống sàn, kiểm soát quá trình hạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Dumbbell Zottman Curl",
+        "description": "",
+        "steps": [
+          "Hold dumbbells at sides, palms facing forward, elbows tight to body.",
+          "Curl both dumbbells up, then rotate palms downward at the top.",
+          "Lower slowly with palms facing the floor, controlling the descent."
+        ]
+      }
+    },
+    {
+      "exercise_id": "36805671-c6fa-48fb-9536-681f5ec25d0a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "12054c527c9ac4769767cc72681f259aaf1bb2c9f877735901b364e8637126b9",
+      "name": "Gập tay với thanh EZ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, nắm thanh EZ bằng tay nắm ngửa rộng bằng vai.",
+        "Gập tay nâng thanh tạ lên, giữ khuỷu tay khép vào trong và thân người ổn định.",
+        "Dừng lại và siết cơ tay trước ở vị trí cao nhất.",
+        "Từ từ hạ xuống đến khi tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Ez Bar Curl",
+        "description": "",
+        "steps": [
+          "Stand tall, hold EZ bar with shoulder-width underhand grip.",
+          "Curl bar upward, keeping elbows tucked and torso stable.",
+          "Pause and squeeze biceps at the top.",
+          "Lower slowly until arms fully extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "66402051-903a-4d40-96a0-fbd6482114ac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "16770d9b3ec9989d865a7f7b79d3317792c3723d8d554d6ced395239238e4ea0",
+      "name": "Gập tay kéo thanh EZ sát thân",
+      "description": "",
+      "steps": [
+        "Nắm thanh EZ bằng tay nắm ngửa.",
+        "Kéo khuỷu tay thẳng ra sau, để thanh tạ đi sát hoặc rất gần thân trên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Ez Bar Drag Curl",
+        "description": "",
+        "steps": [
+          "Grab an EZ bar with an underhand grip.",
+          "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fbd7a6b5-fd5f-47c2-bb0f-a025b14c9e72",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "475507d5de3a66053d2073aaec8c1191ffd9de33c97f5bda77d55324b82bb095",
+      "name": "Gập tay với thanh EZ trên ghế preacher",
+      "description": "",
+      "steps": [
+        "Ngồi vào ghế preacher, nắm thanh EZ bằng tay nắm ngửa và duỗi khuỷu tay.",
+        "Từ từ gập tay đưa thanh tạ về phía vai, giữ bắp tay cố định và tập trung vào cơ tay trước.",
+        "Hạ thanh tạ về vị trí ban đầu có kiểm soát và lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "EZ Bar Preacher Curl",
+        "description": "",
+        "steps": [
+          "Position yourself on preacher bench; grasp EZ bar with underhand grip, elbows extended.",
+          "Slowly curl bar towards shoulders; keep upper arms stationary, focus on biceps.",
+          "Lower bar back to starting position; maintain control, repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "29825a8f-9bf5-4f07-85a6-940bbdbe6d14",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b42d003d87d7b7e90aa08d455185eba130ec065b3a1e26bf4a649c87de4c341a",
+      "name": "Deadlift kiểu xách vali với tạ ấm",
+      "description": "",
+      "steps": [
+        "Đứng với hai chân rộng bằng hông, giữ tạ ấm ở một bên người, lòng bàn tay hướng về đùi.",
+        "Siết cơ bụng, giữ lưng thẳng và gập hông cùng gối để hạ tạ ấm về phía sàn.",
+        "Khi tạ ấm đến sàn, dùng cơ chân và cơ mông đẩy lực qua gót chân, duỗi hông và gối để nâng người về vị trí ban đầu.",
+        "Lặp theo số lần mong muốn, rồi đổi bên và thực hiện với tạ ấm ở phía đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Kettlebell Suitcase Deadlift",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet hip-width apart and holding a kettlebell at one side of your body, with your palms facing your thighs.",
+          "Keeping your core engaged and your back straight, bend at the hips and knees to lower the kettlebell down towards the ground.",
+          "As the kettlebell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position.",
+          "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the kettlebell on the opposite side of your body."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b3e21821-3a09-4b8d-87ab-a755b27cebc9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "410c8a0352518d38094f414e9f3c64aad74061e98a3394cb3ef7ea5662084185",
+      "name": "Đi bộ nâng gối với tạ ấm",
+      "description": "",
+      "steps": [
+        "Đứng thẳng với tạ ấm, bắt đầu đi về một điểm đã chọn và nâng đầu gối lên phía trần.",
+        "Giữ ngực nâng và hai bả vai kéo ra sau.",
+        "Cố gắng giữ độ dài các bước gần bằng nhau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Kettlebell Walking Farmers March",
+        "description": "",
+        "steps": [
+          "Standing straight with kettlebells, start walking towards a set point. Pulling your knee up toward the ceiling.",
+          "Make sure to keep your chest tall and shoulder blades pulled back.",
+          "Try to keep your stride distance roughly the same."
+        ]
+      }
+    },
+    {
+      "exercise_id": "10c10fb0-3a24-4b80-a820-c8fed771c3ce",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "96570cae4ea6230c1fe12da4d18cd4b9fb740564a3036e956435d9ff1725fead",
+      "name": "Chùng chân luân phiên kết hợp xoay thanh landmine",
+      "description": "",
+      "steps": [
+        "Lắp thanh tạ vào điểm gắn landmine và thêm tạ.",
+        "Đứng đối diện thanh landmine, giữ tạ cách xa ngực.",
+        "Bước một chân ra sau, hạ người chùng chân và xoay thân về phía chân trước; trở về vị trí ban đầu rồi lặp lại bên còn lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Landmine Alternating Lunge And Twist",
+        "description": "",
+        "steps": [
+          "Set up the landmine attachment and load weight.",
+          "Stand facing the landmine, holding the weight away from your chest.",
+          "Step backward with one leg, lunge down while twisting your torso toward the front leg, return to starting position, and repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9fb54940-feaa-408b-a843-cbd9d1fa7c38",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6e416d40295a2cff4717f7eec613d71933f0452a95db3f283b70a980219a1866",
+      "name": "Quỳ xoay người với thanh landmine",
+      "description": "",
+      "steps": [
+        "Quỳ đối diện thanh landmine, hai đầu gối rộng bằng hông và lưng thẳng. Hai tay đan ngón nắm thanh tạ, giữ phía trên và hơi ra trước người.",
+        "Giữ cơ bụng siết và lưng thẳng, xoay thân sang một bên, đưa cả hai tay và thanh landmine xoay theo. Dừng lại một chút ở cuối biên độ để cảm nhận cơ bụng chéo co lại.",
+        "Từ từ xoay về vị trí ban đầu, rồi xoay sang bên đối diện và lặp lại động tác.",
+        "Luân phiên xoay cả hai bên theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Landmine Kneeling Twist",
+        "description": "",
+        "steps": [
+          "Kneel down facing the landmine with your knees hip-width apart and your back straight. Grasp the landmine barbell with both hands, interlacing your fingers and holding it above and slightly in front of your body.",
+          "Keeping your core engaged and your back straight, twist your torso to one side, rotating your arms and the landmine along with it. Pause briefly at the end of the twist, feeling the contraction in your oblique muscles.",
+          "Slowly rotate back to the starting position, then twist to the opposite side, repeating the same motion.",
+          "Repeat both sides of the rotation for the desired number of reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1987e198-19a1-4baa-930b-e1f24b24c03d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "af2fc2639681b9d4ba4b836c44e1f01f7958c7734255d18f5584d3cbce9424ed",
+      "name": "Kéo tạ chữ T với thanh landmine",
+      "description": "",
+      "steps": [
+        "Lấy tay cầm chữ V và đặt dưới phần chặn bánh tạ của thanh đòn.",
+        "Gập người về trước, giữ lưng thẳng và kéo khuỷu tay thẳng ra sau về phía trần.",
+        "Duỗi thẳng hoàn toàn khuỷu tay trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Landmine T Bar Rows",
+        "description": "",
+        "steps": [
+          "Grab a v bar and place it under the bar's collar.",
+          "Hinge forward with a flat back and pull your elbows straight back toward the ceiling.",
+          "Fully extend your elbows before initiating the next rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a4e5ce50-6497-41e2-bea0-0d3e557e5416",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ec2401b44c9dda1eea8c7c92525d5e1e0fbf01130f96a21101d9477ed9170729",
+      "name": "Deadlift với tay kẹp bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng đối diện bánh tạ, hai chân rộng bằng vai và bánh tạ đặt giữa hai chân.",
+        "Cúi xuống, dùng hai tay kẹp mép trên của bánh tạ, bảo đảm ngón cái và các ngón tay đặt cân đối.",
+        "Giữ lưng thẳng, nâng ngực và siết cơ bụng, đứng lên cùng bánh tạ và giữ tạ gần người.",
+        "Hạ bánh tạ về sàn có kiểm soát, duy trì tư thế đúng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Plate Pinch Grip Deadlift",
+        "description": "",
+        "steps": [
+          "Stand facing the plate with your feet shoulder-width apart and the plate positioned between your feet.",
+          "Bend down and grasp the plate from the top edges with both hands, making sure your thumbs and fingers are evenly spaced.",
+          "Keep your back straight, chest up and core engaged, and stand up with the plate, keeping it close to your body.",
+          "Lower the plate back down to the ground, keeping control and maintaining good posture."
+        ]
+      }
+    },
+    {
+      "exercise_id": "70952038-faff-411e-8117-e2815eccfe6e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e1415553cd897b9d25b44d2b26ef2bc7af21c122d4a178777a4f905dbd377e6d",
+      "name": "Đi bộ với tay kẹp bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, mỗi tay kẹp hai bánh tạ bằng các ngón tay.",
+        "Đi bộ theo quãng đường hoặc thời gian mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Plate Pinch Grip Farmer's Carry",
+        "description": "",
+        "steps": [
+          "Stand tall holding two plates in each hand with a pinch grip.",
+          "Walk for the desired distance or time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6159f75a-5a71-40f8-9d5a-faeb6dda9da1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "077e5f5a30f526dad4715b4e718227958f487d0acd60badc21427a52ad726cb3",
+      "name": "Ngồi nâng tạ sang ngang",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng trên ghế hoặc bục.",
+        "Giữ tạ đơn ở hai bên người.",
+        "Nâng tay lên ngang vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Seated Lateral Raise",
+        "description": "",
+        "steps": [
+          "Sit upright on bench or box.",
+          "Hold dumbbells at sides",
+          "Lift arms to shoulder height."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3d6d5dca-0bce-4121-b614-ba82de327450",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "89c53513dbdebb03c7aa9b61f1fce032367ce42205c61faa66eb2241d0e6ca4f",
+      "name": "Đẩy ngực trên ghế với máy Smith",
+      "description": "",
+      "steps": [
+        "Nằm thẳng trên ghế, đặt bàn chân trên mặt đất. Duỗi thẳng tay và nhấc thanh tạ khỏi giá.",
+        "Hạ thanh tạ xuống giữa ngực.",
+        "Nâng thanh tạ lên đến khi khuỷu tay duỗi thẳng hoàn toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Bench Press",
+        "description": "",
+        "steps": [
+          "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+          "Lower the bar to your mid chest",
+          "Raise the bar until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2c96dfd8-2c9f-490a-9af5-43e04d69a926",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "71bcfe9e5009c49a6e9da92e224cf2380b15670be32e5cdb4cd1252b94eeef64",
+      "name": "Nhón gót với máy Smith",
+      "description": "",
+      "steps": [
+        "Đặt thanh tạ trên lưng.",
+        "Bắt đầu với bàn chân đặt phẳng trên mặt đất.",
+        "Nâng gót chân lên trong khi giữ đầu gối cố định, dừng lại ở vị trí cơ co.",
+        "Từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Calf Raise",
+        "description": "",
+        "steps": [
+          "Place the bar on your back",
+          "Start with feet flat on the ground",
+          "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+          "Slowly return to the starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c631b1f9-88b7-493c-a73d-c641888190d5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5529288d2700cac752ebb325e26cc23f30457e542094bdbd3ea18dd879868bb3",
+      "name": "Gập tay kéo thanh máy Smith sát thân",
+      "description": "",
+      "steps": [
+        "Nắm thanh tạ bằng tay nắm ngửa.",
+        "Kéo khuỷu tay thẳng ra sau, để thanh tạ đi sát hoặc rất gần thân trên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Drag Curl",
+        "description": "",
+        "steps": [
+          "Grab the bar with an underhand grip.",
+          "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4b6b872f-5410-483e-bf44-7c57e737ea6e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7d3297f22fb61c5fd4bbe66aa1f956b8f4bb41d1533e12e1e75e3c56072f3b0a",
+      "name": "Đẩy ngực kiểu Guillotine trên máy Smith",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế phẳng, nắm thanh tạ ngang vai với lòng bàn tay hướng về trước.",
+        "Từ từ hạ thanh tạ xuống ngực, mở khuỷu tay sang hai bên.",
+        "Khi cảm nhận cơ ngực được kéo giãn, đẩy tạ lên trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Guillotine Bench Press",
+        "description": "",
+        "steps": [
+          "Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward.",
+          "Slowly lower the bar to your chest, keeping your elbows flared out.",
+          "Once you feel a stretch in your chest press the weight back up."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d5786a34-e54c-4faa-b292-b739b2a772f4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "99ad6bbff26617dc7a032299c87ef62e2370ecbe13f6049d6c6d5f9a1e1c87e1",
+      "name": "Squat chân hẹp trên máy Smith",
+      "description": "",
+      "steps": [
+        "Đặt thanh tạ trên cơ thang và đứng chân hẹp.",
+        "Đẩy hông ra sau và gập gối. Hướng khuỷu tay về trước để tránh đổ người quá xa ra trước.",
+        "Cố gắng hạ đến khi phần đùi sau song song với sàn.",
+        "Đẩy gót chân xuống sàn và squat lên trở lại tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Narrow Stance Squat",
+        "description": "",
+        "steps": [
+          "Place the bar on top of your traps. Take a narrow stance.",
+          "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+          "Aim to get your hamstrings to parallel with the floor.",
+          "Push your heels into the floor and squat back to a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8b18d0cb-aded-4f65-a88a-4dee85eb85ee",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "92a3dd88d7520520b32ed2e5e0c797e95c9fff195d013bd47dfa28bc78143b9e",
+      "name": "Kéo thanh máy Smith với tay nắm sấp",
+      "description": "",
+      "steps": [
+        "Gập người về trước và giữ lưng thẳng. Bảo đảm khuỷu tay duỗi thẳng hoàn toàn.",
+        "Kéo thanh tạ về phía xương ức."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Overhand Row",
+        "description": "",
+        "steps": [
+          "Start hinged forward with a flat back. Make sure your elbows are fully extended.",
+          "Pull the bar to your sternum."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0dc78931-24ec-41a9-98a8-4a9e87eacbde",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "167e21579bb3308e404c38b3d26747f657da5b19f8abb35e12ebd2407cadff8f",
+      "name": "Chống đẩy tựa thanh máy Smith",
+      "description": "",
+      "steps": [
+        "Đặt hai tay lên thanh tạ, vào tư thế chống đẩy.",
+        "Hạ người về phía thanh tạ, duy trì tư thế đúng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Pushup",
+        "description": "",
+        "steps": [
+          "Place hands on the bar, in push-up position.",
+          "Lower yourself to the bar, maintaining proper form."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d51a374e-150c-415c-9caa-96b341006743",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e0cacdf26518c5cc7f183bd666e66b4c499f66cf01063dff42f6966716c67c5d",
+      "name": "Gập bụng ngồi dậy với máy Smith",
+      "description": "",
+      "steps": [
+        "Đặt thanh máy Smith ở độ cao phù hợp.",
+        "Nằm ngửa bên dưới thanh tạ và dùng hai tay nắm thanh.",
+        "Siết cơ bụng, nâng thân trên về phía thanh tạ và thở ra.",
+        "Hạ thân trên có kiểm soát và hít vào."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Situp",
+        "description": "",
+        "steps": [
+          "Set up the Smith machine bar at an appropriate height.",
+          "Lie on your back beneath the bar, gripping it with your hands.",
+          "Engage your core, lift your upper body toward the bar, and exhale.",
+          "Lower your upper body back down in a controlled manner, inhaling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4a2790f7-a88d-4fb3-8e7c-572cbf7e161a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0c4b5abbb75131e35b9f36bbda965ecf23a26632cf12977f194d36113ba2cfff",
+      "name": "Squat trên máy Smith",
+      "description": "",
+      "steps": [
+        "Đứng với hai chân rộng bằng vai, giữ độ cong tự nhiên của lưng và đặt thanh tạ lên lưng. Siết hai bả vai và nâng ngực.",
+        "Nắm thanh tạ ngang vai, để thanh tựa trên lưng trên. Duỗi chân để nhấc thanh máy Smith khỏi giá.",
+        "Gập gối để hạ tạ, giữ nguyên tư thế lưng cho đến khi hông thấp hơn đầu gối.",
+        "Dùng sức chân nâng thanh tạ về vị trí ban đầu và thở ra khi lên đến trên cùng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width apart. Maintain the natural arch in your back and put the bar on your back. Squeezing your shoulder blades and raise your chest.",
+          "Grip the bar across your shoulders and support it on your upper back. Unwrack the smith machine by straightening your legs.",
+          "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+          "Raise the bar back to starting position, lift with your legs and exhale at the top."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8152b618-7ae2-4ad5-8c7c-aff11037d028",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e334acf93eb17c59f709a4cc35ca4953f640a548ba74707e926d315808b36dbf",
+      "name": "Romanian deadlift kiểu sumo trên máy Smith",
+      "description": "",
+      "steps": [
+        "Độ rộng tư thế đứng khi sumo deadlift có thể thay đổi. Một số người đặt mũi chân gần bánh tạ, trong khi người khác đứng hẹp hơn để tạo lực đẩy khỏi sàn tốt hơn.",
+        "Giữ hai tay ở phía trong hai chân. Thanh tạ nằm ngay trên phần giữa bàn chân. Giữ lưng thẳng và nhấc thanh tạ khỏi giá.",
+        "Giữ đầu gối gần duỗi thẳng, gập rồi duỗi hông."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Sumo Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+          "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar",
+          "Leave your knees mostly extended and flex and extend your hips."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b9b6a87f-2f9f-4f67-9616-90c8d9785a3b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d2cde18565798e70d269f6e83015e03839e569182043db2bcd107099d121314a",
+      "name": "Kéo thanh máy Smith với tay nắm ngửa",
+      "description": "",
+      "steps": [
+        "Đứng trước thanh tạ, hai chân rộng khoảng bằng hông.",
+        "Gập hông và gối để nắm thanh tạ bằng tay nắm ngửa, đặt thanh cách ống chân khoảng một inch.",
+        "Giữ lưng thẳng và siết cơ bụng, dùng cơ lưng kéo thanh tạ thẳng lên phía ngực.",
+        "Khi thanh tạ đến ngực, dừng lại một chút rồi hạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Underhand Row",
+        "description": "",
+        "steps": [
+          "Begin by standing in front of a bar with your feet about hip-width apart.",
+          "Bend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins.",
+          "Keeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest.",
+          "As the bar reaches your chest, pause briefly, and then lower the bar back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7070fecb-fe55-4c99-981a-ae182d1e4554",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "772a9278e8633e0aaa9801db3ac4ea7b7a0554a337be22d9902896a13bc3dc20",
+      "name": "Kéo thanh máy Smith thẳng đứng",
+      "description": "",
+      "steps": [
+        "Nắm thanh bằng cả hai tay nắm sấp, rộng khoảng bằng vai.",
+        "Kéo khuỷu tay thẳng lên phía trần, cố gắng đưa thanh tạ đến ngang cằm hoặc cao hơn một chút.",
+        "Hạ thanh tạ xuống và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Smith Machine Upright Row",
+        "description": "",
+        "steps": [
+          "Take a double overhand roughly shoulder width grip.",
+          "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+          "lower the bar and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ffdd4a56-b4ac-4ff8-9b59-f61e779180fd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f2e93f05442648607f7c880409f278dbd8f015984249889a221c571f1972bf62",
+      "name": "Squat tựa bóng vào tường, giữ tạ trước ngực",
+      "description": "",
+      "steps": [
+        "Đặt bóng thăng bằng tựa vào tường ở khoảng ngang hông.",
+        "Giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Gập hông và gối đến khi đùi song song với mặt đất hoặc thấp hơn một chút, rồi squat lên trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Stability Ball Goblet Wall Squat",
+        "description": "",
+        "steps": [
+          "Place a stability ball against a wall at about hip height.",
+          "Hold a dumbbell in a goblet position.",
+          "Break at the hips and knees until you hit parallel or just below, then squat back up."
+        ]
+      }
+    },
+    {
+      "exercise_id": "08cf564d-7332-4801-89e3-e710d93e4c96",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1ae9f15baca7253b90d908ca887fbc5aa1449a7b723767413f87158502bccba2",
+      "name": "Squat với thanh trap bar",
+      "description": "",
+      "steps": [
+        "Đứng bên trong thanh trap bar, hai chân rộng bằng vai và nắm tay cầm.",
+        "Hạ hông xuống và ra sau, giữ ngực thẳng.",
+        "Hạ đến khi đùi ít nhất song song với mặt đất.",
+        "Đẩy gót chân xuống sàn và squat lên trở lại tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:44:38.478Z",
+      "source": {
+        "name": "Trap Bar Squat",
+        "description": "",
+        "steps": [
+          "Stand inside trap bar, feet shoulder-width, grip handles.",
+          "Sit hips down and back, keeping chest upright.",
+          "Lower until thighs are at least parallel.",
+          "Push your heels into the floor and squat back to a standing position."
+        ]
+      }
+    }
+  ]
+}

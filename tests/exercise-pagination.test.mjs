@@ -21,10 +21,14 @@ function load(path, imports = {}) {
 }
 
 const pagination = load("lib/exercises/pagination.ts");
+const messages = load("lib/i18n/messages.ts");
+let testLanguage = "en";
 const { default: ExercisePagination } = load("components/ExercisePagination.tsx", {
   "react/jsx-runtime": jsxRuntime,
   "next/link": { default: (props) => createElement("a", props) },
   "@/lib/exercises/pagination": pagination,
+  "@/components/LanguageProvider": { useAppLanguage: () => ({ language: testLanguage }) },
+  "@/lib/i18n/messages": messages,
 });
 const props = { page: 1, pageSize: 5, routePath: "/exercises/biceps?view=advanced", total: 145 };
 
@@ -77,4 +81,15 @@ test("mobile page window exposes the neighboring page buttons", () => {
   assert.match(html, /aria-label="Page 4"/);
   assert.match(html, /aria-label="Page 5"/);
   assert.match(html, /aria-label="Page 6"/);
+});
+
+test("Vietnamese pagination keeps the same pages, canonical filters and link targets", () => {
+  const english = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page: 5 }));
+  try {
+    testLanguage = "vi";
+    const vietnamese = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page: 5 }));
+    assert.match(vietnamese, /aria-label="Trang trước"/);
+    assert.match(vietnamese, /aria-label="Trang 5"/);
+    assert.deepEqual([...vietnamese.matchAll(/href="([^"]*)"/g)].map((match) => match[1]), [...english.matchAll(/href="([^"]*)"/g)].map((match) => match[1]));
+  } finally { testLanguage = "en"; }
 });

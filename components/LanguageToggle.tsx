@@ -1,9 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { LANGUAGE_COOKIE_NAME, type AppLanguage } from "@/lib/language";
-
-const LANGUAGE_COOKIE_MAX_AGE = 60 * 60 * 24 * 365;
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages } from "@/lib/i18n/messages";
 
 function EnglishFlagIcon() {
   return (
@@ -26,28 +24,25 @@ function VietnamFlagIcon() {
   );
 }
 
-export default function LanguageToggle({ initialLanguage }: { initialLanguage: AppLanguage }) {
-  const [language, setLanguage] = useState(initialLanguage);
-  const nextLanguage: AppLanguage = language === "en" ? "vi" : "en";
-  const nextLanguageLabel = nextLanguage === "vi" ? "Vietnamese" : "English";
-
-  function switchLanguage() {
-    setLanguage(nextLanguage);
-    const secure = window.location.protocol === "https:" ? "; Secure" : "";
-    document.cookie = `${LANGUAGE_COOKIE_NAME}=${nextLanguage}; Path=/; Max-Age=${LANGUAGE_COOKIE_MAX_AGE}; SameSite=Lax${secure}`;
-  }
+export default function LanguageToggle({ whenEnabledOnly = false }: { whenEnabledOnly?: boolean }) {
+  const { enabled, language, preference, pending, error, switchLanguage } = useAppLanguage();
+  const messages = getMessages(language);
+  const label = preference === "en" ? messages.switchToVietnamese : messages.switchToEnglish;
+  if (whenEnabledOnly && !enabled) return null;
 
   return (
     <button
-      aria-label={`Switch to ${nextLanguageLabel}`}
+      aria-busy={pending}
+      aria-label={label}
       className="health-language-toggle"
-      data-language={language}
+      data-language={preference}
+      disabled={pending}
       onClick={switchLanguage}
-      title={`Switch to ${nextLanguageLabel}`}
+      title={error ?? label}
       type="button"
     >
       <span className="health-language-toggle__flag">
-        {language === "en" ? <EnglishFlagIcon /> : <VietnamFlagIcon />}
+        {preference === "en" ? <EnglishFlagIcon /> : <VietnamFlagIcon />}
       </span>
     </button>
   );

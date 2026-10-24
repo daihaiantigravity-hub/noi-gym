@@ -57,6 +57,7 @@ export type PublicExercise = {
   difficulty: ExerciseDifficulty | "";
   steps: string[];
   media: ExerciseMediaValue[];
+  isTranslationFallback?: boolean;
 };
 
 export type PublicExercisePage = {

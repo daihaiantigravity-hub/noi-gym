@@ -6,6 +6,7 @@ import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
 import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercisePage } from "@/lib/exercises/types";
+import { localizeExercises } from "@/lib/exercises/translations";
 
 export default async function ExercisesPage({
   params,
@@ -33,7 +34,9 @@ export default async function ExercisesPage({
   }
   const localExercises = isAdvancedView || gender === "female" ? [] : getLocalPublicExercises(muscle);
   const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
-  const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
+  const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0)
+    ? databasePage
+    : { ...localPage, items: await localizeExercises(localPage.items) };
 
   return <ExerciseLibrary exercises={pageData.items} gender={gender ?? "male"} muscle={muscle} page={pageData.page} pageSize={pageData.pageSize} routePath={withExerciseGender(isAdvancedView ? getAdvancedRoute(muscle) : `/exercises/${muscle}`, gender)} targetLabel={isAdvancedView ? advancedTarget?.label : undefined} total={pageData.total} />;
 }

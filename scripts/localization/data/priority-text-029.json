@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared full Pilates and stretch source instructions, retaining carriage and footbar references, grip, breathing, posture, controlled return and support. Held contradictory arm/body positions, unclear leg loading and an out-of-order stretch sequence.",
+  "translations": [
+    {
+      "index": 181,
+      "sourceName": "Back Rowing Preps Airplane Seated",
+      "name": "Ngồi mở tay hình máy bay chuẩn bị kéo sau trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang vai.",
+        "Bắt đầu với tay ra trước, lòng bàn tay hướng về trước và vai thả lỏng.",
+        "Kéo tay mở thành chữ T, siết lưng trên mà không nghiêng người.",
+        "Từ từ trở về vị trí ban đầu, giữ tư thế thẳng và kiểm soát lực căng."
+      ],
+      "exercise_id": "02eaf9f2-8524-4b7f-bfbf-9cf0ae354487"
+    },
+    {
+      "index": 182,
+      "sourceName": "Back Rowing Preps Bicep Curls Seated",
+      "name": "Ngồi cuốn tay trước chuẩn bị kéo sau trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang vai.",
+        "Bắt đầu với tay thẳng, lòng bàn tay hướng lên và vai thả lỏng.",
+        "Co khuỷu tay, cuốn bàn tay về vai mà không di chuyển thân.",
+        "Từ từ duỗi tay, giữ kiểm soát và lực căng liên tục trên dây."
+      ],
+      "exercise_id": "60084d02-97b4-4863-8175-3aefc1b52e78"
+    },
+    {
+      "index": 183,
+      "sourceName": "Back Rowing Preps Open Elbow Seated",
+      "name": "Ngồi mở khuỷu tay chuẩn bị kéo sau trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang vai.",
+        "Bắt đầu co khuỷu tay, bàn tay gần ngực và lòng bàn tay hướng vào trong.",
+        "Mở rộng khuỷu tay, xoay ngoài vai và giữ ngực nâng.",
+        "Trở về có kiểm soát, giữ tư thế thẳng và lực căng dây ổn định."
+      ],
+      "exercise_id": "477192ab-6fc3-4b5a-9307-ffc393717f42"
+    },
+    {
+      "index": 184,
+      "sourceName": "Back Rowing Preps Roll Down With Bicep Curl Seated",
+      "name": "Ngồi cuộn lưng kết hợp cuốn tay trước trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây và khuỷu tay thẳng.",
+        "Cuộn cột sống xuống từng phần đồng thời co khuỷu tay để cuốn tay trước.",
+        "Dừng ngắn, giữ vai thả lỏng và cơ trung tâm siết.",
+        "Cuộn người lên theo chiều ngược lại, duỗi tay về trước và kiểm soát lực căng."
+      ],
+      "exercise_id": "c0af5861-9edd-4796-bf02-8f84c5ee96f1"
+    },
+    {
+      "index": 185,
+      "sourceName": "Back Rowing Preps Roll Down With Obliques",
+      "name": "Ngồi cuộn lưng xoay người tập bụng chéo trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang ngực.",
+        "Hơi xoay thân, siết cơ bụng chéo khi bắt đầu cuộn người ra sau.",
+        "Giữ độ xoay và co khuỷu tay, giữ vai thả lỏng và kiểm soát cột sống.",
+        "Cuộn người lên có kiểm soát, trở về giữa mà không mất lực căng."
+      ],
+      "exercise_id": "9cc1a09b-3eb4-4b36-bcd8-aaf78a6d1154"
+    },
+    {
+      "index": 186,
+      "sourceName": "Back Rowing Preps Triceps Seated",
+      "name": "Ngồi duỗi tay sau chuẩn bị kéo sau trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang ngực.",
+        "Bắt đầu co khuỷu tay, cánh tay trên sát hai bên thân.",
+        "Duỗi hoàn toàn khuỷu tay, đẩy dây ra sau và giữ thân thẳng.",
+        "Từ từ co khuỷu tay trở lại, giữ kiểm soát và lực căng ổn định."
+      ],
+      "exercise_id": "4cf599ad-a5cf-4bf1-b119-f63dd27cbbe4"
+    },
+    {
+      "index": 187,
+      "sourceName": "Backstroke Prep Lying On Box",
+      "name": "Nằm trên hộp chuẩn bị động tác bơi ngửa trong Pilates",
+      "steps": [
+        "Nằm sấp trên hộp, ngực được đỡ và hai tay giữ dây phía trước.",
+        "Bắt đầu với tay thẳng, lòng bàn tay hướng xuống và vai thả lỏng.",
+        "Kéo hai tay ra sau theo chuyển động quét, siết lưng trên.",
+        "Trở về vị trí ban đầu có kiểm soát, giữ cổ dài và thân ổn định."
+      ],
+      "exercise_id": "21803a10-a102-43bc-ac84-cc398cd57485"
+    },
+    {
+      "index": 188,
+      "sourceName": "Control Front Plank Position",
+      "name": "Tư thế plank kiểm soát phía trước trong Pilates",
+      "steps": [
+        "Đặt tay lên gối tựa vai và bàn chân lên thanh đặt chân.",
+        "Siết cơ trung tâm và cơ mông, giữ cơ thể thành một đường thẳng.",
+        "Đẩy tay về trước, hơi đưa vai ra trước và giữ cổ trung tính.",
+        "Giữ tư thế với nhịp thở đều và lực căng toàn thân."
+      ],
+      "exercise_id": "765ee25f-58d2-4926-b323-7c768e3db9af"
+    },
+    {
+      "index": 189,
+      "sourceName": "Feet Pulling Straps Hamstring Curls Prone On The Long Box",
+      "name": "Nằm sấp trên hộp dài gập gối kéo dây trong Pilates",
+      "steps": [
+        "Nằm sấp trên hộp dài, hông được đỡ và dây vòng quanh bàn chân.",
+        "Bắt đầu với chân duỗi, cơ trung tâm siết và chậu trung tính.",
+        "Co gối, dùng cơ đùi sau kéo gót chân về mông.",
+        "Từ từ duỗi chân, giữ kiểm soát và lực căng dây liên tục."
+      ],
+      "exercise_id": "8249d488-9689-4e9a-ae82-a43cddda3649"
+    },
+    {
+      "index": 190,
+      "sourceName": "Footwork Heels On The Bar",
+      "name": "Đạp chân đặt gót trên thanh trong Pilates",
+      "steps": [
+        "Nằm ngửa, đặt hai gót lên thanh rộng bằng hông, hơi nhấc mũi chân.",
+        "Đạp thanh ra xa, duỗi hoàn toàn chân mà không khóa gối.",
+        "Giữ chậu trung tính, xương sườn hạ và cơ trung tâm siết đều.",
+        "Co gối trở lại có kiểm soát, giữ gót tiếp xúc với thanh."
+      ],
+      "exercise_id": "fcea76b1-9674-4c43-a559-c3c8821daaf7"
+    },
+    {
+      "index": 191,
+      "sourceName": "Footwork High Half Toe",
+      "name": "Đạp chân nhón gót cao trong Pilates",
+      "steps": [
+        "Nằm ngửa, đặt phần đệm trước bàn chân lên thanh và nâng gót cao.",
+        "Đạp thanh ra xa, duỗi chân trong khi giữ gót nâng.",
+        "Giữ chậu trung tính, xương sườn hạ và cơ trung tâm siết.",
+        "Co gối trở lại mượt, giữ cổ chân ổn định và có kiểm soát."
+      ],
+      "exercise_id": "75a048e2-5341-4a87-90c6-8bc4f6ce1677"
+    },
+    {
+      "index": 192,
+      "sourceName": "Footwork Lower And Lift",
+      "name": "Đạp chân kết hợp hạ và nâng gót trong Pilates",
+      "steps": [
+        "Nằm ngửa, đặt phần đệm trước bàn chân lên thanh và nâng gót.",
+        "Đạp thanh ra xa, duỗi hoàn toàn chân có kiểm soát.",
+        "Hạ gót thấp hơn thanh rồi nâng gót cao nhất có thể.",
+        "Co gối trở lại, giữ lực căng ổn định và kiểm soát cổ chân."
+      ],
+      "exercise_id": "74c8e448-3925-4909-a9ac-9fac668225c4"
+    },
+    {
+      "index": 193,
+      "sourceName": "Front Rowing Preps Offering Seated",
+      "name": "Ngồi đưa tay ra trước kiểu dâng trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây và khuỷu tay co sát thân.",
+        "Lòng bàn tay hướng lên, hai cẳng tay song song, vai thả lỏng và ngực mở.",
+        "Duỗi tay về trước như đang dâng đồ vật, giữ tư thế thẳng.",
+        "Co khuỷu tay trở lại, giữ lực căng và kiểm soát chuyển động."
+      ],
+      "exercise_id": "dbdc4358-c800-4a7d-aab8-0c387d6a3e70"
+    },
+    {
+      "index": 194,
+      "sourceName": "Front Rowing Preps Second Position Seated",
+      "name": "Ngồi mở tay vị trí thứ hai chuẩn bị kéo trước trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây ngang ngực.",
+        "Bắt đầu co khuỷu tay, bàn tay phía trước và lòng bàn tay hướng vào trong.",
+        "Mở rộng tay sang vị trí thứ hai, siết lưng trên.",
+        "Trở về có kiểm soát, giữ tư thế thẳng và lực căng dây ổn định."
+      ],
+      "exercise_id": "e8ffc226-d836-4fdb-84e8-d93a3f46cd24"
+    },
+    {
+      "index": 198,
+      "sourceName": "Hundred",
+      "name": "Bài một trăm nhịp trong Pilates",
+      "steps": [
+        "Nằm ngửa, chân ở tư thế cái bàn hoặc duỗi, hai tay vươn dài bên thân.",
+        "Nâng đầu và vai, siết cơ trung tâm, nhìn về đùi.",
+        "Đánh tay mạnh theo nhịp, hít vào năm nhịp và thở ra năm nhịp.",
+        "Giữ thân ổn định và cơ bụng siết chắc trong một trăm nhịp."
+      ],
+      "exercise_id": "eb8256ec-7e07-49c0-983d-8126471f612a"
+    },
+    {
+      "index": 199,
+      "sourceName": "Hundred Straight Legs",
+      "name": "Bài một trăm nhịp với chân thẳng trong Pilates",
+      "steps": [
+        "Nằm ngửa, chân ở tư thế cái bàn hoặc duỗi, hai tay vươn dài bên thân.",
+        "Nâng đầu và vai, siết cơ trung tâm, nhìn về đùi.",
+        "Đánh tay mạnh theo nhịp, hít vào năm nhịp và thở ra năm nhịp.",
+        "Giữ thân ổn định và cơ bụng siết chắc trong một trăm nhịp."
+      ],
+      "exercise_id": "a809e610-5aa6-4336-9da8-bdf34ce283f9"
+    },
+    {
+      "index": 201,
+      "sourceName": "Long Stretch Plank Position",
+      "name": "Tư thế plank duỗi dài trong Pilates",
+      "steps": [
+        "Đặt tay lên thanh đặt chân, vai trên cổ tay và hai chân duỗi dài.",
+        "Siết cơ trung tâm và cơ mông, tạo đường thẳng từ đầu đến gót chân.",
+        "Đẩy gót ra sau, hơi đưa vai ra trước và giữ cổ trung tính.",
+        "Giữ tư thế với nhịp thở đều và lực căng toàn thân."
+      ],
+      "exercise_id": "f8ca48bb-103d-4cbb-8758-b36083c75f8e"
+    },
+    {
+      "index": 202,
+      "sourceName": "Midback Series 1",
+      "name": "Chuỗi bài lưng giữa 1 trong Pilates",
+      "steps": [
+        "Cơ bản.",
+        "Nằm có điểm đỡ, giữ cột sống dài và hai tay thẳng lên trần.",
+        "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+        "Đưa tay xuống bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+        "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+      ],
+      "exercise_id": "e0811330-ece7-48f5-8ecf-3e8e57fd4f35"
+    },
+    {
+      "index": 203,
+      "sourceName": "Midback Series 2",
+      "name": "Chuỗi bài lưng giữa 2 trong Pilates",
+      "steps": [
+        "Cơ bản.",
+        "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ T.",
+        "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+        "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+        "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+      ],
+      "exercise_id": "d0d3e5a2-4b2f-4ba8-b6fa-0d875c8fec76"
+    },
+    {
+      "index": 204,
+      "sourceName": "Midback Series 3",
+      "name": "Chuỗi bài lưng giữa 3 trong Pilates",
+      "steps": [
+        "Cơ bản.",
+        "Ngồi hoặc nằm có điểm đỡ, giữ cột sống dài và tay ở hình chữ V.",
+        "Bắt đầu chuyển động bằng cách kéo hai bả vai lại gần nhau và hạ xuống.",
+        "Đưa tay xuống hai bên thân, giữ cổ thả lỏng và xương sườn hạ.",
+        "Giữ kiểm soát suốt động tác, tập trung cơ lưng giữa thay vì dùng tay là chính."
+      ],
+      "exercise_id": "81f96125-adaf-453f-8bd4-2cf00f1a1fed"
+    },
+    {
+      "index": 205,
+      "sourceName": "Midback Series Circles Inward",
+      "name": "Chuỗi bài lưng giữa xoay tay vào trong trong Pilates",
+      "steps": [
+        "Nằm thẳng trên bàn trượt, hai tay hướng lên trần.",
+        "Mở tay sang hình chữ T.",
+        "Kéo tay về bên thân rồi nâng tay trở lại hướng lên trần."
+      ],
+      "exercise_id": "54560517-aa74-4460-86cb-42591e36183d"
+    },
+    {
+      "index": 206,
+      "sourceName": "Midback Series Circles Outward",
+      "name": "Chuỗi bài lưng giữa xoay tay ra ngoài trong Pilates",
+      "steps": [
+        "Nằm thẳng trên bàn trượt, chân ở tư thế cái bàn.",
+        "Bắt đầu với hai tay hướng lên trần.",
+        "Đưa tay về bên thân, sau đó mở sang hình chữ T rồi trở lại vị trí ban đầu."
+      ],
+      "exercise_id": "001e6131-d521-428a-849b-d7737ec13319"
+    },
+    {
+      "index": 207,
+      "sourceName": "Midback Series Triceps Press Lying",
+      "name": "Nằm duỗi tay sau trong chuỗi bài lưng giữa Pilates",
+      "steps": [
+        "Nằm sấp có điểm đỡ, tay co và khuỷu tay hướng về trước.",
+        "Hạ vai và kéo ra sau, siết lưng giữa để ổn định.",
+        "Duỗi hoàn toàn khuỷu tay, đẩy tay dài ra mà không cử động vai.",
+        "Co khuỷu tay trở lại, giữ kiểm soát và cơ lưng trên hoạt động."
+      ],
+      "exercise_id": "289e4bc7-e78f-4538-8a4e-6f327e7319ff"
+    },
+    {
+      "index": 208,
+      "sourceName": "Pilates Back Rowing Seated Row",
+      "name": "Ngồi kéo dây về thân trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, giữ dây với hai tay phía trước.",
+        "Kéo tay cầm về thân, siết hai bả vai lại gần nhau.",
+        "Giữ ngực nâng và cột sống trung tính suốt động tác.",
+        "Duỗi tay về trước có kiểm soát."
+      ],
+      "exercise_id": "59c11ba2-5374-420b-8a8b-512534d27b91"
+    },
+    {
+      "index": 209,
+      "sourceName": "Pilates Footwork First Position",
+      "name": "Đạp chân vị trí thứ nhất trong Pilates",
+      "steps": [
+        "Nằm trên máy reformer, hai gót sát nhau và mũi chân mở trên thanh đặt chân.",
+        "Đẩy bàn trượt ra bằng cách duỗi đều hai chân.",
+        "Giữ chậu ổn định và cơ trung tâm siết.",
+        "Co gối trở lại có kiểm soát."
+      ],
+      "exercise_id": "3cae3293-37c1-49cd-b394-67d5b4faa5c3"
+    },
+    {
+      "index": 210,
+      "sourceName": "Pilates Hamtring Curls Prone",
+      "name": "Nằm sấp gập gối trong Pilates",
+      "steps": [
+        "Nằm sấp, gắn dây vào cổ chân và duỗi chân.",
+        "Co gối, kéo gót chân về mông.",
+        "Giữ hông áp xuống và cơ trung tâm siết.",
+        "Từ từ duỗi chân về vị trí ban đầu."
+      ],
+      "exercise_id": "1d63b635-29a1-48c6-844a-96524f25988b"
+    },
+    {
+      "index": 211,
+      "sourceName": "Pilates Scooter",
+      "name": "Đẩy chân kiểu xe trượt trong Pilates",
+      "steps": [
+        "Đứng cạnh máy reformer, một chân trên bàn trượt và chân kia đứng vững trên sàn.",
+        "Đẩy bàn trượt ra sau bằng cách duỗi chân đang di chuyển."
+      ],
+      "exercise_id": "64f19a79-582d-496d-a7d6-5eea4d4151e1"
+    },
+    {
+      "index": 212,
+      "sourceName": "Pilates Short Spine",
+      "name": "Cuộn cột sống ngắn trong Pilates",
+      "steps": [
+        "Nằm ngửa, bàn chân trong dây và hai chân duỗi lên trên.",
+        "Nâng hông, cuộn cột sống khỏi bàn trượt.",
+        "Co gối, đưa gót chân về phía mông ở trên đầu.",
+        "Từ từ cuộn xuống, duỗi chân về vị trí ban đầu."
+      ],
+      "exercise_id": "26d716c2-af55-49ed-abe2-3805d28044ec"
+    },
+    {
+      "index": 213,
+      "sourceName": "Pilates Single Arm Back Rowing Seated Row",
+      "name": "Ngồi kéo dây một tay trong Pilates",
+      "steps": [
+        "Ngồi thẳng, giữ một dây với tay duỗi ra trước.",
+        "Kéo tay cầm về thân và siết bả vai.",
+        "Giữ thân ổn định, không xoay.",
+        "Duỗi tay về trước có kiểm soát."
+      ],
+      "exercise_id": "826ba654-132e-4169-a31a-fffc783e8def"
+    },
+    {
+      "index": 214,
+      "sourceName": "Pilates Single Arm Rotations Back Rowing Seated Row",
+      "name": "Ngồi kéo dây một tay kết hợp xoay người trong Pilates",
+      "steps": [
+        "Ngồi thẳng, giữ một dây với tay duỗi ra trước.",
+        "Kéo tay cầm đồng thời hơi xoay thân.",
+        "Giữ hông ổn định và kiểm soát chuyển động.",
+        "Đưa tay và thân về vị trí ban đầu."
+      ],
+      "exercise_id": "22ba6f65-681e-4bf3-b8bf-9d406432f33e"
+    },
+    {
+      "index": 215,
+      "sourceName": "Pilates Single Leg Heel",
+      "name": "Đạp bằng gót một chân trong Pilates",
+      "steps": [
+        "Nằm trên máy reformer, một gót chân trên thanh đặt chân và chân kia duỗi.",
+        "Dùng chân đang tập đẩy bàn trượt ra.",
+        "Giữ hông cân bằng và cơ trung tâm siết.",
+        "Co gối trở lại có kiểm soát."
+      ],
+      "exercise_id": "03dd6a3d-4480-47eb-ac80-3be01bd4e2b1"
+    },
+    {
+      "index": 216,
+      "sourceName": "Pilates Teaser Prep",
+      "name": "Chuẩn bị tư thế teaser trong Pilates",
+      "steps": [
+        "Nằm ngửa, co gối và đưa tay về phía đùi.",
+        "Nâng đầu, vai và lưng trên khỏi bàn trượt.",
+        "Vươn về trước trong khi giữ cơ trung tâm siết.",
+        "Từ từ hạ về vị trí ban đầu."
+      ],
+      "exercise_id": "59e40bfc-892c-4a95-931d-f2b5e6baa308"
+    },
+    {
+      "index": 217,
+      "sourceName": "Plow Back Rowing Preps",
+      "name": "Ngồi kéo tay kiểu cày chuẩn bị kéo sau trong Pilates",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, hai tay giữ dây phía trước.",
+        "Bắt đầu với hai tay duỗi dài, vai thả lỏng và ngực mở.",
+        "Kéo tay xuống và ra sau theo động tác cày, siết cơ xô.",
+        "Trở về có kiểm soát, giữ tư thế thẳng và lực căng."
+      ],
+      "exercise_id": "c609f020-e523-4875-9920-d2606035e6f3"
+    },
+    {
+      "index": 218,
+      "sourceName": "Reverse Expansion Bicep Curls Kneeling",
+      "name": "Quỳ cuốn tay trước trong chuỗi mở ngực ngược Pilates",
+      "steps": [
+        "Quỳ thẳng, hai tay duỗi dài và lòng bàn tay hướng về trước.",
+        "Hạ vai, siết cơ trung tâm và cơ mông.",
+        "Co khuỷu tay, cuốn bàn tay về vai mà không ngả người ra sau.",
+        "Từ từ duỗi tay, giữ tư thế thẳng và lực căng dây."
+      ],
+      "exercise_id": "b2c35e9b-d5aa-4661-9852-f05eaed893de"
+    },
+    {
+      "index": 219,
+      "sourceName": "Reverse Expansion Salute Kneeling",
+      "name": "Quỳ đẩy tay chào trong chuỗi mở ngực ngược Pilates",
+      "steps": [
+        "Quỳ thẳng đối diện dây, khuỷu tay co và lòng bàn tay hướng về trước.",
+        "Giữ khuỷu tay nâng và vai thả lỏng.",
+        "Đẩy hai tay chéo lên trên, duỗi hoàn toàn khuỷu tay.",
+        "Co khuỷu tay trở lại có kiểm soát, giữ thân thẳng đứng."
+      ],
+      "exercise_id": "8768e565-15ad-4d90-bdb9-e3f77d561ad7"
+    },
+    {
+      "index": 220,
+      "sourceName": "Reverse Expansion Teardrops Inward Kneeling",
+      "name": "Quỳ kéo tay hình giọt nước vào trong trong Pilates",
+      "steps": [
+        "Quỳ thẳng đối diện dây, hai tay hơi ra trước và nâng lên.",
+        "Bắt đầu chuyển động từ bả vai, đưa tay vào trong và xuống dưới.",
+        "Tạo hình giọt nước nhỏ, giữ cổ thả lỏng.",
+        "Trở về mượt, giữ lực căng liên tục."
+      ],
+      "exercise_id": "0300fcae-d26f-40be-bc5f-2af4a62e9274"
+    },
+    {
+      "index": 221,
+      "sourceName": "Reverse Expansion Teardrops Outward Kneeling",
+      "name": "Quỳ kéo tay hình giọt nước ra ngoài trong Pilates",
+      "steps": [
+        "Quỳ thẳng đối diện dây, hai tay ra trước và hơi nâng.",
+        "Kéo tay ra ngoài và xuống dưới theo hình giọt nước có kiểm soát.",
+        "Tập trung siết lưng trên, giữ xương sườn ngay trên chậu.",
+        "Trở về có kiểm soát, giữ nhịp thở đều."
+      ],
+      "exercise_id": "2888e096-8ec5-4ac9-9cc4-883d41e5b8be"
+    },
+    {
+      "index": 222,
+      "sourceName": "Running Lying On The Back",
+      "name": "Nằm ngửa đạp chân luân phiên trong Pilates",
+      "steps": [
+        "Nằm ngửa, bàn chân trên thanh và hai chân duỗi hoàn toàn.",
+        "Luân phiên hạ một gót trong khi gót kia vẫn nâng.",
+        "Đổi nhịp nhàng, giữ chậu ổn định và thân trên yên.",
+        "Tiếp tục luân phiên, chú trọng độ linh hoạt và khả năng kiểm soát cổ chân."
+      ],
+      "exercise_id": "63b5f199-438f-45e7-aca9-f10b6c5dbd09"
+    },
+    {
+      "index": 224,
+      "sourceName": "Side Twist Kneeling",
+      "name": "Quỳ nghiêng xoay người trong Pilates",
+      "steps": [
+        "Quỳ thẳng theo hướng ngang, hai tay giữ dây và duỗi ra trước.",
+        "Siết cơ trung tâm, xoay thân ra xa điểm neo.",
+        "Giữ hông ngay ngắn và hai vai thẳng hàng theo chiều dọc."
+      ],
+      "exercise_id": "6905bf34-ad19-4213-b369-94cd2a7f3526"
+    },
+    {
+      "index": 226,
+      "sourceName": "Single Leg One Leg Bent",
+      "name": "Tư thế một chân co gối trong Pilates",
+      "steps": [
+        "Nằm ngửa, một bàn chân đặt vững, chân đối diện ở tư thế cái bàn.",
+        "Siết cơ trung tâm và giữ chậu trung tính."
+      ],
+      "exercise_id": "3c0ad98a-002c-43d3-8a37-7e1508c700d7"
+    },
+    {
+      "index": 227,
+      "sourceName": "Star Prep",
+      "name": "Chuẩn bị tư thế ngôi sao trong Pilates",
+      "steps": [
+        "Quỳ theo hướng ngang, một tay trên thanh và hai bàn chân so le.",
+        "Đẩy đầu gối ra ngoài, nâng tay còn lại đến ngang vai."
+      ],
+      "exercise_id": "e2844082-032f-442a-9e55-68aded579840"
+    },
+    {
+      "index": 228,
+      "sourceName": "Abdominals Stretch Variation One",
+      "name": "Giãn cơ bụng biến thể một",
+      "steps": [
+        "Nằm sấp trên sàn với cẳng tay đặt phẳng trên sàn.",
+        "Duỗi khuỷu tay và đẩy thân trên lên.",
+        "Đẩy thân trên lên đến khi cảm thấy giãn cơ bụng, rồi trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "d1ae559d-adf1-4e52-b18e-044ecde9dd34"
+    },
+    {
+      "index": 230,
+      "sourceName": "Abdominals Stretch Variation Two",
+      "name": "Giãn cơ bụng biến thể hai",
+      "steps": [
+        "Đứng thẳng.",
+        "Vươn hai tay lên đến khi có thể đan các ngón tay.",
+        "Giữ hai tay trên đầu, ngả ra sau đến khi cảm thấy giãn cơ bụng."
+      ],
+      "exercise_id": "6a65cf84-1652-4ba5-86b0-ca4f559e4af1"
+    },
+    {
+      "index": 231,
+      "sourceName": "Alternating Pole Rotation",
+      "name": "Xoay gậy luân phiên",
+      "steps": [
+        "Bắt đầu giữ gậy phía trước bằng tay nắm sấp rộng hơn vai.",
+        "Xoay một tay qua đầu và ra sau, giữ tay kia phía trước.",
+        "Sau đó xoay tay kia.",
+        "Đưa tay đầu tiên về vị trí ban đầu, rồi đến tay kia. Lặp lại."
+      ],
+      "exercise_id": "33384b51-354d-4a81-9ad7-275a0d1b4e98"
+    },
+    {
+      "index": 232,
+      "sourceName": "Biceps Stretch Variation Five",
+      "name": "Giãn cơ tay trước biến thể năm",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai.",
+        "Nâng hai tay sang hai bên đến ngang vai.",
+        "Xoay lòng bàn tay hướng lên trần.",
+        "Sau đó đổi hướng và xoay tay hết mức có thể."
+      ],
+      "exercise_id": "1671bfe0-4748-4afa-a0c5-4fd6b1e8abd4"
+    },
+    {
+      "index": 233,
+      "sourceName": "Biceps Stretch Variation Four",
+      "name": "Giãn cơ tay trước biến thể bốn",
+      "steps": [
+        "Đứng cách tường một tầm tay.",
+        "Đưa tay ra sau, đặt lên tường với ngón tay hướng lên.",
+        "Co gối trong khi giữ tay ở nguyên vị trí."
+      ],
+      "exercise_id": "f821467b-22b5-4b76-aa77-a4ef32b4f974"
+    },
+    {
+      "index": 234,
+      "sourceName": "Biceps Stretch Variation One",
+      "name": "Giãn cơ tay trước biến thể một",
+      "steps": [
+        "Đứng chân trước chân sau, tường ở bên phải và cách một tầm tay.",
+        "Đặt tay lên tường, các ngón hướng ra xa người.",
+        "Nhẹ nhàng nghiêng người về trước, giữ bàn tay cố định.",
+        "Lặp lại với tay kia."
+      ],
+      "exercise_id": "0a67e9fa-96f5-415b-8564-9aa0476a8b33"
+    },
+    {
+      "index": 235,
+      "sourceName": "Biceps Stretch Variation Three",
+      "name": "Giãn cơ tay trước biến thể ba",
+      "steps": [
+        "Co khuỷu tay, nâng bàn tay về vai.",
+        "Dùng tay kia kéo giãn tay xuống đến khi duỗi hết."
+      ],
+      "exercise_id": "9f12e78b-c349-4380-a0d3-9daefbfbbf52"
+    },
+    {
+      "index": 236,
+      "sourceName": "Biceps Stretch Variation Two",
+      "name": "Giãn cơ tay trước biến thể hai",
+      "steps": [
+        "Đứng đối diện tường, cách một tầm tay.",
+        "Đặt tay lên tường với các ngón hướng xuống.",
+        "Hơi nghiêng người vào tường để cảm nhận giãn cơ tay trước."
+      ],
+      "exercise_id": "0ca2b286-ae06-4871-8b12-1405e8cd129e"
+    },
+    {
+      "index": 237,
+      "sourceName": "Calves Stretch Variation One",
+      "name": "Giãn cơ bắp chân biến thể một",
+      "steps": [
+        "Đặt phần đệm trước bàn chân tựa vào tường, gót trên sàn. Đặt tay lên tường phía trước vai.",
+        "Giữ đầu gối thẳng, từ từ nghiêng vào tường và dừng vài giây khi cảm thấy giãn dọc cơ bắp chân.",
+        "Trở về vị trí ban đầu rồi lặp lại với chân kia."
+      ],
+      "exercise_id": "f82830bd-e5de-48bf-b960-2698418d0003"
+    },
+    {
+      "index": 238,
+      "sourceName": "Calves Stretch Variation Three",
+      "name": "Giãn cơ bắp chân biến thể ba",
+      "steps": [
+        "Giữ thăng bằng bằng phần đệm trước bàn chân trên bục, nghiêng về trước và dùng tường hỗ trợ. Siết bắp chân để bàn chân nằm ngang trước khi bắt đầu giãn.",
+        "Hạ gót về sàn và dừng, rồi đẩy qua phần đệm trước bàn chân như nhón chân, dừng ở điểm cuối của động tác giãn.",
+        "Lặp lại theo nhu cầu."
+      ],
+      "exercise_id": "df8ececf-9684-46d5-9872-9e83b7658cfc"
+    },
+    {
+      "index": 239,
+      "sourceName": "Calves Stretch Variation Two",
+      "name": "Giãn cơ bắp chân biến thể hai",
+      "steps": [
+        "Đặt cả hai bàn chân phẳng trên sàn, một chân phía trước vai, chân kia ở vị trí tương ứng phía sau vai còn lại. Khi bắt đầu, cả hai đầu gối đều thẳng.",
+        "Đặt lòng bàn tay lên tường ngang vai phía trước, nghiêng vào tường và co gối trước, giữ chân sau thẳng.",
+        "Dừng ở điểm giãn sâu nhất rồi trở về vị trí ban đầu. Đổi vị trí hai chân và lặp lại."
+      ],
+      "exercise_id": "3f78f038-2d1d-4c37-b94e-7fff16d97347"
+    },
+    {
+      "index": 240,
+      "sourceName": "Chest Stretch Variation Four",
+      "name": "Giãn cơ ngực biến thể bốn",
+      "steps": [
+        "Nâng hai tay ngang vai, duỗi hoàn toàn ra trước.",
+        "Từ từ đưa tay ra sau lưng, vẫn giữ ngang vai.",
+        "Dừng vài giây rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "4858387f-1ce5-46d6-b925-a88674f6e096"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 195,
+      "sourceName": "Front Rowing Preps Straight Forward Seated",
+      "reason": "Source starts with elbows already extended and hands close to ribs, then extends arms forward. Verify initial elbow angle and hand location.",
+      "exercise_id": "b35700e9-f0e0-44cd-93d8-70ed4892ad2a"
+    },
+    {
+      "index": 196,
+      "sourceName": "Hip Lift",
+      "reason": "Source keeps hips off carriage and feet flat without identifying foot support, then maintains hip position while pressing. Verify footbar versus carriage support and press direction.",
+      "exercise_id": "443b5ff2-5934-44f8-a10e-685bf0a7d708"
+    },
+    {
+      "index": 197,
+      "sourceName": "Hip Rolls",
+      "reason": "After bridge and leg press source lowers back to start, then begins spinal roll-down again. Verify carriage return versus spinal lowering sequence.",
+      "exercise_id": "06144a01-a685-456d-a1be-ebbb1f1c9192"
+    },
+    {
+      "index": 200,
+      "sourceName": "Long Arm Adduction Side Kneeling",
+      "reason": "Hand-under-shoulder support and vertically stacked shoulders conflict with keeping torso upright. Verify the intended side-supported versus upright kneeling position.",
+      "exercise_id": "0d186026-7797-4ab8-93b1-25b162d38f23"
+    },
+    {
+      "index": 223,
+      "sourceName": "Side Splits Skating",
+      "reason": "Starts hinged forward but returns while maintaining upright posture, without explaining the posture change. Verify trunk angle for the skating variant.",
+      "exercise_id": "fdce9075-8080-41e9-9943-8cb4b4a8be70"
+    },
+    {
+      "index": 225,
+      "sourceName": "Single Leg Bicycle",
+      "reason": "Source alternates a pressing leg and raised/non-working leg without establishing foot support or consistent loading roles. Verify support surface and leg sequence.",
+      "exercise_id": "1018382d-bfe2-4f78-8b98-dc0e97c09d51"
+    },
+    {
+      "index": 229,
+      "sourceName": "Abdominals Stretch Variation Three",
+      "reason": "Instruction switches sides after left-arm reps before the left-arm movement is introduced in the next step. Verify step order rather than reorder source during translation.",
+      "exercise_id": "79009697-d870-4b1e-956b-c5a09b9a99c3"
+    }
+  ]
+}

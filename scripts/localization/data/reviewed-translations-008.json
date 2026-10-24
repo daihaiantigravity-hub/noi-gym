@@ -1,0 +1,1405 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared each complete source block with the Vietnamese translation, retaining grip, cable height, movement plane, one-arm or alternating variants, and the stated 45-degree angle. Unclear source wording is held instead of silently repaired.",
+  "sourceExceptions": [
+    {
+      "index": 259,
+      "sourceName": "Cable Quadruped Hip Abduction",
+      "reason": "The end-position instruction says the cables touch back down, without identifying whether it means the stack or a body part; verify before translating.",
+      "exercise_id": "bda7dc7d-68fa-492d-afea-8cbe8bca7d23"
+    },
+    {
+      "index": 306,
+      "sourceName": "Cable Standing Hip Adduction",
+      "reason": "The instruction combines keeping feet together with moving both legs outward during a standing adduction exercise; verify stance and working leg.",
+      "exercise_id": "e702fe77-adf6-4cdb-9b92-037b0150abb3"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "4c27eb33-5a81-4fa3-becf-3c367c9a5016",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "641006a8b11e5d13f0873199765f0c09722c878e66b209d0a2111c8ad9507525",
+      "name": "Đẩy Pallof với cáp",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm, đặt cáp ngang núm vú, bước ra xa vài bước và hướng người sang bên so với máy.",
+        "Bắt đầu với hai tay nắm tay cầm, hai nắm tay áp vào ngực.",
+        "Đẩy tay cầm về trước đến khi khuỷu tay duỗi hoàn toàn, sau đó kéo tay cầm về ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pallof Press",
+        "description": "",
+        "steps": [
+          "Use a handle attachment, set the cable at nipple level, walk a few steps away, and face sideways.",
+          "Start with both hands on the handle and your fists against your chest.",
+          "Press the handle forward until your elbows are fully extended, then pull the handle back to your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3a72d3f9-2dbe-4cd2-8e2d-dac248d07ed8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fe0cf4bb67ea4cd858bb263328af0ab2db7d65eb0c1e33f6d1ad42ebe289dc8c",
+      "name": "Đẩy Pallof với cáp kết hợp xoay người",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm, đặt cáp ngang núm vú, bước ra xa vài bước và hướng người sang bên so với máy.",
+        "Bắt đầu với hai tay nắm tay cầm, hai nắm tay áp vào ngực.",
+        "Đẩy tay cầm về trước đến khi khuỷu tay duỗi hoàn toàn, sau đó xoay người ra xa khối tạ của máy cáp.",
+        "Sau đó kéo tay cầm về ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pallof Press Rotation",
+        "description": "",
+        "steps": [
+          "Use a handle attachment, set the cable at nipple level, walk a few steps away, and face sideways.",
+          "Start with both hands on the handle and your fists against your chest.",
+          "Press the handle forward until your elbows are fully extended, then rotate away from the cable stack.",
+          "Then pull the handle back to your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9fb9624c-2c5c-492c-add7-5c359833aa23",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b0f79905713901632adaca2e011e0a78fb448bc54197d519d834d36bee6a9faa",
+      "name": "Ép ngực với cáp",
+      "description": "",
+      "steps": [
+        "Đặt chốt điều chỉnh cáp ngang vai hoặc hơi cao hơn.",
+        "Đưa cả hai tay cầm về ngực và đứng ở chính giữa máy cáp chéo.",
+        "Bước lên trước vài bước rồi đẩy tạ về trước. Từ đó, dạng và khép vai theo phương ngang, giữ khuỷu tay ở góc cố định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pec Fly",
+        "description": "",
+        "steps": [
+          "Set the cable pin at shoulder height or just above.",
+          "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+          "Walk a few steps forward. Then press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "40802a93-8697-43c1-b01c-7fcc37b37b45",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "083a56e8f966040dc505c07d617aff6884e4a0a24a2aa57f532194777a59ab7f",
+      "name": "Kéo cáp vòng qua người",
+      "description": "",
+      "steps": [
+        "Đặt chốt điều chỉnh cáp ở vị trí cao nhất hoặc gần cao nhất của máy.",
+        "Hướng người sang bên so với máy và quỳ một gối.",
+        "Nắm tay cầm, vươn tay chéo qua người rồi bắt đầu kéo.",
+        "Khi kéo, hình dung đang đưa khuỷu tay vào túi quần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pull Around",
+        "description": "",
+        "steps": [
+          "Place cable pin all the way at the top or nearly at the top of the cable stack.",
+          "Face sideways and take a half kneeling position.",
+          "Grab the handle and reach across the body, begin the pull.",
+          "As you pull, imagine you are trying to put your elbow into your pocket."
+        ]
+      }
+    },
+    {
+      "exercise_id": "664e018d-74ca-4562-90f7-0f9ac3b5e64c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ac752148b2ff78b6432ada884edab20d5c965608feddc37e2233cf9851bf1a5b",
+      "name": "Kéo cáp vào người",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm, đặt ở vị trí cao nhất của máy cáp chéo.",
+        "Bước ra xa máy cáp vài bước. Hướng người sang bên so với máy.",
+        "Hướng lòng bàn tay lên trần. Sau đó kéo khuỷu tay về phía lồng ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pull In",
+        "description": "",
+        "steps": [
+          "Use a handle attachment set all the way to the top of the cable crossover machine.",
+          "Walk a few steps away from the cable machine. Face your body sideways.",
+          "Face your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7fa907af-9da6-4ce3-bae4-fd6f3f25dc8c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "aef22b618abeea23423914ebba2e747dc8506c12ae3a88135cf162e8a524a3ac",
+      "name": "Kéo cáp qua hai chân",
+      "description": "",
+      "steps": [
+        "Bài tập phù hợp nhất với dây thừng nhưng có thể dùng phụ kiện khác. Gắn phụ kiện ở vị trí thấp nhất của máy.",
+        "Đứng quay lưng về phía máy cáp, để cáp đi giữa hai chân và nắm phụ kiện. Bước ra xa vài bước.",
+        "Gập hông, giữ lưng phẳng và đầu gối gần như duỗi thẳng.",
+        "Đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Pull Through",
+        "description": "",
+        "steps": [
+          "This exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine.",
+          "Face away from the cable machine, straddle the cable itself, and grab the attachment. Walk a few steps away.",
+          "Break at the hips while maintaining a flat back and mostly extended knees.",
+          "Push hips forward until you are back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "97dab347-574d-40e9-a5cf-d0d0a030cbb5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1d17b484360be7a3471ae13b6d90799444e2f024a8cd8cfdfd0c5a05ce62272c",
+      "name": "Đẩy và kéo cáp đồng thời",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp, giữ một tay cầm gần ngực và tay cầm còn lại ở phía trước.",
+        "Đẩy một tay về trước đồng thời kéo khuỷu tay đối diện về sau.",
+        "Đảo ngược chuyển động có kiểm soát, sau đó đổi thế đứng và đổi tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Push Pull",
+        "description": "",
+        "steps": [
+          "Stand between cables, holding one handle near your chest and one forward.",
+          "Press one arm forward while pulling the opposite elbow backward.",
+          "Reverse the movement under control, then switch your stance and arms."
+        ]
+      }
+    },
+    {
+      "exercise_id": "52de71a1-4938-4bc2-90cc-b286c611e0c7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9de4a4e7557400af6bcdff70026615269d31041e492f83e82ff1b7b894c80b92",
+      "name": "Kéo dây thừng cáp về mặt",
+      "description": "",
+      "steps": [
+        "Đứng hướng về ròng rọc, kéo tạ về phía người, giữ hai tay song song với mặt đất.",
+        "Kéo hai tay về hai bên đầu và giữ tư thế.",
+        "Từ từ đưa tạ về vị trí ban đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Face Pulls",
+        "description": "",
+        "steps": [
+          "Facing the pulley, pull the weight towards you while keeping your arms parallel to the ground.",
+          "Pull your hands back to both sides of your head and hold the position.",
+          "Slowly return weight to starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "41b6d185-4914-4329-bab3-06377da781c8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "740052bf627e1231eae323a37a1586f575690dec813674b70dde29c44baa4f54",
+      "name": "Nâng dây thừng cáp ra trước",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía cáp. Dùng dây thừng gắn cáp.",
+        "Giữ khuỷu tay duỗi, nâng hai nắm tay thẳng lên về phía trần đến ngang mắt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Front Raise",
+        "description": "",
+        "steps": [
+          "Face away from the cables. Use a rope attachment.",
+          "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e129c678-7c75-425f-b43c-5c370447c33b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "470e4ea4b843919f87792d6fcaff992ab68fdb25cde13737ce21ecca3829ac50",
+      "name": "Quỳ gập bụng với dây thừng cáp",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng và đặt cáp ở vị trí cao nhất.",
+        "Bước lên trước vài bước rồi hạ người xuống quỳ.",
+        "Đẩy hông về sau và co cơ bụng, sau đó đẩy hông về trước để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Kneeling Crunch",
+        "description": "",
+        "steps": [
+          "Use a rope attachment and set the cable all the way to the top.",
+          "Walk a few steps forward then fall into a kneeling position.",
+          "Push your hips back and flex your abs, then push hips forward until in the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f2efca70-6ebd-4c08-99e0-637b090a65e8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9ad0d5571fd48138bfbc5a3a3aeb10836a8de04a2d9ba29d7770426637df5015",
+      "name": "Quỳ kéo dây thừng cáp về mặt",
+      "description": "",
+      "steps": [
+        "Bắt đầu với cáp ở vị trí cao nhất. Dùng dây thừng và quỳ một gối.",
+        "Kéo phần kim loại ở giữa dây thừng về phía sống mũi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Kneeling Face Pull",
+        "description": "",
+        "steps": [
+          "Start with the cables at the top. Use a rope attachment. Fall to a half kneeling position.",
+          "Pull the metal piece in the middle of the rope to the bridge of your nose."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1057a5b-7fa9-4fb2-8972-d109339f91e8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "18814ca39ff969b92f704589d9eff05ca62b0cfab4ee22fe8ef92c033249ce35",
+      "name": "Kéo dây thừng cáp tập xô kiểu cầu nguyện",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng. Đặt cáp ở vị trí cao nhất của máy.",
+        "Nắm phụ kiện và lùi vài bước. Đẩy mông về sau để nghiêng người về trước. Hai tai ở giữa hai cánh tay.",
+        "Bắt đầu chuyển động từ vai, không phải khuỷu tay. Khi gập khớp vai, đẩy hông về trước đến khi hông chạm phụ kiện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Lat Prayer",
+        "description": "",
+        "steps": [
+          "Use a rope attachment. Cable should be set all the way to the top of the machine.",
+          "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ears should be between your arms.",
+          "Initiate the movement with your shoulders and not your elbows. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
+        ]
+      }
+    },
+    {
+      "exercise_id": "37aaf3b5-2bff-47ae-a430-2ecb4ca0d3be",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c66afb54641240415c9f01de5069d2a8cd0aa8305d9147feab094b4c297011a2",
+      "name": "Duỗi tay sau qua đầu với dây thừng cáp",
+      "description": "",
+      "steps": [
+        "Có thể dùng bất kỳ phụ kiện gắn cáp nào. Đặt cáp ở vị trí thấp nhất của máy. Đứng quay lưng về phía máy.",
+        "Hướng khuỷu tay thẳng lên trần.",
+        "Từ đó, duỗi khuỷu tay đến khi hai nắm tay hướng thẳng lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "You can use any attachment. The cable should be all the way to the bottom of the machine. Face away from the machine.",
+          "Point your elbows straight up toward the ceiling.",
+          "From there, extend your elbows until your fists are pointed straight toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3a6f11bd-da81-4bce-ae5c-338fbe33239d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "72f4f6ac2c4ff0a532bd5de1ebe44edd35dd37e15bb749d1086b0927d35e88f5",
+      "name": "Kéo dây thừng cáp qua đầu",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng. Đặt cáp ở vị trí cao nhất của máy.",
+        "Nắm phụ kiện và lùi vài bước. Đẩy mông về sau để thân người hơi nghiêng về trước.",
+        "Bắt đầu chuyển động từ vai, không phải khuỷu tay. Hình dung đang kéo phụ kiện xuyên qua đùi ở cuối động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Pullover",
+        "description": "",
+        "steps": [
+          "Use a rope attachment. Cable should be set all the way to the top of the machine.",
+          "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.",
+          "Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d8acfe32-9fbb-4847-8a85-8c7c46771f8e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4e4d01610225c9190df969822eb7b7f6cd8a41b62f7258df95b9569cb147ed8b",
+      "name": "Đẩy dây thừng cáp xuống tập tay sau",
+      "description": "",
+      "steps": [
+        "Đặt cáp ở vị trí cao nhất của máy.",
+        "Giữ bắp tay sát bên thân. Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Pushdown",
+        "description": "",
+        "steps": [
+          "The cable should be set all the way at the top of the machine.",
+          "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5f3ef772-bb6f-403e-8399-07b4ced14312",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "90452850f644c0bb8f209d55c8102fd6e517ba90a60dca070223e2ecd9293b68",
+      "name": "Nâng một tay sang ngang với dây thừng cáp đặt thấp",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng và đặt cáp ở vị trí thấp nhất của máy.",
+        "Dạng vai theo phương đứng để nâng tay thẳng sang bên.",
+        "Nâng đến khi tay song song với mặt đất rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Single Arm Low Lateral Raise",
+        "description": "",
+        "steps": [
+          "Use a rope attachment with the cable set all the way to the bottom of the machine.",
+          "You should vertically abduct at the shoulder raising your arms straight out to the side.",
+          "Raise until your arms are parallel with the ground and then back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7653cf3b-4940-4fdb-b4a6-053525f08e0d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0ca2670862853cde8605dc88c530f1d6b4f66ab53884e5bf4e8aa3ffeb0b0a5c",
+      "name": "Duỗi tay sau kiểu skullcrusher với dây thừng cáp",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng. Đặt cáp ở vị trí cao nhất của máy.",
+        "Đứng quay lưng về phía máy, khuỷu tay nâng cao và phụ kiện ngay sau đầu.",
+        "Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại, sau đó gập khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Rope Skullcrusher",
+        "description": "",
+        "steps": [
+          "Use a rope attachment. The cable should be set all the way to the top of the machine.",
+          "Face away from the machine with your elbows up and the attachment just behind your head.",
+          "Extend at the elbows until you feel a contraction in your triceps and then flex at the elbow back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "56b544e2-b90d-4a3b-be54-218e27911053",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "208f3ef7b530c53d4e999441f9ed9fb0f680e76f2101a7f8e45a912384727fef",
+      "name": "Đứng kéo cáp với thanh kéo lưng",
+      "description": "",
+      "steps": [
+        "Đặt cáp ngang vai. Dùng thanh kéo lưng.",
+        "Dùng tay kéo các tay cầm về sau. Ưỡn ngực ra.",
+        "Kéo các tay cầm về phía người đến khi hai bàn tay ở cạnh bụng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Row Bar Standing Row",
+        "description": "",
+        "steps": [
+          "Place the cable at shoulder height. Use a row bar.",
+          "Pull the handles back using your arms. Push out your chest.",
+          "Pull the handles towards your body until your hands are beside your abdomen."
+        ]
+      }
+    },
+    {
+      "exercise_id": "15f6831b-7026-4102-b6f1-bc8881739cee",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "118bfa6d39b92cfb4f47e91d0d934730ebf3614eafeca04173e761697064a2e9",
+      "name": "Ngồi cuốn tay trước luân phiên với cáp đặt cao",
+      "description": "",
+      "steps": [
+        "Ngồi giữa hai cáp đặt cao, hai tay duỗi sang hai bên, lòng bàn tay hướng lên.",
+        "Cuốn một tay cầm về phía đầu, giữ yên bắp tay.",
+        "Từ từ duỗi khuỷu tay rồi lặp lại với tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Alternating High Curl",
+        "description": "",
+        "steps": [
+          "Sit between high cables with your arms extended outward and palms upward.",
+          "Curl one handle toward your head while keeping your upper arm stationary.",
+          "Slowly extend your elbow, then repeat with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a53e3f84-7e26-4a7d-b4aa-4ff6d63afaee",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cd255c2156d7fabfb3592cb48264d7586024abcf81e948f178470b0438c4137d",
+      "name": "Ngồi kéo thanh cáp về mặt",
+      "description": "",
+      "steps": [
+        "Ngồi hướng về máy cáp, nắm sấp thanh với khoảng cách hai tay rộng bằng vai.",
+        "Kéo thanh về phần trên của mặt, đồng thời đưa khuỷu tay ra ngoài và về sau.",
+        "Siết cơ vai sau ở cuối động tác, sau đó từ từ đưa thanh trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Bar Face Pull",
+        "description": "",
+        "steps": [
+          "Sit facing cable machine and grasp bar with shoulder-width overhand grip.",
+          "Pull bar toward upper face while driving elbows outward and back.",
+          "Squeeze rear delts at the end, then return bar slowly with control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6bdb01ba-d628-4528-93ee-95de86ac32c7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cdc40626b44a277bbc6e2834e2bb72a71bbcf9ea09f8ae2d6b9141d72f2b8c54",
+      "name": "Ngồi cuốn hai tay trước với cáp đặt cao",
+      "description": "",
+      "steps": [
+        "Ngồi giữa hai cáp đặt cao, hai tay duỗi sang hai bên, lòng bàn tay hướng lên.",
+        "Cuốn cả hai tay cầm về phía đầu, giữ yên bắp tay.",
+        "Siết cơ tay trước rồi từ từ duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Bilateral High Curl",
+        "description": "",
+        "steps": [
+          "Sit between high cables with arms extended outward and palms facing upward.",
+          "Curl both handles toward your head while keeping your upper arms stationary.",
+          "Squeeze your biceps, then slowly straighten your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "33366949-1247-4470-b5ae-de95c691df78",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "60a09a120d72421dad20110b6ab8eb55f8b679a89758f0bcd3f4ac153f12c73d",
+      "name": "Ngồi gập gối tập đùi sau với cáp",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp ngang đầu khi ngồi. Dùng đai cổ chân.",
+        "Ngồi trên ghế.",
+        "Gập gối và kéo cổ chân thẳng về sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Leg Curl",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cable stack, put the cable at head height (when seated). Use an ankle attachment.",
+          "Sit on the bench.",
+          "Flex at the knee and pull your ankle straight back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "35b8e39b-7482-41ae-8fdc-0907a89518fe",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a30a4c6340fb5c809e5beecddcd511b8b93e04a8542aa40201639147d148cb74",
+      "name": "Ngồi duỗi gối tập đùi trước với cáp",
+      "description": "",
+      "steps": [
+        "Dùng đai cổ chân hoặc cổ tay. Luồn cáp dưới ghế và gắn vào cổ chân.",
+        "Duỗi gối ngược với lực cản của cáp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Leg Extension",
+        "description": "",
+        "steps": [
+          "Use an ankle/wrist attachment. Pull the cable under the bench and attach it at your ankle.",
+          "Extend at the knee against the cable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6fb09186-4651-4c47-a754-d5ab288b4d74",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "016172f6a8f1b4a197138f66a3b4c977ea8a08ea81b9ae806030a9eaf0d343f3",
+      "name": "Ngồi kéo dây thừng cáp về mặt",
+      "description": "",
+      "steps": [
+        "Ngồi hướng về cáp, giữ dây thừng với lòng bàn tay hướng vào nhau, hai tay duỗi.",
+        "Kéo dây thừng về phần trên của mặt, đồng thời đưa khuỷu tay ra ngoài.",
+        "Siết cơ vai sau và phần giữa cơ thang, sau đó từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Rope Face Pull",
+        "description": "",
+        "steps": [
+          "Sit facing cable and hold rope with palms facing each other, arms extended.",
+          "Pull rope toward upper face while flaring elbows outward.",
+          "Squeeze rear delts and mid-traps, then slowly return to start."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fe83a196-28d6-4ca9-a912-d29e0ad6a957",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d81da116a45dd54b4ba3c3380153995b1ea7052a173fd1fcc11f28935238582d",
+      "name": "Ngồi kéo cáp về mặt một tay",
+      "description": "",
+      "steps": [
+        "Ngồi hướng về cáp, nắm tay cầm với tay duỗi ngang vai.",
+        "Kéo tay cầm về phần trên của mặt, đồng thời đưa khuỷu tay ra ngoài và về sau.",
+        "Siết cơ vai sau, sau đó từ từ trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Seated Single Arm Face Pull",
+        "description": "",
+        "steps": [
+          "Sit facing cable and hold handle with arm extended at shoulder height.",
+          "Pull handle toward upper face while driving elbow outward and back.",
+          "Squeeze rear delt, then return slowly, maintaining control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c6872f0c-b31b-43f8-947b-5b06dc90f12f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e0242c589121242e82e6e3a2c7c9b0d26cfd08770ceac47cbdbc587b1c95c4b6",
+      "name": "Đẩy cáp chéo xuống tập tay sau một tay",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm hoặc nắm cáp trực tiếp. Đặt cáp chéo ở vị trí cao nhất.",
+        "Đứng giữa máy, dùng tay đối diện nắm cáp. Bắp tay tạo góc 45 độ với thân.",
+        "Duỗi khuỷu tay đến khi cảm nhận cơ co lại, sau đó trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Cross Pushdown",
+        "description": "",
+        "steps": [
+          "Either use a handle or no attachment at all. The cable crossover should be set to the top.",
+          "Stand in the center of the machine holding the cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.",
+          "Extend your elbow until you feel a contraction and then return to the starting position"
+        ]
+      }
+    },
+    {
+      "exercise_id": "5e0eb4ab-51b2-404e-ba43-8169724165e9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "81b1435426669c68b75d07f70394c48964ee2a0878d587f44f0ea72c16b9b863",
+      "name": "Đứng kéo cáp về mặt một tay",
+      "description": "",
+      "steps": [
+        "Đứng hướng về cáp, nắm tay cầm ngang vai với tay duỗi.",
+        "Kéo tay cầm về phần trên của mặt, đồng thời đưa khuỷu tay ra ngoài và về sau.",
+        "Siết cơ vai sau ở cuối động tác, sau đó từ từ trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Face Pull",
+        "description": "",
+        "steps": [
+          "Stand facing cable and hold handle at shoulder height with arm extended.",
+          "Pull handle toward upper face while driving elbow outward and back.",
+          "Squeeze rear delt at the end, then return slowly with control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e2b73eb3-bdf0-4ecb-888f-377253b0ec72",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7fff0694b373ba290a4872624ba155f71af1a897e9ce525ecf7d6e7cc94ab4e4",
+      "name": "Ép ngực một tay với cáp theo hướng lên trên ghế",
+      "description": "",
+      "steps": [
+        "Đặt điểm neo cáp thấp hơn vai.",
+        "Ngồi trên ghế, giữ khuỷu tay gần như duỗi thẳng.",
+        "Đưa tay chéo qua ngực và siết cơ ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Incline Chest Fly",
+        "description": "",
+        "steps": [
+          "Place the cable anchor at a lower level than your shoulders.",
+          "Sit on the bench, leave your elbows mostly extended.",
+          "Bring your arm across your chest and flex your pec."
+        ]
+      }
+    },
+    {
+      "exercise_id": "90bb6539-5c75-4576-90db-2354ea72c06e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ef3b5cfa9a111dca3f148e181e696bdfff056dbe5587c841471de4cf3c90e1e7",
+      "name": "Dang một tay ngược với cáp đặt cao, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm hoặc nắm cáp trực tiếp. Đặt cáp ở vị trí cao nhất.",
+        "Bước ra xa vài bước để cáp đi từ phía đối diện với tay đang tập. Xoay vai vào trong.",
+        "Từ tư thế này, thực hiện động tác dạng và khép vai theo phương ngang, giữ khuỷu tay ở góc cố định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Internally Rotated High Reverse Fly",
+        "description": "",
+        "steps": [
+          "Use a handle attachment or no attachment at all. The cable should be set to the top.",
+          "Walk a few steps away with the cable coming from the opposing side of the working arms. Internally rotate the shoulders.",
+          "From there, your shoulder should horizontally abduct and adduct, while your elbows stay in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9bdad665-429a-4cdc-8dbb-6e438db1cb6f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "23c78bc4e57037159a83b287b279b403c2830f9184a9c2db9aa4737684cc6480",
+      "name": "Kéo cáp một tay tập xô kiểu cầu nguyện",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ở vị trí cao nhất của máy.",
+        "Nắm phụ kiện và lùi vài bước. Đẩy mông về sau để nghiêng người về trước. Tai ngang với cánh tay.",
+        "Bắt đầu chuyển động từ vai, không phải khuỷu tay. Khi gập khớp vai, đẩy hông về trước đến khi hông chạm phụ kiện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Lat Prayer",
+        "description": "",
+        "steps": [
+          "Use handle attachment. Cable should be set all the way to the top of the machine.",
+          "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ear should be even with your arms.",
+          "Initiate the movement with your shoulder and not your elbow. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7bbd3147-b1d5-42ec-bece-3ae1dadccd6d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "882fbdaf310e87c75196461811e9a303505b63eb11ebc21baaf43660ef443935",
+      "name": "Kéo cáp một tay với tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Đặt cáp ngang vai. Dùng tay cầm, hướng lòng bàn tay về đường giữa cơ thể.",
+        "Dùng tay kéo tay cầm về sau. Ưỡn ngực ra.",
+        "Kéo tay cầm về phía người đến khi bàn tay ở cạnh bụng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Neutral Grip Row",
+        "description": "",
+        "steps": [
+          "Place the cable at shoulder height. Use a handle attachment. Face your palm toward the midline of your body.",
+          "Pull the handle back using your arms. Push out your chest.",
+          "Pull the handle towards your body until your hands are beside your abdomen."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eadd7afb-4091-438b-ad0d-991332350def",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a2b5b9129e69ae52722abf43194f69f0b15ef9ac08fe9ff74d96f079b13829eb",
+      "name": "Duỗi tay sau qua đầu một tay với cáp",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ngang giữa lưng. Đứng quay lưng về phía máy.",
+        "Hướng khuỷu tay thẳng lên trần.",
+        "Từ đó, duỗi khuỷu tay đến khi nắm tay hướng thẳng lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set to your mid-back. Face away from the machine.",
+          "Point your elbows straight up toward the ceiling.",
+          "From there, extend your elbows until your fists are pointed straight toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ac476ac5-5f84-48d4-a559-93ded99771aa",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "99bb7e67623112593810f55ef3c8f8c988d9e73d35be2039bd81e5891e403de4",
+      "name": "Đẩy cáp xuống tập tay sau một tay",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ở vị trí cao nhất của máy.",
+        "Giữ bắp tay sát bên thân. Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Pushdown",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way at the top of the machine.",
+          "Make sure to keep your upper arm glued at your side. Extend your elbow until you feel your tricep contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ff1757ba-6e4b-45e9-8127-0259b69642bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7478f57eef104dcae6cb14f7ddd659a3ad1fc2b1a8d8be3056de81fb8f0544c1",
+      "name": "Kéo cáp một tay tập vai sau",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm, nắm sấp và đứng sao cho cáp chạy chéo qua người.",
+        "Kéo khuỷu tay về sau, đồng thời đưa khuỷu tay ra ngoài."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Rear Delt Row",
+        "description": "",
+        "steps": [
+          "Use a handle attachment, grab with an overhand grip and take a position with the cable crossing your body.",
+          "Pull your elbows back while flaring your elbows outward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6ad753eb-229d-4a74-bb0c-b83ef39426c5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bdb6323d639eeccc22c0fcee244037685ff1f019888d431bdfb2c59cb363d02d",
+      "name": "Đẩy cáp xuống một tay kết hợp chuyển động vai",
+      "description": "",
+      "steps": [
+        "Đứng hướng về cáp, nắm tay cầm với lòng bàn tay úp, khuỷu tay co và vai gập.",
+        "Trước tiên duỗi vai như khi thực hiện động tác kéo qua đầu, sau đó duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Rolling Pushdown",
+        "description": "",
+        "steps": [
+          "Stand facing cable holding handle with palm down, elbow bent, and shoulder flexed.",
+          "First extend your shoulder (like performing a pullover), then extend the elbow."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ab7f2174-759f-4d21-9c40-7a256379e1dc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "71a1a7fe4af079093c8303be70a42e2bf8379f3b390e0fce4b1d5e7baf8fe62f",
+      "name": "Đẩy dây thừng cáp xuống tập tay sau một tay",
+      "description": "",
+      "steps": [
+        "Dùng dây thừng. Đặt cáp ở vị trí cao nhất của máy.",
+        "Giữ bắp tay sát bên thân. Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Rope Pushdown",
+        "description": "",
+        "steps": [
+          "Use the rope attachment. The cable should be set all the way at the top of the machine.",
+          "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a6cef9f7-b351-4267-8c0d-b456587240f7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "de53bdaeca003b9ac4f6a31a09140f8ad2b4891478d77e24d981d5ec91cc1da0",
+      "name": "Duỗi tay sau một tay kiểu skullcrusher với cáp",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía cáp, đặt cáp ở vị trí cao nhất của máy.",
+        "Giữ khuỷu tay hướng về trước, thực hiện duỗi và gập khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Skullcrusher",
+        "description": "",
+        "steps": [
+          "Stand facing away from the cable, which is at the top of the cable stack.",
+          "Keep your elbow pointed forward, and extend and flex your elbow."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ca413690-3066-4820-8937-58e7837af064",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a5901b476b5453eeb2f07e9fcf8cb58517a14fafe33900fedce7a586901dfa6",
+      "name": "Kéo cáp một tay với tay nắm ngửa",
+      "description": "",
+      "steps": [
+        "Đặt cáp ngang vai. Dùng tay cầm, hướng lòng bàn tay lên.",
+        "Dùng tay kéo tay cầm về sau. Ưỡn ngực ra.",
+        "Kéo tay cầm về phía người đến khi bàn tay ở cạnh bụng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Arm Underhand Grip Row",
+        "description": "",
+        "steps": [
+          "Place the cable at shoulder height. Use a handle attachment. Face your palm upward.",
+          "Pull the handle back using your arms. Push out your chest.",
+          "Pull the handle towards your body until your hands are beside your abdomen."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b6e5ec41-7e13-4d20-929e-24b2af52574c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b7ebd93f2d4fc794f1a1b2ff8b379bf46f1ad7bdb1217bef7f41ce5ff5921749",
+      "name": "Deadlift một chân với cáp",
+      "description": "",
+      "steps": [
+        "Bắt đầu với thanh thẳng hoặc thanh EZ gắn cáp. Dùng động tác squat để đứng lên cùng tạ rồi lùi vài bước.",
+        "Đẩy mông về sau để bắt đầu động tác, đồng thời nhấc một chân lên. Sau đó đẩy mông về trước đến khi đứng thẳng trở lại.",
+        "Hoàn thành số lần lặp được chỉ định rồi đổi sang chân đối diện.",
+        "Để tránh chấn thương, luôn giữ lưng phẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Leg Deadlift",
+        "description": "",
+        "steps": [
+          "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.",
+          "Push your butt back to initiate the movement while lifting one of your legs. Then push your butt forward until you're back in a standing position.",
+          "Compete your given amount of reps, then switch to opposite leg.",
+          "To protect yourself from injury, always maintain a flat back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e1d54f3b-3f11-4c0f-bf1a-b55c8be702ef",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9406573482ddd5a03eea14b60112bc920ed0bfeaf051e440a65f11d489c2d0dc",
+      "name": "Nằm gập gối một chân tập đùi sau với cáp",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp ở vị trí thấp nhất. Dùng đai cổ chân.",
+        "Nằm trên ghế.",
+        "Gập gối và kéo cổ chân thẳng về sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Single Leg Laying Leg Curl",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cable stack, put the cable all the way at the bottom. Use an ankle attachment.",
+          "Lay on the bench.",
+          "Flex at the knee and pull your ankle straight back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9cbe8a8f-1866-4e97-9b25-36ca94c52ae5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "58c78f25810b4dc262e89b4ef2b3afee55dd4d0254e1cb08394bb29e94650a13",
+      "name": "Split squat với cáp",
+      "description": "",
+      "steps": [
+        "Có thể dùng thanh thẳng hoặc thanh EZ cho bài tập này. Đặt cáp ở vị trí thấp nhất.",
+        "Nắm phụ kiện và lùi vài bước. Đứng một chân phía trước và một chân phía sau.",
+        "Gập gối và hông để bắt đầu split squat. Để đầu gối chân sau chạm sàn.",
+        "Đứng lên bằng động tác squat để trở về tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Split Squat",
+        "description": "",
+        "steps": [
+          "You can use a straight or EZ bar on this exercise. Cable should be set all to the bottom.",
+          "Grab the attachment and walk back a few steps. Take a split stance. One leg in front and one behind.",
+          "Break at the knees and hips to initiate the split squat. Make sure your back knee touches the floor.",
+          "Squat back up into a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6a8518c4-5f07-41c7-9818-0390d114d0ac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0106bc9c4f89e3567b7aebb4f744851c0df18bdcd0dabe3332039598d369d34e",
+      "name": "Đứng ép ngực với cáp luân phiên từng tay",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp, giữ các tay cầm phía trên ngực, lòng bàn tay hướng vào trong.",
+        "Hạ một tay ra ngoài với khuỷu tay hơi co, giữ tay đối diện duỗi.",
+        "Đưa tay về giữa rồi đổi bên, duy trì chuyển động có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand between cables, hold cable handles above chest, palms facing inward.",
+          "Lower one arm outward with slight elbow bend, keeping opposite arm extended.",
+          "Bring arm back to center, alternate sides while maintaining controlled movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "72434355-aaa1-4fa4-9106-f726df028118",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f1a93cba6b54ebea1896f7dce0523c7b1c8ba67cd58e8c03916f03e431a67727",
+      "name": "Đứng đẩy ngực với cáp luân phiên từng tay",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía cáp, giữ các tay cầm cạnh ngực.",
+        "Đẩy một tay cầm về trước đến khi tay duỗi hoàn toàn.",
+        "Trở lại có kiểm soát rồi đẩy bằng tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Chest Press",
+        "description": "",
+        "steps": [
+          "Stand facing away from the cables with handles beside your chest.",
+          "Press one handle forward until your arm is fully extended.",
+          "Return under control, then press with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0f6dd4dc-d371-41a3-91dc-a605d9ed3476",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "602e43aa6e3a6aabf21f3047dc6b58a0d6d0d2d53b59e24df79aea389207b284",
+      "name": "Đứng ép ngực với cáp luân phiên theo hướng xuống",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp đặt cao, hai tay duỗi sang hai bên.",
+        "Đưa một tay cầm theo đường vòng cung xuống dưới và chéo qua ngực, khuỷu tay hơi co.",
+        "Từ từ trở lại rồi lặp lại với tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Decline Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand between high cables with your arms extended outward.",
+          "Sweep one handle downward and across your chest with a slightly bent elbow.",
+          "Slowly return, then repeat with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1d7f4a9d-f3eb-4627-b10d-a8d662081cc5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "97fea9eb65f804a242668443cb4831c3c18f8c3cf8b152b9edd942e90959cde9",
+      "name": "Đứng đẩy ngực với cáp luân phiên theo hướng xuống",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía hai cáp đặt cao, giữ các tay cầm cạnh ngực.",
+        "Đẩy một tay cầm về trước và xuống dưới đến khi tay duỗi.",
+        "Trở lại có kiểm soát rồi đẩy bằng tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Decline Chest Press",
+        "description": "",
+        "steps": [
+          "Stand facing away from high cables with handles beside your chest.",
+          "Press one handle forward and downward until your arm is extended.",
+          "Return under control, then press with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d0ce127e-94fa-46ad-9c24-a110283f5eca",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "abd60c9dc3406967e04bb93cae7234ade0ed294050184ec78c6c845d6f963e20",
+      "name": "Đứng ép ngực với cáp luân phiên theo hướng lên",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp đặt thấp, hai tay duỗi sang hai bên.",
+        "Đưa một tay cầm theo đường vòng cung lên trên và chéo qua ngực, khuỷu tay hơi co.",
+        "Từ từ trở lại rồi lặp lại với tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Incline Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand between low cables with your arms extended outward.",
+          "Sweep one handle upward and across your chest with a slightly bent elbow.",
+          "Slowly return, then repeat with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f20a57b1-969e-4c91-ae1f-f0cc96030746",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0ea3cbeb8cab2e72881ed74c639ee833ca1fc80948213fcc7f256bf57093f811",
+      "name": "Đứng đẩy ngực với cáp luân phiên theo hướng lên",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía hai cáp đặt thấp, giữ các tay cầm cạnh ngực.",
+        "Đẩy một tay cầm về trước và lên trên đến khi tay duỗi.",
+        "Trở lại có kiểm soát rồi đẩy bằng tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Incline Chest Press",
+        "description": "",
+        "steps": [
+          "Stand facing away from low cables with handles beside your chest.",
+          "Press one handle forward and upward until your arm is extended.",
+          "Return under control, then press with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b3c28fd8-1bd4-4679-b1fa-54dd93079242",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "835a54128ad14fd64a719d965eaf9bd551061865450d32a8ce33d32f549fe619",
+      "name": "Đứng ép ngực với cáp luân phiên, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp, hai tay duỗi sang hai bên, lòng bàn tay hướng xuống.",
+        "Đưa một tay cầm theo đường vòng cung chéo qua ngực, giữ khuỷu tay hơi co.",
+        "Từ từ trở lại rồi lặp lại với tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Internally Rotated Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand between cables with arms extended outward and palms facing downward.",
+          "Sweep one handle across your chest while maintaining a slight elbow bend.",
+          "Slowly return, then repeat with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e0daa825-7189-4026-8be8-208c65b58cb7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "86428dd976914583a8c0e9bf5d56be3cf45f7b34932249ed5ff794ced2e8b58f",
+      "name": "Đứng ép ngực với cáp luân phiên hướng lên, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp đặt thấp, hai tay duỗi, lòng bàn tay hướng xuống.",
+        "Đưa một tay cầm theo đường vòng cung lên trên và chéo qua ngực, khuỷu tay hơi co.",
+        "Từ từ trở lại rồi lặp lại với tay đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Alternating Internally Rotated Incline Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand between low cables with arms extended and palms facing downward.",
+          "Sweep one handle upward and across your chest with a slightly bent elbow.",
+          "Slowly return, then repeat with the opposite arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "92cf23f1-09c6-4f36-98e5-b7e1f672c0ae",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "79cb3ce71fb445911233ec7fd35f8a65da027b69342a8ddaa5588a6a464ce574",
+      "name": "Đứng kéo hai cáp vào người",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp đặt cao, mỗi tay nắm một tay cầm.",
+        "Kéo cả hai khuỷu tay xuống và vào trong về hai bên thân.",
+        "Siết cơ xô rồi từ từ duỗi hai tay ra ngoài."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Bilateral Pull In",
+        "description": "",
+        "steps": [
+          "Stand between high cables, holding the handles in each hand.",
+          "Pull both elbows downward and inward toward your sides.",
+          "Squeeze your lats, then slowly extend your arms outward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6fd0011d-3638-4fb9-bd53-78f66514aa81",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "00606ed553aca6e8926d862537f443b8a44931c6396be0282d6a5a4e6e87ea73",
+      "name": "Đứng kéo hai cáp tay thẳng vào người",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai cáp đặt cao, hai tay duỗi sang hai bên.",
+        "Kéo các tay cầm xuống và vào trong, giữ khuỷu tay gần như thẳng.",
+        "Siết cơ xô rồi từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Bilateral Straight Arm Pull In",
+        "description": "",
+        "steps": [
+          "Stand between high cables with both arms extended outward.",
+          "Pull the handles downward and inward while keeping your elbows nearly straight.",
+          "Squeeze your lats, then slowly return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ccc34593-fce6-449f-91cf-0c5cfb54ee28",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4acad7dba1caf39e8d211dc93b0a40621d902654411aa1b35500f945ce847090",
+      "name": "Đứng đá chân ra sau tập mông với cáp",
+      "description": "",
+      "steps": [
+        "Dùng đai cổ chân. Đặt cáp ở vị trí thấp nhất của máy cáp chéo.",
+        "Gập gối, đẩy cổ chân thẳng về sau bằng cách duỗi hông. Giữ một nhịp đếm khi cảm nhận cơ mông co lại.",
+        "Sau đó gập hông để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Glute Kickback",
+        "description": "",
+        "steps": [
+          "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.",
+          "Break at the knee, push your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.",
+          "Then flex at the hips until you are back into your original position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5a7ae08a-e178-4275-9b3a-2abd2d1dda7e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e8e2bd9e24396605c94f09f079be4c655162ebcf07f31f6bf01200927ae8a0cc",
+      "name": "Đứng dạng hông với cáp",
+      "description": "",
+      "steps": [
+        "Dùng đai cổ chân. Đặt cáp ở vị trí thấp nhất.",
+        "Hướng người sang bên so với máy, gắn đai vào chân phía ngoài. Bước ra xa vài bước.",
+        "Dạng hông để nâng chân sang bên.",
+        "Trở về vị trí ban đầu, dừng ngay trước khi bàn chân chạm đất để duy trì lực căng trên cơ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Hip Abduction",
+        "description": "",
+        "steps": [
+          "Use an ankle attachment. Cable should be set all the way to the bottom.",
+          "Face sideways with the ankle attachment on your outside leg. Walk a few steps away.",
+          "Abduct at the hips and raise your leg out to the side.",
+          "Return to the starting position and stop just short of your foot touching back to the ground (to keep tension on the muscle)."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e0979ac6-de3f-42f4-ac0c-4afa570061a2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "72f778299e71ce834ce8be83ee209e33e4dd31c3083d462dea5be8d4b5da9840",
+      "name": "Đứng duỗi gối tập đùi trước với cáp",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, quay lưng về phía máy cáp chéo, đặt cáp ngang hông. Dùng đai cổ chân hoặc cổ tay.",
+        "Duỗi gối ngược với lực cản của cáp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Leg Extension",
+        "description": "",
+        "steps": [
+          "Stand upright facing away from the cable crossover with the cable set to the height of your hips. Use an ankle/wrist attachment.",
+          "Extend at the knee against the cable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4edcd390-3c46-4e46-97d5-8c725acb7d5a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4b4a96c95dad9967a6bd9612f27b4b09f1525fdcd788993efd47867cc655053a",
+      "name": "Đứng đá chân ra sau với cáp đặt giữa máy",
+      "description": "",
+      "steps": [
+        "Dùng đai cổ chân. Đặt cáp ở giữa chiều cao máy cáp chéo.",
+        "Bắt đầu với đầu gối co. Đẩy cổ chân thẳng về sau bằng cách duỗi hông. Giữ một nhịp đếm khi cảm nhận cơ mông co lại.",
+        "Sau đó gập hông để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Mid Kickback",
+        "description": "",
+        "steps": [
+          "Use an ankle attachment. The cable should be set halfway up the crossover machine.",
+          "Start with a bent knee position. Push your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.",
+          "Then flex at the hips until you are back into your original position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "53681226-dee0-4e9f-ba38-4ccf5c75ccc0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ef308bde8c7d07088f45e902f685fa3eab39d6dcd8f563954be3db3ca89de10d",
+      "name": "Đứng kéo cáp chéo một tay tập vai sau",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với cáp, nắm tay cầm chéo qua người ở phía đối diện.",
+        "Kéo tay cầm ra ngoài và về sau, dẫn chuyển động bằng khuỷu tay, giữ tay hơi co.",
+        "Siết cơ vai sau ở cuối động tác, sau đó từ từ trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Single Arm Cross Rear Delt Row",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable and hold handle across your body at opposite side.",
+          "Pull handle outward and back, leading with elbow and keeping arm slightly bent.",
+          "Squeeze rear delt at the end, then return slowly with control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b4a37300-6ed2-4df5-a133-642ceab6c38d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9b7f9d2274fdffda103ff3e38a59ceac3207747358612eb7c1891d763728ad60",
+      "name": "Đứng ép ngực một tay với cáp theo hướng lên",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với cáp, tay cầm đặt thấp, cánh tay hơi co.",
+        "Đưa tay lên trên và chéo qua ngực theo đường vòng cung, không xoay thân.",
+        "Siết phần ngực trên ở điểm cao nhất, sau đó từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Single Arm Incline Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable with handle set low, arm slightly bent.",
+          "Bring arm upward and across chest in an arc without rotating torso.",
+          "Squeeze upper chest at the top, then return slowly to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "88ebb0f7-fae3-4d2a-a651-53dd0c61b090",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "48e928f81e4d74dd7470a8f7b7e367fe5815c20aa42cd51d673ce386e7ec3049",
+      "name": "Đứng đẩy ngực một tay với cáp theo hướng lên",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với cáp, tay cầm đặt thấp, giữ tay cầm ngang ngực.",
+        "Đẩy tay cầm lên trên và về trước theo hướng hơi chéo, giữ thân ổn định.",
+        "Siết cơ ngực ở điểm cao nhất, sau đó từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:55:10.414Z",
+      "source": {
+        "name": "Cable Standing Single Arm Incline Chest Press",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable with handle set low, holding it at chest height.",
+          "Press handle upward and forward at a slight diagonal, keeping torso stable.",
+          "Squeeze chest at the top, then return slowly to starting position."
+        ]
+      }
+    }
+  ]
+}

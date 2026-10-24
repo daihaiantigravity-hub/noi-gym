@@ -1,0 +1,284 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Vietnamese names and all 39 steps reviewed against source-review-decisions-005.json, male/female front/side sequences and offset samples where needed. Preserve the original numeric cue, illustrative left/right assignments and the verified anchor direction, grip and floor/suspension supports. Prepared only until the combined source/translation transaction and live verification pass.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "251b06f4-d14b-4124-85da-1f222a90993e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9ff415871bd893f074542f10db53d94a9ec6de94550206bc494c29f763e53dbd",
+      "name": "Chùng chân ngang với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây, hai tay nắm tay cầm TRX ở phía trước người.",
+        "Bước chân sang một bên, giữ cơ trung tâm siết chặt.",
+        "Hạ người vào tư thế chùng chân ngang, gập gối bên đó thành góc 90 độ và giữ chân đối diện thẳng.",
+        "Dùng tay cầm để hỗ trợ khi đẩy qua bàn chân của bên gối đang gập để trở về tư thế ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Lateral Lunge",
+        "description": "",
+        "steps": [
+          "Stand facing the anchor point and grasp the TRX handles with both hands in front of you.",
+          "Step laterally to one side, keeping your core engaged.",
+          "Lower into a side lunge, bending the knee on that side to a 90-degree angle while keeping the opposite leg straight.",
+          "Use the handles for support as you push through the foot of the bent leg to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2f8f2f47-7916-4691-b71c-26dfd8690dd1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ac4bda9060295e9771887b09cd6a6f3b4cd7005500734063c185b0954e4517c7",
+      "name": "Squat bật nhảy với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây, nắm cả hai tay cầm TRX và đặt hai chân rộng bằng vai.",
+        "Gập gối và hông để hạ vào tư thế squat, giữ lưng thẳng và ngực nâng.",
+        "Bật nhảy mạnh lên khỏi sàn, vẫn giữ chắc hai tay cầm TRX.",
+        "Tiếp đất nhẹ nhàng trở lại tư thế squat, dùng hai chân để hấp thụ lực tiếp đất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Jumping Squat",
+        "description": "",
+        "steps": [
+          "Stand facing the anchor point, grasp both TRX handles, and place your feet shoulder-width apart.",
+          "Begin by lowering into a squat position by bending at the knees and hips, keeping your back straight and chest up.",
+          "Explosively jump up off the ground while maintaining your grip on the TRX handles.",
+          "Land softly back in the squat position, making sure to absorb the impact with your legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "36a77a27-e15e-4f8b-9082-7157fad66aa3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "34dfd22baa943093955493f1cfb17758faeba16d02be6e585a9ec45f2b8ec5a6",
+      "name": "Duỗi người từ tư thế quỳ với dây TRX",
+      "description": "",
+      "steps": [
+        "Quỳ trên sàn, hướng về điểm neo dây TRX.",
+        "Hai tay nắm tay cầm TRX, giữ tay duỗi và vai xa tai.",
+        "Siết cơ bụng và giữ hai gối trên sàn khi nghiêng người ra trước, vươn hai tay ra trước và qua đầu, giữ thân thẳng hàng từ gối đến đầu.",
+        "Đưa tay cầm về vị trí ban đầu và trở lại tư thế quỳ thẳng có kiểm soát, vẫn giữ hai gối làm điểm tựa trên sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Kneeling Ab Rollout",
+        "description": "",
+        "steps": [
+          "Kneel on the floor facing the TRX anchor point.",
+          "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+          "Keep your abs engaged and your knees on the floor as you lean forward and reach your arms forward and overhead, keeping your body aligned from your knees to your head.",
+          "Bring the handles back toward the starting position and return to upright kneeling under control, keeping your knees supported on the floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5557cf21-aa81-4b51-8fb0-6d29f766e1bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e5cbed828e9af231ad6875fe867a0ad39ffd7591f9b295f823baba8654b21c05",
+      "name": "Chống đẩy với dây TRX",
+      "description": "",
+      "steps": [
+        "Gắn dây TRX vào điểm neo chắc chắn, chỉnh dây để tay cầm ở khoảng ngang eo khi đứng bên dưới.",
+        "Đứng quay lưng về điểm neo, hai tay nắm tay cầm rồi nghiêng người ra trước vào tư thế plank với hai tay duỗi và hai bàn chân trên sàn.",
+        "Gập khuỷu tay để hạ người đến khi ngực gần chạm tay cầm. Giữ cơ trung tâm siết chặt và thân thẳng hàng.",
+        "Đẩy người về tư thế ban đầu, duỗi hai tay. Giữ cơ ngực, cơ tay sau và cơ trung tâm hoạt động suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Pushup",
+        "description": "",
+        "steps": [
+          "Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+          "Stand facing away from the anchor point, grab the handles with both hands, and lean forward into an inclined plank with your arms extended and your feet on the floor.",
+          "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+          "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "75f49f00-1deb-4145-aa48-56d4d39d4b5e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e151e8e634b7ffb3f5553a46b9f7fbe4f7e43d965d720e41f6b722f97c779f64",
+      "name": "Ép ngực với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về điểm neo dây TRX, hai bàn chân trên sàn.",
+        "Hai tay nắm tay cầm TRX và duỗi ra trước ngực, giữ vai xa tai.",
+        "Nghiêng người ra trước và mở hai tay sang hai bên với khuỷu tay hơi gập, giữ cơ trung tâm siết chặt và thân thẳng hàng từ cổ chân đến đầu.",
+        "Đưa hai tay cầm về sát nhau trước ngực có kiểm soát, giữ cơ thể ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Pec Fly",
+        "description": "",
+        "steps": [
+          "Stand facing away from the TRX anchor point with both feet on the floor.",
+          "Grasp the TRX handles with both hands and extend your arms in front of your chest, keeping your shoulders away from your ears.",
+          "Lean forward and open your arms out to the sides with a slight bend in your elbows, keeping your core engaged and your body aligned from your ankles to your head.",
+          "Bring the handles back together in front of your chest under control while keeping your body stable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9ea486c1-b081-4f96-9cc8-dae04dd6ac20",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2291536f07fa304c4028b75ebaa55e4c5881041614fe71a7eae14f9e37733795",
+      "name": "Plank cẳng tay với chân treo trên dây TRX",
+      "description": "",
+      "steps": [
+        "Đặt hai bàn chân vào quai đỡ chân TRX và chống cẳng tay trên sàn, khuỷu tay ở dưới vai.",
+        "Nâng hông và gối khỏi sàn, giữ hai chân treo và thân trên tựa trên cẳng tay.",
+        "Siết cơ bụng, cơ mông và hai chân để tạo đường thẳng từ đầu đến bàn chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Forearm Plank",
+        "description": "",
+        "steps": [
+          "Place your feet in the TRX foot cradles and set your forearms on the floor with your elbows under your shoulders.",
+          "Lift your hips and knees off the floor, keeping your feet suspended and your upper body supported on your forearms.",
+          "Tighten your abs, glutes, and legs to form a straight line from your head to your feet."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c073514c-61fd-420d-b879-9dcc3bfed0d4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eb9de8f9d27849523880705eeda7e785c1a5c9e2d3adcc6f8be02c857f70aaa1",
+      "name": "Mở tay tập vai sau với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây TRX, hai tay nắm tay cầm.",
+        "Ngả người ra sau, hai tay duỗi ở phía trước, giữ hai bàn chân trên sàn và thân thẳng hàng từ đầu đến gót chân.",
+        "Mở hai tay sang hai bên ngang vai để nâng thân lên, sau đó đưa hai tay về phía trước có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "Stand facing the TRX anchor point and grasp the handles with both hands.",
+          "Lean backward with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+          "Open your arms out to the sides at shoulder height to raise your torso, then bring your hands back in front of you under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c7bfb07c-6ef6-478d-bce0-2fe25de793c3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3d38487eb6e2828fca4e8300098b693a5271ed56943abb864edd5a4a3b6644ec",
+      "name": "Chùng chân chéo sau với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây, hai tay giữ tay cầm TRX.",
+        "Bước chân trái chéo ra sau chân phải rồi hạ người vào tư thế chùng chân chéo sau.",
+        "Đẩy qua chân phải để trở về tư thế ban đầu rồi lặp lại với chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Stand facing the anchor point, holding onto the TRX handles with both hands.",
+          "Step your left foot behind your right, crossing it behind your right leg, and lower yourself into a curtsy lunge.",
+          "Push through your right foot to return to the starting position and repeat the movement with the other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cbb9fd87-e742-44f9-9a75-790fc56f35f7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cc6b88997ee4e5fa9b894f60f31c50a2f1f459b66970f29e465e9c920f844094",
+      "name": "Cuốn tay trước nắm sấp với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây TRX, nắm tay cầm bằng kiểu nắm sấp, lòng bàn tay úp xuống.",
+        "Ngả người ra sau đến khi dây căng, hai tay duỗi ở phía trước, giữ hai bàn chân trên sàn và thân thẳng hàng từ đầu đến gót chân.",
+        "Gập khuỷu để cuốn tay cầm về phía trán, giữ bắp tay ở phía trước người, sau đó duỗi khuỷu có kiểm soát để trở về."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Reverse Curl",
+        "description": "",
+        "steps": [
+          "Stand facing the TRX anchor point and grasp the handles with an overhand grip, palms facing down.",
+          "Lean backward until the straps are taut with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+          "Bend your elbows to curl the handles toward your forehead while keeping your upper arms in front of you, then extend your elbows under control to return."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e61f6e13-b45f-4b9a-889e-09025a03626a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9e1b79d341ca6cf101288f33cf83fb51139c3bf93e9c78f17fe05c14ea7be5f6",
+      "name": "Gập gối tập đùi sau với dây TRX",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt gót chân vào quai đỡ chân TRX, hai tay dọc hai bên người trên sàn.",
+        "Nâng hông và gập gối để kéo gót chân về phía mông, giữ cơ trung tâm siết chặt và hai vai trên sàn.",
+        "Dừng một chút rồi từ từ duỗi gối, đưa hai bàn chân ra xa người để trở về tư thế ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Hamstring Curl",
+        "description": "",
+        "steps": [
+          "Lie on your back with your heels supported in the TRX foot cradles and your arms by your sides on the floor.",
+          "Lift your hips and bend your knees to pull your heels toward your glutes, keeping your core engaged and your shoulders on the floor.",
+          "Pause for a moment, then slowly extend your knees to move your feet away from your body and return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f14ee018-ec29-4945-9533-c585d8511460",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a78e6fe52dc4d0b03a1429f784f2c198340b5f3212d36e28cab19b278de18505",
+      "name": "Kéo tập vai sau với dây TRX",
+      "description": "",
+      "steps": [
+        "Đứng hướng về điểm neo dây TRX, hai tay nắm tay cầm.",
+        "Ngả người ra sau, hai tay duỗi ở phía trước, giữ hai bàn chân trên sàn và thân thẳng hàng từ đầu đến gót chân.",
+        "Gập khuỷu tay và kéo khuỷu ra sau để nâng thân về phía tay cầm.",
+        "Giữ khuỷu tay mở sang hai bên khi kéo, sau đó duỗi tay có kiểm soát để trở về tư thế ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T05:52:16.708Z",
+      "source": {
+        "name": "TRX Rear Delt Row",
+        "description": "",
+        "steps": [
+          "Stand facing the TRX anchor point and grasp the handles with both hands.",
+          "Lean backward with your arms extended in front of you, keeping your feet on the floor and your body aligned from your head to your heels.",
+          "Bend your elbows and pull them back to raise your torso toward the handles.",
+          "Keep your elbows flared outward as you pull, then extend your arms under control to return to the starting position."
+        ]
+      }
+    }
+  ]
+}

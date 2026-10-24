@@ -1,0 +1,1347 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared each Yoga and Pilates source step, retaining breathing, hand/foot supports, left/right, block orientation, numbers and original units. Held mixed pose setups, missing named grips and incompatible support/foot-release instructions.",
+  "sourceExceptions": [
+    {
+      "index": 121,
+      "sourceName": "Double Pigeon Pose",
+      "reason": "Source starts with both legs straight, bends only the right knee and stacks it on the left ankle, then presses both knees down. Verify the missing left-leg folding and stacking order.",
+      "exercise_id": "3b04d689-6830-4946-9ea2-f73e926102cb"
+    },
+    {
+      "index": 129,
+      "sourceName": "Gate Pose Rounding Spine Looking Up",
+      "reason": "Title says looking up but steps look down at the kneeling-side foot with mixed arm directions. Verify gaze and supported side.",
+      "exercise_id": "078576ac-b424-4c81-aa9d-0c919e937dd9"
+    },
+    {
+      "index": 131,
+      "sourceName": "Half Lotus",
+      "reason": "Half-lotus title is followed by placing both feet on opposite thighs. Verify half versus full lotus rather than altering the leg setup.",
+      "exercise_id": "bd843d68-7f5d-4dcc-a870-e839427a10a3"
+    },
+    {
+      "index": 135,
+      "sourceName": "Headstand",
+      "reason": "Instructions walk feet toward the head and then straighten legs without establishing the foot lift or weight-transfer sequence into the inverted balance. Verify the transition before review.",
+      "exercise_id": "889058f1-8343-477e-89ab-833177608803"
+    },
+    {
+      "index": 140,
+      "sourceName": "Pigeon Pose",
+      "reason": "The same right leg must extend behind the body and place its ankle on the left thigh. Verify leg assignment and starting pose.",
+      "exercise_id": "2091cc69-6557-48c9-a6d2-a2f2e70a563d"
+    },
+    {
+      "index": 147,
+      "sourceName": "Restful Cow Face Pose Legs",
+      "reason": "Instructions cross right over left and then left over right without explaining the lower-leg repositioning. Verify final knee stack and leg order.",
+      "exercise_id": "d78dd7b1-3296-48d7-aa1f-89777f00b8d6"
+    },
+    {
+      "index": 148,
+      "sourceName": "Reverse Prayer",
+      "reason": "Named reverse-prayer pose instead interlaces fingers with palms up behind the back. Verify intended hand configuration.",
+      "exercise_id": "c9efa90c-6348-4cdc-b471-ac78acaa2ce5"
+    },
+    {
+      "index": 153,
+      "sourceName": "Scorpion Twist Pose",
+      "reason": "Source lifts one leg, asks for a firm grip with toes near the head, then requires feet firmly planted on the ground. Verify supports and pose transition.",
+      "exercise_id": "090eb4c5-a2a8-48ab-8665-9a47159852fd"
+    },
+    {
+      "index": 165,
+      "sourceName": "Table Top Pose Variation 3",
+      "reason": "Palms remain on the mat throughout, but release says to lower the hands back to the mat. Verify whether any hand-lift variation is intended.",
+      "exercise_id": "16b32320-269a-4c51-b8ce-1b9b8693c4a6"
+    },
+    {
+      "index": 166,
+      "sourceName": "Thread The Needle Hip Over Knees",
+      "reason": "Title requires hips over knees but steps move into a pigeon-like leg setup and twist right while threading right arm under left. Verify leg support and rotation direction.",
+      "exercise_id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e"
+    },
+    {
+      "index": 177,
+      "sourceName": "Wide Legged Standing Forward Bend Holding Heels",
+      "reason": "Heel-holding variant omits heel grip and instead sends hands overhead, apparently copied from the bound-hands forward fold. Verify the named grip.",
+      "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333"
+    },
+    {
+      "index": 178,
+      "sourceName": "Wild Thing Pose",
+      "reason": "Source shifts from left-hand support to right-hand support while opening the chest, then looks at the supporting right hand. Verify supporting versus reaching hand and lifted-leg transition.",
+      "exercise_id": "847edd28-c001-47e8-8a2b-d1a4552d438b"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "d9037d98-fc2c-4c0d-8df3-c7e45e913424",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0f9b6ebd04fed961c3f07aeb9fc855989bbf8ccaf83c255d52960e8bbf3e11bd",
+      "name": "Tư thế chó úp mặt",
+      "description": "",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối, hai tay rộng bằng vai và hai gối rộng bằng hông.",
+        "Xòe rộng các ngón tay và ấn lòng bàn tay xuống, để các ngón cách đều và hướng về trước.",
+        "Gập các ngón chân làm điểm tựa, nâng đầu gối khỏi sàn và duỗi chân thẳng nhất có thể.",
+        "Đẩy hông lên và ra sau, đưa cơ thể thành hình chữ V ngược.",
+        "Giữ tay thẳng và hai bả vai tách rộng, cố gắng ấn gót chân về sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Downward Dog",
+        "description": "",
+        "steps": [
+          "Begin on your hands and knees with your hands shoulder-width apart and your knees hip-width apart.",
+          "Spread your fingers wide and press down into your palms, making sure that your fingers are evenly spaced and facing forward.",
+          "Tuck your toes under and lift your knees off the ground, straightening your legs as much as possible.",
+          "Press your hips up and back, bringing your body into an inverted \"V\" shape.",
+          "Keep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.",
+          "Hold the pose for several breaths, then release and return to your starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9025db3b-4574-469a-9a98-5b10843b07e0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d48d49fb452424a4af480f2b24016c313a1a7c1af25a249315b10d83eb5d0ae8",
+      "name": "Tư thế chó úp mặt đặt mũi chân lên gót chân",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, hai tay rộng bằng vai và hai chân rộng bằng hông.",
+        "Nhấc bàn chân phải khỏi thảm, đặt các ngón chân phải lên gót chân trái.",
+        "Ấn chắc lòng bàn tay và ngón tay vào thảm, nâng hông lên phía trần để tăng mức giãn cơ đùi sau và bắp chân.",
+        "Giữ trong vài nhịp thở rồi thả tư thế bằng cách từ từ bước tay trở ra về tư thế chó úp mặt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Downward Dog Toe To Heel",
+        "description": "",
+        "steps": [
+          "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+          "Lift your right foot off the mat and place your right toes on top of your left heel.",
+          "Press your palms and fingers firmly into the mat and lift your hips up towards the ceiling, deepening the stretch in your hamstrings and calves.",
+          "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c03f0eba-1740-468d-9878-fe5e9fd8a4c6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "81fb767675b5b806549b48b86982874501665127810954b6a432ea20af85435d",
+      "name": "Tư thế chó úp mặt với ngón tay hướng về chân",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai tay và hai gối trên sàn, giống tư thế khởi đầu của bài trước.",
+        "Xòe rộng các ngón tay, xoay bàn tay để ngón tay hướng về bàn chân.",
+        "Gập các ngón chân làm điểm tựa, nâng đầu gối khỏi sàn và duỗi chân thẳng nhất có thể.",
+        "Đẩy hông lên và ra sau, đưa cơ thể thành hình chữ V ngược.",
+        "Giữ tay thẳng và hai bả vai tách rộng, cố gắng ấn gót chân về sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Downward Dog With Fingers Facing Feet",
+        "description": "",
+        "steps": [
+          "Begin in the same starting position as the previous exercise, with your hands and knees on the ground.",
+          "Spread your fingers wide and turn your hands so that your fingers are facing towards your feet.",
+          "Tuck your toes under and lift your knees off the ground, straightening your legs as much as possible.",
+          "Press your hips up and back, bringing your body into an inverted \"V\" shape.",
+          "Keep your arms straight and your shoulder blades spread apart, and try to press your heels down towards the ground.",
+          "Hold the pose for several breaths, then release and return to your starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c8fdceb0-a756-429e-b3cd-ee19f7c5e4c7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6bc3661528620a64a85595a775455e97e6e3ded853f69895cf247eea878cda1a",
+      "name": "Tay đại bàng thu cằm về ngực",
+      "description": "",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn, đưa hai tay sang bên ngang vai.",
+        "Bắt chéo tay phải qua tay trái, co cả hai khuỷu tay để cẳng tay song song với sàn.",
+        "Nâng khuỷu tay về phía trần, đưa hai bàn tay lại gần nhau rồi hạ cằm về ngực.",
+        "Giữ trong vài nhịp thở rồi thả hai tay, lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Eagle Arms Chin Into Chest",
+        "description": "",
+        "steps": [
+          "Sit cross-legged on the floor and bring your arms out to the sides at shoulder height.",
+          "Cross your right arm over your left, bending both elbows so that your forearms are parallel to the floor.",
+          "Lift your elbows towards the ceiling and bring your hands together, then drop your chin towards your chest.",
+          "Hold for a few breaths, then release your arms and repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cbc675c5-e926-4ddf-a923-f58d3e682094",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0f7dc121c6b4d10250c5af5508e49eb0655dc6b406731de34a5d102b576c166b",
+      "name": "Ngồi xếp bằng giãn cổ",
+      "description": "",
+      "steps": [
+        "Bắt đầu ngồi bắt chéo chân trên sàn.",
+        "Từ từ hạ cằm về ngực, cảm nhận giãn phía sau cổ.",
+        "Hít vào và nâng đầu lên, sau đó thở ra và hạ tai phải về vai phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại động tác giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Easy Pose Neck Stretch",
+        "description": "",
+        "steps": [
+          "Begin by sitting cross-legged on the floor.",
+          "Slowly drop your chin towards your chest, feeling a stretch in the back of your neck.",
+          "Inhale and lift your head up, then exhale and drop your right ear towards your right shoulder.",
+          "Hold for a few breaths, then switch sides and repeat the stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "66ee2738-1643-4c98-b19e-3308633597f6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0d010280f3aa8de6dad750c7d7102c5e5773569ba0f7cb58e4d0ff55d6563c4e",
+      "name": "Tư thế góc nghiêng duỗi với gạch yoga",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân, chân phải phía trước và chân trái phía sau.",
+        "Đặt gạch yoga bên ngoài bàn chân phải và đặt tay phải lên gạch.",
+        "Nhìn xuống bàn chân phải khi vươn tay trái về phía trước phòng, cảm nhận giãn bên thân. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Extended side Angle Pose With Block",
+        "description": "",
+        "steps": [
+          "Begin in a lunge position with your right foot forward and your left foot back.",
+          "Place a block on the outside of your right foot and place your right hand on top of it.",
+          "Look down towards your right foot as you reach your left arm towards the front of the room, feeling a stretch in your side body. Hold for a few breaths and then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d94ce901-e30d-4242-8c0a-0c920b61f223",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "99f8c086313ef7ea85e27a662673df8cd7423f84b24063f5fecbf4aa93083fa2",
+      "name": "Tư thế góc nghiêng duỗi",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân, chân phải phía trước và chân trái phía sau.",
+        "Đặt tay phải lên gạch yoga hoặc trên sàn bên ngoài bàn chân phải.",
+        "Vươn tay trái qua đầu rồi cuộn cong cột sống, đưa bàn tay trái về tai phải.",
+        "Nhìn xuống bàn chân phải khi vươn tay trái về phía trước phòng, cảm nhận giãn bên thân. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "extended-side-angle-pose",
+        "description": "",
+        "steps": [
+          "Begin in a lunge position with your right foot forward and your left foot back.",
+          "Place your right hand on a block or the ground on the outside of your right foot.",
+          "Reach your left arm overhead and then round your spine, bringing your left hand to your right ear.",
+          "Look down towards your right foot as you reach your left arm towards the front of the room, feeling a stretch in your side body. Hold for a few breaths and then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ba153315-2bff-4c6d-ad7e-3f3fb934684c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d0cdeb538cda7e23a186d181aa2b00220dc78c966f0e3e9f8e2cde27f379d9aa",
+      "name": "Tư thế cánh cổng duỗi tay sang bên",
+      "description": "",
+      "steps": [
+        "Bắt đầu quỳ và duỗi chân phải sang bên.",
+        "Nâng tay phải qua đầu và vươn về phía bên trái phòng.",
+        "Nhẹ nhàng nghiêng người sang trái, đặt tay trái lên đùi trái.",
+        "Nhìn lên tay phải, giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Gate Pose Variation Arm Extended on Side",
+        "description": "",
+        "steps": [
+          "Start on your knees and extend your right leg out to the side.",
+          "Raise your right arm above your head and reach towards the left side of the room.",
+          "Gently bend your body to the left side and rest your left hand on your left thigh.",
+          "Look up towards your right hand and hold the pose for a few breaths before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f2f37633-4b4c-416e-8051-5d0c24833150",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "111dbe17a10ac5537b278a83d56e2bb9bb75b9c5b83073e6f1a8b40fc5474a51",
+      "name": "Tư thế khỉ một nửa",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Bước bàn chân phải lên trước, đặt giữa hai tay.",
+        "Duỗi thẳng chân phải, kéo mũi chân về phía mặt, giữ tay trên sàn để đỡ người.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Half Monkey Pose",
+        "description": "",
+        "steps": [
+          "Start in a tabletop position with your hands and knees on the floor.",
+          "Step your right foot forward, placing it between your hands.",
+          "Straighten your right leg and flex your toes towards your face, keeping your hands on the floor for support.",
+          "Hold for several breaths, then switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ad0f30d0-6a31-4834-bb67-0b0828f0e460",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b2cfed328cc0cca8ba343337823fe9378c4b21d606dc723609a71fbbbe5288a3",
+      "name": "Xoay cổ nửa vòng",
+      "description": "",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn, đan các ngón tay sau đầu.",
+        "Hạ cằm về ngực và xoay đầu sang phải, đưa tai phải về vai phải.",
+        "Từ từ xoay đầu về giữa rồi sang trái để tai trái gần vai trái.",
+        "Lặp lại qua lại hai bên, giữ vai thả lỏng và thở sâu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Half Neck Rolls",
+        "description": "",
+        "steps": [
+          "Sit cross-legged on the floor and interlace your fingers behind your head.",
+          "Drop your chin to your chest and roll your head to the right, bringing your right ear towards your right shoulder.",
+          "Slowly roll your head back to center, then over to the left so that your left ear is close to your left shoulder.",
+          "Repeat the movement from side to side, keeping your shoulders relaxed and breathing deeply."
+        ]
+      }
+    },
+    {
+      "exercise_id": "57d46217-6ea9-4ad3-9b69-be3b13877826",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f2580aa9778e3a8121271c2bb354b32d76c0ecf6b1a352fbc2bc720431062770",
+      "name": "Tư thế em bé hạnh phúc",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân phẳng trên sàn.",
+        "Nâng bàn chân khỏi sàn, đưa đầu gối về ngực.",
+        "Luồn tay phía trong đầu gối và nắm mép ngoài hai bàn chân.",
+        "Nhẹ nhàng kéo đầu gối về nách và đung đưa sang hai bên trong vài nhịp thở."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Happy Baby",
+        "description": "",
+        "steps": [
+          "Lie down on your back with your knees bent and feet flat on the floor.",
+          "Lift your feet off the floor and bring your knees towards your chest.",
+          "Reach inside your knees and hold onto the outside edges of your feet.",
+          "Gently pull your knees towards your armpits and rock side to side for a few breaths."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c3e20a28-b52e-4e5e-bbcd-c57894a06cbb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "153ca07a2e564c2dfb1414e45e5b92ef420ccb0b0788c6a533bda41088ef34c2",
+      "name": "Tư thế vũ công",
+      "description": "",
+      "steps": [
+        "Bắt đầu đứng thẳng, hai chân rộng bằng hông.",
+        "Chuyển trọng lượng lên chân trái, đưa gót chân phải về mông.",
+        "Đưa tay phải ra sau, nắm phía trong bàn chân phải hoặc cổ chân phải.",
+        "Hít vào, nâng bàn chân phải ra xa mông đồng thời duỗi tay trái về trước. Giữ trong 5-10 nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Lord Of The Dance",
+        "description": "",
+        "steps": [
+          "Begin by standing tall with your feet hip-width apart.",
+          "Shift your weight onto your left foot and bring your right heel towards your glute.",
+          "Reach your right arm back and grab onto the inside of your right foot or ankle.",
+          "Inhale and lift your right foot away from your glute while extending your left arm forward. Hold for 5-10 breaths before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4bd3a3ae-d497-449a-a12c-12666c853dcd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "197e0a726e1e94da98ff3c150e59f9060faf594c7cd717e7215ce5f2937edc73",
+      "name": "Tư thế khỉ",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân thấp, chân phải phía trước và đầu gối trái trên sàn.",
+        "Từ từ trượt đầu gối trái ra sau đồng thời duỗi chân phải về trước, giữ cả hai chân thẳng.",
+        "Hạ người xuống sàn, dùng tay hỗ trợ nếu cần.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Monkey Pose",
+        "description": "",
+        "steps": [
+          "Begin in a low lunge with your right foot forward and your left knee on the ground.",
+          "Slowly slide your left knee back while extending your right leg forward, keeping both legs straight.",
+          "Lower your body down to the ground, using your hands for support if needed.",
+          "Hold the pose for a few breaths, then switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ff187308-b5cd-431f-a6da-2c6c729ecbb2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d29d962aa7dec074e0f6cc98514c8ac97ba05a0ec7471a2152f0258a0338f663",
+      "name": "Tư thế ngọn núi",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông và hai tay bên thân.",
+        "Ấn bàn chân xuống sàn và siết cơ chân.",
+        "Nâng ngực, cuộn vai ra sau và hạ xuống.",
+        "Hít sâu, khi thở ra giải phóng mọi căng thẳng trong cơ thể và thả lỏng cơ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Mountain",
+        "description": "",
+        "steps": [
+          "Stand tall with your feet hip-width apart and your arms at your sides.",
+          "Press your feet into the ground and engage your leg muscles.",
+          "Lift your chest and roll your shoulders back and down.",
+          "Take a deep breath in, and as you exhale, release any tension in your body and relax your muscles."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e80a0f28-9a16-4703-b61d-162447681019",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f845ac0b8158bc8d4ff8ed798f09df42e08b2b8b64327d9ba1b30046bf0cf403",
+      "name": "Tư thế mặt bò với một tay",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Co gối trái, đặt bàn chân trái trên sàn gần hông phải.",
+        "Bắt chéo chân phải qua chân trái, xếp hai đầu gối chồng lên nhau.",
+        "Đưa tay trái qua đầu, co khuỷu tay để bàn tay trái vươn về lưng trên. Đưa tay phải ra sau lưng và thử nắm tay trái. Giữ tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "One Arm Cow Face Pose",
+        "description": "",
+        "steps": [
+          "Sit on the floor with your legs extended in front of you.",
+          "Bend your left knee and place your left foot on the floor, close to your right hip.",
+          "Cross your right leg over your left leg, stacking your knees on top of each other.",
+          "Bring your left arm up overhead, and bend your elbow so that your left hand reaches towards your upper back. Reach your right hand behind your back and try to clasp your left hand. Hold"
+        ]
+      }
+    },
+    {
+      "exercise_id": "c13c4110-8e8f-49a7-9004-34abc395be06",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b9e818d02bf2a3c4fe9d865af86f216cb412ef5b89532c29488df8fc747817c7",
+      "name": "Tư thế chó con",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Bước tay về trước đồng thời hạ ngực về sàn.",
+        "Giữ hông phía trên đầu gối, duỗi tay ra trước.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Puppy Pose",
+        "description": "",
+        "steps": [
+          "Begin in a tabletop position with your hands and knees on the ground.",
+          "Walk your hands forward as you lower your chest towards the ground.",
+          "Keep your hips over your knees and extend your arms out in front of you.",
+          "Hold for a few breaths and then release."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b81cd176-7dde-4dac-81e7-301035442d5b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "100452f6bea1a75debe16b6858e38fc420808c0aaf3854a7f24d58bb3a211bf6",
+      "name": "Tư thế kim tự tháp",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở Tadasana, tư thế ngọn núi.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hạ gót chân, giữ mũi chân hướng về trước.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, đặt tay trên sàn hai bên bàn chân phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Pyramid Pose",
+        "description": "",
+        "steps": [
+          "Begin in Tadasana (Mountain Pose).",
+          "Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward.",
+          "Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the floor on either side of your right foot.",
+          "Hold for several breaths, then switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "17666070-7073-4452-9135-71589b5ae958",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f258c1429360e1a04cb08f16a2d279a1d51c28e8fe2227a2ed2c9de342217ba2",
+      "name": "Tư thế kim tự tháp với gạch yoga",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở Tadasana, tư thế ngọn núi, với hai viên gạch yoga ở đầu thảm.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hạ gót chân, giữ mũi chân hướng về trước.",
+        "Đặt gạch hai bên bàn chân phải ở độ cao cho phép đặt tay lên thoải mái.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, đặt tay lên gạch. Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Pyramid Pose Blocks",
+        "description": "",
+        "steps": [
+          "Begin in Tadasana (Mountain Pose) with two blocks at the top of your mat.",
+          "Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward.",
+          "Place the blocks on either side of your right foot at a height that allows you to comfortably place your hands on them.",
+          "Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the blocks. Hold for several breaths, then switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c05542ff-ce34-4d7c-8146-683fd85b57a0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a3942a812ba24634a53bda07a03ba9cb9c1eb9b5621eddaef244adfd5a62e88d",
+      "name": "Tư thế kim tự tháp giãn bắp chân với gạch yoga",
+      "description": "",
+      "steps": [
+        "Bắt đầu đứng với một viên gạch đặt nằm và một viên đặt đứng trên thảm.",
+        "Gập người về trước, đặt tay lên viên gạch đứng và phần trước bàn chân lên viên gạch nằm.",
+        "Ấn lòng bàn chân về phía sàn, lặp lại ở mỗi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Pyramid Pose Calf Blocks",
+        "description": "",
+        "steps": [
+          "Start standing with a flat and vertical block on the matt",
+          "Bend forward, placing hand on vertical block, and front of foot on the flat block.",
+          "Press the bottom of your foot towards the ground, and repeat on each side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b9d6413e-d5c2-4723-9f38-02365debbc15",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "865c96125872278dad445b2374c6329a4dd3bc7836ec5fa0b614ac1ba8411cca",
+      "name": "Tư thế kim tự tháp cầu nguyện",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, đặt tay lên bàn, ghế hoặc bề mặt cao phía trước.",
+        "Bước chân ra sau đến khi thân song song với sàn và khuỷu tay tựa trên bề mặt.",
+        "Thả lỏng đầu và cổ, thở sâu.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Pyramid Prayer",
+        "description": "",
+        "steps": [
+          "Stand with your feet hip-width apart and place your hands on a table, chair, or any elevated surface in front of you.",
+          "Walk your feet back until your torso is parallel to the ground, and your elbows are resting on the surface.",
+          "Relax your head and neck, and breathe deeply.",
+          "Hold for a few breaths, then release."
+        ]
+      }
+    },
+    {
+      "exercise_id": "70ad93c6-e32b-43fc-9e72-18f98baea35c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "47ff5002a5b3f8961f97a7fb6924a2f730197c76268cd732bef521d537c5fee3",
+      "name": "Tư thế bồ câu nằm ngửa",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, co gối và đặt bàn chân trên sàn.",
+        "Vắt cổ chân phải lên đầu gối trái, tạo hình số bốn.",
+        "Dùng tay nhẹ nhàng kéo đầu gối trái về ngực, cảm nhận giãn ở hông phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Reclining Pigeon Pose",
+        "description": "",
+        "steps": [
+          "Lie down on your back with your knees bent and your feet on the ground.",
+          "Cross your right ankle over your left knee, creating a figure four shape.",
+          "Use your hands to gently pull your left knee towards your chest, feeling a stretch in your right hip.",
+          "Hold the pose for a few breaths, then switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "848336d7-d3c4-4855-aae6-43bf2d75f349",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "05907649d49426e3ee0b2d828e6b5f193fcc1495c3a49da1f73df764410a2b06",
+      "name": "Tư thế đầu sát gối xoay người",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Co gối phải, đưa gót chân về vùng đáy chậu.",
+        "Đặt tay trái bên ngoài đầu gối phải và xoay thân sang phải.",
+        "Với tay phải về bàn chân trái, nhìn lên trần. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Revolved Head To Knee",
+        "description": "",
+        "steps": [
+          "Sit on the floor with your legs extended in front of you.",
+          "Bend your right knee and bring your heel towards your perineum.",
+          "Place your left hand on the outside of your right knee and twist your body to the right.",
+          "Reach your right hand towards your left foot and look up towards the ceiling. Hold the pose for a few breaths before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f44bb5ee-f91a-4cd7-bd50-aba895c90518",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "588bee76c1673cc8e746e72ef6d1db40cdfb495a527bdfb98b3f4f931235f824",
+      "name": "Tư thế góc nghiêng xoay người chắp tay",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chiến binh II, chân phải phía trước và chân trái phía sau.",
+        "Chắp hai bàn tay ở vị trí cầu nguyện trước ngực.",
+        "Thở ra, xoay thân sang phải và đặt khuỷu tay trái bên ngoài đầu gối phải.",
+        "Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Revolved Side Angle Pose With Prayer Hands",
+        "description": "",
+        "steps": [
+          "Begin in Warrior II pose, with your right foot forward and your left foot back.",
+          "Bring your hands together in a prayer position at your heart.",
+          "Exhale and twist your torso to the right, placing your left elbow on the outside of your right knee.",
+          "Hold for several breaths and then repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "83925638-2623-4ac1-85cf-3979e751cf19",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "407401a4e825b11e9c9163a1abeff17af86dba72617e3e043562506b3eeb9546",
+      "name": "Tư thế góc nghiêng xoay người chắp tay cho người mới",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân thấp, chân phải phía trước và đầu gối trái trên sàn.",
+        "Chắp hai bàn tay ở vị trí cầu nguyện trước ngực.",
+        "Thở ra, xoay thân sang phải và đặt khuỷu tay trái bên ngoài đầu gối phải.",
+        "Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Revolved Side Angle Pose With Prayer Hands Beginner",
+        "description": "",
+        "steps": [
+          "Begin in a low lunge position with your right foot forward and your left knee on the ground.",
+          "Bring your hands together in a prayer position at your heart.",
+          "Exhale and twist your torso to the right, placing your left elbow on the outside of your right knee.",
+          "Hold for several breaths and then repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "358e37f4-8196-4fed-a783-280556d14fe9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2c761e4dbb4d568328f7ffab8b7de595c197599e93bb1b2366b0ce494b492b63",
+      "name": "Tư thế chùng chân người chạy",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, Adho Mukha Svanasana.",
+        "Bước chân phải lên giữa hai tay.",
+        "Đặt đầu gối trái xuống sàn phía sau, trượt ra sau đến khi cảm thấy giãn cơ gấp hông trái.",
+        "Giữ tay trên sàn hoặc nâng lên cao, giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Runners Lunge",
+        "description": "",
+        "steps": [
+          "Begin in Downward Facing Dog pose (Adho Mukha Svanasana).",
+          "Step your right foot forward between your hands.",
+          "Place your left knee on the ground behind you and slide it back until you feel a stretch in your left hip flexor.",
+          "Keep your hands on the ground or lift them to the sky and hold for a few breaths before repeating on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0bdfe9bb-a3a0-4816-9616-3f95e5170d4c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a523fc97f4f95187af8777b4d5014313b563fda3aa007a338e5cc250b07e88f8",
+      "name": "Ngồi giãn tay",
+      "description": "",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn.",
+        "Duỗi thẳng tay ra trước, lòng bàn tay hướng về trước.",
+        "Bắt chéo tay phải qua tay trái và đan các ngón tay.",
+        "Đẩy hai bàn tay ra xa thân, giữ trong vài nhịp thở rồi thả ra và lặp lại với tay kia ở trên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Seated Arm Stretch",
+        "description": "",
+        "steps": [
+          "Sit cross-legged on the floor.",
+          "Extend your arms straight out in front of you, palms facing forward.",
+          "Cross your right arm over your left arm and interlace your fingers.",
+          "Pull your hands away from your body and hold for a few breaths, then release and repeat with the opposite arm on top."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1e1d5b12-8000-492d-8bc8-875c7bfeed61",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c773f407a5566cc6127307ad3a2cbaa76f6fc4e702a7d7dc97b2d9f4beb7289b",
+      "name": "Ngồi gập người về trước",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, giữ cột sống dài.",
+        "Với tay về bàn chân hoặc cổ chân, giữ khuỷu tay thẳng.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Seated Forward Bend",
+        "description": "",
+        "steps": [
+          "Sit on the floor with your legs extended in front of you.",
+          "Inhale and lengthen your spine, then exhale and fold forward from your hips, keeping your spine long.",
+          "Reach for your feet or ankles, keeping your elbows straight.",
+          "Hold for several breaths, then release."
+        ]
+      }
+    },
+    {
+      "exercise_id": "89937696-86c9-4091-91a1-bea3136d5813",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "31e203baa5912786776bbb814d553a85ceec30599f11ca725eac96760d8d943a",
+      "name": "Tư thế ngồi nghiêng bên",
+      "description": "",
+      "steps": [
+        "Ngồi thoải mái trên sàn với hai chân bắt chéo.",
+        "Hít vào và nâng tay phải qua đầu.",
+        "Khi thở ra, nghiêng người sang trái và đặt tay trái trên sàn.",
+        "Nhìn lên trần, giữ trong vài nhịp thở. Sau đó đổi bên và lặp lại tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Seated Side Bend Pose",
+        "description": "",
+        "steps": [
+          "Sit comfortably on the floor with your legs crossed.",
+          "Inhale and raise your right arm above your head.",
+          "As you exhale, bend your body to the left side and rest your left hand on the ground.",
+          "Look up towards the ceiling and hold the pose for a few breaths. Then switch sides and repeat the pose on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "85e8242f-8464-45b5-a10e-5a3d462415eb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f243368d52be5cafe4d3423e8dbd8c0d898b272bd64be80d030512448005428b",
+      "name": "Ngồi xoay người",
+      "description": "",
+      "steps": [
+        "Bắt đầu ngồi với hai chân duỗi ra trước.",
+        "Co gối phải, đặt bàn chân trên sàn cạnh đùi trái.",
+        "Hít vào và vươn tay trái lên trần.",
+        "Thở ra và xoay sang phải, đặt khuỷu tay trái bên ngoài đầu gối phải. Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Seated Twist",
+        "description": "",
+        "steps": [
+          "Begin seated with your legs extended in front of you.",
+          "Bend your right knee and place your foot on the floor next to your left thigh.",
+          "Inhale and reach your left arm up towards the ceiling.",
+          "Exhale and twist to the right, placing your left elbow on the outside of your right knee. Hold for a few breaths and then repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "158fad3a-92fb-4a63-bbc2-70fc067b96f5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4c947216c58880de81d88f95b556612647f3dcbe7f6caa84225033e990a7a02d",
+      "name": "Tư thế nhân sư",
+      "description": "",
+      "steps": [
+        "Bắt đầu nằm sấp trên thảm yoga hoặc bề mặt thoải mái.",
+        "Đặt khuỷu tay dưới vai, giữ hai cẳng tay song song.",
+        "Ấn chắc lòng bàn tay và cẳng tay xuống sàn để nâng ngực, giữ hông và chân thả lỏng.",
+        "Giữ vai thả lỏng và xa tai. Nhẹ nhàng cuộn bả vai xuống và ra sau để mở ngực.",
+        "Kéo dài cột sống bằng cách nâng đỉnh đầu về phía trần, giữ cằm hơi thu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Sphinx Pose",
+        "description": "",
+        "steps": [
+          "Start by lying down on your stomach on a yoga mat or a comfortable surface.",
+          "Place your elbows underneath your shoulders, keeping your forearms parallel to each other.",
+          "Press your palms and forearms firmly into the ground to lift your chest up, while keeping your hips and legs relaxed.",
+          "Make sure your shoulders are relaxed and away from your ears. Gently roll your shoulder blades down and back to open up your chest.",
+          "Lengthen your spine by lifting the crown of your head towards the ceiling, while keeping your chin tucked in slightly."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d7e1c2a6-0d31-4bf7-8364-92236bc9b7f4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fb4bc95061068bf962aac4c37a254ee133a09c357e3be26003d23419bfd84618",
+      "name": "Đứng gập người về trước",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông.",
+        "Gập người tại hông, đưa hai tay về phía sàn.",
+        "Để đầu buông thả lỏng, cảm nhận giãn phía sau chân.",
+        "Giữ trong vài nhịp thở rồi từ từ cuộn người lên tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Standing Forward Bend",
+        "description": "",
+        "steps": [
+          "Stand with your feet hip-width apart.",
+          "Hinge forward at your hips, reaching your hands towards the ground.",
+          "Allow your head to hang heavy and feel a stretch in the back of your legs.",
+          "Hold for a few breaths and then slowly roll up to a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "47bd6e37-6aa4-443e-af1f-0545e6c68ef7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fb69f161565b6cb3781811530817a8fb1300595ead4d9ba5f8f0edbcbbf495e2",
+      "name": "Đứng gập người với gạch yoga",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, đặt gạch yoga trên sàn phía trước.",
+        "Gập người tại hông và đặt tay lên gạch.",
+        "Để đầu buông thả lỏng, cảm nhận giãn phía sau chân.",
+        "Giữ trong vài nhịp thở rồi từ từ cuộn người lên tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Standing Forward Bend Blocks",
+        "description": "",
+        "steps": [
+          "Stand with your feet hip-width apart and place a block on the ground in front of you.",
+          "Hinge forward at your hips and place your hands on the block.",
+          "Allow your head to hang heavy and feel a stretch in the back of your legs.",
+          "Hold for a few breaths and then slowly roll up to a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cde180d9-822e-4d18-aaf1-2e5bf992a17a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cdec0633d0de672dc585a94115ab0e62961c681cbbc389d62e47a47dec106b10",
+      "name": "Nằm ngửa xoay người",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai tay duỗi sang hai bên.",
+        "Co gối phải và đưa về ngực.",
+        "Từ từ xoay người sang trái, đưa đầu gối phải chéo qua thân về sàn bên trái.",
+        "Nhìn về tay phải, giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Supine Twist Lying",
+        "description": "",
+        "steps": [
+          "Lie down on your back with your arms stretched out to your sides.",
+          "Bend your right knee and bring it towards your chest.",
+          "Slowly twist your body to the left side, bringing your right knee across your body towards the ground on the left side.",
+          "Look towards your right hand and hold the pose for a few breaths before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "95891396-9a7d-49d2-87cc-f63118f04238",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f772e0b6b6cf4011ec8181f7c3ad2974033497adcbec7c131bf52ec4167f9223",
+      "name": "Tư thế con cá Matsyasana có hỗ trợ",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Đặt gạch yoga nằm ngang phía sau, ở gốc cột sống.",
+        "Từ từ ngả lên gạch, dùng cẳng tay hỗ trợ đến khi lưng tựa trên gạch.",
+        "Thả lỏng tay bên thân, lòng bàn tay hướng lên và thở sâu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Supported Matsyasana Pose",
+        "description": "",
+        "steps": [
+          "Sit on the floor with your legs stretched out in front of you.",
+          "Place a yoga block behind you, horizontally, at the base of your spine.",
+          "Slowly recline over the block, supporting yourself with your forearms, until your back is resting on the block.",
+          "Relax your arms at your sides, palms facing up, and breathe deeply."
+        ]
+      }
+    },
+    {
+      "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eadb3b7eeec1eb19983b0bda07df0092127c09809dc7605f410ead25b2b2f05a",
+      "name": "Tư thế cái bàn biến thể 1",
+      "description": "",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+        "Xoay tay để ngón tay hướng sang hai cạnh thảm và mu bàn tay đặt trên sàn.",
+        "Giữ tay thẳng, vai xa tai.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Table Top Pose Variation 1",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards the sides of your mat and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a937e5ec569de2c9e40a9aeeafcc394355ad03bc5d5f0816d93f2ac97da6c2f6",
+      "name": "Tư thế cái bàn biến thể 2",
+      "description": "",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+        "Xoay tay để ngón tay hướng về đầu gối và mu bàn tay đặt trên sàn.",
+        "Giữ tay thẳng, vai xa tai.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Table Top Pose Variation 2",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Start in a tabletop position on your hands and knees with your hands directly under your shoulders and your knees directly under your hips.",
+          "Turn your hands so that your fingers are pointing towards your knees and the tops of your hands are on the floor.",
+          "Keep your arms straight and your shoulders away from your ears.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c1e40e2-7582-493f-9028-0de7055a61c6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e2b61e01234d490c99472ac10aef04f069b53d0f8a65360af1fdedd3d5468740",
+      "name": "Tư thế cái cây",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Chuyển trọng lượng lên chân trái, co gối phải và đặt lòng bàn chân phải vào mặt trong đùi trái.",
+        "Chắp tay trước ngực hoặc nâng qua đầu.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Tree Pose",
+        "description": "",
+        "steps": [
+          "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+          "Shift your weight onto your left foot and bend your right knee, bringing the sole of your right foot to the inside of your left thigh.",
+          "Bring your hands together in front of your heart, or raise them overhead.",
+          "Hold the pose for a few breaths, then release and repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a0e64a0e-8f99-46e6-b624-8570130a0365",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b41470f1c4534e4acc65a34e75d78ef85a31ac4f6554dcfc0ef98340cebdaf7a",
+      "name": "Tư thế mặt bò với hai tay",
+      "description": "",
+      "steps": [
+        "Bắt đầu ngồi thoải mái trên thảm, hai chân bắt chéo và cột sống thẳng.",
+        "Duỗi tay phải lên trần rồi co khuỷu tay, đưa bàn tay phải ra sau đầu.",
+        "Đưa tay trái ra sau lưng, co khuỷu tay và đưa bàn tay trái lên giữa hai bả vai.",
+        "Nắm hai tay sau lưng, cố gắng chạm các đầu ngón tay. Nếu chưa với tới, có thể dùng dây hoặc khăn nối khoảng cách giữa hai tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Two Arms Cow Face Pose",
+        "description": "",
+        "steps": [
+          "Begin in a comfortable seated position on your mat, with your legs crossed and your spine straight.",
+          "Extend your right arm up toward the ceiling and bend it at the elbow, bringing your right hand behind your head.",
+          "Reach your left arm behind your back and bend it at the elbow, bringing your left hand up between your shoulder blades.",
+          "Clasp your hands behind your back, trying to touch your fingertips together. If you can't quite reach, you can use a strap or towel to bridge the gap between your hands."
+        ]
+      }
+    },
+    {
+      "exercise_id": "85201fa8-3455-40a3-b14a-782d18725b28",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "65808dc8b02f889f0d41a62a6442f739a52bf71a0a07e5c87681d2886821138b",
+      "name": "Tư thế bánh xe Urdhva Dhanurasana",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai chân cách nhau rộng bằng hông và đầu gối co.",
+        "Đặt hai tay trên sàn cạnh đầu, đầu ngón tay hướng về vai.",
+        "Ấn chân và tay xuống sàn, nâng hông và duỗi thẳng tay.",
+        "Nâng ngực về phía trần, giữ trong vài nhịp thở rồi hạ xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Urdhva Dhanurasana Wheel Pose",
+        "description": "",
+        "steps": [
+          "Lie down on your back with your feet hip-distance apart and your knees bent.",
+          "Place your hands on the floor beside your head, fingertips pointing towards your shoulders.",
+          "Push your feet and hands into the floor, lift your hips up and straighten your arms.",
+          "Lift your chest towards the ceiling and hold the pose for a few breaths before lowering back down."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0cc7c1484ac78fd45a0077238d9e585ed538d6187e27a913ac7acf6d610a5355",
+      "name": "Tư thế kim cương Vajrasana biến thể 1",
+      "description": "",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+        "Ngồi về gót chân, đặt lòng bàn tay úp trên đùi với các ngón hướng về đầu gối.",
+        "Thả lỏng vai và thở sâu.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Vajrasana Variation 1",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place your palms face down on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b92df305f5c67601f808e11ccee50a3a05b7eb48c0ab30e309b388ecce028adb",
+      "name": "Tư thế kim cương Vajrasana biến thể 2",
+      "description": "",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+        "Ngồi về gót chân, đặt mu bàn tay trên đùi với các ngón hướng về đầu gối.",
+        "Thả lỏng vai và thở sâu.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Vajrasana Variation 2",
+        "description": "",
+        "steps": [
+          "Beginner",
+          "Begin in a kneeling position with your knees together and your shins and feet on the floor.",
+          "Sit back on your heels and place the tops of your hands on your thighs, with your fingers pointing towards your knees.",
+          "Relax your shoulders and take deep breaths.",
+          "Hold the pose for several breaths or as long as is comfortable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ae25ebe4-66a6-4e12-aaf7-9a695b5cd5cb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5e5f02ad361028319a707523743b2151c09c402ecea053a7b763bbe19c084454",
+      "name": "Di chuyển chân trong tư thế chó úp mặt",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, hai tay rộng bằng vai và hai chân rộng bằng hông.",
+        "Bước chân về phía tay, co gối khi cần để gót chân chạm thảm.",
+        "Ấn lòng bàn tay và ngón tay xuống thảm, nâng hông về phía trần để tăng mức giãn cơ đùi sau và bắp chân.",
+        "Giữ trong vài nhịp thở rồi thả tư thế bằng cách từ từ bước tay trở ra về tư thế chó úp mặt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Walk Your Downward Dog",
+        "description": "",
+        "steps": [
+          "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+          "Walk your feet towards your hands, bending your knees as needed to allow your heels to touch the mat.",
+          "Press your palms and fingers into the mat and lift your hips up towards the ceiling to deepen the stretch in your hamstrings and calves.",
+          "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fded0ed5-e7b0-4ca6-b565-2c3c1772ca08",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5baf76af8d1a30f48ae790c62592ab099b607b67b9914d7d2f7bda267986f15e",
+      "name": "Tư thế chiến binh I",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hơi xoay vào trong, giữ chân phải hướng về trước.",
+        "Hít vào, nâng tay qua đầu, sau đó thở ra và co gối phải đến ngay trên cổ chân.",
+        "Giữ trong vài nhịp thở rồi hít vào, trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Warrior One",
+        "description": "",
+        "steps": [
+          "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+          "Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward.",
+          "Inhale and raise your arms overhead, then exhale and bend your right knee, bringing it directly over your ankle.",
+          "Hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fa613ff6-cb64-4bae-9a75-a6b4745c0b4d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "336be08229bd253fef81689cd8028f1db2472e38d6e5c42f89d2245b903f8c01",
+      "name": "Tư thế chiến binh III",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet rồi nhấc khỏi sàn, giữ chân phải hướng về trước.",
+        "Hít vào và vươn tay ra trước, song song với sàn.",
+        "Thở ra, gập người tại hông để thân song song với sàn, duỗi chân trái thẳng ra sau. Giữ tay và chân phải thẳng, giữ tư thế trong vài nhịp thở.",
+        "Hít vào và trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Warrior Three",
+        "description": "",
+        "steps": [
+          "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+          "Step your left foot back about 3-4 feet and raise it off the ground, while keeping your right foot facing forward.",
+          "Inhale and reach your arms forward, parallel to the ground.",
+          "Exhale and hinge forward at your hips, bringing your torso parallel to the ground and extending your left leg straight back. Keep your arms and right leg straight and hold the pose for a few breaths",
+          "inhale and return to mountain pose. Repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c93f03a9-a0eb-4e03-b96a-0e09a2163750",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e466fb7a5d27171cb2926fb6aa2a11305499dae3d800e5a67c8089a264971daa",
+      "name": "Tư thế chiến binh II",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hơi xoay vào trong, giữ chân phải hướng về trước.",
+        "Hít vào và nâng tay ngang vai, song song với sàn, lòng bàn tay hướng xuống.",
+        "Thở ra, co gối phải đến ngay trên cổ chân, giữ chân trái thẳng.",
+        "Nhìn qua tay phải, giữ trong vài nhịp thở rồi hít vào và trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Warrior Two",
+        "description": "",
+        "steps": [
+          "Start in mountain pose, standing with your feet hip-width apart and arms at your sides.",
+          "Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward.",
+          "Inhale and raise your arms to shoulder height, parallel to the ground, with your palms facing down.",
+          "Exhale and bend your right knee, bringing it directly over your ankle while keeping your left leg straight.",
+          "Look over your right hand and hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a130844b-c351-4ca9-afc3-7523cb70101d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8c308d0e019a809fcf490954b1e699d26c10dde0042065a101cecf860b3e02fc",
+      "name": "Đứng rộng chân gập người với tay sau lưng",
+      "description": "",
+      "steps": [
+        "Bắt đầu đứng ở đầu thảm, hai chân mở rộng.",
+        "Đan các ngón tay sau lưng, hít vào để mở ngực.",
+        "Thở ra và gập người tại hông, đưa tay lên qua đầu về phía sàn.",
+        "Giữ trong vài nhịp thở rồi thả tay và trở lại tư thế đứng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Wide Legged Forward Fall",
+        "description": "",
+        "steps": [
+          "Start standing at the top of your mat with your feet wide apart.",
+          "Interlace your fingers behind your back and inhale to expand your chest.",
+          "Exhale and fold forward from your hips, bringing your hands up and over your head towards the ground.",
+          "Hold for a few breaths and then release the hands and come back up to standing."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b0d30fea-4a36-418a-b5a5-a103749069f4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "87d2cb88710522d8457c16c6939a2bd6b2f47148125b056b0b64e9df04d1a5e1",
+      "name": "Giãn tay yoga theo các góc đồng hồ",
+      "description": "",
+      "steps": [
+        "Đứng đối diện tường, duỗi tay và ấn lòng bàn tay lên tường ngang vai.",
+        "Từ từ bước chân ra xa tường, giữ tay thẳng và bàn tay ấn vào tường.",
+        "Bước đến khi tay duỗi hoàn toàn và cơ thể tạo góc 45 độ với sàn.",
+        "Lặp lại từ góc cao xuống thấp, bắt đầu phía trên vai và kết thúc phía dưới ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Yogi Arm Clock",
+        "description": "",
+        "steps": [
+          "Stand facing a wall with your arms extended and your palms pressing into the wall at shoulder height.",
+          "Slowly begin to walk your feet away from the wall, keeping your arms straight and your hands pressing into the wall.",
+          "Walk until your arms are fully extended and your body is at a 45-degree angle to the ground.",
+          "Repeat From High to Low Angles starting above the shoulder, and ending below the chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b5e7f064-7ee3-4d22-9075-13c0da274a92",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a8dddf6713d13a9e233c575c6f11d2da34cc4060c6526304d198a3dee972e710",
+      "name": "Nằm sấp trên hộp kéo dây kiểu cày trong Pilates",
+      "description": "",
+      "steps": [
+        "Nằm sấp trên hộp, ngực hơi vượt mép hộp, hai tay giữ dây phía trên đầu.",
+        "Bắt đầu với hai tay duỗi dài, lòng bàn tay hướng xuống, vai hạ và cổ trung tính.",
+        "Kéo tay xuống về phía hông, siết cơ xô và giữ thân ổn định.",
+        "Từ từ trở về vị trí ban đầu, giữ kiểm soát và lực căng liên tục trên dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:56:38.229Z",
+      "source": {
+        "name": "Arms Pulling Straps Plow Prone On The Box",
+        "description": "",
+        "steps": [
+          "Lie prone on the box, chest just off edge, arms holding straps overhead.",
+          "Start with arms long, palms down, shoulders depressed and neck neutral.",
+          "Pull arms down toward hips, squeezing lats while keeping torso stable.",
+          "Return slowly to start, maintaining control and continuous tension on straps."
+        ]
+      }
+    }
+  ]
+}

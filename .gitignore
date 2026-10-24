@@ -19,6 +19,9 @@
 # generated media migration manifests (contain object inventory and checksums)
 /artifacts/media-migration/
 
+# Generated localization snapshots, dry-run reports and import checkpoints.
+/artifacts/localization/
+
 # next.js
 /.next/
 /out/

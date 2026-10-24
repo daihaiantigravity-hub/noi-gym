@@ -1,10 +1,15 @@
 "use client";
 
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages } from "@/lib/i18n/messages";
+
 const loadingCards = ["first", "second", "third"];
 
 export default function ExerciseLibraryLoading() {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   return (
-    <main aria-busy="true" aria-label="Loading exercise list" className="exercise-library-page exercise-library-loading health-mood-surface">
+    <main aria-busy="true" aria-label={messages.loadingExerciseList} className="exercise-library-page exercise-library-loading health-mood-surface">
       <header aria-hidden="true" className="exercise-library-header">
         <div className="exercise-library-loading__back" />
         <div className="exercise-library-loading__title" />
@@ -21,7 +26,7 @@ export default function ExerciseLibraryLoading() {
           ))}
         </div>
       </section>
-      <p className="exercise-library-loading__status" role="status">Loading exercises…</p>
+      <p className="exercise-library-loading__status" role="status">{messages.loadingExercises}</p>
     </main>
   );
 }

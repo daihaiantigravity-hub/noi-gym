@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared full source blocks with Vietnamese text, retaining single/double loads, rack/goblet positions, support, grip, leg directions, angles and step order. Held conflicting arm alternation, load quantities and reverse-lunge leg references.",
+  "translations": [
+    {
+      "index": 181,
+      "sourceName": "Stability Ball Single Leg Hip Thrust",
+      "name": "Đẩy hông một chân tựa bóng thăng bằng",
+      "steps": [
+        "Nằm trên bóng, một bàn chân trên đất.",
+        "Nhấc một chân khỏi đất, siết cơ mông để nâng hông lên phía trần.",
+        "Từ vị trí này, từ từ hạ hông trở về vị trí ban đầu."
+      ],
+      "exercise_id": "2057dc38-bdff-494f-9e5d-77166d305cd1"
+    },
+    {
+      "index": 182,
+      "sourceName": "Stability Ball Sissy Squat",
+      "name": "Sissy squat tựa bóng vào tường",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, bóng thăng bằng ở sau lưng tựa vào tường.",
+        "Ngả lưng lên bóng, gập gối về trước và từ từ hạ xuống, giữ hông duỗi.",
+        "Ấn các ngón chân, duỗi chân và đứng lên, duy trì thăng bằng và kiểm soát."
+      ],
+      "exercise_id": "f1943d52-a888-4c5e-add8-d95b1a44d1fa"
+    },
+    {
+      "index": 183,
+      "sourceName": "Stability Ball Stir The Pot",
+      "name": "Plank xoay cẳng tay trên bóng thăng bằng",
+      "steps": [
+        "Quỳ sau bóng thăng bằng, đặt cẳng tay lên bóng và siết cơ bụng.",
+        "Nhấc đầu gối, giữ thăng bằng trên các ngón chân và từ từ di chuyển cẳng tay thành vòng tròn nhỏ có kiểm soát.",
+        "Giữ thân ổn định, tránh di chuyển quá mức và đổi hướng sau vài vòng xoay."
+      ],
+      "exercise_id": "4ee129e7-bab3-4317-9826-9e9a53a7d69c"
+    },
+    {
+      "index": 184,
+      "sourceName": "Stability Ball Straight Leg Glute Bridge",
+      "name": "Nâng mông chân thẳng kê bóng thăng bằng",
+      "steps": [
+        "Nằm ngửa, gót chân trên bóng thăng bằng, chân thẳng, hai tay bên thân.",
+        "Ấn gót chân, nâng hông, siết cơ mông và cơ bụng để tạo đường thẳng.",
+        "Từ từ hạ hông có kiểm soát rồi lặp lại theo số lần tập."
+      ],
+      "exercise_id": "fc281bea-906d-40bc-9a4a-c4c17e2699c5"
+    },
+    {
+      "index": 185,
+      "sourceName": "Stability Ball V Up Pass",
+      "name": "Gập người chữ V chuyền bóng thăng bằng",
+      "steps": [
+        "Nằm ngửa, kẹp bóng thăng bằng giữa hai bàn chân, hai tay duỗi qua đầu.",
+        "Siết cơ bụng, nâng chân và tay, chuyền bóng từ chân sang tay.",
+        "Hạ tay và chân xuống, sau đó lặp lại, chuyền bóng về chân."
+      ],
+      "exercise_id": "bf3618bf-0063-4f07-bd72-d12f33cd811a"
+    },
+    {
+      "index": 186,
+      "sourceName": "Stability Ball Windshield Wiper",
+      "name": "Nằm xoay chân kiểu gạt mưa với bóng thăng bằng",
+      "steps": [
+        "Nằm ngửa, chân duỗi, bóng thăng bằng giữa hai bàn chân, hai tay dang làm điểm tựa.",
+        "Siết cơ bụng, nâng chân và xoay hai chân sang hai bên có kiểm soát.",
+        "Giữ thân trên ổn định, di chuyển chậm và trở về giữa trước khi đổi hướng."
+      ],
+      "exercise_id": "33f1bd45-4f94-4571-8e90-c5dbf754abbf"
+    },
+    {
+      "index": 187,
+      "sourceName": "Supermans",
+      "name": "Nâng người kiểu Superman",
+      "steps": [
+        "Nằm sấp trên sàn, hai tay duỗi hoàn toàn ra trước.",
+        "Đồng thời nâng tay, chân và ngực khỏi sàn rồi giữ tư thế.",
+        "Từ từ hạ tay, chân và ngực về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "4ca893e0-0b14-4719-99af-661ef2f2823b"
+    },
+    {
+      "index": 188,
+      "sourceName": "Switch Jump Mountain Climber",
+      "name": "Plank nhảy đổi chân kiểu leo núi",
+      "steps": [
+        "Vào tư thế plank, hai tay dưới vai.",
+        "Bật một chân về trước, đổi chân khi đang ở trên không.",
+        "Luân phiên hai chân nhanh, giữ tư thế plank ổn định."
+      ],
+      "exercise_id": "d7be4095-2952-4fd9-aa58-6c98c8987cc6"
+    },
+    {
+      "index": 189,
+      "sourceName": "Tip Toe Walking",
+      "name": "Đi bộ kiễng chân",
+      "steps": [
+        "Ấn các ngón chân xuống sàn.",
+        "Từ từ đi về trước và về sau.",
+        "Giữ gót chân trên không lâu nhất có thể trong khi đi.",
+        "Có thể có lợi khi tập bài này cuối cùng, vào cuối buổi tập."
+      ],
+      "exercise_id": "a9921698-7396-41bf-8896-27f411f4340d"
+    },
+    {
+      "index": 190,
+      "sourceName": "Walking Calf Raises",
+      "name": "Đi bộ nhón gót",
+      "steps": [
+        "Đi về trước và ấn ngón chân xuống đất.",
+        "Nhấc gót chân khỏi đất ở mỗi bước và siết cơ bắp chân.",
+        "Lặp lại với từng chân và đi chậm về trước."
+      ],
+      "exercise_id": "e876da2d-536d-47ee-92d2-66e7ccb03279"
+    },
+    {
+      "index": 191,
+      "sourceName": "Walking Lunge",
+      "name": "Chùng chân bước đi",
+      "steps": [
+        "Bước về trước, chuyển trọng lượng lên chân trước.",
+        "Gập gối chân trước để đầu gối sau gần chạm đất.",
+        "Đứng lên và chùng chân bằng chân đối diện."
+      ],
+      "exercise_id": "e65cc201-43a4-4ccf-89f6-bcb6bd3afa26"
+    },
+    {
+      "index": 192,
+      "sourceName": "Wall Sit",
+      "name": "Ngồi tựa tường",
+      "steps": [
+        "Áp lưng vào tường, hai chân rộng bằng vai.",
+        "Hạ vào tư thế squat, đùi song song với sàn, đầu gối trên cổ chân.",
+        "Giữ tư thế, duy trì lực căng ở cơ bụng và chân."
+      ],
+      "exercise_id": "7c2dd8d6-301b-4770-b7e4-c03143d03321"
+    },
+    {
+      "index": 193,
+      "sourceName": "Kettlebell Alternating Forward Lunge",
+      "name": "Chùng chân bước tới luân phiên với tạ ấm",
+      "steps": [
+        "Đứng thẳng, giữ tạ ấm hai bên thân, hai chân rộng bằng hông.",
+        "Bước một chân về trước, hạ người đến khi cả hai gối tạo góc 90°.",
+        "Đạp chân trước để trở về vị trí ban đầu rồi đổi chân."
+      ],
+      "exercise_id": "0dff97f5-7a9e-4408-9a06-7a63d415da06"
+    },
+    {
+      "index": 194,
+      "sourceName": "Kettlebell Alternating Lateral Lunge",
+      "name": "Chùng chân sang ngang luân phiên với tạ ấm",
+      "steps": [
+        "Dùng một hoặc cả hai tay giữ một tạ ấm, hai chân rộng bằng hông.",
+        "Bước sang một bên và gập đầu gối bên đó.",
+        "Đạp chân để trở về giữa rồi đổi bên."
+      ],
+      "exercise_id": "dab48817-ae6e-4868-8551-342854ee18fe"
+    },
+    {
+      "index": 196,
+      "sourceName": "Kettlebell Alternating Row",
+      "name": "Kéo tạ ấm luân phiên từng tay",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, một tay giữ tạ ấm.",
+        "Gập hông, kéo tạ về ngực.",
+        "Đổi tay sau mỗi lần kéo."
+      ],
+      "exercise_id": "004dbea4-f798-4c78-bbe3-ec0802795211"
+    },
+    {
+      "index": 198,
+      "sourceName": "Kettlebell Alternating Z Press",
+      "name": "Ngồi duỗi chân đẩy tạ ấm luân phiên kiểu Z press",
+      "steps": [
+        "Ngồi thẳng, hai chân duỗi, giữ tạ ấm ngang vai.",
+        "Siết cơ bụng, đẩy một tạ qua đầu, không ngả người về sau.",
+        "Từ từ hạ xuống rồi lặp lại với tay đối diện."
+      ],
+      "exercise_id": "968af6f0-a480-4dc9-91af-94c2112476ad"
+    },
+    {
+      "index": 199,
+      "sourceName": "Kettlebell Assisted Bulgarian Split Squat",
+      "name": "Bulgarian split squat với tạ ấm có điểm tựa",
+      "steps": [
+        "Nắm một cây gậy hoặc giữ vào vật chắc chắn như giá tập hay ghế.",
+        "Chuẩn bị bục cao ngang gối hoặc thấp hơn một chút.",
+        "Tay phải giữ gậy, tay kia giữ tạ ấm, đặt chân phải lên bục.",
+        "Gập gối để bắt đầu squat. Hạ đầu gối gần sàn hoặc chạm sàn. Giữ ngực nâng."
+      ],
+      "exercise_id": "4e16c8b3-f1c6-4f22-b65d-d897df6625bf"
+    },
+    {
+      "index": 200,
+      "sourceName": "Kettlebell Bench Press",
+      "name": "Đẩy ngực với tạ ấm trên ghế",
+      "steps": [
+        "Nằm trên ghế, giữ tạ ấm phía trên ngực.",
+        "Hạ tạ về ngực rồi đẩy lên.",
+        "Lặp lại theo số lần mong muốn, giữ đúng tư thế."
+      ],
+      "exercise_id": "a554ee78-f0f8-48cb-a8eb-ffc7f513928f"
+    },
+    {
+      "index": 201,
+      "sourceName": "Kettlebell Bench Wrist Curl",
+      "name": "Gập cổ tay với tạ ấm tựa ghế",
+      "steps": [
+        "Nắm tạ ấm với lòng bàn tay ngửa, cẳng tay tựa trên ghế.",
+        "Từ từ gập cổ tay lên theo đường nửa vòng tròn.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "4bf4a245-2562-4173-980e-f252aa3f63d9"
+    },
+    {
+      "index": 202,
+      "sourceName": "Kettlebell Bottoms Up Overhead Press",
+      "name": "Đẩy tạ ấm qua đầu với đáy tạ hướng lên",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, mỗi tay giữ một tạ ấm với đáy tạ hướng lên.",
+        "Đưa tạ lên vai, lòng bàn tay hướng về trước và khuỷu tay co.",
+        "Từ vị trí này, duỗi hai tay lên để tạ ở trên đầu.",
+        "Giữ cơ bụng siết và lưng thẳng trong suốt chuyển động."
+      ],
+      "exercise_id": "f0e60e18-6f67-4ced-a139-f9da8b02ad3b"
+    },
+    {
+      "index": 203,
+      "sourceName": "Kettlebell Bottoms Up Single Arm Overhead Press",
+      "name": "Đẩy tạ ấm qua đầu một tay với đáy tạ hướng lên",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ một tạ ấm với đáy tạ hướng lên.",
+        "Đưa tạ lên vai, lòng bàn tay hướng về trước và khuỷu tay co.",
+        "Từ vị trí này, duỗi tay lên để tạ ở trên đầu.",
+        "Giữ cơ bụng siết và lưng thẳng trong suốt chuyển động."
+      ],
+      "exercise_id": "43bc3c56-71d3-420f-90ab-a861174ba873"
+    },
+    {
+      "index": 204,
+      "sourceName": "Kettlebell Box Squat",
+      "name": "Squat ngồi bục với tạ ấm",
+      "steps": [
+        "Đứng trước bục hoặc ghế, hai chân rộng bằng vai, giữ tạ ấm kiểu goblet trước ngực.",
+        "Hạ người vào tư thế squat, ngồi về sau lên bục và dừng một chút trước khi đứng lên.",
+        "Ấn gót chân để trở về tư thế đứng."
+      ],
+      "exercise_id": "69a60d6c-15d7-4d94-8921-39687388c9b9"
+    },
+    {
+      "index": 205,
+      "sourceName": "Kettlebell Calf Raise",
+      "name": "Nhón gót với tạ ấm",
+      "steps": [
+        "Đứng thẳng, mỗi tay giữ một tạ ấm, nâng gót chân lên và giữ đầu gối cố định.",
+        "Dừng khi gót chân nâng hết biên độ, sau đó từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "db60f9f3-d16a-4255-81c3-0a9f7f6339bb"
+    },
+    {
+      "index": 206,
+      "sourceName": "Kettlebell Chest Press (Single)",
+      "name": "Đẩy ngực với một tạ ấm trên sàn",
+      "steps": [
+        "Nằm trên sàn, đầu gối co, bàn chân đặt chắc trên sàn, dùng hai tay giữ tạ ấm tại ngực.",
+        "Duỗi hoàn toàn hai tay, nâng tạ đến khi khóa khuỷu tay.",
+        "Hạ tạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "a999ab3c-f64c-47af-9023-3ed9b8b44fa3"
+    },
+    {
+      "index": 207,
+      "sourceName": "Kettlebell Clean And Jerk",
+      "name": "Đưa tạ ấm lên vai và đẩy có trợ lực chân",
+      "steps": [
+        "Vung tạ giữa hai chân rồi kéo lên vị trí trước vai.",
+        "Hơi nhún người, đạp chân và đẩy tạ qua đầu.",
+        "Hạ về vị trí trước vai rồi vung xuống để bắt đầu lần lặp tiếp theo."
+      ],
+      "exercise_id": "8b23a5b6-5492-4f94-90ba-383fe4b8894d"
+    },
+    {
+      "index": 208,
+      "sourceName": "Kettlebell Concentration Curl",
+      "name": "Cuốn tay trước tập trung với tạ ấm",
+      "steps": [
+        "Ngồi trên ghế, hai chân mở, tựa tay vào đùi và giữ tạ ấm với tay duỗi xuống sàn.",
+        "Gập khuỷu tay để nâng tạ đến khi lòng bàn tay hướng về vai.",
+        "Hạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "c01d5729-b70a-4338-acf8-ee8cf6760f9b"
+    },
+    {
+      "index": 209,
+      "sourceName": "Kettlebell Conventional Deadlift (Double)",
+      "name": "Deadlift thông thường với hai tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng hông.",
+        "Gập hông và gối để nâng các tạ ấm.",
+        "Đứng thẳng rồi hạ xuống."
+      ],
+      "exercise_id": "e9662fb5-da35-43b4-bea8-2683299ca827"
+    },
+    {
+      "index": 210,
+      "sourceName": "Kettlebell Cossack Squat",
+      "name": "Cossack squat với tạ ấm",
+      "steps": [
+        "Giữ một hoặc nhiều tạ ấm giữa hai đùi và đứng rộng chân.",
+        "Chuyển người sang một bên, gập đầu gối bên đó và duỗi chân đối diện.",
+        "Giữ ngực nâng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi đổi bên."
+      ],
+      "exercise_id": "8996e067-8ddf-4776-9651-dcaeb88b5953"
+    },
+    {
+      "index": 211,
+      "sourceName": "Kettlebell Curl",
+      "name": "Cuốn tay trước với tạ ấm",
+      "steps": [
+        "Nắm hai tạ ấm và đứng thẳng.",
+        "Cuốn tạ về phía ngực.",
+        "Hạ tạ rồi lặp lại."
+      ],
+      "exercise_id": "8611ca5b-d8f1-40a7-ac89-cc9de6dbbfc7"
+    },
+    {
+      "index": 212,
+      "sourceName": "Kettlebell Deadlift (Single)",
+      "name": "Deadlift với một tạ ấm",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ tạ ấm trước đùi.",
+        "Gập người về trước tại hông, đưa tạ xuống sàn trong khi hơi co gối và giữ lưng thẳng.",
+        "Trở về tư thế đứng rồi lặp lại."
+      ],
+      "exercise_id": "74e8e256-5d73-4331-8b63-5cab4d22d14d"
+    },
+    {
+      "index": 213,
+      "sourceName": "Kettlebell Decline Skull Crusher",
+      "name": "Duỗi tay sau kiểu skullcrusher với tạ ấm ở tư thế dốc xuống",
+      "steps": [
+        "Nằm trên sàn với lưng trên và lòng bàn chân chạm sàn, đầu gối co, chậu và lưng dưới nâng khỏi sàn.",
+        "Dùng hai tay giữ tạ ấm ngay phía trên ngực.",
+        "Giữ yên bắp tay, gập khuỷu tay để đưa tạ xuống sàn phía trên đầu.",
+        "Đưa tạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "1736e5ac-bd55-4dfc-8bc2-ae64c6a193b0"
+    },
+    {
+      "index": 214,
+      "sourceName": "Kettlebell Deficit Reverse Lunge",
+      "name": "Chùng chân lùi từ bục với tạ ấm",
+      "steps": [
+        "Đứng trên bục, mỗi tay giữ tạ ấm, hai chân rộng bằng hông.",
+        "Bước lùi, hạ đầu gối về phía sàn, giữ ngực thẳng và cơ bụng siết.",
+        "Đạp chân trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "18b8f806-40c0-46db-9d5a-2c28142d400f"
+    },
+    {
+      "index": 215,
+      "sourceName": "Kettlebell Drag Curl",
+      "name": "Cuốn tạ ấm kéo sát người",
+      "steps": [
+        "Nắm ngửa hai tạ ấm.",
+        "Kéo khuỷu tay thẳng về sau, để tạ trượt sát hoặc rất gần thân trên."
+      ],
+      "exercise_id": "6043ddc3-e2f2-4519-b0c0-ecfbb5cc61a3"
+    },
+    {
+      "index": 216,
+      "sourceName": "Kettlebell Figure Four Hip Thrust",
+      "name": "Đẩy hông với tạ ấm và chân hình số bốn",
+      "steps": [
+        "Bắt đầu ở tư thế ngồi, đặt tạ ấm trên hông.",
+        "Nâng hông, tạo tư thế chân hình số bốn.",
+        "Hạ xuống và lặp lại động tác đẩy hông."
+      ],
+      "exercise_id": "2e830e65-2e63-46e5-8f88-d62355d755cd"
+    },
+    {
+      "index": 217,
+      "sourceName": "Kettlebell Floor Fly",
+      "name": "Ép ngực với tạ ấm trên sàn",
+      "steps": [
+        "Nằm ngửa, giữ tạ ấm phía trên ngực, khuỷu tay hơi co.",
+        "Hạ hai tay rộng sang hai bên đến khi khuỷu tay chạm nhẹ sàn.",
+        "Đưa các tạ về gần nhau trên ngực, siết cơ ngực ở điểm cao nhất."
+      ],
+      "exercise_id": "264f88b0-cb9d-4b14-ad7a-9e62274c354c"
+    },
+    {
+      "index": 218,
+      "sourceName": "Kettlebell Floor Press",
+      "name": "Đẩy ngực với tạ ấm trên sàn",
+      "steps": [
+        "Nằm ngửa với các tạ ấm duỗi phía trên người.",
+        "Hạ khuỷu tay xuống sàn, dừng một giây để loại bỏ hoàn toàn đà của lần lặp, sau đó đẩy lên đến khi khóa tay."
+      ],
+      "exercise_id": "8cea8e17-2080-46e5-8812-4cc3b3c16ab8"
+    },
+    {
+      "index": 220,
+      "sourceName": "Kettlebell Front Rack Cossack Squat",
+      "name": "Cossack squat với tạ ấm giữ trước vai",
+      "steps": [
+        "Giữ tạ ấm tại vai và đứng rộng chân.",
+        "Chuyển người sang một bên, gập đầu gối bên đó và duỗi chân đối diện.",
+        "Giữ thân thẳng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi đổi bên."
+      ],
+      "exercise_id": "1df014b7-23ca-47e3-92ec-f54ca472be98"
+    },
+    {
+      "index": 221,
+      "sourceName": "Kettlebell Front Rack Curtsy Lunge (Double)",
+      "name": "Chùng chân chéo với hai tạ ấm giữ trước vai",
+      "steps": [
+        "Giữ các tạ ấm ở vị trí trước vai.",
+        "Bước chéo về sau vào tư thế chùng chân."
+      ],
+      "exercise_id": "ac1a4088-35a4-4e9b-a33b-0d9fa7e23a94"
+    },
+    {
+      "index": 222,
+      "sourceName": "Kettlebell Front Rack Deficit Reverse Lunge",
+      "name": "Chùng chân lùi từ bục với tạ ấm giữ trước vai",
+      "steps": [
+        "Đứng trên bục, giữ tạ ấm ở vị trí trước vai, hai chân rộng bằng hông.",
+        "Bước lùi, hạ đầu gối về phía sàn, giữ ngực thẳng và cơ bụng siết.",
+        "Đạp chân trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "b484da41-ee14-49ac-9599-c16a2a7ba876"
+    },
+    {
+      "index": 223,
+      "sourceName": "Kettlebell Front Rack Forward Lunge (Double)",
+      "name": "Chùng chân bước tới với hai tạ ấm giữ trước vai",
+      "steps": [
+        "Bắt đầu với các tạ ấm ở vị trí trước vai.",
+        "Bước về trước vào tư thế chùng chân.",
+        "Trở về vị trí ban đầu."
+      ],
+      "exercise_id": "87e165a6-3638-4ca9-a879-b991c19eab5e"
+    },
+    {
+      "index": 226,
+      "sourceName": "Kettlebell Front Rack Single Arm Lateral Lunge",
+      "name": "Chùng chân sang ngang với một tạ ấm giữ trước vai",
+      "steps": [
+        "Giữ tạ ấm ở vị trí trước vai.",
+        "Bước sang bên và chùng chân."
+      ],
+      "exercise_id": "1167dddd-14dd-4e90-858e-c18de46b241f"
+    },
+    {
+      "index": 227,
+      "sourceName": "Kettlebell Front Rack Squat",
+      "name": "Squat với tạ ấm giữ trước vai",
+      "steps": [
+        "Giữ các tạ ấm gần ngực.",
+        "Squat xuống, giữ ngực nâng.",
+        "Đứng lên, duỗi hoàn toàn hông."
+      ],
+      "exercise_id": "eb80d353-341e-4813-bda6-f11847d88b09"
+    },
+    {
+      "index": 228,
+      "sourceName": "Kettlebell Front Rack Step Up",
+      "name": "Bước lên bục với tạ ấm giữ trước vai",
+      "steps": [
+        "Đứng trước bậc hoặc ghế, hai chân rộng bằng vai, giữ tạ ấm tại vai.",
+        "Bước chân phải lên ghế, đạp chân để nâng người lên ghế."
+      ],
+      "exercise_id": "7670c6e4-2c88-49d5-9938-cd659af76f2f"
+    },
+    {
+      "index": 229,
+      "sourceName": "Kettlebell Front Rack Step Up Knee Drive",
+      "name": "Bước lên bục nâng gối với tạ ấm giữ trước vai",
+      "steps": [
+        "Giữ tạ ấm ở vị trí trước vai, đặt một bàn chân lên bục.",
+        "Ấn gót chân trước để bước lên, giữ ngực nâng và cơ bụng siết.",
+        "Nâng cao đầu gối chân sau ở điểm trên cùng rồi từ từ bước xuống có kiểm soát."
+      ],
+      "exercise_id": "eb005115-f5f2-4e9d-8a03-223569e6ef2e"
+    },
+    {
+      "index": 230,
+      "sourceName": "Kettlebell Front Raise",
+      "name": "Nâng tạ ấm ra trước",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai, giữ tạ ấm trước chậu.",
+        "Giữ tay thẳng, nâng tạ hơi cao hơn đầu.",
+        "Trở về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "8651bae5-f754-4db6-9e25-dfb88eaf52dc"
+    },
+    {
+      "index": 231,
+      "sourceName": "Kettlebell Full Swing",
+      "name": "Vung tạ ấm qua đầu",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tạ ấm giữa hai chân.",
+        "Gập hông, nắm tạ và vung qua đầu.",
+        "Duỗi hông và gối, khóa hai tay ở điểm cao nhất."
+      ],
+      "exercise_id": "0480ac40-eb99-49b3-aea6-5370f26a4ee1"
+    },
+    {
+      "index": 232,
+      "sourceName": "Kettlebell Glute Bridge",
+      "name": "Nâng mông với tạ ấm",
+      "steps": [
+        "Nằm trên sàn, đầu gối co và bàn chân đặt chắc trên sàn, đặt tạ ấm trên chậu.",
+        "Đạp chân và giữ cơ bụng siết, nâng chậu khỏi sàn đến khi bụng, chậu và đùi thành đường thẳng.",
+        "Từ từ hạ xuống đất về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "61f5dfd5-f2f0-4cff-8a41-f8908768d9b6"
+    },
+    {
+      "index": 233,
+      "sourceName": "Kettlebell Goblet Calf Raise",
+      "name": "Nhón gót với tạ ấm giữ trước ngực",
+      "steps": [
+        "Đứng thẳng, giữ tạ ấm kiểu goblet trước ngực, nâng gót chân lên và giữ đầu gối cố định.",
+        "Dừng khi gót chân nâng hết biên độ, sau đó từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "dc410836-436b-421c-b6fd-cff6c3bcc462"
+    },
+    {
+      "index": 234,
+      "sourceName": "Kettlebell Goblet Cossack Squat",
+      "name": "Cossack squat với tạ ấm giữ trước ngực",
+      "steps": [
+        "Giữ một tạ ấm trước ngực và đứng rộng chân.",
+        "Chuyển người sang một bên, gập đầu gối bên đó và duỗi chân đối diện.",
+        "Giữ ngực nâng và bàn chân đang tập đặt phẳng.",
+        "Đạp chân đang co để trở lại rồi đổi bên."
+      ],
+      "exercise_id": "2bcd22ab-3b27-417f-b2b9-32634ac0cfd1"
+    },
+    {
+      "index": 235,
+      "sourceName": "Kettlebell Goblet Curl",
+      "name": "Cuốn tay trước hai tay với tạ ấm",
+      "steps": [
+        "Đứng thẳng, dùng hai tay giữ tạ ấm trước chậu.",
+        "Gập khuỷu tay để nâng tạ đến ngang ngực.",
+        "Hạ về vị trí ban đầu rồi lặp lại."
+      ],
+      "exercise_id": "ef01849a-d97a-41f8-b01d-5ed58121b721"
+    },
+    {
+      "index": 236,
+      "sourceName": "Kettlebell Goblet Good Morning",
+      "name": "Gập hông kiểu good morning với tạ ấm giữ trước ngực",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ tạ ấm trước ngực.",
+        "Gập người về trước tại hông, giữ lưng và gối thẳng, tạ gần ngực.",
+        "Trở về tư thế đứng và đẩy chậu về trước."
+      ],
+      "exercise_id": "9027e5be-d21f-4cf7-850d-a89bda2f000e"
+    },
+    {
+      "index": 237,
+      "sourceName": "Kettlebell Goblet Squat",
+      "name": "Goblet squat với tạ ấm",
+      "steps": [
+        "Giữ tạ sát vùng ngực trên, khuỷu tay khép. Hai chân hơi rộng hơn vai.",
+        "Hạ vào tư thế squat, giữ khuỷu tay ở phía trong đường di chuyển của đầu gối.",
+        "Ấn gót chân, giữ ngực nâng và trở về vị trí ban đầu."
+      ],
+      "exercise_id": "7923e97f-dbe7-450a-8fa3-1eb95530e4d6"
+    },
+    {
+      "index": 238,
+      "sourceName": "Kettlebell Gorilla Row",
+      "name": "Kéo tạ ấm kiểu gorilla",
+      "steps": [
+        "Đứng với tạ ấm giữa hai chân.",
+        "Gập hông, nắm tạ, kéo về ngực và xoay thân."
+      ],
+      "exercise_id": "42ea2158-1f10-499c-b9a3-1e0718b01910"
+    },
+    {
+      "index": 240,
+      "sourceName": "Kettlebell Half Kneeling Goblet Romanian Deadlift",
+      "name": "Romanian deadlift với tạ ấm giữ trước ngực, một gối tựa ghế",
+      "steps": [
+        "Đặt một đầu gối lên ghế, giữ tạ ấm kiểu goblet trước ngực.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "exercise_id": "2305e5de-9bf1-4e88-9e48-408576065e97"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 195,
+      "sourceName": "Kettlebell Alternating Reverse Lunge",
+      "reason": "The backward leg thigh and supporting knee references conflict; verify the leg cue.",
+      "exercise_id": "c125fd45-3152-4288-bf78-10d17dbe52d1"
+    },
+    {
+      "index": 197,
+      "sourceName": "Kettlebell Alternating Single Arm Thruster",
+      "reason": "The same source says to press both kettlebells and alternate arms, conflicting with the single-arm title.",
+      "exercise_id": "d4611a2c-35b8-4aca-87e1-1d22785b0135"
+    },
+    {
+      "index": 219,
+      "sourceName": "Kettlebell Forward Lunge (Double)",
+      "reason": "The double-kettlebell title has a singular kettlebell setup; verify quantity.",
+      "exercise_id": "df85c495-a531-4231-b477-5b0ee40c3cf3"
+    },
+    {
+      "index": 224,
+      "sourceName": "Kettlebell Front Rack Lateral Lunge (Double)",
+      "reason": "The double-kettlebell title has a singular kettlebell setup; verify quantity.",
+      "exercise_id": "4a566f1f-139f-46fe-996b-3ac6f638db39"
+    },
+    {
+      "index": 225,
+      "sourceName": "Kettlebell Front Rack Reverse Lunge (Double)",
+      "reason": "The double-kettlebell title has a singular kettlebell setup; verify quantity.",
+      "exercise_id": "69cbf422-16b3-488a-8b7e-45fd60765289"
+    },
+    {
+      "index": 239,
+      "sourceName": "Kettlebell Guillotine Bench Press",
+      "reason": "The setup holds one kettlebell in both hands, then the instructions refer to multiple kettlebells; verify quantity and grip.",
+      "exercise_id": "376acc8c-ec4f-4430-9f5d-283edba5d446"
+    }
+  ]
+}

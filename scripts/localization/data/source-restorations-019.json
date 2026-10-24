@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "Yoga source correction and Vietnamese localization",
+  "databaseStatus": "applied_and_verified",
+  "restorations": [
+    {
+      "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333",
+      "source_id": 76547392951327,
+      "before": {
+        "name": "Wide Legged Standing Forward Bend Holding Heels",
+        "description": "",
+        "steps": [
+          "Start standing at the top of your mat with your feet wide apart.",
+          "Exhale and fold forward from your hips, bringing your hands up and over your head towards the ground.",
+          "Hold for a few breaths and then release the hands and come back up to standing."
+        ]
+      },
+      "after": {
+        "name": "Wide Legged Standing Forward Bend Holding Heels",
+        "description": "",
+        "steps": [
+          "Start standing at the top of your mat with your feet wide apart.",
+          "Exhale and fold forward from your hips, reaching both hands down to hold your heels.",
+          "Hold both heels for a few breaths, then release the grip and slowly return to standing."
+        ]
+      },
+      "before_hash": "8675790bdb0a9acb53f18929ff5f43ae2295fe2ed133a61dbd4c064a1b665a0c",
+      "after_hash": "ca5b56d07a888a1c5994b4965612b3b65e257ca8fef3e6bdeb20c11d722716d4",
+      "expected_updated_at": "2026-10-14T10:47:00.304546+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_page_url": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+        "source_page_status": "Live front and side source videos were fetched from the original MuscleWiki video endpoints and reviewed frame by frame.",
+        "visual_observation": "The demonstrations show a wide-legged standing forward fold. At the bottom of the fold, both hands reach down to the feet and hold at the heel area before the person releases and returns to standing. The previous step said only to send the hands overhead toward the ground and omitted the defining heel grip.",
+        "source_media_review": "Male front and side clips and female front and side clips were available; the male front clip clearly shows both hands placed by the heels during the held fold.",
+        "reviewed_at": "2026-10-23T12:15:00.000Z",
+        "actual_updated_at": "2026-10-23T14:35:18.564002+00:00"
+      }
+    }
+  ],
+  "deferred": [],
+  "sourceHashBefore": "56e734d40f05645ebe1bad237878431772388f0bb8464fd8082bb5948b425beb",
+  "sourceHashAfter": "544ea31235d509364bdbc72a435a82b52cbb1140186fade49e861c11ab5e06b8",
+  "verifiedAt": "2026-10-23T14:36:32.093Z"
+}

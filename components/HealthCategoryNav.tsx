@@ -3,6 +3,9 @@
 import { useEffect, useRef } from "react";
 import EquipmentIcon, { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages } from "@/lib/i18n/messages";
+import { getExerciseLabel } from "@/lib/i18n/labels";
 
 type HealthCategoryNavProps = {
   activeCategory: EquipmentIconName;
@@ -30,6 +33,7 @@ function revealCategory(nav: HTMLElement, button: HTMLButtonElement) {
 }
 
 export default function HealthCategoryNav({ activeCategory, onSelect }: HealthCategoryNavProps) {
+  const { language } = useAppLanguage();
   const navRef = useRef<HTMLElement>(null);
   const activeButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -41,11 +45,11 @@ export default function HealthCategoryNav({ activeCategory, onSelect }: HealthCa
 
   return (
     <div className="health-category-nav-shell">
-      <nav aria-label="Exercise equipment" className="health-category-nav" ref={navRef}>
+      <nav aria-label={getMessages(language).equipment} className="health-category-nav" ref={navRef}>
         {VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => {
           return (
             <button
-              aria-label={item.label}
+              aria-label={getExerciseLabel(language, item.label)}
               aria-pressed={activeCategory === item.icon}
               className={`health-category-button${activeCategory === item.icon ? " health-category-button--active" : ""}`}
               key={item.icon}
@@ -54,7 +58,7 @@ export default function HealthCategoryNav({ activeCategory, onSelect }: HealthCa
                 if (navRef.current) revealCategory(navRef.current, event.currentTarget);
               }}
               ref={activeCategory === item.icon ? activeButtonRef : null}
-              title={item.label}
+              title={getExerciseLabel(language, item.label)}
               type="button"
             >
               <EquipmentIcon name={item.icon} />

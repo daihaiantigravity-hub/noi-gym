@@ -1,0 +1,13 @@
+# Exercise source review 8.18
+
+On 23 October 2026, `Pigeon Pose` was reviewed using the live MuscleWiki detail page and its front and side demonstration views. The original first step assigned both the leg extended behind and the ankle placed in front to the same leg, then described the ankle as resting on the opposite thigh. The images show the standard Pigeon setup: one shin folded across the front of the mat and the other leg extended behind. The next source step also identifies the bent front knee and the hip on the extended-leg side.
+
+The corrected English steps use body-role wording instead of guessing anatomical left/right from the camera angle. The Vietnamese title is `Tư thế chim bồ câu`, with three translated steps. The breath count and instruction to switch sides remain unchanged. The source page rendered the two demonstration views, while the database's direct `videoUrl` values were empty for this exercise.
+
+The transaction changed only `exercises.steps` and inserted one reviewed Vietnamese translation. It preserved the source timestamp and all unrelated fields. The source hash changed from `79dde42dd03435978c2a1ecf24146de53bf8de03a65ef58e57e5c0902c570b64` to `56e734d40f05645ebe1bad237878431772388f0bb8464fd8082bb5948b425beb`.
+
+Live verification confirmed 1,927 reviewed translations (1,926 Vietnamese and one English), 5,947 translated steps, and Vietnamese content for 1,927 of 1,946 exercises, leaving 19. Yoga coverage is 67/73. Anonymous reads returned all 1,927 reviewed translations, the source scanner reported zero warnings, and the 291 user favorites and 289 admin-featured exercises were unchanged. Importer dry-run for batch 051 reported one unchanged record and zero writes.
+
+On localhost:3001, all three steps and the translated title appeared in English and Vietnamese for both male and female routes. The local UI was left in Vietnamese. The 41 relevant localization tests passed when run directly. No application code or build was changed.
+
+Files: [live verification](../artifacts/localization/stage-25-after.json), [expected counts](../artifacts/localization/stage-25-expected.json), [SQL repair](../supabase/repairs/20261023_correct_pigeon_pose_instructions_stage25.sql), [source correction](../scripts/localization/data/source-restorations-018.json), [reviewed translation](../scripts/localization/data/reviewed-translations-051.json), [video observations](../artifacts/localization/stage-25-video-evidence/observations.json), [UI checks](../artifacts/localization/stage-25-ui-checks.json), and [remaining review queue](../artifacts/localization/stage-25-remaining-source-review-queue.json).

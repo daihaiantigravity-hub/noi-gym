@@ -1,0 +1,594 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete uncategorized source blocks, preserving equipment named in text, band routing, grip, supports, numeric angles, left/right, controlled return and step order. Category remains unchanged. Held ambiguous toe direction, missing/conflicting BOSU support, missing named limb lift and reversed lunge leg references.",
+  "translations": [
+    {
+      "index": 1,
+      "sourceName": "Ankle Circle",
+      "name": "Xoay cổ chân",
+      "steps": [
+        "Ngồi hoặc đứng, nhấc một bàn chân hơi khỏi sàn.",
+        "Xoay cổ chân theo vòng tròn.",
+        "Thực hiện đủ số lần được chỉ định, sau đó đổi chiều và lặp lại với bàn chân kia."
+      ],
+      "exercise_id": "12522994-bfd1-4e0f-a219-1d7b46825521"
+    },
+    {
+      "index": 2,
+      "sourceName": "Band Seated Inversions",
+      "name": "Ngồi nghiêng bàn chân vào trong với dây kháng lực",
+      "steps": [
+        "Ngồi trên bậc hoặc bục thấp, tốt nhất có tựa lưng. Duỗi hai chân và vắt chân đang tập qua chân còn lại.",
+        "Vòng dây quanh phần đệm trước bàn chân đang tập. Luồn dây quanh bàn chân kia như trong video.",
+        "Giữ đầu dây bằng tay cùng bên với bàn chân đang tập. Trước khi bắt đầu, cổ chân ở góc 90° và bàn chân nghiêng ra ngoài.",
+        "Nghiêng bàn chân vào trong mà không di chuyển phần còn lại của chân."
+      ],
+      "exercise_id": "7a511688-84bb-4d80-bc9d-8c5927f06907"
+    },
+    {
+      "index": 3,
+      "sourceName": "Band Shoulder Y Raise",
+      "name": "Nâng tay hình chữ Y với dây kháng lực",
+      "steps": [
+        "Giữ một đầu dây với tay ở bên và phía sau thân.",
+        "Giữ đầu còn lại phía trước thân bằng tay nắm sấp.",
+        "Đưa tay ra xa thân và lên trên đồng thời xoay ngoài vai.",
+        "Kết thúc với tay trên đầu và ngón cái hướng lên."
+      ],
+      "exercise_id": "964a5387-0016-47e1-8f9a-fbedf22e689b"
+    },
+    {
+      "index": 4,
+      "sourceName": "Band Straight Leg Hip Flexions",
+      "name": "Nâng chân thẳng gập hông với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm cố định.",
+        "Vòng đầu dây còn lại quanh cổ chân.",
+        "Quay mặt ra xa điểm gắn dây.",
+        "Nâng chân đang tập chống lại lực kháng."
+      ],
+      "exercise_id": "b0fe02d6-a3a7-48c0-a528-7da7c9b04820"
+    },
+    {
+      "index": 5,
+      "sourceName": "Barbell Wrist Extension",
+      "name": "Duỗi cổ tay với tạ đòn",
+      "steps": [
+        "Nắm tạ đòn bằng tay nắm sấp và đặt cẳng tay ngang qua ghế.",
+        "Để cổ tay gập hết biên độ rồi duỗi cổ tay."
+      ],
+      "exercise_id": "aa8a7a7a-9419-461b-8002-7bbf1f225c65"
+    },
+    {
+      "index": 6,
+      "sourceName": "Bench Lift Off Active",
+      "name": "Chống tay nâng người khỏi ghế",
+      "steps": [
+        "Ngồi trên ghế, đặt lòng bàn tay lên ghế ở hai bên thân.",
+        "Vị trí bàn tay cần chừa chỗ để các ngón bám mép ghế.",
+        "Thử nâng trọng lượng cơ thể khỏi ghế bằng cách ấn lòng bàn tay xuống ghế.",
+        "Duỗi thẳng hết khuỷu tay rồi lặp lại hoặc giữ co cơ tĩnh."
+      ],
+      "exercise_id": "3fbcf034-5eea-48cc-9953-5d28fd6fc878"
+    },
+    {
+      "index": 7,
+      "sourceName": "Bench Lift Off Static",
+      "name": "Giữ chống tay nâng người khỏi ghế",
+      "steps": [
+        "Ngồi trên ghế, đặt lòng bàn tay lên ghế ở hai bên thân.",
+        "Vị trí bàn tay cần chừa chỗ để các ngón bám mép ghế.",
+        "Thử nâng trọng lượng cơ thể khỏi ghế bằng cách ấn lòng bàn tay xuống ghế.",
+        "Duỗi thẳng hết khuỷu tay và giữ co cơ tĩnh."
+      ],
+      "exercise_id": "62a7a283-7305-478c-92be-d3e808a095f9"
+    },
+    {
+      "index": 8,
+      "sourceName": "Bicycle Crunch",
+      "name": "Gập bụng đạp xe",
+      "steps": [
+        "Nằm ngửa.",
+        "Co gối, đặt tay sau đầu.",
+        "Xoay thân, chạm khuỷu tay vào đầu gối đối bên. Lặp lại."
+      ],
+      "exercise_id": "de701754-e65a-468f-a7db-52b10fb30269"
+    },
+    {
+      "index": 10,
+      "sourceName": "Big Toe Dorsiflexion",
+      "name": "Nâng ngón chân cái",
+      "steps": [
+        "Ngồi trên ghế, đặt bàn chân trần trên sàn.",
+        "Nâng ngón chân cái cao nhất có thể mà không di chuyển các ngón còn lại."
+      ],
+      "exercise_id": "85b933eb-201b-45cf-b945-a46e260fc130"
+    },
+    {
+      "index": 11,
+      "sourceName": "Bodyweight Butterfly Stretch",
+      "name": "Giãn cơ tư thế cánh bướm",
+      "steps": [
+        "Ngồi trên mông, hai gối co và hai bàn chân chạm nhau.",
+        "Nắm bàn chân, nghiêng về trước đến khi cảm thấy giãn ở bẹn."
+      ],
+      "exercise_id": "7b7426ce-f1cc-418c-960d-ea298b590b3a"
+    },
+    {
+      "index": 12,
+      "sourceName": "Bosu Ball Single Leg Balance",
+      "name": "Giữ thăng bằng một chân trên bóng BOSU",
+      "steps": [
+        "Đặt chân trụ ở giữa bóng BOSU.",
+        "Giữ đầu gối chân đang nhấc hơi co.",
+        "Cố gắng giữ thăng bằng trên bóng BOSU."
+      ],
+      "exercise_id": "4581c57b-bac3-49d2-81dc-61ac45f9019d"
+    },
+    {
+      "index": 15,
+      "sourceName": "Cable Bar Curl",
+      "name": "Cuốn tay trước với thanh cáp",
+      "steps": [
+        "Dùng phụ kiện thanh ngang. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt về máy cáp.",
+        "Đứng chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "a9f75775-b245-4d26-bca0-1f7f27819cda"
+    },
+    {
+      "index": 16,
+      "sourceName": "Cable Bayesian Curl",
+      "name": "Cuốn tay trước Bayesian với cáp",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp.",
+        "Đứng chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "e7bfc529-84dc-463f-b696-e126e6b4627f"
+    },
+    {
+      "index": 17,
+      "sourceName": "Cable Bench Chest Fly",
+      "name": "Ép ngực với cáp trên ghế",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp thấp hơn vai một chút.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "exercise_id": "54271c9c-c361-4339-8e6d-f98fb65aefa8"
+    },
+    {
+      "index": 18,
+      "sourceName": "Cable Braced Single Arm Chest Fly",
+      "name": "Ép ngực một tay với cáp có điểm tựa",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước và giữ tay cầm ngang vai.",
+        "Tựa tay còn lại vào điểm đỡ, đưa tay đang tập vòng qua trước ngực theo hình cung.",
+        "Siết cơ ngực ở cuối động tác rồi từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "4610c1a2-a1ba-47b4-9675-595605e7f307"
+    },
+    {
+      "index": 19,
+      "sourceName": "Cable Braced Single Arm Chest Press",
+      "name": "Đẩy ngực một tay với cáp có điểm tựa",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước và bám vào điểm đỡ để ổn định.",
+        "Đẩy chéo qua thân, dừng ngay trước khi khuỷu tay duỗi hết."
+      ],
+      "exercise_id": "e2cdc4f2-c670-4840-be30-2fcb51ed5114"
+    },
+    {
+      "index": 20,
+      "sourceName": "Cable Braced Single Arm Internally Rotated Chest Fly",
+      "name": "Ép ngực một tay với cáp có điểm tựa, vai xoay trong",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước, giữ tay cầm ngang vai và vai xoay trong.",
+        "Tựa tay còn lại vào điểm đỡ, đưa tay đang tập vòng qua trước ngực theo hình cung.",
+        "Siết cơ ngực ở cuối động tác rồi từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "efee6057-3db8-481a-9b4b-652102ea1ee3"
+    },
+    {
+      "index": 21,
+      "sourceName": "Cable Decline Bench Chest Fly",
+      "name": "Ép ngực với cáp trên ghế dốc xuống",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp cao hơn vai.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "exercise_id": "5f78a0fb-0490-40fa-8954-59d367afa2ee"
+    },
+    {
+      "index": 22,
+      "sourceName": "Cable Hammer Bayesian Curl",
+      "name": "Cuốn búa Bayesian với cáp",
+      "steps": [
+        "Đứng quay mặt ra xa cáp và nắm hai phụ kiện tay cầm.",
+        "Dùng tay nắm trung tính, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "78f9e68b-2a7b-4eef-ab95-b89062555b08"
+    },
+    {
+      "index": 23,
+      "sourceName": "Cable Incline Bench Press",
+      "name": "Đẩy ngực với cáp trên ghế dốc lên",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Cáp cần đặt khá thấp.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "f30f08ec-ccd4-445b-aaa2-e3b2f18aa42d"
+    },
+    {
+      "index": 24,
+      "sourceName": "Cable Rope Hammer Curl",
+      "name": "Cuốn búa với dây thừng cáp",
+      "steps": [
+        "Dùng phụ kiện dây thừng. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Dùng tay nắm trung tính, ngón cái hướng lên và ngón út hướng xuống. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "2f4beaf5-b735-4396-9c9e-d2fc1c5e04d5"
+    },
+    {
+      "index": 25,
+      "sourceName": "Cable Seated Bayesian Curl",
+      "name": "Ngồi cuốn tay trước Bayesian với cáp",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Ngồi trên ghế, quay mặt ra xa máy cáp.",
+        "Đặt chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "8b61b392-bf08-440c-8509-d24f4e06a046"
+    },
+    {
+      "index": 26,
+      "sourceName": "Cable Seated Bayesian Hammer Curl",
+      "name": "Ngồi cuốn búa Bayesian với cáp",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp và ngồi trên ghế. Đặt chân trước chân sau để có điểm tựa vững hơn.",
+        "Dùng tay nắm trung tính, ngón cái hướng lên và ngón út hướng xuống. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "60ba68eb-87fb-4243-965a-29813d02d779"
+    },
+    {
+      "index": 27,
+      "sourceName": "Cable Single Arm Bench Chest Fly",
+      "name": "Ép ngực một tay với cáp trên ghế",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp thấp hơn vai một chút.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "exercise_id": "eb49ec9a-28da-42df-b47a-835c73881a10"
+    },
+    {
+      "index": 28,
+      "sourceName": "Cable Single Arm Bench Press",
+      "name": "Đẩy ngực một tay với cáp trên ghế",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Đặt cáp ngang vai.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "a3e0e32d-8625-4b40-8ba8-2195f13222f9"
+    },
+    {
+      "index": 29,
+      "sourceName": "Cable Single Arm Decline Bench Chest Fly",
+      "name": "Ép ngực một tay với cáp trên ghế dốc xuống",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp cao hơn vai.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "exercise_id": "30fc554a-aa60-4c24-9f96-80d2f6585a5a"
+    },
+    {
+      "index": 30,
+      "sourceName": "Cable Single Arm Incline Bench Press",
+      "name": "Đẩy ngực một tay với cáp trên ghế dốc lên",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Cáp cần đặt khá thấp.",
+        "Đưa tay cầm ngang qua ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "481b19d9-3832-4a38-bd96-a30f336404e9"
+    },
+    {
+      "index": 31,
+      "sourceName": "Cable Standing Single Arm Internally Rotated Incline Chest Fly",
+      "name": "Đứng ép ngực dốc lên một tay với cáp, vai xoay trong",
+      "steps": [
+        "Đứng nghiêng với cáp, đặt tay cầm thấp và xoay lòng bàn tay vào trong trước khi nâng.",
+        "Đưa tay lên và chéo qua ngực theo hình cung, giữ khuỷu tay hơi co.",
+        "Siết ngực trên ở điểm cao nhất rồi từ từ trở lại, giữ vị trí xoay trong."
+      ],
+      "exercise_id": "9f162590-db3a-48d7-9ab0-44a8e4afdd50"
+    },
+    {
+      "index": 32,
+      "sourceName": "Calf Raise 3A Soleus Bias Bilateral",
+      "name": "Nhón gót hai chân thiên về cơ dép 3A",
+      "steps": [
+        "Từ tư thế đứng, co gối đến tư thế squat hoặc squat nửa chừng.",
+        "Giữ squat trong khi nâng cả hai gót khỏi sàn.",
+        "Giữ thoáng chốc rồi hạ gót trở lại.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chạm sàn, lặp lại động tác."
+      ],
+      "exercise_id": "d3ef0c96-4927-4d9a-9bb0-ba71ccf16d49"
+    },
+    {
+      "index": 33,
+      "sourceName": "Calf Raise 3B Soleus Bias Unilateral",
+      "name": "Nhón gót một chân thiên về cơ dép 3B",
+      "steps": [
+        "Từ tư thế đứng, co gối đến tư thế squat hoặc squat nửa chừng. Đứng gần cột hoặc giá squat để hỗ trợ thăng bằng.",
+        "Giữ squat, chuyển trọng lượng lên chân đang tập và nhấc chân kia khỏi sàn.",
+        "Nâng gót chân khỏi sàn.",
+        "Giữ thoáng chốc rồi hạ gót trở lại.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chạm sàn, lặp lại động tác."
+      ],
+      "exercise_id": "40c5d217-c1d0-4e7c-8cf0-9807297d0dc7"
+    },
+    {
+      "index": 34,
+      "sourceName": "Core Stability 1 Crosslateral Limb Raise 4Pt Position",
+      "name": "Ổn định cơ trung tâm 1: nâng tay chân đối bên khi chống bốn điểm",
+      "steps": [
+        "Vào tư thế chống 4 điểm bằng hai tay và hai gối.",
+        "Giữ góc 90° ở hông và vai, cột sống trung tính.",
+        "Nâng tay và chân đối bên đến khi song song với sàn.",
+        "Giữ thoáng chốc rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "9c17d9a4-551c-4e9f-94bb-18f89f82f5c7"
+    },
+    {
+      "index": 35,
+      "sourceName": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+      "name": "Ổn định cơ trung tâm 2: chạm vai đối bên khi chống bốn điểm",
+      "steps": [
+        "Vào tư thế chống 4 điểm bằng hai tay và hai gối. Giữ góc 90° ở hông và vai, cột sống trung tính.",
+        "Nhấc đầu gối hơi khỏi sàn, đỡ trọng lượng trên lòng bàn tay và mũi chân.",
+        "Đặt mũi chân rộng khoảng bằng vai; chân càng rộng thì bài càng dễ, càng hẹp thì càng khó.",
+        "Dùng đầu ngón tay chạm vai đối bên."
+      ],
+      "exercise_id": "2ee1a89b-7882-43e9-ba64-39d58aae5f01"
+    },
+    {
+      "index": 37,
+      "sourceName": "Core Stability 5 Crosslateral Limb Raise Into Knee Elbow Tuck Push Up Position",
+      "name": "Ổn định cơ trung tâm 5: nâng tay chân đối bên rồi co gối chạm khuỷu tay",
+      "steps": [
+        "Vào tư thế chống đẩy chuẩn.",
+        "Nâng tay và chân đối bên đến khi song song với sàn.",
+        "Giữ thoáng chốc rồi thử đưa khuỷu tay về đầu gối đối bên bằng cách đưa cả hai về giữa thân.",
+        "Cột sống có thể hơi cong nhưng không dịch chuyển hông trong động tác."
+      ],
+      "exercise_id": "b757ee64-6447-4cb6-8073-394fc570a150"
+    },
+    {
+      "index": 39,
+      "sourceName": "Dorsal Flexion Hold",
+      "name": "Giữ nâng mũi chân",
+      "steps": [
+        "Từ tư thế đứng, nâng mũi chân và giữ thăng bằng trên gót trong thời gian được chỉ định.",
+        "Giữ tư thế thân trên đúng."
+      ],
+      "exercise_id": "8ba60a95-bb92-4e8a-bffb-4f61006ff83a"
+    },
+    {
+      "index": 40,
+      "sourceName": "Dumbbell Bench Wrist Extension",
+      "name": "Duỗi cổ tay với tạ đơn tựa ghế",
+      "steps": [
+        "Nắm hai tạ đơn bằng tay nắm sấp và đặt cẳng tay ngang qua ghế.",
+        "Để cổ tay gập hết biên độ rồi duỗi cổ tay."
+      ],
+      "exercise_id": "13b167dc-54a0-4f2c-913b-98dfcf187098"
+    },
+    {
+      "index": 41,
+      "sourceName": "Dumbbell Goblet Curtsy Lunge",
+      "name": "Chùng chân bắt chéo giữ tạ đơn trước ngực",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Bước chân trái ra sau và sang bên phải của bàn chân phải, bắt chéo phía sau chân phải.",
+        "Co gối, hạ hông xuống và ra sau như sắp ngồi vào ghế.",
+        "Ấn qua gót chân phải để duỗi chân phải và trở về vị trí ban đầu."
+      ],
+      "exercise_id": "a4416638-fc26-464b-8055-33fa2f008b5d"
+    },
+    {
+      "index": 42,
+      "sourceName": "Dumbbell Pullover Eccentrics",
+      "name": "Đưa tạ đơn qua đầu với pha hạ chậm",
+      "steps": [
+        "Nằm trên ghế, giữ tạ đơn trên vai với tay thẳng.",
+        "Từ từ hạ tay về phía sàn qua đầu.",
+        "Dừng ở vị trí giãn.",
+        "Co khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "866c0f37-34c7-4734-93b8-cdfbd197980a"
+    },
+    {
+      "index": 43,
+      "sourceName": "Dumbbell Seated Tibialis Raise",
+      "name": "Ngồi nâng mũi chân với tạ đơn",
+      "steps": [
+        "Ngồi trên bục hoặc ghế, đặt gót chân trên bậc hoặc bánh tạ, đặt tạ đơn trên đùi trước.",
+        "Nâng mũi chân thẳng lên phía trần."
+      ],
+      "exercise_id": "12320742-3b2c-4a59-9ecc-8ad9d2a42e06"
+    },
+    {
+      "index": 44,
+      "sourceName": "Dumbbell Service Exercise",
+      "name": "Động tác giao bóng với tạ đơn",
+      "steps": [
+        "Đứng thẳng, giữ tạ đơn bằng một tay. Cuốn tay trước chéo qua thân.",
+        "Đưa tạ về vai, xoay lòng bàn tay và khuỷu tay ra ngoài.",
+        "Hướng khuỷu tay lên trần trong khi tạ vẫn ngay trên vai.",
+        "Duỗi khuỷu tay để nâng tạ qua đầu. Bắt đầu hạ tay về bên thân đồng thời xoay lòng bàn tay hướng xuống."
+      ],
+      "exercise_id": "cca3fe43-c6c7-4e2b-a0d4-1ea6661a07f9"
+    },
+    {
+      "index": 45,
+      "sourceName": "Dumbbell Standing Tibialis Raise",
+      "name": "Đứng nâng mũi chân với tạ đơn",
+      "steps": [
+        "Đặt gót chân trên bậc hoặc bánh tạ, giữ tạ đơn ở hai bên thân.",
+        "Nâng mũi chân thẳng lên phía trần.",
+        "Giữ ở điểm cao nhất để tăng tác động. Từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "cdde2d16-17bc-4122-816a-ed41ca56c15f"
+    },
+    {
+      "index": 46,
+      "sourceName": "Eversions",
+      "name": "Nghiêng bàn chân ra ngoài với dây kháng lực",
+      "steps": [
+        "Ngồi trên bậc hoặc bục thấp, tốt nhất có tựa lưng. Duỗi hai chân, vòng dây quanh phần đệm trước bàn chân đang tập.",
+        "Luồn dây quanh bàn chân kia như trong video. Giữ đầu dây bằng tay đối bên với bàn chân đang tập.",
+        "Trước khi bắt đầu, cổ chân ở góc 90° và bàn chân nghiêng vào trong. Nghiêng bàn chân ra ngoài mà không di chuyển phần còn lại của chân."
+      ],
+      "exercise_id": "69d90d07-7b2d-4b37-8cef-c7537670cd66"
+    },
+    {
+      "index": 47,
+      "sourceName": "Floor Incline Leg Raise",
+      "name": "Ngồi ngả người giữ nâng chân thẳng",
+      "steps": [
+        "Ngồi trên sàn, ngả người ra sau tựa trên lòng bàn tay hoặc khuỷu tay.",
+        "Nâng một chân thẳng cách sàn vài xentimét, giữ trong thời gian được chỉ định."
+      ],
+      "exercise_id": "b3934b5a-7d9d-4a5d-b318-60a6a9a04451"
+    },
+    {
+      "index": 48,
+      "sourceName": "Gastrocnemius Stretch Bilateral On Box",
+      "name": "Giãn cơ bụng chân hai bên trên bục",
+      "steps": [
+        "Đứng ở mép bục, hai đầu gối duỗi.",
+        "Để trọng lượng cơ thể đẩy gót chân về phía sàn.",
+        "Bạn cần cảm nhận cơ bắp chân được giãn."
+      ],
+      "exercise_id": "6e38c64b-6c77-4bbf-b086-faf426b4edbc"
+    },
+    {
+      "index": 49,
+      "sourceName": "Gastrocnemius Stretch Push Up Position",
+      "name": "Giãn cơ bụng chân ở tư thế chống đẩy",
+      "steps": [
+        "Vào tư thế chống đẩy.",
+        "Duỗi thẳng gối, thử đẩy một gót chân xuống sàn.",
+        "Vắt chân kia lên trên để tạo thêm áp lực cho động tác giãn."
+      ],
+      "exercise_id": "d2e860c3-d42d-4ddc-9b1d-b74f147d2ece"
+    },
+    {
+      "index": 50,
+      "sourceName": "Gastrocnemius Stretch Unilateral On Box",
+      "name": "Giãn cơ bụng chân một bên trên bục",
+      "steps": [
+        "Đứng ở mép bục, hai đầu gối duỗi.",
+        "Co một chân, để trọng lượng đẩy gót của chân thẳng về phía sàn.",
+        "Bạn cần cảm nhận cơ bắp chân được giãn."
+      ],
+      "exercise_id": "3c3ace0c-dde6-488f-af0d-c08234d96c84"
+    },
+    {
+      "index": 51,
+      "sourceName": "Gastrocnemius Stretch Unilateral On Wall",
+      "name": "Giãn cơ bụng chân một bên tựa tường",
+      "steps": [
+        "Đứng cạnh tường nhưng không quá gần.",
+        "Đặt lòng bàn tay lên tường, duỗi một chân ra sau và hơi co chân trước.",
+        "Đẩy tường để ấn gót chân duỗi xuống sàn đến khi cảm thấy giãn ở bắp chân."
+      ],
+      "exercise_id": "ede866a7-c7c5-4180-82d3-87c1da302806"
+    },
+    {
+      "index": 52,
+      "sourceName": "Hand Plank",
+      "name": "Plank chống tay",
+      "steps": [
+        "Bắt đầu quỳ với hai tay đặt chắc trên sàn.",
+        "Nhấc đầu gối khỏi sàn. Giữ tư thế này với lưng phẳng."
+      ],
+      "exercise_id": "2619cd38-d436-4603-8dea-ff868d2fb00e"
+    },
+    {
+      "index": 53,
+      "sourceName": "Hip Flexor Stretch Kneeling Lunge 1",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 1",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "exercise_id": "b1b0f508-36e0-4fdb-9d2a-0698696ee93e"
+    },
+    {
+      "index": 54,
+      "sourceName": "Hip Flexor Stretch Kneeling Lunge 2",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 2",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau. Nâng tay chéo ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "exercise_id": "260141a6-b5a6-468b-b7c2-105c337230fd"
+    },
+    {
+      "index": 55,
+      "sourceName": "Hip Flexor Stretch Kneeling Lunge 3",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 3",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Kê cao bàn chân sau; kê càng cao thì cơ gấp hông và phần trên cơ đùi trước càng được giãn.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "exercise_id": "a8ea9c79-c783-49c2-979c-5c278e5844c2"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 9,
+      "sourceName": "Big Toe Abduction",
+      "reason": "Source moves the big toe toward the opposite side without defining the side or reference. Verify abduction direction rather than choosing a direction during translation.",
+      "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d"
+    },
+    {
+      "index": 13,
+      "sourceName": "Bosu Serratus Activation Active Plank",
+      "reason": "Named BOSU variant uses generic ground-supported forearm plank instructions and never places the BOSU. Verify support setup.",
+      "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1"
+    },
+    {
+      "index": 14,
+      "sourceName": "Bosu Serratus Activation Plank",
+      "reason": "Source places forearms on BOSU, then instructs elbows into the ground without clarifying whether force transfers through BOSU or support changes. Verify the support cue.",
+      "exercise_id": "501ab877-2ee3-42e0-a595-68cc39a6fb8e"
+    },
+    {
+      "index": 36,
+      "sourceName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+      "reason": "Named opposite-arm/leg raise instead only taps the opposite shoulder, with no leg raise. Verify variant-specific movement.",
+      "exercise_id": "383ce0cd-9e08-495c-9725-a44955247ec1"
+    },
+    {
+      "index": 38,
+      "sourceName": "Curtsy Lunge",
+      "reason": "Left foot crosses behind right, but source then makes left thigh parallel and right knee near the ground before pushing the right foot. Verify front/back leg roles.",
+      "exercise_id": "b6989ab4-e390-4217-a9a5-d1e5e89e4bee"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import "server-only";
 import { requireAdmin } from "@/lib/admin-auth";
 import { requireUser } from "@/lib/user-auth";
 import { slugify } from "./slug";
+import { localizeExercises } from "./translations";
 import type { ExerciseDifficulty, ExerciseGender, ExerciseMediaValue, ExerciseStatus } from "./types";
 
 type FavoriteExerciseRelation = {
@@ -37,6 +38,7 @@ export type FavoriteExercise = {
   publicHref: string;
   posterUrl?: string;
   savedAt: string;
+  isTranslationFallback?: boolean;
 };
 
 export const USER_FAVORITES_PAGE_SIZE = 12;
@@ -141,5 +143,5 @@ export async function listUserFavoriteExercises(page = 1, pageSize = USER_FAVORI
     return [mapFavoriteExercise(exercise, row.created_at)];
   });
 
-  return { items, total: count ?? items.length, page: safePage, pageSize: safePageSize };
+  return { items: await localizeExercises(items), total: count ?? items.length, page: safePage, pageSize: safePageSize };
 }

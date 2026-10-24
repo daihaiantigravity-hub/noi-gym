@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "male/female Stretches source corrections",
+  "preparedAt": "2026-10-23T09:46:36.538Z",
+  "reviewMethod": "Reviewed five Stretches candidates on local detail pages. Captured two time-separated screenshots for each of 20 male/female, front/side clips (40 images). Three source issues were clear enough to correct and translate; two remain held because the images do not settle exact hand/foot placement.",
+  "databaseStatus": "Prepared only; no database changes applied yet.",
+  "restorations": [
+    {
+      "exercise_id": "4998e346-5462-4ed3-a55e-e17c7566ca23",
+      "source_id": 55053628597646,
+      "before": {
+        "name": "Quads Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Place one foot flat on the ground in front of you at a 90 degree angle. With your other leg, balance upon your knee, placing the tip of your foot against the wall behind you for balance.",
+          "Place your hands on your knee in front of you, and lean forward so that your knee extends over your foot.",
+          "Pause at the apex of the stretch, and slowly return to starting position. Repeat with your other leg."
+        ]
+      },
+      "after": {
+        "name": "Quads Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Set up in a kneeling lunge with your back knee on the floor and the top of your back foot against the wall. Place your front foot flat on the floor and bend your front knee to about 90 degrees.",
+          "Place your hands on your front knee and lean forward, allowing the knee to move over the foot.",
+          "Pause at the deepest point of the stretch, then slowly return to the starting position. Repeat with your other leg."
+        ]
+      },
+      "before_hash": "bdfd0e660f4c1289e4b56ecf07e8cd9f615463176aeccb38a5fe340805a67880",
+      "after_hash": "1b1dc419cdd4fd91ad7eb27168edfb0b7ceb19ec33eeca956b216056af4e5858",
+      "expected_updated_at": "2026-10-14T10:46:55.724266+00:00",
+      "evidence": {
+        "written_source_status": "Editorial correction from the project's public exercise videos; not newly retrieved provider wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "Male and female front/side clips show a kneeling lunge with the back knee down and the top of the back foot against the wall. The front leg is bent at the knee to about 90 degrees; the source's phrase makes the foot itself sound angled.",
+        "sampling": "Two time-separated screenshots for each gender-and-angle video in the local exercise detail page. Browser playback time was not exposed.",
+        "videos": [
+          {
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/55053628597646-front.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/55053628597646-front.mp4",
+            "duration": null,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-male-front-sample-1.png",
+                "sample": 1,
+                "sha256": "1b8077cb863a8e01c50499d17387e00e24ebd95abf0c887c5ffd51f1f19d4eec"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-male-front-sample-2.png",
+                "sample": 2,
+                "sha256": "cdcfa949fe28e6de31d59a0a361dfb921a40fbce31c6f3d9fef6ad7d1237bd5f"
+              }
+            ]
+          },
+          {
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/55053628597646-side.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/55053628597646-side.mp4",
+            "duration": 14.16,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-male-side-sample-1.png",
+                "sample": 1,
+                "sha256": "d7e7ac5db58f434b54abe527ed26a1bff7db8f5fede2f0ef8af1b837ae2c76e2"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-male-side-sample-2.png",
+                "sample": 2,
+                "sha256": "3aa11fbf4d777fc97ba2b8652c51022a335505cbd21340ef1ad4869f79dc6503"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/55053628597646-front.mp4",
+            "video_url": "",
+            "duration": 13.64,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-female-front-sample-1.png",
+                "sample": 1,
+                "sha256": "f81e23631f9b2b3f77469400a21501f87c4d931768d8e925c43ced614b1c5d4a"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-female-front-sample-2.png",
+                "sample": 2,
+                "sha256": "5963ae0e55c0fafc0fdf3780c5caf4a97f47a2fae07d42a79749529539fba00d"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/55053628597646-side.mp4",
+            "video_url": "",
+            "duration": 9.8,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-female-side-sample-1.png",
+                "sample": 1,
+                "sha256": "9ea92e3fd40916b071d6b1d3ac02c330cd5a8645b5ec49798a054fd91498574e"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-female-side-sample-2.png",
+                "sample": 2,
+                "sha256": "39315518e6fd6720905083b0ac921ab5928edc9d562656621af91b7117cd9c07"
+              }
+            ]
+          }
+        ],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-20-video-evidence/4998e346-5462-4ed3-a55e-e17c7566ca23-contact.jpg",
+            "sha256": "9d51642fff25fb2255c160a8c30e8f4c9ddd73e8a0c54c8410e4d57e2820d58e"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "79009697-d870-4b1e-956b-c5a09b9a99c3",
+      "source_id": 271370323980553,
+      "before": {
+        "name": "Abdominals Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Stand upright.",
+          "After completing the desired amount of reps with the left arm, switch to the right arm and lean to the left.",
+          "Reach up with your left arm and then lean slowly to the right. Lean until a stretch is felt in the obliques."
+        ]
+      },
+      "after": {
+        "name": "Abdominals Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Stand upright.",
+          "Reach overhead with your left arm and slowly lean to the right until you feel a stretch in your obliques.",
+          "After your desired repetitions on the left side, switch to your right arm and lean to the left."
+        ]
+      },
+      "before_hash": "ed60ba65db62f28400f95376881ec40db781f984db49d6c737e90fa93b0c00fc",
+      "after_hash": "8a84b11b8f15be77466ff1239611180657bb2f880cfea131a9de7eeb99d59f8c",
+      "expected_updated_at": "2026-10-14T10:47:40.176602+00:00",
+      "evidence": {
+        "written_source_status": "Editorial correction from the project's public exercise videos; not newly retrieved provider wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "All four clips show an overhead arm reach followed by a side bend. The source introduces the right-arm repetition before giving the left-arm movement, so reorder the two side instructions without changing their laterality or step count.",
+        "sampling": "Two time-separated screenshots for each gender-and-angle video in the local exercise detail page. Browser playback time was not exposed.",
+        "videos": [
+          {
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/271370323980553-front.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/271370323980553-front.mp4",
+            "duration": 9.2,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-male-front-sample-1.png",
+                "sample": 1,
+                "sha256": "d065cd5008c758e502c365ef837389f2fd05272b26fe35e94f345ef518fb7c28"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-male-front-sample-2.png",
+                "sample": 2,
+                "sha256": "137d0819d716d406f34d4c93022f9b7d2bd6f1d2dd72e4b49fae3c6418600820"
+              }
+            ]
+          },
+          {
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/271370323980553-side.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/271370323980553-side.mp4",
+            "duration": 7.12,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-male-side-sample-1.png",
+                "sample": 1,
+                "sha256": "2940a7b8948861fc7bc21bf870ada778aea89315c870c28ae9b731ac86484ac5"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-male-side-sample-2.png",
+                "sample": 2,
+                "sha256": "f12d661af47b3067102a9854ca8643157d9b5b8d9b6a809f7761b33fadc5512a"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/271370323980553-front.mp4",
+            "video_url": "",
+            "duration": 7.84,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-female-front-sample-1.png",
+                "sample": 1,
+                "sha256": "b206f5f4f36a1aca513dea2657c6f416a0101d67276fd2af0562d8dd97259a7d"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-female-front-sample-2.png",
+                "sample": 2,
+                "sha256": "ce05bd314dd441261f9ce40914217562face690a0927a0f99f073da94d1cdb35"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/271370323980553-side.mp4",
+            "video_url": "",
+            "duration": 7.28,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-female-side-sample-1.png",
+                "sample": 1,
+                "sha256": "cfb18bf4b65e8afc922acda2c99b4f8302db8c4072fcba3ccb379fe27df5166a"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-female-side-sample-2.png",
+                "sample": 2,
+                "sha256": "07e3e0abe0d96ecb91476fb9d5f3748c8025f14ebdd0c5357beda8748bd2b968"
+              }
+            ]
+          }
+        ],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-20-video-evidence/79009697-d870-4b1e-956b-c5a09b9a99c3-contact.jpg",
+            "sha256": "dac7be1abcbaa0bc63030fad3a1853c20f74a5eeb48b76d2489e632c6696bfd8"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "e38c6169-c56c-4074-9a73-63037169e582",
+      "source_id": 211860928727118,
+      "before": {
+        "name": "Glutes Stretch Variation One",
+        "description": "",
+        "steps": [
+          "On your front, place one leg forward and then stretch out the same side arm across the mat/floor.",
+          "Fully extend your leg and arm.",
+          "Hold at the peak of the stretch, then slowly return to starting position.",
+          "Switch sides and repeat."
+        ]
+      },
+      "after": {
+        "name": "Glutes Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Start on your hands and knees.",
+          "Bring one knee forward under your body while extending the other leg behind you.",
+          "Reach one arm forward across the mat as you lower your chest toward the floor.",
+          "Hold at the deepest point of the stretch, then slowly return to the starting position and repeat on the other side."
+        ]
+      },
+      "before_hash": "7238d6f07a9d53f6a979c1af70143ef9a4594f1019b6b3d99d2f20ed76ce70ad",
+      "after_hash": "8fc3dfbf55b44f6e91bf52fc26efb3a78fa7a109bea379b07c819fb7a25b8014",
+      "expected_updated_at": "2026-10-14T10:47:28.003921+00:00",
+      "evidence": {
+        "written_source_status": "Editorial correction from the project's public exercise videos; not newly retrieved provider wording.",
+        "available_genders": [
+          "male",
+          "female"
+        ],
+        "observation": "Male and female front/side clips show a hands-and-knees start, one knee tucked forward beneath the body with the opposite leg extended behind, and one arm reaching forward across the mat as the torso lowers. The source incorrectly describes the start as lying on the front and leaves the leg setup unclear; the rewrite avoids an unsupported same-side assignment.",
+        "sampling": "Two time-separated screenshots for each gender-and-angle video in the local exercise detail page. Browser playback time was not exposed.",
+        "videos": [
+          {
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/211860928727118-front.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/211860928727118-front.mp4",
+            "duration": null,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-male-front-sample-1.png",
+                "sample": 1,
+                "sha256": "e8dd3adb96d53cad53a7c3d12168d9b2583236792807d284ae364ff14e85faad"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-male-front-sample-2.png",
+                "sample": 2,
+                "sha256": "88a93a2c1f9ffba7305e6e3e8ec0b5d1c02ca17d4b5158e8d067fda55bd42c89"
+              }
+            ]
+          },
+          {
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/211860928727118-side.mp4",
+            "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/211860928727118-side.mp4",
+            "duration": null,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-male-side-sample-1.png",
+                "sample": 1,
+                "sha256": "aa1a1cbc790a0392a9be79ce081514fbd3194f0d4e5f7d00f95906442c20417d"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-male-side-sample-2.png",
+                "sample": 2,
+                "sha256": "ae01a6c8f2e40375a2b94c5bdd298520f0dd9179ef71ff5b2bbbc95395084498"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/211860928727118-front.mp4",
+            "video_url": "",
+            "duration": null,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-female-front-sample-1.png",
+                "sample": 1,
+                "sha256": "a4f00ccfc0285dc3c2a676882a5ba8c9030e0a59c75f2fa4bee784b8dde0a077"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-female-front-sample-2.png",
+                "sample": 2,
+                "sha256": "a5ba98df361cbd7e450572b98842da8be58137a55fe4150707002a609392d33f"
+              }
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/211860928727118-side.mp4",
+            "video_url": "",
+            "duration": null,
+            "screenshots": [
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-female-side-sample-1.png",
+                "sample": 1,
+                "sha256": "5798b0828ef06f6d6d59b1d37eae2dfc82a5df6f5838f1e6b341d75ec9be1571"
+              },
+              {
+                "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-female-side-sample-2.png",
+                "sample": 2,
+                "sha256": "1c11695ccf25c88953d475c47d416b7853973c17895570e95b2b7b17c587c068"
+              }
+            ]
+          }
+        ],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-20-video-evidence/e38c6169-c56c-4074-9a73-63037169e582-contact.jpg",
+            "sha256": "1a285d646c9cd78b475a8321640f2e10087a6f71bd5535b2f48cebbcf7e113db"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    }
+  ],
+  "deferred": [
+    {
+      "exercise_id": "39a07611-a045-4d15-983f-e60daa133db0",
+      "sourceName": "Forearms Stretch Variation Two",
+      "reason": "Both angles show a hand reaching toward a wall with the wrist flexed, but the sampled movement does not make palm orientation or the exact fingertip contact unambiguous. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "storage_path": "exercises/musclewiki/196309960403050-front.mp4",
+          "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/196309960403050-front.mp4",
+          "duration": 10.32,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-male-front-sample-1.png",
+              "sample": 1,
+              "sha256": "a842c51084f53cda7199139e03fa1b46629ea45e29fe25b57ce28965409637a8"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-male-front-sample-2.png",
+              "sample": 2,
+              "sha256": "55cda77d8febf4a9524bc7b39d0a9fbf785d6810e3bb48d5ea6972fa309ecd3e"
+            }
+          ]
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "storage_path": "exercises/musclewiki/196309960403050-side.mp4",
+          "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/196309960403050-side.mp4",
+          "duration": 9.2,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-male-side-sample-1.png",
+              "sample": 1,
+              "sha256": "ec6171c9e6f7de6df88729e56d316962376fc616ee8faccda79743d139e93466"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-male-side-sample-2.png",
+              "sample": 2,
+              "sha256": "d45569b9ed5bda47844c744a913776b7590d86be7d9b9f52b937ec35d7f42aa4"
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "angle": "front",
+          "storage_path": "exercises/musclewiki/female/196309960403050-front.mp4",
+          "video_url": "",
+          "duration": 7.68,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-female-front-sample-1.png",
+              "sample": 1,
+              "sha256": "8313bbe2e1bf2c2b4c6a2730f270f1806dbd6c2f3bf32b9b75d591e096fbf47e"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-female-front-sample-2.png",
+              "sample": 2,
+              "sha256": "19786529a8c3604ce9064950277a17b22f122f6d9bd55ad3a6d4a3308873849d"
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "angle": "side",
+          "storage_path": "exercises/musclewiki/female/196309960403050-side.mp4",
+          "video_url": "",
+          "duration": 7.72,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-female-side-sample-1.png",
+              "sample": 1,
+              "sha256": "302328d07812f84f9f319e2a00e9af9cbfdf6e2c0d29eb5ef3b1f9e11620e66c"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/39a07611-a045-4d15-983f-e60daa133db0-female-side-sample-2.png",
+              "sample": 2,
+              "sha256": "d322a4d0ea5cc019d1788b122a883369b534844d1fcb6dd85991e8b5549aaab4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_id": "ff0457f4-54bb-48e6-84e3-e8a66867688b",
+      "sourceName": "Lower back Stretch Variation Two",
+      "reason": "The clips show a supine hip rotation with crossed legs, but the sampled frames do not establish which foot hooks under the opposite knee or which leg is meant to remain flat. Keep source and translation on hold.",
+      "translation_decision": "hold",
+      "videos": [
+        {
+          "gender": "male",
+          "angle": "front",
+          "storage_path": "exercises/musclewiki/184283879469673-front.mp4",
+          "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/184283879469673-front.mp4",
+          "duration": 13.52,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-male-front-sample-1.png",
+              "sample": 1,
+              "sha256": "e22d8ae0704924ff643c9d136da451270575cbe4e2a00cff7ff0d7ec3f0ceb46"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-male-front-sample-2.png",
+              "sample": 2,
+              "sha256": "e529332be1ccc115a5683b245bee5b31ddc4a01492827c22316941b0444d9ddb"
+            }
+          ]
+        },
+        {
+          "gender": "male",
+          "angle": "side",
+          "storage_path": "exercises/musclewiki/184283879469673-side.mp4",
+          "video_url": "https://xeayzrtoryzvgqjdufbk.supabase.co/storage/v1/object/public/exercise-media/exercises/musclewiki/184283879469673-side.mp4",
+          "duration": 13.88,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-male-side-sample-1.png",
+              "sample": 1,
+              "sha256": "e5f1caa2ca3571bae5c0c8a0ace1c32c1a1cc1f02d01c4f2a399a0934191cd01"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-male-side-sample-2.png",
+              "sample": 2,
+              "sha256": "22bb8a324de67934ea78c9025171cb207a7d87bd55d9af64f256c6477753c889"
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "angle": "front",
+          "storage_path": "exercises/musclewiki/female/184283879469673-front.mp4",
+          "video_url": "",
+          "duration": null,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-female-front-sample-1.png",
+              "sample": 1,
+              "sha256": "9a657014bc3daa6d23414efb18137696f468a49774326d07f5640665e6655d2e"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-female-front-sample-2.png",
+              "sample": 2,
+              "sha256": "0821ac1ce5072c9567ff7b5eb83d30ebee613e8c6614556b8ba49c3392cd0cac"
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "angle": "side",
+          "storage_path": "exercises/musclewiki/female/184283879469673-side.mp4",
+          "video_url": "",
+          "duration": null,
+          "screenshots": [
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-female-side-sample-1.png",
+              "sample": 1,
+              "sha256": "052445f52cb989fc28f2113d16b76f5a93000c5643eea184b485008fdb0320b4"
+            },
+            {
+              "path": "artifacts/localization/stage-20-video-evidence/ff0457f4-54bb-48e6-84e3-e8a66867688b-female-side-sample-2.png",
+              "sample": 2,
+              "sha256": "90937d55b43202f0221187a17faff93f52b42046f19ffa00ea9ab8ff6dddd340"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceHashBefore": "c4c119a21a9d711d2f76febd74fee72132a4ac7f4fadab7d71774f4b7d17ec97",
+  "sourceHashAfter": "90565ce240ae77de42fcf90368f487d136937b2a78d13d28cdec7c5cc2719307"
+}

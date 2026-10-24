@@ -10,6 +10,11 @@ import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { getAdvancedRoute, getAdvancedTarget, getExerciseCategoryBySlug, getJointTarget, isAdvancedSlugConflict } from "@/lib/exercises/targets";
 import { parseExerciseGender, withExerciseGender } from "@/lib/exercises/gender";
 import type { PublicExercise, PublicExercisePage } from "@/lib/exercises/types";
+import { getAppLanguage, isLocalizationEnabled } from "@/lib/i18n/server";
+import LanguageToggle from "@/components/LanguageToggle";
+import { getMessages, translate } from "@/lib/i18n/messages";
+import { getMuscleLabel } from "@/lib/i18n/labels";
+import { localizeExercises } from "@/lib/exercises/translations";
 
 const muscleNameBySlug: Record<string, string> = {
   abdominals: "Abdominals",
@@ -43,6 +48,8 @@ export default async function ExerciseDetailPage({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const { muscle, exerciseId } = await params;
+  const language = await getAppLanguage();
+  const messages = getMessages(language);
   const queryParams = await searchParams;
   const view = Array.isArray(queryParams.view) ? queryParams.view[0] : queryParams.view;
   const gender = parseExerciseGender(queryParams.gender);
@@ -69,7 +76,9 @@ export default async function ExerciseDetailPage({
 
     const localExercises = gender !== "female" && !jointTarget && !isAdvancedView ? getLocalPublicExercises(muscle, { category }) : [];
     const localPage = paginate(localExercises, page, PUBLIC_EXERCISES_PAGE_SIZE);
-    const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0) ? databasePage : localPage;
+    const pageData = databasePage && (databasePage.total > 0 || localExercises.length === 0)
+      ? databasePage
+      : { ...localPage, items: await localizeExercises(localPage.items) };
     const routePath = isJointRoute
       ? `/exercises/${muscle}/${exerciseId}`
       : isAdvancedView
@@ -87,7 +96,8 @@ export default async function ExerciseDetailPage({
       databaseExercise = null;
     }
   }
-  const exercise = databaseExercise ?? (gender === "female" ? null : getLocalPublicExerciseById(exerciseId));
+  const localExercise = !databaseExercise && gender !== "female" ? getLocalPublicExerciseById(exerciseId) : null;
+  const exercise = databaseExercise ?? (localExercise ? (await localizeExercises([localExercise]))[0] : null);
   if (!exercise) notFound();
 
   const displayName = getDisplayExerciseName(exercise.name);
@@ -96,23 +106,24 @@ export default async function ExerciseDetailPage({
   const from = typeof queryParams.from === "string" && queryParams.from.startsWith("/exercises/") ? queryParams.from : withExerciseGender(`/exercises/${muscle}`, gender);
 
   return (
-    <main aria-label={`${displayName} details`} className="exercise-detail-page">
+    <main aria-label={translate(language, "exerciseDetails", { name: displayName })} className="exercise-detail-page">
       <header className="exercise-detail-topbar">
-        <Link aria-label={`Back to ${formatMuscleName(muscle)}`} className="exercise-detail-topbar__icon" href={from}>
+        <Link aria-label={translate(language, "backToTarget", { name: getMuscleLabel(language, formatMuscleName(muscle)) })} className="exercise-detail-topbar__icon" href={from}>
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </Link>
-        <ExerciseDetailSaveButton exerciseId={exercise.id} exerciseName={displayName} />
+        {isLocalizationEnabled() ? <div className="exercise-detail-topbar__actions"><LanguageToggle /><ExerciseDetailSaveButton exerciseId={exercise.id} exerciseName={displayName} /></div> : <ExerciseDetailSaveButton exerciseId={exercise.id} exerciseName={displayName} />}
       </header>
 
       <ExerciseDetailMedia mediaCount={mediaCount} media={exercise.media} title={displayName} />
 
       <section className="exercise-detail-copy">
         <div className="exercise-detail-copy__heading"><h1>{displayName}</h1></div>
+        {exercise.isTranslationFallback && <small>{messages.originalContent}</small>}
       </section>
 
       <section aria-labelledby="exercise-instructions-title" className="exercise-detail-instructions">
-        <h2 id="exercise-instructions-title">Instructions</h2>
-        {steps.length > 0 ? <ol>{steps.map((step, index) => <li key={`${exercise.id}-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p>No instructions are available for this exercise yet.</p>}
+        <h2 id="exercise-instructions-title">{messages.instructions}</h2>
+        {steps.length > 0 ? <ol>{steps.map((step, index) => <li key={`${exercise.id}-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p>{messages.noInstructions}</p>}
       </section>
     </main>
   );

@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "Pilates source clarification and Vietnamese localization",
+  "databaseStatus": "applied_and_verified",
+  "restorations": [
+    {
+      "exercise_id": "06144a01-a685-456d-a1be-ebbb1f1c9192",
+      "source_id": 35808622277544,
+      "before": {
+        "name": "Hip Rolls",
+        "description": "",
+        "steps": [
+          "Lie supine with knees bent, feet hip-width, arms relaxed by sides.",
+          "Inhale to prepare, exhale and posteriorly tilt pelvis.",
+          "Roll spine up one vertebra at a time into bridge.",
+          "Press through legs until legs are nearly extended. Lower back to start.",
+          "Then begin rolling your spine downward until your back is flat against the carriage."
+        ]
+      },
+      "after": {
+        "name": "Hip Rolls",
+        "description": "",
+        "steps": [
+          "Lie supine with knees bent, feet hip-width, arms relaxed by sides.",
+          "Inhale to prepare, exhale and posteriorly tilt pelvis.",
+          "Roll spine up one vertebra at a time into bridge.",
+          "Press through your legs until they are nearly extended, then bend your knees to return the carriage to its starting position while keeping your hips lifted.",
+          "Then begin rolling your spine downward until your back is flat against the carriage."
+        ]
+      },
+      "before_hash": "cf8f9ed68ce332d961fd3f649ea55aa6d708f2e29958017fe0520925ebe6315f",
+      "after_hash": "3eb3102e8b58eda5768f743920b704f253864ce82394b9d509ebf00a2f950416",
+      "expected_updated_at": "2026-10-14T10:46:50.998489+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "written_source_status": "Editorial clarification of ambiguous source wording based on the complete male/female source video cycles; the MuscleWiki detail page currently returns Exercise Not Found.",
+        "source_page_url": "https://musclewiki.com/exercise/hip-rolls",
+        "video_observation": "In the male front and side clips, the demonstrator raises into a bridge, extends the legs to push the carriage, bends the knees to return the carriage while maintaining the bridge, then lowers the spine. Female side/front clips show the same order. The previous phrase 'Lower back to start' conflated carriage return with lowering the back; the following step is the spinal roll-down.",
+        "source_videos": [
+          {
+            "gender": "male",
+            "angle": "side",
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/35808622277544-side.mp4",
+            "observedSeconds": [
+              1,
+              3,
+              6,
+              9,
+              12,
+              15,
+              17
+            ]
+          },
+          {
+            "gender": "male",
+            "angle": "front",
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/35808622277544-front.mp4",
+            "observedSeconds": [
+              1,
+              2,
+              4,
+              6,
+              9,
+              12,
+              15,
+              17
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "side",
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/35808622277544-side.mp4",
+            "observedSeconds": [
+              1,
+              3,
+              4,
+              6,
+              8
+            ]
+          },
+          {
+            "gender": "female",
+            "angle": "front",
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/35808622277544-front.mp4",
+            "observedSeconds": [
+              1,
+              3,
+              4,
+              6,
+              8
+            ]
+          }
+        ],
+        "existing_screenshot_evidence": [
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-1.png",
+            "sha256": "63e36bc83660eae92008b915c22c3a246f03aee3d0b0643732da74846e259cd1",
+            "gender": "male",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-2.png",
+            "sha256": "ddd5627d923f09d5c00501dc4500916d3dae69999ed7e355243d012c65640afc",
+            "gender": "male",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-3.png",
+            "sha256": "5abfea2b664be6370a36ca71e820a3f8751dc31173f11f6575d1188a6f41c99c",
+            "gender": "male",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-1.png",
+            "sha256": "63e36bc83660eae92008b915c22c3a246f03aee3d0b0643732da74846e259cd1",
+            "gender": "male",
+            "angle": "front"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-2.png",
+            "sha256": "ddd5627d923f09d5c00501dc4500916d3dae69999ed7e355243d012c65640afc",
+            "gender": "male",
+            "angle": "front"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-male-sample-3.png",
+            "sha256": "5abfea2b664be6370a36ca71e820a3f8751dc31173f11f6575d1188a6f41c99c",
+            "gender": "male",
+            "angle": "front"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-1.png",
+            "sha256": "1951f45b8e896de47856c6e40aac7083ad026a5ae5161af8d5cb992dfbf74e20",
+            "gender": "female",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-2.png",
+            "sha256": "391a22d8694d16dbf2697be89ac11b25e105f6e32ee3700f2696cbae564906e9",
+            "gender": "female",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-3.png",
+            "sha256": "f02872a46d80ef86c1b5a0b12ee4ee87a6fdf5363915b13f818faa1081defa66",
+            "gender": "female",
+            "angle": "side"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-1.png",
+            "sha256": "1951f45b8e896de47856c6e40aac7083ad026a5ae5161af8d5cb992dfbf74e20",
+            "gender": "female",
+            "angle": "front"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-2.png",
+            "sha256": "391a22d8694d16dbf2697be89ac11b25e105f6e32ee3700f2696cbae564906e9",
+            "gender": "female",
+            "angle": "front"
+          },
+          {
+            "path": "artifacts/localization/stage-19-video-evidence/06144a01-a685-456d-a1be-ebbb1f1c9192-female-sample-3.png",
+            "sha256": "f02872a46d80ef86c1b5a0b12ee4ee87a6fdf5363915b13f818faa1081defa66",
+            "gender": "female",
+            "angle": "front"
+          }
+        ],
+        "evidence_directory": "artifacts/localization/stage-24-video-evidence/"
+      }
+    }
+  ],
+  "deferred": [],
+  "sourceHashBefore": "4edd28f047f899f6c6621b626c30a68b53552c84168cc6d03216886af166f453",
+  "sourceHashAfter": "79dde42dd03435978c2a1ecf24146de53bf8de03a65ef58e57e5c0902c570b64",
+  "verifiedAt": "2026-10-23T11:26:00.927Z"
+}

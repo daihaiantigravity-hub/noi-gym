@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese names and instructions reviewed against source-review-decisions-004.json and all available male/female front/side sample sequences. Preserve the 51-step structure, every numeric cue, illustrative left/right assignments, load quantity and placement, support and return direction. Four female-only sources are not presented as having male clips. Prepared only until the source/translation transaction and live verification pass.",
+  "translations": [
+    {
+      "exercise_id": "047cffd7-9605-4321-b2c9-8fda59ecc2b0",
+      "sourceName": "Dumbbell Single Leg Stiff Leg Deadlift",
+      "name": "Deadlift một chân với tạ đơn và gối gần thẳng",
+      "steps": [
+        "Đứng trên một chân, mỗi tay cầm một tạ đơn và nhấc bàn chân còn lại khỏi sàn.",
+        "Gập tại hông để hạ hai tạ đơn về phía sàn, đồng thời duỗi chân đang nhấc ra sau, giữ lưng thẳng và siết cơ trung tâm.",
+        "Khi cảm thấy cơ đùi sau được kéo giãn, từ từ trở về tư thế ban đầu.",
+        "Giữ chân trụ hơi gập gối và tránh cong tròn lưng khi hạ hai tạ đơn."
+      ]
+    },
+    {
+      "exercise_id": "28e888f8-2dba-4bf2-91e5-ad4fcbb9a2b6",
+      "sourceName": "Plate Reverse Lunge",
+      "name": "Chùng chân lùi với bánh tạ",
+      "steps": [
+        "Giữ bánh tạ ngang ngực, sát người.",
+        "Bước chân trái một bước dài ra sau, hạ người đến khi đùi phải song song với sàn và đầu gối phải gập thành góc 90 độ.",
+        "Đẩy qua gót chân phải để đứng lên, đưa chân trái về tư thế ban đầu.",
+        "Lặp lại với bên kia: bước chân phải ra sau, hạ người đến khi đùi trái song song với sàn và đầu gối trái gập thành góc 90 độ."
+      ]
+    },
+    {
+      "exercise_id": "45d19ab5-5287-4ec9-808b-16a31a4a3ab4",
+      "sourceName": "Dumbbell Step Up",
+      "name": "Bước lên bục với tạ đơn hai bên",
+      "steps": [
+        "Đứng trước bục hoặc ghế, hai chân rộng bằng vai, cầm hai tạ đơn ở hai bên người với lòng bàn tay hướng vào nhau.",
+        "Bước chân phải lên ghế, đẩy qua bàn chân để nâng người lên ghế.",
+        "Đưa chân trái lên ghế và đứng thẳng, vẫn giữ hai tạ đơn ở hai bên người.",
+        "Bước chân trái xuống trước, sau đó đến chân phải để trở về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "4a566f1f-139f-46fe-996b-3ac6f638db39",
+      "sourceName": "Kettlebell Front Rack Lateral Lunge (Double)",
+      "name": "Chùng chân ngang với hai tạ ấm giữ trước vai",
+      "steps": [
+        "Mỗi tay cầm một tạ ấm, giữ ở phía trước vai theo tư thế front rack.",
+        "Từ tư thế đứng rộng chân, gập một gối và chuyển hông về bên đó để chùng chân ngang, giữ chân kia duỗi.",
+        "Trở về tư thế ban đầu. Lặp lại."
+      ]
+    },
+    {
+      "exercise_id": "4ef9719e-0d46-4e1c-90b7-b7e83aadb7f5",
+      "sourceName": "Barbell Split Squat",
+      "name": "Squat tách chân với tạ đòn",
+      "steps": [
+        "Đặt tạ đòn ngang phần lưng trên, bước một chân dài ra trước rồi hạ người đến khi gối sau gần chạm sàn. Gối trước gập thành góc 90 độ và gối sau cũng gập.",
+        "Đẩy qua gót chân trước để nâng người về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "5c502938-784a-49bf-ad97-eb1a5645bc4f",
+      "sourceName": "Dumbbell Reverse Lunge",
+      "name": "Chùng chân lùi với tạ đơn hai bên",
+      "steps": [
+        "Cầm hai tạ đơn ở hai bên người.",
+        "Bước chân trái một bước dài ra sau, hạ người đến khi đùi phải song song với sàn và đầu gối phải gập thành góc 90 độ.",
+        "Đẩy qua gót chân phải để đứng lên, đưa chân trái về tư thế ban đầu.",
+        "Lặp lại với bên kia: bước chân phải ra sau, hạ người đến khi đùi trái song song với sàn và đầu gối trái gập thành góc 90 độ."
+      ]
+    },
+    {
+      "exercise_id": "69cbf422-16b3-488a-8b7e-45fd60765289",
+      "sourceName": "Kettlebell Front Rack Reverse Lunge (Double)",
+      "name": "Chùng chân lùi với hai tạ ấm giữ trước vai",
+      "steps": [
+        "Bắt đầu với mỗi tay cầm một tạ ấm, giữ ở phía trước vai theo tư thế front rack.",
+        "Bước chân ra sau để chùng chân.",
+        "Trở về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "808d6754-42ba-4127-b1e1-01128b341408",
+      "sourceName": "Bodyweight Reverse Lunge",
+      "name": "Chùng chân lùi không tạ",
+      "steps": [
+        "Bước chân trái một bước dài ra sau, hạ người đến khi đùi phải song song với sàn và đầu gối phải gập thành góc 90 độ.",
+        "Đẩy qua gót chân phải để đứng lên, đưa chân trái về tư thế ban đầu.",
+        "Lặp lại với bên kia: bước chân phải ra sau, hạ người đến khi đùi trái song song với sàn và đầu gối trái gập thành góc 90 độ."
+      ]
+    },
+    {
+      "exercise_id": "b81f705b-f24b-402e-abc4-624a6644aaf4",
+      "sourceName": "Trap Bar Split Squat",
+      "name": "Squat tách chân với thanh trap bar",
+      "steps": [
+        "Nắm tay cầm thanh trap bar ở hai bên người, bước một chân dài ra trước rồi hạ người đến khi gối sau gần chạm sàn. Gối trước gập thành góc 90 độ và gối sau cũng gập.",
+        "Đẩy qua gót chân trước để nâng người về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "b9140f5f-4d1d-4aef-b1e5-7f5e568dd053",
+      "sourceName": "Dumbbell Goblet Reverse Lunge",
+      "name": "Chùng chân lùi với tạ đơn ôm trước ngực",
+      "steps": [
+        "Giữ một tạ đơn ở tư thế goblet trước ngực.",
+        "Bước chân trái một bước dài ra sau, hạ người đến khi đùi phải song song với sàn và đầu gối phải gập thành góc 90 độ.",
+        "Đẩy qua gót chân phải để đứng lên, đưa chân trái về tư thế ban đầu.",
+        "Lặp lại với bên kia: bước chân phải ra sau, hạ người đến khi đùi trái song song với sàn và đầu gối trái gập thành góc 90 độ."
+      ]
+    },
+    {
+      "exercise_id": "c125fd45-3152-4288-bf78-10d17dbe52d1",
+      "sourceName": "Kettlebell Alternating Reverse Lunge",
+      "name": "Chùng chân lùi luân phiên với tạ ấm hai bên",
+      "steps": [
+        "Cầm hai tạ ấm ở hai bên người.",
+        "Bước chân trái một bước dài ra sau, hạ người đến khi đùi phải song song với sàn và đầu gối phải gập thành góc 90 độ.",
+        "Đẩy người lên rồi đổi chân, luân phiên mỗi lần lặp."
+      ]
+    },
+    {
+      "exercise_id": "d83ffcc8-889f-4f39-adb3-440e6b32b201",
+      "sourceName": "Dumbbell Split Squat",
+      "name": "Squat tách chân với tạ đơn hai bên",
+      "steps": [
+        "Mỗi tay cầm một tạ đơn ở hai bên người.",
+        "Bước một chân dài ra trước rồi hạ người đến khi gối sau gần chạm sàn. Gối trước gập thành góc 90 độ và gối sau cũng gập.",
+        "Đẩy qua gót chân trước để nâng người về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "d9178084-b721-4759-8a1a-fcf2d29b8036",
+      "sourceName": "Kettlebell Step Up Double",
+      "name": "Bước lên bục với hai tạ ấm",
+      "steps": [
+        "Đứng thẳng trước ghế, mỗi tay cầm một tạ ấm ở hai bên người, sau đó đặt một bàn chân lên ghế.",
+        "Đứng lên và đưa cả hai bàn chân lên ghế. Từ từ hạ chân xuống trở lại tư thế ban đầu.",
+        "Lặp lại."
+      ]
+    },
+    {
+      "exercise_id": "da3e9114-11c7-415c-9202-2f8debf8d0f3",
+      "sourceName": "Dumbbell Deficit Reverse Lunge",
+      "name": "Chùng chân lùi từ bục với tạ đơn hai bên",
+      "steps": [
+        "Đứng trên bục, hai tay cầm tạ đơn, hai chân rộng bằng hông.",
+        "Bước ra sau, hạ gối về phía sàn, giữ ngực thẳng và siết cơ trung tâm.",
+        "Đẩy qua chân trước để trở về tư thế ban đầu, giữ hai tạ đơn ổn định ở hai bên người suốt động tác."
+      ]
+    },
+    {
+      "exercise_id": "df85c495-a531-4231-b477-5b0ee40c3cf3",
+      "sourceName": "Kettlebell Forward Lunge (Double)",
+      "name": "Chùng chân tiến với hai tạ ấm",
+      "steps": [
+        "Mỗi tay cầm một tạ ấm ở hai bên người.",
+        "Bước ra trước, chùng chân rồi trở về.",
+        "Lặp lại với chân kia."
+      ]
+    },
+    {
+      "exercise_id": "e725041c-90a9-4dea-a3be-a9aa42c5abd4",
+      "sourceName": "Dumbbell Goblet Split Squat",
+      "name": "Squat tách chân với tạ đơn ôm trước ngực",
+      "steps": [
+        "Giữ một tạ đơn ở tư thế goblet trước ngực.",
+        "Bước một chân dài ra trước rồi hạ người đến khi gối sau gần chạm sàn. Gối trước gập thành góc 90 độ và gối sau cũng gập.",
+        "Đẩy qua gót chân trước để nâng người về tư thế ban đầu."
+      ]
+    }
+  ]
+}

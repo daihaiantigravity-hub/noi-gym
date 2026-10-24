@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese titles and instructions reviewed against the video-corrected English steps; original meaning, sequence, and step counts preserved.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "4d64425d-a884-4aed-8aac-bc991e9450dc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c002f8dddaebab3521d755a35c76040e694d98ff513e1e356e5d24a21ac609f7",
+      "name": "Giãn bắp chân hai chân trên bục",
+      "description": "",
+      "steps": [
+        "Đứng trên bục, đặt mũi cả hai bàn chân gần mép bục.",
+        "Hạ cả hai gót chân về phía sàn và giữ tư thế trong khoảng thời gian được chỉ định.",
+        "Bạn sẽ cảm thấy bắp chân được kéo giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T08:51:08.230Z",
+      "source": {
+        "name": "Calf Stretch On Box Bilateral",
+        "description": "",
+        "steps": [
+          "Stand on a box with the balls of both feet near its edge.",
+          "Lower both heels toward the ground and hold the position for the duration specified.",
+          "You should feel your calves stretching."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "46d946a3b0cae847cbae9bcc73164953d936560665a0ced2016e57b4e7e903aa",
+      "name": "Deadlift không tạ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng với tư thế đúng.",
+        "Đẩy hông ra sau và gập thân trên về phía trước.",
+        "Giữ lưng thẳng khi đưa tay về phía các ngón chân.",
+        "Duỗi hông và gối để đứng thẳng trở lại, đồng thời giữ lưng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T08:51:08.230Z",
+      "source": {
+        "name": "Bodyweight Deadlift",
+        "description": "",
+        "steps": [
+          "Stand upright with good form.",
+          "Push your hips back and hinge your upper body forward.",
+          "Keep your back straight as you reach toward your toes.",
+          "Return to standing by extending your hips and knees while keeping your back straight."
+        ]
+      }
+    }
+  ]
+}

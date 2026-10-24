@@ -3,11 +3,14 @@ import { notFound } from "next/navigation";
 import ExerciseForm from "@/components/admin/ExerciseForm";
 import { getSourceExerciseOptions } from "@/lib/exercises/source";
 import { getExercise } from "@/lib/exercises/repository";
+import { getAppLanguage } from "@/lib/i18n/server";
+import { getWorkspaceMessages } from "@/lib/i18n/workspace-messages";
 
 export default async function EditExercisePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const exercise = await getExercise(id);
   if (!exercise) notFound();
+  const text = getWorkspaceMessages(await getAppLanguage());
   const sourceOptions = getSourceExerciseOptions();
   if (exercise.source === "musclewiki" && exercise.sourceId && !sourceOptions.some((option) => option.id === exercise.sourceId)) {
     sourceOptions.push({
@@ -24,6 +27,7 @@ export default async function EditExercisePage({ params }: { params: Promise<{ i
       <header className="admin-page-header admin-page-header--editor">
         <div><Link className="admin-back-link" href="/admin/exercises">← Back to list</Link><span className="admin-eyebrow">BUILD · EDIT EXERCISE</span><h1>Edit exercise</h1><p className="admin-muted">Update the content and publication status.</p></div>
       </header>
+      <div className="admin-header-actions translation-editor-link"><Link className="admin-button" href={`/admin/translations/${id}?locale=vi`}>{text.editTranslation}</Link></div>
       <ExerciseForm initialValues={{ ...exercise, id: exercise.id }} mode="edit" sourceOptions={sourceOptions} />
     </main>
   );

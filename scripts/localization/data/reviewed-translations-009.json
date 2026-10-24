@@ -1,0 +1,1495 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Reviewed each complete instruction block against source, preserving angles, grip, supports and machine setup, contraction and release cues, and step count. Suspect elbow-extension wording, missing angles, and kneeling-versus-lying setup are held for verification.",
+  "sourceExceptions": [
+    {
+      "index": 335,
+      "sourceName": "Machine Chest Press",
+      "reason": "The press endpoint says elbows 'are not extended but not hyperextended'; verify the intended extension cue instead of silently correcting it.",
+      "exercise_id": "aa60deef-61f5-467f-97dd-bfdc281f1b84"
+    },
+    {
+      "index": 353,
+      "sourceName": "Machine Plate Loaded Kneeling Hamstring Curl",
+      "reason": "The title specifies kneeling but the instructions say to lie down on the machine; verify the supported body position.",
+      "exercise_id": "b571d4f6-5ab3-4966-9a77-3f94fb95294a"
+    },
+    {
+      "index": 360,
+      "sourceName": "Machine Pulldown",
+      "reason": "A torso-angle value is missing across two source steps.",
+      "exercise_id": "77222098-18f3-4e01-b21f-cdf90a08d6bb"
+    },
+    {
+      "index": 371,
+      "sourceName": "Neutral Chest Press",
+      "reason": "The press endpoint says elbows 'are not extended but not hyperextended'; verify the intended extension cue.",
+      "exercise_id": "a07af0fa-0508-40f1-81a7-1f5103d4ec84"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "e972d9fd-cd8d-4ba4-9222-bf0f2f3d0272",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f60b7b12bd0f43b60a5f12487fcc0856d0f5c0e7353328ea678c0f5d79749e07",
+      "name": "Đứng ép ngực một tay với cáp, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với cáp, giữ tay cầm ngang vai, cánh tay hơi co.",
+        "Xoay lòng bàn tay vào trong và đưa tay chéo qua ngực theo đường vòng cung.",
+        "Siết cơ ngực ở cuối biên độ, sau đó từ từ trở lại, duy trì tư thế xoay trong."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Standing Single Arm Internally Rotated Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable and hold handle at shoulder height, arm slightly bent.",
+          "Rotate palm inward and bring arm across chest in a sweeping arc.",
+          "Squeeze chest at end range, then return slowly while maintaining internal rotation."
+        ]
+      }
+    },
+    {
+      "exercise_id": "139e35fa-71c1-4888-81b7-163e4b28f6e2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "62f28af4bbc90e1424995d50d9db41b355b808ed8ede518d8657cabd1391fdd7",
+      "name": "Đứng đá chân thẳng ra sau với cáp đặt giữa máy",
+      "description": "",
+      "steps": [
+        "Dùng đai cổ chân. Đặt cáp ở giữa chiều cao máy cáp chéo.",
+        "Đẩy cổ chân thẳng về sau bằng cách duỗi hông. Giữ một nhịp đếm khi cảm nhận cơ mông co lại.",
+        "Sau đó gập hông để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Standing Straight Leg Mid Kickback",
+        "description": "",
+        "steps": [
+          "Use an ankle attachment. The cable should be set to halfway up the crossover machine.",
+          "Push your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.",
+          "Then flex at the hips until you are back into your original position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d3b03768-e17d-4e57-b499-0a53b6123ca6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f3582e124f90d21dad207951e8e07db920dc50a9b1bdb59625bd07e5ea06cc42",
+      "name": "Đứng đẩy Svend với cáp",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về phía hai cáp đặt thấp, ép hai tay cầm vào nhau trước ngực.",
+        "Duỗi hai tay về trước, liên tục ép hai tay cầm vào nhau.",
+        "Dừng một chút rồi đưa các tay cầm về phía ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Standing Svend Press",
+        "description": "",
+        "steps": [
+          "Stand facing away from low cables, pressing both handles together at your chest.",
+          "Extend your arms forward while continuously squeezing the handles together.",
+          "Pause briefly, then return the handles toward your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dce72886-ee63-4383-885f-f1d661af6e36",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bbc8bed53a2b08a976c0ed64d23b122ce81e91585a7b385a284cb6f2d82fec41",
+      "name": "Kéo cáp tay thẳng vào người",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm, đặt ở vị trí cao nhất của máy cáp chéo.",
+        "Bước ra xa máy cáp vài bước. Hướng người sang bên so với máy.",
+        "Hướng lòng bàn tay về trước. Sau đó kéo khuỷu tay về phía lồng ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Straight Arm Pull In",
+        "description": "",
+        "steps": [
+          "Use a handle attachment set all the way to the top of the cable crossover machine.",
+          "Walk a few steps away from the cable machine. Face your body sideways.",
+          "Face your palm forward. Then pull your elbow in toward your rib cage."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ab47ab3f-325f-4678-b4f2-ad2f7a26c067",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "96933b2149fbca512f112f45ec60a72bcef0be9d8c754da66b80359b14ccec6a",
+      "name": "Kéo cáp kết hợp xoay ngửa tay",
+      "description": "",
+      "steps": [
+        "Đặt cáp ngang vai.",
+        "Bắt đầu bằng tay nắm sấp. Khi kéo khuỷu tay về sau, xoay lòng bàn tay đến khi hướng lên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Supinating Row",
+        "description": "",
+        "steps": [
+          "Place the cable at shoulder height.",
+          "Start with an overhand grip. As you pull your elbow back, rotate your palm until it faces upward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "08edb3c1-4db6-4b61-8e89-f88b97a012cd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a6a9dc0a030162a6a2bb76e8945db7c49760e946b71d31648b4049cc04fcf26",
+      "name": "Squat kết hợp đẩy cáp qua đầu",
+      "description": "",
+      "steps": [
+        "Giữ các tay cầm của cáp đặt thấp ở ngang vai, hai chân rộng bằng vai.",
+        "Squat xuống, giữ ngực nâng và đầu gối hướng ra ngoài.",
+        "Đứng lên mạnh mẽ và đẩy cả hai tay cầm qua đầu đến khi hai tay duỗi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Thruster",
+        "description": "",
+        "steps": [
+          "Hold low cable handles at shoulder height with your feet shoulder-width apart.",
+          "Squat down while keeping your chest raised and knees tracking outward.",
+          "Stand powerfully and press both handles overhead until your arms are extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6c05a7f7-c981-496c-9a3a-df91e8fec239",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "393189ee2fa0e5a5a3eee3e7bd6a1eb6a7521ebef7085891b36098da294fa70d",
+      "name": "Duỗi tay sau ra sau với cáp",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ngang hông.",
+        "Gập người về trước tại hông. Giữ bắp tay sát bên thân. Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Tricep Kickback",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set to hip height.",
+          "Hinge forward. Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9eb0320f-8a6d-4f66-bf28-7275f5c68905",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "81d6947754f6b0a3a0ed17d32113ac87517815a18e299b0bd5c81cffafe0c64c",
+      "name": "Kéo cáp chéo kiểu bổ củi",
+      "description": "",
+      "steps": [
+        "Đặt cáp khoảng ngang núm vú. Dùng tay cầm.",
+        "Hướng người sang bên so với máy, sau đó xoay thân với hai tay duỗi để thắng lực cản.",
+        "Sau khi hoàn thành số lần lặp được chỉ định, đổi sang hướng đối diện và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Wood Chopper",
+        "description": "",
+        "steps": [
+          "Set the cable at about nipple level. Use a handle attachment.",
+          "Face sideways, then rotate your torso with your arms extended against the resistance.",
+          "After completing your given number of reps, face the opposite direction and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2509a9fa-5143-48ca-94b7-b41d6414a4a9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "53384e11c79d3e2317d192a6daa92904cddaf90f826591b2262cc956e5eb1f14",
+      "name": "Gập cổ tay với cáp",
+      "description": "",
+      "steps": [
+        "Dùng tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Đứng quay lưng về phía máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Bắt đầu với khuỷu tay tạo góc 90°, lòng bàn tay ngửa. Gập và duỗi cổ tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Wrist Curl",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+          "Start with your elbow at a 90° angle with your palm facing up. Flex and extend at the wrist."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8fbaa026-cce8-4209-b4af-e39e0adb866e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e9fdafc561461da42bfd6ef9f67e8818f755bd9d69fa167abe865d1c0317e71f",
+      "name": "Nâng tay hình chữ Y với cáp",
+      "description": "",
+      "steps": [
+        "Đứng phía trên hai cáp đặt thấp bắt chéo, mỗi tay nắm tay cầm đối diện.",
+        "Nâng hai tay lên trên và ra ngoài thành hình chữ Y.",
+        "Dừng khi tay gần qua đầu rồi từ từ hạ các tay cầm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Y Raise",
+        "description": "",
+        "steps": [
+          "Stand over crossed low cables, holding the opposite handle in each hand.",
+          "Raise your arms upward and outward, forming a Y shape.",
+          "Pause near overhead, then slowly lower the handles."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2b98d31d-0e18-4c9e-9349-5053dca4e728",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b881c307516d7a7752870fd1c8760a8554b5fc800a352fbfda332b4664b74e4b",
+      "name": "Gập hông kiểu good morning Zercher với cáp",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ thanh trong nếp khuỷu tay, lòng bàn tay hướng về người.",
+        "Giữ cơ bụng siết và lưng thẳng, gập hông để hạ thân về trước đến khi gần song song với mặt đất.",
+        "Ấn gót chân xuống để duỗi hông và nâng người trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Zercher Good Morning",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet about hip-width apart and holding the bar in the crook of your elbows, with your palms facing towards your body.",
+          "Keeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground.",
+          "Push through your heels to extend your hips and raise your body back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f8788b61-95dd-43b9-be92-36b427fa6855",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "33f7b163e66e467ea825c953981b2ab071709d7b22ade4ea663917baaa5c5605",
+      "name": "Zercher squat với cáp",
+      "description": "",
+      "steps": [
+        "Bắt đầu với thanh thẳng hoặc thanh EZ gắn cáp.",
+        "Đặt thanh trong khuỷu tay, đứng thẳng lên bằng động tác squat rồi lùi vài bước.",
+        "Gập gối và hông để bắt đầu squat. Giữ lưng phẳng.",
+        "Đứng lên hoàn toàn để trở về tư thế đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Cable Zercher Squat",
+        "description": "",
+        "steps": [
+          "Start with a straight bar or easy bar attachment .",
+          "Place the bar in your elbows, squat straight up and then walk back a few steps.",
+          "Break at your knees and hips to initiate the squat. Make sure you maintain a flat back.",
+          "Squat all the way back to a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "39595cfd-1731-4561-a7ad-f43ccadc09d4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c5f6d96ceeeabe4b855d9371b9cd3a5f783b572a12e47092e1d784f3a9885247",
+      "name": "Tập mông với máy Gluteator",
+      "description": "",
+      "steps": [
+        "Ngồi thẳng trên ghế, đặt đầu gối lên đệm và bàn chân lên bệ chân.",
+        "Đẩy hai chân ra ngoài và về sau, siết cơ mông."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Gluteator",
+        "description": "",
+        "steps": [
+          "Sit on the seat upright with your knees placed on the pads and your feet on the foot pads.",
+          "Push your legs outwards and backwards and flex your glutes."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a148a98c-96e4-4284-a99f-7dae0975ab5d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c9832e8434fd02802f23e28af7849492d5ce246cadf34b4665bf57697366894f",
+      "name": "Hack squat trên máy nằm ngang",
+      "description": "",
+      "steps": [
+        "Vào vị trí trên máy hack squat, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp.",
+        "Ấn gót chân để đẩy về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Horizontal Hack Squat",
+        "description": "",
+        "steps": [
+          "Position yourself in the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+          "Place feet shoulder-width apart on the platform.",
+          "Press through your heels to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f087dc11-0278-4cd6-b251-e38c44a99d75",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "aff30edbab864887a3b65a1ae7c228fc5ea1d084d7e5f7b590d91c48d69c7de7",
+      "name": "Duỗi lưng trên máy góc 45 độ",
+      "description": "",
+      "steps": [
+        "Đặt đùi lên đệm và móc chân vào các bệ đỡ.",
+        "Giữ lưng thẳng, từ từ gập người tại eo đến khi chân và lưng tạo góc 45°.",
+        "Từ từ nâng người về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine 45 Degree Back Extension",
+        "description": "",
+        "steps": [
+          "Position your thighs on the padding and hook your feet on the platform supports.",
+          "Keeping your back straight, slowly bend at your waist until your legs and back are at a 45° angle.",
+          "Slowly raise your body to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "98b91ca5-6672-4009-a17a-44f8d00492bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "774c0de86280ab967f79451cd0615c3ee241e1ca9bdc5e4c2639cdfde0c65758",
+      "name": "Nhón gót trên máy góc 45 độ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao rồi ngồi xuống.",
+        "Đặt phần trước lòng bàn chân lên bệ tập bắp chân để chịu trọng lượng, để gót chân nhô ra ngoài bệ.",
+        "Nâng gót chân lên, giữ đầu gối cố định và dừng ở vị trí cơ co.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine 45 Degree Calf Raise",
+        "description": "",
+        "steps": [
+          "Adjust the machine in accordance with your height and sit.",
+          "The balls of your feet should be supporting your weight on the calve block, your heels extended off of it.",
+          "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+          "Slowly return to the starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2640d743-045c-47b4-acf4-d6df090a26b4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d61f502212986a919d341758a41de68d0c03bf523b03ddaf572eaa5e8540c775",
+      "name": "Kéo xà với máy trợ lực, tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Điều chỉnh mức tạ trợ lực. Đứng lên bệ, nắm tay cầm với khoảng cách rộng hơn vai. Đặt đầu gối lên đệm nếu có.",
+        "Từ từ kéo người lên đến khi cằm cao hơn thanh. Giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Hạ người có kiểm soát. Dừng ở vị trí thấp nhất. Lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Assisted Neutral Chin Up",
+        "description": "",
+        "steps": [
+          "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+          "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+          "Lower back with control. Pause at bottom. Repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "54046e06-dc0f-4ef7-a695-fd91be1fd9c5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "55f7320c61827aa3479857a9b81cad1775812fc3ea86b3bfd693d654fdc1bab6",
+      "name": "Kéo xà với máy trợ lực",
+      "description": "",
+      "steps": [
+        "Điều chỉnh mức tạ trợ lực. Đứng lên bệ, nắm tay cầm với khoảng cách rộng hơn vai. Đặt đầu gối lên đệm nếu có.",
+        "Từ từ kéo người lên đến khi cằm cao hơn thanh. Giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Hạ người có kiểm soát. Dừng ở vị trí thấp nhất. Lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Assisted Pull Up",
+        "description": "",
+        "steps": [
+          "Adjust weight for assistance. Stand on platform, grip handles above shoulder-width. Knees on pad if available.",
+          "Slowly pull up until chin is above the bar. Keep elbows close, core engaged.",
+          "Lower back with control. Pause at bottom. Repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "77350b9c-ac56-4ab7-b5a7-6c7718d517b1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1055282f600ba43a4c5ed7cf6190b68f379d98eb2ec938a55eeec5a0ae5b21b5",
+      "name": "Duỗi lưng trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, đặt lưng trên vào đệm con lăn.",
+        "Duỗi hông và lưng dưới. Không duỗi cột sống quá mức."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Back Extension",
+        "description": "",
+        "steps": [
+          "Sit on the machine and place your upper back on the rolling pad.",
+          "Extend your hips and lower back. Make sure not to hyperextend your spine."
+        ]
+      }
+    },
+    {
+      "exercise_id": "34e6d154-1660-485b-aedc-a45ecdfa3287",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9fa7f70e48a6a3ef9280ef2a72d31126d304f7eb075196e6cd91bad423ef6d9c",
+      "name": "Squat với máy đai kéo",
+      "description": "",
+      "steps": [
+        "Đeo đai quanh eo và móc đầu đai vào máy.",
+        "Đứng lên để nhả cơ cấu giữ. Giữ các tay vịn khi squat.",
+        "Sau khi hoàn thành hiệp tập, gài lại cơ cấu giữ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Belt Squat",
+        "description": "",
+        "steps": [
+          "Put the belt around your waist and hook the end of the belt onto the machines.",
+          "Stand up to disengage the holding mechanism. Hold the arms while you squat.",
+          "Once you've completed your set, reset the holding mechanism."
+        ]
+      }
+    },
+    {
+      "exercise_id": "71da99d2-9b73-452d-a945-a76ff5b9ec14",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eeeda66562061bd5ced5d8ae26daa6d0a5a8a507f4c5b350e1892c45bbce7872",
+      "name": "Ép ngực trên máy với tay co",
+      "description": "",
+      "steps": [
+        "Điều chỉnh ghế để tay cầm ngang ngực. Đặt khuỷu tay lên đệm.",
+        "Từ từ đưa hai đệm lại gần nhau phía trước, duy trì lực căng. Tập trung siết cơ ngực.",
+        "Đưa các đệm về vị trí ban đầu có kiểm soát. Luôn giữ ngực nâng. Lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Bent Arm Pec Fly",
+        "description": "",
+        "steps": [
+          "Adjust seat height so handles align with chest. Put your elbows on the pads.",
+          "Slowly bring pads together in front, keeping tension. Focus on squeezing chest muscles.",
+          "Return pads to starting position with controlled motion. Keep chest up throughout. Repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f06eecfb-c42a-4878-b746-84a56b01d2aa",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4ed9e936e87e1efd21279e4a1e5eafe0d2868b5a97f5ed83986e5461355d7268",
+      "name": "Cuốn tay trước trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh ghế theo chiều cao và đặt khuỷu tay lên đệm.",
+        "Nắm các tay cầm và gập khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Bicep Curl",
+        "description": "",
+        "steps": [
+          "Adjust the seat to fit your height and place your elbows on the elbow pad.",
+          "Grab the handles and flex your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c72a3f6-3e52-4b57-ae4b-260f6a855cba",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8ecc347df9746c1637f5db85d10ea836ec4c2846f424b386ebf019fa8ec993f2",
+      "name": "Đẩy thanh chữ V xuống tập tay sau trên máy cáp",
+      "description": "",
+      "steps": [
+        "Nắm thanh cáp với lòng bàn tay úp, khoảng cách hai tay rộng bằng vai.",
+        "Đứng thẳng và hơi nghiêng về trước. Giữ bắp tay gần thân, từ từ đẩy thanh cáp xuống đến khi hai tay duỗi hoàn toàn.",
+        "Dừng ở vị trí cơ co, sau đó từ từ nâng thanh cáp về điểm bắt đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Cable V Bar Push Downs",
+        "description": "",
+        "steps": [
+          "Grip the pulley bar with palms facing down at shoulder width.",
+          "Stand straight with a small forward incline. Keep your upper arms close to your body, and slowly bring the pulley bar down until your arms are fully extended.",
+          "Pause when you are at the contracted position of the motion, then slowly raise the pulley bar back to the starting point."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c2844e8a-2feb-4996-85a3-e3ccc8071301",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8176e03c3157d5fa86edb9f42e3b983b499f2593898329d32a76e0d05cb3ecfc",
+      "name": "Kéo thanh chữ T trên máy có đệm tựa ngực",
+      "description": "",
+      "steps": [
+        "Nằm tựa lên đệm ngực và nắm các tay cầm. Nhấc thanh ra khỏi móc giữ.",
+        "Kéo thanh về ngực, sau đó duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Chest Supported T Bar Row",
+        "description": "",
+        "steps": [
+          "Lay on the chest pad and grab the handles. Lift the bar out of the holding hook.",
+          "Pull the bar to your chest and then fully extend your elbows at the bottom of each rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "108d0406-5fe9-4fbf-8526-cf2ce2692039",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9cc6e6c354e025f1b644e93ebfe6e1173db1e20850de70a2d9f644a17ef56a3d",
+      "name": "Đẩy tay sau kiểu dips trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy và nắm các tay cầm.",
+        "Đẩy các tay cầm xuống đến khi khuỷu tay gần duỗi thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Dips",
+        "description": "",
+        "steps": [
+          "Sit on the machine and grab the handles.",
+          "Press the handles down until your elbows are nearly extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eee45b18-f937-4ab9-9e60-9f05911e3b42",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9bb389d568cd0c54e367068e6c613160f2716334fea4a98fa75a690e2dc3fba6",
+      "name": "Nhón gót gập người trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao. Đặt khuỷu tay lên đệm, nắm các tay cầm. Đệm thẳng đứng tựa trên lưng dưới.",
+        "Nâng gót chân về phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Donkey Calf Raise",
+        "description": "",
+        "steps": [
+          "Adjust the machine to fit your height. Place your elbows on the pad, grab the handles. The vertical pad should be resting on your lower back.",
+          "Raise your heels toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b8d4d77b-5319-48e0-8b0e-38ba4363c57b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "375a2b51f296817e70174ee11a6e44224a776303612208d7b9304e2467c7dc9a",
+      "name": "Đá chân ra sau tập mông trên máy",
+      "description": "",
+      "steps": [
+        "Nắm các tay cầm, đặt một đầu gối lên đệm và bàn chân của chân đang tập lên bàn đạp.",
+        "Đẩy chân đang tập về sau đến khi cảm nhận cơ mông co lại, sau đó trở về vị trí ban đầu mà không để tạ nghỉ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Glute Kickback",
+        "description": "",
+        "steps": [
+          "Grab the handles, place one knee on the pad, and the foot of the working leg on the foot plate.",
+          "Push your working leg back until you feel your glute contract, then return to the starting position without resting the weights."
+        ]
+      }
+    },
+    {
+      "exercise_id": "facaefe8-665c-4538-b709-73be0c115111",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e6481a727b9f59138569c22cf6c9272b8ac0687f90bc2fc0f06008fee1089711",
+      "name": "Hack squat trên máy",
+      "description": "",
+      "steps": [
+        "Vào vị trí trên máy hack squat, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp. Giữ lưng thẳng và từ từ hạ người vào tư thế squat.",
+        "Ấn gót chân để trở về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Hack Squat",
+        "description": "",
+        "steps": [
+          "Position yourself in the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+          "Place feet shoulder-width apart on the platform. Keep your back straight, and slowly lower into a squat position.",
+          "Press through your heels to return to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e2d42fd9-04c5-4856-a0ea-62456f50117e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "566d23d1021aea3f31ceb7a31b5df1cf4685cbc92d6210b06120db6bd76d020b",
+      "name": "Dạng hông tập mông trên máy",
+      "description": "",
+      "steps": [
+        "Đứng trên bệ, đặt đệm ngay phía trên hông đối diện với chân đang tập.",
+        "Đặt chân đang tập qua phía trên đệm.",
+        "Đẩy chân ra ngoài. Cố gắng đạt biên độ chuyển động lớn nhất có thể."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Hip And Glute Abduction",
+        "description": "",
+        "steps": [
+          "Stand on the platform and set the pad just over the opposing hip of the working leg.",
+          "Place the working leg over the pad.",
+          "Press your leg outward. Aim to get the longest range of motion possible."
+        ]
+      }
+    },
+    {
+      "exercise_id": "588e5442-570c-4a44-8f97-c9c41943c973",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "aff2aef798f7dc6632a9f0f82e028d066c266baee9f098c2ce1999825cecb7ea",
+      "name": "Duỗi hông đá chân ra sau trên máy",
+      "description": "",
+      "steps": [
+        "Đứng trên bệ, hướng thân sang bên so với máy.",
+        "Đặt đệm hơi cao hơn hông. Đặt chân đang tập qua phía trên đệm.",
+        "Duỗi chân đang tập về sau và siết cơ mông ở cuối mỗi lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Hip And Glute Kickback",
+        "description": "",
+        "steps": [
+          "Stand on the platform and sideways on the machine.",
+          "Place the pad at just above hip height. Place the working leg over the pad.",
+          "Extend the working leg backwards and flex your glute at the end of each rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fbd547ad-321d-4712-a2b8-720c782509d2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "17c5ebf1f7b802db6b5b297cfbede93b169b730a51251437b15f4d59b3c8d9a3",
+      "name": "Đẩy hông trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao, ngồi tựa lưng vào đệm, đầu gối co, bàn chân đặt phẳng trên bệ.",
+        "Siết cơ bụng, ấn gót chân và duỗi hông lên trên, nâng tạ đồng thời siết cơ mông.",
+        "Từ từ hạ tạ về vị trí ban đầu có kiểm soát; lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Hip Thrust",
+        "description": "",
+        "steps": [
+          "Adjust the machine for your height, sit with your back against the pad, knees bent, feet flat on the platform.",
+          "Brace your core, push through your heels, and extend your hips upwards, lifting the weight while squeezing your glutes.",
+          "Lower the weight slowly back to the starting position, ensuring controlled movement; repeat for desired reps and sets."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c1fc45c5-810a-40c6-b1e4-cf5c2a513a92",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8f5069787b7445452939302575cfbbd5bfd4934bc6bd83e3fa062b72ebd695bd",
+      "name": "Kéo lưng trên máy với tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay hướng vào nhau, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Neutral Row",
+        "description": "",
+        "steps": [
+          "Sit on the machine, feet flat, and grab the handles with palms facing each other, keeping your back straight.",
+          "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+          "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a2812a93-9bc6-44ce-bbc0-de6a9d369c1e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "860a42fb6f9f50546791e67c8087be6b4ed467cde52d270558548175874646c6",
+      "name": "Kéo lưng trên máy với tay nắm sấp",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay úp, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Overhand Row",
+        "description": "",
+        "steps": [
+          "Sit on the machine, feet flat, and grab the handles with palms facing down, keeping your back straight.",
+          "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+          "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7ef7eb64-1ae6-4c0a-8fc5-22389f3a5293",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2a49cbc670b42c670a79e1e459fbcdd4f699688703d8ad82e563e5ba71f7bbd5",
+      "name": "Duỗi tay sau qua đầu trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh đệm theo chiều cao.",
+        "Nắm thanh chữ V hoặc phụ kiện khác và duỗi khuỷu tay đến khi gần thẳng hoàn toàn.",
+        "Gập khuỷu tay, cảm nhận độ kéo giãn ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "Adjust the pad to suit your height.",
+          "Grab the v bar (or other attachment) and extend your elbows until they are almost fully extended.",
+          "Flex your elbows and look to feel a stretch at the bottom of each rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0d1bf747-6d0a-4f4b-864a-0d0eba55b353",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6d0100ad7c025589ae4c7d89ba011cc1186e35a632cf7a8fe39bee08f733a753",
+      "name": "Ép ngực trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh ghế để tay cầm ngang ngực. Ngồi và nắm các tay cầm, khuỷu tay hơi co.",
+        "Từ từ đưa hai tay cầm lại gần nhau phía trước, duy trì lực căng. Tập trung siết cơ ngực.",
+        "Đưa các tay cầm về vị trí ban đầu có kiểm soát. Luôn giữ ngực nâng. Lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Pec Fly",
+        "description": "",
+        "steps": [
+          "Adjust seat height so handles align with chest. Sit and grip handles with elbows slightly bent.",
+          "Slowly bring handles together in front, keeping tension. Focus on squeezing chest muscles.",
+          "Return handles to starting position with controlled motion. Keep chest up throughout. Repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9825c858-8b6a-4140-a27f-b363b9cdc20d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fe1798a94794005a44f116f437068eb987ef19fc6978f11bde0d82007b8a62e8",
+      "name": "Squat trên máy con lắc",
+      "description": "",
+      "steps": [
+        "Vào vị trí trên máy squat con lắc, lưng tựa đệm và vai ở dưới đệm vai.",
+        "Đặt hai chân rộng bằng vai trên bàn đạp. Giữ lưng thẳng và từ từ hạ người vào tư thế squat.",
+        "Ấn gót chân để trở về vị trí ban đầu, giữ cơ bụng siết. Lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Pendulum Squat",
+        "description": "",
+        "steps": [
+          "Position yourself in the pendulum squat machine with your back against the pad and shoulders under the shoulder pads.",
+          "Place feet shoulder-width apart on the platform. Keep your back straight, and slowly lower into a squat position.",
+          "Press through your heels to return to the starting position, keeping your core engaged. Repeat for desired reps and sets."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6be019a-129b-4c0d-9b0a-04365c774577",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "305e01f4185e9a7c5877d1220bbdba5f4d53d028ee30cd0e7949f3fd70aed473",
+      "name": "Gập bụng trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Đặt bàn chân dưới các đệm chân và dùng tay nắm các tay cầm.",
+        "Gập cột sống để đưa phần thân trên và thân dưới lại gần nhau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Crunch",
+        "description": "",
+        "steps": [
+          "Place your feet under the foot pads and grab the handles with your hands.",
+          "Flex your spine and bring your upper and lower body together."
+        ]
+      }
+    },
+    {
+      "exercise_id": "54e1e038-e839-4c30-bb28-589232cc608b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "79f2f052ec4859fb755439368ee7f2a00e1b2233d8157ecdf83b99f327a278ef",
+      "name": "Đẩy ngực hướng xuống trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Decline Chest Press",
+        "description": "",
+        "steps": [
+          "Adjust the seat pad to match your height.",
+          "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3f5a943d-4e81-4d5c-9099-7241a6a915e3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "15b297e22607c4b2c381b3c3fd0ccb2a6bbbe070e68f439132c839d0896ecd66",
+      "name": "Đẩy hông trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh máy theo chiều cao, ngồi tựa lưng vào đệm, đầu gối co, bàn chân đặt phẳng trên bệ.",
+        "Siết cơ bụng, ấn gót chân và duỗi hông lên trên, nâng tạ đồng thời siết cơ mông.",
+        "Từ từ hạ tạ về vị trí ban đầu có kiểm soát; lặp lại theo số lần và số hiệp mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Hip Thrust",
+        "description": "",
+        "steps": [
+          "Adjust the machine for your height, sit with your back against the pad, knees bent, feet flat on the platform.",
+          "Brace your core, push through your heels, and extend your hips upwards, lifting the weight while squeezing your glutes.",
+          "Lower the weight slowly back to the starting position, ensuring controlled movement; repeat for desired reps and sets."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4da6626e-030c-4d93-8394-47deb37fb752",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8f8981cd6932315fbced737b39e2f821ccd20be4971a2487d952a3f95a93d0b2",
+      "name": "Đẩy ngực hướng lên trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Incline Chest Press",
+        "description": "",
+        "steps": [
+          "Adjust the seat pad to match your height.",
+          "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9b0449e8-f6f0-493c-949a-48c2b15e1b9b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3e5c2999a13e5a50295cfa49f073580d9525ba272222feae5e280f5e6b0b6a5c",
+      "name": "Đẩy ngực trên ghế dốc thấp của máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đẩy tạ về trước đến khi khuỷu tay gần duỗi thẳng. Trở về vị trí ban đầu mà không để tạ nghỉ ở điểm thấp nhất cho đến khi kết thúc hiệp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Low Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Adjust the seat pad to match your height.",
+          "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8cf9a87c-b62e-4667-91e8-cc18afa8e239",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f1bd04010091db9039652a36150342d9f6e93e2cb547bcd33c41354537c134d6",
+      "name": "Kéo lưng thấp trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Áp ngực vào đệm và nắm sấp các tay cầm nằm ngang.",
+        "Kéo các tay cầm về phía người, giữ khuỷu tay đưa ra ngoài."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Low Row",
+        "description": "",
+        "steps": [
+          "Press your chest into the chest pad and grab the horizontal handles with an overhand grip.",
+          "Pull the handles toward you, make sure your elbows stay flared out."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9a9e0bab-99cc-4927-b97b-241a9a7ec7cb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "27f297c0a8d0319de4ac83b8db4d9b5f64f11c95165eecaac1b2ba0f60b3ca2a",
+      "name": "Kéo xô trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Nắm các tay cầm với lòng bàn tay úp.",
+        "Ngồi trên máy và tì đầu gối vào đệm gối.",
+        "Kéo tay cầm đến khi bắp tay ngang với thân hoặc hơi ra sau thân.",
+        "Duỗi đến khi khuỷu tay thẳng hoàn toàn trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Pulldown",
+        "description": "",
+        "steps": [
+          "Grip the handles with the palms facing down.",
+          "Sit on the machine and press your knees into the knee pad.",
+          "Pull the handles until your upper arm is even with your torso, or just behind your torso.",
+          "Extend until your elbows are fully extended before initiating the next rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "821800de-7571-4ded-bc51-4bbd1f41c130",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "10ab0fcfb81d7115f52017b225ad3f6428fba824c4f3c9cceb8984033d5de3fb",
+      "name": "Kéo lưng trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng và nắm các tay cầm.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Row",
+        "description": "",
+        "steps": [
+          "Sit on the machine, feet flat, and grab the handles.",
+          "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+          "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7802ea27-9a23-4f3b-8178-97f2c21fda25",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9aaa51046fefe3230977c14e40413ad16fafb7d8211603fdd91bc3af7c61068d",
+      "name": "Kéo lưng nằm sấp kiểu seal row trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Điều chỉnh độ cao móc giữ thanh theo chiều dài cánh tay rồi nằm sấp.",
+        "Nhấc thanh ra khỏi móc rồi bắt đầu hiệp tập.",
+        "Kéo thanh thẳng về sau rồi hạ về vị trí bắt đầu. Duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded Seal Row",
+        "description": "",
+        "steps": [
+          "Lay on the chest after adjusting the height off the bar holding hooks to match your arm length.",
+          "Remove the bar from the hooks, then initiate the set.",
+          "Pull the bar straight back, then lower to the start position. Fully extend your elbows at the bottom of each rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "53590e26-358a-4f27-b463-5894c31765a4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f122f7a253d316fd82ad68dd1b2d7bc959485b14bd96c0f50d9a0db2bc628dbf",
+      "name": "Kéo thanh chữ T trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Nắm các tay cầm và kéo tạ về phía ngực.",
+        "Duỗi hoàn toàn khuỷu tay ở vị trí thấp nhất của mỗi lần lặp. Không dùng đà."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Plate Loaded T Bar Row",
+        "description": "",
+        "steps": [
+          "Hinge forward while keeping your back flat.",
+          "Grab the handles and pull the weight toward your chest.",
+          "Make sure to fully extend your elbows at the bottom of each rep. Also make sure to not use momentum."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4e1bddf4-922f-454a-b581-a00a1e2df7c3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e440131913952c0fc006071a41cf9da6c14ac214e3ec7c1772594f7e452ae92a",
+      "name": "Kéo tay qua đầu trên máy",
+      "description": "",
+      "steps": [
+        "Điều chỉnh đệm ghế theo chiều cao.",
+        "Đặt khuỷu tay lên đệm. Kéo thanh về trước đến khi gần chạm bụng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Pullover",
+        "description": "",
+        "steps": [
+          "Adjust the seating pad for your height.",
+          "Place your elbows on the elbow pad. Pull the bar forward until it nearly touches your stomach."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fc2b9d18-8b5f-4b4b-8451-5ec355277a2d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a1d6e1bc66f7387495e449004ded82b8019fe634dea532cb15a799eed97d0b08",
+      "name": "Kéo tập vai sau trên máy",
+      "description": "",
+      "steps": [
+        "Áp ngực vào đệm và nắm sấp các tay cầm.",
+        "Kéo khuỷu tay thẳng về sau, giữ khuỷu tay hướng ra ngoài trong suốt lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Rear Deltoid Row",
+        "description": "",
+        "steps": [
+          "Place your chest against the pad and grab the handles with an overhand grip.",
+          "Pull your elbows straight back and keep your elbows flared throughout the rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5763d671-641a-4010-af54-032fe0fa064e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6c9c29e2cf3fa4966c4ec5a21c6c806da4f19eb9981159cff51318fb9aa0b998",
+      "name": "Dang tay ngược trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy và áp ngực vào đệm.",
+        "Nắm sấp các tay cầm. Giữ khuỷu tay gần như duỗi thẳng.",
+        "Đưa hai tay về sau và ép hai bả vai lại gần nhau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Reverse Fly",
+        "description": "",
+        "steps": [
+          "Sit on machine and press your chest into the pad.",
+          "Grab the handles with an overhand grip. Keep your elbows mostly extended.",
+          "Bring your arms backwards and squeeze your scapula together."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7328b65a-778e-4866-af99-fa8039b447fd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c93c63d9dd433968a12133d636a9cb5ca4aef47abc2b6871a6257cc087c84b6a",
+      "name": "Duỗi hông ngược trên máy",
+      "description": "",
+      "steps": [
+        "Nằm trên đệm và nắm các tay cầm.",
+        "Luồn hai chân vào vòng đai.",
+        "Đẩy hai chân về sau đến khi nằm ngang so với mặt đất.",
+        "Hạ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Reverse Hyperextension",
+        "description": "",
+        "steps": [
+          "Lay on the pad and grab the handles.",
+          "Slip your legs into the belt loop.",
+          "Push your legs back until they are horizontal with the ground.",
+          "Lower back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8885419c-05a6-4b8e-8de8-7c9de9241b95",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "68914c4d844a1c3c90ee4e80a6be8529f251b79168073168655f0b456ba6c150",
+      "name": "Lăn bánh xe tập bụng",
+      "description": "",
+      "steps": [
+        "Dùng hai tay giữ bánh xe tập bụng, quỳ trên sàn, nhấc hai bàn chân lên và bắt chéo.",
+        "Từ từ lăn bánh xe thẳng về trước, duỗi người thành tư thế thẳng.",
+        "Dừng ở tư thế duỗi, sau đó bắt đầu kéo người trở về vị trí ban đầu. Thực hiện chậm và có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Roll Outs",
+        "description": "",
+        "steps": [
+          "Hold the Ab Roller with both hands and kneel on the floor with your feet up and crossed.",
+          "Slowly roll the ab roller straight forward, stretching your body into a straight position.",
+          "After a pause at the stretched position, start pulling yourself back to the starting position. This should be a slow and controlled movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "26c35c1b-0c7f-4f2b-97cb-2d898247b9f7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b2f58682d849cddfd708f5a38f686b0548338993386016a7e294648cecf5b625",
+      "name": "Ngồi gập gối tập đùi sau trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi lùi vào ghế. Dùng hai tay cầm để đẩy người tựa về sau vào ghế.",
+        "Gập cổ chân để hướng các ngón chân lên trên.",
+        "Gập gối đưa đệm về sau, sau đó duỗi gối mà không để tạ chạm xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Seated Leg Curl",
+        "description": "",
+        "steps": [
+          "Sit back in the seat. Use the two handles to push yourself back into the chair.",
+          "Flex your ankles and point your toes upward.",
+          "Flex your knee bringing the pad backward, extend your knee without allowing the weight to touch back down."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1585d73c-f865-4546-9d75-75b13d959210",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a2ed2749184cd6ce0f6bd3dab53a83c9fc8a4d8ae76964a2a4b9f19c4e3f664",
+      "name": "Đứng nâng tay sang ngang trên máy",
+      "description": "",
+      "steps": [
+        "Nắm hai tay cầm và nâng hai tay thẳng sang hai bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Standing Lateral Raise",
+        "description": "",
+        "steps": [
+          "Grab the two handles and raise the arms straight out to your sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e9358ad8-8350-4e95-80ba-25a15ab318e0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cde99a94028a81c295deffe2edca7a72c70e4f34416d51be9e9bf35ae47e8cab",
+      "name": "Đẩy xuống tập tay sau trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy và đặt mặt sau bắp tay lên ghế đệm.",
+        "Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại.",
+        "Đưa tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Tricep Pushdown",
+        "description": "",
+        "steps": [
+          "Sit on the machine and place the back of your upper arm on the bench.",
+          "Extend your elbows until you feel a contraction in your triceps.",
+          "Bring the weight back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ae46e4aa-bc87-486c-807e-3c151238ddec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "979ac02ee0ce931996ac243a8138bd0ea06713abd745790e172d3401bcc4a14e",
+      "name": "Kéo lưng trên máy với tay nắm ngửa",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, đặt bàn chân phẳng, nắm tay cầm với lòng bàn tay ngửa, giữ lưng thẳng.",
+        "Kéo các tay cầm về bụng dưới, ép hai bả vai lại gần nhau. Giữ khuỷu tay gần thân.",
+        "Từ từ trở về vị trí ban đầu, duỗi hoàn toàn hai tay mà không khóa khuỷu tay. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Machine Underhand Row",
+        "description": "",
+        "steps": [
+          "Sit on the machine, feet flat, and grab the handles with palms facing up, keeping your back straight.",
+          "Pull handles towards your lower abdomen, squeezing your shoulder blades together. Keep elbows close to your body.",
+          "Slowly return to the starting position, fully extending your arms without locking elbows. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a768f330-b549-4d7e-a58c-d835d4e50319",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a09472629e63673ec3b3b243a7415297a1f815d6e0ffaf833c62ed59b0447e42",
+      "name": "Kéo xô tay hẹp",
+      "description": "",
+      "steps": [
+        "Dùng thanh thẳng gắn cáp.",
+        "Giữ thanh, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Narrow Pulldown",
+        "description": "",
+        "steps": [
+          "Use the Straight Bar attachment.",
+          "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+          "Pull the bar to your clavicle, then raise back up until your arm are extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "06868a9e-6fdb-40c8-a723-94c4f7473846",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ecb0e29269190237b4eb2e2112b82506b342f5420185e76f47ad40b8c58c2307",
+      "name": "Kéo xô với tay nắm trung tính",
+      "description": "",
+      "steps": [
+        "Dùng thanh chữ V gắn cáp.",
+        "Giữ phụ kiện, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Neutral Pulldown",
+        "description": "",
+        "steps": [
+          "Use the V Bar attachment.",
+          "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+          "Pull the bar to your clavicle, then raise back up until your arm are extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "04e7456d-124f-4def-9374-4d039b654b97",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1de6218c4ef5118b0b64068ec81f914e894c86f5dd7139c8da3b20cb3e777c85",
+      "name": "Nâng hông kiểu pike trên máy chèo thuyền",
+      "description": "",
+      "steps": [
+        "Đặt bàn chân lên ghế máy chèo thuyền và vào tư thế plank.",
+        "Kéo hông thẳng lên phía trần.",
+        "Hạ hông đến khi trở về tư thế plank."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Rower Pike",
+        "description": "",
+        "steps": [
+          "Place your feet on the rower seat and get in to a plank position.",
+          "Pull your hips straight up toward the ceiling.",
+          "Lower your hips until you're back in a plank position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "972ec444-ed1e-415d-89e6-980c1484a1c8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "44115a5c7355adea1bd91ee38ed2ab0fa99ff227014587082fddc4f0f6ad3015",
+      "name": "Ngồi gập gối tập đùi sau",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy. Điều chỉnh đệm lưng để đệm chân nằm ngay phía trên đầu gối.",
+        "Điều chỉnh đệm ở cẳng chân đến vị trí gân Achilles.",
+        "Dùng hai tay cầm để đẩy người tựa về sau vào ghế. Gập chân hết mức có thể rồi duỗi gối, không duỗi quá mức."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Seated Leg Curl",
+        "description": "",
+        "steps": [
+          "Sit on the machine. Adjust the back pad to where the leg pad is just above your knees.",
+          "Adjust the leg pad that goes on your lower leg until it's on your achilles.",
+          "Use the two handles to push your self back in the chair. Curl your legs as far as possible, and then extend your knees. (Do not hyperextend)"
+        ]
+      }
+    },
+    {
+      "exercise_id": "82e5501b-6a22-4b59-8b51-a240e4847488",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0171195cca22541830ba21d1f76e8061bd3b93e8b4bbb759fee008741d17dffd",
+      "name": "Kéo giãn với máy cáp",
+      "description": "",
+      "steps": [
+        "Đặt bàn chân lên đệm chân làm điểm tựa và nắm phụ kiện.",
+        "Bắt đầu với hai tay duỗi, đầu ở giữa hai cánh tay.",
+        "Bắt đầu kéo. Khi kéo, ngả người về sau đến khi phụ kiện chạm ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Stretcher",
+        "description": "",
+        "steps": [
+          "Place your foot on the leg pad for leverage and grab the attachment.",
+          "Start with your arms extended and your head between your arms.",
+          "Begin to pull. As you pull, lean backwards until the attachment touches your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "08a8d94a-d72a-40f9-8284-a2eb4a6f4a62",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6594a479771314b5181d93510ae7812744ed2cc2905171b7c3470210bf9d8a86",
+      "name": "Kéo xô với tay nắm ngửa",
+      "description": "",
+      "steps": [
+        "Dùng thanh thẳng gắn cáp. Nắm thanh theo kiểu ngửa.",
+        "Giữ thanh, ngồi trên máy và đặt chân dưới các đệm chân.",
+        "Kéo thanh về xương đòn, sau đó đưa lên đến khi tay duỗi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Underhand Pulldown",
+        "description": "",
+        "steps": [
+          "Use the Straight Bar attachment. Hold with an underhand grip.",
+          "Hold the attachment as you sit on the machine and put your legs under the leg pads.",
+          "Pull the bar to your clavicle, then raise back up until your arm are extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ab99220a-19f7-42f1-a3bd-c54afc7165fc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a5e3a093f5976bec03692aaee96e07ae9189df277df27b51d15d63c899e0f446",
+      "name": "Đạp chân trên máy thẳng đứng",
+      "description": "",
+      "steps": [
+        "Nằm trên đệm và đặt bàn chân lên bàn đạp.",
+        "Đẩy bàn đạp lên và nhả móc giữ.",
+        "Hạ tạ xuống. Dừng trước khi lưng dưới cong và rời khỏi đệm.",
+        "Đẩy tạ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-22T15:58:39.731Z",
+      "source": {
+        "name": "Vertical Leg Press",
+        "description": "",
+        "steps": [
+          "Lay on the pad and place your feet on the foot plate.",
+          "Lift the plate up and disengage the holding hook.",
+          "Lower the weight. Stop before your lower back rounds off the pad.",
+          "Press the weight back to the starting position."
+        ]
+      }
+    }
+  ]
+}

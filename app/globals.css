@@ -2903,6 +2903,130 @@
   justify-self: center;
 }
 
+.admin-localized-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.admin-sidebar__language { flex: 0 0 auto; margin-left: auto; }
+.admin-sidebar__brand > div:not(.admin-sidebar__language) { min-width: 0; flex: 1; }
+.admin-sidebar__language .health-language-toggle__flag { margin-top: 0; }
+
+.admin-localized-heading .health-language-toggle {
+  flex: 0 0 36px;
+  color: #344054;
+}
+
+.translation-stats {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.translation-filters {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 20px;
+}
+
+.translation-filters__search {
+  flex: 1 1 240px;
+}
+
+.translation-filters input,
+.translation-filters select,
+.translation-editor input,
+.translation-editor textarea,
+.translation-editor select {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #d7dee8;
+  border-radius: 9px;
+  color: #253044;
+  background: #fff;
+  font: inherit;
+}
+
+.translation-editor input:focus-visible,
+.translation-editor textarea:focus-visible,
+.translation-editor select:focus-visible,
+.translation-filters input:focus-visible,
+.translation-filters select:focus-visible {
+  outline: 2px solid #b45b2f;
+  outline-offset: 2px;
+}
+
+.translation-status {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 7px;
+  color: #475467;
+  background: #eef2f6;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.translation-status--reviewed { color: #166534; background: #dcfce7; }
+.translation-status--draft { color: #92400e; background: #fef3c7; }
+.translation-status--stale { color: #9f1239; background: #ffe4e6; }
+
+.translation-language-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.translation-language-tabs a {
+  padding: 10px 16px;
+  border: 1px solid #d7dee8;
+  border-radius: 10px;
+  color: #475467;
+  background: #fff;
+}
+
+.translation-language-tabs a[aria-current="page"] {
+  border-color: #b45b2f;
+  color: #9a4b27;
+  background: #fff4eb;
+}
+
+.translation-editor {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.translation-editor h2 { margin: 0 0 16px; font-size: 20px; }
+.translation-editor h3 { margin: 0 0 12px; font-size: 17px; }
+.translation-editor h4 { margin: 20px 0 8px; font-size: 14px; }
+.translation-editor p,
+.translation-editor li { line-height: 1.65; overflow-wrap: anywhere; }
+.translation-editor ol { padding-left: 24px; list-style: decimal; }
+.translation-editor li { margin-bottom: 14px; padding-left: 4px; }
+.translation-editor fieldset { display: grid; min-width: 0; gap: 20px; border: 0; padding: 0; margin: 20px 0 0; }
+.translation-editor__steps { display: grid; gap: 12px; }
+.translation-editor__steps h3,
+.translation-editor__steps p { margin: 0; }
+.translation-editor__step { display: grid; grid-template-columns: minmax(0, 1fr) 36px; gap: 8px; align-items: start; }
+.translation-editor__step > button { margin-top: 25px; }
+.translation-editor__notice { border-left: 3px solid #b45309; padding: 12px; background: #fff7ed; color: #92400e; }
+.translation-editor-link { margin-bottom: 20px; }
+
+@media (max-width: 1100px) {
+  .translation-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .translation-editor { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .translation-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .translation-filters > label { flex: 1 1 140px; }
+  .translation-filters__search { flex-basis: 100% !important; }
+}
+
 .exercise-detail-topbar__save[aria-pressed="true"] {
   color: #ffb17e;
 }
@@ -4630,6 +4754,28 @@ button {
   height: 16px;
   flex: 0 0 auto;
   background: rgba(220, 231, 238, 0.13);
+}
+
+.exercise-library-exercise-card__source-language {
+  display: block;
+  margin: 0 0 12px;
+  color: #aeb8c4;
+  font-size: 11px;
+}
+
+.exercise-library-header--localized {
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+}
+
+.exercise-detail-topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.favorites-page__language {
+  flex: 0 0 auto;
+  margin-inline-start: auto;
 }
 
 .health-icon-button,

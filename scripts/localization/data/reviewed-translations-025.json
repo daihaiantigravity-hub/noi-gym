@@ -1,0 +1,707 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared all Vitruvian and BOSU source steps with the Vietnamese wording, retaining support surfaces, one-leg variants, directions and step counts. Held three BOSU sources where the initial body support or how the BOSU is held needs confirmation.",
+  "sourceExceptions": [
+    {
+      "index": 254,
+      "sourceName": "Bosu Ball Hip Thrust",
+      "reason": "Source starts sitting on the BOSU with hands on the floor, then lifts the hips without stating whether upper back, hands or feet support the movement. Verify BOSU placement for this hip-thrust variant.",
+      "exercise_id": "ec7aad3e-6eed-46db-ae51-54886881851e"
+    },
+    {
+      "index": 265,
+      "sourceName": "Bosu Ball Single Leg Hip Thrust",
+      "reason": "Source starts sitting on the BOSU and leaning back with one foot on the floor, but does not establish the upper-back support before the single-leg hip thrust. Verify body support and BOSU position.",
+      "exercise_id": "826bbbe8-65f9-4101-b9ab-aaa8fb2160cc"
+    },
+    {
+      "index": 266,
+      "sourceName": "Bosu Ball Situp",
+      "reason": "Source says the BOSU is elevated toward the ceiling during a supine sit-up without specifying whether it is held by the hands or used as support. Verify load placement before translating the setup.",
+      "exercise_id": "ee2d4de5-6715-4579-9d77-1c6bd3e6dcc0"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "2811fb8e-aae1-4ab9-b6d3-6da753c047c1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "47c6f7bd9129d0846d10f06d82aea27de116dafa4f460563416216954520638a",
+      "name": "Kéo lưng một tay với Vitruvian",
+      "description": "",
+      "steps": [
+        "Đứng so le chân trước sau và gập người về trước.",
+        "Nắm một phụ kiện tay cầm và kéo khuỷu tay lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Vitruvian Single Arm Row",
+        "description": "",
+        "steps": [
+          "Take a staggered stance and hinge forward.",
+          "Grab one of the handle attachments and pull your elbow toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4e9846fa-82ee-4551-a0b4-244529ce0be9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b05443d4ea348fd8beafe3d753b244f3db22c3aa9844e2dc21ffa82f807f0e82",
+      "name": "Deadlift so le chân với Vitruvian",
+      "description": "",
+      "steps": [
+        "Đặt một bàn chân vững trên sàn và chân kia phía sau. Co gối chân sau.",
+        "Gập người về trước đến khi cảm thấy căng ở chân trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Vitruvian Staggered Deadlift",
+        "description": "",
+        "steps": [
+          "Place one foot firmly on the ground and one foot behind the other. Bend the knee on your back leg.",
+          "Hinge forward until you feel a stretch in your front leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b5847b2c-c134-4847-a9d5-a99f09cf7f4b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "27fe3badc6e392d5dc20191ada7cef1fe88226d7bf418f8c4ebacabdf93d8766",
+      "name": "Đứng nhón gót với Vitruvian",
+      "description": "",
+      "steps": [
+        "Giữ hai tay cầm và đứng thẳng.",
+        "Nâng gót chân cao nhất có thể."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Vitruvian Standing Calf Raise",
+        "description": "",
+        "steps": [
+          "Hold the two handles and stand tall.",
+          "Raise your heels as high as possible."
+        ]
+      }
+    },
+    {
+      "exercise_id": "982a7602-dfe5-4608-be51-c7f714553b92",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "205b73dbbb0c1fa3fd6c3ee68865a08cf482acfb33164857702e75b04092c983",
+      "name": "Nghiêng người kiểu cối xay gió với Vitruvian",
+      "description": "",
+      "steps": [
+        "Giữ phụ kiện bằng một tay và nâng tay qua đầu.",
+        "Xoay một bàn chân ra ngoài, bàn chân kia hướng về trước.",
+        "Nghiêng người sang bên đồng thời với tay về phía bàn chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Vitruvian Windmill",
+        "description": "",
+        "steps": [
+          "Hold the attachment in one hand and raise your arm over head.",
+          "Turn one foot outward and one foot forward.",
+          "Lean to the side while reaching for your foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f9ae0d40-20d7-4d53-be59-61cc9b56acec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9f9255231f0dc801e6649c7489513d7ddfccbbfe1cea49137da4da4dcb1219a5",
+      "name": "Nhón gót trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trên BOSU, hai chân rộng bằng hông.",
+        "Nhón lên trên mũi chân, siết bắp chân.",
+        "Hạ gót chân xuống để hoàn thành một lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Calf Raise",
+        "description": "",
+        "steps": [
+          "Stand on Bosu with feet hip-width apart.",
+          "Rise up on toes, squeezing calves.",
+          "Lower heels back down to complete one rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dc05c90a-ab38-4f27-8172-3934c3eab1d3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eb74fa8c8981d37edcfae0c33e30ac696d803cf6f3d7115626de13b00d8c711c",
+      "name": "Cuốn tay trước với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Giữ BOSU theo chiều dọc.",
+        "Gập khuỷu tay, cuốn BOSU về phía cằm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Curl",
+        "description": "",
+        "steps": [
+          "Hold the bosu vertically.",
+          "Flex your elbows curling the bosu toward your chin."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9c46b862-eb93-46aa-8e2f-83d910ebbb38",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2765a05aefefbfd7d07fe9c7f9444253f5543c3c7e403b4973f411250fdf0802",
+      "name": "Nâng hông với hai chân kê trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt bàn chân lên BOSU và co gối.",
+        "Nâng hông và siết cơ mông.",
+        "Hạ hông xuống để hoàn thành một lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Feet Elevated Glute Bridge",
+        "description": "",
+        "steps": [
+          "Lie on back, place feet on Bosu, knees bent.",
+          "Lift hips and squeeze glutes.",
+          "Lower hips back down to complete one rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c13a09da-f1e6-4543-bbdc-9403acc015f1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "079cad34ac3158b56c1c146162bcdcea5414ea7e682b1bcf8759b7daff3b89a1",
+      "name": "Plank trên cẳng tay với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt cẳng tay trên BOSU, khuỷu tay dưới vai.",
+        "Duỗi hai chân, giữ thân thẳng.",
+        "Giữ tư thế plank và siết cơ trung tâm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Forearm Plank",
+        "description": "",
+        "steps": [
+          "Place forearms on Bosu, elbows under shoulders.",
+          "Extend legs, keeping body straight.",
+          "Hold the plank position, engaging core."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c77722e0-8036-4b7c-aa03-29f0be0ced11",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ecb7c1c9113c3e9a0d9a3d30747e85554889a1293fd1ee9e00867dfc62eceaf6",
+      "name": "Plank nghiêng trên cẳng tay với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Nằm nghiêng, đặt cẳng tay trên BOSU và khuỷu tay dưới vai.",
+        "Nâng hông vào tư thế plank nghiêng.",
+        "Giữ tư thế plank nghiêng rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Forearm Sideplank",
+        "description": "",
+        "steps": [
+          "Lie on one side, forearm on Bosu, elbow under shoulder.",
+          "Lift hips to create a side plank.",
+          "Hold the side plank position, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "31ad54fb-5277-43bc-884b-dda2a0c8017d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bbdd590eefc1bb0a2db0c45aa90c8041a606228b4d886642dfa653ec958bf7fb",
+      "name": "Nâng bóng BOSU ra trước",
+      "description": "",
+      "steps": [
+        "Giữ BOSU theo chiều dọc.",
+        "Nâng BOSU về phía trần, giữ khuỷu tay gần duỗi thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Front Raise",
+        "description": "",
+        "steps": [
+          "Hold the bosu vertically.",
+          "Raise the bosu toward the ceiling while keeping your elbows mostly extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e09cde82-845b-4d92-ac37-bdb2b9afac03",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f3c91236f545150f96d1eb0f29e185e1ff19d69a1b60b14ee0c395dc8f0a8b8b",
+      "name": "Plank chống tay với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt hai tay trên BOSU, rộng bằng vai.",
+        "Duỗi hai chân, giữ thân thẳng.",
+        "Giữ tư thế plank và siết cơ trung tâm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Hand Plank",
+        "description": "",
+        "steps": [
+          "Place hands on Bosu, shoulder-width apart.",
+          "Extend legs, keeping body straight.",
+          "Hold the plank position, engaging core."
+        ]
+      }
+    },
+    {
+      "exercise_id": "41c29480-f361-42fa-8744-21c399075484",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3969124137dde67d94c99202cff94995222e70a3d5e20f684718de541e8c3bd2",
+      "name": "Plank nghiêng chống tay với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt một tay trên BOSU, duỗi thẳng tay và xoay người sang bên.",
+        "Xếp chồng hai bàn chân và nâng hông vào tư thế plank nghiêng.",
+        "Giữ tư thế plank nghiêng rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Hand Sideplank",
+        "description": "",
+        "steps": [
+          "Place hand on Bosu, arm straight, facing sideways.",
+          "Stack feet and lift hips to side plank.",
+          "Hold the side plank position, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2f743ecb-7635-4bbe-9054-6a5a5a23ab0a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "78983498b729c43598cd8db59bdc6cbf4ca1a9e066ba7b692c96d9e1ae5ebbe7",
+      "name": "Plank nghiêng chống tay kết hợp nâng chân với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế plank nghiêng với tay đặt trên BOSU.",
+        "Nâng chân trên trong khi giữ thân ổn định.",
+        "Hạ chân xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Hand Sideplank Hip Abduction",
+        "description": "",
+        "steps": [
+          "Start in a side plank with hand on Bosu.",
+          "Lift the top leg while keeping the body stable.",
+          "Lower the leg back down."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ed0f5bbf-ce7a-438c-baf7-99f0911269e0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f7fc161b35a23c058f8a99ce1610bf3b3d5157faf7162a72b296e58f909ff2f8",
+      "name": "Chùng chân sang ngang từ bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trên BOSU, bước sang bên vào tư thế chùng chân.",
+        "Co gối, giữ chân kia thẳng.",
+        "Đạp chân đang co để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Lateral Lunge",
+        "description": "",
+        "steps": [
+          "Stand on Bosu, step sideways into a lunge.",
+          "Bend knee, keeping the other leg straight.",
+          "Push off the bent leg, return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6e587fbe-7c55-43be-8ae8-4064bd2e0664",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7c46a96db8f1726d4c2fa19c40420e8e3aa7fa5424e478e84d405a833cdf89fb",
+      "name": "Chống đẩy lệch tay với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt một tay trên BOSU, tay kia trên sàn.",
+        "Hạ ngực về sàn, giữ thân thẳng.",
+        "Đẩy người lên về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Offset Pushup",
+        "description": "",
+        "steps": [
+          "Place one hand on Bosu, other on the floor.",
+          "Lower chest to the ground, keeping the body straight.",
+          "Push back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3de05161-5102-44e0-afe9-4e29e07690ac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a954d520976843f0ec5f0065b53672843af274559243211e543575be2043afff",
+      "name": "Chống đẩy nâng hông với chân trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt bàn chân trên BOSU, nâng hông cao và đặt hai tay trên sàn.",
+        "Hạ đầu về phía sàn rồi đẩy người lên.",
+        "Giữ chân thẳng và hông cao trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Pike Pushup",
+        "description": "",
+        "steps": [
+          "Place feet on Bosu, hips high, hands on the floor.",
+          "Lower the head towards the ground, then push back up.",
+          "Keep legs straight and hips elevated throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7eb63d60-a7ad-465a-bc0e-59a6d3b5de27",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b460baf1df95eb18767fef43f040908d3b46f9bde4d5a4f317d1b1e3fb8a8ce4",
+      "name": "Nhún vai ở tư thế nâng hông với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt mũi chân trên BOSU, hai tay trên sàn.",
+        "Nâng hông cao, nhún vai và siết cơ trung tâm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Pike Shrug",
+        "description": "",
+        "steps": [
+          "Place toes on Bosu, hands on the floor.",
+          "Pike hips up, shrug shoulders, engage core."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9603e224-bdfb-4ca2-859d-cf77d7180b47",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "948ebe89415d3ea27bbc2aa3e333754651e8f79ef792198bd95cb1f0aaace1cf",
+      "name": "Plank đá chân ra sau với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế plank với BOSU dưới hai bàn chân.",
+        "Nâng một chân ra sau và siết cơ mông.",
+        "Hạ chân xuống rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Plank Glute Kickback",
+        "description": "",
+        "steps": [
+          "Start in a plank position with Bosu under feet.",
+          "Lift one leg back, squeezing glutes.",
+          "Lower the leg back down and switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4bc5e9fa-6def-4490-8f32-692e02721063",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "906b2116151554c2196b028605b66c2924fd1a80671fe4c296e98058c59b5b82",
+      "name": "Đưa bóng BOSU qua đầu khi nằm",
+      "description": "",
+      "steps": [
+        "Nằm trên sàn, đầu và vai được đỡ.",
+        "Giữ BOSU và hạ ra sau đầu.",
+        "Đưa BOSU trở lại phía trên ngực để hoàn thành một lần lặp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Pullover",
+        "description": "",
+        "steps": [
+          "Lie on ground with head and shoulders supported.",
+          "Hold a bosu and lower it back over the head.",
+          "Bring the bosu back over the chest to complete one rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a628c85c-b0fc-4977-a487-04d81262e8ec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3a7296116ba39c53c03c4c8893e0a0c98f9e8abe958ec174e3a497c312ca7c99",
+      "name": "Chống đẩy trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt hai tay trên BOSU, rộng bằng vai.",
+        "Hạ ngực về sàn, giữ thân thẳng.",
+        "Đẩy người lên về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Pushup",
+        "description": "",
+        "steps": [
+          "Place hands on Bosu, shoulder-width apart.",
+          "Lower chest to the ground, keeping the body straight.",
+          "Push back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1279cf8b-4cd9-49ce-bfb9-0ff33ee7691b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2cf691e6e67c935cc17e8409c3a07e58af6ba6800433c755e1a2da92181995de",
+      "name": "Chùng chân lùi từ bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trên BOSU, bước lùi vào tư thế chùng chân.",
+        "Co gối, hạ người đến khi đùi trước song song với sàn.",
+        "Đạp chân sau để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Reverse Lunge",
+        "description": "",
+        "steps": [
+          "Stand on Bosu, step backward into a lunge.",
+          "Bend knees, lower until the front thigh is parallel.",
+          "Push off the back foot, return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cb164715-00e5-41c5-9a09-5d7ebb9c18e5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1180b42068a896f128a5e775e7d9b5ad743780d29d3520f35f59481be0159242",
+      "name": "Kéo lưng với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Giữ BOSU và gập người về trước.",
+        "Kéo BOSU về phía ngực và siết hai bả vai lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Row",
+        "description": "",
+        "steps": [
+          "Hold bosu and hinge forward.",
+          "Pull bosu towards chest, squeezing shoulder blades."
+        ]
+      }
+    },
+    {
+      "exercise_id": "47705c1b-8d07-4e23-96d8-e9687ed52852",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9aa3073190a873ba7296a2b494b0fc3e979c820a4fc6c424ae2bfe02c574deca",
+      "name": "Nâng hông một chân kê trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt một bàn chân trên BOSU và co gối.",
+        "Nâng hông, siết cơ mông và duỗi một chân.",
+        "Hạ hông xuống rồi đổi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Single Leg Elevated Glute Bridge",
+        "description": "",
+        "steps": [
+          "Lie on back, place one foot on Bosu, knee bent.",
+          "Lift hips, squeezing glutes, one leg extended.",
+          "Lower hips back down and switch legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e64a6ed4-853d-481e-bc0e-f6c94d3c9d6d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "dd1f38d1b1c5b8b866ec1ddb6ffa6d9d80c6583db78937efc2b4b8144c208c0e",
+      "name": "Squat trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trên BOSU, hai chân rộng bằng vai.",
+        "Hạ người vào tư thế squat, giữ đầu gối thẳng hướng với mũi chân.",
+        "Ấn qua gót chân để đứng lên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Squat",
+        "description": "",
+        "steps": [
+          "Stand on Bosu, feet shoulder-width apart.",
+          "Squat down, keeping knees aligned with toes.",
+          "Push through heels to stand back up."
+        ]
+      }
+    },
+    {
+      "exercise_id": "05a64b56-187d-489d-8bae-f44d1e9c8c8d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "45794ba7f72e5b148aec2e07bd8abb64d460079c7f867ed2bb82e52cb93b2412",
+      "name": "Nâng tay chân kiểu siêu nhân trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Nằm sấp trên BOSU, hai tay duỗi.",
+        "Nâng tay, ngực và chân khỏi BOSU.",
+        "Giữ một chút rồi hạ xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Superman",
+        "description": "",
+        "steps": [
+          "Lie face down on Bosu, arms extended.",
+          "Lift arms, chest, and legs off the Bosu.",
+          "Hold for a moment, then lower back down."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8c7451e6-85ec-4036-8223-c0f4668f6cd3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b6221654081077e158c523cc46fe7abc056c0acc54844c82e42522307aa544da",
+      "name": "Chạm mũi chân trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trên BOSU, nhấc một bàn chân rồi chạm xuống BOSU.",
+        "Luân phiên chạm từng chân trong khi giữ thăng bằng.",
+        "Giữ chuyển động có kiểm soát và đều đặn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Toe Tap",
+        "description": "",
+        "steps": [
+          "Stand on Bosu, lift one foot, tap it on the Bosu.",
+          "Alternate tapping feet while maintaining balance.",
+          "Keep the movement controlled and steady."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e0019025-b98d-47a6-88d6-03ac880a5b51",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f63d37012e3f036b78e11fff70e1cc8d1f24530230db167dc9feaaae2264e270",
+      "name": "Bước lên và qua bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng cạnh BOSU, bước lên rồi bước qua.",
+        "Lặp lại, di chuyển sang hai bên.",
+        "Giữ nhịp đều và siết cơ trung tâm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Up And Over",
+        "description": "",
+        "steps": [
+          "Stand next to Bosu, step up and over it.",
+          "Repeat, moving laterally side to side.",
+          "Keep a steady pace, engaging core muscles."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fec9cc5f-44b8-4d02-87f4-5f7f9235c489",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fcbb9e108d8de50c3b66af041fac08ec5c12f9294826d58711d2e561c8e558a2",
+      "name": "Chống đẩy di chuyển tay qua bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt cả hai tay trên BOSU, rộng hơn vai.",
+        "Thực hiện một lần chống đẩy rồi di chuyển tay sang bên kia.",
+        "Thực hiện thêm một lần chống đẩy, lặp lại qua lại hai bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Walkover Pushup",
+        "description": "",
+        "steps": [
+          "Place both hands on Bosu, wider than shoulder-width.",
+          "Perform a pushup, then walk hands to the other side.",
+          "Perform another pushup, repeat back and forth."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eef7b4ef-d8e3-47b7-ae26-87852d95bafb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c9904c9fe1c3efaf5092eddcd086b4eb597d6026716947fcebe33bfef5bc3e0c",
+      "name": "Đưa bóng BOSU chéo người",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ BOSU.",
+        "Vung BOSU chéo qua thân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:42:48.313Z",
+      "source": {
+        "name": "Bosu Ball Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand tall holding the bosu.",
+          "Swing bosu diagonally across the body."
+        ]
+      }
+    }
+  ]
+}

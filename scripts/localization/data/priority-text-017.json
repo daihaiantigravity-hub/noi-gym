@@ -1,0 +1,661 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete source blocks with Vietnamese text, retaining support points, grip, limb directions, angles, step order and beginner label. Held mixed equipment, misordered setup and contradictory tempo cues.",
+  "translations": [
+    {
+      "index": 121,
+      "sourceName": "Hollow Hold",
+      "name": "Giữ thân cong kiểu hollow hold",
+      "steps": [
+        "Nằm trên đất, hai tay duỗi qua đầu.",
+        "Nâng lưng trên và hai chân khỏi đất. Cơ thể cong như quả chuối.",
+        "Giữ tư thế này."
+      ],
+      "exercise_id": "64949e87-c9f9-4195-919c-2abe22a7bbbe"
+    },
+    {
+      "index": 122,
+      "sourceName": "In And Out Jump Squat",
+      "name": "Squat nhảy khép mở chân",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Squat như bình thường, sau đó siết cơ bụng và bật nhảy mạnh lên.",
+        "Thu hẹp thế chân khi ở trên không và tiếp đất nhẹ nhàng. Chuyển ngay vào lần lặp tiếp theo."
+      ],
+      "exercise_id": "a2e044a8-149f-4ef3-8885-f243d46a318c"
+    },
+    {
+      "index": 123,
+      "sourceName": "Incline Push Up",
+      "name": "Chống đẩy kê tay cao",
+      "steps": [
+        "Đứng hướng về ghế hoặc bục kê cao chắc chắn.",
+        "Đặt hai tay lên mép ghế hoặc bục, hơi rộng hơn vai.",
+        "Từ từ hạ người đến khi ngực gần chạm ghế.",
+        "Đẩy người lên đến khi tay duỗi."
+      ],
+      "exercise_id": "9a9e9ff1-a18f-4b8a-8e2e-709a4ea72c3e"
+    },
+    {
+      "index": 124,
+      "sourceName": "Inverted Row",
+      "name": "Kéo người dưới xà",
+      "steps": [
+        "Nằm dưới thanh ngang cố định, nắm sấp thanh với tay rộng.",
+        "Kéo người thẳng lên thanh.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "exercise_id": "556d75a9-25ba-448f-92c7-3ef3c19b7328"
+    },
+    {
+      "index": 125,
+      "sourceName": "Jump Squats",
+      "name": "Squat nhảy",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Squat như bình thường, sau đó siết cơ bụng và bật nhảy mạnh lên.",
+        "Khi tiếp đất, hạ người trở lại tư thế squat."
+      ],
+      "exercise_id": "bcbf7c22-670a-4e45-a46c-9bc33b126654"
+    },
+    {
+      "index": 126,
+      "sourceName": "Jumping Mountain Climber",
+      "name": "Plank bật hai chân về trước kiểu leo núi",
+      "steps": [
+        "Vào tư thế plank, bàn tay dưới vai, hai chân sát nhau.",
+        "Bật hai chân về trước, tiếp đất phía ngoài hai tay trong tư thế squat thấp.",
+        "Bật mạnh về tư thế plank, lặp lại liên tục theo số lần mong muốn."
+      ],
+      "exercise_id": "17488088-7739-4bb6-80a1-a92fd06dcea5"
+    },
+    {
+      "index": 127,
+      "sourceName": "Kickbacks",
+      "name": "Đá chân ra sau tập mông",
+      "steps": [
+        "Chống hai tay và hai gối, đặt bàn tay dưới vai và đầu gối dưới hông.",
+        "Đá một chân về sau và siết cơ mông.",
+        "Từ từ trở về vị trí ban đầu bằng cách gập gối và hạ chân.",
+        "Đổi chân. Lặp lại."
+      ],
+      "exercise_id": "78b72ce2-7287-4914-b3c7-88867f145920"
+    },
+    {
+      "index": 128,
+      "sourceName": "L Sit Chin Up",
+      "name": "Kéo xà tay ngửa với chân giữ hình chữ L",
+      "steps": [
+        "Nắm thanh rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người.",
+        "Giữ cơ thể ở tư thế chữ L và hai tay duỗi hoàn toàn, kéo lên đến khi cằm vượt qua thanh.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "464dbf08-ba2d-4ce4-b55f-131849c120c4"
+    },
+    {
+      "index": 129,
+      "sourceName": "L Sit Pull Up",
+      "name": "Kéo xà tay sấp với chân giữ hình chữ L",
+      "steps": [
+        "Nắm sấp thanh, tay và vai duỗi hoàn toàn. Nâng chân đến tư thế chữ L.",
+        "Kéo người lên đến khi cằm cao hơn thanh.",
+        "Hạ người về vị trí ban đầu."
+      ],
+      "exercise_id": "b47adb52-952f-49b5-bbc7-9836db0d2586"
+    },
+    {
+      "index": 130,
+      "sourceName": "Lateral Lunge",
+      "name": "Chùng chân sang ngang",
+      "steps": [
+        "Siết cơ bụng bằng cách kéo rốn về phía cột sống để ổn định cơ thể.",
+        "Bước chân phải dài sang bên và đặt chân chắc trên mặt đất.",
+        "Khi bước, gập đầu gối phải và hạ hông đến khi đùi phải song song với mặt đất. Giữ chân trái thẳng.",
+        "Ấn gót chân phải để trở về vị trí ban đầu. Lặp lại bên đối diện bằng cách bước chân trái sang bên."
+      ],
+      "exercise_id": "6eff9dba-4660-4cd7-8fa3-5391b8e277db"
+    },
+    {
+      "index": 131,
+      "sourceName": "Laying Alternating Leg Raise",
+      "name": "Nằm nâng chân luân phiên",
+      "steps": [
+        "Nằm ngửa, hai tay bên thân, hai chân thẳng.",
+        "Nâng một chân lên góc 45 độ.",
+        "Hạ chân và nâng chân đối diện, luân phiên nhịp nhàng."
+      ],
+      "exercise_id": "9d9db34b-9a1c-468e-9767-1eaa42530831"
+    },
+    {
+      "index": 132,
+      "sourceName": "Laying Bent Leg Raise",
+      "name": "Nằm nâng chân co gối",
+      "steps": [
+        "Nằm ngửa, đầu gối co, bàn chân đặt phẳng trên sàn.",
+        "Nâng cả hai đầu gối về phía ngực.",
+        "Hạ xuống nhưng không chạm sàn; lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "dc42574f-1613-4b31-8276-65a2941bf34e"
+    },
+    {
+      "index": 133,
+      "sourceName": "Laying Leg Raises",
+      "name": "Nằm nâng hai chân",
+      "steps": [
+        "Nằm ngửa, hai tay hai bên thân, lòng bàn tay úp.",
+        "Giữ hai chân sát nhau và thẳng nhất có thể.",
+        "Từ từ nâng chân lên góc 90° hoặc cao hết mức có thể, dừng ở đó rồi từ từ hạ chân xuống.",
+        "Di chuyển chậm để không dùng đà, giúp bài tập đạt hiệu quả tốt nhất."
+      ],
+      "exercise_id": "64f0ec3a-68bf-4975-a0a6-5072317ad6fd"
+    },
+    {
+      "index": 134,
+      "sourceName": "Leg Raised Push Up",
+      "name": "Chống đẩy nhấc một chân",
+      "steps": [
+        "Đặt chắc hai bàn tay trên đất, ngay dưới vai.",
+        "Giữ lưng phẳng để toàn thân thẳng, nhấc một chân khỏi đất và từ từ hạ người.",
+        "Kéo bả vai về sau và xuống, giữ khuỷu tay khép gần thân.",
+        "Thở ra khi đẩy người về vị trí ban đầu."
+      ],
+      "exercise_id": "b8751537-ac69-450b-8c3a-277e4a9e98ef"
+    },
+    {
+      "index": 135,
+      "sourceName": "Long Lever Plank",
+      "name": "Plank vươn tay xa",
+      "steps": [
+        "Vào tư thế plank chống bàn tay, bước tay ra xa hơn đến khi hai tai ở giữa hai bắp tay.",
+        "Giữ trong thời gian được chỉ định.",
+        "Giữ lưng phẳng trong suốt hiệp tập."
+      ],
+      "exercise_id": "a17295d9-b8c5-42b8-9726-d1a429ffb05a"
+    },
+    {
+      "index": 136,
+      "sourceName": "Mountain Climber",
+      "name": "Plank kéo gối kiểu leo núi",
+      "steps": [
+        "Bắt đầu ở tư thế plank, hai tay ngay dưới vai.",
+        "Đưa gối phải về phía ngực, giữ bàn chân gần bàn tay. Nhanh chóng đổi chân, đưa gối trái về phía ngực.",
+        "Tiếp tục luân phiên hai chân với nhịp nhanh theo thời gian hoặc số lần được chỉ định."
+      ],
+      "exercise_id": "7002b898-33b5-4d4a-b4cd-37bc10bd4f09"
+    },
+    {
+      "index": 137,
+      "sourceName": "Nordic Hamstring Curl",
+      "name": "Gập gối tập đùi sau kiểu Nordic",
+      "steps": [
+        "Quỳ gối và nhờ người giữ cổ chân.",
+        "Đặt hai tay phía trước người.",
+        "Giữ đầu gối hơi co, từ từ hạ người về đất; càng chậm càng tốt.",
+        "Chống đẩy lên và trở về vị trí bắt đầu."
+      ],
+      "exercise_id": "462823e8-1b45-4430-9d5b-93b77e6dddd6"
+    },
+    {
+      "index": 138,
+      "sourceName": "Oblique Crunch",
+      "name": "Gập bụng chéo khi nằm nghiêng",
+      "steps": [
+        "Nằm nghiêng, đầu gối co, hai tay sau đầu.",
+        "Đưa khuỷu tay về phía đầu gối và co cơ bụng chéo."
+      ],
+      "exercise_id": "df3c6210-dcbb-4408-96be-15030aec1420"
+    },
+    {
+      "index": 139,
+      "sourceName": "Oblique Jackknife",
+      "name": "Gập người và nâng chân tập bụng chéo",
+      "steps": [
+        "Nằm nghiêng, hai chân thẳng, bàn tay sau đầu.",
+        "Đồng thời nâng cả hai chân và thân trên.",
+        "Siết cơ bụng chéo rồi hạ xuống. Lặp lại ở cả hai bên."
+      ],
+      "exercise_id": "cafa3636-5286-4079-8c40-6c43085812d6"
+    },
+    {
+      "index": 141,
+      "sourceName": "Pull Ups",
+      "name": "Kéo xà tay sấp",
+      "steps": [
+        "Nắm sấp thanh, tay và vai duỗi hoàn toàn.",
+        "Kéo người lên đến khi cằm cao hơn thanh.",
+        "Hạ người về vị trí ban đầu."
+      ],
+      "exercise_id": "bb3ba1ae-be72-4149-ae63-93fd843de6fe"
+    },
+    {
+      "index": 142,
+      "sourceName": "Reach And Catch",
+      "name": "Gập bụng vươn hai tay về một chân",
+      "steps": [
+        "Nằm ngửa, đặt cả hai tay phía trên một chân.",
+        "Vươn về phía đầu gối, co cơ bụng và cơ bụng chéo.",
+        "Thực hiện số lần được chỉ định rồi đổi bên."
+      ],
+      "exercise_id": "11f5d3fd-5962-4fa4-8289-02c723afafd7"
+    },
+    {
+      "index": 143,
+      "sourceName": "Reverse Crunch Kick Up",
+      "name": "Gập bụng ngược kết hợp đá chân lên",
+      "steps": [
+        "Thực hiện gập bụng ngược rồi đá hai chân lên phía trần.",
+        "Gập hông và gối đến khi hông trở lại ghế, sau đó đá chân duỗi ra về vị trí ban đầu."
+      ],
+      "exercise_id": "60d75702-75d7-4e9b-8980-8ba2fee2a5c0"
+    },
+    {
+      "index": 144,
+      "sourceName": "Ring Chin Up",
+      "name": "Kéo người tay ngửa trên vòng tập",
+      "steps": [
+        "Nắm vòng rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên đến khi cằm vượt qua các vòng.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "7095631e-d6cb-4874-98d7-562de9656b7a"
+    },
+    {
+      "index": 145,
+      "sourceName": "Ring Curl",
+      "name": "Cuốn tay trước với vòng tập",
+      "steps": [
+        "Đứng nắm vòng tập, hai tay duỗi trước người, lòng bàn tay ngửa.",
+        "Cuốn các vòng về phía vai, siết cơ tay trước.",
+        "Từ từ hạ vòng về vị trí ban đầu có kiểm soát. Lặp lại."
+      ],
+      "exercise_id": "9575a350-d5e0-4917-8c22-db4037ae86ef"
+    },
+    {
+      "index": 146,
+      "sourceName": "Ring Pull Up",
+      "name": "Kéo người tay sấp trên vòng tập",
+      "steps": [
+        "Nắm sấp các vòng, tay và vai duỗi hoàn toàn.",
+        "Kéo người lên đến khi cằm cao hơn các vòng.",
+        "Hạ người về vị trí ban đầu."
+      ],
+      "exercise_id": "21fc36b9-b9c1-4374-ab40-703066c700cd"
+    },
+    {
+      "index": 147,
+      "sourceName": "Ring Rear Delt Fly",
+      "name": "Dang tay tập vai sau với vòng tập",
+      "steps": [
+        "Đứng hướng về các vòng và nắm tay cầm.",
+        "Bước về trước để cơ thể ở tư thế plank, tay thẳng, cơ thể thành đường thẳng từ đầu đến gót chân.",
+        "Giữ tay thẳng, từ từ đưa hai tay sang hai bên ở ngang vai. Cơ thể tạo hình chữ T."
+      ],
+      "exercise_id": "a8dfb0b3-1fa8-468b-bf24-d1bde4dfb87f"
+    },
+    {
+      "index": 148,
+      "sourceName": "Ring Row",
+      "name": "Kéo người với vòng tập",
+      "steps": [
+        "Treo các vòng ở điểm cao.",
+        "Nắm vòng và ngả người về sau, hai tay duỗi.",
+        "Kéo ngực về các vòng, giữ cơ thể thẳng."
+      ],
+      "exercise_id": "3145128e-089e-4f5d-92e8-96847ff3af26"
+    },
+    {
+      "index": 149,
+      "sourceName": "Ring Skullcrusher",
+      "name": "Duỗi tay sau kiểu skullcrusher với vòng tập",
+      "steps": [
+        "Gắn dây vòng vào điểm cao. Đứng kiễng chân.",
+        "Duỗi hai tay trước người.",
+        "Gập khuỷu tay đến khi cẳng tay chạm bắp tay. Sau đó duỗi khuỷu tay về vị trí bắt đầu."
+      ],
+      "exercise_id": "a839c68d-87f2-40fa-a00a-961e39c651d5"
+    },
+    {
+      "index": 150,
+      "sourceName": "Ring Standing Archer Pushup",
+      "name": "Chống đẩy kiểu kéo cung với vòng tập",
+      "steps": [
+        "Đặt các vòng cách nhau rộng bằng vai, nắm tay cầm và duỗi chân ra sau.",
+        "Hạ ngực về các vòng, gập một khuỷu tay và duỗi tay còn lại sang bên. Đẩy người về vị trí bắt đầu.",
+        "Đổi tay rồi lặp lại."
+      ],
+      "exercise_id": "a9c8d0c3-452a-42e4-ac9a-eab4c430a7ab"
+    },
+    {
+      "index": 151,
+      "sourceName": "Ring Standing Chest Fly",
+      "name": "Đứng ép ngực với vòng tập",
+      "steps": [
+        "Chỉnh dây vòng ngang ngực. Đứng hướng về các vòng, hai chân rộng bằng vai.",
+        "Dùng hai tay nắm tay cầm của vòng, giữ tay duỗi và vai xa tai.",
+        "Nghiêng người về trước, giữ tay duỗi và cơ bụng siết. Cơ thể tạo đường chéo nhẹ từ cổ chân đến đầu.",
+        "Từ từ đưa hai tay về gần nhau trước ngực, giữ cơ bụng siết và cơ thể ổn định."
+      ],
+      "exercise_id": "a12026de-f5fa-429d-a3b3-0faa6ef848e0"
+    },
+    {
+      "index": 152,
+      "sourceName": "Ring Standing Pushup",
+      "name": "Chống đẩy với vòng tập",
+      "steps": [
+        "Gắn các vòng vào điểm neo chắc chắn, chỉnh dây để vòng treo khoảng ngang eo khi đứng bên dưới.",
+        "Đứng hướng về các vòng, dùng hai tay nắm tay cầm và bước về trước để vào tư thế plank với bàn tay ngay dưới vai.",
+        "Gập khuỷu tay để hạ người đến khi ngực gần chạm tay cầm. Giữ cơ bụng siết và cơ thể thẳng.",
+        "Đẩy người về vị trí ban đầu, đồng thời duỗi hai tay. Siết cơ ngực, cơ tay sau và cơ bụng trong suốt chuyển động."
+      ],
+      "exercise_id": "613b49d7-6fcd-4920-9e40-92a4d0e890a7"
+    },
+    {
+      "index": 153,
+      "sourceName": "Ring Standing Roll Out",
+      "name": "Đứng vươn người với vòng tập",
+      "steps": [
+        "Nắm các vòng, giữ tay duỗi và vai xa tai.",
+        "Giữ cơ bụng siết, chuyển người về trước lên các ngón chân và duỗi tay ra trước.",
+        "Từ từ hạ người về phía đất, giữ tay thẳng và cơ bụng siết.",
+        "Khi đầu ở giữa hai tay, dừng một chút rồi dùng cơ bụng kéo người về vị trí ban đầu."
+      ],
+      "exercise_id": "bbcc7261-8e9f-469b-ad7b-226fa98a2d29"
+    },
+    {
+      "index": 154,
+      "sourceName": "Ring Twisting Chin Up",
+      "name": "Kéo người trên vòng tập kết hợp xoay tay",
+      "steps": [
+        "Nắm vòng rộng bằng vai theo kiểu sấp, lòng bàn tay hướng ra ngoài.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên và xoay các nắm tay đến khi cằm vượt qua các vòng.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "e6a5d5cb-7dcf-413f-80c7-ec997bdeb66f"
+    },
+    {
+      "index": 155,
+      "sourceName": "Scissor Kick",
+      "name": "Đá chân cắt kéo",
+      "steps": [
+        "Nằm ngửa, đặt tay dưới mông hoặc trên đất làm điểm tựa.",
+        "Nâng chân khỏi đất, luân phiên bắt chéo chân như động tác cắt kéo."
+      ],
+      "exercise_id": "46c09f7f-cc13-467b-824a-d988ea2e8ccb"
+    },
+    {
+      "index": 156,
+      "sourceName": "Seated Box Jump",
+      "name": "Nhảy lên bục từ tư thế ngồi",
+      "steps": [
+        "Chuẩn bị hai bục, một bục để nhảy lên và một bục để ngồi.",
+        "Từ tư thế ngồi, bật hông mạnh về trước.",
+        "Nhảy và tiếp đất nhẹ nhàng trên bục."
+      ],
+      "exercise_id": "578ebdd2-e312-4239-93a4-c8dd5eab8dae"
+    },
+    {
+      "index": 157,
+      "sourceName": "Side Lunges",
+      "name": "Chùng chân sang bên",
+      "steps": [
+        "Bước chậm sang phải.",
+        "Duỗi gối trái và chuyển trọng lượng sang bên phải.",
+        "Gập gối và hạ người.",
+        "Đẩy người về vị trí ban đầu."
+      ],
+      "exercise_id": "c500e350-00e5-493f-9ae2-f174aeeb094e"
+    },
+    {
+      "index": 158,
+      "sourceName": "Side Plank Reach Through",
+      "name": "Plank nghiêng khuỷu tay kết hợp luồn tay qua người",
+      "steps": [
+        "Vào tư thế plank nghiêng chống khuỷu tay.",
+        "Vươn tay không trụ lên phía trần.",
+        "Xoay phần giữa và trên cột sống, luồn tay qua khoảng trống giữa sàn và thân.",
+        "Vươn tay về sau rồi xoay trở về vị trí ban đầu."
+      ],
+      "exercise_id": "dd920185-4935-47d4-9024-9442b4ae0c79"
+    },
+    {
+      "index": 159,
+      "sourceName": "Side Plank Up Down",
+      "name": "Plank nghiêng nâng hạ hông",
+      "steps": [
+        "Đặt khuỷu tay và hông trên đất. Bàn tay có thể nắm theo tư thế trung tính hoặc đặt phẳng trên đất.",
+        "Vào tư thế plank nghiêng rồi hạ hông xuống sàn.",
+        "Kéo hông lên phía trần để hoàn thành lần lặp."
+      ],
+      "exercise_id": "6160a956-7674-4442-9507-cf2e18e13e5c"
+    },
+    {
+      "index": 160,
+      "sourceName": "Sideways Scissor Kick",
+      "name": "Đá chân cắt kéo sang ngang",
+      "steps": [
+        "Nâng cả hai chân khỏi đất.",
+        "Mở hai chân ra ngoài rồi bắt chéo chân qua nhau.",
+        "Luân phiên đổi chân nằm phía trên."
+      ],
+      "exercise_id": "79ced6b5-82ce-48e0-8ea7-bbcf616961c0"
+    },
+    {
+      "index": 161,
+      "sourceName": "Single Leg Box Jump",
+      "name": "Nhảy lên bục tiếp đất một chân",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Nhảy lên bục và tiếp đất bằng một chân.",
+        "Cố gắng tiếp đất ở giữa bục và nhẹ nhất có thể."
+      ],
+      "exercise_id": "0ec0b424-f799-4455-878b-76c35fd5f819"
+    },
+    {
+      "index": 163,
+      "sourceName": "Single Leg Slider Hamstring Curl 2",
+      "name": "Gập gối một chân tập đùi sau với đĩa trượt, biến thể 2",
+      "steps": [
+        "Mới bắt đầu.",
+        "Nằm ngửa, đầu gối co, gót chân trên đĩa trượt.",
+        "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+        "Ấn gót chân xuống đất để nâng hông khỏi đất.",
+        "Duỗi và gập chân đang tập."
+      ],
+      "exercise_id": "f3edc777-f7bd-4829-8bc0-9d54c983a870"
+    },
+    {
+      "index": 164,
+      "sourceName": "Single Legged Romanian Deadlifts",
+      "name": "Romanian deadlift một chân không tạ",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, đầu gối hơi co và nhấc một chân.",
+        "Giữ nguyên độ co của đầu gối, gập hông để hạ thân đến khi gần song song với sàn.",
+        "Siết cơ mông rồi đưa người về vị trí ban đầu."
+      ],
+      "exercise_id": "5a9012bd-6cb3-4176-a656-7e6467264c2d"
+    },
+    {
+      "index": 165,
+      "sourceName": "Situp",
+      "name": "Gập bụng ngồi dậy",
+      "steps": [
+        "Nằm với đầu gối co.",
+        "Nâng thân trên.",
+        "Hạ xuống lại."
+      ],
+      "exercise_id": "fb40a10a-a1f9-497f-ae74-c50fc3fb9b8c"
+    },
+    {
+      "index": 166,
+      "sourceName": "Slalom Mountain Climber",
+      "name": "Plank kéo gối zíc zắc kiểu leo núi",
+      "steps": [
+        "Vào tư thế plank, hai tay ngay dưới vai.",
+        "Đưa đầu gối về phía khuỷu tay trái.",
+        "Trở về vị trí ban đầu rồi đưa đầu gối về phía khuỷu tay phải, mô phỏng đường zíc zắc."
+      ],
+      "exercise_id": "4e2ddda9-01fb-4679-b48c-0b2113a70646"
+    },
+    {
+      "index": 167,
+      "sourceName": "Slider Hamstring Curl",
+      "name": "Gập gối tập đùi sau với đĩa trượt",
+      "steps": [
+        "Nằm ngửa, đầu gối hơi co, gót chân trên các đĩa trượt.",
+        "Kéo gót chân về phía mông để nâng hông khỏi đất.",
+        "Duỗi gối về vị trí ban đầu, không đặt hông nghỉ trên đất."
+      ],
+      "exercise_id": "266ff8d6-2f80-4a92-9a4d-b937d694b0b2"
+    },
+    {
+      "index": 168,
+      "sourceName": "Slider Hamstring Curl Eccentric",
+      "name": "Duỗi chân chậm tập đùi sau với đĩa trượt",
+      "steps": [
+        "Gập gối để bàn chân đặt phẳng trên sàn, gót chân dưới gối và các ngón chân nâng lên.",
+        "Đặt đĩa trượt dưới gót chân. Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+        "Ấn gót chân xuống đất, nâng hông đến khi có đường thẳng từ ngực đến đầu gối.",
+        "Duỗi chân chậm và có kiểm soát để hạ mông xuống đất.",
+        "Gập gối nhẹ nhàng trước khi lặp lại."
+      ],
+      "exercise_id": "5b2d0da4-5362-4794-8343-93dac203322f"
+    },
+    {
+      "index": 169,
+      "sourceName": "Slider Hamstring Curl Single Leg",
+      "name": "Gập gối một chân tập đùi sau với đĩa trượt",
+      "steps": [
+        "Nằm ngửa, giữ cả hai đầu gối co.",
+        "Đặt đĩa trượt dưới gót chân đang tập.",
+        "Duỗi và gập chân đang tập, ấn nhẹ xuống dưới."
+      ],
+      "exercise_id": "758a5cdf-a0d9-4719-9b04-4b031af583d6"
+    },
+    {
+      "index": 171,
+      "sourceName": "Split Squat",
+      "name": "Split squat không tạ",
+      "steps": [
+        "Đứng chân trước chân sau. Giữ ngực nâng.",
+        "Hạ đầu gối sau xuống sàn hoặc gần sàn.",
+        "Ấn gót chân trước và bàn chân sau để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "a07e9e06-bfc3-4928-89bb-d22736c4f7aa"
+    },
+    {
+      "index": 172,
+      "sourceName": "Stability Ball Atomic Push Up",
+      "name": "Chống đẩy kết hợp co gối với bóng thăng bằng",
+      "steps": [
+        "Đặt chân lên bóng thăng bằng, hai tay trên sàn trong tư thế chống đẩy.",
+        "Hạ ngực về phía sàn rồi đẩy lên, đồng thời co gối về phía ngực.",
+        "Duỗi chân về vị trí ban đầu, duy trì kiểm soát và ổn định trong suốt chuyển động."
+      ],
+      "exercise_id": "f48ceec6-f36e-4b6e-9431-6929feb7e852"
+    },
+    {
+      "index": 174,
+      "sourceName": "Stability Ball Hamstring Curl",
+      "name": "Gập gối tập đùi sau với bóng thăng bằng",
+      "steps": [
+        "Nằm ngửa, gót chân trên bóng thăng bằng, hai tay đặt phẳng và cơ bụng siết.",
+        "Nâng hông, dùng cơ đùi sau kéo bóng về người, giữ kiểm soát và thăng bằng.",
+        "Duỗi chân về vị trí bắt đầu trong khi giữ hông nâng, sau đó lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "d086fccc-f712-4ee1-9eb6-f83ddadf0e35"
+    },
+    {
+      "index": 175,
+      "sourceName": "Stability Ball Hip Thrust",
+      "name": "Đẩy hông tựa bóng thăng bằng",
+      "steps": [
+        "Ngồi trên sàn, đặt lưng trên lên bóng thăng bằng, bàn chân phẳng, đầu gối co.",
+        "Siết cơ mông để đẩy hông lên, tạo đường thẳng từ vai đến gối.",
+        "Từ từ hạ hông mà không chạm sàn, duy trì cơ bụng siết rồi lặp lại."
+      ],
+      "exercise_id": "a2fe8f7c-edbf-4847-8622-0229e6ada1c1"
+    },
+    {
+      "index": 176,
+      "sourceName": "Stability Ball Knee Tuck",
+      "name": "Plank co gối với bóng thăng bằng",
+      "steps": [
+        "Vào tư thế plank với chân trên bóng thăng bằng, hai tay trên sàn.",
+        "Siết cơ bụng và co gối về ngực, cẩn thận lăn bóng về trước.",
+        "Duỗi chân về vị trí ban đầu, duy trì thăng bằng và kiểm soát trong suốt chuyển động."
+      ],
+      "exercise_id": "dc4df3c5-db8b-4b4d-81a3-1704b21e8482"
+    },
+    {
+      "index": 177,
+      "sourceName": "Stability Ball Pike",
+      "name": "Nâng hông kiểu pike với bóng thăng bằng",
+      "steps": [
+        "Đặt chân lên bóng và vào tư thế plank.",
+        "Kéo hông thẳng lên phía trần.",
+        "Hạ hông đến khi trở về tư thế plank."
+      ],
+      "exercise_id": "dea8eb68-6831-424c-8407-5e1abdb51b64"
+    },
+    {
+      "index": 178,
+      "sourceName": "Stability Ball Push Up",
+      "name": "Chống đẩy kê chân trên bóng thăng bằng",
+      "steps": [
+        "Đặt chắc hai bàn tay trên đất, ngay dưới vai. Đặt chân lên bóng thăng bằng.",
+        "Giữ lưng phẳng để toàn thân thẳng và từ từ hạ người.",
+        "Kéo bả vai về sau và xuống, giữ khuỷu tay khép gần thân.",
+        "Thở ra khi đẩy người về vị trí ban đầu."
+      ],
+      "exercise_id": "626af10a-1457-4bac-bb94-4059a86f7760"
+    },
+    {
+      "index": 179,
+      "sourceName": "Stability Ball Reverse Hyperextension",
+      "name": "Duỗi hông ngược trên bóng thăng bằng",
+      "steps": [
+        "Nằm sấp trên bóng thăng bằng, hai tay trên sàn, hai chân duỗi thẳng.",
+        "Siết cơ mông và lưng dưới, nâng chân đến khi thẳng hàng với thân.",
+        "Từ từ hạ chân nhưng không chạm đất, duy trì cơ bụng siết. Lặp lại."
+      ],
+      "exercise_id": "1d0f81a3-b262-4c7f-81af-19455f9fab86"
+    },
+    {
+      "index": 180,
+      "sourceName": "Stability Ball Side Crunch",
+      "name": "Gập bụng nghiêng trên bóng thăng bằng",
+      "steps": [
+        "Nằm nghiêng trên bóng thăng bằng, chân giữ cố định, tay sau đầu, cơ bụng siết.",
+        "Co cơ bụng chéo để gập sang bên, đưa thân trên về phía hông."
+      ],
+      "exercise_id": "74531f3c-0988-46cd-9179-32b36c35efeb"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 140,
+      "sourceName": "Pole Overhead Squat",
+      "reason": "The pole setup switches to holding dumbbells overhead in the remaining instructions; verify equipment.",
+      "exercise_id": "4afdffa4-fabb-4a73-8878-160d38555407"
+    },
+    {
+      "index": 162,
+      "sourceName": "Single Leg Glute Bridge",
+      "reason": "The lying setup is placed after the lifting and lowering steps; verify source order and working-leg setup before approval.",
+      "exercise_id": "6470505a-acd9-4534-9ec4-280af6ded3c8"
+    },
+    {
+      "index": 170,
+      "sourceName": "Slow Tempo Mountain Climber",
+      "reason": "The source specifies quickly switching legs and then a slow pace; verify the intended tempo.",
+      "exercise_id": "1c3f8472-f46d-4425-b75a-067d22be80ea"
+    },
+    {
+      "index": 173,
+      "sourceName": "Stability Ball Glute Bridge",
+      "reason": "Feet start on a ball but a later cue says to keep the feet flat on a bar; verify the support object.",
+      "exercise_id": "26ad762c-2f0f-482e-bbf3-32d5d9b6851b"
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared each complete source block with Vietnamese text, preserving anchor height, stance, grip, body position, movement and step order. Held missing quantities/ranges, corrupted phrases and contradictory motion cues without inventing repairs.",
+  "translations": [
+    {
+      "index": 1,
+      "sourceName": "Band Bayesian Hammer Curl",
+      "name": "Cuốn búa kiểu Bayesian với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo thấp. Nắm theo kiểu trung tính.",
+        "Gập khuỷu tay đến khi cảm nhận cơ tay trước co lại. Sau đó duỗi hoàn toàn khuỷu tay."
+      ],
+      "exercise_id": "970e850b-db83-4b25-b609-2a5f60157e19"
+    },
+    {
+      "index": 2,
+      "sourceName": "Band Bayesian Reverse Curl",
+      "name": "Cuốn tay trước nắm sấp kiểu Bayesian với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo thấp. Hướng lòng bàn tay về phía đùi.",
+        "Gập khuỷu tay đến khi cảm nhận cơ tay trước co lại. Sau đó duỗi hoàn toàn khuỷu tay."
+      ],
+      "exercise_id": "86f0a6ab-7c49-4154-af19-41275d07ba50"
+    },
+    {
+      "index": 3,
+      "sourceName": "Band Bench Fly",
+      "name": "Ép ngực trên ghế với dây kháng lực",
+      "steps": [
+        "Nằm trên ghế, nắm tay cầm dây, hai tay duỗi phía trên ngực.",
+        "Hạ hai tay rộng sang bên theo đường vòng cung có kiểm soát, giữ khuỷu tay hơi co.",
+        "Đưa hai tay lại gần nhau phía trên ngực, siết cơ ngực ở điểm cao nhất."
+      ],
+      "exercise_id": "3e0f35ab-2045-4fa1-a97f-47cf17bd37fe"
+    },
+    {
+      "index": 4,
+      "sourceName": "Band Bench Press",
+      "name": "Đẩy ngực trên ghế với dây kháng lực",
+      "steps": [
+        "Nằm trên ghế, vòng dây phía sau lưng.",
+        "Hạ hai tay về phía ngực, giữ khuỷu tay ở góc thoải mái.",
+        "Đẩy lên và siết cơ ngực ở điểm cao nhất, duy trì lực căng của dây."
+      ],
+      "exercise_id": "0c9b775d-6516-471a-a197-0694e4f444cb"
+    },
+    {
+      "index": 5,
+      "sourceName": "Band Bent Over Row",
+      "name": "Gập người kéo dây kháng lực",
+      "steps": [
+        "Đứng lên dây, hai chân rộng bằng hông, nắm tay cầm với lòng bàn tay hướng vào trong.",
+        "Gập hông, giữ lưng phẳng và khuỷu tay gần sườn.",
+        "Kéo tay cầm về thân, siết cơ lưng rồi từ từ hạ xuống có kiểm soát."
+      ],
+      "exercise_id": "2cb8fcb2-defb-4e28-b6af-3e0523af5d05"
+    },
+    {
+      "index": 6,
+      "sourceName": "Band Calf Raise",
+      "name": "Nhón gót với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo thấp.",
+        "Bước ra xa vài bước đến khi dây căng.",
+        "Hơi ngả người về sau. Nâng gót chân thẳng lên rồi hạ xuống."
+      ],
+      "exercise_id": "0e0ff9f6-10ac-494d-b7f2-7dd08daf2400"
+    },
+    {
+      "index": 7,
+      "sourceName": "Band Chest Fly",
+      "name": "Đứng ép ngực với dây kháng lực",
+      "steps": [
+        "Cố định hai dây kháng lực vào điểm neo chắc chắn ngang ngực, chẳng hạn neo cửa hoặc cột.",
+        "Đứng quay lưng về điểm neo, hai chân rộng bằng vai, mỗi tay giữ một đầu dây.",
+        "Bắt đầu với hai tay duỗi hoàn toàn và song song với sàn.",
+        "Giữ tay thẳng, từ từ đưa hai tay lại gần nhau trước ngực."
+      ],
+      "exercise_id": "0d55c65a-0c1b-4db0-961b-3cd3f2418bc3"
+    },
+    {
+      "index": 8,
+      "sourceName": "Band Chest Press",
+      "name": "Đứng đẩy ngực với dây kháng lực",
+      "steps": [
+        "Đứng giữa hai dây, hai chân rộng bằng vai. Bước một chân về trước để tạo lực căng.",
+        "Mỗi tay giữ một dây, lòng bàn tay hướng về trước.\n\nBắt đầu với hai tay duỗi trước người, khuỷu tay hơi co.",
+        "Hạ hai tay về hai bên ngực, kiểm soát dây.",
+        "Đẩy hai tay về vị trí ban đầu, giữ cơ bụng siết và kiểm soát dây."
+      ],
+      "exercise_id": "f0671d0a-2210-4d74-9e20-a643d0e23fbd"
+    },
+    {
+      "index": 9,
+      "sourceName": "Band Crunch",
+      "name": "Gập bụng với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo cao nhất có thể. Nắm hai đầu dây và hạ người xuống quỳ.",
+        "Đẩy hông về sau, gập cột sống.",
+        "Siết cơ bụng rồi duỗi hông và cột sống để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "34c0d76d-629a-480e-9c00-3464b6895588"
+    },
+    {
+      "index": 10,
+      "sourceName": "Band Curl",
+      "name": "Cuốn tay trước với dây kháng lực",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dây ở dưới cả hai bàn chân.",
+        "Dùng hai tay nắm tay cầm của dây, giữ tay thẳng và duỗi trước người.",
+        "Giữ lưng thẳng, cơ bụng siết và vai thả lỏng khi gập khuỷu tay để cuốn hai tay về phía vai."
+      ],
+      "exercise_id": "f34ee453-d558-44c4-bf1f-13003e6e3f01"
+    },
+    {
+      "index": 11,
+      "sourceName": "Band Face Pull",
+      "name": "Kéo dây kháng lực về mặt",
+      "steps": [
+        "Neo dây ngang mắt. Bước ra xa vài bước đến khi dây căng.",
+        "Dùng hai tay nắm sấp. Kéo dây về sống mũi, đưa khuỷu tay ra ngoài."
+      ],
+      "exercise_id": "c6e8118a-7516-4940-90dd-13f4e23a32f1"
+    },
+    {
+      "index": 12,
+      "sourceName": "Band Floor Press",
+      "name": "Đẩy ngực trên sàn với dây kháng lực",
+      "steps": [
+        "Nằm ngửa, nắm các vòng dây, khuỷu tay tựa trên sàn.",
+        "Đẩy hai tay thẳng lên đến khi khuỷu tay duỗi nhưng không khóa.",
+        "Hạ khuỷu tay về sàn có kiểm soát, duy trì lực căng trong suốt động tác."
+      ],
+      "exercise_id": "a9f08847-bdb9-4a42-bcbc-206821138d5f"
+    },
+    {
+      "index": 14,
+      "sourceName": "Band Glute Kickback",
+      "name": "Đá chân ra sau tập mông với dây kháng lực",
+      "steps": [
+        "Chống hai tay và hai gối. Vòng dây quanh cả hai cổ tay và một bàn chân.",
+        "Duỗi gối và hông thẳng về sau đến khi cảm nhận cơ mông co lại.",
+        "Gập gối để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "e2c44d48-a600-4239-9e81-bb43aabf217d"
+    },
+    {
+      "index": 16,
+      "sourceName": "Band Good Morning",
+      "name": "Gập hông kiểu good morning với dây kháng lực",
+      "steps": [
+        "Neo dây ngang hông. Bước ra xa vài bước đến khi dây căng.",
+        "Đẩy hông về sau, giữ lưng phẳng đến khi cảm nhận cơ đùi sau được kéo giãn."
+      ],
+      "exercise_id": "167a9917-0d72-494a-a601-b97b6d6c1b71"
+    },
+    {
+      "index": 17,
+      "sourceName": "Band Half Kneeling Single Arm Pulldown",
+      "name": "Quỳ một gối kéo xô một tay với dây kháng lực",
+      "steps": [
+        "Quỳ hướng về điểm neo, dây phía trên đầu, một tay giữ đầu dây.",
+        "Giữ thân thẳng và kéo khuỷu tay xuống phía hông.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ đưa tay về vị trí ban đầu."
+      ],
+      "exercise_id": "8c0a1574-c6aa-48d1-bbdd-deaa457d4f9a"
+    },
+    {
+      "index": 18,
+      "sourceName": "Band High Curl",
+      "name": "Cuốn tay trước với dây kháng lực neo cao",
+      "steps": [
+        "Neo dây vào điểm cao.",
+        "Bắt đầu với chân trước chân sau và khuỷu tay nâng cao.",
+        "Gập khuỷu tay trong khi giữ tay cao. Cuốn dây về trán."
+      ],
+      "exercise_id": "aed2d866-d60f-46cc-a151-631a4d3b17ca"
+    },
+    {
+      "index": 19,
+      "sourceName": "Band High Face Pull",
+      "name": "Kéo dây kháng lực neo cao về mặt",
+      "steps": [
+        "Bắt đầu với dây neo vào điểm cao. Đứng chân trước chân sau.",
+        "Kéo dây về sống mũi."
+      ],
+      "exercise_id": "f1c272f6-a1f6-4ec7-b58b-bbd9b3d556d8"
+    },
+    {
+      "index": 20,
+      "sourceName": "Band High Hammer Curl",
+      "name": "Cuốn búa với dây kháng lực neo cao",
+      "steps": [
+        "Bắt đầu với dây neo vào vật ở vị trí cao, chân trước chân sau và tay nắm trung tính.",
+        "Giữ khuỷu tay cao. Cuốn đến khi các nắm tay ở ngang trán."
+      ],
+      "exercise_id": "e8602e4f-ad6f-41d0-947e-7ce34ae5feb3"
+    },
+    {
+      "index": 21,
+      "sourceName": "Band High Reverse Curl",
+      "name": "Cuốn tay trước nắm sấp với dây kháng lực neo cao",
+      "steps": [
+        "Bắt đầu với dây gắn vào điểm cao, chân trước chân sau và tay nắm sấp.",
+        "Gập khuỷu tay, kéo cẳng tay về bắp tay. Các nắm tay đến cạnh trán."
+      ],
+      "exercise_id": "3d0ed152-7bac-4ac0-8cfc-4079e75aee8e"
+    },
+    {
+      "index": 22,
+      "sourceName": "Band High To Low Pallof Press Wood Chopper",
+      "name": "Đẩy Pallof kết hợp kéo chéo từ cao xuống thấp với dây kháng lực",
+      "steps": [
+        "Đứng nghiêng so với dây neo cao, dùng hai tay giữ tay cầm trước ngực.",
+        "Đẩy hai tay thẳng về trước rồi xoay thân, kéo dây chéo xuống dưới.",
+        "Trở về giữa, gập khuỷu tay đưa tay về ngực có kiểm soát."
+      ],
+      "exercise_id": "abc68ed9-d03f-4167-a4ac-9a08a55063bd"
+    },
+    {
+      "index": 23,
+      "sourceName": "Band Hip Abduction",
+      "name": "Dạng hông với dây kháng lực",
+      "steps": [
+        "Gắn dây quanh cổ chân. Đứng hai chân rộng bằng hông, bàn chân hướng về trước, hai tay trên hông.",
+        "Nâng chân phải sang bên, xa người, giữ gối thẳng. Đây là vị trí bắt đầu.",
+        "Giữ đúng tư thế, đưa chân phải sang bên xa hết mức có thể, giữ chân trái đặt chắc trên đất. Giữ một giây rồi đưa chân phải về vị trí bắt đầu."
+      ],
+      "exercise_id": "b74b7e87-e7c1-463a-ab73-535b1feca3db"
+    },
+    {
+      "index": 27,
+      "sourceName": "Band Kneeling Pulldown",
+      "name": "Quỳ kéo xô với dây kháng lực",
+      "steps": [
+        "Quỳ hướng về điểm neo, dây phía trên đầu và hai tay duỗi.",
+        "Kéo khuỷu tay xuống phía sườn, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "exercise_id": "c2a02e2a-7db3-4e22-bba4-e1f8ffc8c498"
+    },
+    {
+      "index": 28,
+      "sourceName": "Band Kneeling Single Arm Pulldown",
+      "name": "Quỳ kéo xô một tay với dây kháng lực",
+      "steps": [
+        "Đặt dây khoảng ngang mắt. Hạ người xuống quỳ.",
+        "Đầu gối trên đất phải cùng bên với tay đang tập. Ưỡn ngực.",
+        "Kéo khuỷu tay thẳng về sau. Siết cơ xô rồi duỗi tay về vị trí ban đầu."
+      ],
+      "exercise_id": "1b8dd563-2676-4153-973f-6e763730f1c6"
+    },
+    {
+      "index": 29,
+      "sourceName": "Band Leg Curl",
+      "name": "Gập gối tập đùi sau với dây kháng lực",
+      "steps": [
+        "Vòng dây quanh điểm neo chắc chắn như giá tạ hoặc tay nắm cửa.",
+        "Nằm ngửa, đặt gót chân vào dây. Đặt dây ở giữa dưới gót chân, hai chân rộng bằng hông.",
+        "Dùng cơ đùi sau kéo gót chân về mông, giữ hông trên đất."
+      ],
+      "exercise_id": "8d2c8f91-b930-4529-a0d2-a93f4eab2db0"
+    },
+    {
+      "index": 30,
+      "sourceName": "Band Leg Extension",
+      "name": "Duỗi gối tập đùi trước với dây kháng lực",
+      "steps": [
+        "Neo dây vào vật chắc chắn và chuẩn bị ghế.",
+        "Luồn dây dưới ghế rồi vòng quanh bàn chân.",
+        "Gập và duỗi đầu gối."
+      ],
+      "exercise_id": "e1b42fe3-a934-40cf-8a5c-cebd2fb03b33"
+    },
+    {
+      "index": 32,
+      "sourceName": "Band Low To High Pallof Press Wood Chopper",
+      "name": "Đẩy Pallof kết hợp kéo chéo từ thấp lên cao với dây kháng lực",
+      "steps": [
+        "Đứng nghiêng so với dây neo thấp, dùng hai tay giữ tay cầm trước ngực.",
+        "Đẩy hai tay thẳng về trước rồi xoay thân, kéo dây chéo lên trên.",
+        "Trở về giữa và đưa hai tay về ngực có kiểm soát."
+      ],
+      "exercise_id": "a64d5d25-f679-4a9d-89ab-552bfdd0143f"
+    },
+    {
+      "index": 34,
+      "sourceName": "Band Overhead Tricep Extension",
+      "name": "Duỗi tay sau qua đầu với dây kháng lực",
+      "steps": [
+        "Đứng một hoặc cả hai bàn chân lên dây. Đưa dây lên qua đầu vào vị trí bắt đầu.",
+        "Gập và duỗi khuỷu tay."
+      ],
+      "exercise_id": "fc1b1fd7-4903-44a4-972d-562e4b71f0ba"
+    },
+    {
+      "index": 35,
+      "sourceName": "Band Pallof Press",
+      "name": "Đẩy Pallof với dây kháng lực",
+      "steps": [
+        "Gắn dây vào điểm neo ngang vai. Bước ra xa vài bước đến khi dây căng.",
+        "Bắt đầu với các ngón tay đan quanh dây, các nắm tay áp vào ngực.",
+        "Duỗi khuỷu tay, đẩy dây ra xa người đến khi khuỷu tay duỗi hoàn toàn."
+      ],
+      "exercise_id": "e68b6821-09ba-4fda-9614-179e4f3ee2d5"
+    },
+    {
+      "index": 36,
+      "sourceName": "Band Pallof Press To Wood Chopper",
+      "name": "Đẩy Pallof kết hợp kéo chéo với dây kháng lực",
+      "steps": [
+        "Đứng nghiêng so với dây, giữ tay cầm trước ngực và siết cơ bụng.",
+        "Đẩy hai tay thẳng về trước, chống lại lực xoay.",
+        "Xoay thân và kéo dây chéo qua người theo động tác bổ củi rồi trở lại."
+      ],
+      "exercise_id": "b90f33b8-d833-4195-bdd9-e0449fa4d4cb"
+    },
+    {
+      "index": 37,
+      "sourceName": "Band Press Around",
+      "name": "Đẩy dây kháng lực vòng qua người",
+      "steps": [
+        "Đứng với dây phía sau, giữ vòng dây ngang ngực.",
+        "Đẩy một tay về trước và chéo qua người theo đường vòng cung.",
+        "Siết cơ ngực khi duỗi hết, sau đó từ từ trở lại và đổi bên."
+      ],
+      "exercise_id": "fed511dd-c9d3-461a-9ba8-6eb766234748"
+    },
+    {
+      "index": 38,
+      "sourceName": "Band Pull Apart",
+      "name": "Kéo dang dây kháng lực",
+      "steps": [
+        "Nắm dây rộng bằng vai. Duỗi hai tay thẳng trước người.",
+        "Kéo bả vai và vai về sau đến khi dây chạm nhẹ ngực."
+      ],
+      "exercise_id": "afc56f7c-3cc2-4b0d-bec3-9ba81d5b82ef"
+    },
+    {
+      "index": 39,
+      "sourceName": "Band Pull Around",
+      "name": "Kéo dây kháng lực vòng qua người",
+      "steps": [
+        "Đứng nghiêng so với điểm neo, giữ dây với tay hơi duỗi.",
+        "Kéo tay chéo qua người theo đường vòng cung nhịp nhàng, không xoay thân.",
+        "Siết cơ ngực ở cuối biên độ rồi từ từ trở lại có kiểm soát."
+      ],
+      "exercise_id": "62296270-52b1-4446-a169-01c68b2ae07c"
+    },
+    {
+      "index": 41,
+      "sourceName": "Band Pullthrough",
+      "name": "Kéo dây kháng lực qua hai chân",
+      "steps": [
+        "Neo dây ở vị trí thấp nhất có thể. Đứng hai chân ở hai bên dây rồi dùng hai tay nắm dây.",
+        "Bước ra xa vài bước đến khi dây căng.",
+        "Đẩy mông về sau đến khi cảm nhận cơ đùi sau được kéo giãn. Sau đó duỗi hông về vị trí ban đầu."
+      ],
+      "exercise_id": "05acaf24-0270-4b67-8bc4-c8e2f9935c0f"
+    },
+    {
+      "index": 42,
+      "sourceName": "Band Pushup",
+      "name": "Chống đẩy với dây kháng lực",
+      "steps": [
+        "Vòng dây quanh giữa lưng. Các đầu dây vòng quanh bàn tay, nằm giữa ngón cái và ngón trỏ.",
+        "Có thể tập chống bằng gối hoặc các ngón chân tùy kinh nghiệm.",
+        "Gập khuỷu tay đến khi bắp tay ở bên thân. Sau đó duỗi khuỷu tay về vị trí trên cùng."
+      ],
+      "exercise_id": "aae379fc-25df-44f7-ab9f-96c06c7610be"
+    },
+    {
+      "index": 43,
+      "sourceName": "Band Rapunzel Pushdown",
+      "name": "Đẩy dây kháng lực xuống kiểu Rapunzel",
+      "steps": [
+        "Neo dây vào điểm cao và quay lưng lại. Dùng hai tay giữ dây rộng bằng vai, giữ khuỷu tay gần thân.",
+        "Từ từ duỗi hai tay xuống, giữ khuỷu tay gần thân. Đẩy dây xuống xa hết mức có thể, cảm nhận cơ tay sau co lại."
+      ],
+      "exercise_id": "1fceb73d-6f86-4d56-9ea3-0575dff37f23"
+    },
+    {
+      "index": 44,
+      "sourceName": "Band Rear Delt Fly",
+      "name": "Dang tay tập vai sau với dây kháng lực",
+      "steps": [
+        "Đứng giữa hai dây đã neo cao, hai chân rộng bằng vai.",
+        "Nắm các đầu dây, lòng bàn tay hướng vào nhau.",
+        "Giữ tay hơi co và lưng thẳng, từ từ kéo dây ra xa người đến khi hai tay duỗi ngang sang hai bên. Giữ một giây rồi từ từ trở về vị trí ban đầu. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "ad4a9598-3119-4930-a915-096de8bb8b36"
+    },
+    {
+      "index": 45,
+      "sourceName": "Band Reverse Curl",
+      "name": "Cuốn tay trước nắm sấp với dây kháng lực",
+      "steps": [
+        "Đứng cả hai bàn chân lên giữa dây, hai chân rộng bằng vai.",
+        "Dùng hai tay giữ dây, lòng bàn tay úp, hai tay duỗi thẳng trước người.",
+        "Từ từ cuốn hai tay về phía vai để kéo căng dây, sau đó hạ về vị trí ban đầu, duy trì lực căng trong suốt bài tập."
+      ],
+      "exercise_id": "10a858be-08af-4296-ba62-27d7cb8e0c00"
+    },
+    {
+      "index": 46,
+      "sourceName": "Band Romanian Deadlift",
+      "name": "Romanian deadlift với dây kháng lực",
+      "steps": [
+        "Đứng cả hai bàn chân lên dây.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Gập đến khi cảm nhận cơ đùi sau được kéo giãn.",
+        "Đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "exercise_id": "82b4f8c0-a3d2-4372-ba2a-b6b9cb37bc58"
+    },
+    {
+      "index": 47,
+      "sourceName": "Band Row",
+      "name": "Kéo dây kháng lực khi gập người",
+      "steps": [
+        "Đứng cả hai bàn chân lên dây.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Để hai tay buông tự do rồi kéo khuỷu tay thẳng về sau hướng lên trần."
+      ],
+      "exercise_id": "bcfb8a05-ca63-45d1-878a-c13c4a58d1aa"
+    },
+    {
+      "index": 48,
+      "sourceName": "Band Seated Pulldown",
+      "name": "Ngồi kéo xô với dây kháng lực",
+      "steps": [
+        "Ngồi hướng về điểm neo, dây phía trên đầu và hai tay duỗi.",
+        "Kéo khuỷu tay xuống phía sườn, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "exercise_id": "d6342153-8804-42a7-aa9b-d6070b78dfac"
+    },
+    {
+      "index": 49,
+      "sourceName": "Band Seated Single Arm Pulldown",
+      "name": "Ngồi kéo xô một tay với dây kháng lực",
+      "steps": [
+        "Ngồi hướng về điểm neo, dây phía trên đầu, một tay giữ tay cầm.",
+        "Kéo khuỷu tay xuống phía hông, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "exercise_id": "10a882ef-ca22-480e-8504-ca8f942551f0"
+    },
+    {
+      "index": 50,
+      "sourceName": "Band Shrug",
+      "name": "Nhún vai với dây kháng lực",
+      "steps": [
+        "Đặt dây dưới bàn chân. Đứng thẳng.",
+        "Nâng bả vai lên rồi hạ về vị trí ban đầu."
+      ],
+      "exercise_id": "d2f8e01b-ec8c-49c7-bf68-c082aa968226"
+    },
+    {
+      "index": 51,
+      "sourceName": "Band Side Bend",
+      "name": "Nghiêng người sang bên với dây kháng lực",
+      "steps": [
+        "Đứng với dây neo thấp ở một bên, giữ tay cầm ngang hông.",
+        "Nghiêng thân ra xa điểm neo, giữ hông và chân yên.",
+        "Co cơ bụng chéo để trở về tư thế thẳng, kiểm soát chuyển động nhịp nhàng."
+      ],
+      "exercise_id": "fdc3fd7d-2986-4636-8b99-d84c4f27f54b"
+    },
+    {
+      "index": 52,
+      "sourceName": "Band Single Arm Bent Over Row",
+      "name": "Gập người kéo dây kháng lực một tay",
+      "steps": [
+        "Đứng lên dây và gập hông, giữ tay cầm với tay duỗi.",
+        "Kéo khuỷu tay về phía hông, giữ lưng phẳng và vai cân bằng.",
+        "Siết cơ lưng ở điểm cao nhất rồi từ từ hạ xuống đến hết biên độ giãn."
+      ],
+      "exercise_id": "d5f2f7d5-d313-45ec-84ab-8e0ba577e999"
+    },
+    {
+      "index": 53,
+      "sourceName": "Band Single Arm Internally Rotated Chest Fly",
+      "name": "Ép ngực một tay với dây kháng lực, vai xoay trong",
+      "steps": [
+        "Đứng nghiêng so với điểm neo, giữ dây với tay hơi co và lòng bàn tay xoay vào trong.",
+        "Đưa tay chéo qua ngực theo đường vòng cung, giữ vai xoay trong.",
+        "Siết cơ ngực ở cuối biên độ rồi từ từ trở lại có kiểm soát."
+      ],
+      "exercise_id": "3a5f82c8-0821-488a-a37d-4afba2d478df"
+    },
+    {
+      "index": 54,
+      "sourceName": "Band Single Arm Lateral Raise",
+      "name": "Nâng tay sang ngang một tay với dây kháng lực",
+      "steps": [
+        "Đứng lên dây, giữ tay cầm hoặc vòng dây bên thân, khuỷu tay hơi co.",
+        "Nâng tay sang bên đến ngang vai, giữ thân yên.",
+        "Từ từ hạ xuống có kiểm soát, duy trì lực căng liên tục ở cơ vai."
+      ],
+      "exercise_id": "46fed24a-957c-419f-91fe-69b724e935c3"
+    },
+    {
+      "index": 56,
+      "sourceName": "Band Single Arm Pulldown",
+      "name": "Kéo xô một tay với dây kháng lực ở tư thế ngồi",
+      "steps": [
+        "Neo dây vào điểm cao. Vào tư thế ngồi.",
+        "Nắm vòng dây và kéo bắp tay về bên thân."
+      ],
+      "exercise_id": "de84f7d8-ca9f-4383-85f1-2612f1fa0f4b"
+    },
+    {
+      "index": 57,
+      "sourceName": "Band Single Arm Pushdown",
+      "name": "Đẩy dây kháng lực xuống tập tay sau một tay",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tay phải giữ dây, tay ở bên thân.",
+        "Gập và duỗi khuỷu tay."
+      ],
+      "exercise_id": "1b6d49f4-f768-4e1e-b078-2ffe54b857ed"
+    },
+    {
+      "index": 58,
+      "sourceName": "Band Single Arm Row",
+      "name": "Kéo dây kháng lực một tay",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Bước lùi đến khi dây hết chùng, một tay giữ đầu dây.",
+        "Dẫn chuyển động bằng khuỷu tay và kéo thẳng về sau."
+      ],
+      "exercise_id": "122ce74e-36c6-4404-a773-c746b1c66995"
+    },
+    {
+      "index": 59,
+      "sourceName": "Band Skullcrusher",
+      "name": "Duỗi tay sau kiểu skullcrusher với dây kháng lực",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Quay lưng lại, bắt đầu với khuỷu tay co và các nắm tay cạnh thái dương.",
+        "Duỗi khuỷu tay đến khi cơ tay sau co lại."
+      ],
+      "exercise_id": "8f9b7609-442e-4f19-8e6f-c96580ad9178"
+    },
+    {
+      "index": 60,
+      "sourceName": "Band Spanish Squat",
+      "name": "Squat kiểu Spanish với dây kháng lực",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Đặt các vòng dây sau đầu gối.",
+        "Squat bình thường và duỗi gối ngược lực cản của dây ở điểm cao nhất."
+      ],
+      "exercise_id": "d79eca67-969c-4738-9477-eae8d680add2"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 13,
+      "sourceName": "Band Front Raise",
+      "reason": "The source ends a step with 'one or' and omits the alternative foot quantity; verify missing content.",
+      "exercise_id": "fde63e2f-1d58-404a-9f37-34a0db384220"
+    },
+    {
+      "index": 15,
+      "sourceName": "Band Goblet Squat",
+      "reason": "The source mixes shoulder-width grip with standing setup and uses the unclear depth cue 'bottom of your leg'; verify stance and segment reference.",
+      "exercise_id": "81857c43-9f25-4920-9a6a-c3bd2e085845"
+    },
+    {
+      "index": 24,
+      "sourceName": "Band Hip Adduction",
+      "reason": "The cue combines keeping feet together and moving both legs outward in a standing adduction exercise; verify stance and working leg.",
+      "exercise_id": "c169df11-87fc-4350-8d79-dc759d11b549"
+    },
+    {
+      "index": 25,
+      "sourceName": "Band Horizontal Shrug",
+      "reason": "The phrase 'retract ... straight back in schools' is corrupted and needs verification.",
+      "exercise_id": "b1e3970b-f516-4f25-b513-265d7a1ffd16"
+    },
+    {
+      "index": 26,
+      "sourceName": "Band Internally Rotated Chest Fly",
+      "reason": "The standing-on-band setup and outward arm raise conflict with the chest-fly motion; verify the variant and shoulder-rotation cue.",
+      "exercise_id": "dbb91c4a-21b8-4a68-b2ca-f7acb5b7fded"
+    },
+    {
+      "index": 31,
+      "sourceName": "Band Leg Press",
+      "reason": "The anchor-height range is missing across 'should be', 'to', and 'inches above your head'; do not invent values.",
+      "exercise_id": "409f685b-d478-436d-a86b-cfee60294b44"
+    },
+    {
+      "index": 33,
+      "sourceName": "Band Overhead Press",
+      "reason": "The return cue lowers to shoulder height while keeping arms straight, unlike the stated overhead press; verify elbow cue.",
+      "exercise_id": "29955145-41dd-4e7d-b11a-e7a632f8e714"
+    },
+    {
+      "index": 40,
+      "sourceName": "Band Pullover",
+      "reason": "The anchor-height reference 'just above our level' is incomplete; verify the intended body reference.",
+      "exercise_id": "29ad0a17-31c2-413e-b894-80901728c28e"
+    },
+    {
+      "index": 55,
+      "sourceName": "Band Single Arm Pec Fly",
+      "reason": "The instruction combines shoulder extension and bringing the arm across the torso; verify the anatomical movement cue before translating.",
+      "exercise_id": "ff006eef-2a90-4966-bcac-84a7d65a0257"
+    }
+  ]
+}

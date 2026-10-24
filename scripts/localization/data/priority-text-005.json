@@ -1,0 +1,656 @@
+{
+  "version": 1,
+  "translations": [
+    {
+      "index": 61,
+      "sourceName": "Machine Overhand Overhead Press",
+      "name": "Đẩy vai trên máy với tay nắm sấp",
+      "steps": [
+        "Điều chỉnh ghế ngồi cho phù hợp chiều cao.",
+        "Ép lưng vào đệm tựa.",
+        "Đẩy lên đến khi khuỷu tay gần duỗi thẳng, nhưng chưa duỗi hết.",
+        "Hạ xuống đến khi các bánh tạ gần chạm nhau trở lại."
+      ],
+      "exercise_id": "f8ef1a70-729c-44b6-aa17-4ff360b1338d"
+    },
+    {
+      "index": 62,
+      "sourceName": "Machine Plate Loaded Calf Raise",
+      "name": "Nhón gót trên máy dùng bánh tạ",
+      "steps": [
+        "Ngồi trên máy và ép lưng vào đệm tựa.",
+        "Đặt phần trước bàn chân lên mép bàn đạp.",
+        "Hạ gót chân đến khi cảm nhận cơ bắp chân được kéo giãn, rồi đẩy lên đến khi cảm nhận cơ co lại."
+      ],
+      "exercise_id": "299ac2f9-5ffb-4de3-ab19-4428ad85adf0"
+    },
+    {
+      "index": 63,
+      "sourceName": "Machine Plate Loaded Front Military Press",
+      "name": "Đẩy vai trước trên máy dùng bánh tạ",
+      "steps": [
+        "Điều chỉnh ghế ở độ cao thoải mái.",
+        "Lắp lượng tạ phù hợp vào các chốt giữ bánh tạ.",
+        "Đẩy tạ đến khi khuỷu tay gần duỗi thẳng, rồi hạ xuống và dừng ngay trước khi tạ trở về trạng thái nghỉ."
+      ],
+      "exercise_id": "b4fa995e-fab8-4fa7-808e-8adde4724f93"
+    },
+    {
+      "index": 65,
+      "sourceName": "Machine Seated Calf Raises",
+      "name": "Ngồi nhón gót trên máy",
+      "steps": [
+        "Ngồi thoải mái trên máy, đặt phần dưới đùi bên dưới cần đòn có đệm. Đặt ngón chân và phần trước bàn chân lên bệ đỡ.",
+        "Nắm tay cầm để giữ tạ không trượt về trước, rồi mở thanh an toàn. Hạ tạ đến khi cơ bắp chân được kéo giãn.",
+        "Nâng gót chân để đẩy cần đòn có đệm lên và giữ ở vị trí cơ co, rồi từ từ hạ về vị trí ban đầu. Lặp lại."
+      ],
+      "exercise_id": "e22fc33f-3d74-4d52-b9b5-a3c64a6c6c9b"
+    },
+    {
+      "index": 66,
+      "sourceName": "Machine Seated Hamstring Curl",
+      "name": "Ngồi co chân tập đùi sau trên máy",
+      "steps": [
+        "Điều chỉnh đệm lưng và đệm cổ chân cho phù hợp chiều cao.",
+        "Mở chốt đệm đầu gối và hạ đệm xuống thấp nhất có thể.",
+        "Gập gối để thắng lực cản, rồi duỗi đến khi cảm nhận cơ đùi sau được kéo giãn."
+      ],
+      "exercise_id": "5ef11071-c99c-45eb-a15d-f4e26a7958b5"
+    },
+    {
+      "index": 67,
+      "sourceName": "Machine Seated Plate Loaded Preacher Curl",
+      "name": "Ngồi gập tay trên máy preacher dùng bánh tạ",
+      "steps": [
+        "Ngồi trên ghế, đặt mặt sau cánh tay tựa lên đệm ghế preacher.",
+        "Nắm tay cầm và gập tay nâng tạ đến khi khuỷu tay gập hết.",
+        "Hạ xuống và dừng ngay trước khi tạ trở về trạng thái nghỉ ở dưới cùng."
+      ],
+      "exercise_id": "b12e9394-dfe5-45ce-847e-43fc0c491c3c"
+    },
+    {
+      "index": 68,
+      "sourceName": "Machine Seated Shrug",
+      "name": "Ngồi nhún vai trên máy",
+      "steps": [
+        "Ngồi vào máy và nắm từng tay cầm.",
+        "Kéo hai bả vai thẳng lên phía trần."
+      ],
+      "exercise_id": "5f573f40-f50b-43b0-b3f5-1ca257d5c0de"
+    },
+    {
+      "index": 69,
+      "sourceName": "Machine Single Leg Leg Press",
+      "name": "Đạp chân từng bên trên máy",
+      "steps": [
+        "Máy đạp chân này có hai bàn đạp riêng biệt, với chốt giữ ở cả hai bên. Gài chốt ở một bên.",
+        "Hạ tạ xuống nhưng dừng trước khi lưng dưới bắt đầu cong tròn.",
+        "Đẩy trở về vị trí ban đầu."
+      ],
+      "exercise_id": "1cd3d5fe-d8e3-4630-ab56-d07b1ceef280"
+    },
+    {
+      "index": 70,
+      "sourceName": "Machine Squat Press",
+      "name": "Đạp chân kiểu squat trên máy",
+      "steps": [
+        "Đặt chân lên bàn đạp, hai bàn chân rộng bằng vai.",
+        "Mở chốt tạ và duỗi chân hoàn toàn, không khóa đầu gối.",
+        "Hạ tạ đến khi chân tạo góc 90 độ, nhưng KHÔNG để mông và lưng dưới rời khỏi đệm. Điều đó sẽ làm lưng dưới cong tròn và rất nguy hiểm.",
+        "Đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "2a7a2357-5265-44da-8410-d31c5bf03601"
+    },
+    {
+      "index": 71,
+      "sourceName": "Machine Standing Calf Raises",
+      "name": "Đứng nhón gót trên máy",
+      "steps": [
+        "Điều chỉnh máy cho phù hợp chiều cao và đặt vai dưới cần đòn có đệm.",
+        "Dùng phần trước bàn chân đỡ trọng lượng trên bệ nhón gót, để gót chân ra ngoài mép bệ.",
+        "Nâng gót chân lên trong khi giữ đầu gối cố định, dừng lại ở vị trí cơ co.",
+        "Từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "4a9bca73-9189-40ab-b8c3-bd122f7002ff"
+    },
+    {
+      "index": 72,
+      "sourceName": "Machine Standing Hamstring Curl",
+      "name": "Đứng co chân tập đùi sau trên máy",
+      "steps": [
+        "Tựa chắc người vào các đệm, đặt bắp chân sát đệm phía dưới.",
+        "Gập gối đến khi cảm nhận cơ đùi sau co lại, rồi hạ về vị trí ban đầu."
+      ],
+      "exercise_id": "fe61dfcc-58da-40e9-9a5e-2b5e1e3db048"
+    },
+    {
+      "index": 73,
+      "sourceName": "Machine Standing Plate Loaded Preacher Curl",
+      "name": "Đứng gập tay trên máy preacher dùng bánh tạ",
+      "steps": [
+        "Đặt mặt sau cánh tay tựa lên đệm ghế preacher.",
+        "Nắm tay cầm và gập tay nâng tạ đến khi khuỷu tay gập hết.",
+        "Hạ xuống và dừng ngay trước khi tạ trở về trạng thái nghỉ ở dưới cùng."
+      ],
+      "exercise_id": "f92d813c-a4e1-4f19-a987-4ff33194f208"
+    },
+    {
+      "index": 74,
+      "sourceName": "Machine Standing Shrug",
+      "name": "Đứng nhún vai trên máy",
+      "steps": [
+        "Nắm cả hai tay cầm và đứng thẳng. Giữ lưng thẳng trong khi nâng lên vị trí bắt đầu.",
+        "Kéo hai bả vai thẳng lên phía trần."
+      ],
+      "exercise_id": "55921166-7355-4aac-9e0c-c510375fc204"
+    },
+    {
+      "index": 75,
+      "sourceName": "Barbell Drag Curl",
+      "name": "Gập tay kéo tạ đòn sát thân",
+      "steps": [
+        "Nắm thanh tạ bằng tay nắm ngửa.",
+        "Kéo khuỷu tay thẳng ra sau, để thanh tạ đi sát hoặc rất gần thân trên."
+      ],
+      "exercise_id": "5865e088-ed95-4c36-b900-72a030d6a1ff"
+    },
+    {
+      "index": 76,
+      "sourceName": "Barbell Landmine Side Bend",
+      "name": "Nghiêng người sang bên với thanh landmine",
+      "steps": [
+        "Đứng thẳng và giữ đầu thanh tạ.",
+        "Giữ hông và vai hướng về trước, từ từ nghiêng người sang một bên.",
+        "Trở lại tư thế thẳng người.",
+        "Đổi tay và lặp lại."
+      ],
+      "exercise_id": "28d023b9-3a52-47c9-8918-f4dad120fbff"
+    },
+    {
+      "index": 77,
+      "sourceName": "Barbell Low Bar Squat",
+      "name": "Squat với tạ đòn đặt thấp sau vai",
+      "steps": [
+        "Siết mạnh hai bả vai ra sau và đặt thanh tạ lên cơ vai sau.",
+        "Đẩy hông ra sau và gập gối để bắt đầu squat.",
+        "Cố gắng hạ đến khi phần đùi sau song song với mặt đất. Đẩy gót chân xuống sàn và squat lên trở lại tư thế đứng."
+      ],
+      "exercise_id": "fcd18f4b-d5f9-4808-ac23-07a36f554e82"
+    },
+    {
+      "index": 78,
+      "sourceName": "Barbell Stiff Leg Deadlifts",
+      "name": "Deadlift chân thẳng với tạ đòn",
+      "steps": [
+        "Đứng với thanh tạ ở trước ống chân, hai chân rộng bằng vai.",
+        "Gập người về trước tại hông, giữ đầu gối duỗi thẳng hết mức có thể.",
+        "Nắm thanh tạ rồi duỗi hông, đồng thời giữ lưng thẳng.",
+        "Từ tư thế đứng, hạ tạ xuống có kiểm soát.",
+        "Tùy khả năng vận động, có thể hạ tạ xuống sàn hoặc dừng trước khi tạ chạm sàn."
+      ],
+      "exercise_id": "964be2af-b580-47fe-80d2-f55f0540f0f8"
+    },
+    {
+      "index": 79,
+      "sourceName": "Barbell Suitcase Carry",
+      "name": "Đi bộ xách tạ đòn một bên",
+      "steps": [
+        "Đứng với hai chân rộng bằng hông, đặt thanh tạ trên sàn ở một bên người.",
+        "Nhấc thanh tạ lên bên người và đi bộ trong thời gian hoặc quãng đường được chỉ định.",
+        "Đặt thanh tạ xuống và đổi bên."
+      ],
+      "exercise_id": "967b1f8e-10f9-4345-96a8-459735d7b4e7"
+    },
+    {
+      "index": 80,
+      "sourceName": "Barbell Sumo Deadlift",
+      "name": "Sumo deadlift với tạ đòn",
+      "steps": [
+        "Độ rộng tư thế đứng khi sumo deadlift có thể thay đổi. Một số người đặt mũi chân gần bánh tạ, trong khi người khác đứng hẹp hơn để tạo lực đẩy khỏi sàn tốt hơn.",
+        "Giữ hai tay ở phía trong hai chân. Thanh tạ nằm ngay trên phần giữa bàn chân. Giữ lưng thẳng và đẩy gót chân xuống sàn.",
+        "Cố gắng duỗi gối và hông đồng thời."
+      ],
+      "exercise_id": "bba9d30f-28ac-4054-b8ab-fa2516c0dfbe"
+    },
+    {
+      "index": 82,
+      "sourceName": "Barbell Thruster",
+      "name": "Squat kết hợp đẩy tạ đòn qua đầu",
+      "steps": [
+        "Giữ thanh tạ ở tư thế tựa trước vai.",
+        "Đẩy hông ra sau và hạ người vào tư thế squat.",
+        "Đẩy lực qua gót chân để squat lên. Dùng đà tạo ra từ chân để đẩy thanh tạ qua đầu.",
+        "Đưa thanh tạ trở về trước vai trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "exercise_id": "6db2ec56-afe1-4140-a4ce-fd51c34f8972"
+    },
+    {
+      "index": 83,
+      "sourceName": "Dumbbell Alternating Forward Lunge",
+      "name": "Chùng chân bước tới luân phiên với tạ đơn",
+      "steps": [
+        "Đứng thẳng, giữ tạ đơn ở hai bên người, hai chân rộng bằng hông.",
+        "Bước một chân lên trước, hạ người đến khi cả hai gối tạo góc 90 độ.",
+        "Đẩy lực qua chân trước để về vị trí ban đầu, rồi đổi chân."
+      ],
+      "exercise_id": "39907b07-d26a-4ab2-b7a5-99e10080c46c"
+    },
+    {
+      "index": 85,
+      "sourceName": "Dumbbell Alternating Single Arm Press",
+      "name": "Nằm đẩy tạ đơn từng tay luân phiên",
+      "steps": [
+        "Vào tư thế đẩy ngực trên ghế với hai tạ đơn.",
+        "Gập một khuỷu tay trước, giữ khuỷu tay còn lại duỗi thẳng.",
+        "Hạ tay đang tập xuống bên người rồi đẩy trở lên phía trần.",
+        "Sau đó chuyển sang tay còn lại."
+      ],
+      "exercise_id": "20ed7810-e595-4da9-b385-818e072e264e"
+    },
+    {
+      "index": 86,
+      "sourceName": "Dumbbell Bench Braced Reverse Incline Curl",
+      "name": "Gập tay ngược với tạ đơn, tựa cánh tay trên mép ghế",
+      "steps": [
+        "Nằm ra ngoài mép một bên ghế và đặt mặt sau cánh tay lên mép ghế. Giữ hông hạ xuống về phía sàn.",
+        "Nắm tạ bằng tay nắm sấp. Duỗi thẳng hoàn toàn khuỷu tay rồi gập lại."
+      ],
+      "exercise_id": "7eabb24f-6b81-45ee-9f5d-c53dc5838c83"
+    },
+    {
+      "index": 87,
+      "sourceName": "Dumbbell Bulgarian Split Squat",
+      "name": "Squat Bulgaria với tạ đơn",
+      "steps": [
+        "Chuẩn bị bục hoặc ghế cao khoảng ngang đầu gối hoặc thấp hơn vài inch. Bục càng thấp thì yêu cầu về khả năng vận động càng ít.",
+        "Có thể đặt mũi chân hoặc mu bàn chân lên bục. Hướng bàn chân trước thẳng ra trước hoặc hơi xoay ra ngoài, đồng thời gập gối và hông.",
+        "Cố gắng hạ chân trước đến khi phần đùi sau song song với mặt đất hoặc thấp hơn.",
+        "Chân trước đặt càng xa về trước thì biên độ ở hông càng lớn. Chân trước đặt càng gần về sau thì biên độ ở đầu gối càng lớn."
+      ],
+      "exercise_id": "e9fb6622-3dbe-4e75-a191-4160ee5373e4"
+    },
+    {
+      "index": 88,
+      "sourceName": "Dumbbell Chest Fly",
+      "name": "Ép ngực với tạ đơn trên ghế",
+      "steps": [
+        "Nằm trên ghế, duỗi hai tạ đơn trước người.",
+        "Hơi co khuỷu tay và giữ nguyên độ co đó. Toàn bộ chuyển động diễn ra ở khớp vai.",
+        "Mở hai tạ sang hai bên. Dừng lại trước khi tạ đi ra phía sau thân người.",
+        "Đưa hai tạ trở lại gần nhau ở phía trên."
+      ],
+      "exercise_id": "f2183d86-de76-4996-9691-ec097003d670"
+    },
+    {
+      "index": 89,
+      "sourceName": "Dumbbell Curl",
+      "name": "Gập tay luân phiên với tạ đơn",
+      "steps": [
+        "Đứng thẳng, mỗi tay cầm một tạ đơn, tay duỗi dọc người.",
+        "Nâng một tạ lên và xoay cẳng tay đến khi cẳng tay thẳng đứng, lòng bàn tay hướng về vai.",
+        "Hạ về vị trí ban đầu rồi lặp lại với tay còn lại."
+      ],
+      "exercise_id": "c38e15b1-5661-48e7-8c84-1580ee15cf8e"
+    },
+    {
+      "index": 90,
+      "sourceName": "Dumbbell Decline Alternating Single Arm Press",
+      "name": "Đẩy tạ đơn từng tay luân phiên trên ghế dốc xuống",
+      "steps": [
+        "Nằm trên ghế dốc xuống, hai tay duỗi thẳng trước người.",
+        "Gập một tay trước, đưa tay đó xuống bên người trong khi giữ tay còn lại duỗi thẳng.",
+        "Đẩy tạ đơn trở lên phía trần. Duỗi thẳng hoàn toàn tay đó trước khi thực hiện với bên còn lại."
+      ],
+      "exercise_id": "8e0d1d01-2ae5-4fa8-873c-f740160b6c44"
+    },
+    {
+      "index": 91,
+      "sourceName": "Dumbbell Decline Bench Press",
+      "name": "Đẩy tạ đơn trên ghế dốc xuống",
+      "steps": [
+        "Nằm trên ghế dốc xuống, hai tay duỗi thẳng trước người.",
+        "Gập khuỷu tay và đưa bắp tay xuống hai bên người.",
+        "Khi bắp tay đã đến cạnh người, đẩy tạ đơn trở lên phía trần."
+      ],
+      "exercise_id": "2c9ae354-5c2b-46e3-b4c3-7c8f57d4d59e"
+    },
+    {
+      "index": 92,
+      "sourceName": "Dumbbell Decline Chest Fly",
+      "name": "Ép ngực tạ đơn trên ghế dốc xuống",
+      "steps": [
+        "Nằm trên ghế dốc xuống, giữ tạ đơn hướng lên trần.",
+        "Giữ khuỷu tay hơi co. Mở tạ sang hai bên, dừng lại trước khi tạ đi qua phía sau thân người.",
+        "Đưa hai tạ lại gần nhau để hoàn thành một lần lặp."
+      ],
+      "exercise_id": "b1142025-1b02-45bd-b175-b47b4e86da0a"
+    },
+    {
+      "index": 93,
+      "sourceName": "Dumbbell Decline Guillotine Bench Press",
+      "name": "Đẩy tạ đơn kiểu Guillotine trên ghế dốc xuống",
+      "steps": [
+        "Nằm trên ghế dốc xuống, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng về trước.",
+        "Từ từ hạ tạ xuống ngực, mở khuỷu tay sang hai bên. Thở ra sâu khi hạ tạ.",
+        "Khi khuỷu tay đến ngang ngực, dừng lại một chút rồi đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "49b49516-f2c0-4a71-beea-22f84ff86ec7"
+    },
+    {
+      "index": 94,
+      "sourceName": "Dumbbell Decline Neutral Bench Press",
+      "name": "Đẩy tạ đơn trên ghế dốc xuống, tay nắm trung tính",
+      "steps": [
+        "Nằm trên ghế dốc xuống, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng vào nhau. Giữ khuỷu tay co và gần người.",
+        "Từ từ hạ tạ xuống ngực, giữ khuỷu tay co và gần người.",
+        "Khi tạ đến ngực, dừng lại một chút rồi đẩy trở về vị trí ban đầu.",
+        "Biến thể này tạo áp lực nhẹ hơn nhiều lên khớp vai."
+      ],
+      "exercise_id": "96eaf32e-cc05-4d81-a7b7-1fe09bf3a962"
+    },
+    {
+      "index": 95,
+      "sourceName": "Dumbbell Drag Curl",
+      "name": "Gập tay kéo tạ đơn sát thân",
+      "steps": [
+        "Giữ tạ đơn ở hai bên người, lòng bàn tay hướng về trước và khuỷu tay sát người.",
+        "Gập tay nâng tạ dọc theo thân người, đưa khuỷu tay ra sau.",
+        "Siết cơ tay trước ở vị trí cao nhất, rồi từ từ hạ về vị trí ban đầu."
+      ],
+      "exercise_id": "9b68d2ea-93bd-44c6-ab9c-1bdcb349b849"
+    },
+    {
+      "index": 96,
+      "sourceName": "Dumbbell Elbow Side Plank",
+      "name": "Plank nghiêng chống khuỷu tay với tạ đơn",
+      "steps": [
+        "Vào tư thế plank nghiêng chống khuỷu tay, đặt tạ đơn trên hông.",
+        "Nâng hông lên và giữ tư thế trong thời gian được chỉ định."
+      ],
+      "exercise_id": "39a2fb9b-5759-4443-95e7-054b645f5323"
+    },
+    {
+      "index": 97,
+      "sourceName": "Dumbbell Feet Down Russian Twist",
+      "name": "Xoay người kiểu Nga với tạ đơn, chân đặt sàn",
+      "steps": [
+        "Ngồi với bàn chân trên sàn, hơi ngả người ra sau và giữ tạ đơn trước ngực.",
+        "Xoay thân và đưa tạ sang một bên, không để bàn chân nhấc lên.",
+        "Xoay sang bên đối diện, giữ cơ bụng siết và chuyển động có kiểm soát."
+      ],
+      "exercise_id": "97820869-9172-4ee1-a1aa-1ac70ed1a828"
+    },
+    {
+      "index": 98,
+      "sourceName": "Dumbbell Flat Preacher Curl",
+      "name": "Gập tay với tạ đơn, tựa tay trên ghế phẳng",
+      "steps": [
+        "Một tay cầm tạ đơn, đặt phần cơ tay sau tựa lên ghế phẳng.",
+        "Từ vị trí này, gập tay nâng tạ về phía vai, giữ bắp tay cố định trên ghế."
+      ],
+      "exercise_id": "1194c5c8-f290-4938-a03a-4015b02572cb"
+    },
+    {
+      "index": 99,
+      "sourceName": "Dumbbell Front Rack Pause Squat",
+      "name": "Squat có dừng với tạ đơn đặt trước vai",
+      "steps": [
+        "Đặt hai tạ đơn lên vai và hướng khuỷu tay lên trên.",
+        "Đẩy hông ra sau và gập gối.",
+        "Khi phần đùi sau song song với mặt đất, dừng 1–3 giây. Sau đó đẩy lực qua gót chân để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "b40df818-2631-47ed-bb5e-b71914abd1ef"
+    },
+    {
+      "index": 100,
+      "sourceName": "Dumbbell Front Raise",
+      "name": "Nâng tạ đơn trước người",
+      "steps": [
+        "Đứng thẳng, hai tay giữ tạ đơn ở hai bên người.",
+        "Duỗi thẳng hoàn toàn khuỷu tay và nâng hai tạ lên ngang mắt.",
+        "Hạ tạ có kiểm soát về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "9aa1ed7b-5023-4d86-8a88-68716c6316b8"
+    },
+    {
+      "index": 101,
+      "sourceName": "Dumbbell Glute Bridge",
+      "name": "Nâng hông tập cơ mông với tạ đơn",
+      "steps": [
+        "Nằm ngửa trên sàn, đặt chắc hai bàn chân và giữ gót chân sát sàn.",
+        "Đặt tạ đơn trên hông. Đẩy hông lên trần đến khi cảm nhận cơ mông co lại.",
+        "Sau đó hạ trở lại sàn."
+      ],
+      "exercise_id": "fee33612-9518-4338-b204-0f852cd3ebd1"
+    },
+    {
+      "index": 102,
+      "sourceName": "Dumbbell Goblet Bulgarian Split Squat",
+      "name": "Squat Bulgaria với tạ đơn giữ trước ngực",
+      "steps": [
+        "Giữ tạ đơn trước ngực ở tư thế goblet squat, đặt một bàn chân lên ghế hoặc bục.",
+        "Gập hông và gối. Cố gắng hạ đến khi phần đùi sau song song với mặt đất hoặc đầu gối chân sau chạm nhẹ sàn.",
+        "Giữ lưng thẳng và khuỷu tay nằm ngay dưới nắm tay."
+      ],
+      "exercise_id": "9dc11ef4-7e75-4131-9c63-69e30dab65f3"
+    },
+    {
+      "index": 103,
+      "sourceName": "Dumbbell Goblet Pulse Squat",
+      "name": "Squat nhấp với tạ đơn giữ trước ngực",
+      "steps": [
+        "Giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Squat xuống đến độ sâu đùi song song với mặt đất, rồi nâng lên nửa biên độ.",
+        "Duy trì biên độ ngắn này trong suốt hiệp tập."
+      ],
+      "exercise_id": "17e20ab3-f5c8-4e34-9d77-409d523b080a"
+    },
+    {
+      "index": 104,
+      "sourceName": "Dumbbell Goblet Squat",
+      "name": "Squat với tạ đơn giữ trước ngực",
+      "steps": [
+        "Giữ tạ sát vùng ngực trên và khép khuỷu tay vào trong. Hai chân hơi rộng hơn vai.",
+        "Hạ người vào tư thế squat, giữ khuỷu tay ở phía trong đường di chuyển của đầu gối.",
+        "Đẩy lực qua gót chân, giữ ngực nâng và trở về vị trí ban đầu."
+      ],
+      "exercise_id": "a392b94d-2def-4e67-bc40-f7733ef699f7"
+    },
+    {
+      "index": 105,
+      "sourceName": "Dumbbell Guillotine Bench Press",
+      "name": "Đẩy tạ đơn kiểu Guillotine trên ghế phẳng",
+      "steps": [
+        "Nằm trên ghế phẳng, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng về trước.",
+        "Từ từ hạ tạ xuống ngực, mở khuỷu tay sang hai bên. Thở ra sâu khi hạ tạ.",
+        "Khi khuỷu tay đến ngang ngực, dừng lại một chút rồi đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "11ab4af3-d1a6-49fb-b3bc-c20ff1f7f09e"
+    },
+    {
+      "index": 106,
+      "sourceName": "Dumbbell Guillotine Incline Bench Press",
+      "name": "Đẩy tạ đơn kiểu Guillotine trên ghế dốc lên",
+      "steps": [
+        "Nằm trên ghế dốc lên, mỗi tay giữ một tạ đơn ngang vai, lòng bàn tay hướng về trước.",
+        "Từ từ hạ tạ xuống ngực, mở khuỷu tay sang hai bên. Thở ra sâu khi hạ tạ.",
+        "Khi khuỷu tay đến ngang ngực, dừng lại một chút rồi đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "6d66c28d-8748-4c25-9606-c4422e01f5da"
+    },
+    {
+      "index": 107,
+      "sourceName": "Dumbbell Heels Up Narrow Goblet Squat",
+      "name": "Squat chân hẹp kê gót, giữ tạ đơn trước ngực",
+      "steps": [
+        "Đứng với bàn chân trên bánh tạ. Hai bàn chân đặt rất gần nhau nhưng không chạm nhau.",
+        "Bắt đầu squat bằng cách đẩy hông ra sau và gập gối. Cố gắng giữ ngực nâng khi hạ người."
+      ],
+      "exercise_id": "4e2dee2b-d9e1-4df5-8574-8100aafa94c3"
+    },
+    {
+      "index": 108,
+      "sourceName": "Dumbbell Incline Bench Press",
+      "name": "Đẩy tạ đơn trên ghế dốc lên",
+      "steps": [
+        "Nằm tựa trên ghế dốc lên, bàn chân đặt trên mặt đất. Nâng tạ đơn đến khi hai tay thẳng.",
+        "Hạ tạ đơn xuống giữa ngực.",
+        "Nâng tạ đơn đến khi khuỷu tay duỗi thẳng hoàn toàn."
+      ],
+      "exercise_id": "1f7380b2-e929-40ba-8ca4-cf7499de4b8e"
+    },
+    {
+      "index": 109,
+      "sourceName": "Dumbbell Incline Chest Fly",
+      "name": "Ép ngực tạ đơn trên ghế dốc lên",
+      "steps": [
+        "Nằm trên ghế dốc lên, duỗi hai tạ đơn trước người.",
+        "Hơi co khuỷu tay và giữ nguyên độ co đó. Toàn bộ chuyển động diễn ra ở khớp vai.",
+        "Mở hai tạ sang hai bên. Dừng lại trước khi tạ đi ra phía sau thân người.",
+        "Đưa hai tạ trở lại gần nhau ở phía trên."
+      ],
+      "exercise_id": "26321944-3755-4393-93a2-ff2ffb441f0a"
+    },
+    {
+      "index": 110,
+      "sourceName": "Dumbbell Incline Chest Flys",
+      "name": "Mở tay ép ngực với tạ đơn trên ghế dốc",
+      "steps": [
+        "Nằm tựa trên ghế, đặt bàn chân trên mặt đất.",
+        "Bắt đầu với hai tạ đơn ở sát nhau phía trên ngực, khuỷu tay hơi co.",
+        "Đồng thời hạ tạ sang hai bên.",
+        "Dừng lại khi tạ ngang với ghế, rồi nâng tay về vị trí ban đầu."
+      ],
+      "exercise_id": "b5cf85fb-d1a7-45d3-a26f-52d04d055497"
+    },
+    {
+      "index": 111,
+      "sourceName": "Dumbbell Incline Curl",
+      "name": "Gập tay với tạ đơn trên ghế dốc",
+      "steps": [
+        "Ngồi trên ghế dốc, nắm tạ đơn bằng tay nắm ngửa.",
+        "Từ từ nâng tạ lên ngang ngực.",
+        "Trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "dd29856a-1fdd-4f75-95ac-21d9de2d9d24"
+    },
+    {
+      "index": 112,
+      "sourceName": "Dumbbell Incline Hammer Curl",
+      "name": "Gập tay kiểu búa với tạ đơn trên ghế dốc",
+      "steps": [
+        "Ngồi trên ghế dốc, nắm tạ đơn bằng tay nắm trung tính, ngón cái hướng lên trần.",
+        "Từ từ nâng tạ lên ngang ngực.",
+        "Trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "a42b6593-a63b-4624-a76c-d0e18d1bbf14"
+    },
+    {
+      "index": 113,
+      "sourceName": "Dumbbell Incline Hammer Curl",
+      "name": "Gập tay kiểu búa với tạ đơn trên ghế dốc",
+      "steps": [
+        "Ngồi trên ghế dốc, nắm tạ đơn bằng tay nắm trung tính, ngón cái hướng lên trần.",
+        "Từ từ nâng tạ lên ngang ngực.",
+        "Trở về vị trí ban đầu và lặp lại."
+      ],
+      "exercise_id": "c9a7982c-0bbe-47d9-ba36-083ce4ce64e8"
+    },
+    {
+      "index": 114,
+      "sourceName": "Dumbbell Incline Reverse Curl",
+      "name": "Gập tay ngược với tạ đơn trên ghế dốc",
+      "steps": [
+        "Nằm trên ghế dốc.",
+        "Nắm tạ đơn bằng tay nắm sấp. Có thể không vòng ngón cái quanh tay cầm nếu cổ tay thấy thoải mái hơn.",
+        "Gập khuỷu tay đến khi cơ tay trước chạm cẳng tay. Cố gắng không để khuỷu tay mở sang hai bên."
+      ],
+      "exercise_id": "1010b890-98aa-4fe3-acea-aa423d2f5864"
+    },
+    {
+      "index": 115,
+      "sourceName": "Dumbbell Incline Reverse Curl",
+      "name": "Gập tay ngược với tạ đơn trên ghế dốc",
+      "steps": [
+        "Nằm trên ghế dốc.",
+        "Nắm tạ đơn bằng tay nắm sấp. Có thể không vòng ngón cái quanh tay cầm nếu cổ tay thấy thoải mái hơn.",
+        "Gập khuỷu tay đến khi cơ tay trước chạm cẳng tay. Cố gắng không để khuỷu tay mở sang hai bên."
+      ],
+      "exercise_id": "c83abafb-8042-4429-848d-038283d535f9"
+    },
+    {
+      "index": 116,
+      "sourceName": "Dumbbell Incline Zottman Curl",
+      "name": "Gập tay Zottman với tạ đơn trên ghế dốc",
+      "steps": [
+        "Nằm trên ghế dốc, lòng bàn tay hướng về trước.",
+        "Gập khuỷu tay đến khi cẳng tay chạm cơ tay trước.",
+        "Ở vị trí cao nhất, xoay lòng bàn tay rồi từ từ hạ tạ đơn xuống."
+      ],
+      "exercise_id": "2ec537de-9f5d-4875-95f8-aef2ba802df4"
+    },
+    {
+      "index": 117,
+      "sourceName": "Dumbbell Internally Rotated Chest Fly",
+      "name": "Ép ngực tạ đơn trên ghế, tay xoay vào trong",
+      "steps": [
+        "Nằm trên ghế, duỗi hai tạ đơn trước người bằng tay nắm sấp.",
+        "Hơi co khuỷu tay và giữ nguyên độ co đó. Toàn bộ chuyển động diễn ra ở khớp vai.",
+        "Mở hai tạ sang hai bên. Dừng lại trước khi tạ đi ra phía sau thân người.",
+        "Đưa hai tạ trở lại gần nhau ở phía trên."
+      ],
+      "exercise_id": "a708b859-6042-4ea9-95cb-9675a7bd9251"
+    },
+    {
+      "index": 118,
+      "sourceName": "Dumbbell Kickstand Squat",
+      "name": "Squat với tạ đơn, một chân làm điểm tựa phía sau",
+      "steps": [
+        "Đứng với hai chân rộng bằng hông, một chân hơi lùi về sau. Giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Hạ người vào tư thế squat, giữ trọng lượng trên gót chân trước.",
+        "Trở về tư thế đứng, siết cơ mông và cơ bụng."
+      ],
+      "exercise_id": "be60ba47-64e6-494c-a1fe-6eab81666247"
+    },
+    {
+      "index": 119,
+      "sourceName": "Dumbbell Kneeling Wood Chopper",
+      "name": "Quỳ xoay người chéo với tạ đơn",
+      "steps": [
+        "Bắt đầu ở tư thế quỳ, kéo hai bả vai ra sau.",
+        "Đặt tạ đơn ở cạnh một bên hông để bắt đầu.",
+        "Xoay cột sống, đưa tạ từ hông theo cung 180 độ quanh người. Tạ kết thúc ở ngang mắt."
+      ],
+      "exercise_id": "1b94f7cd-1510-48ea-b66b-971587cacd5f"
+    },
+    {
+      "index": 120,
+      "sourceName": "Dumbbell Leg Extension",
+      "name": "Duỗi chân với tạ đơn",
+      "steps": [
+        "Giữ một tạ đơn giữa hai bàn chân. Hơi ngả người ra sau và bám vào ghế.",
+        "Duỗi gối đến khi cảm nhận cơ đùi trước co mạnh."
+      ],
+      "exercise_id": "f0f14971-9f18-44ec-b730-ed2096872afb"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "exercise_id": "41275e45-0a4b-4352-970d-e0f389ec663a",
+      "sourceName": "Machine Plate Loaded Leg Extension",
+      "reason": "The source omits the knee angle and splits at a degree angle across two steps."
+    },
+    {
+      "exercise_id": "f44808ef-bea8-4a78-9f72-58ffa86cbae8",
+      "sourceName": "Barbell Supinated Pendlay Row",
+      "reason": "The source asks for rotating a fixed barbell grip from overhand to underhand while lifting; verify the source/video before approval."
+    },
+    {
+      "exercise_id": "2e056973-3976-46a0-b752-ae58fd0a218b",
+      "sourceName": "Dumbbell Alternating Reverse Lunge",
+      "reason": "The source names the back-stepping left thigh as parallel to the ground while the opposite knee is bent; verify front/back leg references in the source/video."
+    }
+  ],
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared every name and instruction with the captured source. Kept complete instructions, quantities, grip orientation, equipment, movement direction and control. Held missing angles, contradictory grip changes and ambiguous leg references for source/video verification."
+}

@@ -1,0 +1,11 @@
+# Exercise source review 8.21
+
+On 23 October 2026, `Cobra Stretch 1` was checked against the original female front and side MuscleWiki videos. The clips show a prone cobra stretch with the palms on the floor in front of the shoulders, elbows close to the body, the chest supported on the forearms, and the hips and legs staying down. The previous English source placed the palms under the shoulders and then jumped to forearm support without describing the setup clearly, so the four-step source was corrected.
+
+The corrected English sequence was imported with one reviewed Vietnamese translation: `Tư thế rắn hổ mang giãn cơ 1`. The guarded update changed only the source steps and the new translation; the exercise identity, media, category, and other rows were preserved. The source row's `updated_at` advanced to `2026-10-23T14:51:15.646599+00:00` through the normal timestamp trigger.
+
+Live verification confirmed 1,930 reviewed translations (1,929 Vietnamese and one English), 5,958 translated steps, and Vietnamese content for 1,930 of 1,946 exercises, leaving 16. Yoga coverage remains 69/73. Anonymous reads returned all 1,930 reviewed translations, the source scanner reported zero warnings, and the 291 user favorites and 289 admin-featured exercises were unchanged. The remaining source-review queue now contains 16 items.
+
+Local SSR checks at `localhost:3001` returned HTTP 200 with the corrected English and Vietnamese title/steps and the female media URL. No application code or build was changed.
+
+Files: [live verification](../artifacts/localization/stage-28-after.json), [UI checks](../artifacts/localization/stage-28-ui-checks.json), [video evidence](../artifacts/localization/stage-28-video-evidence/observations.json), [before snapshot](../artifacts/localization/stage-28-before.json), [remaining review queue](../artifacts/localization/stage-28-remaining-source-review-queue.json), [source restoration manifest](../scripts/localization/data/source-restorations-020.json), [source review decision](../scripts/localization/data/source-review-decisions-021.json), [prepared translation](../scripts/localization/data/prepared-translations-054.json), [guarded apply script](../artifacts/localization/apply-stage-28-direct.mjs), and [SQL repair prepared for audit](../supabase/repairs/20261023_correct_cobra_stretch_stage28.sql).

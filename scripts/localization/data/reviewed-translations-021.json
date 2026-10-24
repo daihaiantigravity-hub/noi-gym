@@ -1,0 +1,1267 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared each complete source block with Vietnamese text, preserving anchor height, stance, grip, body position, movement and step order. Held missing quantities/ranges, corrupted phrases and contradictory motion cues without inventing repairs.",
+  "sourceExceptions": [
+    {
+      "index": 13,
+      "sourceName": "Band Front Raise",
+      "reason": "The source ends a step with 'one or' and omits the alternative foot quantity; verify missing content.",
+      "exercise_id": "fde63e2f-1d58-404a-9f37-34a0db384220"
+    },
+    {
+      "index": 15,
+      "sourceName": "Band Goblet Squat",
+      "reason": "The source mixes shoulder-width grip with standing setup and uses the unclear depth cue 'bottom of your leg'; verify stance and segment reference.",
+      "exercise_id": "81857c43-9f25-4920-9a6a-c3bd2e085845"
+    },
+    {
+      "index": 24,
+      "sourceName": "Band Hip Adduction",
+      "reason": "The cue combines keeping feet together and moving both legs outward in a standing adduction exercise; verify stance and working leg.",
+      "exercise_id": "c169df11-87fc-4350-8d79-dc759d11b549"
+    },
+    {
+      "index": 25,
+      "sourceName": "Band Horizontal Shrug",
+      "reason": "The phrase 'retract ... straight back in schools' is corrupted and needs verification.",
+      "exercise_id": "b1e3970b-f516-4f25-b513-265d7a1ffd16"
+    },
+    {
+      "index": 26,
+      "sourceName": "Band Internally Rotated Chest Fly",
+      "reason": "The standing-on-band setup and outward arm raise conflict with the chest-fly motion; verify the variant and shoulder-rotation cue.",
+      "exercise_id": "dbb91c4a-21b8-4a68-b2ca-f7acb5b7fded"
+    },
+    {
+      "index": 31,
+      "sourceName": "Band Leg Press",
+      "reason": "The anchor-height range is missing across 'should be', 'to', and 'inches above your head'; do not invent values.",
+      "exercise_id": "409f685b-d478-436d-a86b-cfee60294b44"
+    },
+    {
+      "index": 33,
+      "sourceName": "Band Overhead Press",
+      "reason": "The return cue lowers to shoulder height while keeping arms straight, unlike the stated overhead press; verify elbow cue.",
+      "exercise_id": "29955145-41dd-4e7d-b11a-e7a632f8e714"
+    },
+    {
+      "index": 40,
+      "sourceName": "Band Pullover",
+      "reason": "The anchor-height reference 'just above our level' is incomplete; verify the intended body reference.",
+      "exercise_id": "29ad0a17-31c2-413e-b894-80901728c28e"
+    },
+    {
+      "index": 55,
+      "sourceName": "Band Single Arm Pec Fly",
+      "reason": "The instruction combines shoulder extension and bringing the arm across the torso; verify the anatomical movement cue before translating.",
+      "exercise_id": "ff006eef-2a90-4966-bcac-84a7d65a0257"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "970e850b-db83-4b25-b609-2a5f60157e19",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a94e29d8da0098f2076e8e65411249f3be2b8532b4627cfd748734a18f3d9e9f",
+      "name": "Cuốn búa kiểu Bayesian với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm neo thấp. Nắm theo kiểu trung tính.",
+        "Gập khuỷu tay đến khi cảm nhận cơ tay trước co lại. Sau đó duỗi hoàn toàn khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Bayesian Hammer Curl",
+        "description": "",
+        "steps": [
+          "Attach band to a low anchor point. Use a neutral grip.",
+          "Flex your elbow until you feel your biceps contract. Then fully extend elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "86f0a6ab-7c49-4154-af19-41275d07ba50",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "559d3789081d3d5cbeae960ea186f9e50427c73fa2d887ff7cb9fa0fc151bceb",
+      "name": "Cuốn tay trước nắm sấp kiểu Bayesian với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm neo thấp. Hướng lòng bàn tay về phía đùi.",
+        "Gập khuỷu tay đến khi cảm nhận cơ tay trước co lại. Sau đó duỗi hoàn toàn khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Bayesian Reverse Curl",
+        "description": "",
+        "steps": [
+          "Attach band to a low anchor point. . Point your palms toward your thighs.",
+          "Flex your elbow until you feel your biceps contract. Then fully extend elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3e0f35ab-2045-4fa1-a97f-47cf17bd37fe",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "114ab99ad2fa6ad567520a8fabf3a753e44551dd41944ceffc5cac8d75582334",
+      "name": "Ép ngực trên ghế với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, nắm tay cầm dây, hai tay duỗi phía trên ngực.",
+        "Hạ hai tay rộng sang bên theo đường vòng cung có kiểm soát, giữ khuỷu tay hơi co.",
+        "Đưa hai tay lại gần nhau phía trên ngực, siết cơ ngực ở điểm cao nhất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Bench Fly",
+        "description": "",
+        "steps": [
+          "Lie on bench holding band handles with arms extended above chest.",
+          "Lower arms out wide in a controlled arc, keeping slight bend in elbows.",
+          "Bring arms back together over chest, squeezing pecs at the top."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0c9b775d-6516-471a-a197-0694e4f444cb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4b512f2b1bd4f7268e70db3a36c12c8c1d2ef7635929526f2408bb520d625070",
+      "name": "Đẩy ngực trên ghế với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, vòng dây phía sau lưng.",
+        "Hạ hai tay về phía ngực, giữ khuỷu tay ở góc thoải mái.",
+        "Đẩy lên và siết cơ ngực ở điểm cao nhất, duy trì lực căng của dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Bench Press",
+        "description": "",
+        "steps": [
+          "Lie on bench with band looped behind your back.",
+          "Lower hands toward chest while keeping elbows at a comfortable angle.",
+          "Press upward and squeeze chest at the top, maintaining band tension."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2cb8fcb2-defb-4e28-b6af-3e0523af5d05",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9ef40d6ed4c40a986b900c8ae5a6dd4687b7f6a72ecf62911fa7b72e8ba6d3ff",
+      "name": "Gập người kéo dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng lên dây, hai chân rộng bằng hông, nắm tay cầm với lòng bàn tay hướng vào trong.",
+        "Gập hông, giữ lưng phẳng và khuỷu tay gần sườn.",
+        "Kéo tay cầm về thân, siết cơ lưng rồi từ từ hạ xuống có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Bent Over Row",
+        "description": "",
+        "steps": [
+          "Stand on band with feet hip-width, holding handles with palms facing in.",
+          "Hinge at hips, keeping back flat and elbows close to ribs.",
+          "Pull handles toward torso, squeeze back, then lower slowly with control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0e0ff9f6-10ac-494d-b7f2-7dd08daf2400",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1a452b60eb51a8c59b5daa907634b0aaccf95480de59aa03b7ca1f6dd2a652d0",
+      "name": "Nhón gót với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm neo thấp.",
+        "Bước ra xa vài bước đến khi dây căng.",
+        "Hơi ngả người về sau. Nâng gót chân thẳng lên rồi hạ xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Calf Raise",
+        "description": "",
+        "steps": [
+          "Attach band to a low anchor point.",
+          "Take a few steps away until the band is taut.",
+          "Lean back slightly. Raise your heels straight up and down"
+        ]
+      }
+    },
+    {
+      "exercise_id": "0d55c65a-0c1b-4db0-961b-3cd3f2418bc3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "568d0d923adc323c5096c7a4eea22d99ebe584818a4bb22d4be5da47daab61c5",
+      "name": "Đứng ép ngực với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Cố định hai dây kháng lực vào điểm neo chắc chắn ngang ngực, chẳng hạn neo cửa hoặc cột.",
+        "Đứng quay lưng về điểm neo, hai chân rộng bằng vai, mỗi tay giữ một đầu dây.",
+        "Bắt đầu với hai tay duỗi hoàn toàn và song song với sàn.",
+        "Giữ tay thẳng, từ từ đưa hai tay lại gần nhau trước ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Chest Fly",
+        "description": "",
+        "steps": [
+          "Secure two resistance bands to a sturdy anchor point (e.g. a door anchor, a post, etc.) at chest height.",
+          "Stand facing away from the anchor point with feet shoulder-width apart and hold each end of the band in each hand.",
+          "Start with arms fully extended and parallel to the floor.",
+          "Keeping arms straight, slowly bring your arms together in front of your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f0671d0a-2210-4d74-9e20-a643d0e23fbd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0615580653b2bfe136bb7fde9d069b3133910f901c1ccddfff7a29f094d1b789",
+      "name": "Đứng đẩy ngực với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai dây, hai chân rộng bằng vai. Bước một chân về trước để tạo lực căng.",
+        "Mỗi tay giữ một dây, lòng bàn tay hướng về trước.\n\nBắt đầu với hai tay duỗi trước người, khuỷu tay hơi co.",
+        "Hạ hai tay về hai bên ngực, kiểm soát dây.",
+        "Đẩy hai tay về vị trí ban đầu, giữ cơ bụng siết và kiểm soát dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Chest Press",
+        "description": "",
+        "steps": [
+          "Stand in the middle of the two bands with feet shoulder-width apart. Step forward with one foot to create tension in the bands.",
+          "Hold one band in each hand, palms facing forward.\n\nStart the exercise with your arms extended in front of you, keeping a slight bend in your elbows.",
+          "Lower your arms to the sides of your chest, maintaining control of the band.",
+          "Push your arms back up to the starting position, keeping your core engaged and maintaining control of the band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "34c0d76d-629a-480e-9c00-3464b6895588",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "78155d18600c57973b91fe0b62503f0f948cf27f4e9daf98cdd93c4e2c289475",
+      "name": "Gập bụng với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm neo cao nhất có thể. Nắm hai đầu dây và hạ người xuống quỳ.",
+        "Đẩy hông về sau, gập cột sống.",
+        "Siết cơ bụng rồi duỗi hông và cột sống để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Crunch",
+        "description": "",
+        "steps": [
+          "Place the band at the highest anchor point you have available. Grab both ends of the band and fall into a kneeling position.",
+          "Push your hips back flexing at the spine.",
+          "Squeeze your abs and then extend at the hips and spine back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f34ee453-d558-44c4-bf1f-13003e6e3f01",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9d1d4a6abdd109c11f677d683113f91b426dcc686fa1d5a26dc41ca32fb3bc28",
+      "name": "Cuốn tay trước với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dây ở dưới cả hai bàn chân.",
+        "Dùng hai tay nắm tay cầm của dây, giữ tay thẳng và duỗi trước người.",
+        "Giữ lưng thẳng, cơ bụng siết và vai thả lỏng khi gập khuỷu tay để cuốn hai tay về phía vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Curl",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width apart, with the band under both feet.",
+          "Grasp the handles of the band with both hands, keeping your arms straight and extended in front of you.",
+          "Keep your back straight, abs engaged, and shoulders relaxed as you curl your hands towards your shoulders, bending at the elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c6e8118a-7516-4940-90dd-13f4e23a32f1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "66750f47b9bf495a120b975687d6d8fbe69b2df1765e99b83f58f5229d48e0f6",
+      "name": "Kéo dây kháng lực về mặt",
+      "description": "",
+      "steps": [
+        "Neo dây ngang mắt. Bước ra xa vài bước đến khi dây căng.",
+        "Dùng hai tay nắm sấp. Kéo dây về sống mũi, đưa khuỷu tay ra ngoài."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Face Pull",
+        "description": "",
+        "steps": [
+          "Anchor the band at eye level. Take a few steps away until the band is taut.",
+          "Use an overhand grip with both hands. Pull the band to the bridge of your nose flaring your elbows out."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a9f08847-bdb9-4a42-bcbc-206821138d5f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "94cffa9a18f19bd5c68e1b0551e677d9f466f45842f1f6e73294bb52eb3ee236",
+      "name": "Đẩy ngực trên sàn với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, nắm các vòng dây, khuỷu tay tựa trên sàn.",
+        "Đẩy hai tay thẳng lên đến khi khuỷu tay duỗi nhưng không khóa.",
+        "Hạ khuỷu tay về sàn có kiểm soát, duy trì lực căng trong suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Floor Press",
+        "description": "",
+        "steps": [
+          "Lie on your back holding band loops with elbows resting on the floor.",
+          "Press arms straight up until elbows extend without locking.",
+          "Lower elbows back to floor under control, keeping tension throughout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e2c44d48-a600-4239-9e81-bb43aabf217d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "59a359d3b54c38d644f7b395154c05ec67fe1e1d7589647afbec872eb5f1ab4f",
+      "name": "Đá chân ra sau tập mông với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Chống hai tay và hai gối. Vòng dây quanh cả hai cổ tay và một bàn chân.",
+        "Duỗi gối và hông thẳng về sau đến khi cảm nhận cơ mông co lại.",
+        "Gập gối để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Glute Kickback",
+        "description": "",
+        "steps": [
+          "Get into a quadruped position. Loop the band around both of your wrists and one of your feet.",
+          "Extend your knee and hip straight back until you feel like contraction in the glutes.",
+          "Flex at the knee until back in the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "167a9917-0d72-494a-a601-b97b6d6c1b71",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c8053dbf5be80d5ca42e3d5c6a51a0dd1c4bc1cef008f169acff49f2959d357b",
+      "name": "Gập hông kiểu good morning với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây ngang hông. Bước ra xa vài bước đến khi dây căng.",
+        "Đẩy hông về sau, giữ lưng phẳng đến khi cảm nhận cơ đùi sau được kéo giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Good Morning",
+        "description": "",
+        "steps": [
+          "Anchor the band at hip level. Take a few steps away until the band is taut.",
+          "Push your hips back while keeping your back flat until you feel a stretch in your hamstrings."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8c0a1574-c6aa-48d1-bbdd-deaa457d4f9a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "737710842329b174d3212f387fdbbf561b40778c08914e816d3f45844c75b2e8",
+      "name": "Quỳ một gối kéo xô một tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Quỳ hướng về điểm neo, dây phía trên đầu, một tay giữ đầu dây.",
+        "Giữ thân thẳng và kéo khuỷu tay xuống phía hông.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ đưa tay về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Half Kneeling Single Arm Pulldown",
+        "description": "",
+        "steps": [
+          "Kneel facing anchor with band overhead, holding the end of the band in one hand.",
+          "Keep torso tall and pull elbow down toward your hip.",
+          "Squeeze lat at the bottom, then return arm slowly to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aed2d866-d60f-46cc-a151-631a4d3b17ca",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "692b2da8deddb336f88949b4872c99b5b3fa0f8a61e9ca563ea89173eb72d2f4",
+      "name": "Cuốn tay trước với dây kháng lực neo cao",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm cao.",
+        "Bắt đầu với chân trước chân sau và khuỷu tay nâng cao.",
+        "Gập khuỷu tay trong khi giữ tay cao. Cuốn dây về trán."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band High Curl",
+        "description": "",
+        "steps": [
+          "Anchor a band to a high point.",
+          "Start with your feet staggered and your elbows high.",
+          "Flex your elbows while keeping your arms high. Curl the band to your forehead."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f1c272f6-a1f6-4ec7-b58b-bbd9b3d556d8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "edf398e554d396f42ade211cf067cb4680360ae37c6a8eca50294d04cf8c75ca",
+      "name": "Kéo dây kháng lực neo cao về mặt",
+      "description": "",
+      "steps": [
+        "Bắt đầu với dây neo vào điểm cao. Đứng chân trước chân sau.",
+        "Kéo dây về sống mũi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band High Face Pull",
+        "description": "",
+        "steps": [
+          "Start with a band anchored to a high point. Stagger your stance.",
+          "Pull the band to the bridge of your nose."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e8602e4f-ad6f-41d0-947e-7ce34ae5feb3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "55f768167d5fed6a3ed40ea43782cb70099df9028256b011074369710812f9d4",
+      "name": "Cuốn búa với dây kháng lực neo cao",
+      "description": "",
+      "steps": [
+        "Bắt đầu với dây neo vào vật ở vị trí cao, chân trước chân sau và tay nắm trung tính.",
+        "Giữ khuỷu tay cao. Cuốn đến khi các nắm tay ở ngang trán."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band High Hammer Curl",
+        "description": "",
+        "steps": [
+          "Start with the band anchored to something high with your feet staggered and a neutral grip.",
+          "Keep your elbows high. Curl until your fists are at your forehead."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3d0ed152-7bac-4ac0-8cfc-4079e75aee8e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "835501cf596f86167e62bd396ef6e2915f1485007695cd0f90ec517e6dab1090",
+      "name": "Cuốn tay trước nắm sấp với dây kháng lực neo cao",
+      "description": "",
+      "steps": [
+        "Bắt đầu với dây gắn vào điểm cao, chân trước chân sau và tay nắm sấp.",
+        "Gập khuỷu tay, kéo cẳng tay về bắp tay. Các nắm tay đến cạnh trán."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band High Reverse Curl",
+        "description": "",
+        "steps": [
+          "Start with a band attached to a high point, your feet staggered, and an overhand grip.",
+          "Flex your elbows pulling your forearms to your biceps. Your fists should land by your forehead."
+        ]
+      }
+    },
+    {
+      "exercise_id": "abc68ed9-d03f-4167-a4ac-9a08a55063bd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "910d6b7fbc0bcb8cd219a52578b4bd936890a0bd4cf492f9784cc9ec55f337ec",
+      "name": "Đẩy Pallof kết hợp kéo chéo từ cao xuống thấp với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với dây neo cao, dùng hai tay giữ tay cầm trước ngực.",
+        "Đẩy hai tay thẳng về trước rồi xoay thân, kéo dây chéo xuống dưới.",
+        "Trở về giữa, gập khuỷu tay đưa tay về ngực có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band High To Low Pallof Press Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand sideways to band anchored high, hold handle at chest with both hands.",
+          "Press arms straight forward, then rotate torso pulling band diagonally downward.",
+          "Return to center, bending elbows back to chest under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b74b7e87-e7c1-463a-ab73-535b1feca3db",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "98254348fbde56b7bb38afb31c02db6942583a613adda99dd5266e3f20be878a",
+      "name": "Dạng hông với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây quanh cổ chân. Đứng hai chân rộng bằng hông, bàn chân hướng về trước, hai tay trên hông.",
+        "Nâng chân phải sang bên, xa người, giữ gối thẳng. Đây là vị trí bắt đầu.",
+        "Giữ đúng tư thế, đưa chân phải sang bên xa hết mức có thể, giữ chân trái đặt chắc trên đất. Giữ một giây rồi đưa chân phải về vị trí bắt đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Hip Abduction",
+        "description": "",
+        "steps": [
+          "Attach the band around your ankle. Stand with feet hip-width apart, feet facing forward, and hands on hips.",
+          "Lift your right leg away from your body to the side, keeping your knee straight. This is your starting position.",
+          "Maintaining proper form, move your right leg as far to the side as you can, keeping your left leg planted firmly on the ground. Hold for a second and then return your right leg to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c2a02e2a-7db3-4e22-bba4-e1f8ffc8c498",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "281112bd5983aa48e674d085afcae6e3e1f81d9deb2953f22ebca5135144a5ab",
+      "name": "Quỳ kéo xô với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Quỳ hướng về điểm neo, dây phía trên đầu và hai tay duỗi.",
+        "Kéo khuỷu tay xuống phía sườn, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Kneeling Pulldown",
+        "description": "",
+        "steps": [
+          "Kneel facing anchor with band overhead and arms extended.",
+          "Pull elbows down toward ribs while keeping chest tall.",
+          "Squeeze lats at the bottom, then return slowly to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1b8dd563-2676-4153-973f-6e763730f1c6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b7e0dac242474241b9c4bb467fc3bc1a085655af9fc1172351640312635b373d",
+      "name": "Quỳ kéo xô một tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đặt dây khoảng ngang mắt. Hạ người xuống quỳ.",
+        "Đầu gối trên đất phải cùng bên với tay đang tập. Ưỡn ngực.",
+        "Kéo khuỷu tay thẳng về sau. Siết cơ xô rồi duỗi tay về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Kneeling Single Arm Pulldown",
+        "description": "",
+        "steps": [
+          "Place the band at about eye level. Fall into a kneeling position.",
+          "The knee that is on the ground should be the same side as the working arm. Stick your chest out.",
+          "And then pull your elbow straight back. Flex your lats and then extend into the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8d2c8f91-b930-4529-a0d2-a93f4eab2db0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "239542e80dbf535a84e0c2101428100edda0bc662cb57414159a6cb1c1617782",
+      "name": "Gập gối tập đùi sau với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh điểm neo chắc chắn như giá tạ hoặc tay nắm cửa.",
+        "Nằm ngửa, đặt gót chân vào dây. Đặt dây ở giữa dưới gót chân, hai chân rộng bằng hông.",
+        "Dùng cơ đùi sau kéo gót chân về mông, giữ hông trên đất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Leg Curl",
+        "description": "",
+        "steps": [
+          "Loop the band around a sturdy anchor point such as a weightlifting rack or a door handle.",
+          "Lie on your back with your heels placed inside the band. Make sure the band is centered under your heels and your feet are hip-width apart.",
+          "Using your hamstrings, curl your heels towards your glutes while keeping your hips on the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e1b42fe3-a934-40cf-8a5c-cebd2fb03b33",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "649c2beb3320740a2600ac6ee5b8bcaac9559c40ee4c43d408ed8e114ab81a7f",
+      "name": "Duỗi gối tập đùi trước với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây vào vật chắc chắn và chuẩn bị ghế.",
+        "Luồn dây dưới ghế rồi vòng quanh bàn chân.",
+        "Gập và duỗi đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Leg Extension",
+        "description": "",
+        "steps": [
+          "Anchor a band to something stable and set up a bench.",
+          "Run through the band underneath the bench and loop around your feet.",
+          "Flex and extend your knees."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a64d5d25-f679-4a9d-89ab-552bfdd0143f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7431f87ad2d9e8907d8e01b2a527250e33d06bf04ad1db146b17747288029215",
+      "name": "Đẩy Pallof kết hợp kéo chéo từ thấp lên cao với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với dây neo thấp, dùng hai tay giữ tay cầm trước ngực.",
+        "Đẩy hai tay thẳng về trước rồi xoay thân, kéo dây chéo lên trên.",
+        "Trở về giữa và đưa hai tay về ngực có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Low To High Pallof Press Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand sideways to band anchored low, holding handle at chest with both hands.",
+          "Press arms straight forward, then rotate torso pulling band diagonally upward.",
+          "Return to center and bring hands back to chest under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fc1b1fd7-4903-44a4-972d-562e4b71f0ba",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0d2f0dacf4401a5655779b99fa3d08663b4c2535cac74c94843d3fbd5f40b214",
+      "name": "Duỗi tay sau qua đầu với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng một hoặc cả hai bàn chân lên dây. Đưa dây lên qua đầu vào vị trí bắt đầu.",
+        "Gập và duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "Stand with one or both feet on band. Go up and over your head with the band to the starting position.",
+          "Flex and extend your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e68b6821-09ba-4fda-9614-179e4f3ee2d5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5f7c28d7a806a678b03733f773892ef0390bf2c39db7024bd79bcf3540268496",
+      "name": "Đẩy Pallof với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm neo ngang vai. Bước ra xa vài bước đến khi dây căng.",
+        "Bắt đầu với các ngón tay đan quanh dây, các nắm tay áp vào ngực.",
+        "Duỗi khuỷu tay, đẩy dây ra xa người đến khi khuỷu tay duỗi hoàn toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pallof Press",
+        "description": "",
+        "steps": [
+          "Place the band at an anchor point that is shoulder height. Take a few steps away until the band is taut.",
+          "Start with your fingers interlocked around the band and your fists connected to your chest.",
+          "Extend at the elbows pressing the band away from your body until your elbows are fully extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b90f33b8-d833-4195-bdd9-e0449fa4d4cb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "80e46c908bcb1cce3713ac74dd643f49975fc6c25c3abe90b0c374e9eeb6b884",
+      "name": "Đẩy Pallof kết hợp kéo chéo với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với dây, giữ tay cầm trước ngực và siết cơ bụng.",
+        "Đẩy hai tay thẳng về trước, chống lại lực xoay.",
+        "Xoay thân và kéo dây chéo qua người theo động tác bổ củi rồi trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pallof Press To Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand sideways to band, hold handle at chest, and brace your core.",
+          "Press arms straight forward, resisting rotation.",
+          "Rotate torso and pull band across body in a wood chopper motion, then return."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fed511dd-c9d3-461a-9ba8-6eb766234748",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eca62c5c6a1f88a56254d4d62dc0cfd452077aa9647a7efdcdfbee748919b76c",
+      "name": "Đẩy dây kháng lực vòng qua người",
+      "description": "",
+      "steps": [
+        "Đứng với dây phía sau, giữ vòng dây ngang ngực.",
+        "Đẩy một tay về trước và chéo qua người theo đường vòng cung.",
+        "Siết cơ ngực khi duỗi hết, sau đó từ từ trở lại và đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Press Around",
+        "description": "",
+        "steps": [
+          "Stand with band behind you and hold loop at chest height.",
+          "Press one arm forward and across your body in a sweeping arc.",
+          "Squeeze chest at full extension, then return slowly and switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "afc56f7c-3cc2-4b0d-bec3-9ba81d5b82ef",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c23a687b243f8f87d73837bb7a71e8a76fdcc55f87201209c48fea1598d65704",
+      "name": "Kéo dang dây kháng lực",
+      "description": "",
+      "steps": [
+        "Nắm dây rộng bằng vai. Duỗi hai tay thẳng trước người.",
+        "Kéo bả vai và vai về sau đến khi dây chạm nhẹ ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pull Apart",
+        "description": "",
+        "steps": [
+          "Grab the band with a shoulder width grip. Point your arms straight in front of you.",
+          "Retract your shoulder blades and shoulder joint until the band taps your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "62296270-52b1-4446-a169-01c68b2ae07c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2a9c7cb5c8ff6e6fa0d9d653fad545da7916774a23d06980ad0445d80c2ffac9",
+      "name": "Kéo dây kháng lực vòng qua người",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với điểm neo, giữ dây với tay hơi duỗi.",
+        "Kéo tay chéo qua người theo đường vòng cung nhịp nhàng, không xoay thân.",
+        "Siết cơ ngực ở cuối biên độ rồi từ từ trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pull Around",
+        "description": "",
+        "steps": [
+          "Stand sideways to anchor and hold band with arm slightly extended.",
+          "Pull arm across your body in a smooth arc without rotating torso.",
+          "Squeeze chest at end range, then return slowly with control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "05acaf24-0270-4b67-8bc4-c8e2f9935c0f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "df4c1ef52edbaa87ddc511aae212972464e54a0bd53f9771bb6704da9d32c337",
+      "name": "Kéo dây kháng lực qua hai chân",
+      "description": "",
+      "steps": [
+        "Neo dây ở vị trí thấp nhất có thể. Đứng hai chân ở hai bên dây rồi dùng hai tay nắm dây.",
+        "Bước ra xa vài bước đến khi dây căng.",
+        "Đẩy mông về sau đến khi cảm nhận cơ đùi sau được kéo giãn. Sau đó duỗi hông về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pullthrough",
+        "description": "",
+        "steps": [
+          "Anchor the band to the lowest point possible. Straddle the band and then grab with both hands.",
+          "Take a few steps away until the band is taut.",
+          "Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aae379fc-25df-44f7-ab9f-96c06c7610be",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "27e4094f7701301aaceebddaa260725dae9c435c74cf29c6dcc53a0bfdebaba8",
+      "name": "Chống đẩy với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh giữa lưng. Các đầu dây vòng quanh bàn tay, nằm giữa ngón cái và ngón trỏ.",
+        "Có thể tập chống bằng gối hoặc các ngón chân tùy kinh nghiệm.",
+        "Gập khuỷu tay đến khi bắp tay ở bên thân. Sau đó duỗi khuỷu tay về vị trí trên cùng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Pushup",
+        "description": "",
+        "steps": [
+          "Loop the band around your mid-back. The ends of the bands should be around your hands between your thumb and pointer finger.",
+          "This exercise can be done from the knees or the toes depending on experience level.",
+          "Begin by breaking at the elbows until your upper arm is by your side. Then extend at the elbows back into the top position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1fceb73d-6f86-4d56-9ea3-0575dff37f23",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "835aaa92b530eb5e373b21a406d5bb88ce2b438fc69b0e0953712971fa06b1ff",
+      "name": "Đẩy dây kháng lực xuống kiểu Rapunzel",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm cao và quay lưng lại. Dùng hai tay giữ dây rộng bằng vai, giữ khuỷu tay gần thân.",
+        "Từ từ duỗi hai tay xuống, giữ khuỷu tay gần thân. Đẩy dây xuống xa hết mức có thể, cảm nhận cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Rapunzel Pushdown",
+        "description": "",
+        "steps": [
+          "Anchor the band to a high point and face away. Hold the band with both hands, placing your hands shoulder-width apart and keeping your elbows close to your body.",
+          "Slowly extend your arms downward, keeping your elbows close to your body. Push the band down as far as you can, feeling the contraction in your triceps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ad4a9598-3119-4930-a915-096de8bb8b36",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "94548ff16ce1a48ecd8a00957d038a856d7bd4deec32eee3c249a580efaddce3",
+      "name": "Dang tay tập vai sau với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng giữa hai dây đã neo cao, hai chân rộng bằng vai.",
+        "Nắm các đầu dây, lòng bàn tay hướng vào nhau.",
+        "Giữ tay hơi co và lưng thẳng, từ từ kéo dây ra xa người đến khi hai tay duỗi ngang sang hai bên. Giữ một giây rồi từ từ trở về vị trí ban đầu. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "Start by standing between the two anchored bands with your feet shoulder-width apart and the bands positioned at a high point.",
+          "Grasp the ends of each band with your hands, keeping your palms facing each other.",
+          "Keeping your arms slightly bent and your back straight, slowly pull the bands away from your body until your arms are extended straight out to the sides. Hold for a second, then slowly release back to the starting position. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "10a858be-08af-4296-ba62-27d7cb8e0c00",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6ce67ceddd057496c1475049abd189c91d546e0b4ef0435ed478816fcb99bbdc",
+      "name": "Cuốn tay trước nắm sấp với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng cả hai bàn chân lên giữa dây, hai chân rộng bằng vai.",
+        "Dùng hai tay giữ dây, lòng bàn tay úp, hai tay duỗi thẳng trước người.",
+        "Từ từ cuốn hai tay về phía vai để kéo căng dây, sau đó hạ về vị trí ban đầu, duy trì lực căng trong suốt bài tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Reverse Curl",
+        "description": "",
+        "steps": [
+          "Start by standing on the center of the band with both feet, shoulder-width apart.",
+          "Hold the band with both hands, palms facing down, arms extended straight in front of you.",
+          "Slowly curl your hands towards your shoulders, pulling the band tight, then lower your arms back to the starting position, keeping tension on the band throughout the exercise."
+        ]
+      }
+    },
+    {
+      "exercise_id": "82b4f8c0-a3d2-4372-ba2a-b6b9cb37bc58",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "eb08f2f660fe7b166b6bbad3b337b39e914e97233f30966b13d242273875e077",
+      "name": "Romanian deadlift với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng cả hai bàn chân lên dây.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Gập đến khi cảm nhận cơ đùi sau được kéo giãn.",
+        "Đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Stand on your band with both feet.",
+          "Hinge forward at the hips while keeping a flat back.",
+          "Hinge until you feel a stretch in your hamstrings.",
+          "Push your hips back forward until you are in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bcfb8a05-ca63-45d1-878a-c13c4a58d1aa",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b309ee0a6f276f01e57fb2539b75f6be2cc880764408eca3d5c1fb904b97b04f",
+      "name": "Kéo dây kháng lực khi gập người",
+      "description": "",
+      "steps": [
+        "Đứng cả hai bàn chân lên dây.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Để hai tay buông tự do rồi kéo khuỷu tay thẳng về sau hướng lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Row",
+        "description": "",
+        "steps": [
+          "Stand on your band with both feet.",
+          "Hinge forward at the hips while keeping a flat back.",
+          "Let your arms hang freely, then pull your elbows straight back toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6342153-8804-42a7-aa9b-d6070b78dfac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d645029f72bd5cf1024bbf2289a2c53fc2d0c64d9e1ec0db39d9c42a787baaf7",
+      "name": "Ngồi kéo xô với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Ngồi hướng về điểm neo, dây phía trên đầu và hai tay duỗi.",
+        "Kéo khuỷu tay xuống phía sườn, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Seated Pulldown",
+        "description": "",
+        "steps": [
+          "Sit facing anchor with band overhead and arms extended.",
+          "Pull elbows down toward ribs while keeping chest lifted.",
+          "Squeeze lats at the bottom, then return slowly to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "10a882ef-ca22-480e-8504-ca8f942551f0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d12156157cbd26bdea8675c9e62eca73c82215b1d24255360e803af159afe69c",
+      "name": "Ngồi kéo xô một tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Ngồi hướng về điểm neo, dây phía trên đầu, một tay giữ tay cầm.",
+        "Kéo khuỷu tay xuống phía hông, giữ ngực nâng.",
+        "Siết cơ xô ở điểm thấp nhất rồi từ từ trở về hết biên độ giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Seated Single Arm Pulldown",
+        "description": "",
+        "steps": [
+          "Sit facing anchor with band overhead, holding handle in one hand.",
+          "Pull elbow down toward your hip while keeping chest tall.",
+          "Squeeze lat at the bottom, then return slowly to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d2f8e01b-ec8c-49c7-bf68-c082aa968226",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "90cef8d19e3f5b756822df8418ebab1143fd20f4898ff4a14fec206983a35145",
+      "name": "Nhún vai với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đặt dây dưới bàn chân. Đứng thẳng.",
+        "Nâng bả vai lên rồi hạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Shrug",
+        "description": "",
+        "steps": [
+          "Place the band under your feet. Stand upright.",
+          "Elevate your shoulder blades and then depress back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fdc3fd7d-2986-4636-8b99-d84c4f27f54b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6a4d1be406be9dbe49550b1fe9f336d313c5da5ad78885a766e4d92f358500c9",
+      "name": "Nghiêng người sang bên với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng với dây neo thấp ở một bên, giữ tay cầm ngang hông.",
+        "Nghiêng thân ra xa điểm neo, giữ hông và chân yên.",
+        "Co cơ bụng chéo để trở về tư thế thẳng, kiểm soát chuyển động nhịp nhàng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Side Bend",
+        "description": "",
+        "steps": [
+          "Stand with band anchored low on one side, holding handle at hip.",
+          "Lean torso away from anchor, keeping hips and legs still.",
+          "Contract obliques to return upright, maintaining smooth control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d5f2f7d5-d313-45ec-84ab-8e0ba577e999",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "83ad4f9ef79de1c22786d0c4c818785ce0517d394b9bebaff5f7ce67c64d49bb",
+      "name": "Gập người kéo dây kháng lực một tay",
+      "description": "",
+      "steps": [
+        "Đứng lên dây và gập hông, giữ tay cầm với tay duỗi.",
+        "Kéo khuỷu tay về phía hông, giữ lưng phẳng và vai cân bằng.",
+        "Siết cơ lưng ở điểm cao nhất rồi từ từ hạ xuống đến hết biên độ giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Bent Over Row",
+        "description": "",
+        "steps": [
+          "Stand on band and hinge at hips, holding handle with arm extended.",
+          "Pull elbow toward your hip, keeping back flat and shoulders square.",
+          "Squeeze back at the top, then lower slowly to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3a5f82c8-0821-488a-a37d-4afba2d478df",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "17a7c310a560e2eaee8b9c0bf4e22c0108218de684c2302de010688350014d9e",
+      "name": "Ép ngực một tay với dây kháng lực, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng so với điểm neo, giữ dây với tay hơi co và lòng bàn tay xoay vào trong.",
+        "Đưa tay chéo qua ngực theo đường vòng cung, giữ vai xoay trong.",
+        "Siết cơ ngực ở cuối biên độ rồi từ từ trở lại có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Internally Rotated Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to anchor, hold band with arm slightly bent and palm turned inward.",
+          "Bring arm across chest in a sweeping arc while keeping internal rotation.",
+          "Squeeze chest at end range, then return slowly under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "46fed24a-957c-419f-91fe-69b724e935c3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "28b112caae47621d29f77e466115db39b857549cc84baf6185889b06a3d19333",
+      "name": "Nâng tay sang ngang một tay với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Đứng lên dây, giữ tay cầm hoặc vòng dây bên thân, khuỷu tay hơi co.",
+        "Nâng tay sang bên đến ngang vai, giữ thân yên.",
+        "Từ từ hạ xuống có kiểm soát, duy trì lực căng liên tục ở cơ vai."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Lateral Raise",
+        "description": "",
+        "steps": [
+          "Stand on band and hold handle or loop at your side with slight elbow bend.",
+          "Raise arm out to the side until shoulder height, keeping torso still.",
+          "Lower slowly under control, maintaining constant tension on the delt."
+        ]
+      }
+    },
+    {
+      "exercise_id": "de84f7d8-ca9f-4383-85f1-2612f1fa0f4b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8628696dd2ffc9ea22afd553f41282fcbaaaae8e5698db944617466ebb8c41be",
+      "name": "Kéo xô một tay với dây kháng lực ở tư thế ngồi",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm cao. Vào tư thế ngồi.",
+        "Nắm vòng dây và kéo bắp tay về bên thân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Pulldown",
+        "description": "",
+        "steps": [
+          "Anchor the band to a high point. Go into a seated position.",
+          "Grab the loop of the band and pull your upper arm to your side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1b6d49f4-f768-4e1e-b078-2ffe54b857ed",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c714bfb6b1a1802ea68621bc5cedae37fa3c031fdd93ad390ef18859e1ed7b00",
+      "name": "Đẩy dây kháng lực xuống tập tay sau một tay",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, tay phải giữ dây, tay ở bên thân.",
+        "Gập và duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Pushdown",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width apart and hold the band with your right hand, with your arm at your side.",
+          "Flex and extend your elbow."
+        ]
+      }
+    },
+    {
+      "exercise_id": "122ce74e-36c6-4404-a773-c746b1c66995",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8d5b35de23ac401e76b743db6e8e271ae9d69e797461ef338b887ed3801e3697",
+      "name": "Kéo dây kháng lực một tay",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Bước lùi đến khi dây hết chùng, một tay giữ đầu dây.",
+        "Dẫn chuyển động bằng khuỷu tay và kéo thẳng về sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Single Arm Row",
+        "description": "",
+        "steps": [
+          "Anchor band to a stable point.",
+          "Step back until there is no slack in the band and hold the end of the band with one hand.",
+          "Pull through the elbow straight back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8f9b7609-442e-4f19-8e6f-c96580ad9178",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ea61a0213ec908194825535720e5efe11a29dd993d0f07ea8942f6991ad3616b",
+      "name": "Duỗi tay sau kiểu skullcrusher với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Quay lưng lại, bắt đầu với khuỷu tay co và các nắm tay cạnh thái dương.",
+        "Duỗi khuỷu tay đến khi cơ tay sau co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Skullcrusher",
+        "description": "",
+        "steps": [
+          "Anchor a band to a stable point.",
+          "Face away and begin with your elbows bent and fists by your temples.",
+          "Extend your elbows until your triceps contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d79eca67-969c-4738-9477-eae8d680add2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7f2ce8728fe6b773efdcaedaed9d0c9c266b3b3b3b3b3d0826fe224eb540dd34",
+      "name": "Squat kiểu Spanish với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Neo dây vào điểm chắc chắn.",
+        "Đặt các vòng dây sau đầu gối.",
+        "Squat bình thường và duỗi gối ngược lực cản của dây ở điểm cao nhất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:30:41.852Z",
+      "source": {
+        "name": "Band Spanish Squat",
+        "description": "",
+        "steps": [
+          "Anchor a band to a stable point.",
+          "Place the loops of the band behind your knees.",
+          "Perform a normal squat and extend your knees against the band at the top."
+        ]
+      }
+    }
+  ]
+}

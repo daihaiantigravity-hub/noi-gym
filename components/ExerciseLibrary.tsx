@@ -9,6 +9,10 @@ import { useSavedExercise } from "@/lib/exercises/use-saved-exercise";
 import type { ExerciseGender, PublicExercise } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
 import ExercisePagination from "./ExercisePagination";
+import { useAppLanguage } from "./LanguageProvider";
+import { getMessages, translate } from "@/lib/i18n/messages";
+import { getMuscleLabel } from "@/lib/i18n/labels";
+import LanguageToggle from "./LanguageToggle";
 
 const fakeExerciseThumbnails = [
   { variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
@@ -39,9 +43,11 @@ function formatMuscleName(muscle: string) {
 }
 
 function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: PublicExercise; gender?: ExerciseGender; muscle: string; routePath: string }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const detailRoute = withExerciseGender(`/exercises/${muscle}/${exercise.id}`, gender);
   const { isLoading: saveIsLoading, isPending: saveIsPending, isSaved, toggleSaved, error: saveError } = useSavedExercise(exercise.id);
-  const saveLabel = `${isSaved ? "Remove saved exercise" : "Save exercise"} ${exercise.name}`;
+  const saveLabel = `${isSaved ? messages.removeSavedExercise : messages.saveExercise} ${exercise.name}`;
   const videos = Array.from(
     new Map(
       exercise.media
@@ -105,43 +111,47 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
               <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1.55.83L12 17.2l-5.45 3.63A1 1 0 0 1 5 20V4a1 1 0 0 1 1-1Z" />
             </svg>
           </button>
-          <Link aria-label={`View ${exercise.name} details`} className="exercise-detail-topbar__icon exercise-library-exercise-card__detail" href={`${detailRoute}${detailRoute.includes("?") ? "&" : "?"}from=${encodeURIComponent(routePath)}`}>
+          <Link aria-label={translate(language, "viewDetails", { name: exercise.name })} className="exercise-detail-topbar__icon exercise-library-exercise-card__detail" href={`${detailRoute}${detailRoute.includes("?") ? "&" : "?"}from=${encodeURIComponent(routePath)}`}>
             <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m9 6 6 6-6 6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
           </Link>
         </div>
       </header>
-      {saveError && <p className="exercise-library-exercise-card__save-error" role="alert">{saveError}</p>}
+      {exercise.isTranslationFallback && <small className="exercise-library-exercise-card__source-language">{messages.originalContent}</small>}
+      {saveError && <p className="exercise-library-exercise-card__save-error" role="alert">{language === "vi" ? messages.favoriteUpdateFailed : saveError}</p>}
       <div className="exercise-library-showcase__media">
-        <div aria-label={`${exercise.name} demonstration videos`} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
+        <div aria-label={translate(language, "demonstrationVideos", { name: exercise.name })} className="exercise-library-showcase__media-track" onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={videoCount > 1 ? 0 : -1}>
           {Array.from({ length: videoCount }, (_, videoIndex) => {
             const video = videos[videoIndex];
             const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
-              <div aria-label={`${exercise.name} view ${videoIndex + 1}`} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
-                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={`${exercise.name} video ${videoIndex + 1}`} poster={video.posterUrl ?? fallbackPoster} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{thumbnail.hero}</strong><span className="workout-thumbnail__sub">{thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
+              <div aria-label={translate(language, "exerciseView", { name: exercise.name, number: videoIndex + 1 })} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
+                {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={translate(language, "demonstrationVideo", { name: exercise.name, number: videoIndex + 1 })} poster={video.posterUrl ?? fallbackPoster} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{language === "vi" ? messages.exercise : thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{language === "vi" ? exercise.name : thumbnail.hero}</strong><span className="workout-thumbnail__sub">{language === "vi" ? messages.mediaUnavailable : thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
           })}
         </div>
       </div>
-      {exercise.steps.length > 0 ? <ol aria-label={`${exercise.name} instructions`} className="exercise-library-exercise-card__steps">{exercise.steps.map((step, index) => <li key={`${exercise.id}-step-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p className="exercise-library-exercise-card__steps-empty">Instructions are not available for this exercise.</p>}
+      {exercise.steps.length > 0 ? <ol aria-label={translate(language, "exerciseInstructions", { name: exercise.name })} className="exercise-library-exercise-card__steps">{exercise.steps.map((step, index) => <li key={`${exercise.id}-step-${index}`}><span>{index + 1}</span><p>{step}</p></li>)}</ol> : <p className="exercise-library-exercise-card__steps-empty">{messages.noInstructionsCard}</p>}
     </article>
   );
 }
 
 export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, pageSize = PUBLIC_EXERCISES_PAGE_SIZE, routePath = `/exercises/${muscle}`, targetLabel, total = exercises.length }: { muscle: string; exercises: PublicExercise[]; gender?: ExerciseGender; page?: number; pageSize?: number; routePath?: string; targetLabel?: string; total?: number }) {
+  const { enabled, language } = useAppLanguage();
+  const messages = getMessages(language);
   const router = useRouter();
-  const muscleName = targetLabel ?? formatMuscleName(muscle);
+  const muscleName = getMuscleLabel(language, targetLabel ?? formatMuscleName(muscle));
   const currentRoutePath = getPageHref(routePath, page);
   const isEmptyPage = exercises.length === 0 && (page > 1 || total > 0);
 
   return (
-    <main aria-label={`${muscleName} exercises`} className="exercise-library-page health-mood-surface">
-      <header className="exercise-library-header">
-        <button aria-label="Back to Home" className="exercise-library-back-button" onClick={() => router.push("/")} title="Back to Home" type="button">
+    <main aria-label={translate(language, "openTarget", { name: muscleName })} className="exercise-library-page health-mood-surface">
+      <header className={`exercise-library-header${enabled ? " exercise-library-header--localized" : ""}`}>
+        <button aria-label={messages.backHome} className="exercise-library-back-button" onClick={() => router.push("/")} title={messages.backHome} type="button">
           <svg aria-hidden="true" fill="none" height="28" viewBox="0 0 24 24" width="28"><path d="m15 18-6-6 6-6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
         </button>
-        <h1 className="exercise-library-results__title" id="exercise-results-title">{gender === "female" ? "Female " : ""}{muscleName} Exercises</h1>
+        <h1 className="exercise-library-results__title" id="exercise-results-title">{translate(language, "libraryTitle", { muscle: language === "vi" ? muscleName.charAt(0).toLocaleLowerCase("vi") + muscleName.slice(1) : muscleName, gender: gender === "female" ? messages.femaleExerciseQualifier : "" })}</h1>
+        <LanguageToggle whenEnabledOnly />
       </header>
       {exercises.length > 0 ? (
         <section aria-labelledby="exercise-results-title" className="exercise-library-results">
@@ -154,10 +164,10 @@ export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, p
               <path d="M8 11v10M12 8v16M20 8v16M24 11v10M12 16h8M5 13v6M27 13v6" />
             </svg>
           </span>
-          <h2 id="exercise-empty-title">{isEmptyPage ? "No exercises on this page" : "No exercises available yet"}</h2>
-          <p>{isEmptyPage ? "This page is empty. Return to the first page to see available exercises." : `There are no ${gender === "female" ? "female" : "male"} exercises for ${muscleName} in this selection yet.`}</p>
+          <h2 id="exercise-empty-title">{isEmptyPage ? messages.noExercisesPage : messages.noExercises}</h2>
+          <p>{isEmptyPage ? messages.emptyExercisePage : translate(language, "noMatchingExercises", { gender: (gender === "female" ? messages.female : messages.male).toLocaleLowerCase(), name: muscleName })}</p>
           <Link className="exercise-library-empty__action" href={isEmptyPage ? getPageHref(routePath, 1) : "/"}>
-            {isEmptyPage ? "View first page" : "Explore other exercises"}
+            {isEmptyPage ? messages.firstPage : messages.exploreOtherExercises}
           </Link>
         </section>
       )}

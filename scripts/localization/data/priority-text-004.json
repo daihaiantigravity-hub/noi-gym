@@ -1,0 +1,652 @@
+{
+  "version": 1,
+  "translations": [
+    {
+      "index": 1,
+      "sourceName": "Cable Alternating Bench Chest Fly",
+      "name": "Nằm ép ngực luân phiên với cáp",
+      "steps": [
+        "Nằm trên ghế, giữ hai tay cầm cáp phía trên ngực, lòng bàn tay hướng vào trong.",
+        "Hạ một tay sang bên với khuỷu tay hơi co, giữ tay đối diện duỗi thẳng.",
+        "Đưa tay về giữa, đổi bên luân phiên và duy trì chuyển động có kiểm soát."
+      ],
+      "exercise_id": "07ce99b6-5a07-48bd-a28a-07e60da0493b"
+    },
+    {
+      "index": 2,
+      "sourceName": "Cable Bar Calve Raise",
+      "name": "Nhón gót với thanh kéo cáp",
+      "steps": [
+        "Dùng thanh thẳng hoặc thanh EZ gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất.",
+        "Bước lùi vài bước.",
+        "Nâng gót chân thẳng lên đến khi cảm thấy cơ bắp chân co lại, rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "62d13c80-a513-4efd-9fd6-15c44856548d"
+    },
+    {
+      "index": 3,
+      "sourceName": "Cable Bar Kneeling Crunch",
+      "name": "Quỳ gập bụng với thanh kéo cáp",
+      "steps": [
+        "Dùng thanh gắn cáp và đặt điểm kéo cáp ở vị trí cao nhất.",
+        "Bước lên trước vài bước rồi hạ người xuống tư thế quỳ.",
+        "Đẩy hông ra sau và co cơ bụng, rồi đẩy hông về trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "3228e8fa-43a3-42b8-b872-4dec7ed93722"
+    },
+    {
+      "index": 4,
+      "sourceName": "Cable Bar Reverse Grip Curl",
+      "name": "Gập tay ngược với thanh kéo cáp",
+      "steps": [
+        "Dùng thanh gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Đứng đối diện máy cáp.",
+        "Đứng chân so le để có điểm tựa vững hơn. Hướng lòng bàn tay xuống, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "e7441e8f-681e-4a53-ac4b-d19862aa53a5"
+    },
+    {
+      "index": 5,
+      "sourceName": "Cable Bar Rolling Pushdown",
+      "name": "Đẩy thanh kéo cáp xuống kết hợp duỗi vai",
+      "steps": [
+        "Đứng đối diện máy cáp, cầm thanh với lòng bàn tay hướng xuống, khuỷu tay co và vai gập.",
+        "Duỗi vai trước như khi thực hiện động tác pullover, sau đó duỗi khuỷu tay."
+      ],
+      "exercise_id": "547f9cc6-80d9-445f-8840-cd8cee28da88"
+    },
+    {
+      "index": 6,
+      "sourceName": "Cable Bar Romanian Deadlift",
+      "name": "Romanian deadlift với thanh kéo cáp",
+      "steps": [
+        "Gắn thanh thẳng hoặc thanh EZ ở vị trí thấp nhất của máy. Từ tư thế squat, nâng tạ để đứng lên rồi bước lùi vài bước.",
+        "Đẩy mông ra sau để bắt đầu động tác, rồi đẩy mông về trước đến khi trở lại tư thế đứng.",
+        "Để bảo vệ bản thân khỏi chấn thương, luôn giữ lưng thẳng trong mọi bài tập."
+      ],
+      "exercise_id": "652cc668-b6da-4757-ae42-4f94aa8d063d"
+    },
+    {
+      "index": 7,
+      "sourceName": "Cable Bar Skullcrusher",
+      "name": "Duỗi tay sau qua đầu với thanh kéo cáp",
+      "steps": [
+        "Dùng thanh gắn cáp, đặt điểm kéo cáp ở vị trí cao nhất của máy.",
+        "Quay lưng về phía máy, đưa khuỷu tay lên và giữ thanh ngay sau đầu.",
+        "Duỗi khuỷu tay đến khi cảm nhận cơ tay sau co lại, rồi gập khuỷu tay về vị trí ban đầu."
+      ],
+      "exercise_id": "2cc90c24-15c9-4f39-996c-9ee4bc90fb3e"
+    },
+    {
+      "index": 8,
+      "sourceName": "Cable Bar Standing Crunch",
+      "name": "Đứng gập bụng với thanh kéo cáp",
+      "steps": [
+        "Dùng thanh gắn cáp và đặt điểm kéo cáp ở vị trí cao nhất.",
+        "Quay lưng về phía trụ cáp và bước lên trước vài bước.",
+        "Đẩy hông ra sau và co cơ bụng.",
+        "Trở lại tư thế đứng ban đầu và lặp lại."
+      ],
+      "exercise_id": "9a6084c8-0415-4b79-8b10-96015dd148d2"
+    },
+    {
+      "index": 9,
+      "sourceName": "Cable Bench Press",
+      "name": "Nằm đẩy ngực với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp. Đưa ghế tập đến giữa hai bên cáp, đặt cáp ở độ cao ngang vai.",
+        "Đưa cả hai tay cầm về ngực và bảo đảm cơ thể nằm giữa máy cáp chéo.",
+        "Từ đó, đồng thời gập và duỗi ở cả khớp vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "38107d2e-7904-423d-9ab7-079f4eb0ffa2"
+    },
+    {
+      "index": 10,
+      "sourceName": "Cable Bilateral Cross Upright Row",
+      "name": "Kéo cáp chéo thẳng đứng hai tay",
+      "steps": [
+        "Đứng giữa hai dây cáp thấp bắt chéo, mỗi tay nắm tay cầm bên đối diện.",
+        "Kéo cả hai tay cầm lên trên, dẫn chuyển động bằng khuỷu tay.",
+        "Dừng ở khoảng ngang ngực, rồi từ từ hạ tay cầm xuống."
+      ],
+      "exercise_id": "91786a92-fe07-4bca-823f-4d94defc04e0"
+    },
+    {
+      "index": 11,
+      "sourceName": "Cable Calve Raise",
+      "name": "Nhón gót với máy cáp",
+      "steps": [
+        "Dùng thanh thẳng hoặc thanh EZ gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất.",
+        "Bước lùi vài bước.",
+        "Nâng gót chân thẳng lên đến khi cảm thấy cơ bắp chân co lại, rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "621486a2-5967-4ff2-aa45-bfbe944a528f"
+    },
+    {
+      "index": 12,
+      "sourceName": "Cable Chest Press",
+      "name": "Đẩy ngực với máy cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt cáp ở độ cao ngang vai.",
+        "Đưa cả hai tay cầm về ngực và bảo đảm đứng giữa máy cáp chéo.",
+        "Bước lên trước vài bước, rồi đẩy tạ về phía trước.",
+        "Từ đó, đồng thời gập và duỗi ở cả khớp vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "929f601b-1db2-433f-bf9e-a722b40662ee"
+    },
+    {
+      "index": 13,
+      "sourceName": "Cable Decline Chest Fly",
+      "name": "Ép ngực với cáp trên ghế dốc xuống",
+      "steps": [
+        "Đặt điểm neo cáp cao hơn vai.",
+        "Ngồi trên ghế, giữ khuỷu tay gần duỗi thẳng.",
+        "Đưa hai nắm tay lại gần nhau và co cơ ngực."
+      ],
+      "exercise_id": "df7cfdef-134a-40e7-8aeb-4a07997bcf5f"
+    },
+    {
+      "index": 14,
+      "sourceName": "Cable Decline Internally Rotated Chest Fly",
+      "name": "Ép ngực cáp trên ghế dốc xuống, tay xoay vào trong",
+      "steps": [
+        "Nằm trên ghế, giữ tay cầm cáp ở vị trí cao hơn vai, lòng bàn tay hướng về bàn chân.",
+        "Đưa cả hai tay cầm lại gần nhau phía trên ngực, giữ khuỷu tay hơi co.",
+        "Dừng lại một chút, rồi hạ tay có kiểm soát."
+      ],
+      "exercise_id": "f500370c-733a-48f4-b0a4-724f33dc28f5"
+    },
+    {
+      "index": 15,
+      "sourceName": "Cable Decline Single Arm Bench Press",
+      "name": "Đẩy ngực một tay với cáp trên ghế dốc xuống",
+      "steps": [
+        "Dùng tay cầm gắn cáp. Đưa ghế tập đến giữa hai bên cáp, đặt cáp cao hơn vai.",
+        "Đưa một tay cầm về ngực và bảo đảm cơ thể nằm giữa máy cáp chéo.",
+        "Từ đó, đồng thời gập và duỗi ở cả khớp vai lẫn khuỷu tay."
+      ],
+      "exercise_id": "a8a92f5a-1614-4c20-8b2b-b15a45605125"
+    },
+    {
+      "index": 16,
+      "sourceName": "Cable High Bayesian Curl",
+      "name": "Gập tay Bayesian với cáp cao",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở khoảng ngang khuỷu tay.",
+        "Quay lưng về phía máy cáp.",
+        "Đứng chân so le để có điểm tựa vững hơn. Hướng lòng bàn tay về trước, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "d1212c79-b239-4678-8b32-41d479aad8f9"
+    },
+    {
+      "index": 17,
+      "sourceName": "Cable High Single Arm Hammer Bayesian Curl",
+      "name": "Gập tay Bayesian một bên với cáp cao, tay nắm kiểu búa",
+      "steps": [
+        "Quay lưng về phía cáp cao, cầm tay cầm với lòng bàn tay hướng vào trong.",
+        "Bước lên trước để tạo lực căng, để tay duỗi thẳng hoàn toàn phía sau người.",
+        "Gập tay đưa tay cầm về phía vai, giữ tay nắm trung tính, rồi từ từ hạ xuống."
+      ],
+      "exercise_id": "b274fb70-7797-42cd-a3ad-68e91cd3fda2"
+    },
+    {
+      "index": 18,
+      "sourceName": "Cable High Single Arm Reverse Bayesian Curl",
+      "name": "Gập tay Bayesian ngược một bên với cáp cao",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ngang khuỷu tay.",
+        "Quay lưng về phía máy cáp. Đứng chân so le để có điểm tựa vững hơn.",
+        "Hướng lòng bàn tay xuống và gập tay."
+      ],
+      "exercise_id": "14d3ef85-f6a9-4749-9ecb-fb5d90b5b4fe"
+    },
+    {
+      "index": 19,
+      "sourceName": "Cable Internally Rotated Chest Fly",
+      "name": "Ép ngực với cáp, tay xoay vào trong",
+      "steps": [
+        "Nằm trên ghế, đặt cáp ngang vai.",
+        "Đưa cả hai tay cầm vào phía trước ngực, giữ khuỷu tay hơi co.",
+        "Siết cơ ngực, rồi hạ tay cầm có kiểm soát."
+      ],
+      "exercise_id": "92d2f48b-9bea-434d-ba57-4a30d1ae6b51"
+    },
+    {
+      "index": 20,
+      "sourceName": "Cable Kneeling High To Low Wood Chopper",
+      "name": "Quỳ kéo cáp chéo từ cao xuống thấp",
+      "steps": [
+        "Quỳ nghiêng bên cạnh máy cáp, hai tay nắm tay cầm phía trên đầu.",
+        "Xoay thân và kéo tay cầm chéo xuống phía hông đối diện.",
+        "Kiểm soát khi trở về, giữ cơ bụng siết và hông ổn định."
+      ],
+      "exercise_id": "ba1dd00c-6d81-4344-9415-b178f91a0891"
+    },
+    {
+      "index": 21,
+      "sourceName": "Cable Kneeling Low To High Wood Chopper",
+      "name": "Quỳ kéo cáp chéo từ thấp lên cao",
+      "steps": [
+        "Quỳ nghiêng bên cạnh máy cáp, hai tay nắm tay cầm ở khoảng ngang hông.",
+        "Xoay thân và kéo tay cầm chéo lên qua người về phía vai đối diện.",
+        "Kiểm soát khi trở về, giữ cơ bụng siết và hông ổn định."
+      ],
+      "exercise_id": "7b23f558-a1b5-46a1-8075-98fea1d05e99"
+    },
+    {
+      "index": 22,
+      "sourceName": "Cable Kneeling Pallof Press",
+      "name": "Quỳ đẩy cáp Pallof",
+      "steps": [
+        "Quỳ nghiêng bên cạnh máy cáp, giữ tay cầm trước ngực và khép khuỷu tay vào trong.",
+        "Siết cơ bụng và đẩy tay cầm thẳng ra trước, không xoay thân người.",
+        "Giữ một chút, rồi đưa tay cầm về ngực với sự kiểm soát hoàn toàn."
+      ],
+      "exercise_id": "561df045-6212-40ec-a6af-a6e027bb9df7"
+    },
+    {
+      "index": 23,
+      "sourceName": "Cable Kneeling Pallof Press To Wood Chopper",
+      "name": "Quỳ đẩy cáp Pallof kết hợp kéo chéo thân",
+      "steps": [
+        "Quỳ nghiêng bên cạnh máy cáp và đẩy tay cầm thẳng ra trước, giữ thân người ổn định.",
+        "Xoay thân và kéo tay cầm chéo qua người theo động tác bổ củi.",
+        "Trở về giữa và đưa tay cầm về ngực có kiểm soát."
+      ],
+      "exercise_id": "99b2f4d7-4088-4484-bd93-0bd25190d890"
+    },
+    {
+      "index": 24,
+      "sourceName": "Cable Low Single Arm Lateral Raise",
+      "name": "Nâng tay ngang một bên với cáp thấp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Dạng vai để nâng cánh tay thẳng ra bên.",
+        "Nâng đến khi tay song song với mặt đất, rồi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "970f0960-5c48-464f-afff-985f0436584d"
+    },
+    {
+      "index": 25,
+      "sourceName": "Cable Oblique Pushdown",
+      "name": "Đẩy cáp xuống tập cơ bụng chéo",
+      "steps": [
+        "Đặt cáp ngay phía trên đầu và dùng tay cầm gắn cáp.",
+        "Đứng nghiêng, đẩy tay cầm xuống đến khi khuỷu tay duỗi thẳng. Co cơ bụng chéo đến khi cảm nhận cơ co lại.",
+        "Sau khi hoàn thành số lần được chỉ định, quay sang hướng đối diện và lặp lại."
+      ],
+      "exercise_id": "3f9210e9-1133-4dd4-b330-3d7e48f29ccd"
+    },
+    {
+      "index": 26,
+      "sourceName": "Cable Reverse Bayesian Curl",
+      "name": "Gập tay Bayesian ngược với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp. Đứng chân so le để có điểm tựa vững hơn.",
+        "Hướng lòng bàn tay xuống, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "6c163aef-3f4d-48a3-8a3a-96206b74569b"
+    },
+    {
+      "index": 27,
+      "sourceName": "Cable Rope Kneeling Oblique Crunch",
+      "name": "Quỳ gập bụng chéo với dây thừng kéo cáp",
+      "steps": [
+        "Dùng dây thừng gắn cáp và đặt điểm kéo cáp ở vị trí cao nhất.",
+        "Bước lên trước vài bước rồi hạ người xuống tư thế quỳ.",
+        "Đẩy hông ra sau và co cơ bụng, rồi đẩy hông về trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "3cd2172b-f45b-4f8b-aef0-0b6aa804f090"
+    },
+    {
+      "index": 28,
+      "sourceName": "Cable Rope Mid Lateral Raise",
+      "name": "Nâng tay ngang với dây thừng kéo cáp tầm giữa",
+      "steps": [
+        "Đặt cáp ngang nắm tay khi buông tay bên người, đứng sao cho dây cáp kéo chéo qua người.",
+        "Giữ khuỷu tay gần duỗi thẳng, nâng tay đến khi song song với sàn."
+      ],
+      "exercise_id": "751c8545-75ea-49e5-8623-84e8b92bdc7d"
+    },
+    {
+      "index": 29,
+      "sourceName": "Cable Rope Rolling Pushdown",
+      "name": "Đẩy dây thừng kéo cáp xuống kết hợp duỗi vai",
+      "steps": [
+        "Đứng đối diện máy cáp, cầm dây thừng với khuỷu tay co và vai gập.",
+        "Duỗi vai trước như khi thực hiện động tác pullover, sau đó duỗi khuỷu tay."
+      ],
+      "exercise_id": "0d89cf72-ce87-4b0f-88a7-98aa335b9dd4"
+    },
+    {
+      "index": 30,
+      "sourceName": "Cable Rope Standing Crunch",
+      "name": "Đứng gập bụng với dây thừng kéo cáp",
+      "steps": [
+        "Đứng đối diện máy cáp, giữ dây thừng sau đầu và khép khuỷu tay vào trong.",
+        "Siết cơ bụng, gập thân xuống về phía hông, không dùng tay kéo.",
+        "Từ từ trở lại tư thế đứng thẳng, giữ cơ bụng chịu lực căng liên tục."
+      ],
+      "exercise_id": "0a8fc6a8-f16a-436a-8644-174558370482"
+    },
+    {
+      "index": 31,
+      "sourceName": "Cable Rope Upright Row",
+      "name": "Kéo dây thừng cáp thẳng đứng",
+      "steps": [
+        "Dùng dây thừng gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Kéo khuỷu tay thẳng lên phía trần đến khi dây thừng ở ngay dưới cằm, rồi hạ xuống đến khi khuỷu tay duỗi thẳng hoàn toàn."
+      ],
+      "exercise_id": "c6a36f81-9817-46f6-bad7-00bc39772ff6"
+    },
+    {
+      "index": 32,
+      "sourceName": "Cable Row Bar Kneeling Crunch",
+      "name": "Quỳ gập bụng với tay cầm kéo cáp đôi",
+      "steps": [
+        "Dùng tay cầm đôi và đặt điểm kéo cáp ở vị trí cao nhất.",
+        "Bước lên trước vài bước rồi hạ người xuống tư thế quỳ.",
+        "Đẩy hông ra sau và co cơ bụng, rồi đẩy hông về trước để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "5f2affa7-e65a-498a-ab78-776ea80f7b86"
+    },
+    {
+      "index": 33,
+      "sourceName": "Cable Seated Bayesian Reverse Curl",
+      "name": "Ngồi gập tay Bayesian ngược với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp và ngồi lên ghế. Đặt chân so le để có điểm tựa vững hơn.",
+        "Hướng lòng bàn tay xuống, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "7e975cbf-95dd-410a-b63a-b7f79b22f16d"
+    },
+    {
+      "index": 34,
+      "sourceName": "Cable Side Bend",
+      "name": "Nghiêng người sang bên với cáp",
+      "steps": [
+        "Đặt cáp ở vị trí thấp nhất của chồng tạ, dùng tay cầm gắn cáp.",
+        "Đứng nghiêng, nắm tay cầm và nghiêng người ra xa máy cáp.",
+        "Sau khi hoàn thành số lần được chỉ định, quay sang hướng đối diện và lặp lại."
+      ],
+      "exercise_id": "691114d5-38d2-4af6-ae7d-4e41300fb884"
+    },
+    {
+      "index": 35,
+      "sourceName": "Cable Single Arm 30 Degree Shrug",
+      "name": "Nhún vai một bên góc 30 độ với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm gắn cáp ở vị trí thấp nhất.",
+        "Nắm một tay cầm và bảo đảm đứng giữa máy. Để cánh tay buông tự nhiên.",
+        "Kéo bả vai lên và vào trong về phía tai, rồi hạ bả vai trở về vị trí ban đầu."
+      ],
+      "exercise_id": "072a5a3b-1b9d-4bbd-9e9c-a14d981db013"
+    },
+    {
+      "index": 36,
+      "sourceName": "Cable Single Arm Bayesian Curl",
+      "name": "Gập tay Bayesian một bên với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp.",
+        "Đứng chân so le để có điểm tựa vững hơn. Hướng lòng bàn tay về trước, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "33fb04dc-9267-479c-a78c-0a0e97200b0b"
+    },
+    {
+      "index": 37,
+      "sourceName": "Cable Single Arm Hammer Curl",
+      "name": "Gập tay kiểu búa một bên với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp. Đứng chân so le để có điểm tựa vững hơn.",
+        "Dùng tay nắm trung tính, ngón cái hướng lên và ngón út hướng xuống. Gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "09ed740d-01cc-4d0d-bb6a-c0dca67a4118"
+    },
+    {
+      "index": 38,
+      "sourceName": "Cable Single Arm Reverse Curl",
+      "name": "Gập tay ngược một bên với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp. Đứng chân so le để có điểm tựa vững hơn.",
+        "Hướng lòng bàn tay xuống, gập rồi duỗi khuỷu tay."
+      ],
+      "exercise_id": "dccfaba2-8611-452d-8e12-eff563972077"
+    },
+    {
+      "index": 39,
+      "sourceName": "Cable Standing Alternating Internally Rotated Decline Chest Fly",
+      "name": "Đứng ép ngực cáp cao luân phiên, tay xoay vào trong",
+      "steps": [
+        "Đứng giữa hai bên cáp cao, duỗi tay và hướng lòng bàn tay xuống.",
+        "Đưa một tay cầm xuống và chéo qua ngực, giữ khuỷu tay hơi co.",
+        "Từ từ trở về, rồi lặp lại với tay đối diện."
+      ],
+      "exercise_id": "4d1b3cdb-a163-43fb-a7d9-f20463da5d1a"
+    },
+    {
+      "index": 40,
+      "sourceName": "Cable Standing Crunch",
+      "name": "Đứng gập bụng với cáp",
+      "steps": [
+        "Dùng tay cầm đôi và đặt điểm kéo cáp ở vị trí cao nhất.",
+        "Quay lưng về phía trụ cáp và bước lên trước vài bước.",
+        "Đẩy hông ra sau và co cơ bụng.",
+        "Trở lại tư thế đứng ban đầu và lặp lại."
+      ],
+      "exercise_id": "3b0cb730-2dc7-405a-a44e-91a34356a13d"
+    },
+    {
+      "index": 41,
+      "sourceName": "Cable Standing Decline Chest Press",
+      "name": "Đứng đẩy ngực cáp theo hướng chéo xuống",
+      "steps": [
+        "Quay lưng về phía cáp cao, giữ tay cầm ở hai bên ngực.",
+        "Đẩy cả hai tay cầm về trước và xuống dưới đến khi tay duỗi thẳng.",
+        "Siết cơ ngực, rồi đưa tay cầm trở về có kiểm soát."
+      ],
+      "exercise_id": "c258b9f3-0f84-49e9-86ce-04233b1471c1"
+    },
+    {
+      "index": 42,
+      "sourceName": "Cable Standing High To Low Wood Chopper",
+      "name": "Đứng kéo cáp chéo từ cao xuống thấp",
+      "steps": [
+        "Đứng nghiêng bên cạnh máy cáp, hai tay nắm tay cầm phía trên đầu.",
+        "Xoay thân và kéo tay cầm chéo xuống phía hông đối diện.",
+        "Kiểm soát khi trở về, giữ cơ bụng siết và hông ổn định."
+      ],
+      "exercise_id": "933ca1a2-43bd-4a59-9b3e-ba9df91dee2b"
+    },
+    {
+      "index": 43,
+      "sourceName": "Cable Standing Incline Chest Press",
+      "name": "Đứng đẩy ngực cáp theo hướng chéo lên",
+      "steps": [
+        "Quay lưng về phía cáp thấp, giữ tay cầm ở hai bên ngực.",
+        "Đẩy cả hai tay cầm về trước và lên trên đến khi tay duỗi thẳng.",
+        "Siết cơ ngực, rồi đưa tay cầm trở về có kiểm soát."
+      ],
+      "exercise_id": "7c343397-e656-47a2-8f60-c08d2b78d036"
+    },
+    {
+      "index": 44,
+      "sourceName": "Cable Standing Low To High Wood Chopper",
+      "name": "Đứng kéo cáp chéo từ thấp lên cao",
+      "steps": [
+        "Đứng nghiêng bên cạnh máy cáp, hai tay nắm tay cầm ở khoảng ngang hông.",
+        "Xoay thân và kéo tay cầm chéo lên về phía vai đối diện.",
+        "Kiểm soát khi trở về, giữ cơ bụng siết và hông ổn định."
+      ],
+      "exercise_id": "f1f5fa50-1712-4ade-87c4-1b53061415dd"
+    },
+    {
+      "index": 45,
+      "sourceName": "Cable Standing Single Arm Chest Fly",
+      "name": "Đứng ép ngực một tay với cáp",
+      "steps": [
+        "Đứng nghiêng bên cạnh máy cáp, giữ tay cầm ngang ngực và hơi co tay.",
+        "Đưa tay qua trước ngực theo một cung tròn nhịp nhàng, không xoay thân người.",
+        "Siết cơ ngực ở cuối biên độ, rồi từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "9fd542c6-4ea2-4407-83c1-29b4dbac074a"
+    },
+    {
+      "index": 46,
+      "sourceName": "Cable Standing Single Arm Chest Press",
+      "name": "Đứng đẩy ngực một tay với cáp",
+      "steps": [
+        "Đứng nghiêng bên cạnh máy cáp, giữ tay cầm ngang ngực với khuỷu tay co.",
+        "Siết cơ bụng và đẩy tay cầm thẳng ra trước, không xoay thân người.",
+        "Siết cơ ngực khi tay duỗi, rồi từ từ đưa tay cầm về vị trí ban đầu."
+      ],
+      "exercise_id": "0eeaa376-56ef-4418-8292-bab2d89437a2"
+    },
+    {
+      "index": 47,
+      "sourceName": "Cable Standing Straight Leg Glute Kickback",
+      "name": "Đứng đá chân thẳng ra sau với cáp",
+      "steps": [
+        "Dùng đai cổ chân gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy cáp chéo.",
+        "Đẩy cổ chân thẳng ra sau để duỗi khớp hông. Giữ một nhịp đếm khi cảm nhận cơ mông co lại.",
+        "Sau đó gập khớp hông đến khi trở về vị trí ban đầu."
+      ],
+      "exercise_id": "931a6279-4aff-49c4-be44-62403f8458c9"
+    },
+    {
+      "index": 48,
+      "sourceName": "Cable Twisting Curl",
+      "name": "Gập tay xoay cổ tay với cáp",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Quay lưng về phía máy cáp. Đứng chân so le để có điểm tựa vững hơn.",
+        "Bắt đầu với tay nắm trung tính. Gập khuỷu tay và đồng thời xoay lòng bàn tay. Ở vị trí cao nhất, lòng bàn tay hướng lên."
+      ],
+      "exercise_id": "bc1b08e4-f9c7-410d-9d03-ed10053bde6a"
+    },
+    {
+      "index": 49,
+      "sourceName": "Cable Upright Row",
+      "name": "Kéo cáp thẳng đứng",
+      "steps": [
+        "Dùng tay cầm gắn cáp, đặt điểm kéo cáp ở vị trí thấp nhất của máy.",
+        "Kéo khuỷu tay thẳng lên phía trần đến khi tay cầm ở ngay dưới cằm, rồi hạ xuống đến khi khuỷu tay duỗi thẳng hoàn toàn."
+      ],
+      "exercise_id": "8ed267ff-0f6a-4cf5-a8f4-f2f55d323945"
+    },
+    {
+      "index": 51,
+      "sourceName": "Machine Assisted Chin Up",
+      "name": "Kéo xà tay ngửa có máy hỗ trợ",
+      "steps": [
+        "Điều chỉnh mức tạ hỗ trợ. Đứng trên bục, nắm tay cầm phía trên với khoảng cách rộng hơn vai. Đặt đầu gối lên đệm nếu máy có đệm.",
+        "Từ từ kéo người lên đến khi cằm vượt qua xà. Giữ khuỷu tay gần người và siết cơ bụng.",
+        "Hạ người có kiểm soát, dừng lại ở vị trí thấp nhất. Lặp lại theo số lần tập."
+      ],
+      "exercise_id": "25f3042c-cc09-4e30-a942-1299e3d8cca4"
+    },
+    {
+      "index": 53,
+      "sourceName": "Machine Crunch",
+      "name": "Gập bụng trên máy",
+      "steps": [
+        "Đặt bàn chân dưới đệm giữ chân và dùng hai tay nắm tay cầm.",
+        "Gập cột sống để đưa thân trên và thân dưới lại gần nhau."
+      ],
+      "exercise_id": "8c4b7653-a7f9-43fd-bd40-6b1cf22b0cf2"
+    },
+    {
+      "index": 54,
+      "sourceName": "Machine Hamstring Curl",
+      "name": "Nằm co chân tập đùi sau trên máy",
+      "steps": [
+        "Nằm trên máy, đặt chân dưới cần đòn có đệm. Điều chỉnh vị trí chân để đệm nằm dưới vùng cơ bắp chân.",
+        "Nắm tay cầm hai bên máy để giữ vững cơ thể, từ từ dùng chân nâng tạ lên và giữ mũi chân hướng thẳng.",
+        "Dừng lại ở vị trí cao nhất, rồi từ từ trở về vị trí ban đầu."
+      ],
+      "exercise_id": "e7b46baf-4016-4860-99b1-377962693bfa"
+    },
+    {
+      "index": 55,
+      "sourceName": "Machine Hip Abduction",
+      "name": "Mở đùi trên máy",
+      "steps": [
+        "Điều chỉnh máy cho phù hợp chiều cao. Ngồi với lưng tựa phẳng vào đệm, hai chân khép lại.",
+        "Từ từ đẩy hai chân mở ra để thắng lực cản, dừng ở biên độ lớn nhất.",
+        "Từ từ đưa chân về vị trí ban đầu. Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "c82a8216-b679-4212-af98-c0bc7673acb4"
+    },
+    {
+      "index": 56,
+      "sourceName": "Machine Horizontal Leg Press",
+      "name": "Đạp chân trên máy ngang",
+      "steps": [
+        "Đặt chân lên bàn đạp, hai bàn chân rộng bằng vai.",
+        "Mở chốt tạ và duỗi chân hoàn toàn, không khóa đầu gối.",
+        "Hạ tạ đến khi chân tạo góc 90 độ, nhưng KHÔNG để mông và lưng dưới rời khỏi đệm. Điều đó sẽ làm lưng dưới cong tròn và rất nguy hiểm.",
+        "Đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "99bb4d55-8b84-4814-94f0-b4c50ec75982"
+    },
+    {
+      "index": 57,
+      "sourceName": "Machine Horizontal Sissy Leg Press",
+      "name": "Đạp chân kiểu sissy trên máy ngang",
+      "steps": [
+        "Đặt bàn chân ở phần dưới bàn đạp, rộng bằng vai. Nhấc gót chân lên.",
+        "Đẩy bàn đạp và duỗi chân hoàn toàn, không khóa đầu gối.",
+        "Hạ tạ đến khi chân tạo góc 90 độ, nhưng KHÔNG để mông và lưng dưới rời khỏi đệm. Điều đó sẽ làm lưng dưới cong tròn và rất nguy hiểm.",
+        "Đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "4718df10-f021-4bcb-8085-6ab9627d2713"
+    },
+    {
+      "index": 59,
+      "sourceName": "Machine Leg Press",
+      "name": "Đạp chân trên máy",
+      "steps": [
+        "Đặt chân lên bàn đạp, hai bàn chân rộng bằng vai.",
+        "Mở chốt tạ và duỗi chân hoàn toàn, không khóa đầu gối.",
+        "Hạ tạ đến khi chân tạo góc 90 độ, nhưng KHÔNG để mông và lưng dưới rời khỏi đệm. Điều đó sẽ làm lưng dưới cong tròn và rất nguy hiểm.",
+        "Đẩy tạ về vị trí ban đầu."
+      ],
+      "exercise_id": "6f1761b5-86f3-4e10-bd16-6bc16def72c1"
+    },
+    {
+      "index": 60,
+      "sourceName": "Machine Neutral Overhead Press",
+      "name": "Đẩy vai trên máy với tay nắm trung tính",
+      "steps": [
+        "Điều chỉnh ghế ngồi cho phù hợp chiều cao.",
+        "Ép lưng vào đệm tựa.",
+        "Đẩy lên đến khi khuỷu tay gần duỗi thẳng, nhưng chưa duỗi hết.",
+        "Hạ xuống đến khi các bánh tạ gần chạm nhau trở lại."
+      ],
+      "exercise_id": "fa5c039a-0a1f-4bbd-87ee-72ffdaa8b001"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "exercise_id": "8aee4fef-ff5a-481f-a8aa-e25e98010192",
+      "sourceName": "Cable Wrist Extension",
+      "reason": "Source splits at a degree angle across steps and omits the numeric angle."
+    },
+    {
+      "exercise_id": "82cbb629-f8ff-451e-8624-6fb554ea948e",
+      "sourceName": "Machine Assisted Narrow Pull Up",
+      "reason": "Narrow-grip title conflicts with the ambiguous source phrase grip handles above shoulder-width; verify grip in source/video."
+    },
+    {
+      "exercise_id": "b87e6b1b-6800-4998-a22d-1248fe674499",
+      "sourceName": "Machine Leg Extension",
+      "reason": "Source splits at a degree angle across steps and omits the numeric angle."
+    }
+  ],
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Each exercise name and full instruction block was translated and compared with the current captured source. Preserved step order, quantities, equipment, directions, controlled movement and negation. Ambiguous or truncated sources were held for verification."
+}

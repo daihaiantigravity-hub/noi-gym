@@ -1,0 +1,2733 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "preparedAt": "2026-10-23T08:17:57.547Z",
+  "reviewMethod": "Reviewed 28 remaining Bodyweight/uncategorized sources using all 110 available clips (660 chronological frames), 72 supplemental temporal samples and eight original-resolution detail frames. Accepted 27 sources with 106 clips, 636 primary frames, 72 supplemental samples and six detail frames (714 accepted-source frames); deferred the ulnar-nerve tensioner rather than infer hand rotation. Every accepted correction keeps source name, description and step count. Corrections describe observed equipment, support, motion and gender variants, not recovered provider wording. No categories, media, IDs, timestamps, loads, measured angles, sets or repetition counts are changed or inferred.",
+  "databaseStatus": "Applied and verified: 27 source corrections and 27 Vietnamese translations; 1908 reviewed rows, 38 untranslated sources remain.",
+  "restorations": [
+    {
+      "exercise_id": "02340348-9464-4339-a68c-2a4babd72437",
+      "source_id": 198877323338800,
+      "before": {
+        "name": "Frog Crunch",
+        "description": "",
+        "steps": [
+          "Lie on your back, knees bent, hands behind head.",
+          "Crunch up, flexing the spine and your abs."
+        ]
+      },
+      "after": {
+        "name": "Frog Crunch",
+        "description": "",
+        "steps": [
+          "Lie on your back with the soles of your feet together and your bent knees open to the sides. Place your hands behind your head.",
+          "Contract your abs to curl your shoulders and upper back off the floor, then lower under control while keeping your feet together and knees open."
+        ]
+      },
+      "before_hash": "67fc1e99d5915a66454fa011b402923596b66ee62249c0af198c59bf8c95c277",
+      "after_hash": "7066a76a73cb65c2e5ef5db2c5e4761c7314cf207e78e49696c1736533f4f775",
+      "expected_updated_at": "2026-10-14T10:47:25.691821+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/frog-crunch",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders lie supine with soles together and knees open to the sides. Add this missing frog setup and the visible controlled lowering, retaining two blocks.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/198877323338800-front.mp4",
+            "storage_path": "exercises/musclewiki/198877323338800-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.284,
+            "sample_window_seconds": 6.284,
+            "video_sha256": "24b747feb478660ea987cc4438830e70185a3cb98d6632a8cbad0eb08e349d42",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/02340348-9464-4339-a68c-2a4babd72437-front.png",
+            "sample_image_sha256": "ec16221dbf56558f7d361fc81bd9f9e578289107fabd23ce8e5ac981c912f4a4"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/198877323338800-side.mp4",
+            "storage_path": "exercises/musclewiki/198877323338800-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.284,
+            "sample_window_seconds": 6.284,
+            "video_sha256": "bbcb32b868afa2408aaa8e9c357f215930f303f96780993d0ec0f9ae58daf5c6",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/02340348-9464-4339-a68c-2a4babd72437-side.png",
+            "sample_image_sha256": "a3158bb97460b3d77f064fa77c7a2e336722d196f27a05b742d5e21d4a39db40"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/198877323338800-front.mp4",
+            "storage_path": "exercises/musclewiki/female/198877323338800-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 4.834,
+            "sample_window_seconds": 4.834,
+            "video_sha256": "0ed34cbf6a9576b159637d1942e7b52c385c23efe9dce143bd6c260f4c5af4b8",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/02340348-9464-4339-a68c-2a4babd72437-front.png",
+            "sample_image_sha256": "212a28d700dd491b432674a05b4bd54916d5b5aa4d4ad054356a8a61e51c83fe"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/198877323338800-side.mp4",
+            "storage_path": "exercises/musclewiki/female/198877323338800-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 4.834,
+            "sample_window_seconds": 4.834,
+            "video_sha256": "68976c93bd5280c33490cc1c078179cd0e5b7e300d09bc9f858784f2f7f78de5",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/02340348-9464-4339-a68c-2a4babd72437-side.png",
+            "sample_image_sha256": "158833e9c4e0aa4aa5dc7426c3be0201cdaa4fc99cd1ab1ec29c1cb82e7447ba"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/02340348-9464-4339-a68c-2a4babd72437-contact.png",
+            "sha256": "f3636a364691bbbbb20d28a30720e1f55cf871b3b9e86a2cbe878fa898c00b02"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/02340348-9464-4339-a68c-2a4babd72437-contact.png",
+            "sha256": "69766fd8e2f1e2c89c48091b948e83d6a2478383ef5a1c07caf73803ded751a9"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "1244468a-2bcf-4569-87d0-3f0ab747c061",
+      "source_id": 177554052490913,
+      "before": {
+        "name": "Machine Hip And Glute Adduction",
+        "description": "",
+        "steps": [
+          "Stand on the platform and set the pad just over the hip of the working leg.",
+          "Place the working leg over the pad.",
+          "Press your leg inward. Aim to get the longest range of motion possible."
+        ]
+      },
+      "after": {
+        "name": "Machine Hip And Glute Adduction",
+        "description": "",
+        "steps": [
+          "Stand on the machine platform and hold the handles for support. Adjust the roller so it contacts the inside of your working thigh above the knee.",
+          "Keep your supporting foot planted and position your working leg out to the side against the roller.",
+          "Press your working leg inward toward your supporting leg, then return it outward under control while keeping your torso steady."
+        ]
+      },
+      "before_hash": "0142e39ed206f72adb8f60241eefc8e78e044138d974309de934dcd38f761d77",
+      "after_hash": "f5fa2c5a82a3e5628e070f0946e2cbec8f8d279429dac5459326f533f3088185",
+      "expected_updated_at": "2026-10-14T10:47:21.797308+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/machine-hip-and-glute-adduction",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders stand on the platform, hold the handles and place the roller against the inside of the working thigh above the knee. Original-resolution frames establish this contact, distinct from a pad above the hip. The leg starts out to the side and moves inward against the roller, then returns.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/177554052490913-side.mp4",
+            "storage_path": "exercises/musclewiki/177554052490913-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 5.75,
+            "sample_window_seconds": 5.75,
+            "video_sha256": "623da91eabe9747131356fb70e8fed36db3134bad0675a839b9cfa96e9cf2929",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1244468a-2bcf-4569-87d0-3f0ab747c061-side.png",
+            "sample_image_sha256": "f22653716e5f0d1a0418823175004a66c93d48e2e61d60937357a03ef10c3abb"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/177554052490913-front.mp4",
+            "storage_path": "exercises/musclewiki/177554052490913-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 5.75,
+            "sample_window_seconds": 5.75,
+            "video_sha256": "0db0a077ec5f2342c850b06f90b3b8b2b3bbb1ca2d06489a2682ea58095fc325",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1244468a-2bcf-4569-87d0-3f0ab747c061-front.png",
+            "sample_image_sha256": "bca4785f14f25ece4dff49f30be3ca3ce20fa6033df0aa780e8e57d12b934be8"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/177554052490913-front.mp4",
+            "storage_path": "exercises/musclewiki/female/177554052490913-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.317,
+            "sample_window_seconds": 6.317,
+            "video_sha256": "e1be5fd1dac4ececb5ccd59b2cc2c10ad45784dfb55e0c0a4db9151c542dd7d7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1244468a-2bcf-4569-87d0-3f0ab747c061-front.png",
+            "sample_image_sha256": "38bfa248193412637685a54822ccc7820fa7408f333e494eb6f1911d1128f6c2"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/177554052490913-side.mp4",
+            "storage_path": "exercises/musclewiki/female/177554052490913-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.317,
+            "sample_window_seconds": 6.317,
+            "video_sha256": "d6228b2cbd7e66058810bb6db5cf9044cbc0db50cfdf53a227dc646310c408ce",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1244468a-2bcf-4569-87d0-3f0ab747c061-side.png",
+            "sample_image_sha256": "19c21b3beb9f8a8e523e88eaccd1c20dae6bf4176c3665ba8ae55f42cf5500d2"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [
+          {
+            "exercise_id": "1244468a-2bcf-4569-87d0-3f0ab747c061",
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/177554052490913-side.mp4",
+            "duration": 5.75,
+            "at_seconds": 3,
+            "image": "artifacts/localization/stage-17-video-evidence/1244468a-2bcf-4569-87d0-3f0ab747c061-side-detail-3.png",
+            "sha256": "4cce2722116631e009c272c10e719db00efe85fb5ecb3131dd2d17885f1997e2"
+          },
+          {
+            "exercise_id": "1244468a-2bcf-4569-87d0-3f0ab747c061",
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/177554052490913-front.mp4",
+            "duration": 6.317,
+            "at_seconds": 3,
+            "image": "artifacts/localization/stage-17-video-evidence-female/1244468a-2bcf-4569-87d0-3f0ab747c061-front-detail-3.png",
+            "sha256": "a58418756b24b6c5d084013b1acb8f3b0801e330167ac489bf7fab151f726185"
+          }
+        ],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/1244468a-2bcf-4569-87d0-3f0ab747c061-contact.png",
+            "sha256": "fc86abe9aae213e8f64cddcddde1d35018fa533464086d000f0dd04f8af606b4"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/1244468a-2bcf-4569-87d0-3f0ab747c061-contact.png",
+            "sha256": "1d85e55115752141eba6d9b0df2b946579a98d54e49d7cd5c20b2d7422b3e38c"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "1ab4a56e-891e-451d-9eea-1d7fa2a966a5",
+      "source_id": 162868923018165,
+      "before": {
+        "name": "Standing Tibialis Raise",
+        "description": "",
+        "steps": [
+          "Step on the plate, and place barbell on your back.",
+          "Raise your toes straight toward the ceiling.",
+          "Try holding at the top for a few seconds then bring your toes back down to the floor."
+        ]
+      },
+      "after": {
+        "name": "Standing Tibialis Raise",
+        "description": "",
+        "steps": [
+          "Stand with your heels supported on a weight plate and your forefeet extending beyond its edge. Hold a barbell securely across your upper back.",
+          "Keep your heels on the plate and lift your toes and forefeet toward the ceiling.",
+          "Hold briefly at the top, then lower your forefeet back toward the floor under control, keeping your heels supported."
+        ]
+      },
+      "before_hash": "2fd4206389305cd35c7e7449dcc2fa67cc1ea56dde0b66dde394f807350e4f54",
+      "after_hash": "0171d5ca2a70980acd2d2a6c96779250a333d011c3a3c57bea821e84f1653e33",
+      "expected_updated_at": "2026-10-14T10:47:18.033228+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/standing-tibialis-raise",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders support the heels on a plate, with forefeet extending over the edge, and hold a bar across the upper back while lifting the forefeet. Clarify heel support rather than instructing the whole foot to step on the plate; retain the source's nonspecific short hold.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/162868923018165-side.mp4",
+            "storage_path": "exercises/musclewiki/162868923018165-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.534,
+            "sample_window_seconds": 6.534,
+            "video_sha256": "cf866419c252692ce453fe2b2e1e8e1b02317131daec059855ca190c77641d28",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-side.png",
+            "sample_image_sha256": "b3096d183e9b93cdf5f7ed69acf8ca6583dfb66967144563ae264fd3446f59d9"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/162868923018165-front.mp4",
+            "storage_path": "exercises/musclewiki/162868923018165-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.534,
+            "sample_window_seconds": 6.534,
+            "video_sha256": "24f4b68ab9ae7314498998aa90488bb6bfe6c5cd62700e7c242b3f03af3107f7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-front.png",
+            "sample_image_sha256": "e355686c402195b7d3659f387b3bb2c9fe5357fc0f77cc80b31f17e5480ccdfb"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/162868923018165-side.mp4",
+            "storage_path": "exercises/musclewiki/female/162868923018165-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.834,
+            "sample_window_seconds": 6.834,
+            "video_sha256": "c58e7c2db8c2e8b153a1c7b6d087f8bff70311afecc490ead608be377d381838",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-side.png",
+            "sample_image_sha256": "b31363af8cbdd1003cdc6b9947bf721bdca2e962ba8c7b1728e8dbaee9f96414"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/162868923018165-front.mp4",
+            "storage_path": "exercises/musclewiki/female/162868923018165-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.834,
+            "sample_window_seconds": 6.834,
+            "video_sha256": "5fa26ae545302a2e82fd0c7f37217b4a1b08117e16fa8256142dd95ff39d7df9",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-front.png",
+            "sample_image_sha256": "9eb94d5255af76725c8c7a761ce5093b884b6544cd38b61da7f4c1d918ca9216"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-contact.png",
+            "sha256": "92b44183f016fd97ad3555297db389bf28edb6d7dae88d9668138067ed3c1e4a"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/1ab4a56e-891e-451d-9eea-1d7fa2a966a5-contact.png",
+            "sha256": "1c723130031f14a16939133ad4d4c3c379a660b99bda2d88c25decce0bd2833b"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "1ac2a75c-8126-43ec-9329-9cfcf97cfd38",
+      "source_id": 80009045324079,
+      "before": {
+        "name": "Machine Hip Adduction",
+        "description": "",
+        "steps": [
+          "Sit in the machine with your legs apart, pads against your outer thighs. Adjust the seat and pad position comfortably.",
+          "Slowly squeeze your legs together, focusing on using your inner thigh muscles. Pause when the pads are close together.",
+          "Slowly return to the starting position, maintaining control. Avoid letting the weights slam. Repeat for desired reps and sets."
+        ]
+      },
+      "after": {
+        "name": "Machine Hip Adduction",
+        "description": "",
+        "steps": [
+          "Sit in the machine with your legs apart and the pads against your inner thighs near the knees. Adjust the seat and pads to a comfortable starting position.",
+          "Squeeze your legs together against the pads, focusing on your inner thighs, and pause briefly when the pads are close together.",
+          "Return to the starting position slowly without letting the weights slam. Repeat for the desired repetitions and sets."
+        ]
+      },
+      "before_hash": "f46440bf4980aa73d594e37830af8bb6158f1cd358263ef0d59a29cbff3495ba",
+      "after_hash": "9b6ba898372761e437ad6ee553f48b9cb7c63045cda47e7c8e9e2fe4e8cfd297",
+      "expected_updated_at": "2026-10-14T10:47:01.197104+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/machine-hip-adduction",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders use the seated adduction machine with pads against the inner thighs/knees, squeezing inward. Correct only the outer-pad setup while retaining the controlled return and avoidance of slamming the stack.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/80009045324079-front.mp4",
+            "storage_path": "exercises/musclewiki/80009045324079-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 4.5,
+            "sample_window_seconds": 4.5,
+            "video_sha256": "74ca4b27f8c7ea8de33a2ba9d92abd6d04566e40d39e31b4b1a32ff0711fb097",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-front.png",
+            "sample_image_sha256": "1f2627275396d51309634ecd93702c92140cc162d27221137fbfd93311449082"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/80009045324079-side.mp4",
+            "storage_path": "exercises/musclewiki/80009045324079-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 4.5,
+            "sample_window_seconds": 4.5,
+            "video_sha256": "921df8503b795559335bb1fb1a99dd8da3bbbe44db98bd8e4b9f08bef77e7d62",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-side.png",
+            "sample_image_sha256": "f3795c53d241c87c5a8fee5347e862d84b68904f3117e06ad84882605d7d0cc4"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/80009045324079-front.mp4",
+            "storage_path": "exercises/musclewiki/female/80009045324079-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 7.7,
+            "sample_window_seconds": 7.7,
+            "video_sha256": "bd63456633f3b06d88249138bb26d393f28788f71a0a02a3585a5fb949a79470",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-front.png",
+            "sample_image_sha256": "ab6fd2fa6669fc634b82dd9e84f54c29d510cba11a6fd4369be073d5f108dee2"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/80009045324079-side.mp4",
+            "storage_path": "exercises/musclewiki/female/80009045324079-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 7.7,
+            "sample_window_seconds": 7.7,
+            "video_sha256": "c5f0daf31401da1c3ff24a9c2e7578748f055c3769694923dede08bab04c4949",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-side.png",
+            "sample_image_sha256": "a1fb615e298fca3353f6e85b579653b98d19aa3f7574814ccf3d5b181759076e"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-contact.png",
+            "sha256": "7063edd48c3b7f5ac012e0bd409dd230af846fd0134d4c21e2eb43888e33db2e"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/1ac2a75c-8126-43ec-9329-9cfcf97cfd38-contact.png",
+            "sha256": "4855d9eb862c2b7a819e3d1a3840f753aab46bb5ddba115acbf7c7d7d123fe85"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+      "source_id": 265787503621074,
+      "before": {
+        "name": "Big Toe Abduction",
+        "description": "",
+        "steps": [
+          "Sit on a bench with your bare foot on the ground.",
+          "Slightly raise your big toe before trying to move it towards the opposite side (abduction).",
+          "Expect he range of motion is very limited and the movement to be very difficult.",
+          "It helps a lot having your toe on a line as benchmark."
+        ]
+      },
+      "after": {
+        "name": "Big Toe Abduction",
+        "description": "",
+        "steps": [
+          "Sit on a bench with your bare working foot on the floor and your heel supported.",
+          "Lift your big toe slightly and move it sideways away from your other toes, keeping the rest of your foot steady.",
+          "Use a small, controlled movement, then return your big toe to the starting position.",
+          "You can use a line on the floor as a reference for the toe's movement."
+        ]
+      },
+      "before_hash": "9ea02d12e689f487fd0ea1d1f68e4918e0ce2a47057e395d2247fca262e05804",
+      "after_hash": "ab6da7603367383603b5d97867a957854a9792d72d89d99afc6ededf03f81d1b",
+      "expected_updated_at": "2026-10-14T10:47:39.058464+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/big-toe-abduction",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders sit with a bare working foot supported, lift the big toe slightly and separate it from the other toes. Original-resolution paired frames resolve the small movement. Describe direction relative to the other toes, not an undefined opposite side; keep the original line-reference suggestion optional.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/265787503621074-front.mp4",
+            "storage_path": "exercises/musclewiki/265787503621074-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 7.167,
+            "sample_window_seconds": 7.167,
+            "video_sha256": "3ccb7c6a8fc1c5a135495163d26b7eb005832f1f7ee0e9787e3703691357abec",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front.png",
+            "sample_image_sha256": "756618fa5894db0c68ccf8c3b521d8d686f7f5764c989d9a5e8ddc21f99ed8a6"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/265787503621074-side.mp4",
+            "storage_path": "exercises/musclewiki/265787503621074-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 7.167,
+            "sample_window_seconds": 7.167,
+            "video_sha256": "2ece79d00377b0752a3abbaceecbdb9229745d5bc129edb2e3cf5852035e69cc",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-side.png",
+            "sample_image_sha256": "3957984960186cd798f602170ed50a3692fbb9c7f95c088b61dba204b13e254d"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/265787503621074-front.mp4",
+            "storage_path": "exercises/musclewiki/female/265787503621074-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 9.8,
+            "sample_window_seconds": 9.8,
+            "video_sha256": "0f93536e61e760d3ca726a718ff3991026f0466d8b52ff5cf4e7db721e043f4c",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front.png",
+            "sample_image_sha256": "0f2d06f0e61c458f7ca0aba06f9098c99925463c43a54cab222499db60b32ef6"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/265787503621074-side.mp4",
+            "storage_path": "exercises/musclewiki/female/265787503621074-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 9.8,
+            "sample_window_seconds": 9.8,
+            "video_sha256": "7e93120e50f527c9d505760dea4f1a27b3fc916c9ecdcaccffc348df0adf694f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-side.png",
+            "sample_image_sha256": "18a7990e5a3227bcb192134834758b6b9ea2ad65d58f2b612fedc560d1696871"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [
+          {
+            "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/265787503621074-front.mp4",
+            "duration": 7.167,
+            "at_seconds": 1,
+            "image": "artifacts/localization/stage-17-video-evidence/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front-detail-1.png",
+            "sha256": "5971da3d75d99a2afb45b4341f4fb05518b2c6c18adb4b356b133bda4942d2ea"
+          },
+          {
+            "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/265787503621074-front.mp4",
+            "duration": 7.167,
+            "at_seconds": 5,
+            "image": "artifacts/localization/stage-17-video-evidence/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front-detail-5.png",
+            "sha256": "3df46d31216f67f409f7803f60a178ea5be049995bf9e5448fd45326cf116d56"
+          },
+          {
+            "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/265787503621074-front.mp4",
+            "duration": 9.8,
+            "at_seconds": 1,
+            "image": "artifacts/localization/stage-17-video-evidence-female/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front-detail-1.png",
+            "sha256": "ca8f6cdd8a556268f0812abfff72798599746bb90a9b0226b4a8b31b072487e1"
+          },
+          {
+            "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/265787503621074-front.mp4",
+            "duration": 9.8,
+            "at_seconds": 5,
+            "image": "artifacts/localization/stage-17-video-evidence-female/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-front-detail-5.png",
+            "sha256": "cfd3a098b7cd80f9d5b4d1d3a6c5c63b8eb8dea28e82b48bf137990653a875c9"
+          }
+        ],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-contact.png",
+            "sha256": "b59ef9de705c73e50d409dc3c80a5e4230c79316a821a2ff46e3d761592cfb30"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/2f1ce748-9a71-4e2d-8426-a6e2f1675c4d-contact.png",
+            "sha256": "ce754efd02ca81e06197e74ea117314d11ec52f161466f975626e77061c3188e"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "383ce0cd-9e08-495c-9725-a44955247ec1",
+      "source_id": 277110802770001,
+      "before": {
+        "name": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+        "description": "",
+        "steps": [
+          "Bring yourself to a strict push-up position",
+          "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+          "Tap your opposite shoulder with your fingertips.",
+          "Do not tilt or shift your hips. Do not round or arch your back."
+        ]
+      },
+      "after": {
+        "name": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+        "description": "",
+        "steps": [
+          "Start in a high plank with your hands under your shoulders and your arms straight.",
+          "Place your feet about shoulder-width apart. A wider stance provides more support; a narrower stance makes balancing harder.",
+          "Reach one arm forward and lift the opposite leg behind you, then return your hand and foot to the floor and switch sides.",
+          "Keep your hips level and your back steady without rounding or arching throughout the movement."
+        ]
+      },
+      "before_hash": "4bd72c57134dab4e09f56817d711d38143722a2aca9d57cc6d5d0024ef6de423",
+      "after_hash": "bb991c22f5386950e915ba6f140b49e605035393c58a49055d013cac35541e3b",
+      "expected_updated_at": "2026-10-14T10:47:41.350255+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/core-stability-4-crosslateral-limb-raise-push-up-position",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders lift one arm forward and the opposite leg backward from a high plank, then return and switch. Replace the shoulder tap with the actual opposite-limb raise, preserving the existing stance and trunk-stability cues.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/277110802770001-side.mp4",
+            "storage_path": "exercises/musclewiki/277110802770001-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.7,
+            "sample_window_seconds": 6.7,
+            "video_sha256": "1354998ec8ef8b3544aa7e14137c2bea926dce6ea9a05dc42fb5953b8be12680",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/383ce0cd-9e08-495c-9725-a44955247ec1-side.png",
+            "sample_image_sha256": "b01e6d500edd031fcd6c6dbd26055b281d417863e4766de818dbdbb3bc0147f1"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/277110802770001-front.mp4",
+            "storage_path": "exercises/musclewiki/277110802770001-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.7,
+            "sample_window_seconds": 6.7,
+            "video_sha256": "a83d3458d4d6f08a679c80461e7a607085fe255078c81c7a83aee95720c7cd53",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/383ce0cd-9e08-495c-9725-a44955247ec1-front.png",
+            "sample_image_sha256": "68161667a973af76ce2a0fc38c52fd5da1755c741aa3065084150d5ff233cb46"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/277110802770001-front.mp4",
+            "storage_path": "exercises/musclewiki/female/277110802770001-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 8.2,
+            "sample_window_seconds": 8.2,
+            "video_sha256": "8796628c4ba3d906f7e426c155a8c8c025bfe8b7e7aee70b55bde4b10e9f5d7f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/383ce0cd-9e08-495c-9725-a44955247ec1-front.png",
+            "sample_image_sha256": "5496a1ff59c81340a4c6fcaffeeae7467597ea4c37e86af1340697f03054ae4a"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/277110802770001-side.mp4",
+            "storage_path": "exercises/musclewiki/female/277110802770001-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 8.2,
+            "sample_window_seconds": 8.2,
+            "video_sha256": "4ff1b8fffdf660c3e45a8d7f3ad2a5d12d3a25c80b2e5da6a32e10a0c74d3c37",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/383ce0cd-9e08-495c-9725-a44955247ec1-side.png",
+            "sample_image_sha256": "f8ea57e60bc24f54bd2c07a9b40e8f015b994c01d006f04e73ba22f3c99dd74a"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/383ce0cd-9e08-495c-9725-a44955247ec1-contact.png",
+            "sha256": "e686ab17c301bc4eea3346cc0e378161e4f65268a7dc2f5b08b112ee129392f1"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/383ce0cd-9e08-495c-9725-a44955247ec1-contact.png",
+            "sha256": "a42dc67adf192b6bff5277b5d700200b51d5f9271d518e09f7a5baa1f47a82be"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "4afdffa4-fabb-4a73-8878-160d38555407",
+      "source_id": 19389924243878,
+      "before": {
+        "name": "Pole Overhead Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.",
+          "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+          "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+          "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+        ]
+      },
+      "after": {
+        "name": "Pole Overhead Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead with a wide overhand grip and your arms extended.",
+          "Bend your hips and knees to begin the squat, keeping your core engaged and the pole balanced overhead.",
+          "Lower into the squat while keeping the pole overhead, then push through your feet to return to standing.",
+          "Repeat for the desired repetitions, keeping your back straight, chest lifted and the pole steady throughout."
+        ]
+      },
+      "before_hash": "6688152dd3c6c6bb823174c8ea1d07ba89bc392ca3794050f50e821f458bf7f4",
+      "after_hash": "4400778181e02cacd9d7901e640793cb7bfa698e950de9ec35d6c408c65961b9",
+      "expected_updated_at": "2026-10-14T10:46:47.601929+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/pole-overhead-squat",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders hold a light pole overhead in a wide overhand grip throughout the squat. Replace the three copied dumbbell references, retaining four blocks and the existing squat/return sequence.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/19389924243878-front.mp4",
+            "storage_path": "exercises/musclewiki/19389924243878-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 12.667,
+            "sample_window_seconds": 12.667,
+            "video_sha256": "59e9caeca1a9f5aabf12f34c17effdf0ebe2d251195bd38f4f7a7094f19a1881",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/4afdffa4-fabb-4a73-8878-160d38555407-front.png",
+            "sample_image_sha256": "60272cfb55d26569a2877f4dee041919e12e209c9c7b4ec972c65a11088e9e0d"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/19389924243878-side.mp4",
+            "storage_path": "exercises/musclewiki/19389924243878-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 12.667,
+            "sample_window_seconds": 12.667,
+            "video_sha256": "3e8cd8b917b91bb4a9612ec942fce47d2bf2b0f8916f44205245f57e42f83eba",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/4afdffa4-fabb-4a73-8878-160d38555407-side.png",
+            "sample_image_sha256": "94d215dc86de520ea6b3c1c018dd2ce27ecdedb14310f3989f6010a47fc6b0df"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/19389924243878-front.mp4",
+            "storage_path": "exercises/musclewiki/female/19389924243878-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 9.8,
+            "sample_window_seconds": 9.8,
+            "video_sha256": "04a0ea99691cc6f6396da113cd08530d95873a2f89fda3600a374a17b2540199",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/4afdffa4-fabb-4a73-8878-160d38555407-front.png",
+            "sample_image_sha256": "13421a8f94e7f8fc0961695b2af2ab59ae4ee8377340d44bdbaece5ed8a22d6f"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/19389924243878-side.mp4",
+            "storage_path": "exercises/musclewiki/female/19389924243878-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 9.8,
+            "sample_window_seconds": 9.8,
+            "video_sha256": "ae3b32d540ba04b1e8d1f67fd9bc80e963bf98e079d9bd6b90ca31ad324bf2a3",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/4afdffa4-fabb-4a73-8878-160d38555407-side.png",
+            "sample_image_sha256": "d478d4e52750153fff5f2eb6da3644a9df99d2f29d67cdb5d2e8c1c564f4259b"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/4afdffa4-fabb-4a73-8878-160d38555407-contact.png",
+            "sha256": "d0f0f608cc9e0096e4682c2e1fcaa472c8218398593ed2eb47123f1c3a3f4d69"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/4afdffa4-fabb-4a73-8878-160d38555407-contact.png",
+            "sha256": "c7041343909bc137bf3cf40cd46705b553bcabb97d8f40c235b8d2e4b0e633be"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "4dfd84e1-792e-4d3f-9acf-d6cabf5b3115",
+      "source_id": 65290127734165,
+      "before": {
+        "name": "Infinity Loop Standing Hip Mobility",
+        "description": "",
+        "steps": [
+          "From the standing position raise one knee till the thigh is parallel to the ground.",
+          "Bring the knee to your side without rotating the hips.",
+          "The knee drives the movement and the ankle lags slightly behind."
+        ]
+      },
+      "after": {
+        "name": "Infinity Loop Standing Hip Mobility",
+        "description": "",
+        "steps": [
+          "Stand on one leg and hold an upright pole for balance. Raise the other knee in front of you with the thigh near parallel to the floor.",
+          "Guide the raised knee out to the side and back inward in a smooth looping path, keeping your standing foot planted and your torso steady.",
+          "Let the knee lead while the ankle follows, continuing the loop under control before lowering the foot and changing sides."
+        ]
+      },
+      "before_hash": "13adeb855ff422d273c1ed85251ff6fa8b4aed33339761c6e94a7df96fa800fd",
+      "after_hash": "3af716b13398650f4df5bec9f933a939707e79c74c6f43a7629447a92a17ef28",
+      "expected_updated_at": "2026-10-14T10:46:58.597792+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/infinity-loop-standing-hip-mobility",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders stand on one leg, use an upright pole for balance and guide the raised knee through an outward/inward looping path. Add the missing pole support and loop/return while retaining knee-led motion with the ankle following; no exact loop dimensions or new angles are prescribed.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/65290127734165-side.mp4",
+            "storage_path": "exercises/musclewiki/65290127734165-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 13.617,
+            "sample_window_seconds": 13.617,
+            "video_sha256": "7cb0895f27fadf7cd1c4fda9acb08d0d2c7b65d4faf236b8baf230dd8badeebd",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-side.png",
+            "sample_image_sha256": "3cd80214e9f794418db832d9f9cb5779a321b020d7db361de378a067cb228711"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/65290127734165-front.mp4",
+            "storage_path": "exercises/musclewiki/65290127734165-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 13.617,
+            "sample_window_seconds": 13.617,
+            "video_sha256": "30a42c73152069620844eddb8b2224ad8d1409e8b5c489858c3419554e0f45cf",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-front.png",
+            "sample_image_sha256": "2bd82087561e337fe18c441db5a60d5bf7d9416c7523f8ae7846786f609e949c"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/65290127734165-side.mp4",
+            "storage_path": "exercises/musclewiki/female/65290127734165-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 16.92,
+            "sample_window_seconds": 16.92,
+            "video_sha256": "57ed838d8703e224c6a9eb20061846bf467c6f12a014f22ca2e83d1f5dd396bc",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-side.png",
+            "sample_image_sha256": "cd713d6e6f94802820675616be535fd76614aca349905d1a4a28a0eedf4fa53f"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/65290127734165-front.mp4",
+            "storage_path": "exercises/musclewiki/female/65290127734165-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 16.92,
+            "sample_window_seconds": 16.92,
+            "video_sha256": "0d9cda7883f151cfc6d7d28d085a64b2417300e4ba6be7959d50321ba0e0686d",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-front.png",
+            "sample_image_sha256": "5804d7b9466f3cc20773a3143373b07ad8f263b17481afdc0864c1e71e654fbe"
+          }
+        ],
+        "supplemental_samples": [
+          {
+            "exercise_id": "4dfd84e1-792e-4d3f-9acf-d6cabf5b3115",
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/65290127734165-side.mp4",
+            "duration": 13.617,
+            "start_offset_seconds": 0,
+            "sample_window_seconds": 10,
+            "sample_count": 12,
+            "image": "artifacts/localization/stage-17-video-evidence/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-side-supplemental.png",
+            "sha256": "88c9ad69a58e650571d08688fb5426d2a44cbfe8713e9f9f382b0871a3283297"
+          },
+          {
+            "exercise_id": "4dfd84e1-792e-4d3f-9acf-d6cabf5b3115",
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/65290127734165-side.mp4",
+            "duration": 16.92,
+            "start_offset_seconds": 0,
+            "sample_window_seconds": 10,
+            "sample_count": 12,
+            "image": "artifacts/localization/stage-17-video-evidence-female/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-side-supplemental.png",
+            "sha256": "0145aef8f8715d193768bfb1f5a43d7ac1bfd2d2c40f9862ce125ee6c0abd32e"
+          }
+        ],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-contact.png",
+            "sha256": "e97da56c4d9d757a65b561c6db4624b55c11f13c6c58a3d5c6ce94907bc7756f"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/4dfd84e1-792e-4d3f-9acf-d6cabf5b3115-contact.png",
+            "sha256": "92abdf5d2ce342cbfbd1e36432ccd570713dfdc87a43840ca81e867f1a64b196"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "501ab877-2ee3-42e0-a595-68cc39a6fb8e",
+      "source_id": 275445887078288,
+      "before": {
+        "name": "Bosu Serratus Activation Plank",
+        "description": "",
+        "steps": [
+          "Support your weight with your forearms on the bosu and toes on the floor (plank).",
+          "Allow your upper back to sink in between the shoulder blades.",
+          "Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine."
+        ]
+      },
+      "after": {
+        "name": "Bosu Serratus Activation Plank",
+        "description": "",
+        "steps": [
+          "Place the BOSU dome upward. Support yourself with your forearms on the dome and toes on the floor in a plank.",
+          "Keeping your forearms on the BOSU, allow your chest to settle slightly between your shoulder blades without sagging at the hips.",
+          "Press through your forearms into the BOSU to spread your shoulder blades and hold the supported plank with your torso steady."
+        ]
+      },
+      "before_hash": "ede06ef5669e19802e2c585d4fa8eee0cfe1e071d236a70e38a0cf945c43d182",
+      "after_hash": "1792d8dc873d10ff1c5045b3e992be7b45bd389b758840c72f71527e9563703a",
+      "expected_updated_at": "2026-10-14T10:47:41.005999+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bosu-serratus-activation-plank",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders establish a forearm plank on the BOSU dome with toes on the floor. Keep the elbows/forearms on the BOSU throughout the scapular positioning and hold; the original ground-pushing cue does not indicate moving the elbows to the floor.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/275445887078288-side.mp4",
+            "storage_path": "exercises/musclewiki/275445887078288-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 16.15,
+            "sample_window_seconds": 16.15,
+            "video_sha256": "42f7946d7a52ed837954344b9cb2c03eae8ede4fee3275ed2d6610160c17879d",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/501ab877-2ee3-42e0-a595-68cc39a6fb8e-side.png",
+            "sample_image_sha256": "b0c3190a833c74ab88dfbfeed8797c92aff121ce87c5b01c696b65c00980edc2"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/275445887078288-front.mp4",
+            "storage_path": "exercises/musclewiki/275445887078288-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 16.15,
+            "sample_window_seconds": 16.15,
+            "video_sha256": "3ccaeedd1d68a506c83eb1393dcd79cbe2d20c29fe7fcfbbbbf451fd513ba8af",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/501ab877-2ee3-42e0-a595-68cc39a6fb8e-front.png",
+            "sample_image_sha256": "fb4bbc21a19d12e0a1713f3bc1f0944088121b110379a56eef79ab3b2047fd03"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/275445887078288-side.mp4",
+            "storage_path": "exercises/musclewiki/female/275445887078288-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 14.484,
+            "sample_window_seconds": 14.484,
+            "video_sha256": "47af05df14f50e355f06803f2afab6d0e49ad3979be8e2414662c492f726c53d",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/501ab877-2ee3-42e0-a595-68cc39a6fb8e-side.png",
+            "sample_image_sha256": "969e12e3ebe481e7d2898cd7cef4b860103bb1cb0c85ceffea2af1c1bd8ce219"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/275445887078288-front.mp4",
+            "storage_path": "exercises/musclewiki/female/275445887078288-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 14.484,
+            "sample_window_seconds": 14.484,
+            "video_sha256": "fa69d36214af6e98a8fee34c16418fc63a5b86954b6b3a128f3744d6a9d6e145",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/501ab877-2ee3-42e0-a595-68cc39a6fb8e-front.png",
+            "sample_image_sha256": "193c46ede5220cf0fd8f748b9e35e50b7e9fb9f234d7155d6b3f9f25cc89b321"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/501ab877-2ee3-42e0-a595-68cc39a6fb8e-contact.png",
+            "sha256": "8bdc0705a827c932eba5cf275aa8563a528029f8dafb15622b6c166745c5a7f4"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/501ab877-2ee3-42e0-a595-68cc39a6fb8e-contact.png",
+            "sha256": "291b390d69879c4e799a58abe4e9866515facc0ed78e994e3b6e58485592ea68"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "50dd43ed-2d46-41a1-84bc-cc86d67f4341",
+      "source_id": 139341276391319,
+      "before": {
+        "name": "Standing Inversions Hold",
+        "description": "",
+        "steps": [
+          "Stand up straight with a relatively narrow stance.",
+          "Roll your feet out and balance.",
+          "Make sure you do not roll out excessively or you are risking re-injury."
+        ]
+      },
+      "after": {
+        "name": "Standing Inversions Hold",
+        "description": "",
+        "steps": [
+          "Stand upright with your feet fairly close together.",
+          "Gently shift onto the outer edges of your feet so the soles turn inward, and hold your balance.",
+          "Keep the movement small without rolling excessively, then return your feet flat to the floor under control."
+        ]
+      },
+      "before_hash": "200d67d46ea7353214d04eb27a6e970e453cdd78ff59ed5fde1b3204ea45b61c",
+      "after_hash": "29fb279ee59f26200f3434673110f55064b8c037eab064ec74bd8a8206fdd65c",
+      "expected_updated_at": "2026-10-14T10:47:13.3553+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/standing-inversions-hold",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders shift support toward the outer borders of the feet while turning the soles inward. Clarify loaded border versus sole direction, keeping the existing small-range restraint rather than interpreting roll out as eversion.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/139341276391319-front.mp4",
+            "storage_path": "exercises/musclewiki/139341276391319-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 10.75,
+            "sample_window_seconds": 10.75,
+            "video_sha256": "1cfb59355150f0fd1759625918d1df8abd4e6886d64dcf7c19c9c45c0722b0b0",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/50dd43ed-2d46-41a1-84bc-cc86d67f4341-front.png",
+            "sample_image_sha256": "5f48824305a15a4217c81716de6e2e760d2a9c7abf69cb2fd3b34efdb99d4b8e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/139341276391319-side.mp4",
+            "storage_path": "exercises/musclewiki/139341276391319-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 10.75,
+            "sample_window_seconds": 10.75,
+            "video_sha256": "7e03257ec036678eee8f471d78173c73da0b250840da382e0bd7e454b640fab8",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/50dd43ed-2d46-41a1-84bc-cc86d67f4341-side.png",
+            "sample_image_sha256": "18f44cb928bb64ef16cf64ba6f26cc8e14f557099456bc6312a217a61af3b9d7"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/139341276391319-front.mp4",
+            "storage_path": "exercises/musclewiki/female/139341276391319-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 9.367,
+            "sample_window_seconds": 9.367,
+            "video_sha256": "3dd91b960d12239c333dd710a597180c49a088507ee7a4df52808d3a32b24e06",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/50dd43ed-2d46-41a1-84bc-cc86d67f4341-front.png",
+            "sample_image_sha256": "ad2dee626e2dd1b265793d88d22f46cfae470727075b65cdb345c210c269f511"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/139341276391319-side.mp4",
+            "storage_path": "exercises/musclewiki/female/139341276391319-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 9.367,
+            "sample_window_seconds": 9.367,
+            "video_sha256": "f9b3c7d2fd9be8841e4e5cdcb4b046f68d8e96462414f181735a74cd7f1fa5dc",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/50dd43ed-2d46-41a1-84bc-cc86d67f4341-side.png",
+            "sample_image_sha256": "d25d0361423f9379ded3b65f2e5cc79b89dbe8186d8fab60fd9e42593854c051"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/50dd43ed-2d46-41a1-84bc-cc86d67f4341-contact.png",
+            "sha256": "bf0fc5ae732d4e043e38bab4cd37b0ac37d3a55722ad78a1da4c401e1c4c1dd6"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/50dd43ed-2d46-41a1-84bc-cc86d67f4341-contact.png",
+            "sha256": "19a46d5fa7b09bee49070b5eb1c016c68f765c9983fff38474e1807893bc0cde"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "53b8a572-4351-4991-a030-57078465f780",
+      "source_id": 80380500764132,
+      "before": {
+        "name": "Bodyweight Elevated Push Up",
+        "description": "",
+        "steps": [
+          "Start by placing two plates or low boxes on the floor, about shoulder-width apart.",
+          "Position yourself in a plank position with your hands on top of the boxes/plates, keeping your arms straight.",
+          "Keep your feet together, with your toes resting on the floor.",
+          "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells.",
+          "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Elevated Push Up",
+        "description": "",
+        "steps": [
+          "Place two stable boxes on the floor about shoulder-width apart with a gap between them.",
+          "Place one hand on each box and extend your arms into a plank position.",
+          "Keep your legs extended with your toes on the floor and your body aligned.",
+          "Bend your elbows to lower your chest into the gap between the boxes, keeping your core engaged.",
+          "Press through your hands to straighten your arms and return to the starting position."
+        ]
+      },
+      "before_hash": "68a21c1c4bbca3e13cb2ba57b7ba4383a5c3d2f9bb41468d57f142f394b8d13c",
+      "after_hash": "8e5b799e8bc80410dd63c269c0be50d2a1ded701d8df3cecd539c23314e658f8",
+      "expected_updated_at": "2026-10-14T10:47:01.326339+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-elevated-push-up",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders place a hand on each of two boxes and lower the chest between them; no dumbbells are present. Correct the later chest-to-dumbbells cue and describe the actual gap/support without changing the bodyweight setup.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/80380500764132-front.mp4",
+            "storage_path": "exercises/musclewiki/80380500764132-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 8.134,
+            "sample_window_seconds": 8.134,
+            "video_sha256": "3c30ed394c06cf86da2b2ded64e139fcb410d1ff04e646c35b6b30a500ce517b",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/53b8a572-4351-4991-a030-57078465f780-front.png",
+            "sample_image_sha256": "36ca082cd37c3798d85c311e6fda0008f82a204928fdc26ae5e3c0215dae26cf"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/80380500764132-side.mp4",
+            "storage_path": "exercises/musclewiki/80380500764132-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 8.134,
+            "sample_window_seconds": 8.134,
+            "video_sha256": "9858e8bcec2617c5d1f5e166d4f86cacce3223203d7073db7e62188abcc1fe02",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/53b8a572-4351-4991-a030-57078465f780-side.png",
+            "sample_image_sha256": "1ef3019041537b95fc534e7cbe9c7670aeb0fd8026e0ad8aed1188a6bffaa68c"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/80380500764132-side.mp4",
+            "storage_path": "exercises/musclewiki/female/80380500764132-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.434,
+            "sample_window_seconds": 6.434,
+            "video_sha256": "d5eb34d128e654104ae323a21fdaf904d1df8d28f9d5e6e5564af37794733d6f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/53b8a572-4351-4991-a030-57078465f780-side.png",
+            "sample_image_sha256": "50b4f62ba0328ae7adf42eec885c84a1134f04f89eaad32fe90d6a2d9a79c274"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/80380500764132-front.mp4",
+            "storage_path": "exercises/musclewiki/female/80380500764132-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.434,
+            "sample_window_seconds": 6.434,
+            "video_sha256": "c988317a2138d48fe37a36296176f2347c6ff776cb4c24321c476d6564fffda5",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/53b8a572-4351-4991-a030-57078465f780-front.png",
+            "sample_image_sha256": "c0aa915e7c1fcfc60c70bc0560f1394a639a77c62f6484110053b624f2e5063e"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/53b8a572-4351-4991-a030-57078465f780-contact.png",
+            "sha256": "ffdd1a4b1eddfd9ca7f3a98f86ff66d6bd3739ee0a95c357d08d38cbe1148d28"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/53b8a572-4351-4991-a030-57078465f780-contact.png",
+            "sha256": "dbae50326048385503effc505ea2cbfc34c0cbf622d2937be6a7a29f893f17bd"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "559b7383-7829-4a79-b113-385a0991658d",
+      "source_id": 9486734250132,
+      "before": {
+        "name": "Bodyweight Diamond Knee Push Ups",
+        "description": "",
+        "steps": [
+          "Begin in a push-up position with your hands forming a diamond shape under your chest.",
+          "Lower your body, keeping elbows close.",
+          "Push back up to the starting position."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Diamond Knee Push Ups",
+        "description": "",
+        "steps": [
+          "Support yourself on your knees and hands, with your thumbs and index fingers forming a diamond under your chest. Keep your torso aligned from shoulders to knees.",
+          "Bend your elbows to lower your chest toward your hands, keeping your elbows close to your body and your knees on the floor.",
+          "Press through your hands to straighten your arms and return to the starting position."
+        ]
+      },
+      "before_hash": "212951bc9c22632f7e866fa9d70ec2e87e767af2b6af35818cfa7e4a9a50655a",
+      "after_hash": "8e120ccae6967439bb194e37b2ae6f8442fbcdbe4db7217a3f54c20ecbe518d4",
+      "expected_updated_at": "2026-10-14T10:46:45.632529+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-diamond-knee-push-ups",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders use knee support with the lower legs lifted and hands in a diamond under the chest. Add the missing knee support while preserving close-elbow lowering and pressing.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/9486734250132-front.mp4",
+            "storage_path": "exercises/musclewiki/9486734250132-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.584,
+            "sample_window_seconds": 6.584,
+            "video_sha256": "b218d58fb6949a8fad79a6f3f7c8d1cac2d1689e62e40ab3eedef045d7ef1f20",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/559b7383-7829-4a79-b113-385a0991658d-front.png",
+            "sample_image_sha256": "d9ab4272fde7b38e35c556e34dbecd817d04ace48dd8b46c34a37145413f0563"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/9486734250132-side.mp4",
+            "storage_path": "exercises/musclewiki/9486734250132-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.584,
+            "sample_window_seconds": 6.584,
+            "video_sha256": "47f426320d10d258e6bdf22639e235d7be76df1aaad579b72f52b9dae4d353b6",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/559b7383-7829-4a79-b113-385a0991658d-side.png",
+            "sample_image_sha256": "4f9e31f3ea0e8fb4cb9751fe76e33c6ed4e0d90105c514b610db8b11dd280baa"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/9486734250132-front.mp4",
+            "storage_path": "exercises/musclewiki/female/9486734250132-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 9.267,
+            "sample_window_seconds": 9.267,
+            "video_sha256": "0b3cc7b068ffe7d4063844468d207bd8a3d8c0793e60b316a3dfc85b781954f9",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/559b7383-7829-4a79-b113-385a0991658d-front.png",
+            "sample_image_sha256": "2a1d5a1b535aa3b736a6c3a8283dd833e13c3f646875e95f0d29bf0351515ff1"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/9486734250132-side.mp4",
+            "storage_path": "exercises/musclewiki/female/9486734250132-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 9.267,
+            "sample_window_seconds": 9.267,
+            "video_sha256": "479e5451b1f8adddb6fd74689af4b689bfcc8a461d5cf126e3c39e4950799e88",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/559b7383-7829-4a79-b113-385a0991658d-side.png",
+            "sample_image_sha256": "238a65b15a81d5460b09a6dbc37e139d5ae218dbf25b0a31970401faa45ecfbf"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/559b7383-7829-4a79-b113-385a0991658d-contact.png",
+            "sha256": "00b93302b0b85a17f878fcd20cb1ea5b2d9ff3acf8f70dcdd661c0e22535c540"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/559b7383-7829-4a79-b113-385a0991658d-contact.png",
+            "sha256": "f5636a426777573ef3bf44e7cf339ca6a5eb585a5c93ec78ade1b218a66848ac"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "60b4466d-4427-4fa4-92b4-ac3a3a6f7afa",
+      "source_id": 258828132017337,
+      "before": {
+        "name": "Machine Horizontal Leg Press Calf Jump",
+        "description": "",
+        "steps": [
+          "Start with your feet shoulder-width apart and your knees slightly bent.",
+          "Shift your weight onto the balls of your feet and raise stay flat footed. Using your calf muscles, mimic a jumping motion but don't leave the platform.",
+          "Explode onto your toes and hold for a second."
+        ]
+      },
+      "after": {
+        "name": "Machine Horizontal Leg Press Calf Jump",
+        "description": "",
+        "steps": [
+          "Sit in the horizontal leg-press machine with your back against the pad, hands on the handles and feet on the platform about shoulder-width apart, with your knees slightly bent.",
+          "Press briskly through the balls of your feet, extending your ankles and knees to move the seat away from the platform.",
+          "Return under control by bending your knees and bringing your ankles back toward the starting position, then repeat with your back supported."
+        ]
+      },
+      "before_hash": "fbca3baf928449a8f61f377e726f46fad223b53abd9282b9a1ed00cd642497b7",
+      "after_hash": "b871a393c45421eba42940d79a4d10c8e3e58c2973ce2d02556a7ff3fcee25e8",
+      "expected_updated_at": "2026-10-14T10:47:37.627373+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/machine-horizontal-leg-press-calf-jump",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders sit in a horizontal leg-press machine with the back supported, bend the knees on the return and drive through the forefeet into leg/ankle extension. Replace the standing setup and contradictory raise/stay-flat-footed wording. Supplemental first-cycle sequences support a brisk press and controlled return, not a universal one-second top hold or an inferred flight phase.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/258828132017337-front.mp4",
+            "storage_path": "exercises/musclewiki/258828132017337-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.4,
+            "sample_window_seconds": 6.4,
+            "video_sha256": "e9ca151a006b81f20b78a53d40f3524ec8f1e3c937941f25327c1ce69bcad720",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-front.png",
+            "sample_image_sha256": "ed6bf82aa03d4006089fda94595a4bd861728559e6a4c791ebec60701ba77d75"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/258828132017337-side.mp4",
+            "storage_path": "exercises/musclewiki/258828132017337-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.4,
+            "sample_window_seconds": 6.4,
+            "video_sha256": "e13297f8688ce48f1c66d98588e20fa977b873665f186074a1f8930a7f4df49b",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-side.png",
+            "sample_image_sha256": "0a4737d82e093830cb62c9de0457c0c5162e099d146f0379beb01afcd4a531ea"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/258828132017337-side.mp4",
+            "storage_path": "exercises/musclewiki/female/258828132017337-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.7,
+            "sample_window_seconds": 6.7,
+            "video_sha256": "af63cae6dd735442d7ea6260f4de46e66810c62aa95bf39bfac8a61ef902c7ac",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-side.png",
+            "sample_image_sha256": "1f30e65223b8fa56823a67d174a704e9722365e73ea01fd2ea611b52c309227b"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/258828132017337-front.mp4",
+            "storage_path": "exercises/musclewiki/female/258828132017337-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.7,
+            "sample_window_seconds": 6.7,
+            "video_sha256": "1c2a74511f5ddafe643ff472e259f706c498ea5fa0474701e032498a49fe8981",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-front.png",
+            "sample_image_sha256": "d29167e8938943aec89a2e6bff84bfd634f7a22cb4f887759ae9277efdadf7ea"
+          }
+        ],
+        "supplemental_samples": [
+          {
+            "exercise_id": "60b4466d-4427-4fa4-92b4-ac3a3a6f7afa",
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/258828132017337-side.mp4",
+            "duration": 6.4,
+            "start_offset_seconds": 0,
+            "sample_window_seconds": 5,
+            "sample_count": 12,
+            "image": "artifacts/localization/stage-17-video-evidence/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-side-supplemental.png",
+            "sha256": "acad0a5b173f17bac08f38b3d88aa7a45ee0e2a1288f32c94f9d9a1763a02f8b"
+          },
+          {
+            "exercise_id": "60b4466d-4427-4fa4-92b4-ac3a3a6f7afa",
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/258828132017337-side.mp4",
+            "duration": 6.7,
+            "start_offset_seconds": 0,
+            "sample_window_seconds": 5,
+            "sample_count": 12,
+            "image": "artifacts/localization/stage-17-video-evidence-female/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-side-supplemental.png",
+            "sha256": "a1c506fd4a8136747d553bd35cb0c00d342b9d125cbd97bff821e86deecab88f"
+          }
+        ],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-contact.png",
+            "sha256": "792ae0086e537d52e851640acd516b202d2b1eaa7077f9beeeb026a41ce3c423"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/60b4466d-4427-4fa4-92b4-ac3a3a6f7afa-contact.png",
+            "sha256": "0b4057f4e0611057e970d6a3b21781abf14c6b67b3747ba39d0e698ec02d516e"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "6470505a-acd9-4534-9ec4-280af6ded3c8",
+      "source_id": 110330796626419,
+      "before": {
+        "name": "Single Leg Glute Bridge",
+        "description": "",
+        "steps": [
+          "Tense your glutes and raise your hips towards the ceiling.",
+          "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position.",
+          "Push your hips up, so that your butt is elevated and your back straight.",
+          "Lie down with one knee bent and and one with a slight bend."
+        ]
+      },
+      "after": {
+        "name": "Single Leg Glute Bridge",
+        "description": "",
+        "steps": [
+          "Lie on your back with one knee bent and that foot flat on the floor. Keep the other leg raised off the floor and your arms at your sides.",
+          "Squeeze your glutes and push through your planted foot to lift your hips toward the ceiling.",
+          "Hold briefly at the top with your hips raised, keeping your shoulders supported on the floor and the other leg lifted.",
+          "Lower your hips under control to the starting position, then repeat and change sides."
+        ]
+      },
+      "before_hash": "e96a2632bddaad1f97a754f2b68621b4dc96a6b1df15d8e94b63469535dab4d2",
+      "after_hash": "f66688a93ed07413efb2fab8e6e3eb10cbc8a62d491b9175be93197973e9696e",
+      "expected_updated_at": "2026-10-14T10:47:07.94396+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/single-leg-glute-bridge",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders lie supine with one foot planted and the other leg raised; the free leg angle differs, so no fixed angle is added. Put setup before the lift and separate lift, hold and lowering in four blocks rather than retaining the scrambled duplicate lifting cues.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/110330796626419-side.mp4",
+            "storage_path": "exercises/musclewiki/110330796626419-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 4.75,
+            "sample_window_seconds": 4.75,
+            "video_sha256": "f32621bc5b8068ac9df51cc2e725cc3cb54371ee97ba7f8d7813c49c5d11b0a1",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/6470505a-acd9-4534-9ec4-280af6ded3c8-side.png",
+            "sample_image_sha256": "6207c171494866a5941b23e26501d7dcd384b83cc10492659911128d2262fd60"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/110330796626419-front.mp4",
+            "storage_path": "exercises/musclewiki/110330796626419-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 4.75,
+            "sample_window_seconds": 4.75,
+            "video_sha256": "190d21216761c469e07611de8b2748a7ef77fddf79e0388370236789180301e6",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/6470505a-acd9-4534-9ec4-280af6ded3c8-front.png",
+            "sample_image_sha256": "466bdfdb19a21668e8280a34102aa2737fff9c6f301cc64359e69c4543d2bc1f"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/110330796626419-side.mp4",
+            "storage_path": "exercises/musclewiki/female/110330796626419-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 4.5,
+            "sample_window_seconds": 4.5,
+            "video_sha256": "e60bb2705acc0693145af148072d32d5656e9c66cfc1fab97b7c90ed3cf8c9ea",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/6470505a-acd9-4534-9ec4-280af6ded3c8-side.png",
+            "sample_image_sha256": "94aa127cb015151d433e2b60bd6edf36d42f32aa3fabe3c77696bd4e0a49be8b"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/110330796626419-front.mp4",
+            "storage_path": "exercises/musclewiki/female/110330796626419-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 4.5,
+            "sample_window_seconds": 4.5,
+            "video_sha256": "8297eb5ceae01a23bbf14a83935b4982df7c13bbb2170ce13ae9419465f17a0b",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/6470505a-acd9-4534-9ec4-280af6ded3c8-front.png",
+            "sample_image_sha256": "1684a22d17238252d6fe18745db08310ce1c490ae09fdfd3452b71eaa6e520d0"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/6470505a-acd9-4534-9ec4-280af6ded3c8-contact.png",
+            "sha256": "ad0c68a7ce17a8fe127150aaeac2a55ce6f7d9bc99db3f4849eb09c5a8fbc4c2"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/6470505a-acd9-4534-9ec4-280af6ded3c8-contact.png",
+            "sha256": "d7dcfc388b4d9dd1f33f3dca9e7b6bb97f7392a151718183712288c84884b187"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "7e733fad-2449-473a-9804-f0e945842806",
+      "source_id": 34705340638994,
+      "before": {
+        "name": "Bodyweight Hanging L Sit",
+        "description": "",
+        "steps": [
+          "Grip bar, hang with arms extended, body straight.",
+          "Engage core, lift knees towards chest.",
+          "Hold that position for the specified amount of time."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Hanging L Sit",
+        "description": "",
+        "steps": [
+          "Grasp the overhead bar and hang with your arms extended.",
+          "Engage your core and raise your thighs in front of you, keeping your knees bent as shown in the demonstrations.",
+          "Hold the bent-knee position for the intended duration while keeping your torso steady."
+        ]
+      },
+      "before_hash": "3e0e5ab8899b7c4115a1dad9416159f379145c82f8d49ad4d7edc294bbdbcbe4",
+      "after_hash": "3906fc4117102034844c375064a790cbe8927ed80c5d6f02de430fd7ddf4bd86",
+      "expected_updated_at": "2026-10-14T10:46:50.808917+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-hanging-l-sit",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders demonstrate a bent-knee hanging hold, not a straight-leg L-sit. Clarify the observed bent-knee variant while retaining source identity; the Vietnamese name explicitly says bent knees rather than silently prescribing straight legs.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/34705340638994-front.mp4",
+            "storage_path": "exercises/musclewiki/34705340638994-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 3.75,
+            "sample_window_seconds": 3.75,
+            "video_sha256": "3b618cc74e92287f076428d7bba50c45b2785f7d5f3f0c6e20e26a350a3a3a70",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/7e733fad-2449-473a-9804-f0e945842806-front.png",
+            "sample_image_sha256": "5294bfcaec94f4d7db6acd1c194d11a46ebf6141f3b3db9de91809d91ef140cc"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/34705340638994-side.mp4",
+            "storage_path": "exercises/musclewiki/34705340638994-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 3.75,
+            "sample_window_seconds": 3.75,
+            "video_sha256": "13ac1aa0b64d74bcc27216ab979c43c9529e5c5aac056d7774ca3d0002a4e1a7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/7e733fad-2449-473a-9804-f0e945842806-side.png",
+            "sample_image_sha256": "79ed93d70f8557c7891806e9dab6bcef60b79b54670c50622a359f9ada40a9d5"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/34705340638994-front.mp4",
+            "storage_path": "exercises/musclewiki/female/34705340638994-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 4.334,
+            "sample_window_seconds": 4.334,
+            "video_sha256": "213fbad82f570fe04c6681636b19c3e90887721b67990957423d16c6eb7c528b",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/7e733fad-2449-473a-9804-f0e945842806-front.png",
+            "sample_image_sha256": "dd210a2c3768d486e19e5a6ec2173300859c96f1c5909ecb7dd702c99f194ca9"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/34705340638994-side.mp4",
+            "storage_path": "exercises/musclewiki/female/34705340638994-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 4.334,
+            "sample_window_seconds": 4.334,
+            "video_sha256": "dcda497d1017c3d942038ba97f1fabe69ba69fc2444bc5ca0343d76b270752b1",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/7e733fad-2449-473a-9804-f0e945842806-side.png",
+            "sample_image_sha256": "8e223df31e96fbba372150f3bfe42961455cac935622539bd82af550f7c2feca"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/7e733fad-2449-473a-9804-f0e945842806-contact.png",
+            "sha256": "b873ca80c2eaacc71f6e9f662ef3dcf65ffef836db4ac5f414cb0c8f46eb714e"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/7e733fad-2449-473a-9804-f0e945842806-contact.png",
+            "sha256": "083d15036334925eec4f8bbc883ae611d00a5721f05a321815c09a5889a38a97"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "82bd72ae-7d93-492d-8fe7-4e64f8006689",
+      "source_id": 211986485241312,
+      "before": {
+        "name": "Reverse Crunch",
+        "description": "",
+        "steps": [
+          "Sit in a v position.",
+          "Pull legs and torso together.",
+          "Extend back into the starting position."
+        ]
+      },
+      "after": {
+        "name": "Reverse Crunch",
+        "description": "",
+        "steps": [
+          "Sit on a stable box with your arms crossed over your chest, lean your torso back and lift your feet off the floor.",
+          "Bring your bent knees and torso toward each other while balancing on the box.",
+          "Extend your legs forward and lean your torso back under control to return to the starting position, keeping your feet raised."
+        ]
+      },
+      "before_hash": "c4bf86d35be2fc482d5de3708c1a758a1ebd195746da48df33279af4a2257425",
+      "after_hash": "14219608ebc9e8d9a53a5c770d4e23f888e05680cca492499dc6b07d81b3ddc9",
+      "expected_updated_at": "2026-10-14T10:47:28.083543+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/reverse-crunch",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders sit on a box, cross the arms over the chest, keep feet raised and bring bent knees and torso together before extending apart. Establish the visible box-supported seated variant rather than rewriting it as a supine reverse crunch from the title.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/211986485241312-front.mp4",
+            "storage_path": "exercises/musclewiki/211986485241312-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 7.6,
+            "sample_window_seconds": 7.6,
+            "video_sha256": "ad21c5cfc749099ccb0c9f5fd68e44defbcb14ac78cd9a076469721205b2a8a7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/82bd72ae-7d93-492d-8fe7-4e64f8006689-front.png",
+            "sample_image_sha256": "be02a7700adee8939eaf0d5418777c8f5c83de463cece3b100eff7d682ca231c"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/211986485241312-side.mp4",
+            "storage_path": "exercises/musclewiki/211986485241312-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 7.6,
+            "sample_window_seconds": 7.6,
+            "video_sha256": "f697b0496c6e0daeb40885709a970b2828b140def759f1fd631a8849e60caf67",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/82bd72ae-7d93-492d-8fe7-4e64f8006689-side.png",
+            "sample_image_sha256": "b134af7ba51696ffdcbfe591d8641499987d0b330e81c9b4d2a0602a42bbb04e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/211986485241312-front.mp4",
+            "storage_path": "exercises/musclewiki/female/211986485241312-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 13.75,
+            "sample_window_seconds": 13.75,
+            "video_sha256": "b31cff33a65f3aca7bbd713186ff728986ea92a5ee3785e5bdbda90bc5d0bcc6",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/82bd72ae-7d93-492d-8fe7-4e64f8006689-front.png",
+            "sample_image_sha256": "16739a38776d789af53f623a94d8ed1b4cb7a4f6863670b2f85013248ab28b88"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/211986485241312-side.mp4",
+            "storage_path": "exercises/musclewiki/female/211986485241312-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 13.75,
+            "sample_window_seconds": 13.75,
+            "video_sha256": "a4a8dee31bced81a639a7581b362e7222d2d3a4904792b2fba31bebd02251483",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/82bd72ae-7d93-492d-8fe7-4e64f8006689-side.png",
+            "sample_image_sha256": "c3a8e30f01a13b3b6f59de0f480dbab693585f55b551bb2d9a1c24e559257204"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/82bd72ae-7d93-492d-8fe7-4e64f8006689-contact.png",
+            "sha256": "a93e3ee2e584777927aaac99eddd66012bb91ff468fb46bc3e2e77fff797167d"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/82bd72ae-7d93-492d-8fe7-4e64f8006689-contact.png",
+            "sha256": "9de6885cc7f465dc82d3f3ef1ac31eee960e3d5b8cc2ef326b476611dee734a3"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "8e9130d2-6d82-4dd6-9516-0f4167862fed",
+      "source_id": 127912152785679,
+      "before": {
+        "name": "Bodyweight Feet Elevated Figure Four Glute Bridge",
+        "description": "",
+        "steps": [
+          "Start by lying on your back with your knees bent and feet on top of a sturdy box, bench or elevated surface.",
+          "Drive through your heels to lift your hips off the floor, making sure to keep your feet and knees pointing forward."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Feet Elevated Figure Four Glute Bridge",
+        "description": "",
+        "steps": [
+          "Lie on your back with your arms at your sides. Rest one heel on a stable box with that knee bent, and cross the opposite ankle over the supporting thigh.",
+          "Push through the supported heel to lift your hips, keeping your shoulders on the floor and the other leg crossed. Lower your hips under control and repeat before changing sides."
+        ]
+      },
+      "before_hash": "9f38640add456dc056b1f4f3dd6d1eda828fd46351cbe17a5a1d3e05aa0d8999",
+      "after_hash": "e9576b2ae78c10425182d2c7f13f5189a806c25aee66e733f1e37b1fb05bf88a",
+      "expected_updated_at": "2026-10-14T10:47:11.754999+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-feet-elevated-figure-four-glute-bridge",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female"
+        ],
+        "identity_source": {
+          "file": "scripts/migration/data/female/musclewiki-female-import.json",
+          "sha256": "86de06a23f47bb1ea7ff0c0d6855f3e4dd23886dfe098c9c8354afc9de3d20c8",
+          "pointer": "/results/1216",
+          "source_url": "https://musclewiki.com/exercise/bodyweight-feet-elevated-figure-four-glute-bridge",
+          "female_source_url": "https://musclewiki.com/exercise/bodyweight-feet-elevated-figure-four-glute-bridge?model=f"
+        },
+        "observation": "Female-only clips show the upper back on the floor, one heel supported on a box and the opposite ankle crossed over the supporting thigh. Add this figure-four single-foot support and the lowering phase, keeping two blocks and no external load.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/127912152785679-front.mp4",
+            "storage_path": "exercises/musclewiki/female/127912152785679-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 10.134,
+            "sample_window_seconds": 10.134,
+            "video_sha256": "63ccc103bfda97007e9952abf054b914fd50c306dc30d0109bea0a7e31025916",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/8e9130d2-6d82-4dd6-9516-0f4167862fed-front.png",
+            "sample_image_sha256": "c857328de46fcf9148f7ca16e640a1cc0bbef4564d985e3c233e84f09d08c31a"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/127912152785679-side.mp4",
+            "storage_path": "exercises/musclewiki/female/127912152785679-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 10.134,
+            "sample_window_seconds": 10.134,
+            "video_sha256": "08c4426f4f8c2621a5edad38dd689625874bf045b3c92cfcafd73f5e60db2602",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/8e9130d2-6d82-4dd6-9516-0f4167862fed-side.png",
+            "sample_image_sha256": "2c5756ce0dfb873ad83de7e11cc560e7889d9e03af28c5e9ee7362f172d777d2"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/8e9130d2-6d82-4dd6-9516-0f4167862fed-contact.png",
+            "sha256": "e055294e401ae8cbc01b97967e748ab010c5bc5fbafb8f9fc9ed8e9f35dc4af8"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "a574adcf-5d2a-4a36-9cda-536c5412e009",
+      "source_id": 112818505008395,
+      "before": {
+        "name": "Box Dips",
+        "description": "",
+        "steps": [
+          "Hold your body with arms locked above the equipment",
+          "Lower your body slowly while leaning forward, flare out your elbows",
+          "Raise your body above the bars until your arms are locked."
+        ]
+      },
+      "after": {
+        "name": "Box Dips",
+        "description": "",
+        "steps": [
+          "Place one hand on each of two stable boxes beside your body. Support yourself with your arms extended, knees bent and feet off the floor.",
+          "Bend your elbows to lower your body between the boxes under control, keeping your hands in place.",
+          "Press through your hands to straighten your elbows and raise your body back to the starting position."
+        ]
+      },
+      "before_hash": "f4ecbc4c2bb7b0fa58b9374346eba0c98b20423c63cc193d01610bcc2e789145",
+      "after_hash": "e03d1a78528ca6c00db0628e16f2799bd7860e4fc0d160ac2440fb0fe7b6694b",
+      "expected_updated_at": "2026-10-14T10:47:08.39244+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/box-dips",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders support a hand on each of two boxes beside the body, with knees bent and feet lifted. Replace the bar reference with the actual box supports; describe elbow bending without importing an unverified flared-elbow instruction.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/112818505008395-front.mp4",
+            "storage_path": "exercises/musclewiki/112818505008395-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 4.417,
+            "sample_window_seconds": 4.417,
+            "video_sha256": "c34203777840b8fc4687ab324ba81500212f58c18901a05e250eed89d88faa0d",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/a574adcf-5d2a-4a36-9cda-536c5412e009-front.png",
+            "sample_image_sha256": "d77059f5ee28845ed01cc68631280fdbd3be801632ec0ec803664916a1789638"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/112818505008395-side.mp4",
+            "storage_path": "exercises/musclewiki/112818505008395-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 4.417,
+            "sample_window_seconds": 4.417,
+            "video_sha256": "ee8d4c65570b31574abd4a8264d1f09d5c70c79de407c7b8a54e33936201b1a7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/a574adcf-5d2a-4a36-9cda-536c5412e009-side.png",
+            "sample_image_sha256": "96a4f5977bf55cb920cd217e2b5a8105ee902676afd71df9f4d8690836793f5e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/112818505008395-front.mp4",
+            "storage_path": "exercises/musclewiki/female/112818505008395-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 5.734,
+            "sample_window_seconds": 5.734,
+            "video_sha256": "02d887cbf80055b78642033951107e9d76581c988b63cea3c8d13441881168c4",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/a574adcf-5d2a-4a36-9cda-536c5412e009-front.png",
+            "sample_image_sha256": "cc03ae79ea329eb35e4e0dc987093adaba7c9a941918f151a0b53e4b33011d3a"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/112818505008395-side.mp4",
+            "storage_path": "exercises/musclewiki/female/112818505008395-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 5.734,
+            "sample_window_seconds": 5.734,
+            "video_sha256": "3b4a5c981c6b1cb6b712e826528ce5282b389a9038494414bdd0b84584c1e30f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/a574adcf-5d2a-4a36-9cda-536c5412e009-side.png",
+            "sample_image_sha256": "a1df0344f047e4dd84c48983658d14cf86feb79a8b06ae8f215da084db04cebb"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/a574adcf-5d2a-4a36-9cda-536c5412e009-contact.png",
+            "sha256": "5dda82d6dc9d23336e1eaafd77bdf32cdde5cd730ac6dfeb77db7d2c25db22dd"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/a574adcf-5d2a-4a36-9cda-536c5412e009-contact.png",
+            "sha256": "d1d790d1c0d8d8848609494a7b755f251804e00a6e83ed991c324fd1a4d438b1"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "b437e1ea-8762-4122-87e8-34d06576e34e",
+      "source_id": 181506875447260,
+      "before": {
+        "name": "Leg Lowers",
+        "description": "",
+        "steps": [
+          "Lie on your back. Raise your legs but bend your knees",
+          "Keep a 90° angle at hips and knees. Lower your toes to the ground without bending your knees",
+          "Make sure you maintain a flat lower back against the ground throughout the movement."
+        ]
+      },
+      "after": {
+        "name": "Leg Lowers",
+        "description": "",
+        "steps": [
+          "Lie on your back with your legs raised and your hips and knees bent to about 90 degrees, with your arms at your sides.",
+          "Keep your knees bent as you lower your toes toward the floor, then lift back to the starting position. The male demonstration alternates legs; the female demonstration lowers both together.",
+          "Keep your lower back flat against the floor and your torso steady throughout the movement."
+        ]
+      },
+      "before_hash": "7a7b826e16bb2a1932aba2398c8953ba31fd8af0129d16cb05deac63f3f66afa",
+      "after_hash": "97effd98ba9c0424973f35c98bfcf0bac245da83c6f7451e966c4ae78de202ec",
+      "expected_updated_at": "2026-10-14T10:47:22.652203+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/leg-lowers",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders start supine with bent hips/knees; the male lowers one leg at a time while the female lowers both together. Move the original 90-degree cue to setup, keep knees bent as the hip angle changes, and describe both demonstrated variations without claiming fixed hips throughout.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/181506875447260-side.mp4",
+            "storage_path": "exercises/musclewiki/181506875447260-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 9.584,
+            "sample_window_seconds": 9.584,
+            "video_sha256": "fe3016dce171f7b9af5d5dca253393599023e5e14e4ed963da896982bde9a58c",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/b437e1ea-8762-4122-87e8-34d06576e34e-side.png",
+            "sample_image_sha256": "e31d7fa3ba7e55167f7121271fd0b73aa5d4e1b3021be468105836aa98b62cf6"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/181506875447260-front.mp4",
+            "storage_path": "exercises/musclewiki/181506875447260-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 9.584,
+            "sample_window_seconds": 9.584,
+            "video_sha256": "fe24ea3cc639878f308b999c9a22902eeee8fe6c38e5b95e75d94b5c69e6a9fe",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/b437e1ea-8762-4122-87e8-34d06576e34e-front.png",
+            "sample_image_sha256": "54e2b9b31f35f2060b40691d92eb3b1d7c426df11e9547c00a64cc8e0caffcd4"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/181506875447260-side.mp4",
+            "storage_path": "exercises/musclewiki/female/181506875447260-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 13.267,
+            "sample_window_seconds": 13.267,
+            "video_sha256": "49fd68b84d1f121067d314bb26f62d13ce8ae3b5f93dbd0458c99eb3aa3232b9",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/b437e1ea-8762-4122-87e8-34d06576e34e-side.png",
+            "sample_image_sha256": "ac86a42211dc086d180f0693f77cfa2c75c51355bc7ad52dd63101928b44817e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/181506875447260-front.mp4",
+            "storage_path": "exercises/musclewiki/female/181506875447260-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 13.267,
+            "sample_window_seconds": 13.267,
+            "video_sha256": "c9c5801c68ded1dde7608c1ca07b2b6bf454bf9b0511109c5ed1cba3e0e92587",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/b437e1ea-8762-4122-87e8-34d06576e34e-front.png",
+            "sample_image_sha256": "4da47544abcb9e953217b64a0eb252c7ae29ea66c921520518f0ffbb52919354"
+          }
+        ],
+        "supplemental_samples": [
+          {
+            "exercise_id": "b437e1ea-8762-4122-87e8-34d06576e34e",
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/181506875447260-front.mp4",
+            "duration": 9.584,
+            "start_offset_seconds": 0.7986666666666666,
+            "sample_window_seconds": 8.785333333333334,
+            "sample_count": 6,
+            "image": "artifacts/localization/stage-17-video-evidence/b437e1ea-8762-4122-87e8-34d06576e34e-front-supplemental.png",
+            "sha256": "cd0e20fcca6dfef382f1b88295a3cfd269ef3e00aed72361172523cad56f8033"
+          },
+          {
+            "exercise_id": "b437e1ea-8762-4122-87e8-34d06576e34e",
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/181506875447260-front.mp4",
+            "duration": 13.267,
+            "start_offset_seconds": 1.1055833333333334,
+            "sample_window_seconds": 12.161416666666666,
+            "sample_count": 6,
+            "image": "artifacts/localization/stage-17-video-evidence-female/b437e1ea-8762-4122-87e8-34d06576e34e-front-supplemental.png",
+            "sha256": "a825cfff391cae35b2d1d651e811f121cf328a6e07866855b95e979faef83776"
+          }
+        ],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/b437e1ea-8762-4122-87e8-34d06576e34e-contact.png",
+            "sha256": "1a64df6c3f959828c4a6d620f87a0a1d23421b7f1aff116e9dcbb49ff52f97c4"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/b437e1ea-8762-4122-87e8-34d06576e34e-contact.png",
+            "sha256": "eb95f5837d0e9ae0f3aee0baedaaea70a5363848b993e25eeddebc6e23febcb5"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "b6989ab4-e390-4217-a9a5-d1e5e89e4bee",
+      "source_id": 211950085458276,
+      "before": {
+        "name": "Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Step your left foot diagonally behind your right leg, crossing it behind your body. Bend your knees and lower your hips until your left thigh is parallel to the floor and your right knee is hovering just above the ground.",
+          "Push through your right foot to straighten your legs and return to the starting position.",
+          "Repeat the movement with your other leg."
+        ]
+      },
+      "after": {
+        "name": "Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Step your left foot diagonally behind your right leg. Bend your knees and lower your hips so your front right thigh approaches parallel to the floor and your rear left knee moves toward the floor.",
+          "Push through your right foot to straighten your legs and return to the starting position.",
+          "Repeat the movement with your other leg crossing behind."
+        ]
+      },
+      "before_hash": "54152dab61a2d4cdcb98e5c290c66dfc1126a1134b6b96cbce079cf0fdc076af",
+      "after_hash": "db341803ca8403bc53de2499e56bda33ffaed5d4d3b205cd6897577ab7587281",
+      "expected_updated_at": "2026-10-14T10:47:28.064294+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/curtsy-lunge",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders cross the rear leg behind the planted front leg. Retain the source's left-behind-right example but correct the reversed thigh/knee roles: right thigh is forward and left knee lowers toward the floor. Return through the original right supporting foot.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/211950085458276-side.mp4",
+            "storage_path": "exercises/musclewiki/211950085458276-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 6.067,
+            "sample_window_seconds": 6.067,
+            "video_sha256": "c937cf175e2b33053953618358f3bb1bcc21b09581789cee448f70b753697a6e",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-side.png",
+            "sample_image_sha256": "f6d3743225533ba7156b8022c4b73670e85dadf659c48e0165283ba242175dee"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/211950085458276-front.mp4",
+            "storage_path": "exercises/musclewiki/211950085458276-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 6.067,
+            "sample_window_seconds": 6.067,
+            "video_sha256": "175c4c7a2eec876d890d0d4a8f378c6f529cca0c4566f27a4ba1d7c461de364f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-front.png",
+            "sample_image_sha256": "4f91468eb61ea60f2424b81cadd22d98d20b4dcdf274f5481342d29cca4016e7"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/211950085458276-side.mp4",
+            "storage_path": "exercises/musclewiki/female/211950085458276-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.35,
+            "sample_window_seconds": 6.35,
+            "video_sha256": "8c40d44559f0a420ee43c315a0d85e3d8c39a2de614d0178ab72b56e51b79f15",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-side.png",
+            "sample_image_sha256": "3f5cfaa581a44376df026b59b6e3c3c64884647b64f29ae2d1d4f74b44edd2ad"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/211950085458276-front.mp4",
+            "storage_path": "exercises/musclewiki/female/211950085458276-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.35,
+            "sample_window_seconds": 6.35,
+            "video_sha256": "28b76fdc3b3babef0d1da4948249ba4a0e52b2bbf86377f849da44728ccf95f1",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-front.png",
+            "sample_image_sha256": "d1dd71af22d03d24857d2af442bb86a0994c1d0912f90ec5a5e03b4c47526ddc"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-contact.png",
+            "sha256": "bae41e8a21b42ae27717f63013e77e81bc00497a9b6b9dd575952dbebba94240"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/b6989ab4-e390-4217-a9a5-d1e5e89e4bee-contact.png",
+            "sha256": "8aacd62fb966ffc9bdb70b45504030378d7ebc38fe3f3a69cdcf36f6d74a3771"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "c8597094-227f-4852-940e-463eba41bd01",
+      "source_id": 65065140484801,
+      "before": {
+        "name": "Bodyweight Pulse Squat",
+        "description": "",
+        "steps": [
+          "Hold a dumbbell in goblet position.",
+          "Squat down to parallel depth and then halfway back up.",
+          "Stay in this short range of motion for the duration of the set."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Pulse Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet about shoulder-width apart and hold your empty hands together in front of your chest.",
+          "Squat down toward parallel, then rise only partway back up.",
+          "Continue moving up and down within this short range for the duration of the set."
+        ]
+      },
+      "before_hash": "f58a68f4fdf67886b7d25524af48bc2aa7a8d9eaa5735dc64c0bceeedb0b4fc2",
+      "after_hash": "0f10319870dee27abab1ff5d219fe369a0a8325b638156d30903b37dad91509c",
+      "expected_updated_at": "2026-10-14T10:46:58.592452+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-pulse-squat",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders keep empty hands together in front of the chest and pulse in a short squat range, with no dumbbell. Replace the required goblet load while retaining the original parallel/halfway-up pulse instruction.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/65065140484801-front.mp4",
+            "storage_path": "exercises/musclewiki/65065140484801-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 11.95,
+            "sample_window_seconds": 11.95,
+            "video_sha256": "600d940d6cea954c54e4ba1e4973923c529ba1703392accb6cc3545f95991cb2",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/c8597094-227f-4852-940e-463eba41bd01-front.png",
+            "sample_image_sha256": "eadbe787fe309b36fb4ef301603c5ccd539b85335705a5ed6108210c6ae7abac"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/65065140484801-side.mp4",
+            "storage_path": "exercises/musclewiki/65065140484801-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 11.95,
+            "sample_window_seconds": 11.95,
+            "video_sha256": "9ad825383d844f481b807665411d0f88a15adddacabd360620e82a12c72b9ba8",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/c8597094-227f-4852-940e-463eba41bd01-side.png",
+            "sample_image_sha256": "de19df08e0826ec4121b9a752aa1881d07d801e901f8c45c077108249de2c3d8"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/65065140484801-front.mp4",
+            "storage_path": "exercises/musclewiki/female/65065140484801-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 11.2,
+            "sample_window_seconds": 11.2,
+            "video_sha256": "63ce7e895dfaa4fbe2c53b28426cff5f9a537f58952d2017290fa9cdf30bb4de",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/c8597094-227f-4852-940e-463eba41bd01-front.png",
+            "sample_image_sha256": "0b992d85d5aae9448a6e2bf0cd4c34b903606d9368909d1d3a569fdda08e180e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/65065140484801-side.mp4",
+            "storage_path": "exercises/musclewiki/female/65065140484801-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 11.2,
+            "sample_window_seconds": 11.2,
+            "video_sha256": "9db8476d64b81efef46b55b660c8f7f0d94cc645b4f409e8fd5a73b9dd664926",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/c8597094-227f-4852-940e-463eba41bd01-side.png",
+            "sample_image_sha256": "690f93fb69f089d73ae182baecf63517b6f9cffc1af61f5cc58bfc3e10fe1f70"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/c8597094-227f-4852-940e-463eba41bd01-contact.png",
+            "sha256": "2939adb70da83faa5b50e35ac16766fb236011333f6cb9838c72a07cd9b1fdf4"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/c8597094-227f-4852-940e-463eba41bd01-contact.png",
+            "sha256": "0d0c51150cd89c88cf6299af79d1e2622f30e31ff4bfa6e088fc5ebfc8bef929"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "d4c54a65-33e5-44df-a438-3e124353263c",
+      "source_id": 222896604904592,
+      "before": {
+        "name": "Bodyweight Curtsy Deficit Lunge",
+        "description": "",
+        "steps": [
+          "Stand on a platform, feet hip-width apart.",
+          "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+          "Push through front foot, return to start, keeping bar stable throughout."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Curtsy Deficit Lunge",
+        "description": "",
+        "steps": [
+          "Stand on a platform with your feet hip-width apart and your hands together in front of your chest, without holding a weight.",
+          "Keep one foot on the platform and step the other back and across behind it, lowering your rear knee toward the floor with your chest upright and core engaged.",
+          "Push through the foot on the platform to return to the starting position, keeping your balance throughout."
+        ]
+      },
+      "before_hash": "ef22b48c09649b021d8aebf9861a4a7ccd779e026460d9f296c901d49bcb4025",
+      "after_hash": "be66a74f7a1e00290013adb3dacb4f931c91728a8999f46ec7fe06f198fa6a5d",
+      "expected_updated_at": "2026-10-14T10:47:30.419995+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-curtsy-deficit-lunge",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders use no handheld load or bar, retain one foot on a platform and cross the other leg behind. Add the curtsy direction and replace the unrelated bar-stability cue with balance and supporting-foot control.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/222896604904592-side.mp4",
+            "storage_path": "exercises/musclewiki/222896604904592-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 5.284,
+            "sample_window_seconds": 5.284,
+            "video_sha256": "d6e85d1129b025517611145b9337fe941a241f631d416e8fab8f78a0246d3252",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/d4c54a65-33e5-44df-a438-3e124353263c-side.png",
+            "sample_image_sha256": "fafb3eeb14f796756b45d045bc57ab66b9d95c1fc8a460d6b8330df2758526cd"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/222896604904592-front.mp4",
+            "storage_path": "exercises/musclewiki/222896604904592-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 5.284,
+            "sample_window_seconds": 5.284,
+            "video_sha256": "33511863417b0106a880417f485db47dac135a894b4870a3c76337b3183e615a",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/d4c54a65-33e5-44df-a438-3e124353263c-front.png",
+            "sample_image_sha256": "9d23bed895ea173b80667c051a68bc842ce0f0c4cbc44914d280501591f47b2a"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/222896604904592-front.mp4",
+            "storage_path": "exercises/musclewiki/female/222896604904592-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.134,
+            "sample_window_seconds": 6.134,
+            "video_sha256": "ec667dfa6181be01ced9c6897e6f3890c47a92312e416f29a8f185af0c7e8f48",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/d4c54a65-33e5-44df-a438-3e124353263c-front.png",
+            "sample_image_sha256": "fbc56b85285069bf95bbe7f6efa4d3cfebf27f56888072866178a1cb33ae6592"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/222896604904592-side.mp4",
+            "storage_path": "exercises/musclewiki/female/222896604904592-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.134,
+            "sample_window_seconds": 6.134,
+            "video_sha256": "59b64ec9bf07d4f89786c887ddd63af0915bdc9fd1d567c00284fd3cab336ad3",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/d4c54a65-33e5-44df-a438-3e124353263c-side.png",
+            "sample_image_sha256": "424295933b03ee96b64c9125de77cb64810a46f83e9e33914ed32d228364f831"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/d4c54a65-33e5-44df-a438-3e124353263c-contact.png",
+            "sha256": "5847d2794b601a8640a9825e91c233b96ec81e19eed095f5c868cf76ed315bb0"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/d4c54a65-33e5-44df-a438-3e124353263c-contact.png",
+            "sha256": "81cdd6d1dcdbd6df566e7263fae28ccdb2c041158acc873378e209614bf91552"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "d96f1c18-8e30-496c-b073-ac0ed00e4d1c",
+      "source_id": 134433394472690,
+      "before": {
+        "name": "Bodyweight Alternating Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Place the barbell on your back",
+          "Step your foot back and around while simultaneously bringing the weight down.",
+          "Return to start and repeat on other leg."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Alternating Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Stand upright with your hands together in front of your chest, without holding a weight.",
+          "Step one foot back and diagonally across behind the other leg, bending your knees to lower your hips and rear knee toward the floor.",
+          "Push through your front foot to return to standing, then repeat with the other leg and continue alternating sides."
+        ]
+      },
+      "before_hash": "6fc33acfce6cdec7d58e354c38e996f3353c103c371fc30e2fae8c368b343b89",
+      "after_hash": "5fb49480f132f4e1801bbc65c74a8f20f1565c8215ebb4c64a3d79ac1d108b85",
+      "expected_updated_at": "2026-10-14T10:47:12.673029+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-alternating-curtsy-lunge",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders clasp empty hands at the chest and alternate crossed rear steps. Replace the barbell setup and weight-lowering wording with the visible bodyweight stance and knee lowering.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/134433394472690-front.mp4",
+            "storage_path": "exercises/musclewiki/134433394472690-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 10.65,
+            "sample_window_seconds": 10.65,
+            "video_sha256": "a348b572faad0ccd384ec9752347ce855f7f969433493802967a4d16e47f0068",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-front.png",
+            "sample_image_sha256": "f3d1ee3fb603be6d5eb39195398ffca738a43fe213de3136ae79d2a15ca6e729"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/134433394472690-side.mp4",
+            "storage_path": "exercises/musclewiki/134433394472690-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 10.65,
+            "sample_window_seconds": 10.65,
+            "video_sha256": "e2fb194284e5c2fa4ef888707cbc6449e484c4d5677ee8b15c6f44d762c8ee50",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-side.png",
+            "sample_image_sha256": "4f39365b61e480a380ab59ced00c9c0d7ef9c2267ea7cf423c94968fd1dded47"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/134433394472690-front.mp4",
+            "storage_path": "exercises/musclewiki/female/134433394472690-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 13.734,
+            "sample_window_seconds": 13.734,
+            "video_sha256": "effd91f2baf802404dafed28ef735514af8a9ac46968fd1b8731adbf28d22bb7",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-front.png",
+            "sample_image_sha256": "af048fbb5521849fc7983ae3e5fdf7afb5da03b793edb8d501cdfd1b283791bd"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/134433394472690-side.mp4",
+            "storage_path": "exercises/musclewiki/female/134433394472690-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 13.734,
+            "sample_window_seconds": 13.734,
+            "video_sha256": "a6f5f8e9e2ccd828002a2af258826722369dde4f166face7643d2e683a814c2f",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-side.png",
+            "sample_image_sha256": "ade52620a81d702d5f88d35d3c1205cea29812f63429245fcc9f776b0fb86a52"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-contact.png",
+            "sha256": "287c560fbcf83075e65e866cca1656b610f63f2c3818da6be440ae2d15ec38bc"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/d96f1c18-8e30-496c-b073-ac0ed00e4d1c-contact.png",
+            "sha256": "1397d7a30232e764d5aac0628172adb11dd4aa5f24419b479fc82e53cf83dab8"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "def74b78-55fa-48a7-8b43-9204378a09b7",
+      "source_id": 63572228692074,
+      "before": {
+        "name": "Box Jump",
+        "description": "",
+        "steps": [
+          "Stand in front of a box.",
+          "*Start with a low box if this is your first time*",
+          "Sink into a quarter of half squat and then pop your hips forward.",
+          "Try to land in the middle of the box as softly as possible to minimise impact on your joints."
+        ]
+      },
+      "after": {
+        "name": "Box Jump",
+        "description": "",
+        "steps": [
+          "Stand in front of a stable box with your feet about shoulder-width apart.",
+          "Choose a low box if you are learning the movement.",
+          "Bend your hips and knees and swing your arms back, then extend your legs and swing your arms forward to jump onto the box.",
+          "Land with both feet near the middle of the box and soften your knees to control the landing. Stand up, then step down before the next repetition."
+        ]
+      },
+      "before_hash": "208e23252fc743312fdb209c3e5c132faf2e693214856900fe964b2eee0885b2",
+      "after_hash": "683793eba4997430e435cb2d15e972199b1dd0385cb19d2fd87401455ec37d35",
+      "expected_updated_at": "2026-10-14T10:46:58.112676+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/box-jump",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders dip at hips/knees, swing the arms, jump onto the box with both feet and step down. Replace the ambiguous quarter-of-half phrase with the observed dip without prescribing a numerical depth; retain the original low-box suggestion and controlled landing.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/63572228692074-side.mp4",
+            "storage_path": "exercises/musclewiki/63572228692074-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 16.53,
+            "sample_window_seconds": 16.53,
+            "video_sha256": "80b3e3009f723c03485a2697c2b4048b5ebd4194a9a7349bf51cc791033b3d5b",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/def74b78-55fa-48a7-8b43-9204378a09b7-side.png",
+            "sample_image_sha256": "7acac4c192b9fb947d7971aed410ecace43c3f4f3bf42515e743efe18d83e37c"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/63572228692074-front.mp4",
+            "storage_path": "exercises/musclewiki/63572228692074-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 16.53,
+            "sample_window_seconds": 16.53,
+            "video_sha256": "d039ac4b19f5ce3a641c11875bda01f0b6a3a209865dc23d80277b73b30a2a85",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/def74b78-55fa-48a7-8b43-9204378a09b7-front.png",
+            "sample_image_sha256": "f9bdc49f8d51e3b43a6e9569a3ebbca3c63012263653f777e592aa10e550a721"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/63572228692074-side.mp4",
+            "storage_path": "exercises/musclewiki/female/63572228692074-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 14.717,
+            "sample_window_seconds": 14.717,
+            "video_sha256": "c74abbd76065d4507c90ae72834280b838f9c1afb749746ced19dff9f50bc0ad",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/def74b78-55fa-48a7-8b43-9204378a09b7-side.png",
+            "sample_image_sha256": "651251e9e2cc7e83187e4519f561216e2fab8369bf74a29cfaa3148fb2591025"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/63572228692074-front.mp4",
+            "storage_path": "exercises/musclewiki/female/63572228692074-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 14.717,
+            "sample_window_seconds": 14.717,
+            "video_sha256": "949ccfaa07d61f83678474ab22b7075d1e2a1dc62aab8b9019546405f167ef65",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/def74b78-55fa-48a7-8b43-9204378a09b7-front.png",
+            "sample_image_sha256": "da57c5a13902a93b8ffb728711255af333763314e0abb90b50940bd6d47360e6"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/def74b78-55fa-48a7-8b43-9204378a09b7-contact.png",
+            "sha256": "0bd47c567cee3e55082dc26a0f235d4685299b38598212cab1e83766899fba82"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/def74b78-55fa-48a7-8b43-9204378a09b7-contact.png",
+            "sha256": "07def7c584def059ce7dd31a3979d4a81a953fbcae55026ba25bea84aa38d4ce"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1",
+      "source_id": 154224024868920,
+      "before": {
+        "name": "Bosu Serratus Activation Active Plank",
+        "description": "",
+        "steps": [
+          "Support your weight on your forearms and toes (plank).",
+          "Allow your upper back to sink in between the shoulder blades.",
+          "Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine."
+        ]
+      },
+      "after": {
+        "name": "Bosu Serratus Activation Active Plank",
+        "description": "",
+        "steps": [
+          "Place the BOSU dome upward and support yourself with your forearms on the dome and toes on the floor in a plank.",
+          "Keep your forearms supported and allow your chest to lower slightly between your shoulder blades, keeping your hips steady.",
+          "Press your forearms into the BOSU to spread your shoulder blades and lift your chest back up. Repeat this small movement without moving your elbows to the floor."
+        ]
+      },
+      "before_hash": "c0c83f0b36c2461d722a342a7e0e0cf63028e9fe79cad70cef3170277d819676",
+      "after_hash": "2cb4b11912c09af0cbc441fee5983d7dd9aeb3004ebd785337c2fdcecdc8b3a7",
+      "expected_updated_at": "2026-10-14T10:47:16.54583+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bosu-serratus-activation-active-plank",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders use forearms on the BOSU dome, toes on the floor, and repeat small scapular lowering/pushing phases without changing support to the floor. Add the missing BOSU placement and the active repeat, distinct from the static supported hold.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/154224024868920-side.mp4",
+            "storage_path": "exercises/musclewiki/154224024868920-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 9.2,
+            "sample_window_seconds": 9.2,
+            "video_sha256": "3ae0baab539a00d3f490fd43f63abcf9f66587ce97b0b3824c4e62c51f9b4245",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/e8581eea-28da-4ca5-9503-282f091712e1-side.png",
+            "sample_image_sha256": "12583fae11fcf7e3229fdc99a19a6059c64efbeb9302b349d31a3cefd2fbc15f"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/154224024868920-front.mp4",
+            "storage_path": "exercises/musclewiki/154224024868920-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 9.2,
+            "sample_window_seconds": 9.2,
+            "video_sha256": "1a1e95a19dacf816fc925b871bdcf6f76e2ea8c790c852ffa7669f5a06071dfc",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/e8581eea-28da-4ca5-9503-282f091712e1-front.png",
+            "sample_image_sha256": "36bdfb4e9babda5c59bf149d5c7d10e77012eb047cfcbb0232b05cd031424bad"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/154224024868920-front.mp4",
+            "storage_path": "exercises/musclewiki/female/154224024868920-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 12.5,
+            "sample_window_seconds": 12.5,
+            "video_sha256": "5bfeed2c9654507f2e31fb5cef863249dffde061ff926ce30e13c974487fc0c4",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/e8581eea-28da-4ca5-9503-282f091712e1-front.png",
+            "sample_image_sha256": "403c938ade5adfdee9fd08ca444b57d1167150236a7da6994c00b46a7e0737f0"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/154224024868920-side.mp4",
+            "storage_path": "exercises/musclewiki/female/154224024868920-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 12.5,
+            "sample_window_seconds": 12.5,
+            "video_sha256": "c3cff6bcbd6d32d8dae332c6efaff803e8cf80659bee5257e9f8095e7f01ae50",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/e8581eea-28da-4ca5-9503-282f091712e1-side.png",
+            "sample_image_sha256": "b71764b3d540711b850ed157a52a12168de60ee1dd308453d4e4bea2f058a7da"
+          }
+        ],
+        "supplemental_samples": [
+          {
+            "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1",
+            "gender": "male",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/154224024868920-side.mp4",
+            "duration": 9.2,
+            "start_offset_seconds": 0.7666666666666666,
+            "sample_window_seconds": 8.433333333333334,
+            "sample_count": 6,
+            "image": "artifacts/localization/stage-17-video-evidence/e8581eea-28da-4ca5-9503-282f091712e1-side-supplemental.png",
+            "sha256": "3faca99958a230762d2bca45005971238549725daabe539a6dccd28544215085"
+          },
+          {
+            "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1",
+            "gender": "female",
+            "angle": "side",
+            "storage_path": "exercises/musclewiki/female/154224024868920-side.mp4",
+            "duration": 12.5,
+            "start_offset_seconds": 1.0416666666666667,
+            "sample_window_seconds": 11.458333333333334,
+            "sample_count": 6,
+            "image": "artifacts/localization/stage-17-video-evidence-female/e8581eea-28da-4ca5-9503-282f091712e1-side-supplemental.png",
+            "sha256": "3aff42fc0d5e6f329011d74b78978cf45c28680973b403f08a8c1831d3973c29"
+          }
+        ],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/e8581eea-28da-4ca5-9503-282f091712e1-contact.png",
+            "sha256": "62a57e5b47e161c1d6561cbec135a10c689e3d1a7e2b7b3f3e043556a07b4894"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/e8581eea-28da-4ca5-9503-282f091712e1-contact.png",
+            "sha256": "fc31569f161ece7f3de6a895b6cc57f690f8128395da9a15b630a29aa224a209"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "f1060f7b-82eb-4ab8-90d6-7e69fd2297e5",
+      "source_id": 7753352383068,
+      "before": {
+        "name": "Scapular Elevation",
+        "description": "",
+        "steps": [
+          "From the standing or seated position straighten your back.",
+          "Pull the shoulders back but keep them relaxed.",
+          "Move shoulders towards from your ears and return to the starting, relaxed position."
+        ]
+      },
+      "after": {
+        "name": "Scapular Elevation",
+        "description": "",
+        "steps": [
+          "Stand upright with your back straight and your arms relaxed at your sides.",
+          "Raise your shoulders toward your ears while keeping your arms at your sides.",
+          "Lower your shoulders under control back to the relaxed starting position, then repeat."
+        ]
+      },
+      "before_hash": "57e03abcbcc1de095e8eef784fe74513e5e138e720dd164040e245fee3710fde",
+      "after_hash": "31b1cb069f1d23df7f558340d22a76152685e7eda7e3dac1309758f853261a21",
+      "expected_updated_at": "2026-10-14T10:46:45.200358+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/scapular-elevation",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders stand and raise the shoulders toward the ears, then lower them. Resolve the contradictory towards-from direction as visible elevation, retaining three blocks and no resistance.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/7753352383068-side.mp4",
+            "storage_path": "exercises/musclewiki/7753352383068-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 5.617,
+            "sample_window_seconds": 5.617,
+            "video_sha256": "125f50f172ab14f556802ce77485b5bda0329da78223cea34180ac935da831c4",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-side.png",
+            "sample_image_sha256": "b2e7f94e0aa65f32a9ebf6ce82b22b614fdb44923bca32024f6b8e0da6648aaa"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/7753352383068-front.mp4",
+            "storage_path": "exercises/musclewiki/7753352383068-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 5.617,
+            "sample_window_seconds": 5.617,
+            "video_sha256": "72804dfdd18d5ed03cf394928ca1439fa54a119138e9d170040869d6bf62744d",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-front.png",
+            "sample_image_sha256": "009c156c2cd36435eadde6fe76b8b17201ea4ea27cbbc96a97b6c9ef50801a60"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/7753352383068-front.mp4",
+            "storage_path": "exercises/musclewiki/female/7753352383068-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 6.267,
+            "sample_window_seconds": 6.267,
+            "video_sha256": "3c28a90aa04ee4854413086ee94f1fce1ed2a9148732c503046de0d664b54690",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-front.png",
+            "sample_image_sha256": "42bd3a55312ae5e334580ab9170cbe3b282f0701a62c049b7fd67accf36831da"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/7753352383068-side.mp4",
+            "storage_path": "exercises/musclewiki/female/7753352383068-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 6.267,
+            "sample_window_seconds": 6.267,
+            "video_sha256": "62af5a1620d868151f03fcb9b9ed8c7e4747c6f625bc1b8a631476d5e84284f1",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-side.png",
+            "sample_image_sha256": "62eacc4a6124761f084cfbe0725b42d73d371a7b2784e020ca1055393fcf4d22"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-contact.png",
+            "sha256": "b0b6154fe81edbb57bdc24160d45d4bf4b2d3010eb9085c582ca854395456313"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/f1060f7b-82eb-4ab8-90d6-7e69fd2297e5-contact.png",
+            "sha256": "c409e31b718c5628046e07d5b6a9dab01648a9bd851cc18a7de9c7bf96a46edf"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "f1f42d92-f79d-4fe4-8d33-0fd14745a370",
+      "source_id": 280321027042191,
+      "before": {
+        "name": "Shoulder Flexion Thoracic Extensions",
+        "description": "",
+        "steps": [
+          "Place a tube roller or half tube on the ground parallel to your body.",
+          "Lie on the tube making sure your whole back and neck are supported.",
+          "Knees bent and on the ground, lower back flat on the tube and chin tucked in.",
+          "Bring your arms by you hips and pull shoulders back.",
+          "This is your starting position. Raise arms and drop them back towards the ground over your head"
+        ]
+      },
+      "after": {
+        "name": "Shoulder Flexion Thoracic Extensions",
+        "description": "",
+        "steps": [
+          "Place a long foam roller on the floor in line with your body.",
+          "Lie lengthwise on the roller so your back and head are supported.",
+          "Bend your knees and place your feet flat on the floor, keeping your lower back supported and your chin gently tucked.",
+          "Start with your arms beside your hips and your shoulders relaxed against the roller.",
+          "Raise your extended arms and bring them overhead toward the floor, then return under control while keeping your feet planted and back supported."
+        ]
+      },
+      "before_hash": "6dbc61f6356362e830d4fe793dadef25197442c3644c06f85ba03499c478c66b",
+      "after_hash": "e5814ce4b6c56aea419608e2ce42a163be3dcea9a00278c3ebfefef0ee785751",
+      "expected_updated_at": "2026-10-14T10:47:42.001227+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/shoulder-flexion-thoracic-extensions",
+        "written_source_status": "Reviewed captured source instructions. These are editorial corrections from every available source video sequence, not newly retrieved provider wording.",
+        "available_genders": [
+          "female",
+          "male"
+        ],
+        "observation": "Both genders lie lengthwise on a roller supporting the back and head, keep bent knees raised with feet on the floor, and move extended arms overhead and back. Correct knees-on-ground to feet-on-ground based on the visible support, retaining five blocks and no new roller size or shoulder angle.",
+        "sampling": "Six chronological samples across the full recorded duration of each available clip; supplemental offset samples and first-five/ten-second sequences inspect missed phases where recorded.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/280321027042191-side.mp4",
+            "storage_path": "exercises/musclewiki/280321027042191-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 8.867,
+            "sample_window_seconds": 8.867,
+            "video_sha256": "39c616f54a0388e52d720b0333440234416f7d849684280c3ccd4b66db620d53",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/f1f42d92-f79d-4fe4-8d33-0fd14745a370-side.png",
+            "sample_image_sha256": "a0961231c18671d80d0733f79c01368d9165b97b351001978e715e2df150a6ca"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/280321027042191-front.mp4",
+            "storage_path": "exercises/musclewiki/280321027042191-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 8.867,
+            "sample_window_seconds": 8.867,
+            "video_sha256": "d840b1b7c30146b4ff4b5ebef2e802416be6e7d692431b222b005d6d64cb4408",
+            "sample_image": "artifacts/localization/stage-17-video-evidence/f1f42d92-f79d-4fe4-8d33-0fd14745a370-front.png",
+            "sample_image_sha256": "0a1328eba03e725818293e6544a272f4f93e948b45d10d27cd0636f6a9eedd3d"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/280321027042191-side.mp4",
+            "storage_path": "exercises/musclewiki/female/280321027042191-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 8.8,
+            "sample_window_seconds": 8.8,
+            "video_sha256": "9a1dcd9b71cb668f5ea7608201918f6cad7d973c55fcca554ca259293b92ded3",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/f1f42d92-f79d-4fe4-8d33-0fd14745a370-side.png",
+            "sample_image_sha256": "1b277b672e03dd6db8141c322a1538b93593fd0e888ee4f2eb48410377e8ed41"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/280321027042191-front.mp4",
+            "storage_path": "exercises/musclewiki/female/280321027042191-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 8.8,
+            "sample_window_seconds": 8.8,
+            "video_sha256": "f6d4e291f83024e6a74eabc441d578dc0e4bd0fb4226ee380cac500f80498f35",
+            "sample_image": "artifacts/localization/stage-17-video-evidence-female/f1f42d92-f79d-4fe4-8d33-0fd14745a370-front.png",
+            "sample_image_sha256": "25fa2ee219e623a31bc3890c7a27cd7422e827822a32dfb99cdab7e21e9c4c02"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-17-video-evidence/f1f42d92-f79d-4fe4-8d33-0fd14745a370-contact.png",
+            "sha256": "9ac95e425556c617432a6cc9ff50b32b2adbad6b90d7341de60947b227722563"
+          },
+          {
+            "path": "artifacts/localization/stage-17-video-evidence-female/f1f42d92-f79d-4fe4-8d33-0fd14745a370-contact.png",
+            "sha256": "0dd2a2a9f3c2d380bafe944b87f54083be478b887ee4e69fca0ad41dd4adbcd6"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    }
+  ],
+  "databaseVerifiedAt": "2026-10-23T08:31:15.053Z",
+  "sourceHashAfter": "715e6a6794ca89fb4e9a0a1de4dbad06c92b663eb603c31d8545e7f082093109"
+}

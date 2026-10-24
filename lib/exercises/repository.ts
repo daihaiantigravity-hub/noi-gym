@@ -7,6 +7,7 @@ import { comparePublicExercisePriority, type ExercisePriority } from "./ranking"
 import { getLocalPublicExerciseBySourceId, getLocalPublicExerciseBySourceUrl, getSourceMuscleNames } from "./source";
 import { PUBLIC_EXERCISES_PAGE_SIZE } from "./pagination";
 import { getExerciseMediaPublicUrl, isExerciseMediaUnavailable } from "./media-server";
+import { localizeExercises } from "./translations";
 import type { ValidatedExerciseInput } from "./validation";
 import type { ExerciseFormValues, ExerciseGender, ExerciseListFilters, ExerciseListItem, ExerciseRecord, ExerciseStats, PublicExercise, PublicExercisePage } from "./types";
 import type { ExerciseTargetMode } from "./types";
@@ -440,10 +441,12 @@ export async function listPublishedExercises(muscle: string, options: PublicExer
   // Include the resolved names in the cache key, not just their potentially outdated slug.
   const muscleNames = getSourceMuscleNames(muscle);
   if (isDatabaseConfigured()) {
-    return getCachedPublishedExercises(muscleNames, options.category ?? "", gender, page, pageSize);
+    const result = await getCachedPublishedExercises(muscleNames, options.category ?? "", gender, page, pageSize);
+    return { ...result, items: await localizeExercises(result.items) };
   }
 
-  return listPublishedExercisesWithClient(await createSupabaseServerClient(), muscleNames, { ...options, gender, page, pageSize });
+  const result = await listPublishedExercisesWithClient(await createSupabaseServerClient(), muscleNames, { ...options, gender, page, pageSize });
+  return { ...result, items: await localizeExercises(result.items) };
 }
 
 export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, slug: string, options: PublicExerciseOptions = {}): Promise<PublicExercisePage> {
@@ -452,10 +455,12 @@ export async function listPublishedExercisesByTarget(mode: ExerciseTargetMode, s
 
   const gender = options.gender ?? "male";
   if (isDatabaseConfigured()) {
-    return getCachedPublishedExercisesByTarget(mode, slug, options.category ?? "", gender, page, pageSize);
+    const result = await getCachedPublishedExercisesByTarget(mode, slug, options.category ?? "", gender, page, pageSize);
+    return { ...result, items: await localizeExercises(result.items) };
   }
 
-  return listPublishedExercisesByTargetWithClient(await createSupabaseServerClient(), mode, slug, { ...options, gender, page, pageSize });
+  const result = await listPublishedExercisesByTargetWithClient(await createSupabaseServerClient(), mode, slug, { ...options, gender, page, pageSize });
+  return { ...result, items: await localizeExercises(result.items) };
 }
 
 export async function getPublishedExerciseByKey(key: string, gender?: ExerciseGender) {
@@ -474,7 +479,8 @@ export async function getPublishedExerciseByKey(key: string, gender?: ExerciseGe
 
   const { data, error } = await query.maybeSingle();
   if (error) throwDatabaseError(error);
-  return data ? mapPublicExercise(data as ExerciseRow, gender) : null;
+  if (!data) return null;
+  return (await localizeExercises([mapPublicExercise(data as ExerciseRow, gender)]))[0];
 }
 
 export async function createExercise(input: ValidatedExerciseInput) {

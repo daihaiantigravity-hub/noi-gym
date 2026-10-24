@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared the remaining uncategorized source instructions, preserving balance tasks, band position, neck directions, support, reinjury precautions, numbers and step order. Held unclear foot-loading direction and plate support. No category or source edits.",
+  "translations": [
+    {
+      "index": 111,
+      "sourceName": "Single Leg Balance 2",
+      "name": "Giữ thăng bằng một chân kết hợp nảy bóng 2",
+      "steps": [
+        "Đứng thẳng, siết cơ trung tâm.",
+        "Chọn chân trụ và chuyển trọng lượng lên chân đó, đồng thời nhấc chân kia hơi khỏi sàn.",
+        "Cố gắng giữ thăng bằng khi nảy bóng tennis vào tường hoặc xuống sàn."
+      ],
+      "exercise_id": "0055c10f-9173-429a-af44-6766d7bbeeec"
+    },
+    {
+      "index": 112,
+      "sourceName": "Single Leg Bosu Ball Balance 2",
+      "name": "Giữ thăng bằng một chân trên BOSU kết hợp nảy bóng 2",
+      "steps": [
+        "Đặt chân trụ ở giữa bóng BOSU.",
+        "Giữ đầu gối chân đang nhấc hơi co.",
+        "Cố gắng giữ thăng bằng trên BOSU khi nảy bóng tennis vào tường."
+      ],
+      "exercise_id": "2b6b0e87-ff53-4fe0-a858-2f524cbd6f6c"
+    },
+    {
+      "index": 113,
+      "sourceName": "Soleus Stretch",
+      "name": "Giãn cơ dép",
+      "steps": [
+        "Đứng gần tường với hai chân so le và hẹp; mũi chân sau ngang với gót chân trước.",
+        "Giữ trọng lượng trên chân sau khi co gối.",
+        "Giữ tư thế trong thời gian được chỉ định."
+      ],
+      "exercise_id": "adb4b59b-59ff-433f-90e8-3661bf82d1d5"
+    },
+    {
+      "index": 114,
+      "sourceName": "Standing Doming",
+      "name": "Đứng tạo vòm bàn chân",
+      "steps": [
+        "Từ tư thế đứng, ấn ngón chân cái xuống sàn đến khi cảm thấy mặt trong bàn chân nâng khỏi sàn.",
+        "Vòm bàn chân cần rõ hơn.",
+        "Không nghiêng bàn chân ra ngoài để nâng mặt trong bàn chân."
+      ],
+      "exercise_id": "7c592ddd-373b-42da-bf4c-81d90dd22975"
+    },
+    {
+      "index": 116,
+      "sourceName": "Standing Knee Raise Hold",
+      "name": "Đứng giữ nâng gối",
+      "steps": [
+        "Đứng thẳng với tư thế đúng.",
+        "Chuyển trọng lượng lên chân trụ đồng thời nâng đầu gối chân kia.",
+        "Đùi cần song song với sàn."
+      ],
+      "exercise_id": "10c3b676-0f41-42ed-a9b2-6b1da11576f1"
+    },
+    {
+      "index": 117,
+      "sourceName": "Standing Mini-Band Hip Flexion",
+      "name": "Đứng nâng gối gập hông với mini band",
+      "steps": [
+        "Vòng dây kháng lực quanh hai bàn chân.",
+        "Nâng một đầu gối lên đến khi đùi song song với sàn.",
+        "Dừng một chút rồi trở về vị trí ban đầu.",
+        "Cố gắng giữ thăng bằng và tư thế đúng khi nâng gối."
+      ],
+      "exercise_id": "85670da8-35fa-4fa5-91df-846515227cf2"
+    },
+    {
+      "index": 118,
+      "sourceName": "Standing Neck Extensions",
+      "name": "Đứng ngửa cổ",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Ngả đầu ra sau, cố gắng giữ mặt trước cổ thẳng.",
+        "Hướng cằm lên trần."
+      ],
+      "exercise_id": "2e7f267c-f0be-4d00-a297-1b8cd975a648"
+    },
+    {
+      "index": 119,
+      "sourceName": "Standing Neck Flexions",
+      "name": "Đứng cúi cổ",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Thu cằm và hạ đầu về trước mà không cuộn cong lưng."
+      ],
+      "exercise_id": "361a3705-20ad-43e8-85c0-b13be44b8b55"
+    },
+    {
+      "index": 120,
+      "sourceName": "Standing Neck Mobility Circumductions",
+      "name": "Đứng xoay cổ theo vòng tròn",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Xoay đầu theo cả chiều kim đồng hồ lẫn ngược chiều, thực hiện ở cuối biên độ trong suốt động tác."
+      ],
+      "exercise_id": "1c4fe835-7459-4587-b69b-7ffecd125145"
+    },
+    {
+      "index": 121,
+      "sourceName": "Standing Neck Rotations",
+      "name": "Đứng xoay đầu sang hai bên",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Xoay đầu qua lại hai bên mà không cuộn vai về trước."
+      ],
+      "exercise_id": "116cbde2-a2bb-4fc2-955b-1332eb72b235"
+    },
+    {
+      "index": 122,
+      "sourceName": "Standing Neck Side Flexions",
+      "name": "Đứng nghiêng cổ sang bên",
+      "steps": [
+        "Kéo vai ra sau và xa tai, giữ lưng thẳng.",
+        "Nghiêng đầu sang bên, đưa tai về vai, không nhún vai hoặc nghiêng cột sống sang bên."
+      ],
+      "exercise_id": "046f4a11-2ca5-46d9-9cbc-1d4558d4515e"
+    },
+    {
+      "index": 123,
+      "sourceName": "Standing Shoulder Abduction",
+      "name": "Đứng dạng vai với gậy hỗ trợ",
+      "steps": [
+        "Đứng thẳng và giữ gậy. Lòng bàn tay của tay đang giãn hướng về trước.",
+        "Dùng tay đối diện đẩy gậy sang bên.",
+        "Nhờ đó, tay đang giãn được nâng qua đầu."
+      ],
+      "exercise_id": "bc8a2149-20e4-4bfa-96a1-4fed1afae1b8"
+    },
+    {
+      "index": 124,
+      "sourceName": "Standing Shoulder Flexion Mobility",
+      "name": "Đứng vận động gập vai với gậy",
+      "steps": [
+        "Từ tư thế đứng, dùng một tay nắm gậy phía trước giữa thân, ngón cái ở trên.",
+        "Tay kia nắm gậy ở bên và phía sau thân.",
+        "Tay phía sau dẫn tay kia ra trước rồi lên qua đầu."
+      ],
+      "exercise_id": "f34fa6e2-c881-436f-b996-99f1e00dc83c"
+    },
+    {
+      "index": 126,
+      "sourceName": "Thoracic Flexion And Extensions",
+      "name": "Gập và duỗi cột sống ngực",
+      "steps": [
+        "Vào tư thế chống 4 điểm. Đẩy sàn ra xa, cuộn cong lưng và vai hết mức có thể.",
+        "Để tăng độ gập cột sống, hóp rốn và thu xương cụt vào dưới. Giữ thoáng chốc.",
+        "Sau đó làm ngược lại, thử uốn cột sống ra sau. Luân phiên giữa hai tư thế."
+      ],
+      "exercise_id": "9725962b-b186-46a6-8c7e-77940cfbdde3"
+    },
+    {
+      "index": 127,
+      "sourceName": "Vitruvian Arnold Press",
+      "name": "Đẩy Arnold với Vitruvian",
+      "steps": [
+        "Đứng thẳng, lòng bàn tay hướng về mình.",
+        "Khi đẩy, xoay hai tay."
+      ],
+      "exercise_id": "9511cb99-52e9-40d6-9990-7f91ad1fdf80"
+    },
+    {
+      "index": 128,
+      "sourceName": "Vitruvian Overhead Press",
+      "name": "Đẩy qua đầu với Vitruvian",
+      "steps": [
+        "Giữ phụ kiện tay cầm, nắm tay hướng lên trời và khuỷu tay hướng xuống sàn.",
+        "Đẩy tay cầm lên phía trần."
+      ],
+      "exercise_id": "55772bf2-79f9-44c8-843e-6c4971341672"
+    },
+    {
+      "index": 129,
+      "sourceName": "Wall Angels",
+      "name": "Trượt tay hình thiên thần tựa tường",
+      "steps": [
+        "Đứng tựa tường với lưng phẳng, hai tay bên thân ở góc 90°.",
+        "Từ từ nâng tay qua đầu, giữ khuỷu tay và cổ tay tiếp xúc với tường.",
+        "Hạ tay về vị trí ban đầu, giữ tiếp xúc liên tục với tường suốt động tác."
+      ],
+      "exercise_id": "e3a00bb7-3790-4290-afeb-1a4994c9fa63"
+    },
+    {
+      "index": 130,
+      "sourceName": "Wall Supported Dorsal Flexion",
+      "name": "Tựa tường giữ nâng mũi chân",
+      "steps": [
+        "Tựa vào tường, nâng mũi chân và giữ thăng bằng trên gót trong thời gian được chỉ định.",
+        "Giữ tư thế thân trên đúng."
+      ],
+      "exercise_id": "2c9ed22f-57dd-427a-a064-3a56afee5eb9"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 115,
+      "sourceName": "Standing Inversions Hold",
+      "reason": "Named inversion hold says to roll feet out without identifying sole direction or loaded foot border. Verify inversion versus outward body-weight shift before translating.",
+      "exercise_id": "50dd43ed-2d46-41a1-84bc-cc86d67f4341"
+    },
+    {
+      "index": 125,
+      "sourceName": "Standing Tibialis Raise",
+      "reason": "Source steps on a plate without stating whether heels or whole feet are supported, then lowers toes to the floor under a barbell load. Verify heel placement and support surface.",
+      "exercise_id": "1ab4a56e-891e-451d-9eea-1d7fa2a966a5"
+    }
+  ]
+}

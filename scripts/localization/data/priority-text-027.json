@@ -1,0 +1,665 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared complete Recovery and Yoga source blocks, preserving breath order, support surfaces, alternating versus held motion, left/right cues and numeric ranges. Held incompatible simultaneous hand supports and a contradictory foot-lift sequence.",
+  "translations": [
+    {
+      "index": 61,
+      "sourceName": "Inchworm",
+      "name": "Di chuyển tay chân kiểu sâu đo",
+      "steps": [
+        "Đứng thẳng, gập người tại hông và đưa tay xuống sàn.",
+        "Bước hai tay về trước vào tư thế plank.",
+        "Bước hai chân về phía tay rồi lặp lại chuyển động."
+      ],
+      "exercise_id": "56a20f67-43b1-4186-9183-273e305f65cc"
+    },
+    {
+      "index": 62,
+      "sourceName": "Jump Into Single Leg Landing",
+      "name": "Bật nhảy và tiếp đất bằng một chân",
+      "steps": [
+        "Bắt đầu ở tư thế đứng. Hạ người vào tư thế squat nửa chừng.",
+        "Đạp sàn bằng hai chân để bật nhảy.",
+        "Tiếp đất bằng một chân, co gối đủ mức cần thiết để hấp thụ lực tiếp đất."
+      ],
+      "exercise_id": "f4db2833-1f25-4fd1-be7e-0b7bbf8e2420"
+    },
+    {
+      "index": 63,
+      "sourceName": "Jump Off Box Single Leg Landing",
+      "name": "Nhảy khỏi bục và tiếp đất bằng một chân",
+      "steps": [
+        "Bắt đầu đứng trên bục. Hạ người vào tư thế squat nửa chừng.",
+        "Đạp bục bằng hai chân để bật nhảy.",
+        "Tiếp đất trên sàn bằng một chân, co gối đủ mức cần thiết để hấp thụ lực tiếp đất."
+      ],
+      "exercise_id": "f6d41518-d225-48b3-8a23-2df5e73cbe0a"
+    },
+    {
+      "index": 64,
+      "sourceName": "Jump On And Off Box",
+      "name": "Nhảy lên và xuống bục",
+      "steps": [
+        "Bắt đầu ở tư thế đứng. Hạ người vào tư thế squat nửa chừng.",
+        "Đạp sàn bằng hai chân để bật nhảy và tiếp đất trên bục. Nhảy khỏi bục theo cách tương tự.",
+        "Tiếp đất trên sàn bằng một chân, co gối đủ mức cần thiết để hấp thụ lực tiếp đất.",
+        "Co gối khi tiếp đất để hấp thụ lực. Cố gắng giữ thăng bằng."
+      ],
+      "exercise_id": "f5dc9e97-7e0e-437f-a370-a13612a5b5cc"
+    },
+    {
+      "index": 65,
+      "sourceName": "Knee Extension Seated Partial",
+      "name": "Ngồi duỗi gối một phần biên độ",
+      "steps": [
+        "Ngồi trên bục hoặc ghế, bảo đảm đùi được đỡ.",
+        "Duỗi hoàn toàn chân rồi co trở lại 1/3 biên độ.",
+        "Thực hiện số lần lặp một phần biên độ theo chương trình tập."
+      ],
+      "exercise_id": "a6646493-aeb9-4f29-962e-23189f1f03eb"
+    },
+    {
+      "index": 66,
+      "sourceName": "Knee Pull And Lumbar Rotation",
+      "name": "Kéo gối kết hợp xoay thắt lưng",
+      "steps": [
+        "Nằm ngửa và ép lưng dưới phẳng xuống sàn.",
+        "Kéo một đầu gối về ngực rồi đưa chéo qua thân đến khi lưng dưới xoay theo."
+      ],
+      "exercise_id": "0e624667-cef8-44a0-b6a4-8c66e42da76e"
+    },
+    {
+      "index": 67,
+      "sourceName": "Kneeling Quad Stretch",
+      "name": "Quỳ giãn cơ đùi trước",
+      "steps": [
+        "Ngồi trên gót chân.",
+        "Ngả người ra sau, chống trên lòng bàn tay.",
+        "Để tăng mức giãn, nhấc mông khỏi gót chân."
+      ],
+      "exercise_id": "c7dd2070-fb6c-4780-a32e-6af7a31d11b0"
+    },
+    {
+      "index": 68,
+      "sourceName": "Lat And Lateral Line Stretch",
+      "name": "Giãn cơ xô và phía bên thân",
+      "steps": [
+        "Bắt đầu đứng với tư thế thẳng người.",
+        "Bắt chéo chân phải qua chân trái và nâng tay phải qua đầu.",
+        "Nghiêng sang trái, với tay phải xa nhất có thể về bên trái.",
+        "Lặp lại bên đối diện bằng cách bắt chéo chân trái qua chân phải.",
+        "Có thể thực hiện tương tự tựa vào tường hoặc bám vào xà đơn."
+      ],
+      "exercise_id": "7604b5b7-ba4a-40fa-a6be-aa6652265769"
+    },
+    {
+      "index": 69,
+      "sourceName": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+      "name": "Quỳ giãn cơ xô và xoay ngoài vai với gậy 1",
+      "steps": [
+        "Quỳ trước ghế, đặt khuỷu tay lên ghế với lòng bàn tay hướng lên, giữ gậy rộng bằng vai.",
+        "Đưa hông về ngồi trên gót chân, hạ đầu vào giữa hai tay.",
+        "Bạn cần cảm nhận giãn ở cơ xô, cơ tay sau và sâu trong khớp vai.",
+        "Có thể thêm động tác co và duỗi tay để vận động khớp vai."
+      ],
+      "exercise_id": "b588e7b3-7b77-4429-a73b-c0ea7928bd5a"
+    },
+    {
+      "index": 70,
+      "sourceName": "Lat And Shoulder External Rotation Stretch 2 Kneeling Dowel",
+      "name": "Quỳ giãn cơ xô và xoay ngoài vai với gậy 2",
+      "steps": [
+        "Quỳ trước ghế, đặt khuỷu tay lên ghế với lòng bàn tay hướng lên, giữ gậy rộng bằng vai.",
+        "Đưa hông về ngồi trên gót chân, hạ đầu vào giữa hai tay.",
+        "Bạn cần cảm nhận giãn ở cơ xô, cơ tay sau và sâu trong khớp vai.",
+        "Có thể thêm động tác co và duỗi tay để vận động khớp vai."
+      ],
+      "exercise_id": "c5454b7c-3b8f-44b1-9cdf-b85b493149ea"
+    },
+    {
+      "index": 71,
+      "sourceName": "Lat And Shoulder External Rotation Stretch 3 Kneeling Dowel",
+      "name": "Quỳ giãn cơ xô và xoay ngoài vai với gậy 3",
+      "steps": [
+        "Quỳ trước ghế, đặt khuỷu tay lên ghế với lòng bàn tay hướng lên, giữ gậy rộng bằng vai.",
+        "Đưa hông về ngồi trên gót chân, hạ đầu vào giữa hai tay.",
+        "Bạn cần cảm nhận giãn ở cơ xô, cơ tay sau và sâu trong khớp vai.",
+        "Có thể thêm động tác co và duỗi tay để vận động khớp vai."
+      ],
+      "exercise_id": "b94f8b3e-ce2f-4aff-9086-6e14265270ac"
+    },
+    {
+      "index": 72,
+      "sourceName": "Lat Mobilisation Floor Foam Roller",
+      "name": "Lăn vận động cơ xô trên sàn với con lăn xốp",
+      "steps": [
+        "Ngồi trên sàn bên cạnh con lăn xốp.",
+        "Nghiêng người để con lăn nằm dưới cơ xô.",
+        "Tốt nhất nên nâng tay cùng bên lên.",
+        "Lăn cơ xô lên xuống trên con lăn để vận động vùng cơ này."
+      ],
+      "exercise_id": "4e8818e6-2c24-4815-a974-b09f9767baf3"
+    },
+    {
+      "index": 73,
+      "sourceName": "Laying Ts",
+      "name": "Nằm sấp nâng tay hình chữ T",
+      "steps": [
+        "Nằm sấp, hai tay duỗi sang hai bên.",
+        "Nâng đầu và ngực khỏi sàn.",
+        "Nâng và hạ tay như vỗ cánh bằng cách co rồi thả các cơ giữa hai bả vai."
+      ],
+      "exercise_id": "5e847b9c-3601-4331-97e4-132e2b48b898"
+    },
+    {
+      "index": 74,
+      "sourceName": "Lower Back Extensions 2",
+      "name": "Duỗi lưng dưới 2",
+      "steps": [
+        "Nằm sấp, tựa trán lên mu bàn tay.",
+        "Siết cơ mông và nghiêng hông về sau để mặt trước hông áp phẳng xuống sàn.",
+        "Nâng ngực khỏi sàn rồi hạ xuống, không đặt nghỉ trên sàn trước lần lặp tiếp theo."
+      ],
+      "exercise_id": "e62f7c2b-aa53-43f7-b174-ee601c5c6798"
+    },
+    {
+      "index": 75,
+      "sourceName": "Lower Back Extensions 3",
+      "name": "Duỗi lưng dưới 3",
+      "steps": [
+        "Nằm sấp và đặt hai tay ở vị trí chữ W.",
+        "Siết cơ mông và nghiêng hông về sau để mặt trước hông áp phẳng xuống sàn.",
+        "Nâng ngực khỏi sàn rồi hạ xuống, không đặt nghỉ trên sàn trước lần lặp tiếp theo."
+      ],
+      "exercise_id": "2a418eff-5e0b-424c-ae73-f8a10e387ed7"
+    },
+    {
+      "index": 76,
+      "sourceName": "Lower Back Extensions 4",
+      "name": "Duỗi lưng dưới 4",
+      "steps": [
+        "Nằm sấp, đặt hai tay ở vị trí chữ I với ngón cái hướng lên trần.",
+        "Siết cơ mông và nghiêng hông về sau để mặt trước hông áp phẳng xuống sàn.",
+        "Nâng ngực khỏi sàn rồi hạ xuống, không đặt nghỉ trên sàn trước lần lặp tiếp theo."
+      ],
+      "exercise_id": "ecced23c-8e77-4ce6-9d66-a74c418cb66a"
+    },
+    {
+      "index": 77,
+      "sourceName": "Lumbar Extensor Mobilisation Supine Bent Knees Peanut Tool",
+      "name": "Nằm ngửa co gối vận động cơ duỗi thắt lưng với bóng đôi",
+      "steps": [
+        "Nằm ngửa, đặt bàn chân trên ghế. Đặt dụng cụ bóng đôi hình hạt đậu dưới lưng dưới.",
+        "Điều chỉnh áp lực bằng cách ấn gót chân vào ghế. Lăn tới lui hoặc sang hai bên.",
+        "Giữ lưng dưới trung tính, không nghiêng chậu."
+      ],
+      "exercise_id": "574fb29c-676f-495b-b7f3-5de7f34b4480"
+    },
+    {
+      "index": 78,
+      "sourceName": "Lumbar Rotation 1",
+      "name": "Xoay thắt lưng 1",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Giữ hai đầu gối và hai cổ chân sát nhau. Hạ cả hai đầu gối về cùng một bên.",
+        "Giữ tư thế và thở sâu, chậm.",
+        "Để tăng mức giãn, có thể vươn hai tay lên."
+      ],
+      "exercise_id": "e79daef7-ccad-4e2f-8347-4c84910ff8d3"
+    },
+    {
+      "index": 79,
+      "sourceName": "Lumbar Rotation 2",
+      "name": "Xoay thắt lưng 2",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Hạ hai đầu gối về một bên rồi chuyển sang bên kia.",
+        "Để tăng mức giãn, có thể vươn hai tay lên."
+      ],
+      "exercise_id": "b82bdd0b-e8c2-4802-a05a-667da2771a41"
+    },
+    {
+      "index": 80,
+      "sourceName": "Lumbar Rotation 3",
+      "name": "Xoay thắt lưng 3",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Hạ hai đầu gối về một bên rồi đặt cổ chân lên đầu gối đối diện.",
+        "Để tăng mức giãn, có thể vươn hai tay lên."
+      ],
+      "exercise_id": "f290a06f-2584-4715-acd0-60e89a23f7f0"
+    },
+    {
+      "index": 81,
+      "sourceName": "Lumbar Rotation 4",
+      "name": "Xoay thắt lưng 4",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Bắt chéo chân. Hạ hai đầu gối về một bên rồi chuyển sang bên kia.",
+        "Để tăng mức giãn, có thể vươn hai tay lên."
+      ],
+      "exercise_id": "fd2feef7-c7f9-409a-b563-ddb66ac9ce31"
+    },
+    {
+      "index": 82,
+      "sourceName": "Lumbar Rotation 5",
+      "name": "Xoay thắt lưng 5",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Hạ hai đầu gối về một bên và thêm động tác đá chân ở cuối biên độ.",
+        "Để tăng mức giãn, có thể vươn hai tay lên."
+      ],
+      "exercise_id": "6ce8cbb7-362a-4525-8f02-a52e4c92b540"
+    },
+    {
+      "index": 83,
+      "sourceName": "Partner Lower Back Extensions",
+      "name": "Duỗi lưng dưới có người hỗ trợ",
+      "steps": [
+        "Nằm sấp, tựa trán lên mu bàn tay.",
+        "Nhờ người giữ cổ chân hoặc cố định chúng dưới một kết cấu đỡ chắc chắn.",
+        "Siết cơ mông và nghiêng hông về sau để mặt trước hông áp phẳng xuống sàn.",
+        "Nâng ngực khỏi sàn rồi hạ xuống, không đặt nghỉ trên sàn trước lần lặp tiếp theo."
+      ],
+      "exercise_id": "c46aac72-af0d-4b61-9d4b-a1c02867c728"
+    },
+    {
+      "index": 84,
+      "sourceName": "Plank Saw",
+      "name": "Plank đẩy người tới lui",
+      "steps": [
+        "Đỡ trọng lượng trên cẳng tay và mũi chân.",
+        "Giữ lưng dưới trung tính, không nhô mông lên cao.",
+        "Duỗi mũi chân để đẩy trọng lượng cơ thể về trước, rồi ấn khuỷu tay xuống sàn để đẩy trọng lượng ra sau."
+      ],
+      "exercise_id": "f79a7b72-e301-4d89-bfcd-30b84d8a767d"
+    },
+    {
+      "index": 85,
+      "sourceName": "Prayer Stretch 1",
+      "name": "Giãn cơ tư thế cầu nguyện 1",
+      "steps": [
+        "Ngồi trên gót chân, vươn tay ra trên sàn đồng thời hạ ngực về sàn."
+      ],
+      "exercise_id": "09464169-1a20-49ad-9d44-a200af08c149"
+    },
+    {
+      "index": 86,
+      "sourceName": "Prayer Stretch 2 Roller",
+      "name": "Giãn cơ tư thế cầu nguyện với con lăn 2",
+      "steps": [
+        "Ngồi trên gót chân, vươn tay lên bục hoặc con lăn xốp đồng thời hạ ngực về sàn."
+      ],
+      "exercise_id": "9fb2edc8-0076-47aa-919e-911091ce16f8"
+    },
+    {
+      "index": 87,
+      "sourceName": "Prayer Stretch Side Bend",
+      "name": "Giãn cơ tư thế cầu nguyện nghiêng bên",
+      "steps": [
+        "Ngồi trên gót chân, vươn tay ra trên sàn đồng thời hạ ngực về sàn.",
+        "Uốn cột sống sang một bên và vươn tay theo.",
+        "Thực hiện tương tự ở bên đối diện."
+      ],
+      "exercise_id": "4465a30c-7966-4941-9c64-fbb467cb3482"
+    },
+    {
+      "index": 88,
+      "sourceName": "Prone Single Leg Hip Extension Hold",
+      "name": "Nằm sấp giữ duỗi hông một chân",
+      "steps": [
+        "Nằm sấp.",
+        "Ổn định lưng dưới bằng cách nghiêng hông về sau.",
+        "Nâng một chân và giữ tư thế trong thời gian được chỉ định."
+      ],
+      "exercise_id": "195b5e92-2d86-4518-9d69-2645720cc079"
+    },
+    {
+      "index": 89,
+      "sourceName": "QL Mobilisation Floor Foam Roller",
+      "name": "Vận động cơ vuông thắt lưng với bóng hoặc con lăn",
+      "steps": [
+        "Nằm trên sàn, co gối và đặt bàn chân trên sàn.",
+        "Đặt bóng massage dưới lưng dưới, di chuyển đến khi bóng ấn vào điểm căng hoặc đau.",
+        "Nếu dùng con lăn xốp, cần ngồi và ngả lưng tựa vào con lăn."
+      ],
+      "exercise_id": "fa42b0d8-0bff-4c20-887d-a288263a7cca"
+    },
+    {
+      "index": 90,
+      "sourceName": "Resisted Radial Deviation",
+      "name": "Nghiêng cổ tay về phía ngón cái có kháng lực",
+      "steps": [
+        "Đứng thẳng, hai tay bên thân và cầm tạ đơn nhẹ hoặc đòn bẩy trong tay.",
+        "Hướng tạ hoặc đòn bẩy xuống sàn rồi nâng về phía trần.",
+        "Chỉ cử động cổ tay."
+      ],
+      "exercise_id": "74079fc1-840f-4659-b458-ddf92bdafb7c"
+    },
+    {
+      "index": 91,
+      "sourceName": "Seated Lateral Line Stretch",
+      "name": "Ngồi giãn phía bên thân",
+      "steps": [
+        "Bắt đầu ngồi với tư thế thẳng người.",
+        "Bắt chéo chân phải qua chân trái và nâng tay phải qua đầu.",
+        "Nghiêng sang trái, với tay phải xa nhất có thể về bên trái.",
+        "Lặp lại bên đối diện bằng cách bắt chéo chân trái qua chân phải.",
+        "Có thể thực hiện tương tự tựa vào tường hoặc bám vào xà đơn."
+      ],
+      "exercise_id": "e27cd7a8-0246-4d4f-9390-25c1ff05b6fe"
+    },
+    {
+      "index": 92,
+      "sourceName": "Seated Plantar Flexions",
+      "name": "Ngồi duỗi bàn chân với dây kháng lực",
+      "steps": [
+        "Ngồi trên sàn, dùng lòng bàn tay hoặc khuỷu tay chống để ngả người ra sau.",
+        "Gắn một đầu dây quanh các ngón chân và giữ đầu còn lại.",
+        "Duỗi rồi gập các ngón chân chống lại lực kháng."
+      ],
+      "exercise_id": "7995ae6f-eeb4-476d-a40d-be5bb5c59e12"
+    },
+    {
+      "index": 93,
+      "sourceName": "Seated Quad Stretch",
+      "name": "Ngồi giãn cơ đùi trước",
+      "steps": [
+        "Ngồi tựa tường với một chân hơi co.",
+        "Vòng dây giãn cơ hoặc khăn quanh cổ chân rồi kéo gót chân về hông."
+      ],
+      "exercise_id": "97a07aa0-b3ed-491a-bea3-553d4d4ee920"
+    },
+    {
+      "index": 94,
+      "sourceName": "Seated Wrist Extensor Stretch",
+      "name": "Ngồi giãn cơ duỗi cổ tay",
+      "steps": [
+        "Nâng một tay, giữ vai thả lỏng.",
+        "Dùng tay kia giữ mu bàn tay và gập cổ tay thụ động.",
+        "Bạn cần cảm nhận giãn ở mặt trên của tay."
+      ],
+      "exercise_id": "4563845e-7734-47d9-a4f6-41b33bf01fb2"
+    },
+    {
+      "index": 95,
+      "sourceName": "Serratus Activation Active Plank",
+      "name": "Plank chủ động kích hoạt cơ răng trước",
+      "steps": [
+        "Đỡ trọng lượng trên cẳng tay và mũi chân ở tư thế plank.",
+        "Để lưng trên hạ xuống giữa hai bả vai.",
+        "Ấn khuỷu tay xuống sàn và hơi về trước, đưa bả vai ra xa cột sống."
+      ],
+      "exercise_id": "2707e542-0ede-4798-90b7-f6da1172fab5"
+    },
+    {
+      "index": 96,
+      "sourceName": "Side Step On And Off Box",
+      "name": "Bước lên xuống bục sang bên",
+      "steps": [
+        "Đứng với hai chân rộng khoảng bằng hông. Mũi chân hơi xoay ra ngoài, vai hạ và thả lỏng.",
+        "Đặt bậc hoặc bục bên cạnh, bước một chân lên rồi đưa chân kia lên bục."
+      ],
+      "exercise_id": "5dd3bc59-40cc-4428-a711-999783690cdc"
+    },
+    {
+      "index": 97,
+      "sourceName": "Single Leg Concentric Squat",
+      "name": "Squat dùng một chân đẩy lên",
+      "steps": [
+        "Từ tư thế đứng, hạ người vào squat.",
+        "Chuyển trọng lượng lên một chân, chân kia vẫn chạm sàn để giữ thăng bằng.",
+        "Dùng chân chịu tải nâng người trở lại tư thế đứng."
+      ],
+      "exercise_id": "2a2c820e-a76e-4fbf-ac6c-4eee14127045"
+    },
+    {
+      "index": 98,
+      "sourceName": "Single Leg Eccentric Box Squat",
+      "name": "Squat một chân hạ chậm xuống bục",
+      "steps": [
+        "Đứng trước ghế hoặc bục. Nâng một chân ra trước, dùng chân kia đỡ người.",
+        "Cố gắng ngồi xuống bục có kiểm soát. Dùng cả hai chân để đứng lên."
+      ],
+      "exercise_id": "26cd60b6-73b4-4713-a35d-f22480d40d78"
+    },
+    {
+      "index": 99,
+      "sourceName": "Skater Squat",
+      "name": "Squat kiểu trượt băng",
+      "steps": [
+        "Từ tư thế đứng, chuyển trọng lượng lên chân đang tập và giữ chân kia nhấc phía sau.",
+        "Gập người tại hông và nghiêng về trước trong khi co đầu gối chân chịu tải.",
+        "Đưa đầu gối sau gần sàn rồi đứng lên."
+      ],
+      "exercise_id": "2b0cf95c-57ac-420f-b9f6-ab4a90b1714b"
+    },
+    {
+      "index": 100,
+      "sourceName": "Skydiver",
+      "name": "Nâng người tư thế nhảy dù",
+      "steps": [
+        "Nằm sấp, hai tay bên thân và lòng bàn tay hướng xuống.",
+        "Siết cơ lưng để nâng cả hai đầu cơ thể khỏi sàn.",
+        "Giữ cơ trung tâm siết vì trọng lượng cơ thể được đỡ trên bụng."
+      ],
+      "exercise_id": "2e526f63-4f56-4e76-9ece-ab03c8483caa"
+    },
+    {
+      "index": 101,
+      "sourceName": "Swipe Around",
+      "name": "Nằm sấp quét hai tay",
+      "steps": [
+        "Nằm sấp, hai tay trên đầu. Siết cơ mông để bảo vệ lưng dưới.",
+        "Nâng ngực và tay khỏi sàn. Khép tay, đưa hai tay về bên hông.",
+        "Có thể hạ chạm sàn rồi lặp lại toàn bộ động tác, hoặc giữ người nâng khỏi sàn và chỉ thực hiện động tác quét tay."
+      ],
+      "exercise_id": "fb39d9b5-36a0-45b9-892d-ef18c8ff6855"
+    },
+    {
+      "index": 102,
+      "sourceName": "Towel Knee Extension",
+      "name": "Duỗi gối ép khăn",
+      "steps": [
+        "Ngồi trên sàn, dùng lòng bàn tay chống để ngả người ra sau.",
+        "Đặt khăn cuộn dưới đầu gối để gối hơi co.",
+        "Thử ép khăn giữa mặt sau đầu gối và sàn bằng cách duỗi chân."
+      ],
+      "exercise_id": "a5aff05b-0663-4fcb-803a-e10b7796ed74"
+    },
+    {
+      "index": 103,
+      "sourceName": "Towel Knee Extension Hold",
+      "name": "Giữ duỗi gối ép khăn",
+      "steps": [
+        "Ngồi trên sàn, dùng lòng bàn tay chống để ngả người ra sau.",
+        "Đặt khăn cuộn dưới đầu gối để gối hơi co.",
+        "Thử ép khăn giữa mặt sau đầu gối và sàn bằng cách duỗi chân."
+      ],
+      "exercise_id": "01413419-7df6-4138-a338-068f2685b262"
+    },
+    {
+      "index": 104,
+      "sourceName": "Ulnar Deviations",
+      "name": "Nghiêng cổ tay về phía ngón út",
+      "steps": [
+        "Đứng thẳng, giữ gậy, đòn bẩy hoặc tạ bằng một tay.",
+        "Giữ tạ hướng ra sau và xuống sàn.",
+        "Siết tay nắm để nâng tạ."
+      ],
+      "exercise_id": "1417d706-1b21-46d1-9d31-a011d2273158"
+    },
+    {
+      "index": 105,
+      "sourceName": "Wrist Extensor Kneeling Hold",
+      "name": "Quỳ giữ cổ tay với tạ tập cơ duỗi",
+      "steps": [
+        "Đặt cẳng tay tựa qua ghế.",
+        "Giữ tạ đơn với cổ tay trung tính và lòng bàn tay hướng xuống."
+      ],
+      "exercise_id": "7bb99b6f-cfb4-4545-9371-a79bc666bb65"
+    },
+    {
+      "index": 106,
+      "sourceName": "Wrist Extensor Mobilisation",
+      "name": "Vận động cơ duỗi cổ tay",
+      "steps": [
+        "Quỳ cạnh ghế, đặt tay cần vận động lên ghế với lòng bàn tay hướng xuống.",
+        "Đưa bóng massage lên mặt trên cẳng tay và di chuyển, tạo áp lực nhẹ.",
+        "Tìm đúng điểm căng hoặc đau.",
+        "Có thể cử động cổ tay theo nhiều hướng để vận động các cơ duỗi cổ tay."
+      ],
+      "exercise_id": "c62ec39d-7737-496c-90f8-ed30726e21f6"
+    },
+    {
+      "index": 107,
+      "sourceName": "Ys",
+      "name": "Nằm sấp nâng tay hình chữ Y",
+      "steps": [
+        "Nằm sấp, đặt hai tay ở vị trí chữ Y với ngón cái hướng lên.",
+        "Nâng hai tay mà không co khuỷu tay."
+      ],
+      "exercise_id": "7028a69c-cd9a-4de0-90ec-8a4a6e56347e"
+    },
+    {
+      "index": 108,
+      "sourceName": "Cat Pose",
+      "name": "Tư thế con mèo",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối, cổ tay ngay dưới vai và đầu gối ngay dưới hông.",
+        "Hít vào và võng lưng, nâng xương cụt và đầu về phía trần, đồng thời hạ bụng về sàn.",
+        "Thở ra và cuộn cong cột sống, thu cằm về ngực và đưa xương cụt về phía đầu gối.",
+        "Lặp lại, chuyển mượt giữa hai tư thế trong vài nhịp thở."
+      ],
+      "exercise_id": "00c57aaa-e03a-4e84-b462-4cf10ecee54e"
+    },
+    {
+      "index": 109,
+      "sourceName": "Chair Pose",
+      "name": "Tư thế cái ghế",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông và hai tay bên thân.",
+        "Hít vào, nâng hai tay thẳng lên qua đầu.",
+        "Thở ra, co gối và hạ hông như đang ngồi xuống ghế.",
+        "Giữ trong vài nhịp thở rồi hít vào và đứng thẳng lên."
+      ],
+      "exercise_id": "b90f8d37-ab2d-4cb0-8113-881f7b569894"
+    },
+    {
+      "index": 110,
+      "sourceName": "Child Pose Arms Extended",
+      "name": "Tư thế em bé duỗi tay",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Ngồi về gót chân và duỗi hai tay ra trước.",
+        "Đặt trán nghỉ trên sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "172df0f7-02a8-44da-898f-4ea2199747c3"
+    },
+    {
+      "index": 111,
+      "sourceName": "Child Pose Arms Extended Left Right",
+      "name": "Tư thế em bé duỗi tay sang trái và phải",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Ngồi về gót chân, duỗi hai tay ra trước và sang một bên.",
+        "Đặt trán nghỉ trên sàn.",
+        "Giữ trong vài nhịp thở rồi lặp lại ở bên kia."
+      ],
+      "exercise_id": "1bf1d0d9-0f2f-46de-87a8-01fe6f500895"
+    },
+    {
+      "index": 112,
+      "sourceName": "Child Pose Arms On Side",
+      "name": "Tư thế em bé đặt tay bên thân",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Ngồi về gót chân, đặt tay bên thân với lòng bàn tay hướng lên.",
+        "Đặt trán nghỉ trên sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "5aea79eb-c49e-494b-a3bd-e6a1081b335b"
+    },
+    {
+      "index": 113,
+      "sourceName": "Child Pose Elbows On Block",
+      "name": "Tư thế em bé kê khuỷu tay trên gạch yoga",
+      "steps": [
+        "Đặt hai viên gạch yoga trên sàn, cách nhau rộng bằng vai.",
+        "Quỳ trước gạch, hạ thân để khuỷu tay tựa lên gạch và trán tựa trên sàn.",
+        "Thả lỏng tay, vai và cổ, thở sâu.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "83d055db-db05-4fad-9cb9-7b3cb83f9099"
+    },
+    {
+      "index": 114,
+      "sourceName": "Cobra Pose",
+      "name": "Tư thế rắn hổ mang",
+      "steps": [
+        "Bắt đầu nằm sấp, hai tay dưới vai.",
+        "Hít vào, nâng ngực và võng lưng.",
+        "Vươn dài cổ, nhìn lên. Thở và giữ tư thế. Thả tư thế, thở ra."
+      ],
+      "exercise_id": "4e0be4f2-b4e1-40c1-a4e1-caa7839c2609"
+    },
+    {
+      "index": 115,
+      "sourceName": "Corpse Pose",
+      "name": "Tư thế xác chết thư giãn",
+      "steps": [
+        "Nằm ngửa, hai chân thẳng và hai tay bên thân.",
+        "Nhắm mắt, hít sâu qua mũi và thở ra qua miệng.",
+        "Để cơ thể thư giãn hoàn toàn, giải phóng mọi căng thẳng.",
+        "Giữ trong vài phút rồi từ từ trở lại tư thế ngồi."
+      ],
+      "exercise_id": "f8e41975-ef5d-4191-a38d-d450efb9a5fc"
+    },
+    {
+      "index": 116,
+      "sourceName": "Crescent Moon Pose",
+      "name": "Tư thế trăng lưỡi liềm",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân người chạy với chân phải ở trước.",
+        "Từ từ nâng thân lên và đưa hai tay qua đầu, lòng bàn tay hướng vào nhau.",
+        "Giữ đầu gối phải ngay trên cổ chân, chân trái duỗi thẳng phía sau.",
+        "Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "exercise_id": "048d7e58-4485-4216-a39c-310d37e76ff8"
+    },
+    {
+      "index": 119,
+      "sourceName": "Criss Cross Bow Tie Pose",
+      "name": "Tư thế bắt chéo tay hình nơ",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, hai tay bên thân.",
+        "Bắt chéo tay phải qua tay trái, chắp hai lòng bàn tay trước ngực.",
+        "Hạ hai tay để lòng bàn tay hướng xuống sàn, khuỷu tay phải tựa trên khuỷu tay trái.",
+        "Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "9ee2b644-0a61-4a6f-bbd7-0f789c6accf7"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 117,
+      "sourceName": "Crescent Moon Pose Quad Stretch",
+      "reason": "Left hand is simultaneously required to support on a block and reach back to hold the left foot. Verify supporting versus reaching hand.",
+      "exercise_id": "baef22eb-8454-46cd-9639-4fce2c76545a"
+    },
+    {
+      "index": 118,
+      "sourceName": "Crescent Moon Pose Quad Stretch With Block",
+      "reason": "Same left hand must press the block while holding the left foot behind the body. Verify hand allocation before translation.",
+      "exercise_id": "f20e50b0-df5a-49be-a980-92a5f894128b"
+    },
+    {
+      "index": 120,
+      "sourceName": "Crow Pose",
+      "reason": "Source lifts feet off the ground while coming onto tiptoes, then later lifts each foot again. Verify the weight-shift and foot-release sequence.",
+      "exercise_id": "59c29200-b637-4c9b-8203-f72cc620f98d"
+    }
+  ]
+}

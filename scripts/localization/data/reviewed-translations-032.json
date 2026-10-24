@@ -1,0 +1,1249 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared complete uncategorized source blocks, preserving equipment named in text, band routing, grip, supports, numeric angles, left/right, controlled return and step order. Category remains unchanged. Held ambiguous toe direction, missing/conflicting BOSU support, missing named limb lift and reversed lunge leg references.",
+  "sourceExceptions": [
+    {
+      "index": 9,
+      "sourceName": "Big Toe Abduction",
+      "reason": "Source moves the big toe toward the opposite side without defining the side or reference. Verify abduction direction rather than choosing a direction during translation.",
+      "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d"
+    },
+    {
+      "index": 13,
+      "sourceName": "Bosu Serratus Activation Active Plank",
+      "reason": "Named BOSU variant uses generic ground-supported forearm plank instructions and never places the BOSU. Verify support setup.",
+      "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1"
+    },
+    {
+      "index": 14,
+      "sourceName": "Bosu Serratus Activation Plank",
+      "reason": "Source places forearms on BOSU, then instructs elbows into the ground without clarifying whether force transfers through BOSU or support changes. Verify the support cue.",
+      "exercise_id": "501ab877-2ee3-42e0-a595-68cc39a6fb8e"
+    },
+    {
+      "index": 36,
+      "sourceName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+      "reason": "Named opposite-arm/leg raise instead only taps the opposite shoulder, with no leg raise. Verify variant-specific movement.",
+      "exercise_id": "383ce0cd-9e08-495c-9725-a44955247ec1"
+    },
+    {
+      "index": 38,
+      "sourceName": "Curtsy Lunge",
+      "reason": "Left foot crosses behind right, but source then makes left thigh parallel and right knee near the ground before pushing the right foot. Verify front/back leg roles.",
+      "exercise_id": "b6989ab4-e390-4217-a9a5-d1e5e89e4bee"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "12522994-bfd1-4e0f-a219-1d7b46825521",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6a72a40b3a6458efeefffc093e830cccfba0568f6a922bbdf00388399520f103",
+      "name": "Xoay cổ chân",
+      "description": "",
+      "steps": [
+        "Ngồi hoặc đứng, nhấc một bàn chân hơi khỏi sàn.",
+        "Xoay cổ chân theo vòng tròn.",
+        "Thực hiện đủ số lần được chỉ định, sau đó đổi chiều và lặp lại với bàn chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Ankle Circle",
+        "description": "",
+        "steps": [
+          "Sit or stand, lift one foot slightly off the ground.",
+          "Rotate your ankle in a circular motion.",
+          "Complete the allotted amount of reps, then switch directions and repeat on the other foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7a511688-84bb-4d80-bc9d-8c5927f06907",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4d707cce29010152975f4bcf0539ea33cb5396ebe452e14539dc661260ad5a8d",
+      "name": "Ngồi nghiêng bàn chân vào trong với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Ngồi trên bậc hoặc bục thấp, tốt nhất có tựa lưng. Duỗi hai chân và vắt chân đang tập qua chân còn lại.",
+        "Vòng dây quanh phần đệm trước bàn chân đang tập. Luồn dây quanh bàn chân kia như trong video.",
+        "Giữ đầu dây bằng tay cùng bên với bàn chân đang tập. Trước khi bắt đầu, cổ chân ở góc 90° và bàn chân nghiêng ra ngoài.",
+        "Nghiêng bàn chân vào trong mà không di chuyển phần còn lại của chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Band Seated Inversions",
+        "description": "",
+        "steps": [
+          "Sit on a step or low box, preferably with a back support. Extend both legs and cross the working leg over the non working leg.",
+          "Wrap the band around the balls of the working foot. Pass the band around the other foot as shown in the video.",
+          "Hold the end of the band with the same arm as the working foot. The ankle should be at 90° and turned outwards (eversion) before you start the movement",
+          "Turn the ankle in, without moving the rest of the leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "964a5387-0016-47e1-8f9a-fbedf22e689b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "98d724c65184107af103ca2bf2e70cb2f670601421c21057046b36910e5622a1",
+      "name": "Nâng tay hình chữ Y với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Giữ một đầu dây với tay ở bên và phía sau thân.",
+        "Giữ đầu còn lại phía trước thân bằng tay nắm sấp.",
+        "Đưa tay ra xa thân và lên trên đồng thời xoay ngoài vai.",
+        "Kết thúc với tay trên đầu và ngón cái hướng lên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Band Shoulder Y Raise",
+        "description": "",
+        "steps": [
+          "Hold one end of a band with your arm to the side and behind your body.",
+          "Hold the other end in front of your body (overhand grip).",
+          "Move your arm away from your body and upward while externally rotating your shoulder.",
+          "Finish with your arm over your head and thumb up"
+        ]
+      }
+    },
+    {
+      "exercise_id": "b0fe02d6-a3a7-48c0-a528-7da7c9b04820",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cd883ac676224bca115455caa2fca4db46feb29b3254f2f696019d3372fcf69c",
+      "name": "Nâng chân thẳng gập hông với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Gắn dây vào điểm cố định.",
+        "Vòng đầu dây còn lại quanh cổ chân.",
+        "Quay mặt ra xa điểm gắn dây.",
+        "Nâng chân đang tập chống lại lực kháng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Band Straight Leg Hip Flexions",
+        "description": "",
+        "steps": [
+          "Attach a band to a fixed point.",
+          "Wrap the loose end of the band around your ankle.",
+          "Face away from the attachment point.",
+          "Raise your working leg against the resistance."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aa8a7a7a-9419-461b-8002-7bbf1f225c65",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "789bc833a9e45ad9b6aa72ce14d0c5f75d9f736e46f9fba30bc85b422d083b19",
+      "name": "Duỗi cổ tay với tạ đòn",
+      "description": "",
+      "steps": [
+        "Nắm tạ đòn bằng tay nắm sấp và đặt cẳng tay ngang qua ghế.",
+        "Để cổ tay gập hết biên độ rồi duỗi cổ tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Barbell Wrist Extension",
+        "description": "",
+        "steps": [
+          "Grab a barbell with an overhand grip and lay your forearms across a bench.",
+          "Let your wrists flex fully, then extend your wrists."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3fbcf034-5eea-48cc-9953-5d28fd6fc878",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b57ecb66c84627dbccbe8a859ba5a4d6598439afc5f4e16235bf2085f6279b40",
+      "name": "Chống tay nâng người khỏi ghế",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, đặt lòng bàn tay lên ghế ở hai bên thân.",
+        "Vị trí bàn tay cần chừa chỗ để các ngón bám mép ghế.",
+        "Thử nâng trọng lượng cơ thể khỏi ghế bằng cách ấn lòng bàn tay xuống ghế.",
+        "Duỗi thẳng hết khuỷu tay rồi lặp lại hoặc giữ co cơ tĩnh."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Bench Lift Off Active",
+        "description": "",
+        "steps": [
+          "While seated on a bench, place your palms on the bench by your sides",
+          "Palm placement should allow room for the fingers to grip the edge of the bench",
+          "Try to lift your bodyweight off the bench by pushing the palms into the bench",
+          "Lockout your elbows and repeat or hold isometrically"
+        ]
+      }
+    },
+    {
+      "exercise_id": "62a7a283-7305-478c-92be-d3e808a095f9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5b43b2fa22b39eec6f1f5e4d783ee7a0128f3b0a78910a83447fea0c993f5dd9",
+      "name": "Giữ chống tay nâng người khỏi ghế",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, đặt lòng bàn tay lên ghế ở hai bên thân.",
+        "Vị trí bàn tay cần chừa chỗ để các ngón bám mép ghế.",
+        "Thử nâng trọng lượng cơ thể khỏi ghế bằng cách ấn lòng bàn tay xuống ghế.",
+        "Duỗi thẳng hết khuỷu tay và giữ co cơ tĩnh."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Bench Lift Off Static",
+        "description": "",
+        "steps": [
+          "While seated on a bench, place your palms on the bench by your sides",
+          "Palm placement should allow room for the fingers to grip the edge of the bench",
+          "Try to lift your bodyweight off the bench by pushing the palms into the bench",
+          "Lockout your elbows and hold isometrically"
+        ]
+      }
+    },
+    {
+      "exercise_id": "de701754-e65a-468f-a7db-52b10fb30269",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6ede70372804bb3124116f3e57b086f1f3f08785758388d0b4ab622a8481b33e",
+      "name": "Gập bụng đạp xe",
+      "description": "",
+      "steps": [
+        "Nằm ngửa.",
+        "Co gối, đặt tay sau đầu.",
+        "Xoay thân, chạm khuỷu tay vào đầu gối đối bên. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Bicycle Crunch",
+        "description": "",
+        "steps": [
+          "Lie on your back.",
+          "Bend knees, hands behind head.",
+          "Twist torso, touch elbow to opposite knee. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "85b933eb-201b-45cf-b945-a46e260fc130",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7524ceec9286eb562d8e5bfedfe588dd868c4afc5d54d2ddc395dc714e33eb41",
+      "name": "Nâng ngón chân cái",
+      "description": "",
+      "steps": [
+        "Ngồi trên ghế, đặt bàn chân trần trên sàn.",
+        "Nâng ngón chân cái cao nhất có thể mà không di chuyển các ngón còn lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Big Toe Dorsiflexion",
+        "description": "",
+        "steps": [
+          "Sit on a bench with your bare foot on the ground.",
+          "Raise your big toe as far as it can go, without moving the rest of the toes."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7b7426ce-f1cc-418c-960d-ea298b590b3a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7ea2198ebfcc8c86402be699f6bed2f36cfb04123d47b4f9e7205314198e37bc",
+      "name": "Giãn cơ tư thế cánh bướm",
+      "description": "",
+      "steps": [
+        "Ngồi trên mông, hai gối co và hai bàn chân chạm nhau.",
+        "Nắm bàn chân, nghiêng về trước đến khi cảm thấy giãn ở bẹn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Bodyweight Butterfly Stretch",
+        "description": "",
+        "steps": [
+          "Sit on your butt with your knees bent and feet touching each other.",
+          "Grab your feet and lean forward until you feel a stretch in your groin."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4581c57b-bac3-49d2-81dc-61ac45f9019d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7abadae1be80f19badea90bdc3559564e0e6fa36a1a669a1308c4382a923e9a5",
+      "name": "Giữ thăng bằng một chân trên bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đặt chân trụ ở giữa bóng BOSU.",
+        "Giữ đầu gối chân đang nhấc hơi co.",
+        "Cố gắng giữ thăng bằng trên bóng BOSU."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Bosu Ball Single Leg Balance",
+        "description": "",
+        "steps": [
+          "Place the supporting leg on the middle of a bosu ball.",
+          "Keep the knee of the suspended leg slightly bent.",
+          "Try to maintain your balance on the bosu ball."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a9f75775-b245-4d26-bca0-1f7f27819cda",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "69048e1ffdf05e2d23f8c9c2dcf23d0de92ba47df4b5c4f251ec0a43fd630459",
+      "name": "Cuốn tay trước với thanh cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện thanh ngang. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt về máy cáp.",
+        "Đứng chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Bar Curl",
+        "description": "",
+        "steps": [
+          "Use a bar attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face the cable machine.",
+          "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e7bfc529-84dc-463f-b696-e126e6b4627f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "83f962155884ee3d98f02f7e6608944bf425946117a52b43828954cbb405b9d0",
+      "name": "Cuốn tay trước Bayesian với cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp.",
+        "Đứng chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Bayesian Curl",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face away from the cable machine.",
+          "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "54271c9c-c361-4339-8e6d-f98fb65aefa8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c127abd3384b983e5e22c7fa9ba08bf3b754fbcdfe0160d670d31704ff964a12",
+      "name": "Ép ngực với cáp trên ghế",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp thấp hơn vai một chút.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Bench Chest Fly",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cables, set the cables just below shoulder height.",
+          "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+          "Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4610c1a2-a1ba-47b4-9675-595605e7f307",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "256e1155c4b0e0fa01a37e545f8f46a9091e8a89005c4d270605cf531f87d61c",
+      "name": "Ép ngực một tay với cáp có điểm tựa",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước và giữ tay cầm ngang vai.",
+        "Tựa tay còn lại vào điểm đỡ, đưa tay đang tập vòng qua trước ngực theo hình cung.",
+        "Siết cơ ngực ở cuối động tác rồi từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Braced Single Arm Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable, hinge forward, and hold handle at shoulder height.",
+          "Brace free hand against support, then bring working arm across chest in an arc.",
+          "Squeeze chest at the end, then slowly return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e2cdc4f2-c670-4840-be30-2fcb51ed5114",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "11eb75ecde124c650f6c178135ae62846af0946ef436c04fa53887f287948231",
+      "name": "Đẩy ngực một tay với cáp có điểm tựa",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước và bám vào điểm đỡ để ổn định.",
+        "Đẩy chéo qua thân, dừng ngay trước khi khuỷu tay duỗi hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Braced Single Arm Chest Press",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable, hinge forward, and grab something for stability.",
+          "Press across the body going just short of extending your elbow."
+        ]
+      }
+    },
+    {
+      "exercise_id": "efee6057-3db8-481a-9b4b-652102ea1ee3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "026b071f7b436807ce666d86b201488a39c5680351d4b94fae17d4b80ece2cc7",
+      "name": "Ép ngực một tay với cáp có điểm tựa, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng với cáp, gập người về trước, giữ tay cầm ngang vai và vai xoay trong.",
+        "Tựa tay còn lại vào điểm đỡ, đưa tay đang tập vòng qua trước ngực theo hình cung.",
+        "Siết cơ ngực ở cuối động tác rồi từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Braced Single Arm Internally Rotated Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable, hinge forward, and hold handle at shoulder height with an internally rotated shoulder.",
+          "Brace free hand against support, then bring working arm across chest in an arc.",
+          "Squeeze chest at the end, then slowly return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5f78a0fb-0490-40fa-8954-59d367afa2ee",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "35642005df7d2db9463670f46748dd30fadd396d78798d6d523bb136e52fecb7",
+      "name": "Ép ngực với cáp trên ghế dốc xuống",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp cao hơn vai.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Decline Bench Chest Fly",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cables, set the cables above shoulder height.",
+          "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+          "Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "78f9e68b-2a7b-4eef-ab95-b89062555b08",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c902acca51ee6a3fac0320e0b4a363477886e7bbce5dd2f25bc34ec83297a830",
+      "name": "Cuốn búa Bayesian với cáp",
+      "description": "",
+      "steps": [
+        "Đứng quay mặt ra xa cáp và nắm hai phụ kiện tay cầm.",
+        "Dùng tay nắm trung tính, gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Hammer Bayesian Curl",
+        "description": "",
+        "steps": [
+          "Stand facing away from the cables and grab two handle attachments.",
+          "Take a neutral grip, flex your elbows, and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f30f08ec-ccd4-445b-aaa2-e3b2f18aa42d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "45992f711529693508677f8ddc17446f134eda6921ffeb5af2e67781055ff4aa",
+      "name": "Đẩy ngực với cáp trên ghế dốc lên",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Cáp cần đặt khá thấp.",
+        "Đưa cả hai tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. Bring a bench over to the cables. The cables should be set fairly low.",
+          "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+          "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2f4beaf5-b735-4396-9c9e-d2fc1c5e04d5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e2ef0c93b85e87fcf2643fff690fc86ae7c1f252e36a83384e55b4a08f8cd3b9",
+      "name": "Cuốn búa với dây thừng cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện dây thừng. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Dùng tay nắm trung tính, ngón cái hướng lên và ngón út hướng xuống. Gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Rope Hammer Curl",
+        "description": "",
+        "steps": [
+          "Use a rope attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+          "Use a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8b61b392-bf08-440c-8509-d24f4e06a046",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5de129b0b31f53fb1d62ceb3476f09bbd8aee8f96554615253c1e5385a70d162",
+      "name": "Ngồi cuốn tay trước Bayesian với cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Ngồi trên ghế, quay mặt ra xa máy cáp.",
+        "Đặt chân trước chân sau để có điểm tựa vững hơn. Hướng lòng bàn tay về trước. Gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Seated Bayesian Curl",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+          "Sit on a bench facing away from the cable machine.",
+          "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "60ba68eb-87fb-4243-965a-29813d02d779",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7db3b8fa578e084c80ba191afca8f2532f9c555a0552102ba24ad636641bd76c",
+      "name": "Ngồi cuốn búa Bayesian với cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp và ngồi trên ghế. Đặt chân trước chân sau để có điểm tựa vững hơn.",
+        "Dùng tay nắm trung tính, ngón cái hướng lên và ngón út hướng xuống. Gập rồi duỗi khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Seated Bayesian Hammer Curl",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face away from the cable machine and sit on the bench. Stagger your stance so you have a better base of support.",
+          "Use a neutral grip thumb facing up pinky-facing down). Flex at the elbow and extend."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eb49ec9a-28da-42df-b47a-835c73881a10",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2e1ac679761c84a58e8faac24ce3311dc3ddf9c2063884b22e4fd4f1cdbac7c2",
+      "name": "Ép ngực một tay với cáp trên ghế",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp thấp hơn vai một chút.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Single Arm Bench Chest Fly",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cables, set the cable just below shoulder height.",
+          "Bring the handle to your chest and make sure you are in the center of the cable crossover.",
+          "Press the weight forward. From there, your shoulder should horizontally abduct and adduct while your elbow stays in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a3e0e32d-8625-4b40-8ba8-2195f13222f9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "faf6280b0be1404ed2691fcb08585209072e4e4392d2ae00afb6525f754b981a",
+      "name": "Đẩy ngực một tay với cáp trên ghế",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Đặt cáp ngang vai.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Single Arm Bench Press",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. Bring a bench over to the cables. The cable should be set to shoulder height.",
+          "Bring the handle to your chest and make sure you are in the center of the cable crossover.",
+          "From there, you should flex and extend at both the shoulder and elbow simultaneously."
+        ]
+      }
+    },
+    {
+      "exercise_id": "30fc554a-aa60-4c24-9f96-80d2f6585a5a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "56a7909f47b3d1cfd430b89023211bdf9e9c905f5af4771036f609eb7d818817",
+      "name": "Ép ngực một tay với cáp trên ghế dốc xuống",
+      "description": "",
+      "steps": [
+        "Đưa ghế đến máy cáp, đặt cáp cao hơn vai.",
+        "Đưa tay cầm về ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Đẩy tạ về trước. Từ đó, thực hiện dạng và khép ngang ở vai trong khi khuỷu tay giữ nguyên vị trí."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Single Arm Decline Bench Chest Fly",
+        "description": "",
+        "steps": [
+          "Bring a bench over to the cables, set the cable above shoulder height.",
+          "Bring the handle to your chest and make sure you are in the center of the cable crossover.",
+          "Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbow stays in a fixed position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "481b19d9-3832-4a38-bd96-a30f336404e9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "601015c70f16c6ec3b9365f200434d40f77e3f81f987493abc15322efff7c216",
+      "name": "Đẩy ngực một tay với cáp trên ghế dốc lên",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đưa ghế đến máy cáp. Cáp cần đặt khá thấp.",
+        "Đưa tay cầm ngang qua ngực, bảo đảm bạn ở giữa hai bên cáp chéo.",
+        "Từ đó, gập và duỗi đồng thời cả vai lẫn khuỷu tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Single Arm Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. Bring a bench over to the cables. The cable should be set fairly low.",
+          "Bring the handle across your chest and make sure you are in the center of the cable crossover.",
+          "From there, you should flex and extend at both the shoulder and elbow simultaneously."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9f162590-db3a-48d7-9ab0-44a8e4afdd50",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "40abf137a62cb7a2068cf12ad862bc4ba0f9f0efdbaadce20e6dc7e933a1cfc7",
+      "name": "Đứng ép ngực dốc lên một tay với cáp, vai xoay trong",
+      "description": "",
+      "steps": [
+        "Đứng nghiêng với cáp, đặt tay cầm thấp và xoay lòng bàn tay vào trong trước khi nâng.",
+        "Đưa tay lên và chéo qua ngực theo hình cung, giữ khuỷu tay hơi co.",
+        "Siết ngực trên ở điểm cao nhất rồi từ từ trở lại, giữ vị trí xoay trong."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Cable Standing Single Arm Internally Rotated Incline Chest Fly",
+        "description": "",
+        "steps": [
+          "Stand sideways to cable with handle set low, palm rotated inward before lifting.",
+          "Bring arm upward and across chest in an arc, keeping elbow slightly bent.",
+          "Squeeze upper chest at the top, then return slowly while maintaining internal rotation."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d3ef0c96-4927-4d9a-9bb0-ba71ccf16d49",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8d23a48a0c0293cafa6784a76f5e85fb7f48ec988bcc1254f6d4b96114d725d7",
+      "name": "Nhón gót hai chân thiên về cơ dép 3A",
+      "description": "",
+      "steps": [
+        "Từ tư thế đứng, co gối đến tư thế squat hoặc squat nửa chừng.",
+        "Giữ squat trong khi nâng cả hai gót khỏi sàn.",
+        "Giữ thoáng chốc rồi hạ gót trở lại.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chạm sàn, lặp lại động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Calf Raise 3A Soleus Bias Bilateral",
+        "description": "",
+        "steps": [
+          "From the standing position, bend your knees till you get to a squated or semi-squated position",
+          "Maintain the squat while raising both heels off the ground",
+          "Hold the position for a split second before lowering your heels again",
+          "Do not rest at the bottom. As soon as you feel your heels touch the ground, repeat the movement"
+        ]
+      }
+    },
+    {
+      "exercise_id": "40c5d217-c1d0-4e7c-8cf0-9807297d0dc7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e9f5e469631f8a428faf7850eba6eeb0280f7460757fd7639d2fb3d1144afa8f",
+      "name": "Nhón gót một chân thiên về cơ dép 3B",
+      "description": "",
+      "steps": [
+        "Từ tư thế đứng, co gối đến tư thế squat hoặc squat nửa chừng. Đứng gần cột hoặc giá squat để hỗ trợ thăng bằng.",
+        "Giữ squat, chuyển trọng lượng lên chân đang tập và nhấc chân kia khỏi sàn.",
+        "Nâng gót chân khỏi sàn.",
+        "Giữ thoáng chốc rồi hạ gót trở lại.",
+        "Không nghỉ ở vị trí thấp nhất. Ngay khi cảm thấy gót chạm sàn, lặp lại động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Calf Raise 3B Soleus Bias Unilateral",
+        "description": "",
+        "steps": [
+          "From the standing position, bend your knees till you get to a squated or semi-squated position. Be close to a pole or squat rack to use for balance",
+          "Maintain the squat while shifting your weight onto the working leg and raising the other off the ground",
+          "Raise your heel off the ground",
+          "Hold the position for a split second before lowering your heel again",
+          "Do not rest at the bottom. As soon as you feel your heel touch the ground, repeat the movement"
+        ]
+      }
+    },
+    {
+      "exercise_id": "9c17d9a4-551c-4e9f-94bb-18f89f82f5c7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1eaa97fa09d6a9582b6f9acf07abac577278d089c3c41a0fbda414784c515d3d",
+      "name": "Ổn định cơ trung tâm 1: nâng tay chân đối bên khi chống bốn điểm",
+      "description": "",
+      "steps": [
+        "Vào tư thế chống 4 điểm bằng hai tay và hai gối.",
+        "Giữ góc 90° ở hông và vai, cột sống trung tính.",
+        "Nâng tay và chân đối bên đến khi song song với sàn.",
+        "Giữ thoáng chốc rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Core Stability 1 Crosslateral Limb Raise 4Pt Position",
+        "description": "",
+        "steps": [
+          "Bring yourself to the 4 point position (on all fours)",
+          "90° angles at hips and shoulder and neutral spine",
+          "Raise opposite limbs till they are parallel to the ground",
+          "Hold for a split second and bring back to starting position"
+        ]
+      }
+    },
+    {
+      "exercise_id": "2ee1a89b-7882-43e9-ba64-39d58aae5f01",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a442306aeddafd6a48b9a9ec9899a0e3ce1d9abe0b9dc51e41342a99c4bead7a",
+      "name": "Ổn định cơ trung tâm 2: chạm vai đối bên khi chống bốn điểm",
+      "description": "",
+      "steps": [
+        "Vào tư thế chống 4 điểm bằng hai tay và hai gối. Giữ góc 90° ở hông và vai, cột sống trung tính.",
+        "Nhấc đầu gối hơi khỏi sàn, đỡ trọng lượng trên lòng bàn tay và mũi chân.",
+        "Đặt mũi chân rộng khoảng bằng vai; chân càng rộng thì bài càng dễ, càng hẹp thì càng khó.",
+        "Dùng đầu ngón tay chạm vai đối bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+        "description": "",
+        "steps": [
+          "Bring yourself to the 4 point position (on all fours). 90° angles at hips and shoulder and neutral spine.",
+          "Lift your knees slightly off the ground supporting your weight on palms and toes.",
+          "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+          "Tap your opposite shoulder with your fingertips."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b757ee64-6447-4cb6-8073-394fc570a150",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "414a92904bd27edabd63e7f76d7033c9aba2e3dd61b4676958b2e451de4166ce",
+      "name": "Ổn định cơ trung tâm 5: nâng tay chân đối bên rồi co gối chạm khuỷu tay",
+      "description": "",
+      "steps": [
+        "Vào tư thế chống đẩy chuẩn.",
+        "Nâng tay và chân đối bên đến khi song song với sàn.",
+        "Giữ thoáng chốc rồi thử đưa khuỷu tay về đầu gối đối bên bằng cách đưa cả hai về giữa thân.",
+        "Cột sống có thể hơi cong nhưng không dịch chuyển hông trong động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Core Stability 5 Crosslateral Limb Raise Into Knee Elbow Tuck Push Up Position",
+        "description": "",
+        "steps": [
+          "Bring yourself to a strict push-up position",
+          "Raise opposite limbs till they are parallel to the ground",
+          "Hold for a split second and then try to bring your elbow to your opposite knee by driving both towards the centre of the body.",
+          "Spine might curve slightly but you should not shift your hips during the movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8ba60a95-bb92-4e8a-bffb-4f61006ff83a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b8e5775ed0c4ed29213f522c691699938e479397e5195da7cbba75de5b302a63",
+      "name": "Giữ nâng mũi chân",
+      "description": "",
+      "steps": [
+        "Từ tư thế đứng, nâng mũi chân và giữ thăng bằng trên gót trong thời gian được chỉ định.",
+        "Giữ tư thế thân trên đúng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dorsal Flexion Hold",
+        "description": "",
+        "steps": [
+          "From the standing position, raise your toes and balance on your heels for the given duration.",
+          "Maintain a good upper body form."
+        ]
+      }
+    },
+    {
+      "exercise_id": "13b167dc-54a0-4f2c-913b-98dfcf187098",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a35ba33ffd6631869293eb42b8ef5f1fac1fc9fc5d99a82d603828c7804ffa92",
+      "name": "Duỗi cổ tay với tạ đơn tựa ghế",
+      "description": "",
+      "steps": [
+        "Nắm hai tạ đơn bằng tay nắm sấp và đặt cẳng tay ngang qua ghế.",
+        "Để cổ tay gập hết biên độ rồi duỗi cổ tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Bench Wrist Extension",
+        "description": "",
+        "steps": [
+          "Grab two dumbbells with an overhand grip and lay your forearms across a bench.",
+          "Let your wrists flex fully, then extend your wrists."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a4416638-fc26-464b-8055-33fa2f008b5d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bb4b5ad3765d80a8297933b5cd8dccf8eceb07338efc4be7999517a8704ec3aa",
+      "name": "Chùng chân bắt chéo giữ tạ đơn trước ngực",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ tạ đơn trước ngực ở tư thế goblet.",
+        "Bước chân trái ra sau và sang bên phải của bàn chân phải, bắt chéo phía sau chân phải.",
+        "Co gối, hạ hông xuống và ra sau như sắp ngồi vào ghế.",
+        "Ấn qua gót chân phải để duỗi chân phải và trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Goblet Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Stand with your feet hip-width apart and a dumbbell in a goblet position.",
+          "Step your left foot behind and to the right of your right foot, crossing it behind your right leg.",
+          "Bend your knees and lower your hips down and back, as if you were about to sit in a chair.",
+          "Push through your right heel to straighten your right leg and return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "866c0f37-34c7-4734-93b8-cdfbd197980a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "07781ba58c55223e10f36c0beeedc8400b4c6c823a5e6f35f9ce9a0090ff2acd",
+      "name": "Đưa tạ đơn qua đầu với pha hạ chậm",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, giữ tạ đơn trên vai với tay thẳng.",
+        "Từ từ hạ tay về phía sàn qua đầu.",
+        "Dừng ở vị trí giãn.",
+        "Co khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Pullover Eccentrics",
+        "description": "",
+        "steps": [
+          "Lie on a bench holding a dumbbell over your shoulder, straight arm.",
+          "Slowly lower your arm towards the ground (overhead position).",
+          "Pause in the stretched position.",
+          "Bend your elbow to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "12320742-3b2c-4a59-9ecc-8ad9d2a42e06",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c84fec13bf6f1c928625532d534d85e755d6fba89f74c7abafe00d8520bea455",
+      "name": "Ngồi nâng mũi chân với tạ đơn",
+      "description": "",
+      "steps": [
+        "Ngồi trên bục hoặc ghế, đặt gót chân trên bậc hoặc bánh tạ, đặt tạ đơn trên đùi trước.",
+        "Nâng mũi chân thẳng lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Seated Tibialis Raise",
+        "description": "",
+        "steps": [
+          "Sit on a box or bench, place your heels on a step or plate, and place dumbbells on your quads.",
+          "Raise your toes straight toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cca3fe43-c6c7-4e2b-a0d4-1ea6661a07f9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bb94a56983529203969995be71061ed856dccef001261734805af076042befd7",
+      "name": "Động tác giao bóng với tạ đơn",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ tạ đơn bằng một tay. Cuốn tay trước chéo qua thân.",
+        "Đưa tạ về vai, xoay lòng bàn tay và khuỷu tay ra ngoài.",
+        "Hướng khuỷu tay lên trần trong khi tạ vẫn ngay trên vai.",
+        "Duỗi khuỷu tay để nâng tạ qua đầu. Bắt đầu hạ tay về bên thân đồng thời xoay lòng bàn tay hướng xuống."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Service Exercise",
+        "description": "",
+        "steps": [
+          "Stand up straight and hold a dumbbell in one arm. Perform a bicep curl across your body",
+          "Bring the dumbbell to your shoulder and rotate palm and elbow out.",
+          "Point the elbow towards the ceiling while the dumbbell remains just over the shoulder.",
+          "Extend your elbow to raise the dumbbell over your head. Start lowering your arm to your side as you turn the palm to face down"
+        ]
+      }
+    },
+    {
+      "exercise_id": "cdde2d16-17bc-4122-816a-ed41ca56c15f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0f46650ea5d3caf882ec999a699058b1a1cf33ae23df6636110a5b2f8207b087",
+      "name": "Đứng nâng mũi chân với tạ đơn",
+      "description": "",
+      "steps": [
+        "Đặt gót chân trên bậc hoặc bánh tạ, giữ tạ đơn ở hai bên thân.",
+        "Nâng mũi chân thẳng lên phía trần.",
+        "Giữ ở điểm cao nhất để tăng tác động. Từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Dumbbell Standing Tibialis Raise",
+        "description": "",
+        "steps": [
+          "Place your heels on a step or plate, and hold dumbbells to your side.",
+          "Raise your toes straight toward the ceiling.",
+          "Hold at the top for extra benefit. Slowly return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "69d90d07-7b2d-4b37-8cef-c7537670cd66",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2cd688a51e1f2b69f5023e71ab433356fa9192a31316c3db2846b18ecc27bce8",
+      "name": "Nghiêng bàn chân ra ngoài với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Ngồi trên bậc hoặc bục thấp, tốt nhất có tựa lưng. Duỗi hai chân, vòng dây quanh phần đệm trước bàn chân đang tập.",
+        "Luồn dây quanh bàn chân kia như trong video. Giữ đầu dây bằng tay đối bên với bàn chân đang tập.",
+        "Trước khi bắt đầu, cổ chân ở góc 90° và bàn chân nghiêng vào trong. Nghiêng bàn chân ra ngoài mà không di chuyển phần còn lại của chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Eversions",
+        "description": "",
+        "steps": [
+          "Sit on a step or low box, preferably with a back support. Extend both legs and wrap the band around the balls of the working foot",
+          "Pass the band around the other foot as shown in the video. Hold the end of the band with the opposite arm of the working foot",
+          "The ankle should be at 90° and turned inwards (inversion) before you start the movement. Turn the ankle out, without moving the rest of the leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b3934b5a-7d9d-4a5d-b318-60a6a9a04451",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ae1288223b53589e8cfa3bd63e1ec35ff731679f0b8d213c40b16042c4ae65c2",
+      "name": "Ngồi ngả người giữ nâng chân thẳng",
+      "description": "",
+      "steps": [
+        "Ngồi trên sàn, ngả người ra sau tựa trên lòng bàn tay hoặc khuỷu tay.",
+        "Nâng một chân thẳng cách sàn vài xentimét, giữ trong thời gian được chỉ định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Floor Incline Leg Raise",
+        "description": "",
+        "steps": [
+          "Sit on the floor and lean back into your palms or on your elbows.",
+          "Raise a straight leg a few centimeters off the ground and hold the position for the specified duration."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6e38c64b-6c77-4bbf-b086-faf426b4edbc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8901a401832d24e914b506c94c42f3e65790bc5a1cbaa69e7a9be86e8f20881a",
+      "name": "Giãn cơ bụng chân hai bên trên bục",
+      "description": "",
+      "steps": [
+        "Đứng ở mép bục, hai đầu gối duỗi.",
+        "Để trọng lượng cơ thể đẩy gót chân về phía sàn.",
+        "Bạn cần cảm nhận cơ bắp chân được giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Gastrocnemius Stretch Bilateral On Box",
+        "description": "",
+        "steps": [
+          "Stand on the edge of a box, knees extended.",
+          "Let your weight push your heels towards the ground.",
+          "You should feel your calves being stretched."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d2e860c3-d42d-4ddc-9b1d-b74f147d2ece",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "faae43eb7788c641554e3e3acd7a5136fc153dcc8e531d6fe0faa52e84d166a8",
+      "name": "Giãn cơ bụng chân ở tư thế chống đẩy",
+      "description": "",
+      "steps": [
+        "Vào tư thế chống đẩy.",
+        "Duỗi thẳng gối, thử đẩy một gót chân xuống sàn.",
+        "Vắt chân kia lên trên để tạo thêm áp lực cho động tác giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Gastrocnemius Stretch Push Up Position",
+        "description": "",
+        "steps": [
+          "Get yourself in the pushup position.",
+          "Straighten your knees and try to push one heel down towards the ground.",
+          "Cross your other leg over the top to apply extra pressure to the stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3c3ace0c-dde6-488f-af0d-c08234d96c84",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "57676263de8a893bfe8f0da614c53a2579457cc13093e7941ac1cfe2c0220060",
+      "name": "Giãn cơ bụng chân một bên trên bục",
+      "description": "",
+      "steps": [
+        "Đứng ở mép bục, hai đầu gối duỗi.",
+        "Co một chân, để trọng lượng đẩy gót của chân thẳng về phía sàn.",
+        "Bạn cần cảm nhận cơ bắp chân được giãn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Gastrocnemius Stretch Unilateral On Box",
+        "description": "",
+        "steps": [
+          "Stand on the edge of a box, knees extended.",
+          "Bend one leg while allowing the weight to push the heel of your straight leg towards the ground.",
+          "You should feel your calves being stretched."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ede866a7-c7c5-4180-82d3-87c1da302806",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6fc16a007306e788a96507dd1d3bfdca7cd10367d9132d6b3c9601998014f3e9",
+      "name": "Giãn cơ bụng chân một bên tựa tường",
+      "description": "",
+      "steps": [
+        "Đứng cạnh tường nhưng không quá gần.",
+        "Đặt lòng bàn tay lên tường, duỗi một chân ra sau và hơi co chân trước.",
+        "Đẩy tường để ấn gót chân duỗi xuống sàn đến khi cảm thấy giãn ở bắp chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Gastrocnemius Stretch Unilateral On Wall",
+        "description": "",
+        "steps": [
+          "Stand by a wall but not too close.",
+          "Place the palms on the wall and extend one leg behind you, while slightly bending the front leg.",
+          "Push the wall in order to drive the heel of the extended leg into the ground till you feel a stretch in your calf."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2619cd38-d436-4603-8dea-ff868d2fb00e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "27c0ec8f095239b1061d0f8bc42ffa2bdf856e4b6a2dfda122cda270a73c1d37",
+      "name": "Plank chống tay",
+      "description": "",
+      "steps": [
+        "Bắt đầu quỳ với hai tay đặt chắc trên sàn.",
+        "Nhấc đầu gối khỏi sàn. Giữ tư thế này với lưng phẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Hand Plank",
+        "description": "",
+        "steps": [
+          "Start in a kneeling position with your hands planted on the ground.",
+          "Pick your knees up off the ground. Hold in this position with a flat back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1b0f508-36e0-4fdb-9d2a-0698696ee93e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8a30e95d9c70349c7d5451e5fa1fd05f1214443c9f14f5d781864d70cc44c0f9",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 1",
+      "description": "",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Hip Flexor Stretch Kneeling Lunge 1",
+        "description": "",
+        "steps": [
+          "Bring yourself to kneeling lunge position. Keep a 90° angle at knees.",
+          "Slide the front knee forward while gently leaning back.",
+          "Squeeze the glute on the side of the leg that's to the front to avoid lower back complaints."
+        ]
+      }
+    },
+    {
+      "exercise_id": "260141a6-b5a6-468b-b7c2-105c337230fd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f7cfedf029e5f1dd6183140fb0d3b63b864ff3415f4385574f4f56152cf50145",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 2",
+      "description": "",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau. Nâng tay chéo ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Hip Flexor Stretch Kneeling Lunge 2",
+        "description": "",
+        "steps": [
+          "Bring yourself to kneeling lunge position. Keep a 90° angle at knees.",
+          "Slide the front knee forward while gently leaning back. Raise your arm diagonally backwards",
+          "Squeeze the glute on the side of the leg that's to the front to avoid lower back complaints."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a8ea9c79-c783-49c2-979c-5c278e5844c2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a585afdd24c251568f10403c29cb18c879e72f7698ea10b9aab0cf3de9567f1a",
+      "name": "Giãn cơ gấp hông ở tư thế chùng chân quỳ 3",
+      "description": "",
+      "steps": [
+        "Vào tư thế chùng chân quỳ. Giữ góc 90° ở hai đầu gối.",
+        "Kê cao bàn chân sau; kê càng cao thì cơ gấp hông và phần trên cơ đùi trước càng được giãn.",
+        "Đưa đầu gối trước trượt về trước, đồng thời nhẹ nhàng ngả ra sau.",
+        "Siết cơ mông bên chân trước để tránh khó chịu ở lưng dưới."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:11:58.534Z",
+      "source": {
+        "name": "Hip Flexor Stretch Kneeling Lunge 3",
+        "description": "",
+        "steps": [
+          "Bring yourself to kneeling lunge position. Keep a 90° angle at knees.",
+          "Back foot should be elevated (the higher the elevation the more the hip flexor/upper quad will stretch).",
+          "Slide the front knee forward while gently leaning back.",
+          "Squeeze the glute on the side of the leg that's to the front to avoid lower back complaints."
+        ]
+      }
+    }
+  ]
+}

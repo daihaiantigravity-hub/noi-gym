@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Reviewed 22 remaining Kettlebells, Plate, Bosu Ball and Medicine Ball sources against all 86 available gender/angle clip files, six chronological samples each. Inspected 72 supplemental samples: four 12-frame first-five-second sequences for clean/jerk and four six-frame offset sequences for BOSU support, plate-twist foot placement and fixed-bar support. Total 588 inspected samples. Partner-toss files show the same two-person demonstration for both media genders; do not imply four distinct performances. Corrections describe visible support, load quantity, grip and movement, not recovered provider wording. Retain step counts and existing side/time cues; do not invent angles, repetitions, sets or loading.",
+  "decisions": [
+    {
+      "exercise_id": "1fa90b16-7f60-484d-939b-3b1fa11c7838",
+      "sourceName": "Kettlebell Waiters Bow",
+      "changeReason": "Both genders hold one kettlebell in each hand while using a fixed bar at thigh height as a reference/support. Keep the bar distinct from the handheld load; add the missing kettlebells and retain the existing hinge/hamstring-stretch/return cues. Do not replace every occurrence of bar with kettlebell.",
+      "steps": [
+        "Set a fixed bar at about mid-thigh height and stand with your thighs against it. Hold a kettlebell in each hand with your arms hanging down.",
+        "Push your hips back while keeping your knees mostly extended and your back straight. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position, keeping the kettlebells in your hands."
+      ]
+    },
+    {
+      "exercise_id": "228cb264-339b-452f-b857-0fa6829f7b22",
+      "sourceName": "Kettlebell Upright Row Single",
+      "changeReason": "Both genders stand upright and lift one kettlebell held with both hands; the elbows lead upward/outward. Remove the bent-over-to-floor phase and preserve this single-bell load separately from the two-bell Upright Row.",
+      "steps": [
+        "Stand with your feet shoulder-width apart, holding one kettlebell with both hands in front of your thighs.",
+        "Keep your torso upright and bend your elbows, leading them up and out to draw the kettlebell toward your chest.",
+        "Lower the kettlebell under control to the front of your thighs, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "3282f40b-df10-48c1-b38c-c5342300b511",
+      "sourceName": "Medicine Ball Press Jack",
+      "changeReason": "Both genders jump the feet apart as the ball goes overhead and bring the feet together as it returns to the chest. Add these jack-specific leg phases without adding a jump height, load or repetition count.",
+      "steps": [
+        "Stand with your feet together and hold the medicine ball at your chest with both hands.",
+        "Jump your feet apart as you press the ball overhead.",
+        "Jump your feet back together as you lower the ball to your chest. Repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "365a565e-071e-4c31-866d-11c356dcd915",
+      "sourceName": "Plate Single Leg Pinch Grip Deadlift",
+      "changeReason": "Both genders pinch one plate in each hand, hinge on one supporting leg while the other extends back, then rise and bring that foot back down. Correct the singular-plate setup, corrupted 'four raised leg' wording and reversed lowering/return sequence. The raised leg follows the back line during the hinge, not during the upright return.",
+      "steps": [
+        "Hold a weight plate by its rim in each hand at your sides with your arms straight, and balance on one foot.",
+        "Hinge forward at your hips to lower the plates, keeping your back straight as your free leg extends behind you in line with your back.",
+        "Drive your hips forward to stand back up, bringing the free foot back toward the ground while keeping the plates in your hands."
+      ]
+    },
+    {
+      "exercise_id": "376acc8c-ec4f-4430-9f5d-283edba5d446",
+      "sourceName": "Kettlebell Guillotine Bench Press",
+      "changeReason": "The female-only clips show a flat bench and one kettlebell in each hand, lowering with flared elbows toward the upper chest before pressing up. Correct the single bell held in both hands, while keeping this bench setup separate from the incline variant. No neck-contact or numerical elbow-angle cue is added.",
+      "steps": [
+        "Lie on a flat bench with your feet on the floor, holding a kettlebell in each hand above your chest.",
+        "Bend your elbows and lower the kettlebells toward your upper chest, with your elbows opening out to the sides.",
+        "Press both kettlebells upward until your arms are extended, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "38081e8c-4479-422c-af21-70711e37f2cf",
+      "sourceName": "Kettlebell Staggered Waiters Bow",
+      "changeReason": "Both genders use a fixed bar at thigh height with a staggered stance and one kettlebell in each hand. Establish the load while preserving the front-foot/back-toe support and hip-hinge sequence; the bar remains a separate support/reference, not a held barbell load.",
+      "steps": [
+        "Set a fixed bar at mid-thigh height and place your working thigh against it. Hold a kettlebell in each hand with your arms hanging down.",
+        "Place one foot behind you, resting only on the toes of that back foot. Keep your front foot flat on the floor throughout the movement.",
+        "Bend your back knee and push your hips back with a straight back, looking for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position."
+      ]
+    },
+    {
+      "exercise_id": "3dd7655e-fe50-4bc0-8a9c-4dfe97492ff2",
+      "sourceName": "Kettlebell Staggered Swing",
+      "changeReason": "Both genders hold one kettlebell with both hands in a staggered stance, hinge into the backswing, drive the hips to swing forward and return between the legs. Replace the opening lowering/repeat sentence with the missing setup; retain the source's chest-height target and core/stance cue.",
+      "steps": [
+        "Stand with one foot slightly behind the other and hold a kettlebell with both hands. Hinge at your hips to bring the kettlebell back between your legs.",
+        "Drive your hips forward to swing the kettlebell up to chest height.",
+        "Let the kettlebell swing back between your legs as you hinge again, keeping your core engaged and your staggered stance. Repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "44233008-622d-462c-9e7e-13dc6de91e78",
+      "sourceName": "Weighted Knee Push Ups",
+      "changeReason": "Both genders perform knee-supported pushups with a plate resting flat across the upper back. Add the omitted load position and hands/knees support. Replace the narrow-elbow prescription with the visible lowering and aligned-body cue rather than imposing an unobserved elbow angle.",
+      "steps": [
+        "Begin supported on your hands and knees, with a weight plate resting flat across your upper back and your arms extended.",
+        "Bend your elbows to lower your chest toward the floor, keeping your body aligned from your shoulders to your knees and the plate stable.",
+        "Press through your hands to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "5e581341-2be4-4dd5-91bc-4ce6a3890a74",
+      "sourceName": "Plate Lateral Raise",
+      "changeReason": "Both genders hold one plate in each hand, not two in each hand. Preserve the outward raise/controlled lowering and shoulder-height target; the elbows are nearly straight rather than forcibly locked.",
+      "steps": [
+        "Stand with your feet shoulder-width apart, holding one plate in each hand at your sides.",
+        "Keeping your arms nearly straight, raise the plates out to the sides until they are in line with your shoulders.",
+        "Lower the plates back to your sides under control. Repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "6fc94c3a-eada-4f02-9128-13d0003aaf02",
+      "sourceName": "Plate Hip Abduction",
+      "changeReason": "Both genders hold one plate against the outer working thigh and support the free hand on the rack while lifting that leg outward. Remove the unsupported alternative of anchoring a plate between the legs; retain the stable torso, forward-toe and controlled-return cues.",
+      "steps": [
+        "Stand on one leg beside a stable support, holding a plate against the outside of your working thigh and using your free hand for balance.",
+        "Lift the working leg outward to the side, keeping the plate against your thigh, your torso steady and your toes pointing forward.",
+        "Lower the leg slowly under control, maintaining tension in the outer hip."
+      ]
+    },
+    {
+      "exercise_id": "75fced1a-7bea-421b-a6a2-acb55fbca87a",
+      "sourceName": "Kettlebell Upright Row",
+      "changeReason": "Both genders hold one kettlebell in each hand and row upward with an upright torso. Correct the copied one-bell/bent-over setup, keeping this ID and two-bell variation separate from Upright Row Single.",
+      "steps": [
+        "Stand with your feet shoulder-width apart, holding a kettlebell in each hand in front of your thighs.",
+        "Keep your torso upright and bend your elbows, leading them up and out to draw the kettlebells toward your chest.",
+        "Lower both kettlebells under control to the front of your thighs, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "826bbbe8-65f9-4101-b9ab-aaa8fb2160cc",
+      "sourceName": "Bosu Ball Single Leg Hip Thrust",
+      "changeReason": "Both genders rest the upper back on the BOSU dome, plant one foot on the floor and keep the other foot lifted during the hip thrust. Establish that support instead of sitting on the BOSU; the raised leg extends as the hips rise. Retain controlled lowering and switching legs.",
+      "steps": [
+        "Rest your upper back on the dome of the BOSU, with its flat base on the floor. Bend one knee and plant that foot on the floor, lifting your other foot.",
+        "Drive through the planted foot to raise your hips, squeezing your glutes and extending the lifted leg forward.",
+        "Lower your hips under control, then switch legs."
+      ]
+    },
+    {
+      "exercise_id": "84c30e4f-4771-46b0-a5b4-4ca175293212",
+      "sourceName": "Kettlebell Incline Guillotine Bench Press",
+      "changeReason": "Both genders use an inclined backrest and a kettlebell in each hand. Establish the incline and separate bells rather than the old one-bell setup; retain flared-elbow lowering toward the upper chest and upward extension without inventing a bench angle.",
+      "steps": [
+        "Lie back on an incline bench with your feet on the floor, holding a kettlebell in each hand above your upper chest.",
+        "Bend your elbows and lower the kettlebells toward your upper chest, with your elbows opening out to the sides.",
+        "Press both kettlebells upward until your arms are extended, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "91ab5fac-a2ad-4741-bfeb-097ae061fad8",
+      "sourceName": "Kettlebell Hang Clean And Jerk",
+      "changeReason": "Full samples plus 12 chronological frames from the first five seconds of each clip show the hang-to-shoulder clean and a knee dip/leg drive before the overhead phase in both genders. Add that visible leg-assisted overhead transition instead of a strict press. Do not invent a second knee-bend catch, split stance or numerical dip angle that the samples do not establish.",
+      "steps": [
+        "Hold a kettlebell in each hand just above your knees, with a slight bend in your hips and knees.",
+        "Drive through your hips and knees to bring the kettlebells up to your shoulders, receiving them in front of your shoulders with your elbows bent.",
+        "Dip your knees, then extend your legs to drive the kettlebells overhead, finishing with your arms and legs extended. Lower the kettlebells to your shoulders and then back to the hanging position under control."
+      ]
+    },
+    {
+      "exercise_id": "9d621ff9-86fa-4c12-a454-a57bb829b92c",
+      "sourceName": "Plate Russian Twist",
+      "changeReason": "Both genders hold a plate in both hands while rotating a leaned-back seated torso. Male feet are raised and female heels remain near/on the floor, confirmed by offset samples; do not force one foot-support variant across both. Establish the missing plate and ask for steady legs while retaining the source's right/left order and one-second pauses.",
+      "steps": [
+        "Sit on the floor with your knees bent, lean your torso slightly back and hold a plate in both hands in front of you.",
+        "Engage your core by drawing your belly button toward your spine and keep your legs steady.",
+        "Twist your upper body to the right, bringing the plate with you while keeping your back straight.",
+        "Hold for a second, then twist to the left and hold for another second."
+      ]
+    },
+    {
+      "exercise_id": "d4611a2c-35b8-4aca-87e1-1d22785b0135",
+      "sourceName": "Kettlebell Alternating Single Arm Thruster",
+      "changeReason": "Both genders hold two kettlebells at the shoulders but press only one overhead after each squat, keeping the other at the shoulder and alternating on subsequent repetitions. Replace the bilateral press and ambiguous both-bells lowering with that sequence.",
+      "steps": [
+        "Hold a kettlebell in each hand at shoulder height, with your palms facing inward.",
+        "Squat down, then drive upward and press one kettlebell overhead while keeping the other at your shoulder.",
+        "Lower the raised kettlebell back to your shoulder as you descend into the next squat, then press with the other arm. Continue alternating arms each repetition."
+      ]
+    },
+    {
+      "exercise_id": "e03cd0c4-0f3d-4a92-8dec-440025ac5704",
+      "sourceName": "Kettlebell Thruster",
+      "changeReason": "Both genders perform a squat with both bells racked before driving both overhead, rather than only a slight dip. Make the squat and coordinated hip/knee extension explicit, retaining the original five blocks and no added depth angle or prescription.",
+      "steps": [
+        "Stand with your feet shoulder-width apart, holding a kettlebell in each hand.",
+        "Bring the kettlebells to your shoulders, with your palms facing inward and your elbows bent.",
+        "Keeping the kettlebells at your shoulders, bend your hips and knees to lower into a squat.",
+        "Drive upward by extending your hips and knees, using that momentum to press both kettlebells overhead.",
+        "Lower the kettlebells back to your shoulders under control and repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "ec7aad3e-6eed-46db-ae51-54886881851e",
+      "sourceName": "Bosu Ball Hip Thrust",
+      "changeReason": "Both genders support the upper back on the BOSU dome with both feet planted and knees bent; the hands remain beside the body rather than defining the main support. Offset male side samples confirm the lowered and raised hips. Replace the sitting-on-BOSU setup without forcing a hand position that differs between genders.",
+      "steps": [
+        "Rest your upper back on the dome of the BOSU, with its flat base on the floor. Bend both knees and plant both feet on the floor.",
+        "Drive through your feet to raise your hips, squeezing your glutes and keeping your upper back supported on the BOSU.",
+        "Lower your hips under control to complete one repetition."
+      ]
+    },
+    {
+      "exercise_id": "ee2d4de5-6715-4579-9d77-1c6bd3e6dcc0",
+      "sourceName": "Bosu Ball Situp",
+      "changeReason": "Both genders lie on the floor with legs extended and hold the BOSU by its rim above the chest, then sit up keeping it raised. Female full samples and male offset samples establish the lying start. The BOSU is a handheld load, not upper-back support in this exercise.",
+      "steps": [
+        "Lie on your back on the floor with your legs extended, holding the BOSU by its rim with both hands above your chest.",
+        "Engage your core and sit up, keeping your arms extended and the BOSU raised above you.",
+        "Lower your torso back to the floor under control while continuing to hold the BOSU."
+      ]
+    },
+    {
+      "exercise_id": "eeea366a-c885-4a83-b819-46e04daa94d6",
+      "sourceName": "Plate Staggered Waiters Bow",
+      "changeReason": "Both genders hold one plate against the chest while the working thigh uses a fixed bar and the rear foot rests on its toes. Add the missing handheld plate but retain the bar support and existing staggered hinge/return sequence.",
+      "steps": [
+        "Set a fixed bar at mid-thigh height and place your working thigh against it. Hold a weight plate against your chest with both hands.",
+        "Place one foot behind you, resting only on the toes of that back foot. Keep your front foot flat on the floor throughout the movement.",
+        "Bend your back knee and push your hips back with a straight back, looking for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position."
+      ]
+    },
+    {
+      "exercise_id": "f0f0397a-da6c-466d-9dd7-f28db52fe91a",
+      "sourceName": "Medicine Ball Partner Side Toss",
+      "changeReason": "The shared two-person demonstration has partners standing side by side facing the same direction, rotating to toss and receiving at the outside hip before tossing back. Resolve the contradictory facing-partner/side-by-side setup and describe the pass/return instead of making partners face each other.",
+      "steps": [
+        "Stand side by side with your partner, both facing forward, and hold the medicine ball in both hands.",
+        "Rotate your torso toward your partner and toss the ball sideways to them.",
+        "Catch the return pass, bring the ball toward your outside hip, then rotate toward your partner and toss it back."
+      ]
+    },
+    {
+      "exercise_id": "f5b86cc6-a245-497d-ac5c-edacddb14500",
+      "sourceName": "Plate Deficit Pushup",
+      "changeReason": "Both genders place one hand on each of two separate flat plates with a gap for the chest between them. Replace the one-plate setup while retaining the slight upper-arm travel behind the body and press-back phase. No support height or numerical elbow angle is invented.",
+      "steps": [
+        "Place two plates flat on the floor, spaced so that you can put one hand on each with a gap between them. Begin in a pushup position with your toes on the floor and your body straight.",
+        "Bend your elbows and shoulders to lower your chest into the gap until your upper arms travel slightly behind your body.",
+        "Press through your hands to return to the starting position."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared all complete source instructions with Vietnamese text, retaining landmine orientation, near/far hand, same/opposite leg, brace and support points, grip and step order. Held incorrect object references, missing single-leg setup and contradictory split-squat leg cues.",
+  "translations": [
+    {
+      "index": 241,
+      "sourceName": "Barbell Tricep Guillotine Press",
+      "name": "Đẩy tay sau kiểu guillotine với tạ đòn",
+      "steps": [
+        "Nhấc tạ đòn khỏi giá. Gập khuỷu tay và bắt đầu hạ thanh.",
+        "Hạ thanh về cổ rồi duỗi khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "53d97518-53d3-4819-bc17-501f6dc309b6"
+    },
+    {
+      "index": 242,
+      "sourceName": "Barbell Z Press",
+      "name": "Ngồi duỗi chân đẩy tạ đòn kiểu Z press",
+      "steps": [
+        "Ngồi trên đất, hai chân duỗi, giữ tạ đòn trong tay, lòng bàn tay hướng về trước và khuỷu tay co.",
+        "Giữ cơ bụng siết và lưng thẳng, nâng thanh từ ngực và đẩy thẳng lên trên đầu.",
+        "Hạ thanh trở lại ngực."
+      ],
+      "exercise_id": "ddf2c8f6-b7a9-453d-bdf7-c76d2649f4f8"
+    },
+    {
+      "index": 243,
+      "sourceName": "Barbell Zercher Deficit Lunge",
+      "name": "Chùng chân lùi từ bục với tạ đòn kiểu Zercher",
+      "steps": [
+        "Đứng với bàn chân trên bánh tạ, giữ tạ đòn trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Bước một chân lùi khỏi bánh tạ và hạ đầu gối sau xuống sàn.",
+        "Đạp chân trước và đưa chân sau trở lại bánh tạ."
+      ],
+      "exercise_id": "ed4c40c3-3d35-43af-8fa6-de09d26d2d2d"
+    },
+    {
+      "index": 244,
+      "sourceName": "Barbell Zercher Good Morning",
+      "name": "Gập hông kiểu good morning Zercher với tạ đòn",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ tạ đòn trong nếp khuỷu tay, lòng bàn tay hướng về người.",
+        "Giữ cơ bụng siết và lưng thẳng, gập hông để hạ thân về trước đến khi gần song song với mặt đất.",
+        "Ấn gót chân để duỗi hông và nâng người trở về vị trí ban đầu."
+      ],
+      "exercise_id": "367a92aa-a096-462a-ad2b-e158f08130eb"
+    },
+    {
+      "index": 245,
+      "sourceName": "Barbell Zercher Squat",
+      "name": "Zercher squat với tạ đòn",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ tạ đòn trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Ngồi về sau và hạ người đến khi đùi song song với đất, giữ lưng thẳng và cơ bụng siết.",
+        "Ấn gót chân để duỗi hông và đứng lên về vị trí ban đầu."
+      ],
+      "exercise_id": "1c057aa9-9130-434c-9b08-564acba9abfc"
+    },
+    {
+      "index": 246,
+      "sourceName": "Ez Bar Cuban Press",
+      "name": "Đẩy thanh EZ kiểu Cuban",
+      "steps": [
+        "Nắm sấp thanh EZ, khuỷu tay co, thanh ở ngang bụng trên.",
+        "Nâng khuỷu tay lên ngang vai, đồng thời xoay cẳng tay ra ngoài và lên trên.",
+        "Khi cẳng tay thẳng đứng và thẳng hàng, đẩy thanh qua đầu.",
+        "Từ từ đảo ngược chuyển động để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "0cf2aed2-a565-4912-8a30-f3634d85ee64"
+    },
+    {
+      "index": 247,
+      "sourceName": "Ez Bar Reverse Spider Curl",
+      "name": "Cuốn thanh EZ kiểu spider curl ngược",
+      "steps": [
+        "Nằm trên ghế dốc lên, giữ thanh EZ với khuỷu tay duỗi.",
+        "Từ vị trí này, cuốn thanh về phía vai, giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Từ từ hạ thanh về vị trí ban đầu rồi lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "9671a969-19c1-4227-94a7-0258cf82db46"
+    },
+    {
+      "index": 249,
+      "sourceName": "Ez Bar Zercher Squat",
+      "name": "Zercher squat với thanh EZ",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ thanh trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Ngồi về sau và hạ người đến khi đùi song song với đất, giữ lưng thẳng và cơ bụng siết.",
+        "Ấn gót chân để duỗi hông và đứng lên về vị trí ban đầu."
+      ],
+      "exercise_id": "e078d652-e8b3-47c6-bf63-48b838164ed9"
+    },
+    {
+      "index": 250,
+      "sourceName": "Landmine Alternating Lunge To Chest Press",
+      "name": "Chùng chân luân phiên kết hợp đẩy ngực với tạ đòn neo landmine",
+      "steps": [
+        "Đứng hướng về đế landmine, hai chân rộng bằng hông, dùng hai tay giữ đầu thanh, khuỷu tay co và gần thân.",
+        "Bước chân phải lùi, hạ người vào tư thế chùng chân và đẩy đầu thanh ra xa ngực.",
+        "Ấn gót chân trái để trở về vị trí ban đầu, đồng thời kéo đầu thanh về ngực.",
+        "Lặp lại bên đối diện, luân phiên theo số lần mong muốn."
+      ],
+      "exercise_id": "a4b9eb6a-7f73-4c19-82f3-e00883db81ee"
+    },
+    {
+      "index": 251,
+      "sourceName": "Landmine Bicep Curl",
+      "name": "Cuốn tay trước với tạ đòn neo landmine",
+      "steps": [
+        "Đứng cạnh thanh tạ neo landmine, hai chân rộng bằng vai. Dùng tay ở xa đế neo hơn nắm đầu thanh, lòng bàn tay ngửa và khuỷu tay gần thân.",
+        "Cuốn thanh về phía vai đối diện, co cơ tay trước rồi từ từ hạ thanh xuống.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "f09041ac-a3b0-412e-a700-c3c0876cd0fe"
+    },
+    {
+      "index": 252,
+      "sourceName": "Landmine Concentration Curl",
+      "name": "Cuốn tay trước tập trung với tạ đòn neo landmine",
+      "steps": [
+        "Quỳ một gối hướng về đế landmine, dùng tay cùng bên chân trước giữ đầu thanh.",
+        "Tựa khuỷu tay vào mặt trong đầu gối, cuốn thanh lên phía vai rồi hạ xuống có kiểm soát.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "07b59059-6749-4e47-b562-28b29129adbf"
+    },
+    {
+      "index": 253,
+      "sourceName": "Landmine Cossack Squat",
+      "name": "Cossack squat với tạ đòn neo landmine",
+      "steps": [
+        "Đứng cạnh thanh tạ, giữ đầu thanh giữa hai đùi.",
+        "Bước rộng, gập đầu gối phía ngoài và duỗi chân đối diện.",
+        "Giữ ngực nâng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi lặp lại."
+      ],
+      "exercise_id": "ea903627-fd9d-47c3-8dda-01ae383318dc"
+    },
+    {
+      "index": 254,
+      "sourceName": "Landmine Goblet Cossack Squat",
+      "name": "Cossack squat giữ trước ngực với tạ đòn neo landmine",
+      "steps": [
+        "Hướng về đế landmine, giữ đầu thanh sát ngực.",
+        "Bước rộng và chuyển người sang một bên, gập đầu gối bên đó.",
+        "Giữ chân đối diện thẳng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi đổi bên."
+      ],
+      "exercise_id": "60b38418-8ca9-4ead-8535-82bd4577c348"
+    },
+    {
+      "index": 255,
+      "sourceName": "Landmine Goblet Lateral Lunge",
+      "name": "Chùng chân sang ngang giữ trước ngực với tạ đòn neo landmine",
+      "steps": [
+        "Hướng về thanh tạ, giữ đầu thanh gần ngực theo kiểu goblet, khuỷu tay khép gần thân.",
+        "Bước thẳng sang bên, các ngón chân của cả hai chân hướng về trước. Giữ trọng lượng trên gót chân bước ra khi hạ người trên bàn chân đó, chân còn lại thẳng để giữ thăng bằng.",
+        "Ấn gót chân đang nằm dưới trọng tâm người để bước về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "a8e44f84-9a51-4520-8cad-4282784ec96e"
+    },
+    {
+      "index": 256,
+      "sourceName": "Landmine Goblet Step Up",
+      "name": "Bước lên bục giữ trước ngực với tạ đòn neo landmine",
+      "steps": [
+        "Giữ đầu thanh trước ngực, hướng về bục vững chắc.",
+        "Đặt toàn bộ một bàn chân lên bục và siết cơ bụng.",
+        "Đạp bàn chân trên bục để đứng lên bục.",
+        "Từ từ bước xuống và lặp lại trước khi đổi chân."
+      ],
+      "exercise_id": "abe1ac5a-2385-4a5a-9805-ce29f62413e7"
+    },
+    {
+      "index": 257,
+      "sourceName": "Landmine Hack Squat",
+      "name": "Hack squat với tạ đòn neo landmine",
+      "steps": [
+        "Quay lưng về đế landmine, đặt đầu thanh lên một vai sát gốc cổ, hơi ngả người về sau tựa vào trọng lượng thanh.",
+        "Squat xuống có kiểm soát, giữ trọng lượng thanh gần chính giữa trọng tâm người nhất có thể, sau đó ấn gót chân để đứng lên hoàn toàn về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn, đổi bên đặt thanh sau mỗi hiệp tiếp theo."
+      ],
+      "exercise_id": "f6ed8057-4182-4df6-a547-0eb6d53d0e52"
+    },
+    {
+      "index": 258,
+      "sourceName": "Landmine Hip Thrust",
+      "name": "Đẩy hông với tạ đòn neo landmine",
+      "steps": [
+        "Ngồi tựa ghế, đặt thanh có đệm ngang hông.",
+        "Đặt chắc bàn chân, tì lưng trên vào ghế.",
+        "Ấn gót chân và duỗi hông lên trên.",
+        "Siết cơ mông rồi hạ hông có kiểm soát."
+      ],
+      "exercise_id": "8b3329a6-2fd5-4bd6-a078-e063fe2a9ada"
+    },
+    {
+      "index": 259,
+      "sourceName": "Landmine Hollow Hold",
+      "name": "Giữ thân cong kiểu hollow hold với tạ đòn neo landmine",
+      "steps": [
+        "Nằm ngửa, hai chân duỗi hướng về đế landmine, hai tay qua đầu và cùng giữ thanh. Siết cơ bụng bằng cách ấn lưng dưới xuống đất và kéo rốn về phía cột sống.",
+        "Nhấc hai chân khỏi đất, giữ chân sát nhau và thẳng, đồng thời nâng thân trên khỏi đất, đưa thanh ra xa mặt.",
+        "Giữ tư thế trong thời gian mong muốn rồi cẩn thận hạ thanh xuống đất."
+      ],
+      "exercise_id": "b6cf48ad-f0ea-4cf4-8d12-59fcbcdaf392"
+    },
+    {
+      "index": 260,
+      "sourceName": "Landmine Lateral Lunge",
+      "name": "Chùng chân sang ngang với tạ đòn neo landmine",
+      "steps": [
+        "Đứng hướng về đế landmine, hai chân rộng bằng vai, dùng hai tay giữ đầu thanh, hai tay duỗi hoàn toàn xuống đất.",
+        "Giữ thân thẳng và cơ bụng siết, bước thẳng sang một bên, hạ người vào tư thế chùng chân trên chân vừa bước ra, giữ chân còn lại thẳng.",
+        "Ấn gót chân đang co và bước hai chân về gần nhau để trở về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn ở cùng một bên trước khi đổi bên."
+      ],
+      "exercise_id": "0b36effc-85f3-491b-9d90-206afa8dbcec"
+    },
+    {
+      "index": 261,
+      "sourceName": "Landmine Lunge",
+      "name": "Chùng chân lùi với tạ đòn neo landmine",
+      "steps": [
+        "Đứng trước đế landmine, hai chân rộng bằng hông, lưng thẳng. Một tay nắm thanh bên thân, lòng bàn tay hướng vào chân.",
+        "Bước chân cùng bên tay giữ thanh về sau vào tư thế chùng chân. Gập cả hai gối để hạ người đến khi đùi trước song song với đất hoặc sâu hết mức độ linh hoạt cho phép. Giữ thân thẳng, ngực nâng và cơ bụng siết trong suốt chuyển động.",
+        "Ấn gót chân trước để trở về vị trí ban đầu. Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "b32312c5-7970-4f4c-b321-f8f15c566360"
+    },
+    {
+      "index": 262,
+      "sourceName": "Landmine Lunge Rotate To Press",
+      "name": "Chùng chân xoay người kết hợp đẩy tạ đòn neo landmine",
+      "steps": [
+        "Giữ thanh ngay phía trên mặt đất khi đang ở tư thế chùng chân.",
+        "Xoay về phía đế landmine khi nâng đầu gối chân sau.",
+        "Đứng lên, xoay về trước và đẩy thanh lên trên.",
+        "Hạ thanh xuống đất rồi lặp lại."
+      ],
+      "exercise_id": "9d024d86-b69c-48c0-8535-362cc68476a5"
+    },
+    {
+      "index": 263,
+      "sourceName": "Landmine Lunge To Overhead Press",
+      "name": "Chùng chân kết hợp đẩy qua đầu với tạ đòn neo landmine",
+      "steps": [
+        "Đứng hướng về đế landmine, một tay giữ đầu thanh tại vai cùng bên, khuỷu tay khép sát thân ở dưới cổ tay.",
+        "Bước chân cùng bên tay giữ thanh về sau, hạ người vào tư thế chùng chân có kiểm soát, giữ cơ bụng siết và thân thẳng. Sau đó ấn gót chân trước để bước về vị trí ban đầu.",
+        "Khi hai chân trở về vị trí bắt đầu, đẩy thanh qua đầu đến khi tay duỗi hoàn toàn rồi hạ thanh về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "exercise_id": "a5b2f8cc-0573-4c5e-bdfe-235fb3f8aafd"
+    },
+    {
+      "index": 264,
+      "sourceName": "Landmine Lying Tricep Extension",
+      "name": "Nằm duỗi tay sau với tạ đòn neo landmine",
+      "steps": [
+        "Nằm ngửa vuông góc với thanh, dùng tay gần thanh hơn giữ thanh ngay phía trên vai, lòng bàn tay úp hướng về chân.",
+        "Giữ vai ổn định, gập khuỷu tay để hạ đầu thanh về phía đất cạnh đầu. Giữ khuỷu tay đang gập hướng xuống phía chân.",
+        "Đẩy qua lòng bàn tay để duỗi khuỷu tay, đưa thanh về vị trí ban đầu rồi lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "a6766baf-3c8e-4729-b516-f01f04477d3d"
+    },
+    {
+      "index": 265,
+      "sourceName": "Landmine Meadows Row",
+      "name": "Kéo kiểu Meadows với tạ đòn neo landmine",
+      "steps": [
+        "Đứng vuông góc với thanh, chân trước chân sau, gập người về trước tại hông.",
+        "Dùng tay gần thanh nhất nắm đầu thanh.",
+        "Kéo khuỷu tay lên, đưa thanh về phía hông.",
+        "Hạ thanh đến khi tay duỗi hoàn toàn."
+      ],
+      "exercise_id": "fd8229cc-33af-4ea9-bcc4-1a014cf28885"
+    },
+    {
+      "index": 266,
+      "sourceName": "Landmine Overhead Press",
+      "name": "Đẩy qua đầu với tạ đòn neo landmine",
+      "steps": [
+        "Đứng hướng về đế landmine, dùng hai tay giữ đầu thanh, lòng bàn tay hướng vào nhau.",
+        "Duỗi hai tay lên, đẩy đầu thanh qua đầu. Dừng ở điểm cao nhất rồi hạ thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "9c50f0f4-6906-46bb-b9c2-11fa000ce07a"
+    },
+    {
+      "index": 267,
+      "sourceName": "Landmine Seated Alternating Overhead Press",
+      "name": "Ngồi đẩy qua đầu luân phiên với tạ đòn neo landmine",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, mở hai chân để giữ ổn định. Một tay giữ đầu thanh theo kiểu trung tính tại vai, khuỷu tay dưới cổ tay.",
+        "Hơi nghiêng người về trước, đẩy thanh lên đến khi tay duỗi hoàn toàn. Ở điểm cao nhất, chuyển đầu thanh sang tay kia rồi hạ về vai đối diện. Thực hiện lại để đưa thanh về vị trí bắt đầu.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "0d75ca25-ae8e-42c0-bac8-d4ff94d7ffa2"
+    },
+    {
+      "index": 268,
+      "sourceName": "Landmine Seated Overhead Press",
+      "name": "Ngồi đẩy qua đầu hai tay với tạ đòn neo landmine",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, hai chân mở rộng. Dùng hai tay giữ đầu thanh trước ngực, lòng bàn tay hướng vào nhau.",
+        "Giữ thân thẳng và cơ bụng siết, đẩy đầu thanh lên đến khi hai tay duỗi hoàn toàn. Hơi nghiêng người về trước để đạt hết biên độ khớp vai. Hạ thanh về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "exercise_id": "a4c37ea2-6ed5-46aa-a741-ac988fe1345b"
+    },
+    {
+      "index": 269,
+      "sourceName": "Landmine Seated Single Arm Overhead Press",
+      "name": "Ngồi đẩy qua đầu một tay với tạ đòn neo landmine",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, hai chân mở rộng. Một tay giữ đầu thanh trước vai cùng bên, lòng bàn tay hướng ngang qua người.",
+        "Giữ thân thẳng và cơ bụng siết, đẩy thanh lên đến khi tay duỗi hoàn toàn, hơi nghiêng người về trước để đạt hết biên độ khớp vai. Hạ thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn ở một bên rồi đổi bên."
+      ],
+      "exercise_id": "365e8163-267a-419d-b2fe-39e5b9375938"
+    },
+    {
+      "index": 270,
+      "sourceName": "Landmine Shrug",
+      "name": "Nhún vai với tạ đòn neo landmine",
+      "steps": [
+        "Đứng cạnh thanh, dùng hai tay giữ đầu thanh.",
+        "Giữ hai tay thẳng và nâng vai về phía tai.",
+        "Siết một chút ở điểm cao nhất, không gập khuỷu tay.",
+        "Hạ vai hoàn toàn rồi lặp lại."
+      ],
+      "exercise_id": "f776fe1a-71f2-46c5-b7a0-ec550097672d"
+    },
+    {
+      "index": 271,
+      "sourceName": "Landmine Single Arm Overhead Press",
+      "name": "Đứng đẩy qua đầu một tay với tạ đòn neo landmine",
+      "steps": [
+        "Đứng trước đế landmine, hai chân rộng bằng vai, đầu gối hơi co. Một tay nắm thanh với lòng bàn tay hướng vào trong, đưa thanh lên ngang vai, khuỷu tay khép dưới bàn tay.",
+        "Duỗi hoàn toàn tay để đẩy thanh qua đầu. Giữ cơ bụng siết, lưng thẳng và vai hạ trong suốt chuyển động. Dừng một chút ở điểm cao nhất với tay duỗi hoàn toàn trên đầu. Từ từ hạ thanh về vị trí bắt đầu ngang vai có kiểm soát.",
+        "Lặp lại theo số lần mong muốn ở một bên trước khi đổi bên."
+      ],
+      "exercise_id": "4bfb516d-f906-4fa9-b453-a1f3e80a80f3"
+    },
+    {
+      "index": 272,
+      "sourceName": "Landmine Single Arm Staggered Overhead Press",
+      "name": "Đẩy qua đầu một tay với tạ đòn neo landmine, chân trước chân sau",
+      "steps": [
+        "Đứng hướng về thanh, một chân phía trước co và chân còn lại phía sau thẳng. Dùng tay cùng bên chân sau giữ đầu thanh tại vai, khuỷu tay khép dưới bàn tay.",
+        "Đẩy thanh lên đến khi tay duỗi hoàn toàn. Dừng một chút rồi hạ đầu thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "exercise_id": "fa971d11-2a93-4e6d-8e20-90ec8084e156"
+    },
+    {
+      "index": 274,
+      "sourceName": "Landmine Single Leg Hip Thrust",
+      "name": "Đẩy hông một chân với tạ đòn neo landmine",
+      "steps": [
+        "Ngồi tựa ghế, đặt thanh có đệm ngang một bên hông.",
+        "Đặt chắc một bàn chân và nâng chân đối diện.",
+        "Đạp bàn chân trụ và duỗi hông lên trên.",
+        "Siết cơ mông rồi từ từ hạ hông."
+      ],
+      "exercise_id": "d53fa304-b809-4d86-b02c-3fd417d8ca6f"
+    },
+    {
+      "index": 275,
+      "sourceName": "Landmine Single Leg Romanian Deadlift",
+      "name": "Romanian deadlift một chân với tạ đòn neo landmine",
+      "steps": [
+        "Nắm đầu thanh landmine và đứng vuông góc với thanh.",
+        "Nhấc chân phía trong, giữ chân phía ngoài làm trụ.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Khi cảm nhận cơ đùi sau được kéo giãn, đẩy hông về trước đến khi đứng thẳng."
+      ],
+      "exercise_id": "30409fd1-ae18-4fc4-8a72-a65e0b8b46ed"
+    },
+    {
+      "index": 276,
+      "sourceName": "Landmine Snatch",
+      "name": "Cử giật với tạ đòn neo landmine",
+      "steps": [
+        "Giữ đầu thanh ở phía trước người.",
+        "Bật hông, kéo khuỷu tay lên phía trần và đưa người xuống dưới thanh."
+      ],
+      "exercise_id": "43e1e624-df32-4db2-a713-516db8d012aa"
+    },
+    {
+      "index": 277,
+      "sourceName": "Landmine Split Jerk",
+      "name": "Đẩy tách chân với tạ đòn neo landmine",
+      "steps": [
+        "Giữ thanh phía trên một vai. Đứng hai chân rộng bằng vai.",
+        "Nhún hông và gối, tạo đà rồi đẩy thanh.",
+        "Khi đẩy, tách thế chân. Đưa chân cùng bên tay đang tập về sau, chân còn lại về trước."
+      ],
+      "exercise_id": "9cee224d-37d7-4883-9383-0e7354daf16e"
+    },
+    {
+      "index": 278,
+      "sourceName": "Landmine Split Squat",
+      "name": "Split squat với tạ đòn neo landmine",
+      "steps": [
+        "Giữ thanh gần vai và đứng chân trước chân sau.",
+        "Gập cả hai gối, hạ đầu gối chân sau về phía sàn.",
+        "Giữ bàn chân trước đặt phẳng và thân thẳng.",
+        "Đạp chân trước để đứng lên trở lại."
+      ],
+      "exercise_id": "e58fb503-ff8f-42e5-a4a2-cf2b6ee362f9"
+    },
+    {
+      "index": 279,
+      "sourceName": "Landmine Squat",
+      "name": "Squat với tạ đòn neo landmine",
+      "steps": [
+        "Giữ đầu thanh kiểu goblet trước ngực.",
+        "Đẩy hông về sau và gập gối.",
+        "Hạ ít nhất đến mức song song với đất rồi ấn gót chân để trở về vị trí ban đầu."
+      ],
+      "exercise_id": "8b5fc390-ecb6-4e55-b1b6-7ec699813709"
+    },
+    {
+      "index": 280,
+      "sourceName": "Landmine Staggered Romanian Deadlift",
+      "name": "Romanian deadlift với tạ đòn neo landmine, chân trước chân sau",
+      "steps": [
+        "Đứng chân trước chân sau, chân sau co và chân trước gần như duỗi thẳng.",
+        "Đẩy hông về sau đến khi cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "exercise_id": "d6f5f45a-c4e7-44d8-81b6-2bd10da05f24"
+    },
+    {
+      "index": 281,
+      "sourceName": "Landmine Sumo Deadlift",
+      "name": "Sumo deadlift với tạ đòn neo landmine",
+      "steps": [
+        "Đứng rộng chân, hai chân ở hai bên đầu thanh.",
+        "Gập hông và gối, nắm thanh.",
+        "Đứng lên cùng thanh."
+      ],
+      "exercise_id": "35b1c3b6-2521-4a29-a63c-1315f243439b"
+    },
+    {
+      "index": 282,
+      "sourceName": "Landmine Thruster",
+      "name": "Squat kết hợp đẩy qua đầu với tạ đòn neo landmine",
+      "steps": [
+        "Giữ thanh kiểu goblet trước ngực.",
+        "Đẩy hông về sau và hạ vào tư thế squat.",
+        "Ấn gót chân để đứng lên từ tư thế squat. Dùng đà tạo từ chân để đẩy thanh qua đầu.",
+        "Đưa thanh trở về vị trí goblet trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "exercise_id": "c627baf6-61ab-4a47-b7cd-ec3e849a2cef"
+    },
+    {
+      "index": 283,
+      "sourceName": "Trap Bar Deficit Deadlift",
+      "name": "Deadlift với thanh trap bar khi đứng trên bục",
+      "steps": [
+        "Đứng trên bề mặt kê cao bên trong thanh trap bar, hai chân rộng bằng hông.",
+        "Nắm tay cầm, siết cơ bụng, giữ cột sống trung tính.",
+        "Đạp bàn chân, duỗi hông và gối để đứng lên.",
+        "Hạ xuống có kiểm soát, giữ thăng bằng trên bục."
+      ],
+      "exercise_id": "6f3a9ff1-6fc7-48e4-8b64-13fdd61c5b1a"
+    },
+    {
+      "index": 284,
+      "sourceName": "Trap Bar Pause Deadlift",
+      "name": "Deadlift với thanh trap bar, có dừng giữa động tác",
+      "steps": [
+        "Vào vị trí bên trong thanh trap bar, siết chắc cơ bụng và giữ cột sống trung tính.",
+        "Hơi nâng thanh, dừng ngay dưới đầu gối.",
+        "Giữ lực căng rồi tiếp tục đến khi khóa thẳng hoàn toàn.",
+        "Từ từ hạ thanh về sàn."
+      ],
+      "exercise_id": "78ae910a-6d76-4138-9848-2180e4b53936"
+    },
+    {
+      "index": 285,
+      "sourceName": "Trap Bar Reverse Lunge",
+      "name": "Chùng chân lùi với thanh trap bar",
+      "steps": [
+        "Đứng bên trong thanh trap bar, nắm tay cầm và đứng thẳng.",
+        "Bước một chân về sau vào tư thế chùng chân.",
+        "Hạ xuống đến khi đùi trước song song với đất.",
+        "Ấn gót chân trước để đứng lên trở lại."
+      ],
+      "exercise_id": "f20b1b69-eb8a-4a5d-b0b5-0e45c2ee2119"
+    },
+    {
+      "index": 286,
+      "sourceName": "Trap Bar Romanian Deadlift",
+      "name": "Romanian deadlift với thanh trap bar",
+      "steps": [
+        "Giữ thanh trap bar, đứng thẳng với đầu gối hơi co.",
+        "Gập hông về sau, hạ thanh dọc theo đùi.",
+        "Giữ lưng trung tính và duy trì lực căng ở cơ đùi sau.",
+        "Đẩy hông về trước để đứng thẳng trở lại."
+      ],
+      "exercise_id": "b60e18fb-93fa-410f-99d3-f0356b007415"
+    },
+    {
+      "index": 287,
+      "sourceName": "Trap Bar Single Leg Deadlift",
+      "name": "Deadlift một chân với thanh trap bar",
+      "steps": [
+        "Đứng bên trong thanh trap bar, hơi nhấc một bàn chân khỏi đất.",
+        "Gập hông về sau trong khi hạ thanh và duỗi chân không trụ ra sau.",
+        "Giữ hông cân bằng và lưng trung tính trong suốt chuyển động.",
+        "Đạp chân trụ để đứng thẳng trở lại."
+      ],
+      "exercise_id": "fc5bc495-8992-442d-86f9-a84eef093ffc"
+    },
+    {
+      "index": 289,
+      "sourceName": "Trap Bar Staggered Romanian Deadlift",
+      "name": "Romanian deadlift với thanh trap bar, chân trước chân sau",
+      "steps": [
+        "Đứng bên trong thanh trap bar. Đặt một chân về sau, chỉ các ngón chân sau chạm đất. Bàn chân trước luôn đặt phẳng trong suốt động tác.",
+        "Gập gối chân sau và đẩy hông về sau. Cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "exercise_id": "3f58028a-368c-4116-8001-9df4346b5a25"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 248,
+      "sourceName": "Ez Bar Spider Curl",
+      "reason": "The source says to hold an incline bench and curl a bat instead of an EZ bar; verify the object references.",
+      "exercise_id": "5bd21689-be25-4c0e-a83d-395f1b11bd6d"
+    },
+    {
+      "index": 273,
+      "sourceName": "Landmine Single Leg Glute Bridge",
+      "reason": "The single-leg title has no lifted-leg or supporting-leg setup, and the back-on-box setup needs verification.",
+      "exercise_id": "c169de20-f171-46aa-bc78-7f0affdb17cb"
+    },
+    {
+      "index": 288,
+      "sourceName": "Trap Bar Split Squat",
+      "reason": "The back knee is near the ground but the same back leg is described as straight; verify the leg cue.",
+      "exercise_id": "b81f705b-f24b-402e-abc4-624a6644aaf4"
+    }
+  ]
+}

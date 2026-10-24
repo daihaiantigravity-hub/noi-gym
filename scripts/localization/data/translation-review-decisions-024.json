@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "decision": "translation_only",
+  "databaseStatus": "applied_and_verified",
+  "decisions": [
+    {
+      "exercise_id": "078576ac-b424-4c81-aa9d-0c919e937dd9",
+      "source_hash": "ca5f2bff179b0e31a9d5c155028697ea5b8b10b272415e5f89173c7b5a399ca8",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "The live page and male clip show a side bend with the head/gaze down despite the title saying Looking Up. The sampled frames do not establish the exact hand-to-ear/foot sequence or which arm supports as the sides switch; keep held."
+    },
+    {
+      "exercise_id": "090eb4c5-a2a8-48ab-8665-9a47159852fd",
+      "source_hash": "a684033ad77771236a2495e87a1d3eca95f00e96a43e72d4c7aead40b1cdff14",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Source lifts one leg, asks for a firm grip with toes near the head, then requires feet firmly planted on the ground. Verify supports and pose transition."
+    },
+    {
+      "exercise_id": "19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d",
+      "source_hash": "c3c6a6bd110f4561e8e0e9c2a8e94673aadd4b684005f36596bba48d7d39f66a",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Static title has the same dynamic end-range strap-tug instructions as the dynamic variant. Verify intended static hold."
+    },
+    {
+      "exercise_id": "1c350f8e-21b5-427a-b442-72d266fde398",
+      "source_hash": "627e1fcf797a33b962e65450d821dd6c06ca053834a743154bd59e833a2a9fd9",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Instructions duplicate the straight hip-extension hold and omit the side flexion named in the title. Verify variant-specific movement."
+    },
+    {
+      "exercise_id": "39a07611-a045-4d15-983f-e60daa133db0",
+      "source_hash": "904fe762f9c6ac21ee5bfc74bb66cea404153f632919b541a91819b894240e7a",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Source puts a hand against a wall with palms facing upward and fingertips touching, then leans into the palm. Verify which hand surface contacts the wall and what the fingertips touch."
+    },
+    {
+      "exercise_id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62",
+      "source_hash": "e0128b05700ae6ebe5fbff9b5c5c5e4fb920150076d2098c9ef9b5060decac7b",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Reviewed both genders and angles plus original-resolution frames. The source conflates elbow/wrist bending with palm rotation and proposes pressing the palm against the face. The precise forearm rotation and intended hand contact are not resolved sufficiently to edit this nerve-tensioning guide from visual inference alone. Keep source and translation status unchanged pending a precise written source or qualified review."
+    },
+    {
+      "exercise_id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e",
+      "source_hash": "e5dc73607474f7f9d8bd06d4d963b7b8d3049252513b959809c93c7682352925",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Title requires hips over knees but steps move into a pigeon-like leg setup and twist right while threading right arm under left. Verify leg support and rotation direction."
+    },
+    {
+      "exercise_id": "847edd28-c001-47e8-8a2b-d1a4552d438b",
+      "source_hash": "1b2fb95f58d4c889e1c765927c65a87c95869a691f6c47a12c355e80d715c77c",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Source shifts from left-hand support to right-hand support while opening the chest, then looks at the supporting right hand. Verify supporting versus reaching hand and lifted-leg transition."
+    },
+    {
+      "exercise_id": "8d742f9d-3df6-447d-bc8f-91dbb7352740",
+      "source_hash": "48d41e3b6540199790c989112ae57d0bed5a7241638b5333bfd4957e9d44f160",
+      "decision": "translation_only",
+      "sourceChange": "none",
+      "reason": "Isometric title conflicts with dynamically reaching forward and returning. Verify hold versus repeated motion."
+    }
+  ],
+  "verifiedAt": "2026-10-24T05:41:46.437Z"
+}

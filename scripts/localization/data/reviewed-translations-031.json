@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared all remaining cardio source steps, preserving left/right, support leg, treadmill direction, machine names, speed cues and step order. Held Ski Erg because its instructions duplicate the unrelated skater-to-single-leg-burpee exercise.",
+  "sourceExceptions": [
+    {
+      "index": 304,
+      "sourceName": "Cardio Ski Erg",
+      "reason": "All steps duplicate Cardio Skater To Single Leg Burpee, describing sideways leaps and a single-leg burpee without any Ski Erg handles or machine use. Restore correct source instructions before translation.",
+      "exercise_id": "eb589db7-6217-4ecb-b087-7fab222e4942"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "326aeb19-ff46-4bba-a16b-cefae2939961",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ae1c3d6cd7353ea77c4257e91da8d7405517a6293941abe9d03bf34c1765045d",
+      "name": "Bật một chân sang ngang",
+      "description": "",
+      "steps": [
+        "Nhấc một chân khỏi sàn.",
+        "Bật nhanh sang ngang, giữ tiếp xúc trên mũi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Single Leg Lateral Hop",
+        "description": "",
+        "steps": [
+          "Pick up one leg off the ground.",
+          "Hop laterally quickly while staying on your toes."
+        ]
+      }
+    },
+    {
+      "exercise_id": "889e81ec-ea3d-4f8c-bdb7-e59986207bc4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cee94ce77e3a19046f1b146bbd670054e6f611d282db4498efd1c0018c0d313c",
+      "name": "Bật ngang kiểu trượt băng",
+      "description": "",
+      "steps": [
+        "Đứng giữ thăng bằng trên chân phải, chân trái phía sau và gối hơi co.",
+        "Bật sang trái, tiếp đất bằng chân trái, chân phải phía sau và vung tay.",
+        "Tiếp tục bật qua lại, giữ thăng bằng và tốc độ như vận động viên trượt băng tốc độ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Skater",
+        "description": "",
+        "steps": [
+          "Stand, balance on right foot, left foot behind, slightly bent knees.",
+          "Jump to left, landing on left foot, right foot behind, swinging arms.",
+          "Continue leaping side-to-side, maintaining balance and speed, like a speed skater."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ebfa623f-886c-46eb-937d-979d92cca20a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b6d071734cc5bdbb1ae73956654dcd317d11531d9760f1eec74a6f412c7f3a5d",
+      "name": "Bật trượt băng kết hợp burpee một chân",
+      "description": "",
+      "steps": [
+        "Bật sang ngang, tiếp đất bằng chân phải, chân trái phía sau lệch sang bên.",
+        "Hạ vào động tác burpee một chân, chỉ dùng chân phải, đặt tay xuống sàn.",
+        "Trở về đứng trên chân phải, bật sang trái rồi lặp lại với chân trái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Skater To Single Leg Burpee",
+        "description": "",
+        "steps": [
+          "Leap sideways, land on right foot, left leg behind to the side.",
+          "Drop into a single-leg burpee, right leg only, hands to ground.",
+          "Return to standing on right, leap sideways to left, repeat with left leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "55e9e88b-90f6-4f31-b7e0-1043a1980da4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8416fe0af61f74182ffa4ae073fe57c98372d12dc1291f9933ac76fc4fb2197e",
+      "name": "Chạy nước rút tại chỗ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông, gối hơi co và sẵn sàng di chuyển.",
+        "Nhanh chóng luân phiên nâng gối về ngực, đánh tay theo nhịp.",
+        "Tăng tốc dần, giữ gối nâng cao và tay chuyển động, thở đều."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Sprint In Place",
+        "description": "",
+        "steps": [
+          "Stand tall, feet hip-width apart, knees slightly bent, ready to move.",
+          "Quickly drive knees up towards chest, alternating legs, pumping arms in rhythm.",
+          "Gradually speed up, maintaining high knees and arm movement, breathe steadily."
+        ]
+      }
+    },
+    {
+      "exercise_id": "77ff9733-a639-46c3-a8d8-6ae86d7e1bb7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "64d8227b827246ffc221c0fc952d853e1bfe25b5d6e84d9b0645ff53173d8e4b",
+      "name": "Bước tách chân vung tay",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân sát nhau, tay bên thân và sẵn sàng di chuyển.",
+        "Bước chân phải ra ngoài, đồng thời nâng tay qua đầu.",
+        "Thu chân phải vào, hạ tay rồi lặp lại bên trái, giữ nhịp."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Step Out Jacks",
+        "description": "",
+        "steps": [
+          "Stand tall, feet together, arms by sides, ready to move.",
+          "Step right foot out, simultaneously raise arms above head.",
+          "Step right foot in, lower arms, repeat left, maintain rhythm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "92688586-0a17-4a65-897b-efd438ec26a6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "40310c9f00989df5c0ec3d8bfa2e41204a07f2520177df57a4de8a539a6657fa",
+      "name": "Bước Heisman ba nhịp",
+      "description": "",
+      "steps": [
+        "Bắt đầu với hai chân rộng bằng vai.",
+        "Giữ trên mũi chân, bước sang phải, chạm mũi chân trái xuống sàn, đặt vững chân phải rồi nâng chân trái.",
+        "Sau đó lặp lại theo hướng đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Cardio Three Step Heismans",
+        "description": "",
+        "steps": [
+          "Start with a shoulder width stance.",
+          "Stay on your toes, step right, tap your left toe to the ground, plant your right foot and raise your left leg.",
+          "Then repeat in the opposite direction."
+        ]
+      }
+    },
+    {
+      "exercise_id": "aae100e0-9e66-429a-973e-c77ed834eb6b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ac92a4c7e53bc5361502939c8c8a979e97419a23206cb3a814d73dad80e01963",
+      "name": "Đi bộ trên máy chạy bộ cong",
+      "description": "",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để đi bộ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Curve Treadmill",
+        "description": "",
+        "steps": [
+          "Get the treadmill up to a comfortable speed where you are doing a walk."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b0dc8fe3-12d1-4d09-82c1-ba71f4bdebd1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5ba493ef569b35988ecfa67e0dec0ba662faa07f63eb9989eb5fe51fd9683ab3",
+      "name": "Tập máy elip",
+      "description": "",
+      "steps": [
+        "Bước lên bàn đạp, nắm tay cầm và bắt đầu di chuyển chân theo bước tự nhiên.",
+        "Điều chỉnh kháng lực và độ dốc theo cường độ mong muốn, giữ chuyển động đều và có kiểm soát.",
+        "Giữ tư thế thẳng, siết cơ trung tâm và duy trì nhịp ổn định để tập hiệu quả."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Elliptical",
+        "description": "",
+        "steps": [
+          "Step onto the pedals, grip the handles, and start moving your feet in a natural stride.",
+          "Adjust resistance and incline for desired intensity while maintaining a steady, controlled motion.",
+          "Keep your posture upright, engage your core, and maintain a consistent pace for an effective workout."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ce4a1129-217d-47af-96e6-f982a58516c0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "37a089e4d1f9a2b17ff5d406e4fbc2f0cd20e5ea4c6a67bfd1f96a48ecff2eb7",
+      "name": "Nhảy dây",
+      "description": "",
+      "steps": [
+        "Giữ tay cầm, khuỷu tay sát thân và bật nhảy bằng cả hai chân cùng nhau.",
+        "Xoay cổ tay để vung dây qua đầu.",
+        "Bật nhảy khi dây đến chân, giữ nhịp đều."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Jump Rope",
+        "description": "",
+        "steps": [
+          "Hold handles, elbows close, and jump with both feet together.",
+          "Rotate wrists to swing the rope over your head.",
+          "Jump as it reaches your feet, keeping a steady rhythm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f227bd68-7e21-4f02-92cd-5c3519e47557",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a5e084bfbbee4ed64a311642755ea427c6db9e372969d62fca1ce96bb3362482",
+      "name": "Tập máy leo cầu thang",
+      "description": "",
+      "steps": [
+        "Bước lên bậc, nắm nhẹ tay cầm, giữ người cao và cột sống trung tính.",
+        "Đạp qua giữa bàn chân, bước luân phiên mượt và tránh tì nhiều trọng lượng lên tay cầm.",
+        "Đặt nhịp vừa phải, thở theo nhịp và giữ đầu gối thẳng hướng với mũi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Stair Climber",
+        "description": "",
+        "steps": [
+          "Step onto step, grip handles lightly, maintain tall posture and neutral spine.",
+          "Drive through midfoot, alternate steps smoothly, avoid leaning heavily on handles.",
+          "Set moderate pace, breathe rhythmically, keep knees tracking over toes."
+        ]
+      }
+    },
+    {
+      "exercise_id": "95812dd2-9e16-4ed9-a60d-f8c0564720b7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "549f8888abfb4e41ec5c7bb2345dabca022fc4fdb4fee93377f9cfda6ad35b18",
+      "name": "Đạp xe tại chỗ",
+      "description": "",
+      "steps": [
+        "Nắm tay cầm và giữ cột sống trung tính.",
+        "Đạp với nhịp vừa phải, cố gắng hạn chế lắc người tới lui."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Stationary Bike",
+        "description": "",
+        "steps": [
+          "Hold the handles and maintain a neutral spine.",
+          "Pedal at a moderate pace and try to minimise rocking back and forth."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7f0cd7d6-c7f4-4930-a0c6-baab9c989b8b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c0eafcaa80a04b51cb017376007e9b273512e6811c7dc8074ac20d207ddeba31",
+      "name": "Chạm mũi chân lên bục",
+      "description": "",
+      "steps": [
+        "Đứng trước bục thấp.",
+        "Đưa một bàn chân lên mép bục, luân phiên hai chân nhanh nhất có thể.",
+        "Chỉ chạm chân nhẹ vào bục."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Toe Tap",
+        "description": "",
+        "steps": [
+          "Stand in front of a low box.",
+          "Bring one foot to the edge of the box and alternate as quickly as possible.",
+          "Only lightly tap your feet to the box."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f3ea89ae-907e-426c-9372-1a666d4bcd0a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "46046c26e33918634dfd1eb5f215c62b473d07c3a78a66b7f5a1a26e0f4b5483",
+      "name": "Đi bộ lùi trên máy chạy bộ",
+      "description": "",
+      "steps": [
+        "Quay mặt về hướng ngược lại trên máy chạy bộ.",
+        "Bám tay vịn để giữ thăng bằng.",
+        "Đi lùi, đẩy các ngón chân về phía mũi giày."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Treadmill Backwards Walk",
+        "description": "",
+        "steps": [
+          "Face the opposite direction on the treadmill.",
+          "Hold on to the arms to find your balance.",
+          "Walk backwards pushing your toes through the front of your shoes."
+        ]
+      }
+    },
+    {
+      "exercise_id": "869f8e9a-21bf-4e73-969e-71d000e9f3a3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ea1745e97c34d4058a305f3afa724e3e4bffc56fe7ceb600b10108f6bfa87a01",
+      "name": "Chạy bộ nhẹ trên máy",
+      "description": "",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để chạy nhẹ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Treadmill Jog",
+        "description": "",
+        "steps": [
+          "Get the treadmill up to a comfortable speed where you are doing a light jog."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cf8e54c9-1b40-4504-be4c-cb77b5dcac55",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "202f240631f77ea0f342ef18c0606000d2fc1e89d83f5975a1a24527b6227c1c",
+      "name": "Bước ngang trên máy chạy bộ",
+      "description": "",
+      "steps": [
+        "Quay người ngang trên máy chạy bộ.",
+        "Vào tư thế squat một phần tư biên độ với hai chân mở rộng.",
+        "Di chuyển ngang trong thời gian được chỉ định rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Treadmill Side Shuffle",
+        "description": "",
+        "steps": [
+          "Face sideways on the treadmill.",
+          "Take a quarter squat position with a wide stance.",
+          "Shuffle sideways for a specified amount of time, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b24099f0-2a2d-4699-b21f-94ceea1b9eb0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fb6ef6f3331199d93cee694707d8406f2babaff43b439f8b84785b48a174aca2",
+      "name": "Chạy nước rút trên máy",
+      "description": "",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ để chạy nước rút."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Treadmill Sprint",
+        "description": "",
+        "steps": [
+          "Get the treadmill up to a speed where you are doing a sprint."
+        ]
+      }
+    },
+    {
+      "exercise_id": "490d5e7a-69d6-4049-998d-d5e6f8c61e21",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fafdb5b7b9f4e44ba4a3746d8cdf83d37842c47b3edbf60ab2341c067fd71504",
+      "name": "Đi bộ trên máy chạy bộ",
+      "description": "",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để đi bộ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:03:50.269Z",
+      "source": {
+        "name": "Treadmill Walk",
+        "description": "",
+        "steps": [
+          "Get the treadmill up to a comfortable speed where you are doing a walk."
+        ]
+      }
+    }
+  ]
+}

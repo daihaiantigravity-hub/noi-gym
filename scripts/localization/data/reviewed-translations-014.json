@@ -1,0 +1,1167 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared all complete source instructions with Vietnamese text, retaining landmine orientation, near/far hand, same/opposite leg, brace and support points, grip and step order. Held incorrect object references, missing single-leg setup and contradictory split-squat leg cues.",
+  "sourceExceptions": [
+    {
+      "index": 248,
+      "sourceName": "Ez Bar Spider Curl",
+      "reason": "The source says to hold an incline bench and curl a bat instead of an EZ bar; verify the object references.",
+      "exercise_id": "5bd21689-be25-4c0e-a83d-395f1b11bd6d"
+    },
+    {
+      "index": 273,
+      "sourceName": "Landmine Single Leg Glute Bridge",
+      "reason": "The single-leg title has no lifted-leg or supporting-leg setup, and the back-on-box setup needs verification.",
+      "exercise_id": "c169de20-f171-46aa-bc78-7f0affdb17cb"
+    },
+    {
+      "index": 288,
+      "sourceName": "Trap Bar Split Squat",
+      "reason": "The back knee is near the ground but the same back leg is described as straight; verify the leg cue.",
+      "exercise_id": "b81f705b-f24b-402e-abc4-624a6644aaf4"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "53d97518-53d3-4819-bc17-501f6dc309b6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a0ec381df13c88142cda7d761269b12a01990e0b6824f432ce277d3155e23fcf",
+      "name": "Đẩy tay sau kiểu guillotine với tạ đòn",
+      "description": "",
+      "steps": [
+        "Nhấc tạ đòn khỏi giá. Gập khuỷu tay và bắt đầu hạ thanh.",
+        "Hạ thanh về cổ rồi duỗi khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Barbell Tricep Guillotine Press",
+        "description": "",
+        "steps": [
+          "Unrack the barbell. Break at the elbows and begin lowering the barbell.",
+          "Lower the barbell to your neck before extending your elbows back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ddf2c8f6-b7a9-453d-bdf7-c76d2649f4f8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4f99362f3a3cb1ed3bd16f7c0b7a0176e906417f0bcf26e59fa26e9a194510cf",
+      "name": "Ngồi duỗi chân đẩy tạ đòn kiểu Z press",
+      "description": "",
+      "steps": [
+        "Ngồi trên đất, hai chân duỗi, giữ tạ đòn trong tay, lòng bàn tay hướng về trước và khuỷu tay co.",
+        "Giữ cơ bụng siết và lưng thẳng, nâng thanh từ ngực và đẩy thẳng lên trên đầu.",
+        "Hạ thanh trở lại ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Barbell Z Press",
+        "description": "",
+        "steps": [
+          "Begin by sitting on the ground with your legs extended and a barbell in your hands, with your palms facing forward and your elbows bent.",
+          "Keeping your core engaged and your back straight, lift the barbell up from your chest and press it straight up above your head.",
+          "Lower the barbell back down to your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ed4c40c3-3d35-43af-8fa6-de09d26d2d2d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0fe810f06fc487be4b79daffac3d9fe05acd0a45dcc2533f7fd7f130d1640a1d",
+      "name": "Chùng chân lùi từ bục với tạ đòn kiểu Zercher",
+      "description": "",
+      "steps": [
+        "Đứng với bàn chân trên bánh tạ, giữ tạ đòn trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Bước một chân lùi khỏi bánh tạ và hạ đầu gối sau xuống sàn.",
+        "Đạp chân trước và đưa chân sau trở lại bánh tạ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Barbell Zercher Deficit Lunge",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet on a plate and holding a barbell in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+          "Step back with one foot off the plate and lower your back knee to the floor.",
+          "Push through your front leg and bring your back foot to the plate."
+        ]
+      }
+    },
+    {
+      "exercise_id": "367a92aa-a096-462a-ad2b-e158f08130eb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2cf13b3d24e4be21caba7d53e79e795ea539840a9fdb2158f3629ef3d1c1b83b",
+      "name": "Gập hông kiểu good morning Zercher với tạ đòn",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ tạ đòn trong nếp khuỷu tay, lòng bàn tay hướng về người.",
+        "Giữ cơ bụng siết và lưng thẳng, gập hông để hạ thân về trước đến khi gần song song với mặt đất.",
+        "Ấn gót chân để duỗi hông và nâng người trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Barbell Zercher Good Morning",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet about hip-width apart and holding a barbell in the crook of your elbows, with your palms facing towards your body.",
+          "Keeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground.",
+          "Push through your heels to extend your hips and raise your body back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c057aa9-9130-434c-9b08-564acba9abfc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f9fe35598078f91ad8a61aa42a591d7e75b3a77ee5ad62cd9568c1bbd96080bb",
+      "name": "Zercher squat với tạ đòn",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ tạ đòn trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Ngồi về sau và hạ người đến khi đùi song song với đất, giữ lưng thẳng và cơ bụng siết.",
+        "Ấn gót chân để duỗi hông và đứng lên về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Barbell Zercher Squat",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet about hip-width apart and holding a barbell in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+          "Sit back and lower your body down until your thighs are parallel to the ground, keeping your back straight and your core engaged.",
+          "Push through your heels to extend your hips and stand back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0cf2aed2-a565-4912-8a30-f3634d85ee64",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "75b152549e2f2fc76731732fb55ef8bf81b4d2f8c467347b4b35dc55cedb9f7d",
+      "name": "Đẩy thanh EZ kiểu Cuban",
+      "description": "",
+      "steps": [
+        "Nắm sấp thanh EZ, khuỷu tay co, thanh ở ngang bụng trên.",
+        "Nâng khuỷu tay lên ngang vai, đồng thời xoay cẳng tay ra ngoài và lên trên.",
+        "Khi cẳng tay thẳng đứng và thẳng hàng, đẩy thanh qua đầu.",
+        "Từ từ đảo ngược chuyển động để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Ez Bar Cuban Press",
+        "description": "",
+        "steps": [
+          "Hold EZ bar with overhand grip, elbows bent, bar at upper abdomen.",
+          "Raise elbows to shoulder height while externally rotating forearms upward.",
+          "Press bar overhead once forearms are vertical and aligned.",
+          "Reverse motion slowly back to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9671a969-19c1-4227-94a7-0258cf82db46",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f040f411ee7c1e663287b2c23ec4ecf6dcf19d06fa1c41ac57174a6026bd3c8d",
+      "name": "Cuốn thanh EZ kiểu spider curl ngược",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế dốc lên, giữ thanh EZ với khuỷu tay duỗi.",
+        "Từ vị trí này, cuốn thanh về phía vai, giữ khuỷu tay gần thân và cơ bụng siết.",
+        "Từ từ hạ thanh về vị trí ban đầu rồi lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Ez Bar Reverse Spider Curl",
+        "description": "",
+        "steps": [
+          "Lay on an incline bench and hold the EZ bar with your elbows extended.",
+          "From this starting position, curl the bar up towards your shoulders, keeping your elbows close to your body and your core engaged.",
+          "Slowly lower the bar back down to the starting position, and repeat for the desired number of repetitions."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e078d652-e8b3-47c6-bf63-48b838164ed9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "582ee7eb032e34967763596db965517e7cb5a66fcbbad8d0b89103ae2f3caa3b",
+      "name": "Zercher squat với thanh EZ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng khoảng bằng hông, giữ thanh trong nếp khuỷu tay gần bụng, lòng bàn tay hướng về người.",
+        "Ngồi về sau và hạ người đến khi đùi song song với đất, giữ lưng thẳng và cơ bụng siết.",
+        "Ấn gót chân để duỗi hông và đứng lên về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Ez Bar Zercher Squat",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet about hip-width apart and holding the bar in the crook of your arms, near your belly. Your palms should be facing towards your body.",
+          "Sit back and lower your body down until your thighs are parallel to the ground, keeping your back straight and your core engaged.",
+          "Push through your heels to extend your hips and stand back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a4b9eb6a-7f73-4c19-82f3-e00883db81ee",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "69cd6ee62113422c65f073c1443bb8305c65979ce8387310fd3544badc1ba2a2",
+      "name": "Chùng chân luân phiên kết hợp đẩy ngực với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng hướng về đế landmine, hai chân rộng bằng hông, dùng hai tay giữ đầu thanh, khuỷu tay co và gần thân.",
+        "Bước chân phải lùi, hạ người vào tư thế chùng chân và đẩy đầu thanh ra xa ngực.",
+        "Ấn gót chân trái để trở về vị trí ban đầu, đồng thời kéo đầu thanh về ngực.",
+        "Lặp lại bên đối diện, luân phiên theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Alternating Lunge To Chest Press",
+        "description": "",
+        "steps": [
+          "Stand facing the landmine with feet hip-width apart and holding the end of the landmine barbell with both hands, keeping elbows bent and close to your body.",
+          "Step backward with the right foot, lunge down, and press the landmine away from your chest.",
+          "Push through the left heel to return to the starting position while pulling the landmine back to your chest.",
+          "Repeat on the opposite side, alternating for the desired number of reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f09041ac-a3b0-412e-a700-c3c0876cd0fe",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3e070f8adc44d78437303f7a2d284057bbbe4496495cb710f2362fb2fe5a1b1f",
+      "name": "Cuốn tay trước với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng cạnh thanh tạ neo landmine, hai chân rộng bằng vai. Dùng tay ở xa đế neo hơn nắm đầu thanh, lòng bàn tay ngửa và khuỷu tay gần thân.",
+        "Cuốn thanh về phía vai đối diện, co cơ tay trước rồi từ từ hạ thanh xuống.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Bicep Curl",
+        "description": "",
+        "steps": [
+          "Stand beside the landmine with your feet shoulder-width apart while grasping the end of the landmine barbell with the hand farther away from the landmine attachment, palm facing up and your elbow close to your side.",
+          "Curl the barbell up towards your opposite shoulder, contracting your bicep muscles, then slowly lower the barbell back down.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "07b59059-6749-4e47-b562-28b29129adbf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "913ce36ffba225f908479e1247381652cca9a30cb9b361266c36f41948d84c80",
+      "name": "Cuốn tay trước tập trung với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Quỳ một gối hướng về đế landmine, dùng tay cùng bên chân trước giữ đầu thanh.",
+        "Tựa khuỷu tay vào mặt trong đầu gối, cuốn thanh lên phía vai rồi hạ xuống có kiểm soát.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Concentration Curl",
+        "description": "",
+        "steps": [
+          "Start on one knee facing the landmine, holding the end of the barbell with your hand on the side of your forward leg.",
+          "While keeping your elbow braced against the inside of your knee, curl the barbell upward towards your shoulder, then lower it back down with control.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ea903627-fd9d-47c3-8dda-01ae383318dc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4fd049a4ac26faef32b464f68970712ce6d9e087015184c26f290da9061507d9",
+      "name": "Cossack squat với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng cạnh thanh tạ, giữ đầu thanh giữa hai đùi.",
+        "Bước rộng, gập đầu gối phía ngoài và duỗi chân đối diện.",
+        "Giữ ngực nâng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Cossack Squat",
+        "description": "",
+        "steps": [
+          "Stand beside the barbell, holding its end between your thighs.",
+          "Step wide and bend the outside knee while straightening the opposite leg.",
+          "Keep your chest raised and lower as deeply as comfortable.",
+          "Push through the bent leg to return, then repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "60b38418-8ca9-4ead-8535-82bd4577c348",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4a05910f4af5cf642eaec57f815d14bfe8679fc91d390e2aea50a0dbbf8a4e9c",
+      "name": "Cossack squat giữ trước ngực với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Hướng về đế landmine, giữ đầu thanh sát ngực.",
+        "Bước rộng và chuyển người sang một bên, gập đầu gối bên đó.",
+        "Giữ chân đối diện thẳng và hạ sâu trong biên độ thoải mái.",
+        "Đạp chân đang co để trở lại rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Goblet Cossack Squat",
+        "description": "",
+        "steps": [
+          "Face the landmine, holding the barbell end against your chest.",
+          "Step wide and shift toward one side, bending that knee.",
+          "Keep the opposite leg straight and descend as deeply as comfortable.",
+          "Push through the bent leg to return, then alternate sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a8e44f84-9a51-4520-8cad-4282784ec96e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ffbbdd40c564e1d5ee8a7585527cfa7b8da068d902f3f57f95c67fab340029a7",
+      "name": "Chùng chân sang ngang giữ trước ngực với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Hướng về thanh tạ, giữ đầu thanh gần ngực theo kiểu goblet, khuỷu tay khép gần thân.",
+        "Bước thẳng sang bên, các ngón chân của cả hai chân hướng về trước. Giữ trọng lượng trên gót chân bước ra khi hạ người trên bàn chân đó, chân còn lại thẳng để giữ thăng bằng.",
+        "Ấn gót chân đang nằm dưới trọng tâm người để bước về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Goblet Lateral Lunge",
+        "description": "",
+        "steps": [
+          "Start facing the barbell while holding the end of the bar close to your chest in the goblet position with your elbows tucked in close to your body.",
+          "Step directly out to the side with both toes pointing forward. Keep your weight on the heel of the leg you step out with as you sink down over that foot while your other leg remains straight for balance.",
+          "Drive through the heel over which you have centered your body as you step back to the starting position.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "abe1ac5a-2385-4a5a-9805-ce29f62413e7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8a851f286800878c7d0b8a010c06ce26ade84bd5770d7d7fffb646279bd63ff1",
+      "name": "Bước lên bục giữ trước ngực với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ đầu thanh trước ngực, hướng về bục vững chắc.",
+        "Đặt toàn bộ một bàn chân lên bục và siết cơ bụng.",
+        "Đạp bàn chân trên bục để đứng lên bục.",
+        "Từ từ bước xuống và lặp lại trước khi đổi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Goblet Step Up",
+        "description": "",
+        "steps": [
+          "Hold the barbell end at your chest and face a stable platform.",
+          "Place one foot completely on the platform and brace your core.",
+          "Drive through the elevated foot to stand on the platform.",
+          "Step down slowly and repeat before switching legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f6ed8057-4182-4df6-a547-0eb6d53d0e52",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a26b7facb091ad50960795cf093d774f6b4920b6ce32973d0d42c73021f056d8",
+      "name": "Hack squat với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Quay lưng về đế landmine, đặt đầu thanh lên một vai sát gốc cổ, hơi ngả người về sau tựa vào trọng lượng thanh.",
+        "Squat xuống có kiểm soát, giữ trọng lượng thanh gần chính giữa trọng tâm người nhất có thể, sau đó ấn gót chân để đứng lên hoàn toàn về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn, đổi bên đặt thanh sau mỗi hiệp tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Hack Squat",
+        "description": "",
+        "steps": [
+          "Start facing away from the landmine attachment with the end of the barbell resting on one shoulder against the base of your neck while leaning slightly back into the weight of the barbell.",
+          "Squat down with control while keeping the weight of the barbell as close to centered over your midpoint as possible, then drive through your heels to stand all the way back up and return to starting position.",
+          "Repeat for desired number of reps, then switch the side of your body the barbell is on every subsequent set."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8b3329a6-2fd5-4bd6-a078-e063fe2a9ada",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d8f4af69ffed4cb10d37a46dfee8c52aaf5d26f1769aa349648d7ba8a483199e",
+      "name": "Đẩy hông với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Ngồi tựa ghế, đặt thanh có đệm ngang hông.",
+        "Đặt chắc bàn chân, tì lưng trên vào ghế.",
+        "Ấn gót chân và duỗi hông lên trên.",
+        "Siết cơ mông rồi hạ hông có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Hip Thrust",
+        "description": "",
+        "steps": [
+          "Sit against a bench with the padded barbell resting across your hips.",
+          "Plant your feet firmly and brace your upper back against the bench.",
+          "Drive through your heels and extend your hips upward.",
+          "Squeeze your glutes, then lower your hips under control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b6cf48ad-f0ea-4cf4-8d12-59fcbcdaf392",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "84a684b086d3da46eea71914adf9330f460f8d056a57c9e97efa67c877b65032",
+      "name": "Giữ thân cong kiểu hollow hold với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai chân duỗi hướng về đế landmine, hai tay qua đầu và cùng giữ thanh. Siết cơ bụng bằng cách ấn lưng dưới xuống đất và kéo rốn về phía cột sống.",
+        "Nhấc hai chân khỏi đất, giữ chân sát nhau và thẳng, đồng thời nâng thân trên khỏi đất, đưa thanh ra xa mặt.",
+        "Giữ tư thế trong thời gian mong muốn rồi cẩn thận hạ thanh xuống đất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Hollow Hold",
+        "description": "",
+        "steps": [
+          "Start by lying flat on your back with your legs extended towards the landmine attachment and your arms overhead, holding the landmine barbell with both hands while engaging your core muscles by pressing your lower back into the ground and drawing your belly button in towards your spine.",
+          "Lift your legs off the ground, keeping them together and straight, and simultaneously raise your upper body off the ground, reaching the landmine barbell away from your face.",
+          "Hold this position for the desired duration, then carefully lower the barbell to the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0b36effc-85f3-491b-9d90-206afa8dbcec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "65755b720f54313db67b9d88e7cb394a2d6c7f66d52418dec02bf931460b78e6",
+      "name": "Chùng chân sang ngang với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng hướng về đế landmine, hai chân rộng bằng vai, dùng hai tay giữ đầu thanh, hai tay duỗi hoàn toàn xuống đất.",
+        "Giữ thân thẳng và cơ bụng siết, bước thẳng sang một bên, hạ người vào tư thế chùng chân trên chân vừa bước ra, giữ chân còn lại thẳng.",
+        "Ấn gót chân đang co và bước hai chân về gần nhau để trở về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn ở cùng một bên trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Lateral Lunge",
+        "description": "",
+        "steps": [
+          "Stand facing the landmine with your feet shoulder width apart while holding the end of the barbell in your hands with your arms fully extended down towards the ground.",
+          "While keeping your torso tall and core engaged, step directly out to one side, using the foot you have stepped out with to sit down into the lunge while keeping your other leg straight.",
+          "Drive through your heel on your bent leg as your step together to return to the starting position.",
+          "Repeat for desired number of reps on the same side before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b32312c5-7970-4f4c-b321-f8f15c566360",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6e3231939a226de8daaea37959930a7229f61aaa418a1f4e82c188f4d85823ba",
+      "name": "Chùng chân lùi với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng trước đế landmine, hai chân rộng bằng hông, lưng thẳng. Một tay nắm thanh bên thân, lòng bàn tay hướng vào chân.",
+        "Bước chân cùng bên tay giữ thanh về sau vào tư thế chùng chân. Gập cả hai gối để hạ người đến khi đùi trước song song với đất hoặc sâu hết mức độ linh hoạt cho phép. Giữ thân thẳng, ngực nâng và cơ bụng siết trong suốt chuyển động.",
+        "Ấn gót chân trước để trở về vị trí ban đầu. Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Lunge",
+        "description": "",
+        "steps": [
+          "Stand in front of the landmine with your feet hip-width apart and your back straight. Grasp the landmine barbell with one hand, holding it at at your side with your palm facing in towards your leg.",
+          "Take a step backward with your foot on the same side that you're holding the barbell, lowering your body into a lunge position. Bend both knees to lower your body down until your front thigh is parallel to the ground, or as low as your flexibility allows. Keep your torso upright, your chest lifted, and your core engaged throughout the movement.",
+          "Push through the heel of your front foot to return to the starting position. Repeat for desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9d024d86-b69c-48c0-8535-362cc68476a5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2daff1e698a19b89443a04b8eedcb2618434c06087cd9151f1433656ec393fa4",
+      "name": "Chùng chân xoay người kết hợp đẩy tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ thanh ngay phía trên mặt đất khi đang ở tư thế chùng chân.",
+        "Xoay về phía đế landmine khi nâng đầu gối chân sau.",
+        "Đứng lên, xoay về trước và đẩy thanh lên trên.",
+        "Hạ thanh xuống đất rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Lunge Rotate To Press",
+        "description": "",
+        "steps": [
+          "Hold the barbell in your hand just off the ground. You should be in a lunge position.",
+          "Rotate toward the landmine as you raise your back knee.",
+          "Stand, rotate forward, and press the barbell upward.",
+          "Lower the barbell to the ground and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a5b2f8cc-0573-4c5e-bdfe-235fb3f8aafd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "942b86128a819a7993dd2aa2c3566fa31f96904cc9a851eff27419aeb43ec36b",
+      "name": "Chùng chân kết hợp đẩy qua đầu với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng hướng về đế landmine, một tay giữ đầu thanh tại vai cùng bên, khuỷu tay khép sát thân ở dưới cổ tay.",
+        "Bước chân cùng bên tay giữ thanh về sau, hạ người vào tư thế chùng chân có kiểm soát, giữ cơ bụng siết và thân thẳng. Sau đó ấn gót chân trước để bước về vị trí ban đầu.",
+        "Khi hai chân trở về vị trí bắt đầu, đẩy thanh qua đầu đến khi tay duỗi hoàn toàn rồi hạ thanh về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Lunge To Overhead Press",
+        "description": "",
+        "steps": [
+          "Stand facing the landmine attachment while holding the end of the bar with one hand at your shoulder on the same side with your elbow tucked to your body underneath your wrist.",
+          "Step back with the leg on the same side that you are holding the bar on and with control lower yourself down into a lunge position while keeping your core engaged and torso tall, then drive through your front heel as you step back to the starting position.",
+          "Once your feet are back in the starting position, drive the bar up overhead until your arm is fully extended, then lower the bar back down to the starting position.",
+          "Repeated for the desired number of reps, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a6766baf-3c8e-4729-b516-f01f04477d3d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9fc891bf1e3d9e36dbcf55245f631274ad66894437be837d691ae2fb882ad1fa",
+      "name": "Nằm duỗi tay sau với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Nằm ngửa vuông góc với thanh, dùng tay gần thanh hơn giữ thanh ngay phía trên vai, lòng bàn tay úp hướng về chân.",
+        "Giữ vai ổn định, gập khuỷu tay để hạ đầu thanh về phía đất cạnh đầu. Giữ khuỷu tay đang gập hướng xuống phía chân.",
+        "Đẩy qua lòng bàn tay để duỗi khuỷu tay, đưa thanh về vị trí ban đầu rồi lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Lying Tricep Extension",
+        "description": "",
+        "steps": [
+          "Start lying on your back perpendicularly to the barbell, holding the bar directly over your shoulder with the hand that's closer to the bar with your palm facing down towards your feet.",
+          "While keeping your shoulder steady, bend your elbow and lower the end of the bar back towards your the ground next to your head. Keep your hinging elbow pointed down towards your feet.",
+          "Drive through your palm to extend your elbow and return the bar to the starting position, then repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fd8229cc-33af-4ea9-bcc4-1a014cf28885",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "128018dc5c5f7079571150596791a25ee25b86de395e857ec3940d1ad29a939b",
+      "name": "Kéo kiểu Meadows với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng vuông góc với thanh, chân trước chân sau, gập người về trước tại hông.",
+        "Dùng tay gần thanh nhất nắm đầu thanh.",
+        "Kéo khuỷu tay lên, đưa thanh về phía hông.",
+        "Hạ thanh đến khi tay duỗi hoàn toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Meadows Row",
+        "description": "",
+        "steps": [
+          "Stand perpendicular to the barbell and hinge forward with a staggered stance.",
+          "Grip the barbell end with your closest hand.",
+          "Pull your elbow upward, bringing the barbell toward your hip.",
+          "Lower the barbell until your arm is fully extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9c50f0f4-6906-46bb-b9c2-11fa000ce07a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3768c6e535f2e637db5e831e562a8781fb954e3b5aba589778fb508f2c8c8311",
+      "name": "Đẩy qua đầu với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng hướng về đế landmine, dùng hai tay giữ đầu thanh, lòng bàn tay hướng vào nhau.",
+        "Duỗi hai tay lên, đẩy đầu thanh qua đầu. Dừng ở điểm cao nhất rồi hạ thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Overhead Press",
+        "description": "",
+        "steps": [
+          "Stand facing the landmine, holding the end of the bar in both hands with your palms facing each other.",
+          "Extend your arms upward, pressing the end of the bar up overhead. Pause at the top of the movement, then lower the bar with control back to the starting position.",
+          "Repeat for the desired number of reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0d75ca25-ae8e-42c0-bac8-d4ff94d7ffa2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4123dc856bab4c46825df54425f67c06c002b4c61791bad0a1ec8b45c884c765",
+      "name": "Ngồi đẩy qua đầu luân phiên với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, mở hai chân để giữ ổn định. Một tay giữ đầu thanh theo kiểu trung tính tại vai, khuỷu tay dưới cổ tay.",
+        "Hơi nghiêng người về trước, đẩy thanh lên đến khi tay duỗi hoàn toàn. Ở điểm cao nhất, chuyển đầu thanh sang tay kia rồi hạ về vai đối diện. Thực hiện lại để đưa thanh về vị trí bắt đầu.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Seated Alternating Overhead Press",
+        "description": "",
+        "steps": [
+          "Start sitting on the ground facing the landmine attachment with your legs open for stability while holding the end of the bar in a neutral grip with your hand resting at your shoulder and your elbow beneath your wrist.",
+          "Leaning forward slightly, press the bar up into the air until your arm is fully extended. At the top of the movement, switch which hand is holding the end of the bar and lower the bar back down to the opposite shoulder. Perform again to return the bar to the starting position.",
+          "Repeat for the desired number of reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a4c37ea2-6ed5-46aa-a741-ac988fe1345b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b64caf5e4f44208b2557e3d9b1736bac962846750196ddfa2ea87ca309875a32",
+      "name": "Ngồi đẩy qua đầu hai tay với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, hai chân mở rộng. Dùng hai tay giữ đầu thanh trước ngực, lòng bàn tay hướng vào nhau.",
+        "Giữ thân thẳng và cơ bụng siết, đẩy đầu thanh lên đến khi hai tay duỗi hoàn toàn. Hơi nghiêng người về trước để đạt hết biên độ khớp vai. Hạ thanh về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Seated Overhead Press",
+        "description": "",
+        "steps": [
+          "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in both hands in front of your chest with your palms facing each other.",
+          "While keeping your torso tall and core brace, drive the end of the bar upward until your arms are fully extended. Lean forward slightly for full range of motion in the shoulder joints. Lower the bar back down to the starting position.",
+          "Repeat for desired number of reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "365e8163-267a-419d-b2fe-39e5b9375938",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d64d6bb70fabbfad7054ffc3e9f5260a6885381826d7b6872562856087bc0bbe",
+      "name": "Ngồi đẩy qua đầu một tay với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Ngồi trên đất hướng về đế landmine, hai chân mở rộng. Một tay giữ đầu thanh trước vai cùng bên, lòng bàn tay hướng ngang qua người.",
+        "Giữ thân thẳng và cơ bụng siết, đẩy thanh lên đến khi tay duỗi hoàn toàn, hơi nghiêng người về trước để đạt hết biên độ khớp vai. Hạ thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn ở một bên rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Seated Single Arm Overhead Press",
+        "description": "",
+        "steps": [
+          "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in one hand in front of that shoulder with your palm facing across your body.",
+          "While keeping your torso tall and your core braced, drive the bar upwards until your arm is fully extended, leaning forward slightly for full range of motion in the shoulder joint. Lower the bar back down to the starting position with control.",
+          "Repeat for desired number of reps on one side, then switch sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f776fe1a-71f2-46c5-b7a0-ec550097672d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4b4c30b16d150b38cd07c785b5d6ff4746d7d98af419544c2a84f3bddf05ce8c",
+      "name": "Nhún vai với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng cạnh thanh, dùng hai tay giữ đầu thanh.",
+        "Giữ hai tay thẳng và nâng vai về phía tai.",
+        "Siết một chút ở điểm cao nhất, không gập khuỷu tay.",
+        "Hạ vai hoàn toàn rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Shrug",
+        "description": "",
+        "steps": [
+          "Stand beside the barbell and hold its end with both hands.",
+          "Keep your arms straight and raise your shoulder toward your ear.",
+          "Squeeze briefly at the top without bending your elbows.",
+          "Lower your shoulders completely and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4bfb516d-f906-4fa9-b453-a1f3e80a80f3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2374945262af830a9d67ccc34306c85771e93e9384fd59ff61464723fb3be864",
+      "name": "Đứng đẩy qua đầu một tay với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng trước đế landmine, hai chân rộng bằng vai, đầu gối hơi co. Một tay nắm thanh với lòng bàn tay hướng vào trong, đưa thanh lên ngang vai, khuỷu tay khép dưới bàn tay.",
+        "Duỗi hoàn toàn tay để đẩy thanh qua đầu. Giữ cơ bụng siết, lưng thẳng và vai hạ trong suốt chuyển động. Dừng một chút ở điểm cao nhất với tay duỗi hoàn toàn trên đầu. Từ từ hạ thanh về vị trí bắt đầu ngang vai có kiểm soát.",
+        "Lặp lại theo số lần mong muốn ở một bên trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Single Arm Overhead Press",
+        "description": "",
+        "steps": [
+          "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+          "Press the barbell overhead by extending your arm fully, pushing the weight upward. Keep your core engaged, your back straight, and your shoulder down throughout the movement. Pause briefly at the top of the movement with your arm fully extended overhead. Slowly lower the barbell back to the starting position at shoulder height with control.",
+          "Repeat for the desired number of reps on one side before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fa971d11-2a93-4e6d-8e20-90ec8084e156",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d73e72b3bca7031cb373e8171bde656811a9c898824bf591d24af715ccf556a9",
+      "name": "Đẩy qua đầu một tay với tạ đòn neo landmine, chân trước chân sau",
+      "description": "",
+      "steps": [
+        "Đứng hướng về thanh, một chân phía trước co và chân còn lại phía sau thẳng. Dùng tay cùng bên chân sau giữ đầu thanh tại vai, khuỷu tay khép dưới bàn tay.",
+        "Đẩy thanh lên đến khi tay duỗi hoàn toàn. Dừng một chút rồi hạ đầu thanh về vị trí ban đầu có kiểm soát.",
+        "Lặp lại theo số lần mong muốn trước khi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Single Arm Staggered Overhead Press",
+        "description": "",
+        "steps": [
+          "Stand facing the bar in a split stance with one leg forward and bent and the other back and straight. Hold the bar in the hand on the side of the leg that is back with the end of the bar at your shoulder with your elbow tucked beneath your hand.",
+          "Drive the bar upwards until your arm is fully extended. Pause briefly before lowering the end of the bar back down to the starting position with control.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d53fa304-b809-4d86-b02c-3fd417d8ca6f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2d472b310972696c63c54adca448359432f8eb2bbd09e3b54514678f4220477d",
+      "name": "Đẩy hông một chân với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Ngồi tựa ghế, đặt thanh có đệm ngang một bên hông.",
+        "Đặt chắc một bàn chân và nâng chân đối diện.",
+        "Đạp bàn chân trụ và duỗi hông lên trên.",
+        "Siết cơ mông rồi từ từ hạ hông."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Single Leg Hip Thrust",
+        "description": "",
+        "steps": [
+          "Sit against a bench with the padded barbell across one hip.",
+          "Plant one foot firmly and raise the opposite leg.",
+          "Drive through the planted foot and extend your hips upward.",
+          "Squeeze your glute, then lower your hips slowly."
+        ]
+      }
+    },
+    {
+      "exercise_id": "30409fd1-ae18-4fc4-8a72-a65e0b8b46ed",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a53c4926f3aa2d91500ee92e211b789ffecdf3e9657a991260adaf1c45b1bf42",
+      "name": "Romanian deadlift một chân với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Nắm đầu thanh landmine và đứng vuông góc với thanh.",
+        "Nhấc chân phía trong, giữ chân phía ngoài làm trụ.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Khi cảm nhận cơ đùi sau được kéo giãn, đẩy hông về trước đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Single Leg Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Grab the end of the landmine and stand perpendicular to the bar.",
+          "Lift your inside leg and keep your outside leg planted.",
+          "Push your hips back keeping your knees mostly extended. When you feel the stretch in your hams, push your hips forward until you are standing upright."
+        ]
+      }
+    },
+    {
+      "exercise_id": "43e1e624-df32-4db2-a713-516db8d012aa",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8ae54dec10b26413363fc71b93a95081646a3721f5347730e25c12c754f3ce10",
+      "name": "Cử giật với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ đầu thanh ở phía trước người.",
+        "Bật hông, kéo khuỷu tay lên phía trần và đưa người xuống dưới thanh."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Snatch",
+        "description": "",
+        "steps": [
+          "Hold the end of the bar in front of you.",
+          "Pop your hips, pull your elbows up to the ceiling, and get underneath the bar."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9cee224d-37d7-4883-9383-0e7354daf16e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e5e09fb15c864beb89892d766896aba3c7bf635be35650d15be6338d2ed266bc",
+      "name": "Đẩy tách chân với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ thanh phía trên một vai. Đứng hai chân rộng bằng vai.",
+        "Nhún hông và gối, tạo đà rồi đẩy thanh.",
+        "Khi đẩy, tách thế chân. Đưa chân cùng bên tay đang tập về sau, chân còn lại về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Split Jerk",
+        "description": "",
+        "steps": [
+          "Hold the bar over one shoulder. Stand with a shoulder width stance.",
+          "Dip at the hips and knees, generate some momentum and press the bar.",
+          "As you press, split your stance. Bring the leg of the working arm back and the other forward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e58fb503-ff8f-42e5-a4a2-cf2b6ee362f9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c2b675613d684b1e5b9e9b0eddfc914e8cac60c7a8daddfc7452c5e0fbe19995",
+      "name": "Split squat với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ thanh gần vai và đứng chân trước chân sau.",
+        "Gập cả hai gối, hạ đầu gối chân sau về phía sàn.",
+        "Giữ bàn chân trước đặt phẳng và thân thẳng.",
+        "Đạp chân trước để đứng lên trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Split Squat",
+        "description": "",
+        "steps": [
+          "Hold the barbell near your shoulder and assume a staggered stance.",
+          "Bend both knees, lowering your back knee toward the floor.",
+          "Keep your front foot flat and torso upright.",
+          "Push through your front foot to return to standing."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8b5fc390-ecb6-4e55-b1b6-7ec699813709",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e57d2a0e06ac06d60313c8387bce4ed26fb0f9123bc3134f004e22b3bedcf265",
+      "name": "Squat với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ đầu thanh kiểu goblet trước ngực.",
+        "Đẩy hông về sau và gập gối.",
+        "Hạ ít nhất đến mức song song với đất rồi ấn gót chân để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Squat",
+        "description": "",
+        "steps": [
+          "Hold the end of the bar in a goblet position.",
+          "Push your hips back and break at the knees.",
+          "Reach at least parallel with the ground before pushing through your heels back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d6f5f45a-c4e7-44d8-81b6-2bd10da05f24",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "10c9a002d591144ab75c0cd599a661febe6ce1c465004a928f803ad22246150e",
+      "name": "Romanian deadlift với tạ đòn neo landmine, chân trước chân sau",
+      "description": "",
+      "steps": [
+        "Đứng chân trước chân sau, chân sau co và chân trước gần như duỗi thẳng.",
+        "Đẩy hông về sau đến khi cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Staggered Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Stand in a staggered position. With the back leg bent and the front mostly extended.",
+          "Push your hips back until you feel a stretch through your front hamstring.",
+          "Push your hips back forward until you are standing."
+        ]
+      }
+    },
+    {
+      "exercise_id": "35b1c3b6-2521-4a29-a63c-1315f243439b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7f2b01123afca8d142e634e364ff53ab6a9d5403af05fadc17704b6b79eba691",
+      "name": "Sumo deadlift với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Đứng rộng chân, hai chân ở hai bên đầu thanh.",
+        "Gập hông và gối, nắm thanh.",
+        "Đứng lên cùng thanh."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Sumo Deadlift",
+        "description": "",
+        "steps": [
+          "Stand with a wide stance and straddle over the end of the bar.",
+          "Bend at the hips and knees, and grab the bar.",
+          "Stand up with the bar."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c627baf6-61ab-4a47-b7cd-ec3e849a2cef",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e21cfd19861b65549486745c43dddfade5f37ea65d91c777e848b7e6ea2ce904",
+      "name": "Squat kết hợp đẩy qua đầu với tạ đòn neo landmine",
+      "description": "",
+      "steps": [
+        "Giữ thanh kiểu goblet trước ngực.",
+        "Đẩy hông về sau và hạ vào tư thế squat.",
+        "Ấn gót chân để đứng lên từ tư thế squat. Dùng đà tạo từ chân để đẩy thanh qua đầu.",
+        "Đưa thanh trở về vị trí goblet trước khi bắt đầu lần lặp tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Landmine Thruster",
+        "description": "",
+        "steps": [
+          "Hold the bar with a goblet position.",
+          "Push your hips back and sink into a squat.",
+          "Push through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.",
+          "Let the bar return to the goblet position before starting the next rep."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6f3a9ff1-6fc7-48e4-8b64-13fdd61c5b1a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "efa69e920e93b6f1f122fe71859d58129c1c4fb6a25f857fcd1dfb726ddb9070",
+      "name": "Deadlift với thanh trap bar khi đứng trên bục",
+      "description": "",
+      "steps": [
+        "Đứng trên bề mặt kê cao bên trong thanh trap bar, hai chân rộng bằng hông.",
+        "Nắm tay cầm, siết cơ bụng, giữ cột sống trung tính.",
+        "Đạp bàn chân, duỗi hông và gối để đứng lên.",
+        "Hạ xuống có kiểm soát, giữ thăng bằng trên bục."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Deficit Deadlift",
+        "description": "",
+        "steps": [
+          "Stand on elevated surface inside trap bar, feet hip-width.",
+          "Grip handles, brace core, maintain neutral spine.",
+          "Drive through feet, extend hips and knees to stand.",
+          "Lower under control, maintaining balance on platform."
+        ]
+      }
+    },
+    {
+      "exercise_id": "78ae910a-6d76-4138-9848-2180e4b53936",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7917754c6ce39805d7aa2d3836434cbfa3f3da5d56ad734638ce110708ca5bea",
+      "name": "Deadlift với thanh trap bar, có dừng giữa động tác",
+      "description": "",
+      "steps": [
+        "Vào vị trí bên trong thanh trap bar, siết chắc cơ bụng và giữ cột sống trung tính.",
+        "Hơi nâng thanh, dừng ngay dưới đầu gối.",
+        "Giữ lực căng rồi tiếp tục đến khi khóa thẳng hoàn toàn.",
+        "Từ từ hạ thanh về sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Pause Deadlift",
+        "description": "",
+        "steps": [
+          "Set up inside trap bar with strong brace and neutral spine.",
+          "Lift bar slightly, pause just below knees.",
+          "Hold tension, then continue to full lockout.",
+          "Lower bar slowly back to floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f20b1b69-eb8a-4a5d-b0b5-0e45c2ee2119",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d9627f8b99ca35b1226526e3827b7a138addc29191b6bc8d9424bae4fddcca1b",
+      "name": "Chùng chân lùi với thanh trap bar",
+      "description": "",
+      "steps": [
+        "Đứng bên trong thanh trap bar, nắm tay cầm và đứng thẳng.",
+        "Bước một chân về sau vào tư thế chùng chân.",
+        "Hạ xuống đến khi đùi trước song song với đất.",
+        "Ấn gót chân trước để đứng lên trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Reverse Lunge",
+        "description": "",
+        "steps": [
+          "Stand inside trap bar, grip handles, stand tall.",
+          "Step one foot backward into lunge position.",
+          "Lower until front thigh is parallel to ground.",
+          "Push through front heel to return standing."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b60e18fb-93fa-410f-99d3-f0356b007415",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "65ab67b06e5bd8365125ece6ad6d87a393e7834596fbc2acb0fafdc84218d841",
+      "name": "Romanian deadlift với thanh trap bar",
+      "description": "",
+      "steps": [
+        "Giữ thanh trap bar, đứng thẳng với đầu gối hơi co.",
+        "Gập hông về sau, hạ thanh dọc theo đùi.",
+        "Giữ lưng trung tính và duy trì lực căng ở cơ đùi sau.",
+        "Đẩy hông về trước để đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Hold trap bar, stand tall with slight knee bend.",
+          "Hinge hips back, lowering bar along thighs.",
+          "Keep back neutral and tension in hamstrings.",
+          "Drive hips forward to return upright."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fc5bc495-8992-442d-86f9-a84eef093ffc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "dc7d297c6612558794245a0ee43ea5365e80e20960415736c18aa722f1accd8a",
+      "name": "Deadlift một chân với thanh trap bar",
+      "description": "",
+      "steps": [
+        "Đứng bên trong thanh trap bar, hơi nhấc một bàn chân khỏi đất.",
+        "Gập hông về sau trong khi hạ thanh và duỗi chân không trụ ra sau.",
+        "Giữ hông cân bằng và lưng trung tính trong suốt chuyển động.",
+        "Đạp chân trụ để đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Single Leg Deadlift",
+        "description": "",
+        "steps": [
+          "Stand inside trap bar, lift one foot slightly off ground.",
+          "Hinge hips back while lowering bar and extending free leg behind.",
+          "Keep hips square and back neutral throughout movement.",
+          "Drive through standing foot to return upright."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3f58028a-368c-4116-8001-9df4346b5a25",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6a8a3e57272c2b88cb963e7a2c96040be281a35f1740b74379de61e4c302820a",
+      "name": "Romanian deadlift với thanh trap bar, chân trước chân sau",
+      "description": "",
+      "steps": [
+        "Đứng bên trong thanh trap bar. Đặt một chân về sau, chỉ các ngón chân sau chạm đất. Bàn chân trước luôn đặt phẳng trong suốt động tác.",
+        "Gập gối chân sau và đẩy hông về sau. Cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:01:56.557Z",
+      "source": {
+        "name": "Trap Bar Staggered Romanian Deadlift",
+        "description": "",
+        "steps": [
+          "Stand inside trap bar. Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+          "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+          "When you feel the stretch, push your hips forward again until you're back in a standing position."
+        ]
+      }
+    }
+  ]
+}

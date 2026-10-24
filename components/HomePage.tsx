@@ -5,9 +5,11 @@ import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import LanguageToggle from "@/components/LanguageToggle";
 import UserAuthButton, { type SessionResponse } from "@/components/auth/UserAuthButton";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages, translate } from "@/lib/i18n/messages";
+import { getExerciseLabel, getMuscleLabel } from "@/lib/i18n/labels";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
-import type { AppLanguage } from "@/lib/language";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
 
 const categoryChoices: readonly EquipmentIconName[] = VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
@@ -363,12 +365,17 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
   );
 }
 
-export default function HomePage({ initialAuthSession, initialLanguage }: {
+export default function HomePage({ initialAuthSession }: {
   initialAuthSession: SessionResponse;
-  initialLanguage: AppLanguage;
 }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const [activeCategory, setActiveCategory] = usePersistedChoice<EquipmentIconName>("noi-gym:home:category:v1", "featured", categoryChoices);
-  const activeCategoryCopy = categoryCopy[activeCategory];
+  const equipmentName = getExerciseLabel(language, VISIBLE_HEALTH_CATEGORY_ITEMS.find((item) => item.icon === activeCategory)?.label ?? "");
+  const equipmentPhrase = /^(Pilates|Yoga|Vitruvian|Cardio)$/.test(equipmentName) ? equipmentName : equipmentName.charAt(0).toLocaleLowerCase("vi") + equipmentName.slice(1);
+  const activeCategoryCopy = language === "vi"
+    ? { title: activeCategory === "featured" ? messages.chooseMuscle : translate(language, "categoryTitle", { equipment: equipmentPhrase }), subtitle: messages.chooseMuscleHelp }
+    : categoryCopy[activeCategory];
 
   return (
     <div className="health-page health-mood-surface">
@@ -378,11 +385,11 @@ export default function HomePage({ initialAuthSession, initialLanguage }: {
           <div className="health-topbar__actions">
             {/* <button aria-label="Watch" className="health-icon-button" type="button"><Icon name="watch" size={33} /></button> */}
             <div className="health-topbar__identity-actions">
-              <LanguageToggle initialLanguage={initialLanguage} />
+              <LanguageToggle />
               <span aria-hidden="true" className="health-topbar__action-divider" />
               <UserAuthButton initialSession={initialAuthSession} />
             </div>
-            <button aria-label="More options" className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
+            <button aria-label={messages.moreOptions} className="health-icon-button health-icon-button--more" type="button"><Icon name="more" size={26} /></button>
           </div>
         </div>
 
@@ -433,13 +440,13 @@ export default function HomePage({ initialAuthSession, initialLanguage }: {
 
         <section aria-labelledby="weekly-schedule-title" className="health-card cardio-card">
           <div className="cardio-card__copy">
-            <h2 id="weekly-schedule-title">Weekly workout schedule</h2>
+            <h2 id="weekly-schedule-title">{messages.weeklySchedule}</h2>
             <ul className="weekly-schedule-list">
               {weeklySchedule.map((item) => (
                 <li className={`weekly-schedule-list__item${item.flexible ? " weekly-schedule-list__item--flexible" : ""}`} key={item.day}>
-                  <span className="weekly-schedule-list__day">{item.day}</span>
-                  <span className="weekly-schedule-list__session">{item.session}</span>
-                  <span className="weekly-schedule-list__muscles">{item.muscles}</span>
+                  <span className="weekly-schedule-list__day">{getExerciseLabel(language, item.day)}</span>
+                  <span className="weekly-schedule-list__session">{getExerciseLabel(language, item.session)}</span>
+                  <span className="weekly-schedule-list__muscles">{item.muscles.split(" · ").map((muscle) => getMuscleLabel(language, muscle)).join(" · ")}</span>
                 </li>
               ))}
             </ul>
@@ -456,28 +463,28 @@ export default function HomePage({ initialAuthSession, initialLanguage }: {
         </div> */}
 
         <section className="health-card fitness-index-card">
-          <h2>Fitness index</h2>
+          <h2>{messages.fitnessIndex}</h2>
         </section>
 
 
       </main>
 
-      <nav aria-label="Main navigation" className="health-bottom-nav">
+      <nav aria-label={messages.mainNavigation} className="health-bottom-nav">
         <div className="health-bottom-nav__pill">
           <button aria-current="page" className="health-bottom-nav__item health-bottom-nav__item--active" type="button">
             <Icon name="home" size={24} />
-            <span>Home</span>
+            <span>{messages.home}</span>
           </button>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="together" size={24} />
-            <span>Together</span>
+            <span>{messages.together}</span>
           </Link>
           <Link className="health-bottom-nav__item" href="/coming-soon">
             <Icon name="fitness" size={24} />
-            <span>Fitness</span>
+            <span>{messages.fitness}</span>
           </Link>
         </div>
-        <Link aria-label="Open exercise management" className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
+        <Link aria-label={messages.openAdmin} className="health-scan-button" href="/admin/exercises"><Icon name="scan" size={24} /></Link>
       </nav>
     </div>
   );

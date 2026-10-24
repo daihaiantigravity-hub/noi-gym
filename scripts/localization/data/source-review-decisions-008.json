@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Reviewed all 22 remaining Dumbbells/Barbell sources against all 86 available gender/angle clips: 516 chronological samples, 54 supplemental temporal samples and four original-resolution detail frames (574 inspected frames). Corrections are editorial descriptions of visible setup and movement, not recovered provider wording. Explicit exceptions: Arnold Press expands from one incomplete step to three; upright-row and wall-squat load quantities change from two per hand to one per hand; calf-jump instructions distinguish grounded male and hopping female demonstrations. Preserve source names, descriptions, IDs, media and timestamps. No new loads, sets, repetitions or measured angles are inferred.",
+  "decisions": [
+    {
+      "exercise_id": "3a351d60-9962-4178-acae-34d8a53184c0",
+      "sourceName": "Dumbbell Goblet Curtsy Deficit Lunge",
+      "changeReason": "Both genders hold one dumbbell at the chest, keep the supporting foot on a platform and cross the other leg behind. Add the visible curtsy direction and replace the unrelated final bar reference with the goblet dumbbell.",
+      "steps": [
+        "Stand on a platform with your feet hip-width apart, holding one dumbbell at your chest with both hands in a goblet position.",
+        "Step one foot back and across behind your supporting leg, lowering your rear knee toward the floor while keeping your chest upright and core engaged.",
+        "Push through your front foot to return to the starting position, keeping the dumbbell stable at your chest."
+      ]
+    },
+    {
+      "exercise_id": "40625c25-18c1-47b2-8118-044f43421de2",
+      "sourceName": "Barbell High Bar Good Morning",
+      "changeReason": "Both genders support the bar across the upper back/traps with both hands, hinge with soft knees and return upright. Replace the unfinished clause with the visible straight-back cue; omit the unverified cervical-spine/padding claim. Preserve the existing hamstring-stretch endpoint rather than inventing the provider's missing words.",
+      "steps": [
+        "Place the bar across your upper back on your traps and hold it securely with both hands.",
+        "Push your hips straight back, keeping your knees mostly extended but soft and your back straight as your torso leans forward.",
+        "Look for a stretch in your hamstrings as you approach the end of your range of motion without rounding your spine.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position."
+      ]
+    },
+    {
+      "exercise_id": "48debdcc-56af-4b29-902b-a32f8a44fbea",
+      "sourceName": "Dumbbell Laying Curl",
+      "changeReason": "Both genders lie back on a bench with feet on the floor and use an underhand dumbbell grip. Correct the seated setup and describe the visible elbow curl/controlled extension without adding a bench angle.",
+      "steps": [
+        "Lie on your back on a bench with your feet on the floor. Hold a dumbbell in each hand with an underhand grip and your arms beside your torso.",
+        "Bend your elbows to curl the dumbbells upward toward the ceiling, keeping your upper arms beside your torso.",
+        "Lower the dumbbells under control until your elbows are extended, without letting your upper arms fall behind your torso."
+      ]
+    },
+    {
+      "exercise_id": "4bb9960b-d1d2-4d62-baa3-651d145b220b",
+      "sourceName": "Dumbbell Thruster",
+      "changeReason": "Both genders perform a squat followed by a bilateral overhead press, not only a slight knee dip. Retain five blocks and the shoulder-rack grip, adding the actual squat and coordinated leg/hip extension.",
+      "steps": [
+        "Stand with your feet shoulder-width apart and hold a dumbbell in each hand.",
+        "Bring the dumbbells to your shoulders with your palms facing inward and your elbows bent.",
+        "Bend your hips and knees to lower into a squat, keeping the dumbbells at your shoulders.",
+        "Extend your hips and knees to stand up and use that drive to press both dumbbells overhead.",
+        "Lower the dumbbells back to your shoulders under control and repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "4ea4bb8f-2e40-4ef1-8429-fbac30440652",
+      "sourceName": "Dumbbell Upright Row",
+      "changeReason": "Both genders hold two dumbbells total, one per hand, and lead the elbows up/out while the weights stay close to the torso. Supplemental male side samples show the upper phase missed by primary sampling. Correct the load quantity and replace the close-elbow/chin endpoint with the observed chestward pull and controlled return. The digit 2 remains, but its quantity semantics intentionally change.",
+      "steps": [
+        "Stand with your feet shoulder-width apart, holding 2 dumbbells, one in each hand, in front of your thighs.",
+        "Keep your back straight and chest lifted, engaging your core to maintain balance.",
+        "Lead your elbows up and out to pull the dumbbells toward your upper chest, keeping the weights close to your body.",
+        "Lower the dumbbells under control to the front of your thighs, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "5bd21689-be25-4c0e-a83d-395f1b11bd6d",
+      "sourceName": "Ez Bar Spider Curl",
+      "changeReason": "Both genders rest the chest on an incline bench and curl an EZ bar with an underhand grip. The bench supports the body; it is not the held load. Correct bench/bat object references without removing the actual bench support.",
+      "steps": [
+        "Lie with your chest against an incline bench and hold an EZ bar with an underhand grip, letting your arms hang down with your elbows extended.",
+        "Curl the bar toward your shoulders by bending your elbows, keeping your upper arms steady and your core engaged.",
+        "Lower the bar under control until your elbows are extended, then repeat for the desired repetitions."
+      ]
+    },
+    {
+      "exercise_id": "677dd74a-6587-4a94-92e9-cc91257fe482",
+      "sourceName": "Dumbbell Figure Four Heels Elevated Hip Thrust",
+      "changeReason": "Female-only clips and the original-resolution side frame show a dumbbell across the hips, upper back supported on a bench, one foot on raised plates and the opposite ankle crossed over the supporting thigh. Correct the floor/barbell/box setup and plural supporting heels. No male variant is inferred.",
+      "steps": [
+        "Rest your upper back on a bench, place one foot on a raised platform and cross your opposite ankle over the supporting thigh. Hold a dumbbell across your hips with both hands.",
+        "Push through your supporting heel to raise your hips toward the ceiling, keeping that foot planted on the platform and your other leg crossed.",
+        "Squeeze your glutes at the top, pause briefly and lower your hips back to the starting position under control."
+      ]
+    },
+    {
+      "exercise_id": "679b8a14-5299-4993-a4e4-b6da73b86759",
+      "sourceName": "Dumbbell Weighted Pull Ups",
+      "changeReason": "Original-resolution frames confirm both genders suspend a dumbbell from a weighted belt/chain between the legs, rather than gripping it between the feet. Add this missing load setup while preserving the overhand pull-up and chin-above-bar endpoint.",
+      "steps": [
+        "Secure a dumbbell to a weighted belt so it hangs between your legs. Grasp the pull-up bar with an overhand grip and hang with your arms extended.",
+        "Pull your body up until your chin is above the bar, keeping the hanging dumbbell controlled.",
+        "Lower your body under control to the starting position with your arms extended."
+      ]
+    },
+    {
+      "exercise_id": "6a5f843d-acc7-44a2-a6f6-f8070842544d",
+      "sourceName": "Dumbbell Curtsy Deficit Lunge",
+      "changeReason": "Both genders hold one dumbbell at each side and cross the rear leg behind the foot on the platform. Correct the final bar reference and specify the visible curtsy direction.",
+      "steps": [
+        "Stand on a platform with your feet hip-width apart, holding a dumbbell in each hand at your sides.",
+        "Step one foot back and across behind your supporting leg, lowering your rear knee toward the floor while keeping your chest upright and core engaged.",
+        "Push through your front foot to return to the starting position, keeping the dumbbells stable at your sides."
+      ]
+    },
+    {
+      "exercise_id": "6f3e6e80-cd45-4604-8799-ce69317b9f37",
+      "sourceName": "Barbell Curtsy Deficit Lunge",
+      "changeReason": "Both genders support a barbell across the upper back and cross the rear leg behind the foot on the platform. Add the curtsy crossing direction without changing this back-rack load to a dumbbell variant.",
+      "steps": [
+        "Stand on a platform with your feet hip-width apart, supporting a barbell across your upper back and holding it with both hands.",
+        "Step one foot back and across behind your supporting leg, lowering your rear knee toward the floor while keeping your chest upright and core engaged.",
+        "Push through your front foot to return to the starting position, keeping the bar stable throughout."
+      ]
+    },
+    {
+      "exercise_id": "752f041e-7da5-4567-9322-e4a9eb178890",
+      "sourceName": "Dumbbell Reverse Grip Bench Press",
+      "changeReason": "Both genders lie on a bench and press two dumbbells using a reverse/underhand grip. Remove bar unracking and raising references, retaining the feet-on-floor and lower-chest lowering cues.",
+      "steps": [
+        "Lie on a bench with your feet on the floor. Hold a dumbbell in each hand above your chest with your arms extended and palms facing toward your head in a reverse grip.",
+        "Bend your elbows to lower the dumbbells toward your lower chest, maintaining the reverse grip.",
+        "Press the dumbbells back up until your elbows are extended."
+      ]
+    },
+    {
+      "exercise_id": "a791dfde-e250-44eb-8465-dc8f59521061",
+      "sourceName": "Barbell Calf Jump",
+      "changeReason": "Both genders support a barbell on the upper back, dip the knees and rise rapidly through the forefeet. Supplemental first-cycle frames show a real distinction: the male keeps forefoot contact while raising the heels; the female briefly leaves the floor. Remove contradictory flat-footed/raise and universal no-flight/one-second-top-hold claims. Explicitly describe the two demonstrated variants instead of imposing either on both.",
+      "steps": [
+        "Stand with your feet shoulder-width apart and knees slightly bent, holding a barbell securely across your upper back.",
+        "Dip your knees slightly, then extend your legs and rise quickly onto the balls of your feet, lifting your heels.",
+        "The male demonstration keeps the forefeet on the floor; the female demonstration adds a small hop with both feet briefly leaving the floor.",
+        "Return your heels to the floor with soft knees, control the bar and begin the next repetition."
+      ]
+    },
+    {
+      "exercise_id": "ac95a435-d64e-4806-aa4d-c5c49079d05c",
+      "sourceName": "Dumbbell Neutral Seated Overhead Press",
+      "changeReason": "Both genders sit upright against a bench backrest and press dumbbells overhead with palms facing each other. Restore the shoulder-to-overhead-to-shoulder sequence and replace the unsupported easier-on-shoulder-joints claim with the visible stable seated setup.",
+      "steps": [
+        "Sit on an upright bench with your feet on the floor. Hold a dumbbell in each hand at shoulder level with your palms facing each other and your elbows bent.",
+        "Press both dumbbells overhead until your arms are extended, keeping your palms facing each other.",
+        "Lower the dumbbells under control back to shoulder level, then repeat.",
+        "Keep your back supported against the bench and your torso steady throughout the movement."
+      ]
+    },
+    {
+      "exercise_id": "ae06c6e9-5361-4abf-bc4d-f41b90e5f031",
+      "sourceName": "Dumbbell Stability Ball Wall Squat",
+      "changeReason": "Both genders place a stability ball between the lower back and wall and hold one dumbbell per hand, arms at the sides. Correct the two-per-hand quantity and supply the missing body-to-ball support relationship; retain the original parallel-or-just-below squat target.",
+      "steps": [
+        "Place a stability ball between your lower back and a wall, around hip height, and stand with your feet in front of the wall.",
+        "Hold two dumbbells total, one in each hand, with your arms at your sides.",
+        "Bend your hips and knees to squat until your thighs are parallel to the floor or just below, keeping your back against the ball, then stand back up."
+      ]
+    },
+    {
+      "exercise_id": "c1093f60-36ec-46c6-86dc-bbbe304e0ec0",
+      "sourceName": "Pushup to Renegade Row",
+      "changeReason": "Both genders perform a pushup before a row and alternate rowing sides. Male clips use toe support; female clips use knee support. Add the omitted pushup and explicitly allow the demonstrated knees-down variation without presenting it as a high plank. Preserve three instruction blocks.",
+      "steps": [
+        "Grip a pair of dumbbells under your shoulders with your palms facing each other. Support yourself in a high plank, or on your knees as shown in the female demonstration, keeping your torso aligned.",
+        "Bend your elbows to lower your chest between the dumbbells, then press back up. Keep your torso steady as you row one dumbbell toward your hip with your elbow close to your body.",
+        "Lower the dumbbell under control, perform the next pushup and row with the other arm. Continue alternating sides."
+      ]
+    },
+    {
+      "exercise_id": "c169de20-f171-46aa-bc78-7f0affdb17cb",
+      "sourceName": "Landmine Single Leg Glute Bridge",
+      "changeReason": "Both genders support the upper back on a low box/pad, plant one foot and keep the other leg raised while the held landmine end rests across the hip. Add the missing single-leg setup and load control, retaining the shown raised-back support rather than changing it to a floor bridge.",
+      "steps": [
+        "Set up a landmine and rest your upper back on a low box or pad. Plant one foot on the floor with that knee bent and keep the other leg raised.",
+        "Place the free end of the bar across your hip and hold it securely with both hands.",
+        "Push through your planted foot to raise your hips, keeping the other leg off the floor. Squeeze your glutes at the top, then lower your hips under control."
+      ]
+    },
+    {
+      "exercise_id": "c5436908-1c4c-4b06-816a-45c34ede22a9",
+      "sourceName": "Dumbbell Staggered Waiters Bow",
+      "changeReason": "Both genders hold one dumbbell per hand while the front thigh touches a fixed bar. Keep the bar as support/reference, adding the distinct handheld load; preserve front-foot/back-toe support and the hamstring-stretch hinge/return.",
+      "steps": [
+        "Set a fixed bar at mid-thigh height and place your working thigh against it. Hold a dumbbell in each hand with your arms hanging down.",
+        "Place one foot behind you, resting only on the toes of that back foot. Keep your front foot flat throughout the movement.",
+        "Bend your back knee and push your hips back with your back straight, looking for a stretch in your front hamstring.",
+        "When you feel the stretch, push your hips forward until you are back in a standing position."
+      ]
+    },
+    {
+      "exercise_id": "c6d167fb-6a5b-4b01-8504-034998ce5dfa",
+      "sourceName": "Barbell Block Conventional Deadlift",
+      "changeReason": "Both genders lift a barbell whose loaded plates start and return onto raised plate/block supports. Correct the floor return and the misleading straighten-your-back lifting cue: the back remains straight while hips/knees extend.",
+      "steps": [
+        "Stand with your mid-foot under the bar and the loaded plates resting on blocks or raised supports. Grip the bar with your hands about shoulder-width apart.",
+        "Bend your hips and knees to reach the bar, then push through your feet and extend your hips and knees to lift it, keeping your back straight.",
+        "Stand to your full height and hold the bar with your arms straight.",
+        "Bend your hips and knees to lower the bar under control until the plates rest on the raised supports again, keeping your back straight."
+      ]
+    },
+    {
+      "exercise_id": "c96b4880-5799-4863-b84f-0c1c85cd9688",
+      "sourceName": "Dumbbell Shoulder External Rotation",
+      "changeReason": "Both genders sit with one foot on the bench and support the working elbow against the inside of the raised knee/thigh while rotating a dumbbell upward and back down. Correct the impossible elbow-on-elbow reference. The source's 90-degree range is retained as an approximate instruction, not claimed as a video measurement.",
+      "steps": [
+        "Sit on a bench with one foot on the bench and that knee raised. Hold a dumbbell in the hand on the same side.",
+        "Rest your working elbow against the inside of your raised knee and keep it supported there.",
+        "Rotate at your shoulder to move your fist from pointing forward toward pointing up, through about 90 degrees, then return under control without lifting your elbow from its support."
+      ]
+    },
+    {
+      "exercise_id": "cac2ddd0-998f-4405-9f7c-1ad520dad7fd",
+      "sourceName": "Dumbbell Heels Up Goblet Squat",
+      "changeReason": "Both genders squat with heels raised on a wedge/support and hold one dumbbell at the chest with both hands. Replace the unrelated half-kneeling spinal rotation with this visible setup and squat/return, keeping two blocks and adding no heel height or squat angle.",
+      "steps": [
+        "Stand with your heels on a raised support and your forefeet on the floor. Hold one dumbbell at your chest with both hands in a goblet position.",
+        "Bend your hips and knees to lower into a squat while keeping your chest upright and heels on the support, then push through your feet to stand back up."
+      ]
+    },
+    {
+      "exercise_id": "e23ca1e8-aac5-4347-a55f-5fb4ec6398dc",
+      "sourceName": "Dumbbell Alternating Arnold Press",
+      "changeReason": "Both genders begin with palms toward the body, press one dumbbell overhead while rotating its palm forward, keep the other at the shoulder, then reverse the rotation and alternate. The original contains only a standing setup. Expand one step to three explicitly to include setup, rotating press and controlled alternating return; do not present the new text as recovered provider wording.",
+      "stepCountChange": {
+        "before": 1,
+        "after": 3,
+        "reason": "The sole original step contains no pressing, rotation, return or alternation; three reviewed blocks describe the full sequence visible in both genders and supplemental first-cycle samples."
+      },
+      "steps": [
+        "Stand holding a dumbbell in each hand in front of your shoulders, with your elbows bent and your palms facing toward your body.",
+        "Press one dumbbell overhead as you rotate that palm to face forward, keeping the other dumbbell at your shoulder and your torso steady.",
+        "Lower the dumbbell under control, rotating your palm back toward your body. Repeat with the other arm and continue alternating sides."
+      ]
+    },
+    {
+      "exercise_id": "e539f2fc-fc1a-46e3-873d-9e277fdcb30c",
+      "sourceName": "Dumbbell Front Rack Curtsy Deficit Lunge",
+      "changeReason": "Both genders hold a dumbbell at each shoulder in a front rack, keep the supporting foot on the platform and cross the rear leg behind. Correct the final bar reference and add the observed curtsy direction, distinct from goblet, hanging-dumbbell and back-rack variants.",
+      "steps": [
+        "Stand on a platform with your feet hip-width apart, holding a dumbbell at each shoulder in a front-rack position.",
+        "Step one foot back and across behind your supporting leg, lowering your rear knee toward the floor while keeping your chest upright and core engaged.",
+        "Push through your front foot to return to the starting position, keeping the dumbbells stable at your shoulders."
+      ]
+    }
+  ]
+}

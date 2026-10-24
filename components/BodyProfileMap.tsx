@@ -7,6 +7,9 @@ import type { EquipmentIconName } from "./EquipmentIcon";
 import { withExerciseGender } from "@/lib/exercises/gender";
 import { JOINT_TARGETS, getAdvancedRoute, getTargetRoute } from "@/lib/exercises/targets";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages, translate } from "@/lib/i18n/messages";
+import { getExerciseLabel } from "@/lib/i18n/labels";
 
 type BodyView = "front" | "back";
 type BodyMapMode = "standard" | "advanced" | "joints";
@@ -94,6 +97,8 @@ function getHotspotPosition(position: HotspotPosition, viewBox = bodyMapViewBox)
 }
 
 export default function BodyProfileMap({ equipment = "featured" }: { equipment?: EquipmentIconName }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const router = useRouter();
   const prefetchedRoutes = useRef(new Set<string>());
   const [isPending, startTransition] = useTransition();
@@ -277,7 +282,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         </div>
       </section> */}
 
-      <section aria-label="Choose a body area" className="health-card body-profiles-card">
+      <section aria-label={messages.bodyArea} className="health-card body-profiles-card">
         {/*
         <div className="body-profiles-card__header">
           <div>
@@ -288,7 +293,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         */}
         <div className="body-profile-toolbar">
           <div className={`body-profile-mode-switcher body-profile-mode-switcher--${activeGender}`}>
-            <div aria-label="Body map view" className="body-profile-mode-switcher__modes" role="tablist">
+            <div aria-label={messages.bodyMapView} className="body-profile-mode-switcher__modes" role="tablist">
               {modeItems.map((item) => (
                 <button
                   aria-selected={activeMode === item.id}
@@ -298,16 +303,16 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                   role="tab"
                   type="button"
                 >
-                  {item.label}
+                  {getExerciseLabel(language, item.label)}
                 </button>
               ))}
             </div>
             <span aria-hidden="true" className="body-profile-mode-switcher__divider" />
             <button
-              aria-label={`Showing the ${activeGender === "male" ? "male" : "female"} body map. Press to switch to ${activeGender === "male" ? "female" : "male"}.`}
+              aria-label={translate(language, "bodyMapGender", { gender: (activeGender === "male" ? messages.male : messages.female).toLocaleLowerCase(), nextGender: (activeGender === "male" ? messages.female : messages.male).toLocaleLowerCase() })}
               className={`body-profile-gender-toggle body-profile-gender-toggle--${activeGender}`}
               onClick={() => setActiveGender((gender) => gender === "male" ? "female" : "male")}
-              title={`Switch to the ${activeGender === "male" ? "female" : "male"} body map`}
+              title={translate(language, "switchBodyGender", { gender: (activeGender === "male" ? messages.female : messages.male).toLocaleLowerCase() })}
               type="button"
             >
               <GenderIcon gender={activeGender} />
@@ -318,10 +323,10 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
         <div className="body-profiles-card__visuals">
           <figure className={`body-profile body-profile--${activeMode} body-profile--${activeGender}`}>
             <button
-              aria-label={`Switch to the ${oppositeLabel.toLowerCase()} view`}
+              aria-label={translate(language, "switchBodyView", { view: getExerciseLabel(language, oppositeLabel).toLocaleLowerCase() })}
               className="body-profile__quick-switch"
               onClick={() => setActiveView(oppositeView)}
-              title={`Switch to the ${oppositeLabel.toLowerCase()} view`}
+              title={translate(language, "switchBodyView", { view: getExerciseLabel(language, oppositeLabel).toLocaleLowerCase() })}
               type="button"
             >
               <div aria-hidden="true" className="body-profile__quick-switch-thumb">
@@ -334,7 +339,7 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
             <div className="body-profile__image">
               <div className="body-profile__map-stage">
                 <div
-                  aria-label={`${activeGender === "male" ? "Male" : "Female"}, ${bodyLabel}. ${activeMode === "joints" ? "Select a joint to view exercises." : "Select an area on the image to view exercises."}`}
+                  aria-label={translate(language, "bodyMapDescription", { gender: activeGender === "male" ? messages.male : messages.female, view: getExerciseLabel(language, bodyLabel), instruction: activeMode === "joints" ? messages.selectJoint : messages.selectArea })}
                   aria-busy={isPending}
                   className={`body-profile__svg${!mapIsInteractive ? " body-profile__svg--overlay" : ""}${isPending ? " body-profile__svg--pending" : ""}`}
                   onClick={mapIsInteractive ? handleMuscleClick : undefined}
@@ -344,24 +349,24 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                   {activeMarkup && (
                     <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
                   )}
-                  {activeGender === "female" && femaleLoadFailed && !activeMarkup && <span role="status">Unable to load the female body map.</span>}
+                  {activeGender === "female" && femaleLoadFailed && !activeMarkup && <span role="status">{messages.femaleMapFailed}</span>}
                   {isPending && (
                     <span className="body-profile__navigation-feedback" role="status">
                       <span aria-hidden="true" className="body-profile__navigation-spinner" />
-                      Opening exercises…
+                      {messages.openingExercises}
                     </span>
                   )}
                 </div>
 
                 {activeMode === "joints" && activeMarkup ? (
-                  <div aria-label="Joints" className="body-profile__hotspots body-profile__hotspots--joints" role="list">
+                  <div aria-label={getExerciseLabel(language, "Joints")} className="body-profile__hotspots body-profile__hotspots--joints" role="list">
                     <svg aria-hidden="true" className="body-profile__hotspot-overlay" preserveAspectRatio="xMidYMid meet" viewBox={`0 0 ${hotspotViewBox.width} ${hotspotViewBox.height}`}>
                       {overlayTargets.flatMap((target) => (overlayPositions[target.slug] ?? []).map((position, index) => {
                         const layout = getHotspotPosition(position, hotspotViewBox);
                         const href = withExerciseGender(getTargetRoute(target), activeGender === "female" ? "female" : undefined);
 
                         return (
-                          <Link aria-label={`Open ${target.label} exercises`} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
+                          <Link aria-label={translate(language, "openTarget", { name: getExerciseLabel(language, target.label) })} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
                             <circle className="body-profile__hotspot-halo" cx={layout.cx} cy={layout.cy} r="25" />
                             <circle className="body-profile__hotspot-dot" cx={layout.cx} cy={layout.cy} r="13" />
                           </Link>

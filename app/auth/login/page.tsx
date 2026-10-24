@@ -1,33 +1,37 @@
 import Link from "next/link";
 import LoginForm from "@/components/admin/LoginForm";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
+import LanguageToggle from "@/components/LanguageToggle";
+import { getAppLanguage } from "@/lib/i18n/server";
+import { getWorkspaceMessages } from "@/lib/i18n/workspace-messages";
 
 export default async function LoginPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const configured = isSupabaseConfigured();
+  const text = getWorkspaceMessages(await getAppLanguage());
   const query = await searchParams;
   const recovery = Array.isArray(query.recovery) ? query.recovery[0] : query.recovery;
   const recoveryError = recovery === "unavailable"
-    ? "Supabase is not ready for password recovery."
+    ? text.authRecoveryUnavailable
     : recovery === "invalid"
-      ? "The reset link is invalid or has expired."
+      ? text.authRecoveryInvalid
       : null;
 
   return (
     <main className="admin-login-page">
       <section className="admin-login-card">
-        <span className="admin-eyebrow">NOI GYM · ADMIN</span>
-        <h1>Dashboard sign in</h1>
-        <p className="admin-muted">Manage the exercise library and content displayed on Noi Gym.</p>
+        <div className="admin-localized-heading"><span className="admin-eyebrow">{text.adminBrand}</span><LanguageToggle whenEnabledOnly /></div>
+        <h1>{text.loginTitle}</h1>
+        <p className="admin-muted">{text.loginDescription}</p>
         {recoveryError && <p className="admin-form-error" role="alert">{recoveryError}</p>}
         {configured ? (
           <LoginForm />
         ) : (
           <div className="admin-empty-state">
-            <strong>Supabase is not configured</strong>
-            <p>Add the Supabase environment variables and ADMIN_EMAILS to enable administrator sign-in.</p>
+            <strong>{text.authNotConfigured}</strong>
+            <p>{text.authConfigureHelp}</p>
           </div>
         )}
-        <Link className="admin-text-link" href="/">← Back to the public site</Link>
+        <Link className="admin-text-link" href="/">← {text.backToSite}</Link>
       </section>
     </main>
   );

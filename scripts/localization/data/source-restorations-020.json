@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "Recovery source correction and Vietnamese localization",
+  "databaseStatus": "applied_and_verified",
+  "restorations": [
+    {
+      "exercise_id": "fe159d28-1ece-4587-bcba-cb9ef780d0b2",
+      "source_id": 96179389713646,
+      "before": {
+        "name": "Cobra Stretch 1",
+        "description": "",
+        "steps": [
+          "Lay on your front placing your palms under your shoulders",
+          "Keep the elbows bent and close to your body",
+          "Lift your upper body off the ground supporting your weight on your forearms",
+          "Keep the hips on the ground"
+        ]
+      },
+      "after": {
+        "name": "Cobra Stretch 1",
+        "description": "",
+        "steps": [
+          "Lie on your stomach with your legs extended and place your palms on the floor in front of your shoulders.",
+          "Bend your elbows and keep them close to your body, with your forearms resting on the floor.",
+          "Lift your chest and upper body off the floor, supporting your weight on your forearms.",
+          "Keep your hips and legs on the floor."
+        ]
+      },
+      "before_hash": "5167deb7773261ef913c0812291fcb132a7773f267cff95fb07be92a72c07147",
+      "after_hash": "9b0e3fe6174a9c52eb313164da86cbe0310e0b57a0ff8b1520ad5b84737836e9",
+      "expected_updated_at": "2026-10-14T10:47:00.304546+00:00",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_page_url": "https://musclewiki.com/exercise/cobra-stretch-1?model=f",
+        "source_page_status": "The original front and side female videos were fetched and reviewed frame by frame.",
+        "visual_observation": "The demonstrator starts prone with palms on the floor in front of the shoulders, keeps the elbows close, supports the raised chest on the forearms, and keeps the hips and legs down. The previous text placed the palms under the shoulders but then described a forearm-supported position without the repositioning step.",
+        "source_media_review": "Both female clips show the forearms resting on the floor and the hips/legs remaining down during the supported cobra stretch.",
+        "reviewed_at": "2026-10-23T14:45:00.000Z",
+        "actual_updated_at": "2026-10-23T14:51:15.646599+00:00"
+      }
+    }
+  ],
+  "deferred": [],
+  "sourceHashBefore": "544ea31235d509364bdbc72a435a82b52cbb1140186fade49e861c11ab5e06b8",
+  "sourceHashAfter": "e5871ef23c14380bb728829e84b4d093c1de9217e880fd4c5e994ae5ba41eda3",
+  "verifiedAt": "2026-10-23T14:55:19.815Z"
+}

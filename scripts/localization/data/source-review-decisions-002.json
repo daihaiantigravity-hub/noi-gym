@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Read the original instruction blocks and six chronological samples from each of the male/female front/side videos for all 12 admin-featured exercises. Corrections describe visible equipment, support and movement only. This is an editorial correction using source videos, not a claim that the provider's written instructions have changed. No load, set, repetition or bench-angle prescriptions are added.",
+  "decisions": [
+    {
+      "exercise_id": "23e433fe-9617-41bc-a5c5-917acea34538",
+      "sourceName": "Kettlebell Farmers March",
+      "changeReason": "Both genders hold one kettlebell in each hand, not two in each hand; the alternating in-place march is visible in both views.",
+      "steps": [
+        "Stand tall holding one kettlebell in each hand.",
+        "March in place for the desired amount of reps or time."
+      ]
+    },
+    {
+      "exercise_id": "2d178d61-0642-4b3f-9d32-7f611fd14a0e",
+      "sourceName": "Kettlebell Single Arm Farmers March",
+      "changeReason": "Both genders keep the same hand loaded while alternating raised knees. The knee rises toward hip height; the original 'knee ... to knee height' reference is circular.",
+      "steps": [
+        "Stand upright with a kettlebell in one hand and lift one knee toward hip height.",
+        "Bring the leg back to standing and repeat with the other leg, keeping the kettlebell on the same side.",
+        "Repeat."
+      ]
+    },
+    {
+      "exercise_id": "2e056973-3976-46a0-b752-ae58fd0a218b",
+      "sourceName": "Dumbbell Alternating Reverse Lunge",
+      "changeReason": "The working thigh in front becomes approximately horizontal while the opposite leg steps backward. Correct only the thigh reference from left to right in the example that steps backward with the left leg; retain the original 90-degree knee cue.",
+      "steps": [
+        "Hold two dumbbells by your side.",
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push back up and switch legs, alternating each rep."
+      ]
+    },
+    {
+      "exercise_id": "379849bc-ad8a-48d3-8946-d74537ef15f2",
+      "sourceName": "Cable Standing Incline Chest Fly",
+      "changeReason": "The captured written source is empty and the public page remains inaccessible. The existing male/female videos show two cable handles, pulleys below shoulder height, a staggered stance, slightly bent elbows and an upward/inward fly followed by opening the arms. Author three concise steps from these visible actions; do not invent a bench or an exact pulley/arm angle.",
+      "steps": [
+        "Stand between the cable stacks with the pulleys below shoulder height. Take a handle in each hand and step one foot forward, holding your arms out to the sides with your elbows slightly bent.",
+        "Bring the handles upward and inward in front of your body, keeping the slight bend in your elbows.",
+        "Open your arms back out to the sides under control, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "5002aef8-c257-4252-aab7-2dde4b24ddea",
+      "sourceName": "Kettlebell Farmers Carry",
+      "changeReason": "All four videos show two kettlebells in total, one at each side. Correct the quantity per hand while retaining the original walking and shoulder cues.",
+      "steps": [
+        "Hold one kettlebell in each hand.",
+        "Keep your shoulders blades pulled back and walk for a specified duration."
+      ]
+    },
+    {
+      "exercise_id": "82cbb629-f8ff-451e-8624-6fb554ea948e",
+      "sourceName": "Machine Assisted Narrow Pull Up",
+      "changeReason": "The male/female videos use the machine's inner overhead handles and a knee-support pad. Replace the ambiguous shoulder-width phrase with the visible handle selection and refer to handle height rather than a nonexistent continuous bar.",
+      "steps": [
+        "Adjust weight for assistance. Grip the inner handles overhead and place your knees on the support pad.",
+        "Slowly pull up until your chin reaches the height of the handles. Keep elbows close, core engaged.",
+        "Lower back with control. Pause at bottom. Repeat for reps."
+      ]
+    },
+    {
+      "exercise_id": "83756c9a-15f9-4036-a6b1-790b20de9ded",
+      "sourceName": "Smith Machine Split Squat",
+      "changeReason": "Both genders bend the rear knee during the descent. Replace the contradictory straight-rear-leg cue with bent rear knee, retaining the original front-knee angle and split-stance movement.",
+      "steps": [
+        "Take a large step forward with one leg until your shoulders are under the Smith machine.",
+        "Lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back knee should also be bent.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "9f8bbde9-ad37-4d68-a831-e1d941ca3fd9",
+      "sourceName": "Dumbbell Single Arm Step Up",
+      "changeReason": "Both genders keep one dumbbell hanging at one side throughout the step-up; no barbell or shoulder-rack position is used. Correct the load reference in step 3 only.",
+      "steps": [
+        "Stand in front of a step or bench with your feet shoulder-width apart and hold one dumbbell on your side with a neutral grip.",
+        "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench.",
+        "Bring your left foot up onto the bench and stand up straight, keeping the dumbbell at your side.",
+        "Step back down with your left foot, followed by your right foot, to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "ad686dec-9b32-42ad-9070-fd5f89ca27b1",
+      "sourceName": "Dumbbell Sumo Squat",
+      "changeReason": "The videos show one vertical dumbbell held with both hands between the legs, retained during lowering and standing. Correct the number/grip and replace the disconnected set-down instruction with the visible hanging load position and return.",
+      "steps": [
+        "Start by standing with your feet wider than shoulder-width apart and holding one dumbbell with both hands.",
+        "Hold the dumbbell between your legs with your arms extended.",
+        "Bend your knees and lower your body into a squat, then stand back up while holding the dumbbell.",
+        "Make sure to keep your core engaged and your back straight throughout the movement."
+      ]
+    },
+    {
+      "exercise_id": "b5f459f1-4963-4ac9-a961-9a93cd97f03b",
+      "sourceName": "Dumbbell Single Arm Incline Chest Press",
+      "changeReason": "All four videos show an inclined bench, feet on the floor and one dumbbell pressed by one arm. Replace the copied flat-bench/barbell block with the observed setup, lowering and pressing; no bench angle is inferred.",
+      "steps": [
+        "Lie back on an incline bench with your feet on the floor, holding one dumbbell above your chest with your arm extended.",
+        "Lower the dumbbell beside your chest by bending your elbow.",
+        "Press the dumbbell back up above your chest until your arm is extended."
+      ]
+    },
+    {
+      "exercise_id": "dbcdd64b-af9b-447f-b210-7f7e9ca1cab5",
+      "sourceName": "Dumbbell Waiters Bow",
+      "changeReason": "The fixed barbell is a real thigh support in both genders; it is not a mislabeled load. Both hands additionally hold dumbbells. Preserve the barbell support and add the missing dumbbell placement rather than replacing the barbell with dumbbells.",
+      "steps": [
+        "Set a barbell at about the middle of your thighs and press your thighs against it. Hold one dumbbell in each hand with your arms hanging in front of you.",
+        "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+        "When you feel the stretch, push your hips forward until you're back in a standing position."
+      ]
+    },
+    {
+      "exercise_id": "f44808ef-bea8-4a78-9f72-58ffa86cbae8",
+      "sourceName": "Barbell Supinated Pendlay Row",
+      "changeReason": "Both genders maintain an underhand grip through the lift and return; there is no grip rotation under load. Correct the setup to underhand, remove the contradictory standing palm direction and replace the rotation cue with lowering while retaining that grip.",
+      "steps": [
+        "Begin by standing in front of a barbell with your feet about hip-width apart.",
+        "Bend at the hips and knees to grab the barbell with a supinated (underhand) grip, positioning the barbell about an inch away from your shins.",
+        "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+        "Keep the same underhand grip and lower the barbell back to the floor before the next repetition."
+      ]
+    }
+  ]
+}

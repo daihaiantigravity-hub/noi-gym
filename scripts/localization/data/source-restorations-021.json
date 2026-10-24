@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "Source corrections and Vietnamese localization",
+  "databaseStatus": "applied_and_verified",
+  "restorations": [
+    {
+      "exercise_id": "c15c48e4-3318-4b63-ac31-22a315943752",
+      "source_id": 72053964370442,
+      "before": {
+        "name": "Calf Raise 1C Bilateral Eccentric From Box",
+        "description": "",
+        "steps": [
+          "While standing on the edge of a step, shift your weight on your toes while quickly raising the heals",
+          "Hold the top position for a split second and then very slowly lower your heels below the level of the step until you start feeling a stretch in the calves",
+          "Try to avoid muscular (calf) contraction while raising the heels and then exert muscular contraction on the eccentric phase",
+          "Pause on both ends of range"
+        ]
+      },
+      "after": {
+        "name": "Calf Raise 1C Bilateral Eccentric From Box",
+        "description": "",
+        "steps": [
+          "Stand with both forefeet on the edge of a step and hold a wall for balance.",
+          "Quickly raise both heels to the top position.",
+          "Pause briefly, then slowly lower both heels below the step until you feel a stretch in your calves.",
+          "Pause at both ends of the range."
+        ]
+      },
+      "before_hash": "977ace9e465ddafc8ffa36d7c5ae949434b39b39fd3b31206a48f0858378ef34",
+      "after_hash": "3ebb7611f09f1b3e75e16f805ab7d9bc7210056d485548bd4dca5b565fa8d97e",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_media": [
+          "female-Recovery-calf-raise-1c-bilateral-eccentric-from-box-front.mp4",
+          "female-Recovery-calf-raise-1c-bilateral-eccentric-from-box-side.mp4"
+        ],
+        "visual_observation": "The front and side clips show both forefeet on a red step, both hands supported on the wall, a quick bilateral heel raise, and a slow lowering below the step. The prior text omitted the wall support and contradicted the visible bilateral calf raise by asking to avoid calf contraction during ascent."
+      },
+      "actual_updated_at": "2026-10-23T15:41:02.346201+00:00"
+    },
+    {
+      "exercise_id": "443b5ff2-5934-44f8-a10e-685bf0a7d708",
+      "source_id": 146788599012127,
+      "before": {
+        "name": "Hip Lift",
+        "description": "",
+        "steps": [
+          "Lie supine with knees bent, feet hip-width and flat. Hips slightly off the carriage.",
+          "Engage core and glutes, press through heels.",
+          "Maintain hip position as you press."
+        ]
+      },
+      "after": {
+        "name": "Hip Lift",
+        "description": "",
+        "steps": [
+          "Lie on your back on the carriage with your knees bent and feet hip-width apart on the footbar; keep your hips slightly off the carriage.",
+          "Engage your core and glutes, then press through your heels to move the carriage.",
+          "Keep your hips lifted and stable as you press."
+        ]
+      },
+      "before_hash": "59ff5f67a1b0ed3629a2638b6b49df706ba2d714f983025690037cfbd7b22743",
+      "after_hash": "e4648f59c209044a649b6f56533b0184a33ab7748551ff530471d81d0c1bc348",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_media": [
+          "female-Pilates-hip-lift-front.mp4",
+          "female-Pilates-hip-lift-side.mp4"
+        ],
+        "visual_observation": "The reformer clips show the participant lying on the carriage with both feet on the footbar, pressing the bar away while keeping the hips slightly lifted and stable. The prior text did not identify the footbar or the carriage press."
+      },
+      "actual_updated_at": "2026-10-23T15:41:03.081146+00:00"
+    },
+    {
+      "exercise_id": "ff0457f4-54bb-48e6-84e3-e8a66867688b",
+      "source_id": 184283879469673,
+      "before": {
+        "name": "Lower back Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Lay flat on the floor with your arms at either side.",
+          "With one leg, hook one foot under the joint of your other leg.",
+          "Rotate your hips so that your knees are pointing sideways, keeping your hooked leg flat against the floor.",
+          "Pause at the apex of the stretch and repeat with your other leg."
+        ]
+      },
+      "after": {
+        "name": "Lower back Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Lie flat on your back with your arms by your sides and both knees bent.",
+          "Extend one leg and bend the other, crossing the bent knee over the straight leg.",
+          "Rotate your hips so the bent knee moves toward the floor to the side, keeping the straight leg flat.",
+          "Pause at the end of the stretch, then repeat with the other leg."
+        ]
+      },
+      "before_hash": "58eecd53a19712396ce3b7eb388116d52a83d1319ba99b5e0e53a381f0b55f3a",
+      "after_hash": "5e82dcafd565643033a525678eca748837792fc1d8f2035b3b5996bcff135db3",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_media": [
+          "female-lower-back-stretch-variation-2-front.mp4",
+          "female-lower-back-stretch-variation-2-side.mp4"
+        ],
+        "visual_observation": "The front and side clips show a supine setup with both knees bent, one leg extended, and the other bent knee crossing over toward the floor. The previous text used an unclear 'joint' reference and did not identify the crossed knee or the straight supporting leg."
+      },
+      "actual_updated_at": "2026-10-23T15:41:03.793935+00:00"
+    },
+    {
+      "exercise_id": "94fa27d3-e887-4289-ac56-57f2cae2101e",
+      "source_id": 170991639200362,
+      "before": {
+        "name": "Deadlift Bounces Stretch",
+        "description": "",
+        "steps": [
+          "Stand up straight with a good form.",
+          "Send your hips back and start tilting the upper body.",
+          "Maintain a straight back as you aim for your toes.",
+          "Your range depends on your hamstring flexibility."
+        ]
+      },
+      "after": {
+        "name": "Deadlift Bounces Stretch",
+        "description": "",
+        "steps": [
+          "Stand tall with your feet hip-width apart and your back in a neutral position.",
+          "Push your hips back and hinge your torso forward while keeping your back straight.",
+          "Reach toward your toes and perform small controlled bounces within a comfortable range.",
+          "Return to standing; your range depends on your hamstring flexibility."
+        ]
+      },
+      "before_hash": "f787b1a9e4d316847c675f5d926e673f6756d1bd17dac2192701defba7326ed1",
+      "after_hash": "0a0d648315004e959825ff70bd81836e842ba84651ee731808477eb41b024dc3",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_media": [
+          "female-Recovery-deadlift-bounces-stretch-front.mp4",
+          "female-Recovery-deadlift-bounces-stretch-side.mp4"
+        ],
+        "visual_observation": "The front and side clips show repeated small forward-hinge bounces toward the toes, followed by a return to standing. The previous text described only a static hinge and omitted the movement named by the variant."
+      },
+      "actual_updated_at": "2026-10-23T15:41:04.493559+00:00"
+    },
+    {
+      "exercise_id": "9c3889b0-767c-479e-a1d3-bde7fd252e04",
+      "source_id": 271154191783137,
+      "before": {
+        "name": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+        "description": "",
+        "steps": [
+          "Begin by standing with your feet hip-width apart and holding a kettlebell at one side of your body, with your palms facing your thighs.",
+          "Hing forward with a flat back and lift the kettlebell.",
+          "Hold the kettlebell at your side and make sure to not lean to one side."
+        ]
+      },
+      "after": {
+        "name": "Crosslateral Core Stabilisation Unilateral Load Kettlebell",
+        "description": "",
+        "steps": [
+          "Stand with your feet hip-width apart and place a kettlebell on the floor beside one foot.",
+          "Hinge forward with a flat back and pick up the kettlebell with one hand.",
+          "Stand tall holding it at your side, keeping your torso level and avoiding a side lean."
+        ]
+      },
+      "before_hash": "1a619c19166f419364c721dc313b602f25d120f65a24e9f63a0587fd287f4a7d",
+      "after_hash": "0fad71722f06a5644dca37e69c3f147d7130eb142938410fca0ec4ae81b0d42f",
+      "translation_decision": "ready",
+      "evidence": {
+        "source_media": [
+          "female-Recovery-crosslateral-core-stabilisation-unilateral-load-kettlebell-side.mp4",
+          "female-Recovery-crosslateral-core-stabilisation-unilateral-load-kettlebell-front.mp4"
+        ],
+        "visual_observation": "The front and side clips show the kettlebell starting on the floor beside one foot, a one-arm pickup through a hip hinge, and a tall standing hold without leaning. The prior text said to begin already holding the kettlebell and omitted the pickup from the floor."
+      },
+      "actual_updated_at": "2026-10-23T15:41:05.210307+00:00"
+    }
+  ],
+  "deferred": [
+    {
+      "index": 1,
+      "id": "078576ac-b424-4c81-aa9d-0c919e937dd9",
+      "name": "Gate Pose Rounding Spine Looking Up",
+      "description": "",
+      "steps": [
+        "Begin in a kneeling position with your knees hip-width apart.",
+        "Extend your right leg out to the side, placing your foot flat on the ground.",
+        "Reach your right arm overhead and then round your spine, bringing your right hand to your left ear.",
+        "Look down towards your left foot as you reach your left arm towards your right foot, feeling a stretch in your side body. Hold for a few breaths and then switch sides."
+      ],
+      "category": "Yoga",
+      "source": "musclewiki",
+      "sourceId": 163736115659353,
+      "sourceHash": "ca5f2bff179b0e31a9d5c155028697ea5b8b10b272415e5f89173c7b5a399ca8",
+      "warnings": [],
+      "reason": "The live page and male clip show a side bend with the head/gaze down despite the title saying Looking Up. The sampled frames do not establish the exact hand-to-ear/foot sequence or which arm supports as the sides switch; keep held.",
+      "targets": [],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 2
+    },
+    {
+      "index": 2,
+      "id": "090eb4c5-a2a8-48ab-8665-9a47159852fd",
+      "name": "Scorpion Twist Pose",
+      "description": "",
+      "steps": [
+        "Begin in a downward-facing dog pose.",
+        "Slowly lift one leg up towards the ceiling, keeping your hips level and your toes pointed.",
+        "Bend your lifted leg and try to touch your toes to the back of your head.",
+        "Once you have a firm grip with your toes, slowly begin to twist your torso towards the lifted leg.",
+        "Keep your hands and feet firmly planted on the ground as you hold the pose for a few breaths. Release the pose and repeat on the other side."
+      ],
+      "category": "Yoga",
+      "source": "musclewiki",
+      "sourceId": 257092490054912,
+      "sourceHash": "a684033ad77771236a2495e87a1d3eca95f00e96a43e72d4c7aead40b1cdff14",
+      "warnings": [],
+      "reason": "Source lifts one leg, asks for a firm grip with toes near the head, then requires feet firmly planted on the ground. Verify supports and pose transition.",
+      "targets": [],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 3
+    },
+    {
+      "index": 3,
+      "id": "19c4d6d4-9d86-47d0-bf7b-ef16055ffe3d",
+      "name": "Hamstring Stretch Supine Static",
+      "description": "",
+      "steps": [
+        "Place a theraband or stretch strap around your foot.",
+        "Lie back onto the ground.",
+        "Raise your leg to stretching point with the aid of the band (strap).",
+        "Tug onto the strap on the end of range to dynamically stretch the hamstring."
+      ],
+      "category": "Recovery",
+      "source": "musclewiki",
+      "sourceId": 165538450593605,
+      "sourceHash": "c3c6a6bd110f4561e8e0e9c2a8e94673aadd4b684005f36596bba48d7d39f66a",
+      "warnings": [],
+      "reason": "Static title has the same dynamic end-range strap-tug instructions as the dynamic variant. Verify intended static hold.",
+      "targets": [],
+      "genders": [
+        "female"
+      ],
+      "previousIndex": 4
+    },
+    {
+      "index": 4,
+      "id": "1c350f8e-21b5-427a-b442-72d266fde398",
+      "name": "Hip Extension Into Side Flexion",
+      "description": "",
+      "steps": [
+        "Start on the 4 point position (on all fours).",
+        "Straighten and raise one leg till it is parallel to the ground.",
+        "Make sure your spine remains in a neutral position.",
+        "If you feel your lower back stiff or sore when performing this exercise, ask a trainer or therapist to guide you through."
+      ],
+      "category": "Recovery",
+      "source": "musclewiki",
+      "sourceId": 259589304579561,
+      "sourceHash": "627e1fcf797a33b962e65450d821dd6c06ca053834a743154bd59e833a2a9fd9",
+      "warnings": [],
+      "reason": "Instructions duplicate the straight hip-extension hold and omit the side flexion named in the title. Verify variant-specific movement.",
+      "targets": [],
+      "genders": [
+        "female"
+      ],
+      "previousIndex": 5
+    },
+    {
+      "index": 5,
+      "id": "39a07611-a045-4d15-983f-e60daa133db0",
+      "name": "Forearms Stretch Variation Two",
+      "description": "",
+      "steps": [
+        "Place your hand against a wall, palms facing upward, with finger tips touching.",
+        "Slowly lean into your palm.",
+        "Hold at the peak of the stretch.",
+        "Return to starting position."
+      ],
+      "category": "Stretches",
+      "source": "musclewiki",
+      "sourceId": 196309960403050,
+      "sourceHash": "904fe762f9c6ac21ee5bfc74bb66cea404153f632919b541a91819b894240e7a",
+      "warnings": [],
+      "reason": "Source puts a hand against a wall with palms facing upward and fingertips touching, then leans into the palm. Verify which hand surface contacts the wall and what the fingertips touch.",
+      "targets": [],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 7
+    },
+    {
+      "index": 6,
+      "id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62",
+      "name": "Seated Ulnar Nerve Tensioner",
+      "description": "",
+      "steps": [
+        "Abduct your arm at 90° palm facing down.",
+        "Bend your elbow and wrist to bring the palm to face the ceiling while leaning the head towards the opposite shoulder.",
+        "Find the position of maximum tension (without pain) and hold.",
+        "To increase the stretch, press the palm against the face and try to point the elbow up."
+      ],
+      "category": "",
+      "source": "musclewiki",
+      "sourceId": 172429706755604,
+      "sourceHash": "e0128b05700ae6ebe5fbff9b5c5c5e4fb920150076d2098c9ef9b5060decac7b",
+      "warnings": [],
+      "reason": "Reviewed both genders and angles plus original-resolution frames. The source conflates elbow/wrist bending with palm rotation and proposes pressing the palm against the face. The precise forearm rotation and intended hand contact are not resolved sufficiently to edit this nerve-tensioning guide from visual inference alone. Keep source and translation status unchanged pending a precise written source or qualified review.",
+      "targets": [
+        {
+          "mode": "joint",
+          "slug": "elbow",
+          "label": "Elbow"
+        },
+        {
+          "mode": "joint",
+          "slug": "shoulders",
+          "label": "Shoulders"
+        },
+        {
+          "mode": "joint",
+          "slug": "wrist",
+          "label": "Wrist"
+        }
+      ],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 9
+    },
+    {
+      "index": 7,
+      "id": "4b3f1db2-0c01-40be-953c-f32e214b06d2",
+      "name": "Calf Raise 2A Eccentric Unilateral Floor",
+      "description": "",
+      "steps": [
+        "Raise both heels off the ground, shift your weight onto the working leg while the opposite leg is suspended.",
+        "Hold the top position for a split second and then very slowly lower your heel to the ground",
+        "Try to avoid muscular (calf) contraction while raising the heel and then exert muscular contraction on the eccentric phase"
+      ],
+      "category": "Recovery",
+      "source": "musclewiki",
+      "sourceId": 86072620127856,
+      "sourceHash": "ba6ff0a64a1abcf3056555e973085f8fd88033ce98f1cd9fffb14c93d00eb3a2",
+      "warnings": [],
+      "reason": "Source raises both heels then asks to avoid calf contraction during ascent, without establishing assisted ascent. Verify the loading cue before translation.",
+      "targets": [],
+      "genders": [
+        "female"
+      ],
+      "previousIndex": 10
+    },
+    {
+      "index": 8,
+      "id": "5b494ab8-bc93-4ef0-a5dd-53752fb50853",
+      "name": "Calf Raise 2C Eccentric Unilateral From Box",
+      "description": "",
+      "steps": [
+        "While standing on the edge of a step, use both legs to raise your heels, before shifting your weight onto the working leg",
+        "Hold the top position for a split second and then very slowly lower your heel below the level of the step or until you start feeling a stretch in the calf",
+        "Try to avoid muscular (calf) contraction while raising the heels and then exert muscular contraction on the eccentric phase"
+      ],
+      "category": "Recovery",
+      "source": "musclewiki",
+      "sourceId": 267729420447142,
+      "sourceHash": "49d29ed8d1052132905f10fbfc219a7a7ee7c127059c99bd238f859fa67ed3eb",
+      "warnings": [],
+      "reason": "Source uses both legs for ascent but says to avoid calf contraction during heel raising. Verify which calf is intended to be unloaded rather than changing the cue.",
+      "targets": [],
+      "genders": [
+        "female"
+      ],
+      "previousIndex": 11
+    },
+    {
+      "index": 9,
+      "id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e",
+      "name": "Thread The Needle Hip Over Knees",
+      "description": "",
+      "steps": [
+        "Start on your hands and knees in a tabletop position.",
+        "Slide your right knee up between your hands and place your right foot close to your left wrist.",
+        "Take your left leg back and lower it down to the ground, keeping your toes tucked.",
+        "Twist your torso to the right and reach your right arm underneath your left arm, threading the needle. Hold for a few breaths, then switch sides."
+      ],
+      "category": "Yoga",
+      "source": "musclewiki",
+      "sourceId": 244384742435873,
+      "sourceHash": "e5dc73607474f7f9d8bd06d4d963b7b8d3049252513b959809c93c7682352925",
+      "warnings": [],
+      "reason": "Title requires hips over knees but steps move into a pigeon-like leg setup and twist right while threading right arm under left. Verify leg support and rotation direction.",
+      "targets": [],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 12
+    },
+    {
+      "index": 10,
+      "id": "847edd28-c001-47e8-8a2b-d1a4552d438b",
+      "name": "Wild Thing Pose",
+      "description": "",
+      "steps": [
+        "Start in a downward facing dog position.",
+        "Shift your weight onto your left hand and foot, and lift your right leg towards the ceiling.",
+        "Slowly bend your right knee and shift your weight onto your right hand as you open up your chest towards the ceiling.",
+        "Look towards your right hand and hold the pose for a few breaths before switching sides."
+      ],
+      "category": "Yoga",
+      "source": "musclewiki",
+      "sourceId": 137129499625502,
+      "sourceHash": "1b2fb95f58d4c889e1c765927c65a87c95869a691f6c47a12c355e80d715c77c",
+      "warnings": [],
+      "reason": "Source shifts from left-hand support to right-hand support while opening the chest, then looks at the supporting right hand. Verify supporting versus reaching hand and lifted-leg transition.",
+      "targets": [],
+      "genders": [
+        "male",
+        "female"
+      ],
+      "previousIndex": 13
+    },
+    {
+      "index": 11,
+      "id": "8d742f9d-3df6-447d-bc8f-91dbb7352740",
+      "name": "Hamstring Stretch Seated Single Leg Isometric",
+      "description": "",
+      "steps": [
+        "Sit against a wall.",
+        "Bend one leg and tuck the foot by the straight leg's knee.",
+        "Dynamically reach forward towards your toes and return to starting position."
+      ],
+      "category": "Recovery",
+      "source": "musclewiki",
+      "sourceId": 178082470033555,
+      "sourceHash": "48d41e3b6540199790c989112ae57d0bed5a7241638b5333bfd4957e9d44f160",
+      "warnings": [],
+      "reason": "Isometric title conflicts with dynamically reaching forward and returning. Verify hold versus repeated motion.",
+      "targets": [],
+      "genders": [
+        "female"
+      ],
+      "previousIndex": 14
+    }
+  ],
+  "sourceHashBefore": "e5871ef23c14380bb728829e84b4d093c1de9217e880fd4c5e994ae5ba41eda3",
+  "sourceHashAfter": "0202503be35e3e24e3611620731ce693e877d0e800c64a9d2307870cbff79e05",
+  "verifiedAt": "2026-10-23T15:41:07.771Z"
+}

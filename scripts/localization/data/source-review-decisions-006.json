@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Compared 18 remaining Band, Machine, Cables and Cardio source blocks with six chronological samples from each of 66 available front/side clips: 396 primary samples plus 36 offset samples for incomplete phases. Inspected all 432 samples. Three exercises have only female media and are checked against the original female import identity. Corrections are editorial descriptions of visible equipment, grip, support and movement, not recovered provider wording. Preserve the original 90-degree cue and step counts; do not invent repetitions, sets, load or body angles.",
+  "decisions": [
+    {
+      "exercise_id": "29ad0a17-31c2-413e-b894-80901728c28e",
+      "sourceName": "Band Pullover",
+      "changeReason": "Both genders face a high anchor above head level, hinge slightly and pull the band toward their thighs with nearly straight arms, then return forward/up. Replace the incomplete 'our level' reference and identify the movement rather than unspecified shoulder flexion/extension.",
+      "steps": [
+        "Anchor the band above head level, grasp it with both hands, and take a few steps back until it is taut.",
+        "Push your hips back slightly, keeping your back straight. With your elbows slightly bent, pull your hands down toward your thighs, then return them forward and up under control."
+      ]
+    },
+    {
+      "exercise_id": "2a854fdd-57fa-4f00-822d-4d119cdd1919",
+      "sourceName": "Mini Band Bent Arm Lateral Raise",
+      "changeReason": "Both genders raise and lower both bent arms together against a mini band around the elbow/upper-forearm region. Remove the alternating-lowering cue, retaining the previously restored 90-degree setup and shoulder-height cue.",
+      "steps": [
+        "Loop the band around your arms near the elbows, with your elbows bent 90 degrees at your sides.",
+        "Raise both elbows outward to shoulder height.",
+        "Lower both elbows slowly together, keeping tension on the band."
+      ]
+    },
+    {
+      "exercise_id": "480cf1bf-b9cf-4dd8-879a-b32a33b51164",
+      "sourceName": "Cable Decline Bench Press",
+      "changeReason": "Both genders sit against a bench backrest between high pulleys and press forward/down toward the thighs. Establish the seated setup and pulley height relative to seated shoulders; do not infer a declined bench angle from the title. Add the observed press/return direction without a numerical angle.",
+      "steps": [
+        "Attach a handle to each cable and place a bench in the center of the cable crossover. Sit with your back supported and the pulleys above your seated shoulder height.",
+        "Bring both handles to the sides of your chest, keeping your feet on the floor.",
+        "Press the handles forward and down toward your thighs as you extend your elbows, then bend your elbows to return the handles to your chest under control."
+      ]
+    },
+    {
+      "exercise_id": "5513598d-250b-4e4a-b652-7f63d836354c",
+      "sourceName": "Cable Bar Reverse Grip Pushdown",
+      "changeReason": "The female-only front and side clips show an underhand grip, not the source's overhand grip. Retain the high cable/bar and upper-arm support cues, adding the visible controlled return.",
+      "steps": [
+        "Use the bar attachment with the cable set at the top of the machine. Grasp the bar with an underhand grip, palms facing up.",
+        "Keep your upper arms at your sides and extend your elbows to press the bar down until you feel your triceps contract. Bend your elbows to return the bar under control."
+      ]
+    },
+    {
+      "exercise_id": "81857c43-9f25-4920-9a6a-c3bd2e085845",
+      "sourceName": "Band Goblet Squat",
+      "changeReason": "Both genders stand on the band with both feet and hold the loop together in front of the chest. Shoulder width refers to stance, not grip; parallel refers to thighs, not the bottom of the leg. Preserve the source's depth/mirror advice and identify the return, keeping this load position distinct from Band Squat.",
+      "steps": [
+        "Stand with your feet shoulder-width apart on the band, holding its loop with both hands together in front of your chest.",
+        "Push your hips back and bend your knees to lower into a squat, keeping your hands in front of your chest.",
+        "Aim for your thighs to be parallel with the ground, then stand back up. If you cannot judge your depth, squat in front of a mirror to check your form."
+      ]
+    },
+    {
+      "exercise_id": "a07af0fa-0508-40f1-81a7-1f5103d4ec84",
+      "sourceName": "Neutral Chest Press",
+      "changeReason": "Female-only clips show seated, back-supported pressing with a neutral grip and elbow extension, followed by flexion. Correct the contradictory 'not extended but not hyperextended' endpoint while retaining the source's no-hyperextension cue; make the adjustment advice a comfortable supported range rather than an unrestricted maximum.",
+      "steps": [
+        "Sit with your back against the machine pad and grasp the handles with a neutral grip, palms facing each other.",
+        "Adjust the machine so that you can move the handles through a comfortable range of motion while keeping your back supported.",
+        "Press the handles forward until your elbows are extended without hyperextending them, then bend your elbows to return under control."
+      ]
+    },
+    {
+      "exercise_id": "aa60deef-61f5-467f-97dd-bfdc281f1b84",
+      "sourceName": "Machine Chest Press",
+      "changeReason": "Female-only clips and offset side samples establish seated back support, an overhand grip, forward elbow extension and a bent-elbow return. Correct the contradictory endpoint while retaining no hyperextension, and preserve this grip separately from Neutral Chest Press.",
+      "steps": [
+        "Sit with your back against the machine pad and grasp the handles with an overhand grip.",
+        "Adjust the machine so that you can move the handles through a comfortable range of motion while keeping your back supported.",
+        "Press the handles forward until your elbows are extended without hyperextending them, then bend your elbows to return under control."
+      ]
+    },
+    {
+      "exercise_id": "b1e3970b-f516-4f25-b513-265d7a1ffd16",
+      "sourceName": "Band Horizontal Shrug",
+      "changeReason": "Both genders hold the band in front with straight arms and move through scapular retraction/protraction. Remove the corrupted 'in schools' phrase and specify that the elbows stay straight; this is not an elbow-bending row.",
+      "steps": [
+        "Anchor the band at shoulder height. Grasp it with both hands in front of you and take a few steps back until it is taut.",
+        "Keeping your elbows straight, draw your shoulder blades back toward each other. Then let your shoulder blades move forward to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "b571d4f6-5ab3-4966-9a77-3f94fb95294a",
+      "sourceName": "Machine Plate Loaded Kneeling Hamstring Curl",
+      "changeReason": "Both genders support one knee on the machine and lean onto the front pads while the other leg curls against the roller. Replace the lying setup and bilateral-leg wording with the observed kneeling support and single working leg; retain the roller below the calf and pause/return cues.",
+      "steps": [
+        "Place one knee on the machine's support pad and lean your upper body onto the front pads. Position the working leg under the padded lever, with the roller below your calf.",
+        "Hold the machine handles for support and bend the working knee to raise the lever, bringing your heel toward your glutes.",
+        "Pause at the top, then slowly extend the working knee to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "bda7dc7d-68fa-492d-afea-8cbe8bca7d23",
+      "sourceName": "Cable Quadruped Hip Abduction",
+      "changeReason": "Both genders support on both hands and the opposite knee, with the working leg extended behind and moving outward. The returning foot stays off the floor. Replace the ambiguous 'cables touching back down' cue with the visible leg endpoint and continued cable tension; do not assert a hidden stack-contact event.",
+      "steps": [
+        "Set the cable at the bottom of the machine and fasten the ankle attachment to your working leg.",
+        "Support yourself on both hands and the opposite knee, extending the working leg behind you with the cable taut.",
+        "Move the working leg outward from your hip, keeping your torso steady.",
+        "Return the leg under control, keeping the working foot off the floor and maintaining tension on the cable."
+      ]
+    },
+    {
+      "exercise_id": "bf20011e-fd35-4fa5-8ebb-10d585dd13a5",
+      "sourceName": "Mini Band Bent Over Row",
+      "changeReason": "Both genders anchor the mini band under the front foot in a staggered stance, support the free hand on the front thigh and row with the other hand. Establish those supports and insert the missing pull before the existing controlled lowering, preserving two instruction blocks.",
+      "steps": [
+        "Stand with one foot forward on the mini band. Hinge forward with a flat back, hold the band in one hand, and support your free hand on your front thigh.",
+        "Pull the band toward your waist by bending your elbow and drawing it back, then lower your hand under control while keeping your core engaged."
+      ]
+    },
+    {
+      "exercise_id": "c169df11-87fc-4350-8d79-dc759d11b549",
+      "sourceName": "Band Hip Adduction",
+      "changeReason": "Both genders stand side-on to a low anchor with the band attached only to the nearer working ankle, and pull that leg inward while the other foot supports them. Replace the two-ankle setup and both-legs-outward instruction, retaining a controlled outward return rather than describing abduction as the loaded action.",
+      "steps": [
+        "Attach the band to a stable low anchor point.",
+        "Stand side-on to the anchor and loop the band around the ankle nearest to it. Keep your other foot planted for support.",
+        "Pull the banded leg inward toward the midline of your body, then return it outward under control. Repeat for the desired number of repetitions."
+      ]
+    },
+    {
+      "exercise_id": "d09ab5d4-11a7-470f-bdfb-ebde9e49b290",
+      "sourceName": "Band Standing Chest Press",
+      "changeReason": "Both genders wrap the band behind the upper back and press both hands forward by extending the elbows, then return to bent elbows. Replace the shoulder-extension/across-body anatomical cue with the observed bilateral forward press.",
+      "steps": [
+        "Loop the band around your upper back and hold an end in each hand beside your chest, with your elbows bent.",
+        "Press both hands forward until your arms are extended in front of your chest, then bend your elbows to return under control."
+      ]
+    },
+    {
+      "exercise_id": "dbb91c4a-21b8-4a68-b2ca-f7acb5b7fded",
+      "sourceName": "Band Internally Rotated Chest Fly",
+      "changeReason": "Both genders use band ends anchored behind at shoulder height, a staggered stance and a palms-down grip; the arms close in front of the chest then reopen. Offset female front samples confirm the closed phase. Replace the standing-on-band/lateral-raise setup and the incorrect scapula/forearm description of shoulder rotation with observable grip and fly movement; retain the canonical title without adding a forced rotation or angle.",
+      "steps": [
+        "Anchor the band behind you at about shoulder height. Stand with one foot forward and hold an end in each hand with your palms facing down and your arms open to the sides.",
+        "Keeping your elbows slightly bent, bring your hands together in front of your chest.",
+        "Pause briefly, then slowly open your arms back out to the sides, maintaining the same grip and tension on the band."
+      ]
+    },
+    {
+      "exercise_id": "df80b49f-2768-4b16-adc6-f5a24f0ee221",
+      "sourceName": "Band Squat",
+      "changeReason": "Both genders stand on the band with both feet and hold its ends at their sides. Correct shoulder-width stance and thigh-parallel depth, retaining the mirror advice and this hand position separately from Band Goblet Squat.",
+      "steps": [
+        "Stand with your feet shoulder-width apart on the band, holding an end in each hand at your sides.",
+        "Push your hips back and bend your knees to lower into a squat, keeping your hands at your sides.",
+        "Aim for your thighs to be parallel with the ground, then stand back up. If you cannot judge your depth, squat in front of a mirror to check your form."
+      ]
+    },
+    {
+      "exercise_id": "e702fe77-adf6-4cdb-9b92-037b0150abb3",
+      "sourceName": "Cable Standing Hip Adduction",
+      "changeReason": "Both genders stand side-on with the low cable attached to the nearer ankle and the opposite foot planted, holding the frame for support. The working leg pulls inward across the front of the supporting leg and returns outward. Replace the both-feet-together/both-legs-outward instruction with the visible unilateral adduction.",
+      "steps": [
+        "Set the cable at the bottom of the machine and attach the ankle cuff to the leg nearest the machine. Stand side-on, keeping your other foot planted and holding the frame for support.",
+        "Pull the attached leg inward across the front of your supporting leg, then return it outward under control. Repeat for the desired number of repetitions."
+      ]
+    },
+    {
+      "exercise_id": "eb589db7-6217-4ecb-b087-7fab222e4942",
+      "sourceName": "Cardio Ski Erg",
+      "changeReason": "Both genders stand facing the Ski Erg, use both overhead cable handles, hinge and bend the knees while pulling down toward the thighs, then rise to reset. Male offset samples confirm the rising phase missed by primary front samples; the female clips show the full reach. Replace the copied lateral-hop/single-leg-burpee guide with the observed machine sequence, without prescribing stroke rate, load or numerical angles.",
+      "steps": [
+        "Stand facing the Ski Erg with your feet apart and grasp a handle in each hand, reaching your hands up to begin the stroke.",
+        "Pull both handles down toward your thighs as you hinge at the hips and bend your knees, keeping your feet planted.",
+        "Stand back up and let your hands travel forward and up to reset, then repeat the pulling motion."
+      ]
+    },
+    {
+      "exercise_id": "ff006eef-2a90-4966-bcac-84a7d65a0257",
+      "sourceName": "Band Single Arm Pec Fly",
+      "changeReason": "Both genders hold one band end at shoulder height and sweep the slightly bent arm across the chest, then return outward. Replace the incorrect shoulder-extension label with this observed horizontal arc, retaining the shoulder-height anchor and chest-contraction cue.",
+      "steps": [
+        "Attach the band to an anchor at about shoulder height. Hold it in one hand with your arm open to the side and take a few steps away until the band is taut.",
+        "Keeping a slight bend in your elbow, bring your arm across the front of your chest until you feel your pecs contract, then return it outward under control."
+      ]
+    }
+  ]
+}

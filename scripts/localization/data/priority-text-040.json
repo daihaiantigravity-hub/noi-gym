@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese names and steps checked against source-review-decisions-006.json and all available male/female front/side samples, with offset phases where needed. Preserve the existing 90-degree cue, step counts, grip differences, supports, unilateral adduction and distinct band positions. Prepared only until the source/translation transaction and live verification pass.",
+  "translations": [
+    {
+      "exercise_id": "29ad0a17-31c2-413e-b894-80901728c28e",
+      "sourceName": "Band Pullover",
+      "name": "Kéo dây kháng lực từ trên xuống",
+      "steps": [
+        "Neo dây kháng lực cao hơn đầu, hai tay nắm dây và lùi lại vài bước đến khi dây căng.",
+        "Đẩy hông nhẹ ra sau, giữ lưng thẳng. Giữ khuỷu tay hơi gập, kéo hai tay xuống về phía đùi rồi đưa tay ra trước và lên trên có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "2a854fdd-57fa-4f00-822d-4d119cdd1919",
+      "sourceName": "Mini Band Bent Arm Lateral Raise",
+      "name": "Nâng tay sang ngang gập khuỷu với dây kháng lực ngắn",
+      "steps": [
+        "Vòng dây quanh hai tay gần khuỷu, giữ hai khuỷu tay gập 90 độ ở hai bên người.",
+        "Nâng cả hai khuỷu tay sang hai bên đến ngang vai.",
+        "Từ từ hạ đồng thời cả hai khuỷu tay, giữ dây căng."
+      ]
+    },
+    {
+      "exercise_id": "480cf1bf-b9cf-4dd8-879a-b32a33b51164",
+      "sourceName": "Cable Decline Bench Press",
+      "name": "Đẩy ngực chéo xuống với cáp",
+      "steps": [
+        "Gắn tay cầm vào mỗi bên cáp và đặt ghế ở giữa máy cáp đôi. Ngồi tựa lưng, điều chỉnh ròng rọc cao hơn vai khi ngồi.",
+        "Đưa hai tay cầm về hai bên ngực, giữ hai bàn chân trên sàn.",
+        "Đẩy hai tay cầm ra trước và chéo xuống về phía đùi khi duỗi khuỷu tay, sau đó gập khuỷu để đưa tay cầm về ngực có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "5513598d-250b-4e4a-b652-7f63d836354c",
+      "sourceName": "Cable Bar Reverse Grip Pushdown",
+      "name": "Duỗi tay sau với thanh cáp nắm ngửa",
+      "steps": [
+        "Dùng thanh gắn cáp và đặt cáp ở vị trí cao nhất của máy. Nắm thanh bằng kiểu nắm ngửa, lòng bàn tay hướng lên.",
+        "Giữ cánh tay trên sát hai bên người và duỗi khuỷu để đẩy thanh xuống đến khi cảm nhận cơ tay sau co lại. Gập khuỷu để đưa thanh trở về có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "81857c43-9f25-4920-9a6a-c3bd2e085845",
+      "sourceName": "Band Goblet Squat",
+      "name": "Squat giữ dây kháng lực trước ngực",
+      "steps": [
+        "Đứng hai chân rộng bằng vai trên dây kháng lực, hai tay nắm cùng vòng dây trước ngực.",
+        "Đẩy hông ra sau và gập gối để hạ vào tư thế squat, giữ hai tay trước ngực.",
+        "Cố gắng hạ đến khi hai đùi song song với sàn rồi đứng lên trở lại. Nếu khó xác định độ sâu, hãy squat trước gương để kiểm tra tư thế."
+      ]
+    },
+    {
+      "exercise_id": "a07af0fa-0508-40f1-81a7-1f5103d4ec84",
+      "sourceName": "Neutral Chest Press",
+      "name": "Đẩy ngực trên máy nắm trung tính",
+      "steps": [
+        "Ngồi tựa lưng vào đệm máy và nắm tay cầm bằng kiểu nắm trung tính, hai lòng bàn tay hướng vào nhau.",
+        "Điều chỉnh máy để di chuyển tay cầm trong biên độ thoải mái mà lưng vẫn tựa vào đệm.",
+        "Đẩy tay cầm ra trước đến khi khuỷu tay duỗi thẳng nhưng không quá duỗi, sau đó gập khuỷu để trở về có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "aa60deef-61f5-467f-97dd-bfdc281f1b84",
+      "sourceName": "Machine Chest Press",
+      "name": "Đẩy ngực trên máy",
+      "steps": [
+        "Ngồi tựa lưng vào đệm máy và nắm tay cầm bằng kiểu nắm sấp.",
+        "Điều chỉnh máy để di chuyển tay cầm trong biên độ thoải mái mà lưng vẫn tựa vào đệm.",
+        "Đẩy tay cầm ra trước đến khi khuỷu tay duỗi thẳng nhưng không quá duỗi, sau đó gập khuỷu để trở về có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "b1e3970b-f516-4f25-b513-265d7a1ffd16",
+      "sourceName": "Band Horizontal Shrug",
+      "name": "Kéo bả vai ra sau với dây kháng lực ngang",
+      "steps": [
+        "Neo dây kháng lực ngang vai. Hai tay nắm dây ở trước người và lùi lại vài bước đến khi dây căng.",
+        "Giữ khuỷu tay thẳng, kéo hai bả vai ra sau và về phía nhau. Sau đó đưa bả vai ra trước để trở về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "b571d4f6-5ab3-4966-9a77-3f94fb95294a",
+      "sourceName": "Machine Plate Loaded Kneeling Hamstring Curl",
+      "name": "Quỳ gập gối tập đùi sau trên máy gắn bánh tạ",
+      "steps": [
+        "Đặt một gối lên đệm đỡ của máy và tựa thân trên vào các đệm phía trước. Đặt chân tập dưới cần đệm sao cho con lăn nằm bên dưới bắp chân.",
+        "Nắm tay cầm máy để giữ vững và gập gối chân tập để nâng cần, đưa gót chân về phía mông.",
+        "Dừng ở vị trí trên cùng, sau đó từ từ duỗi gối chân tập để trở về tư thế ban đầu."
+      ]
+    },
+    {
+      "exercise_id": "bda7dc7d-68fa-492d-afea-8cbe8bca7d23",
+      "sourceName": "Cable Quadruped Hip Abduction",
+      "name": "Chống tay quỳ dang chân với cáp",
+      "steps": [
+        "Đặt cáp ở vị trí thấp nhất của máy và gắn đai cổ chân vào chân tập.",
+        "Chống cả hai tay và gối bên đối diện, duỗi chân tập ra sau sao cho cáp căng.",
+        "Dang chân tập sang bên từ khớp hông, giữ thân người ổn định.",
+        "Đưa chân trở về có kiểm soát, giữ bàn chân tập không chạm sàn và duy trì độ căng của cáp."
+      ]
+    },
+    {
+      "exercise_id": "bf20011e-fd35-4fa5-8ebb-10d585dd13a5",
+      "sourceName": "Mini Band Bent Over Row",
+      "name": "Gập người kéo một tay với dây kháng lực ngắn",
+      "steps": [
+        "Đứng một chân trước, đạp lên dây kháng lực ngắn. Gập người ra trước với lưng phẳng, một tay nắm dây và tay còn lại tựa lên đùi trước.",
+        "Gập khuỷu và kéo ra sau để đưa dây về phía eo, sau đó hạ tay có kiểm soát, giữ cơ trung tâm siết chặt."
+      ]
+    },
+    {
+      "exercise_id": "c169df11-87fc-4350-8d79-dc759d11b549",
+      "sourceName": "Band Hip Adduction",
+      "name": "Đứng khép chân với dây kháng lực",
+      "steps": [
+        "Gắn dây kháng lực vào một điểm neo thấp, chắc chắn.",
+        "Đứng nghiêng bên cạnh điểm neo và vòng dây quanh cổ chân gần điểm neo nhất. Giữ bàn chân còn lại trên sàn làm điểm tựa.",
+        "Kéo chân có dây vào trong về phía đường giữa cơ thể, sau đó đưa chân ra ngoài trở lại có kiểm soát. Lặp lại đủ số lần mong muốn."
+      ]
+    },
+    {
+      "exercise_id": "d09ab5d4-11a7-470f-bdfb-ebde9e49b290",
+      "sourceName": "Band Standing Chest Press",
+      "name": "Đứng đẩy ngực với dây kháng lực",
+      "steps": [
+        "Vòng dây kháng lực qua lưng trên và cầm mỗi đầu dây bằng một tay ở hai bên ngực, giữ khuỷu tay gập.",
+        "Đẩy cả hai tay ra trước đến khi tay duỗi trước ngực, sau đó gập khuỷu để trở về có kiểm soát."
+      ]
+    },
+    {
+      "exercise_id": "dbb91c4a-21b8-4a68-b2ca-f7acb5b7fded",
+      "sourceName": "Band Internally Rotated Chest Fly",
+      "name": "Ép ngực xoay trong vai với dây kháng lực",
+      "steps": [
+        "Neo dây kháng lực ở phía sau ngang khoảng vai. Đứng một chân trước, mỗi tay nắm một đầu dây với lòng bàn tay hướng xuống và hai tay mở sang hai bên.",
+        "Giữ khuỷu tay hơi gập, đưa hai tay khép lại trước ngực.",
+        "Dừng ngắn rồi từ từ mở tay trở lại hai bên, giữ nguyên kiểu nắm và độ căng của dây."
+      ]
+    },
+    {
+      "exercise_id": "df80b49f-2768-4b16-adc6-f5a24f0ee221",
+      "sourceName": "Band Squat",
+      "name": "Squat với dây kháng lực",
+      "steps": [
+        "Đứng hai chân rộng bằng vai trên dây kháng lực, mỗi tay nắm một đầu dây ở hai bên người.",
+        "Đẩy hông ra sau và gập gối để hạ vào tư thế squat, giữ hai tay ở hai bên người.",
+        "Cố gắng hạ đến khi hai đùi song song với sàn rồi đứng lên trở lại. Nếu khó xác định độ sâu, hãy squat trước gương để kiểm tra tư thế."
+      ]
+    },
+    {
+      "exercise_id": "e702fe77-adf6-4cdb-9b92-037b0150abb3",
+      "sourceName": "Cable Standing Hip Adduction",
+      "name": "Đứng khép chân với cáp",
+      "steps": [
+        "Đặt cáp ở vị trí thấp nhất của máy và gắn đai cổ chân vào chân gần máy nhất. Đứng nghiêng bên cạnh máy, giữ bàn chân còn lại trên sàn và vịn khung máy để giữ vững.",
+        "Kéo chân gắn cáp vào trong, đi ngang phía trước chân trụ, sau đó đưa chân ra ngoài trở lại có kiểm soát. Lặp lại đủ số lần mong muốn."
+      ]
+    },
+    {
+      "exercise_id": "eb589db7-6217-4ecb-b087-7fab222e4942",
+      "sourceName": "Cardio Ski Erg",
+      "name": "Tập tim mạch với máy Ski Erg",
+      "steps": [
+        "Đứng hướng về máy Ski Erg, hai chân tách nhau, mỗi tay nắm một tay cầm và vươn tay lên để bắt đầu lượt kéo.",
+        "Kéo cả hai tay cầm xuống về phía đùi đồng thời gập hông và gối, giữ hai bàn chân trên sàn.",
+        "Đứng thẳng trở lại, đưa tay ra trước và lên trên để về tư thế ban đầu, sau đó lặp lại động tác kéo."
+      ]
+    },
+    {
+      "exercise_id": "ff006eef-2a90-4966-bcac-84a7d65a0257",
+      "sourceName": "Band Single Arm Pec Fly",
+      "name": "Ép ngực một tay với dây kháng lực",
+      "steps": [
+        "Gắn dây kháng lực vào điểm neo ngang khoảng vai. Một tay nắm dây với cánh tay mở sang bên và bước ra xa vài bước đến khi dây căng.",
+        "Giữ khuỷu tay hơi gập, đưa cánh tay qua trước ngực đến khi cảm nhận cơ ngực co lại, sau đó đưa tay mở ra ngoài trở lại có kiểm soát."
+      ]
+    }
+  ]
+}

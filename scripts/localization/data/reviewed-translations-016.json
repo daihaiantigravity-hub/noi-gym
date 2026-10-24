@@ -1,0 +1,1409 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Read full source blocks against Vietnamese text, preserving assistance, support, limb directions, angles, duration cues, repeated source steps and units. Held uncertain equipment, depth wording and missing frog-crunch leg setup.",
+  "sourceExceptions": [
+    {
+      "index": 84,
+      "sourceName": "Box Dips",
+      "reason": "The box-dip title ends with a cue referring to bars; verify the intended equipment and support.",
+      "exercise_id": "a574adcf-5d2a-4a36-9cda-536c5412e009"
+    },
+    {
+      "index": 85,
+      "sourceName": "Box Jump",
+      "reason": "The squat-depth phrase 'a quarter of half squat' is ambiguous; verify intended depth without guessing.",
+      "exercise_id": "def74b78-55fa-48a7-8b43-9204378a09b7"
+    },
+    {
+      "index": 105,
+      "sourceName": "Frog Crunch",
+      "reason": "The source contains generic crunch instructions with no frog-specific foot or leg setup; verify the variant.",
+      "exercise_id": "02340348-9464-4339-a68c-2a4babd72437"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "62380684-dc91-4df0-942f-c3e46b26a9cf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ae572a21325357d54ec8d962c8d93ada2d96f746372e71a1a55a23278848ec6f",
+      "name": "Bước lùi lên bục không tạ",
+      "description": "",
+      "steps": [
+        "Đặt bục hoặc ghế phía sau người và một bàn chân lên bục hoặc ghế.",
+        "Đặt phần trước lòng bàn chân chắc trên bục hoặc ghế.",
+        "Ấn phần trước lòng bàn chân, duỗi gối đến khi đứng thẳng trên bục."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Reverse Step Up",
+        "description": "",
+        "steps": [
+          "Start with a box or bench behind you and one of your feet on the box/bench.",
+          "The balls of your feet should be planted on the box/bench.",
+          "Drive through the ball of your foot extending your knees until you're upright and standing on the box."
+        ]
+      }
+    },
+    {
+      "exercise_id": "adc2435b-3a1b-4368-955c-bf0f992b0f99",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7d5bbefff0552befebc0cd484904dcd210f0e50b9a03a1edda17f8f1b0cb4051",
+      "name": "Vặn người kiểu Russian twist không tạ",
+      "description": "",
+      "steps": [
+        "Giữ gót chân ngay trên mặt đất.",
+        "Ưỡn ngực và giữ lưng phẳng. Thực hiện toàn bộ chuyển động ở phần giữa và trên cột sống.",
+        "Hướng ngực sang trái, sau đó xoay cột sống đến khi ngực hướng sang phải."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Russian Twist",
+        "description": "",
+        "steps": [
+          "Hover your heels just off the ground.",
+          "Stick your chest out and maintain a flat back. Make all the movement happen at your mid and upper spine.",
+          "Point your chest to the left, then rotate at the spine until your chest is pointed right."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6104dd14-5218-4b85-a694-bab3d489b5ec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ee2a59c3fd6dbfaf4e2a1a26da3ae6009ae53272b076bf72b9b93c1c57c6276f",
+      "name": "Giữ thăng bằng một chân có điểm tựa",
+      "description": "",
+      "steps": [
+        "Giữ vào vật chắc chắn, nâng thẳng chân phía đối diện lên. Giữ tư thế này."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Single Leg Balance Stable",
+        "description": "",
+        "steps": [
+          "Hold on to something stable and pull the leg on the opposing side straight up. Hold this position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "09312dca-8ff5-46f0-85b4-bd6bf6d4e7f6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "460742338e0f247d092cfb2ef38fc6661de1da4eec3432b92253443389e7cbbd",
+      "name": "Nhón gót một chân không tạ",
+      "description": "",
+      "steps": [
+        "Giữ điểm tựa để thăng bằng. Nhấc một bàn chân khỏi đất.",
+        "Nâng gót chân lên, giữ đầu gối cố định.",
+        "Dừng khi gót chân nâng hết biên độ, sau đó từ từ trở về vị trí ban đầu và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Single Leg Calf Raise",
+        "description": "",
+        "steps": [
+          "Hold onto something for balance. Raise one foot off the ground.",
+          "Raise your heel upwards while keeping your knees stationary.",
+          "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8a962151-160c-4c38-b7ba-f9c4dde679e5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8ecd5bedd9bc49c6fc530e1453241a78259c976e8188799080892049033f594a",
+      "name": "Đẩy hông một chân với gót kê cao không tạ",
+      "description": "",
+      "steps": [
+        "Nằm trên ghế, đặt bàn chân lên bánh tạ hoặc bục thấp.",
+        "Nhấc một chân khỏi đất, siết cơ mông để nâng hông lên phía trần.",
+        "Từ vị trí này, từ từ hạ hông trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Single Leg Heels Elevated Hip Thrust",
+        "description": "",
+        "steps": [
+          "Start by lying on a bench with your foot on a plate or low box.",
+          "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+          "From this starting position, slowly lower your hips back down to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d17596f5-d52f-418c-8b9b-d4ad073619fb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "83a48d8431f37b249ddfd43eb540ead63a0a801a684c4e0848f72e98918df8d6",
+      "name": "Squat một chân không tạ",
+      "description": "",
+      "steps": [
+        "Đứng trên một chân, duỗi chân còn lại về trước để thăng bằng.",
+        "Hạ người vào tư thế squat, giữ ngực nâng và cơ bụng siết.",
+        "Ấn gót chân để đứng lên trở lại rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Single Leg Squat",
+        "description": "",
+        "steps": [
+          "Stand on one leg, extend the other forward for balance.",
+          "Lower into a squat, keeping your chest up and core tight.",
+          "Press through your heel to stand back up, repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a82eb806-b487-4d97-8b60-c84e550eafb8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ae114e1c72c77f217900659f231fa1156156b2aaccebd56b56be305a12ead54b",
+      "name": "Cuộn cột sống kiểu Jefferson không tạ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai tay buông về sàn, đầu gối hơi co.",
+        "Từ từ cuộn cột sống xuống từng đốt sống một, vươn về phía ngón chân.",
+        "Đảo ngược chuyển động, xếp cột sống lên lại đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Spinal Jefferson Curl",
+        "description": "",
+        "steps": [
+          "Stand tall with arms hanging toward floor and knees slightly bent.",
+          "Slowly roll down spine, one vertebra at a time, reaching toward toes.",
+          "Reverse the motion, stacking spine back up to standing tall."
+        ]
+      }
+    },
+    {
+      "exercise_id": "00edf1e8-a5b1-4fd8-9a2f-a4519dadaaf5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b999cb76bc43328820c047b81e3667d2a6fa86440dcfcbce58804590a05d707e",
+      "name": "Squat không tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Gập gối và hông, ngồi về sau vào tư thế squat khi hạ người.",
+        "Tiếp tục hạ hết độ sâu.",
+        "Trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Squat",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder width apart.",
+          "flex your knees and hips and sit back into the squat while lowering your body",
+          "Continue down to full depth",
+          "Return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "44b991f5-ae4d-4d6e-b464-7fa471a8f124",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f778942df3628ee566361b15106bfc85685ff5907508c58bbf8216597dce9e1c",
+      "name": "Gập bụng trên bóng thăng bằng",
+      "description": "",
+      "steps": [
+        "Nằm ngửa trên bóng, bàn chân đặt phẳng trên sàn và đầu gối co.",
+        "Siết cơ bụng và gập cột sống đến khi cảm nhận cơ bụng co lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Stability Ball Crunch",
+        "description": "",
+        "steps": [
+          "Start by lying flat on your back on a ball with your feet flat on the floor and your knees bent.",
+          "Engage your core muscles and flex your spine until you feel your abs contract."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dcd21f4a-7124-468e-a765-5ee908a9a707",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "66cd209c1e983a64ec1db4857924ec2ddef8e3167e70565f1ff8c6b00c3e2085",
+      "name": "Duỗi lưng trên bóng thăng bằng",
+      "description": "",
+      "steps": [
+        "Nằm sấp trên bóng thăng bằng, hông ở giữa bóng, chân được giữ cố định, hai tay sau đầu.",
+        "Siết cơ bụng, nâng thân trên đến khi thẳng hàng với chân, giữ cổ trung tính.",
+        "Từ từ hạ thân về vị trí ban đầu, kiểm soát chuyển động và thở đều."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Stability Ball Hyperextension",
+        "description": "",
+        "steps": [
+          "Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head.",
+          "Engage your core, lift your upper body until aligned with legs, keeping your neck neutral.",
+          "Lower your torso slowly back to the starting position, maintaining control and steady breathing."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fae54bf5-7075-418c-abb1-ac74e3cf071f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3f083ffbad4b0d2f3d0ea029e32c5d7dd5322cce6d8acb32c6d883dc21d199e4",
+      "name": "Gập hông tựa thanh với chân trước chân sau không tạ",
+      "description": "",
+      "steps": [
+        "Đặt thanh ở khoảng giữa chiều cao đùi trước. Tựa chân đang tập vào thanh.",
+        "Đặt một bàn chân về sau, chỉ các ngón chân sau chạm đất. Bàn chân trước luôn đặt phẳng trong suốt động tác.",
+        "Gập gối chân sau và đẩy hông về sau. Cảm nhận độ kéo giãn ở cơ đùi sau của chân trước.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước trở lại đến khi đứng thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Staggered Waiters Bow",
+        "description": "",
+        "steps": [
+          "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+          "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+          "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+          "When you feel the stretch, push your hips forward again until you're back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8ff15075-9e7c-405e-8e39-f72a1f212b89",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "606fe5c9af5cfed8ff0dc3615ff165a7c8938d3f3a97359bb6a5a0171826aef0",
+      "name": "Đứng gập gối tập đùi sau không tạ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, dùng điểm tựa giữ thăng bằng.",
+        "Chuyển trọng lượng lên một chân.",
+        "Gập và duỗi chân không chịu trọng lượng.",
+        "Giữ hai đầu gối thẳng hàng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Standing Hamstring Curl",
+        "description": "",
+        "steps": [
+          "Stand up straight using a balancing aid.",
+          "Shift your weight on one leg.",
+          "Bend and extend the non-weight bearing leg.",
+          "Knees should remain aligned."
+        ]
+      }
+    },
+    {
+      "exercise_id": "64863b32-9ebf-47e4-a23a-596237901374",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "de3074c4a2b09abcdd6a31a8510156ecec254ae4bc8daf8be00c999693cfd8b8",
+      "name": "Đứng giữ gối co tập đùi sau không tạ",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, dùng điểm tựa giữ thăng bằng.",
+        "Chuyển trọng lượng lên một chân.",
+        "Gập chân không chịu trọng lượng và giữ.",
+        "Giữ hai đầu gối thẳng hàng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Standing Hamstring Curl Isometric",
+        "description": "",
+        "steps": [
+          "Stand up straight using a balancing aid.",
+          "Shift your weight on one leg.",
+          "Bend the non-weight bearing leg and hold.",
+          "Knees should remain aligned."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b1fd299f-9c17-4c44-84e6-ac74dd657490",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e32be96abc7526e55f82dbcd8875dc19396969d90e1ed15dbe00d593a61a3e7b",
+      "name": "Đứng kéo người với điểm tựa",
+      "description": "",
+      "steps": [
+        "Nắm khung cửa hoặc giá tập, đặt bàn chân gần khung.",
+        "Bắt đầu với khuỷu tay duỗi, kéo người về phía hai tay.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Standing Inverted Row",
+        "description": "",
+        "steps": [
+          "Grab a door frame or a rack and place your feet near the frame.",
+          "Start with your elbows extended, row your body towards your hands.",
+          "Return to the starting position, your arms fully extended. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "23b3b611-1b04-48fc-96f2-57565051366a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4f33466f22febf08c889a82c0c40d82a7acb3477db16e3806bc57ad81218d959",
+      "name": "Bước xuống bục không tạ",
+      "description": "",
+      "steps": [
+        "Đứng trên bục, một bàn chân đưa ra ngoài mép bục, thân thẳng.",
+        "Gập gối chân trụ có kiểm soát để hạ bàn chân đang thả về phía sàn.",
+        "Ấn gót chân trụ để đứng thẳng trở lại, không đạp chân dưới đất để hỗ trợ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Step Down",
+        "description": "",
+        "steps": [
+          "Stand on platform with one foot off edge and torso tall.",
+          "Lower hanging foot toward floor by bending standing knee under control.",
+          "Drive through standing heel to stand tall again without pushing off bottom foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9b23fdbf-b80c-415d-95ef-8370808668d8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "01b19adc168a4e90103dc3c25462bf5a30b8ba634b68ca4f44bc76b3404f58b4",
+      "name": "Bước lên bục nâng gối không tạ",
+      "description": "",
+      "steps": [
+        "Đứng trước bục hoặc ghế chắc chắn cao khoảng ngang gối.",
+        "Đặt chân phải lên bục, ấn gót chân để nâng người lên bục, đưa chân không trụ qua trước đến khi chân song song với đất.",
+        "Bước chân phải xuống, hạ chân trái về đất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Step Up Knee Drive",
+        "description": "",
+        "steps": [
+          "Begin by standing in front of a sturdy box or bench that is about knee-height.",
+          "Place your right foot on the box and push through the heel to lift your body up and onto the box, bring your off leg all the way through until your leg is parallel with the ground.",
+          "Step back down with your right foot, lowering your left foot to the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "741be8cc-7b97-47b4-9068-b91cb5b2efd9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d16ead3c5b4c079c14f73cbb285713055fafba4d11976b23409d2610200f823e",
+      "name": "Nâng người kiểu Superman kết hợp kéo tay",
+      "description": "",
+      "steps": [
+        "Nằm sấp, hai tay duỗi thẳng ra trước.",
+        "Nâng tay, ngực và chân khỏi sàn, đồng thời siết cơ mông.",
+        "Kéo khuỷu tay về phía sườn, siết cơ xô rồi duỗi tay ra lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Superman Pull",
+        "description": "",
+        "steps": [
+          "Lie face down with arms extended straight in front of you.",
+          "Lift arms, chest, and legs off floor while squeezing glutes.",
+          "Pull elbows toward ribs, squeeze lats, then extend arms again."
+        ]
+      }
+    },
+    {
+      "exercise_id": "56dd59d3-0d55-455f-9536-2137449a74ec",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "112f9988d886af4fabdbbca2ed8159aba0215c8793a2cee562784f0c2a7c2448",
+      "name": "Chùng chân tới lùi không tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Bước chân phải về trước và gập cả hai gối để hạ người đến khi đùi phải song song với đất.",
+        "Đạp chân phải để trở về vị trí ban đầu.",
+        "Bước chính chân đó về sau đến khi đầu gối sau chạm nhẹ sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Swing Lunge",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width.",
+          "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+          "Push off your right foot to return to the starting position.",
+          "Step back with the same leg until the back knee taps the floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "bedcf66a-f3d7-49a9-8a36-abcfa2ce1d92",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0453d76391fc40c3d2a63e81a18573e40192e99e533c1b7fec63eae1057cbf7f",
+      "name": "Chùng chân chuyển qua trước và sau không tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai.",
+        "Bước chân phải về trước và gập cả hai gối để hạ người đến khi đùi phải song song với đất.",
+        "Đạp chân phải để trở về vị trí ban đầu.",
+        "Bước chính chân đó về sau đến khi đầu gối sau chạm nhẹ sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Swingthrough Lunge",
+        "description": "",
+        "steps": [
+          "Stand with your feet shoulder-width.",
+          "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+          "Push off your right foot to return to the starting position.",
+          "Step back with the same leg until the back knee taps the floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "77231c83-b538-49d0-8bc0-d8a79c7c3634",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "810d21abcc470d43e9afe947d71da0fd7830bc62291eab4d6ca7be2c57f6382e",
+      "name": "Xoay cột sống ngực không tạ",
+      "description": "",
+      "steps": [
+        "Chống hai tay và hai gối rồi hạ ngực xuống đất. Đặt một tay trên đất phía trước, tay còn lại sau đầu hoặc tai.",
+        "Xoay về phía tay đang đặt sau đầu đến khi khuỷu tay hướng lên trần rồi giữ tư thế."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Thoracic Spine Rotation",
+        "description": "",
+        "steps": [
+          "Start on all fours then bring your chest to the ground. Place one hand on the ground in front of you. The other hand behind your head/ear.",
+          "On the side of the hand that is behind your head, rotate until your elbow is pointed at the ceiling and then hold this position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d8279e73-308b-45ba-80d7-c8792568e95e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "826e457e55653290fbccf1ac4fd0f6fb93f2891c174ce98433ff61f02743df93",
+      "name": "Duỗi tay sau từ tư thế plank",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế plank, hai tay rộng bằng vai. Gập khuỷu tay để khuỷu tay hạ xuống sàn.",
+        "Duỗi khuỷu tay để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Tricep Extension",
+        "description": "",
+        "steps": [
+          "Begin in a plank position. Hands shoulder width apart. Break at the elbows while letting your elbows fall to the floor.",
+          "Extend your elbows until you are back in the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4ded6636-c0c7-4659-8d54-059b7cd6ca04",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "060c63d891d37e4a1b06082c6c98cdd6f63f9783e02c89cac878271c136075b1",
+      "name": "Kéo người dưới xà với tay nắm ngửa",
+      "description": "",
+      "steps": [
+        "Nằm dưới thanh ngang cố định, nắm ngửa thanh.",
+        "Kéo người thẳng lên thanh.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Underhand Inverted Row",
+        "description": "",
+        "steps": [
+          "Lay underneath a fixed horizontal bar and grab the bar with an underhand grip.",
+          "Pull your body straight up to the bar.",
+          "Return to the starting position, your arms fully extended. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "edcf9811-a7cf-46a7-91e7-051aa5b3f522",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "53238c077f5c3e98e83106f1aa883b24689a22a914ba02aa1213ab1ece48430c",
+      "name": "Gập hông tựa thanh không tạ",
+      "description": "",
+      "steps": [
+        "Đặt tạ đòn ở khoảng giữa chiều cao đùi. Tì cơ đùi trước vào thanh.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bodyweight Waiters Bow",
+        "description": "",
+        "steps": [
+          "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+          "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+          "When you feel the stretch, push your hips forward until you're back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "54b76b66-bb2b-427f-a170-10bed15c4600",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6068a0687ed0679b6458312802ffb56800c8d7fb4afb38a00ca97fc801a22f17",
+      "name": "Bulgarian split squat không tạ",
+      "description": "",
+      "steps": [
+        "Đứng quay lưng về ghế hoặc bề mặt kê cao, đặt một bàn chân lên ghế.",
+        "Squat xuống đến khi chân trước gần song song với sàn.",
+        "Trở về vị trí ban đầu. Hoàn thành số lần mong muốn rồi đổi chân và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Bulgarian Split Squat",
+        "description": "",
+        "steps": [
+          "Stand with your back to a bench (or raised surface) and place one of your feet on the bench.",
+          "Squat down until your front leg is about parallel to the floor.",
+          "Go back to the starting position. After completing the desired amount of reps, switch legs and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "26516a9b-b5c8-47fd-8fd3-afcaccdd7ea1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "00cd3e48d699fa0467f6fa96ab1d8ac2bb8b25cc06ebadacbc9f7262f2b9479d",
+      "name": "Burpee",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông. Hạ người vào tư thế squat, đặt hai tay trên đất phía trước.",
+        "Nhanh chóng bật hai chân về sau vào tư thế plank, giữ cơ thể thẳng từ đầu đến ngón chân.",
+        "Thực hiện một lần chống đẩy, giữ cơ bụng siết và khuỷu tay gần thân.",
+        "Bật hai chân về phía tay, sau đó nhảy lên không trung, vươn tay qua đầu.",
+        "Tiếp đất nhẹ nhàng và lập tức hạ vào tư thế squat để lặp lại động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Burpee",
+        "description": "",
+        "steps": [
+          "Start standing with your feet hip-width apart. Lower your body into a squat position, placing your hands on the ground in front of you.",
+          "Quickly jump your feet back into a plank position, keeping your body in a straight line from your head to your toes.",
+          "Perform a push-up, keeping your core tight and your elbows close to your body.",
+          "Jump your feet back towards your hands, and then jump up into the air, reaching your arms overhead.",
+          "Land softly and immediately lower your body back into the squat position to repeat the movement."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d9acad18-4b16-4ca6-80d6-21d323227f60",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "caec23409b899117744f2605990c3ec75eef6c7358c73735f0baa362ecd3361c",
+      "name": "Nhón gót",
+      "description": "",
+      "steps": [
+        "Giữ thăng bằng bằng phần trước lòng bàn chân trên bục hoặc bánh tạ, nghiêng người về trước tựa tường để hỗ trợ.",
+        "Hạ gót chân về phía đất và dừng, sau đó ấn phần trước lòng bàn chân như khi kiễng chân, dừng ở điểm cao nhất.",
+        "Lặp lại theo nhu cầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Calf Raises",
+        "description": "",
+        "steps": [
+          "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.",
+          "Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.",
+          "Repeat as necessary."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c868d7bf-e393-4f6e-826f-c216f91b36a0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ec830835923374614fdb36003fb0308625544937862dfe5df3e474766cb91c67",
+      "name": "Kéo xà tay ngửa",
+      "description": "",
+      "steps": [
+        "Nắm thanh rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên đến khi cằm vượt qua thanh.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Chin Ups",
+        "description": "",
+        "steps": [
+          "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
+          "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.",
+          "Slowly return to starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dafe93a9-d2b2-4162-beb0-7c6c04f1a042",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6cbffdb3e7947b4bc8b4cb7eb94e401cef2200a7d946f6aa5ca522e1f8c29db4",
+      "name": "Gập bụng",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đầu gối co, bàn chân đặt phẳng trên đất cách lưng dưới khoảng một foot.",
+        "Đặt các đầu ngón tay lên thái dương, lòng bàn tay hướng ra ngoài.",
+        "Kéo bụng về gốc cột sống để siết cơ, sau đó nâng đầu và vai khỏi sàn. Trở về vị trí ban đầu và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Crunches",
+        "description": "",
+        "steps": [
+          "Lay flat on your back with your knees bent and your feet flat on the ground, about a foot from your lower back.",
+          "Place your fingertips on your temples with your palms facing out.",
+          "Draw your belly into the base of your spine to engage the muscles, then raise your head and shoulders off the floor. Return to starting position and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "452e64b8-3839-4cbc-a731-bbd217ecf150",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1e6498ba85da3e80ae45f907cced96d7375576fc6fa4f404bc76875f04d4b4d5",
+      "name": "Duỗi tay chân đối diện kiểu dead bug",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai tay duỗi lên trên, hai chân nâng với đầu gối co.",
+        "Hạ tay và chân đối diện về sàn, giữ lưng áp xuống đất.",
+        "Đổi bên luân phiên, duy trì cơ bụng siết và lặp lại theo số lần hoặc thời gian mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Dead Bug",
+        "description": "",
+        "steps": [
+          "Lie on your back, arms extended upward, legs raised with knees bent.",
+          "Lower opposite arm and leg to floor, keeping back pressed against ground.",
+          "Alternate sides, maintain core engagement, and repeat for desired reps or time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "dc16fba8-5774-4e4c-b082-25c229968367",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7658a009320e180caa3f28731a87a0f1ff47162f3358f0f1ca0910e1a7ca71ba",
+      "name": "Treo người thả lỏng trên xà",
+      "description": "",
+      "steps": [
+        "Nắm thanh xà với lòng bàn tay hướng về trước.",
+        "Treo người với hai tay duỗi hoàn toàn.",
+        "Giữ trong thời gian được khuyến nghị, duy trì cơ bụng siết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Dead Hang",
+        "description": "",
+        "steps": [
+          "Grip a pull-up bar with palms facing forward.",
+          "Hang with arms fully extended.",
+          "Hold for recommended amount of time, keeping your core engaged."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7857e861-4006-49af-bacf-0fd278d35500",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c0f609caeb39214d0d71e323c33a05c8bdef585ed03383bc6643507496fb5e72",
+      "name": "Chống đẩy kê chân cao",
+      "description": "",
+      "steps": [
+        "Dùng ghế để kê chân cao.",
+        "Đặt hai tay hơi rộng hơn vai.",
+        "Từ từ hạ người đến khi ngực gần chạm đất.",
+        "Nâng người đến khi khuỷu tay gần khóa thẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Decline Push Up",
+        "description": "",
+        "steps": [
+          "Use a bench to elevate your feet.",
+          "Put your hands slightly wider than shoulder-width.",
+          "Slowly lower your body until your chest almost touches the ground",
+          "Raise your body until you almost lock your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "82ad9a8c-e440-4d84-831e-b9d107c45265",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "483aa99cb5a70632fd168c18a96aace145ac99d8569980ab4d0febb5df1f77d5",
+      "name": "Nhảy tiếp đất từ bục rồi bật lên",
+      "description": "",
+      "steps": [
+        "Đứng trên bục. Bước khỏi bục và tiếp đất trên sàn.",
+        "Tiếp đất nhẹ nhất có thể. Squat khi tiếp đất để giảm tác động lên khớp.",
+        "Bật nhảy ngay sau khi tiếp đất. Động tác giúp học cách hấp thụ lực va chạm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Depth Jump",
+        "description": "",
+        "steps": [
+          "Stand on top of a box. Step off of the box and land on the floor.",
+          "Land as softly as possible. Squat as you land to minimise impact on your joints.",
+          "Go straight into another hop after you've landed. This will help you learn to absorb impact."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cb699d18-4c55-47b4-8a44-2c33884647c6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b9c83f83fbe21a0554c2c83d8f8a77bcea9a9432827e62dfe41466a324b55929",
+      "name": "Chống đẩy tay hình kim cương",
+      "description": "",
+      "steps": [
+        "Đặt ngón trỏ và ngón cái chạm nhau tạo hình kim cương.",
+        "Vào tư thế chống đẩy tiêu chuẩn.",
+        "Hạ ngực về phía hai tay, giữ khuỷu tay gần thân.",
+        "Dừng ngay trước khi ngực chạm sàn rồi đẩy người về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Diamond Push Ups",
+        "description": "",
+        "steps": [
+          "Position your index fingers and thumbs so they are touching, forming a diamond shape",
+          "Use a standard push up position",
+          "Lower your chest towards your hands, keep your elbows close to your body",
+          "Stop just before your chest touches the floor, then push back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d421b198-1c04-4d00-974b-39a7888b2eba",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "058d6fd71c9a643033d68675195b3bd0eb65287e8482aed80eabe312fa87bfb3",
+      "name": "Hạ người chậm kiểu dragon flag",
+      "description": "",
+      "steps": [
+        "Thực hiện gập bụng ngược rồi đá hai chân lên phía trần.",
+        "Giữ hông và đầu gối duỗi, từ từ hạ người về vị trí bắt đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Eccentric Dragonflag",
+        "description": "",
+        "steps": [
+          "Perform a reverse crunch and then kick your legs up toward the ceiling.",
+          "With your hips and knees extended, lower yourself slowly back to the start position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "92581921-d9be-404c-a96e-d4d59182f2a5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8bf1396e139c53321fc71b6cd7b28d548646d8b43fd1499db8c460b0298fdf3a",
+      "name": "Plank khuỷu tay kéo gối kiểu leo núi",
+      "description": "",
+      "steps": [
+        "Vào tư thế plank khuỷu tay, siết cơ bụng.",
+        "Đưa đầu gối phải về phía khuỷu tay phải.",
+        "Trở về plank rồi nhanh chóng đổi chân. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Elbow Plank Mountain Climber",
+        "description": "",
+        "steps": [
+          "Begin in an elbow plank position with your core engaged.",
+          "Bring your right knee towards your right elbow.",
+          "Return to plank, then switch legs quickly. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "702ae05e-d796-4c27-a98c-0d5a02bbed51",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c31d09730b561a85bac3165ddfa9d3ed882a4f79b2b99acad950be4e2e1c825a",
+      "name": "Plank nghiêng chống khuỷu tay",
+      "description": "",
+      "steps": [
+        "Tì khuỷu tay xuống sàn.",
+        "Nâng hông khỏi đất và giữ trong thời gian được chỉ định.",
+        "Không để ngực đổ về trước hoặc về sau."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Elbow Side Plank",
+        "description": "",
+        "steps": [
+          "Press your elbow into the floor.",
+          "Pick your hips up off the ground and maintain this position for the allotted amount of time.",
+          "Make sure you don't let your chest fall forward or backward."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3e1c5f3d-956a-4320-b83e-5aac65803f82",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "446f5564afe0da9d3e96a53e7b07045fcb0477f11639c1b66543b03e9ef0ee79",
+      "name": "Chống đẩy pike với chân kê cao",
+      "description": "",
+      "steps": [
+        "Dùng ghế hoặc vật khác để kê chân cao.",
+        "Gập khuỷu tay để hạ đầu về phía sàn.",
+        "Đẩy qua hai bàn tay để trở về tư thế pike ban đầu.",
+        "Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Elevated Pike Press",
+        "description": "",
+        "steps": [
+          "Use a bench or an object to elevate your feet.",
+          "Lower your head towards the floor by bending your elbows",
+          "Push through your hands and return to the starting pike position.",
+          "Repeat"
+        ]
+      }
+    },
+    {
+      "exercise_id": "2bd221ee-2628-4ce3-8573-fb48c6d5b758",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8a6be3e69d9261d3a9ccea577ff851bf220ab63c14215f69ffd00dec91afe6a8",
+      "name": "Nhún vai pike với chân kê cao",
+      "description": "",
+      "steps": [
+        "Dùng ghế tập hoặc vật như ghế ngồi để kê chân cao.",
+        "Từ từ hạ người qua chuyển động bả vai, giữ khuỷu tay khóa thẳng; đây là điểm quan trọng.",
+        "Từ từ nâng người về vị trí bắt đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Elevated Pike Shoulder Shrug",
+        "description": "",
+        "steps": [
+          "Use a bench or an object like a chair to elevate your feet.",
+          "Slowly lower your body (scapula) while keeping your elbows locked (this is key)",
+          "Slowly raise your body back to the start position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d52cf48b-d140-410c-98de-c9df5fb1995e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "26ddc97cfc72fd10fba47d69bba93e76000d333ba39740354b42b5c4d83b1dc5",
+      "name": "Plank cẳng tay",
+      "description": "",
+      "steps": [
+        "Đặt cẳng tay trên đất, khuỷu tay gập góc 90° ngay dưới vai, hai tay song song và rộng bằng vai.",
+        "Giữ hai bàn chân sát nhau, chỉ các ngón chân chạm sàn.",
+        "Nâng bụng khỏi sàn, tạo đường thẳng từ gót chân đến đỉnh đầu và giữ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Forearm Plank",
+        "description": "",
+        "steps": [
+          "Place forearms on the ground with your elbows bent at a 90° angle aligned beneath your shoulders, with your arms parallel at shoulder-width.",
+          "Your feet should be together, with only your toes touching the floor.",
+          "Lift your belly off the floor and form a straight line from your heels to the crown of your head and hold."
+        ]
+      }
+    },
+    {
+      "exercise_id": "fcc8232f-b930-4e5f-b4f9-267daae7b7e9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ffc0d5f0f0d5e26d98a94aa8fb601b2bd02492dd69ee4e6e441eaa2dd22e515e",
+      "name": "Xoay tay vòng tròn ra trước",
+      "description": "",
+      "steps": [
+        "Dang hai tay sang hai bên.",
+        "Xoay hai tay về trước theo các vòng tròn nhỏ."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Forward Arm Circle",
+        "description": "",
+        "steps": [
+          "Hold your arms out to your sides.",
+          "Rotate your arms forward in small circles."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e1504131-58cf-4df4-8c11-1270bfda3df9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5f7224e6cdc6e77a838cafab47a313b2a2908a5265bc137172e62a9d7b68e17b",
+      "name": "Chùng chân bước tới",
+      "description": "",
+      "steps": [
+        "Bước một chân về trước, hạ người đến khi đùi trước song song với sàn và đầu gối sau gần chạm đất. Giữ ngực nâng và bàn chân trước đặt phẳng.",
+        "Đạp bàn chân trước để duỗi chân và trở về vị trí ban đầu.",
+        "Lặp lại với chân còn lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Forward Lunge",
+        "description": "",
+        "steps": [
+          "Step forward with one leg and lower your body until your front thigh is parallel to the floor and your back knee almost touches the ground. Keep your chest up and your front foot flat on the floor.",
+          "Push through your front foot to straighten your legs and return to the starting position.",
+          "Repeat the movement with your other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "93e986c3-e14f-48e4-bb25-8233a179b524",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "65900da2f5af8668c52d7e64a9fce855f89f67df86c2f614cc5881a2bc1a66bf",
+      "name": "Chùng chân bước tới luân phiên",
+      "description": "",
+      "steps": [
+        "Bước một chân về trước.",
+        "Hạ người đến khi đầu gối sau gần chạm đất.",
+        "Giữ người thẳng và đầu gối trước ở phía trên bàn chân trước.",
+        "Đạp bàn chân trước xuống sàn để trở về vị trí ban đầu. Đổi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Forward Lunges",
+        "description": "",
+        "steps": [
+          "Step forward with one leg.",
+          "Lower your body until your rear knee nearly touches the ground.",
+          "Ensure you remain upright, and your front knee stay above the front foot.",
+          "Push off the floor with your front foot until you return to the starting position. Switch legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "14aa4f4f-877a-4d1f-8da5-f7694a4bfd66",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ea4ecc480061c2cec08c73408e0657b2aab06db4f1fee33ce7ddc996083f1cf2",
+      "name": "Gập bụng ngồi dậy kiểu ếch",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đầu gối co và hai bàn chân sát nhau.",
+        "Giữ hai tay duỗi qua đầu. Vung tay tạo đà và ngồi dậy."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Frog Sit Up",
+        "description": "",
+        "steps": [
+          "Lay on your back with knees bent and your feet together.",
+          "Keep your arms extended overhead. Swing your arms to generate some momentum and sit up."
+        ]
+      }
+    },
+    {
+      "exercise_id": "00f4fc08-9387-4f10-9040-e2b841f9dafd",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "660f7c6f1424741a9417790fa7873c3cee7c793199580e84fb43d50da2a27320",
+      "name": "Kéo xà tay ngửa kiểu Gironda",
+      "description": "",
+      "steps": [
+        "Nắm thanh rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên và ngả về sau. Cố gắng chạm ngực vào thanh.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Gironda Chin Up",
+        "description": "",
+        "steps": [
+          "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
+          "With your body hanging and arms fully extended, pull yourself up and lean backwards. Try to touch your chest to the bar.",
+          "Slowly return to starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "724ca838-086e-47cd-ac99-ba18c0b5df18",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e5c8a828950d759d76c3e61670774e06e3393344198b961597529b6de038ed60",
+      "name": "Nâng mông",
+      "description": "",
+      "steps": [
+        "Nằm với đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Đẩy hông lên để mông nâng cao và lưng thẳng.",
+        "Siết cơ mông và nâng hông về phía trần.",
+        "Khi lên cao hết mức có thể, giữ vài giây rồi từ từ trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Glute Bridge",
+        "description": "",
+        "steps": [
+          "Lie down with your knees bent and your feet flat on the floor.",
+          "Push your hips up so that your butt is elevated and your back straight.",
+          "Tense your glutes and raise your hips towards the ceiling.",
+          "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position"
+        ]
+      }
+    },
+    {
+      "exercise_id": "385f815d-592d-4d6c-9384-916bc476b374",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a4036e94758204d50cdd1137373dfc3e7611ebf005752a0cad82e502ab448567",
+      "name": "Nâng mông hạ chậm bằng một chân",
+      "description": "",
+      "steps": [
+        "Nằm với đầu gối co và bàn chân đặt phẳng trên sàn.",
+        "Đẩy hông lên để mông nâng cao và lưng thẳng.",
+        "Siết cơ mông và nâng hông về phía trần.",
+        "Khi lên cao hết mức có thể, giữ vài giây rồi nhấc một chân khỏi đất.",
+        "Từ từ hạ về vị trí bắt đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Glute Bridge Eccentric Unilateral",
+        "description": "",
+        "steps": [
+          "Lie down with your knees bent and your feet flat on the floor.",
+          "Push your hips up so that your butt is elevated and your back straight.",
+          "Tense your glutes and raise your hips towards the ceiling.",
+          "Once you are at the highest point you can manage, hold the position for a few seconds, and raise one leg off the ground.",
+          "Lower slowly to the start position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0b4103c7-fd14-4d8d-b933-11a64ab91385",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "db3f1cbb4a890413d3416424c77a6629252f0d6dd838e83b46119bdf828739d3",
+      "name": "Giữ nâng mông và duỗi chân luân phiên",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, gập gối để bàn chân đặt phẳng trên sàn, gót chân dưới đầu gối.",
+        "Ấn gót chân xuống đất, nâng hông đến khi có đường thẳng từ ngực đến đầu gối. Siết mông ở điểm cao nhất.",
+        "Giữ vị trí trên cùng và lần lượt duỗi từng chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Glute Bridge Isometric Hold Single Alternate",
+        "description": "",
+        "steps": [
+          "Lie on your back. Bend your knees so your feet are flat on the floor with heels under knees",
+          "Push through your heels into the ground, lifting your hips up to the point where there is a straight line from your chest to your knees. Squeeze your bum at the top of the movement",
+          "Maintain the top position and extend one leg at the time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "7de3dd51-3cfd-4775-96fb-607339abb442",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bafd8cb5deba4cfbe93b28dd9cb6444a6b490866be4e50961e5795d26955d487",
+      "name": "Gập hông kiểu good morning không tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân hơi rộng hơn vai, đầu gối hơi co. Đặt hai tay sau đầu.",
+        "Giữ lưng thẳng, xoay tại hông để hạ vai về phía sàn. Dừng khi ngực song song với sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Good Mornings",
+        "description": "",
+        "steps": [
+          "Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head.",
+          "Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "945c3afb-ff65-4af5-9075-25730adb7311",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a51fcb4a4cf8f4cdf216aec97d640e9b5771d4aadc4f2094c41c792635a5aff6",
+      "name": "Gập hông với một gối tựa ghế",
+      "description": "",
+      "steps": [
+        "Đặt một đầu gối lên ghế.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Half Kneeling Hip Hinge",
+        "description": "",
+        "steps": [
+          "Place one knee on a bench.",
+          "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+          "When you feel the stretch, push your hips forward until you're back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ac8054ac-ad83-4246-b271-2d9895aa65bc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b75608bfb631c8ebe532898a17b5b09c0ba4637aaa4e9c76b704be3b733991e0",
+      "name": "Giữ nâng hông tập đùi sau với gối hơi co",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đầu gối hơi co và gót chân tì chắc.",
+        "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+        "Ấn gót chân xuống đất để nâng hông khỏi đất.",
+        "Giữ trong thời gian được chỉ định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hamstring Bridge Isometric Open Angle",
+        "description": "",
+        "steps": [
+          "Lie on your back with knees slightly bent and heels dug in.",
+          "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+          "Press the heels into the ground to raise your hips off it.",
+          "Hold the position for the specified duration."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f98971e9-bbb1-48c4-bbc6-6a1bd73d1416",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6ac27991dd57a989224b2e982e070498100cb0e9ca30251fbdcbd580c43bba99",
+      "name": "Nâng hông tập đùi sau với hai chân kê bục",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt hai gót chân lên bục hoặc ghế, hông và gối tạo góc 90°.",
+        "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+        "Ấn gót chân vào bục, nâng hông đến khi có đường thẳng từ ngực đến đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hamstring Bridge With Elevated Legs Box Bilateral",
+        "description": "",
+        "steps": [
+          "Lie on your back. Place your heels on a box or bench, having a 90° angle at hips and knees.",
+          "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+          "Push through your heels into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+        ]
+      }
+    },
+    {
+      "exercise_id": "57225c88-8ea2-4e0e-b14d-e683cfe0beaf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "5b5845471a75e7de852b953105bb70a7ef922ba702371ea68c5bcb8da296beb2",
+      "name": "Nâng hông tập đùi sau với một chân kê bục",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt một gót chân lên bục hoặc ghế, hông và gối tạo góc 90°.",
+        "Nghiêng chậu về sau để ép phẳng lưng dưới xuống đất.",
+        "Ấn gót chân vào bục, nâng hông đến khi có đường thẳng từ ngực đến đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hamstring Bridge With Elevated Legs Box Unilateral",
+        "description": "",
+        "steps": [
+          "Lie on your back. Place one heel on a box or bench, having a 90° angle at hip and knee.",
+          "Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+          "Push through your heel into the box, lifting your hips up to the point where there is a straight line from your chest to your knees."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5a03100e-fbf8-4371-8053-b75e553abbf5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e6aa2ad2e40461bf91de88e452e12bd10d414674831c6af7a8b8d445bb9da62c",
+      "name": "Plank nghiêng chống bàn tay",
+      "description": "",
+      "steps": [
+        "Tì bàn tay xuống đất và nâng hông khỏi đất.",
+        "Mở ngực và giữ trong thời gian được chỉ định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hand Side Plank",
+        "description": "",
+        "steps": [
+          "Press your hand into the ground and pick up your hip off the ground.",
+          "Open your chest and maintain this position for the allotted amount of time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "141e767a-b4aa-4b0a-8f28-404853a7d94b",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "147909684270f257320f59bf37b4331808d38d4768de5953d898328ab6c18d5f",
+      "name": "Plank nghiêng chống tay kết hợp luồn tay qua người",
+      "description": "",
+      "steps": [
+        "Vào tư thế plank nghiêng.",
+        "Luồn tay phía trên xuống dưới người.",
+        "Trở về tư thế plank."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hand Side Plank Reach Through",
+        "description": "",
+        "steps": [
+          "Start in a side plank position.",
+          "Reach your top arm under your body.",
+          "Return to the plank position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3397c6a5-f329-4fc2-8f70-2871709f6ec7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bc8e4e707c6ba5805b4b4b2b2628e7386165188bc6547053d6a1c8dbbf4ea6ae",
+      "name": "Treo xà nâng gối",
+      "description": "",
+      "steps": [
+        "Nắm thanh và treo người, giữ cơ thể yên và hai chân thẳng.",
+        "Từ từ kéo đầu gối lên phía ngực.",
+        "Khi nâng gối cao hết mức có thể, hạ chân và lặp lại. Di chuyển chậm để không dùng đà, giúp bài tập đạt hiệu quả tốt nhất.",
+        "Di chuyển chậm để không dùng đà, giúp bài tập đạt hiệu quả tốt nhất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hanging Knee Raises",
+        "description": "",
+        "steps": [
+          "Grab the bar and hang, your body still and your legs straight.",
+          "Slowly draw your knees up to your chest",
+          "Once you have raised your knees as high as possible, lower your legs and repeat. Duration of these movements should be slow so that you do not utilize momentum, enabling you to get the most out of the exercise.",
+          "Duration of these movements should be slow so that you do not utilize momentum, enabling you to get the most out of the exercise."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6a997fb9-16e2-4b02-a596-bf509e4bb880",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fe0fae2ad9d3ff118da7ae3848c1d6bb1346d6bfda311980570f15f9d70f66cb",
+      "name": "Treo xà giữ chân hình chữ L",
+      "description": "",
+      "steps": [
+        "Treo người trên thanh với hai tay duỗi hoàn toàn.",
+        "Nâng chân thành hình chữ L.",
+        "Giữ trong thời gian được chỉ định, duy trì cơ bụng co."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Hanging L Sit",
+        "description": "",
+        "steps": [
+          "Hang from a bar with arms fully extended.",
+          "Lift legs to form an \"L\" shape.",
+          "Hold for allotted amount of time keeping your abs flexed."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c228aa5a-9b89-4b9e-8773-afd2f088d7c7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a4063334df57aff5bc87a45e2e1018ae26478ec74e1962b700561f532e0fb385",
+      "name": "Squat với gót kê cao",
+      "description": "",
+      "steps": [
+        "Đặt gót chân lên bánh tạ hoặc bậc rất thấp.",
+        "Giữ ngực nâng, bắt đầu squat bằng cách đẩy hông về sau và gập gối.",
+        "Có thể cảm nhận khả năng squat xuống sâu hơn bình thường."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:11:29.755Z",
+      "source": {
+        "name": "Heels Up Squat",
+        "description": "",
+        "steps": [
+          "Place your heels on a plate or very low step.",
+          "Keep your chest tall and initiate the squat by pushing your hips back and breaking at the knees.",
+          "You should notice yourself able to squat lower than normal."
+        ]
+      }
+    }
+  ]
+}

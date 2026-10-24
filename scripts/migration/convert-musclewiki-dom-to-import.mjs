@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { extractNumberedCardSteps } from "./dom-instructions.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const defaults = {
@@ -38,20 +39,9 @@ function parseArgs(argv) {
   return options;
 }
 
-const clean = (value) => String(value ?? "").replace(/\u00a0/g, " ").replace(/[ \t]+/g, " ").trim();
-
 function stableSourceId(sourceUrl) {
   const digest = crypto.createHash("sha256").update(sourceUrl).digest("hex").slice(0, 12);
   return Number.parseInt(digest, 16) + 1;
-}
-
-function extractSteps(cardText, fallback = []) {
-  const text = clean(cardText);
-  const steps = [...text.matchAll(/(?:^|\s)\d+[.)]?\s+(.+?)(?=\s+\d+[.)]?\s+|$)/g)]
-    .map((match) => clean(match[1]).replace(/\s+Remove Ads(?:\s+Remove Ads)*$/i, ""))
-    .filter(Boolean);
-  const values = steps.length ? steps : fallback;
-  return [...new Set(values.map(clean).filter((value) => value && !/^\/?(?:Exercises|Biceps|Dumbbell Curl)$/i.test(value)))];
 }
 
 function convertMedia(media) {
@@ -80,7 +70,7 @@ const results = migrationRecords.map((record) => {
   seenIds.set(sourceId, sourceUrl);
 
   const candidate = checkpointByUrl.get(sourceUrl);
-  const steps = extractSteps(candidate?.cardText || record.cardText, record.instructions);
+  const steps = extractNumberedCardSteps(candidate?.cardText || record.cardText, record.instructions);
   return {
     id: sourceId,
     name: record.name,

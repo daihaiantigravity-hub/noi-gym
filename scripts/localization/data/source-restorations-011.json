@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "female-only recovery source review and correction",
+  "preparedAt": "2026-10-23T08:51:08.230Z",
+  "reviewMethod": "Reviewed six chronological frames across the full duration of both available female camera angles for all 11 Recovery candidates, checked original female import identity, and retained unresolved items as holds.",
+  "databaseStatus": "Prepared only; no database changes applied yet.",
+  "restorations": [
+    {
+      "exercise_id": "4d64425d-a884-4aed-8aac-bc991e9450dc",
+      "source_id": 176283122068822,
+      "before": {
+        "name": "Calf Stretch On Box Bilateral",
+        "description": "",
+        "steps": [
+          "Stand on a box. From the standing position, shift your weight onto the balls of one foot.",
+          "Lower the heels of your feet toward the ground, and hold the position for the duration specified",
+          "You should feel your calf stretching."
+        ]
+      },
+      "after": {
+        "name": "Calf Stretch On Box Bilateral",
+        "description": "",
+        "steps": [
+          "Stand on a box with the balls of both feet near its edge.",
+          "Lower both heels toward the ground and hold the position for the duration specified.",
+          "You should feel your calves stretching."
+        ]
+      },
+      "before_hash": "efad5dcd6a4eafb299417459faf5824884ab2001bd72ac9e90c2a2bced6d1804",
+      "after_hash": "c002f8dddaebab3521d755a35c76040e694d98ff513e1e356e5d24a21ac609f7",
+      "expected_updated_at": "2026-10-14T10:47:21.368746+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/calf-stretch-on-box-bilateral",
+        "written_source_status": "Editorial correction from the captured exercise video; not newly retrieved provider wording.",
+        "available_genders": [
+          "female"
+        ],
+        "identity_source": {
+          "file": "scripts/migration/data/female/musclewiki-female-import.json",
+          "sha256": "86de06a23f47bb1ea7ff0c0d6855f3e4dd23886dfe098c9c8354afc9de3d20c8",
+          "source_url": "https://musclewiki.com/exercise/calf-stretch-on-box-bilateral",
+          "source_id": 176283122068822,
+          "imported_steps_match": true
+        },
+        "observation": "Both front and side videos show both feet on the raised box and both heels lowering. Replace the conflicting singular-foot setup with the bilateral support visible in the source video.",
+        "sampling": "Six chronological samples across the full recorded duration of each available female front/side clip.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/176283122068822-side.mp4",
+            "storage_path": "exercises/musclewiki/female/176283122068822-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 9.017,
+            "sample_window_seconds": 9.017,
+            "video_sha256": "213bdbdc6737d0b1e8948a36375f4fdeb7bae69e0b9a01ec259e6731953b4d55",
+            "sample_image": "artifacts/localization/stage-18-video-evidence/4d64425d-a884-4aed-8aac-bc991e9450dc-side.png",
+            "sample_image_sha256": "4c558e3c1d058ed406131d8b2476526b490c349afe4cd877e7d0c3ff38a72f21"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/176283122068822-front.mp4",
+            "storage_path": "exercises/musclewiki/female/176283122068822-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 9.017,
+            "sample_window_seconds": 9.017,
+            "video_sha256": "b68b3cc32a8494a02b91119ca0345cf82cd5a68dd8047046db6c5dbfbeda2e51",
+            "sample_image": "artifacts/localization/stage-18-video-evidence/4d64425d-a884-4aed-8aac-bc991e9450dc-front.png",
+            "sample_image_sha256": "46429a4816ddd5777e29cf144d1902acb7c640bd38954acf861e91bbca26b28e"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-18-video-evidence/4d64425d-a884-4aed-8aac-bc991e9450dc-contact.png",
+            "sha256": "9e5097510c3cb28f5cdfe16b5c7fe9662a812d2a7d2f2703ae0865258db3bff2"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    },
+    {
+      "exercise_id": "c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7",
+      "source_id": 226246923578762,
+      "before": {
+        "name": "Bodyweight Deadlift",
+        "description": "",
+        "steps": [
+          "Stand up straight with a good form.",
+          "Send your hips back and start tilting the upper body.",
+          "Maintain a straight back as you aim for your toes.",
+          "Lower the bar to the floor by bending your knees and keeping your back straight."
+        ]
+      },
+      "after": {
+        "name": "Bodyweight Deadlift",
+        "description": "",
+        "steps": [
+          "Stand upright with good form.",
+          "Push your hips back and hinge your upper body forward.",
+          "Keep your back straight as you reach toward your toes.",
+          "Return to standing by extending your hips and knees while keeping your back straight."
+        ]
+      },
+      "before_hash": "01812c4b2b517088a4308b28b8d5d00e884ec247f66af8724c6fb63edd72d820",
+      "after_hash": "46d946a3b0cae847cbae9bcc73164953d936560665a0ced2016e57b4e7e903aa",
+      "expected_updated_at": "2026-10-14T10:47:30.930558+00:00",
+      "evidence": {
+        "source_url": "https://musclewiki.com/exercise/bodyweight-deadlift",
+        "written_source_status": "Editorial correction from the captured exercise video; not newly retrieved provider wording.",
+        "available_genders": [
+          "female"
+        ],
+        "identity_source": {
+          "file": "scripts/migration/data/female/musclewiki-female-import.json",
+          "sha256": "86de06a23f47bb1ea7ff0c0d6855f3e4dd23886dfe098c9c8354afc9de3d20c8",
+          "source_url": "https://musclewiki.com/exercise/bodyweight-deadlift",
+          "source_id": 226246923578762,
+          "imported_steps_match": true
+        },
+        "observation": "Both front and side videos show a bodyweight hip hinge with no bar or other equipment. Replace the unrelated bar-lowering instruction with the visible return to standing.",
+        "sampling": "Six chronological samples across the full recorded duration of each available female front/side clip.",
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/226246923578762-front.mp4",
+            "storage_path": "exercises/musclewiki/female/226246923578762-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 8.117,
+            "sample_window_seconds": 8.117,
+            "video_sha256": "cb3b3e2748d80ddb9c39146a0ec389a577871cc92a79782757a8ef240e93dd71",
+            "sample_image": "artifacts/localization/stage-18-video-evidence/c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7-front.png",
+            "sample_image_sha256": "6bf61ccf17110f9be107b49432b46d7a54e2d05a47486a63d85c7c931bf81fe8"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/226246923578762-side.mp4",
+            "storage_path": "exercises/musclewiki/female/226246923578762-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 8.117,
+            "sample_window_seconds": 8.117,
+            "video_sha256": "3d6252bbd24207b43a535a2fdd1762468204ab788b567ed2345edf1a3ebface5",
+            "sample_image": "artifacts/localization/stage-18-video-evidence/c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7-side.png",
+            "sample_image_sha256": "895082f583881ec1326a644b7ec48032dc31e2fc7aa64cf2571891fe933bc293"
+          }
+        ],
+        "supplemental_samples": [],
+        "detail_frames": [],
+        "contact_sheets": [
+          {
+            "path": "artifacts/localization/stage-18-video-evidence/c5d150e3-d0f3-45aa-bed5-aa23bb9b5eb7-contact.png",
+            "sha256": "cf09f7b78fd85f298dfffa67e91d8f8e65f9ce02f2c9c726e1a2512ef107d038"
+          }
+        ]
+      },
+      "translation_decision": "ready",
+      "remaining_issue": null
+    }
+  ],
+  "sourceHashBefore": "715e6a6794ca89fb4e9a0a1de4dbad06c92b663eb603c31d8545e7f082093109",
+  "sourceHashAfter": "67e13961fcbce18b06b4a95c7f0b3c374e4eec981cf95783ded85dd1ca0d60fc"
+}

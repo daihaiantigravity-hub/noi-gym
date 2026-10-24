@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Read the captured English blocks and six chronological samples from every available front/side source clip for these 16 exercises: 56 clips, 336 frame samples. Twelve exercises have male and female clips; four have female clips only. Corrections are editorial descriptions grounded in the observed load, stance and movement, not recovered provider wording. Preserve existing numeric cues and illustrative left/right sequences; do not add load, rep, set, angle or platform-height prescriptions.",
+  "decisions": [
+    {
+      "exercise_id": "047cffd7-9605-4321-b2c9-8fda59ecc2b0",
+      "sourceName": "Dumbbell Single Leg Stiff Leg Deadlift",
+      "changeReason": "Both genders balance on one foot while the other leg extends behind them during the hinge, with one dumbbell in each hand. Replace the contradictory simultaneous one-leg/shoulder-width stance and clarify that both dumbbells lower. Retain the source's slightly bent standing knee and controlled return.",
+      "steps": [
+        "Stand on one leg, holding one dumbbell in each hand, and lift your other foot off the floor.",
+        "Hinge at the hips to lower the dumbbells towards the ground as your lifted leg extends behind you, keeping your back straight and your core engaged.",
+        "Once you feel a stretch in your hamstring, slowly return to the starting position.",
+        "Make sure to keep your standing leg slightly bent and avoid rounding your back as you lower the dumbbells."
+      ]
+    },
+    {
+      "exercise_id": "28e888f8-2dba-4bf2-91e5-ad4fcbb9a2b6",
+      "sourceName": "Plate Reverse Lunge",
+      "changeReason": "Both genders hold the plate at the chest and step one leg backward while the thigh of the supporting front leg lowers toward horizontal. Correct the thigh reference in each of the source's left-back/right-back examples; retain both existing 90-degree knee cues.",
+      "steps": [
+        "Hold the plate at chest height close to your body",
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your left thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ]
+    },
+    {
+      "exercise_id": "45d19ab5-5287-4ec9-808b-16a31a4a3ab4",
+      "sourceName": "Dumbbell Step Up",
+      "changeReason": "Both genders keep two dumbbells down at their sides throughout the step-up and descent. Replace only the copied barbell-at-shoulders cue; retain the source's illustrative right-up/left-down sequence.",
+      "steps": [
+        "Stand in front of a step or bench with your feet shoulder-width apart and hold two dumbbells on your side with a neutral grip.",
+        "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench.",
+        "Bring your left foot up onto the bench and stand up straight, keeping the dumbbells at your sides.",
+        "Step back down with your left foot, followed by your right foot, to return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "4a566f1f-139f-46fe-996b-3ac6f638db39",
+      "sourceName": "Kettlebell Front Rack Lateral Lunge (Double)",
+      "changeReason": "Both genders hold one kettlebell at each shoulder in front rack and shift into a side lunge from a wide stance, bending the loaded-side knee while the opposite leg stays extended. Make the two loads and the lateral leg roles explicit rather than copying a singular-kettlebell setup.",
+      "steps": [
+        "Hold one kettlebell in each hand at the front of your shoulders in a front rack position.",
+        "From a wide stance, bend one knee and shift your hips toward that side into a lateral lunge, keeping the other leg extended.",
+        "Return to start position. Repeat."
+      ]
+    },
+    {
+      "exercise_id": "4ef9719e-0d46-4e1c-90b7-b7e83aadb7f5",
+      "sourceName": "Barbell Split Squat",
+      "changeReason": "Both genders keep the barbell across the upper back in a fixed split stance, with both knees bending on descent. Establish the visible load placement and replace the contradictory straight-rear-leg cue with a bent rear knee; retain the existing 90-degree front-knee cue.",
+      "steps": [
+        "With a barbell resting across your upper back, take a large step forward with one leg and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back knee should also be bent.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "5c502938-784a-49bf-ad97-eb1a5645bc4f",
+      "sourceName": "Dumbbell Reverse Lunge",
+      "changeReason": "The two available female views show dumbbells at the sides and the rear-stepping leg lowering behind the supporting front leg. Correct only the front-thigh reference in each left/right example; keep both existing 90-degree cues. No male clip exists for this ID.",
+      "steps": [
+        "Hold two dumbbells by your side.",
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your left thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ]
+    },
+    {
+      "exercise_id": "69cbf422-16b3-488a-8b7e-45fd60765289",
+      "sourceName": "Kettlebell Front Rack Reverse Lunge (Double)",
+      "changeReason": "Both genders keep one kettlebell at each shoulder while stepping backward and returning. Correct the singular-kettlebell front-rack setup to the visible pair; the remaining source movement sequence is retained.",
+      "steps": [
+        "Start with one kettlebell in each hand at the front of your shoulders in a front rack position.",
+        "Step back into lunge.",
+        "Return to start position."
+      ]
+    },
+    {
+      "exercise_id": "808d6754-42ba-4127-b1e1-01128b341408",
+      "sourceName": "Bodyweight Reverse Lunge",
+      "changeReason": "Both genders perform an unloaded backward step while the front leg supports the descent and return. Correct the thigh side in each illustrative left-back/right-back example, keeping the original knee-angle quantities.",
+      "steps": [
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your left thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ]
+    },
+    {
+      "exercise_id": "b81f705b-f24b-402e-abc4-624a6644aaf4",
+      "sourceName": "Trap Bar Split Squat",
+      "changeReason": "Both genders hold the trap-bar handles down at their sides while both knees bend in the fixed split stance. Establish that load support and correct only the contradictory straight-rear-leg cue; keep the original front-knee angle.",
+      "steps": [
+        "Hold the trap bar handles at your sides, take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back knee should also be bent.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "b9140f5f-4d1d-4aef-b1e5-7f5e568dd053",
+      "sourceName": "Dumbbell Goblet Reverse Lunge",
+      "changeReason": "The two available female views show one goblet dumbbell at the chest and the front thigh lowering while the opposite leg steps back. Correct the thigh side in each existing left/right example; retain both angle cues. No male clip exists for this ID.",
+      "steps": [
+        "Hold a dumbbell in a goblet position.",
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+        "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your left thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+      ]
+    },
+    {
+      "exercise_id": "c125fd45-3152-4288-bf78-10d17dbe52d1",
+      "sourceName": "Kettlebell Alternating Reverse Lunge",
+      "changeReason": "Both genders keep two kettlebells at their sides while alternating backward steps. In the source's left-back example the right/front thigh, not the left/rear thigh, approaches horizontal. Correct that one body-side reference and keep the existing angle and alternating sequence.",
+      "steps": [
+        "Hold two kettlebells by your side.",
+        "Take a big step backwards with your left leg, lowering your body until your right thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+        "Push back up and switch legs, alternating each rep."
+      ]
+    },
+    {
+      "exercise_id": "d83ffcc8-889f-4f39-adb3-440e6b32b201",
+      "sourceName": "Dumbbell Split Squat",
+      "changeReason": "The two available female views show one dumbbell at each side, not a single goblet dumbbell, and both knees bend in the fixed split stance. Correct both the copied load placement and straight-rear-leg cue. This remains distinct from the goblet variant's ID and media; no male clip exists for this ID.",
+      "steps": [
+        "Hold one dumbbell in each hand at your sides.",
+        "Take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back knee should also be bent.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "d9178084-b721-4759-8a1a-fcf2d29b8036",
+      "sourceName": "Kettlebell Step Up Double",
+      "changeReason": "Both genders keep one kettlebell in each hand at their sides during the step-up. Replace the one-arm/single-kettlebell setup and its ambiguous arm/leg correspondence with the visible two-load setup; preserve the stand-up and slow-descent sequence.",
+      "steps": [
+        "Stand tall in front of a bench with one kettlebell in each hand at your sides, then place one foot onto the bench.",
+        "Stand and bring both feet onto the bench. Slowly lower your leg back down to the starting position.",
+        "Repeat."
+      ]
+    },
+    {
+      "exercise_id": "da3e9114-11c7-415c-9202-2f8debf8d0f3",
+      "sourceName": "Dumbbell Deficit Reverse Lunge",
+      "changeReason": "Both genders hold a dumbbell in each hand at their sides while stepping back from a low plate/platform and returning. Correct only the final copied bar cue to the actual dumbbells; preserve the stated platform and stance setup.",
+      "steps": [
+        "Stand on a platform, dumbbells in both hands, feet hip-width apart.",
+        "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+        "Push through front foot, return to start, keeping the dumbbells stable at your sides throughout."
+      ]
+    },
+    {
+      "exercise_id": "df85c495-a531-4231-b477-5b0ee40c3cf3",
+      "sourceName": "Kettlebell Forward Lunge (Double)",
+      "changeReason": "Both genders hold a kettlebell in each hand at their sides throughout the forward lunge. Correct the singular load setup to the observed pair; keep the step-forward/return/other-leg sequence.",
+      "steps": [
+        "Hold one kettlebell in each hand at your sides.",
+        "Step forward, lunge, and return.",
+        "Repeat with opposite leg."
+      ]
+    },
+    {
+      "exercise_id": "e725041c-90a9-4dea-a3be-a9aa42c5abd4",
+      "sourceName": "Dumbbell Goblet Split Squat",
+      "changeReason": "The two available female views show a single goblet dumbbell at the chest, with both knees bending in the fixed split stance. Retain that load placement and correct only the straight-rear-leg cue, preserving the existing front-knee angle. No male clip exists for this ID.",
+      "steps": [
+        "Hold a dumbbell in a goblet position.",
+        "Take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back knee should also be bent.",
+        "Push through the heel of your front foot to raise your body back to the starting position."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "input": "scripts/localization/data/pilot-translations.json",
+  "reviewMethod": "Compared each translated name, description and instruction with its captured source. Confirmed source language, instruction order, counts, directions and equipment terminology. Source data remains unchanged.",
+  "approvedExerciseIds": [
+    "78605e6c-7e64-4a11-ad07-d72080eae0c9",
+    "c2f09baa-0967-46e7-83dd-dda4438be9f1",
+    "115a4318-8a2b-44c6-82d8-d77a61ca613f",
+    "c008f45e-793a-442f-b275-efafbdc29129",
+    "585a28f0-ba73-46f0-bd68-7e7f1af59bc0",
+    "fb03899f-016c-4357-88ad-4546cb3e8603",
+    "d809b6a7-3d91-41fe-802c-d480d52309d7",
+    "044ee271-a6cb-4a32-b463-d5b5d133428b",
+    "2c4ca960-ab89-4b48-8ec3-8e83c87db631",
+    "e87600cd-8d9c-40a6-b65e-3a58f8c01d6e",
+    "7f13bf67-7af7-4741-b881-5a8222efeeb0",
+    "8d07c7fd-80bf-4a23-9f80-b4410e7522e3",
+    "993d5495-0199-4688-a3e7-4f623dd974d3",
+    "bded7e67-8e50-49bf-bf5d-74f40898b523",
+    "109ef4a2-ec2e-4e19-a433-5347ac322eaa",
+    "9e424135-66c7-4ebf-99da-21ea58832265",
+    "2b2100af-6333-438b-be2b-dc453c9428d4",
+    "b34f85bb-6d45-4c9d-85fd-ec40a6d5ec55",
+    "002533bf-c52b-40e5-8796-67f29ae62cb7",
+    "06727728-51d9-422a-a3d5-0864962023ae",
+    "e95566a7-b5fe-4bb4-b459-98854bac2535",
+    "b25e8fb2-ee50-44ef-8b2d-08a32a498347",
+    "3f556e95-57da-424b-9206-586aa724ee95",
+    "1739b4c2-75ee-415e-977d-e4aa74ce2852",
+    "48496301-39b8-4525-9b72-52620a27947e",
+    "cabed3d4-47ec-49e6-a178-4c5d6e895fa0",
+    "4e4a8bc6-a242-4a79-ab64-061c18e22dd0",
+    "005d862e-beca-4b8d-a4f6-eedbe06f72a3",
+    "0111ab7f-c28b-4deb-93b0-1a28cdc9c275",
+    "5382802c-5582-45a8-9759-27574cbab2ba"
+  ],
+  "corrections": {
+    "2c4ca960-ab89-4b48-8ec3-8e83c87db631": { "name": "Nâng thân tập cơ mông và đùi sau" },
+    "4e4a8bc6-a242-4a79-ab64-061c18e22dd0": {
+      "stepIndex": 1,
+      "text": "Co gối, rồi nâng thanh tạ lên khi duỗi thẳng người. Chú ý giữ lưng thẳng.",
+      "reason": "Render straightening your back as straightening the torso while preserving the explicit straight-back instruction."
+    }
+  }
+}

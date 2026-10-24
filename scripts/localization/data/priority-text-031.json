@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared all remaining cardio source steps, preserving left/right, support leg, treadmill direction, machine names, speed cues and step order. Held Ski Erg because its instructions duplicate the unrelated skater-to-single-leg-burpee exercise.",
+  "translations": [
+    {
+      "index": 301,
+      "sourceName": "Cardio Single Leg Lateral Hop",
+      "name": "Bật một chân sang ngang",
+      "steps": [
+        "Nhấc một chân khỏi sàn.",
+        "Bật nhanh sang ngang, giữ tiếp xúc trên mũi chân."
+      ],
+      "exercise_id": "326aeb19-ff46-4bba-a16b-cefae2939961"
+    },
+    {
+      "index": 302,
+      "sourceName": "Cardio Skater",
+      "name": "Bật ngang kiểu trượt băng",
+      "steps": [
+        "Đứng giữ thăng bằng trên chân phải, chân trái phía sau và gối hơi co.",
+        "Bật sang trái, tiếp đất bằng chân trái, chân phải phía sau và vung tay.",
+        "Tiếp tục bật qua lại, giữ thăng bằng và tốc độ như vận động viên trượt băng tốc độ."
+      ],
+      "exercise_id": "889e81ec-ea3d-4f8c-bdb7-e59986207bc4"
+    },
+    {
+      "index": 303,
+      "sourceName": "Cardio Skater To Single Leg Burpee",
+      "name": "Bật trượt băng kết hợp burpee một chân",
+      "steps": [
+        "Bật sang ngang, tiếp đất bằng chân phải, chân trái phía sau lệch sang bên.",
+        "Hạ vào động tác burpee một chân, chỉ dùng chân phải, đặt tay xuống sàn.",
+        "Trở về đứng trên chân phải, bật sang trái rồi lặp lại với chân trái."
+      ],
+      "exercise_id": "ebfa623f-886c-46eb-937d-979d92cca20a"
+    },
+    {
+      "index": 305,
+      "sourceName": "Cardio Sprint In Place",
+      "name": "Chạy nước rút tại chỗ",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông, gối hơi co và sẵn sàng di chuyển.",
+        "Nhanh chóng luân phiên nâng gối về ngực, đánh tay theo nhịp.",
+        "Tăng tốc dần, giữ gối nâng cao và tay chuyển động, thở đều."
+      ],
+      "exercise_id": "55e9e88b-90f6-4f31-b7e0-1043a1980da4"
+    },
+    {
+      "index": 306,
+      "sourceName": "Cardio Step Out Jacks",
+      "name": "Bước tách chân vung tay",
+      "steps": [
+        "Đứng thẳng, hai chân sát nhau, tay bên thân và sẵn sàng di chuyển.",
+        "Bước chân phải ra ngoài, đồng thời nâng tay qua đầu.",
+        "Thu chân phải vào, hạ tay rồi lặp lại bên trái, giữ nhịp."
+      ],
+      "exercise_id": "77ff9733-a639-46c3-a8d8-6ae86d7e1bb7"
+    },
+    {
+      "index": 307,
+      "sourceName": "Cardio Three Step Heismans",
+      "name": "Bước Heisman ba nhịp",
+      "steps": [
+        "Bắt đầu với hai chân rộng bằng vai.",
+        "Giữ trên mũi chân, bước sang phải, chạm mũi chân trái xuống sàn, đặt vững chân phải rồi nâng chân trái.",
+        "Sau đó lặp lại theo hướng đối diện."
+      ],
+      "exercise_id": "92688586-0a17-4a65-897b-efd438ec26a6"
+    },
+    {
+      "index": 308,
+      "sourceName": "Curve Treadmill",
+      "name": "Đi bộ trên máy chạy bộ cong",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để đi bộ."
+      ],
+      "exercise_id": "aae100e0-9e66-429a-973e-c77ed834eb6b"
+    },
+    {
+      "index": 309,
+      "sourceName": "Elliptical",
+      "name": "Tập máy elip",
+      "steps": [
+        "Bước lên bàn đạp, nắm tay cầm và bắt đầu di chuyển chân theo bước tự nhiên.",
+        "Điều chỉnh kháng lực và độ dốc theo cường độ mong muốn, giữ chuyển động đều và có kiểm soát.",
+        "Giữ tư thế thẳng, siết cơ trung tâm và duy trì nhịp ổn định để tập hiệu quả."
+      ],
+      "exercise_id": "b0dc8fe3-12d1-4d09-82c1-ba71f4bdebd1"
+    },
+    {
+      "index": 310,
+      "sourceName": "Jump Rope",
+      "name": "Nhảy dây",
+      "steps": [
+        "Giữ tay cầm, khuỷu tay sát thân và bật nhảy bằng cả hai chân cùng nhau.",
+        "Xoay cổ tay để vung dây qua đầu.",
+        "Bật nhảy khi dây đến chân, giữ nhịp đều."
+      ],
+      "exercise_id": "ce4a1129-217d-47af-96e6-f982a58516c0"
+    },
+    {
+      "index": 311,
+      "sourceName": "Stair Climber",
+      "name": "Tập máy leo cầu thang",
+      "steps": [
+        "Bước lên bậc, nắm nhẹ tay cầm, giữ người cao và cột sống trung tính.",
+        "Đạp qua giữa bàn chân, bước luân phiên mượt và tránh tì nhiều trọng lượng lên tay cầm.",
+        "Đặt nhịp vừa phải, thở theo nhịp và giữ đầu gối thẳng hướng với mũi chân."
+      ],
+      "exercise_id": "f227bd68-7e21-4f02-92cd-5c3519e47557"
+    },
+    {
+      "index": 312,
+      "sourceName": "Stationary Bike",
+      "name": "Đạp xe tại chỗ",
+      "steps": [
+        "Nắm tay cầm và giữ cột sống trung tính.",
+        "Đạp với nhịp vừa phải, cố gắng hạn chế lắc người tới lui."
+      ],
+      "exercise_id": "95812dd2-9e16-4ed9-a60d-f8c0564720b7"
+    },
+    {
+      "index": 313,
+      "sourceName": "Toe Tap",
+      "name": "Chạm mũi chân lên bục",
+      "steps": [
+        "Đứng trước bục thấp.",
+        "Đưa một bàn chân lên mép bục, luân phiên hai chân nhanh nhất có thể.",
+        "Chỉ chạm chân nhẹ vào bục."
+      ],
+      "exercise_id": "7f0cd7d6-c7f4-4930-a0c6-baab9c989b8b"
+    },
+    {
+      "index": 314,
+      "sourceName": "Treadmill Backwards Walk",
+      "name": "Đi bộ lùi trên máy chạy bộ",
+      "steps": [
+        "Quay mặt về hướng ngược lại trên máy chạy bộ.",
+        "Bám tay vịn để giữ thăng bằng.",
+        "Đi lùi, đẩy các ngón chân về phía mũi giày."
+      ],
+      "exercise_id": "f3ea89ae-907e-426c-9372-1a666d4bcd0a"
+    },
+    {
+      "index": 315,
+      "sourceName": "Treadmill Jog",
+      "name": "Chạy bộ nhẹ trên máy",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để chạy nhẹ."
+      ],
+      "exercise_id": "869f8e9a-21bf-4e73-969e-71d000e9f3a3"
+    },
+    {
+      "index": 316,
+      "sourceName": "Treadmill Side Shuffle",
+      "name": "Bước ngang trên máy chạy bộ",
+      "steps": [
+        "Quay người ngang trên máy chạy bộ.",
+        "Vào tư thế squat một phần tư biên độ với hai chân mở rộng.",
+        "Di chuyển ngang trong thời gian được chỉ định rồi đổi bên."
+      ],
+      "exercise_id": "cf8e54c9-1b40-4504-be4c-cb77b5dcac55"
+    },
+    {
+      "index": 317,
+      "sourceName": "Treadmill Sprint",
+      "name": "Chạy nước rút trên máy",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ để chạy nước rút."
+      ],
+      "exercise_id": "b24099f0-2a2d-4699-b21f-94ceea1b9eb0"
+    },
+    {
+      "index": 318,
+      "sourceName": "Treadmill Walk",
+      "name": "Đi bộ trên máy chạy bộ",
+      "steps": [
+        "Đưa máy chạy bộ đến tốc độ thoải mái để đi bộ."
+      ],
+      "exercise_id": "490d5e7a-69d6-4049-998d-d5e6f8c61e21"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 304,
+      "sourceName": "Cardio Ski Erg",
+      "reason": "All steps duplicate Cardio Skater To Single Leg Burpee, describing sideways leaps and a single-leg burpee without any Ski Erg handles or machine use. Restore correct source instructions before translation.",
+      "exercise_id": "eb589db7-6217-4ecb-b087-7fab222e4942"
+    }
+  ]
+}

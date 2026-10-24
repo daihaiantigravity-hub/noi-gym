@@ -1,10 +1,14 @@
 "use client";
 
 import { useSavedExercise } from "@/lib/exercises/use-saved-exercise";
+import { useAppLanguage } from "@/components/LanguageProvider";
+import { getMessages } from "@/lib/i18n/messages";
 
 export default function ExerciseDetailSaveButton({ exerciseId, exerciseName }: { exerciseId: string; exerciseName: string }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const { error, isLoading, isPending, isSaved, toggleSaved } = useSavedExercise(exerciseId);
-  const label = `${isSaved ? "Remove saved exercise" : "Save exercise"} ${exerciseName}`;
+  const label = `${isSaved ? messages.removeSavedExercise : messages.saveExercise} ${exerciseName}`;
 
   return (
     <div className="exercise-detail-topbar__save-control">
@@ -21,7 +25,7 @@ export default function ExerciseDetailSaveButton({ exerciseId, exerciseName }: {
           <path d="M6 3h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1.55.83L12 17.2l-5.45 3.63A1 1 0 0 1 5 20V4a1 1 0 0 1 1-1Z" />
         </svg>
       </button>
-      {error && <p className="exercise-detail-topbar__save-error" role="alert">{error}</p>}
+      {error && <p className="exercise-detail-topbar__save-error" role="alert">{language === "vi" ? messages.favoriteUpdateFailed : error}</p>}
     </div>
   );
 }

@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Compared each Yoga and Pilates source step, retaining breathing, hand/foot supports, left/right, block orientation, numbers and original units. Held mixed pose setups, missing named grips and incompatible support/foot-release instructions.",
+  "translations": [
+    {
+      "index": 122,
+      "sourceName": "Downward Dog",
+      "name": "Tư thế chó úp mặt",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối, hai tay rộng bằng vai và hai gối rộng bằng hông.",
+        "Xòe rộng các ngón tay và ấn lòng bàn tay xuống, để các ngón cách đều và hướng về trước.",
+        "Gập các ngón chân làm điểm tựa, nâng đầu gối khỏi sàn và duỗi chân thẳng nhất có thể.",
+        "Đẩy hông lên và ra sau, đưa cơ thể thành hình chữ V ngược.",
+        "Giữ tay thẳng và hai bả vai tách rộng, cố gắng ấn gót chân về sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, trở về vị trí ban đầu."
+      ],
+      "exercise_id": "d9037d98-fc2c-4c0d-8df3-c7e45e913424"
+    },
+    {
+      "index": 123,
+      "sourceName": "Downward Dog Toe To Heel",
+      "name": "Tư thế chó úp mặt đặt mũi chân lên gót chân",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, hai tay rộng bằng vai và hai chân rộng bằng hông.",
+        "Nhấc bàn chân phải khỏi thảm, đặt các ngón chân phải lên gót chân trái.",
+        "Ấn chắc lòng bàn tay và ngón tay vào thảm, nâng hông lên phía trần để tăng mức giãn cơ đùi sau và bắp chân.",
+        "Giữ trong vài nhịp thở rồi thả tư thế bằng cách từ từ bước tay trở ra về tư thế chó úp mặt."
+      ],
+      "exercise_id": "9025db3b-4574-469a-9a98-5b10843b07e0"
+    },
+    {
+      "index": 124,
+      "sourceName": "Downward Dog With Fingers Facing Feet",
+      "name": "Tư thế chó úp mặt với ngón tay hướng về chân",
+      "steps": [
+        "Bắt đầu với hai tay và hai gối trên sàn, giống tư thế khởi đầu của bài trước.",
+        "Xòe rộng các ngón tay, xoay bàn tay để ngón tay hướng về bàn chân.",
+        "Gập các ngón chân làm điểm tựa, nâng đầu gối khỏi sàn và duỗi chân thẳng nhất có thể.",
+        "Đẩy hông lên và ra sau, đưa cơ thể thành hình chữ V ngược.",
+        "Giữ tay thẳng và hai bả vai tách rộng, cố gắng ấn gót chân về sàn.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, trở về vị trí ban đầu."
+      ],
+      "exercise_id": "c03f0eba-1740-468d-9878-fe5e9fd8a4c6"
+    },
+    {
+      "index": 125,
+      "sourceName": "Eagle Arms Chin Into Chest",
+      "name": "Tay đại bàng thu cằm về ngực",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn, đưa hai tay sang bên ngang vai.",
+        "Bắt chéo tay phải qua tay trái, co cả hai khuỷu tay để cẳng tay song song với sàn.",
+        "Nâng khuỷu tay về phía trần, đưa hai bàn tay lại gần nhau rồi hạ cằm về ngực.",
+        "Giữ trong vài nhịp thở rồi thả hai tay, lặp lại bên kia."
+      ],
+      "exercise_id": "c8fdceb0-a756-429e-b3cd-ee19f7c5e4c7"
+    },
+    {
+      "index": 126,
+      "sourceName": "Easy Pose Neck Stretch",
+      "name": "Ngồi xếp bằng giãn cổ",
+      "steps": [
+        "Bắt đầu ngồi bắt chéo chân trên sàn.",
+        "Từ từ hạ cằm về ngực, cảm nhận giãn phía sau cổ.",
+        "Hít vào và nâng đầu lên, sau đó thở ra và hạ tai phải về vai phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại động tác giãn."
+      ],
+      "exercise_id": "cbc675c5-e926-4ddf-a923-f58d3e682094"
+    },
+    {
+      "index": 127,
+      "sourceName": "Extended side Angle Pose With Block",
+      "name": "Tư thế góc nghiêng duỗi với gạch yoga",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân, chân phải phía trước và chân trái phía sau.",
+        "Đặt gạch yoga bên ngoài bàn chân phải và đặt tay phải lên gạch.",
+        "Nhìn xuống bàn chân phải khi vươn tay trái về phía trước phòng, cảm nhận giãn bên thân. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "66ee2738-1643-4c98-b19e-3308633597f6"
+    },
+    {
+      "index": 128,
+      "sourceName": "extended-side-angle-pose",
+      "name": "Tư thế góc nghiêng duỗi",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân, chân phải phía trước và chân trái phía sau.",
+        "Đặt tay phải lên gạch yoga hoặc trên sàn bên ngoài bàn chân phải.",
+        "Vươn tay trái qua đầu rồi cuộn cong cột sống, đưa bàn tay trái về tai phải.",
+        "Nhìn xuống bàn chân phải khi vươn tay trái về phía trước phòng, cảm nhận giãn bên thân. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "d94ce901-e30d-4242-8c0a-0c920b61f223"
+    },
+    {
+      "index": 130,
+      "sourceName": "Gate Pose Variation Arm Extended on Side",
+      "name": "Tư thế cánh cổng duỗi tay sang bên",
+      "steps": [
+        "Bắt đầu quỳ và duỗi chân phải sang bên.",
+        "Nâng tay phải qua đầu và vươn về phía bên trái phòng.",
+        "Nhẹ nhàng nghiêng người sang trái, đặt tay trái lên đùi trái.",
+        "Nhìn lên tay phải, giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "ba153315-2bff-4c6d-ad7e-3f3fb934684c"
+    },
+    {
+      "index": 132,
+      "sourceName": "Half Monkey Pose",
+      "name": "Tư thế khỉ một nửa",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Bước bàn chân phải lên trước, đặt giữa hai tay.",
+        "Duỗi thẳng chân phải, kéo mũi chân về phía mặt, giữ tay trên sàn để đỡ người.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "exercise_id": "f2f37633-4b4c-416e-8051-5d0c24833150"
+    },
+    {
+      "index": 133,
+      "sourceName": "Half Neck Rolls",
+      "name": "Xoay cổ nửa vòng",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn, đan các ngón tay sau đầu.",
+        "Hạ cằm về ngực và xoay đầu sang phải, đưa tai phải về vai phải.",
+        "Từ từ xoay đầu về giữa rồi sang trái để tai trái gần vai trái.",
+        "Lặp lại qua lại hai bên, giữ vai thả lỏng và thở sâu."
+      ],
+      "exercise_id": "ad0f30d0-6a31-4834-bb67-0b0828f0e460"
+    },
+    {
+      "index": 134,
+      "sourceName": "Happy Baby",
+      "name": "Tư thế em bé hạnh phúc",
+      "steps": [
+        "Nằm ngửa, đầu gối co và bàn chân phẳng trên sàn.",
+        "Nâng bàn chân khỏi sàn, đưa đầu gối về ngực.",
+        "Luồn tay phía trong đầu gối và nắm mép ngoài hai bàn chân.",
+        "Nhẹ nhàng kéo đầu gối về nách và đung đưa sang hai bên trong vài nhịp thở."
+      ],
+      "exercise_id": "57d46217-6ea9-4ad3-9b69-be3b13877826"
+    },
+    {
+      "index": 136,
+      "sourceName": "Lord Of The Dance",
+      "name": "Tư thế vũ công",
+      "steps": [
+        "Bắt đầu đứng thẳng, hai chân rộng bằng hông.",
+        "Chuyển trọng lượng lên chân trái, đưa gót chân phải về mông.",
+        "Đưa tay phải ra sau, nắm phía trong bàn chân phải hoặc cổ chân phải.",
+        "Hít vào, nâng bàn chân phải ra xa mông đồng thời duỗi tay trái về trước. Giữ trong 5-10 nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "c3e20a28-b52e-4e5e-bbcd-c57894a06cbb"
+    },
+    {
+      "index": 137,
+      "sourceName": "Monkey Pose",
+      "name": "Tư thế khỉ",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân thấp, chân phải phía trước và đầu gối trái trên sàn.",
+        "Từ từ trượt đầu gối trái ra sau đồng thời duỗi chân phải về trước, giữ cả hai chân thẳng.",
+        "Hạ người xuống sàn, dùng tay hỗ trợ nếu cần.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "exercise_id": "4bd3a3ae-d497-449a-a12c-12666c853dcd"
+    },
+    {
+      "index": 138,
+      "sourceName": "Mountain",
+      "name": "Tư thế ngọn núi",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng hông và hai tay bên thân.",
+        "Ấn bàn chân xuống sàn và siết cơ chân.",
+        "Nâng ngực, cuộn vai ra sau và hạ xuống.",
+        "Hít sâu, khi thở ra giải phóng mọi căng thẳng trong cơ thể và thả lỏng cơ."
+      ],
+      "exercise_id": "ff187308-b5cd-431f-a6da-2c6c729ecbb2"
+    },
+    {
+      "index": 139,
+      "sourceName": "One Arm Cow Face Pose",
+      "name": "Tư thế mặt bò với một tay",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Co gối trái, đặt bàn chân trái trên sàn gần hông phải.",
+        "Bắt chéo chân phải qua chân trái, xếp hai đầu gối chồng lên nhau.",
+        "Đưa tay trái qua đầu, co khuỷu tay để bàn tay trái vươn về lưng trên. Đưa tay phải ra sau lưng và thử nắm tay trái. Giữ tư thế."
+      ],
+      "exercise_id": "e80a0f28-9a16-4703-b61d-162447681019"
+    },
+    {
+      "index": 141,
+      "sourceName": "Puppy Pose",
+      "name": "Tư thế chó con",
+      "steps": [
+        "Bắt đầu ở tư thế cái bàn với hai tay và hai gối trên sàn.",
+        "Bước tay về trước đồng thời hạ ngực về sàn.",
+        "Giữ hông phía trên đầu gối, duỗi tay ra trước.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "c13c4110-8e8f-49a7-9004-34abc395be06"
+    },
+    {
+      "index": 142,
+      "sourceName": "Pyramid Pose",
+      "name": "Tư thế kim tự tháp",
+      "steps": [
+        "Bắt đầu ở Tadasana, tư thế ngọn núi.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hạ gót chân, giữ mũi chân hướng về trước.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, đặt tay trên sàn hai bên bàn chân phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "exercise_id": "b81cd176-7dde-4dac-81e7-301035442d5b"
+    },
+    {
+      "index": 143,
+      "sourceName": "Pyramid Pose Blocks",
+      "name": "Tư thế kim tự tháp với gạch yoga",
+      "steps": [
+        "Bắt đầu ở Tadasana, tư thế ngọn núi, với hai viên gạch yoga ở đầu thảm.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hạ gót chân, giữ mũi chân hướng về trước.",
+        "Đặt gạch hai bên bàn chân phải ở độ cao cho phép đặt tay lên thoải mái.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, đặt tay lên gạch. Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "exercise_id": "17666070-7073-4452-9135-71589b5ae958"
+    },
+    {
+      "index": 144,
+      "sourceName": "Pyramid Pose Calf Blocks",
+      "name": "Tư thế kim tự tháp giãn bắp chân với gạch yoga",
+      "steps": [
+        "Bắt đầu đứng với một viên gạch đặt nằm và một viên đặt đứng trên thảm.",
+        "Gập người về trước, đặt tay lên viên gạch đứng và phần trước bàn chân lên viên gạch nằm.",
+        "Ấn lòng bàn chân về phía sàn, lặp lại ở mỗi bên."
+      ],
+      "exercise_id": "c05542ff-ce34-4d7c-8146-683fd85b57a0"
+    },
+    {
+      "index": 145,
+      "sourceName": "Pyramid Prayer",
+      "name": "Tư thế kim tự tháp cầu nguyện",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, đặt tay lên bàn, ghế hoặc bề mặt cao phía trước.",
+        "Bước chân ra sau đến khi thân song song với sàn và khuỷu tay tựa trên bề mặt.",
+        "Thả lỏng đầu và cổ, thở sâu.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "b9d6413e-d5c2-4723-9f38-02365debbc15"
+    },
+    {
+      "index": 146,
+      "sourceName": "Reclining Pigeon Pose",
+      "name": "Tư thế bồ câu nằm ngửa",
+      "steps": [
+        "Nằm ngửa, co gối và đặt bàn chân trên sàn.",
+        "Vắt cổ chân phải lên đầu gối trái, tạo hình số bốn.",
+        "Dùng tay nhẹ nhàng kéo đầu gối trái về ngực, cảm nhận giãn ở hông phải.",
+        "Giữ trong vài nhịp thở rồi đổi bên, lặp lại."
+      ],
+      "exercise_id": "70ad93c6-e32b-43fc-9e72-18f98baea35c"
+    },
+    {
+      "index": 149,
+      "sourceName": "Revolved Head To Knee",
+      "name": "Tư thế đầu sát gối xoay người",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Co gối phải, đưa gót chân về vùng đáy chậu.",
+        "Đặt tay trái bên ngoài đầu gối phải và xoay thân sang phải.",
+        "Với tay phải về bàn chân trái, nhìn lên trần. Giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "848336d7-d3c4-4855-aae6-43bf2d75f349"
+    },
+    {
+      "index": 150,
+      "sourceName": "Revolved Side Angle Pose With Prayer Hands",
+      "name": "Tư thế góc nghiêng xoay người chắp tay",
+      "steps": [
+        "Bắt đầu ở tư thế chiến binh II, chân phải phía trước và chân trái phía sau.",
+        "Chắp hai bàn tay ở vị trí cầu nguyện trước ngực.",
+        "Thở ra, xoay thân sang phải và đặt khuỷu tay trái bên ngoài đầu gối phải.",
+        "Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "exercise_id": "f44bb5ee-f91a-4cd7-bd50-aba895c90518"
+    },
+    {
+      "index": 151,
+      "sourceName": "Revolved Side Angle Pose With Prayer Hands Beginner",
+      "name": "Tư thế góc nghiêng xoay người chắp tay cho người mới",
+      "steps": [
+        "Bắt đầu ở tư thế chùng chân thấp, chân phải phía trước và đầu gối trái trên sàn.",
+        "Chắp hai bàn tay ở vị trí cầu nguyện trước ngực.",
+        "Thở ra, xoay thân sang phải và đặt khuỷu tay trái bên ngoài đầu gối phải.",
+        "Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "exercise_id": "83925638-2623-4ac1-85cf-3979e751cf19"
+    },
+    {
+      "index": 152,
+      "sourceName": "Runners Lunge",
+      "name": "Tư thế chùng chân người chạy",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, Adho Mukha Svanasana.",
+        "Bước chân phải lên giữa hai tay.",
+        "Đặt đầu gối trái xuống sàn phía sau, trượt ra sau đến khi cảm thấy giãn cơ gấp hông trái.",
+        "Giữ tay trên sàn hoặc nâng lên cao, giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "exercise_id": "358e37f4-8196-4fed-a783-280556d14fe9"
+    },
+    {
+      "index": 154,
+      "sourceName": "Seated Arm Stretch",
+      "name": "Ngồi giãn tay",
+      "steps": [
+        "Ngồi bắt chéo chân trên sàn.",
+        "Duỗi thẳng tay ra trước, lòng bàn tay hướng về trước.",
+        "Bắt chéo tay phải qua tay trái và đan các ngón tay.",
+        "Đẩy hai bàn tay ra xa thân, giữ trong vài nhịp thở rồi thả ra và lặp lại với tay kia ở trên."
+      ],
+      "exercise_id": "0bdfe9bb-a3a0-4816-9616-3f95e5170d4c"
+    },
+    {
+      "index": 155,
+      "sourceName": "Seated Forward Bend",
+      "name": "Ngồi gập người về trước",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Hít vào và kéo dài cột sống, sau đó thở ra và gập người tại hông, giữ cột sống dài.",
+        "Với tay về bàn chân hoặc cổ chân, giữ khuỷu tay thẳng.",
+        "Giữ trong vài nhịp thở rồi thả tư thế."
+      ],
+      "exercise_id": "1e1d5b12-8000-492d-8bc8-875c7bfeed61"
+    },
+    {
+      "index": 156,
+      "sourceName": "Seated Side Bend Pose",
+      "name": "Tư thế ngồi nghiêng bên",
+      "steps": [
+        "Ngồi thoải mái trên sàn với hai chân bắt chéo.",
+        "Hít vào và nâng tay phải qua đầu.",
+        "Khi thở ra, nghiêng người sang trái và đặt tay trái trên sàn.",
+        "Nhìn lên trần, giữ trong vài nhịp thở. Sau đó đổi bên và lặp lại tư thế."
+      ],
+      "exercise_id": "89937696-86c9-4091-91a1-bea3136d5813"
+    },
+    {
+      "index": 157,
+      "sourceName": "Seated Twist",
+      "name": "Ngồi xoay người",
+      "steps": [
+        "Bắt đầu ngồi với hai chân duỗi ra trước.",
+        "Co gối phải, đặt bàn chân trên sàn cạnh đùi trái.",
+        "Hít vào và vươn tay trái lên trần.",
+        "Thở ra và xoay sang phải, đặt khuỷu tay trái bên ngoài đầu gối phải. Giữ trong vài nhịp thở rồi lặp lại bên kia."
+      ],
+      "exercise_id": "85e8242f-8464-45b5-a10e-5a3d462415eb"
+    },
+    {
+      "index": 158,
+      "sourceName": "Sphinx Pose",
+      "name": "Tư thế nhân sư",
+      "steps": [
+        "Bắt đầu nằm sấp trên thảm yoga hoặc bề mặt thoải mái.",
+        "Đặt khuỷu tay dưới vai, giữ hai cẳng tay song song.",
+        "Ấn chắc lòng bàn tay và cẳng tay xuống sàn để nâng ngực, giữ hông và chân thả lỏng.",
+        "Giữ vai thả lỏng và xa tai. Nhẹ nhàng cuộn bả vai xuống và ra sau để mở ngực.",
+        "Kéo dài cột sống bằng cách nâng đỉnh đầu về phía trần, giữ cằm hơi thu."
+      ],
+      "exercise_id": "158fad3a-92fb-4a63-bbc2-70fc067b96f5"
+    },
+    {
+      "index": 159,
+      "sourceName": "Standing Forward Bend",
+      "name": "Đứng gập người về trước",
+      "steps": [
+        "Đứng hai chân rộng bằng hông.",
+        "Gập người tại hông, đưa hai tay về phía sàn.",
+        "Để đầu buông thả lỏng, cảm nhận giãn phía sau chân.",
+        "Giữ trong vài nhịp thở rồi từ từ cuộn người lên tư thế đứng."
+      ],
+      "exercise_id": "d7e1c2a6-0d31-4bf7-8364-92236bc9b7f4"
+    },
+    {
+      "index": 160,
+      "sourceName": "Standing Forward Bend Blocks",
+      "name": "Đứng gập người với gạch yoga",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, đặt gạch yoga trên sàn phía trước.",
+        "Gập người tại hông và đặt tay lên gạch.",
+        "Để đầu buông thả lỏng, cảm nhận giãn phía sau chân.",
+        "Giữ trong vài nhịp thở rồi từ từ cuộn người lên tư thế đứng."
+      ],
+      "exercise_id": "47bd6e37-6aa4-443e-af1f-0545e6c68ef7"
+    },
+    {
+      "index": 161,
+      "sourceName": "Supine Twist Lying",
+      "name": "Nằm ngửa xoay người",
+      "steps": [
+        "Nằm ngửa, hai tay duỗi sang hai bên.",
+        "Co gối phải và đưa về ngực.",
+        "Từ từ xoay người sang trái, đưa đầu gối phải chéo qua thân về sàn bên trái.",
+        "Nhìn về tay phải, giữ trong vài nhịp thở rồi đổi bên."
+      ],
+      "exercise_id": "cde180d9-822e-4d18-aaf1-2e5bf992a17a"
+    },
+    {
+      "index": 162,
+      "sourceName": "Supported Matsyasana Pose",
+      "name": "Tư thế con cá Matsyasana có hỗ trợ",
+      "steps": [
+        "Ngồi trên sàn, hai chân duỗi ra trước.",
+        "Đặt gạch yoga nằm ngang phía sau, ở gốc cột sống.",
+        "Từ từ ngả lên gạch, dùng cẳng tay hỗ trợ đến khi lưng tựa trên gạch.",
+        "Thả lỏng tay bên thân, lòng bàn tay hướng lên và thở sâu."
+      ],
+      "exercise_id": "95891396-9a7d-49d2-87cc-f63118f04238"
+    },
+    {
+      "index": 163,
+      "sourceName": "Table Top Pose Variation 1",
+      "name": "Tư thế cái bàn biến thể 1",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+        "Xoay tay để ngón tay hướng sang hai cạnh thảm và mu bàn tay đặt trên sàn.",
+        "Giữ tay thẳng, vai xa tai.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "exercise_id": "970cee98-fbc7-48f6-99bd-60110426ad45"
+    },
+    {
+      "index": 164,
+      "sourceName": "Table Top Pose Variation 2",
+      "name": "Tư thế cái bàn biến thể 2",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu ở tư thế cái bàn, chống hai tay và hai gối, hai tay ngay dưới vai và hai gối ngay dưới hông.",
+        "Xoay tay để ngón tay hướng về đầu gối và mu bàn tay đặt trên sàn.",
+        "Giữ tay thẳng, vai xa tai.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "exercise_id": "e8479c79-e4b2-449f-8679-0978c313c3b2"
+    },
+    {
+      "index": 167,
+      "sourceName": "Tree Pose",
+      "name": "Tư thế cái cây",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Chuyển trọng lượng lên chân trái, co gối phải và đặt lòng bàn chân phải vào mặt trong đùi trái.",
+        "Chắp tay trước ngực hoặc nâng qua đầu.",
+        "Giữ trong vài nhịp thở rồi thả tư thế, lặp lại bên kia."
+      ],
+      "exercise_id": "1c1e40e2-7582-493f-9028-0de7055a61c6"
+    },
+    {
+      "index": 168,
+      "sourceName": "Two Arms Cow Face Pose",
+      "name": "Tư thế mặt bò với hai tay",
+      "steps": [
+        "Bắt đầu ngồi thoải mái trên thảm, hai chân bắt chéo và cột sống thẳng.",
+        "Duỗi tay phải lên trần rồi co khuỷu tay, đưa bàn tay phải ra sau đầu.",
+        "Đưa tay trái ra sau lưng, co khuỷu tay và đưa bàn tay trái lên giữa hai bả vai.",
+        "Nắm hai tay sau lưng, cố gắng chạm các đầu ngón tay. Nếu chưa với tới, có thể dùng dây hoặc khăn nối khoảng cách giữa hai tay."
+      ],
+      "exercise_id": "a0e64a0e-8f99-46e6-b624-8570130a0365"
+    },
+    {
+      "index": 169,
+      "sourceName": "Urdhva Dhanurasana Wheel Pose",
+      "name": "Tư thế bánh xe Urdhva Dhanurasana",
+      "steps": [
+        "Nằm ngửa, hai chân cách nhau rộng bằng hông và đầu gối co.",
+        "Đặt hai tay trên sàn cạnh đầu, đầu ngón tay hướng về vai.",
+        "Ấn chân và tay xuống sàn, nâng hông và duỗi thẳng tay.",
+        "Nâng ngực về phía trần, giữ trong vài nhịp thở rồi hạ xuống."
+      ],
+      "exercise_id": "85201fa8-3455-40a3-b14a-782d18725b28"
+    },
+    {
+      "index": 170,
+      "sourceName": "Vajrasana Variation 1",
+      "name": "Tư thế kim cương Vajrasana biến thể 1",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+        "Ngồi về gót chân, đặt lòng bàn tay úp trên đùi với các ngón hướng về đầu gối.",
+        "Thả lỏng vai và thở sâu.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "exercise_id": "1779ed17-59ce-4479-a0f1-15e49ccc5033"
+    },
+    {
+      "index": 171,
+      "sourceName": "Vajrasana Variation 2",
+      "name": "Tư thế kim cương Vajrasana biến thể 2",
+      "steps": [
+        "Người mới bắt đầu.",
+        "Bắt đầu quỳ với hai đầu gối sát nhau, cẳng chân và bàn chân trên sàn.",
+        "Ngồi về gót chân, đặt mu bàn tay trên đùi với các ngón hướng về đầu gối.",
+        "Thả lỏng vai và thở sâu.",
+        "Giữ trong vài nhịp thở hoặc trong khoảng thời gian còn thoải mái."
+      ],
+      "exercise_id": "1d82b2b8-7786-446f-9dd7-6360e2caacf9"
+    },
+    {
+      "index": 172,
+      "sourceName": "Walk Your Downward Dog",
+      "name": "Di chuyển chân trong tư thế chó úp mặt",
+      "steps": [
+        "Bắt đầu ở tư thế chó úp mặt, hai tay rộng bằng vai và hai chân rộng bằng hông.",
+        "Bước chân về phía tay, co gối khi cần để gót chân chạm thảm.",
+        "Ấn lòng bàn tay và ngón tay xuống thảm, nâng hông về phía trần để tăng mức giãn cơ đùi sau và bắp chân.",
+        "Giữ trong vài nhịp thở rồi thả tư thế bằng cách từ từ bước tay trở ra về tư thế chó úp mặt."
+      ],
+      "exercise_id": "ae25ebe4-66a6-4e12-aaf7-9a695b5cd5cb"
+    },
+    {
+      "index": 173,
+      "sourceName": "Warrior One",
+      "name": "Tư thế chiến binh I",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hơi xoay vào trong, giữ chân phải hướng về trước.",
+        "Hít vào, nâng tay qua đầu, sau đó thở ra và co gối phải đến ngay trên cổ chân.",
+        "Giữ trong vài nhịp thở rồi hít vào, trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "exercise_id": "fded0ed5-e7b0-4ca6-b565-2c3c1772ca08"
+    },
+    {
+      "index": 174,
+      "sourceName": "Warrior Three",
+      "name": "Tư thế chiến binh III",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet rồi nhấc khỏi sàn, giữ chân phải hướng về trước.",
+        "Hít vào và vươn tay ra trước, song song với sàn.",
+        "Thở ra, gập người tại hông để thân song song với sàn, duỗi chân trái thẳng ra sau. Giữ tay và chân phải thẳng, giữ tư thế trong vài nhịp thở.",
+        "Hít vào và trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "exercise_id": "fa613ff6-cb64-4bae-9a75-a6b4745c0b4d"
+    },
+    {
+      "index": 175,
+      "sourceName": "Warrior Two",
+      "name": "Tư thế chiến binh II",
+      "steps": [
+        "Bắt đầu ở tư thế ngọn núi, đứng hai chân rộng bằng hông và hai tay bên thân.",
+        "Bước chân trái ra sau khoảng 3-4 feet và hơi xoay vào trong, giữ chân phải hướng về trước.",
+        "Hít vào và nâng tay ngang vai, song song với sàn, lòng bàn tay hướng xuống.",
+        "Thở ra, co gối phải đến ngay trên cổ chân, giữ chân trái thẳng.",
+        "Nhìn qua tay phải, giữ trong vài nhịp thở rồi hít vào và trở về tư thế ngọn núi. Lặp lại bên kia."
+      ],
+      "exercise_id": "c93f03a9-a0eb-4e03-b96a-0e09a2163750"
+    },
+    {
+      "index": 176,
+      "sourceName": "Wide Legged Forward Fall",
+      "name": "Đứng rộng chân gập người với tay sau lưng",
+      "steps": [
+        "Bắt đầu đứng ở đầu thảm, hai chân mở rộng.",
+        "Đan các ngón tay sau lưng, hít vào để mở ngực.",
+        "Thở ra và gập người tại hông, đưa tay lên qua đầu về phía sàn.",
+        "Giữ trong vài nhịp thở rồi thả tay và trở lại tư thế đứng."
+      ],
+      "exercise_id": "a130844b-c351-4ca9-afc3-7523cb70101d"
+    },
+    {
+      "index": 179,
+      "sourceName": "Yogi Arm Clock",
+      "name": "Giãn tay yoga theo các góc đồng hồ",
+      "steps": [
+        "Đứng đối diện tường, duỗi tay và ấn lòng bàn tay lên tường ngang vai.",
+        "Từ từ bước chân ra xa tường, giữ tay thẳng và bàn tay ấn vào tường.",
+        "Bước đến khi tay duỗi hoàn toàn và cơ thể tạo góc 45 độ với sàn.",
+        "Lặp lại từ góc cao xuống thấp, bắt đầu phía trên vai và kết thúc phía dưới ngực."
+      ],
+      "exercise_id": "b0d30fea-4a36-418a-b5a5-a103749069f4"
+    },
+    {
+      "index": 180,
+      "sourceName": "Arms Pulling Straps Plow Prone On The Box",
+      "name": "Nằm sấp trên hộp kéo dây kiểu cày trong Pilates",
+      "steps": [
+        "Nằm sấp trên hộp, ngực hơi vượt mép hộp, hai tay giữ dây phía trên đầu.",
+        "Bắt đầu với hai tay duỗi dài, lòng bàn tay hướng xuống, vai hạ và cổ trung tính.",
+        "Kéo tay xuống về phía hông, siết cơ xô và giữ thân ổn định.",
+        "Từ từ trở về vị trí ban đầu, giữ kiểm soát và lực căng liên tục trên dây."
+      ],
+      "exercise_id": "b5e7f064-7ee3-4d22-9075-13c0da274a92"
+    }
+  ],
+  "sourceExceptions": [
+    {
+      "index": 121,
+      "sourceName": "Double Pigeon Pose",
+      "reason": "Source starts with both legs straight, bends only the right knee and stacks it on the left ankle, then presses both knees down. Verify the missing left-leg folding and stacking order.",
+      "exercise_id": "3b04d689-6830-4946-9ea2-f73e926102cb"
+    },
+    {
+      "index": 129,
+      "sourceName": "Gate Pose Rounding Spine Looking Up",
+      "reason": "Title says looking up but steps look down at the kneeling-side foot with mixed arm directions. Verify gaze and supported side.",
+      "exercise_id": "078576ac-b424-4c81-aa9d-0c919e937dd9"
+    },
+    {
+      "index": 131,
+      "sourceName": "Half Lotus",
+      "reason": "Half-lotus title is followed by placing both feet on opposite thighs. Verify half versus full lotus rather than altering the leg setup.",
+      "exercise_id": "bd843d68-7f5d-4dcc-a870-e839427a10a3"
+    },
+    {
+      "index": 135,
+      "sourceName": "Headstand",
+      "reason": "Instructions walk feet toward the head and then straighten legs without establishing the foot lift or weight-transfer sequence into the inverted balance. Verify the transition before review.",
+      "exercise_id": "889058f1-8343-477e-89ab-833177608803"
+    },
+    {
+      "index": 140,
+      "sourceName": "Pigeon Pose",
+      "reason": "The same right leg must extend behind the body and place its ankle on the left thigh. Verify leg assignment and starting pose.",
+      "exercise_id": "2091cc69-6557-48c9-a6d2-a2f2e70a563d"
+    },
+    {
+      "index": 147,
+      "sourceName": "Restful Cow Face Pose Legs",
+      "reason": "Instructions cross right over left and then left over right without explaining the lower-leg repositioning. Verify final knee stack and leg order.",
+      "exercise_id": "d78dd7b1-3296-48d7-aa1f-89777f00b8d6"
+    },
+    {
+      "index": 148,
+      "sourceName": "Reverse Prayer",
+      "reason": "Named reverse-prayer pose instead interlaces fingers with palms up behind the back. Verify intended hand configuration.",
+      "exercise_id": "c9efa90c-6348-4cdc-b471-ac78acaa2ce5"
+    },
+    {
+      "index": 153,
+      "sourceName": "Scorpion Twist Pose",
+      "reason": "Source lifts one leg, asks for a firm grip with toes near the head, then requires feet firmly planted on the ground. Verify supports and pose transition.",
+      "exercise_id": "090eb4c5-a2a8-48ab-8665-9a47159852fd"
+    },
+    {
+      "index": 165,
+      "sourceName": "Table Top Pose Variation 3",
+      "reason": "Palms remain on the mat throughout, but release says to lower the hands back to the mat. Verify whether any hand-lift variation is intended.",
+      "exercise_id": "16b32320-269a-4c51-b8ce-1b9b8693c4a6"
+    },
+    {
+      "index": 166,
+      "sourceName": "Thread The Needle Hip Over Knees",
+      "reason": "Title requires hips over knees but steps move into a pigeon-like leg setup and twist right while threading right arm under left. Verify leg support and rotation direction.",
+      "exercise_id": "5c79fcfe-1510-47b8-a966-52f133f2cf3e"
+    },
+    {
+      "index": 177,
+      "sourceName": "Wide Legged Standing Forward Bend Holding Heels",
+      "reason": "Heel-holding variant omits heel grip and instead sends hands overhead, apparently copied from the bound-hands forward fold. Verify the named grip.",
+      "exercise_id": "f98f8ba1-005a-4c83-9926-1d956a471333"
+    },
+    {
+      "index": 178,
+      "sourceName": "Wild Thing Pose",
+      "reason": "Source shifts from left-hand support to right-hand support while opening the chest, then looks at the supporting right hand. Verify supporting versus reaching hand and lifted-leg transition.",
+      "exercise_id": "847edd28-c001-47e8-8a2b-d1a4552d438b"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "kind": "video-reviewed-instruction-correction",
+  "reviewMethod": "Reviewed 28 remaining Bodyweight/uncategorized sources using all 110 available clips (660 chronological frames), 72 supplemental temporal samples and eight original-resolution detail frames. Accepted 27 sources with 106 clips, 636 primary frames, 72 supplemental samples and six detail frames (714 accepted-source frames); deferred the ulnar-nerve tensioner rather than infer hand rotation. Every accepted correction keeps source name, description and step count. Corrections describe observed equipment, support, motion and gender variants, not recovered provider wording. No categories, media, IDs, timestamps, loads, measured angles, sets or repetition counts are changed or inferred.",
+  "deferred": [
+    {
+      "exercise_id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62",
+      "sourceName": "Seated Ulnar Nerve Tensioner",
+      "reason": "Reviewed both genders and angles plus original-resolution frames. The source conflates elbow/wrist bending with palm rotation and proposes pressing the palm against the face. The precise forearm rotation and intended hand contact are not resolved sufficiently to edit this nerve-tensioning guide from visual inference alone. Keep source and translation status unchanged pending a precise written source or qualified review.",
+      "translation_decision": "hold",
+      "evidence": {
+        "sourceUrl": "https://musclewiki.com/exercise/seated-ulnar-nerve-tensioner",
+        "sourceId": 172429706755604,
+        "stepCount": 4,
+        "videos": [
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/172429706755604-front.mp4",
+            "storage_path": "exercises/musclewiki/172429706755604-front.mp4",
+            "gender": "male",
+            "angle": "front",
+            "duration": 14.017,
+            "video_sha256": "a9c298deddd42c8f2dbc543586f60e239c02f70367fe2c2db39427aa2ee1f09b",
+            "sample_image_sha256": "6fcfdf7a162af5184ba645a2415a8cff4de85530c754b0c3179e3becf2541485"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/172429706755604-side.mp4",
+            "storage_path": "exercises/musclewiki/172429706755604-side.mp4",
+            "gender": "male",
+            "angle": "side",
+            "duration": 14.017,
+            "video_sha256": "fb9ff44d60bfa3a221b7d5de1f35d37dcc4bbfeabfb19736b4083a82b31b1b4a",
+            "sample_image_sha256": "3fdb1a3eb56ac8415830d4afd09edf6cd5b74bc700bcbcdde16ce479cdc37f1e"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/172429706755604-front.mp4",
+            "storage_path": "exercises/musclewiki/female/172429706755604-front.mp4",
+            "gender": "female",
+            "angle": "front",
+            "duration": 13.367,
+            "video_sha256": "27e77c235066c005fbebb41af7bd9f88ce037f601794fe38295a2cab007577f8",
+            "sample_image_sha256": "1d00c93c0957f7dda04054796ca57e50c8b5b1e9a8a0ea5ce556538db0c4a885"
+          },
+          {
+            "url": "https://pub-4c059330ff2d4dc1aefa4c83e1791095.r2.dev/exercises/musclewiki/female/172429706755604-side.mp4",
+            "storage_path": "exercises/musclewiki/female/172429706755604-side.mp4",
+            "gender": "female",
+            "angle": "side",
+            "duration": 13.367,
+            "video_sha256": "580c45c99e2aa21461505374255548ad6d52394f86ef0c6523db23c58b66f157",
+            "sample_image_sha256": "9908cacfc4f3ea0bd68ca1c22735ce9cd8fa8c3ddb6c1135d049d35d7476e88f"
+          }
+        ],
+        "detail_frames": [
+          {
+            "exercise_id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62",
+            "gender": "male",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/172429706755604-front.mp4",
+            "duration": 14.017,
+            "at_seconds": 5,
+            "image": "artifacts/localization/stage-17-video-evidence/474b9866-556c-46e1-bdaf-2f2a3fd81b62-front-detail-5.png",
+            "sha256": "380bcabe4dff7823bd5232aceb85ff8b8b1298d1110941860551cad259d40f49"
+          },
+          {
+            "exercise_id": "474b9866-556c-46e1-bdaf-2f2a3fd81b62",
+            "gender": "female",
+            "angle": "front",
+            "storage_path": "exercises/musclewiki/female/172429706755604-front.mp4",
+            "duration": 13.367,
+            "at_seconds": 5,
+            "image": "artifacts/localization/stage-17-video-evidence-female/474b9866-556c-46e1-bdaf-2f2a3fd81b62-front-detail-5.png",
+            "sha256": "194436f6432af0f58c29291b9b9de784ed020897f7d1a679dcc61fe87493db63"
+          }
+        ]
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "exercise_id": "02340348-9464-4339-a68c-2a4babd72437",
+      "sourceName": "Frog Crunch",
+      "changeReason": "Both genders lie supine with soles together and knees open to the sides. Add this missing frog setup and the visible controlled lowering, retaining two blocks.",
+      "steps": [
+        "Lie on your back with the soles of your feet together and your bent knees open to the sides. Place your hands behind your head.",
+        "Contract your abs to curl your shoulders and upper back off the floor, then lower under control while keeping your feet together and knees open."
+      ]
+    },
+    {
+      "exercise_id": "1244468a-2bcf-4569-87d0-3f0ab747c061",
+      "sourceName": "Machine Hip And Glute Adduction",
+      "changeReason": "Both genders stand on the platform, hold the handles and place the roller against the inside of the working thigh above the knee. Original-resolution frames establish this contact, distinct from a pad above the hip. The leg starts out to the side and moves inward against the roller, then returns.",
+      "steps": [
+        "Stand on the machine platform and hold the handles for support. Adjust the roller so it contacts the inside of your working thigh above the knee.",
+        "Keep your supporting foot planted and position your working leg out to the side against the roller.",
+        "Press your working leg inward toward your supporting leg, then return it outward under control while keeping your torso steady."
+      ]
+    },
+    {
+      "exercise_id": "1ab4a56e-891e-451d-9eea-1d7fa2a966a5",
+      "sourceName": "Standing Tibialis Raise",
+      "changeReason": "Both genders support the heels on a plate, with forefeet extending over the edge, and hold a bar across the upper back while lifting the forefeet. Clarify heel support rather than instructing the whole foot to step on the plate; retain the source's nonspecific short hold.",
+      "steps": [
+        "Stand with your heels supported on a weight plate and your forefeet extending beyond its edge. Hold a barbell securely across your upper back.",
+        "Keep your heels on the plate and lift your toes and forefeet toward the ceiling.",
+        "Hold briefly at the top, then lower your forefeet back toward the floor under control, keeping your heels supported."
+      ]
+    },
+    {
+      "exercise_id": "1ac2a75c-8126-43ec-9329-9cfcf97cfd38",
+      "sourceName": "Machine Hip Adduction",
+      "changeReason": "Both genders use the seated adduction machine with pads against the inner thighs/knees, squeezing inward. Correct only the outer-pad setup while retaining the controlled return and avoidance of slamming the stack.",
+      "steps": [
+        "Sit in the machine with your legs apart and the pads against your inner thighs near the knees. Adjust the seat and pads to a comfortable starting position.",
+        "Squeeze your legs together against the pads, focusing on your inner thighs, and pause briefly when the pads are close together.",
+        "Return to the starting position slowly without letting the weights slam. Repeat for the desired repetitions and sets."
+      ]
+    },
+    {
+      "exercise_id": "2f1ce748-9a71-4e2d-8426-a6e2f1675c4d",
+      "sourceName": "Big Toe Abduction",
+      "changeReason": "Both genders sit with a bare working foot supported, lift the big toe slightly and separate it from the other toes. Original-resolution paired frames resolve the small movement. Describe direction relative to the other toes, not an undefined opposite side; keep the original line-reference suggestion optional.",
+      "steps": [
+        "Sit on a bench with your bare working foot on the floor and your heel supported.",
+        "Lift your big toe slightly and move it sideways away from your other toes, keeping the rest of your foot steady.",
+        "Use a small, controlled movement, then return your big toe to the starting position.",
+        "You can use a line on the floor as a reference for the toe's movement."
+      ]
+    },
+    {
+      "exercise_id": "383ce0cd-9e08-495c-9725-a44955247ec1",
+      "sourceName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+      "changeReason": "Both genders lift one arm forward and the opposite leg backward from a high plank, then return and switch. Replace the shoulder tap with the actual opposite-limb raise, preserving the existing stance and trunk-stability cues.",
+      "steps": [
+        "Start in a high plank with your hands under your shoulders and your arms straight.",
+        "Place your feet about shoulder-width apart. A wider stance provides more support; a narrower stance makes balancing harder.",
+        "Reach one arm forward and lift the opposite leg behind you, then return your hand and foot to the floor and switch sides.",
+        "Keep your hips level and your back steady without rounding or arching throughout the movement."
+      ]
+    },
+    {
+      "exercise_id": "4afdffa4-fabb-4a73-8878-160d38555407",
+      "sourceName": "Pole Overhead Squat",
+      "changeReason": "Both genders hold a light pole overhead in a wide overhand grip throughout the squat. Replace the three copied dumbbell references, retaining four blocks and the existing squat/return sequence.",
+      "steps": [
+        "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead with a wide overhand grip and your arms extended.",
+        "Bend your hips and knees to begin the squat, keeping your core engaged and the pole balanced overhead.",
+        "Lower into the squat while keeping the pole overhead, then push through your feet to return to standing.",
+        "Repeat for the desired repetitions, keeping your back straight, chest lifted and the pole steady throughout."
+      ]
+    },
+    {
+      "exercise_id": "4dfd84e1-792e-4d3f-9acf-d6cabf5b3115",
+      "sourceName": "Infinity Loop Standing Hip Mobility",
+      "changeReason": "Both genders stand on one leg, use an upright pole for balance and guide the raised knee through an outward/inward looping path. Add the missing pole support and loop/return while retaining knee-led motion with the ankle following; no exact loop dimensions or new angles are prescribed.",
+      "steps": [
+        "Stand on one leg and hold an upright pole for balance. Raise the other knee in front of you with the thigh near parallel to the floor.",
+        "Guide the raised knee out to the side and back inward in a smooth looping path, keeping your standing foot planted and your torso steady.",
+        "Let the knee lead while the ankle follows, continuing the loop under control before lowering the foot and changing sides."
+      ]
+    },
+    {
+      "exercise_id": "501ab877-2ee3-42e0-a595-68cc39a6fb8e",
+      "sourceName": "Bosu Serratus Activation Plank",
+      "changeReason": "Both genders establish a forearm plank on the BOSU dome with toes on the floor. Keep the elbows/forearms on the BOSU throughout the scapular positioning and hold; the original ground-pushing cue does not indicate moving the elbows to the floor.",
+      "steps": [
+        "Place the BOSU dome upward. Support yourself with your forearms on the dome and toes on the floor in a plank.",
+        "Keeping your forearms on the BOSU, allow your chest to settle slightly between your shoulder blades without sagging at the hips.",
+        "Press through your forearms into the BOSU to spread your shoulder blades and hold the supported plank with your torso steady."
+      ]
+    },
+    {
+      "exercise_id": "50dd43ed-2d46-41a1-84bc-cc86d67f4341",
+      "sourceName": "Standing Inversions Hold",
+      "changeReason": "Both genders shift support toward the outer borders of the feet while turning the soles inward. Clarify loaded border versus sole direction, keeping the existing small-range restraint rather than interpreting roll out as eversion.",
+      "steps": [
+        "Stand upright with your feet fairly close together.",
+        "Gently shift onto the outer edges of your feet so the soles turn inward, and hold your balance.",
+        "Keep the movement small without rolling excessively, then return your feet flat to the floor under control."
+      ]
+    },
+    {
+      "exercise_id": "53b8a572-4351-4991-a030-57078465f780",
+      "sourceName": "Bodyweight Elevated Push Up",
+      "changeReason": "Both genders place a hand on each of two boxes and lower the chest between them; no dumbbells are present. Correct the later chest-to-dumbbells cue and describe the actual gap/support without changing the bodyweight setup.",
+      "steps": [
+        "Place two stable boxes on the floor about shoulder-width apart with a gap between them.",
+        "Place one hand on each box and extend your arms into a plank position.",
+        "Keep your legs extended with your toes on the floor and your body aligned.",
+        "Bend your elbows to lower your chest into the gap between the boxes, keeping your core engaged.",
+        "Press through your hands to straighten your arms and return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "559b7383-7829-4a79-b113-385a0991658d",
+      "sourceName": "Bodyweight Diamond Knee Push Ups",
+      "changeReason": "Both genders use knee support with the lower legs lifted and hands in a diamond under the chest. Add the missing knee support while preserving close-elbow lowering and pressing.",
+      "steps": [
+        "Support yourself on your knees and hands, with your thumbs and index fingers forming a diamond under your chest. Keep your torso aligned from shoulders to knees.",
+        "Bend your elbows to lower your chest toward your hands, keeping your elbows close to your body and your knees on the floor.",
+        "Press through your hands to straighten your arms and return to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "60b4466d-4427-4fa4-92b4-ac3a3a6f7afa",
+      "sourceName": "Machine Horizontal Leg Press Calf Jump",
+      "changeReason": "Both genders sit in a horizontal leg-press machine with the back supported, bend the knees on the return and drive through the forefeet into leg/ankle extension. Replace the standing setup and contradictory raise/stay-flat-footed wording. Supplemental first-cycle sequences support a brisk press and controlled return, not a universal one-second top hold or an inferred flight phase.",
+      "steps": [
+        "Sit in the horizontal leg-press machine with your back against the pad, hands on the handles and feet on the platform about shoulder-width apart, with your knees slightly bent.",
+        "Press briskly through the balls of your feet, extending your ankles and knees to move the seat away from the platform.",
+        "Return under control by bending your knees and bringing your ankles back toward the starting position, then repeat with your back supported."
+      ]
+    },
+    {
+      "exercise_id": "6470505a-acd9-4534-9ec4-280af6ded3c8",
+      "sourceName": "Single Leg Glute Bridge",
+      "changeReason": "Both genders lie supine with one foot planted and the other leg raised; the free leg angle differs, so no fixed angle is added. Put setup before the lift and separate lift, hold and lowering in four blocks rather than retaining the scrambled duplicate lifting cues.",
+      "steps": [
+        "Lie on your back with one knee bent and that foot flat on the floor. Keep the other leg raised off the floor and your arms at your sides.",
+        "Squeeze your glutes and push through your planted foot to lift your hips toward the ceiling.",
+        "Hold briefly at the top with your hips raised, keeping your shoulders supported on the floor and the other leg lifted.",
+        "Lower your hips under control to the starting position, then repeat and change sides."
+      ]
+    },
+    {
+      "exercise_id": "7e733fad-2449-473a-9804-f0e945842806",
+      "sourceName": "Bodyweight Hanging L Sit",
+      "changeReason": "Both genders demonstrate a bent-knee hanging hold, not a straight-leg L-sit. Clarify the observed bent-knee variant while retaining source identity; the Vietnamese name explicitly says bent knees rather than silently prescribing straight legs.",
+      "steps": [
+        "Grasp the overhead bar and hang with your arms extended.",
+        "Engage your core and raise your thighs in front of you, keeping your knees bent as shown in the demonstrations.",
+        "Hold the bent-knee position for the intended duration while keeping your torso steady."
+      ]
+    },
+    {
+      "exercise_id": "82bd72ae-7d93-492d-8fe7-4e64f8006689",
+      "sourceName": "Reverse Crunch",
+      "changeReason": "Both genders sit on a box, cross the arms over the chest, keep feet raised and bring bent knees and torso together before extending apart. Establish the visible box-supported seated variant rather than rewriting it as a supine reverse crunch from the title.",
+      "steps": [
+        "Sit on a stable box with your arms crossed over your chest, lean your torso back and lift your feet off the floor.",
+        "Bring your bent knees and torso toward each other while balancing on the box.",
+        "Extend your legs forward and lean your torso back under control to return to the starting position, keeping your feet raised."
+      ]
+    },
+    {
+      "exercise_id": "8e9130d2-6d82-4dd6-9516-0f4167862fed",
+      "sourceName": "Bodyweight Feet Elevated Figure Four Glute Bridge",
+      "changeReason": "Female-only clips show the upper back on the floor, one heel supported on a box and the opposite ankle crossed over the supporting thigh. Add this figure-four single-foot support and the lowering phase, keeping two blocks and no external load.",
+      "steps": [
+        "Lie on your back with your arms at your sides. Rest one heel on a stable box with that knee bent, and cross the opposite ankle over the supporting thigh.",
+        "Push through the supported heel to lift your hips, keeping your shoulders on the floor and the other leg crossed. Lower your hips under control and repeat before changing sides."
+      ]
+    },
+    {
+      "exercise_id": "a574adcf-5d2a-4a36-9cda-536c5412e009",
+      "sourceName": "Box Dips",
+      "changeReason": "Both genders support a hand on each of two boxes beside the body, with knees bent and feet lifted. Replace the bar reference with the actual box supports; describe elbow bending without importing an unverified flared-elbow instruction.",
+      "steps": [
+        "Place one hand on each of two stable boxes beside your body. Support yourself with your arms extended, knees bent and feet off the floor.",
+        "Bend your elbows to lower your body between the boxes under control, keeping your hands in place.",
+        "Press through your hands to straighten your elbows and raise your body back to the starting position."
+      ]
+    },
+    {
+      "exercise_id": "b437e1ea-8762-4122-87e8-34d06576e34e",
+      "sourceName": "Leg Lowers",
+      "changeReason": "Both genders start supine with bent hips/knees; the male lowers one leg at a time while the female lowers both together. Move the original 90-degree cue to setup, keep knees bent as the hip angle changes, and describe both demonstrated variations without claiming fixed hips throughout.",
+      "steps": [
+        "Lie on your back with your legs raised and your hips and knees bent to about 90 degrees, with your arms at your sides.",
+        "Keep your knees bent as you lower your toes toward the floor, then lift back to the starting position. The male demonstration alternates legs; the female demonstration lowers both together.",
+        "Keep your lower back flat against the floor and your torso steady throughout the movement."
+      ]
+    },
+    {
+      "exercise_id": "b6989ab4-e390-4217-a9a5-d1e5e89e4bee",
+      "sourceName": "Curtsy Lunge",
+      "changeReason": "Both genders cross the rear leg behind the planted front leg. Retain the source's left-behind-right example but correct the reversed thigh/knee roles: right thigh is forward and left knee lowers toward the floor. Return through the original right supporting foot.",
+      "steps": [
+        "Step your left foot diagonally behind your right leg. Bend your knees and lower your hips so your front right thigh approaches parallel to the floor and your rear left knee moves toward the floor.",
+        "Push through your right foot to straighten your legs and return to the starting position.",
+        "Repeat the movement with your other leg crossing behind."
+      ]
+    },
+    {
+      "exercise_id": "c8597094-227f-4852-940e-463eba41bd01",
+      "sourceName": "Bodyweight Pulse Squat",
+      "changeReason": "Both genders keep empty hands together in front of the chest and pulse in a short squat range, with no dumbbell. Replace the required goblet load while retaining the original parallel/halfway-up pulse instruction.",
+      "steps": [
+        "Stand with your feet about shoulder-width apart and hold your empty hands together in front of your chest.",
+        "Squat down toward parallel, then rise only partway back up.",
+        "Continue moving up and down within this short range for the duration of the set."
+      ]
+    },
+    {
+      "exercise_id": "d4c54a65-33e5-44df-a438-3e124353263c",
+      "sourceName": "Bodyweight Curtsy Deficit Lunge",
+      "changeReason": "Both genders use no handheld load or bar, retain one foot on a platform and cross the other leg behind. Add the curtsy direction and replace the unrelated bar-stability cue with balance and supporting-foot control.",
+      "steps": [
+        "Stand on a platform with your feet hip-width apart and your hands together in front of your chest, without holding a weight.",
+        "Keep one foot on the platform and step the other back and across behind it, lowering your rear knee toward the floor with your chest upright and core engaged.",
+        "Push through the foot on the platform to return to the starting position, keeping your balance throughout."
+      ]
+    },
+    {
+      "exercise_id": "d96f1c18-8e30-496c-b073-ac0ed00e4d1c",
+      "sourceName": "Bodyweight Alternating Curtsy Lunge",
+      "changeReason": "Both genders clasp empty hands at the chest and alternate crossed rear steps. Replace the barbell setup and weight-lowering wording with the visible bodyweight stance and knee lowering.",
+      "steps": [
+        "Stand upright with your hands together in front of your chest, without holding a weight.",
+        "Step one foot back and diagonally across behind the other leg, bending your knees to lower your hips and rear knee toward the floor.",
+        "Push through your front foot to return to standing, then repeat with the other leg and continue alternating sides."
+      ]
+    },
+    {
+      "exercise_id": "def74b78-55fa-48a7-8b43-9204378a09b7",
+      "sourceName": "Box Jump",
+      "changeReason": "Both genders dip at hips/knees, swing the arms, jump onto the box with both feet and step down. Replace the ambiguous quarter-of-half phrase with the observed dip without prescribing a numerical depth; retain the original low-box suggestion and controlled landing.",
+      "steps": [
+        "Stand in front of a stable box with your feet about shoulder-width apart.",
+        "Choose a low box if you are learning the movement.",
+        "Bend your hips and knees and swing your arms back, then extend your legs and swing your arms forward to jump onto the box.",
+        "Land with both feet near the middle of the box and soften your knees to control the landing. Stand up, then step down before the next repetition."
+      ]
+    },
+    {
+      "exercise_id": "e8581eea-28da-4ca5-9503-282f091712e1",
+      "sourceName": "Bosu Serratus Activation Active Plank",
+      "changeReason": "Both genders use forearms on the BOSU dome, toes on the floor, and repeat small scapular lowering/pushing phases without changing support to the floor. Add the missing BOSU placement and the active repeat, distinct from the static supported hold.",
+      "steps": [
+        "Place the BOSU dome upward and support yourself with your forearms on the dome and toes on the floor in a plank.",
+        "Keep your forearms supported and allow your chest to lower slightly between your shoulder blades, keeping your hips steady.",
+        "Press your forearms into the BOSU to spread your shoulder blades and lift your chest back up. Repeat this small movement without moving your elbows to the floor."
+      ]
+    },
+    {
+      "exercise_id": "f1060f7b-82eb-4ab8-90d6-7e69fd2297e5",
+      "sourceName": "Scapular Elevation",
+      "changeReason": "Both genders stand and raise the shoulders toward the ears, then lower them. Resolve the contradictory towards-from direction as visible elevation, retaining three blocks and no resistance.",
+      "steps": [
+        "Stand upright with your back straight and your arms relaxed at your sides.",
+        "Raise your shoulders toward your ears while keeping your arms at your sides.",
+        "Lower your shoulders under control back to the relaxed starting position, then repeat."
+      ]
+    },
+    {
+      "exercise_id": "f1f42d92-f79d-4fe4-8d33-0fd14745a370",
+      "sourceName": "Shoulder Flexion Thoracic Extensions",
+      "changeReason": "Both genders lie lengthwise on a roller supporting the back and head, keep bent knees raised with feet on the floor, and move extended arms overhead and back. Correct knees-on-ground to feet-on-ground based on the visible support, retaining five blocks and no new roller size or shoulder angle.",
+      "steps": [
+        "Place a long foam roller on the floor in line with your body.",
+        "Lie lengthwise on the roller so your back and head are supported.",
+        "Bend your knees and place your feet flat on the floor, keeping your lower back supported and your chin gently tucked.",
+        "Start with your arms beside your hips and your shoulders relaxed against the roller.",
+        "Raise your extended arms and bring them overhead toward the floor, then return under control while keeping your feet planted and back supported."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1321 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared complete source blocks with Vietnamese wording, retaining grip, supports, load, arm/leg directions, pause cues and step order. Held ambiguous quantity or setup, reverse-lunge leg conflicts and missing variant-specific movement.",
+  "sourceExceptions": [
+    {
+      "index": 123,
+      "sourceName": "Plate Lateral Raise",
+      "reason": "The source explicitly says two plates in each hand; verify intended load quantity.",
+      "exercise_id": "5e581341-2be4-4dd5-91bc-4ce6a3890a74"
+    },
+    {
+      "index": 134,
+      "sourceName": "Plate Reverse Lunge",
+      "reason": "The backward leg thigh and supporting knee references conflict; verify the leg cue.",
+      "exercise_id": "28e888f8-2dba-4bf2-91e5-ad4fcbb9a2b6"
+    },
+    {
+      "index": 135,
+      "sourceName": "Plate Russian Twist",
+      "reason": "The source contains only bodyweight twist instructions and omits how the plate is held; verify load setup.",
+      "exercise_id": "9d621ff9-86fa-4c12-a454-a57bb829b92c"
+    },
+    {
+      "index": 137,
+      "sourceName": "Plate Single Leg Pinch Grip Deadlift",
+      "reason": "The source has a corrupted raised-leg reference and unclear foot return relative to the lift; verify the limb cue.",
+      "exercise_id": "365a565e-071e-4c31-866d-11c356dcd915"
+    },
+    {
+      "index": 146,
+      "sourceName": "Plate Staggered Waiters Bow",
+      "reason": "The source specifies bracing against a bar but omits plate placement; verify load setup.",
+      "exercise_id": "eeea366a-c885-4a83-b819-46e04daa94d6"
+    },
+    {
+      "index": 158,
+      "sourceName": "Weighted Knee Push Ups",
+      "reason": "The source contains knee pushup instructions without placement of the added weight; verify load setup.",
+      "exercise_id": "44233008-622d-462c-9e7e-13dc6de91e78"
+    },
+    {
+      "index": 177,
+      "sourceName": "Medicine Ball Partner Side Toss",
+      "reason": "The setup simultaneously says facing the partner and side by side; verify orientation.",
+      "exercise_id": "f0f0397a-da6c-466d-9dd7-f28db52fe91a"
+    },
+    {
+      "index": 180,
+      "sourceName": "Medicine Ball Press Jack",
+      "reason": "The source has a jump and overhead press but no jack-specific leg opening/closing cue; verify the variant.",
+      "exercise_id": "3282f40b-df10-48c1-b38c-c5342300b511"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "8b6b14cb-aa1c-47fa-ae07-3540a5abf6f8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8ae24cc301b8ede3580453fbf9b4bc4e22102c73ab662ab2230fbfdf96dadf29",
+      "name": "Dang bánh tạ tập vai sau với vai xoay trong",
+      "description": "",
+      "steps": [
+        "Mỗi tay giữ bánh tạ, co đầu gối và để bàn chân hơi xoay ra ngoài. Gập người về trước tại hông, giữ lưng phẳng.",
+        "Giữ tay nắm sấp và vai xoay trong.",
+        "Nâng hai tay về sau hướng lên trần, giữ khuỷu tay hơi co."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Internally Rotated Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "With plates in either hand, bend your knees with your feet slightly bowed out. Hinge forward with a flat back.",
+          "Maintain an overhand grip and internally rotated shoulders.",
+          "Raise your arms backward toward the ceiling while maintaining a light band in your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "3884623a-1697-4486-ac51-9e1c880e30ac",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3b390c5936ef15b1a31a2483784acbe17d2c21b7c36f4ca7aed7b91e24732aab",
+      "name": "Chùng chân sang ngang với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng hông, giữ bánh tạ trước thân.",
+        "Bước một chân sang bên, gập gối và hạ hông vào tư thế chùng chân.",
+        "Đạp chân trước để trở về vị trí ban đầu.",
+        "Lặp lại bên kia bằng cách bước chân còn lại sang phía đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Lateral Lunge",
+        "description": "",
+        "steps": [
+          "Stand with feet hip-width apart and the plate held in front of the torso.",
+          "Take a step to the side with one foot, bending the knee and lowering the hips into a lunge.",
+          "Push through the front foot to return to the starting position.",
+          "Repeat on the other side by stepping to the other side with the other foot."
+        ]
+      }
+    },
+    {
+      "exercise_id": "859422da-75af-4dcb-b36a-206c73934a06",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0434367e98547c2bee7c3c82634a87f33b2536f8f2d76aee6fbc5f1dcc310a0c",
+      "name": "Đi bộ giữ bánh tạ trên đầu",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai. Dùng hai tay giữ một bánh tạ trên đầu, hai tay duỗi thẳng ngay trên đầu.",
+        "Bắt đầu đi về trước với bước chậm và đều theo đường thẳng. Tập trung giữ thăng bằng và kiểm soát bánh tạ trên đầu.",
+        "Khi đi, tiếp tục giữ tay duỗi và bánh tạ trên đầu. Giữ tư thế tốt, tránh nghiêng về trước hoặc sau vì có thể mất kiểm soát bánh tạ.",
+        "Tiếp tục theo quãng đường hoặc thời gian được chỉ định, tập trung đúng tư thế và kỹ thuật. Khi xong, trở về vị trí ban đầu và lặp lại theo nhu cầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Carry",
+        "description": "",
+        "steps": [
+          "Start by standing upright with your feet shoulder-width apart. Hold a single weight plate overhead with both hands, keeping your arms extended straight above your head.",
+          "Begin walking forward, taking slow and steady steps while maintaining a straight line. Your focus should be on maintaining balance and control of the weight plate overhead.",
+          "As you walk, continue to keep your arms extended and the weight plate overhead. Try to maintain good posture and avoid leaning forward or backward, as this could result in losing control of the weight plate.",
+          "Continue walking for a set distance or for a certain amount of time, keeping your focus on proper form and technique. When finished, return to the starting position and repeat as desired."
+        ]
+      }
+    },
+    {
+      "exercise_id": "4245e94f-0ccc-4c70-a400-fe25baec30a4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c52094ca78a103a2e10c8ae5a8723026f5006e4f8678d3aacab7dcc19f56d57a",
+      "name": "Đẩy bánh tạ qua đầu kết hợp duỗi tay sau",
+      "description": "",
+      "steps": [
+        "Siết cơ bụng và đẩy bánh tạ qua đầu đến khi hai tay duỗi hoàn toàn. Giữ vai hạ và kéo về sau.",
+        "Khi hai tay duỗi hoàn toàn, hạ tạ ra sau đầu để thực hiện động tác duỗi tay sau.",
+        "Sau khi hoàn thành động tác duỗi tay sau, hạ tạ về ngực rồi đẩy qua đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Press To Tricep Extension",
+        "description": "",
+        "steps": [
+          "Brace your core and press the weight plate overhead until your arms are fully extended. Keep your shoulders down and back.",
+          "While your arms are fully extended, lower the weight behind your head to perform the extension",
+          "After completing the extension, lower the weight to your chest, and perform the overhead press. Repeat"
+        ]
+      }
+    },
+    {
+      "exercise_id": "916aa2ee-7a85-481d-a4f5-8180250045c8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "03a07037165423f07ccaeb1c9593347069eb2fff362e437b917410623d94e985",
+      "name": "Nhún vai với bánh tạ giữ trên đầu",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ trên đầu.",
+        "Nâng và hạ bả vai.",
+        "Tránh nghiêng về trước hoặc sau để không gây áp lực lên cột sống thắt lưng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Shrug",
+        "description": "",
+        "steps": [
+          "Stand tall with a weight plate overhead.",
+          "Elevated and depress your scapula.",
+          "Avoid leaning forward or backwards to keep pressure off of your lumbar spine."
+        ]
+      }
+    },
+    {
+      "exercise_id": "c8dd5280-0ffa-4905-8fe1-4ebbc02df1eb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b26bdab17e7528cbbe1f8c3c1bf6a46a18d8306d4f7948afa1a21a76e3dcc05f",
+      "name": "Squat với bánh tạ giữ trên đầu",
+      "description": "",
+      "steps": [
+        "Duỗi hoàn toàn hai tay giữ bánh tạ trên đầu. Bánh tạ ngay phía trên đầu, khuỷu tay khóa thẳng.",
+        "Gập gối, hạ người sâu hết mức có thể trong khi giữ bánh tạ trên đầu. Giữ lưng thẳng và ngực nâng.",
+        "Khi đùi song song với đất hoặc xuống thấp hết mức có thể, dừng một chút.",
+        "Ấn gót chân để đứng lên, giữ bánh tạ trên đầu suốt động tác."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Squat",
+        "description": "",
+        "steps": [
+          "Hold a weight plate at arm's length overhead, with your arms fully extended. The plate should be directly above your head and your elbows should be locked.",
+          "Begin to bend your knees, lowering your body as far as you can while keeping the weight plate overhead. Make sure to keep your back straight and your chest lifted.",
+          "Once your thighs are parallel to the ground or as low as you can go, pause for a moment.",
+          "Push through your heels to return to a standing position, keeping the weight plate overhead the entire time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5a0ac1c0-a5a8-4c04-a508-ff9a6f6242af",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "031e32e02cefb480f0639f67c1d286c0324bf268914c2fd5d50f169bedca62b2",
+      "name": "Duỗi tay sau qua đầu với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hoặc ngồi, giữ bánh tạ với hai tay duỗi thẳng trên đầu.",
+        "Gập khuỷu tay để hạ bánh tạ ra sau đầu.",
+        "Giữ khuỷu tay gần đầu và vai thả lỏng.",
+        "Đẩy bánh tạ về vị trí ban đầu, duỗi hoàn toàn hai tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Tricep Extension",
+        "description": "",
+        "steps": [
+          "Stand or sit with a weight plate in your hands, arms extended straight above your head",
+          "Lower the weight plate behind your head by bending at the elbows.",
+          "Keep your elbows close to your head and shoulders relaxed.",
+          "Push the weight plate back up to starting position, extending your arms fully."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e03dcd4c-d275-4e3c-b366-ba228253a5da",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "26299a61b25bcc67dcd5b2b59e68552434fef225e769662405f1906e8968a8d7",
+      "name": "Chùng chân bước đi với bánh tạ giữ trên đầu",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ trên đầu.",
+        "Bước một chân về trước, hạ đầu gối sau xuống sàn. Chạm nhẹ đầu gối rồi đạp chân trước.",
+        "Trở về tư thế đứng rồi bước chân đối diện về trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Overhead Walking Lunge",
+        "description": "",
+        "steps": [
+          "Stand tall with a plate overhead.",
+          "Step with one foot forward bringing your back knee to the floor. Gently tap your knee then drive through your front leg.",
+          "Go back to a standing position and then step forward with the opposing legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1b8376bf-08f1-4eac-b881-89c72e4d7166",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0b8f98e779dea223f0245c6036f67266fa709428bc99157e90b3c76a70fd4c57",
+      "name": "Kéo bánh tạ với tay nắm kẹp",
+      "description": "",
+      "steps": [
+        "Giữ khuỷu tay gần thân và cơ bụng siết trong suốt chuyển động.",
+        "Gập người về trước tại hông, giữ lưng phẳng.",
+        "Kéo bánh tạ về phía bụng trên.",
+        "Hạ tạ có kiểm soát rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Pinch Grip Row",
+        "description": "",
+        "steps": [
+          "Make sure to keep your elbow close to your body and your core engaged throughout the movement.",
+          "Bend forward at your hips while maintaining a flat back.",
+          "Pull the plate toward your upper abdomen.",
+          "Lower the weight in a controlled manner and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "19aea4c8-2195-4fd4-87f3-79ffedbe3e5a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "2c79521bf5bda7960dbc36284fe998098b4cbfdadc10c8ba34f181fb70776cfc",
+      "name": "Nghiêng người sang bên với bánh tạ nắm kẹp",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, giữ bánh tạ bên thân.",
+        "Giữ hông và vai hướng về trước, từ từ nghiêng sang một bên.",
+        "Trở về tư thế thẳng.",
+        "Đổi tay rồi lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Pinch Grip Side Bend",
+        "description": "",
+        "steps": [
+          "Stand straight with the plate held at your side",
+          "Keep your hips and shoulders facing forward, bend to one side slowly",
+          "Return to the upright position.",
+          "Switch hands and repeat"
+        ]
+      }
+    },
+    {
+      "exercise_id": "ff054545-cf97-4ab1-81d0-5cdbd5c302ed",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "495c68f1fade839e5fbfd66a6010f4a448141e63c8785aba28ba66ffeb407756",
+      "name": "Đẩy bánh tạ ra trước",
+      "description": "",
+      "steps": [
+        "Đứng và giữ bánh tạ sát ngực.",
+        "Đẩy bánh tạ ra xa người đến khi khuỷu tay duỗi."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Reach",
+        "description": "",
+        "steps": [
+          "Start in a standing position with a plate against your chest.",
+          "Press the plate away from your body until your elbows are extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8014ff8e-bb0e-4e02-862b-130e0bdc70db",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d5ec226c678874505c5e33a2d90b0c32bae1a322b493f483d478e21253ce0944",
+      "name": "Dang bánh tạ tập vai sau",
+      "description": "",
+      "steps": [
+        "Giữ lưng thẳng và hơi gập người về trước tại eo.",
+        "Giữ tay duỗi, nâng tạ sang hai bên đến ngang vai.",
+        "Dừng một chút rồi hạ tạ về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Rear Delt Fly",
+        "description": "",
+        "steps": [
+          "Keep your back straight and bend forward slightly at the waist.",
+          "With arms extended, raise the weights out to your sides until they are in line with your shoulders.",
+          "Pause briefly and then lower the weights back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6dd53c47-4c6c-4fae-abd2-50a841a13db7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6e655b602b5f9ad48579c5714712637ece8344536cd8a487a99556d772256fa3",
+      "name": "Deadlift một chân với bánh tạ",
+      "description": "",
+      "steps": [
+        "Siết cơ bụng và duỗi chân để nhấc bánh tạ khỏi đất.",
+        "Đứng trên một chân, giữ chân còn lại khỏi đất và bánh tạ trước người.",
+        "Giữ lưng thẳng, đầu ở tư thế trung tính và mắt nhìn về trước.",
+        "Hạ bánh tạ về đất, giữ thăng bằng trên một chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Single Leg Deadlift",
+        "description": "",
+        "steps": [
+          "Engage your core and straighten your legs to lift the plate off the ground.",
+          "Stand on one leg, keeping the other leg off the ground, while holding the plate in front of your body.",
+          "Keep your back straight and maintain a neutral head position while looking straight ahead.",
+          "Lower the plate back down to the ground while keeping your balance on one leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a44822a7-df35-44a8-b96f-7a3f0bf8eb6a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f211975bd78ece1a5f4a0599bfd9cdcccafe56207f7564edc786798677074fc3",
+      "name": "Gập bụng ngồi dậy với bánh tạ",
+      "description": "",
+      "steps": [
+        "Nằm ngửa trên thảm, hai chân co và bàn chân đặt phẳng trên đất.",
+        "Dùng hai tay giữ bánh tạ phía trên đầu, giữ tay thẳng.",
+        "Siết cơ bụng và dùng cơ bụng ngồi dậy, giữ bánh tạ hướng lên trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Situp",
+        "description": "",
+        "steps": [
+          "Start by lying on your back on a mat with your legs bent and feet flat on the ground.",
+          "Hold a weight plate over your head with both hands, making sure to keep your arms straight.",
+          "Engage your core and use your abdominal muscles to sit up, keeping the weight plate towards the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5a955870-01c3-4005-a181-465318c64d84",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6b3af1bb98d52c7803dceb7c52f4269d79403c560f7b604d536acf46f87157fa",
+      "name": "Squat với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ bánh tạ trước ngực.",
+        "Giữ lưng thẳng, hạ người như đang ngồi về sau vào ghế.",
+        "Hạ sâu hết mức có thể trong khi giữ gót chân phẳng trên đất, sau đó ấn gót chân để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Squat",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart and hold a weight plate in front of your chest with both hands.",
+          "Keep your back straight, lower your body as if you were sitting back into a chair.",
+          "Go as low as you can while keeping your heels flat on the ground, then push through your heels to return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a7a30b23-3015-4d41-bdca-da5171dd3fdc",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4db40986d1c7bacfedd0ea3e375b47901a35b3b0516e9eefc3d7e5ae53789c1a",
+      "name": "Giữ squat với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, dùng hai tay giữ bánh tạ ngang ngực.",
+        "Gập gối và hông để hạ người, giữ lưng thẳng và trọng lượng ở gót chân.",
+        "Hạ đến khi đùi song song với sàn rồi dừng một chút.",
+        "Giữ tư thế squat trong thời gian mong muốn, giữ bánh tạ ổn định và cơ bụng siết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Squat Hold",
+        "description": "",
+        "steps": [
+          "Start by standing with your feet shoulder-width apart, with a weight plate held in both hands at chest height.",
+          "Lower your body by bending your knees and hips, keeping your back straight and your weight in your heels.",
+          "Go down until your thighs are parallel to the floor, then pause for a moment.",
+          "Hold the squat position for the desired amount of time, keeping the weight plate steady and your core engaged."
+        ]
+      }
+    },
+    {
+      "exercise_id": "1c8cfff2-8b65-4a76-bc98-02706f736df8",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4024b0e87fd91b67c89ed69029740649f8ac2d655b67b78e378947a45f0ecc6d",
+      "name": "Giữ squat kết hợp cuốn bánh tạ",
+      "description": "",
+      "steps": [
+        "Hạ vào tư thế squat, giữ bánh tạ ngang ngực.",
+        "Từ từ cuốn bánh tạ về phía vai, giữ khuỷu tay gần thân.",
+        "Giữ một chút ở điểm cao nhất rồi hạ bánh tạ về ngang ngực.",
+        "Lặp lại động tác cuốn trong khi giữ tư thế squat."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Squat Hold Curl",
+        "description": "",
+        "steps": [
+          "Lower into a squat position, keeping the plate at chest height.",
+          "Slowly curl the plate towards your shoulders, keeping your elbows close to your body.",
+          "Hold for a moment at the top of the curl before lowering the plate back to chest height.",
+          "Repeat the curls as you hold the squat position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "859dc35d-491c-407a-80a9-853ba8e88e20",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "39a871349f0724ec685d8edbefaad43b06aa0ce8023702123f8d56fca3118e57",
+      "name": "Giữ squat kết hợp đẩy bánh tạ ra trước",
+      "description": "",
+      "steps": [
+        "Dùng hai tay giữ bánh tạ ngang ngực.",
+        "Giữ cơ bụng siết và ngực nâng, squat sâu hết mức có thể trong khi bàn chân đặt phẳng trên đất.",
+        "Giữ tư thế squat và vươn bánh tạ về trước, giữ tay và lưng thẳng.",
+        "Đưa bánh tạ về ngực khi vẫn giữ squat, tiếp tục lặp lại động tác vươn tạ ra trước."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Squat Hold Reach",
+        "description": "",
+        "steps": [
+          "Hold the plate with both hands at chest height.",
+          "Keeping your core tight and your chest up, squat down as low as you can go while keeping your feet flat on the ground.",
+          "Hold the squat position and reach the plate forward, keeping your arms straight and your back straight.",
+          "Return the plate to your chest while you hold the squat position and repeat reaching the plate in front of you"
+        ]
+      }
+    },
+    {
+      "exercise_id": "c3b116de-3e09-4769-840f-32d280265304",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "0de967fc590c69d28ca70f6a8d60e3b99fade7f6c2ed0ca4d4063110bdffc719",
+      "name": "Squat kết hợp đẩy bánh tạ ra trước",
+      "description": "",
+      "steps": [
+        "Đứng và dùng hai tay giữ bánh tạ ngang ngực.",
+        "Hạ vào tư thế squat, duỗi bánh tạ ra trước ở ngang ngực.",
+        "Khi đứng lên, kéo bánh tạ về ngực."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Squat Reach",
+        "description": "",
+        "steps": [
+          "Stand holding a weight plate at chest height with both hands.",
+          "Lower into a squat, extending the plate in front of you at chest height",
+          "As you stand back up, pull the plate back into your chest."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6a2193c4-a24a-4740-948a-de133d84baef",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "490abe82109b55da9aa8207f83ae7492ade663f3873d2a1411aa1fa2df6e5c9f",
+      "name": "Deadlift với bánh tạ, chân trước chân sau",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bánh tạ.",
+        "Đặt một chân hơi sau chân còn lại, gót chân sau nâng.",
+        "Từ vị trí này, gập hông và gối để hạ bánh tạ về đất, giữ lưng thẳng và cơ bụng siết.",
+        "Khi bánh tạ xuống dưới gối, ấn gót chân để đứng lên về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Staggered Deadlift",
+        "description": "",
+        "steps": [
+          "Start by standing with your feet shoulder-width apart and holding a weight plate.",
+          "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+          "From this starting position, bend at the hips and knees to lower the plate towards the ground, keeping your back straight and your core engaged.",
+          "Once the plate is below your knees, drive through your heels to stand back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9f1a51bd-3138-4a0f-9ad4-c828f027b01d",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "4b50ed6e8c0655e7c1c6a678a59ab4bb8b0d4a85f4872423969447127cd6d13d",
+      "name": "Deadlift chân trước chân sau với bánh tạ nắm kẹp",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ hai bánh tạ theo kiểu nắm kẹp.",
+        "Đặt một chân hơi sau chân còn lại, gót chân sau nâng.",
+        "Từ vị trí này, gập hông và gối để hạ các bánh tạ về đất, giữ lưng thẳng và cơ bụng siết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Staggered Pinch Grip Deadlift",
+        "description": "",
+        "steps": [
+          "Start by standing with your feet shoulder-width apart and holding two plates with a pinch grip.",
+          "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+          "From this starting position, bend at the hips and knees to lower the plates towards the ground, keeping your back straight and your core engaged."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5e8de2a0-9d7d-4e50-a96b-ccd608b33e1e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "03dc8fde5025def06e985c353380041ab95b332eb9ff9c6ecb5ac7591a944298",
+      "name": "Đứng xoay người với bánh tạ",
+      "description": "",
+      "steps": [
+        "Đứng và giữ bánh tạ ra xa người, khuỷu tay gần như duỗi thẳng.",
+        "Xoay phần trên cột sống, giữ cột sống thắt lưng trung tính.",
+        "Không để bánh tạ đi ra sau người."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Standing Twist",
+        "description": "",
+        "steps": [
+          "Stand with a plate extended away from your body. Elbows mostly extended.",
+          "Rotate at the upper spine while keeping your lumbar spine in a neutral position.",
+          "Do not let the plate go behind your body."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b3a8d963-86be-4980-920d-22a402661c6e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cc76c33a084c79a936ca8750b7bd3408b65a7cfc1bee13c465cf1d219a822c2f",
+      "name": "Giữ tư thế Superman với bánh tạ",
+      "description": "",
+      "steps": [
+        "Dùng hai tay giữ bánh tạ.",
+        "Nâng tay và chân khỏi đất rồi giữ tư thế đó."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Superman Hold",
+        "description": "",
+        "steps": [
+          "Hold a plate in both hands.",
+          "Pull your arms and legs off the ground while and hold that position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5158c8e9-0ed2-4797-b877-ef320a6fa10c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3cce8692170c19f46940105f7965c1305df93d98687dbb942b2bbf4d78b4ba4c",
+      "name": "Squat kết hợp đẩy bánh tạ qua đầu",
+      "description": "",
+      "steps": [
+        "Giữ bánh tạ ngang ngực. Bắt đầu squat.",
+        "Hạ đến độ sâu song song. Khi đứng lên, dùng đà từ chân để hỗ trợ đẩy bánh tạ lên trên đầu.",
+        "Đưa bánh tạ về ngang ngực trước khi bắt đầu lần squat tiếp theo."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Thruster",
+        "description": "",
+        "steps": [
+          "Start with the plate at chest height. Begin a squat.",
+          "Make sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.",
+          "Let the plate return to chest height before initiating the next squat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5d183ff8-cb0b-4990-9a08-f6cdc4da8e42",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fe9f21336c9a7f2dbdba201b694148ed8bee8dedd0b7dd7dc41b076c3524655c",
+      "name": "Gập hông tựa thanh với bánh tạ giữ trước ngực",
+      "description": "",
+      "steps": [
+        "Đặt thanh tạ đòn khoảng giữa chiều cao đùi. Tì cơ đùi trước vào thanh. Giữ bánh tạ sát ngực.",
+        "Đẩy hông về sau, giữ đầu gối gần như duỗi thẳng. Cảm nhận độ kéo giãn ở cơ đùi sau.",
+        "Khi cảm nhận độ giãn, đẩy hông về trước đến khi đứng thẳng trở lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Waiters Bow",
+        "description": "",
+        "steps": [
+          "Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest.",
+          "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+          "When you feel the stretch, push your hips forward until you're back in a standing position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "25e5e14e-7786-4aa6-86e8-bd10868c0a19",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f5480bfdff651f15f936fcf9f84345a7f9a246d97535dfbcad2cb787bf1fe4b3",
+      "name": "Treo xà với bánh tạ bổ sung",
+      "description": "",
+      "steps": [
+        "Gắn tạ vào người bằng đai treo tạ. Nắm thanh xà với lòng bàn tay hướng về trước.",
+        "Treo người với hai tay duỗi hoàn toàn.",
+        "Giữ trong thời gian được khuyến nghị, duy trì cơ bụng siết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Weighted Dead Hang",
+        "description": "",
+        "steps": [
+          "Attach weight to yourself using a dip belt. Grip a pull-up bar with palms facing forward.",
+          "Hang with arms fully extended.",
+          "Hold for recommended amount of time, keeping your core engaged."
+        ]
+      }
+    },
+    {
+      "exercise_id": "40f882c3-98be-46d0-917a-c03d9961dad7",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "295a367136f5df05855eff24dc03e7c5ffccc40638ea8d97b2740ae652ed7839",
+      "name": "Kéo người dưới xà với bánh tạ trên ngực",
+      "description": "",
+      "steps": [
+        "Nằm dưới thanh ngang cố định, nắm sấp thanh với tay rộng. Đặt bánh tạ trên ngực.",
+        "Kéo người thẳng lên thanh.",
+        "Trở về vị trí ban đầu với hai tay duỗi hoàn toàn. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Weighted Inverted Row",
+        "description": "",
+        "steps": [
+          "Lay underneath a fixed horizontal bar and grab the bar with a wide overhand grip. Place a plate on your chest.",
+          "Pull your body straight up to the bar.",
+          "Return to the starting position, your arms fully extended. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "55fb86a1-5471-4cb2-9183-ef3ba7c5af97",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a066d3a0b85f7db3c319a43d5d51adeb5bd8eab8042d7e8ea87dfed0148c62c3",
+      "name": "Xoay bánh tạ chéo người kiểu bổ củi",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai. Bắt đầu với bánh tạ gần một bên đùi trước.",
+        "Xoay phần trên cột sống để tác động vào cơ bụng chéo.",
+        "Có thể xoay bàn chân sau để tránh tạo mô-men xoắn quá lớn ở đầu gối."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Plate Wood Chopper",
+        "description": "",
+        "steps": [
+          "Stand with a shoulder width stance. Begin with the plate near one of your quads.",
+          "Rotate at your upper spine to engage the obliques.",
+          "You can pivot your back foot to keep from generating too much torque at the knee."
+        ]
+      }
+    },
+    {
+      "exercise_id": "00c411d2-ccda-4209-b01c-6abc6901eb96",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "dab0cd04ba17fb48b96cf8545c1c20a66fbc9e534b6503ad6a1664918ba727a3",
+      "name": "Kéo xà tay ngửa có thêm tạ",
+      "description": "",
+      "steps": [
+        "Nắm thanh rộng bằng vai theo kiểu ngửa, lòng bàn tay hướng về người. Dùng đai treo tạ, để tạ treo giữa hai chân.",
+        "Treo người với hai tay duỗi hoàn toàn, kéo lên đến khi cằm vượt qua thanh.",
+        "Từ từ trở về vị trí ban đầu. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Chin Ups",
+        "description": "",
+        "steps": [
+          "Grab the bar shoulder width apart with a supinated grip (palms facing you). Use a dip belt and the let the weight hang between your legs.",
+          "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.",
+          "Slowly return to starting position. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "2444baf7-ee8b-4dd2-85fa-70c58077c404",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f5d1711870383820f77db61e2230dea4c2ade516a736e00c6c077d8e768ffadf",
+      "name": "Chống đẩy tay hình kim cương có thêm tạ",
+      "description": "",
+      "steps": [
+        "Đặt bánh tạ trên lưng. Đặt ngón trỏ và ngón cái chạm nhau tạo hình kim cương.",
+        "Vào tư thế chống đẩy tiêu chuẩn.",
+        "Hạ ngực về phía hai tay, giữ khuỷu tay gần thân.",
+        "Dừng ngay trước khi ngực chạm sàn rồi đẩy người về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Diamond Push Ups",
+        "description": "",
+        "steps": [
+          "Place a plate on your back. Position your index fingers and thumbs so they are touching, forming a diamond shape.",
+          "Use a standard push up position",
+          "Lower your chest towards your hands, keep your elbows close to your body",
+          "Stop just before your chest touches the floor, then push back up to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cc1a9afc-5f6e-4e3d-9bd9-da419f913974",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "42d1faf29af69d4fa8d78c38fd35de5c1b08d246b66d09e0eaade99472b8f946",
+      "name": "Plank cẳng tay có thêm tạ",
+      "description": "",
+      "steps": [
+        "Vào tư thế quỳ, tì cả hai cẳng tay xuống đất.",
+        "Đặt bánh tạ trên lưng hoặc nhờ bạn tập đặt giúp.",
+        "Giữ plank trong thời gian được chỉ định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Forearm Plank",
+        "description": "",
+        "steps": [
+          "Get into a kneeling position with both forearms pressed into the ground.",
+          "Place a weight plate on your back (or have a partner do it for you).",
+          "Hold the plank for the allotted amount of time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b3a2153a-6c08-46f8-b619-11b31c330a6a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7089c5f0a108bf9933586e8ef9b98f6520945cdd65ebe1efe0c8daf4e89f2057",
+      "name": "Plank chống bàn tay có thêm tạ",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế quỳ, hai bàn tay đặt trên đất.",
+        "Đặt bánh tạ trên lưng hoặc nhờ bạn tập đặt giúp.",
+        "Nhấc đầu gối khỏi đất. Giữ tư thế với lưng phẳng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Hand Plank",
+        "description": "",
+        "steps": [
+          "Start in a kneeling position with your hands planted on the ground.",
+          "Place a weight plate on your back or have a friend do it for you.",
+          "Pick your knees up off the ground. Hold in this position with a flat back."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ec48a403-d1ef-4d1d-ba63-1417fafe586f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "fab90bd824a5949197f3f3cbf2707940329a5e17a99bc87c102a7cf04405b534",
+      "name": "Plank chuyển xuống khuỷu tay có thêm tạ",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế plank. Đặt bánh tạ trên lưng.",
+        "Chuyển xuống một khuỷu tay rồi đến khuỷu tay còn lại. Cố gắng không lắc người qua lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Plank Up Down",
+        "description": "",
+        "steps": [
+          "Start from a plank position. Place a plate on your back.",
+          "Go to one elbow then the other. Try to avoid rocking back and forth."
+        ]
+      }
+    },
+    {
+      "exercise_id": "95d858be-1d85-4d84-baaf-ab38125362c6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ff7ee5a6b07aeb5509d110ccc27ed8c4daab6b1860df9fd3690d3145b9856791",
+      "name": "Kéo xà tay sấp có thêm tạ",
+      "description": "",
+      "steps": [
+        "Nắm sấp thanh, tay và vai duỗi hoàn toàn. Tạ treo giữa hai chân.",
+        "Kéo người lên đến khi cằm cao hơn thanh.",
+        "Hạ người về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Pull Ups",
+        "description": "",
+        "steps": [
+          "Grasp the bar with an overhand grip, arms and shoulders fully extended. Weight hanging between your legs.",
+          "Pull your body up until your chin is above the bar.",
+          "Lower your body back to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f53955a5-eebb-41bf-a02d-8d7430293e49",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3ffe04e044110095d7c94d3a69f3f39ebddb1f08cb56f79f41da06f004320076",
+      "name": "Chống đẩy có thêm tạ",
+      "description": "",
+      "steps": [
+        "Đặt chắc hai bàn tay trên đất, ngay dưới vai. Đặt bánh tạ trên lưng.",
+        "Giữ lưng phẳng để toàn thân thẳng và từ từ hạ người.",
+        "Kéo bả vai về sau và xuống, giữ khuỷu tay khép gần thân.",
+        "Thở ra khi đẩy người về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Push Ups",
+        "description": "",
+        "steps": [
+          "Place your hands firmly on the ground, directly under shoulders. Place a plate on your back.",
+          "Flatten your back so your entire body is straight and slowly lower your body",
+          "Draw shoulder blades back and down, keeping elbows tucked close to your body",
+          "Exhale as you push back to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "284ce22b-608a-468f-a5b8-cb7ab9791a37",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "bdb01f34b380d66663dca76081d3b0b31714ee473626d7729ab18fb3b7e46f51",
+      "name": "Ngồi tựa tường có thêm tạ",
+      "description": "",
+      "steps": [
+        "Áp lưng vào tường, hai chân rộng bằng vai, giữ tạ hai bên thân.",
+        "Hạ vào tư thế squat, đùi song song với sàn, đầu gối trên cổ chân.",
+        "Giữ tư thế, duy trì lực căng ở cơ bụng và chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Weighted Wall Sit",
+        "description": "",
+        "steps": [
+          "Press your back against a wall, feet shoulder-width apart, holding weights at your sides.",
+          "Lower into a squat position, thighs parallel to the floor, knees above ankles.",
+          "Hold the position, maintaining tension in your core and legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0e95d432-dc11-4211-9007-6943ccf1e084",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3ba173ab00a360176e812796a3102f755b186937890a36ca3e1a8828a127cf71",
+      "name": "Squat với bóng tạ giữ lệch một bên",
+      "description": "",
+      "steps": [
+        "Giữ bóng tạ tại một vai, hai chân rộng bằng vai.",
+        "Squat xuống, giữ bóng cùng một bên trong suốt chuyển động.",
+        "Đứng lên, siết cơ mông. Lặp lại ở bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Ball Offset Squat",
+        "description": "",
+        "steps": [
+          "Hold medicine ball at one shoulder, feet shoulder-width apart.",
+          "Squat down, keeping ball on same side throughout movement.",
+          "Stand back up, squeezing glutes. Repeat on other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "be22b754-7be6-4e2a-aabc-7b6cf2b29663",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "49c82193a45b1558baa17aec38dcf72d3af04cdf7a514aa88eeb7ef624fa59ae",
+      "name": "Đẩy chuyền bóng tạ trước ngực với bạn tập",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, bạn tập tung bóng tạ về ngực.",
+        "Bắt bóng rồi đẩy chuyền lại cho bạn tập. Lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Chest Press Partner Toss",
+        "description": "",
+        "steps": [
+          "Stand tall, partner tosses medicine ball to chest.",
+          "Catch ball and press it back to partner. Repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "811b935c-f5dd-430d-8943-40bb3f12d464",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b3a99d7c5a8ca2d782d263eddd20acfb28128ae76f9ac41c96a288d87e92c988",
+      "name": "Đẩy ném bóng tạ xuống đất từ ngực",
+      "description": "",
+      "steps": [
+        "Giữ bóng tạ trước ngực, hai chân rộng bằng vai.",
+        "Duỗi tay về trước, ném mạnh bóng xuống đất.",
+        "Bắt bóng nảy lên rồi lặp lại theo số lần tập."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Chest Press Slam",
+        "description": "",
+        "steps": [
+          "Hold medicine ball at chest, feet shoulder-width apart.",
+          "Extend arms forward, slamming ball to the ground.",
+          "Catch the ball on the rebound and repeat for reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eb8244f8-eab2-4580-9bd2-73b54aa82663",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c1312da665fe5d41603a5fd4704886af79293ceb0d95f241e46d632512ef31a0",
+      "name": "Đẩy ném bóng tạ trước ngực vào tường",
+      "description": "",
+      "steps": [
+        "Đứng trước tường, giữ bóng tạ.",
+        "Đẩy bóng về trước, duỗi tay và tung bóng.",
+        "Bắt bóng và trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Chest Press Toss",
+        "description": "",
+        "steps": [
+          "Stand in front of a wall holding a medicine ball.",
+          "Press the ball forward, extending arms and tossing it.",
+          "Catch the ball and return to the starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5a47d8b8-ed36-4043-9ac6-7e867ba609f6",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3ca19455e48edb7a253c52c22174e93823a129766e5ab23c08cbc7d78d87ee72",
+      "name": "Đưa bóng tạ lên ngực và đẩy qua đầu",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, hai tay trên bóng phía trước người.",
+        "Hạ vào tư thế squat rồi bật mạnh lên, đưa bóng lên ngang ngực.",
+        "Đẩy bóng qua đầu đến khi hai tay duỗi, sau đó hạ xuống và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Clean And Press",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width and hands on the ball in front of you.",
+          "Drop into a squat, then explode upward, bringing ball to chest level.",
+          "Press ball overhead until arms extend, then lower and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "72bbaa2a-8329-44bb-9229-678f7b507ee2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "d2e0d1f4faafad0d467373a142beebbc9094d7dd98ae813c0855e590a3118320",
+      "name": "Đưa bóng tạ lên vai, đẩy qua đầu và ném xuống",
+      "description": "",
+      "steps": [
+        "Giữ bóng tạ theo kiểu nắm sấp.",
+        "Nâng bóng mạnh lên đến ngang vai.",
+        "Đẩy bóng qua đầu rồi ném mạnh xuống đất."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Clean And Press Slam",
+        "description": "",
+        "steps": [
+          "Hold the medicine ball with an overhand grip.",
+          "Lift the ball explosively, clean it to shoulder height.",
+          "Press the ball overhead, then slam it to the ground."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e8322fb1-e6cc-4cbe-b40c-622a1ad8b799",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b7891bee7dd17e6638610ec619a4fbe1bcd4e70ff65108a2b2c459d88a73ba99",
+      "name": "Duỗi tay chân đối diện kiểu dead bug với bóng tạ",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, đặt bóng tạ giữa hai tay duỗi và đầu gối co.",
+        "Hạ tay và chân đối diện về sàn, giữ lưng áp xuống đất và bóng tại chỗ.",
+        "Luân phiên hai bên, duy trì cơ bụng siết và lặp lại theo số lần hoặc thời gian mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Dead Bug",
+        "description": "",
+        "steps": [
+          "Lie on your back, place a medicine ball between your extended arms and bent knees.",
+          "Lower opposite arm and leg to floor, keeping back pressed against ground and medicine ball in place.",
+          "Alternate sides, maintain core engagement, and repeat for desired reps or time."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9face795-e71e-4007-af51-e73803219853",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f041efaa8fb574c4cccf6d2664cb953a7836077507f6cb5591abf309827e7651",
+      "name": "Quỳ một gối xoay bóng tạ kiểu bổ củi",
+      "description": "",
+      "steps": [
+        "Quỳ một gối, giữ bóng tạ.",
+        "Xoay thân đến khi bóng hướng về phía đối diện.",
+        "Lặp lại động tác ở bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Half Kneeling Wood Chopper",
+        "description": "",
+        "steps": [
+          "Kneel with one knee down, holding a medicine ball.",
+          "Rotate torso and until the medicine ball is pointed the opposite direction.",
+          "Repeat the movement on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e6546708-5958-4533-9260-338aabaaad88",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "75528cd4a2e0ecc4cc1566ff95ce7f6886cf37a36d792965be98fd83699c3020",
+      "name": "Xoay bóng tạ quanh đầu",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bóng tạ.",
+        "Di chuyển bóng vòng quanh đầu có kiểm soát.",
+        "Hoàn thành số lần mong muốn theo cả hai chiều."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Halo",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart, hold a medicine ball.",
+          "Circle the ball around your head, maintaining control.",
+          "Complete the desired number of repetitions in both directions."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a96ba7a3-f4b9-4d97-980d-e812985c3f4f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ab88de3e3ad25c69eba6557a8006238537e57024d08645bf7e5e801b4f4b4c68",
+      "name": "Giữ thân cong kiểu hollow hold với bóng tạ",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, giữ bóng tạ phía trên đầu.",
+        "Nâng vai và chân khỏi đất, siết cơ bụng.",
+        "Giữ tư thế và duy trì ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Hollow Hold",
+        "description": "",
+        "steps": [
+          "Lie on your back, holding a medicine ball overhead.",
+          "Lift your shoulders and legs off the ground, engaging core.",
+          "Hold the position while maintaining stability."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6bee9709-8809-4efc-acbd-e22ba45e8d23",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e0a001537a76402bf3071a57004d3d254e3c7a73dc6fc72fd3af4dbf4404bba2",
+      "name": "Quỳ ném bóng tạ chéo xuống kiểu bổ củi",
+      "description": "",
+      "steps": [
+        "Quỳ gối, giữ bóng tạ.",
+        "Xoay thân và ném mạnh bóng chéo xuống, qua người.",
+        "Lặp lại động tác ở bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Kneeling Wood Chopper",
+        "description": "",
+        "steps": [
+          "Kneel, holding a medicine ball.",
+          "Rotate torso and slam the ball diagonally down and across.",
+          "Repeat the movement on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6269b766-7a67-455a-bb07-f612d5458f51",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7afc3fdb15934388a93c34f477d9b5cafe007db5646f565554bc903a28078c50",
+      "name": "Chùng chân sang ngang kết hợp ném bóng tạ xuống",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, giữ bóng tạ.",
+        "Bước sang bên vào tư thế chùng chân rồi ném mạnh bóng xuống.",
+        "Trở về vị trí ban đầu và lặp lại ở bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Lateral Lunge Slam",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart, holding a medicine ball.",
+          "Step laterally, performing a lunge, then slam the ball.",
+          "Return to the starting position and repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "18a1dff2-09fb-4430-a193-7db7e195735c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9820418c718bdfc34a93749deb8bd57a7f2fdf5330f0a74353771df10e089f07",
+      "name": "Chùng chân lùi với bóng tạ giữ trên đầu",
+      "description": "",
+      "steps": [
+        "Giữ bóng tạ trên đầu.",
+        "Bước lùi vào tư thế chùng chân.",
+        "Trở về vị trí ban đầu. Lặp lại với chân còn lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Overhead Reverse Lunge",
+        "description": "",
+        "steps": [
+          "Hold medicine ball overhead.",
+          "Step back into lunge position.",
+          "Return to starting position. Repeat on other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "93c05a09-c6eb-421d-9c83-e1e87b413f52",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ec30874a43dba7347f767fb800858669b916b70c32d26a2b3425313b596b725e",
+      "name": "Squat với bóng tạ giữ trên đầu",
+      "description": "",
+      "steps": [
+        "Giữ bóng tạ trên đầu.",
+        "Squat xuống, giữ lưng thẳng.",
+        "Đứng lên. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Overhead Squat",
+        "description": "",
+        "steps": [
+          "Hold medicine ball overhead.",
+          "Squat down, keeping back straight.",
+          "Stand back up. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e45c5d8c-9e35-40b7-b2bc-cfb10ce2b4a0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "11c9dc293f5eedde84a64c986847424b61d2e6848873d240ba618d5033f072c4",
+      "name": "Gập bụng ngồi dậy chuyền bóng tạ với bạn tập",
+      "description": "",
+      "steps": [
+        "Nằm hướng về bạn tập, đầu gối co.",
+        "Ngồi dậy và tung bóng tạ cho bạn tập.",
+        "Bắt bóng rồi hạ xuống. Lặp lại theo số lần mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Partner Situp Toss",
+        "description": "",
+        "steps": [
+          "Lie facing partner, knees bent.",
+          "Sit up, toss medicine ball to partner.",
+          "Catch and lower down. Repeat for desired reps."
+        ]
+      }
+    },
+    {
+      "exercise_id": "37ac4862-a13f-4b29-92cb-c7bfa249056f",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b07d798ea554b9a6e59ff96ff19320772daa22e5dd490c0d33bee992bbcc0bd4",
+      "name": "Plank cẳng tay trên bóng tạ",
+      "description": "",
+      "steps": [
+        "Đặt cẳng tay lên bóng tạ, duỗi hai chân.",
+        "Giữ cơ thể thẳng trong thời gian mong muốn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T00:39:14.821Z",
+      "source": {
+        "name": "Medicine Ball Plank",
+        "description": "",
+        "steps": [
+          "Place forearms on medicine ball, extend legs.",
+          "Maintain straight body position for desired time."
+        ]
+      }
+    }
+  ]
+}

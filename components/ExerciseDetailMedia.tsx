@@ -3,6 +3,8 @@
 import { useRef, type PointerEvent, type WheelEvent } from "react";
 import type { ExerciseMediaValue } from "@/lib/exercises/types";
 import LazyExerciseVideo from "./LazyExerciseVideo";
+import { useAppLanguage } from "./LanguageProvider";
+import { getMessages, translate } from "@/lib/i18n/messages";
 
 const fakeDetailSlides = [
   { kicker: "HOME TRAINING 10 MINUTE MIRACLE", sub: "BURN FAT IN 10 MINUTES WITH FULL BODY", modifier: "" },
@@ -11,6 +13,8 @@ const fakeDetailSlides = [
 ] as const;
 
 export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: { mediaCount: number; title: string; media?: ExerciseMediaValue[] }) {
+  const { language } = useAppLanguage();
+  const messages = getMessages(language);
   const realMedia = media.filter((item) => item.videoUrl);
   const fallbackPoster = media.find((item) => item.posterUrl)?.posterUrl;
   const slideCount = Math.max(realMedia.length || mediaCount, 1);
@@ -52,13 +56,13 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
 
   return (
     <>
-      <div aria-label={`${title} demonstration videos`} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
+      <div aria-label={translate(language, "demonstrationVideos", { name: title })} className={`exercise-detail-hero-track${slideCount > 1 ? " exercise-detail-hero-track--stacked" : " exercise-detail-hero-track--single"}`} onPointerCancel={handlePointerEnd} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerEnd} onWheel={handleWheel} role="region" tabIndex={slideCount > 1 ? 0 : -1}>
         {Array.from({ length: slideCount }, (_, index) => {
           const slide = fakeDetailSlides[index % fakeDetailSlides.length];
           const selectedMedia = realMedia[index];
           return (
-            <section aria-label={`${title} view ${index + 1}`} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={`${title}-${index}`} role="img">
-              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={`${title} demonstration video ${index + 1}`} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{slide.kicker}</span><span className="exercise-detail-hero__sub">{slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
+            <section aria-label={translate(language, "exerciseView", { name: title, number: index + 1 })} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={selectedMedia?.storagePath ?? selectedMedia?.videoUrl ?? index} role="img">
+              {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={translate(language, "demonstrationVideo", { name: title, number: index + 1 })} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{language === "vi" ? messages.exercise : slide.kicker}</span><span className="exercise-detail-hero__sub">{language === "vi" ? messages.mediaUnavailable : slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
               {selectedMedia?.videoUrl && (
                 <div aria-hidden="true" className="exercise-detail-hero__watermark-cover" />
               )}

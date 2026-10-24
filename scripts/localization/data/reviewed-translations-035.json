@@ -1,0 +1,941 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Reviewed against corrected captured DOM sources; source repairs and translations verified against the live database before finalizing this manifest.",
+  "sourceExceptions": [
+    {
+      "index": 13,
+      "sourceName": "Mini Band Bent Arm Lateral Raise",
+      "reason": "Angle restored from DOM, but bilateral raising still ends with an alternating lowering cue. Translation remains held for variant verification.",
+      "exercise_id": "2a854fdd-57fa-4f00-822d-4d119cdd1919"
+    },
+    {
+      "index": 166,
+      "sourceName": "Quads Stretch Variation Two",
+      "reason": "Angle restored from DOM, but front-foot setup does not identify the joint for the 90-degree angle. Translation remains held for support/reference verification.",
+      "exercise_id": "4998e346-5462-4ed3-a55e-e17c7566ca23"
+    }
+  ],
+  "translations": [
+    {
+      "exercise_id": "fde63e2f-1d58-404a-9f37-34a0db384220",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1a6ab2e321df347a1ee421b97f871814af2ed4d6b0c7b59eacad74dc8e0c64d8",
+      "name": "Nâng tay ra trước với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Giẫm lên dây bằng một hoặc 2 bàn chân tùy mức kháng lực mong muốn.",
+        "Giữ khuỷu tay duỗi, nâng nắm tay thẳng lên phía trần đến ngang mắt."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Band Front Raise",
+        "description": "",
+        "steps": [
+          "Stand on the band with one or 2 feet depending on how heavy you want the band to be.",
+          "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+        ]
+      }
+    },
+    {
+      "exercise_id": "409f685b-d478-436d-a86b-cfee60294b44",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3c9906e90ac201d91e25bb9ed272b4698e86b6edd11aed1c7d4a2a6e92bf96b1",
+      "name": "Đạp chân với dây kháng lực",
+      "description": "",
+      "steps": [
+        "Nằm phẳng trên sàn, đầu gần điểm neo dây, điểm neo cao hơn đầu 6 đến 12 inch.",
+        "Vòng dây quanh giữa bàn chân, duỗi gối và hông."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Band Leg Press",
+        "description": "",
+        "steps": [
+          "Lay flat on the ground with your head by the anchor point of the band, which should be 6 to 12 inches above your head",
+          "Place the band around your midfoot and extend at the knees and hip."
+        ]
+      }
+    },
+    {
+      "exercise_id": "ad77025e-38b2-40c2-bccb-afa1248fd4da",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a9395c85997b8331d54a2862145c0dceebea89bd239099359170a5872becb025",
+      "name": "Nâng khuỷu tay sang ngang luân phiên với mini band",
+      "description": "",
+      "steps": [
+        "Vòng dây quanh khuỷu tay, hai tay co 90 độ ở hai bên thân.",
+        "Nâng một khuỷu tay ra ngoài đến ngang vai.",
+        "Từ từ hạ xuống và luân phiên hai bên, giữ lực căng trên dây."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Mini Band Alternating Bent Arm Lateral Raise",
+        "description": "",
+        "steps": [
+          "Loop band around elbows, arms bent 90 degrees at sides.",
+          "Raise one elbow outward to shoulder height.",
+          "Lower slowly and alternate, keeping tension on band."
+        ]
+      }
+    },
+    {
+      "exercise_id": "527c0819-c11c-41db-9f45-d4c7761fac09",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e09e3e34b1d03c5efaa0a5e535e8deb457859d90544482bdd518952a8a02660b",
+      "name": "Xoay ngoài vai với mini band",
+      "description": "",
+      "steps": [
+        "Neo dây, giữ khuỷu tay sát thân và co 90 độ.",
+        "Xoay cẳng tay ra ngoài, giữ khuỷu tay cố định.",
+        "Từ từ trở về vị trí ban đầu, kiểm soát lực kháng."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Mini Band External Rotation",
+        "description": "",
+        "steps": [
+          "Anchor band, elbow at side bent 90 degrees.",
+          "Rotate forearm outward, keeping elbow pinned.",
+          "Return slowly to start, controlling resistance."
+        ]
+      }
+    },
+    {
+      "exercise_id": "f8818dd6-62df-40b3-b06e-4cdbf1bc9b59",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e8b183ee50694c145138b2d8c66fb55801f8bc7228ed15a4862e67fe1e7a7b6d",
+      "name": "Nhún vai với tạ đòn ở góc 30 độ",
+      "description": "",
+      "steps": [
+        "Giữ tạ đòn với tay nắm rộng. Hai tay tạo góc khoảng 30 độ.",
+        "Kéo vai về phía tai thay vì nâng thẳng lên phía trần."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Barbell 30 Degree Shrug",
+        "description": "",
+        "steps": [
+          "Hold barbell with a wide grip. Your arms should be at a roughly 30 degree angle.",
+          "Pull your shoulders towards your ears instead of straight up toward the ceiling."
+        ]
+      }
+    },
+    {
+      "exercise_id": "64dc6018-12ff-4a7b-8d45-3d0973b58097",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "103b25d34cf8c67cea33dcd639cf5be541e18734761efc6829ba86449de63c47",
+      "name": "Nhún vai với tạ đòn sau lưng ở góc 30 độ",
+      "description": "",
+      "steps": [
+        "Giữ tạ đòn phía sau, hai tay tạo góc 30 độ với thân.",
+        "Nhún vai lên và hơi ra sau về phía tai, giữ khuỷu tay duỗi thẳng.",
+        "Dừng ngắn ở điểm cao nhất rồi hạ có kiểm soát đến khi giãn hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Barbell Behind The Back 30 Degree Shrug",
+        "description": "",
+        "steps": [
+          "Hold barbell behind you with arms at a 30 degree angle with your torso.",
+          "Shrug shoulders up and slightly back toward ears, keeping elbows locked.",
+          "Pause briefly at the top, then lower under control to full stretch."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d06f14d0-9a5b-47b0-ae6b-d808251ef169",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "52141d41f522ac1fdd93521aa3672074ef0808fc1cc806b0db5ae121d90619e4",
+      "name": "Đẩy tạ đòn trên ghế dốc cao",
+      "description": "",
+      "steps": [
+        "Đặt ghế ở góc từ 45 đến 60 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Barbell High Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Position the bench between 45 and 60 degrees.",
+          "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+          "Lower the bar to your mid chest",
+          "Raise the bar (slowly and controlled) until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6433bf12-e67e-4ea7-841d-e0c741f7e6b1",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ae246d6406a7df57d83986268086c4c8b2d53cfccf8fcd04024b87a3a4982cff",
+      "name": "Đẩy tạ đòn trên ghế dốc lên",
+      "description": "",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Barbell Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Position the bench between 30 and 45 degrees.",
+          "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+          "Lower the bar to your mid chest",
+          "Raise the bar (slowly and controlled) until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "acae8c6a-d0de-436d-9c04-8c92f3003aa4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "47686a046896479ab6f796769c9fc0743d07b4347ca5add51d97edbc7bde2434",
+      "name": "Chùng chân bắt chéo với landmine",
+      "description": "",
+      "steps": [
+        "Đứng đối diện thanh đòn, một tay giữ đầu thanh đòn ở bên thân.",
+        "Dùng chân cùng bên với thanh đòn bước lùi và chéo qua thân ở góc 45 độ, giữ trọng lượng trên gót chân trước để nhẹ nhàng hạ đầu gối sau xuống sàn.",
+        "Đạp qua gót chân trước để bước về vị trí ban đầu, lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Landmine Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Stand facing the barbell while holding the end of the bar at your side with one hand.",
+          "With the leg on the same side of your body as the barbell, lunge backward and across your body at a 45 degree angle while keeping your weight on your front heel to lower your back knee gently to the ground.",
+          "Drive through your front heel as you step back to the starting position, and repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "62a98c2f-1a87-4320-8337-a637b4f3634e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a327d859b438002d7217ca2ad73af10b4c1f912c6f43c566b7519fe5f3133f1c",
+      "name": "Đá chân ra sau với landmine",
+      "description": "",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối vuông góc với thanh đòn, đầu thanh đòn tựa vào mặt trong đầu gối phía gần thanh đòn.",
+        "Giữ cơ trung tâm siết, lưng phẳng và chân đang tập co 90 độ, đẩy gót chân lên phía trần đồng thời siết cơ mông.",
+        "Đưa đầu gối theo quỹ đạo trở xuống sàn dưới hông, giữ gối co để kiểm soát thanh đòn.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Landmine Glute Kick Back",
+        "description": "",
+        "steps": [
+          "Start on your hands and knees perpendicular to the barbell with the end of the barbell resting on the inside of your knee that is closer to the bar.",
+          "Keeping your core braced, your back flat, and your moving leg bent at a 90 degree angle, drive the heel of your working leg up the ceiling while squeezing your glute.",
+          "Follow the movement path as you bring your knee back down to the ground beneath your hip, keeping your knee bent to maintain control of the barbell.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "eb499a97-b40c-4cda-8a79-b5d53a7c3716",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b13fda24ab9ff22676606247b147c218d6739e60981c8b6ad54943a50df3a948",
+      "name": "Chùng chân bắt chéo giữ landmine trước ngực",
+      "description": "",
+      "steps": [
+        "Bắt đầu đối diện thanh đòn, giữ đầu thanh đòn trước ngực ở tư thế goblet và khuỷu tay sát thân.",
+        "Bước lùi và chéo qua thân bằng một chân ở góc 45 độ, giữ trọng lượng trên gót chân trước để nhẹ nhàng hạ đầu gối sau xuống sàn.",
+        "Đạp qua gót chân trước để bước lên trở về vị trí ban đầu.",
+        "Lặp lại theo số lần mong muốn rồi đổi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Landmine Goblet Curtsy Lunge",
+        "description": "",
+        "steps": [
+          "Start facing the barbell while holding the end of the bar in the goblet position in front of your chest with your elbows close to your sides.",
+          "Step backward and across your body with one leg at a 45 degree angle while keeping your weight on your front heel to gently lower your back knee to the ground.",
+          "Drive through your front heel as you step back up and to the starting position.",
+          "Repeat for the desired number of reps before switching legs."
+        ]
+      }
+    },
+    {
+      "exercise_id": "48851130-e3d7-4a55-94fa-255322897744",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "3f3500468b42f128d8f79d23dc3982d54e5b5995730ff7c282e62d46adc0ec7f",
+      "name": "Đẩy ngực một tay với landmine",
+      "description": "",
+      "steps": [
+        "Nằm ngửa vuông góc với thanh đòn, dùng tay phía xa điểm gắn landmine giữ đầu thanh đòn. Khuỷu tay tựa sàn ở góc 45 đến 60 độ với thân, cổ tay ngay trên khuỷu tay.",
+        "Đẩy đầu thanh đòn lên, siết ngực ở điểm cao nhất. Hạ thanh đòn đến khi khuỷu tay chạm nhẹ sàn.",
+        "Lặp lại đủ số lần mong muốn ở một bên rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Landmine Single Arm Chest Press",
+        "description": "",
+        "steps": [
+          "Starting lying on your back perpendicularly to the barbell while holding the end of the bar in your hand that is further away from the landmine attachment. Your elbow should be rest on the ground at a 45 to 60 degree angle from your torso, with your wrist stacked over your elbow.",
+          "Drive the end of the bar upwards, squeezing your chest at the top of the movement. Lower the bar back down until your elbow gently touches the ground.",
+          "Repeat for the desired number of reps on one side before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "671ac465-b4d9-498f-881a-912d1e2528c5",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a9da120fcaf5cc0baffe08d8d693ba452ef6f1bcfea0c71116c1f56706fbc56b",
+      "name": "Gập bụng ngồi dậy với landmine",
+      "description": "",
+      "steps": [
+        "Nằm phẳng trên sàn, giữ đầu thanh đòn với hai tay duỗi.",
+        "Nâng lưng khỏi sàn đến khi ngồi ở góc 90 độ.",
+        "Sau đó từ từ hạ trở lại sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Landmine Sit Up",
+        "description": "",
+        "steps": [
+          "Lay flat on the ground and hold the end of the bar with your arms extended.",
+          "Raise your back off the ground until you are sitting at a 90 degree angle.",
+          "Then lower slowly back to the floor."
+        ]
+      }
+    },
+    {
+      "exercise_id": "90dfa42f-efc7-474c-9cda-f7d9ed603200",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "af701ab96373ea534e3518c22560c9046fb1e29c6d4cb96f4d232f1a6fa6ffb7",
+      "name": "Chống đẩy xà kép",
+      "description": "",
+      "steps": [
+        "Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Parallel Bar Dips",
+        "description": "",
+        "steps": [
+          "Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+          "Lower slowly until elbows are at 90 degrees.",
+          "Push back up to start position, extending arms fully."
+        ]
+      }
+    },
+    {
+      "exercise_id": "6af3a49a-5a01-4cb1-8b41-acb2e3a2d9db",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "cf874b3a293c07280273d5b94147ea3b5fb8297723961559a15e19fe4c803280",
+      "name": "Squat tựa tường với bóng thăng bằng",
+      "description": "",
+      "steps": [
+        "Đứng hai chân rộng bằng vai, đặt bóng thăng bằng giữa lưng dưới và tường.",
+        "Từ từ squat xuống bằng cách co gối đến 90 độ, giữ lưng thẳng và cơ trung tâm siết.",
+        "Ấn qua gót chân, duỗi chân và đứng lên, giữ thăng bằng và kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Stability Ball Wall Squat",
+        "description": "",
+        "steps": [
+          "Stand with feet shoulder-width apart, placing a stability ball between your lower back and wall.",
+          "Slowly squat down by bending knees to 90 degrees, keeping back straight and core engaged.",
+          "Press through heels, straighten legs, and return to standing while maintaining balance and control."
+        ]
+      }
+    },
+    {
+      "exercise_id": "9d8c3706-b54c-4029-8189-348470f4b39e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c5f605ef1852da06a22ab42cf453fdcc0295d0d7b6769f5635747245f034dc8d",
+      "name": "Xoay chân kiểu cần gạt nước",
+      "description": "",
+      "steps": [
+        "Nằm ngửa, hai tay dang và hai chân sát nhau.",
+        "Nâng chân đến 90 độ.",
+        "Xoay hai chân sang hai bên, giữ vai trên sàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Windshield Wiper",
+        "description": "",
+        "steps": [
+          "Lie on back, arms out, legs together.",
+          "Lift legs to 90 degrees.",
+          "Rotate legs side to side, keeping shoulders grounded."
+        ]
+      }
+    },
+    {
+      "exercise_id": "61dccbc8-0f36-461c-ba4a-4f8ec7ab9593",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e8d7bd244065d850c7cb6817baa5c28012e90615728b965959c3f197b6535955",
+      "name": "Squat tách chân với bóng BOSU",
+      "description": "",
+      "steps": [
+        "Đứng trước BOSU, một bàn chân ở giữa bóng.",
+        "Hạ vào tư thế chùng chân, đầu gối ở góc 90 độ.",
+        "Đạp chân trước để trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Bosu Ball Split Squat",
+        "description": "",
+        "steps": [
+          "Stand in front of Bosu, one foot on the center.",
+          "Lower into a lunge position, knee at 90 degrees.",
+          "Push off the front foot to return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8e8fd6cb-2969-4a0d-b11c-c963a080b2e9",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "9d63af7779fde726046e105a812244d04a21d5cafc2a3c5a733fce5376efe281",
+      "name": "Nhón gót với đai gắn cáp",
+      "description": "",
+      "steps": [
+        "Đeo đai tập xà kép và móc khóa cáp vào xích hoặc dây đai.",
+        "Bước lùi vài bước rồi đứng thẳng. Nhón lên phần đệm trước bàn chân và giữ trong 1 nhịp đếm."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Cable Belt Calf Raise",
+        "description": "",
+        "steps": [
+          "Put on a dip belt and attach the cable carabiner to the chain/strap.",
+          "Take a few steps back and stand tall. Raise up onto the balls of your feet and hold for a 1 count."
+        ]
+      }
+    },
+    {
+      "exercise_id": "13950676-cd8b-4856-81ad-99dbbce23e15",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "403c39a652c7643ec1424cdb692195c1a665e7c823749363c6f26d6a9286731e",
+      "name": "Đẩy cáp chéo tập tay sau",
+      "description": "",
+      "steps": [
+        "Dùng hai tay cầm hoặc không dùng phụ kiện. Đặt cả hai bên cáp chéo ở vị trí cao nhất.",
+        "Đứng giữa máy, mỗi tay giữ cáp bên đối diện. Cánh tay trên tạo góc 45 độ với thân.",
+        "Duỗi khuỷu tay đến khi cảm thấy cơ co rồi trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Cable Cross Pushdown",
+        "description": "",
+        "steps": [
+          "Either use two handles or no attachment at all. Both sides of the cable crossover should be set to the top.",
+          "Stand in the center of the machine holding each Cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.",
+          "Extend your elbows until you feel a contraction and then return to the starting position"
+        ]
+      }
+    },
+    {
+      "exercise_id": "dc46c05f-2836-4af7-9905-1aa16a670493",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "6fbed79f8fec7dc55b0ced28e32f3ae825b464a03be184ec54a19d49e8040dc7",
+      "name": "Xoay ngoài vai với cáp",
+      "description": "",
+      "steps": [
+        "Một tay giữ tay cầm cáp, khuỷu tay co 90 độ và tay đi ngang qua thân.",
+        "Xoay tay ra ngoài, giữ khuỷu tay ổn định."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Cable External Rotation",
+        "description": "",
+        "steps": [
+          "Hold the cable handle in one hand, elbow bent at 90 degrees going across your torso.",
+          "Rotate your arm outward, keeping your elbow stable."
+        ]
+      }
+    },
+    {
+      "exercise_id": "021f6cb3-27a9-4962-a250-79fa9517f933",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b88bdbfa7d21977876185416304f50ac0cb6e1a2b1305326733f07aa5a12ebc8",
+      "name": "Xoay trong vai với cáp",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, nắm tay cầm cáp bằng tay nắm trung tính, khuỷu tay ở góc 90 độ.",
+        "Xoay vai bằng cách đưa cẳng tay ngang qua thân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Cable Internal Rotation",
+        "description": "",
+        "steps": [
+          "Stand tall, hold the cable handle with a neutral grip, your elbow should be at a 90 degree angle.",
+          "Rotate your shoulder by bringing your forearm across your body."
+        ]
+      }
+    },
+    {
+      "exercise_id": "8aee4fef-ff5a-481f-a8aa-e25e98010192",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "ffd955d73f03ffbf2e218d2761cd9aabb44d3f4367ceb1ed8b0006c5512c5232",
+      "name": "Duỗi cổ tay với cáp",
+      "description": "",
+      "steps": [
+        "Dùng phụ kiện tay cầm. Đặt cáp ở vị trí thấp nhất của máy.",
+        "Quay mặt ra xa máy cáp. Đứng chân trước chân sau để có điểm tựa vững hơn.",
+        "Bắt đầu với khuỷu tay ở góc 90 độ, lòng bàn tay hướng xuống. Gập và duỗi cổ tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Cable Wrist Extension",
+        "description": "",
+        "steps": [
+          "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+          "Face away from the cable machine. Stagger your stance so you have a better base of support.",
+          "Start with your elbow at a 90 degree angle with your palm facing down. Flex and extend at the wrist."
+        ]
+      }
+    },
+    {
+      "exercise_id": "cb875305-f2f6-48fc-909e-27815d816abf",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "a9c00d4e427d6fbad46a3358e534aa5f99de018b16e6a3cb61cd4963ba9f3857",
+      "name": "Chống đẩy xà kép gắn tạ đơn",
+      "description": "",
+      "steps": [
+        "Dùng đai tập xà kép gắn tạ đơn vào người. Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Dumbbell Weighted Dip",
+        "description": "",
+        "steps": [
+          "Use a dip belt to attach a dumbbell to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+          "Lower slowly until elbows are at 90 degrees.",
+          "Push back up to start position, extending arms fully."
+        ]
+      }
+    },
+    {
+      "exercise_id": "00e0406c-028e-488b-9567-03080b5137e0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "95e0d560d3d21bc57c429650c1241a186c8c1b5bded07cfeda614b3f46c77dd2",
+      "name": "Đẩy tạ ấm trên ghế dốc cao",
+      "description": "",
+      "steps": [
+        "Đặt ghế ở góc từ 45 đến 60 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn.",
+        "Hạ tạ ấm về giữa ngực.",
+        "Nâng tạ ấm chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Kettlebell High Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Position the bench between 45 and 60 degrees.",
+          "Lay flat on the bench with your feet on the ground.",
+          "Lower the kettlebells to your mid chest",
+          "Raise the kettlebells (slowly and controlled) until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "a424ec46-2fd1-4a46-a3ea-a883bfcb89f4",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "25047a9627902e2b5ab8f65d4290aabdbd8ee04a9bb70efe876fb2c0f6d95322",
+      "name": "Đẩy tạ ấm trên ghế dốc lên",
+      "description": "",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn.",
+        "Hạ tạ ấm về giữa ngực.",
+        "Nâng tạ ấm chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Kettlebell Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Position the bench between 30 and 45 degrees.",
+          "Lay flat on the bench with your feet on the ground.",
+          "Lower the kettlebells to your mid chest",
+          "Raise the kettlebells (slowly and controlled) until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b87e6b1b-6800-4998-a22d-1248fe674499",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8a493936c9bebfd0180b9a823a978af3f0297718a755b83b6b4b5185f6be9a83",
+      "name": "Duỗi gối trên máy",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, lưng tựa đệm, điều chỉnh máy để đầu gối ở góc 90 độ tại vị trí bắt đầu.",
+        "Nâng tạ bằng cách duỗi gối ra rồi hạ chân về vị trí ban đầu. Cả hai chiều chuyển động cần chậm và có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Machine Leg Extension",
+        "description": "",
+        "steps": [
+          "Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90 degree angle at the starting position.",
+          "Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion."
+        ]
+      }
+    },
+    {
+      "exercise_id": "41275e45-0a4b-4352-970d-e0f389ec663a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "f3b392a4b2bd816fbf5714b8337be9115b89fe0d5231ad37fec0c95a32500e97",
+      "name": "Duỗi gối trên máy gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Ngồi trên máy, lưng tựa đệm, điều chỉnh máy để đầu gối ở góc 90 độ tại vị trí bắt đầu.",
+        "Nâng tạ bằng cách duỗi gối ra rồi hạ chân về vị trí ban đầu. Cả hai chiều chuyển động cần chậm và có kiểm soát."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Machine Plate Loaded Leg Extension",
+        "description": "",
+        "steps": [
+          "Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90 degree angle at the starting position.",
+          "Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion."
+        ]
+      }
+    },
+    {
+      "exercise_id": "77222098-18f3-4e01-b21f-cdf90a08d6bb",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "7a4a3f1a83223eb972d378240dca38bc76d7df6c1ea94b40e9f6899b060221ce",
+      "name": "Kéo xô trên máy",
+      "description": "",
+      "steps": [
+        "Nắm thanh với lòng bàn tay hướng về trước, hai tay rộng hơn vai.",
+        "Khi hai tay duỗi phía trước giữ thanh, ngả thân ra sau khoảng 30 độ và nâng ngực.",
+        "Kéo thanh xuống khoảng ngang cằm hoặc thấp hơn một chút theo chuyển động mượt, đồng thời siết hai bả vai lại gần nhau.",
+        "Siết trong một giây rồi từ từ nâng thanh về vị trí ban đầu đến khi hai tay duỗi hoàn toàn."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Machine Pulldown",
+        "description": "",
+        "steps": [
+          "Grip the bar with the palms facing forward, your hands need to be spaced out at a distance wider than shoulder width.",
+          "As you have both arms extended in front of you holding the bar, bring your torso back around 30 degrees while sticking your chest out.",
+          "Pull the bar down to about chin level or a little lower in a smooth movement whilst squeezing the shoulder blades together.",
+          "After a second of squeezing, slowly raise the bar back to the starting position when your arms are fully extended."
+        ]
+      }
+    },
+    {
+      "exercise_id": "80da666a-26c7-4060-921f-69f5d887136a",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "47ecc1a62ad6c35cf93519303663aba6bc59aa8cd0c4797a86bd62435a67fea0",
+      "name": "Chùng chân lùi xoay người với bánh tạ",
+      "description": "",
+      "steps": [
+        "Bước chân phải ra sau vào tư thế chùng chân, cả hai gối co 90 độ.",
+        "Xoay thân sang phải, giữ bánh tạ sát ngực.",
+        "Đạp chân trước để trở về vị trí ban đầu rồi lặp lại bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Plate Reverse Lunge Twist",
+        "description": "",
+        "steps": [
+          "Step back with your right foot into a lunge position, both knees bent at 90 degrees.",
+          "Twist your torso to the right, keeping the plate close to your chest.",
+          "Push through your front foot to return to the starting position and repeat on the other side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "510abfb8-b0dd-4953-a347-34639ac9f210",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "00393aae1cf3fe6a6330e461608eeecb0cfabed188519d0582b5f78a4ff4ad30",
+      "name": "Chống đẩy xà kép gắn bánh tạ",
+      "description": "",
+      "steps": [
+        "Dùng đai tập xà kép gắn bánh tạ vào người. Nắm hai thanh xà, tay thẳng và vai trên bàn tay. Giữ chân thẳng hoặc co.",
+        "Từ từ hạ người đến khi khuỷu tay ở góc 90 độ.",
+        "Đẩy lên về vị trí ban đầu, duỗi hoàn toàn tay."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Plate Weighted Dip",
+        "description": "",
+        "steps": [
+          "Use a dip belt to attach a plate to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+          "Lower slowly until elbows are at 90 degrees.",
+          "Push back up to start position, extending arms fully."
+        ]
+      }
+    },
+    {
+      "exercise_id": "0d274d59-d309-4a3b-bf06-d816dadbc9ca",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "35b96cf173ef775caa07fa11aa463c6525750381a5d86bbb4e5233ab33d993a6",
+      "name": "Đá chân ra sau trên máy Smith",
+      "description": "",
+      "steps": [
+        "Bắt đầu chống hai tay và hai gối, một bàn chân đặt vào mặt dưới thanh đòn.",
+        "Giữ cơ trung tâm siết, lưng phẳng và chân đang tập co 90 độ, đẩy gót chân lên phía trần đồng thời siết cơ mông.",
+        "Đưa đầu gối theo quỹ đạo trở xuống sàn dưới hông, giữ gối co để kiểm soát thanh đòn.",
+        "Lặp lại theo số lần mong muốn rồi đổi bên."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Smith Machine Glute Kickback",
+        "description": "",
+        "steps": [
+          "Start on your hands and knees with one foot placed on the bottom of the bar.",
+          "Keeping your core braced, your back flat, and your moving leg bent at a 90 degree angle, drive the heel of your working leg up the ceiling while squeezing your glute.",
+          "Follow the movement path as you bring your knee back down to the ground beneath your hip, keeping your knee bent to maintain control of the bar.",
+          "Repeat for the desired number of reps before switching sides."
+        ]
+      }
+    },
+    {
+      "exercise_id": "29ca15ed-d688-4e9c-9c0b-2ced5cfb9e8c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c599aa78d32e706fdc13a525dba638d22728bd28e3516e1467a40301cc775c75",
+      "name": "Đẩy ngực trên ghế dốc lên với máy Smith",
+      "description": "",
+      "steps": [
+        "Đặt ghế ở góc từ 30 đến 45 độ.",
+        "Nằm phẳng trên ghế, đặt bàn chân trên sàn. Duỗi tay và nhấc thanh đòn khỏi giá.",
+        "Hạ thanh đòn về giữa ngực.",
+        "Nâng thanh đòn chậm và có kiểm soát đến khi khuỷu tay duỗi thẳng hết."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Smith Machine Incline Bench Press",
+        "description": "",
+        "steps": [
+          "Position the bench between 30 and 45 degrees.",
+          "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+          "Lower the bar to your mid chest",
+          "Raise the bar (slowly and controlled) until you've locked your elbows."
+        ]
+      }
+    },
+    {
+      "exercise_id": "d2efa759-8d10-4e96-9563-f4c34e398abe",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8686f0af918bd8dd1f5a95cdd288cc8a5a5500c5bcf129d9231046eec3ed003d",
+      "name": "Giãn cơ ngực biến thể một",
+      "description": "",
+      "steps": [
+        "Dùng tường cao, đặt tay tựa vào tường ở góc 90 độ.",
+        "Đứng chân trước chân sau, nghiêng vào tường để mở ngực.",
+        "Dừng vài giây rồi trở về vị trí ban đầu và lặp lại bên đối diện."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Chest Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Using a raised wall, place your arm at a 90 degree angle against it.",
+          "With a staggered stance, lean into the wall extending your chest.",
+          "Pause for a few seconds and then return to starting position and repeat on opposite side."
+        ]
+      }
+    },
+    {
+      "exercise_id": "78948b30-4f20-48a9-ada3-737617b85f2e",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "91301be3512206edffec9e5c81e394f3214b3cbac1b8e6e801be7c79894d9243",
+      "name": "Giãn cơ cẳng tay biến thể bốn",
+      "description": "",
+      "steps": [
+        "Nâng tay ngang vai, tạo góc 90 độ với thân.",
+        "Ấn nhẹ lên bàn tay và đẩy về phía mình.",
+        "Xoay tay ngang qua thân.",
+        "Đổi bên và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Forearms Stretch Variation Four",
+        "description": "",
+        "steps": [
+          "Raise your arm to shoulder height at 90 degrees to your body.",
+          "Press lightly on your hand and push towards you.",
+          "Rotate the arm across your body.",
+          "Switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "532d22b3-fba0-4749-8605-8f7cc98d4a1c",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "38b2d69f6d85d5f08f817e210bcdf1117a9d8887e67a338457ab3920333be258",
+      "name": "Giãn cơ cẳng tay biến thể ba",
+      "description": "",
+      "steps": [
+        "Đặt hai bàn tay lại với nhau.",
+        "Xoay cánh tay và bàn tay 180 độ.",
+        "Giữ ở điểm giãn sâu nhất.",
+        "Trở về vị trí ban đầu."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Forearms Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Place your hands together.",
+          "Rotate your arms and hands 180 degrees.",
+          "Hold at the peak of the stretch.",
+          "Return to starting position."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b71d4fa0-47ae-480f-a244-0a4a292c1f96",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b905bc8a0d6a0b0a8e17bb81ec0d04eb13f1bf52dfff5fd57c36383da3c3f32a",
+      "name": "Giãn cơ mông biến thể ba",
+      "description": "",
+      "steps": [
+        "Nằm phẳng và đưa chân trái lên 90 độ.",
+        "Giữ chân trái bằng hai tay, từ từ xoay hông sang bên phải.",
+        "Giữ ở điểm giãn sâu nhất rồi từ từ trở về vị trí ban đầu.",
+        "Đổi bên và lặp lại."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Glutes Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Lay flat and bring your left leg to 90 degrees.",
+          "Hold your left leg with both hands and slowly rotate your hips to the right hand side.",
+          "Hold at the peak of the stretch, then slowly return to starting position.",
+          "Switch sides and repeat."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b637bb52-7c75-4342-a8b0-09a28bb82fce",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "b0c7ead1c3dcb3158a76e1000afe1b0173358a820c8af845661b57ddc0412bb0",
+      "name": "Giãn vai biến thể ba",
+      "description": "",
+      "steps": [
+        "Đặt mu bàn tay vào vùng lõm lưng dưới, tay ở góc 90 độ.",
+        "Dùng tay kia giữ khuỷu tay, từ từ kéo tay về trước đến khi cảm thấy vai được giãn. Dừng ở điểm giãn sâu nhất rồi trở về vị trí ban đầu.",
+        "Trở về vị trí ban đầu rồi lặp lại với tay kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Shoulders Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Place the top of your hand into the small of your back, your arm at a 90 degree angle.",
+          "Hold your elbow with the other arm, and slowly pull the arm forward until you feel your shoulder engaged in the stretch. Pause at the apex of the stretch and return to the starting position.",
+          "Return to starting position, and repeat with your other arm."
+        ]
+      }
+    },
+    {
+      "exercise_id": "b415a3f3-14c7-47e4-862a-f37b9c3163b0",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "e773597c8bbfccebaf68c738a1cede363080a01e0b6e624b6119ba3b62c5ac91",
+      "name": "Giãn cơ thang biến thể hai",
+      "description": "",
+      "steps": [
+        "Đứng thẳng, hai chân rộng bằng vai.",
+        "Giữ ngực hướng về trước, xoay đầu 90 độ sang trái rồi trở về giữa.",
+        "Lặp lại bằng cách xoay đầu sang hướng kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T01:38:02.947Z",
+      "source": {
+        "name": "Traps Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Stand upright with your feet shoulder width apart.",
+          "Keeping your chest facing forward, turn your head 90 degrees to the left. Then return to centre point.",
+          "Repeat, turning your head in the other direction."
+        ]
+      }
+    }
+  ]
+}

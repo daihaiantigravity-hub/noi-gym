@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "reviewStatus": "Reviewed against captured source; approved for public display.",
+  "reviewMethod": "Compared against corrected English source and reviewed source videos.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "4b3f1db2-0c01-40be-953c-f32e214b06d2",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "c3088127b769d03e2469a54fd60e69ddf3c9f9dcbe63364dc5f1767d7f0e7dcb",
+      "name": "Nâng bắp chân 2A lệch tâm một chân trên sàn",
+      "description": "",
+      "steps": [
+        "Đứng bằng cả hai chân trên sàn và vịn tường để giữ thăng bằng.",
+        "Nâng cả hai gót, sau đó chuyển trọng lượng sang một chân và nhấc chân còn lại lên.",
+        "Giữ ngắn ở vị trí cao nhất, rồi từ từ hạ gót chân trụ xuống sàn.",
+        "Lặp lại với chân kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:50:43.258Z",
+      "source": {
+        "name": "Calf Raise 2A Eccentric Unilateral Floor",
+        "description": "",
+        "steps": [
+          "Stand with both feet on the floor and hold a wall for balance.",
+          "Raise both heels, then shift your weight onto one leg and lift the other foot.",
+          "Hold the top position briefly, then slowly lower the working heel to the floor.",
+          "Repeat on the other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "5b494ab8-bc93-4ef0-a5dd-53752fb50853",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "53485538bb5c101122700443a01e50f49a5b79f484ca251d0469177280a289aa",
+      "name": "Nâng bắp chân 2C lệch tâm một chân trên bục",
+      "description": "",
+      "steps": [
+        "Đặt phần trước của cả hai bàn chân trên mép bục và vịn tường để giữ thăng bằng.",
+        "Dùng cả hai chân nâng gót, sau đó chuyển trọng lượng sang chân trụ và nhấc chân kia lên.",
+        "Giữ ngắn ở vị trí cao nhất, rồi từ từ hạ gót chân trụ xuống dưới mặt bục cho đến khi cảm thấy căng bắp chân.",
+        "Tạm dừng ở cuối biên độ, sau đó đổi chân."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T15:50:43.259Z",
+      "source": {
+        "name": "Calf Raise 2C Eccentric Unilateral From Box",
+        "description": "",
+        "steps": [
+          "Stand with both forefeet on the edge of a step and hold a wall for balance.",
+          "Use both legs to raise your heels, then shift your weight onto the working leg and lift the other foot.",
+          "Hold the top position briefly, then slowly lower the working heel below the step until you feel a stretch in the calf.",
+          "Pause at the end of the range, then repeat on the other leg."
+        ]
+      }
+    }
+  ]
+}

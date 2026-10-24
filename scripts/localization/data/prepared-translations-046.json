@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "reviewMethod": "Vietnamese titles and instructions reviewed against the video-corrected English steps; original sequence and step counts preserved.",
+  "sourceExceptions": [],
+  "translations": [
+    {
+      "exercise_id": "4998e346-5462-4ed3-a55e-e17c7566ca23",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "1b1dc419cdd4fd91ad7eb27168edfb0b7ceb19ec33eeca956b216056af4e5858",
+      "name": "Giãn cơ đùi trước biến thể hai",
+      "description": "",
+      "steps": [
+        "Vào tư thế chùng chân quỳ: đặt gối chân sau xuống sàn, mu bàn chân sau tựa vào tường. Đặt bàn chân trước phẳng trên sàn và gập gối trước khoảng 90 độ.",
+        "Đặt hai tay lên gối trước rồi nghiêng người về trước, đưa gối về phía trước qua bàn chân.",
+        "Dừng ở điểm căng sâu nhất, sau đó từ từ trở về tư thế ban đầu. Lặp lại với chân bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T09:46:36.538Z",
+      "source": {
+        "name": "Quads Stretch Variation Two",
+        "description": "",
+        "steps": [
+          "Set up in a kneeling lunge with your back knee on the floor and the top of your back foot against the wall. Place your front foot flat on the floor and bend your front knee to about 90 degrees.",
+          "Place your hands on your front knee and lean forward, allowing the knee to move over the foot.",
+          "Pause at the deepest point of the stretch, then slowly return to the starting position. Repeat with your other leg."
+        ]
+      }
+    },
+    {
+      "exercise_id": "79009697-d870-4b1e-956b-c5a09b9a99c3",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8a84b11b8f15be77466ff1239611180657bb2f880cfea131a9de7eeb99d59f8c",
+      "name": "Giãn cơ bụng biến thể ba",
+      "description": "",
+      "steps": [
+        "Đứng thẳng.",
+        "Đưa tay trái qua đầu rồi nghiêng người từ từ sang phải đến khi cảm thấy căng ở cơ chéo bụng.",
+        "Sau khi hoàn thành số lần mong muốn ở bên trái, đổi sang tay phải và nghiêng người sang trái."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T09:46:36.538Z",
+      "source": {
+        "name": "Abdominals Stretch Variation Three",
+        "description": "",
+        "steps": [
+          "Stand upright.",
+          "Reach overhead with your left arm and slowly lean to the right until you feel a stretch in your obliques.",
+          "After your desired repetitions on the left side, switch to your right arm and lean to the left."
+        ]
+      }
+    },
+    {
+      "exercise_id": "e38c6169-c56c-4074-9a73-63037169e582",
+      "locale": "vi",
+      "source_locale": "en",
+      "source_hash": "8fc3dfbf55b44f6e91bf52fc26efb3a78fa7a109bea379b07c819fb7a25b8014",
+      "name": "Giãn cơ mông biến thể một",
+      "description": "",
+      "steps": [
+        "Bắt đầu ở tư thế chống hai tay và hai gối.",
+        "Đưa một gối về trước, dưới thân người, đồng thời duỗi chân còn lại ra sau.",
+        "Vươn một tay chéo về trước trên thảm khi hạ ngực xuống gần thảm.",
+        "Giữ ở điểm căng sâu nhất, rồi từ từ trở về tư thế ban đầu và lặp lại với bên kia."
+      ],
+      "translation_status": "reviewed",
+      "reviewed_at": "2026-10-23T09:46:36.538Z",
+      "source": {
+        "name": "Glutes Stretch Variation One",
+        "description": "",
+        "steps": [
+          "Start on your hands and knees.",
+          "Bring one knee forward under your body while extending the other leg behind you.",
+          "Reach one arm forward across the mat as you lower your chest toward the floor.",
+          "Hold at the deepest point of the stretch, then slowly return to the starting position and repeat on the other side."
+        ]
+      }
+    }
+  ]
+}
