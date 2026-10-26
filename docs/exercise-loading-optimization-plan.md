@@ -166,7 +166,7 @@ Hoàn thành pilot khi đủ 10/10 video hợp lệ ở trang kiểm tra tự ph
 ### Đợt 7 — Triển khai, nghiệm thu và quay lại bản trước
 
 - [ ] Mỗi đợt có thay đổi nhỏ, mô tả tác động, bằng chứng kiểm tra chức năng và số đo trước/sau. Đọc tài liệu Next tại `node_modules/next/dist/docs/` trước khi sửa cơ chế cache/router.
-- [x] 75 test liên quan đã pass; TypeScript và ESLint phạm vi sửa sạch. Production build local cuối đã thành công, gồm xử lý lỗi aggregate. Toàn bộ suite còn lỗi baseline `reviewed-exercise-content.test.mjs` được ghi tại mục 9, không báo toàn suite xanh.
+- [x] 75 test liên quan đã pass; TypeScript và ESLint phạm vi sửa sạch. Production build local cuối đã thành công, gồm xử lý lỗi aggregate. Đã sửa thiếu sót của test baseline theo bằng chứng tại mục 9; toàn bộ 151 test ứng dụng đã pass.
 - [x] Có `EXERCISE_DATA_CACHE_DISABLED=true` để đọc trực tiếp, giữ logic ngôn ngữ/bộ lọc và cơ chế phân trang an toàn. Không có migration, xóa schema hoặc thay đổi media trong đợt này.
 - [ ] Kiểm tra preview trước production, bao gồm nguồn sửa, bản dịch bị thu hồi, phân trang, quyền truy cập và yêu thích hai tài khoản.
 - [ ] Sau deploy, chạy lại cùng kịch bản production; kiểm tra thêm điện thoại thật và mạng hạn chế. Ghi commit/deployment, thời điểm, cache, thiết bị và tài khoản loại nào, không ghi thông tin nhạy cảm.
@@ -318,8 +318,18 @@ Bằng chứng local: `artifacts/performance/production-before-summary-20261026.
 - [x] Baseline production hoàn tất trước khi thay đổi deployment.
 - [x] Rà soát release: không cần migration/RPC hoặc biến môi trường mới để chạy bản tối ưu.
 - [x] Sau sửa test baseline, chạy toàn bộ 21 file test: **151/151 pass**, không skip; Node 20.20.2. Log `full-suite-20261026.tap` và summary tương ứng trong artifacts/performance.
-- [ ] Deploy nhánh Preview và kiểm tra đúng commit.
-- [ ] Nghiệm thu Preview, gồm dữ liệu, video, điều hướng và quyền truy cập.
+- [x] Deploy nhánh `perf/exercise-loading-20261026`, commit `5ec1d56253cfe9a57cbc0f36fe308aa052a15fbf`. GitHub/Vercel báo Preview Ready; deployment `EHrKp8AGjTDh19YaxeSe8CGtcrFw`, URL https://noi-dntnx0ka1-daihaiantigravity-3271.vercel.app.
+- [x] Nghiệm thu Preview cho khách: 90/90 HTTP, 14/14 case cùng thứ tự/nội dung/media/poster; mobile và 4 Mbps đều 10/10 video phát, CLS 0, không lỗi JavaScript/media. Phân trang, đổi EN→VI và các chốt quyền truy cập khách đạt. Phiên thật/hai tài khoản vẫn nằm ở mục chưa nghiệm thu riêng.
 - [ ] Cập nhật production, đo lại và đối chiếu baseline.
 
 Lưu ý Preview: `NEXT_PUBLIC_SITE_URL` phải đúng origin nếu nghiệm thu OAuth trên Preview, và Supabase cần cho phép redirect tương ứng. Không đổi cấu hình OAuth chỉ để vượt bảo vệ Preview; nếu chưa đủ phiên/tài khoản thì ghi rõ phần chưa kiểm chứng. Endpoint refresh qua CLI là tùy chọn, có thể dùng phiên admin cùng origin.
+
+Đã đăng nhập Vercel CLI 65.2.0 qua xác nhận của người dùng. Preview vẫn được bảo vệ; kiểm tra bằng OIDC ngắn hạn theo đúng project, giới hạn header ở từng request tới đúng origin Preview. Không ghi credential vào log/artifact, không gửi sang origin media/Google/Supabase và không tạo bypass secret cố định. Quy trình chính thức: [Vercel CLI login](https://vercel.com/docs/cli/login), [project token](https://vercel.com/docs/cli/project#token), [Trusted Sources](https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/trusted-sources).
+
+Lần nghiệm thu Preview đầu chưa đạt: thiếu ba cấu hình `R2_PUBLIC_BASE_URL`, `R2_MIGRATED_EXERCISE_GENDERS`, `EXERCISE_MEDIA_UNAVAILABLE_PATHS`, nên video dùng URL Supabase cũ và 10/10 video lỗi. Đã bổ sung đúng ba cấu hình hiện có từ Production sang Preview, đối chiếu giá trị trong bộ nhớ từ thư mục không có `.env.local` và xác nhận cả ba khớp. Không sửa cấu hình Production hay object R2. Redeploy cùng commit ứng dụng: `CVN11HwPSqEbdjq9BCQZ4eWBJK3b`, https://noi-oj0r56ksn-daihaiantigravity-3271.vercel.app. Nghiệm thu dữ liệu đã đạt ở `preview-r2-steady-20261026-http.json`, `preview-r2-steady-matrix-20261026-http.json` và hai báo cáo parity tương ứng; browser/navigation tại `preview-r2-20261026-*`.
+
+Bộ đo đã bổ sung kiểm tra quyền truy cập Preview và kết quả media: HTTP 200 thiếu bài bị đánh dấu lỗi; browser phân biệt lỗi media/trang với trường hợp chưa phát đủ trong thời gian quan sát. Smoke trang chest yêu cầu đúng 10 video và mọi video đang phát, `readyState >= 2`, không lỗi media. Artifact Preview lỗi đầu tiên được giữ nguyên để đối chiếu.
+
+Đã pass thêm 12 regression test cho quyền truy cập Preview và phân loại kết quả browser; lint các script/test thay đổi sạch. Bộ 151 test ứng dụng và build vẫn thuộc cùng mã ứng dụng đã được nghiệm thu. Preview ổn định có p50 nhận card 505–516 ms, p95 528–589 ms; không dùng số này thay kết luận production. Navigation phản hồi pending 2,7 ms; đổi ngôn ngữ giữ 10 node video, 0 lần load lại. Chưa thay đổi main/production tại thời điểm ghi nghiệm thu Preview.
+
+Lưu ý vận hành khi đổi cấu hình media: những request đầu sau redeploy Preview còn trả URL cũ trước khi chuyển sang R2. Hiện tượng phù hợp với nội dung đã map URL được giữ trong Data Cache qua deployment và refresh theo TTL; không coi redeploy là thao tác xóa cache. Sau đổi media env cần dùng refresh có xác thực ở mục 8 hoặc chờ revalidation rồi xác minh URL đã chuyển. Production giữ nguyên ba cấu hình này trong đợt phát hành. Bộ HTTP kiểm tra sau khi ổn định được lưu riêng, không thay thế bằng chứng request ban đầu.

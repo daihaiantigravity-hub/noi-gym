@@ -1,10 +1,13 @@
 import { CARD_SELECTOR, hash, integer, parseArguments, pause, round, saveReport } from './common.mjs';
+import { createPreviewAccess } from './preview-access.mjs';
+import { browserOutcomeExitCode, classifyBrowserOutcome, countPlayingVideos } from './browser-outcome.mjs';
 
 const HELP = `Read-only anonymous Chromium benchmark (Node 20+, installed Playwright Chromium).
 Usage: node scripts/performance/measure-browser.mjs --origin http://localhost:3001 --label after --runs 1 --routes /exercises/chest --languages en,vi --profiles mobile,mobile-4mbps
 Options shared with measure-http.mjs: --origin --label --runs --routes --languages --timeout-ms --delay-ms
   --profiles     desktop,mobile,mobile-4mbps; default mobile
   --observe-ms   Observe after first visible card; default 15000 (1000..60000)
+  --expected-videos  Optional expected video count for every route (e.g. 10 for the chest release smoke)
   --help         Show help without opening a browser
 Default runs: 1. Each sample gets a fresh anonymous browser context. No scrolling.
 Output: artifacts/performance/<label>-browser.json after each sample.
@@ -13,7 +16,11 @@ an upper-bound paint opportunity, not an exact compositor timestamp. firstPoster
 visible poster + paint opportunity. Video events are tracked per final page video; allVideosStartedMs
 requires every final video to emit playing. allVideosPlayingMs additionally requires simultaneous
 non-paused, ready video states. Missing times stay null, never zero. Network paths are hashed.
+Exit 0 requires all page videos to have started and still be playing at capture; exit 1 means
+an explicit page/media error; exit 2 means incomplete autoplay/count within the observation window.
+Incomplete is not treated as a proven media failure, but does not pass a release smoke test.
 This opens public pages only; no saved login sessions, app mutations or server cache purges.
+Protected Preview: set VERCEL_PREVIEW_OIDC_TOKEN and exact VERCEL_PREVIEW_AUTH_ORIGIN in the environment only.
 `;
 
 function instrumentPage() {
@@ -117,15 +124,17 @@ function maximumClsWindow(entries) {
   return maximum;
 }
 
-async function measure(browser, options, profile, route, language, run) {
+async function measure(browser, options, access, profile, route, language, run) {
   const mobile = profile !== 'desktop';
   const context = await browser.newContext({ viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 1000 }, deviceScaleFactor: 1, isMobile: mobile, hasTouch: mobile });
   const result = { profile, path: route, language, run, status: null, metrics: null, errors: [], network: [] };
+  let detachPreviewAccess = async () => {};
   try {
     await context.addCookies([{ name: 'noi-gym-language', value: language, url: options.origin }]);
     await context.addInitScript(instrumentPage);
     const page = await context.newPage();
     const cdp = await context.newCDPSession(page);
+    detachPreviewAccess = await access.attachToCdp(cdp, (error) => result.errors.push({ name: error.name, messageHash: hash(error.message) }));
     await cdp.send('Network.enable');
     if (profile === 'mobile-4mbps') {
       await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 100, downloadThroughput: 500000, uploadThroughput: 125000 });
@@ -180,7 +189,7 @@ async function measure(browser, options, profile, route, language, run) {
       ...metrics, cls: maximumClsWindow(metrics.layoutShifts),
       allVideosStartedMs: allStarted ? Math.max(...videos.map((video) => video.playingMs)) : null,
       totalVideos: videos.length, startedVideos: videos.filter((video) => video.playingMs != null).length,
-      playingVideosAtCapture: videos.filter((video) => !video.paused && video.currentTime > 0).length,
+      playingVideosAtCapture: countPlayingVideos(videos),
       cardCount: cards.length, orderedIds: cards.map((card) => card.id), orderHash: hash(cards.map((card) => card.id)),
       contentHash: hash(cards), mediaUrlHash: hash([...new Set(videos.map((video) => video.src).filter(Boolean))].sort()),
       videos: videos.map(({ src, ...video }) => ({ ...video, urlHash: hash(src) })),
@@ -195,34 +204,38 @@ async function measure(browser, options, profile, route, language, run) {
     }, {});
   } catch (error) {
     result.errors.push({ name: error.name, messageHash: hash(error.message) });
-  } finally { await context.close(); }
+  } finally { await detachPreviewAccess(); await context.close(); }
   return result;
 }
 
 async function main() {
-  const options = parseArguments(process.argv.slice(2), ['profiles', 'observe-ms']);
+  const options = parseArguments(process.argv.slice(2), ['profiles', 'observe-ms', 'expected-videos']);
   if (options.help) { console.log(HELP); return; }
+  const access = createPreviewAccess(options.origin);
   if (!process.argv.includes('--runs')) options.runs = 1;
   options.profiles = (options.profiles ?? 'mobile').split(',');
   if (options.profiles.some((profile) => !['desktop', 'mobile', 'mobile-4mbps'].includes(profile))) throw new Error('--profiles supports desktop,mobile,mobile-4mbps.');
   options.observeMs = integer(options['observe-ms'] ?? '15000', '--observe-ms', 1000, 60000);
+  options.expectedVideos = options['expected-videos'] == null ? null : integer(options['expected-videos'], '--expected-videos', 1, 100);
   const { chromium } = await import('playwright');
   const browser = await chromium.launch({ headless: true });
   const report = {
     schemaVersion: 1, startedAt: new Date().toISOString(), mode: 'anonymous-fresh-context-browser', options,
+    deploymentAccess: access.enabled ? 'scoped-project-oidc' : 'public',
     notes: ['Paint opportunity is not an exact compositor paint timestamp.', 'No scrolling; all final page videos are observed.', 'CDP encoded byte totals include partial Range requests; they are not R2 billable bytes.', 'No server cache reset; each browser context is fresh.', 'No screenshots, HTML, full URLs, credentials or authenticated sessions saved.'], results: [],
   };
   try {
     for (const profile of options.profiles) for (const route of options.routes) for (const language of options.languages) for (let run = 1; run <= options.runs; run++) {
-      const result = await measure(browser, options, profile, route, language, run);
+      const result = await measure(browser, options, access, profile, route, language, run);
+      result.outcome = classifyBrowserOutcome(result, options.expectedVideos);
       report.results.push(result);
       report.updatedAt = new Date().toISOString();
       await saveReport(`${options.label}-browser.json`, report);
-      console.log(JSON.stringify({ profile, path: route, language, run, status: result.status, firstCardPaintOpportunityMs: result.metrics?.firstCardPaintOpportunityMs, firstVideoPlayingMs: result.metrics?.firstVideoPlayingMs, allVideosStartedMs: result.metrics?.allVideosStartedMs, playing: result.metrics?.playingVideosAtCapture, total: result.metrics?.totalVideos, cls: result.metrics?.cls, errors: result.errors }));
+      console.log(JSON.stringify({ profile, path: route, language, run, status: result.status, outcome: result.outcome, firstCardPaintOpportunityMs: result.metrics?.firstCardPaintOpportunityMs, firstVideoPlayingMs: result.metrics?.firstVideoPlayingMs, allVideosStartedMs: result.metrics?.allVideosStartedMs, playing: result.metrics?.playingVideosAtCapture, total: result.metrics?.totalVideos, cls: result.metrics?.cls, errors: result.errors }));
       await pause(options.delayMs);
     }
   } finally { await browser.close(); }
-  if (report.results.some((result) => result.status !== 200 || !result.metrics || result.errors.length)) process.exitCode = 1;
+  process.exitCode = browserOutcomeExitCode(report.results.map((result) => result.outcome));
 }
 
 main().catch((error) => { console.error(error.message); process.exitCode = 1; });

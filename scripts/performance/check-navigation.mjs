@@ -1,4 +1,5 @@
 import { hash, parseArguments, saveReport } from './common.mjs';
+import { createPreviewAccess } from './preview-access.mjs';
 
 async function main() {
   const options = parseArguments(process.argv.slice(2));
@@ -6,13 +7,17 @@ async function main() {
     console.log('Anonymous Chromium navigation smoke test. Usage: node scripts/performance/check-navigation.mjs --origin http://localhost:3010 --label optimized-navigation. Tests chest page 1 to 2, keyboard-focus prefetch, pending feedback, language switch without reloading existing videos. Stores hashes only.');
     return;
   }
+  const access = createPreviewAccess(options.origin);
   const { chromium } = await import('playwright');
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true });
-  const result = { capturedAt: new Date().toISOString(), origin: options.origin, mode: 'anonymous-mobile-navigation', errors: [] };
+  const result = { capturedAt: new Date().toISOString(), origin: options.origin, mode: 'anonymous-mobile-navigation', deploymentAccess: access.enabled ? 'scoped-project-oidc' : 'public', errors: [] };
+  let detachPreviewAccess = async () => {};
   try {
     await context.addCookies([{ name: 'noi-gym-language', value: 'en', url: options.origin }]);
     const page = await context.newPage();
+    const cdp = await context.newCDPSession(page);
+    detachPreviewAccess = await access.attachToCdp(cdp, (error) => result.errors.push({ name: error.name, messageHash: hash(error.message) }));
     const requests = [];
     let phase = 'initial';
     page.on('request', (request) => {
@@ -23,7 +28,7 @@ async function main() {
     await page.goto(`${options.origin}/exercises/chest`, { waitUntil: 'domcontentloaded', timeout: options.timeoutMs });
     await page.waitForFunction(() => {
       const videos = [...document.querySelectorAll('article.exercise-library-exercise-card video')];
-      return videos.length === 10 && videos.every((video) => !video.paused && video.currentTime > 0);
+      return videos.length === 10 && videos.every((video) => !video.paused && video.currentTime > 0 && video.readyState >= 2 && !video.error);
     }, null, { timeout: options.timeoutMs });
     const currentMedia = await page.locator('article.exercise-library-exercise-card video').evaluateAll((videos) => videos.map((video) => video.currentSrc));
     const currentHashes = new Set(currentMedia.map(hash));
@@ -56,7 +61,7 @@ async function main() {
     result.navigation = await page.evaluate(() => { window.__stopNavigationSmoke(); return { ...window.__navigationSmoke, cards: document.querySelectorAll('article.exercise-library-exercise-card').length, activePage: document.querySelector('.exercise-library-pagination__page--active')?.textContent }; });
     await page.waitForFunction(() => {
       const videos = [...document.querySelectorAll('article.exercise-library-exercise-card video')];
-      return videos.length > 0 && videos.every((video) => !video.paused && video.currentTime > 0);
+      return videos.length > 0 && videos.every((video) => !video.paused && video.currentTime > 0 && video.readyState >= 2 && !video.error);
     }, null, { timeout: options.timeoutMs });
     await page.evaluate(() => {
       window.__languageSmoke = {
@@ -79,7 +84,7 @@ async function main() {
         titleChanged: document.querySelector('article.exercise-library-exercise-card h2')?.textContent !== before.title,
         count: videos.length, reusedVideoNodes: videos.filter((video, index) => video === before.videos[index]).length,
         unchangedMedia: videos.length === before.sources.length && videos.every((video, index) => video.currentSrc === before.sources[index]),
-        videoLoadStarts: before.loadStarts, playing: videos.filter((video) => !video.paused && video.currentTime > 0).length,
+        videoLoadStarts: before.loadStarts, playing: videos.filter((video) => !video.paused && video.currentTime > 0 && video.readyState >= 2 && !video.error).length,
         activePage: document.querySelector('.exercise-library-pagination__page--active')?.textContent,
       };
     });
@@ -92,7 +97,7 @@ async function main() {
   } catch (error) {
     result.errors.push({ name: error.name, messageHash: hash(error.message) });
     result.passed = false;
-  } finally { await context.close(); await browser.close(); }
+  } finally { await detachPreviewAccess(); await context.close(); await browser.close(); }
   await saveReport(`${options.label}-navigation.json`, result);
   console.log(JSON.stringify({ ...result, requests: undefined }, null, 2));
   if (!result.passed) process.exitCode = 1;

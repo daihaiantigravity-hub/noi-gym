@@ -1,5 +1,6 @@
 import { performance } from 'node:perf_hooks';
 import { CARD_OPEN, distribution, htmlFingerprint, parseArguments, pause, round, saveReport } from './common.mjs';
+import { createPreviewAccess } from './preview-access.mjs';
 
 const HELP = `Read-only, anonymous streamed-HTML benchmark (Node 20+).
 Usage: node scripts/performance/measure-http.mjs --origin http://localhost:3001 --label after --runs 20
@@ -18,6 +19,7 @@ firstCardStartMs = first real article opening received, firstCompleteCardMs = wh
 These are stream-arrival times, NOT browser paint. No HTML, credentials or session cookies are saved.
 Each group reports all samples and repeats excluding run 1; run 1 is NOT assumed cold.
 Use >=20 runs for reported percentiles. This script never clears server caches.
+Protected Preview: set VERCEL_PREVIEW_OIDC_TOKEN and exact VERCEL_PREVIEW_AUTH_ORIGIN in the environment only.
 `;
 
 function summarize(results) {
@@ -34,22 +36,23 @@ function summarize(results) {
     return {
       path: group[0].path, language: group[0].language, requests: group.length,
       failures: group.length - successful.length,
-      missingCards: successful.filter((sample) => sample.cards === 0).length,
+      missingCards: group.filter((sample) => sample.status === 200 && sample.cards === 0).length,
       firstRun: group[0], all: metrics(successful), repeats: metrics(successful.filter((sample) => sample.run > 1)),
       fingerprints: Object.fromEntries(['orderHash', 'contentHash', 'mediaUrlHash', 'posterUrlHash'].map((name) => [name, [...new Set(successful.map((sample) => sample[name]))]])),
     };
   });
 }
 
-async function measure(options, route, language, run) {
+async function measure(options, access, route, language, run) {
   const start = performance.now();
   const sample = { path: route, language, run, status: null, headersMs: null, firstByteMs: null, firstCardStartMs: null, firstCompleteCardMs: null, completeMs: null, bytes: 0 };
   try {
-    const response = await fetch(`${options.origin}${route}`, {
+    const url = `${options.origin}${route}`;
+    const response = await fetch(url, access.fetchOptions(url, {
       headers: { Cookie: `noi-gym-language=${language}`, 'User-Agent': 'noi-gym-readonly-http-benchmark/1.0', Accept: 'text/html' },
       signal: AbortSignal.timeout(options.timeoutMs),
       redirect: 'manual',
-    });
+    }));
     sample.status = response.status;
     sample.headersMs = round(performance.now() - start);
     sample.cache = response.headers.get('x-vercel-cache');
@@ -71,6 +74,9 @@ async function measure(options, route, language, run) {
     html += decoder.decode();
     sample.completeMs = round(performance.now() - start);
     Object.assign(sample, htmlFingerprint(html));
+    // These benchmarks target known nonempty exercise routes. An SSO or error
+    // page can return HTTP 200 but must never count as a successful list read.
+    if (sample.status === 200 && (!sample.cards || sample.firstCompleteCardMs === null)) sample.error = 'MissingExerciseCards';
   } catch (error) {
     // Record only error class: networking error messages may contain request URLs.
     sample.error = error.name;
@@ -82,13 +88,14 @@ async function measure(options, route, language, run) {
 async function main() {
   const options = parseArguments(process.argv.slice(2));
   if (options.help) { console.log(HELP); return; }
+  const access = createPreviewAccess(options.origin);
   const report = {
     schemaVersion: 1, startedAt: new Date().toISOString(), mode: 'anonymous-sequential-http',
-    options, notes: ['HTTP stream arrival is not browser paint.', 'Run 1 and x-vercel-cache do not prove internal cache state.', 'No cookies other than language; no authenticated measurements.', 'Percentiles use nearest rank; fewer than 20 samples are diagnostic only.'],
+    options, deploymentAccess: access.enabled ? 'scoped-project-oidc' : 'public', notes: ['HTTP stream arrival is not browser paint.', 'Run 1 and x-vercel-cache do not prove internal cache state.', 'No cookies other than language; no application account sessions.', 'Percentiles use nearest rank; fewer than 20 samples are diagnostic only.'],
     results: [], summaries: [],
   };
   for (const route of options.routes) for (const language of options.languages) for (let run = 1; run <= options.runs; run++) {
-    const sample = await measure(options, route, language, run);
+    const sample = await measure(options, access, route, language, run);
     report.results.push(sample);
     report.summaries = summarize(report.results);
     report.updatedAt = new Date().toISOString();
