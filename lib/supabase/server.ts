@@ -32,6 +32,14 @@ export function isDatabaseConfigured() {
   return Boolean(getSupabaseUrl() && getServiceRoleKey());
 }
 
+/** Public RLS reads with no session or request cookies; safe for shared caches. */
+export function createSupabasePublicClient() {
+  if (!isSupabaseConfigured()) throw new Error("Supabase is not configured");
+  return createClient(getSupabaseUrl(), getAnonKey(), {
+    auth: { autoRefreshToken: false, persistSession: false, detectSessionInUrl: false },
+  });
+}
+
 export async function createSupabaseServerClient() {
   if (!isSupabaseConfigured()) {
     throw new Error("Supabase is not configured");

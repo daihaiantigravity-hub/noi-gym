@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import test from "node:test";
+import test, { beforeEach } from "node:test";
 import vm from "node:vm";
 import ts from "typescript";
 import * as content from "../lib/exercises/translation-content.mjs";
@@ -10,6 +10,9 @@ let configured = true;
 let language = "vi";
 let databaseRows = [];
 let databaseError = null;
+let cacheEnabled = true;
+const cache = new Map();
+const cacheOptions = [];
 const queries = [];
 const client = { from(table) {
   const query = { table, filters: [],
@@ -22,14 +25,28 @@ const client = { from(table) {
 } };
 const imports = {
   "server-only": {},
+  "next/cache": { unstable_cache(read, keys, options) {
+    cacheOptions.push(options);
+    return async (...args) => {
+      const key = JSON.stringify([keys, args]);
+      if (cache.has(key)) return cache.get(key);
+      const result = await read(...args);
+      cache.set(key, result);
+      return result;
+    };
+  } },
+  "./cache": { PUBLIC_EXERCISES_CONTENT_CACHE_TAG: "public-exercise-content", isExerciseDataCacheEnabled: () => cacheEnabled },
+  "./performance": { measureExerciseRead: (_phase, read) => read() },
   "@/lib/admin-auth": { requireAdmin: async () => { throw new Error("Unauthorized"); } },
   "@/lib/i18n/server": { getAppLanguage: async () => language, isLocalizationEnabled: () => enabled },
-  "@/lib/supabase/server": { createSupabaseServerClient: async () => client, isSupabaseConfigured: () => configured },
+  "@/lib/supabase/server": { createSupabasePublicClient: () => client, isSupabaseConfigured: () => configured },
   "./translation-content.mjs": content,
 };
 const exports = {};
 const compiled = ts.transpileModule(fs.readFileSync(new URL("../lib/exercises/translations.ts", import.meta.url), "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } });
 vm.runInNewContext(compiled.outputText, { exports, console: { warn() {} }, require: (name) => { assert.ok(Object.hasOwn(imports, name), name); return imports[name]; } });
+
+beforeEach(() => { cache.clear(); queries.length = 0; databaseRows = []; databaseError = null; cacheEnabled = true; });
 
 const source = (suffix) => ({ id: `00000000-0000-4000-a000-${String(suffix).padStart(12, "0")}`, name: `Source ${suffix}`, description: "", steps: ["Lift the weight."], source: "musclewiki", source_id: suffix, status: "Published" });
 const translated = (exercise, overrides = {}) => ({ exercise_id: exercise.id, locale: "vi", source_locale: "en", source_hash: content.getExerciseContentHash(exercise), name: "Bài tập", description: "", steps: ["Nâng tạ lên."], translation_status: "reviewed", reviewed_at: "2026-10-22T10:00:00Z", exercises: exercise, ...overrides });
@@ -70,6 +87,7 @@ test("translation outages preserve the page and expose a source-content indicati
 test("draft or outdated translations cannot replace source content even with an overprivileged client", async () => {
   const item = source(1);
   for (const row of [translated(item, { translation_status: "draft" }), translated(item, { source_hash: "0".repeat(64) })]) {
+    cache.clear();
     databaseRows = [row];
     assert.equal((await exports.localizeExercises([item]))[0].name, item.name);
   }
@@ -98,4 +116,66 @@ test("the disabled rollout and unconfigured local fallback do not add database r
 
 test("saving a translation requires server-side administrator authorization", async () => {
   await assert.rejects(() => exports.saveExerciseTranslation(translated(source(1)), null), (error) => error.code === "translationAccessDenied");
+});
+
+test("public translations reuse normalized keys without sharing private saved state or order", async () => {
+  const first = source(1), second = source(2);
+  databaseRows = [translated(first), translated(second)];
+  await exports.localizeExercises([{ ...second, isSaved: true }, { ...first, isSaved: false }]);
+  const otherUser = await exports.localizeExercises([{ ...first, isSaved: true }, { ...second, isSaved: false }]);
+  assert.equal(queries.length, 1);
+  assert.deepEqual(otherUser.map(({ id, isSaved }) => [id, isSaved]), [[first.id, true], [second.id, false]]);
+  assert.equal(cacheOptions[0].revalidate, 60);
+  assert.deepEqual(Array.from(cacheOptions[0].tags), ["public-exercise-content"]);
+});
+
+test("empty English translations are cached but valid English translations of Vietnamese sources still apply", async () => {
+  const english = source(1);
+  await exports.localizeExercises([english], "en");
+  await exports.localizeExercises([english], "en");
+  assert.equal(queries.length, 1);
+  const vietnamese = { ...source(2), name: "Đẩy tạ", steps: ["Nâng tạ lên."] };
+  databaseRows = [translated(vietnamese, { locale: "en", source_locale: "vi", name: "Press", steps: ["Lift the weight."] })];
+  assert.equal((await exports.localizeExercises([vietnamese], "en"))[0].name, "Press");
+  assert.equal(queries.length, 2);
+});
+
+test("source revision changes invalidate even cached empty results and cannot mix source snapshots", async () => {
+  const original = source(1);
+  await exports.localizeExercises([original]);
+  const changed = { ...original, name: "Changed exercise" };
+  databaseRows = [translated(changed)];
+  assert.equal((await exports.localizeExercises([changed]))[0].name, "Bài tập");
+  assert.equal(queries.length, 2);
+  const newer = { ...changed, steps: ["Lower the weight."] };
+  assert.equal((await exports.localizeExercises([newer]))[0].name, newer.name);
+  assert.equal(queries.length, 3);
+});
+
+test("database failures are not cached and the next request recovers", async () => {
+  const item = source(1);
+  databaseError = { code: "503" };
+  assert.equal((await exports.localizeExercises([item]))[0].name, item.name);
+  databaseError = null; databaseRows = [translated(item)];
+  assert.equal((await exports.localizeExercises([item]))[0].name, "Bài tập");
+  assert.equal(queries.length, 2);
+});
+
+test("cache bypass reads current data and unpublished sources remain hidden", async () => {
+  cacheEnabled = false;
+  const item = source(1); databaseRows = [translated(item)];
+  assert.equal((await exports.localizeExercises([item]))[0].name, "Bài tập");
+  databaseRows = [translated({ ...item, status: "Draft" })];
+  assert.equal((await exports.localizeExercises([item]))[0].name, item.name);
+  assert.equal(queries.length, 2);
+});
+
+test("raw source revision permits local display fallbacks without accepting a stale translation", async () => {
+  const original = source(1);
+  databaseRows = [translated(original)];
+  const supplemented = { ...original, description: "Supplement from local catalog", sourceContentHash: content.getExerciseContentHash(original) };
+  assert.equal((await exports.localizeExercises([supplemented]))[0].name, "Bài tập");
+  const changed = { ...supplemented, sourceContentHash: content.getExerciseContentHash({ ...original, name: "New source" }) };
+  assert.equal((await exports.localizeExercises([changed]))[0].name, original.name);
+  assert.equal(queries.length, 2);
 });

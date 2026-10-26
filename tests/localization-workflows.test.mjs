@@ -136,7 +136,7 @@ test("Google callback failures expose stable reasons without provider details or
 const source = { id: "00000000-0000-4000-a000-000000000001", name: "Barbell Bench Press", description: "", steps: ["Lift the bar."], category: "Barbell", status: "Published" };
 const originalVersion = "2026-10-22T09:00:00.000Z";
 const row = (overrides = {}) => ({ exercise_id: source.id, locale: "vi", source_locale: "en", source_hash: content.getExerciseContentHash(source), name: "Đẩy tạ đòn", description: "", steps: ["Đẩy thanh tạ lên."], translation_status: "draft", reviewed_at: null, updated_at: originalVersion, ...overrides });
-let authorized = true, stored = null, writes = [], writeError = null;
+let authorized = true, stored = null, writes = [], writeError = null, contentInvalidations = 0;
 const newVersion = "2026-10-22T10:00:00.000Z";
 const database = { from(table) {
   return { filters: [], select() { return this; }, eq(key, value) { this.filters.push([key, value]); return this; },
@@ -155,6 +155,9 @@ const database = { from(table) {
 } };
 const repository = load("../lib/exercises/translations.ts", {
   "server-only": {},
+  "next/cache": { unstable_cache: (read) => read },
+  "./cache": { invalidateExerciseContent: () => { contentInvalidations += 1; } },
+  "./performance": { measureExerciseRead: (_phase, read) => read() },
   "@/lib/admin-auth": { requireAdmin: async () => { if (!authorized) throw new Error("Unauthorized"); return { supabase: database }; } },
   "@/lib/i18n/server": { isLocalizationEnabled: () => true },
   "@/lib/supabase/server": {},
@@ -162,21 +165,23 @@ const repository = load("../lib/exercises/translations.ts", {
 });
 
 test("translation writes require admin access, current source and valid review content", async () => {
-  writes = []; authorized = false;
+  writes = []; authorized = false; contentInvalidations = 0;
   await assert.rejects(() => repository.saveExerciseTranslation(row(), null), (error) => error.code === "translationAccessDenied");
   authorized = true;
   await assert.rejects(() => repository.saveExerciseTranslation(row({ source_hash: "0".repeat(64) }), null), (error) => error.code === "translationSourceChanged");
   await assert.rejects(() => repository.saveExerciseTranslation(row({ translation_status: "reviewed", steps: [] }), null), (error) => error.code === "translationInvalid");
   await assert.rejects(() => repository.saveExerciseTranslation(row({ translation_status: "stale" }), null), (error) => error.code === "translationInvalid");
   assert.equal(writes.length, 0);
+  assert.equal(contentInvalidations, 0);
 });
 
 test("new drafts use insert and never overwrite a concurrently created translation", async () => {
-  stored = null; writes = [];
+  stored = null; writes = []; contentInvalidations = 0;
   const result = await repository.saveExerciseTranslation(row(), null);
   assert.equal(result.updatedAt, newVersion); assert.equal(writes[0].operation, "insert");
   await assert.rejects(() => repository.saveExerciseTranslation(row({ name: "Another editor" }), null), (error) => error.code === "translationConflict");
   assert.equal(stored.name, "Đẩy tạ đòn");
+  assert.equal(contentInvalidations, 1);
 });
 
 test("updates compare the exact revision and preserve the other editor's changes", async () => {

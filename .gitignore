@@ -22,6 +22,9 @@
 # Generated localization snapshots, dry-run reports and import checkpoints.
 /artifacts/localization/
 
+# Generated performance measurements and local browser captures.
+/artifacts/performance/
+
 # next.js
 /.next/
 /out/

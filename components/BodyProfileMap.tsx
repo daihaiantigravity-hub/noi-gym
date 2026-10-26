@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState, useTransition, type MouseEvent as ReactMouseEvent, type PointerEvent as ReactPointerEvent } from "react";
+import { useEffect, useRef, useState, useTransition, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent, type SyntheticEvent } from "react";
 import Link from "next/link";
 import type { EquipmentIconName } from "./EquipmentIcon";
 import { withExerciseGender } from "@/lib/exercises/gender";
@@ -10,6 +10,7 @@ import { usePersistedChoice } from "@/lib/use-persisted-choice";
 import { useAppLanguage } from "@/components/LanguageProvider";
 import { getMessages, translate } from "@/lib/i18n/messages";
 import { getExerciseLabel } from "@/lib/i18n/labels";
+import { useExerciseRoutePrefetch } from "./use-exercise-route-prefetch";
 
 type BodyView = "front" | "back";
 type BodyMapMode = "standard" | "advanced" | "joints";
@@ -100,7 +101,8 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
   const { language } = useAppLanguage();
   const messages = getMessages(language);
   const router = useRouter();
-  const prefetchedRoutes = useRef(new Set<string>());
+  const { prefetchRoute, cancelPrefetch } = useExerciseRoutePrefetch();
+  const mapRef = useRef<HTMLDivElement>(null);
   const [isPending, startTransition] = useTransition();
   const [activeView, setActiveView] = usePersistedChoice<BodyView>("noi-gym:home:body-view:v1", "front", bodyViewChoices);
   const [activeMode, setActiveMode] = usePersistedChoice<BodyMapMode>("noi-gym:home:body-mode:v1", "standard", bodyModeChoices);
@@ -208,19 +210,19 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
     return withExerciseGender(categorySlug ? `/exercises/${muscleSlug}/${categorySlug}` : `/exercises/${muscleSlug}`, gender);
   }
 
-  function handleMusclePointerOver(event: ReactPointerEvent<HTMLDivElement>) {
+  function handleMuscleIntent(event: SyntheticEvent<HTMLDivElement>, immediate = false) {
     const groupId = getGroupId(event.target);
     if (!groupId) {
       return;
     }
 
-    const route = getMuscleRoute(groupId);
-    if (prefetchedRoutes.current.has(route)) {
-      return;
-    }
+    prefetchRoute(getMuscleRoute(groupId), immediate);
+  }
 
-    prefetchedRoutes.current.add(route);
-    router.prefetch(route);
+  function navigateToMuscle(groupId: string) {
+    if (isPending) return;
+    cancelPrefetch();
+    startTransition(() => router.push(getMuscleRoute(groupId)));
   }
 
   function handleMuscleClick(event: ReactMouseEvent<HTMLDivElement>) {
@@ -229,9 +231,15 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
       return;
     }
 
-    startTransition(() => {
-      router.push(getMuscleRoute(groupId));
-    });
+    navigateToMuscle(groupId);
+  }
+
+  function handleMuscleKeyDown(event: ReactKeyboardEvent<HTMLDivElement>) {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const groupId = getGroupId(event.target);
+    if (!groupId) return;
+    event.preventDefault();
+    navigateToMuscle(groupId);
   }
 
   const bodyLabel = activeView === "front" ? "Front" : "Back";
@@ -244,6 +252,16 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
     ? femaleMarkup?.[activeMode === "advanced" ? "advanced" : "standard"][oppositeView]
     : activeMode === "advanced" ? svgMarkup?.advanced[oppositeView] : svgMarkup?.standard[oppositeView];
   const mapIsInteractive = activeMode !== "joints";
+
+  useEffect(() => {
+    // The imported SVGs have muscle groups but no keyboard navigation metadata.
+    mapRef.current?.querySelectorAll<SVGGElement>("g.bodymap[id]").forEach((group) => {
+      const label = group.id.split("-").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+      group.setAttribute("tabindex", mapIsInteractive ? "0" : "-1");
+      group.setAttribute("role", "link");
+      group.setAttribute("aria-label", translate(language, "openTarget", { name: getExerciseLabel(language, label) }));
+    });
+  }, [activeMarkup, language, mapIsInteractive]);
 
   const modeItems: Array<{ id: BodyMapMode; label: string }> = [
     { id: "standard", label: "Standard" },
@@ -343,8 +361,14 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                   aria-busy={isPending}
                   className={`body-profile__svg${!mapIsInteractive ? " body-profile__svg--overlay" : ""}${isPending ? " body-profile__svg--pending" : ""}`}
                   onClick={mapIsInteractive ? handleMuscleClick : undefined}
-                  onPointerOver={mapIsInteractive ? handleMusclePointerOver : undefined}
-                  role="img"
+                  onFocus={mapIsInteractive ? handleMuscleIntent : undefined}
+                  onBlur={cancelPrefetch}
+                  onKeyDown={mapIsInteractive ? handleMuscleKeyDown : undefined}
+                  onPointerOver={mapIsInteractive ? handleMuscleIntent : undefined}
+                  onPointerDown={mapIsInteractive ? (event) => handleMuscleIntent(event, true) : undefined}
+                  onPointerLeave={cancelPrefetch}
+                  ref={mapRef}
+                  role="group"
                 >
                   {activeMarkup && (
                     <div dangerouslySetInnerHTML={{ __html: activeMarkup }} />
@@ -366,7 +390,10 @@ export default function BodyProfileMap({ equipment = "featured" }: { equipment?:
                         const href = withExerciseGender(getTargetRoute(target), activeGender === "female" ? "female" : undefined);
 
                         return (
-                          <Link aria-label={translate(language, "openTarget", { name: getExerciseLabel(language, target.label) })} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} role="listitem">
+                          <Link aria-label={translate(language, "openTarget", { name: getExerciseLabel(language, target.label) })} className="body-profile__hotspot" href={href} key={`${target.slug}-${index}`} onBlur={cancelPrefetch} onFocus={() => prefetchRoute(href)} onPointerEnter={() => prefetchRoute(href)} onPointerLeave={cancelPrefetch} onPointerDown={() => prefetchRoute(href, true)} onNavigate={(event) => {
+                            event.preventDefault();
+                            if (!isPending) startTransition(() => router.push(href));
+                          }} prefetch={false} role="listitem">
                             <circle className="body-profile__hotspot-halo" cx={layout.cx} cy={layout.cy} r="25" />
                             <circle className="body-profile__hotspot-dot" cx={layout.cx} cy={layout.cy} r="13" />
                           </Link>

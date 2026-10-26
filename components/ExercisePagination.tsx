@@ -1,9 +1,21 @@
 "use client";
 
-import Link from "next/link";
+import Link, { useLinkStatus } from "next/link";
+import type { ReactNode } from "react";
 import { getPageHref, getPaginationItems } from "@/lib/exercises/pagination";
 import { useAppLanguage } from "@/components/LanguageProvider";
 import { getMessages, translate } from "@/lib/i18n/messages";
+import { useExerciseRoutePrefetch } from "./use-exercise-route-prefetch";
+
+function PageLinkContent({ children, loadingLabel }: { children: ReactNode; loadingLabel: string }) {
+  const { pending } = useLinkStatus();
+  return (
+    <span aria-busy={pending} className={`exercise-library-pagination__content${pending ? " exercise-library-pagination__content--pending" : ""}`}>
+      <span className="exercise-library-pagination__label">{children}</span>
+      {pending && <span aria-label={loadingLabel} className="exercise-library-pagination__spinner" role="status" />}
+    </span>
+  );
+}
 
 function Chevron({ direction }: { direction: "previous" | "next" }) {
   return (
@@ -18,14 +30,28 @@ export default function ExercisePagination({ page, pageSize, routePath, total }:
 }) {
   const { language } = useAppLanguage();
   const messages = getMessages(language);
+  const { prefetchRoute, cancelPrefetch } = useExerciseRoutePrefetch();
   const totalPages = Math.max(Math.ceil(total / pageSize), 1);
   if (totalPages <= 1) return null;
+
+  function intentProps(targetPage: number) {
+    const href = getPageHref(routePath, targetPage);
+    return {
+      href,
+      prefetch: false as const,
+      onPointerEnter: () => prefetchRoute(href),
+      onPointerLeave: cancelPrefetch,
+      onPointerDown: () => prefetchRoute(href, true),
+      onFocus: () => prefetchRoute(href),
+      onBlur: cancelPrefetch,
+    };
+  }
 
   return (
     <nav aria-label={messages.pagination} className="exercise-library-pagination">
       <div className="exercise-library-pagination__pages">
         {page > 1 ? (
-          <Link aria-label={messages.previousPage} className="exercise-library-pagination__link" href={getPageHref(routePath, page - 1)} rel="prev" title={messages.previousPage}><Chevron direction="previous" /></Link>
+          <Link {...intentProps(page - 1)} aria-label={messages.previousPage} className="exercise-library-pagination__link" rel="prev" title={messages.previousPage}><PageLinkContent loadingLabel={messages.loadingExercises}><Chevron direction="previous" /></PageLinkContent></Link>
         ) : (
           <button aria-label={messages.previousPage} className="exercise-library-pagination__link" disabled type="button"><Chevron direction="previous" /></button>
         )}
@@ -36,12 +62,12 @@ export default function ExercisePagination({ page, pageSize, routePath, total }:
             ) : item === page ? (
               <span aria-current="page" aria-label={translate(language, "pageNumber", { number: item })} className="exercise-library-pagination__page exercise-library-pagination__page--active" key={item}>{item}</span>
             ) : (
-              <Link aria-label={translate(language, "pageNumber", { number: item })} className="exercise-library-pagination__page" href={getPageHref(routePath, item)} key={item}>{item}</Link>
+              <Link {...intentProps(item)} aria-label={translate(language, "pageNumber", { number: item })} className="exercise-library-pagination__page" key={item}><PageLinkContent loadingLabel={messages.loadingExercises}>{item}</PageLinkContent></Link>
             ))}
           </div>
         ))}
         {page < totalPages ? (
-          <Link aria-label={messages.nextPage} className="exercise-library-pagination__link" href={getPageHref(routePath, page + 1)} rel="next" title={messages.nextPage}><Chevron direction="next" /></Link>
+          <Link {...intentProps(page + 1)} aria-label={messages.nextPage} className="exercise-library-pagination__link" rel="next" title={messages.nextPage}><PageLinkContent loadingLabel={messages.loadingExercises}><Chevron direction="next" /></PageLinkContent></Link>
         ) : (
           <button aria-label={messages.nextPage} className="exercise-library-pagination__link" disabled type="button"><Chevron direction="next" /></button>
         )}

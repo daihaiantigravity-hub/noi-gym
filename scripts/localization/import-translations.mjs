@@ -3,6 +3,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import { validateExerciseTranslation } from "../../lib/exercises/translation-content.mjs";
 import { createLocalizationClient, readExerciseSources, readOption } from "./common.mjs";
+import { refreshExerciseCache } from "../cache/refresh-exercise-cache.mjs";
 
 const args = process.argv.slice(2);
 const inputPath = readOption(args, "--input", "");
@@ -64,26 +65,40 @@ if (errors.length || (apply && tableMissing)) {
   const checkpointPath = path.resolve(readOption(args, "--checkpoint", `artifacts/localization/import-${createHash("sha256").update(input).digest("hex").slice(0, 16)}.json`));
   fs.mkdirSync(path.dirname(checkpointPath), { recursive: true });
   let written = 0;
+  let writeError = null;
+  let cacheRefresh = { status: "not_required", reason: "no_writes" };
   const saveCheckpoint = (completed = false) => fs.writeFileSync(checkpointPath, `${JSON.stringify({
     inputHash: createHash("sha256").update(input).digest("hex"), updatedAt: new Date().toISOString(),
     completedAt: completed ? new Date().toISOString() : null, written, unchanged, total: rows.length,
+    cacheRefresh,
   }, null, 2)}\n`);
-  for (let offset = 0; offset < toWrite.length; offset += 50) {
-    const batch = toWrite.slice(offset, offset + 50);
-    for (const { row, expectedUpdatedAt } of batch) {
-      // Protect edits and approvals made in admin after the preflight read.
-      const query = expectedUpdatedAt === null
-        ? client.from("exercise_translations").insert(row)
-        : client.from("exercise_translations").update(row).eq("exercise_id", row.exercise_id).eq("locale", row.locale).eq("updated_at", expectedUpdatedAt);
-      const { data, error } = await query.select("updated_at").maybeSingle();
-      if (error || !data) {
-        saveCheckpoint();
-        throw new Error(`Translation write stopped (${error?.code ?? "revision_conflict"}); ${written} rows completed. Recheck current translations and rerun the input to resume.`);
+  try {
+    for (let offset = 0; offset < toWrite.length; offset += 50) {
+      const batch = toWrite.slice(offset, offset + 50);
+      for (const { row, expectedUpdatedAt } of batch) {
+        // Protect edits and approvals made in admin after the preflight read.
+        const query = expectedUpdatedAt === null
+          ? client.from("exercise_translations").insert(row)
+          : client.from("exercise_translations").update(row).eq("exercise_id", row.exercise_id).eq("locale", row.locale).eq("updated_at", expectedUpdatedAt);
+        const { data, error } = await query.select("updated_at").maybeSingle();
+        if (error || !data) {
+          writeError = { code: /^[A-Z0-9_]+$/i.test(error?.code ?? "") ? error.code : "revision_conflict" };
+          break;
+        }
+        written++;
+        cacheRefresh = { status: "pending" };
       }
-      written++;
+      saveCheckpoint();
+      if (writeError) break;
     }
-    saveCheckpoint();
+  } catch {
+    writeError = { code: "write_failed" };
+  } finally {
+    // Even a partially completed import has changed public content.
+    if (written > 0) cacheRefresh = await refreshExerciseCache();
   }
-  saveCheckpoint(true);
-  console.log(JSON.stringify({ ...summary, written, checkpoint: path.relative(process.cwd(), checkpointPath) }, null, 2));
+  saveCheckpoint(!writeError);
+  console.log(JSON.stringify({ ...summary, written, writeError, cacheRefresh, checkpoint: path.relative(process.cwd(), checkpointPath) }, null, 2));
+  if (writeError) process.exitCode = 1;
+  else if (cacheRefresh.status === "failed") process.exitCode = 2;
 }

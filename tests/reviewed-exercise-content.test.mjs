@@ -11,6 +11,25 @@ const repairedHashes = new Map(fs.readdirSync(dataDirectory).filter((file) => /^
   const manifest = JSON.parse(fs.readFileSync(new URL(file, dataDirectory), "utf8"));
   return manifest.reviewStatus === "reviewed" ? manifest.restorations.map((row) => [row.exercise_id, row.after_hash]) : [];
 }));
+const sourceConfirmations = fs.readdirSync(dataDirectory).filter((file) => /^source-review-decisions-\d+\.json$/.test(file)).map((file) => (
+  JSON.parse(fs.readFileSync(new URL(file, dataDirectory), "utf8"))
+)).filter((decision) => decision.decision === "source_confirmed_no_correction");
+
+function assertConfirmedSource(approved, confirmation) {
+  const context = `Exception needs verified source confirmation: ${approved.exercise_id}`;
+  assert.ok(confirmation, context);
+  assert.equal(confirmation.exercise_id, approved.exercise_id, context);
+  assert.equal(confirmation.reviewStatus, "reviewed", context);
+  assert.equal(confirmation.databaseStatus, "applied_and_verified", context);
+  assert.ok(Number.isFinite(Date.parse(confirmation.verifiedAt)), context);
+  assert.ok(Date.parse(confirmation.verifiedAt) >= Date.parse(approved.reviewed_at), context);
+  assert.ok(Number.isSafeInteger(confirmation.source_id) && confirmation.source_id > 0, context);
+  assert.match(confirmation.source_page_url, /^https:\/\/musclewiki\.com\/exercise\/[a-z0-9-]+$/, context);
+  assert.ok(confirmation.observation?.trim(), context);
+  assert.ok(confirmation.translation_decision?.trim(), context);
+  assert.equal(confirmation.sourceHash, approved.source_hash, context);
+  assert.equal(confirmation.sourceHash, getExerciseContentHash(approved.source), context);
+}
 
 test("all approved content matches its captured source hash and preserves complete instructions", () => {
   assert.deepEqual(batches.slice(0, 3).map((batch) => batch.translations.length), [30, 121, 8]);
@@ -47,7 +66,14 @@ test("review batches preserve exercise identities and exclude ambiguous source i
   assert.equal(rows.filter((row) => row.locale === "en").length, 1);
   for (const batch of batches) for (const exception of batch.sourceExceptions ?? []) {
     const approved = rows.find((row) => row.exercise_id === exception.exercise_id);
-    if (approved) assert.equal(approved.source_hash, repairedHashes.get(exception.exercise_id), `Exception needs verified source repair: ${exception.exercise_id}`);
+    if (!approved) continue;
+    if (repairedHashes.has(exception.exercise_id)) {
+      assert.equal(approved.source_hash, repairedHashes.get(exception.exercise_id), `Exception needs verified source repair: ${exception.exercise_id}`);
+    } else {
+      // A review may confirm the original instructions without changing them.
+      // Accept only the recorded, verified decision for this exact source hash.
+      assertConfirmedSource(approved, sourceConfirmations.find((decision) => decision.exercise_id === exception.exercise_id));
+    }
   }
   const videoRepairs = JSON.parse(fs.readFileSync(new URL("../scripts/localization/data/source-restorations-009.json", import.meta.url), "utf8")).restorations;
   for (const id of ["c96b4880-5799-4863-b84f-0c1c85cd9688", "a791dfde-e250-44eb-8465-dc8f59521061"]) {
@@ -64,6 +90,17 @@ test("review batches preserve exercise identities and exclude ambiguous source i
   if (restoredFly) {
     assert.equal(restoredFly.source_hash, repairedHashes.get(restoredFly.exercise_id));
     assert.ok(restoredFly.source.steps.length > 0, "The empty cable guide needs verified source instructions before approval");
+  }
+});
+
+test("unchanged-source confirmations identify unique, verified approved revisions", () => {
+  const confirmedIds = new Set();
+  for (const confirmation of sourceConfirmations) {
+    assert.ok(!confirmedIds.has(confirmation.exercise_id), `Duplicate source confirmation: ${confirmation.exercise_id}`);
+    confirmedIds.add(confirmation.exercise_id);
+    const approved = rows.find((row) => row.exercise_id === confirmation.exercise_id);
+    assert.ok(approved, `Source confirmation has no approved translation: ${confirmation.exercise_id}`);
+    assertConfirmedSource(approved, confirmation);
   }
 });
 

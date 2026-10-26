@@ -1,16 +1,57 @@
 import "server-only";
 
+import { unstable_cache } from "next/cache";
 import { requireAdmin } from "@/lib/admin-auth";
 import { getAppLanguage, isLocalizationEnabled } from "@/lib/i18n/server";
 import type { AppLanguage } from "@/lib/language";
 import type { WorkspaceMessageKey } from "@/lib/i18n/workspace-messages";
-import { createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import { createSupabasePublicClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import { invalidateExerciseContent, isExerciseDataCacheEnabled, PUBLIC_EXERCISES_CONTENT_CACHE_TAG } from "./cache";
+import { measureExerciseRead } from "./performance";
 import { applyExerciseTranslation, getExerciseContentHash, getSourceLocale, validateExerciseTranslation, type ExerciseTranslation } from "./translation-content.mjs";
 
-type LocalizableExercise = { id: string; name: string; description?: string; steps?: string[] };
+type LocalizableExercise = { id: string; name: string; description?: string; steps?: string[]; sourceContentHash?: string };
 type TranslationRelation = ExerciseTranslation & {
   exercises: { id: string; source: string; source_id: number | null; name: string; description: string; steps: string[]; status: string };
 };
+
+async function readPublicTranslations(locale: AppLanguage, databaseIds: string[], sourceIds: number[]): Promise<TranslationRelation[]> {
+  return measureExerciseRead("translations.query", async () => {
+    const client = createSupabasePublicClient();
+    const query = () => client.from("exercise_translations")
+      .select("exercise_id,locale,name,description,steps,source_locale,source_hash,translation_status,reviewed_at,exercises!inner(id,source,source_id,name,description,steps,status)")
+      .eq("locale", locale).eq("translation_status", "reviewed").eq("exercises.status", "Published");
+    const results = await Promise.all([
+      ...(databaseIds.length ? [query().in("exercise_id", databaseIds)] : []),
+      ...(sourceIds.length ? [query().eq("exercises.source", "musclewiki").in("exercises.source_id", sourceIds)] : []),
+    ]);
+    const rows: TranslationRelation[] = [];
+    for (const { data, error } of results) {
+      // Throw before caching: an outage must not become a cached empty translation.
+      if (error) throw new Error(`Translation read failed (${error.code ?? "unknown"})`);
+      rows.push(...(data ?? []) as unknown as TranslationRelation[]);
+    }
+    return rows;
+  });
+}
+
+const readCachedPublicTranslations = unstable_cache(
+  async (locale: AppLanguage, databaseIds: string[], sourceIds: number[], sourceRevisions: string[]) => {
+    // Full source revisions are part of the cache key, including cached empty results.
+    void sourceRevisions;
+    return readPublicTranslations(locale, databaseIds, sourceIds);
+  },
+  ["public-exercise-translations-v1"],
+  { revalidate: 60, tags: [PUBLIC_EXERCISES_CONTENT_CACHE_TAG] },
+);
+
+function getSourceRevision(item: LocalizableExercise) {
+  if (item.sourceContentHash) return item.sourceContentHash;
+  if (item.description !== undefined && item.steps) {
+    return getExerciseContentHash({ name: item.name, description: item.description, steps: item.steps });
+  }
+  return null;
+}
 
 /** Localize only the current page. Public/RLS reads never expose draft translations. */
 export async function localizeExercises<T extends LocalizableExercise>(items: T[], language?: AppLanguage): Promise<T[]> {
@@ -18,34 +59,34 @@ export async function localizeExercises<T extends LocalizableExercise>(items: T[
   const locale = language ?? await getAppLanguage();
   const fallback = (item: T): T => ({ ...item, isTranslationFallback: locale !== getSourceLocale({ name: item.name, description: item.description ?? "", steps: item.steps ?? [] }) });
   if (!isSupabaseConfigured()) return items.map(fallback);
-  const databaseIds = items.map((item) => item.id).filter((id) => /^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i.test(id));
-  const sourceIds = items.flatMap((item) => /^source-\d+$/.test(item.id) ? [Number(item.id.slice(7))] : []);
+  const databaseIds = [...new Set(items.map((item) => item.id).filter((id) => /^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i.test(id)))].sort();
+  const sourceIds = [...new Set(items.flatMap((item) => /^source-\d+$/.test(item.id) ? [Number(item.id.slice(7))] : []))].sort((a, b) => a - b);
+  const sourceRevisions = [...new Set(items.flatMap((item) => {
+    const revision = getSourceRevision(item);
+    return databaseIds.includes(item.id) && revision ? [`${item.id}:${revision}`] : [];
+  }))].sort();
   if (databaseIds.length === 0 && sourceIds.length === 0) return items.map(fallback);
-  const client = await createSupabaseServerClient();
-  const query = () => client.from("exercise_translations")
-    .select("exercise_id,locale,name,description,steps,source_locale,source_hash,translation_status,reviewed_at,exercises!inner(id,source,source_id,name,description,steps,status)")
-    .eq("locale", locale).eq("translation_status", "reviewed").eq("exercises.status", "Published");
-  const results = await Promise.all([
-    ...(databaseIds.length ? [query().in("exercise_id", [...new Set(databaseIds)])] : []),
-    ...(sourceIds.length ? [query().eq("exercises.source", "musclewiki").in("exercises.source_id", [...new Set(sourceIds)])] : []),
-  ]);
+  let translations: TranslationRelation[];
+  try {
+    translations = await measureExerciseRead("translations.read", () => isExerciseDataCacheEnabled()
+      ? readCachedPublicTranslations(locale, databaseIds, sourceIds, sourceRevisions)
+      : readPublicTranslations(locale, databaseIds, sourceIds));
+  } catch {
+    console.warn("Exercise translations could not be loaded");
+    return items.map(fallback);
+  }
   const rows = new Map<string, TranslationRelation>();
-  for (const { data, error } of results) {
-    if (error) {
-      // Keep the exercise page available if translation storage has not rolled out or is temporarily unavailable.
-      if (!["42P01", "PGRST205"].includes(error.code)) console.warn("Exercise translations could not be loaded", error.code);
-      continue;
-    }
-    for (const row of (data ?? []) as unknown as TranslationRelation[]) {
-      rows.set(row.exercise_id, row);
-      if (row.exercises.source === "musclewiki" && row.exercises.source_id) rows.set(`source-${row.exercises.source_id}`, row);
-    }
+  for (const row of translations) {
+    rows.set(row.exercise_id, row);
+    if (row.exercises?.source === "musclewiki" && row.exercises.source_id) rows.set(`source-${row.exercises.source_id}`, row);
   }
   return items.map((item) => {
     const translation = rows.get(item.id);
     if (!translation) return fallback(item);
     const source = translation.exercises;
     if (!source || source.status !== "Published") return fallback(item);
+    const revision = getSourceRevision(item);
+    if (databaseIds.includes(item.id) && revision && revision !== getExerciseContentHash(source)) return fallback(item);
     const localized = applyExerciseTranslation(source, translation, locale);
     if (localized === source) return fallback(item);
     return {
@@ -104,5 +145,6 @@ export async function saveExerciseTranslation(translation: ExerciseTranslation, 
     throw new TranslationWriteError("translationSaveFailed");
   }
   if (!data) throw new TranslationWriteError("translationConflict");
+  invalidateExerciseContent();
   return { updatedAt: data.updated_at as string };
 }

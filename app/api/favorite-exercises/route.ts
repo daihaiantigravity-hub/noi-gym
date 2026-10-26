@@ -1,7 +1,7 @@
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 import { isAdminUser } from "@/lib/admin-auth";
-import { PUBLIC_EXERCISES_CACHE_TAG } from "@/lib/exercises/cache";
+import { invalidateExerciseRanking } from "@/lib/exercises/cache";
 import { exerciseKeys, favoriteKeys, readExerciseKey, resolvePublishedExercise, type FavoriteRelationRow } from "@/lib/exercises/favorite-api";
 import { createSupabaseAdminClient, isDatabaseConfigured } from "@/lib/supabase/server";
 import { AuthenticationRequiredError, requireUser } from "@/lib/user-auth";
@@ -15,7 +15,7 @@ function errorResponse(error: unknown) {
       : message.includes("not found")
         ? 404
         : 500;
-  return NextResponse.json({ error: message }, { status });
+  return NextResponse.json({ error: message }, { status, headers: { "Cache-Control": "private, no-store" } });
 }
 
 async function setAdminFeatured(userId: string, exerciseId: string, featured: boolean) {
@@ -43,7 +43,7 @@ export async function GET() {
     if (error) throw new Error(error.message);
 
     const exerciseIds = [...new Set(((data ?? []) as unknown as FavoriteRelationRow[]).flatMap(favoriteKeys))];
-    return NextResponse.json({ authenticated: true, userId: user.id, exerciseIds });
+    return NextResponse.json({ authenticated: true, userId: user.id, exerciseIds }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     return errorResponse(error);
   }
@@ -62,7 +62,7 @@ export async function PUT(request: Request) {
     if (isAdminUser(user)) await setAdminFeatured(user.id, exercise.id, true);
     revalidatePath("/favorites");
     revalidatePath("/admin/favorites");
-    revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, { expire: 0 });
+    invalidateExerciseRanking();
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: true });
   } catch (error) {
     return errorResponse(error);
@@ -84,7 +84,7 @@ export async function DELETE(request: Request) {
     if (isAdminUser(user)) await setAdminFeatured(user.id, exercise.id, false);
     revalidatePath("/favorites");
     revalidatePath("/admin/favorites");
-    revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, { expire: 0 });
+    invalidateExerciseRanking();
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: false });
   } catch (error) {
     return errorResponse(error);

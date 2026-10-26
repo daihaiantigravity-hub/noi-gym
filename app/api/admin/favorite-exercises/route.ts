@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/admin-auth";
-import { PUBLIC_EXERCISES_CACHE_TAG } from "@/lib/exercises/cache";
+import { invalidateExerciseRanking } from "@/lib/exercises/cache";
 import { exerciseKeys, favoriteKeys, readExerciseKey, resolvePublishedExercise, type FavoriteRelationRow } from "@/lib/exercises/favorite-api";
 
 function errorResponse(error: unknown) {
@@ -43,7 +43,7 @@ export async function PUT(request: Request) {
     if (error) throw new Error(error.message);
 
     revalidatePath("/admin/favorites");
-    revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, { expire: 0 });
+    invalidateExerciseRanking();
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: true });
   } catch (error) {
     return errorResponse(error);
@@ -62,7 +62,7 @@ export async function DELETE(request: Request) {
     if (error) throw new Error(error.message);
 
     revalidatePath("/admin/favorites");
-    revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, { expire: 0 });
+    invalidateExerciseRanking();
     return NextResponse.json({ exerciseIds: exerciseKeys(exercise), saved: false });
   } catch (error) {
     return errorResponse(error);

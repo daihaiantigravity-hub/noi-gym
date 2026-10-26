@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 import vm from "node:vm";
 import { createElement } from "react";
+import * as React from "react";
 import * as jsxRuntime from "react/jsx-runtime";
 import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
@@ -23,12 +24,22 @@ function load(path, imports = {}) {
 const pagination = load("lib/exercises/pagination.ts");
 const messages = load("lib/i18n/messages.ts");
 let testLanguage = "en";
+let navigationPending = false;
 const { default: ExercisePagination } = load("components/ExercisePagination.tsx", {
+  "react": React,
   "react/jsx-runtime": jsxRuntime,
-  "next/link": { default: (props) => createElement("a", props) },
+  "next/link": {
+    default: (props) => {
+      const anchorProps = { ...props };
+      delete anchorProps.prefetch;
+      return createElement("a", anchorProps);
+    },
+    useLinkStatus: () => ({ pending: navigationPending }),
+  },
   "@/lib/exercises/pagination": pagination,
   "@/components/LanguageProvider": { useAppLanguage: () => ({ language: testLanguage }) },
   "@/lib/i18n/messages": messages,
+  "./use-exercise-route-prefetch": { useExerciseRoutePrefetch: () => ({ prefetchRoute() {}, cancelPrefetch() {} }) },
 });
 const props = { page: 1, pageSize: 5, routePath: "/exercises/biceps?view=advanced", total: 145 };
 
@@ -59,6 +70,18 @@ test("URLs preserve filters and first page removes only the page parameter; five
   assert.equal(pagination.getPageHref("/exercises/biceps?view=advanced&page=2", 15), "/exercises/biceps?view=advanced&page=15");
   assert.equal(pagination.getPageHref("/exercises/biceps?view=advanced&page=2", 1), "/exercises/biceps?view=advanced");
   assert.equal(pagination.getPageHref("/exercises/biceps", 1), "/exercises/biceps");
+  assert.equal(pagination.getPageHref("/exercises/biceps/barbell?gender=female&view=advanced&lang=vi&page=2", 3), "/exercises/biceps/barbell?gender=female&view=advanced&lang=vi&page=3");
+});
+
+test("pending navigation shows accessible inline feedback while keeping page links available", () => {
+  try {
+    navigationPending = true;
+    const html = renderToStaticMarkup(createElement(ExercisePagination, { ...props, page: 5 }));
+    assert.match(html, /aria-busy="true"/);
+    assert.match(html, /exercise-library-pagination__content--pending/);
+    assert.match(html, /aria-label="Loading exercises…"[^>]*role="status"/);
+    assert.match(html, /href="\/exercises\/biceps\?view=advanced&amp;page=6"/);
+  } finally { navigationPending = false; }
 });
 
 test("first/middle/last page markup has accessible arrows and responsive page windows", () => {

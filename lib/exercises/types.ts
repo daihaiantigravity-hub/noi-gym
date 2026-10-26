@@ -49,6 +49,8 @@ export type ExerciseRecord = ExerciseFormValues & {
 };
 
 export type PublicExercise = {
+  /** Revision of raw database text, before display fallbacks or translation. */
+  sourceContentHash?: string;
   id: string;
   name: string;
   description: string;

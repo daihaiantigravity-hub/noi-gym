@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ForwardedRef } from "react";
+import { useCallback, useEffect, useRef, useState, type ForwardedRef } from "react";
 
 function assignRef<T>(ref: ForwardedRef<T>, value: T | null) {
   if (typeof ref === "function") {
@@ -24,25 +24,25 @@ export default function LazyExerciseVideo({
   forwardedRef?: ForwardedRef<HTMLVideoElement>;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [videoSourceToLoad, setVideoSourceToLoad] = useState<string | null>(null);
   const [readyVideoSource, setReadyVideoSource] = useState<string | null>(null);
   const [playingVideoSource, setPlayingVideoSource] = useState<string | null>(null);
-  const shouldLoadVideo = videoSourceToLoad === src;
   const isVideoReady = readyVideoSource === src;
   const isVideoPlaying = playingVideoSource === src;
 
   useEffect(() => {
-    // Let the lightweight poster request start first, but never let a slow or
-    // missing poster prevent the current page's videos from loading.
-    const timeoutId = window.setTimeout(() => setVideoSourceToLoad(src), poster ? 1500 : 0);
-    return () => window.clearTimeout(timeoutId);
-  }, [poster, src]);
-
-  useEffect(() => {
     const video = videoRef.current;
-    if (!video || !isVideoReady) return;
+    if (!video) return;
+    // A cached video can have its first frame before hydration attaches events.
+    const markReady = () => setReadyVideoSource(src);
+    if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) markReady();
+    video.muted = true;
     void video.play().catch(() => undefined);
-  }, [isVideoReady]);
+  }, [src]);
+
+  const setVideoRef = useCallback((element: HTMLVideoElement | null) => {
+    videoRef.current = element;
+    assignRef(forwardedRef ?? null, element);
+  }, [forwardedRef]);
 
   return (
     <>
@@ -57,8 +57,6 @@ export default function LazyExerciseVideo({
           decoding="async"
           draggable={false}
           loading="eager"
-          onError={() => setVideoSourceToLoad(src)}
-          onLoad={() => setVideoSourceToLoad(src)}
           src={poster}
         />
       ) : null}
@@ -66,7 +64,7 @@ export default function LazyExerciseVideo({
         aria-label={label}
         autoPlay
         className={className}
-        data-lazy-video-state={shouldLoadVideo ? (isVideoReady ? (isVideoPlaying ? "playing" : "ready") : "loading") : "waiting"}
+        data-lazy-video-state={isVideoReady ? (isVideoPlaying ? "playing" : "ready") : "loading"}
         loop
         muted
         onError={() => {
@@ -78,15 +76,12 @@ export default function LazyExerciseVideo({
           void event.currentTarget.play().catch(() => undefined);
         }}
         onPause={() => setPlayingVideoSource((currentSource) => currentSource === src ? null : currentSource)}
-        onPlay={() => setPlayingVideoSource(src)}
+        onPlaying={() => setPlayingVideoSource(src)}
         playsInline
         poster={poster || undefined}
-        preload={shouldLoadVideo ? "auto" : "none"}
-        ref={(element) => {
-          videoRef.current = element;
-          assignRef(forwardedRef ?? null, element);
-        }}
-        src={shouldLoadVideo ? src : undefined}
+        preload="auto"
+        ref={setVideoRef}
+        src={src}
       />
     </>
   );

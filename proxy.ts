@@ -1,5 +1,6 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+import { measureExerciseRead } from "@/lib/exercises/performance";
 
 export async function proxy(request: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
@@ -23,7 +24,15 @@ export async function proxy(request: NextRequest) {
     },
   });
 
-  await supabase.auth.getUser();
+  await measureExerciseRead("auth.refresh", async () => {
+    if (request.nextUrl.pathname.startsWith("/exercises/")) {
+      // This route contains public data only. Refresh expired cookies without a
+      // remote user lookup on every navigation. No identity/permission is read here.
+      await supabase.auth.getSession();
+    } else {
+      await supabase.auth.getUser();
+    }
+  });
   return response;
 }
 
