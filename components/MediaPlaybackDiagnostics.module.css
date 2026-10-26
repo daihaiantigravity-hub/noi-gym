@@ -1,0 +1,76 @@
+.panel {
+  position: fixed;
+  right: max(10px, env(safe-area-inset-right));
+  bottom: max(10px, env(safe-area-inset-bottom));
+  z-index: 120;
+  width: min(360px, calc(100vw - 20px));
+  max-height: 50dvh;
+  overflow: auto;
+  padding: 10px 12px;
+  border: 1px solid #657487;
+  border-radius: 10px;
+  background: #17202c;
+  color: #f4f7fc;
+  font: 12px/1.4 Arial, sans-serif;
+  overscroll-behavior: contain;
+}
+
+.panel summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.panel p {
+  margin: 8px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.option input {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.actions button {
+  min-height: 40px;
+  padding: 7px 10px;
+  border: 1px solid #7187a3;
+  border-radius: 6px;
+  background: #26364c;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.actions button:focus-visible,
+.option input:focus-visible,
+.panel summary:focus-visible {
+  outline: 2px solid #b4d4ff;
+  outline-offset: 2px;
+}
+
+.report {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px;
+  border: 1px solid #657487;
+  border-radius: 4px;
+  background: #101722;
+  color: #f4f7fc;
+  font: 11px/1.4 monospace;
+  resize: vertical;
+}

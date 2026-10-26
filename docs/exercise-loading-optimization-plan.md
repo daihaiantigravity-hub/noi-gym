@@ -2,7 +2,7 @@
 
 Ngày lập: 26/10/2026. Cơ sở: kiểm tra mã nguồn và đo trực tiếp `https://noi-gym.vercel.app`.
 
-Tài liệu này dùng để triển khai từng đợt và đánh dấu khi hoàn thành. Ngày 26/10/2026 đã triển khai các tối ưu dữ liệu, cache, điều hướng và khởi tạo video trong workspace; đã build và đối chiếu HTTP/trình duyệt local. Chưa triển khai hoặc nghiệm thu bản tối ưu trên production Vercel. Các mục `[x]` bổ sung trong đợt này là kết quả local, trừ khi ghi rõ môi trường khác.
+Tài liệu này dùng để triển khai từng đợt và đánh dấu khi hoàn thành. Ngày 26/10/2026 đã triển khai các tối ưu dữ liệu, cache, điều hướng và khởi tạo video; đã build, đối chiếu local và nghiệm thu Preview cho khách. Bản tối ưu đã lên production Vercel tại commit `7f08e61659404d8f3ef2723009e3508d0123ab4a` và đã đạt đối chiếu production trước/sau: 90 lượt HTTP, 4 mẫu browser và điều hướng, chi tiết mục 11. Phạm vi và bằng chứng mỗi môi trường được ghi riêng, không coi các mục kiểm thử hai tài khoản hoặc điện thoại thật là đã hoàn tất.
 
 ## 1. Mục tiêu và phạm vi
 
@@ -78,7 +78,7 @@ Không đặt thời gian tải hết 10 video thấp hơn giới hạn của du
 - [x] Bổ sung log tùy chọn cho `auth.refresh`, `list.read`, `ranking.query`, `content.query`, `translations.read`, `translations.query`; chỉ có tên pha cố định và số millisecond, không có token, cookie, email hoặc dữ liệu truy vấn.
 - [-] Đo nhóm cơ thường, nhóm nâng cao/khớp, có/không dụng cụ, trang đầu/tiếp/cuối; đủ EN/VI, nam/nữ, khách/người dùng/admin. Đã có baseline local khách; ma trận đăng nhập và nghiệm thu production còn lại.
 - [ ] Tạo cache lạnh có kiểm soát trên preview hoặc namespace thử nghiệm. Không xóa toàn bộ cache production để benchmark; tham số URL ngẫu nhiên không mặc nhiên tạo cache lạnh cho repository.
-- [ ] Kiểm tra test baseline, cấu hình vùng Vercel/Supabase và đường truyền trước khi chốt so sánh.
+- [-] Đã sửa test baseline theo bằng chứng, toàn bộ 151 test ứng dụng đạt; xác nhận Vercel function ở `iad1` và ghi đường request `hkg1 → iad1`. Vùng database Supabase và cache lạnh có kiểm soát chưa được xác minh.
 
 Hoàn thành khi cùng một script đo được trước/sau và có số liệu riêng cho dữ liệu, UI và media. Không dùng build local để kết luận latency production.
 
@@ -102,7 +102,7 @@ Hoàn thành khi lượt tải có cache không phải gọi Supabase chỉ đ�
 Phạm vi chính: `lib/exercises/repository.ts`, `lib/exercises/ranking.ts`, `lib/exercises/category-order.ts`; migration/RPC mới nếu cần.
 
 - [x] Cache riêng ứng viên và thống kê ưu tiên; đọc hai cache song song từ ngoài callback cache rồi áp dụng comparator trong JavaScript. Cache ứng viên dùng chung giữa các trang; thống kê ưu tiên dùng chung giữa bộ lọc. Có test mô phỏng Next bỏ qua cache lồng nhau để tránh tối ưu chỉ đúng trong mock.
-- [x] Đã đo lại HTTP local trước/sau: 20 mẫu cho từng case chính, kết quả ở mục 10; các lượt lặp đạt mục tiêu local. RPC được để lại vì chưa có bằng chứng cần thiết sau tối ưu nhỏ này. Chưa xác nhận p50 cache lạnh hoặc độ trễ production; không tạo migration/RPC hoặc thay schema.
+- [x] Đã đo lại HTTP local và production trước/sau: 20 mẫu cho từng case chính, kết quả ở mục 10–11. Production p50 nhận card 334–356 ms, p95 393–748 ms. RPC được để lại vì chưa có bằng chứng cần thiết sau tối ưu này; chưa xác nhận p50 cache lạnh. Không tạo migration/RPC hoặc thay schema.
 - [ ] Nếu vẫn chậm, tạo RPC lọc, xếp hạng và lấy trang trong một lượt database; trả đúng trang cùng `total`, kể cả trang rỗng hoặc vượt phạm vi. Giữ đường đọc cũ để chuyển lại khi cần.
 - [-] Regression test so sánh comparator hiện tại trên bộ 1.105 bài qua mọi trang; giữ tên nguồn để xếp hạng. Ứng viên được đọc theo ID tăng dần để phân trang ổn định, nên các bài hòa hoàn toàn theo comparator có thứ tự ID xác định thay cho thứ tự database trước đây chưa quy định. Còn đối chiếu snapshot toàn bộ dữ liệu thực tế; số đo HTTP so sánh hash nội dung/thứ tự/media/poster theo các route đã đo.
 - [ ] RPC trả dữ liệu công khai qua server: lọc Published, giới hạn page size, tham số hóa bộ lọc. Ưu tiên RPC chỉ cho `service_role`, thu hồi quyền EXECUTE mặc định của PUBLIC/anon/authenticated; không mở rộng RLS bảng ưu tiên hay trả danh sách người đã lưu.
@@ -117,7 +117,7 @@ Hoàn thành khi số lượt chờ giảm có số đo, kết quả danh sách 
 
 Phạm vi chính: hai route API yêu thích, `lib/exercises/use-saved-exercise.ts`, `proxy.ts` và luồng kiểm tra quyền phía server.
 
-- [ ] Giữ cập nhật lạc quan của icon và hoàn tác khi API lỗi; dữ liệu cá nhân dùng cache riêng theo phiên hoặc `no-store`, không chia sẻ giữa người dùng.
+- [-] Đã phát hiện và sửa trong workspace lỗi phản hồi GET/PUT/DELETE cũ cập nhật nhầm store sau logout/đổi tài khoản; 27 regression test kiểm tra generation, rollback, 401, dedupe và OAuth intent. Còn nghiệm thu bản sửa sau deploy tại mục 12.
 - [x] Hai API yêu thích gọi invalidation ưu tiên; giữ cache ứng viên, nội dung và bản dịch. ID nội dung được chuẩn hóa nên cùng tập bài có thể dùng lại cache dù thứ tự yêu thích đổi.
 - [-] Ưu tiên có TTL 60 giây và dùng stale-while-revalidate khi lưu/bỏ lưu. Comparator chạy ngoài cache nên không có thêm một tầng rank giữ số đếm cũ. Đây là cơ chế refresh theo lượt đọc, không phải cam kết mọi client nhận thứ hạng mới trong đúng 60 giây; còn đo end-to-end sau thao tác thật.
 - [-] Giữ nhánh admin cập nhật `admin_featured_exercises` và chuyển sang invalidation ưu tiên. Còn nghiệm thu đăng nhập admin và hai tài khoản trên preview/production.
@@ -135,7 +135,7 @@ Phạm vi chính: `components/ExerciseLibraryLoading.tsx`, `ExerciseLibrary.tsx`
 - [x] Prefetch theo ý định hover/focus/touch, hủy khi rời mục; debounce 160 ms, tối đa 3 lần/10 giây và không lặp route cùng locale trong 30 giây. Dùng kiểu API Next 16.3 đang cài; có test hủy, giới hạn, hết hạn và đổi ngôn ngữ.
 - [x] Code chỉ prefetch route, không mount card/video trang chưa mở. Smoke test focus bàn phím tại local ghi 2 route request và 0 MP4 request; không tải trước video ngoài trang trong kịch bản đã đo.
 - [-] Test phân trang giữ locale/filter/canonical URL. Chromium EN→VI tại trang 2 giữ 10/10 node video, cùng URL, 0 sự kiện `loadstart`, 10/10 vẫn phát và giữ trang 2. Còn navigation/back toàn ma trận và điện thoại thật.
-- [ ] Đo CLS, long task và cuộn trên điện thoại thật. Chỉ giảm hiệu ứng blur trên vùng video nếu profiling cho thấy lợi ích rõ ràng.
+- [-] Chromium mô phỏng 12/12 case đạt, nhưng người dùng báo Samsung S22 Ultra vẫn giật khi cuộn và có video không chạy. Đang bổ sung phép đo trên máy thật tại mục 12; chưa coi mô phỏng là nghiệm thu điện thoại thật. Chỉ giảm hiệu ứng blur trên vùng video nếu profiling cho thấy lợi ích rõ ràng.
 
 Hoàn thành khi phản hồi thao tác nhanh, danh sách đúng, bố cục ổn định và không tăng tải nền quá mức.
 
@@ -145,7 +145,7 @@ Phạm vi chính: `components/LazyExerciseVideo.tsx`, công cụ kiểm tra/remu
 
 - [ ] Đo riêng ảnh, video đầu và video cuối; khảo sát cấu trúc MP4 của mẫu đại diện nam/nữ, front/side, nhiều kích thước. Không suy rộng từ hai file đã kiểm tra.
 - [x] Video có `src`, `preload="auto"`, muted/autoplay ngay trong server markup; bỏ việc phải đợi poster hoặc hydration mới gán nguồn. Hai SSR test xác nhận cả trường hợp có/không poster.
-- [-] Giữ poster đến `loadeddata`, hiện lại khi lỗi và giữ autoplay cho mọi video trên trang, không thêm điều kiện viewport. Hai mẫu browser local đều phát 10/10 video, không lỗi; mẫu 4 Mbps có video cuối chậm hơn khoảng 4% dù video đầu nhanh hơn. Cần đo lặp trước khi nghiệm thu đầy đủ media.
+- [x] Giữ poster đến `loadeddata`, hiện lại khi lỗi và giữ autoplay cho mọi video trên trang, không thêm điều kiện viewport. Production sau deploy có 4/4 mẫu đạt 10/10 video, không lỗi; hai mẫu 4 Mbps phát đủ sau 8,16–8,17 giây so với 8,77–10,03 giây trước. Đây là smoke test trang chest, chưa đại diện mọi clip hoặc thiết bị thật.
 - [ ] Nếu thử ưu tiên khởi tạo video nhìn thấy trước, vẫn khởi tạo hết trang tự động và so sánh cả thời gian video cuối; không chấp nhận chỉ video đầu nhanh hơn còn phần lớn video chờ lâu hơn.
 - [-] Đã chọn 12 ứng viên pilot từ manifest local, bao gồm nam/nữ, front/side và ba mức kích thước. Chưa kiểm tra cấu trúc của các ứng viên, chưa download/remux/upload. Còn xác nhận clip nào cần faststart và kiểm tra codec/thời lượng/hình/phát/seek.
 - [-] Đã kiểm kê manifest cũ: khoảng 7,241 GB video+poster đã biết, pilot 12 clip gốc khoảng 8,68 MB. Đây không phải số sử dụng R2 hiện tại; còn xác nhận dung lượng live trước bất kỳ upload nào. Giữ nguyên video gốc và URL đang dùng.
@@ -169,7 +169,7 @@ Hoàn thành pilot khi đủ 10/10 video hợp lệ ở trang kiểm tra tự ph
 - [x] 75 test liên quan đã pass; TypeScript và ESLint phạm vi sửa sạch. Production build local cuối đã thành công, gồm xử lý lỗi aggregate. Đã sửa thiếu sót của test baseline theo bằng chứng tại mục 9; toàn bộ 151 test ứng dụng đã pass.
 - [x] Có `EXERCISE_DATA_CACHE_DISABLED=true` để đọc trực tiếp, giữ logic ngôn ngữ/bộ lọc và cơ chế phân trang an toàn. Không có migration, xóa schema hoặc thay đổi media trong đợt này.
 - [ ] Kiểm tra preview trước production, bao gồm nguồn sửa, bản dịch bị thu hồi, phân trang, quyền truy cập và yêu thích hai tài khoản.
-- [ ] Sau deploy, chạy lại cùng kịch bản production; kiểm tra thêm điện thoại thật và mạng hạn chế. Ghi commit/deployment, thời điểm, cache, thiết bị và tài khoản loại nào, không ghi thông tin nhạy cảm.
+- [-] Sau deploy đã chạy lại cùng kịch bản production và mô phỏng mobile 4 Mbps/CPU ×4; dữ liệu, media, điều hướng và quyền truy cập khách đạt, có commit/deployment và số đo tại mục 11. Còn kiểm tra điện thoại thật và phiên đăng nhập thực tế.
 - [ ] Nếu sai dữ liệu, quyền truy cập hoặc media: quay lại đợt thay đổi tương ứng. Không gộp rollback app với xóa dữ liệu hoặc xóa video.
 - [ ] Chỉ đánh dấu toàn bộ kế hoạch hoàn thành khi những đợt bắt buộc đã đạt tiêu chí trên production; các hạng mục hạ tầng chưa có điều kiện ghi rõ để sau, không tick thay.
 
@@ -298,7 +298,7 @@ Cả hai profile đều phát 10/10 video không cần cuộn, CLS 0 và không 
 `optimized-local-navigation.json` đã pass: focus bàn phím tạo 2 route request, 0 MP4 request; pending sau 2,6 ms, card trang 2 sau 39,9 ms. Đổi EN→VI giữ trang 2, dùng lại 10/10 node video với cùng nguồn, không có `loadstart` mới và cả 10 video tiếp tục phát. Không có lỗi JavaScript trong mẫu.
 <!-- LOCAL_MEASUREMENTS_END -->
 
-Còn lại trước khi đóng kế hoạch: nghiệm thu preview/production; kiểm tra hai tài khoản, admin, token hết hạn và Google callback; điện thoại thật/CLS/cuộn; cache lạnh có kiểm soát và phép đo video lặp. Pilot faststart, live R2 usage, vùng server và CDN vẫn là phần riêng chưa triển khai. Không dùng độ trễ localhost để dự báo trực tiếp độ trễ người dùng trên Vercel.
+Còn lại trước khi đóng toàn bộ kế hoạch: kiểm tra hai tài khoản, admin, token hết hạn và Google callback; điện thoại thật/CLS/cuộn; cache lạnh có kiểm soát và phép đo video trên ma trận rộng hơn. Preview/production cho khách đã nghiệm thu ở mục 11. Pilot faststart, live R2 usage, vùng database và CDN vẫn là phần riêng chưa triển khai. Không dùng độ trễ localhost để dự báo trực tiếp độ trễ người dùng trên Vercel.
 
 ## 11. Triển khai và đối chiếu production
 
@@ -320,7 +320,9 @@ Bằng chứng local: `artifacts/performance/production-before-summary-20261026.
 - [x] Sau sửa test baseline, chạy toàn bộ 21 file test: **151/151 pass**, không skip; Node 20.20.2. Log `full-suite-20261026.tap` và summary tương ứng trong artifacts/performance.
 - [x] Deploy nhánh `perf/exercise-loading-20261026`, commit `5ec1d56253cfe9a57cbc0f36fe308aa052a15fbf`. GitHub/Vercel báo Preview Ready; deployment `EHrKp8AGjTDh19YaxeSe8CGtcrFw`, URL https://noi-dntnx0ka1-daihaiantigravity-3271.vercel.app.
 - [x] Nghiệm thu Preview cho khách: 90/90 HTTP, 14/14 case cùng thứ tự/nội dung/media/poster; mobile và 4 Mbps đều 10/10 video phát, CLS 0, không lỗi JavaScript/media. Phân trang, đổi EN→VI và các chốt quyền truy cập khách đạt. Phiên thật/hai tài khoản vẫn nằm ở mục chưa nghiệm thu riêng.
-- [ ] Cập nhật production, đo lại và đối chiếu baseline.
+- [x] Cập nhật production commit `7f08e61659404d8f3ef2723009e3508d0123ab4a`. GitHub Production deployment `7326219685` thành công; Vercel `dpl_GSUwMxiTBtfYmN5oJH87HsXD6KVP` Ready, alias `noi-gym.vercel.app` trỏ đúng deployment. Mã ứng dụng giống bản Preview đã nghiệm thu; commit sau chỉ bổ sung harness và hồ sơ kiểm thử.
+- [x] Đo lại production và đối chiếu baseline: bộ HTTP 80 + ma trận 10 + 4 mẫu browser + điều hướng đều đạt. Một batch đo sau deploy, không chạy lại để chọn số đẹp; 14/14 case giữ cùng hash thứ tự/nội dung/media/poster.
+- [x] Bảy kiểm tra quyền truy cập khách trên production đạt: session rỗng, favorites 401, refresh GET 405/POST 403 và `private, no-store`; admin/favorites chuyển đúng màn đăng nhập; login HTTP 200. Bằng chứng `production-after-auth-20261026.json`, không thực hiện đăng nhập hoặc ghi dữ liệu.
 
 Lưu ý Preview: `NEXT_PUBLIC_SITE_URL` phải đúng origin nếu nghiệm thu OAuth trên Preview, và Supabase cần cho phép redirect tương ứng. Không đổi cấu hình OAuth chỉ để vượt bảo vệ Preview; nếu chưa đủ phiên/tài khoản thì ghi rõ phần chưa kiểm chứng. Endpoint refresh qua CLI là tùy chọn, có thể dùng phiên admin cùng origin.
 
@@ -333,3 +335,54 @@ Bộ đo đã bổ sung kiểm tra quyền truy cập Preview và kết quả me
 Đã pass thêm 12 regression test cho quyền truy cập Preview và phân loại kết quả browser; lint các script/test thay đổi sạch. Bộ 151 test ứng dụng và build vẫn thuộc cùng mã ứng dụng đã được nghiệm thu. Preview ổn định có p50 nhận card 505–516 ms, p95 528–589 ms; không dùng số này thay kết luận production. Navigation phản hồi pending 2,7 ms; đổi ngôn ngữ giữ 10 node video, 0 lần load lại. Chưa thay đổi main/production tại thời điểm ghi nghiệm thu Preview.
 
 Lưu ý vận hành khi đổi cấu hình media: những request đầu sau redeploy Preview còn trả URL cũ trước khi chuyển sang R2. Hiện tượng phù hợp với nội dung đã map URL được giữ trong Data Cache qua deployment và refresh theo TTL; không coi redeploy là thao tác xóa cache. Sau đổi media env cần dùng refresh có xác thực ở mục 8 hoặc chờ revalidation rồi xác minh URL đã chuyển. Production giữ nguyên ba cấu hình này trong đợt phát hành. Bộ HTTP kiểm tra sau khi ổn định được lưu riêng, không thay thế bằng chứng request ban đầu.
+
+### Kết quả production sau deploy, 26/10/2026
+
+Đối chiếu cùng `https://noi-gym.vercel.app`, khách chưa đăng nhập, 20 mẫu mỗi route/ngôn ngữ. Chỉ số HTTP là thời gian nhận đủ card đầu tiên trong stream, không phải thời điểm trình duyệt vẽ:
+
+| Route / ngôn ngữ | p50 trước → sau (ms) | p95 trước → sau (ms) | Giảm thời gian p50 |
+| --- | ---: | ---: | ---: |
+| Chest EN | 623,9 → 355,5 | 1266,7 → 748,2 | 43,0% |
+| Chest VI | 570,0 → 337,4 | 1025,9 → 393,0 | 40,8% |
+| Rear shoulders/barbell EN | 567,3 → 344,6 | 985,1 → 397,2 | 39,3% |
+| Rear shoulders/barbell VI | 569,1 → 334,4 | 600,7 → 425,8 | 41,2% |
+
+90/90 request trả HTTP 200, không thiếu bài. Toàn bộ 14 case đối chiếu giữ nguyên thứ tự, nội dung, URL video và poster. Không xóa cache production; request kiểm tra metadata đã mở chest EN một lần trước bộ đo, nên không tuyên bố đây là p50/p95 cache lạnh.
+
+Browser tại chest VI, Chromium 390×844, context mới cho mỗi mẫu, quan sát 20 giây, hai mẫu mỗi profile; khoảng thời gian dưới đây không phải percentile:
+
+| Profile / chỉ số | Trước (giây) | Sau (giây) |
+| --- | ---: | ---: |
+| Mobile — cơ hội vẽ card đầu | 1,162–1,181 | 0,525–0,773 |
+| Mobile — video đầu phát | 2,110–2,193 | 1,193–1,424 |
+| Mobile — toàn bộ video phát | 2,618–2,674 | 1,884–2,606 |
+| Mobile 4 Mbps/CPU ×4 — cơ hội vẽ card đầu | 1,395–1,580 | 1,057–1,137 |
+| Mobile 4 Mbps/CPU ×4 — video đầu phát | 3,300–4,819 | 2,723–2,738 |
+| Mobile 4 Mbps/CPU ×4 — toàn bộ video phát | 8,767–10,030 | 8,158–8,167 |
+
+Cả 4 mẫu trước và 4 mẫu sau đều đủ 5 card/10 video; đối chiếu từng video xác nhận `readyState=4`, không paused, đã phát và không có lỗi media. CLS 0, không lỗi JavaScript; không thấy regression trong các mẫu này. Bộ đo trước chưa có helper phân loại mới nhưng snapshot đã được tính lại theo cùng điều kiện. Timeout 45→60 giây không ảnh hưởng các mẫu hoàn tất; cửa sổ quan sát vẫn 20 giây.
+
+Điều hướng production: pending sau 2,7 ms, card trang 2 sau 389,3 ms. Focus tạo 2 request prefetch route, không tải MP4 ngoài trang. Đổi EN→VI giữ trang 2, cùng 10 node video/URL, 0 sự kiện `loadstart` và 10/10 video tiếp tục phát. Bảy kiểm tra quyền truy cập khách đều đạt, nhưng không thay cho thử hai tài khoản hoặc lưu/bỏ lưu thật.
+
+Bằng chứng: `production-alias-verification-20261026.json`, `production-after-20261026-summary.json`/`.md`, `production-comparison-20261026.json`, `production-matrix-comparison-20261026.json`, `production-after-20261026-browser.json`, `production-after-20261026-navigation.json`, `production-after-auth-20261026.json` trong `artifacts/performance/`. Các artifact chỉ nằm local và được git ignore; tài liệu này lưu số đo chính để theo dõi lâu dài.
+
+Đợt phát hành tối ưu app đã hoàn tất. Bước tiếp theo ưu tiên là nghiệm thu tài khoản thật và điện thoại thật; faststart/CDN/vùng server là các thử nghiệm riêng, chỉ triển khai khi có bằng chứng và điều kiện phù hợp. Chưa đánh dấu hoàn thành toàn bộ kế hoạch.
+
+## 12. Nghiệm thu tài khoản và phản hồi điện thoại thật
+
+Tiếp tục ngày 26/10/2026 sau release `7f08e61`:
+
+- [x] Google callback thực tế thành công với hai tài khoản hiện có trong trình duyệt. Tài khoản A có quyền admin và 282 bài yêu thích; tài khoản B thường có 2 bài, không có menu Admin và bị chuyển về login khi mở `/admin/exercises`. Chưa thay đổi bài yêu thích ở bước kiểm tra này; không lưu email, cookie hoặc token vào artifact.
+- [x] Ma trận Chromium mô phỏng 390×844 và 360×800: chest nam/nữ và rear-shoulders/barbell, EN/VI, 12/12 case đạt. 88 video trong các case đều phát trước/sau cuộn; trang 2 và Back thêm 10/10 video ở mỗi viewport. CLS/tràn ngang/lỗi JS/media đều 0. Trong đoạn cuộn chương trình không ghi nhận long task hoặc khoảng rAF >50 ms; đây không phải GPU trace hay phép đo điện thoại thật.
+- [-] Back giữ đúng trang, bộ lọc và thứ tự nhưng vị trí cuộn lệch 179 px/132 px, khớp chênh lệch chiều cao hai trang. Chưa sửa cơ chế khôi phục scroll; ghi nhận để kiểm tra riêng, không gọi là lỗi mất nội dung.
+- [-] Người dùng báo trên Samsung S22 Ultra vừa giật khi cuộn vừa có video không chạy. Trình duyệt và nguyên nhân trên thiết bị chưa được xác định. Kết quả mô phỏng không thay thế hoặc phủ nhận báo lỗi này.
+- [x] Tái hiện lỗi favorites bằng request trì hoãn: GET A hoặc mutation A hoàn tất sau khi đã đổi sang B có thể ghi dữ liệu cũ vào giao diện. Lỗi 401 còn giữ trạng thái authenticated, và OAuth intent thất bại có thể tự lưu lại bài sau khi người dùng đã bỏ lưu thủ công.
+- [-] Bản sửa favorites trong workspace dùng generation + userId để loại phản hồi cũ, giữ promise mới khỏi cleanup cũ, xử lý 401/rollback và tiêu thụ intent đúng bài. 27/27 focused tests, lint và TypeScript đạt; chờ release cuối.
+- [-] Bản sửa API session xử lý lỗi đăng xuất thật thay vì luôn báo thành công; mọi phản hồi session dùng `private, no-store`. Nút tài khoản hủy kiểm tra session đang chờ, tránh avatar cũ quay lại sau logout. 8/8 focused tests đạt; chờ release cuối.
+- [x] Tái hiện độc lập lỗi poster: phát sinh `playing` mà không có `loadeddata` khiến ảnh vẫn phủ video và trạng thái vẫn `loading`. Artifact `mobile-poster-playing-reproduction-20261026.json`. Đây là lỗi code có bằng chứng, chưa chứng minh là toàn bộ nguyên nhân trên S22 Ultra.
+- [-] Đã sửa trạng thái poster khi `playing`/`canplay`, thêm nút Play/Retry khi autoplay bị chặn hoặc media lỗi; vẫn nạp nguồn và thử tự phát toàn bộ video trên trang. Bỏ bắt thao tác kéo ngang khi người dùng nhấn nút, tránh track chiếm click Play/Retry bằng chuột. Chẩn đoán chỉ bật qua `media-debug=1`, đo 8 giây khi bấm, có A/B tắt hai lớp blur; báo cáo cục bộ không chứa URL media hoặc thông tin tài khoản, không gửi lên server. Chờ nghiệm thu release.
+- [x] Kiểm tra cuối workspace: **214/214 tests**, ESLint các file thay đổi và build production đều đạt. Bằng chứng `mobile-fix-full-suite-20261026.tap`, `mobile-fix-build-20261026.log`. Peer review phát hiện và đã sửa click nút fallback bị pointer capture của track chặn; đang kiểm tra thực tế trên cả list/detail trước release.
+- [ ] Build/test cuối, nghiệm thu Preview, triển khai và thử lưu/bỏ lưu có hoàn nguyên bằng tài khoản thật.
+- [ ] Xác nhận lại trên S22 Ultra sau bản sửa; thử A/B hai lớp blur bằng công cụ chẩn đoán trước khi quyết định thay đổi giao diện mặc định.
+
+Bằng chứng mobile mô phỏng: `production-mobile-acceptance-20261026-mobile-navigation.json` và `production-mobile-acceptance-20261026-summary.json` trong `artifacts/performance/`. Bộ kiểm tra tái lập: `scripts/performance/check-mobile-navigation.mjs`; 4/4 regression test cho bộ kiểm tra đã đạt. Lần full suite trước thay đổi video/diagnostics đạt 201/201; sẽ ghi riêng kết quả suite cuối, không dùng lần này để xác nhận các file viết sau đó.

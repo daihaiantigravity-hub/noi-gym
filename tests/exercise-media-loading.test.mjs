@@ -12,11 +12,17 @@ const { outputText } = ts.transpileModule(source, {
   compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2020 },
 });
 const exports = {};
+const messages = {};
+vm.runInNewContext(ts.transpileModule(readFileSync(new URL("../lib/i18n/messages.ts", import.meta.url), "utf8"), {
+  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 },
+}).outputText, { exports: messages });
 vm.runInNewContext(outputText, {
   exports,
   require(name) {
     if (name === "react") return React;
     if (name === "react/jsx-runtime") return jsxRuntime;
+    if (name === "./LanguageProvider") return { useAppLanguage: () => ({ language: "en" }) };
+    if (name === "@/lib/i18n/messages") return messages;
     throw new Error(`Unexpected import ${name}`);
   },
 });

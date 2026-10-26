@@ -39,6 +39,7 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
   const messages = getMessages(language);
   const router = useRouter();
   const rootRef = useRef<HTMLDivElement>(null);
+  const sessionCheckRef = useRef<AbortController | null>(null);
   const [session, setSession] = useState<SessionResponse>(initialSession);
   const [loading, setLoading] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -47,18 +48,21 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
 
   useEffect(() => {
     const controller = new AbortController();
+    sessionCheckRef.current = controller;
 
     void fetch("/api/auth/session", { cache: "no-store", credentials: "same-origin", signal: controller.signal })
       .then(async (response) => {
         if (!response.ok) throw new Error("Unable to check your sign-in status.");
         return response.json() as Promise<SessionResponse>;
       })
-      .then(setSession)
+      .then((nextSession) => {
+        if (!controller.signal.aborted) setSession(nextSession);
+      })
       .catch((requestError: unknown) => {
+        if (controller.signal.aborted) return;
         if (requestError instanceof DOMException && requestError.name === "AbortError") return;
         setError("authSessionFailed");
-      })
-      .finally(() => setLoading(false));
+      });
 
     const authReason = new URL(window.location.href).searchParams.get("auth");
     const authErrorTimer = authReason
@@ -67,6 +71,7 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
 
     return () => {
       controller.abort();
+      if (sessionCheckRef.current === controller) sessionCheckRef.current = null;
       if (authErrorTimer !== undefined) window.clearTimeout(authErrorTimer);
     };
   }, []);
@@ -99,6 +104,8 @@ export default function UserAuthButton({ initialSession }: { initialSession: Ses
 
   async function signOut() {
     if (loading) return;
+    // A delayed initial session response must not restore the user after logout.
+    sessionCheckRef.current?.abort();
     setLoading(true);
     setError(null);
 

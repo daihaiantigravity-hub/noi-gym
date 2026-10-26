@@ -21,6 +21,7 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
   function handlePointerDown(event: PointerEvent<HTMLDivElement>) {
+    if (event.target instanceof Element && event.target.closest("button, a, input, select, textarea, [role='button']")) return;
     if (event.pointerType !== "mouse" || event.button !== 0 || event.currentTarget.scrollWidth <= event.currentTarget.clientWidth) return;
     dragState.current = { pointerId: event.pointerId, startX: event.clientX, startScrollLeft: event.currentTarget.scrollLeft };
     event.currentTarget.setPointerCapture(event.pointerId);
@@ -61,7 +62,7 @@ export default function ExerciseDetailMedia({ mediaCount, title, media = [] }: {
           const slide = fakeDetailSlides[index % fakeDetailSlides.length];
           const selectedMedia = realMedia[index];
           return (
-            <section aria-label={translate(language, "exerciseView", { name: title, number: index + 1 })} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={selectedMedia?.storagePath ?? selectedMedia?.videoUrl ?? index} role="img">
+            <section aria-label={translate(language, "exerciseView", { name: title, number: index + 1 })} className={`exercise-detail-hero ${slide.modifier}${selectedMedia ? " exercise-detail-hero--real" : ""}`} key={selectedMedia?.storagePath ?? selectedMedia?.videoUrl ?? index} role={selectedMedia?.videoUrl ? "group" : "img"}>
               {selectedMedia?.videoUrl ? <LazyExerciseVideo className="exercise-detail-hero__video" label={translate(language, "demonstrationVideo", { name: title, number: index + 1 })} poster={selectedMedia.posterUrl ?? fallbackPoster} src={selectedMedia.videoUrl} /> : <><span className="exercise-detail-hero__kicker">{language === "vi" ? messages.exercise : slide.kicker}</span><span className="exercise-detail-hero__sub">{language === "vi" ? messages.mediaUnavailable : slide.sub}</span><span aria-hidden="true" className="exercise-detail-hero__person" /></>}
               {selectedMedia?.videoUrl && (
                 <div aria-hidden="true" className="exercise-detail-hero__watermark-cover" />

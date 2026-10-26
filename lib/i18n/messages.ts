@@ -86,6 +86,8 @@ const english = {
   inDevelopment: "In Development",
   featureInDevelopment: "This feature is in development.",
   mediaUnavailable: "Preview unavailable",
+  playVideo: "Play video",
+  retryVideo: "Retry video",
 } satisfies Record<string, string>;
 
 export type MessageKey = keyof typeof english;
@@ -177,6 +179,8 @@ const vietnamese: Messages = {
   inDevelopment: "Đang phát triển",
   featureInDevelopment: "Tính năng này đang được phát triển.",
   mediaUnavailable: "Chưa có hình ảnh xem trước",
+  playVideo: "Phát video",
+  retryVideo: "Thử lại video",
 };
 
 export function getMessages(language: AppLanguage): Messages {

@@ -13,6 +13,7 @@ import { useAppLanguage } from "./LanguageProvider";
 import { getMessages, translate } from "@/lib/i18n/messages";
 import { getMuscleLabel } from "@/lib/i18n/labels";
 import LanguageToggle from "./LanguageToggle";
+import MediaPlaybackDiagnostics from "./MediaPlaybackDiagnostics";
 
 const fakeExerciseThumbnails = [
   { variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
@@ -60,6 +61,7 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
   const dragState = useRef<{ pointerId: number; startX: number; startScrollLeft: number } | null>(null);
 
   function handlePointerDown(event: PointerEvent<HTMLDivElement>) {
+    if (event.target instanceof Element && event.target.closest("button, a, input, select, textarea, [role='button']")) return;
     if (event.pointerType !== "mouse" || event.button !== 0 || event.currentTarget.scrollWidth <= event.currentTarget.clientWidth) return;
     dragState.current = { pointerId: event.pointerId, startX: event.clientX, startScrollLeft: event.currentTarget.scrollLeft };
     event.currentTarget.setPointerCapture(event.pointerId);
@@ -124,7 +126,7 @@ function ExerciseCard({ exercise, gender, muscle, routePath }: { exercise: Publi
             const video = videos[videoIndex];
             const thumbnail = fakeExerciseThumbnails[(exercise.id.length + videoIndex) % fakeExerciseThumbnails.length];
             return (
-              <div aria-label={translate(language, "exerciseView", { name: exercise.name, number: videoIndex + 1 })} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role="img">
+              <div aria-label={translate(language, "exerciseView", { name: exercise.name, number: videoIndex + 1 })} className={`workout-thumbnail workout-thumbnail--${thumbnail.variant} exercise-library-showcase__fake-image${video ? " exercise-library-showcase__real-video" : ""}`} key={`${exercise.id}-${videoIndex}`} role={video ? "group" : "img"}>
                 {video ? <LazyExerciseVideo className="exercise-library-showcase__video" label={translate(language, "demonstrationVideo", { name: exercise.name, number: videoIndex + 1 })} poster={video.posterUrl ?? fallbackPoster} src={video.videoUrl} /> : <><span className="workout-thumbnail__kicker">{language === "vi" ? messages.exercise : thumbnail.kicker}</span><strong className="workout-thumbnail__hero">{language === "vi" ? exercise.name : thumbnail.hero}</strong><span className="workout-thumbnail__sub">{language === "vi" ? messages.mediaUnavailable : thumbnail.sub}</span><span aria-hidden="true" className="workout-thumbnail__person" /><span aria-hidden="true" className="workout-thumbnail__play" /></>}
               </div>
             );
@@ -172,6 +174,7 @@ export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, p
         </section>
       )}
       {exercises.length > 0 && <ExercisePagination page={page} pageSize={pageSize} routePath={routePath} total={total} />}
+      <MediaPlaybackDiagnostics />
     </main>
   );
 }
