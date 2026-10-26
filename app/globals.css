@@ -7321,6 +7321,8 @@ button {
 
   .health-card.exercise-library-exercise-card {
     border-radius: 21px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 
   .exercise-library-exercise-card__header h2 {
@@ -7345,6 +7347,11 @@ button {
     width: 100%;
     min-width: 100%;
     flex-basis: auto;
+  }
+
+  .exercise-library-showcase__real-video::after {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 
   .exercise-detail-hero-track {
