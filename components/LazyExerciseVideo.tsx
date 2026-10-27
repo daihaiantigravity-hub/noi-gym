@@ -29,6 +29,8 @@ export default function LazyExerciseVideo({
   const messages = getMessages(language);
   const videoRef = useRef<HTMLVideoElement>(null);
   const playAttemptRef = useRef<{ video: HTMLVideoElement; source: string } | null>(null);
+  const activeRef = useRef(false);
+  const [isActive, setIsActive] = useState(false);
   const [readyVideoSource, setReadyVideoSource] = useState<string | null>(null);
   const [playingVideoSource, setPlayingVideoSource] = useState<string | null>(null);
   const [playbackFailure, setPlaybackFailure] = useState<{ source: string; kind: "blocked" | "error" } | null>(null);
@@ -79,8 +81,36 @@ export default function LazyExerciseVideo({
     // A cached video can have its first frame before hydration attaches events.
     const markReady = () => setReadyVideoSource(src);
     if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) markReady();
-    requestPlayback(video);
-    return () => { playAttemptRef.current = null; };
+
+    const activate = () => {
+      activeRef.current = true;
+      setIsActive(true);
+      requestPlayback(video);
+    };
+    const deactivate = () => {
+      activeRef.current = false;
+      setIsActive(false);
+      video.pause();
+    };
+
+    // Decoding all ten 720p demos at once causes scroll jank on phones. Keep
+    // desktop playback unchanged, and automatically start nearby demos on
+    // mobile as they approach the viewport. Offscreen demos pause until needed.
+    if (!window.matchMedia("(max-width: 700px)").matches || typeof IntersectionObserver === "undefined") {
+      activate();
+      return () => { activeRef.current = false; playAttemptRef.current = null; };
+    }
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry?.isIntersecting) activate();
+      else deactivate();
+    }, { rootMargin: "120px 0px", threshold: 0 });
+    observer.observe(video);
+    return () => {
+      observer.disconnect();
+      activeRef.current = false;
+      playAttemptRef.current = null;
+    };
   }, [requestPlayback, src]);
 
   const setVideoRef = useCallback((element: HTMLVideoElement | null) => {
@@ -106,7 +136,7 @@ export default function LazyExerciseVideo({
       ) : null}
       <video
         aria-label={label}
-        autoPlay
+        autoPlay={isActive}
         className={className}
         data-lazy-video-state={failure ?? (isVideoReady ? (isVideoPlaying ? "playing" : "ready") : "loading")}
         loop
@@ -124,7 +154,7 @@ export default function LazyExerciseVideo({
         onLoadedData={(event) => {
           if (!isCurrentVideo(event.currentTarget)) return;
           setReadyVideoSource(src);
-          requestPlayback(event.currentTarget);
+          if (activeRef.current) requestPlayback(event.currentTarget);
         }}
         onPause={() => setPlayingVideoSource((currentSource) => currentSource === src ? null : currentSource)}
         onPlaying={(event) => {
@@ -137,7 +167,7 @@ export default function LazyExerciseVideo({
         }}
         playsInline
         poster={poster || undefined}
-        preload="auto"
+        preload={isActive ? "auto" : "none"}
         ref={setVideoRef}
         src={src}
       />

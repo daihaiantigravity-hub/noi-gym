@@ -15,8 +15,9 @@ const namedError = (name) => Object.assign(new Error(name), { name });
 
 // Execute the component's real event handlers/effects with persistent hook slots.
 // This isolates media-event ordering and promises, not browser decoding or policy.
-function harness({ language = 'en', play = () => Promise.resolve() } = {}) {
+function harness({ language = 'en', play = () => Promise.resolve(), mobile = false } = {}) {
   let cursor = 0, children = [], properties = { src: 'https://media.example/one.mp4', poster: 'https://media.example/one.webp', label: 'Chest demo', className: 'video' };
+  let intersectionCallback = null;
   const slots = [], pendingEffects = [];
   const sameDeps = (left, right) => left && right && left.length === right.length && left.every((value, index) => Object.is(value, right[index]));
   const hooks = {
@@ -38,8 +39,15 @@ function harness({ language = 'en', play = () => Promise.resolve() } = {}) {
     },
   };
   const exports = {};
+  class TestIntersectionObserver {
+    constructor(callback) { intersectionCallback = callback; }
+    observe() {}
+    disconnect() {}
+  }
   vm.runInNewContext(source, {
     exports, HTMLMediaElement: { HAVE_CURRENT_DATA: 2 },
+    window: { matchMedia: () => ({ matches: mobile }) },
+    IntersectionObserver: TestIntersectionObserver,
     require(name) {
       if (name === 'react') return hooks;
       if (name === 'react/jsx-runtime') return jsxRuntime;
@@ -49,9 +57,10 @@ function harness({ language = 'en', play = () => Promise.resolve() } = {}) {
     },
   });
   const video = {
-    readyState: 0, muted: false, error: null, playCalls: 0, loadCalls: 0,
+    readyState: 0, muted: false, error: null, playCalls: 0, loadCalls: 0, pauseCalls: 0,
     getAttribute(name) { return name === 'src' ? properties.src : null; },
     play() { this.playCalls++; return play(this); },
+    pause() { this.pauseCalls++; },
     load() { this.loadCalls++; this.error = null; this.readyState = 0; },
   };
   const api = {
@@ -65,10 +74,24 @@ function harness({ language = 'en', play = () => Promise.resolve() } = {}) {
     },
     element(type) { return children.find((child) => child.type === type); },
     emit(name) { api.element('video').props[name]({ currentTarget: video }); return api.render(); },
+    setVisible(visible) { intersectionCallback?.([{ isIntersecting: visible }]); return api.render(); },
     async settle() { await new Promise((resolve) => setImmediate(resolve)); return api.render(); },
   };
   return api.render();
 }
+
+test('mobile automatically starts a demo near the viewport and pauses it when scrolled away', async () => {
+  const state = harness({ mobile: true });
+  await state.settle();
+  assert.equal(state.video.playCalls, 0);
+  assert.equal(state.element('video').props.autoPlay, false);
+  state.setVisible(true);
+  assert.equal(state.video.playCalls, 1);
+  assert.equal(state.element('video').props.autoPlay, true);
+  state.setVisible(false);
+  assert.equal(state.video.pauseCalls, 1);
+  assert.equal(state.element('video').props.autoPlay, false);
+});
 
 test('playing uncovers the video when loadeddata was never delivered', async () => {
   const state = harness();

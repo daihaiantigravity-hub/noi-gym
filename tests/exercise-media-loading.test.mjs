@@ -27,7 +27,7 @@ vm.runInNewContext(outputText, {
   },
 });
 
-test("every current-page video can load from server markup without waiting for poster or hydration", () => {
+test("mobile cards keep posters on server and defer video autoplay until they approach the viewport", () => {
   const html = renderToStaticMarkup(React.createElement(React.Fragment, null,
     ...Array.from({ length: 10 }, (_, index) => React.createElement(exports.default, {
       key: index,
@@ -41,9 +41,10 @@ test("every current-page video can load from server markup without waiting for p
   assert.equal(videos.length, 10);
   for (const [index, video] of videos.entries()) {
     assert.ok(video.includes(`src="https://media.example/video-${index}.mp4"`));
-    for (const attribute of ['autoPlay=""', 'loop=""', 'muted=""', 'playsInline=""', 'preload="auto"']) {
+    for (const attribute of ['loop=""', 'muted=""', 'playsInline=""', 'preload="none"']) {
       assert.ok(video.includes(attribute), `Missing ${attribute}: ${video}`);
     }
+    assert.doesNotMatch(video, /autoPlay=/);
   }
   assert.equal((html.match(/class="lazy-exercise-video__poster"/g) ?? []).length, 10);
 });
