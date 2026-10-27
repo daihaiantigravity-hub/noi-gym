@@ -12,6 +12,8 @@ const withoutBlur = ".health-card.exercise-library-exercise-card,.exercise-libra
 export type MediaDiagnosticSample = {
   time: number;
   ready: number;
+  width: number;
+  height: number;
   paused: boolean;
   error: number;
   poster: boolean;
@@ -57,16 +59,17 @@ export function buildMediaDiagnosticsReport(measurement: Measurement) {
     const dropped = frameDelta(before.droppedFrames, after.droppedFrames);
     // currentTime can wrap backwards because these demonstrations loop.
     const progressed = (total !== null && total > 0) || Math.abs(after.time - before.time) > 0.05;
-    return `v${index + 1} t=${decimal(before.time)}>${decimal(after.time)} progress=${progressed ? "yes" : "unconfirmed"} ready=${before.ready}>${after.ready} paused=${+before.paused}>${+after.paused} err=${before.error}>${after.error} poster=${+before.poster}>${+after.poster} frames=${total ?? "NA"} drop=${dropped ?? "NA"}`;
+    const size = before.width > 0 && before.height > 0 ? `${before.width}x${before.height}` : "NA";
+    return `v${index + 1} size=${size} t=${decimal(before.time)}>${decimal(after.time)} progress=${progressed ? "yes" : "unconfirmed"} ready=${before.ready}>${after.ready} paused=${+before.paused}>${+after.paused} err=${before.error}>${after.error} poster=${+before.poster}>${+after.poster} frames=${total ?? "NA"} drop=${dropped ?? "NA"}`;
   });
   const report = [
-    `Media debug v1 | ${decimal(measurement.elapsed / 1000)}s | ${invalid} | blur=${measurement.blurDisabled ? "off" : "on"}`,
+    `Media debug v1 | ${decimal(measurement.elapsed / 1000)}s | ${invalid} | blur-disable-test=${measurement.blurDisabled ? "on" : "off"}`,
     `rAF=${measurement.frames} gaps>50ms=${measurement.gaps50} >100ms=${measurement.gaps100} max=${decimal(measurement.maxGap)}ms`,
     `Start ${videoCounts(start)}`,
     `End   ${videoCounts(end)}`,
     `Viewport ${cleanText(measurement.viewport, 80)} | Network ${cleanText(measurement.network, 80)}`,
     `UA ${cleanText(measurement.userAgent, 240)}`,
-    "Video keys: t=seconds; ready=0..4; paused/poster=0/1; frames/drop=8s delta; NA=unavailable",
+    "Video keys: size=source pixels; t=seconds; ready=0..4; paused/poster=0/1; frames/drop=8s delta; NA=unavailable",
     ...details,
     ...(start.length > 12 ? [`Details limited to 12/${start.length} videos.`] : []),
   ].join("\n");
@@ -83,6 +86,8 @@ function sampleVideo(video: HTMLVideoElement): MediaDiagnosticSample {
   return {
     time: video.currentTime,
     ready: video.readyState,
+    width: video.videoWidth,
+    height: video.videoHeight,
     paused: video.paused,
     error: video.error?.code ?? 0,
     poster: Boolean(video.parentElement?.querySelector(".lazy-exercise-video__poster")),

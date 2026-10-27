@@ -22,7 +22,7 @@ vm.runInNewContext(outputText, {
   require(name) { assert.ok(Object.hasOwn(imports, name)); return imports[name]; },
 });
 const { buildMediaDiagnosticsReport } = exports;
-const sample = (changes = {}) => ({ time: 2, ready: 4, paused: false, error: 0, poster: false, totalFrames: 60, droppedFrames: 1, ...changes });
+const sample = (changes = {}) => ({ time: 2, ready: 4, width: 1920, height: 1080, paused: false, error: 0, poster: false, totalFrames: 60, droppedFrames: 1, ...changes });
 const measurement = (changes = {}) => ({
   elapsed: 8000, backgrounded: false, videosChanged: false, blurDisabled: false,
   frames: 400, gaps50: 3, gaps100: 1, maxGap: 140,
@@ -42,7 +42,7 @@ test("report distinguishes progress, paused playback, poster overlays and media 
   }));
   assert.match(report, /Start n=2 ready=1 paused=1 errors=1 posters=1/);
   assert.match(report, /gaps>50ms=3 >100ms=1 max=140\.0ms/);
-  assert.match(report, /v1 t=9\.0>1\.0 progress=yes.*frames=240 drop=4/);
+  assert.match(report, /v1 size=1920x1080 t=9\.0>1\.0 progress=yes.*frames=240 drop=4/);
   assert.match(report, /v2 .*progress=unconfirmed.*paused=1>1 err=2>2 poster=1>1 frames=0 drop=0/);
 });
 
@@ -56,7 +56,7 @@ test("unsupported or reset playback counters remain unknown instead of reporting
 
 test("background tabs and replaced video elements invalidate the measurement explicitly", () => {
   assert.match(buildMediaDiagnosticsReport(measurement({ backgrounded: true })), /INVALID: tab hidden/);
-  assert.match(buildMediaDiagnosticsReport(measurement({ videosChanged: true, blurDisabled: true })), /INVALID: videos changed.*blur=off/);
+  assert.match(buildMediaDiagnosticsReport(measurement({ videosChanged: true, blurDisabled: true })), /INVALID: videos changed.*blur-disable-test=on/);
 });
 
 test("reports stay within the copy budget and serialize no extra account or media fields", () => {

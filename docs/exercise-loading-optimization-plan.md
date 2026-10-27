@@ -135,7 +135,7 @@ Phạm vi chính: `components/ExerciseLibraryLoading.tsx`, `ExerciseLibrary.tsx`
 - [x] Prefetch theo ý định hover/focus/touch, hủy khi rời mục; debounce 160 ms, tối đa 3 lần/10 giây và không lặp route cùng locale trong 30 giây. Dùng kiểu API Next 16.3 đang cài; có test hủy, giới hạn, hết hạn và đổi ngôn ngữ.
 - [x] Code chỉ prefetch route, không mount card/video trang chưa mở. Smoke test focus bàn phím tại local ghi 2 route request và 0 MP4 request; không tải trước video ngoài trang trong kịch bản đã đo.
 - [-] Test phân trang giữ locale/filter/canonical URL. Chromium EN→VI tại trang 2 giữ 10/10 node video, cùng URL, 0 sự kiện `loadstart`, 10/10 vẫn phát và giữ trang 2. Còn navigation/back toàn ma trận và điện thoại thật.
-- [-] Chromium mô phỏng 12/12 case đạt, nhưng người dùng báo Samsung S22 Ultra giật khi cuộn. Công cụ đo production ở mục 12 xác nhận rớt frame trên SamsungBrowser. A/B tắt blur trên điện thoại cho tỷ lệ frame rớt thấp hơn; đang áp dụng thay đổi hẹp cho danh sách mobile và chờ build/đo lại production.
+- [-] Chromium mô phỏng 12/12 case đạt, nhưng người dùng báo Samsung S22 Ultra giật khi cuộn. Công cụ đo production ở mục 12 xác nhận rớt frame trên SamsungBrowser. A/B trên máy đó cho thấy tắt blur cải thiện tỷ lệ frame rớt; đã tắt blur hai vùng trên danh sách ở viewport ≤700px trong commit `e42028e`. Chờ người dùng đo lại sau deploy để xác nhận độ mượt thực tế.
 
 Hoàn thành khi phản hồi thao tác nhanh, danh sách đúng, bố cục ổn định và không tăng tải nền quá mức.
 
@@ -370,7 +370,7 @@ Bằng chứng: `production-alias-verification-20261026.json`, `production-after
 
 ## 12. Nghiệm thu tài khoản và phản hồi điện thoại thật
 
-Tiếp tục ngày 26/10/2026 sau release `7f08e61`; bản sửa được phát hành tại `6c53a93`:
+Tiếp tục ngày 26/10/2026 sau release `7f08e61`; sửa favorites/session/video ở `6c53a93`, sau đó tối ưu blur mobile ở `e42028e`:
 
 - [x] Google callback thực tế thành công với hai tài khoản hiện có trong trình duyệt. Tài khoản A có quyền admin và 282 bài yêu thích; tài khoản B thường có 2 bài, không có menu Admin và bị chuyển về login khi mở `/admin/exercises`. Thử lưu bài thứ ba rồi bỏ lưu; reload xác nhận B trở về đúng 2 bài ban đầu. Danh sách A không thay đổi; không lưu email, cookie hoặc token vào artifact.
 - [x] Ma trận Chromium mô phỏng 390×844 và 360×800: chest nam/nữ và rear-shoulders/barbell, EN/VI, 12/12 case đạt. 88 video trong các case đều phát trước/sau cuộn; trang 2 và Back thêm 10/10 video ở mỗi viewport. CLS/tràn ngang/lỗi JS/media đều 0. Trong đoạn cuộn chương trình không ghi nhận long task hoặc khoảng rAF >50 ms; đây không phải GPU trace hay phép đo điện thoại thật.
@@ -384,6 +384,15 @@ Tiếp tục ngày 26/10/2026 sau release `7f08e61`; bản sửa được phát 
 - [x] Công cụ chẩn đoán chỉ bật qua `media-debug=1`, bắt đầu đo khi bấm và dừng sau 8 giây. Báo cáo cục bộ không chứa URL media hoặc thông tin tài khoản và không gửi lên server. Chromium kiểm tra panel mặc định vắng, đo 8s `VALID` và báo cáo privacy đạt. Checkbox A/B hoạt động, nhưng Chromium đang dùng không áp dụng blur do CSS build chỉ còn declaration `-webkit-backdrop-filter`; do đó không thể kết luận hiệu quả blur trên S22 Ultra từ phép đo này. `blur=on` trong báo cáo chỉ cho biết ô “Temporarily disable blur” chưa chọn; đó không phải phép đọc hiệu ứng blur thực tế.
 - [x] Smoke production mới: 10/10 video chest phát, 0 poster che, diagnostics mặc định ẩn, CLS/tràn ngang/lỗi JS/video đều 0. EN/VI, trang 2 và Back giữ đúng nội dung/video. Mạng mô phỏng thường: toàn bộ video sau 2,89 giây; 4 Mbps: 9,85 giây. Các số đơn mẫu Chromium, không phải điện thoại thật hoặc percentile.
 - [x] Kiểm tra cuối: **214/214 tests**, ESLint và build production đạt. Preview recovery click Play/Retry trong danh sách/chi tiết đạt; Preview 10/10 video sau 2,89 giây ở mobile và 9,85 giây ở 4 Mbps. GitHub/Vercel Production Ready; alias `noi-gym.vercel.app` xác nhận commit `6c53a93`. Artifacts production `production-mobile-fix-20261026-{api,dom,browser,mobile-navigation}.json`.
-- [-] A/B trên S22 Ultra khi tắt blur: so với lần blur bật, video thêm 351–394 → 401–448 frame/video trong 8 giây; dropped frame tổng giảm 524 → 296 (tỷ lệ khoảng 14,3% → 7,0%); rAF tăng 249 → 322; gap lớn nhất 1.183,4 → 608,5 ms. Số gap >50/>100 ms tăng 5/4 → 8/7, nên kết quả có nhiễu nhưng toàn bộ khung hình video tốt lên rõ. Tắt cả hai blur trên màn danh sách ở viewport ≤700px trong workspace; cần build/Preview và đo lại production trên điện thoại trước khi coi là đã khắc phục.
+- [x] A/B trên S22 Ultra khi tắt blur: so với lần blur bật, video thêm 351–394 → 401–448 frame/video trong 8 giây; dropped frame tổng giảm 524 → 296 (tỷ lệ khoảng 14,3% → 7,0%); rAF tăng 249 → 322; gap lớn nhất 1.183,4 → 608,5 ms. Số gap >50/>100 ms tăng 5/4 → 8/7, nên kết quả có nhiễu nhưng toàn bộ khung hình video tốt lên rõ.
+- [x] Bản sửa e42028e bỏ hai backdrop blur khỏi danh sách bài tập trên mobile ≤700px, giữ gradient và tiếp tục tự chạy video. Production Ready tại `noi-gym.vercel.app`; Preview và production smoke đều đạt: 10 video SSR src/autoplay, 10/10 vẫn chạy, CSS mobile computed blur none, không lỗi JS/video.
+- [x] Đo lại trên Samsung S22 Ultra sau khi reload trang production; so sánh rAF/drop frames với A/B trước deploy. Giữ nguyên màn lớn; chưa coi độ mượt điện thoại đã nghiệm thu cho tới khi nhận phép đo này.
 
 Bằng chứng mobile mô phỏng: `production-mobile-acceptance-20261026-mobile-navigation.json` và `production-mobile-acceptance-20261026-summary.json` trong `artifacts/performance/`. Bộ kiểm tra tái lập: `scripts/performance/check-mobile-navigation.mjs`; 4/4 regression test cho bộ kiểm tra đã đạt. Lần full suite trước thay đổi video/diagnostics đạt 201/201; sẽ ghi riêng kết quả suite cuối, không dùng lần này để xác nhận các file viết sau đó.
+
+
+### S22 Ultra follow-up measurement and diagnostics
+
+- [x] Warm-playback measurement: SamsungBrowser 30, 411x742, DPR 3.5, 4G. Over 8s: rAF=293, 8 gaps >50 ms, 5 >100 ms, max=741.7 ms. All 10 videos were ready at start; 9/10 remained readyState >=2 at end. All advanced time with no pause, media error, or poster. 428 dropped frames out of 4,009 total (about 10.7%). Scrolling remains visibly under-smooth after startup, so network startup alone does not explain it.
+- [x] Extended `media-debug=1` to report each video source pixel size (`videoWidth x videoHeight`) without reading or exposing media URLs. This will show whether source resolution exceeds what the phone-sized cards need to display.
+- [ ] Build/deploy the diagnostics update, then collect a fresh report with `size=...` for the 10 chest videos. Use those dimensions to select a small, reversible lower-resolution encoding trial; preserve all original objects until playback, quality, and storage are compared.
