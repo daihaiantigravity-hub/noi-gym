@@ -13,7 +13,6 @@ import { useAppLanguage } from "./LanguageProvider";
 import { getMessages, translate } from "@/lib/i18n/messages";
 import { getMuscleLabel } from "@/lib/i18n/labels";
 import LanguageToggle from "./LanguageToggle";
-import MediaPlaybackDiagnostics from "./MediaPlaybackDiagnostics";
 
 const fakeExerciseThumbnails = [
   { variant: "full-body", kicker: "10 MINUTE MIRACLE", hero: "FULL BODY", sub: "WORKOUT" },
@@ -174,7 +173,6 @@ export default function ExerciseLibrary({ muscle, exercises, gender, page = 1, p
         </section>
       )}
       {exercises.length > 0 && <ExercisePagination page={page} pageSize={pageSize} routePath={routePath} total={total} />}
-      <MediaPlaybackDiagnostics />
     </main>
   );
 }
