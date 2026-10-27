@@ -6533,6 +6533,10 @@ button {
   cursor: pointer;
 }
 
+.body-profile__svg .bodymap:focus {
+  outline: none;
+}
+
 .body-profile__svg .bodymap path {
   fill: rgba(72, 74, 104, 0.08) !important;
   stroke: #484a68 !important;
@@ -6627,22 +6631,203 @@ button {
 
 .weekly-schedule-list {
   list-style: none;
-  margin: 20px 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0;
   position: relative;
   z-index: 1;
+  border: 1px solid rgba(196, 211, 211, 0.065);
+  border-radius: 22px;
+  background: rgba(9, 14, 16, 0.46);
+}
+
+.weekly-calendar-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+  padding: 12px 16px 22px;
+  border: 0;
+  color: #edf3f7;
+  background: transparent;
+}
+
+.weekly-calendar-card__month {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  min-height: 27px;
+  color: #e1e8ed;
+  font-size: clamp(15px, 2vw, 20px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.weekly-calendar-card__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  align-items: center;
+  gap: 2px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.weekly-calendar-card__day {
+  display: flex;
+  width: 48px;
+  min-width: 0;
+  min-height: 78px;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: #c2cbd1;
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.weekly-calendar-card__day > span {
+  display: grid;
+  width: 28px;
+  height: 16px;
+  place-items: center;
+  color: #aeb2bc;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.weekly-calendar-card__day > strong {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 50%;
+  color: #f2f4f5;
+  border: 3px solid #f56746;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.weekly-calendar-card__day--today {
+  border-color: rgba(198, 255, 132, 0.48);
+  color: #14210d;
+  background: linear-gradient(160deg, #bcff57, #a6f445);
+  box-shadow: 0 0 24px rgba(165, 242, 67, 0.12);
+}
+
+.weekly-calendar-card__day--today > span {
+  color: #14210d;
+}
+
+.weekly-calendar-card__day--today > strong {
+  width: 28px;
+  height: 30px;
+  border: 0;
+  background: transparent;
+}
+
+.weekly-calendar-card__flame {
+  display: block;
+  width: 26px;
+  height: 32px;
+}
+
+.weekly-calendar-card__day--future > strong {
+  border: 0;
+}
+
+.weekly-schedule-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 144px;
+  padding: 0 12px;
+  margin-bottom: 12px;
+}
+
+.weekly-schedule-header h2 {
+  max-width: 70%;
+  font-size: clamp(23px, 3.4vw, 34px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.045em;
+}
+
+.weekly-schedule-gauge {
+  width: 130px;
+  height: 130px;
+  flex: 0 0 130px;
+}
+
+.weekly-schedule-gauge__track,
+.weekly-schedule-gauge__progress {
+  fill: none;
+  stroke-width: 13px;
+}
+
+.weekly-schedule-gauge__track {
+  stroke: rgba(179, 193, 195, 0.13);
+}
+
+.weekly-schedule-gauge__progress {
+  stroke: #a7ed4d;
+  stroke-linecap: round;
+  stroke-dasharray: 45 100;
+  transform: rotate(-78deg);
+  transform-origin: center;
+}
+
+.weekly-schedule-edit {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 50%;
+  color: #f1f7fc;
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.weekly-schedule-edit:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.weekly-schedule-edit:focus-visible {
+  outline: 2px solid #b9e2ff;
+  outline-offset: 3px;
 }
 
 .weekly-schedule-list__item {
   display: grid;
-  grid-template-columns: 100px 110px 1fr;
+  grid-template-columns: 125px minmax(0, 1fr);
   align-items: center;
-  gap: 10px;
-  padding: 9px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 14px;
+  min-height: 65px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(196, 211, 211, 0.12);
+}
+
+.weekly-schedule-list__item--custom {
+  grid-template-columns: 125px minmax(0, 1fr);
 }
 
 .weekly-schedule-list__item:last-child {
@@ -6650,62 +6835,332 @@ button {
 }
 
 .weekly-schedule-list__day {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
   letter-spacing: -0.01em;
 }
 
-.weekly-schedule-list__session {
-  font-size: 13px;
-  font-weight: 700;
-  color: #9ad1ff;
-  letter-spacing: 0.01em;
-}
-
 .weekly-schedule-list__muscles {
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.55);
+  min-width: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #b3b5c3;
   letter-spacing: -0.01em;
 }
 
 .weekly-schedule-list__item--flexible .weekly-schedule-list__day,
-.weekly-schedule-list__item--flexible .weekly-schedule-list__session,
 .weekly-schedule-list__item--flexible .weekly-schedule-list__muscles {
-  opacity: 0.45;
+  opacity: 0.7;
+}
+
+.weekly-schedule-list__item--today {
+  margin-inline: -12px;
+  padding-inline: 12px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(167, 237, 77, 0.15), rgba(167, 237, 77, 0.035));
+  box-shadow: inset 3px 0 0 #a7ed4d;
+}
+
+.weekly-schedule-list__item--today .weekly-schedule-list__day {
+  color: #bded83;
+  opacity: 1;
+}
+
+.weekly-schedule-list__item--today .weekly-schedule-list__muscles {
+  color: #e3eadc;
+  opacity: 1;
+}
+
+.weekly-schedule-list__today-label {
+  display: block;
+  margin-top: 4px;
+  color: #b1cd91;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.workout-schedule-editor {
+  color: #f0f3f6;
+}
+
+.workout-schedule-editor__header {
+  margin-bottom: 12px;
+}
+
+.workout-schedule-editor__intro {
+  margin: 0 0 24px;
+  color: #afb6c0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.workout-schedule-editor__days {
+  display: grid;
+  min-width: 0;
+  gap: 16px;
+}
+
+.workout-schedule-day {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(24, 27, 34, 0.96), rgba(19, 21, 27, 0.95));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.045), 0 12px 28px rgba(4, 8, 18, 0.16);
+}
+
+.workout-schedule-day--expanded {
+  border-color: rgba(255, 177, 126, 0.3);
+}
+
+.workout-schedule-day__toggle {
+  display: grid;
+  width: 100%;
+  min-height: 84px;
+  grid-template-columns: 125px minmax(0, 1fr) 20px;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 24px;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.workout-schedule-day__toggle:focus-visible {
+  outline: 2px solid #ffb17e;
+  outline-offset: -3px;
+}
+
+.workout-schedule-day__heading {
+  display: grid;
+  gap: 4px;
+}
+
+.workout-schedule-day__heading strong {
+  color: #f1f2f4;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.workout-schedule-day__heading small {
+  color: #9da6b2;
+  font-size: 11px;
+}
+
+.workout-schedule-day__summary {
+  min-width: 0;
+  overflow: hidden;
+  color: #c9d2dc;
+  font-size: 14px;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+}
+
+.workout-schedule-day__summary--rest {
+  color: #9ba7b4;
+  font-style: italic;
+}
+
+.workout-schedule-day__chevron {
+  color: #aeb8c4;
+  transition: transform 150ms ease;
+}
+
+.workout-schedule-day--expanded .workout-schedule-day__chevron {
+  transform: rotate(180deg);
+}
+
+.workout-schedule-day__groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0 24px 22px;
+  border: 0;
+}
+
+.workout-schedule-day__groups[hidden] {
+  display: none;
+}
+
+.workout-schedule-day__groups legend {
+  width: 100%;
+  margin-bottom: 14px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #aeb8c4;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.workout-schedule-group {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  color: #c5cdd6;
+  background: rgba(184, 201, 216, 0.055);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.workout-schedule-group--selected {
+  border-color: rgba(255, 177, 126, 0.42);
+  color: #ffe5d4;
+  background: rgba(255, 177, 126, 0.12);
+}
+
+.workout-schedule-group__check {
+  display: grid;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.workout-schedule-group__check svg {
+  opacity: 0;
+}
+
+.workout-schedule-group--selected .workout-schedule-group__check {
+  border-color: #ffb17e;
+  color: #231c17;
+  background: #ffb17e;
+}
+
+.workout-schedule-group--selected .workout-schedule-group__check svg {
+  opacity: 1;
+}
+
+.workout-schedule-group:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.workout-schedule-group:focus-visible {
+  outline: 2px solid #ffb17e;
+  outline-offset: 2px;
+}
+
+.workout-schedule-day__rest-hint {
+  width: 100%;
+  margin: 8px 0 0;
+  color: #9da6b2;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.workout-schedule-editor__error {
+  margin-top: 14px;
+  color: #ffc1b4;
+  font-size: 13px;
+}
+
+.workout-schedule-editor__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.workout-schedule-editor__cancel,
+.workout-schedule-editor__save {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 22px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  color: #b6c0c9;
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.workout-schedule-editor__save {
+  min-width: 180px;
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #1b252c;
+  background: #e4ebef;
+  cursor: pointer;
+}
+
+.workout-schedule-editor__save:active {
+  background: #cdd9e0;
+}
+
+.workout-schedule-editor__cancel:active {
+  color: #f0f3f6;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.workout-schedule-editor__cancel:focus-visible,
+.workout-schedule-editor__save:focus-visible {
+  outline: 2px solid #dce8ef;
+  outline-offset: 3px;
+}
+
+.workout-schedule-editor__save:disabled {
+  cursor: wait;
+  opacity: 0.65;
 }
 
 .cardio-card {
   display: flex;
-  min-height: 352px;
+  min-height: 0;
   margin-top: 30px;
-  padding: clamp(36px, 4.5vw, 52px) clamp(32px, 4.7vw, 54px);
-  background: linear-gradient(145deg, #1974bd 0%, #1161a3 100%);
+  padding: 20px 18px 24px;
+  border: 1px solid rgba(179, 196, 199, 0.2);
+  border-radius: 30px;
+  background: radial-gradient(ellipse at 80% 8%, rgba(130, 165, 111, 0.055), transparent 45%), linear-gradient(145deg, rgba(22, 29, 31, 0.96), rgba(12, 18, 20, 0.97));
+  box-shadow: inset 0 1px 0 rgba(218, 231, 232, 0.05), 0 12px 32px rgba(0, 0, 0, 0.16);
 }
 
 .cardio-card::before,
 .cardio-card::after {
   position: absolute;
-  top: -80px;
-  right: -42px;
-  width: 380px;
-  height: 380px;
-  border: 1px solid rgba(121, 197, 255, 0.16);
+  top: -50px;
+  right: -75px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(179, 196, 199, 0.055);
   border-radius: 50%;
   content: "";
 }
 
 .cardio-card::after {
-  top: -48px;
-  right: -12px;
-  width: 320px;
-  height: 320px;
+  top: -20px;
+  right: -45px;
+  width: 240px;
+  height: 240px;
 }
 
 .cardio-card__copy {
   position: relative;
   z-index: 1;
-  max-width: 660px;
+  width: 100%;
+  min-width: 0;
 }
 
 .cardio-card__copy h2 {
@@ -7269,9 +7724,176 @@ button {
   }
 
   .cardio-card {
-    min-height: 240px;
-    margin-top: 14px;
-    padding: 20px 16px;
+    min-height: 0;
+    margin-top: 22px;
+    padding: 14px 8px 14px;
+    border-radius: 26px;
+  }
+
+  .weekly-calendar-card {
+    gap: 22px;
+    margin-top: 24px;
+    padding: 6px 4px 12px;
+  }
+
+  .weekly-calendar-card__month {
+    font-size: 15px;
+  }
+
+  .weekly-calendar-card__weekdays {
+    gap: 2px;
+  }
+
+  .weekly-calendar-card__day {
+    width: 38px;
+    min-height: 64px;
+    gap: 10px;
+  }
+
+  .weekly-calendar-card__day > span {
+    font-size: 11px;
+  }
+
+  .weekly-calendar-card__day > strong {
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    border-width: 2px;
+  }
+
+  .weekly-calendar-card__day--today > strong {
+    height: 25px;
+  }
+
+  .weekly-calendar-card__flame {
+    width: 23px;
+    height: 28px;
+  }
+
+  .weekly-schedule-header {
+    min-height: 104px;
+    gap: 8px;
+    padding: 0 8px;
+    margin-bottom: 6px;
+  }
+
+  .cardio-card .weekly-schedule-header h2 {
+    font-size: clamp(20px, 5.6vw, 25px);
+  }
+
+  .cardio-card::before {
+    top: -40px;
+    right: -32px;
+    width: 210px;
+    height: 210px;
+  }
+
+  .cardio-card::after {
+    top: -20px;
+    right: -12px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .weekly-schedule-gauge {
+    width: 86px;
+    height: 86px;
+    flex-basis: 86px;
+  }
+
+  .weekly-schedule-edit {
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+  }
+
+  .weekly-schedule-list {
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 18px;
+  }
+
+  .weekly-schedule-list__item {
+    grid-template-columns: 67px minmax(0, 1fr);
+    gap: 7px;
+    min-height: 44px;
+    padding: 12px 0;
+  }
+
+  .weekly-schedule-list__item--custom {
+    grid-template-columns: 67px minmax(0, 1fr);
+  }
+
+  .weekly-schedule-list__item--today {
+    margin-inline: -6px;
+    padding-inline: 6px;
+    border-radius: 10px;
+  }
+
+  .weekly-schedule-list__day,
+  .weekly-schedule-list__muscles {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .workout-schedule-editor__header {
+    gap: 8px;
+  }
+
+  .workout-schedule-editor__intro {
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+
+  .workout-schedule-editor__days {
+    gap: 12px;
+  }
+
+  .workout-schedule-day {
+    border-radius: 22px;
+  }
+
+  .workout-schedule-day__toggle {
+    min-height: 80px;
+    grid-template-columns: 82px minmax(0, 1fr) 20px;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .workout-schedule-day__heading strong {
+    font-size: 15px;
+  }
+
+  .workout-schedule-day__summary {
+    font-size: 12px;
+  }
+
+  .workout-schedule-day__groups {
+    gap: 6px;
+    padding: 0 16px 18px;
+  }
+
+  .workout-schedule-group {
+    min-height: 40px;
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+
+  .workout-schedule-editor__actions {
+    flex-direction: column-reverse;
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .workout-schedule-editor__cancel {
+    min-height: 40px;
+  }
+
+  .workout-schedule-editor__save {
+    width: 100%;
+    min-width: 0;
   }
 
   .cardio-card__copy p {

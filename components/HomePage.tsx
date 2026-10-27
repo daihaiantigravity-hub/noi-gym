@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import BodyProfileMap from "@/components/BodyProfileMap";
 import HealthCategoryNav from "@/components/HealthCategoryNav";
 import LanguageToggle from "@/components/LanguageToggle";
@@ -11,6 +12,8 @@ import { getExerciseLabel, getMuscleLabel } from "@/lib/i18n/labels";
 import { type EquipmentIconName } from "@/components/EquipmentIcon";
 import { VISIBLE_HEALTH_CATEGORY_ITEMS } from "@/lib/exercises/constants";
 import { usePersistedChoice } from "@/lib/use-persisted-choice";
+import { getIntlLocale } from "@/lib/i18n/messages";
+import { WORKOUT_WEEKDAYS, type WorkoutScheduleDay } from "@/lib/workout-schedule";
 
 const categoryChoices: readonly EquipmentIconName[] = VISIBLE_HEALTH_CATEGORY_ITEMS.map((item) => item.icon);
 
@@ -365,12 +368,59 @@ function WorkoutShowcase({ title, cards }: { title: string; cards: WorkoutCard[]
   );
 }
 
-export default function HomePage({ initialAuthSession }: {
+export default function HomePage({ initialAuthSession, initialWorkoutSchedule }: {
   initialAuthSession: SessionResponse;
+  initialWorkoutSchedule: WorkoutScheduleDay[] | null;
 }) {
   const { language } = useAppLanguage();
   const messages = getMessages(language);
+  const [localToday, setLocalToday] = useState<Date | null>(null);
   const [activeCategory, setActiveCategory] = usePersistedChoice<EquipmentIconName>("noi-gym:home:category:v1", "featured", categoryChoices);
+  useEffect(() => {
+    const updateLocalDate = () => setLocalToday(new Date());
+    updateLocalDate();
+    const timer = window.setInterval(updateLocalDate, 60_000);
+    window.addEventListener("focus", updateLocalDate);
+    return () => {
+      window.clearInterval(timer);
+      window.removeEventListener("focus", updateLocalDate);
+    };
+  }, []);
+
+  const scheduleForDisplay: Array<{ day: string; muscles: string; session?: string; flexible?: boolean; custom: boolean }> = initialWorkoutSchedule
+    ? initialWorkoutSchedule.map((day) => {
+      const label = WORKOUT_WEEKDAYS.find((item) => item.weekday === day.weekday)?.label ?? "Monday";
+      return {
+        day: label,
+        muscles: day.muscleGroups.map((group) => getMuscleLabel(language, group)).join(" · "),
+        flexible: day.muscleGroups.length === 0,
+        custom: true,
+      };
+    })
+    : weeklySchedule.map((day) => ({ ...day, custom: false }));
+  const dateLocale = getIntlLocale(language);
+  const currentScheduleDay = localToday ? WORKOUT_WEEKDAYS[(localToday.getDay() + 6) % 7].label : null;
+  const formattedHeaderDate = localToday
+    ? new Intl.DateTimeFormat(dateLocale, { month: "long", day: "2-digit", year: "numeric" }).format(localToday)
+    : messages.today;
+  const calendarDays = localToday
+    ? Array.from({ length: 7 }, (_, index) => {
+      const date = new Date(localToday);
+      date.setHours(12, 0, 0, 0);
+      date.setDate(localToday.getDate() - localToday.getDay() + index);
+      const todayStart = new Date(localToday);
+      todayStart.setHours(0, 0, 0, 0);
+      const isToday = date.getFullYear() === localToday.getFullYear() && date.getMonth() === localToday.getMonth() && date.getDate() === localToday.getDate();
+      return {
+        date,
+        weekday: new Intl.DateTimeFormat(dateLocale, { weekday: "narrow" }).format(date),
+        dayNumber: new Intl.DateTimeFormat(dateLocale, { day: "numeric" }).format(date),
+        fullLabel: new Intl.DateTimeFormat(dateLocale, { weekday: "long", month: "long", day: "numeric" }).format(date),
+        isToday,
+        isPast: date < todayStart,
+      };
+    })
+    : [];
   const equipmentName = getExerciseLabel(language, VISIBLE_HEALTH_CATEGORY_ITEMS.find((item) => item.icon === activeCategory)?.label ?? "");
   const equipmentPhrase = /^(Pilates|Yoga|Vitruvian|Cardio)$/.test(equipmentName) ? equipmentName : equipmentName.charAt(0).toLocaleLowerCase("vi") + equipmentName.slice(1);
   const activeCategoryCopy = language === "vi"
@@ -438,20 +488,73 @@ export default function HomePage({ initialAuthSession }: {
 
         <BodyProfileMap equipment={activeCategory} />
 
+        <section aria-label={messages.workoutScheduleDateLabel} className="weekly-calendar-card">
+          <div aria-label={formattedHeaderDate} className="weekly-calendar-card__month">
+            {localToday ? `${messages.today}, ${formattedHeaderDate}` : messages.today}
+          </div>
+          <div aria-label={messages.weeklySchedule} className="weekly-calendar-card__weekdays" role="group">
+            {calendarDays.map(({ date, weekday, dayNumber, fullLabel, isToday, isPast }) => (
+              <div
+                aria-current={isToday ? "date" : undefined}
+                aria-label={fullLabel}
+                className={`weekly-calendar-card__day${isToday ? " weekly-calendar-card__day--today" : isPast ? " weekly-calendar-card__day--past" : " weekly-calendar-card__day--future"}`}
+                key={date.toISOString()}
+              >
+                <span>{weekday}</span>
+                <strong>{isToday ? (
+                  <svg aria-hidden="true" className="weekly-calendar-card__flame" viewBox="0 0 32 40">
+                    <path d="M18 1c3 10-5 12-4 19 3-1 5-5 5-8 7 5 11 11 10 17-1 7-6 11-13 11S3 35 3 28c0-6 3-11 7-15-1 7 0 10 3 12C9 15 20 12 18 1Z" fill="#ff792f" />
+                    <path d="M17 22c2 6-3 7-2 11 2-1 3-3 3-5 3 3 4 5 3 8-1 3-3 4-6 4s-6-3-6-6c0-3 2-6 4-8-1 4 0 6 1 6-1-4 3-6 3-10Z" fill="#ffed8d" />
+                  </svg>
+                ) : isPast ? null : dayNumber}</strong>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section aria-labelledby="weekly-schedule-title" className="health-card cardio-card">
           <div className="cardio-card__copy">
+            <div className="weekly-schedule-header">
             <h2 id="weekly-schedule-title">{messages.weeklySchedule}</h2>
+              <svg aria-hidden="true" className="weekly-schedule-gauge" viewBox="0 0 120 120">
+                <circle className="weekly-schedule-gauge__track" cx="60" cy="60" r="46" />
+                <circle className="weekly-schedule-gauge__progress" cx="60" cy="60" r="46" pathLength="100" />
+                <g fill="#8d9699" transform="rotate(45 60 60)">
+                  <rect height="42" rx="3" width="9" x="55.5" y="39" />
+                  <rect height="12" rx="3" width="32" x="44" y="34" />
+                  <rect height="12" rx="3" width="32" x="44" y="74" />
+                  <rect fill="#b0b7b9" height="16" rx="3" width="20" x="50" y="30" />
+                  <rect fill="#b0b7b9" height="16" rx="3" width="20" x="50" y="74" />
+                </g>
+              </svg>
+            </div>
             <ul className="weekly-schedule-list">
-              {weeklySchedule.map((item) => (
-                <li className={`weekly-schedule-list__item${item.flexible ? " weekly-schedule-list__item--flexible" : ""}`} key={item.day}>
-                  <span className="weekly-schedule-list__day">{getExerciseLabel(language, item.day)}</span>
-                  <span className="weekly-schedule-list__session">{getExerciseLabel(language, item.session)}</span>
-                  <span className="weekly-schedule-list__muscles">{item.muscles.split(" · ").map((muscle) => getMuscleLabel(language, muscle)).join(" · ")}</span>
-                </li>
-              ))}
+              {scheduleForDisplay.map((item) => {
+                const isToday = item.day === currentScheduleDay;
+                return (
+                  <li
+                    aria-current={isToday ? "date" : undefined}
+                    className={`weekly-schedule-list__item${item.custom ? " weekly-schedule-list__item--custom" : ""}${item.flexible ? " weekly-schedule-list__item--flexible" : ""}${isToday ? " weekly-schedule-list__item--today" : ""}`}
+                    key={item.day}
+                  >
+                    <span className="weekly-schedule-list__day">
+                      {getExerciseLabel(language, item.day)}
+                    </span>
+                    <span className="weekly-schedule-list__muscles">
+                      {item.custom
+                        ? item.muscles || messages.scheduleRestDay
+                        : item.muscles.split(" · ").map((muscle) => getMuscleLabel(language, muscle)).join(" · ")}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
-          <div aria-hidden="true" className="cardio-gauge"><span /><i /></div>
+          {initialAuthSession.user && (
+            <Link aria-label={messages.editWeeklySchedule} className="weekly-schedule-edit" href="/schedule/edit" title={messages.editWeeklySchedule}>
+              <svg aria-hidden="true" fill="none" height="20" viewBox="0 0 24 24" width="20"><path d="m15 5 4 4M4 20l4.3-.9L19 8.4a2.1 2.1 0 0 0-3-3L5.3 16.1 4 20Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" /></svg>
+            </Link>
+          )}
         </section>
 
 
