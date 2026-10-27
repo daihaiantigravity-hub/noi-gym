@@ -39,6 +39,7 @@ test("mobile cards keep posters on server and defer video autoplay until they ap
   ));
   const videos = html.match(/<video\b[^>]*>/g) ?? [];
   assert.equal(videos.length, 10);
+  assert.equal((html.match(/loading="lazy"/g) ?? []).length, 10, "posters should load near the viewport instead of all at once");
   for (const [index, video] of videos.entries()) {
     assert.ok(video.includes(`src="https://media.example/video-${index}.mp4"`));
     for (const attribute of ['loop=""', 'muted=""', 'playsInline=""', 'preload="none"']) {

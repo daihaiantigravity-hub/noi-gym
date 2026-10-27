@@ -130,7 +130,7 @@ export default function LazyExerciseVideo({
           className="lazy-exercise-video__poster"
           decoding="async"
           draggable={false}
-          loading="eager"
+          loading="lazy"
           src={poster}
         />
       ) : null}
