@@ -22,3 +22,8 @@ export function invalidateExerciseRanking() {
   revalidateTag(PUBLIC_EXERCISES_PRIORITY_CACHE_TAG, "max");
   revalidateTag(PUBLIC_EXERCISES_CACHE_TAG, "max");
 }
+
+/** Admin curation is a hard ordering rule, so public lists must see it on the next request. */
+export function invalidateAdminExerciseRanking() {
+  revalidateTag(PUBLIC_EXERCISES_PRIORITY_CACHE_TAG, { expire: 0 });
+}
