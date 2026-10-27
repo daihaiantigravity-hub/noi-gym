@@ -18,6 +18,7 @@ const namedError = (name) => Object.assign(new Error(name), { name });
 function harness({ language = 'en', play = () => Promise.resolve(), mobile = false } = {}) {
   let cursor = 0, children = [], properties = { src: 'https://media.example/one.mp4', poster: 'https://media.example/one.webp', label: 'Chest demo', className: 'video' };
   let intersectionCallback = null;
+  let intersectionOptions = null;
   const slots = [], pendingEffects = [];
   const sameDeps = (left, right) => left && right && left.length === right.length && left.every((value, index) => Object.is(value, right[index]));
   const hooks = {
@@ -40,7 +41,7 @@ function harness({ language = 'en', play = () => Promise.resolve(), mobile = fal
   };
   const exports = {};
   class TestIntersectionObserver {
-    constructor(callback) { intersectionCallback = callback; }
+    constructor(callback, options) { intersectionCallback = callback; intersectionOptions = options; }
     observe() {}
     disconnect() {}
   }
@@ -65,6 +66,7 @@ function harness({ language = 'en', play = () => Promise.resolve(), mobile = fal
   };
   const api = {
     video,
+    get intersectionOptions() { return intersectionOptions; },
     render(next = {}) {
       properties = { ...properties, ...next }; cursor = 0;
       children = exports.default(properties).props.children.filter(Boolean);
@@ -83,6 +85,7 @@ function harness({ language = 'en', play = () => Promise.resolve(), mobile = fal
 test('mobile automatically starts a demo near the viewport and pauses it when scrolled away', async () => {
   const state = harness({ mobile: true });
   await state.settle();
+  assert.equal(state.intersectionOptions.rootMargin, '0px');
   assert.equal(state.video.playCalls, 0);
   assert.equal(state.element('video').props.autoPlay, false);
   state.setVisible(true);

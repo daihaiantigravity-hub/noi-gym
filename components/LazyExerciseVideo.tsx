@@ -95,7 +95,7 @@ export default function LazyExerciseVideo({
 
     // Decoding all ten 720p demos at once causes scroll jank on phones. Keep
     // desktop playback unchanged, and automatically start nearby demos on
-    // mobile as they approach the viewport. Offscreen demos pause until needed.
+    // mobile once they enter the viewport. Offscreen demos pause until needed.
     if (!window.matchMedia("(max-width: 700px)").matches || typeof IntersectionObserver === "undefined") {
       activate();
       return () => { activeRef.current = false; playAttemptRef.current = null; };
@@ -104,7 +104,7 @@ export default function LazyExerciseVideo({
     const observer = new IntersectionObserver(([entry]) => {
       if (entry?.isIntersecting) activate();
       else deactivate();
-    }, { rootMargin: "120px 0px", threshold: 0 });
+    }, { rootMargin: "0px", threshold: 0 });
     observer.observe(video);
     return () => {
       observer.disconnect();
