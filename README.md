@@ -21,6 +21,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 For time-of-day background configuration, development theme previews, and the
 verification checklist, see [Health background](docs/health-background.md).
 
+For the Samsung Health-inspired visual direction and reference palette, see
+[UI design reference](docs/samsung-health-design-reference.md).
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

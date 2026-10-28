@@ -30,6 +30,20 @@ test("weekday indexing follows the Monday-first schedule across Sunday and Monda
   assert.equal(schedule.getMondayFirstDayIndex(new Date(2026, 10, 1, 12)), 6);
 });
 
+test("Monday-first dates cross month and year boundaries using local calendar days", () => {
+  const cases = [
+    [new Date(2026, 10, 1, 23, 59), ["2026-10-26", "2026-10-27", "2026-10-28", "2026-10-29", "2026-10-30", "2026-10-31", "2026-11-01"]],
+    [new Date(2027, 0, 1, 0, 1), ["2026-12-28", "2026-12-29", "2026-12-30", "2026-12-31", "2027-01-01", "2027-01-02", "2027-01-03"]],
+  ];
+  for (const [today, expected] of cases) {
+    const originalTime = today.getTime();
+    const dates = schedule.getMondayFirstWeekDates(today);
+    const localKeys = Array.from(dates, (day) => `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`);
+    assert.deepEqual(localKeys, expected);
+    assert.equal(today.getTime(), originalTime);
+  }
+});
+
 test("the editable default has seven days and returns independent group arrays", () => {
   const first = schedule.createDefaultWorkoutSchedule();
   const second = schedule.createDefaultWorkoutSchedule();

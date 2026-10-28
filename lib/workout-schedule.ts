@@ -40,6 +40,18 @@ export function getMondayFirstDayIndex(date: Date) {
   return (date.getDay() + 6) % 7;
 }
 
+export function getMondayFirstWeekDates(date: Date): Date[] {
+  const monday = new Date(date);
+  monday.setHours(12, 0, 0, 0);
+  monday.setDate(monday.getDate() - getMondayFirstDayIndex(monday));
+
+  return Array.from({ length: 7 }, (_, index) => {
+    const day = new Date(monday);
+    day.setDate(monday.getDate() + index);
+    return day;
+  });
+}
+
 export function isValidWorkoutSchedule(value: unknown): value is WorkoutScheduleDay[] {
   if (!Array.isArray(value) || value.length !== WORKOUT_WEEKDAYS.length) return false;
   const seenDays = new Set<number>();

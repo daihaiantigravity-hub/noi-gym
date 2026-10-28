@@ -52,9 +52,9 @@
   flex: 0 0 36px;
   place-items: center;
   border-radius: 12px;
-  color: #fff;
-  background: linear-gradient(145deg, #ffb17e, #e8763e);
-  box-shadow: 0 8px 16px rgba(200, 94, 44, 0.2);
+  color: #24150d;
+  background: linear-gradient(145deg, var(--health-accent-orange), #e86e0b);
+  box-shadow: 0 8px 16px rgba(233, 137, 39, 0.2);
   font-size: 17px;
   font-weight: 850;
 }
@@ -375,17 +375,17 @@
 }
 
 .admin-button--primary {
-  border-color: rgba(255, 177, 127, 0.45);
+  border-color: rgba(233, 137, 39, 0.45);
   color: #24150d;
-  background: #ff9a5d;
-  box-shadow: 0 8px 18px rgba(194, 76, 22, 0.22);
+  background: var(--health-accent-orange);
+  box-shadow: 0 8px 18px rgba(233, 137, 39, 0.22);
 }
 
 .admin-button--primary:hover,
 .admin-button--primary:focus-visible {
-  border-color: #ffd0b2;
+  border-color: #f5bd85;
   color: #24150d;
-  background: #ffb17e;
+  background: #f0a653;
 }
 
 .admin-button--small {
@@ -975,8 +975,8 @@
 
 .admin-preview-tab--active {
   color: #2b1b13;
-  background: #ffb17e;
-  box-shadow: 0 5px 12px rgba(194, 76, 22, 0.2);
+  background: var(--health-accent-orange);
+  box-shadow: 0 5px 12px rgba(233, 137, 39, 0.2);
 }
 
 .admin-preview-viewport {
@@ -986,7 +986,7 @@
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 15px;
   background: #101a26;
-  scrollbar-color: rgba(255, 177, 126, 0.46) transparent;
+  scrollbar-color: rgba(233, 137, 39, 0.46) transparent;
 }
 
 .admin-preview-public-page {
@@ -3027,7 +3027,7 @@
 }
 
 .exercise-detail-topbar__save[aria-pressed="true"] {
-  color: #ffb17e;
+  color: var(--health-accent-orange);
 }
 
 .exercise-detail-topbar__save-control {
@@ -4053,8 +4053,8 @@ body {
   --filter-muted: rgba(255, 250, 242, 0.7);
   --filter-line: rgba(255, 255, 255, 0.22);
   --filter-icon: rgba(255, 250, 242, 0.84);
-  --filter-accent: #f18b52;
-  --filter-accent-shadow: rgba(241, 139, 82, 0.34);
+  --filter-accent: var(--health-accent-orange);
+  --filter-accent-shadow: rgba(233, 137, 39, 0.34);
   position: relative;
   z-index: 1;
   align-self: stretch;
@@ -4226,7 +4226,7 @@ body {
 .equipment-option--checked .equipment-option__checkbox {
   border-color: var(--filter-accent);
   background: var(--filter-accent);
-  box-shadow: 0 0 10px rgba(241, 139, 82, 0.22);
+  box-shadow: 0 0 10px rgba(233, 137, 39, 0.22);
 }
 
 .equipment-option--checked .equipment-option__checkbox::after {
@@ -4623,6 +4623,9 @@ body {
   --health-card: #17191e;
   --health-card-soft: #1a1b20;
   --health-line: rgba(192, 210, 229, 0.18);
+  --health-accent-green: #13cc70;
+  --health-highlight-green: #00a843;
+  --health-accent-orange: #e98927;
 }
 
 html {
@@ -5795,7 +5798,7 @@ button {
 }
 
 .lazy-exercise-video__play-button:focus-visible {
-  outline: 2px solid #ffb17e;
+  outline: 2px solid var(--health-accent-orange);
   outline-offset: 3px;
 }
 
@@ -6038,7 +6041,7 @@ button {
 }
 
 .exercise-library-exercise-card__save[aria-pressed="true"] {
-  color: #ffb17e;
+  color: var(--health-accent-orange);
 }
 
 .exercise-library-exercise-card__save:active {
@@ -6046,7 +6049,7 @@ button {
 }
 
 .exercise-library-exercise-card__save:focus-visible {
-  outline: 2px solid #ffb17e;
+  outline: 2px solid var(--health-accent-orange);
   outline-offset: 3px;
 }
 
@@ -6232,8 +6235,8 @@ button {
   padding: 8px 10px;
   border: 0;
   border-radius: 12px;
-  color: #ffb17e;
-  background: rgba(255, 177, 126, 0.1);
+  color: var(--health-accent-orange);
+  background: rgba(233, 137, 39, 0.1);
   cursor: pointer;
 }
 
@@ -6632,118 +6635,79 @@ button {
 .weekly-schedule-list {
   list-style: none;
   margin: 0;
-  padding: 0 20px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 0;
   position: relative;
   z-index: 1;
-  border: 1px solid rgba(196, 211, 211, 0.065);
-  border-radius: 22px;
-  background: rgba(9, 14, 16, 0.46);
 }
 
-.weekly-calendar-card {
-  display: flex;
-  min-width: 0;
-  flex-direction: column;
-  gap: 24px;
-  margin-top: 32px;
-  padding: 12px 16px 22px;
-  border: 0;
-  color: #edf3f7;
-  background: transparent;
-}
-
-.weekly-calendar-card__month {
-  display: flex;
-  align-items: center;
-  align-self: center;
-  min-height: 27px;
-  color: #e1e8ed;
-  font-size: clamp(15px, 2vw, 20px);
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 1.4;
-  text-align: center;
-}
-
-.weekly-calendar-card__weekdays {
+.weekly-date-strip {
   display: grid;
+  width: min(100%, 560px);
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  align-items: center;
-  gap: 2px;
-  padding: 0;
-  border: 0;
+  gap: 4px;
+  margin: 24px auto 0;
+  padding: 0 12px;
   background: transparent;
 }
 
-.weekly-calendar-card__day {
+.weekly-date-strip + .cardio-card {
+  margin-top: 24px;
+}
+
+.weekly-date-strip__day {
   display: flex;
-  width: 48px;
   min-width: 0;
-  min-height: 78px;
-  justify-self: center;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  color: #c2cbd1;
-  font-size: 10px;
-  font-weight: 650;
+  flex-direction: column;
+  gap: 8px;
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
+.weekly-date-strip__weekday {
+  color: #a1a1aa;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.weekly-date-strip__number {
+  display: grid;
+  width: min(100%, 40px);
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: #292c30;
+  font-size: 13px;
+  font-weight: 700;
   line-height: 1;
 }
 
-.weekly-calendar-card__day > span {
-  display: grid;
-  width: 28px;
-  height: 16px;
-  place-items: center;
-  color: #aeb2bc;
-  font-size: 13px;
-  font-weight: 700;
+.weekly-date-strip__day--past .weekly-date-strip__number {
+  color: #f5f5f7;
+  background: #393d42;
 }
 
-.weekly-calendar-card__day > strong {
-  display: grid;
-  width: 26px;
-  height: 26px;
-  place-items: center;
-  border-radius: 50%;
-  color: #f2f4f5;
-  border: 3px solid #f56746;
-  font-size: 17px;
-  font-weight: 700;
-}
-
-.weekly-calendar-card__day--today {
-  border-color: rgba(198, 255, 132, 0.48);
-  color: #14210d;
-  background: linear-gradient(160deg, #bcff57, #a6f445);
-  box-shadow: 0 0 24px rgba(165, 242, 67, 0.12);
-}
-
-.weekly-calendar-card__day--today > span {
-  color: #14210d;
-}
-
-.weekly-calendar-card__day--today > strong {
-  width: 28px;
-  height: 30px;
-  border: 0;
+.weekly-date-strip__day--future .weekly-date-strip__number {
+  color: #a1a1aa;
   background: transparent;
+  box-shadow: inset 0 0 0 1px #555a60;
 }
 
-.weekly-calendar-card__flame {
-  display: block;
-  width: 26px;
-  height: 32px;
+.weekly-date-strip__day--today .weekly-date-strip__weekday {
+  color: #f5f5f7;
 }
 
-.weekly-calendar-card__day--future > strong {
-  border: 0;
+.weekly-date-strip__day--today .weekly-date-strip__number {
+  color: #102a1b;
+  background: var(--health-accent-green);
+}
+
+.weekly-date-strip__day--placeholder {
+  opacity: 0.3;
 }
 
 .weekly-schedule-header {
@@ -6751,68 +6715,40 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  min-height: 144px;
-  padding: 0 12px;
-  margin-bottom: 12px;
+  min-height: 44px;
+  margin-bottom: 18px;
 }
 
 .weekly-schedule-header h2 {
-  max-width: 70%;
-  font-size: clamp(23px, 3.4vw, 34px);
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: clamp(22px, 3vw, 34px);
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -0.045em;
-}
-
-.weekly-schedule-gauge {
-  width: 130px;
-  height: 130px;
-  flex: 0 0 130px;
-}
-
-.weekly-schedule-gauge__track,
-.weekly-schedule-gauge__progress {
-  fill: none;
-  stroke-width: 13px;
-}
-
-.weekly-schedule-gauge__track {
-  stroke: rgba(179, 193, 195, 0.13);
-}
-
-.weekly-schedule-gauge__progress {
-  stroke: #a7ed4d;
-  stroke-linecap: round;
-  stroke-dasharray: 45 100;
-  transform: rotate(-78deg);
-  transform-origin: center;
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+  overflow-wrap: anywhere;
 }
 
 .weekly-schedule-edit {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  z-index: 2;
   display: grid;
-  width: 40px;
-  height: 40px;
-  flex: 0 0 40px;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  border-radius: 50%;
+  border: 0;
+  border-radius: 12px;
   color: #f1f7fc;
-  background: rgba(255, 255, 255, 0.1);
+  background: transparent;
   text-decoration: none;
-  transition: background 150ms ease, transform 150ms ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.weekly-schedule-edit:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-1px);
+.weekly-schedule-edit:active {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .weekly-schedule-edit:focus-visible {
-  outline: 2px solid #b9e2ff;
+  outline: 2px solid var(--health-accent-orange);
   outline-offset: 3px;
 }
 
@@ -6847,6 +6783,7 @@ button {
   line-height: 1.5;
   color: #b3b5c3;
   letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
 }
 
 .weekly-schedule-list__item--flexible .weekly-schedule-list__day,
@@ -6858,17 +6795,17 @@ button {
   margin-inline: -12px;
   padding-inline: 12px;
   border-radius: 12px;
-  background: linear-gradient(90deg, rgba(167, 237, 77, 0.15), rgba(167, 237, 77, 0.035));
-  box-shadow: inset 3px 0 0 #a7ed4d;
+  background: rgba(19, 204, 112, 0.24);
+  box-shadow: inset 3px 0 0 var(--health-accent-green);
 }
 
 .weekly-schedule-list__item--today .weekly-schedule-list__day {
-  color: #bded83;
+  color: #f0f7f1;
   opacity: 1;
 }
 
 .weekly-schedule-list__item--today .weekly-schedule-list__muscles {
-  color: #e3eadc;
+  color: #e4f0e6;
   opacity: 1;
 }
 
@@ -6912,7 +6849,7 @@ button {
 }
 
 .workout-schedule-day--expanded {
-  border-color: rgba(255, 177, 126, 0.3);
+  border-color: rgba(233, 137, 39, 0.3);
 }
 
 .workout-schedule-day__toggle {
@@ -6932,7 +6869,7 @@ button {
 }
 
 .workout-schedule-day__toggle:focus-visible {
-  outline: 2px solid #ffb17e;
+  outline: 2px solid var(--health-accent-orange);
   outline-offset: -3px;
 }
 
@@ -7018,9 +6955,9 @@ button {
 }
 
 .workout-schedule-group--selected {
-  border-color: rgba(255, 177, 126, 0.42);
+  border-color: rgba(233, 137, 39, 0.5);
   color: #ffe5d4;
-  background: rgba(255, 177, 126, 0.12);
+  background: rgba(233, 137, 39, 0.12);
 }
 
 .workout-schedule-group__check {
@@ -7038,9 +6975,9 @@ button {
 }
 
 .workout-schedule-group--selected .workout-schedule-group__check {
-  border-color: #ffb17e;
+  border-color: var(--health-accent-orange);
   color: #231c17;
-  background: #ffb17e;
+  background: var(--health-accent-orange);
 }
 
 .workout-schedule-group--selected .workout-schedule-group__check svg {
@@ -7053,7 +6990,7 @@ button {
 }
 
 .workout-schedule-group:focus-visible {
-  outline: 2px solid #ffb17e;
+  outline: 2px solid var(--health-accent-orange);
   outline-offset: 2px;
 }
 
@@ -7130,30 +7067,11 @@ button {
   display: flex;
   min-height: 0;
   margin-top: 30px;
-  padding: 20px 18px 24px;
-  border: 1px solid rgba(179, 196, 199, 0.2);
-  border-radius: 30px;
-  background: radial-gradient(ellipse at 80% 8%, rgba(130, 165, 111, 0.055), transparent 45%), linear-gradient(145deg, rgba(22, 29, 31, 0.96), rgba(12, 18, 20, 0.97));
-  box-shadow: inset 0 1px 0 rgba(218, 231, 232, 0.05), 0 12px 32px rgba(0, 0, 0, 0.16);
-}
-
-.cardio-card::before,
-.cardio-card::after {
-  position: absolute;
-  top: -50px;
-  right: -75px;
-  width: 300px;
-  height: 300px;
-  border: 1px solid rgba(179, 196, 199, 0.055);
-  border-radius: 50%;
-  content: "";
-}
-
-.cardio-card::after {
-  top: -20px;
-  right: -45px;
-  width: 240px;
-  height: 240px;
+  padding: clamp(24px, 4vw, 36px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: clamp(24px, 3.5vw, 36px);
+  background: linear-gradient(145deg, rgba(24, 27, 34, 0.92), rgba(19, 21, 27, 0.95));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 12px 32px rgba(4, 8, 18, 0.2);
 }
 
 .cardio-card__copy {
@@ -7223,7 +7141,7 @@ button {
   min-height: 230px;
   margin-top: 30px;
   padding: 38px 50px;
-  background: linear-gradient(150deg, rgba(42, 132, 74, 0.8), rgba(32, 82, 47, 0.9));
+  background: var(--health-highlight-green);
 }
 
 .health-bottom-nav {
@@ -7726,93 +7644,41 @@ button {
   .cardio-card {
     min-height: 0;
     margin-top: 22px;
-    padding: 14px 8px 14px;
-    border-radius: 26px;
+    padding: 20px 16px;
+    border-radius: 24px;
   }
 
-  .weekly-calendar-card {
-    gap: 22px;
-    margin-top: 24px;
-    padding: 6px 4px 12px;
+  .weekly-date-strip {
+    gap: 3px;
+    margin-top: 20px;
+    padding: 0 10px;
   }
 
-  .weekly-calendar-card__month {
-    font-size: 15px;
+  .weekly-date-strip + .cardio-card {
+    margin-top: 20px;
   }
 
-  .weekly-calendar-card__weekdays {
-    gap: 2px;
+  .weekly-date-strip__weekday {
+    font-size: 10px;
   }
 
-  .weekly-calendar-card__day {
-    width: 38px;
-    min-height: 64px;
-    gap: 10px;
-  }
-
-  .weekly-calendar-card__day > span {
-    font-size: 11px;
-  }
-
-  .weekly-calendar-card__day > strong {
-    width: 22px;
-    height: 22px;
-    font-size: 14px;
-    border-width: 2px;
-  }
-
-  .weekly-calendar-card__day--today > strong {
-    height: 25px;
-  }
-
-  .weekly-calendar-card__flame {
-    width: 23px;
-    height: 28px;
+  .weekly-date-strip__number {
+    font-size: 12px;
   }
 
   .weekly-schedule-header {
-    min-height: 104px;
+    min-height: 44px;
     gap: 8px;
-    padding: 0 8px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
 
   .cardio-card .weekly-schedule-header h2 {
     font-size: clamp(20px, 5.6vw, 25px);
   }
 
-  .cardio-card::before {
-    top: -40px;
-    right: -32px;
-    width: 210px;
-    height: 210px;
-  }
-
-  .cardio-card::after {
-    top: -20px;
-    right: -12px;
-    width: 170px;
-    height: 170px;
-  }
-
-  .weekly-schedule-gauge {
-    width: 86px;
-    height: 86px;
-    flex-basis: 86px;
-  }
-
-  .weekly-schedule-edit {
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    flex-basis: 30px;
-  }
-
   .weekly-schedule-list {
     margin: 0;
-    padding: 0 10px;
-    border-radius: 18px;
+    padding: 0;
   }
 
   .weekly-schedule-list__item {
